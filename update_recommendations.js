@@ -1,33 +1,85 @@
 const fs = require('fs');
+const https = require('https');
 
-// 模拟生成每日推荐内容
-const recommendations = `# Daily High-Star Recommendations
+const FILE_PATH = 'README.md';
 
-每日推荐高 Star 项目，涵盖人工智能、机器学习、深度学习及其他领域。
+function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    const options = {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
+    };
+    https.get(url, options, (res) => {
+      let data = '';
+      res.on('data', (chunk) => data += chunk);
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(data));
+        } catch (e) {
+          reject(e);
+        }
+      });
+    }).on('error', reject);
+  });
+}
 
----
+async function translateToChinese(text) {
+  if (!text) return '暂无该开源项目的具体文字描述。';
+  try {
+    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=${encodeURIComponent(text)}`;
+    const res = await httpGet(url);
+    if (res && res[0]) {
+      return res[0].map(item => item[0]).join('');
+    }
+    return text;
+  } catch (error) {
+    return text;
+  }
+}
 
-## ${new Date().toISOString().split('T')[0]}
+async function main() {
+  try {
+    let existingContent = '';
+    if (fs.existsSync(FILE_PATH)) {
+      existingContent = fs.readFileSync(FILE_PATH, 'utf8');
+    }
 
-1. **[TensorFlow](https://github.com/tensorflow/tensorflow)**
-   - Google's open-source platform for machine learning. Over 200,000★.
+    const apiUrl = 'https://api.github.com/search/repositories?q=topic:artificial-intelligence+topic:machine-learning+topic:deep-learning&sort=stars&order=desc&per_page=60';
+    const searchResult = await httpGet(apiUrl);
+    const repos = searchResult.items || [];
 
-2. **[PyTorch](https://github.com/pytorch/pytorch)**
-   - A deep learning framework by Meta (Facebook). About 100,000★.
+    const newRepos = [];
+    for (const repo of repos) {
+      if (!existingContent.includes(repo.html_url)) {
+        newRepos.push(repo);
+      }
+      if (newRepos.length >= 3) break;
+    }
 
-3. **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)**
-   - Library for machine learning in Python. Nearly 70,000★.
+    if (newRepos.length === 0) {
+      return;
+    }
 
-4. **[Hugging Face Transformers](https://github.com/huggingface/transformers)**
-   - NLP and multimodal models for AI applications. Over 160,000★.
+    const today = new Date().toISOString().split('T')[0];
+    let newMarkdown = `## 📅 ${today} 每日高 Star AI 项目推荐\n\n`;
+    newMarkdown += `> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。\n\n`;
 
-5. **[LangChain](https://github.com/langchain-ai/langchain)**
-   - Framework for building language-model-powered applications. Fast-growing in the community.
+    for (const repo of newRepos) {
+      const translatedDesc = await translateToChinese(repo.description);
+      newMarkdown += `### 🌟 [${repo.name}](${repo.html_url})\n`;
+      newMarkdown += `- **项目语言**: ${repo.language || 'TypeScript/Python/Other'}\n`;
+      newMarkdown += `- **星标数量**: ⭐ ${repo.stargazers_count}\n`;
+      newMarkdown += `- **核心概述**: ${translatedDesc}\n`;
+      newMarkdown += `- **技术标签**: ${repo.topics ? repo.topics.slice(0, 5).join(', ') : '无'}\n\n`;
+    }
 
----
+    newMarkdown += `---\n\n`;
 
-每日内容由自动脚本生成，方便随时获取高质量开源推荐！`;
+    const finalContent = newMarkdown + existingContent;
+    fs.writeFileSync(FILE_PATH, finalContent, 'utf8');
 
-// 将内容写入到 daily_recommendations.md 文件
-fs.writeFileSync('daily_recommendations.md', recommendations);
-console.log('Daily recommendations updated successfully!');
+  } catch (error) {
+    process.exit(1);
+  }
+}
+
+main();
