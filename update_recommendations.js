@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-const FILE_PATH = 'README.md';
+const FILE_PATH = 'daily_recommendations.md';
 
 function httpGet(url) {
   return new Promise((resolve, reject) => {
