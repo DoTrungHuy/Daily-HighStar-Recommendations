@@ -1,0 +1,8 @@
+{
+  "name": "recommendations-update",
+  "version": "1.0.0",
+  "main": "update_recommendations.js",
+  "scripts": {
+    "update": "node update_recommendations.js"
+  }
+}
