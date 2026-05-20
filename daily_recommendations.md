@@ -1,3 +1,27 @@
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
+### 🌟 [spaCy](https://github.com/explosion/spaCy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 33589
+- **核心概述**: 💫 Python 中的工业级自然语言处理 (NLP)
+- **技术标签**: ai, artificial-intelligence, cython, data-science, deep-learning
+
+### 🌟 [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning)
+- **项目语言**: Python
+- **星标数量**: ⭐ 31152
+- **核心概述**: 在 1 个或 10,000 多个 GPU 上预训练、微调任何大小的任何 AI 模型，并且零代码更改。
+- **技术标签**: ai, artificial-intelligence, data-science, deep-learning, machine-learning
+
+### 🌟 [AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 30982
+- **核心概述**: 2022 年成为人工智能专家的路线图
+- **技术标签**: ai, ai-roadmap, artificial-intelligence, data-analysis, data-science
+
+---
+
 ## 📅 2026-05-19 每日高 Star AI 项目推荐
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
