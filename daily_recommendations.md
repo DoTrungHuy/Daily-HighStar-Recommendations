@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [Ai-Learn](https://github.com/tangyudi/Ai-Learn)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 12994
+- **核心概述**: 人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch张量流机器学习，深度学习数据分析数据挖掘数学数据科学人工智能pythontensorflowtensorflow2caffekeraspytorch算法numpypandasmatplotlibseabornnlp简历等热门领域
+- **技术标签**: algorithm, artificial-intelligence, caffe, cv, data-analysis
+
+### 🌟 [tensorzero](https://github.com/tensorzero/tensorzero)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 11380
+- **核心概述**: TensorZero 是一个开源 LLMOps 平台，统一了 LLM 网关、可观测性、评估、优化和实验。
+- **技术标签**: ai, ai-engineering, anthropic, artificial-intelligence, deep-learning
+
+### 🌟 [kornia](https://github.com/kornia/kornia)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11210
+- **核心概述**: 🐍 空间人工智能几何计算机视觉库
+- **技术标签**: artificial-intelligence, computer-vision, deep-learning, hacktoberfest, image-processing
+
+---
+
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [ml-visuals](https://github.com/dair-ai/ml-visuals)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 17207
