@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [datasets](https://github.com/huggingface/datasets)
+- **项目语言**: Python
+- **星标数量**: ⭐ 21525
+- **核心概述**: 🤗 最大的 AI 模型即用数据集中心，提供快速、易于使用且高效的数据操作工具
+- **技术标签**: ai, artificial-intelligence, computer-vision, dataset-hub, datasets
+
+### 🌟 [onnx](https://github.com/onnx/onnx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 20853
+- **核心概述**: 机器学习互操作性的开放标准
+- **技术标签**: ai, artificial-intelligence, deep-learning, deep-neural-networks, dnn
+
+### 🌟 [machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 17356
+- **核心概述**: 算法交易机器学习代码，第二版。
+- **技术标签**: artificial-intelligence, data-science, deep-learning, finance, investment
+
+---
+
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 28775
