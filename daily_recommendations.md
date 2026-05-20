@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 28775
+- **核心概述**: 学习成为机器学习工程师的完整每日计划。
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, machine-learning-algorithms, software-engineer
+
+### 🌟 [cs249r_book](https://github.com/harvard-edge/cs249r_book)
+- **项目语言**: Python
+- **星标数量**: ⭐ 24219
+- **核心概述**: 机器学习系统
+- **技术标签**: artificial-intelligence, cloud-ml, computer-systems, courseware, deep-learning
+
+### 🌟 [recommenders](https://github.com/recommenders-team/recommenders)
+- **项目语言**: Python
+- **星标数量**: ⭐ 21708
+- **核心概述**: 推荐系统的最佳实践
+- **技术标签**: ai, artificial-intelligence, data-science, deep-learning, jupyter-notebook
+
+---
+
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [spaCy](https://github.com/explosion/spaCy)
 - **项目语言**: Python
 - **星标数量**: ⭐ 33589
