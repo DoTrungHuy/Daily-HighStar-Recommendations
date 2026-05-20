@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [fiftyone](https://github.com/voxel51/fiftyone)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10713
+- **核心概述**: 完善高质量数据集和视觉 AI 模型
+- **技术标签**: active-learning, artificial-intelligence, computer-vision, data-centric-ai, data-cleaning
+
+### 🌟 [mit-deep-learning](https://github.com/lexfridman/mit-deep-learning)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 10442
+- **核心概述**: 麻省理工学院深度学习相关课程的教程、作业和竞赛。
+- **技术标签**: artificial-intelligence, data-science, deep-learning, deep-reinforcement-learning, deep-rl
+
+### 🌟 [sonnet](https://github.com/google-deepmind/sonnet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9917
+- **核心概述**: 基于 TensorFlow 的神经网络库
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, neural-networks, tensorflow
+
+---
+
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [Ai-Learn](https://github.com/tangyudi/Ai-Learn)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 12994
