@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [ml-visuals](https://github.com/dair-ai/ml-visuals)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 17207
+- **核心概述**: 🎨 ML Visuals 包含图形和模板，您可以重复使用和自定义它们以改进您的科学写作。
+- **技术标签**: artificial-intelligence, deep-learning, design, machine-learning, natural-language-processing
+
+### 🌟 [cheatsheets-ai](https://github.com/kailashahirwar/cheatsheets-ai)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 15400
+- **核心概述**: 深度学习和机器学习研究人员的基本备忘单 https://medium.com/@kailashahirwar/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5
+- **技术标签**: artificial-intelligence, deep-learning, keras, machine-learning, matplotlib
+
+### 🌟 [awesome-artificial-intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 13874
+- **核心概述**: 人工智能 (AI) 课程、书籍、视频讲座和论文的精选列表。
+- **技术标签**: ai, artificial-intelligence, deep-learning, intelligent-machines, intelligent-systems
+
+---
+
+## 📅 2026-05-20 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [datasets](https://github.com/huggingface/datasets)
 - **项目语言**: Python
 - **星标数量**: ⭐ 21525
