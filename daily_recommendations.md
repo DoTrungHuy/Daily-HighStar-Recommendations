@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [stanza](https://github.com/stanfordnlp/stanza)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7793
+- **核心概述**: 斯坦福 NLP Python 库，用于许多人类语言的标记化、句子分割、NER 和解析
+- **技术标签**: artificial-intelligence, corenlp, deep-learning, machine-learning, named-entity-recognition
+
+### 🌟 [lab](https://github.com/google-deepmind/lab)
+- **项目语言**: C
+- **星标数量**: ⭐ 7355
+- **核心概述**: 用于基于代理的人工智能研究的可定制 3D 平台
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, neural-networks
+
+### 🌟 [SerpentAI](https://github.com/SerpentAI/SerpentAI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6985
+- **核心概述**: 游戏代理框架。帮助您创建人工智能/机器人来学习玩您拥有的任何游戏！
+- **技术标签**: artificial-intelligence, computer-vision, deep-learning, framework, machine-learning
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [computervision-recipes](https://github.com/microsoft/computervision-recipes)
 - **项目语言**: Jupyter Notebook
 - **星标数量**: ⭐ 9853
