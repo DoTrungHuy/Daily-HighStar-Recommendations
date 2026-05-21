@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [AI-Job-Notes](https://github.com/amusi/AI-Job-Notes)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 6077
+- **核心概述**: AI算法岗求职攻略（内容准备攻略、刷题指南、内推和AI公司清单等资料）
+- **技术标签**: algorithms, artificial-intelligence, computer-vision, deep-learning, image-processing
+
+### 🌟 [Swift-AI](https://github.com/Swift-AI/Swift-AI)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 6043
+- **核心概述**: Swift 机器学习库。
+- **技术标签**: artificial-intelligence, deep-learning, ios, machine-learning, macos
+
+### 🌟 [ai-deadlines](https://github.com/paperswithcode/ai-deadlines)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 5989
+- **核心概述**: :alarm_clock: AI会议截止日期倒计时
+- **技术标签**: artificial-intelligence, computer-vision, deep-learning, deep-neural-networks, machine-learning
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
 - **项目语言**: Python
 - **星标数量**: ⭐ 6983
