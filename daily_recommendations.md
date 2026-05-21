@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [Production-Level-Deep-Learning](https://github.com/alirezadir/Production-Level-Deep-Learning)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 4635
+- **核心概述**: 构建要在现实世界应用中部署的实用生产级深度学习系统的指南。
+- **技术标签**: ai, artificial-intelligence, deep-learning, deployment, kubeflow
+
+### 🌟 [datascience](https://github.com/r0f1/datascience)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 4626
+- **核心概述**: 用于数据科学的 Python 资源精选列表。
+- **技术标签**: artificial-intelligence, awesome, awesome-list, bayes, data-analysis
+
+### 🌟 [dm_control](https://github.com/google-deepmind/dm_control)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4586
+- **核心概述**: Google DeepMind 使用 MuJoCo 的软件堆栈，用于基于物理的模拟和强化学习环境。
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, mujoco, neural-networks
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [pytorch-forecasting](https://github.com/sktime/pytorch-forecasting)
 - **项目语言**: Python
 - **星标数量**: ⭐ 4900
