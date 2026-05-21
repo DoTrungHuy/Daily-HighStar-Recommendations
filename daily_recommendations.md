@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [Data-science-best-resources](https://github.com/tirthajyoti/Data-science-best-resources)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3201
+- **核心概述**: 精心策划的数据科学资源链接集中在一处
+- **技术标签**: analytics, api, artificial-intelligence, aws, cheatsheet
+
+### 🌟 [best_AI_papers_2022](https://github.com/louisfb01/best_AI_papers_2022)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3186
+- **核心概述**: 按发布日期列出的人工智能最新突破（2022 年）的精选列表，包含清晰的视频说明、更深入的文章链接和代码。
+- **技术标签**: 2022, ai, artificial-intelligence, computer-science, computer-vision
+
+### 🌟 [Deep-Learning-with-PyTorch-Tutorials](https://github.com/dragen1860/Deep-Learning-with-PyTorch-Tutorials)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3110
+- **核心概述**: 深度学习与PyTorch入门实战视频教程配套源代码和PPT
+- **技术标签**: artificial-intelligence, convolutional-neural-networks, deep-learning, generative-adversarial-network, machine-learning
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [AI-ML-Roadmap-from-scratch](https://github.com/aadi1011/AI-ML-Roadmap-from-scratch)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 3640
