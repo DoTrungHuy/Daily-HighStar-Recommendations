@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [learning-to-learn](https://github.com/google-deepmind/learning-to-learn)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4071
+- **核心概述**: 在 TensorFlow 中学习
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, neural-networks
+
+### 🌟 [segment-geospatial](https://github.com/opengeos/segment-geospatial)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3998
+- **核心概述**: 用于使用 Segment Anything Model (SAM) 分割地理空间数据的 Python 包
+- **技术标签**: artificial-intelligence, deep-learning, geopython, geospatial, machine-learning
+
+### 🌟 [Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials](https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3991
+- **核心概述**: 深度学习/人工智能和机器学习教程的综合列表 - 快速扩展到人工智能/深度学习/机器视觉/NLP 领域以及气候/能源、汽车、零售、制药、医学、医疗保健、政策、道德等行业特定领域。
+- **技术标签**: artificial-intelligence, aws, capsule-network, convolutional-neural-networks, deep-learning
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch)
 - **项目语言**: Jupyter Notebook
 - **星标数量**: ⭐ 4380
