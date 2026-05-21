@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6983
+- **核心概述**: 用于深度学习端到端对话系统和聊天机器人的开源库。
+- **技术标签**: ai, artificial-intelligence, bot, chatbot, chitchat
+
+### 🌟 [flower](https://github.com/flwrlabs/flower)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6909
+- **核心概述**: Flower：一个友好的联合人工智能框架
+- **技术标签**: ai, android, artificial-intelligence, cpp, deep-learning
+
+### 🌟 [TensorFlow-2.x-Tutorials](https://github.com/dragen1860/TensorFlow-2.x-Tutorials)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 6354
+- **核心概述**: TensorFlow 2.x版本的教程和示例，包括CNN、RNN、GAN、自动编码器、FasterRCNN、GPT、BERT示例等。TF 2.0版入门实例代码，实战教程。
+- **技术标签**: artificial-intelligence, computer-vision, deep-learning, machine-learning, neural-network
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [stanza](https://github.com/stanfordnlp/stanza)
 - **项目语言**: Python
 - **星标数量**: ⭐ 7793
