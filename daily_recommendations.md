@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [gorgonia](https://github.com/gorgonia/gorgonia)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5914
+- **核心概述**: Gorgonia 是一个有助于促进 Go 机器学习的库。
+- **技术标签**: artificial-intelligence, automatic-differentiation, computation-graph, deep-learning, deep-neural-networks
+
+### 🌟 [start-machine-learning](https://github.com/louisfb01/start-machine-learning)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 5249
+- **核心概述**: 2026 年开始和改进机器学习 (ML)、人工智能 (AI) 的完整指南，无需任何该领域背景，即可了解最新新闻和最先进的技术！
+- **技术标签**: artificial-intelligence, cheat-sheets, course, coursera, coursera-machine-learning
+
+### 🌟 [gluonts](https://github.com/awslabs/gluonts)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5191
+- **核心概述**: Python 中的概率时间序列建模
+- **技术标签**: artificial-intelligence, aws, data-science, deep-learning, forecasting
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [AI-Job-Notes](https://github.com/amusi/AI-Job-Notes)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 6077
