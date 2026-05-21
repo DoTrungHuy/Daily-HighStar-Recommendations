@@ -2,7 +2,7 @@ name: Daily High-Star Fetcher
 
 on:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '30 15 * * *'
   workflow_dispatch:
   push:
     branches:
