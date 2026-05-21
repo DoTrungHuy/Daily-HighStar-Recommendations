@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [Machine-Learning-Notes](https://github.com/Sophia-11/Machine-Learning-Notes)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3772
+- **核心概述**: 周志华《机器学习》手推笔记
+- **技术标签**: algorithms, artificial-intelligence, deep-learning, machine-learning, notes
+
+### 🌟 [olivia](https://github.com/olivia-ai/olivia)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3720
+- **核心概述**: 💁‍♀️由人工神经网络驱动的新好朋友
+- **技术标签**: ai, artificial-intelligence, assistant, backend, chatbot
+
+### 🌟 [polyaxon](https://github.com/polyaxon/polyaxon)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3706
+- **核心概述**: 用于管理和编排机器学习生命周期的 MLOps 工具
+- **技术标签**: agents, artificial-intelligence, data-science, deep-learning, harness
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [learning-to-learn](https://github.com/google-deepmind/learning-to-learn)
 - **项目语言**: Python
 - **星标数量**: ⭐ 4071
