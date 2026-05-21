@@ -1,18 +1,16 @@
-name: Daily High-Star Fetcher
+name: Daily High-Star Fetcher (Hourly Test)
 
 on:
   schedule:
-    - cron: '30 15 * * *'
+    - cron: '0 * * * *'      # 每小时整点（测试用，稳定后改回每天）
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -22,18 +20,45 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
-      - name: Run script
+      - name: Run update script
         run: node update_recommendations.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Force write timestamp (keep repo active)
+      - name: Commit & Push update
         run: |
           echo "Last run: $(date +'%Y-%m-%d %H:%M:%S UTC')" > .last_run
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git commit -m "Daily AI recommendations update - $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+          git commit -m "Hourly High-Star recommendations update - $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  notify:
+    needs: update-readme
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Success Notification
+        if: needs.update-readme.result == 'success'
+        run: |
+          echo "✅ Workflow succeeded"
+          curl -X POST "${{ secrets.DISCORD_WEBHOOK }}" \
+            -H 'Content-Type: application/json' \
+            -d '{
+              "content": "✅ **High-Star Update 成功**\nRepo: DoTrungHuy/Daily-HighStar-Recommendations\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            }' || echo "No webhook configured"
+
+      - name: Failure Notification
+        if: needs.update-readme.result != 'success'
+        run: |
+          echo "❌ Workflow failed"
+          curl -X POST "${{ secrets.DISCORD_WEBHOOK }}" \
+            -H 'Content-Type: application/json' \
+            -d '{
+              "content": "❌ **High-Star Update 失败**\nRepo: DoTrungHuy/Daily-HighStar-Recommendations\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n请检查日志"
+            }' || echo "No webhook configured"
