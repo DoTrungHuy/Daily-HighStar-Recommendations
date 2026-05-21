@@ -1,3 +1,27 @@
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
+### 🌟 [computervision-recipes](https://github.com/microsoft/computervision-recipes)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 9853
+- **核心概述**: 计算机视觉的最佳实践、代码示例和文档。
+- **技术标签**: artificial-intelligence, azure, computer-vision, convolutional-neural-networks, data-science
+
+### 🌟 [X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9148
+- **核心概述**: 借助 Segment Anything 和其他出色模型的 AI 支持，轻松进行数据标记。
+- **技术标签**: artificial-intelligence, clip, computer-vision, deep-learning, groundingdino
+
+### 🌟 [caffe2](https://github.com/facebookarchive/caffe2)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 8379
+- **核心概述**: Caffe2 是一个轻量级、模块化、可扩展的深度学习框架。
+- **技术标签**: ai, artificial-intelligence, caffe2, deep-learning, deep-neural-networks
+
+---
+
 ## 📅 2026-05-20 每日高 Star AI 项目推荐
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
