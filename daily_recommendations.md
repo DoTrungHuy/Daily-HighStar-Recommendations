@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4380
+- **核心概述**: 从头开始，一步步在 PyTorch 中实现推理 LLM
+- **技术标签**: ai, artificial-intelligence, chain-of-thought, deep-learning, distillation
+
+### 🌟 [neural_prophet](https://github.com/ourownstory/neural_prophet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4280
+- **核心概述**: NeuralProphet：一个简单的预测包
+- **技术标签**: artificial-intelligence, autoregression, deep-learning, fbprophet, forecast
+
+### 🌟 [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4113
+- **核心概述**: 成为一名出色的 AI/ML 研究工程师
+- **技术标签**: ai-textbook, algorithms, artificial-intelligence, computer-science, computer-vision
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [Production-Level-Deep-Learning](https://github.com/alirezadir/Production-Level-Deep-Learning)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 4635
