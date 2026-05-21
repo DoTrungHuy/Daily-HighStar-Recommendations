@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [AI-ML-Roadmap-from-scratch](https://github.com/aadi1011/AI-ML-Roadmap-from-scratch)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3640
+- **核心概述**: 通过这个完整的 0 到 100 存储库，熟练掌握人工智能、机器学习、生成式 AI、深度学习、数据科学、自然语言处理、强化学习等。
+- **技术标签**: ai, aiml, artificial-intelligence, data-science, deep-learning
+
+### 🌟 [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3588
+- **核心概述**: 🔥🔥PaddlePaddle 和 PyTorch 上的高性能人脸识别库🔥🔥
+- **技术标签**: artificial-intelligence, computer-vision, convolutional-neural-network, data-augmentation, deep-learning
+
+### 🌟 [Machine-Learning-with-Python](https://github.com/tirthajyoti/Machine-Learning-with-Python)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 3312
+- **核心概述**: 涵盖各种机器学习技术的练习和教程式笔记本
+- **技术标签**: artificial-intelligence, classification, clustering, data-science, decision-trees
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [Machine-Learning-Notes](https://github.com/Sophia-11/Machine-Learning-Notes)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 3772
