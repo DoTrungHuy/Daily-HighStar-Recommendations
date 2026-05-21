@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [pytorch-forecasting](https://github.com/sktime/pytorch-forecasting)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4900
+- **核心概述**: 使用 PyTorch 进行时间序列预测
+- **技术标签**: ai, artificial-intelligence, data-science, deep-learning, forecasting
+
+### 🌟 [interviews.ai](https://github.com/BoltzmannEntropy/interviews.ai)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 4831
+- **核心概述**: 我相信，本书主要针对的研究生和求职者将会从阅读本书中受益；然而，我希望即使是最有经验的研究人员也会发现它很有趣。
+- **技术标签**: artificial-intelligence, autograd, bayesian-statistics, convolutional-neural-networks, data-science
+
+### 🌟 [Reinforcement-Learning](https://github.com/andri27-ts/Reinforcement-Learning)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4717
+- **核心概述**: 60 天内学​​习深度强化学习！ Python 讲座和代码。强化学习+深度学习
+- **技术标签**: a2c, artificial-intelligence, deep-learning, deep-reinforcement-learning, deepmind
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [gorgonia](https://github.com/gorgonia/gorgonia)
 - **项目语言**: Go
 - **星标数量**: ⭐ 5914
