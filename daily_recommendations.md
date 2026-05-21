@@ -2,6 +2,30 @@
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
 
+### 🌟 [awesome-ml-courses](https://github.com/luspr/awesome-ml-courses)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 3078
+- **核心概述**: 很棒的免费机器学习和人工智能课程以及视频讲座。
+- **技术标签**: ai-courses, artificial-intelligence, deep-learning, machine-learning, reinforcement-learning
+
+### 🌟 [awesome-mlss](https://github.com/awesome-mlss/awesome-mlss)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 3009
+- **核心概述**: 🤖 机器学习暑期学校指南
+- **技术标签**: artificial-intelligence, deep-learning, machine-learning, reinforcement-learning, summer-school
+
+### 🌟 [best_AI_papers_2021](https://github.com/louisfb01/best_AI_papers_2021)
+- **项目语言**: TypeScript/Python/Other
+- **星标数量**: ⭐ 2901
+- **核心概述**: 按发布日期列出的人工智能最新突破（2021 年）的精选列表，包含清晰的视频说明、更深入的文章链接和代码。
+- **技术标签**: 2021, ai, artificial-intelligence, artificialintelligence, computer-science
+
+---
+
+## 📅 2026-05-21 每日高 Star AI 项目推荐
+
+> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
+
 ### 🌟 [Data-science-best-resources](https://github.com/tirthajyoti/Data-science-best-resources)
 - **项目语言**: TypeScript/Python/Other
 - **星标数量**: ⭐ 3201
