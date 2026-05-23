@@ -503,4 +503,55 @@
 
 ---
 
-每日内容由自动脚本生成，方便随时获取高质量开源推荐！
+每日内容由自动脚本生成，方便随时获取高质量开源推荐！## 📅 2026-05-23 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [openclaw](https://github.com/openclaw/openclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 374,030
+- **核心概述**: 您自己的私人人工智能助理。任何操作系统。任何平台。龙虾方式。 🦞
+- **技术标签**: ai, assistant, crustacean, molty, openclaw, own-your-data
+
+---
+
+### 🌟 [superpowers](https://github.com/obra/superpowers)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 203,045
+- **核心概述**: 有效的代理技能框架和软件开发方法。
+- **技术标签**: 
+
+---
+
+### 🌟 [claw-code](https://github.com/ultraworkers/claw-code)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 192,262
+- **核心概述**: 仓库终于解锁了。享受聚会！历史上最快超过 10 万颗星的仓库 ⭐。加入 Discord：https://discord.gg/5TUQKqFWd 使用 oh-my-codex 内置 Rust。
+- **技术标签**: 
+
+---
+
+### 🌟 [ECC](https://github.com/affaan-m/ECC)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 188,581
+- **核心概述**: 代理利用性能优化系统。 Claude Code、Codex、Opencode、Cursor 等的技能、直觉、记忆、安全性和研究优先的开发。
+- **技术标签**: ai-agents, anthropic, claude, claude-code, developer-tools, llm
+
+---
+
+### 🌟 [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 164,330
+- **核心概述**: DigitalPlat FreeDomain：适合所有人的免费域名
+- **技术标签**: digitalplat, domain, domain-platform, domainname, domains, free
+
+---
+
+### 🌟 [opencode](https://github.com/anomalyco/opencode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 164,120
+- **核心概述**: 开源编码代理。
+- **技术标签**: 
+
+---
+
