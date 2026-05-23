@@ -43,41 +43,58 @@ async function main() {
       existingContent = fs.readFileSync(FILE_PATH, 'utf8');
     }
 
-    const apiUrl = 'https://api.github.com/search/repositories?q=topic:artificial-intelligence+topic:machine-learning+topic:deep-learning&sort=stars&order=desc&per_page=60';
+    // 放宽搜索条件：高星 + 2024年后创建的项目，增加多样性
+    const apiUrl = 'https://api.github.com/search/repositories?q=stars:>5000+created:>2024-01-01&sort=stars&order=desc&per_page=80';
     const searchResult = await httpGet(apiUrl);
     const repos = searchResult.items || [];
+
+    const today = new Date().toISOString().split('T')[0];
+
+    // 检查今天是否已经添加过section
+    if (existingContent.includes(`## 📅 ${today}`)) {
+      console.log(`今天 (${today}) 已经更新过，跳过。`);
+      return;
+    }
 
     const newRepos = [];
     for (const repo of repos) {
       if (!existingContent.includes(repo.html_url)) {
         newRepos.push(repo);
       }
-      if (newRepos.length >= 3) break;
+      if (newRepos.length >= 6) break;
+    }
+
+    // 如果没有新项目，也从热门中挑选一些
+    if (newRepos.length === 0 && repos.length > 0) {
+      newRepos.push(...repos.slice(0, 6));
     }
 
     if (newRepos.length === 0) {
+      console.log('没有找到合适项目');
       return;
     }
 
-    const today = new Date().toISOString().split('T')[0];
-    let newMarkdown = `## 📅 ${today} 每日高 Star AI 项目推荐\n\n`;
-    newMarkdown += `> 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。\n\n`;
+    let newMarkdown = `## 📅 ${today} 每日高 Star 项目推荐\n\n`;
+    newMarkdown += `> 🤖 每日精选高质量开源项目，持续为你带来灵感\n\n`;
 
     for (const repo of newRepos) {
       const translatedDesc = await translateToChinese(repo.description);
+      const language = repo.language || '多语言';
       newMarkdown += `### 🌟 [${repo.name}](${repo.html_url})\n`;
-      newMarkdown += `- **项目语言**: ${repo.language || 'TypeScript/Python/Other'}\n`;
-      newMarkdown += `- **星标数量**: ⭐ ${repo.stargazers_count}\n`;
+      newMarkdown += `- **项目语言**: ${language}\n`;
+      newMarkdown += `- **星标数量**: ⭐ ${repo.stargazers_count.toLocaleString()}\n`;
       newMarkdown += `- **核心概述**: ${translatedDesc}\n`;
-      newMarkdown += `- **技术标签**: ${repo.topics ? repo.topics.slice(0, 5).join(', ') : '无'}\n\n`;
+      newMarkdown += `- **技术标签**: ${repo.topics ? repo.topics.slice(0, 6).join(', ') : '开源'}\n\n`;
+      newMarkdown += `---\n\n`;
     }
 
-    newMarkdown += `---\n\n`;
-
-    const finalContent = newMarkdown + existingContent;
+    const finalContent = existingContent + newMarkdown;
     fs.writeFileSync(FILE_PATH, finalContent, 'utf8');
 
+    console.log(`✅ 已成功添加 ${today} 的 ${newRepos.length} 个项目`);
+
   } catch (error) {
+    console.error('更新失败:', error.message);
     process.exit(1);
   }
 }
