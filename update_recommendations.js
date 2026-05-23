@@ -88,7 +88,8 @@ async function main() {
       newMarkdown += `---\n\n`;
     }
 
-    const finalContent = existingContent + newMarkdown;
+    // 【关键修改】新内容插入到最顶部
+    const finalContent = newMarkdown + existingContent;
     fs.writeFileSync(FILE_PATH, finalContent, 'utf8');
 
     console.log(`✅ 已成功添加 ${today} 的 ${newRepos.length} 个项目`);
