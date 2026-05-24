@@ -1,3 +1,55 @@
+## 📅 2026-05-24 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [hermes-agent](https://github.com/NousResearch/hermes-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 164,494
+- **核心概述**: 与您共同成长的代理商
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 149,714
+- **核心概述**: 用于改进 Claude 代码行为的单个 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。
+- **技术标签**: 
+
+---
+
+### 🌟 [skills](https://github.com/anthropics/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 139,746
+- **核心概述**: 代理技能的公共存储库
+- **技术标签**: agent-skills
+
+---
+
+### 🌟 [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 138,159
+- **核心概述**: 完整增强代码、Claude Code、Cluely、CodeBuddy、Comet、Cursor、Devin AI、Junie、Kiro、Leap.new、Lovable、Manus、NotionAI、Orchids.app、Perplexity、Poke、Qoder、Replit、Same.dev、Trae、Traycer AI、VSCode Agent、Warp.dev、Windsurf、Xcode、Z.ai Code、Dia 和 v0。 （和其他开源）系统提示、内部工具和人工智能模型
+- **技术标签**: ai, bolt, cluely, copilot, cursor, cursorai
+
+---
+
+### 🌟 [claude-code](https://github.com/anthropics/claude-code)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 126,019
+- **核心概述**: Claude Code 是一种代理编码工具，它位于您的终端中，了解您的代码库，并通过执行例行任务、解释复杂代码和处理 git 工作流程来帮助您更快地编码 - 所有这些都通过自然语言命令进行。
+- **技术标签**: 
+
+---
+
+### 🌟 [markitdown](https://github.com/microsoft/markitdown)
+- **项目语言**: Python
+- **星标数量**: ⭐ 124,846
+- **核心概述**: 用于将文件和 Office 文档转换为 Markdown 的 Python 工具。
+- **技术标签**: autogen, autogen-extension, langchain, markdown, microsoft-office, openai
+
+---
+
 ## 📅 2026-05-21 每日高 Star AI 项目推荐
 
 > 🤖 算法在云端昼夜运转，灵感在市井游街寻觅。
