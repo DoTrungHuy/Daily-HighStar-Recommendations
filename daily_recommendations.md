@@ -1,3 +1,55 @@
+## 📅 2026-05-25 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [firecrawl](https://github.com/firecrawl/firecrawl)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 123,827
+- **核心概述**: 🔥 搜索、抓取和清理网络中的 AI 代理。
+- **技术标签**: ai, ai-agents, ai-crawler, ai-scraping, ai-search, crawler
+
+---
+
+### 🌟 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- **项目语言**: Python
+- **星标数量**: ⭐ 111,674
+- **核心概述**: 您可以实际运行 100 多个 AI Agent 和 RAG 应用程序 — 克隆、自定义、发布。
+- **技术标签**: agents, llms, python, rag
+
+---
+
+### 🌟 [spec-kit](https://github.com/github/spec-kit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 105,563
+- **核心概述**: 💫 帮助您开始规范驱动开发的工具包
+- **技术标签**: ai, copilot, development, engineering, prd, spec
+
+---
+
+### 🌟 [agency-agents](https://github.com/msitarzewski/agency-agents)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 104,772
+- **核心概述**: 触手可及的完整人工智能机构 - 从前端向导到 Reddit 社区忍者，从奇思妙想的注入者到现实检查者。每个代理都是一位具有个性、流程和经过验证的可交付成果的专业专家。
+- **技术标签**: 
+
+---
+
+### 🌟 [gemini-cli](https://github.com/google-gemini/gemini-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 104,568
+- **核心概述**: 一款开源 AI 代理，可将 Gemini 的强大功能直接带入您的终端。
+- **技术标签**: ai, ai-agents, cli, gemini, gemini-api, mcp-client
+
+---
+
+### 🌟 [skills](https://github.com/mattpocock/skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 103,684
+- **核心概述**: 真正工程师的技能。直接来自我的 .claude 目录。
+- **技术标签**: 
+
+---
+
 ## 📅 2026-05-24 每日高 Star 项目推荐
 
 > 🤖 每日精选高质量开源项目，持续为你带来灵感
