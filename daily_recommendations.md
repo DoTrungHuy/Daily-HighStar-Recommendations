@@ -1,3 +1,55 @@
+## 📅 2026-05-26 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)
+- **项目语言**: Python
+- **星标数量**: ⭐ 103,619
+- **核心概述**: 暂无该开源项目的具体文字描述。
+- **技术标签**: 
+
+---
+
+### 🌟 [gstack](https://github.com/garrytan/gstack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 102,492
+- **核心概述**: 使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA
+- **技术标签**: 
+
+---
+
+### 🌟 [browser-use](https://github.com/browser-use/browser-use)
+- **项目语言**: Python
+- **星标数量**: ⭐ 95,514
+- **核心概述**: 🌐 让 AI 代理可以访问网站。轻松在线自动化任务。
+- **技术标签**: ai-agents, ai-tools, browser-automation, browser-use, llm, playwright
+
+---
+
+### 🌟 [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 92,021
+- **核心概述**: 暂无该开源项目的具体文字描述。
+- **技术标签**: 
+
+---
+
+### 🌟 [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 87,878
+- **核心概述**: MCP 服务器的集合。
+- **技术标签**: ai, mcp
+
+---
+
+### 🌟 [servers](https://github.com/modelcontextprotocol/servers)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 86,222
+- **核心概述**: 模型上下文协议服务器
+- **技术标签**: 
+
+---
+
 ## 📅 2026-05-25 每日高 Star 项目推荐
 
 > 🤖 每日精选高质量开源项目，持续为你带来灵感
