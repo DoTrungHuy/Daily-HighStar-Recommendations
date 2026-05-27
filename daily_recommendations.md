@@ -1,3 +1,55 @@
+## 📅 2026-05-27 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [codex](https://github.com/openai/codex)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 85,939
+- **核心概述**: 在您的终端中运行的轻量级编码代理
+- **技术标签**: 
+
+---
+
+### 🌟 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 84,477
+- **核心概述**: 流行品牌设计系统的 DESIGN.md 文件分析集合。将一个项目放入您的项目中，让编码代理生成匹配的 UI。
+- **技术标签**: awesome-list, design-md, design-system, design-tokens, figma, google-stitch
+
+---
+
+### 🌟 [autoresearch](https://github.com/karpathy/autoresearch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 83,541
+- **核心概述**: AI 代理自动运行单 GPU 纳米聊天训练研究
+- **技术标签**: 
+
+---
+
+### 🌟 [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 83,092
+- **核心概述**: 为构建专业 UI/UX 多平台提供设计智能的 AI 技能
+- **技术标签**: ai-skills, antigravity, claude, claude-code, codex, command-line
+
+---
+
+### 🌟 [cc-switch](https://github.com/farion1231/cc-switch)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 81,727
+- **核心概述**: 一款跨平台桌面一体化助手，适用于 Claude Code、Codex、OpenCode、OpenClaw、Gemini CLI 和 Hermes Agent。唯一官方网站：ccswitch.io
+- **技术标签**: ai-tools, claude-code, codex, desktop-app, hermes, hermes-agent
+
+---
+
+### 🌟 [TradingAgents](https://github.com/TauricResearch/TradingAgents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 79,823
+- **核心概述**: TradingAgents：多代理LLM金融交易框架
+- **技术标签**: agent, finance, llm, multiagent, trading
+
+---
+
 ## 📅 2026-05-26 每日高 Star 项目推荐
 
 > 🤖 每日精选高质量开源项目，持续为你带来灵感
