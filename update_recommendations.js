@@ -3,6 +3,7 @@ const https = require('https');
 
 const FILE_PATH = 'daily_recommendations.md';
 const REPOS_PER_RUN = 6;
+const FIVE_HOURS_MS = 5 * 60 * 60 * 1000;
 
 function httpGet(url) {
   return new Promise((resolve, reject) => {
@@ -51,10 +52,9 @@ async function translateToChinese(text) {
 }
 
 function getFiveHourSlot(date = new Date()) {
-  const datePart = date.toISOString().split('T')[0];
-  const hour = date.getUTCHours();
-  const slotStartHour = Math.floor(hour / 5) * 5;
-  return `${datePart} ${String(slotStartHour).padStart(2, '0')}:00 UTC`;
+  const slotStartMs = Math.floor(date.getTime() / FIVE_HOURS_MS) * FIVE_HOURS_MS;
+  const slotStart = new Date(slotStartMs);
+  return slotStart.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 }
 
 function buildSearchQueries() {
