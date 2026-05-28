@@ -1,3 +1,55 @@
+## 🕔 2026-05-28 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [caveman](https://github.com/JuliusBrussee/caveman)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 65,874
+- **核心概述**: 🪨 当很少的代币可以做戏时为什么要使用大量的代币 — Claude Code 技能通过像穴居人一样说话来减少 65% 的代币
+- **技术标签**: ai, anthropic, caveman, claude, claude-code, llm
+
+---
+
+### 🌟 [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
+- **项目语言**: Python
+- **星标数量**: ⭐ 63,248
+- **核心概述**: Bash 就是你所需要的 - 一个 Nano claude 代码——类似“代理工具”，从 0 到 1 构建
+- **技术标签**: agent, agent-development, ai-agent, claude, claude-code, educational
+
+---
+
+### 🌟 [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 59,925
+- **核心概述**: 奥莫；最好的代理工具 - 以前的 oh-my-opencode
+- **技术标签**: ai, ai-agents, amp, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [TrendRadar](https://github.com/sansan0/TrendRadar)
+- **项目语言**: Python
+- **星标数量**: ⭐ 58,503
+- **核心概述**: ⭐AI驱动的舆情趋势监测，多平台聚合、RSS、智能提醒。🎯告别信息过载，你的AI舆情监控助手与热点筛选工具！聚合多平台热点+RSS订阅，支持关键词精准筛选。AI智能筛选新闻+AI翻译+AI分析简报直推手机，也支持接入MCP架构，赋能AI自然语言对话分析、情感洞察与趋势预测等。支持Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/mail/ntfy/bark/slack等渠道智能自适应。
+- **技术标签**: ai, bark, data-analysis, docker, hot-news, llm
+
+---
+
+### 🌟 [context7](https://github.com/upstash/context7)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 56,289
+- **核心概述**: Context7 Platform——法学硕士和人工智能代码编辑器的最新代码文档
+- **技术标签**: llm, mcp, mcp-server, vibe-coding
+
+---
+
+### 🌟 [rtk](https://github.com/rtk-ai/rtk)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 55,633
+- **核心概述**: CLI 代理可将常见开发命令的 LLM 令牌消耗减少 60-90%。单个 Rust 二进制文件，零依赖
+- **技术标签**: agentic-coding, ai-coding, anthropic, claude-code, cli, command-line-tool
+
+---
+
 ## 📅 2026-05-28 每日高 Star 项目推荐
 
 > 🤖 每日精选高质量开源项目，持续为你带来灵感
