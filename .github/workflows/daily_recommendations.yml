@@ -1,9 +1,10 @@
-name: High-Star Fetcher (Every 5 Hours)
+name: High-Star Fetcher (Five-Hour Content Updates)
 
 on:
   schedule:
-    # GitHub Actions 使用 UTC 时间；每天 00:00、05:00、10:00、15:00、20:00 UTC 自动运行
-    - cron: '0 */5 * * *'
+    # GitHub Actions 的 cron 不能稳定表达跨日期的严格“每 5 小时”。
+    # 因此这里每小时检查一次，真正是否生成内容由 update_recommendations.js 的 5 小时时间档控制。
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -30,12 +31,15 @@ jobs:
 
       - name: Commit & Push update
         run: |
-          echo "Last run: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" > .last_run
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git commit -m "Update high-star recommendations - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update high-star recommendations - $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
