@@ -1,3 +1,67 @@
+## 🕔 2026-05-28 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [nanobot](https://github.com/HKUDS/nanobot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 43,324
+- **核心概述**: 适用于您的工具、聊天和工作流程的轻量级开源 AI 代理。
+- **大概是做什么的**: 🐈 nanobot 是一款秉承 OpenClaw、Claude Code 和 Codex 精神的开源超轻量级 AI 代理。它使核心代理循环保持较小且可读，同时仍然支持聊天通道、内存、MCP 和实用的部署路径，因此您可以以最小的开销从本地设置转变为长期运行的个人代理。 - 2026-05-15 🚀 发布 v0.2.0 — /goal 在轮流中保持持续的目标，WebUI 现在在轮子内提供，图像生成端到端，5 个具有后备模型的新提供程序，以及真正的代理循环重构。有关详细信息，请参阅发行说明。 - 2026-05-14 🎯 /长期目标、可见的多步骤进展、聊天中的长期任务。 - 2026-05-13 🧠 答案前流式推理，自动备份模型，插件重连更顺畅。 - 2026-05-12 🎛️ 保存带有WebUI徽章的模型预设，更简单的插件工具，更安静的飞书主题线程。 - 2026-05-11 🖥️ NVIDIA NIM 支持、终端机器人名称和图标、流式推理和 MiMo 切换清晰度。 - 2026-05-09 🖼️ 更清晰的图像回放，设置中的 BYO 网络搜索键，飞书线程 r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 40,877
+- **核心概述**: 从 Anthropic - Opus 4.7、Opus 4.6、Sonnet 4.6 中提取系统提示。 OpenAI - ChatGPT 5.5 思维、GPT 5.5 即时、Codex。 Google Gemini - 3.5 Flash、3.1 Pro、3 Flash、反重力。 xAI - 格洛克。 Github 副驾驶。困惑等等。定期更新。
+- **大概是做什么的**: 正如《华盛顿邮报》所见：了解人工智能背后的隐藏规则。然后用它们重写这篇文章。 （2026年5月11日）系统提示泄密 ------ ------ ------ 克劳德代码（Opus 4.8） 2026年5月28日 系统提示克劳德 Opus 4.8 2026年5月28日 系统提示克劳德代码&Cowork 2026年5月28日 克劳德代码·Cowork·Cowork Dispatch GPT-5.5 2026年5月24日Thinking·Instant·API·Pro API Perplexity Computer 2026年5月21日 系统提示 VS Code Copilot Agent 2026年5月21日 系统提示 Docker Gordon AI 2026年5月21日 系统提示 Gemini 3.5 Flash 2026年5月20日 系统提示·AI Studio·Tools Antigravity CLI 2026年5月20日 系统提示 Zed AI 2026年5月16日 系统提示 Grok Expert 2026年5月11日 系统提示符 GPT-5.3-Codex-Spark 2026年5月10日 系统提示符 Amp Code 2026年5月9日 系统提示符 Claude Opus 4.8 系统提示符 Claude Code (Opus 4.8) 系统提示符 Claude Opus 4.7 系统提示符 Claude Code 系统提示符 Claude Opus 4.6 系统提示符 Claude Sonnet 4.6 系统提示符Claude.ai Anthropic Reminders 集成、官方提示和旧版本 集成 Cowork · Cowork Dispatch · 桌面代码
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, awesome, chatbot, chatgpt, claude
+
+---
+
+### 🌟 [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 39,278
+- **核心概述**: LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零��本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.
+- **大概是做什么的**: 🤖 基于 AI 大模型的 A股/港股/美股自选股智能分析系统，每日自动分析并推送「决策仪表盘」到企业微信/飞书/Telegram/Discord/Slack/邮箱 产品预览 · 功能特性 · 快速开始 · 推送效果 · 文档中心 · 完整指南 简体中文 English 繁体中文 AI 决策报告 核心结论、评分、趋势、买卖点位、风险警报、催化因素、操作检查清单 多市场数据聚合 A股、港股、美股、ETF；行情、K 线、技术指标、资金流、筹码、新闻、公告和基本面 Web / 桌面工作台 手动分析、任务进度、历史报告、完整 Markdown、回测、持仓、配置管理、浅色 / 深色主题 Agent 策略问股 多轮追问，支持均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种内置策略，覆盖 Web/Bot/API 智能导入与补全 图片、CSV/Excel、剪贴板导入；股票代码/名称/拼音/别名补全 自动化与推送 GitHub Actions、Docker、本地定时任务、FastAPI 服务和企业微信/飞书/Telegram/Discord/Slack/邮件推送 功能细节、字段契约、基本面 P0 超时语义、交易纪律、数据源优先级、Web/API 行为请看 完整配置与部署指南。 AI 模型 Anspire、AIHubMix、Gemini、OpenAI 兼容、DeepSeek、通义千问、Claude、Ollama 本地模型等 行情数据 TickFlow、AkShare、Tushare、Pytdx、Baostock、YFinance、Longbridge 新闻搜索 Anspire、SerpAPI、Tavily、Bocha、Brave、MiniMax、SearXNG 社交舆情 Stock Sentiment API（Reddit / X / Polymarket，仅美股，可选） 方式一：GitHub Actions（推荐） 点击右上角 Fork 按钮（顺便点个 Star⭐ 支持一下） Settings → Secrets and variables → Actions → New repository secret 默认先选一个模型服务商并填写 API Key；需要多模型、图片识别、本地模型或高级路由时，再参考 LLM 配置指南。 ------------ ------ :----: ANSPIRE API KEYS Anspire API Key，一Key同时启用全球热门大模型和联网搜索，无需科学上网，含免费额度 推荐 AIHUBMIX KEY AIHubMix API Ke
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-stock, ai-agent, aigc, llm, quant, quantitative-finance
+
+---
+
+### 🌟 [langextract](https://github.com/google/langextract)
+- **项目语言**: Python
+- **星标数量**: ⭐ 36,580
+- **核心概述**: 一个 Python 库，用于使用具有精确源基础和交互式可视化的法学硕士从非结构化文本中提取结构化信息。
+- **大概是做什么的**: - 云模型的 API 密钥设置 - 添加自定义模型提供商 - 使用 OpenAI 模型 - 将本地 LLM 与 Ollama 一起使用 - Romeo 与 Juliet 全文提取 - 药物提取 - 放射学报告结构：RadExtract - 社区提供商 LangExtract 是一个 Python 库，它使用 LLM 根据用户定义的指令从非结构化文本文档中提取结构化信息。它处理临床笔记或报告等材料，识别和组织关键细节，同时确保提取的数据与源文本相对应。 1. 精确的源定位：将每个提取映射到源文本中的确切位置，实现视觉突出显示，以便于跟踪和验证。 2. 可靠的结构化输出：根据少数样本示例强制执行一致的输出模式，利用 Gemini 等受支持模型中的受控生成来保证稳健的结构化结果。 3.针对长文档进行优化：通过使用文本分块、并行过程的优化策略，克服了大文档提取的“大海捞针”挑战
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: gemini, gemini-ai, gemini-api, gemini-flash, gemini-pro, information-extration
+
+---
+
+### 🌟 [CodeWhale](https://github.com/Hmbown/CodeWhale)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 35,618
+- **核心概述**: 终端中的 DeepSeek + MiMo 编码代理
+- **大概是做什么的**: DeepSeek V4 的终端编码代理。它从 codewhale 命令运行，流式传输推理块，使用批准门编辑本地工作区，并包括每轮选择模型和思维级别的自动模式。 codewhale 作为一对匹配的独立 Rust 发行版二进制文件安装：codewhale 调度程序命令和它为交互式会话启动的同级 codewhale-tui 运行时。 npm、Homebrew 和 Docker 都会为您安装；货物和手动安装必须将两个二进制文件放在同一目录中（通常是 PATH 上的目录）。 npm 包只是这些发布二进制文件的安装程序/包装程序；该代理不在 Node 上运行。在中国大陆，使用 --registry=https://registry.npmmirror.com 加速 npm 路径，或使用 https://github.com/Hmbown/CodeWhale/releases 。对于手动下载，请验证 SHA-256 清单并避免使用相似的存储库或搜索结果镜像。请参阅下载安全性和校验和。已经安装了吗？使用与安装路径匹配的更新程序��DeepWiki 项目索引 模型回答了一个问题。代理完成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, deepseek, llm, rust, terminal, tui
+
+---
+
+### 🌟 [UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 35,611
+- **核心概述**: 开源多模式 AI 代理堆栈：连接尖端 AI 模型和代理基础设施
+- **大概是做什么的**: TARS \ 是一个多模态 AI Agent 堆栈，目前推出两个项目：Agent TARS 和 UI-TARS-desktop：Agent TARS 是一个通用的多模态 AI Agent 堆栈，它将 GUI Agent 和 Vision 的强大功能带入您的终端、计算机、浏览器和产品中。它主要附带 CLI 和 Web UI 供使用。它旨在通过尖端的多模式 LLM 以及与各种现实世界 MCP 工具的无缝集成，提供更接近于类人任务完成的工作流程。 UI-TARS Desktop是一个桌面应用程序，提供基于UI-TARS模型的本机GUI Agent。它主要运送远程计算机和浏览器操作员。 - \[2025-11-05\] 🎉 我们很高兴地宣布推出 Agent TARS CLI v0.3.0！该版本带来了对多个工具的流支持（shell命令、多文件结构化显示）、具有工具调用和深度思考的计时统计的运行时设置、用于数据流跟踪和调试的事件流查看器。此外，它还独家支持 AIO 代理沙盒作为隔离的一体化工具执行环境。 - \[2025-06-25\]
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-tars, browser-use, computer-use, cowork, gui-agent
+
+---
+
 ## 🕔 2026-05-28 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
