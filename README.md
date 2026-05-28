@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Node.js](https://img.shields.io/badge/Node.js-20+-green)
 
-**🤖 每 5 小时自动检查高 Star 开源项目 | AI、机器学习、深度学习、LLM、Agent 领域精选**
+**🤖 每 5 小时更新一批高 Star 开源项目 | AI、机器学习、深度学习、LLM、Agent 领域精选**
 
 </div>
 
@@ -15,10 +15,10 @@
 
 ## 📖 项目介绍
 
-**Daily High-Star Recommendations** 是一个自动化开源项目推荐平台。项目通过 GitHub Actions **每 5 小时**自动运行一次，抓取并推荐在 **人工智能、机器学习、深度学习、LLM、AI Agent** 等领域中高星的新项目。
+**Daily High-Star Recommendations** 是一个自动化开源项目推荐平台。项目通过 GitHub Actions 自动检查，并由脚本按 **每 5 小时时间档**生成推荐内容，抓取并推荐在 **人工智能、机器学习、深度学习、LLM、AI Agent** 等领域中高星的新项目。
 
 **核心特点：**
-- ⭐ **每 5 小时自动检查** - GitHub Actions 定时运行推荐任务
+- ⭐ **每 5 小时更新内容** - GitHub Actions 定时检查，脚本控制 5 小时时间档
 - 🤖 **聚焦 AI 技术方向** - 覆盖 AI、机器学习、深度学习、LLM、Agent 等领域
 - 🌍 **基于 GitHub API** - 使用 GitHub Search API 获取项目数据
 - 🔐 **支持 GitHub Token** - 在 Actions 中使用 `GITHUB_TOKEN`，降低 API 限流影响
@@ -31,17 +31,19 @@
 
 ## ⚠️ 重要说明
 
-- 本项目通过 GitHub Actions **每 5 小时**触发一次。
-- GitHub Actions 的定时任务使用 **UTC 时间**，当前配置为每天 `00:00`、`05:00`、`10:00`、`15:00`、`20:00` UTC 运行。
-- 每次运行会按当前 **5 小时时间档**生成一个推荐区块，例如：`2026-05-28 10:00 UTC 高 Star 项目推荐`。
-- 如果当前 5 小时时间档已经更新过，脚本会自动跳过，避免重复生成同一时间档内容。
+- GitHub Actions 目前设置为 **每小时检查一次**。
+- 真正的内容更新由脚本控制为 **每 5 小时最多生成一次**。
+- 这样做是因为 GitHub Actions 的 cron 表达式不能稳定表达跨日期的严格“每 5 小时一次”；如果直接写 `0 */5 * * *`，当天 `20:00 UTC` 到第二天 `00:00 UTC` 实际只有 4 小时。
+- 每次真正更新时，会按当前 **5 小时时间档**生成一个推荐区块，例如：`2026-05-28 10:00 UTC 高 Star 项目推荐`。
+- 如果当前 5 小时时间档已经更新过，脚本会自动跳过，workflow 也不会提交空更新。
 - 如果没有未推荐过的新项目，脚本会从热门项目中选取兜底内容，保证推荐文件尽量持续更新。
 
 ---
 
 ## 🎯 核心功能
 
-- 每 5 小时自动搜索高星 AI/ML/LLM/Agent 项目
+- 每小时自动检查，内容每 5 小时最多更新一次
+- 自动搜索高星 AI/ML/LLM/Agent 项目
 - 使用多个搜索条件提升项目多样性
 - 使用 `GITHUB_TOKEN` 调用 GitHub API，减少限流问题
 - 智能去重，优先推荐未出现过的项目
@@ -55,7 +57,7 @@
 ```text
 Daily-HighStar-Recommendations/
 ├── .github/workflows/
-│   └── daily_recommendations.yml    # 每 5 小时运行的 GitHub Actions 工作流
+│   └── daily_recommendations.yml    # 每小时检查，配合脚本实现每 5 小时内容更新
 ├── update_recommendations.js        # 主要推荐脚本
 ├── package.json                     # Node.js 项目配置
 ├── daily_recommendations.md         # 推荐内容输出文件
@@ -83,7 +85,8 @@ cat daily_recommendations.md
 
 ### GitHub Actions 自动运行
 
-- **定时触发**：每 5 小时自动运行一次。
+- **定时检查**：每小时自动运行一次 workflow。
+- **内容更新**：脚本按 5 小时时间档控制，同一个时间档不会重复生成。
 - **手动触发**：进入 [Actions 页面](https://github.com/DoTrungHuy/Daily-HighStar-Recommendations/actions) 点击 `Run workflow`。
 
 ---
