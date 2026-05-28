@@ -1,3 +1,67 @@
+## 🕔 2026-05-28 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 55,297
+- **核心概述**: 从氛围编码到代理工程 - 实践使克劳德变得完美
+- **大概是做什么的**: claude-code-best-practice 从 vivi 编码到代理工程 - 实践使 claude 完美 -white?style=flat&labelColor=555) = 代理 · = 命令 · = X 上的技能 Boris Cherny ( tweet 1 · tweet 2 · tweet 3 ) 请访问如何使用部分以充分利用此存储库。功能 位置 描述 --------- ---------- ------------- 子代理 .claude/agents/ .md 命令 .claude/commands/ .md 技能 .claude/skills/ /SKILL.md 官方技能 · Mono-repos 工作流程技能 .claude/commands/weather-orchestrator.md 挂钩 .claude/hooks/ 指南 MCP 服务器.claude/settings.json , .mcp.json 插件可分发包 市场 · 创建市场 设置 .claude/settings.json 权限 · 模型配置 · 输出��式 · 沙箱 · 按键绑定 · 自动模式配置状态行 .claude/settings.json 内存 CLAUDE.md , .claude/rules/ , /.claude/rules/ , /.claude/projects/ /memory/ Auto内存 · 自动内存深入探究 · 规则自动检查点（文件编辑跟踪） CLI 启动标志 claude [flags] 交互模式 · 环境变量最佳实践提示工程 · 扩展 Cl
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-coding, agentic-engineering, agentic-workflow, ai, ai-agents
+
+---
+
+### 🌟 [worldmonitor](https://github.com/koala73/worldmonitor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 55,039
+- **核心概述**: 实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪
+- **大概是做什么的**: 实时全球情报仪表板 - 在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪。文档  ·  发布  ·  - 涵盖 15 个类别的 500 多个精选新闻源，人工智能合成简报 - 双地图引擎 — 3D 地球 (globe.gl) 和 WebGL 平面地图 (deck.gl)，具有 45 个数据层 - 跨流相关性 — 军事、经济、灾难和升级信号融合 - 国家情报指数 — 跨 12 个信号类别的综合风险评分 - 金融雷达 — 92 个证券交易所、大宗商品、加密和 7 信号市场组合 - 本地 AI - 使用 Ollama 运行所有内容，无需 API 密钥 - 来自单个代码库的 5 个站点变体（世界、��技、金融、商品、快乐） - 适用于 macOS、Windows 和 Linux 的本机桌面应用程序 (Tauri 2) - 21 种语言，具有本机语言提要和 RTL 支持 有关完整的功能列表、架构、数据源和算法，请参阅文档。所有站点变体和桌面二进制文件均由单个代码库构建并由 sam 提供
+- **有什么用**: 适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。
+- **技术标签**: ai, dashboard, geopolitics, monitoring, news, opensource
+
+---
+
+### 🌟 [hello-agents](https://github.com/datawhalechina/hello-agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 54,364
+- **核心概述**: 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程
+- **大概是做什么的**: 从基础理论到实际应用，全面掌握智能体系统的设计与实现   如果说 2024 年是"百模大战"的元年，那么 2025 年无疑开启了"Agent 元年"。技术的焦点正从训练更大的基础模型，转向构建更聪明的智能体应用。然而，当前系统性、重实践的教程却极度匮乏。为此，我们发起了 Hello-Agents 项目，希望能为社区提供一本从零开始、理论与实战并重的智能体系统构建指南。   Hello-Agents 是 Datawhale 社区的 系统性智能体学习教程 。如今 Agent 构建主要分为两派，一派是 Dify，Coze，n8n 这类软件工程类 Agent，其本质是流程驱动的软件开发，LLM 作为数据处理的后端；另一派则是 AI 原生的 Agent，即真正以 AI 驱动的 Agent。本教程旨在带领大家深入理解并构建后者——真正的 AI Native Agent。教程将带领你穿透框架表象，从智能体的核心原理出发，深入其核心架构，理解其经典范式，并最终亲手构建起属于自己的多智能体应用。我们相信，最好的学习方式就是动手实践。希望这本教程能成为你探索智能体世界的起点，能够从一名大语言模型的"使用者"，蜕变为一名智能体系统的"构建者"。 🌐 国外访问 🚀 国内加速 - 无需下载，随时随地学习 如果您希望在本地阅读或贡献内容，请参考下方的学习指南。 - 📖 Datawhale 开源免费 完全免费学���本项目所有内容，与社区共同成长 - 🔍 理解核心原理 深入理解智能体的概念、历史与经典范式 - 🏗️ 亲手实现 掌握热门低代码平台和智能体代码框架的使用 - 🛠️ 自研框架 HelloAgents 基于 Openai 原生 API 从零构建一个自己的智能体框架 - ⚙️ 掌握高级技能 一步步实现上下文工程、Memory、协议、评估等系统性技术 - 🤝 模型训练 掌握 Agentic RL，从 SFT 到 GRPO 的全流程实战训练 LLM - 🚀 驱动真实案例 实战开发智能旅行助手、赛博小镇等综合项目 - 📖 求职面试 学习智能体求职相关面试问题 章节 关键内容 状态 ------------------------------------------------------------------------------------------- --------------------------------------------- ---- 前言 项目的缘起、背景及读者建议 ✅ 第一章 初识智能体 智能体定义、类型、范
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llm, rag, tutorial
+
+---
+
+### 🌟 [mempalace](https://github.com/MemPalace/mempalace)
+- **项目语言**: Python
+- **星标数量**: ⭐ 52,988
+- **核心概述**: 最佳基准的开源人工智能存储系统。而且它是免费的。
+- **大概是做什么的**: 本地优先的人工智能内存。逐字存储、可插拔后端、LongMemEval 上的 96.6% R@5 原始数据 — 零 API 调用。谨防冒充网站。 MemPalace 没有其他官方网站。唯一的官方来源是这个 GitHub 存储库、PyPI 包以及 mempalaceofficial.com 上的文档。任何其他域名（包括 .tech 、 .net 或其他 .com 变体）都是冒名顶替者，可能会传播恶意软件。详细信息和时间表：docs/HISTORY.md。如果没有连接自动保存挂钩，Claude Code 会话将在 30 天后过期。阅读本文 → 需要最短的恢复/设置路径？使用克劳德代码保留设置清单。 MemPalace 将您的对话历史记录存储为逐字文本，并通过语义搜索进行检索。它不总结、摘录或释义。该索引是结构化的——人员和项目成为翅膀，主题成为房间，原创内容放在抽屉里——因此搜索可以确定范围，而不是针对扁平的语料库。检索层是可插拔的。当前默认为 ChromaDB；该接口在 mempalace/backends/base.py 中定义，并且可以 droppe 替代后端
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chromadb, llm, mcp, memory, python
+
+---
+
+### 🌟 [OpenSpec](https://github.com/Fission-AI/OpenSpec)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 51,382
+- **核心概述**: AI 编码助手的规范驱动开发 (SDD)。
+- **大概是做什么的**: 最受欢迎的规范框架。新的工作流程现已推出！我们使用新的工件引导工作流程重建了 OpenSpec。运行 /opsx:propose“你的想法”即可开始。 → 在此处了解更多信息 在 X 上关注 @0xTab 以获取更新 · 加入 OpenSpec Discord 寻求帮助和提问。需要 Node.js 20.19.0 或更高版本。全局安装 OpenSpec： 然后导航到您的项目目录并初始化： 现在告诉您的 AI： /opsx:propose 如果您想要扩展工作流程（ /opsx:new 、 /opsx:continue 、 /opsx:ff 、 /opsx:verify 、 /opsx:bulk-archive 、 /opsx:onboard ），请使用 openspec config profile 选择它并使用 openspec update 进行应用。不确定您的工具是否受支持？查看完整列表 – 我们支持超过 25 种工具，并且还在不断增加。也适用于 pnpm、yarn、bun 和 nix。请参阅安装选项。 → 入门：第一步 → 工作流程：组合和模式 → 命令：斜杠命令和技能 → CLI：终端参考 → 支持的工具：工具集成和安装路径 → 概念：如何适应 → 多语言：多语言支持 → 定制：让它成为您的 第三方架构包分发
+- **有什么用**: 从项目说明看，它主要围绕“最受欢迎的规范框架。新的工作流程现已推出！我们使用新的工件引导工作流程重建了 OpenSpec。运行 /opsx:propose“你的想法”即可开始。 → 在此”展开，可用于学习、研究或二次开发。
+- **技术标签**: ai, context-engineering, engineering, planning, prd, sdd
+
+---
+
+### 🌟 [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+- **项目语言**: Python
+- **星标数量**: ⭐ 45,049
+- **核心概述**: Anthropic 为 Claude Code 精心策划的技能、挂钩、斜线命令、代理编排器、应用程序和插件列表
+- **大概是做什么的**: Anthropic PBC 为最优秀的代理商 Claude Code 精心策划了最好的资源集合。包含高质量的技能、代理、挂钩、状态线、编排器、开发人员工具以及 Claude Code 团队继续提供的所有最新功能。适合初学者和老手，重点关注代码质量、安全性和原创性。旧的方式已经来了又消失了。是时候拥抱下一阶段了。以前的目录已不再适用，因此正在准备新的组织系统。感谢所有为这个存储库做出贡献和支持的人，无论是人类还是机器。他：克劳德，你有什么想法吗？克劳德：只要在 Telegram 上联系我，我就会解决。他：我没有 Telegram... 克劳德：...这不是好兆头。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-code, agentic-coding, ai-workflow-optimization, ai-workflows, anthropic
+
+---
+
 ## 🕔 2026-05-28 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
