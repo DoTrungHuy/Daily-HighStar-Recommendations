@@ -1,12 +1,13 @@
-name: Daily High-Star Fetcher (Hourly Test)
+name: High-Star Fetcher (Every 5 Hours)
 
 on:
   schedule:
-    - cron: '0 * * * *'      # 每小时整点（测试用，稳定后改回每天）
+    # GitHub Actions 使用 UTC 时间；每天 00:00、05:00、10:00、15:00、20:00 UTC 自动运行
+    - cron: '0 */5 * * *'
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-recommendations:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -29,22 +30,22 @@ jobs:
 
       - name: Commit & Push update
         run: |
-          echo "Last run: $(date +'%Y-%m-%d %H:%M:%S UTC')" > .last_run
+          echo "Last run: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" > .last_run
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git commit -m "Hourly High-Star recommendations update - $(date +'%Y-%m-%d %H:%M')" || echo "No changes to commit"
+          git commit -m "Update high-star recommendations - $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   notify:
-    needs: update-readme
+    needs: update-recommendations
     runs-on: ubuntu-latest
     if: always()
     steps:
       - name: Success Notification
-        if: needs.update-readme.result == 'success'
+        if: needs.update-recommendations.result == 'success'
         run: |
           echo "✅ Workflow succeeded"
           curl -X POST "${{ secrets.DISCORD_WEBHOOK }}" \
@@ -54,7 +55,7 @@ jobs:
             }' || echo "No webhook configured"
 
       - name: Failure Notification
-        if: needs.update-readme.result != 'success'
+        if: needs.update-recommendations.result != 'success'
         run: |
           echo "❌ Workflow failed"
           curl -X POST "${{ secrets.DISCORD_WEBHOOK }}" \
