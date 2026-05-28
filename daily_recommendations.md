@@ -1,3 +1,55 @@
+## 📅 2026-05-28 每日高 Star 项目推荐
+
+> 🤖 每日精选高质量开源项目，持续为你带来灵感
+
+### 🌟 [claude-mem](https://github.com/thedotmack/claude-mem)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 79,163
+- **核心概述**: 每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等
+- **技术标签**: ai, ai-agents, ai-memory, anthropic, artificial-intelligence, chromadb
+
+---
+
+### 🌟 [OpenHands](https://github.com/OpenHands/OpenHands)
+- **项目语言**: Python
+- **星标数量**: ⭐ 75,073
+- **核心概述**: 🙌 OpenHands：人工智能驱动的开发
+- **技术标签**: agent, artificial-intelligence, chatgpt, claude-ai, cli, developer-tools
+
+---
+
+### 🌟 [daytona](https://github.com/daytonaio/daytona)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 72,457
+- **核心概述**: Daytona 是用于运行人工智能生成的代码的安全且弹性的基础设施
+- **技术标签**: agentic-workflow, ai, ai-agents, ai-runtime, ai-sandboxes, code-execution
+
+---
+
+### 🌟 [deer-flow](https://github.com/bytedance/deer-flow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 69,777
+- **核心概述**: 一个开源的长期 SuperAgent 工具，用于研究、编码和创建。借助沙箱、内存、工具、技能、子代理和消息网关，它可以处理可能需要几分钟到几小时的不同级别的任务。
+- **技术标签**: agent, agentic, agentic-framework, agentic-workflow, ai, ai-agents
+
+---
+
+### 🌟 [paperclip](https://github.com/paperclipai/paperclip)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 67,964
+- **核心概述**: 每个人都用它来管理工作中的座席的开源应用程序
+- **技术标签**: 
+
+---
+
+### 🌟 [RuView](https://github.com/ruvnet/RuView)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 66,732
+- **核心概述**: π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。
+- **技术标签**: agentic-ai, claude, densepose, esp32, firmware, home-assistant
+
+---
+
 ## 📅 2026-05-27 每日高 Star 项目推荐
 
 > 🤖 每日精选高质量开源项目，持续为你带来灵感
