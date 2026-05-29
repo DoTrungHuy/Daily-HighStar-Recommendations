@@ -1,3 +1,67 @@
+## 🕔 2026-05-29 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [awesome-copilot](https://github.com/github/awesome-copilot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 34,061
+- **核心概述**: 社区提供的说明、代理、技能和配置可帮助您充分利用 GitHub Copilot。
+- **大概是做什么的**: 🤖 很棒的 GitHub Copilot 社区创建的自定义代理、说明、技能、挂钩、工作流程和插件的集合，可增强您的 GitHub Copilot 体验。探索网站上的完整集合 → Awesome-copilot.github.com 该网站提供数百个资源的全文搜索和过滤，以及用于 MCP 服务器和开发人员工具的工具部分，以及用于指南和教程的学习中心。在人工智能代理中使用这个集合？机器可读的 llms.txt 包含所有代理、说明和技能的结构化列表。第一次接触 GitHub Copilot 自定义？网站上的学习中心提供精选文章、演练和参考材料，涵盖从代理、技能和说明等核心概念到挂钩、代理工作流程、MCP 服务器和 Copilot 编码代理的实践指南的所有内容。资源 说明 浏览 ---------- ------------- -------- 🤖 代理 与 MCP 服务器集成的专业 Copilot 代理 所有代理 → 📋 说明 按文件模式自动应用的编码标准 全部
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents, ai, awesome, custom-agents, github-copilot
+
+---
+
+### 🌟 [PageIndex](https://github.com/VectifyAI/PageIndex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 32,297
+- **核心概述**: 📑 PageIndex：无向量、基于推理的 RAG 的文档索引
+- **大概是做什么的**: PageIndex：无向量、基于推理的 RAG 基于推理的 RAG      无向量 DB 或分块       上下文感知       类人检索 🌐 主页   •   🖥️ 聊天平台      🔌 MCP 和 API       📖 文档       💬 Discord       - 🔥 Agentic Vectorless RAG — 一个简单的agentic、无向量 RAG 示例，具有自托管 PageIndex，使用 OpenAI Agents SDK。 - 将 PageIndex 扩展到数百万个文档 — PageIndex 文件系统是一个文件级树层，可让 PageIndex 对整个语料库（而不仅仅是单个文档）进行推理，从而实现大规模文档搜索。 - PageIndex Chat — 用于专业长文档的类人文档分析代理平台。也可通过 MCP 或 API 获取。 - PageIndex 框架 — 深入探讨 PageIndex：一种代理式上下文树索引，使法学硕士能够对长文档执行基于推理的上下文感知检索。 📑 PageIndex 简介 您是否对长专业文档的矢量数据库检索准确性感到沮丧？传统的基于矢量的 RAG 依赖
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, ai-agents, context-engineering, information-retrieval
+
+---
+
+### 🌟 [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 31,624
+- **核心概述**: 快速、小型且完全自主的人工智能个人助理基础设施，任何操作系统、任何平台——部署在任何地方，交换任何东西🦀
+- **大概是做什么的**: 🦀 ZeroClaw — 个人人工智能助理 您拥有该代理。您拥有数据。您拥有它运行的机器。 ZeroClaw 是一个代理运行时——您配置和运行的单个 Rust 二进制文件。它与 LLM 提供商（Anthropic、OpenAI、Ollama 和其他 20 个）进行对话，通过 30 多个渠道（Discord、Telegram、Matrix、电子邮件、语音、webhooks、您自​​己的 CLI）到达世界，并通过工具（shell、浏览器、HTTP、硬件、自定义 MCP 服务器）进行操作。一切都可以在您的机器上、在您的工作区中通过您的���匙运行。阅读《哲学》，了解塑造它的四种观点。安装程序会询问您是否需要预构建的二进制文件（快，秒）或源构建（慢，可定制）。两者的结局都是一样的——船上的零爪会自动开始。特定于平台的说明：Linux · macOS · Windows · Docker 完整演练：快速启动 - 或使用开发盒的 YOLO 模式跳过安全门。 - 多渠道 — 一名客服人员会在您配置的每个渠道上为您提供答复。来自 Discord、Telegram、Matrix、电子邮件、webhooks、CLI 的入站消息 — 所有消息均传送到同一个代理循环。 - 与提供商无关——模型专业
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, infra, ml, openclaw
+
+---
+
+### 🌟 [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 30,319
+- **核心概述**: next.js Web 应用程序将 AI 功能与 draw.io 图表集成在一起。该应用程序允许您通过自然语言命令和人工智能辅助可视化来创建、修改和增强图表。
+- **大概是做什么的**: AI 支持的图表创建工具 - 聊天、绘图、可视化 Next.js Web 应用程序，将 AI 功能与 draw.io 图表集成在一起。通过自然语言命令和人工智能辅助可视化创建、修改和增强图表。注：感谢字节跳动豆宝赞助，演示站现使用强大的glm-4.7模型！ https://github.com/user-attachments/assets/9d60a3e8-4a1c-4b5e-acbb-26af2d3eabd1 - 桌面应用程序 - 部署到 EdgeOne 页面 - 在 Cloudflare Workers 上部署 - 多提供商支持 - 支持 \& 联系方式 以下是一些示例提示及其生成的图表： 动画变压器连接器 提示：给我一个变压器架构的动画连接器图。 RAG技术图提示：生成聊天应用程序的RAG架构图。使用连接图进行数据提取 使用 React 和 AWS 进行身份验证 提示：使用 React 和 AWS 生成身份验证流程。使用无服务器架构。提示：创建 Henry Chesbrough 的开放式创新模型的可视化。提示：给我画一只可爱的猫。 - LLM 支持的图表创建
+- **有什么用**: 适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。
+- **技术标签**: ai, diagrams, productivity
+
+---
+
+### 🌟 [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 30,037
+- **核心概述**: 人工智能提示优化器，用于编写更好的提示并获得更好的人工智能结果。
+- **大概是做什么的**: 网站在线优化器 Prompt Garden 文档 快速入门 Chrome 扩展 💖 支持开发文档 Vercel 部署指南 Cloudflare 部署指南 MCP 部署指南 DeepWiki 文档 ZRead 文档 📖 项目简介 Prompt Optimizer 是一款强大的 AI 提示优化工具，可以帮助您编写更好的 AI 提示，提高 AI 输出的质量。它支持四种使用方式：Web应用、桌面应用、Chrome扩展、Docker部署。提示可以从手动编写、模板、本地导入或 Prompt Garden 等来源开始。提示优化器是对这些提示进行优化、测试、评估并将其保存为可重用提示资产的地方。 🎥 功能演示 1. 精明的审稿人：将协议转化为有用的批评从最简单的英语角色提示开始，优化将小模型从一般性的推论中推向更清晰、更结构化的审稿，以揭示薄弱的假设、证据差距和具体的修改建议。 2.市场讨价还价回复：让变量改变策略使用单个可重复使用的提示模板，
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-prompts, ai-tools, llm, prompt, prompt-engineering, prompt-optimization
+
+---
+
+### 🌟 [voicebox](https://github.com/jamiepine/voicebox)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 28,779
+- **核心概述**: 开源人工智能语音工作室。克隆、指令、创造。
+- **大概是做什么的**: 开源人工智能语音工作室。克隆任何声音。生成语音。对任何应用程序进行口述。用您自己的声音与特工交谈。完整的语音 I/O 堆栈，在您的计算机上本地运行。单击上面的图片观看 voicebox.sh 上的演示视频 Voicebox 是本地首个 AI 语音工作室 - 一个应用程序中 ElevenLabs 和 WisprFlow 的免费开源替代品。从几秒钟的音频中克隆语音，通过 7 个 TTS 引擎生成 23 种语言的��音，使用全局热键听写到任何文本字段，并为任何 MCP 感知的 AI 代理提供您选择的声音。两个云服务位于语音 I/O 环路的相对两半 — ElevenLabs 位于输出端，WisprFlow 位于输入端。 Voicebox 两者兼而有之，将它们与捆绑的本地法学硕士连接起来，以进行细化和每个配置文件的角色，并在您的计算机上运行整个过程。 - 完全隐私 — 模型、语音数据和捕获永远不会离开您的机器 - 7 个 TTS 引擎 — Qwen3-TTS、Qwen CustomVoice、LuxTTS、Chatterbox Multilingual、Chatterbox Turbo、HumeAI TADA 和 Kokoro - 语音克隆和预设语音 — 从参考样本零样本克隆，
+- **有什么用**: 适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。
+- **技术标签**: ai, cuda, mlx, qwen3-tts, qwen3-tts-ui, voice-ai
+
+---
+
 ## 🕔 2026-05-28 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
