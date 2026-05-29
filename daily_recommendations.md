@@ -1,3 +1,67 @@
+## 🕔 2026-05-29 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [opcode](https://github.com/winfunc/opcode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 21,973
+- **核心概述**: 强大的 GUI 应用程序和 Claude Code 工具包 - 创建自定义代理、管理交互式 Claude Code 会话、运行安全后台代理等。
+- **大概是做什么的**: 强大的 GUI 应用程序和 Claude Code 工具包 创建自定义代理、管理交互式 Claude Code 会话、运行安全后台代理等。 https://github.com/user-attachments/assets/6bceea0f-60b6-4c3e-a745-b891de00b8d0 ⭐ 为仓库加注星标并在 X 上关注@getAsterisk，以便尽早访问 asteria-swe-v0 。该项目不隶属于 Anthropic、不受其认可或赞助。 Claude 是 Anthropic, PBC 的商标。这是一个使用 Claude 的独立开发者项目。 opcode 是一款功能强大的桌面应用程序，它改变了您��� Claude Code 的交互方式。它使用 Tauri 2 构建，提供了一个漂亮的 GUI，用于管理 Claude Code 会话、创建自定义代理、跟踪使用情况等等。将操作码视为 Claude Code 的指挥中心 - 弥合命令行工具和视觉体验之间的差距，使人工智能辅助开发更加直观和高效。 📋 目录 - 🗂️ 项目和会话管理 - 📊 使用情况分析仪表板 - 🔌 MCP 服务器管理 - ⏰ 时间轴和检查点 - 📝 CLAUDE.md 管理 - 使用 MCP
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anthropic, anthropic-claude, claude, claude-4, claude-4-opus, claude-4-sonnet
+
+---
+
+### 🌟 [coze-studio](https://github.com/coze-dev/coze-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 20,874
+- **核心概述**: 一个具有一体化可视化工具的 AI 代理开发平台，以前所未有的方式简化代理创建、调试和部署。轻松创建 AI 代理。
+- **大概是做什么的**: 什么是科兹工作室？ Coze Studio 是一款一体化 AI 代理开发工具。 Coze Studio提供最新的大型模型和工具，丰富的开发模式和框架，提供从开发到部署最便捷的AI代理开发环境。提供AI代理开发所需的全部核心技术：提示、RAG、插件、工作流，让开发者专注于创造AI的核心价值。可以以最低的成本进行专业的AI代理开发：Coze Studio为开发者提供完整的应用程序模板和构建框架，让您可以快速构建各种AI代理，并将创意变为现实。 Coze Studio，源于服务了数万家企业、数百万开发者的“Coze开发平台”，我们将其核心引擎完全开放。它是人工智能代理的一站式可视化开发工具，使创建、调试和部署人工智能代理变得前所未有的简单。通过 Coze Studio 的可视化设计和构建工具，开发人员可以快速创建和调试代理、应用程序和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-platform, ai-plugins, chatbot, chatbot-framework, coze
+
+---
+
+### 🌟 [agents-towards-production](https://github.com/NirDiamant/agents-towards-production)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 20,535
+- **核心概述**: 用于构建生产级 GenAI 代理的端到端、代码优先教程。从原型到企业部署。
+- **大概是做什么的**: 面向生产的代理 将人工智能代理转变为现实世界产品的开源手册。 Agents Towards Production 是您构建可从原型扩展到企业的生产就绪 GenAI 代理的首选资源。教程涵盖有状态工作流程、矢量内存、实时网络搜索 API、Docker 部署、FastAPI 端点、安全护栏、GPU 扩展、浏览器自动化、微调、多代理协调、可观察性、评估和 UI 开发。 ⭐ 如果您发现此项目有价值，请为其加注星标以帮助其他人发现这些教程！ 📖 DiamantAI 系列书籍 RAG Made Simple - RAG 系统的生产参考 22 种 RAG 技术的 400 页视觉指南。如果您是需要检索和基于真实数据的运输代理，那么这是此存储库中模式背后的结构化参考。已售出 1,500 多本 · 发布时在亚马逊生成式 AI 中排名第一 · ⭐ 4.4 星 Kindle 9.99 美元 · 平装本 24.99 美元 · Kindle Unlimited 免费 👉 在亚马逊上获取 RAG Made Simple Prompt Engineering：掌握 AI 交互的艺术 - 提示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agents, ai-agents, deployment, genai
+
+---
+
+### 🌟 [dyad](https://github.com/dyad-sh/dyad)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 20,465
+- **核心概述**: 适合高级用户的本地开源 AI 应用程序构建器 ✨ v0 / Lovable / Replit / Bolt 替代方案 🌟 如果您喜欢，请加星！
+- **大概是做什么的**: Dyad 是一个本地开源人工智能应用程序构建器。它快速、私密且完全由您控制 - 就像 Lovable、v0 或 Bolt，但可以直接在您的计算机上运行。更多信息请访问：https://dyad.sh/ - ⚡️ 本地：快速、私密且无锁定。 - 🛠 自带密钥：使用您自己的 AI API 密钥 — 无供应商锁定。 - 🖥️ 跨平台：轻松在 Mac 或 Windows 上运行。无需注册。只需下载即可使用。 👉 为您的平台下载 加入我们在 Reddit 上不断壮大的 AI 应用程序构建者社区：r/dyadbuilders - 分享您的项目并从社区获得帮助！ Dyad 是开源的（请参阅下面的许可证信息）。如果您有兴趣为 dyad 做出贡献，请阅读我们的贡献文档。 - 此存储库中 src/pro 之外的所有代码都是开源的，并在 Apache 2.0 下获得许可 - 请参阅许可证。 - src/pro 内此存储库中的所有代码都是公平源代码，并根据功能源许可证 1.1 Apache 2.0 获得许可 - 请参阅许可证。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-app-builder, anthropic, artificial-intelligence, bolt, deepseek, gemini
+
+---
+
+### 🌟 [adk-python](https://github.com/google/adk-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 19,919
+- **核心概述**: 一个开源、代码优先的 Python 工具包，用于构建、评估和部署复杂的人工智能代理，具有灵活性和控制力。
+- **大概是做什么的**: 代理开发套件 (ADK) 2.0 一种开源、代码优先的 Python 框架，用于构建、评估和部署具有灵活性和控制性的复杂 AI 代理。 ⚠️ 1.x 的重大更改 此版本包括对代理 API、事件模型和会话架构的重大更改。 ADK 2.0 生成的会话可由 ADK 1.28+ 读取（额外字段将被忽略），但与旧的 1.x 版本不兼容。 🔥 2.0 的新增功能 - 工作流运行时：基于图形的执行引擎，用于为代理应用程序组成确定性执行流，支持路由、扇出/扇入、循环、重试、状态管理、动态节点、人机循环和嵌套工作流。 - 任务 API：结构化代理到代理委派，具有多轮任务模式、单轮控制输出、混合委派模式、人在环和任务代理作为工作流节点。要求：Python 3.11+。要安装可选集成，您可以使用以下命令： 发布节奏大致为每两周一次。 - 入门：https://google.github.io/adk-docs/ - 示例：参见贡献/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, agents, agents-sdk, ai
+
+---
+
+### 🌟 [owl](https://github.com/camel-ai/owl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 19,806
+- **核心概述**: 🦉 OWL：优化劳动力学习，以实现现实世界任务自动化中的通用多代理协助
+- **大概是做什么的**: 🦉 OWL：优化劳动力学习，实现现实世界任务自动化中的通用多智能体协助 🏆 OWL 在 GAIA 基准测试中获得 69.09 的平均分，在开源框架中排名 🏅️ 1！ 🏆 🦉 OWL 是一个用于多智能体协作的尖端框架，它构建在 CAMEL-AI 框架之上，突破了任务自动化的界限。我们的愿景是彻底改变人工智能代理协作解决现实世界任务的方式。通过利用动态代理交互，OWL 可以跨不同领域实现更自然、高效和强大的任务自动化。如果您发现此存储库有用，请考虑引用我们的工作（引用）。 📋 目录 - 📋 目录 - 安装选项 - 选项 1：使用 uv（推荐） - 选项 2：使用 venv 和 pip - 选项 3：使用 conda - 选项 4：使用 Docker - 使用预构建映像（推荐） - 在本地构建映像 - 使用便捷脚本 - 设置环境变量 - 直接设置环境变量 - 替代方案：使用 .env 文件 - MCP Desktop Commander 设置- 使用不同的模型运行 - 模型要求
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, artificial-intelligence, multi-agent-systems, task-automation, web-interaction
+
+---
+
 ## 🕔 2026-05-29 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
