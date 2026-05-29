@@ -1,3 +1,67 @@
+## 🕔 2026-05-29 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [sim](https://github.com/simstudioai/sim)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 28,634
+- **核心概述**: 构建、部署和编排 AI 代理。 Sim 是 AI 员工队伍的中央智能层。
+- **大概是做什么的**: 用于构建人工智能代理和运行代理劳动力的开源平台。连接 1,000 多个集成和法学硕士来编排代理工作流程。在画布上直观地设计代理工作流程 - 连接代理、工具和块，然后立即运行它们。利用 Copilot 进行增压 利用 Copilot 生成节点、修复错误并直接从自然语言迭代流程。集成矢量数据库将文档上传到矢量存储，让代理根据您的具体内容回答问题。云托管：sim.ai 自托管：NPM 包 → http://localhost:3000 Docker 必须安装并在您的计算机上运行。 ------ ------------- -p, --port 运行 Sim 的端口（默认 3000 ） --no-pull 跳过拉取最新的 Docker 镜像 自托管：Docker Compose Open http://localhost:3000 Sim 还通过 Ollama 和 vLLM 支持本地模型 — 有关设置详细信息，请参阅 Docker 自托管文档。自托管：手动设置要求：Bun、Node.js v20+、带有 pgvector 的 PostgreSQL 12+ 1. 克隆并安装： 2. 使用 pgvector 设置 PostgreSQL： 或通过 pgvector 指南手动安装。 3. 配置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflow, agentic-workflow, agents, ai, aiagents, anthropic
+
+---
+
+### 🌟 [openclaude](https://github.com/Gitlawb/openclaude)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 28,018
+- **核心概述**: 跑到任何地方。使用任何东西
+- **大概是做什么的**: OpenClaude 是一个面向云和本地模型提供商的开源编码代理 CLI。使用 OpenAI 兼容的 API、Gemini、GitHub 模型、Codex OAuth、Codex、Ollama、Atomic Chat 和其他支持的后端，同时保持终端优先的工作流程：提示、工具、代理、MCP、斜线命令和流输出。 OpenClaude 也镜像到 GitLawb：gitlawb.com/node/repos/z6MkqDnb/openclaude 快速入门设置指南 提供商源代码构建 VS 代码扩展赞助商社区 - 在云 API 和本地模型后端使用一个 CLI - 使用 /provider 在应用程序内保存提供商配置文件 - 使用 OpenAI 兼容服务、Gemini、GitHub 模型、Codex OAuth、Codex、Ollama、Atomic Chat 等运行支持的提供程序 - 将编码代理工作流程保留在一处：bash、文件工具、grep、glob、代理、任务、MCP 和 Web 工具 - 使用捆绑的 VS Code 扩展进行启动集成和主题支持 如果稍后安装报告 ripgrep not find ，请在启动 OpenClaude 之前在系统范围内安装 ripgrep 并确认 rg --version 在同一终端中工作。 - 运行 /provider 进行指导 prov
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-tools, cli, coding
+
+---
+
+### 🌟 [taste-skill](https://github.com/Leonxlnx/taste-skill)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 27,331
+- **核心概述**: 品味技能 - 给你的人工智能良好的品味。阻止人工智能产生无聊的、通用的斜坡
+- **大概是做什么的**: AI 代理的 Anti-Slop 前端框架 便携式代理技能可升级 AI 构建的界面：更强的布局、版式、运动和间距，而不是样板式 UI。该存储库还包括参考板（网络、移动设备、品牌套件）的图像生成技能。将它们与 ChatGPT Images 或类似的生成器配对，然后将帧交给 Codex、Cursor 或 Claude Code 进行实现。 Taste Skill 没有官方代币、硬币或加密项目。任何使用我的名字、图像或项目的代币均与我无关且未得到我的认可。免责声明 · 安装 · 技能 · 设置 · 示例 · 赞助商 · 研究 · 常见问题解答 · 许可证 反馈和贡献 我们非常乐意接受您的反馈。建议和错误报告： - 在 GitHub 上打开 Pull 请求或问题 - DM @lexnlin 或 @blueemi99 - 给我们发送电子邮件至 hello@tasteskill.dev npx 技能添加 CLI 扫描此存储库中的技能/文件夹，因此下面的所有技能（代码和图像生成）都以相同的方式安装。通过安装名称（名称：SKILL frontmatter 内的字段，而不是文件夹名称）安装单个技能：您还可以复制任何 SKIL
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude, claude-code, codex, coding
+
+---
+
+### 🌟 [claude-task-master](https://github.com/eyaltoledano/claude-task-master)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 27,283
+- **核心概述**: 一个人工智能驱动的任务管理系统，您可以将其放入 Cursor、Lovable、Windsurf、Roo 等中。
+- **大概是做什么的**: Taskmaster：用于人工智能驱动开发的任务管理系统，旨在与任何人工智能聊天无缝协作。作者：@eyaltoledano 和 @RalphEcom 与 Claude 一起进行 AI 驱动开发的任务管理系统，旨在与 Cursor AI 无缝协作。 📚 查看完整文档 - API 密钥和提供程序 - MCP 工具参考 - CLI 命令参考 - 标签和工作流 - AI 提供程序概述 - 团队协作 - 产品和工程方法 - 产品和工程技能 Cursor 1.0+ 快速安装（一键式） 注意：单击链接后，您仍然需要将 API 密钥添加到配置中。该链接使��占位符密钥安装 MCP 服务器，您需要将其替换为实际的 API 密钥。 Claude Code 快速安装 对于 Claude Code 用户：不要忘记将 API 密钥添加到配置中： - 在项目的 root .env 中 - 在 taskmaster-ai 的 mcp 配置的“env”部分中 Taskmaster 在多个命令中利用 AI，这些命令需要单独的 API 密钥。只要添加 API 密钥，您就可以使用来自不同 AI 提供商的各种模型。为了
+- **有什么用**: 从项目说明看，它主要围绕“Taskmaster：用于人工智能驱动开发的任务管理系统，旨在与任何人工智能聊天无缝协作。作者：@eyaltoledano 和 @RalphEcom 与 Cla”展开，可用于学习、研究或二次开发。
+- **技术标签**: ai, cursor, cursor-ai, cursorai, lovable, lovable-dev
+
+---
+
+### 🌟 [AionUi](https://github.com/iOfficeAI/AionUi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 27,105
+- **核心概述**: 免费、本地、开源 24/7 Cowork 应用程序，适用于 OpenClaw、Hermes Agent、Claude Code、Codex、OpenCode、Gemini CLI 和 20 多个 CLI |定制您的助手 |喜欢就star吧！
+- **大概是做什么的**: 一款免费、开源、带有 AI 代理的 Cowork 应用程序 内置代理 零设置 任何 API 密钥 多代理远程访问 跨平台 24/7 自动化 English 简体中文 繁体中文 日本语 한국어 Español Português Türkçe Русский Українська 官方网站 💬 社区：Discord (English) 微信(中文群) Twitter 为什么选择 AionUi？ · Cowork — 与您并肩工作的人工智能代理 AionUi 不仅仅是一个聊天客户端。这是一个 Cowork 平台，人工智能代理可以在您的计算机上与您一起工作 - 读取文件、编写代码、浏览网页和自动执行任务。您可以看到代理所做的一切，并且始终处于掌控之中。传统 AI 聊天客户端 AionUi (Cowork) :-------------------------------------------- :----------------------------------------- :-------------------------------------------------------------------------------------------------------------------------------------------- AI 可以对您的文件进行操作 有限或否 是 — 具有完全文件访问权限的内置代理 AI 可以执行多步骤任务 有限 是 — 经您批准自主进行 电话远程访问 很少 WebUI + Telegram / Lark / 钉钉 / 微信 定时自动化 否 Cron — 24/7 无人值守 Mu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-team, ai, ai-agent, chat, chatbot
+
+---
+
+### 🌟 [llmfit](https://github.com/AlexsJones/llmfit)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 26,842
+- **核心概述**: 数百个模型和提供商。一个命令即可查找您的硬件上运行的内容。
+- **大概是做什么的**: 新功能：社区排行榜 - 浏览来自实际用户的真实性能数据。按 b 可查看任何 GPU（不仅仅是您的 GPU）的测量 tok/s、TTFT 和 VRAM。使用 H 从 27 多个硬件预设（RTX 5090 到 Apple M1）中进行选择，以便在购买或构建之前比较实际数字。数百个模型和提供商。一个命令即可查找您的硬件上运行的内容。一个终端工具，可根据系统的 RAM、CPU 和 GPU 调整 LLM 模型的大小。检测您的硬件，对每���模型的质量、速度、适合度和上下文维度进行评分，并告诉您哪些模型实际上可以在您的计算机上运行良好。附带交互式 TUI（默认）和经典 CLI 模式。支持多 GPU 设置、MoE 架构、动态量化选择、速度估计和本地运行时提供程序（Ollama、llama.cpp、MLX、Docker Model Runner、LM Studio）。新功能：社区排行榜 (b) — 查看与您运行相同硬件的其他用户的实际 tok/s、TTFT 和 VRAM 使用情况。由 localmaxxing.com 提供支持，这弥补了估计性能和实际性能之间的差距。另外：下载管理器 (D)、高级配置
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: gguf, llm, localai, mlx, skill, unsloth
+
+---
+
 ## 🕔 2026-05-29 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
