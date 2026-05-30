@@ -1,3 +1,67 @@
+## 🕔 2026-05-30 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [rf-detr](https://github.com/roboflow/rf-detr)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,460
+- **核心概述**: RF-DETR是Roboflow开发的实时目标检测和分割模型架构，SOTA on COCO，专为微调而设计。 [ICLR 2026]
+- **大概是做什么的**: RF-DETR：实时 SOTA 检测和分割 RF-DETR 是 Roboflow 开发的用于对象检测和实例分割的实时转换器架构。 RF-DETR 基于 DINOv2 视觉变压器主干构建，可在 Microsoft COCO 和 RF100-VL 上提供最先进的准确性和延迟权衡。 RF-DETR 使用 DINOv2 视觉转换器主干，并在单个一致的 API 中支持检测和实例分割。开源 rfdetr 包和 Apache 指定的模型在 Apache 2.0 下发布，而 Plus 组件（ rfdetr plus ，包括 RF-DETR-XL/2XL 检测模型）在 PML 1.0 下授权。 https://github.com/user-attachments/assets/add23fd1-266f-4538-8809-d7dd5767e8e6 要安装 RF-DETR，请使用 pip 在 Python =3.10 环境中安装 rfdetr 包。通过从源代码安装 RF-DETR，您可以探索尚未正式发布的最新功能和增强功能。请注意，这些更新仍在开发中，可能不如最新发布的版本稳定。 RF-DETR 达到最先进的水平
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: computer-vision, detr, instance-segmentation, machine-learning, object-detection, rf-detr
+
+---
+
+### 🌟 [Bindu](https://github.com/GetBindu/Bindu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,784
+- **核心概述**: Bindu：人工智能代理的身份、通信和支付层。
+- **大概是做什么的**: 人工智能代理的身份、通信和支付层。用于代理互联网的 Gmail 形状的收件箱。观察您的代理相互发送签名的 JSON-RPC，内联验证身份，并像线程一样回复群。 → 打开收件箱演练 情况如下。你建立了一个代理。有用。但要真正放手——与其他特工交谈，证明他是谁，为工作赚钱——你会陷入很多无聊的管道工作中。要集成的 DID 库。要设置的 OAuth 流程。支付中间件。 HTTP 层遵循代理世界的其他部分正在使用的任何协议。 Bindu 是一个函数调用背后的所有管道。你用 binufy() 包装你的处理程序，几秒钟后，你的代理就以其自己的加密身份在线，使用 A2A（其他代理已经使用的协议），并准备好在任何 EVM 链上请求 USDC，然后再进行任何工作 (x402)。您的处理程序保持与 (messages) - response 一样小。处理程序内部的框架——Agno、LangChain、CrewAI，你自己的东西——Bindu 并不关心。有 Python、Ty 的 SDK
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-communication, agent-orchestration, ai-agent, autonomous-agents, eu-ai-act
+
+---
+
+### 🌟 [sdk-python](https://github.com/strands-agents/sdk-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,977
+- **核心概述**: 一种模型驱动的方法，只需几行代码即可构建人工智能代理。
+- **大概是做什么的**: 一种模型驱动的方法，只需几行代码即可构建人工智能代理。 Strands Agents 是一个简单但功能强大的 SDK，它采用模型驱动的方法来构建和运行 AI 代理。从简单的对话助理到复杂的自主工作流程，从本地开发到生产部署，Strands Agents 可根据您的需求进行扩展。此 monorepo 包含 Python SDK、TypeScript SDK、文档站点和支持包： 目录 说明 -------------- -------------strands-py/ Python SDK — 代理循环、模型提供程序、工具 (PyPI)strands-ts/TypeScript SDK — 代理循环、模型提供程序、工具 (npm)strands-wasm/ WebAssembly 绑定，用于从 TypeScript 代理运行 Python 工具strands-py-wasm/ 用于 WASM 组件的 Python 主机（将 WIT 接口桥接到Python）strandly/用于本地构建、代码生成和工作区工具站点的开发人员 CLI/使用 Astro/Starlight (strandsagents.com) 设计构建的文档站点/重要功能的设计建议（RFC 样式） - 轻量级和灵活：简单的代理循环，可以正常工作并且完全可定制 - Mod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agents, ai, anthropic, autonomous-agents
+
+---
+
+### 🌟 [learn-ai-engineering](https://github.com/ashishps1/learn-ai-engineering)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 5,647
+- **核心概述**: 使用免费资源从头开始学习人工智能和法学硕士
+- **大概是做什么的**: 学习 AI 工程 全面的免费资源集合，可帮助您了解有关 AI/ML、法学硕士和代理的所有知识。数学基础 - 机器学习数学路线图 - 线性代数精髓 - 3Blue1Brown - 概率与统计 - 可汗学院 - 统计基础 - Josh Stramer - 机器学习专业数学 - Coursera (Andrew Ng) - AI Python 初学者 - Deeplearning.ai AI 和 ML 基础 - 机器学习速成课程 - Google - 初学者人工智能 - 微软 - 人工智能元素 - 大学赫尔辛基 - 机器学习播放列表 - Josh Strarmer - 机器学习专业化 - Coursera 机器学习框架 - 深度学习专业化 - Coursera (Andrew Ng) - 程序员实用深度学习 - Fast.ai - 深度学习数学 - 深度学习播放列表 - Josh Starmer 深度学习框架 ���度学习专业化 - 计算机视觉深度学习 - 斯坦福自然语言处理 (NLP) - NLP 专业化 - Coursera 强化学习 - 深度强化学习课程 - 拥抱脸部- 深度强化学习训练营 - UC B
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, deep-learning, generative-ai, large-language-models
+
+---
+
+### 🌟 [rllm](https://github.com/rllm-org/rllm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,578
+- **核心概述**: 法学硕士的强化学习民主化
+- **大概是做什么的**: 使用 RL 训练您的 AI 代理。任何框架。最少的代码更改。 rLLM 是一个开源框架，用于通过强化学习来训练 AI 代理。交换被跟踪的客户端，定义奖励函数，然后让 RL 处理剩下的事情——无论您使用什么代理框架。 - 可与任何代理框架配合使用 - LangGraph、SmolAgent、Strands、OpenAI Agents SDK、Google ADK 或普通 openai.OpenAI 。换个客户端就可以了🔌 - 接近零的代码更改 — 添加 @rllm.rollout 来包装您的代理代码，rLLM 会自动跟踪每个 LLM 调用。 🪄 - CLI 优先工作流程 — 使用 50 多个内置基准从命令行进行评估和训练。 rllm eval gsm8k 可以正常工作。 ⚡ - 经过实战检验的结果 - 经过 rLLM 训练的智能体击败了 50 倍大小的模型（4B → 在金融方面优于 235B，1.5B → 在数学方面超过 O1-Preview）。 📈 - 多种 RL 算法 — GRPO、REINFORCE、RLOO、拒绝采样等。 🧠 - 两个训练后端 — verl 用于分布式多 GPU 训练，tinker 用于单机/CPU 设置。无论哪种方式，API 都是相同的。 🔧 在我们的文档网站上阅读更多内容。 rLLM 需要 Python = 3.11 。你可以ins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-workflow, coding-agent, distributed-training, llm-reasoning, llm-training
+
+---
+
+### 🌟 [shimmy](https://github.com/Michael-A-Kuykendall/shimmy)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 5,294
+- **核心概述**: ⚡ 不含 Python 的 Rust 推理服务器 — 兼容 OpenAI-API。 GGUF + SafeTensors、热模型交换、自动发现、单个二进制文件。现在免费，永远免费。
+- **大概是做什么的**: 轻量级 OpenAI API 服务器 🔒 无依赖本地推理 🚀 语言：简体中文 · 繁体中文 Shimmy 将永远免费。没有星号。没有“暂时免费”。没有支付的支点。 💝 支持 Shimmy 的成长 🚀 如果 Shimmy 对您有帮助，请考虑赞助 — 100% 的支持将使其永远免费。 - $5/月 : 咖啡级别 ☕ - 永恒的感激 + 赞助商徽章 - $25/月 : Bug 优先排序 🐛 - 优先支持 + SPONSORS.md 中的名称 - $100/月 : 公司支持者 🏢 - 徽标放置 + 每月办公时间 - $500/月 : 基础设施合作伙伴 🚀 - 直接支持 + 路线图输入 🎯 成为赞助商 查看我们出色的赞助商 🙏 - 🔥 机身引擎 (v2.0) - 🎯 支持的型号 - 📦 从 v1.x 迁移 - ⚡ 快速入门（30 秒） - 🚀 OpenAI SDK 兼容性 - 🔧 扩展上下文 - 📥 下载和安装 - 🔗 集成示例 - 🏛️ 技术架构 - 📚 文档中心 - 🌍 社区和支持 Drop-in OpenAI API本地法学硕士的替代 Shimmy 是一个单一二进制文件，可为 GGUF 模型提供 100% OpenAI 兼容的端点。将您现有的 AI 工具指向 Shimmy 和 th
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: api-server, command-line-tool, developer-tools, gguf, huggingface, huggingface-models
+
+---
+
 ## 🕔 2026-05-30 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
