@@ -1,3 +1,67 @@
+## 🕔 2026-05-30 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [QwenPaw](https://github.com/agentscope-ai/QwenPaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 17,087
+- **核心概述**: 您的私人人工智能助理；易于安装、部署在自己的机器上或云端；支持多个具有易于扩展功能的聊天应用程序。
+- **大概是做什么的**: 文档] 中文] 日本语] Русский] 为您工作，与您共同成长。您的个人人工智能助手——易于安装、本地或云端部署、跨渠道连接、轻松扩展。在您的控制之下——内存和个性化完全在您的控制之下。本地部署（数据保留在您的计算机上）或云中（您选择的服务器）。无第三方托管，无数据上传。技能扩展——内置日程安排、PDF/Office处理、新闻摘要等；自定义技能自动加载，无锁定。技能决定了 QwenPaw 的能力。多智能体协作——创建多个独立的智能体，每个智能体都有自己的角色；启用代理间通信的协作技能，以共同处理复杂的任务。多层安全——工具防护、文件访问控制、技能安全扫描，确保操作安全。每个渠道——钉钉、飞书、微信、Discord、Telegram 等等。一台 QwenPaw，根据需要连接。记忆进化和主动——代理从交互中学习，反思经验，并主动为您服务。使用得越多，它就会变得越聪明。你可以做什么
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentscope, agentscope-runtime, llm-tools, llms, skills
+
+---
+
+### 🌟 [WeKnora](https://github.com/Tencent/WeKnora)
+- **项目语言**: Go
+- **星标数量**: ⭐ 15,784
+- **核心概述**: 开源LLM知识平台：将原始文档变成可查询的RAG、自主推理代理和自我维护的Wiki。
+- **大概是做什么的**: English 简体中文 日本语 한국어 概述 • 架构 • 主要功能 • 入门 • API 参考 • 开发人员指南 💡 WeKnora — 使用 RAG、代理和 Auto-Wiki 将文档转化为生活知识 WeKnora 是一个由法学硕士支持的开源知识框架，专为企业级文档理解、语义检索和自主推理而构建。它围绕三个核心功能进行组织：用于日常查找的基于 RAG 的快速问答、自主编排检索、MCP 工具和网络搜索以处理复杂的多步骤任务的 ReAct Agent，以及全新的 Wiki 模式，其中代理将原始文档提炼为具有交互式知识图的自我维护、相互链接的 Markdown 知识库。结合多源摄取（飞书/Notion/语雀，以及不断增长的）、20多个LLM提供商集成、完整的Langfuse可观察性、企业级多租户RBAC（4层角色矩阵+每资源所有权+每租户审计日志）以及完全自托管的模块化架构，WeKnora将分散的文档转变为可查询、具有推理能力、不断发展的文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, chatbot, embeddings, evaluation
+
+---
+
+### 🌟 [memvid](https://github.com/memvid/memvid)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 15,585
+- **核心概述**: AI 代理的内存层。使用无服务器、单文件内存层替换复杂的 RAG 管道。为您的代理提供即时检索和长期记忆。
+- **大概是做什么的**: Memvid 是一个用于 AI 代理的单文件存储层，具有即时检索和长期记忆功能。持久性、版本化和便携式内存，无需数据库。基准测试亮点 🚀 比任何其他存储系统更高的准确度：LoCoMo 上 +35% SOTA，一流的长视野对话回忆和推理 🧠 卓越的多跳和时间推理：与行业平均水平相比，+76% 多跳，+56% 时间 ⚡ 超低延迟，规模为 0.025ms P50 和 0.075ms P99，具有吞吐量比标准高 1,372 倍 🔬 完全可重现的基准：LoCoMo（10 × 26K 令牌对话）、开源评估、LLM-as-Judge Memvid 是一种便携式 AI 内存系统，可将您的数据、嵌入、搜索结构和元数据打包到单个文件中。 Memvid 无需运行复杂的 RAG 管道或基于服务器的矢量数据库，而是可以直接从文件中快速检索。结果是一个与模型无关、无需基础设施的内存层，为人工智能代理提供了可以随身携带的持久、长期的内存。什么是智能相框？ Memvid从视频编码中汲取灵感，并不是为了存储视频，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, context, embedded, faiss, knowledge-base, knowledge-graph
+
+---
+
+### 🌟 [easy-vibe](https://github.com/datawhalechina/easy-vibe)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 15,276
+- **核心概述**: 💻 vibe coding 2026 |您的第一门现代编码课程，供初学者逐步掌握。
+- **大概是做什么的**: Jump right in and vibe together — if you can talk, you can build apps. 直接上手，一起 vibe！会说话就会做应用。 你好 · Hello · 哈啰 · こんにちは · 안녕하세요 · Hola · Bonjour · Hallo · مرحبا · Xin chào Stage 1 of our tutorial is now available in 10 languages. Friends around the world, let's start coding together! 我们的教程（第一部分）已经支持 10 种语言，欢迎世界各地的朋友一起 coding！ 🚀 Start Exploring · ✨ Interactive Tutorial · 🦞 Learn OpenClaw · 📖 Table of Contents 🚀 开始体验 · ✨ 交互式教程 · 🦞 学习 OpenClaw · 📖 查看目录 A beginner-friendly learning map Clear guidance from zero, so you can stop "learning and forgetting" Step-by-step visual tutorials Detailed walkthroughs that feel like learning with a private tutor Immersive simulated coding Virtual mouse guidance helps you quickly learn the core IDE workflow Visible AI principles Animated explanations make it easy to see how AI generates images Learn RAG like a game Interactive components let you click through the full RAG data flow Visual terminal concepts Command-line behavior becomes intuitive when the underlying logic is visualized ⭐ Star the repo here to help accelerate updates ❤️ 📝 Have your o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, coding, course, deepseek, gemini
+
+---
+
+### 🌟 [Memori](https://github.com/MemoriLabs/Memori)
+- **项目语言**: Python
+- **星标数量**: ⭐ 15,098
+- **核心概述**: Memori 是代理本机内存基础设施。与 LLM 无关的层，可将代理执行和对话转变为生产系统的结构化、持久状态。
+- **大概是做什么的**: 记忆来自特工的所作所为，而不仅仅是他们所说的。 Memori 可以插入您已经使用的软件和基础设施中。它与法学硕士、数据存储和框架无关，并且无缝集成到您已经设计的架构中。 → Memori Cloud — 零配置。获取 API 密钥并在几分钟内开始构建。选择在 app.memorilabs.ai 上执行注册的内存，获取 Memori API 密钥，然后开始构建。完整文档：memorilabs.ai/docs/memori-cloud/。设置 MEMORI API KEY 和您的 LLM API 密钥（例如 OPENAI API KEY ），然后： 探索 Memories 使用仪表板 — Memories、Analytics、Playground 和 API 密钥。想使用自己的数据库吗？请在此处查看 Memori BYODB 的文档：https://memorilabs.ai/docs/memori-byodb/。对于一次性 BYODB 开发数据库，​​请参阅 TiDB 零配置指南：docs/memori-byodb/databases/tidb.mdx。 Memori 在 LoCoMo 长对话记忆基准测试中进行了评估，在每次查询平均使用 1,294 个标记的情况下，总体准确率达到 81.95%。这仅占全上下文足迹的 4.97%，表明结构化内存可以保存
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, ai, ai-memory, aiagent, awesome
+
+---
+
+### 🌟 [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 14,236
+- **核心概述**: DeepSeek-适用于您终端的原生 AI 编码代理。围绕前缀缓存稳定性进行设计 - 让它运行。
+- **大概是做什么的**: 适用于您的终端的 DeepSeek 原生 AI 编码代理。围绕前缀缓存稳定性进行设计 - 因此令牌成本在长时间会话中保持较低水平，并且您可以让它继续运行。缓存稳定性不是您打开的功能；而是您可以打开的功能。这是循环设计时围绕的一个不变量。这就是 Reasonix 仅支持 DeepSeek 的全部原因——每一层都针对字节稳定的前缀缓存机制进行了调整。真实用户，单日 (2026-05-01)：435M 输入令牌，99.82% 缓存命中，在 v4-flash 上没有缓存的情况下，相同工作负载的成本为 12 美元，而不是 61 美元 — 请参阅案例研究。 DeepSeek提供可缓存字节；第一支柱中的四种机制是 Reasonix 如何在长会话中保持它们可缓存的。社区 · 加入社区 — 双语 Discord，提供设置帮助 (help / 求助)、工作流程展示、功能创意和仅限贡献者的公关协调渠道。验证您的 GitHub 服务器内以自动获取贡献者角色。 → 需要节点 ≥ 22。适用于 macOS · Linux · Windows（PowerShell · Git Bash · Windows 终端）。如果您希望在您的 PATH 上使用 Reasonix 命令，请全局安装 Reasonix：npm ins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agent, ai-coding, cli, coding-agent
+
+---
+
 ## 🕔 2026-05-30 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
