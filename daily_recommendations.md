@@ -1,3 +1,67 @@
+## 🕔 2026-05-30 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [deep-research](https://github.com/dzhng/deep-research)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 19,007
+- **核心概述**: 人工智能驱动的研究助理，通过结合搜索引擎、网络抓取和大型语言模型，对任何主题进行迭代、深入研究。该存储库的目标是提供深度研究代理的最简单实现 - 例如一个可以随着时间的推移完善其研究方向并深入研究某个主题的代理。
+- **大概是做什么的**: 人工智能驱动的研究助理，通过结合搜索引擎、网络抓取和大型语言模型，对任何主题进行迭代、深入研究。该存储库的目标是提供深度研究代理的最简单实现 - 例如一个可以随着时间的推移完善其研究方向并深入研究某个主题的代理。目标是将回购规模保持在 0，采用新的研究方向并继续探索 - 每次迭代都建立在以前的学习基础上 - 维护研究目标和研究结果的背景 4. 报告生成 - 将所有发现编译成全面的降价报告 - 包括所有来源和参考资料 - 以清晰、可读的格式组织信息 社区实现 Python：https://github.com/Finance-LLMs/deep-research-python MIT 许可证 - 可以根据需要随意使用和修改。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, gpt, o3-mini, research
+
+---
+
+### 🌟 [DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 18,987
+- **核心概述**: 统一深度研究，领先的开源深度研究代理
+- **大概是做什么的**: ModelScope 💬 微信(微信) 📰 博客 📑 论文 👏 欢迎通过我们的 Modelscope 在线演示或 🤗 Huggingface 在线演示或百联服务来尝试统易深度研究！该演示仅供快速探索。由于模型延迟和工具 QPS 限制，响应时间可能会有所不同或间歇性失败。为了获得稳定的体验，我们建议本地部署；如需生产就绪服务，请访问 bailian 并按照指导设置进行操作。我们推出了 Tongyi DeepResearch ，这是一个代理大语言模型，总参数为 305 亿个，每个代币仅激活 33 亿个参数。该模型由统一实验室开发，专为长视野、深度信息搜寻任务而设计。 Tongyi DeepResearch 在一系列代理搜索基准测试中展示了最先进的性能，包括 Humanity's Last Exam、BrowseComp、BrowseComp-ZH、WebWalkerQA、xbench-DeepSearch、FRAMES 和 SimpleQA。 Tongyi DeepResearch 建立在我们之前在 WebAgent 项目上的工作基础上。更多详细信息可以在我们的📰 技术博客中找到。 - ⚙️ 全自动合成数据生成管道：我们设计了一个 hi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, alibaba, artificial-intelligence, deep-research, deepresearch, information-seeking
+
+---
+
+### 🌟 [page-agent](https://github.com/alibaba/page-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 18,180
+- **核心概述**: JavaScript 页内 GUI 代理。使用自然语言控制 Web 界面。
+- **大概是做什么的**: GUI 代理存在于您的网页中。使用自然语言控制 Web 界面。 🚀 演示 📖 文档 📢 HN 讨论 𝕏 关注 X - 🎯 轻松集成 - 无需浏览器扩展/python/无头浏览器。 - 只是页内 JavaScript。一切都发生在您的网页中。 - 📖 基于文本的 DOM 操作 - 无屏幕截图。无需多模式法学硕士或特殊许可。 - 🧠 自带法学硕士 - 🐙 用于多页面任务的可选 chrome 扩展。 - 以及一个 MCP 服务器（测试版），用于从外部对其进行控制 - SaaS AI Copilot — 通过代码行在您的产品中提供 AI 副驾驶。没有后端重写。 - 智能表单填写 — 将 20 次点击的工作流程变成一句话。非常适合 ERP、CRM 和管理系统。 - 可访问性——使任何网络应用程序都可以通过自然语言访问。语音命令、屏幕阅读器、零障碍。 - 多页面代理 — 扩展您自己的网络代理跨浏览器选项卡 Chrome 扩展的范围。 - MCP - 允许您的代理客户端控制您的浏览器。一线集成使用我们的免费演示 LLM 尝试 PageAgent 的最快方法：⚠️ 仅用于技术评估。这个演示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, browser-automation, javascript, mcp
+
+---
+
+### 🌟 [pua](https://github.com/tanweai/pua)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 17,826
+- **核心概述**: 你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。 Your AI has been placed on a PIP. 30 days to show improvement.
+- **大概是做什么的**: 让您的 Codex / Claude Code 生产力和输出翻倍 Telegram · Discord · Twitter/X · 登陆页面 🇨🇳 中文 🇯🇵 日本语 🇺🇸 English      扫描加入微信群                      在微信上添加助手 大多数人认为这个项目是个笑话。这是最大的误解。它真正使您的 Codex / Claude Code 生产力和产量翻倍。一款AI Coding Agent技能插件，利用中西方科技巨头的企业PUA说辞（中文版）/PIP——绩效改进计划（英文版），迫使AI在放弃之前用尽所有可能的解决方案。支持 Claude Code 、 OpenAI Codex CLI 、 pi 编码代理 、 Trae 、 Cursor 、 Kiro 、 CodeBuddy 、 OpenClaw 、 Google Antigravity 、 OpenCode 和 VSCode (GitHub Copilot) 。三种能力：1. PUA 言论——让 AI 不敢放弃 2. 调试方法——让 AI 拥有不放弃的能力 3. 主动执行——让 AI 主动行动，而不是被动等待 https://
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agency, agent, pip, pua
+
+---
+
+### 🌟 [cua](https://github.com/trycua/cua)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 17,318
+- **核心概述**: 计算机使用代理的开源基础设施。用于训练和评估可控制完整桌面（macOS、Linux、Windows）的 AI 代理的沙箱、SDK 和基准测试。
+- **大概是做什么的**: 构建、基准测试和部署使用计算机的代理 Cua Driver - macOS 和 Windows 上的后台计算机使用，以及 Linux 预发布驱动器在后台运行本机桌面应用程序 - 代理单击、键入和验证，而不会窃取光标或焦点。在 macOS 和 Windows 上从 Claude Code、Cursor、Codex、OpenClaw 和自定义客户端使用相同的 CLI 和 MCP 服务器。 Linux 支持作为预发布后端提供，而平台测试仍在进行中。 macOS / Linux 预发布 Windows (PowerShell) 完整工具参考、架构说明和可选代理技能包位于此处：libs/cua-driver/README.md。 Cua - 适用于任何操作系统的代理就绪沙箱 Linux 容器 Linux VM macOS Windows Android BYOI (.qcow2, .iso) ------------------ --------------- -------- ----- ------- ------- ------- 云 (cua.ai) ✅ ✅ ✅ ✅ ✅ 🔜 很快 本地 (QEMU) ✅ ✅ ✅ ✅ ✅ ✅ 入门示例 API 参考 CuaBot - 适用于任何代理的合作计算机cuabot 为任何编码代理提供了一个供计算机使用的无缝沙箱。各个窗口以 H.265、共享剪贴板、本地方式显示在您的桌面上
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, apple, computer-use, computer-use-agent, containerization
+
+---
+
+### 🌟 [agent-lightning](https://github.com/microsoft/agent-lightning)
+- **项目语言**: Python
+- **星标数量**: ⭐ 17,252
+- **核心概述**: 点亮AI特工的绝对训练师。
+- **大概是做什么的**: 点亮AI特工的绝对训练师。加入我们的 Discord 社区，与其他用户和贡献者联系。 - 通过零代码更改（几乎）将您的代理变成可优化的野兽！ 💤 - 使用任何代理框架构建（LangChain、OpenAI Agent SDK、AutoGen、CrewAI、Microsoft Agent Framework...）；甚至没有代理框架（Python OpenAI）。你说出它的名字！ 🤖 - 有选择地优化多智能体系统中的一个或多个智能体。 🎯 - 采用强化学习、自动提示优化、监督微调等算法。 🤗 在我们的文档网站上阅读更多内容。对于最新的夜间构建（尖端功能），您可以从 Test PyPI 安装：请参阅我们的安装指南了解更多详细信息。要开始使用 Agent-lightning，请查看我们的文档和示例。 - 2025 年 12 月 17 日采用轨迹级别聚合加快训练代理闪电博客。 - 11/4/2025 使用 Tinker ✕ Agent-lightning Medium 调整任何 AI 代理。另请参阅第 2 部分。 - 2025 年 10 月 22 日不再出现重新令牌化漂移：通过 OpenAI 兼容 API 返回令牌 ID 问题
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, llm, mlops, reinforcement-learning
+
+---
+
 ## 🕔 2026-05-29 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
