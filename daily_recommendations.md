@@ -1,3 +1,67 @@
+## 🕔 2026-05-30 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [claude-context](https://github.com/zilliztech/claude-context)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,640
+- **核心概述**: 代码搜索 MCP 以获得克劳德代码。使整个代码库成为任何编码代理的上下文。
+- **大概是做什么的**: 🆕 正在寻找克劳德代码的持久内存？查看 memsearch Claude Code 插件 - 一个降价优先的内存系统，可为您的 AI 代理提供跨会话的长期记忆。您的整个代码库作为 Claude 的上下文 Claude Context 是一个 MCP 插件，它向 Claude Code 和其他 AI 编码代理添加语义代码搜索，为它们提供整个代码库的深层上下文。 🧠 将整个代码库作为上下文：Claude Context 使用语义搜索从数百万行中查找所有相关代码。无需多轮发现。它将结果直接带入克劳德的背景中。 💰 对于大型代码库来说具有成本效益：Claude Context 不会为每个请求将整个目录加载到 Claude 中（这可能非常昂贵），而是有效地将您的代码库存储在矢量数据库中，并且仅在上下文中使用相关代码，以保持成本可控。模型上下文协议 (MCP) 允许您将 Claude Context 与您最喜欢的 AI 编码助手集成，例如克劳德·代码。在 Zilliz Cloud 上获取免费的矢量数据库 👈 Claude Context 需要一个矢量数据库。您可以在 Zi 上注册
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-rag, ai-coding, claude-code, code-generation, code-search
+
+---
+
+### 🌟 [trae-agent](https://github.com/bytedance/trae-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,606
+- **核心概述**: Trae Agent 是一个基于 LLM 的代理，用于通用软件工程任务。
+- **大概是做什么的**: Trae Agent 是一个基于 LLM 的代理，用于通用软件工程任务。它提供了强大的 CLI 界面，可以理解自然语言指令并使用各种工具和 LLM 提供商执行复杂的软件工程工作流程。详细技术信息请参阅我们的技术报告。项目状态：该项目仍在积极开发中。如果您愿意帮助我们改进 Trae Agent，请参阅 docs/roadmap.md 和 CONTRIBUTING。与其他 CLI Agent 的区别：Trae Agent 提供透明的模块化架构，研究人员和开发人员可以轻松修改、扩展和分���，使其成为研究 AI 代理架构、进行消融研究和开发新颖代理功能的理想平台。这种研究友好型设计使学术和开源社区能够为基础代理框架做出贡献并以此为基础，促进快速发展的人工智能代理领域的创新。 - 🌊 Lakeview：为代理步骤提供简短的总结 - 🤖 多法学硕士支持：与 OpenA 配合使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llm, software-engineering
+
+---
+
+### 🌟 [BrowserOS](https://github.com/browseros-ai/BrowserOS)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,155
+- **核心概述**: 🌐 开源 Agentic 浏览器； ChatGPT Atlas、Perplexity Comet、Dia 的替代品。
+- **大概是做什么的**: 创始人 — @nv sonti 和 @ThatNithin：BrowserOS 是一个开源 Chromium 分支，可在本机运行 AI 代理。 ChatGPT Atlas、Perplexity Comet 和 Dia 的隐私优先替代方案。使用您自己的 API 密钥或使用 Ollama 运行本地模型。您的数据永远不会离开您的机器。文档 · Discord · Slack · Twitter · 功能请求 1. 下载并安装 BrowserOS — macOS · Windows · Linux (AppImage) · Linux (Debian) 2. 导入您的 Chrome 数据（可选） — 书签、密码、扩展名全部保留 3. 通过 OAuth 连接您的 AI 提供商 — Claude、OpenAI、Gemini、ChatGPT Pro，或通过 Ollama/LM Studio 的本地模型 功能描述文档 --------- ------------- ------ AI Agent 53+ 浏览器自动化工具 — 导航、单击、键入、提取数据，全部使用自然语言 指南 MCP 服务器 从 Claude Code、Gemini CLI 或任何 MCP 客户端控制浏览器 设置工作流程 使用可视化图形生成器构建可重复的浏览器自动化 Docs Cowork 将浏览器自动化与本地文件操作相结合 — 研究网络，将报告保存到文件夹 文档 计划任务 运行代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, browser, browseros, chromium, hacktoberfest, linux
+
+---
+
+### 🌟 [bytebot](https://github.com/bytebot-ai/bytebot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,033
+- **核心概述**: Bytebot 是一种自托管 AI 桌面代理，可通过自然语言命令自动执行计算机任务，并在容器化 Linux 桌面环境中运行。
+- **大概是做什么的**: Bytebot：开源人工智能桌面代理 拥有自己的计算机来为您完成任务的人工智能 🌐 网站 • 📚 文档 • 💬 Discord • 𝕏 Twitter https://github.com/user-attachments/assets/f271282a-27a3-43f3-9b99-b34007fdd169 https://github.com/user-attachments/assets/72a43cf2-bd87-44c5-a582-e7cbe176f37f 什么是桌面代理？桌面代理是一个拥有自己的计算机的人工智能。与纯浏览器代理或传统 RPA 工具不同，Bytebot 配备了完整的虚拟桌面，可以： - 使用任何应用程序（浏览器、电子邮件客户端、办公工具、IDE） - 使用自己的文件系统下载和组织文件 - 使用密码管理器登录网站和应用程序 - 阅读和处理文档、PDF 和电子表格 - 跨不同程序完成复杂的多步骤工作流程 将其视为���有自己计算机的虚拟员工，可以像员工一样查看屏幕、移动鼠标、在键盘上打字并完成任务人类会的。为什么要为人工智能提供自己的计算机？当 AI 能够访问完整的桌面环境时，它会解锁使用 b 无法实现的功能。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai, ai-agents, ai-tools
+
+---
+
+### 🌟 [Auto-claude-code-research-in-sleep](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,032
+- **核心概述**: ARIS ⚔️ (Auto-Research-In-Sleep) — 用于自主 ML 研究的轻量级 Markdown 技能：跨模型审查循环、想法发现和实验自动化。无框架，无锁定——可与 Claude Code、Codex、OpenClaw 或任何 LLM 代理一起使用。
+- **大概是做什么的**: 自动克劳德代码研究睡眠 (ARIS ⚔️🌙) · · · · · · -orange?style=flat) · · 💬 加入社区 · 💡 在 Claude Code / Codex CLI / Cursor / Trae / Antigravity / GitHub Copilot CLI / OpenClaw 中使用 ARIS 作为基于技能的工作流程，或通过独立 CLI 获得完整体验 - 以您喜欢的任何方式享受！ 🌱 ARIS 是一种方法论，而不是一个平台。重要的是研究工作流程——无论您走到哪里，都可以随身携带。 🔥 ARIS 本身适合并且已经支持任何代理的超码式深度模式：它的广度传递适应运行时公开的任何内容 - Claude Code 在 Opus 4.8 上的超码/动态工作流程（xhigh，或预算允许的最大工作量）、Codex 生成代理/等效项或完全另一���模型 - 完全降级并行扇出 → 代理生成 → 普通顺序。 ultracode 为 ARIS 一直拥有的广度提供了火力，提供了三个干净的角色：深度 → 广度、跨模型审查 → 准确性、研究 wiki → 记忆。然而，一个循环是被驱动的——超码宽度或目标模式持久性——每个循环向同一个跨模型评审团+研究维基报告：它可以驱动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-research, ai-tools, aris, autonomous-agent, claude, claude-code
+
+---
+
+### 🌟 [hive](https://github.com/aden-hive/hive)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,454
+- **核心概述**: 用于生产 AI 的多代理工具
+- **大概是做什么的**: 用于生产工作负载的代理工具 - 状态管理、故障恢复、可观察性和人工监督，以便您的代理真正运行。 OpenHive 是一种零设置、与模型无关的执行工具，可动态生成多代理拓扑来处理复杂、长时间运行的业务工作流程，而无需任何编排样板。通过简单地定义您的目标，运行时就会编译一个严格的、基于图形的执行 DAG，它可以安全地协调专用代理来并行执行并发任务。 OpenHive 以持久的、基于角色的内存为后盾，可随您的项目上下文智能发展，可确保确定性容错、深度状态可观察性以及跨您选择插入的任何底层 LLM 的��缝异步执行。 - ✅ 用于并行任务执行的多代理协调 - ✅ 用于重复和复杂流程的基于图形的执行 - ✅ 随项目发展的基于角色的内存 - ✅ 零设置 - 无需技术配置 - ✅ 通用计算使用和浏览器使用本机扩展 - ✅ 自定义模型支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-skills, anthropic, automation, autonomous-agents
+
+---
+
 ## 🕔 2026-05-30 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
