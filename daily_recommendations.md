@@ -1,3 +1,67 @@
+## 🕔 2026-05-30 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [Chronos](https://github.com/Kodezi/Chronos)
+- **项目语言**: Java
+- **星标数量**: ⭐ 4,950
+- **核心概述**: Kodezi Chronos 是一种调试优先的语言模型，在 SWE-bench Lite 上实现了最先进的结果 (80.33%) 和 67% 的实际修复精度，比 GPT-4 好六倍多。采用自适应图形引导检索和持久调试内存构建。型号将于 2026 年第一季度通过 Kodezi OS 推出。
+- **大概是做什么的**: 世界上第一个用于存储库规模代码理解的调试优先语言模型 80.33% SWE-bench Lite • 67.3% 自主调试 • 89% 人类偏好 • 时间减少 40% - 最先进的结果 - SWE-bench Lite 性能 - 存储库特定结果 - MRR 基准测试结果 - 基准测试和评估 - 存储库结构 - 研究亮点 - 详细性能 Chronos 是专有的，仅可通过 Kodezi OS 时间表 访问详细信息 :--------: :--------: :--------: 2025 年第 4 季度 Beta 有限企业访问 2026 年第 1 季度 GA 通过 Kodezi OS 此存储库仅包含研究论文、基准测试和评估结果。抢先体验 • 阅读论文 • 查看排行榜 • 文档 🏅 最先进的结果 📈 SWE-bench Lite 性能行业标准基准结果 排名系统 成功率 实例领先年份 :----: :-------- :------------: :---------: :----: :----: 1 Kodezi Chronos 80.33% 241/300 +20.0pp 2025 2 ExpeRepair-v1.0 + Claude 4.5 Sonnet 60.33% 181/300 - 2025 3 Claude 4.5 Sonnet（仅限 Bash）14% 42/300 -66.3pp 2025 4 Claude 4.1 Opus（Bash）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: artificial-intelligence, autonomous-debugging, benchmark, benchmark-report, bug-fixing, chronos
+
+---
+
+### 🌟 [LLM-RL-Visualized](https://github.com/changyeyu/LLM-RL-Visualized)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,442
+- **核心概述**: 🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+ LLM/RL Algorithm Maps ）
+- **大概是做什么的**: 🎉 原创 100+ 架构图，系统讲解大模型、强化学习 ，涵盖：LLM / VLM 等大模型原理、训练算法（RL、RLHF、GRPO、DPO、SFT 与 CoT 蒸馏等）、效果优化与 RAG 等。 🎉 关于架构图 更详细 的解读可参考： 《大模型算法：强化学习、微调与对齐》 (豆瓣高分，多次京东AI图书Top 5 ！) 🎉 本仓库 长期勘误、追加 ，欢迎点击仓库顶部的 Star ⭐ 关注，感谢鼓励✨ 🎉 单击图片可看高清大图，或浏览仓库目录中的 .svg 格式矢量图（活图，可无限缩放、可选择文字） - 大模型算法总体架构（以LLM、VLM为主） - 强化学习算法图谱 (rl‑algo‑map).pdf——全网最大！ - 策略梯度(Policy Gradient)-强化学习(PPO&GRPO等)之根基.pdf - LLM（Large Language Model）结构 - LLM生成与解码（Decoding）过程 - 多模态模型结构（VLM、MLLM …） - 微调（Fine‑Tuning）技术分类 - DPO（Direct Preference Optimization） - CoT（Chain of Thought）与传统问答的对比 - CoT、Self‑consistency CoT、ToT、GoT - 穷举搜索（Exhaustive Search） - 贪婪搜索（Greedy Search） - 多项式采样（Multinomial Sampling） - Top‑K采样（Top‑K Sampling） - Top‑P采样（Top‑P Sampling） - RAG（检索增强生成, Retrieval‑Augmented Generation） - 功能调用（Function Calling） - 强化学习(Reinforcement Learning, RL)的发展历程 - 马尔可夫链 vs 马尔可夫决策过程（MDP��� - 探索与利用问题（Exploration and Exploitation） - 奖励（Reward）、回报（Return）、价值（Value）的关系 - 蒙特卡洛（Monte Carlo，MC）法预估状态 St 的价值 - TD 目标与 TD 误差的关系（TD target and TD error） - TD(0)、多步 TD 与蒙特卡洛的关系 - 蒙特卡洛、TD、DP、穷举搜索的关系 - 两种输入输出结构的 DQN（Deep Q-Network）模型 - 基于价值 vs 策略（Value-Based vs Policy-Bas
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, algorithm, deep-learning, llm, machine-learning, natural-language-processing
+
+---
+
+### 🌟 [awesome-ai-ml-resources](https://github.com/armankhondker/awesome-ai-ml-resources)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 4,391
+- **核心概述**: 通过路线图和免费资源为初学者学习 AI/ML。
+- **大概是做什么的**: 该存储库包含 2025 年学习机器学习和人工智能的免费资源和路线图。 📌 AI/ML 关键概念 - 监督学习 - 无监督学习 - 强化学习 - 自然语言处理 (NLP) - 生成对抗网络 (GAN) - 降维 - 聚类算法 - 贝叶斯推理 - 时间序列分析 - 自监督学习 🛠️ AI/ML 构建块 -机器学习线性代数 - 概率与统计 - 优化微积分 - 用于机器学习的 Python - 优化技术 - 数据预处理和特征工程 - 模型评估和指标 - 正则化技术 - 激活函数 - 超参数调优 - 机器学习工程师 - 软件工程师 (AI) - ML/AI 平台工程师 - ML/AI 基础设施工程师 - 框架工程师 - 解决方案架构师 - 开发倡导者 - 解决方案工程师 - 应用研究科学家 - 研究科学家 1. 学习 Python和核心库 - NumPy：数值计算和数组 - Pandas：数据操作和分析 - Matplo
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: artifical-intelligense, machine-learning, roadmap
+
+---
+
+### 🌟 [rocketride-server](https://github.com/rocketride-org/rocketride-server)
+- **项目语言**: C++
+- **星标数量**: ⭐ 3,715
+- **核心概述**: 高性能 AI 管道引擎，具有 C++ 核心和 50 多个 Python 可扩展节点。使用 13 个以上的模型提供程序、8 个以上的向量数据库和代理编排构建、调试和扩展 LLM 工作流程，所有这些都来自您的 IDE。包括 VS Code 扩展、TypeScript/Python SDK 和 Docker 部署。
+- **大概是做什么的**: 开源、开发人员原生的 AI 管道工具。构建、调试和部署生产 AI 工作流程 - 无需离开 IDE。 RocketRide 是一款专为 AI 和 ML 工作负载构建的开源数据管道构建器和运行时。拥有跨越 13 个 LLM 提供商、8 个矢量数据库、OCR、NER 等的 50 多个管道节点，管道被定义为可移植的 JSON，在 VS Code 中可视化构建，并由多线程 C++ 运行时执行。从实时数据处理到多模式人工智能搜索，RocketRide 完全在您自己的基础设施上运行。就在您编写代码的地方，从可视画布设计、测试和交付复杂的 AI 工作流程。只需几行代码即可将管道放入任何 Python 或 TypeScript 应用程序中，无需基础设施胶水。功能描述：---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Visual Pipeline Builder 在 VS Code 中拖动、连接和配置节点 - 无锅炉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, cpp, data-pipeline, data-processing, machine-learning, mcp
+
+---
+
+### 🌟 [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,702
+- **核心概述**: 最佳真正开源人工智能项目、模型、工具和基础设施的精选列表。
+- **大概是做什么的**: Awesome Open Source AI 精选的开源人工智能模型、库、基础设施和开发人员工具。 - 1. 核心框架和库 - 2. 开放基础模型 - 3. 推理引擎和服务 - 4. 代理人工智能和多代理系统 - 5. 检索增强生成 (RAG) 和知识 - 6. 生成媒体工具 - 7. 培训和微调生态系统 - 8. MLOps / LLMOps 和生产 - 9. 评估、基准和数据集 - 10. AI 安全、对齐和可解释性 - 11. 专业领域 - 12. 用户界面和自托管平台 - 13. 开发人员工具和集成 - 14. 资源和学习 Awesome Open Source AI 是为使用 AI 进行构建的人们精心策划的开源项目列表。目标是帮助读者找到有用的模型、库、工具、基础设施、数据集和学习资源，而无需通过目录转储进行排序。项目不需要包含最低数量的 GitHub star。星星可能是有用的背景信息，但它们只是一个信号。如果一个较小的项目有用、维护良好、技术上有趣，则可能属于这里
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, artificial-intelligence, awesome, awesome-list, generative-ai
+
+---
+
+### 🌟 [LimiX](https://github.com/limix-ldm-ai/LimiX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,391
+- **核心概述**: LimiX：释放通用智能的结构化数据建模能力 https://arxiv.org/abs/2509.03505
+- **大概是做什么的**: - 2025年11月10日：LimiX-2M正式发布！与 LimiX-16M 相比，这种较小的变体可显着降低 GPU 内存使用量和更快的推理速度。检索机制也得到了增强，进一步提高了模型性能，同时减少了推理时间和内存消耗。 - 2025年8月29日：LimiX V1.0发布。 ⚡ 与 SOTA 模型比较的最新结果 我们介绍 LimiX，这是我们 LDM 系列的第一部分。 LimiX 旨在进一步推动通用性：在一个训练和推理方法下处理分类、回归、缺失值插补、特征选择、样本选择和因果推理的单一模型，推动从定制管道向统一的基础式表格学习的转变。 LimiX 采用针对结构化数据建模和任务泛化而优化的变压器架构。该模型首先将先验知识库中的特征 X 和目标 Y 嵌入到标记表示中。在核心模块中，注意力机制应用于样本和特征维度，以识别关键中的显着模式。
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: foundation-models, limix, machine-learning, structured-data
+
+---
+
 ## 🕔 2026-05-30 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
