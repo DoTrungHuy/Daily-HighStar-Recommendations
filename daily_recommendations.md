@@ -1,3 +1,67 @@
+## 🕔 2026-05-31 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization](https://github.com/Visualize-ML/Linear-Algebra-Made-Easy---Learn-with-Python-and-Visualization)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 2,153
+- **核心概述**: ”数学不难“ 之 《线性代数不难》上下册，66话题完册；欢迎批评指正
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: data-science, data-visualization, linear-algebra, machine-learning, python, visualization
+
+---
+
+### 🌟 [docext](https://github.com/NanoNets/docext)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,019
+- **核心概述**: 本地、免 OCR 的非结构化数据提取、降价转换和基准测试工具包。 （https://idp-leaderboard.org/）
+- **大概是做什么的**: 本地文档信息提取和基准测试工具包。新模型发布：Nanonets-OCR-s 我们很高兴地宣布推出 Nanonets-OCR-s，这是一个紧凑的 3B 参数模型，专门针对高效图像到 Markdown 转换进行了训练，具有对图像、签名、水印等的语义理解！ 📢 阅读完整公告 🤗 Hugging Face 模型 docext 是一个由视觉语言模型 (VLM) 提供支持的综合性本地文档智能工具包。它提供三个核心功能： 📄 PDF 和图像到 Markdown 转换：通过智能内容识别将文档转换为结构化 Markdown，包括 LaTeX 方程、签名、水印、表格和语义标记。 🔍 文档信息提取：从发票、护照和其他文档类型等文档中免 OCR 提取结构化信息（字段、表格等），并进行置信度评分。 📊 智能文档处理排行榜：一个全面的基准测试平台，可跟踪和评估跨 OCR、Key Inform 的视觉语言模型性能
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: document, document-analysis, document-data-extraction, document-information-extraction, extraction, llm-ocr
+
+---
+
+### 🌟 [machine-learning-visualized](https://github.com/gavinkhung/machine-learning-visualized)
+- **项目语言**: TeX
+- **星标数量**: ⭐ 1,530
+- **核心概述**: 在 Jupyter Notebooks 和 NumPy 中实现和衍生自第一原理的 ML 算法
+- **大概是做什么的**: 机器学习可视化 URL：https://ml-visualized.com/ 机器学习可视化是一本 Jupyter 书籍，其中包含 Jupyter Notebook，可根据第一原理实现并以数学方式推导机器学习算法。还有使用 Marimo 构建的交互式笔记本，可让您了解权重如何影响损失函数。每个笔记本的输出是机器学习算法在整个训练阶段的可视化，最终收敛于其最佳权重。每个机器学习算法都有一个单独的 Github 存储库。因此，这个存储库只是配置和构建 Jupyter Book 的代码。在非常高的水平上，Jupyter Books 允许您使用 Markdown 文件和 Jupyter Notebooks 构建网站。请注意，此存储库中没有任何 Jupyter Notebook。有一个 SH 脚本可以从其他 Github 存储库下载相关的 Jupyter Notebook。一旦完成，就可以构建 Jupyter Book。每次提交或拉取请求后，都会使用 .github/workflows/ci.yml 上的 GitHub Action 更新网站。建造
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: book, jupyter-notebook, latex, machine-learning, neural-network, numpy
+
+---
+
+### 🌟 [ai-system-design-guide](https://github.com/ombharatiya/ai-system-design-guide)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,513
+- **核心概述**: 面向构建生产型人工智能系统和评估的工程师的人工智能系统设计指南。
+- **大概是做什么的**: 🧠 人工智能系统设计指南 完整的面试和制作参考 如果本指南对您有帮助，请在 GitHub、X 和 LinkedIn 上关注 @ombharatiya，以便在新章节、模型刷新和面试提示发布时收到通知。生产型人工智能系统的活生生的参考。持续更新。面试准备深度。关于 AI 系统设计、RAG 架构、LLM 工程、代理 AI、MCP 和 A2A 协议以及 AI 工程面试准备的实用且不断更新的指南。涵盖生产模式、模型选择、评估以及来自员工层面访���的真实案例研究。新来的？跳至包含 110 个问题的面试库、RAG 基础知识章节，或选择合适的法学硕士进行制作。我想... 从这里开始 -------------- ------------ 准备面试 题库 → 答案框架 快速学习人工智能系统 LLM 内部原理 → RAG 基础知识 高级检索 上下文检索 → ColBERT → 多模态 RAG 设计多租户 AI 隔离模式 → 案例研究 工具使用和计算机代理 景观 → OpenClaw → 安全 自主编码代理 Claude
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-workflow, ai, ai-jobs, artificial-intelligence, aws
+
+---
+
+### 🌟 [lightly-train](https://github.com/lightly-ai/lightly-train)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,476
+- **核心概述**: 视觉模型（YOLO、ViTs、RT-DETR、DINOv3）的一体化训练：预训练、微调、蒸馏。
+- **大概是做什么的**: LightlyTrain - SOTA 预训练、微调和蒸馏训练更好的模型、更快 LightlyTrain 是将数据转换为最先进的计算机视觉模型的领先框架。它涵盖了整个模型开发生命周期，从在未标记数据上预训练 DINOv2/v3 视觉基础模型，到针对边缘部署的检测和分割任务微调 Transformer 和 YOLO 模型。请联系我们申请商业用途许可证。另请查看 LightlyStudio，轻松可视化您的注释和预测。 2026-04-14：🔎 Distillationv3：更好的泛化蒸馏方法，在密集任务和全局任��以及所有模型中表现同样出色，从 ViT 到混合模型再到 CNN（+支持自定义教师！）。 🔎 2026-01-19：🐣 PicoDet、Tiny Models 和 ONNX/TensorRT FP16 支持：适用于低功耗嵌入式设备的 PicoDet 对象检测模型！所有任务现在都支持微型 DINOv3 模型和 FP16 精度的 ONNX/TensorRT 导出，以实现更快的推理！ 🐣 2025-12-15：🐥 新的微型物体检测模型：我们发布了微型 DINOv3 模型
+- **有什么用**: 适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。
+- **技术标签**: computer-vision, contrastive-learning, deep-learning, dinov2, dinov3, distillation
+
+---
+
+### 🌟 [karpathy](https://github.com/K-Dense-AI/karpathy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,450
+- **核心概述**: 代理机器学习工程师
+- **大概是做什么的**: 注意：有关更高级的功能和端到端机器学习，请访问 www.k-dense.ai。保持最新动态：在 X、LinkedIn 和 YouTube 上关注 K-Dense，了解新技能、发布公告、演练、研究工作流程演示以及可与您自己的 AI 代理一起使用的示例。 ⭐ 帮助让人工智能更容易发现科学：如果科学代理技能可以节省您的时间、教您的代理工作流程或帮助您的实验室更快地开展工作，请为该存储库加注星标。星星是一个公共信号，表明这些开放、可重用的研究技能值得维护：它可以帮助科学家、工程师和开源贡献者找到项目，显示哪些代理技能标准正在获得真正的采用，并为我们提供了继续扩大社区收集的明确理由。一位代理机器学习工程师，使用 Claude Agent SDK 和 Google ADK 训练最先进的 ML 模型。这是一个简单的实现，展示了科学代理技能在机器学习方面的强大功能。 - Python 3.13 或更高版本 - uv 包管理器 - Claude 代码已安装并经过身份验证（请参阅 Claude Co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, automl, machine-learning
+
+---
+
 ## 🕔 2026-05-31 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
