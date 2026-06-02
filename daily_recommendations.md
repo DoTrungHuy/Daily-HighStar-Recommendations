@@ -1,3 +1,17 @@
+## 🕔 2026-06-02 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [harness-sdk](https://github.com/strands-agents/harness-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,999
+- **核心概述**: 一种模型驱动的方法，只需几行代码即可构建人工智能代理。
+- **大概是做什么的**: 一种模型驱动的方法，只需几行代码即可构建人工智能代理。 Strands Agents 是一个简单但功能强大的 SDK，它采用模型驱动的方法来构建和运行 AI 代理。从简单的对话助理到复杂的自主工作流程，从本地开发到生产部署，Strands Agents 可根据您的需求进行扩展。此 monorepo 包含 Python SDK、TypeScript SDK、文档站点和支持包： 目录 说明 -------------- -------------strands-py/ Python SDK — 代理循环、模型提供程序、工具 (PyPI)strands-ts/TypeScript SDK — 代理循环、模型提供程序、工具 (npm)strands-wasm/ WebAssembly 绑定，用于从 TypeScript 代理运行 Python 工具strands-py-wasm/ 用于 WASM 组件的 Python 主机（将 WIT 接口桥接到Python）strandly/用于本地构建、代码生成和工作区工具站点的开发人员 CLI/使用 Astro/Starlight (strandsagents.com) 设计构建的文档站点/重要功能的设计建议（RFC 样式） - 轻量级和灵活：简单的代理循环，可以正常工作并且完全可定制 - Mod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agents, ai, anthropic, autonomous-agents
+
+---
+
 ## 🕔 2026-06-02 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
