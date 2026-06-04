@@ -1,3 +1,17 @@
+## 🕔 2026-06-04 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [headroom](https://github.com/chopratejas/headroom)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,876
+- **核心概述**: 在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。减少 60-95% 的标记，答案相同。库、代理、MCP 服务器。
+- **大概是做什么的**: 令牌减少 60–95% · 库 · 代理 · MCP · 6 种算法 · 本地优先 · 可逆 AI 代理/LLM：在此处读取 /llms.txt，或获取实时索引/完整文档 blob。 Headroom 会在您的 AI 代理读取的所有内容（工具输出、日志、RAG 块、文件和对话历史记录）到达 LLM 之前对其进行压缩。相同的答案，令牌的一部分。实时：10,144 → 1,260 个代币 — 发现同样的致命情况。 - 库 — Python 或 TypeScript 中的压缩（消息），内联在任何应用程序中 - 代理 — 净空代理 — 端口 8787，零代码更改，任何语言 - 代理包装 — 在一个命令中净空包装 claude codex 光标辅助副驾驶 - MCP 服务器 — 净空压缩、净空检索、任何 MCP 客户端的净空统计信息 - 跨代理内存 — 跨 Claude、Codex、Gemini 的共享存储、自动重复数据删除 - 净空学习 —挖掘失败的会话，将更正写入 CLAUDE.md / AGENTS.md - 可逆 (CCR) - 原始内容从未删除； LLM 按需检索 工作原理（30 秒） - ContentRouter — 检测内容类型，选择正确的压缩器 - SmartCrusher / CodeCompressor / Kompress-base — 压缩 J
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, anthropic, claude-code, compression, context-engineering
+
+---
+
 ## 🕔 2026-06-04 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
