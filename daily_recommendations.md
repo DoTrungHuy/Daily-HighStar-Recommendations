@@ -1,3 +1,67 @@
+## 🕔 2026-06-05 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
+
+### 🌟 [openclaw](https://github.com/openclaw/openclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 377,015
+- **核心概述**: 您自己的私人人工智能助理。任何操作系统。任何平台。龙虾方式。 🦞
+- **大概是做什么的**: 🦞 OpenClaw — 个人人工智能助手去角质！去角质！ OpenClaw 是您在自己的设备上运行的个人人工智能助手。它会在您已经使用的渠道上回答您。它可以在 macOS/iOS/Android 上说话和听，并可以渲染您控制的实时画布。网关只是控制平面——产品是助手。如果您想要一个感觉本地化、快速且始终在线的个人单用户助手，那么这就是它。支持的渠道包括：WhatsApp、Telegram、Slack、Discord、Google Chat、Signal、iMessage、IRC、Microsoft Teams、Matrix、飞书、LINE、Mattermost、Nextcloud Talk、Nostr、Synology Chat、Tlon、Twitch、Zalo、Zalo Personal、微信、QQ、WebChat。网站 · 文档 · 愿景 · 第三方通知 · DeepWiki · 入门 · 更新 · 展示 · 常见问题解答 · 入门 · Nix · Docker · Discord 新安装？从这里开始：入门首选设置：在终端中运行 openclaw。 OpenClaw Onboard 将指导您逐步设置网关、工作区、通道和技能。这是推荐的 CLI 设置路径，适用于 macOS、Linux 和 Windows。视窗
+- **有什么用**: 适合用于数据集研究、模型评测、论文实验或构建自己的测试基准。
+- **技术标签**: ai, assistant, crustacean, molty, openclaw, own-your-data
+
+---
+
+### 🌟 [superpowers](https://github.com/obra/superpowers)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 218,593
+- **核心概述**: 有效的代理技能框架和软件开发方法。
+- **大概是做什么的**: Superpowers 是一种适用于编码代理的完整软件开发方法，建立在一组可组合技能和一些确保您的代理使用它们的初始指令之上。为您的代理提供超能力：Claude Code、Codex CLI、Codex App、Factory Droid、Gemini CLI、OpenCode、Cursor、GitHub Copilot CLI。它从您启动编码代理的那一刻开始。一旦它看到您正在构建某些东西，它就不会立即尝试编写代码。相反，它会退后一步，问你真正想做什么。一旦它从对话中挑出一个规范，它就会以足够短的块向您展示，以便您实际阅读和消化。在您签署设计后，您的代理会制定一个实施计划，该计划对于一位品味差、缺乏判断力、没有项目背景且厌恶测试的热情初级工程师来说足够清晰。它强调真正的红/绿 TDD、YAGNI（你不需要它）和 DRY。接下来，一旦您说“开始”，它就会启动子代理驱动的开发流程，让代理完成每个工程任务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 开源
+
+---
+
+### 🌟 [ECC](https://github.com/affaan-m/ECC)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 207,883
+- **核心概述**: 代理利用性能优化系统。 Claude Code、Codex、Opencode、Cursor 等的技能、直觉、记忆、安全性和研究优先的开发。
+- **大概是做什么的**: Language: English Português (Brasil) 简体中文 繁体中文 日本语 한국어 Türkçe Русский Tiếng Việt ไทย Deutsch 182K+ stars 28K+ forks 170+ contributors 12+ language ecosystems Cross-harness agent workflows Language / 语言 / 语言 / Dil / Язык / Ngôn ngữ English Português (Brasil) 简体中文 繁体中文 日本语 한국어 Türkçe Русский Tiếng Việt ไทย Deutsch The harness-native operator system for agentic work. Built from real-world multi-harness engineering workflows. Not just configs. A complete system: skills, instincts, memory optimization, continuous learning, security scanning, and research-first development. Production-ready agents, skills, hooks, rules, MCP configurations, and legacy command shims evolved over 10+ months of intensive daily use building real products. Works across Codex , Claude Code , Cursor , OpenCode , Gemini , Zed , GitHub Copilot , and other AI agent harnesses. ECC v2.0.0-rc.1 adds the public Hermes operator story on top of that reusable layer: start with the Hermes setup guide, then review the rc.1 release notes and cross-harness architecture. Private repos · GitHub App · $19/seat/mo Fund the OSS · Fr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude, claude-code, developer-tools, llm
+
+---
+
+### 🌟 [claw-code](https://github.com/ultraworkers/claw-code)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 193,313
+- **核心概述**: 仓库终于解锁了。享受聚会！历史上最快超过 10 万颗星的仓库 ⭐。加入 Discord：https://discord.gg/5TUQKqFWd 使用 oh-my-codex 内置 Rust。
+- **大概是做什么的**: ultraworkers/claw-code UltraWorkers Discord Claw Code 是 Claw CLI 代理工具的公共 Rust 实现。规范的实现位于 rust/ 中，该存储库当前的真实来源是 ultraworkers/claw-code 。从 USAGE.md 开始构建、身份验证、CLI、会话和奇偶校验线束工作流程。有关文件提交/导航问题，请参阅导航和文件上下文。对于本地 OpenAI 兼容模型和离线技能安装，请参阅本地 OpenAI 兼容提供程序和技能设置。 Windows 用户可以跳转到 PowerShell-first Windows 安装和发布快速入门。让claw doctor成为构建后的第一次健康检查，使用rust/README.md了解板条箱级别的详细信息，阅读PARITY.md了解当前的Rust端口检查点，并参阅docs/container.md了解容器优先的工作流程。 ACP / Zed 状态：claw-code 尚未提供 ACP/Zed 守护进程或 JSON-RPC 入口点。运行claw acp（或claw --acp）来获取当前状态，而不是从源布局中猜测；爪 acp 服务目前只是一个可发现性别名，返回退出代码为 0 的状态，并返回
+- **有什么用**: 适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。
+- **技术标签**: 开源
+
+---
+
+### 🌟 [hermes-agent](https://github.com/NousResearch/hermes-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 181,935
+- **核心概述**: 与您共同成长的代理商
+- **大概是做什么的**: 由 Nous Research 构建的自我改进的人工智能代理。它是唯一具有内置学习循环的代理——它从经验中创造技能，在使用过程中改进这些技能，推动自己坚持知识，搜索自己过去的对话，并在整个会话中建立一个关于你是谁的深化模型。在 5 美元的 VPS、GPU 集群或无服务器基础设施上运行它，闲置时几乎不需要任何成本。它与您的笔记本电脑无关——当它在云虚拟机上工作时，可以通过 Telegram 与它交谈。使用您想要的任何模型 - Nous Portal、OpenRouter（200 多个模型）、NovitaAI（用于模型 API、Agent Sandbox 和 GPU 云的 AI 原生云）、NVIDIA NIM (Nemotron)、Xiaomi MiMo、z.ai/GLM、Kimi/Moonshot、MiniMax、Hugging Face、OpenAI 或您自己的端点。与 Hermes 模型切换 — 无需更改代码，无需锁定。真正的终端界面完整的 TUI，具有多行编辑、斜杠命令自动完成、对话历史记录、中断和重定向以及流工具输出。生活在您使用 Telegram、Discord、Slack、WhatsApp、Signal 和 CLI 的地方 — 所有这些都来自单个网关进程。语音备忘录转录，跨平��
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 174,664
+- **核心概述**: DigitalPlat FreeDomain：适合所有人的免费域名
+- **大概是做什么的**: 🌐 欢迎来到 DigitalPlat Domain 欢迎来到 DigitalPlat FreeDomain，我们相信每个人都应该拥有数字身份。无论您是个人还是组织，我们都提供免费域名，将您的想法变为现实 - 无任何附加条件！借助 FreeDomain，您可以自由注册一个独特的域名，并将其托管在您最喜爱的 DNS 提供商处，例如 Cloudflare、Afraid.org 的 FreeDNS 或 Hostry。完全自由地上网，并让您的钱包满意。 ✔️ 为什么选择免费域名？在 DigitalPlat FreeDomain，我们的使命是让网络更易于访问。我们相信域名的成本不应成为任何人创建网站的阻碍。我们的目标是使互联网成为一个开放的空间，无论预算如何，每个人都可以在网上拥有自己的位置。 DigitalPlat FreeDomain由DigitalPlat基金会创始人Edward Hsing独立设计和维护。 🌍 可用的域名扩展（更多扩展即将推出！） 🌍 准备好领取您的免费域名了吗？访问我们的网站并注册您的域名：➡️ DigitalPlat FreeDomain Dashboard 📝 阅读
+- **有什么用**: 从项目说明看，它主要围绕“🌐 欢迎来到 DigitalPlat Domain 欢迎来到 DigitalPlat FreeDomain，我们相信每个人都应该拥有数字身份。无论您是个人还是”展开，可用于学习、研究或二次开发。
+- **技术标签**: digitalplat, domain, domain-platform, domainname, domains, free
+
+---
+
 ## 🕔 2026-06-05 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
