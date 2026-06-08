@@ -80,14 +80,67 @@ function buildSearchStages(date = new Date()) {
 
   return [
     {
-      name: '核心 AI / LLM / Agent 项目',
+      name: 'AI Agent / LLM / MCP / RAG 项目',
       pages: 2,
       queries: [
-        { query: `stars:300..20000 pushed:>${active180} topic:ai`, sort: 'updated' },
+        { query: `stars:300..20000 pushed:>${active180} topic:ai-agent`, sort: 'updated' },
+        { query: `stars:300..20000 pushed:>${active180} topic:ai-agents`, sort: 'updated' },
         { query: `stars:300..15000 pushed:>${active180} topic:llm`, sort: 'updated' },
         { query: `stars:200..15000 pushed:>${active180} topic:agent`, sort: 'updated' },
         { query: `stars:100..12000 pushed:>${active180} topic:mcp`, sort: 'updated' },
-        { query: `stars:100..12000 pushed:>${active180} topic:rag`, sort: 'updated' }
+        { query: `stars:100..12000 pushed:>${active180} topic:rag`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:prompt-engineering`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '深度学习 / CNN / PyTorch 学习项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:deep-learning`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:pytorch`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:tensorflow`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:cnn`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:convolutional-neural-networks`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:neural-network`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '计算机视觉 / 图像处理 / 检测分割项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:computer-vision`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-processing`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-classification`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:object-detection`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-segmentation`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:vision-transformer`, sort: 'updated' }
+      ]
+    },
+    {
+      name: 'AIGC 图像检测 / Deepfake / 图像取证项目',
+      pages: 2,
+      queries: [
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:ai-generated-image-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:aigc-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:deepfake-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:fake-image-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:image-forensics`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:digital-image-forensics`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:diffusion-models`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '计算机专业基础 / 算法 / 系统学习项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..20000 pushed:>${active730} topic:algorithms`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:data-structures`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:operating-systems`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:computer-networking`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:database`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:distributed-systems`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:system-design`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:cybersecurity`, sort: 'updated' }
       ]
     },
     {
@@ -98,29 +151,20 @@ function buildSearchStages(date = new Date()) {
         { query: `stars:100..12000 pushed:>${active365} topic:cli`, sort: 'updated' },
         { query: `stars:100..12000 pushed:>${active365} topic:automation`, sort: 'updated' },
         { query: `stars:100..12000 pushed:>${active365} topic:productivity`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:linux`, sort: 'updated' },
         { query: `stars:100..12000 pushed:>${active365} topic:open-source`, sort: 'updated' }
       ]
     },
     {
-      name: '最近创建的多语言项目',
+      name: '最近创建的多语言工程项目',
       pages: 2,
       queries: [
         { query: `stars:50..8000 created:>${created365} language:Python`, sort: 'stars' },
         { query: `stars:50..8000 created:>${created365} language:TypeScript`, sort: 'stars' },
         { query: `stars:50..8000 created:>${created365} language:JavaScript`, sort: 'stars' },
         { query: `stars:50..8000 created:>${created365} language:Rust`, sort: 'stars' },
-        { query: `stars:50..8000 created:>${created365} language:Go`, sort: 'stars' }
-      ]
-    },
-    {
-      name: '机器学习 / 视觉 / 教育扩展池',
-      pages: 2,
-      queries: [
-        { query: `stars:50..6000 pushed:>${active730} topic:machine-learning`, sort: 'updated' },
-        { query: `stars:50..6000 pushed:>${active730} topic:deep-learning`, sort: 'updated' },
-        { query: `stars:50..6000 pushed:>${active730} topic:computer-vision`, sort: 'updated' },
-        { query: `stars:50..6000 pushed:>${active730} topic:chatbot`, sort: 'updated' },
-        { query: `stars:50..6000 pushed:>${active730} topic:education`, sort: 'updated' }
+        { query: `stars:50..8000 created:>${created365} language:Go`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:C++`, sort: 'stars' }
       ]
     },
     {
@@ -128,7 +172,8 @@ function buildSearchStages(date = new Date()) {
       pages: 1,
       queries: [
         { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:ai`, sort: 'updated' },
-        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:llm`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:deep-learning`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:computer-vision`, sort: 'updated' },
         { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:agent`, sort: 'updated' },
         { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:Python`, sort: 'updated' },
         { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:TypeScript`, sort: 'updated' }
@@ -356,7 +401,16 @@ async function fetchReadmeKeyPart(repo) {
 function inferProjectUse(repo, translatedDesc, translatedReadme) {
   const source = `${repo.name} ${repo.description || ''} ${(repo.topics || []).join(' ')}`.toLowerCase();
 
-  if (/agent|multi-agent|autonomous/.test(source)) {
+  if (/ai-generated-image-detection|aigc-detection|deepfake-detection|fake-image-detection|image-forensics|digital-image-forensics|forensics/.test(source)) {
+    return '适合学习 AIGC 图像检测、Deepfake 检测、图像取证和伪造痕迹分析，也可以作为你做 AI 生成图像检测算法的参考。';
+  }
+  if (/computer-vision|image-processing|image-classification|object-detection|image-segmentation|vision-transformer/.test(source)) {
+    return '适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。';
+  }
+  if (/cnn|convolutional-neural-network|convolutional-neural-networks|deep-learning|pytorch|tensorflow|neural-network|model/.test(source)) {
+    return '适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。';
+  }
+  if (/agent|multi-agent|autonomous|ai-agent|ai-agents/.test(source)) {
     return '适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。';
   }
   if (/mcp|model-context-protocol|context-protocol/.test(source)) {
@@ -365,8 +419,20 @@ function inferProjectUse(repo, translatedDesc, translatedReadme) {
   if (/llm|large-language-model|rag|chatbot|prompt/.test(source)) {
     return '适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。';
   }
-  if (/machine-learning|deep-learning|pytorch|tensorflow|model/.test(source)) {
-    return '适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。';
+  if (/machine-learning/.test(source)) {
+    return '适合用于机器学习模型训练、实验复现、特征工程或算法工程实践。';
+  }
+  if (/algorithm|data-structures|leetcode/.test(source)) {
+    return '适合用于计算机专业基础训练，尤其是数据结构、算法题和编程能力提升。';
+  }
+  if (/operating-system|operating-systems|linux|kernel|compiler|compilers/.test(source)) {
+    return '适合学习操作系统、Linux、编译器或底层系统开发，能补计算机专业基础。';
+  }
+  if (/database|distributed-systems|system-design|backend|microservice/.test(source)) {
+    return '适合学习数据库、分布式系统、后端架构和系统设计相关工程能力。';
+  }
+  if (/cybersecurity|security|computer-networking|network/.test(source)) {
+    return '适合学习网络、安全攻防、系统安全或计算机网络相关知识。';
   }
   if (/ui|web|app|dashboard|frontend/.test(source)) {
     return '适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。';
