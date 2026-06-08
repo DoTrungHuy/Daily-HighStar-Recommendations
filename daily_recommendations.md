@@ -1,3 +1,67 @@
+## 🕔 2026-06-08 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GenericAgent](https://github.com/lsdefine/GenericAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,662
+- **核心概述**: 自进化代理：从 3.3K 行种子中生长技能树，以减少 6 倍的代币消耗实现完整的系统控制
+- **大概是做什么的**: 一个最小的、自我进化的自主代理框架 3K 行种子代码 · 9 个原子工具 · 100 行代理循环 📌 官方频道 — 此 GitHub 存储库是 GenericAgent 的唯一官方来源。我们与任何使用 GenericAgent 名称的第三方网站没有任何隶属关系。 GenericAgent 是一个最小的、自我进化的自主代理框架。其核心只有3K行代码。通过 9 个原子工具 + 100 行代理循环，它授予任何 LLM 对本地计算机的系统级控制 - 涵盖浏览器、终端、文件系统、键盘/鼠标输入、屏幕视觉和移动设备 (ADB)。设计理念——不要预先加载技能，而是不断发展它们。 GenericAgent 每次解决新任务时，都会自动将执行路径具体化为可重用的 Skill 。使用时间越长，积累的技能就越多——形成完全由 3K 行种子代码生长的个人技能树。 🤖 自引导证明——这个存储库中的所有内容，从安装 Git 和运行 git init 到每条提交消息，都是由 GenericAgent 自主完成的。作者从未打开过终端
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, autonomous-agent, browser-automation, claude, computer-control
+
+---
+
+### 🌟 [oh-my-pi](https://github.com/can1357/oh-my-pi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,104
+- **核心概述**: ⌥ 终端的 AI 编码代理 — 哈希锚定编辑、优化工具工具、LSP、Python、浏览器、子代理等
+- **大概是做什么的**: 连接 IDE 的编码代理。附带的功能最强大的代理表面。根据实际使用情况不断调整 - 完全开箱即用，一路向下打开。 40 多个提供商 · 32 个内置工具 · 13 个 lsp 操作 · 27 个 DAP 操作 · 27k 行 Rust 核心。 Windows (PowerShell) 固定版本 (mise) macOS · Linux · Windows · Bun ≥ 1.3.14 omp 从实时命令/标志元数据中为 bash 、 zsh 和 Fish 生成自己的完成脚本，因此它们永远不会偏离实际的 CLI。子命令、标志和枚举值静态完成；模型名称（ --model 、 --smol 、 --slow 、 --plan ）根据捆绑的模型目录进行解析， --resume 根据磁盘会话进行解析。每一个工具，benchmaxxed。第一次尝试就完成的编辑。读取总结文件而不是转储其内容。立即返回的搜索。选择任何模型 - omp 都会做对的。模型指标是什么 ---------------- ------------------------ --------------------------------------------------------------------- Grok Code Fast 1 6.7% → 68.3% 当编辑格式停止吞噬模型时，提升十倍。双子座3
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding-agent, anthropic, bun, claude, cli
+
+---
+
+### 🌟 [evolver](https://github.com/EvoMap/evolver)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 8,258
+- **核心概述**: 用于 AI 代理的 GEP 驱动的自我进化引擎。基因、胶囊和事件的可审计进化。 |进化地图.ai
+- **大概是做什么的**: evomap.ai 文档 中文 / 中文文档 日语 / 日本语ドキュメント 韩语 / 한국어 문서 GitHub 发布通知 — 迈向源码可用 自 2026 年 2 月 1 日首次发布以来，Evolver 已完全开源（最初为 MIT，自 GPL-3.0 或更高版本以来） 2026-04-09）。 2026 年 3 月，同一领域的另一个项目发布了一个具有惊人相似的内存/技能/进化资产设计的系统，但没有任何归因于 Evolver。完整分析：Hermes Agent Self-Evolution vs. Evolver：详细的相似性分析。为了保护工作的完整性并���续朝这个方向投资，未来的 Evolver 版本将从完全开源过渡到源代码可用。我们对用户的承诺不变：我们将继续提供业界最好的智能体自我进化能力——更快的迭代、更深入的GEP集成、更强的记忆和技能系统。所有已发布的 MIT 和 GPL-3.0 版本仍可根据其原始条款免费使用。您仍然可以 npm install @evomap/evolver 或克隆此存储库；您当前的工作流程中没有任何内容会中断。问题或疑虑：开放
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-evolution, agent-framework, agent-protocol, ai-agent, auditable-ai
+
+---
+
+### 🌟 [hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,509
+- **核心概述**: Hermes Agent 的 Web 仪表板 — 多平台 AI 聊天、会话管理、计划作业、使用情况分析
+- **大概是做什么的**: 适用于 Hermes Agent 的全功能桌面应用程序和 Web 仪表板。管理 AI 聊天会话、监控使用情况和成本、配置平台渠道、安排 cron 作业、浏览技能——所有这些都来自一个干净、响应灵敏的 Web 界面。 npm install -g hermes-web-ui && hermes-web-ui start - 通过 Socket.IO /chat-run 进行实时聊天流传输；聊天运行通过 Hermes 代理桥执行 - 多会话管理 — 创建、重命名、删除、在会话之间切换 - 自建会话数据库 — 用于 Web UI 会话的本地 SQLite 存储； Hermes state.db 仍然是 Hermes 历史 API 的只读源 - 使用可折叠手风琴按源（Telegram、Discord、Slack 等）进行会话分组 - 活动会话指示器 - 实时会话通过旋转图标固定在顶部 - 按最新消息时间排序的会话 - 带语法突出显示和代码复制的 Markdown 渲染 - 工具调用详细信息扩展（参数/结果） - 配置文件范围内的文件上传 - 文件下载支持 - 通过解析路径下载上传的文件和代理生成的文件本地、Docker、SSH 和 Singularity 后端 - 会话搜索
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, chat-ui, dashboard, hermes, hermes-agent
+
+---
+
+### 🌟 [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,140
+- **核心概述**: “Vibe-Trading：您的个人交易代理”
+- **大概是做什么的**: English 中文 日本語 한국어 العربية Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website  ·  Docs  ·  News  ·  Features  ·  Shadow Account  ·  Demo  ·  Quick Start  ·  Examples  ·  API / MCP  ·  Roadmap  ·  - 2026-06-06 ⚖️ Alpha 比较 — 跨 CLI、Web UI、REST 和代理进行面对面的比较：新的 alpha 比较将精心挑选的 Alpha Zoo alpha 候选名单在某个宇宙和周期上相互比较，然后根据 IC 平均值/标准差、IR、IC 阳性比率或样本数对它们进行排名 — 每个都与领先者有差距。与全动物园工作台不同，它仅评估您指定的 alpha（一个新的运行工作��（仅=…）子集过滤器），因此比较三个 alpha 不再在其动物园中得分全部 191。一个共享核心为每个表面提供动力：vibe-trading alpha 比较... --sort ir (CLI)，Alpha Zoo Web UI 中的比较视图（勾选目录中的 alpha → 一键与流式 ra 进行比较
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, algorithmic-trading, backtesting, fintech, llm, mcp
+
+---
+
+### 🌟 [ralph-claude-code](https://github.com/frankbria/ralph-claude-code)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 9,270
+- **核心概述**: 具有智能退出检测功能的 Claude Code 自主 AI 开发循环
+- **大概是做什么的**: Ralph for Claude Code 具有智能退出检测和速率限制的自主 AI 开发循环 Ralph 是 Geoffrey Huntley 的 Claude Code 技术的实现，该技术实现了以 Ralph Wiggum 命名的连续自主开发周期。它支持连续的自主开发周期，其中 Claude Code 迭代地改进您的项目直至完成，并具有内置的保护措施来防止无限循环和 API 过度使用。安装一次，随处使用 - Ralph 成为任何目录中可用的全局命令。版本：v0.11.5 - 主动开发核心功能：工作和测试测试覆盖率：784 次测试，100% 通过率 - 具有智能退出检测功能的自主开发循环 - 双条件退出门：需要完��指示器和显式退出信号 - 每小时重置速率限制（100 次调用/小时，可配置） - 具有高级错误检测功能的断路器（防止失控循环） - 具有语义理解和两级错误过滤功能的响应分析器- JSON 输出格式支持，自动回退到文本解析 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-development, ai-development-tools, claude-code
+
+---
+
 ## 🕔 2026-06-07 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。
