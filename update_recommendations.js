@@ -5,9 +5,8 @@ const FILE_PATH = 'daily_recommendations.md';
 const REPOS_PER_RUN = 6;
 const FIVE_HOURS_MS = 5 * 60 * 60 * 1000;
 const README_SUMMARY_MAX_CHARS = 1100;
-const SEARCH_PAGES_PER_QUERY = 3;
-const SEARCH_RESULTS_PER_PAGE = 50;
-const MIN_STARS = 50;
+const SEARCH_RESULTS_PER_PAGE = 40;
+const BASE_MIN_STARS = 20;
 const MIN_DESCRIPTION_LENGTH = 12;
 
 function httpGet(url) {
@@ -71,39 +70,77 @@ function getDateNDaysAgo(days, date = new Date()) {
   return result.toISOString().slice(0, 10);
 }
 
-function buildSearchQueries(date = new Date()) {
-  const activeRecently = getDateNDaysAgo(180, date);
-  const activeBroadly = getDateNDaysAgo(730, date);
-  const createdRecently = getDateNDaysAgo(365, date);
+function buildSearchStages(date = new Date()) {
+  const active90 = getDateNDaysAgo(90, date);
+  const active180 = getDateNDaysAgo(180, date);
+  const active365 = getDateNDaysAgo(365, date);
+  const active730 = getDateNDaysAgo(730, date);
+  const created365 = getDateNDaysAgo(365, date);
+  const created730 = getDateNDaysAgo(730, date);
 
   return [
-    { query: `stars:500..20000 pushed:>${activeRecently} topic:ai`, sort: 'updated' },
-    { query: `stars:300..15000 pushed:>${activeRecently} topic:llm`, sort: 'updated' },
-    { query: `stars:300..15000 pushed:>${activeRecently} topic:agent`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:mcp`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:developer-tools`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:rag`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:cli`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:automation`, sort: 'updated' },
-    { query: `stars:200..12000 pushed:>${activeRecently} topic:productivity`, sort: 'updated' },
-    { query: `stars:100..8000 created:>${createdRecently} language:Python`, sort: 'stars' },
-    { query: `stars:100..8000 created:>${createdRecently} language:TypeScript`, sort: 'stars' },
-    { query: `stars:100..8000 created:>${createdRecently} language:JavaScript`, sort: 'stars' },
-    { query: `stars:100..8000 created:>${createdRecently} language:Rust`, sort: 'stars' },
-    { query: `stars:100..8000 created:>${createdRecently} language:Go`, sort: 'stars' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:machine-learning`, sort: 'updated' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:deep-learning`, sort: 'updated' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:chatbot`, sort: 'updated' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:prompt-engineering`, sort: 'updated' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:computer-vision`, sort: 'updated' },
-    { query: `stars:${MIN_STARS}..3000 pushed:>${activeBroadly} topic:education`, sort: 'updated' }
+    {
+      name: '核心 AI / LLM / Agent 项目',
+      pages: 2,
+      queries: [
+        { query: `stars:300..20000 pushed:>${active180} topic:ai`, sort: 'updated' },
+        { query: `stars:300..15000 pushed:>${active180} topic:llm`, sort: 'updated' },
+        { query: `stars:200..15000 pushed:>${active180} topic:agent`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:mcp`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:rag`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '开发工具 / 自动化 / 效率工具',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:developer-tools`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:cli`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:automation`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:productivity`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:open-source`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '最近创建的多语言项目',
+      pages: 2,
+      queries: [
+        { query: `stars:50..8000 created:>${created365} language:Python`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:TypeScript`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:JavaScript`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:Rust`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:Go`, sort: 'stars' }
+      ]
+    },
+    {
+      name: '机器学习 / 视觉 / 教育扩展池',
+      pages: 2,
+      queries: [
+        { query: `stars:50..6000 pushed:>${active730} topic:machine-learning`, sort: 'updated' },
+        { query: `stars:50..6000 pushed:>${active730} topic:deep-learning`, sort: 'updated' },
+        { query: `stars:50..6000 pushed:>${active730} topic:computer-vision`, sort: 'updated' },
+        { query: `stars:50..6000 pushed:>${active730} topic:chatbot`, sort: 'updated' },
+        { query: `stars:50..6000 pushed:>${active730} topic:education`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '低门槛新项目兜底池',
+      pages: 1,
+      queries: [
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:ai`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:llm`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:agent`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:Python`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:TypeScript`, sort: 'updated' }
+      ]
+    }
   ];
 }
 
 function isUsableCandidate(repo) {
   if (!repo) return false;
   if (repo.archived || repo.disabled || repo.fork) return false;
-  if ((repo.stargazers_count || 0) < MIN_STARS) return false;
+  if ((repo.stargazers_count || 0) < BASE_MIN_STARS) return false;
 
   const description = (repo.description || '').trim();
   if (description.length < MIN_DESCRIPTION_LENGTH) return false;
@@ -124,6 +161,7 @@ function scoreRepo(repo) {
     else if (daysSincePushed <= 30) score += 25;
     else if (daysSincePushed <= 90) score += 15;
     else if (daysSincePushed <= 180) score += 8;
+    else if (daysSincePushed <= 365) score += 3;
     else score -= 8;
   }
 
@@ -149,41 +187,8 @@ function scoreRepo(repo) {
   return score;
 }
 
-async function fetchCandidateRepos() {
-  const collected = [];
-  const seen = new Set();
-
-  for (const { query, sort } of buildSearchQueries()) {
-    for (let page = 1; page <= SEARCH_PAGES_PER_QUERY; page += 1) {
-      const params = new URLSearchParams({
-        q: query,
-        sort,
-        order: 'desc',
-        per_page: String(SEARCH_RESULTS_PER_PAGE),
-        page: String(page)
-      });
-      const apiUrl = `https://api.github.com/search/repositories?${params.toString()}`;
-
-      try {
-        const searchResult = await httpGet(apiUrl);
-        const repos = searchResult.items || [];
-
-        for (const repo of repos) {
-          if (!seen.has(repo.html_url) && isUsableCandidate(repo)) {
-            seen.add(repo.html_url);
-            collected.push(repo);
-          }
-        }
-
-        if (repos.length < SEARCH_RESULTS_PER_PAGE) break;
-      } catch (error) {
-        console.log(`搜索失败，已跳过该查询：${query} - ${error.message}`);
-        break;
-      }
-    }
-  }
-
-  return collected.sort((a, b) => scoreRepo(b) - scoreRepo(a));
+function sortCandidates(repos) {
+  return repos.sort((a, b) => scoreRepo(b) - scoreRepo(a));
 }
 
 function isAlreadyRecommended(existingContent, repo) {
@@ -191,11 +196,12 @@ function isAlreadyRecommended(existingContent, repo) {
 }
 
 function selectNewRepos(repos, existingContent) {
+  const sortedRepos = sortCandidates([...repos]);
   const selected = [];
   const ownerCount = new Map();
   const languageCount = new Map();
 
-  for (const repo of repos) {
+  for (const repo of sortedRepos) {
     if (isAlreadyRecommended(existingContent, repo)) continue;
 
     const owner = repo.owner && repo.owner.login ? repo.owner.login : 'unknown';
@@ -211,7 +217,7 @@ function selectNewRepos(repos, existingContent) {
     if (selected.length >= REPOS_PER_RUN) return selected;
   }
 
-  for (const repo of repos) {
+  for (const repo of sortedRepos) {
     if (selected.some(item => item.html_url === repo.html_url)) continue;
     if (isAlreadyRecommended(existingContent, repo)) continue;
 
@@ -220,6 +226,67 @@ function selectNewRepos(repos, existingContent) {
   }
 
   return selected;
+}
+
+async function fetchCandidateRepos(existingContent) {
+  const collected = [];
+  const seen = new Set();
+  let searchedQueries = 0;
+  let lastStageName = '未开始搜索';
+  let selected = [];
+
+  for (const stage of buildSearchStages()) {
+    lastStageName = stage.name;
+
+    for (const { query, sort } of stage.queries) {
+      for (let page = 1; page <= stage.pages; page += 1) {
+        const params = new URLSearchParams({
+          q: query,
+          sort,
+          order: 'desc',
+          per_page: String(SEARCH_RESULTS_PER_PAGE),
+          page: String(page)
+        });
+        const apiUrl = `https://api.github.com/search/repositories?${params.toString()}`;
+
+        try {
+          searchedQueries += 1;
+          const searchResult = await httpGet(apiUrl);
+          const repos = searchResult.items || [];
+
+          for (const repo of repos) {
+            if (!seen.has(repo.html_url) && isUsableCandidate(repo)) {
+              seen.add(repo.html_url);
+              collected.push(repo);
+            }
+          }
+
+          selected = selectNewRepos(collected, existingContent);
+          if (selected.length >= REPOS_PER_RUN) {
+            return {
+              candidates: sortCandidates(collected),
+              selected,
+              searchedQueries,
+              lastStageName
+            };
+          }
+
+          if (repos.length < SEARCH_RESULTS_PER_PAGE) break;
+        } catch (error) {
+          console.log(`搜索失败，已跳过该查询：${query} - ${error.message}`);
+          break;
+        }
+      }
+    }
+  }
+
+  selected = selectNewRepos(collected, existingContent);
+  return {
+    candidates: sortCandidates(collected),
+    selected,
+    searchedQueries,
+    lastStageName
+  };
 }
 
 function decodeBase64Content(content) {
@@ -341,6 +408,17 @@ async function buildRepoDetailMarkdown(repo) {
   return markdown;
 }
 
+function buildNoNewRepoMarkdown(sectionTitle, searchStats) {
+  let markdown = `${sectionTitle}\n\n`;
+  markdown += `> 🤖 本时间档已运行搜索，但没有找到新的未推荐项目。为了避免重复刷屏，本次记录搜索状态，不重复写入旧项目。\n\n`;
+  markdown += `- **搜索候选数量**: ${searchStats.candidates.length}\n`;
+  markdown += `- **已执行搜索请求**: ${searchStats.searchedQueries}\n`;
+  markdown += `- **最后扩展到的搜索池**: ${searchStats.lastStageName}\n`;
+  markdown += `- **处理策略**: 保留更新记录，但不重复推荐已出现过的项目。\n\n`;
+  markdown += `---\n\n`;
+  return markdown;
+}
+
 async function main() {
   try {
     let existingContent = '';
@@ -356,25 +434,26 @@ async function main() {
       return;
     }
 
-    const repos = await fetchCandidateRepos();
-    const newRepos = selectNewRepos(repos, existingContent);
+    const searchStats = await fetchCandidateRepos(existingContent);
+    const newRepos = searchStats.selected;
 
+    let newMarkdown = '';
     if (newRepos.length === 0) {
-      console.log('没有找到新的未推荐项目，本次不更新，避免重复推荐。');
-      return;
-    }
+      console.log('没有找到新的未推荐项目，将写入搜索状态，避免重复推荐。');
+      newMarkdown = buildNoNewRepoMarkdown(sectionTitle, searchStats);
+    } else {
+      newMarkdown = `${sectionTitle}\n\n`;
+      newMarkdown += `> 🤖 每 5 小时精选一批高质量开源项目。本次从 ${searchStats.candidates.length} 个候选项目中筛选出 ${newRepos.length} 个未推荐过的新项目。\n\n`;
 
-    let newMarkdown = `${sectionTitle}\n\n`;
-    newMarkdown += `> 🤖 每 5 小时精选一批高质量开源项目。本次从 ${repos.length} 个候选项目中筛选出 ${newRepos.length} 个未推荐过的新项目。\n\n`;
-
-    for (const repo of newRepos) {
-      newMarkdown += await buildRepoDetailMarkdown(repo);
+      for (const repo of newRepos) {
+        newMarkdown += await buildRepoDetailMarkdown(repo);
+      }
     }
 
     const finalContent = newMarkdown + existingContent;
     fs.writeFileSync(FILE_PATH, finalContent, 'utf8');
 
-    console.log(`✅ 已成功添加 ${currentSlot} 的 ${newRepos.length} 个项目`);
+    console.log(`✅ 已成功添加 ${currentSlot} 的更新内容，新增项目数：${newRepos.length}`);
   } catch (error) {
     console.error('更新失败:', error.message);
     process.exit(1);
