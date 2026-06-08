@@ -1,3 +1,67 @@
+## 🕔 2026-06-08 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,399
+- **核心概述**: 适用于 AI 代理的安全、快速且可扩展的沙箱运行时。
+- **大概是做什么的**: 文档中文文档 OpenSandbox是一个面向AI应用的通用沙箱平台，为编码Agent、GUI Agent、Agent评估、AI代码执行、RL训练等场景提供多语言SDK、统一沙箱API和Docker/Kubernetes运行时。 OpenSandbox 现已列入 CNCF Landscape 中。 - 多语言 SDK ：提供 Python、Java/Kotlin、JavaScript/TypeScript、C /.NET、Go 等沙箱 SDK。 - 沙箱协议：定义沙箱生命周期管理 API 和沙箱执行 API，以便您可以扩展自定义沙箱运行时。 - Sandbox运行时：内置生命周期管理，支持Docker和高性能Kubernetes运行时，支持本地运行和大规模分布式调度。 - 沙盒环境：内置命令、文件系统和代码解释器实现。示例包括编码代理（例如 Claude Code）、浏览器自动化（Chrome、Playwright）和桌面环境（VNC、VS Code）。 - 网络策略：具有多种路由策略以及每个沙箱出口控制的统一入口网关。 - 强隔离：支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-infra, kubernetes, sandbox
+
+---
+
+### 🌟 [inkos](https://github.com/Narcooo/inkos)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,010
+- **核心概述**: 自主小说写作人工智能代理——代理通过人工审查门来撰写、审核和修改小说
+- **大概是做什么的**: Autonomous Novel Writing AI Agent 自动化小说写作 AI Agent English 中文 日本语 AI Agent 自主写小说——写、审、改，全程接管。覆盖玄幻、仙侠、都市、科幻等多种风格，支持续写、番外、同人、仿写等创作形式。人工审核门控确保你始终掌控全局。已发布为 OpenClaw skill。 v1.4.0 短篇写作与 Studio Chat 协作更新 — Studio Chat 和 CLI 现在可以生成独立短篇、简介卖点和封面提示词 / 封面图；普通聊天支持持久化 session，生成物可直接预览和编辑；Studio 模型配置内置 kkaiapi ，方便接入全球主流模型聚合服务。 InkOS Studio 2.0 正式发布！ — 直接运行 inkos 启动本地 Web 工作台。书籍管理、章节审阅编辑、实时写作进度、市场雷达、数据分析、AI 检测、文风分析、题材管理、守护进程控制、真相文件编辑——CLI 能做的，Studio 全部可视化。 InkOS TUI 正式发布！ — 运行 inkos tui 进入全屏交互仪表盘。对话式创作、自然语言操作书籍、slash 命令补全、主题动效——TUI、Studio、OpenClaw 共享同一套交互内核。 InkOS Short — Studio 对话和 CLI 现在可以直接产出独立短篇：完整正文、大纲记录、审稿记录、简介卖点、封面提示词，并在配置封面服务后生成封面图。 短篇开篇示例：宋词三个多月没坐过这辆车了。蓝牙自动连上她的手机，屏幕弹出“子账号登录中”。她点进常用地址统计：新城花园 187 次，妇幼医院 38 次，月子中心 9 次。后备箱传来闷响，徐晋安放完东西坐进来，冲她笑笑：“今晚加班，你自己打车回去？”她抬头看他，也笑了。 Native English novel writing now supported！ Set --lang en to write in English. See English README for details. 当前更新相对频繁，后续会持续新增功能与优化写作效果。 欢迎加群反馈问题、提出需求，也欢迎关注项目动态 — 我们的目标是做最强的基于小说的内容生态创作 AI Agent。 InkOS 已发布为 OpenClaw Skill，可被任何兼容 Agent（Claude Code、OpenClaw 等）直接调用： 通过 npm 安装或克隆本项目时， skills/SKILL.md 已包含在内，🦞 可直接读取——无需额外从 ClawHub 安装。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-novel, ai-writing, chinese-novel
+
+---
+
+### 🌟 [presenton](https://github.com/presenton/presenton)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,016
+- **核心概述**: 开源 AI 演示生成器和 API（Gamma、Beautiful AI、Decktopus Alternative）
+- **大概是做什么的**: 快速入门 · 开源 AI 演示生成器和 API（Gamma、Canva、Beautiful AI、Decktopus、Presentations AI Alternative）了解 Presenton 的功能，从 AI 支持的演示生成到编辑、导出和灵活的模型提供程序。 ▶ 观看 Presenton 实际操作 无 SaaS 锁定 · 无强制订阅 · 完全控制模型和数据 Presenton 有何不同？ - 通过 Docker 包在 Web 中使用完全自托管 - 或下载桌面应用程序（Mac、Windows 和 Linux） - 可与 OpenAI、Gemini、Vertex AI、Azure OpenAI、Amazon Bedrock、Fireworks、Together AI、Anthropic、LM Studio、Ollama 或自定义模型配合使用 - 附带 AI 演示生成 API - 完全开源 (Apache 2.0) - 使用您自己的设计/模板 - 完全可编辑的 PPTX 导出 💻 Presenton 桌面创建使用您自己的模型提供商 (BYOK) 进行人工智能驱动的演示，或在您自己的计算机上本地运行所有内容，以实现完全控制和数据隐私。 Apple Silicon / Intel 部署到云提供商 Presenton 让您可以完全控制 AI 演示工作流程。选择您的型号，c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-presentation, api, gamma, powerpoint-automation, powerpoint-free
+
+---
+
+### 🌟 [E2B](https://github.com/e2b-dev/E2B)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,511
+- **核心概述**: 开源、安全的环境，具有适用于企业级代理的实际工具。
+- **大概是做什么的**: E2B 是一种开源基础设施，可让您在云中安全隔离的沙箱中运行 AI 生成的代码。要启动和控制沙箱，请使用我们的 JavaScript SDK 或 Python SDK。运行您的第一个 Sandbox JavaScript / TypeScript 2. 获取您的 E2B API 密钥 1. 在此处注册 E2B。 2. 在此处获取您的 API 密钥。 3. 使用 API 密钥设置环境变量 3. 启动沙箱并运行命令 JavaScript / TypeScript 4. 使用代码解释器执行代码 如果您需要使用 runCode() / run code() 执行代码，请安装代码解释器 SDK：访问 E2B 文档。访问我们的食谱，从不同法学硕士和人工智能框架的示例中获得灵感。阅读自托管指南，了解如何自行设置 E2B 基础设施。基础设施是使用 Terraform 部署的。支持的云提供商： - 🟢 Google Cloud (GCP) - [ ] 通用 Linux 机器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-agents, code-interpreter, copilot
+
+---
+
+### 🌟 [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,802
+- **核心概述**: 🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！
+- **大概是做什么的**: 每小时自动同步 OpenClaw 官方更新，汉化版延迟 🦀 ClawPanel — 内置 AI 助手的可视化管理面板 📱 ClawApp — 手机端聊天客户端 查看生态工具 → - 安装指南 — 前提条件 · 安装 · 初始化配置 · 验证运行 · 进阶配置 · 模型配置 · 守护进程 - Docker 部署指南 — 一键部署 · 本地启动 · 远程部署 · Token 认证 · Nginx 反代 · Docker Compose · 错误排查 - 常见问题 — 安装问题 · 启动问题 · Dashboard 连不上 · 内网/远程访问 · 模型和对话 · 其他问题 - 贡献指南 — 环境准备 · 项目结构 · 添加新翻译 · 提交 PR - 翻译规范 — 术语表 · 翻译原则 · 风格指南 OpenClaw 是 GitHub 195,000+ Stars 的 开源个人 AI 助手平台 。它运行在你的电脑上，通过 WhatsApp、Telegram、Discord 等聊天应用与你的 AI 助手交互，帮你处理邮件、日历、文件等日常事务。 本项目 = OpenClaw + 全中文界面 ，CLI 命令行和 Dashboard 网页控制台均已深度汉化。 内部公益平台，免费使用主流 AI 模型！ 签到领额度，邀请得更多，持续免费用 AI！ - � 签到领免费额度 — 每日签到 + 邀请好友，持续获取免费使用额度 - 💰 不满意可退 — 用着不爽随时退款，零风险体验 - ⚡ 兼容 OpenAI 接口 — 无缝对接 OpenClaw，即开即用 - 🔒 内部公益项目 — 长期维护，安全稳定 在 gpt.qt.cool 注册并签到���取免费额度，获取 API Key 后，初始化 OpenClaw 时选择 OpenAI Compatible 提供商，填入地址和 Key 即可使用。 💡 小贴士 ：每日签到 + 邀请好友即可持续获取免费额度，搭配 OpenClaw 等于拥有一个免费私人 AI 助手！ 胜算云 - 国内 AI API 聚合平台，新用户注册送额度，充值尊享 7 折优惠！ 内置 AI 助手 的 OpenClaw 可视化管理面板 🤖 AI 助手 — 8 大工具 + 4 种模式，自动诊断配置 🖼️ 图片识别 — 粘贴截图，AI 一眼看懂 ⚡ 一键安装 — 自动检测环境，无需终端 🎛️ 可视化管理 — 模型、Gateway、Agent 用手机浏览器和 OpenClaw AI 智能体聊天 💬 流式聊天 — WebSocket 实时对话 📷 图片收发 — 拍照上传，A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, chatbot, chinese, claude-ai, clawd
+
+---
+
+### 🌟 [agent-deck](https://github.com/asheshgoplani/agent-deck)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,653
+- **核心概述**: AI 编码代理的终端会话管理器。适用于 Claude、Gemini、OpenCode、Codex 等的一个 TUI。
+- **大概是做什么的**: 您的人工智能代理指挥中心功能。指挥。安装 。快速启动。文档。不和谐。常见问题解答 向 AI 询问 Agent Deck 选项 1：Claude Code 技能（推荐 Claude Code 用户）然后问：“如何设置 MCP 池化？”选项 2：OpenCode（内置 Claude 技能兼容性） OpenCode 会自动从 /.claude/skills/ 发现技能。选项 3：任何 LLM（ChatGPT、Claude、Gemini 等） https://github.com/user-attachments/assets/e4f55917-435c-45ba-92cc-89737d0d1401 快速入门：编排一组 AI 代理 从零到一个 Telegram 机器人需要五分钟，该机器人会监视您正在运行的每个 Claude 会话。就是这样。从现在开始，您运行的所有其他代理平台会话都由一个“指挥”会话监督，该会话回答常规问题，将有趣的问题升级到您的手机，并且永远不会让等待的工作人员腐烂。接下来要阅读的两个简短指南： - docs/CONDUCTOR-SETUP.md — 五分钟演练、Telegram/Slack/Discord 接线、陷阱（为什么插件会全局自动禁用、通道拓扑、多导体模式）。 - docs/WATCHER-SETUP.md — 添加“门铃”，以便
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, ai-coding-assistant, aider, bubble-tea, claude-code
+
+---
+
 ## 🕔 2026-06-08 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
