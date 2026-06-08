@@ -1,3 +1,67 @@
+## 🕔 2026-06-08 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,006
+- **核心概述**: 线束工程初学者教程，从0到1
+- **大概是做什么的**: 学习利用工程基于项目的课程，介绍如何构建使 AI 编码代理可靠工作的环境、状态管理、验证和控制机制。 🌍 本课程提供 14 种语言版本：英语、简体中文、繁体中文、日本语、한국어、西班牙语、法语、Русский、德语、​​巴里语、Tiếng Việt、O´zbekcha、Türkçe、葡萄牙语（巴西）。从上面的徽章中选择您的语言。 Learn Harness Engineering 是一门致力于人工智能编码代理工程的课程。我们深入研究并综合了行业内最先进的线束工程理论��实践。我们的核心参考资料包括： - OpenAI：线束工程：在代理优先的世界中利用 Codex - Anthropic：长期运行代理的有效线束 - Anthropic：用于长期运行的应用程序开发的线束设计 - 很棒的线束工程 快速入门？ Skills/harness-creator/ Skill 可以帮助您在几分钟内为自己的项目构建生产级的工具（AGENTS.md、功能列表、init.sh、验证工作流程）。 - 线束工程的实际含义 - 快速入门：Im
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, ai, ai-agent, harness
+
+---
+
+### 🌟 [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,021
+- **核心概述**: 100 行 AI 代理可以解决 GitHub 问题或在命令行中为您提供帮助。极其简单，没有庞大的配置，没有巨大的单一存储库，但在 SWE-bench 验证上得分 >74%！
+- **大概是做什么的**: 最小的 AI 软件工程代理📣 在我们新的且极具挑战性的基准 ProgramBench 上运行 mini-swe-agent 📣 有关构建最小 AI 代理的新教程📣 Gemini 3 Pro 在经过 mini-swe-agent 验证的 SWE 基准上达到 74％！ 📣 新博文：在 GPT-5 和 Sonnet 4 之间随机切换可提高性能这是 mini-swe-agent v2 。阅读迁移指南。对于以前的版本，请查看 v1 分支。 2024 年，我们构建了 SWE-bench 和 SWE-agent，并帮助启动了编码代理革命。现在我们要问：如果我们的代理简单 100 倍，并且仍然能正常工作，会怎样？ - 广泛采用：被 Meta、NVIDIA、Essential AI、IBM、Nebius、Anyscale、普林斯顿大学、斯坦福大学等使用。 - 最小：代理类只需大约 100 行 Python（环境、模型和运行脚本多一点）——没有花哨的依赖项！ - 高性能：在 SWE-bench 验证基准上得分为 74%；启动速度比 Claude Code 快得多 - 可部署：支持本地环境、docker/podman、singularity/apptainer、bublewrap、contree 等 - Comp
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-ai-cli, ai, ai-agent, textual
+
+---
+
+### 🌟 [ChatLab](https://github.com/ChatLab/ChatLab)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,635
+- **核心概述**: Local-first chat history analyzer with AI. | 本地优先的 AI 聊天记录分析工具
+- **大概是做什么的**: 你的聊天记录终于是你的了。官方网站·文档·快速入门·路线图·发布 ChatLab 是一款开源桌面应用程序，用于了解您的社交对话。它将灵活的 SQL 引擎与 AI 代理相结合，因此您可以在自己的计算机上探索模式、提出更好的问题并从聊天数据中提取见解。目前支持：WhatsApp、LINE、微信、QQ、Discord、Instagram 和 Telegram。接下来：iMessage、Messenger 和 KakaoTalk。新安装？从这里开始：入门 - 🚀 专为大型历史记录而构建：流解析和多工作进程处理使导入和分析保持响应，即使在百万条消息规模下也是如此。 - 🔒 默认私有：您的聊天数据和设置保留在本地。没有强制将原始对话上传到云端。 - 🤖 可以实际操作数据的人工智能：代理 + 函数调用工作流程（24+ 工具）可以搜索、总结和分析带有上下文的聊天记录。 - 📊 富有洞察力的视觉视图：在一处查看趋势、时间模式、互动频率、排名等。 - 🧩 跨平台标准化：不同的导出格式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, chat-analyzer, chat-history, data-analysis, data-visualization
+
+---
+
+### 🌟 [clawpanel](https://github.com/qingchencloud/clawpanel)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,828
+- **核心概述**: 🦞 OpenClaw & Hermes Agent 多引擎 AI 管理面板 — 内置 AI 助手（工具调用 + 图片识别 + 多模态），一键安装 | Tauri v2 跨平台桌面应用 | 11 种语言
+- **大概是做什么的**: 内置 AI 助手的 OpenClaw & Hermes Agent 管理面板 — 多引擎 AI 框架管理 🇨🇳 中文 🇺🇸 English 🇹🇼 繁体中文 🇯🇵 日本语 🇰🇷 한국어 🇻🇳 Tiếng Việt 🇪🇸 Español 🇧🇷 Português 🇷🇺 Русский 🇫🇷 Français 🇩🇪 Deutsch ClawPanel 是支持多 AI Agent 框架的可视化管理面板，目前支持 OpenClaw 和 Hermes Agent 双引擎。 内置智能 AI 助手 ，帮你一键安装、自动诊断配置、排查问题、修复错误。 8 大工具 + 4 种模式 + 交互式问答，从新手到老手都能轻松管理。 🌐 官网 : claw.qt.cool 📦 下载 : 官网下载中心 备用: GitHub Releases ✨ Hermes Agent 第二引擎：会话、记忆、人格与工具全景管理 把 Agent 从一次性聊天���口，升级为可持续运营的智能体系统。 查看 Hermes Agent 图文指南 → Notes / User Profile / Soul 三份 Markdown 沉淀上下文。 追踪对话过程、上下文质量和真实运行表现。 定位工具调用、运行步骤和 Agent 执行链路。 - 长期记忆可视化 — 在线编辑 Notes、User Profile、Soul，让事实、偏好与人格持续沉淀。 - 会话可运营 — 统一查看对话、消息流、运行状态和工具调用细节。 - 人格可维护 — 把 Agent 的表达风格、价值观和偏好固化为可编辑资产。 - 渠道可扩展 — 面向 QQ、Telegram、Discord 等外部​​渠道集中管理连接能力。 内部技术测试平台，面向部分用户开放体验。签到领额度，邀请得更多。 - 签到领测试额度 — 每日签到 + 邀请好友，持续获取测试额度 - 兼容 OpenAI 接口 — 无缝对接 OpenClaw，即开即用 - 资源策略 — 限速 + 请求上限，高峰期可能排队 - 模型可用性 — 模型/接口以实际页面为准，可能灰度或版本切换 配合 OpenClaw 使用：在 gpt.qt.cool 注册并签到领取测试额度，获取 API Key 后，初始化 OpenClaw 时选择 OpenAI Compatible 提供商，填入地址和 Key 即可使用。 ⚠️ 合规与责任边界 ：本平台仅提供技术测试，禁止用于违法违规、绕过安全机制等用途。违规将限制访问并保留处置权。妥善保管 API Key，勿在截图/日志/代码库中泄露
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: admin-panel, ai-agent, ai-assistant, ai-chat, ai-tools, chatgpt
+
+---
+
+### 🌟 [ArcReel](https://github.com/ArcReel/ArcReel)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,507
+- **核心概述**: AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致 | Open-source AI video workspace powered by AI Agents, Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI
+- **大概是做什么的**: 开源 AI 视频生成工作台 — 从小说到短视频，全程 AI Agent 驱动 基于 Claude Agent SDK ，编排 Skill + 聚焦 Subagent 多智能体协作，自动完成从剧本创作到视频合成的完整流水线 Gemini 、 火山方舟 、 Grok 、 OpenAI 、 Vidu 及自定义供应商，角色设计图确保角色一致性，线索追踪保证道具/场景跨镜连贯 Veo 3.1 、 Seedance 、 Grok 、 Sora 2 、 Vidu Q3 及自定义供应商，全局/项目级可切换 RPM 速率限制 + Image/Video 独立并发通道，lease-based 调度，支持断点续传 Web UI 管理项目、预览素材、版本回滚、实时 SSE 任务追踪，内置 AI 助手 ⚠️ 操作系统 ：推荐 Linux / macOS / WSL2 / Docker。Windows 原生可运行项目创建与基础流程，但 Bash 沙箱、bwrap 等 POSIX-only 隔离机制会自动降级，生产部署仍建议 WSL2 或 Docker Desktop 首次启动后，使用默认账号登录（用户名 admin ，密码在 .env 中通过 AUTH PASSWORD 设置；未设置则首次启动时自动生成并回写到 .env ），前往 设置页 （ /settings ）完成配置： 1. ArcReel 智能体 — 配置驱动 AI 助手的供应商凭据，支持 Anthropic 官方及多种兼容供应商，自定义 Base URL 与模型 2. AI 生图/生视频/生文本 — 配置至少一个供应商的 API Key（Gemini / 火山方舟 / Grok / OpenAI / Vidu），或添加自定义供应商 - 完整生产流水线 — 小说 → 剧本 → 角色设计 �� 分镜图片 → 视频片段 → 成片，一键编排 - 多智能体架构 — 编排 Skill 检测项目状态并自动调度聚焦 Subagent，每个 Subagent 独立完成一项任务后返回摘要 - 沙箱化 Agent 运行环境 — Agent 工具调用默认运行在 bwrap 沙箱内，文件系统、网络、子进程能力按白名单授权；Linux/macOS 自动启用，Windows 原生不支持沙箱时自动降级 - 多供应商支持 — 图片/视频/文本生成均支持 Gemini、火山方舟、Grok、OpenAI、Vidu 五大预置供应商，全局/项目级可切换；AI 助手凭据同样支持多供应商配置 - 自定义供应商 — 接入任何 OpenAI 兼容 / Google 兼容 API（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-video-generator, claude-agent-sdk, docker, gemini, grok
+
+---
+
+### 🌟 [thClaws](https://github.com/thClaws/thClaws)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,082
+- **核心概述**: 原生 Rust 中的开源 AI 代理工具 — 来自一个二进制文件的 GUI、CLI、headless 和 webapp。多提供商、MCP、技能、插件、代理团队。
+- **大概是做什么的**: 开源代理工具位于您的终端和桌面上。原生 Rust AI 代理工作区，可在您自己的机器上运行，进行编码、自动化、记忆和协调。一个二进制。主权的设计。由一个公开黑客的小团队构建。网站 · 下载 · 手册 · 讨论 · 贡献 ✨ v0.32 中的新增功能 — 在 thClaws 内运行 Claude 代码 2026 年 6 月 15 日，Anthropic 将 Claude Agent SDK 和 claude -p 的订阅使用从您计划的正常限制中解绑到单独的每月上限信用额度 — 20 美元（专业版）、100 美元（最多 5 次）、200 美元（最多 20 次），计量为标准 API 列表费率，无展期，无池化。一旦信用耗尽，SDK 调用就会失败，除非您选择按需付费溢出。终端中的交互式 Claude 代码、Claude.ai 聊天和 Cowork 都继续从您的正常订阅中提取 — 只有无头 SDK / claude -p 路径会转移到积分上。 thClaws 的人类代理提供商通过具有订阅身份验证的 Agent SDK 进行路由，因此它在 6 月 15 日之后完全符合新的上限信用额。本机提供商（直接 API 密钥）不受影响 - 它一直是
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-harness, agent-teams, ai-agent, anthropic, claude-code, cli
+
+---
+
 ## 🕔 2026-06-08 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
