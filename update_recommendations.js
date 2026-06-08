@@ -5,6 +5,9 @@ const FILE_PATH = 'daily_recommendations.md';
 const REPOS_PER_RUN = 6;
 const FIVE_HOURS_MS = 5 * 60 * 60 * 1000;
 const README_SUMMARY_MAX_CHARS = 1100;
+const SEARCH_RESULTS_PER_PAGE = 40;
+const BASE_MIN_STARS = 20;
+const MIN_DESCRIPTION_LENGTH = 12;
 
 function httpGet(url) {
   return new Promise((resolve, reject) => {
@@ -62,34 +65,273 @@ function getFiveHourSlot(date = new Date()) {
   return slotStart.toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 }
 
-function buildSearchQueries() {
+function getDateNDaysAgo(days, date = new Date()) {
+  const result = new Date(date.getTime() - days * 24 * 60 * 60 * 1000);
+  return result.toISOString().slice(0, 10);
+}
+
+function buildSearchStages(date = new Date()) {
+  const active90 = getDateNDaysAgo(90, date);
+  const active180 = getDateNDaysAgo(180, date);
+  const active365 = getDateNDaysAgo(365, date);
+  const active730 = getDateNDaysAgo(730, date);
+  const created365 = getDateNDaysAgo(365, date);
+  const created730 = getDateNDaysAgo(730, date);
+
   return [
-    'stars:>5000+created:>2024-01-01',
-    'stars:>2000+created:>2025-01-01+topic:ai',
-    'stars:>1000+created:>2025-01-01+topic:machine-learning',
-    'stars:>1000+created:>2025-01-01+topic:llm',
-    'stars:>1000+created:>2025-01-01+topic:agent'
+    {
+      name: 'AI Agent / LLM / MCP / RAG 项目',
+      pages: 2,
+      queries: [
+        { query: `stars:300..20000 pushed:>${active180} topic:ai-agent`, sort: 'updated' },
+        { query: `stars:300..20000 pushed:>${active180} topic:ai-agents`, sort: 'updated' },
+        { query: `stars:300..15000 pushed:>${active180} topic:llm`, sort: 'updated' },
+        { query: `stars:200..15000 pushed:>${active180} topic:agent`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:mcp`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:rag`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active180} topic:prompt-engineering`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '深度学习 / CNN / PyTorch 学习项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:deep-learning`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:pytorch`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:tensorflow`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:cnn`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:convolutional-neural-networks`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:neural-network`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '计算机视觉 / 图像处理 / 检测分割项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:computer-vision`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-processing`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-classification`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:object-detection`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:image-segmentation`, sort: 'updated' },
+        { query: `stars:50..8000 pushed:>${active365} topic:vision-transformer`, sort: 'updated' }
+      ]
+    },
+    {
+      name: 'AIGC 图像检测 / Deepfake / 图像取证项目',
+      pages: 2,
+      queries: [
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:ai-generated-image-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:aigc-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:deepfake-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:fake-image-detection`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:image-forensics`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:digital-image-forensics`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..6000 pushed:>${active730} topic:diffusion-models`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '计算机专业基础 / 算法 / 系统学习项目',
+      pages: 2,
+      queries: [
+        { query: `stars:100..20000 pushed:>${active730} topic:algorithms`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:data-structures`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:operating-systems`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:computer-networking`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:database`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:distributed-systems`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:system-design`, sort: 'updated' },
+        { query: `stars:100..20000 pushed:>${active730} topic:cybersecurity`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '开发工具 / 自动化 / 效率工具',
+      pages: 2,
+      queries: [
+        { query: `stars:100..12000 pushed:>${active365} topic:developer-tools`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:cli`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:automation`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:productivity`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:linux`, sort: 'updated' },
+        { query: `stars:100..12000 pushed:>${active365} topic:open-source`, sort: 'updated' }
+      ]
+    },
+    {
+      name: '最近创建的多语言工程项目',
+      pages: 2,
+      queries: [
+        { query: `stars:50..8000 created:>${created365} language:Python`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:TypeScript`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:JavaScript`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:Rust`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:Go`, sort: 'stars' },
+        { query: `stars:50..8000 created:>${created365} language:C++`, sort: 'stars' }
+      ]
+    },
+    {
+      name: '低门槛新项目兜底池',
+      pages: 1,
+      queries: [
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:ai`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:deep-learning`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:computer-vision`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 pushed:>${active90} topic:agent`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:Python`, sort: 'updated' },
+        { query: `stars:${BASE_MIN_STARS}..3000 created:>${created730} language:TypeScript`, sort: 'updated' }
+      ]
+    }
   ];
 }
 
-async function fetchCandidateRepos() {
+function isUsableCandidate(repo) {
+  if (!repo) return false;
+  if (repo.archived || repo.disabled || repo.fork) return false;
+  if ((repo.stargazers_count || 0) < BASE_MIN_STARS) return false;
+
+  const description = (repo.description || '').trim();
+  if (description.length < MIN_DESCRIPTION_LENGTH) return false;
+
+  return true;
+}
+
+function scoreRepo(repo) {
+  let score = 0;
+
+  const stars = repo.stargazers_count || 0;
+  score += Math.log10(stars + 1) * 20;
+
+  const pushedAt = repo.pushed_at ? new Date(repo.pushed_at).getTime() : 0;
+  if (pushedAt > 0) {
+    const daysSincePushed = (Date.now() - pushedAt) / (1000 * 60 * 60 * 24);
+    if (daysSincePushed <= 7) score += 35;
+    else if (daysSincePushed <= 30) score += 25;
+    else if (daysSincePushed <= 90) score += 15;
+    else if (daysSincePushed <= 180) score += 8;
+    else if (daysSincePushed <= 365) score += 3;
+    else score -= 8;
+  }
+
+  const createdAt = repo.created_at ? new Date(repo.created_at).getTime() : 0;
+  if (createdAt > 0) {
+    const daysSinceCreated = (Date.now() - createdAt) / (1000 * 60 * 60 * 24);
+    if (daysSinceCreated <= 365) score += 10;
+    else if (daysSinceCreated <= 730) score += 5;
+  }
+
+  const description = repo.description || '';
+  if (description.length >= 30) score += 8;
+  if (description.length >= 80) score += 4;
+
+  const topics = repo.topics || [];
+  if (topics.length > 0) score += 8;
+  if (topics.length >= 3) score += 5;
+
+  if (repo.language) score += 4;
+  if (repo.has_issues) score += 3;
+  if (repo.homepage) score += 3;
+
+  return score;
+}
+
+function sortCandidates(repos) {
+  return repos.sort((a, b) => scoreRepo(b) - scoreRepo(a));
+}
+
+function isAlreadyRecommended(existingContent, repo) {
+  return existingContent.includes(repo.html_url) || existingContent.includes(repo.full_name);
+}
+
+function selectNewRepos(repos, existingContent) {
+  const sortedRepos = sortCandidates([...repos]);
+  const selected = [];
+  const ownerCount = new Map();
+  const languageCount = new Map();
+
+  for (const repo of sortedRepos) {
+    if (isAlreadyRecommended(existingContent, repo)) continue;
+
+    const owner = repo.owner && repo.owner.login ? repo.owner.login : 'unknown';
+    const language = repo.language || 'unknown';
+
+    if ((ownerCount.get(owner) || 0) >= 1) continue;
+    if ((languageCount.get(language) || 0) >= 2) continue;
+
+    selected.push(repo);
+    ownerCount.set(owner, (ownerCount.get(owner) || 0) + 1);
+    languageCount.set(language, (languageCount.get(language) || 0) + 1);
+
+    if (selected.length >= REPOS_PER_RUN) return selected;
+  }
+
+  for (const repo of sortedRepos) {
+    if (selected.some(item => item.html_url === repo.html_url)) continue;
+    if (isAlreadyRecommended(existingContent, repo)) continue;
+
+    selected.push(repo);
+    if (selected.length >= REPOS_PER_RUN) return selected;
+  }
+
+  return selected;
+}
+
+async function fetchCandidateRepos(existingContent) {
   const collected = [];
   const seen = new Set();
+  let searchedQueries = 0;
+  let lastStageName = '未开始搜索';
+  let selected = [];
 
-  for (const query of buildSearchQueries()) {
-    const apiUrl = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=30`;
-    const searchResult = await httpGet(apiUrl);
-    const repos = searchResult.items || [];
+  for (const stage of buildSearchStages()) {
+    lastStageName = stage.name;
 
-    for (const repo of repos) {
-      if (!seen.has(repo.html_url)) {
-        seen.add(repo.html_url);
-        collected.push(repo);
+    for (const { query, sort } of stage.queries) {
+      for (let page = 1; page <= stage.pages; page += 1) {
+        const params = new URLSearchParams({
+          q: query,
+          sort,
+          order: 'desc',
+          per_page: String(SEARCH_RESULTS_PER_PAGE),
+          page: String(page)
+        });
+        const apiUrl = `https://api.github.com/search/repositories?${params.toString()}`;
+
+        try {
+          searchedQueries += 1;
+          const searchResult = await httpGet(apiUrl);
+          const repos = searchResult.items || [];
+
+          for (const repo of repos) {
+            if (!seen.has(repo.html_url) && isUsableCandidate(repo)) {
+              seen.add(repo.html_url);
+              collected.push(repo);
+            }
+          }
+
+          selected = selectNewRepos(collected, existingContent);
+          if (selected.length >= REPOS_PER_RUN) {
+            return {
+              candidates: sortCandidates(collected),
+              selected,
+              searchedQueries,
+              lastStageName
+            };
+          }
+
+          if (repos.length < SEARCH_RESULTS_PER_PAGE) break;
+        } catch (error) {
+          console.log(`搜索失败，已跳过该查询：${query} - ${error.message}`);
+          break;
+        }
       }
     }
   }
 
-  return collected.sort((a, b) => b.stargazers_count - a.stargazers_count);
+  selected = selectNewRepos(collected, existingContent);
+  return {
+    candidates: sortCandidates(collected),
+    selected,
+    searchedQueries,
+    lastStageName
+  };
 }
 
 function decodeBase64Content(content) {
@@ -159,19 +401,43 @@ async function fetchReadmeKeyPart(repo) {
 function inferProjectUse(repo, translatedDesc, translatedReadme) {
   const source = `${repo.name} ${repo.description || ''} ${(repo.topics || []).join(' ')}`.toLowerCase();
 
-  if (/agent|multi-agent|autonomous/.test(source)) {
+  if (/ai-generated-image-detection|aigc-detection|deepfake-detection|fake-image-detection|image-forensics|digital-image-forensics|forensics/.test(source)) {
+    return '适合学习 AIGC 图像检测、Deepfake 检测、图像取证和伪造痕迹分析，也可以作为你做 AI 生成图像检测算法的参考。';
+  }
+  if (/computer-vision|image-processing|image-classification|object-detection|image-segmentation|vision-transformer/.test(source)) {
+    return '适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。';
+  }
+  if (/cnn|convolutional-neural-network|convolutional-neural-networks|deep-learning|pytorch|tensorflow|neural-network|model/.test(source)) {
+    return '适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。';
+  }
+  if (/agent|multi-agent|autonomous|ai-agent|ai-agents/.test(source)) {
     return '适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。';
+  }
+  if (/mcp|model-context-protocol|context-protocol/.test(source)) {
+    return '适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。';
   }
   if (/llm|large-language-model|rag|chatbot|prompt/.test(source)) {
     return '适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。';
   }
-  if (/machine-learning|deep-learning|pytorch|tensorflow|model/.test(source)) {
-    return '适合用于机器学习、深度学习模型训练、实验复现或算法工程实践。';
+  if (/machine-learning/.test(source)) {
+    return '适合用于机器学习模型训练、实验复现、特征工程或算法工程实践。';
+  }
+  if (/algorithm|data-structures|leetcode/.test(source)) {
+    return '适合用于计算机专业基础训练，尤其是数据结构、算法题和编程能力提升。';
+  }
+  if (/operating-system|operating-systems|linux|kernel|compiler|compilers/.test(source)) {
+    return '适合学习操作系统、Linux、编译器或底层系统开发，能补计算机专业基础。';
+  }
+  if (/database|distributed-systems|system-design|backend|microservice/.test(source)) {
+    return '适合学习数据库、分布式系统、后端架构和系统设计相关工程能力。';
+  }
+  if (/cybersecurity|security|computer-networking|network/.test(source)) {
+    return '适合学习网络、安全攻防、系统安全或计算机网络相关知识。';
   }
   if (/ui|web|app|dashboard|frontend/.test(source)) {
     return '适合直接体验、二次开发成工具型产品，或参考它的界面和工程实现。';
   }
-  if (/dataset|data|benchmark/.test(source)) {
+  if (/\bdataset\b|benchmark|evaluation|leaderboard/.test(source)) {
     return '适合用于数据集研究、模型评测、论文实验或构建自己的测试基准。';
   }
 
@@ -208,6 +474,17 @@ async function buildRepoDetailMarkdown(repo) {
   return markdown;
 }
 
+function buildNoNewRepoMarkdown(sectionTitle, searchStats) {
+  let markdown = `${sectionTitle}\n\n`;
+  markdown += `> 🤖 本时间档已运行搜索，但没有找到新的未推荐项目。为了避免重复刷屏，本次记录搜索状态，不重复写入旧项目。\n\n`;
+  markdown += `- **搜索候选数量**: ${searchStats.candidates.length}\n`;
+  markdown += `- **已执行搜索请求**: ${searchStats.searchedQueries}\n`;
+  markdown += `- **最后扩展到的搜索池**: ${searchStats.lastStageName}\n`;
+  markdown += `- **处理策略**: 保留更新记录，但不重复推荐已出现过的项目。\n\n`;
+  markdown += `---\n\n`;
+  return markdown;
+}
+
 async function main() {
   try {
     let existingContent = '';
@@ -223,37 +500,26 @@ async function main() {
       return;
     }
 
-    const repos = await fetchCandidateRepos();
+    const searchStats = await fetchCandidateRepos(existingContent);
+    const newRepos = searchStats.selected;
 
-    const newRepos = [];
-    for (const repo of repos) {
-      if (!existingContent.includes(repo.html_url)) {
-        newRepos.push(repo);
-      }
-      if (newRepos.length >= REPOS_PER_RUN) break;
-    }
-
-    if (newRepos.length === 0 && repos.length > 0) {
-      console.log('没有未推荐过的新项目，将从热门项目中选取兜底内容。');
-      newRepos.push(...repos.slice(0, REPOS_PER_RUN));
-    }
-
+    let newMarkdown = '';
     if (newRepos.length === 0) {
-      console.log('没有找到合适项目');
-      return;
-    }
+      console.log('没有找到新的未推荐项目，将写入搜索状态，避免重复推荐。');
+      newMarkdown = buildNoNewRepoMarkdown(sectionTitle, searchStats);
+    } else {
+      newMarkdown = `${sectionTitle}\n\n`;
+      newMarkdown += `> 🤖 每 5 小时精选一批高质量开源项目。本次从 ${searchStats.candidates.length} 个候选项目中筛选出 ${newRepos.length} 个未推荐过的新项目。\n\n`;
 
-    let newMarkdown = `${sectionTitle}\n\n`;
-    newMarkdown += `> 🤖 每 5 小时精选一批高质量开源项目，持续为你带来灵感。\n\n`;
-
-    for (const repo of newRepos) {
-      newMarkdown += await buildRepoDetailMarkdown(repo);
+      for (const repo of newRepos) {
+        newMarkdown += await buildRepoDetailMarkdown(repo);
+      }
     }
 
     const finalContent = newMarkdown + existingContent;
     fs.writeFileSync(FILE_PATH, finalContent, 'utf8');
 
-    console.log(`✅ 已成功添加 ${currentSlot} 的 ${newRepos.length} 个项目`);
+    console.log(`✅ 已成功添加 ${currentSlot} 的更新内容，新增项目数：${newRepos.length}`);
   } catch (error) {
     console.error('更新失败:', error.message);
     process.exit(1);
