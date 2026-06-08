@@ -1,3 +1,67 @@
+## 🕔 2026-06-08 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MonkeyCode](https://github.com/chaitin/MonkeyCode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,237
+- **核心概述**: 企业级 AI 开发平台，内置了开发环境管理、AI 模型管理、AI 任务管理、项目需求管理等能力，是真正面向专业开发团队的 AI 助手
+- **大概是做什么的**: MonkeyCode 是一款开源的 企业级 AI 开发平台 ，内置了开发环境管理、AI 模型管理、AI 任务管理、项目需求管理等能力，区别于其他的 vibe coding 工具，MonkeyCode 是真正面向专业开发团队的 AI 助手。 - 你可以部署在 企业内网 ，分享给研发团队使用，让你的研发团队可以方便、快捷地启动开发任务；作为研发负责人的你可以对企业内的 AI 开发流程进行统一管理。 - 你可以直接使用我们的 在线环境 ，内置了开发环境，内置了大模型，支持手机客户端，可以随时随地使用最领先的 AI Agent。 你不需要自己拼工具、搭环境、来回切流程。把需求交给 MonkeyCode，它会从开发到验证一路接住，真正把 AI 编程变成可持续的工作流。 - 免费即用 ：无需下载客户端，也不用折腾环境。浏览器打开、注册账号，几秒钟就能开始执行第一个 AI 开发任务。 - 云端开发环境 ：不依赖本地开发机。每个任务背后都有一台真实服务器提供运行环境，编译、测试、预览都在云上完成。 - 全量主流模型 ：GLM、Kimi、MiniMax、Qwen、DeepSeek 等都已接入，支持按任务类型切换，也能手动指定。 - 移动端原生支持 ：深度适配 iOS / Android，PC 和手机数据实时同步。通勤路上也能把任务交给 Agent 继续跑。 - 完全开源 ：核心代码全部公开在 GitHub。任何人都能审计、fork��二次开发，技术选型和安全策略自己掌控。 - 私有化离线部署 ：对数据隐私要求高的企业和团队，可以把 MonkeyCode 独立部署到自己的内网中，数据不出本地。 直接访问 MonkeyCode 在线版即可开始使用： https://monkeycode-ai.com/ 1. 安装 MonkeyCode 控制台。 - MonkeyCode 控制台：最低 2C / 4 GB / 40 GB - 开发环境宿主机：最低建议 8C / 16 GB / 100 GB 1. 安装 MonkeyCode 控制台 进入控制台，在管理后台添加开发环境宿主机。宿主机用于运行 MonkeyCode Agent 沙箱，建议单独准备资源。 添加团队成员后，即可让研发团队开始使用 MonkeyCode。 对比维度 MonkeyCode Cursor Claude Code Codex --- :---: :---: :---: :---: 在线使用 🟢 🟢 🟢 🟢 本地 IDE 🔴 🟢 🟢 🟢 本地 CLI 🔴 🟢 🟢 🟢 需求与 SPEC 管理 🟢 🔴
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-coding, ai-coding-assistant, aicoding, claude
+
+---
+
+### 🌟 [nano-banana-pro-prompts-recommend-skill](https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,627
+- **核心概述**: OpenClaw 和 Claude Code 的 AI 技能 - 10000+ Nano Banana Pro (Gemini) 图像提示推荐。按用例、内容混音、示例图像进行智能搜索。
+- **大概是做什么的**: AI 图像提示推荐器 — 10,000 多个 Nano Banana Pro 提示 无需花费大量时间寻找合适的 AI 图像提示。用一句话告诉您的 AI 助手您需要什么 - 它会搜索 10,000 多个精选的 Nano Banana Pro 提示，并返回前 3 个匹配项和示例图像，可供使用。 🖼️ 浏览提示库 → 一项 AI 代理技能，使 Claude、OpenClaw、Cursor 和其他 AI 助手能够智能搜索包含 10,000 多个 Nano Banana Pro（Gemini 图像模型）提示的精选库，推荐最适合您的用例的匹配项，甚至根据您的内容自定义提示。 Nano Banana Pro 是 Google 的 Gemini 图像生成模型 - 当今功能最强大的 AI 图像生成器之一。高质量的提示是获得良好结果的关键。 - ✅ 10,000 多个提示，按用例组织 - 不是随机转储，而是专业分类 - ✅ 每个提示都包含示例图像 - 在复制之前查看结果 - ✅ 智能语义搜索 - 描述您需要的内容，AI 找到匹配 - ✅ 内容混音模式 - 粘贴您的文章或视频脚本，获取自定义内容
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-image, claude-code-skill, clawhub, content-creation, gemini
+
+---
+
+### 🌟 [TokenTracker](https://github.com/mm7894215/TokenTracker)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 671
+- **核心概述**: 跟踪 22 个 AI 编码工具（Claude Code、Codex、Cursor、Gemini、Roo Code、Zed Agent、Goose 等）的代币使用情况 — 本地优先、零配置、带有漂亮的仪表板、原生 macOS 菜单栏应用程序和 4 个桌面小部件。
+- **大概是做什么的**: English · 简体中文 · 日本语 · 한국어 准确了解您在 AI 上的支出 — 跨每个 CLI 自动收集 22 个 AI 编码工具的代币计数，在本地进行汇总，并在漂亮的仪表板中查看真实的成本趋势。无需云帐户、无需 API 密钥、无需设置 — 只需一个命令。 ⭐ 如果 TokenTracker 节省了您的时间，请在 GitHub 上为其加注星标 — 它可以帮助其他开发人员找到它。要求：Node.js 20+（CLI 在 macOS / Linux / Windows 上运行；本机桌面应用程序适用于 macOS（菜单栏）和 Windows（系统托盘）。光标标记读取使用系统 sqlite3 CLI（如果可用），并在支持的 Node 版本上回退到 node:sqlite）。就是这样。首次运行会​​安装挂钩、同步数据并在 http://localhost:7680 打开仪表板。 30 秒内您将获得： - 📊 localhost:7680 上的本地仪表板，包含使用趋势、模型细分、成本分析 - 🔌 自动检测您安装的每个受支持的 AI 工具的挂钩 - 🏠 100% 本地 — 无帐户、无 API 密钥、无网络调用（可选排行榜除外） - 🧩 可选：一个技能选项卡，可浏览 250 多种公共技能并将其同步
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-tools, antigravity, claude-code, cli
+
+---
+
+### 🌟 [OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 666
+- **核心概述**: OpenBiliClaw 是纯本地、私有、开源的自进化跨平台内容发现 Agent：从跨平台使用、项目反馈与对话中持续深化心理画像，带着对你的理解主动去 B 站、小红书、抖音、YouTube 等来源找内容 / Fully local, private, open-source, self-improving discovery agent that learns from usage, feedback, and dialogue to find content across Bilibili, Xiaohongshu, Douyin, YouTube, and more.
+- **大概是做什么的**: 通用个性化内容推荐 Agent——本地运行、跨平台理解你、只为你一个人构建 A general-purpose personalized content discovery Agent — runs on your machine, understands only you 一个纯本地、私有、开源的自进化跨平台内容发现 Agent：从你的跨平台使用、反馈和对话中持续深化心理画像，带着对你的理解主动去 B 站、小红书、抖音、YouTube 等来源找内容。 B 站 / 小红书 / 抖音 / YouTube / Web 数据默认留在本机 SQLite 喜欢、不感兴趣、聊天反馈都会改变后续推荐 喜欢这个方向？ 欢迎 Star 支持项目继续适配更多平台 。 普通用户先走这四步；Firefox、Docker 和手动部署等备用路径保留在后面的 安装与部署详情。 1. 安装浏览器插件 ：推荐从 Releases 下载最新 extension-v 的 zip 手动安装（版本最新）；也可从 Chrome 应用商店一键安装（自动更新，但受审核排期影响，版本可能滞后于 Releases）。 2. 部署后端（两种方式，按需选一，都推荐） ： - 🖥️ 下载桌面安装包（最省事） ：到 Releases 下载 macOS .dmg / Windows .exe ，装好双击即用 —— 自带本地 embedding、常驻菜单栏/托盘。当前为 未签名的实验性预发布 ，首次打开需绕过系统拦截，详见 安装与部署详情。 - 🤖 让 AI 助手部署（想改源码 / 深度定制选它） ：把下面整句粘给 Claude Code、Codex CLI、Cursor、Windsurf ��其他 AI 编程助手。 3. 在同一个浏览器登录内容平台 ：至少登录 B 站，需要多源信号时再登录 小红书 / 抖音 / YouTube。 4. 打开桌面端或移动端 Web ：后端启动后访问 http://127.0.0.1:8420/web ；手机可扫插件二维码打开 http:// :8420/m/ 。 名字起源于 B 站（ Bili = Bilibili， Claw = 爪子），项目最早只支持 B 站。从 v0.3.0 起已扩展为通用跨平台 Agent —— 已落地 B 站 / 小红书 / 抖音 / YouTube 初始化信号、抖音 search / hot / feed 内容发现和通用 Web 多类源，持续接入更多内容平台。 推荐系统本质上是一个 中间商 ——平台站在海量内容和海量用户之间做匹配分发。现代推荐系统远比「优化点击
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bilibili, browser-extension, chrome-extension, content-discovery, cross-platform
+
+---
+
+### 🌟 [flow-next](https://github.com/gmickel/flow-next)
+- **项目语言**: Python
+- **星标数量**: ⭐ 627
+- **核心概述**: 适用于 Claude Code、OpenAI Codex 和 Factory Droid 的规范驱动的 AI 工作流程插件。零深度任务跟踪、工作子代理、Ralph 自治模式、跨模型审查。
+- **大概是做什么的**: 规划优先的人工智能工作流程。零外部依赖。 📖 完整文档索引 → · 🌐 flow-next.dev · 👥 团队指南 · 💬 Discord Flow-Next 是一个 AI 代理编排插件。整个生命周期的 26 种代理原生技能：想法 → 规范 → 任务 → 审查 → 交付 → 维护。捆绑任务跟踪、依赖图、每个任务之前重新锚定、多模型审查、衰减感知项目内存、GitHub PR 创建和解决、代理就绪审核。一切都在你的存储库中——没有外部服务，没有全局配置。卸载：删除 .flow/ 。 - 规格第一。每个工作单元都属于一个规范 fn-N 。任务 fn-N.M 继承上下文。 - 新环境工作者。每个任务都在其自己的子代理中运行。任务之间没有令牌流失。 - 跨模型评论。不同的模型（RepoPrompt / Codex / Copilot）控制每个实现。 - R-ID 在移交时冻结。验收标准编号一次，从未重新编号。在 Claude Code、OpenAI Codex（CLI + 桌面）和 Factory Droid 上都是一流的。还可以在 xAI Grok Build 和 Cursor（本地插件）上运行，以及通过社区端口的 OpenCode。 🆕 v1.0+ — 流程
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflow, ai-agent, ai-workflow, anthropic, autonomous-agent, claude-code
+
+---
+
+### 🌟 [mateclaw](https://github.com/matevip/mateclaw)
+- **项目语言**: Java
+- **星标数量**: ⭐ 564
+- **核心概述**: 🤖 MateClaw — 您的第二大脑，具有多代理编排、MCP 协议、技能和记忆、梦想和多渠道支持。基于 Spring AI 阿里巴巴构建。
+- **大概是做什么的**: 代理工具 · 内置 Spring Boot · 一个 JAR 即可发布 网站] 现场演示] 文档] 中文] 其他个人 AI 代理是为一个人构建的。 MateClaw 是您的 IT 部门真正可以批准的一款。多用户工作区。敏感行为需要审批。完整的审计跟踪。 Spring Boot 执行器健康状况监控。每个通道的错误隔离，因此一个聊天平台的中断不会影响其他平台。您自己��机器上有一个 JAR，零数据出口。下面是真正的特工安全带。在 StateGraph 运行时上进行 ReAct + 计划和执行 — 不是一次性的 RAG 调用。工具、技能、MCP 和 ACP 汇聚在一个注册表中，并与每个员工进行绑定。敏感工具调用会通过您可以实际检查的批准门。当供应商不运行时，多供应商故障转移可以保持循环运行。大多数人工智能工具在其供应商表现不佳时就会消亡。大多数人在标签关闭的那一刻就忘记了你。大多数人都会给你一个聊天框，并将其称为产品。 MateClaw 是整个小部件。一次部署。推理、知识、记忆、工具、渠道——构建在一起，而不是固定在一起。当你的主要模式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, ai-agent, dingtalk-robot, feishu-bot, llm-wiki
+
+---
+
 ## 🕔 2026-06-08 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
