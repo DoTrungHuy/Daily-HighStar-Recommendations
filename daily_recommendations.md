@@ -1,3 +1,67 @@
+## 🕔 2026-06-08 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kite](https://github.com/kite-org/kite)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,751
+- **核心概述**: 🪁 一款轻量级的现代 Kubernetes 仪表板，将多集群和资源管理、企业级用户治理（OAuth、RBAC 和审核日志）以及 AI 代理统一在一个工作区中。不仅仅是一个工具，而更像是一个平台。
+- **大概是做什么的**: Kite - 现代 Kubernetes 仪表板现代 Kubernetes 仪表板实时演示文档 Kite 是一种轻量级的现代 Kubernetes 仪表板，它将实时可观察性、多集群和资源管理、企业级用户治理（OAuth、RBAC 和审核日志）以及 AI 代理统一在一个工作区中。不仅仅是一个工具，而更像是一个平台。 - 具有系统偏好检测的深色/浅色/颜色主题 - 跨所有资源的全局搜索 - 适用于桌面、平板电脑和移动设备的响应式设计 - i18n 支持（英语和中文） 多集群管理 - 在多个 Kubernetes 集群之间切换 - 每个集群独立的 Prometheus 配置 - 从 kubeconfig 自动发现 - 细粒度的集群访问权限 - 全面覆盖：Pod、部署、服务、ConfigMap、Secret、PV、PVC、节点等 - 实时 YAML使用 Monaco 编辑器进行编辑（语法突出显示和验证） - 包含容器、卷、事件和条件的详细视图 - 资源关系（例如，部署 → Pod） - 创建、更新、删除、扩展和重新启动操作 - 自定义资源
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cloud-native, dashboard, helm-manager, kubernetes, kubernetes-addons
+
+---
+
+### 🌟 [tabularis](https://github.com/TabularisDB/tabularis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,359
+- **核心概述**: 面向开发人员的轻量级跨平台数据库客户端。支持 MySQL、PostgreSQL 和 SQLite。可通过插件进行破解。专为速度、安全性和美观而打造。
+- **大概是做什么的**: 适用于现代数据库的开源桌面客户端。支持 PostgreSQL、MySQL/MariaDB 和 SQLite，可通过插件进行破解，内置笔记本、AI 和 MCP。提供以下语言版本：英语、意大利语、西班牙语、中文（简体）、法语、德语、日语、俄语 Discord - 加入我们的 Discord 服务器与维护人员交谈、分享反馈并从社区获取帮助。 💡 起源故事：这个项目最初是一个人工智能辅助开发实验，探索智能代理可以在多大程度上加速从头开始构建功能齐全的工具。 -turboSMTP - 专业 SMTP 中继 - 您的电子邮件直接发送到收件箱，永远不会成为垃圾邮件 - Kilo Code - 开源 AI 编码代理 - 使用 500 多个模型更快地构建、发布和迭代 - DigitalOcean - 为开发人员和成长中的团队提供简单、可预测的云基础设施。 - Usero — 反馈变成代码。自动地。 - DevGlobe — 连接您的 IDE，出现在地球上，并向构建者社区展示您的项目。 - 连接管理 - 键盘快捷键 - 可视化查询生成器 - 配置存储 - AI 功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, cross-platform, database-client, database-gui, database-management
+
+---
+
+### 🌟 [AgentsMesh](https://github.com/AgentsMesh/AgentsMesh)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,197
+- **核心概述**: AI 代理劳动力平台——团队规模超出人员规模。为每个团队成员提供一个人工智能特工小队。
+- **大概是做什么的**: 团队规模超出人员规模。人工智能代理劳动力平台。为每个团队成员提供一个人工智能代理小队——分配任务、跟踪进度并让他们自主协作。 X·X（创始人）·AgentsMesh 是人工智能代理劳动力平台——团队规模超出了人员数量。 AgentsMesh 无需在本地计算机上一次运行一个代理，而是可以启动远程 AI 工作站 (AgentPods)，通过通道和 Pod 绑定协调多代理协作，并通过集成任务管理跟踪所有内容 — 所有这些都来自单个 Web 控制台。个人生产力已经达到顶峰。下一个前沿是组织。 AgentsMesh 将人工智能代理从单独的工具转变为协调的劳动力。 BYOK（自带密钥）— 您提供自己的 AI API 密钥。无使用上限。全面成本控制。 - AgentPod — 具有 Web 终端、Git 工作树隔离和实时流的远程 AI 工作站。运行多个并发 Pod。 - 多代理协作——通过通道和 Pod 绑定协调代理。实时可视化协作拓扑。 - 任务管理——Ka
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentsmesh, ai-agent, ai-agent-workforce-platform, ai-coding, aider
+
+---
+
+### 🌟 [EvoScientist](https://github.com/EvoScientist/EvoScientist)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,430
+- **核心概述**: 🔬 与自我进化的人工智能科学家一起利用 Vibe 研究
+- **大概是做什么的**: EvoScientist 旨在通过让人工智能科学家能够自主探索、产生见解并迭代改进，来利用氛围研究。它被设计成固执己见，开箱即用，提供了一个活生生的研究系统，随着代理技能、工具集和记忆库的不断发展而不断发展。 EvoScientist 超越了传统的“人在环”系统，采用了“人在环”范式，其中人工智能充当研究伙伴，与人类研究人员共同进化，并将学术品味和科学判断内化。 🏆 奖项和表彰 最佳论文和评审奖 AI 生成的最佳论文 1 篇 DeepResearch Bench II 1 篇 DeepResearch Bench 1 篇 AstaBench 代码和执行 1 篇 AstaBench 数据分析 ⚡ 统一控制，不同界面 🖥️ CLI / TUI / WebUI - 🤖 多代理团队 — 6 个子代理（计划、研究、编码、调试、分析、编写）工作在音乐会中。 - 🧠 自我进化记忆——用户个人资料和观察结果每轮都会自动提炼，并在会话中不断增长。 - 🌐 多提供商 — Anthropic、OpenAI、Google、MiniMax、NVIDIA — 一个配置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai4science, multi-agent-system, vibe-research
+
+---
+
+### 🌟 [awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,008
+- **核心概述**: A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 学习地图。
+- **大概是做什么的**: 繁体中文 简体中文 English awesome-agentic-ai-zh 🤖 AI Agent 学习地图 — 从基本 LLM 概念到自己打造多 agent 系统 学习路线图 + 240+ 资源 curation + 简单 illustrative 案例 结构化 8 阶段、从「LLM 是什么、token 怎么算」走到 multi-agent 编排、Computer Use / Browser Use / Sandbox 本 repo 角色定位 ： 学习路线图 + 240+ 资源 curation + 简单 illustrative 案例 ——三件事为核心、帮想学 AI / AI agent 的人从「不知道从哪开始」走到「能设计多 agent 系统」。 学习路线图 把网路散落的高品质专案、教材、必修阅读，按 从零开始、循序渐进 整理成 8 个阶段 （含 Stage 5 + Stage 8 两个共用 hub）+ 2 条学习路线 + 5 条延伸路径 8 stages、2 tracks 资源 curation 每阶段精选 240+ 个 project（含星等、适合谁、教什么、怎么跑），加���中文 AI 生态(DeepSeek / Zhipu / Kimi 等)MCP / Skill 完整 catalog 240+ projects、65 MCP/Skill 简单 illustrative 案例 每阶段附 1-5 个 基础练习 （70-150 行 starter + dual-path Ollama/Anthropic SDK 对照 + mock-based test） 23 个练习 folder 走完整条路线，你会从「 LLM 使用者 」进阶到「 agent 系统建构者 」——能看懂 framework 在做什么、能设计多 agent 协作、能写自己的 MCP server。 📖 关于中英文混用 ：本专案保留 AI Agent 领域常见英文术语（Prompt Engineering / Context Engineering / Harness / MCP / Skills / RAG 等），因为官方文件、paper、GitHub repo 与 API 文件多以英文为主��每个重要概念会提供 中文理解名 + 英文正式术语 + 一句白话定位 ，让读者能先理解概念，再对接英文生态。完整对照见 resources/glossary.md 。 🚀 第一次接触 AI agent / 没写过 code？ 先看 resources/setup-guide.md — 30-45
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-workflows, ai-agent, ai-agents, awesome-list, chinese-llm
+
+---
+
+### 🌟 [neo](https://github.com/neomjs/neo)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,199
+- **核心概述**: Neo.mjs 是一个自我进化的软件有机体：一个专业的端到端 AI 工程团队，其跨模型群体通过 Neural Link、Active Hybrid GraphRAG、DreamService 和自我修复循环驻留在实时应用程序中。
+- **大概是做什么的**: Neo.mjs 是一个自我进化的软件有机体——一个专业的端到端人工智能工程团队，位于自己的开源存储库中。当业界运行一个人工智能代理并变得糟糕时，Neo.mjs 运行着来自竞争对手实验室（Claude、Gemini、GPT）的一群思想，这些实验室通过共享内存和主动混合 GraphRAG 读取彼此的推理，捕捉到任何单一模型本身无法看到的东西。通过 Neural Link 拥有接口，群体不仅可以读取代码，还可以读取代码。它存在于实时应用程序中——检查语义运行时状态、实时改变 UI 和数据、将会话 UI 从聊天面板转变为在应用程序内协作的代理。它自主运行整个工程生命周期：构思、构建和交叉审查生产多线程引擎，运行 DreamService 周期以重新引导优先级，并关闭自我修复循环，其中运行时故障、代码缺陷、代理错误和架构摩擦将成为下一个周期的修复、票证、技能、内存和新图形拓扑。 2026 年 5 月，规范仓库记录了 706 个合并 PR
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai, ai-agent, ai-memory, context-engineering, frontend
+
+---
+
 ## 🕔 2026-06-08 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
