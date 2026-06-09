@@ -1,3 +1,67 @@
+## 🕔 2026-06-09 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zeroshot](https://github.com/covibes/zeroshot)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,500
+- **核心概述**: CLI 中的自主工程团队。将 Zeroshot 指向问题，然后离开，然后返回到生产级代码。支持 Claude Code、OpenAI Codex、OpenCode 和 Gemini CLI。
+- **大概是做什么的**: 🎉 v5.4 中的新增功能：现在支持 OpenCode CLI！使用 Claude、Codex、Gemini 或 OpenCode 作为您的 AI 提供商。还支持 GitHub、GitLab、Jira 和 Azure DevOps 作为问题后端。请参阅提供商和多平台问题支持。 npm install -g @covibes/zeroshot 演示（100 倍速度，90 分钟运行，5 次迭代才能批准）Zeroshot 是一个开源 AI 编码代理编排 CLI，它运行多代理工作流程来自动实施、审查、测试和验证代码更改。它在隔离的环境中运行计划者、实施者和独立验证者，循环直到更改被验证或因可操作、可重现的故障而被拒绝。专为正确性比速度更重要的任务而设计。 - 计划：将任务转化为具体的验收标准 - 实施：在隔离的工作区（本地、工作树或 Docker）中进行更改 - 验证：使用独立的验证器运行自动检查 - 迭代：重复直到验证，或返回可操作的失败 - 恢复：为恢复保留崩溃安全状态 或者内联描述复杂的任务：为什么不只使用单个 AI 代理？阿普罗
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-workflow, ai-agent, ai-agents, autonomous-agents, claude
+
+---
+
+### 🌟 [vm0](https://github.com/vm0-ai/vm0)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,122
+- **核心概述**: 零，您在实际工作中值得信赖的 AI 队友。
+- **大概是做什么的**: 零，您在实际工作中值得信赖的 AI 队友。 Zero 连接到 100 多个工具并完成工作 - 报告、分类、外展、研究。在 Slack 或网络上。 ⭐ 在 GitHub 上为我们加注星标——这极大地激励了我们！ ⭐ Zero 为您的团队所拥有的不是另一个聊天机器人或严格的自动化。这是您在 Slack 中 @提及并交给真实角色的队友。 🪄 对于创始人和首席执行官 - 只有创始人才会携带的溢出 - 每日业务简报 - 日历、线性、Slack 和 X 被纳入一个早晨摘要中，在站立前交付。 - 投资者和董事会更新 - 根据实时指标和本月发货起草的每月电子邮件。您编辑音调，而不是数字。 - 收件箱分类 — 对您的邮件进行排序，用您的声音起草回复，显示只有您可以回复的内容。 - 决策日志 — 每个埋藏在 Slack 中的“我们决定 X”都会成为可搜索的 Notion 记录。 📣 对于销售和营销 - 研究、撰写和发送的 SDR - KOL 和前景研究 - 将 X 和开放网络抓取到包含简介、关注者数量、参与信号�� Notion 跟踪器中。 - 个性化外展——根据每个潜在客户自己的情况写出冷冰冰的电子邮件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agent, ai-runtime, ai-sandbox, claude-code, dev-tools
+
+---
+
+### 🌟 [openclaw-guardian](https://github.com/LeoYeAI/openclaw-guardian)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 588
+- **核心概述**: 🛡️ OpenClaw Gateway 的 Guardian 看门狗 — 自动监控、通过 doctor --fix 进行自我修复、基于 git 的回滚、每日快照和 Discord 警报。由 MyClaw.ai 提供支持
+- **大概是做什么的**: 🛡️ OpenClaw Guardian 英语 · 中文 · 法语 · 德语 · Русский · 日本语 · 意大利语 · 西班牙语 🤖 由 MyClaw.ai 提供支持 MyClaw.ai 是一个人工智能个人助理平台，为每个用户提供一个在专用服务器上运行的功能齐全的人工智能代理 - 具有完整的代码控制、互联网访问和工具集成。将其视为您自己的私人人工智能，它实际上可以做事，而不仅仅是回答问题。 OpenClaw Guardian 是一个诞生于 MyClaw.ai 生产基础设施的开源项目。我们全天候 (24/7) 运行数千个 AI 代理实例，Guardian 是让它们保持活力的强化层。我们将其开源，以便每个人都能受益。 🌐 尝试 MyClaw.ai ：https://myclaw.ai - 自动监控 — 每 30 秒检查网关运行状况 - 自动修复 — 失败时运行 openclaw doctor --fix（最多 3 次尝试） - 自动回滚 — 如果修复失败，将工作区重置为最后一个稳定的 git 提交 - 每日快照 — 工作区每日自动 git 提交 - Discord 警报 — 有关故障和恢复的可选 webhook 通知 ⚡ 单行部署 (OpenClaw)用户）已经在使用 OpenClaw？只是告诉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bash, devops, guardian, openclaw, self-healing
+
+---
+
+### 🌟 [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 586
+- **核心概述**: 具有交互式 REPL、MCP 服务器和 CLI 的 AI 支持的 OSINT 代理。 16 个工具。适用于 Claude、GPT-4 或本地模型。仅用于授权的安全研究。
+- **大概是做什么的**: mcp-name：io.github.OpenOSINT/openosint AI 支持的 OSINT 代理。交互式 REPL · CLI · MCP 服务器 · Web UI 16 种工具。由 Anthropic Claude 或当地的 Ollama 提供支持。仅用于授权的安全研究。请参阅 DISCLAIMER.md 了解法律和道德使用信息。法律免责声明：OpenOSINT 仅供合法和授权使用。用户全权负责确保其使用遵守所有适用的法律和法规。作者对滥用不承担任何责任。请参阅 DISCLAIMER.md。 OpenOSINT 是开源智能的 AI 代理，具有三个接口：交互式终端 REPL、直接 CLI 和可暴露给 Claude Code、Claude Desktop 或任何 MCP 兼容客户端的 MCP 服务器，以及 v2.12.0 中添加的基于浏览器的 Web UI。 AI 层使用 Anthropic 的本机工具使用 API（或本地 Ollama 模型，或任何 OpenAI 兼容端点）：模型在需要工具时发出硬停止，您的代码执行真正的二进制文件，实际输出返回 - 工具结果中的幻觉在结构上是不可能的。 - AI 工具链——代理决定 16 个工具中的哪一个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anthropic, claude, cli, cybersecurity, holehe
+
+---
+
+### 🌟 [openops](https://github.com/openops-cloud/openops)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,032
+- **核心概述**: 包含电池的无代码 FinOps 自动化平台，具有您信任的 AI。
+- **大概是做什么的**: OpenOps 是一个无代码 FinOps 自动化平台，可帮助组织降低云成本并简化财务运营。它提供可定制的工作流程来自动化关键的 FinOps 流程，例如分配、单位经济性、异常管理、工作负载优化、安全取消配置等等。它还捆绑了自己的类似 Excel 的数据库 (OpenOps Tables) 和自己的可视化系统 (OpenOps Analytics)。同时，OpenOps 实现了 FinOps 团队、工程师、DevOps、财务和领导层之间的协作，确保成本节约措施不仅得到确定，而且得到有效实施。 OpenOps 与主要云提供商、许多第三方 FinOps 工具、各种通信平台和一些项目管理工具无缝集成。 🏁 只是想开始吗？点击这里。预构建的 FinOps 工作流程 – 根据 FinOps 领导者的意见设计的最佳实践工作流程库。涵盖成本优化、标记、预算、分配和报告。无代码经验 – 适合非技术从业者，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, cloud-governance, cloud-optimization, enterprise-automation, finops
+
+---
+
+### 🌟 [AI_Tutorial](https://github.com/cbamls/AI_Tutorial)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,673
+- **核心概述**: 大厂发布的AI落地实践、顶尖实验室的最新论文、工业界的真实踩坑记录
+- **大概是做什么的**: 大模型时代，百科式的内容 AI 已能自动生成海量。 但真正珍贵的增量信息，恰恰是来自一线实战的工程经验—— 大厂落地实践、顶尖实验室最新论文、工业界真实踩坑记录 ，才是这个时代最有价值的知识增量。 Google EEAT 所强调的 Experience（经验） ，正变得愈发稀缺且不可替代。 AIQ 专注于此，全面整理高质量的 AI / ML / 大数据技术资料，内容来自： 国内外知名互联网公司技术博客（FAANG、Alibaba、Meituan 等）、 开源项目官网与综合技术社区（InfoQ、Stack Overflow、GitHub 等） 及知名技术公众号（DataFunTalk、阿里技术等）。 苦练基本功 ：随着全球工业界在 AI 道路上的不断探索与沉淀，笔耕不辍，很多很多年后，AIQ 终将成为人工智能领域的"史家之绝唱，无韵之离骚"。 坚持做正确的事，而不是容易的事 ：随着工业界不断的分享实践，未来无数的 AI 工程师们都能在这里找到解决方案、对标前沿，收获志同道合的朋友。智能时代里遍地生花、百家争鸣。 每天前进三十公里 ：通过持续提升 AI 技术信息获取的效率，降低信息不对称壁垒，加速行业周期，助力人类智能化的翅膀飞得更高更远。 ------ ------ ------ 🏢 AI 业界实践 FAANG、阿里、美团、字节等大厂一线工程师的真实落地经验。不造神话，只讲干货。 ✅ 已上线 📰 AI 动态资讯 论文速览、新模型发布、行业动态、AI 领袖推文精选——每天自动聚合，不错过任何重要进展。 🚧 建设中 🧭 AI 精选产品导航 精心筛选的 AI 工具与产品导航，帮你在信息爆炸的时代快速找到真正好用的东西。 ✅ 已上线 - arXiv · Papers With Code - Google · Meta · Microsoft Research - Alibaba · Meituan · ByteDance - InfoQ · Stack Overflow · GitHub - DataFunTalk · 阿里技术 · 美团技术 - AI 领袖 X/Twitter 精选 - 质量优先 ：只收录有实质性工程价值或学术贡献的内容，拒绝标题党与营销软文。 - 来源可溯 ：每篇内容均保留原始出处，尊重原作者的劳动成果。 - 经验导向 ：大模型时代，我们更重视 Experience——一线实战经验比理论综述更难复制。 - 广泛覆盖 ：内容来源覆盖全球顶尖公司博客、学术机构、技术社区，不设地域与语言边界。 GitHub 资料库：https://github.co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, artificial-intelligence, artificial-intelligence-algorithms, llm, machine-learning, recommender-systems
+
+---
+
 ## 🕔 2026-06-09 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
