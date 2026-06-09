@@ -1,3 +1,67 @@
+## 🕔 2026-06-09 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [html-video](https://github.com/nexu-io/html-video)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 2,449
+- **核心概述**: 用于编码代理的程序化视频 — HTML 到笔记本电脑上的视频。使用可插拔渲染引擎、21 个模板、AI 配乐将 HTML、CSS 和数据转换为真正的 MP4。 Apache-2.0，无每次渲染费用。开放设计团队的官方项目。
+- **大概是做什么的**: HTML 在您的笔记本电脑上变成视频。带上您本地的编码代理（Open Design · Windsurf CLI · Trae CLI · Claude Code · Cursor · Codex · Gemini · Grok · Qwen · OpenCode · Copilot · Aider · Hermes · 或 Anthropic API）。描述视频，或粘贴文章链接/GitHub 存储库，代理将其转换为多帧、完全动画的视频，然后将其渲染为您计算机上的真实 MP4。一个代理循环、可插入渲染引擎、精选模板库、可选 AI 配乐。 Apache-2.0，无每次渲染费用，无供应商锁定。开放设计团队的官方项目 · open-design.ai 下面的每个模板都是真实的动画单文件 HTML 视频 - 这些是实时渲染，而不是模型。放入一份，让代理将您的内容填充到其中，然后导出为 MP4。 frame-data-chart-nyt · data-viz 编辑 NYT 风格的动画折线图 — 标题、带注释的数据点、源行。对于“数字上升”的故事。帧故障标题 · 标题卡 带有扫描线的色差故障标题。用于开瓶���、掉落物和“系统在线”能量。框架液体背景英雄 · 英雄奥罗拉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, apache-2, coding-agent, css, ffmpeg, html
+
+---
+
+### 🌟 [boxlite](https://github.com/boxlite-ai/boxlite)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,116
+- **核心概述**: AI 代理的计算基础：足够轻，可以在笔记本电脑上运行，足够有弹性，可以扩展到云端并释放无限的资源。
+- **大概是做什么的**: AI 代理的计算基础：足够轻，可以在笔记本电脑上运行，足够有弹性，可以扩展到云端并释放无限的资源。 BoxLite 允许您启动轻量级虚拟机（“盒子”）并在其中运行 OCI 容器。与每次执行后都会破坏状态的临时沙箱不同，BoxLite Box 是持久的工作空间 - 安装包、创建文件、构建环境状态，然后返回并从上次中断的地方继续。 - 有状态：盒子在停止/重新启动时保留包、文件和环境。每次交互都无需重建。 - 轻量级：占用空间小、启动快、异步优先 API 实现高并发。 - 硬件隔离：每个 Box 运行自己的内核——而不仅仅是命名空间或容器。 - 无守护进程：嵌入为库，无需 root，无后台服务。 - OCI 兼容：使用标准 Docker 镜像（ python:slim 、 node:alpine 、 alpine:latest ）。 - 网络策略 + 秘密占位符：通过允许网络限制出站访问并从主机端秘密注入真实的 HTTP(S) 秘密。 - 本地优先��完全在您的计算机上运行 - 无云
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agent, embedded, rust, sandbox, security
+
+---
+
+### 🌟 [beeai-framework](https://github.com/i-am-bee/beeai-framework)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,288
+- **核心概述**: 使用 Python 和 Typescript 构建可投入生产的 AI 代理。
+- **大概是做什么的**: 日期语言更新说明 ---------- ---------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 2025/08/25 Python 🚀 ACP 现已成为 Linux 基金会下 A2A 的一部分！ 👉 了解更多 2025/06/03 Python 发布实验性 Requirement Agent。 2025/05/15 Python 新协议集成：ACP 和 MCP。 2025/02/19 Python 推出 Python 库 alpha。请参阅入门指南。 2025/02/07 TypeScript 引入了后端模块来简化 AI 服务（聊天、嵌入）的使用。 2025/01/28 TypeScript 添加了对 DeepSeek R1 的支持，查看竞争分析工作流程示例。 2025/01/09 TypeScript 引入了工作流程，这是一种构建多代理系统的方法。添加了对模型上下文协议的支持。 2024/12/09 TypeScript 添加了对 LLaMa 3.3 的支持。请参阅使用 watsonx 的多代理工作流程示例或探��其他可用的提供程序。 2024年11月21日
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agent, beeai, framework, llm
+
+---
+
+### 🌟 [FlyEnv](https://github.com/xpf0000/FlyEnv)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,929
+- **核心概述**: 适用于 Windows、macOS 和 Linux 的多合一本机本地开发环境。 PHP、Node.js、Python 等的 Docker 替代品。通过数据库、Cron 作业和运行时管理，更快地替代 XAMPP、Laragon、MAMP 和 Laravel Herd。
+- **大概是做什么的**: 本机安装、切换和运行本地开发堆栈 FlyEnv 是一款桌面应用程序，用于管理 Windows、macOS 和 Linux 上的本地开发环境。从一个 UI 安装并运行 PHP、Node.js、Python、Java、.NET、Flutter、Web 服务器、数据库、队列、AI 工具、SSL、本地域、反向代理和 cron 作业。使用本机二进制文件，切换每个项目的版本，并保持系统路径干净——无需 Docker。最适合希望本地服务而不需要容器开销的 Web、后端、移动和全栈开发人员。 FlyEnv 可以做什么？按需安装运行时：PHP、Node.js、Python、Java、.NET、Flutter、Go、Rust、Ruby、Bun、Deno 等。运行本地服务：Nginx、Apache、Caddy、MySQL、PostgreSQL、MongoDB、Redis、RabbitMQ、Elasticsearch、Minio/RustFS 以及其他常见开发依赖项。管理项目：切换每个项目的运行时版本，定义启动/停止命令，通过本地域、反向代理、HTTPS 和 Cloudflare Tunnel 公开项目。处理日常开发任务：编辑配置和日志、检查端口、安排 cron 作业、管理 Git、生成证书
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cron-jobs, development-environment, docker-alternative, laragon, laravel-herd
+
+---
+
+### 🌟 [AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,888
+- **核心概述**: 【三年面试五年模拟】AIGC/LLM/AI Agent算法工程师面试秘籍。涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习、大数据挖掘、具身智能、元宇宙、AGI等AI行业面试笔试干货经验与核心知识。
+- **大概是做什么的**: 🔥【三年面试五年模拟】AIGC算法岗/开发岗的面试求职秘籍 【Three Years of Interviews, Five Years of Practice】The Ultimate Guide to AIGC Interview、LLMs Interview、AI Agent Interview、Deep Learning Interview、Algorithm Engineer Interview 🏆 AIGC算法岗方向： 涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习、大数据挖掘、具身智能、元宇宙、AGI等。 🏆 AIGC开发岗方向： 涵盖Python、Java、C/C++、Go、嵌入式、前端、后端、测试、运维等。 🚀 本项目凝聚了AIGC时代众多一线AIGC算法专家的行业经验与深度洞察 ，涵盖AIGC完整知识架构、AIGC大厂内推、AIGC面试经验、AIGC公司指南/辛秘、AI校招时间表、AIGC面试准备、AIGC薪资爆料、AIGC刷题指南、AIGC求职答疑等干货资源。本项目的核心内容均取材于编者们在AI行业中的工作、研究、竞赛经验，以及对各互联网大厂/AIGC明星公司的AIGC岗位笔试/面试题提炼。 💡 本项目也可作为高等学府AIGC相关专业的研究、教学、竞赛以及学习的参考用书 ；还可为AIGC、传统深度学习以及自动驾驶领域的初、中级技术人员提供思路参考， 尤其适合AIGC求职者和提供相关AIGC算法岗位的面试官阅读研究 。 👍 本项目的持续构建/维护十分不易，希望大家能多多star～。Star本项目，你就获得了0.5个心仪的offer；再分享本项目，你就获得了0.75个心仪offer！在这里，Rocky祝大家求职顺利、工作顺利！ - :star: AIGC/LLM/AI Agent算法岗面试求职经验指南（包含简历模版、求职攻略、面试经验、面试技巧等通用AI岗位面试技巧） - :art: AIGC图像创作&AI绘画基础 - :video game: AI Agent基础 - :abacus: 数学&物理本质原理基础 - :closed book: 深度学习基础 - :blue book: 机器学习基础 - :european castle: 模型部署基础 - :snake: 编程基础：Python - :bar chart: 编程基础：C和C++ - :boom: 大厂高频面试题（实时更新） - :battery: 数据结构&算法基础 - :chart with upw
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: ai-agent, aigc, computer-vision, deep-learning, interview, interview-preparation
+
+---
+
+### 🌟 [boss-agent-cli](https://github.com/can4hou6joeng4/boss-agent-cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,119
+- **核心概述**: AI-agent-first CLI for BOSS 直聘 — 职位搜索、福利筛选、招聘者工作流、MCP 工具与 AI 简历优化
+- **大概是做什么的**: 专为 AI Agent 设计的 BOSS 直聘本地辅助 CLI 工具 默认低风险模式：本地辅助 · 只读优先 · 用户主动触发 · 不规避风控 · 不批量触达 · 不抓取平台数据 求职者：搜索 · 福利筛选 · 详情查看 · 候选池 · 本地简历与 AI 辅助 快速上手 · 安装 · 快速开始 · 角色模式 · Agent 集成 · 命令参考 · 排障 · 架构 · 更新日志 · 路线图 观看完整展示视频 · 查看终端交互演示 · schema 驱动 · 福利筛选 · JSON 信封 · 开源工程质量 Doloffer Guide 致力于让优质 AI 工具的获取更简单。平台主打 GPT 与 Claude 等主流 AI 服务的正版会员充值，提供一站式订阅管理，主打安全稳定与无忧售后。 💡 极速订阅 ： 专属链接（输入优惠码 AI8888 享 9 折特惠） A local-assist CLI for AI Agents working around BOSS Zhipin data already available to the user. Default low-risk mode is read-only first, user-triggered, and does not automate outreach, bulk actions, risk-control bypasses, or candidate personal-data workflows. See README.en.md for the English version. 本项目默认启用低风险辅助模式，目标是收缩为“本地辅助 / 只读优先 / 用户主动触发 / 不规避风控 / 不批量触达 / 不抓取平台数据”的低风险工具。CLI 默认会阻断打招呼、批量打招呼、投递、联系方式交换、招聘者候选人搜索、候选人简历、聊天记录、附件简历请求和消��回复等敏感能力。需要投递、沟通、候选人处理或联系方式交换时，请回到 BOSS 直聘官方页面由用户手动完成。 💡 为什么用 boss-agent-cli？ 传统求职：打开网页 → 翻几十页 → 逐个看详情 → 手动整理候选岗位 → 忘了跟进谁。 boss-agent-cli 让 AI Agent 帮你做本地整理和只读辅助 ： 所有输出为 结构化 JSON ，Agent 一调用就能理解；涉及投递、沟通和候选人个人信息处理的动作默认回到平台官网手动完成。 - 为什么用 boss-agent-cli ------ ------ ---------- 项目展示动
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skill, agent-tools, ai-agent, automation, boss-zhipin, cli
+
+---
+
 ## 🕔 2026-06-09 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
