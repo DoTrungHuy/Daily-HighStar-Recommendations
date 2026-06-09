@@ -1,3 +1,67 @@
+## 🕔 2026-06-09 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AgentGuide](https://github.com/adongwanai/AgentGuide)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 5,730
+- **核心概述**: https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成
+- **大概是做什么的**: 🔥 AI Agent 开发 × 面试求职 = 一站式解决方案 对标 JavaGuide 的 AI Agent 学习指南 从入门到拿 Offer，系统化 + 实战化 + 求职导向 📌 本项目定位：资源整合 + 系统化路径 + 实战导向 - ✅ 站在巨人的肩膀上 - 互联网已有的优质资源（课程、教程、论文），我们直接引用，不重复造轮子 - ✅ 只分享干货 - （坚持更新中，欢迎催更） - ✅ 提供系统化路径 - 将碎片化资源串联成完整学习路线，告诉你先学什么、再学什么 - ✅ 求职导向 - 每个知识点都标注"面试怎么考"、"简历怎么写" 💪 AgentGuide 的独特价值 ：不是简单的资源堆砌，而是 系统化 + 求职导向 + 实战验证 的完整解决方案！ - 💡 关于本项目 - Agent开发指南、转行大模型、高级RAG、大模型面试 - 🆕 求职新范式 - 1-2-5框架、个人品牌、投递策略 - 🧭 Agent 求职通关 Todo List - 当前优先级、8阶段学习产出、项目落地5步法 - 🚦 6步学习路径 - 从岗位选择到拿Offer - 🔬 算法岗 vs 🛠️ 开发岗 - 岗位选择决策树 - 📚 学习路线图 - 算法岗10-15周 开发岗8-12周 - 💼 实战项目 - 开源优质项目合集+N X Agent项目 - 📖 技术教程 - LangGraph、RAG、上下文工程、监督微调、强化学习 - 🎯 面试题库 - 1000+题、系统设计、编程题 - 🚀 10分钟快速开始 💬 加入学习社群 ❓ 常见问题 - 🧭 新手��速开始 🧭 2026 Agent 求职路线 🛠️ Agent 项目落地方法 🧩 Agent Harness Engineering - 📄 Paper Agent 🧳 Travel Agent 🌐 Web Agent 🖼️ Multimodal RAG 3 分钟了解为什么你需要 AgentGuide - ❌ 学了一堆 LLM API 调用，但不知道 Agent 和普通对话有什么区别 - ❌ 看了无数篇 LangChain 文档，却依然不知道从哪里开始 - ❌ 做了一些 Demo 项目，但简历上写不出亮点，面试讲不清楚 - ❌ 想转 AI Agent 方向，但不知道算法岗和开发岗应该准备什么 - ❌ 网上资料又多又杂，缺少一条清晰的学习路线 AI Agent 开发学习指南 转行大模型 LangGraph 实战 高级RAG 大模型面试 一份系统化、求职导向的 AI Agent 学习与面试指南，涵盖： - A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agenticrag, ai-agent, crewai, graphrag, grpo, interview
+
+---
+
+### 🌟 [mercury-agent](https://github.com/cosmicstack-labs/mercury-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,601
+- **核心概述**: 灵魂驱动的人工智能代理，具有权限强化的工具、代币预算和多渠道访问。通过 CLI 或 Telegram 24/7 运行。
+- **大概是做什么的**: 灵魂驱动的人工智能代理，具有权限强化的工具、代币预算和多渠道访问。记住重要的事情。在行动之前询问。通过 CLI、Telegram 或 Web 24/7 运行。 31 个内置工具、看板、可扩展技能、SQLite 支持的第二大脑内存。 🔖 当前稳定版：v1.1.9 单行安装（不需要 Node.js） — 为您的操作系统下载最新的独立二进制文件：或者如果您已经有 Node.js 20+，则通过 npm：或者全局安装 npm 包：第一次运行会触发设置向导（名称、提供商、可选的 Telegram）。设置完成后，Mercury 将打开 Ink TUI 启动屏幕，并在聊天开始之前询问您的权限模式（“询问”或“全部允许”）。稍后重新配置（更改密钥、名称、设置）：每个 AI 代理都可以读取文件、运行命令和获取 URL。大多数人都是默默地做。水星首先询问——并且记住什么是重要的。 - 权限强化 — Shell 阻止列表（ sudo 、 rm -rf / 等从不执行）。文件���级读/写范围。待批准流程。每个会话询问我或允许全部。没有什么惊喜。 - Second Brain — 使用 SQLite + F 实现持久的结构化记忆
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, llm
+
+---
+
+### 🌟 [ouroboros](https://github.com/Q00/ouroboros)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,503
+- **核心概述**: 代理操作系统：停止提示。开始指定。
+- **大概是做什么的**: English 한국어 简体中文 停止提示。开始指定。用于可重玩、规范优先的 AI 编码工作流程的代理操作系统将模糊的想法转变为经过验证的、可工作的代码库 - 涵盖 Claude Code、Codex CLI、OpenCode、Hermes、Gemini、Kiro、Copilot 和 Pi。 Ouroboros 是一个用于人工智能编码的代理操作系统：一个本地优先的运行时层，它将非确定性代理工作转变为可重播、可观察、受策略约束的执行合约。它用结构化的规范优先工作流程取代了临时提示：面试、结晶、执行、评估。 Ouroboros 代理操作系统堆栈 与任何操作系统一样，Ouroboros 分为稳定的原语操作系统层、域工作流程的应用程序层以及人类实际坐在前面的外壳。三个存储库，一个堆栈：层存储库角色 它为您提供什么 :--- :--- :--- :--- Shell (终端客户端) Q00/ourocode 本机终端 UI，用于在一个会话中跨 Claude / Codex / Gemini CLI 运行 ooo 工作流程 TUI、wonderTool 决策选择器、MCP 窗格状态、命令发现 应用程序（域工作流程） Q00/ouroboros-plugins 用户级插件合同 — 组成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-os, ai-agent, llm-orchestration, llm-runtime, python
+
+---
+
+### 🌟 [Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills)
+- **项目语言**: Stata
+- **星标数量**: ⭐ 1,774
+- **核心概述**: 🔬 A curated collection of 23,000+ agent skills for empirical research across 8 social science disciplines. | 精选 23,000+ AI Agent 技能库，覆盖8大社会科学学科的实证研究。CoPaper.AI 20分钟完成一篇可复现的规范实证论文，并支持用户上传 Skills。-- Maintained by CoPaper.AI from Stanford REAP.
+- **大概是做什么的**: 自动实证研究技能 (AERS) 🌐 语言：英语 简体中文 繁体中文 日本语 한국어 斯坦福大学 REAP × CoPaper.AI · 用于实证研究的学术-工业人工智能工具包 由斯坦福大学实证方法团队构建 - 从数据清理到顶级期刊提交的完整流程 实证研究专家的代理技能分布。不是营销列表 - 此存储库中提供和编录了 1,072 种技能，包含在数字基准、评估工具、安全审计和 CI 中，以及更广泛的生态系统中 119 个存储库中 23,000 多种技能的精心策划的地图。 AERS 同时包含两件事：(1) 运行完整实证管道的一小组第一方旗舰技能——数据清理→识别→估计→��健性→表格/图表→准备提交的草稿——以及(2)按研究工作流程阶段组织的实证研究技能生态系统的精心策划的、具有安全意识的目录。差异化因素不是计数，而是计数。这是旗舰行为是根据已知答案进行验证的，而不是断言的。已更名。该项目以前称为 Awesome Agent Skills for Empirical
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-research, agent-skills, ai-agent, awesome-list, communication, copaper
+
+---
+
+### 🌟 [antigravity-workspace-template](https://github.com/study8677/antigravity-workspace-template)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,272
+- **核心概述**: 为您的代码库提供 Claude Code、Cursor、Codex CLI 的 ChatGPT。多代理知识引擎，带有文件路径和行号的接地问答。适用于任何 AI IDE。
+- **大概是做什么的**: 适用于您的代码库的 ChatGPT — 适用于 Claude Code、Cursor、Codex、Windsurf 等 4 种语言。 English · 中文 · Español 赞助安置：DolOffer（GitHub 项目）提供 GPT 和 Claude 会员充值折扣、官方订阅和售后支持。使用代码 AI8888 可享受 10% 折扣。免责声明：这是付费赞助商安置。 DolOffer 服务、定价、可用性和支持由 DolOffer 提供；请在购买前查看他们的条款。 99% 真实 · 比 Codex CLI 快 2.1 倍 · 适用于任何 AI IDE。面对面基准测试 ↓ Codex CLI 用户 — 删除 antigravity: 前缀；同样的四个斜线命令也在那里。用于基础代码库问答的跨 IDE 存储库知识引擎。每个 IDE 都会读取相同的 .antigravity/ 知识层；一个引擎，每个主机。 AI Agent的能力上限=它可以读取的上下文的质量。 ag-refresh 部署一个多代理集群，��动读取您的代码 - 每个模块都有自己的代理来生成知识文档。 ag-ask 将问题路由到正确的代理，该代理基于带有文件路径和行号的真实代码。因斯泰亚
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-sdk, ai-agent, claude-code, code-intelligence, code-search, codebase-qa
+
+---
+
+### 🌟 [skales](https://github.com/skalesapp/skales)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,050
+- **核心概述**: 适用于 Windows、macOS、Linux 和 Android 的个人 AI 桌面代理。设定一个目标，它就会自行发挥作用。团队（配对两个桌面、代理 + 人员）、Agent2Agent、工作流程、Codework、多代理组织、桌面 + 浏览器自动化。 15+ AI 提供商，BYOK。没有 Docker，没有终端。代理技能 (SKILL.md)。移民进口商。重复的自主任务。
+- **大概是做什么的**: 私人人工智能驻留在您的计算机上并执行实际工作，而不仅仅是聊天。 macOS (Apple Silicon) · Skales Mobile：📱 Android 一键安装。没有 Docker，没有终端。超过 15 个 AI 提供商，或与 Ollama 完全离线。您的文件永远不会离开您的机器。问它一些事情，给它一个目标并合上盖子，或者让它通过 WhatsApp 和 Telegram 到达你。一处应有尽有，适合 6 岁至 60 岁以上的所有人。从 OpenClaw、Hermes Agent 或 ChatGPT 切换？ Skales 有一个内置的迁移导入器。从另一个工具导入设置。 📋 目录 - 🚀 Skales 可以做什么 - 🎯 背景目标 - 🛠️ Skales 代码工作 - 🗣️ 语音：与 Skales 交谈 - 🌐 内联 HTML 预览 - 🦁 Lio AI（代码生成器） - 🌐 内置浏览器代理 - 📅 规划器、日历和 AI 任务 - 🧠 记忆和梦想 - 🧠 15+ AI 提供商 - 🛡️ 隐私和安全 - 🆓 免费试用 Skales 如果您觉得这很有用，⭐ 可以帮助其他人发现它 文档 · 博客 · 变更日志 · 社区 “从我在这个领域测试过的每一个工具中，我还没有找到��个能够提供智能且不复杂的工具，一个替代工具
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-assistant, ai-companions, android, automation
+
+---
+
 ## 🕔 2026-06-09 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
