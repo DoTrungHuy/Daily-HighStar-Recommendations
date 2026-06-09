@@ -1,3 +1,67 @@
+## 🕔 2026-06-09 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Acontext](https://github.com/memodb-io/Acontext)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,520
+- **核心概述**: 特工技能作为记忆层
+- **大概是做什么的**: Acontext 是人工智能代理的开源技能记忆层。它自动捕获代理运行中的学习内容并将其存储为代理技能文件 - 您可以在代理、LLM 和框架之间读取、编辑和共享的文件。如果您希望您构建的代理能够从错误中吸取教训并重用有效的内容（而不是不透明的内存污染您的上下文），请尝试一下 Acontext。技能就是你所需要的代理内存变得越来越复杂🤢——难以理解、难以调试、用户也难以检查或纠正。 Acontext 采用了不同的方法：如果代理技能可以��代理所需的每条知识表示为简单的文件，那么内存也可以。 - Acontext 以代理技能格式构建记忆，因此每个人都可以看到并理解记忆实际包含的内容。 - 技能就是记忆，记忆就是技能。无论一项技能来自您从 Clawhub 下载的技能还是您自己创建的技能，Acontext 都可以遵循它并随着时间的推移不断发展。 Acontext 的哲学 - 普通文件，任何框架 - 技能记忆是 Markdown 文件。将它们与 LangGraph���Claude、AI SDK 一起使用，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-development-kit, agent-observability, ai-agent, anthropic, context-data-platform
+
+---
+
+### 🌟 [sandboxd](https://github.com/tastyeffectco/sandboxd)
+- **项目语言**: Go
+- **星标数量**: ⭐ 536
+- **核心概述**: 带有预览 URL 的自托管开发沙箱。一声令下。没有 Kubernetes，非常适合编码代理和 Saas 工厂
+- **大概是做什么的**: AI 应用程序构建器产品的开源引擎。为每个用户提供一个独立的云开发环境、一个内置编码代理和一个实时预览 URL — 在一台计算机上通过一个命令进行自托管。什么是沙盒？ （从这里开始）想象一下您输入“为我构建一个待办事项应用程序”的应用程序，几秒钟后，一个工作网站就会出现在其自己的链接上 - 例如 Lovable、Bolt、v0 或 Replit。 sandboxd 是使这一切成为可能的开源后端，运行在下面，简单来说就是它的作用。你向它发送一个 HTTP 请求，它会： 1. 创建一个沙箱——一个私有的、隔离的 Linux 容器（有自己的文件系统，有自己的内存限制），因此用户的代码永远看不到；或者 2. 在其中运行一个 AI 编码代理——你给它一个提示，它就会将代码写入该沙箱。 （OpenCode 和 Claude Code CLI 3.0 为应用程序提供了一个实时 URL — 可以通过可共享的预览链接立即访问沙箱内运行的开发服务器。运行起来也很便宜：当没有人使用沙箱时，沙箱会进入睡眠状态（释放内存），并在有人再次打开其链接时立即唤醒 — 文件保存在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, dev-environment, docker, isolation, pinokio
+
+---
+
+### 🌟 [Patter](https://github.com/PatterAI/Patter)
+- **项目语言**: Python
+- **星标数量**: ⭐ 508
+- **核心概述**: 开源语音AI SDK。为想要拥有堆栈的构建者提供 Vapi/Retell 替代方案。为您的 AI 代理提供 4 行电话号码 - Python 和 TypeScript、MIT 许可、Twilio、Telnyx 和 Plivo。
+- **大概是做什么的**: Patter 是一款开源 SDK，可为您的 AI 代理提供电话号码。您构建代理； Patter 处理它和电话网络之间的一切——代理循环、语言模型、语音到文本、文本到语音、实时语音、音频处理和电话运营商。 - 使用 Python 或 TypeScript 中的一个 API 进行构建 — 相同的表面、相同的钩子、相同的事件，完全同等。 - 为每一层选择提供商 - LLM、STT、TTS、实时引擎、运营商 - 并用一条线路交换其中任何一个。 - 使用内置隧道和仪表板在本地运行，或从您的终端模拟整个呼叫 - 无需电话。 Patter 是应用程序和电话网络之间的完整语音堆栈，而不仅仅是法学硕士和运营商之间的粘合剂。它运行代理循环并拥有每一层调用，您可以为每一层选择提供者。以 Realtime 、 Pipeline 或 Hybrid 模式编写它们。跨语音堆栈的 27 多个提供商集成 · 3 种语音模式 · 2 个 SDK（Python 和 TypeScript）同等。 LLM — 文本生成 OpenAI · Anthropic · Google Gemini · Groq · Cerebras STT — 语音到文本 D
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-phone-agent, hermes-agent, llm, mastra, open-source
+
+---
+
+### 🌟 [piclaw](https://github.com/rcarmo/piclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 724
+- **核心概述**: 彩色网状风衣中的 pi 编码剂
+- **大概是做什么的**: piclaw — 您的自托管 AI 工作区 PiClaw 将 Pi 编码代理打包到自托管工作区中，具有流式 Web UI、持久状态、多提供商 LLM 支持以及包含许多附加组件的实用内置工具集。它适合那些想要一个有状态的代理工作区的人，他们可以在本地或容器中运行，而无需将六个单独的服务拼接在一起。 - 一个工作区，一个应用程序 — 同一 Web UI 中的聊天、编辑器、终端、查看器、看板、上传和自动化 - 持久状态 — SQLite 支持的消息、媒体、任务、令牌使用、加密钥匙串和会话范围的 SSH / Proxmox / Portainer 配置文件 - 实用的内置组件 — 代码编辑、Office/PDF/CSV/图像/视频查看、draw.io、VNC、浏览器自动化、图像处理、MCP、基础设施工具和可选的跨实例用于配对远程对等点的 IPC - 代理优先工作流程 - 引导、排队跟进、侧面提示、自动研究循环、计划任务和可视化工件生成 - 上下文保护 - 小型始终活动的工具基线，通过列表工具/列表脚本进行分阶段发现 - Opti
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adaptive-cards, ai-agent, bun, coding-agent, docker, llm
+
+---
+
+### 🌟 [clawmetry](https://github.com/vivekchand/clawmetry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 371
+- **核心概述**: 看你的经纪人怎么想。 12 个 AI 代理运行时的实时可观测性 — OpenClaw、NVIDIA NemoClaw、Claude Code、Codex 等 8 个。
+- **大概是做什么的**: 看你的经纪人怎么想。 12 个 AI 代理运行时的实时可观测性：OpenClaw、NVIDIA NemoClaw、Claude Code、OpenAI Codex 等 8 个。适用于整个代理团队的一个仪表板。 🌐 阅读以下版本：英语 · 简体中文 · 日本语 · 한국어 · 西班牙语 · 葡萄牙语 (BR) · 法语 · 德语 · हिन्दी · Русский · 更多 → 一个命令。零配置。自动检测一切。打开 http://localhost:8900 就完成了。可与 12 个代理运行时配合使用 ClawMetry 最初是作为 OpenClaw 的可观察性，现在在一个仪表板中计量整个代理队列，自动检测计算机上的每个运行时： 🦞 OpenClaw · 🟩 NVIDIA NemoClaw · ◆ Claude Code · ⬡ OpenAI Codex · Cursor · 🪿 Goose · ⚡ Hermes · opencode · ◈ Qwen Code · Aider · NanoClaw · PicoClaw OpenClaw 和 NemoClaw 在开源应用程序中免费；其他运行时则使用 ClawMetry Cloud 或自托管 Pro 许可证。从标题和每个选项卡切换运行时 - 成本、令牌、工具、跟踪 - 重新范围到该运行时。 - 流程 - 实时动画图显示消息流经通道、大脑、工具和返回 - 概述 - 健康检查
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, clawmetry, dashboard, monitoring, observability, openclaw
+
+---
+
+### 🌟 [dexto](https://github.com/truffle-ai/dexto)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 631
+- **核心概述**: 用于构建和编排代理应用程序的编码代理和通用代理工具。
+- **大概是做什么的**: 用于人工智能应用程序的开放代理工具 - 附带强大的编码代理。 Dexto 是一个代理工具，它是一个编排层，可将 LLM 转变为可靠的、有状态的代理，可以采取操作、记住上下文并从错误中恢复。将其视为 AI 代理的操作系统： 组件类比 角色 ----------- --------- ------ LLM CPU 原始处理能力 上下文窗口 RAM 工作内存 Dexto 操作系统 编排、状态、工具、恢复 您的代理应用程序 特定于域的逻辑和客户端 - 配置驱动：在 YAML 中定义代理。无需接触代码即可交换模型和工具。 - 包括电池：会话管理、工具编排、内存、多模式支持和可观察性——开箱即用。 - 随处运行：本地、云或混合。 CLI、Web UI、REST API、Discord、Telegram 或嵌入您的应用程序中。 - 编码代理 – 自主构建、调试和重构代码 - 自主代理 – 计划、执行和适应用户目标 - 数字伴侣 – 记住上下文并预测需求的助手 - MCP 客户端和服务器 – 连接工具、文件
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, ai-agents, ai-tools, contributions-welcome, function-calling
+
+---
+
 ## 🕔 2026-06-09 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
