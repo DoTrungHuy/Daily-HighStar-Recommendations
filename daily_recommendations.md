@@ -1,3 +1,67 @@
+## 🕔 2026-06-10 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,298
+- **核心概述**: 本地优先的人工智能代理，具有持久记忆、情商和点对点技能经济。
+- **大概是做什么的**: 本地优先的个人人工智能，具有生物记忆、梦想引擎和 P2P 技能经济。大多数 AI 代理都是 LLM API 的无状态包装器。关闭终端，他们就会忘记你的存在。比特机器人则不同。它是一个生活在你的设备上的个人人工智能，会记住你的生活，并实际做事、浏览网页、运行代码、在 WhatsApp 上与你交谈。当你睡觉时，它会做梦：巩固知识，发现新技能，并发展持久的个性。它将所学到的技能打包，并在 USDC 的 P2P 市场上与其他代理进行交易。关于 · 文档 · 入门 运行时：节点 ≥ 22 · 包管理器：pnpm 运行入门向导 — 它会引导您完成模型身份验证（API 密钥）、内存嵌入、网络搜索、通道、钱包和工作区设置，并在最后为您提供生成网关 + 控制 UI：向导完成后，接受“准备好启动它了吗？”提示并在后台运行 pnpm dev:all 并打开浏览器。如果您跳过它或稍后再回来：打开 http://localhost:5173 — 这是您可以在其中的 Bitterbot Control UI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a-protocol, agent-economy, agent-memory, ai-agent, chatbot, cognitive-architecture
+
+---
+
+### 🌟 [auto-browser](https://github.com/LvcidPsyche/auto-browser)
+- **项目语言**: Python
+- **星标数量**: ⭐ 543
+- **核心概述**: 为您的人工智能代理提供一个真正的浏览器——有人参与其中。开源 MCP 本机浏览器代理。
+- **大概是做什么的**: 为您的人工智能代理提供一个真正的浏览器，并由人类参与其中。 Auto Browser 是用于授权工作流程的 MCP 本机浏览器控制平面。它为 MCP 客户、LLM 代理和操作员提供了一个共享的 Playwright 浏览器，具有人工接管、可重复使用的身份验证配置文件、批准、审计跟踪和本地优先部署功能。 - 任何可以进行 HTTP 或 stdio 通信的 MCP 客户端 - 当您需要curl-first 控制时，直接 REST 调用者 - 从第一天起就采用 MCP 原生。浏览器界面已被打包为 MCP 服务器，而不是事后附加。 - 当网络变得脆弱时，人类会接管。当有人需要介入时，noVNC 会保持相同的实时会话可用。 - 登录一次，稍后重复使用。保存命名的身份验证配置文件并重新打开已登录的新会话。 - 默认情况下本地优先。使用 Docker Compose 在您自己的机器上运行完整堆栈，或使用 Codespaces 进行快速托管演示。 - 内置安全栏。批准、操作员身份、PII 清理、见证收据和策略预设都是产品表面的一部分。 - 受控技能归纳。经过验证的浏览器痕迹可以成为阶段性的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, browser-automation, claude, docker, fastapi
+
+---
+
+### 🌟 [agent-ci](https://github.com/redwoodjs/agent-ci)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 700
+- **核心概述**: Agent-CI 是您的代理的本地 GitHub 操作。
+- **大概是做什么的**: 在您的计算机上运行 GitHub Actions。 0 毫秒内缓存。失败时暂停。修复并重试——在提交之前、推送之前。 Agent CI 是 GitHub Actions 编排层的彻底重写，完全在您自己的计算机上运行。它不会包装或填充运行器：它取代了官方 GitHub Actions Runner 所使用的云 API，因此在 GitHub.com 上执行作业的同一运行器二进制文件会在本地逐位执行它们。像 actions/checkout 、 actions/setup-node 和 actions/cache 这样的操作是开箱即用的——没有补丁，没有分叉，没有对 GitHub 的网络调用。在 GitHub 的运行程序上安装需要几分钟的依赖项在第二次运行时只需几秒钟即可安装，因为缓存是绑定安装的 - 不是上传、下载或解压。远程 CI 是最后的看门人——它在每次推送时运行并决定发送什么。这就是它的工作。问题是失败时会发生什么：你推送，你等待，你读取日志，你再次推送。每次重试都会支付重新运行的全部成本，而网守最终会被用作调试器。 CI 特工正在飞行前
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: act-alternative, ai-agent, ci-cd, developer-experience, devtools, github-actions
+
+---
+
+### 🌟 [GeoAgent](https://github.com/opengeos/GeoAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 371
+- **核心概述**: 用于地理空间数据分析和交互式可视化的多模式人工智能代理
+- **大概是做什么的**: GeoAgent 是一个用于地理空间 Python 包、实时地图小部件和 QGIS 插件的共享 AI 代理层。借助一个一致的接口，leafmap、anymap、geoai、geemap、STAC 和 NASA Earthdata 等项目可以将其工具公开给大型语言模型，因此每个库不再需要构建和维护自己的代理堆栈。 GeoAgent 基于 Strands Agents 构建，添加了地理空间上下文、结构化工具元数据、可选包适配器、提供程序配置以及在破坏性、昂贵或其他不可逆操作之前暂停代理的确认挂钩。 - 简短演示：QGIS OpenGeoAgent 插件演示 - 完整教程：OpenGeoAgent���用于自动地理空间分析和可视化的多模式 AI 代理 许多地理空间库需要相同的代理功能： - 将代理绑定到实时地图、QGIS 会话、数据集或工作流对象； - 将包函数公开为带有文档字符串和元数据的结构化工具； - 支持 OpenAI、ChatGPT/Codex OAuth、Anthropic、Google Gemini、Bedrock、OpenRouter、LiteLLM、vLLM 和本地 Ollama 模型； - 保留可选的地理空间 stac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, geospatial, open-source, python, qgis, qgis-plugin
+
+---
+
+### 🌟 [agent-systems-handbook](https://github.com/Prompthon-IO/agent-systems-handbook)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 314
+- **核心概述**: 一本实用的人工智能代理手册，涵盖代理系统、代理工作流程、LangGraph、MCP/A2A、上下文工程、代理内存、评估、可观察性和多代理架构。当前趋势焦点：开放代理培训环境、新兴代理运行时和生产人工智能工作流程模式。
+- **大概是做什么的**: Prompthon 的代理系统手册 AI 代理演示很容易找到。生产就绪的代理系统更难理解。本手册映射了现实世界人工智能代理背后的工作流程、工具、内存系统、上下文工程、MCP/A2A 互操作性、评估、可观察性和多代理架构。用它来理解、设计、构建和操作具有生产意识的人工智能代理——从基本原理到框架选择和实施模式。 Prompthon Agentic Labs 出版了 Prompthon 的代理系统手册：一本人工智能原生领域指南，供学生、从业者和构建者从不同角度探索现代代理系统。该实验室以学习、提问和创新为基础，由学习者塑造并扎根于真实的行业实践。它可以帮助读者了解这个空间，有效地应用人工智能，或者通过并行路径而不是单一轨道构建真实的系统。为什么这个实验室适合人工智能原生学习者、从业者和构建者 建立在学习、提问和创新的基础上 该存储库鼓励主动学习、批判性思维和实验，而不是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-framework, agent-memory, agentic-ai, agentic-workflow, ai-agent
+
+---
+
+### 🌟 [plugNmeet-server](https://github.com/mynaparrot/plugNmeet-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 495
+- **核心概述**: 开源、自托管视频会议软件。可扩展、可定制，并具有强大的 AI 会议代理。
+- **大概是做什么的**: Plug-N-Meet - 可扩展、可定制的开源网络会议系统 Plug-N-Meet 是一个强大的开源网络会议解决方案，构建于 LiveKit 的高性能 WebRTC 基础设施之上。 Plug-N-Meet 专为可扩展性和轻松定制而设计，可让您将功能丰富、自托管且人工智能驱动的视频会议体验无缝集成到任何现有网站、应用程序或系统中。有疑问或想法吗？加入我们的 Discord 开发者社区，与团队联系并讨论您的建议。高性能和可扩展：使用 Go 构建并利用 LiveKit 的强大功能，确保系统稳健且轻量。自适应流媒体：Simulcast 和 Dynacast 支持通过智能管理视频质量和带宽，即使在网络较差的情况下也能确保稳定的通话。支持的编解码器包括 H264、VP8、VP9 和 AV1。丰富的协作工具：通过高清音频/视频、屏幕共享、虚拟背景、支持办公文件（PDF、DOCX、PPTX）的协作白板、共享记事本、投票和分组讨论室吸引用户。安全和私密
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, communication, livekit, pion, video-chat
+
+---
+
 ## 🕔 2026-06-10 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
