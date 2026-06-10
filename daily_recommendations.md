@@ -1,3 +1,67 @@
+## 🕔 2026-06-10 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,184
+- **核心概述**: 网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程
+- **大概是做什么的**: 网文写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程。适配 Claude Code、OpenClaw。 1. 扫榜 ：分析热门榜单，洞察题材、人设、切入点。 2. 拆文 ：拆解大纲节奏与剧情素材，建立个人模块库。 3. 商业化写作 ：学习并运用钩子、爽感、期待感等核心技巧。 围绕四条线展开：爆款逆向 · 剧情模块化重组 · 上下文状态分层管理 · 人机协同。 方式一 直接告诉 Claude Code / OpenClaw： -g 全局安装，所有目录可用；去掉 -g 则只装到当前目录。更新时重新执行同一条命令即可。 升级后如果项目里已经跑过 /story-setup ，建议在项目根重跑一次 /story-setup ，同步 hooks / agents / references。每版变更见 CHANGELOG.md 与 Releases。 :------ :----- :----- story-setup /story-setup /准备写书 环境部署 · hooks/rules/agents/CLAUDE.md 一键部署（已有配置安全合并） story /story /网文 工具箱路由 · 模糊意图自动分发到对应 skill story-long-write /story-long-write /写长篇 长篇写作 · 大纲搭建、人物设定、正文输出 story-long-analyze /story-long-analyze 长篇拆文 · 黄金三章、爽点设计、节奏分析 story-long-scan /story-long-scan 长篇扫榜 · 起点/番茄/晋江市场趋势 story-short-write /story-short-write 短篇写作 · 情绪设计、反转构思、精修出稿 story-short-analyze /story-short-analyze ���篇拆文 · 故事核、结构分析、情感线、反转设计、写作手法、共鸣分析 story-short-scan /story-short-scan 短篇扫榜 · 知乎盐言/番茄短篇风口数据 story-deslop /story-deslop /去AI味 去AI味 · 检测并清除 AI 写作痕迹 story-import /story-import /导入小说 逆向导入 · 将已有小说反向解析为标准项目结构 story-review /story-review /审查 多视角审查 · 4 Agent 多视角审稿 + 番茄/起点/知乎评分标准 story-cover /s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-writing, chinese-novel, claude-code, claude-skills, creative-writing
+
+---
+
+### 🌟 [ClawWork](https://github.com/clawwork-ai/ClawWork)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 520
+- **核心概述**: OpenClaw 客户端 — 将 ClawWork 连接到您自己的 OpenClaw 并解锁 10 倍多会话生产力。
+- **大概是做什么的**: English · 简体中文 · 繁体中文 · 日本语 · 한국어 Agent OS 时代的本地优先工作区。 OpenClaw 桌面客户端 — 并行运行代理任务、保持工件持久性并稍后查找文件。 ⚠️ 官方存储库 这是官方 ClawWork 项目：https://github.com/clawwork-ai/clawwork 已发现一个模仿存储库 (ClawWorkAi/ClawWork) 和网站 (clawworkai.store)，但没有适当的归属。请注意并使用上面的官方链接。官方网站：https://clawwork-ai.github.io/ClawWork/ 代理正在成倍增加。瓶颈不再是能力，而是操作员界面。随着代理运行时的激增，用户最终会在聊天窗口、Web UI 和终端之间处理会话，每个会话都有自己的上下文，并且没有共享内存。正如 IDE 成为 Unix 的代码和终端的操作层一样，代理操作系统也需要一个工作区层。 ClawWork 正在构建该层 - 从 OpenClaw 的一流客户端开始，可扩展到多运行时的未来。今天：OpenClaw，没有聊天历史泥 OpenClaw 很强大。普通聊天是一个糟糕的容器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tools, desktop-app, developer-tools, electron, git
+
+---
+
+### 🌟 [Hermes-CN-Desktop](https://github.com/Eynzof/Hermes-CN-Desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 335
+- **核心概述**: Hermes Agent CN 桌面应用程序，Windows-First，使用 Tauri、Typescript 和 Rust 构建。隔离 Hermes Agent 核心内部。
+- **大概是做什么的**: Hermes Agent CN Desktop Hermes Agent CN Desktop 是 Hermes Agent 中文社区推出的桌面客户端，原生支持 Windows 与 macOS 系统。项目基于 Tauri v2、Rust、React 和 TypeScript 构建，包含 Hermes-CN-Core 中文社区修改版的 Hermes Agent 内核。 官网与下载页见 desktop.hermesagent.org.cn。桌面端隶属于 Hermes Agent 中文社区 生态，社区主站提供中文文档、实践指南、社群入口和更多生态项目。 当前版本是 v0.3.2 。项目仍在快速迭代，API、打包流程、运行时分发策略和界面细节都可能继续调整。 Hermes Agent CN Desktop 由 Hermes Agent 中文社区维护。你可以访问 Hermes Agent 中文社区主站 了解项目动态，通过 中文文档 学习使用方式，在 实践指南 查看落地案例，也可以进入 社群入口 加入更多讨论渠道。 扫码加入 Hermes Agent 中文社区微信群；如果二维码过期，请访问 最新微信群入口。 可以在 hermes-cn-ui-prototypes-sans.vercel.app 浏览高保真 UI 原型图。 点击下方预览图，或直接打开 MP4 演示视频。README 渲染器对本地视频内嵌播放支持不稳定，因此这里用可点击预览图链接到视频文件。 下面的截图同步自官网 landing 仓库，覆盖工作台、归档、对话、LaTeX/Markdown、任务控制台、飞书接入、用量统计、健康状态、Skills、Memory、模型服务商配置、运行时诊断和日志等页面。 工作台（深色���题） 工作台（浅色主题） 归档工作台（深色主题） 归档工作台（浅色主题） LaTeX 与 Markdown 渲染 任务控制台输出 日志查看 项目 Review 工作流 Hermes Agent 已经提供本地 Dashboard。本仓库专注于 Dashboard 之外的桌面体验：原生窗口、本地进程管理、文件对话框、托管运行时安装、运行时诊断，以及生产模式下更安全的 REST 和 SSE 代理层。 本仓库是桌面端外壳。Agent runtime 和 Dashboard 源码位于 Hermes-CN-Core。 - 一键安装，使用门槛极低 ：针对 Windows 和 macOS 用户适配，下载安装后配置 API Key 或本地模型端点即可使用。 - 轻量，跨平台 ：Tauri 使用系统 WebView，不需要
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, desktop-app, hermes-agent, react, rust, tauri
+
+---
+
+### 🌟 [VulnClaw](https://github.com/Unclecheng-li/VulnClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 445
+- **核心概述**: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。
+- **大概是做什么的**: AI 驱动的渗透测试 CLI 工具 — 说人话，打漏洞。 🌐 English version : README EN.md 本项目是可独立运行的 AI 渗透测试 Agent。 基于 LLM Agent + MCP 工具链 + 渗透 Skill 编排， 配合 OpenAI / MiniMax / DeepSeek 等兼容模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。 快速开始 · 架构设计 · Skill 体系 输入自然语言，AI 自动执行渗透测试全流程： 适用于已授权的渗透测试、CTF 竞赛、安全教学、红队演练等场景。 - 自然语言驱动 — 用人话描述渗透意图，自动识别阶段和工具 - 13 个 LLM Provider — OpenAI / MiniMax / DeepSeek / 智谱 / Moonshot / 千问 / SiliconFlow / 豆包 / 百川 / 阶跃星辰 / 商汤 / 零一万物，一键切换 - MCP 工具链 — 已内置 12 个 MCP 服务配置和 23 个工具定义；当前 fetch / memory 以稳定的 local 模式运行，其余 MCP 集成多仍处于预览或占位阶段，待完整 session 生命周期管理落地后再逐步恢复真实协议接入 - AI Agent 核心 — OpenAI 兼容协议 + Tool Calling + 自主渗透循环 - 20 个渗透 Skill — 7 核心 + 13 专项 Skill（含 CTF Web/Crypto/Misc + osint-recon），含 138 个参考文档 - 编解码/加解密工具 — 29 种操作（Base64/Hex/URL/AES/JWT/Morse 等），LLM 可精确调用，不再靠猜测 - Python 代码执行 — 内置 python execute 工具，适合 payload 构��和响应解析；当前仍属高风险实验能力，不应视为强隔离沙箱 - 持续性渗透测试 — 周期循环（默认 100 轮/周期 × 10 周期 = 1000 轮），每周期自动生成报告，直到手动终止 - 推理过程显示控制 — think on/off 一键切换 LLM 思考过程的显示/隐藏，默认关闭，干净输出只看结论 - 沙盒模式提示词 — 解锁 AI 安全测试能力，CTF / 授权渗透场景专用 - 自动报告 & PoC — 生成结构化 Markdown 报告和可运行的 Python PoC 脚本 - Web UI 模式 — vulnclaw web 启动本地 W
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-tools, ctf, cybersecurity, openclaw
+
+---
+
+### 🌟 [Locus](https://github.com/r1n7aro/Locus)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 515
+- **核心概述**: 开源 Unity Dev Agent
+- **大概是做什么的**: Locus for Unity - 开源 Unity Dev Agent 提高游戏开发效率，并将创作者从繁琐、重复的工作中解放出来。 Locus for Unity 是一个适用于 Unity 项目的开源 AI 代理。 - 编辑器内操作：编写C代码，读取和修改Unity对象和资产，完成完整的功能开发工作流程 - 运行时分析和调试：自主操作和捕获运行时状态，以帮助修复错误和优化性能 - 自动化知识系统：自动将对话需求汇总到设计文档中，并将项目理解保留在长期记忆中 - 可视化版本控制：为Unity YAML资产提供语义差异分析和冲突处理的可视化版本控制界面 - 多模型支持：支持订阅帐户登录并兼容多个LLM API功能 Locus 目前正处于早期测试阶段 ( v0.2.8 )。我们欢迎您尝试并通过问题分享反馈。您的意见对我们非常有价值。 Locus 在技术上有何不同？ Locus 是一个独立的 Rust + Tauri + Vue.js 应用程序
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, codex, gamedev, llm, rust
+
+---
+
+### 🌟 [pilot](https://github.com/qf-studio/pilot)
+- **项目语言**: Go
+- **星标数量**: ⭐ 474
+- **核心概述**: 人工智能为您运送门票。
+- **大概是做什么的**: ██████╗ ██╗██╗ ██████╗ ████████╗ ██╔══██╗██║██║ ██╔═══██╗╚══██╔══╝ ██████╔╝██║██║ ██║ ██║ ██║ ██╔═══╝ ██║██║ ██║ ██║ ██║ ██║ ██║███████╗╚██████╔╝ ██║ ╚═╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝ 为你寄票的人工智能当你睡觉时 你的待办事项中有 47 张票。你苦苦思索该优先考虑哪一个。一半是“快速修复”，不知何故每次需要 2 个小时。您的 PM 请求状态更新。听起来很熟悉吗？ Pilot 从 GitHub、Linear、Jira 或 Asana 获取票证 — 规划实施、编写代码、运行测试并打开 PR。您审查并合并。就是这样。 Homebrew（推荐） ---------- ---------- macOS（通用） Pilot-Desktop-macOS-universal.dmg Windows (x64) Pilot-Desktop-Windows-amd64-setup.exe Linux (x64) Pilot-Desktop-Linux-amd64.tar.gz - Go 1.22+（仅限构建） - Claude Code CLI 2.1.17+ - OpenAI API 密钥（可选，用于语音转录）就是这样。去喝咖啡吧。 ☕ 跨执行、智能、集成和基础设施实施的 133 项功能。功能描述 --------- ------------- Autopilot CI 监控、自动合并、反馈循环（开发/阶段/生产模式） Ep
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-workflow, ai-agent, ai-bots, ai-tools, autonomous-coding
+
+---
+
 ## 🕔 2026-06-10 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
