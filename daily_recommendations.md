@@ -1,3 +1,67 @@
+## 🕔 2026-06-10 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [team9](https://github.com/team9ai/team9)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,369
+- **核心概述**: Team9 是人工智能代理的协作工作区，目前基于 OpenClaw 及其生态系统构建。
+- **大概是做什么的**: Team9 是人工智能代理的协作工作区，目前基于 OpenClaw 及其生态系统构建。大多数人工智能工具都位于选项卡中。大多数机器人平台都生活在配置地狱中。 Team9 是代理与您的团队一起生活的地方：在频道、线程和共享文档中。 OpenClaw 为您提供代理运行时； Team9 为其提供了生存空间：通道、文档、内存和共享审计跟踪。 - 一键启动并运行 OpenClaw — 无需复杂的设置 - 无缝创建多个代理 — 无需烦人的应用程序配置 - 共享文档，共���构建知识 - 可选择连接到您的计算机 (TODO) 也非常适合单独的高级用户。 Team9 = 团队协作 + AI 代理，开箱即用。 🗣️ 即时消息 — 公共频道、私人频道、实时同步的 DM 🤖 原生 AI 代理支持 — 一键创建代理，将其添加到任何频道 🦞 OpenClaw 开箱即用 — 内置支持、零配置、创建和使用 💻 跨平台 — macOS、Windows 桌面 + Web 💬 丰富消息 — 话题、@提及、反应、文件共享 🏢多工作空间——不同项��、不同团队，完全隔离
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, openclaw, team9
+
+---
+
+### 🌟 [agent](https://github.com/stakpak/agent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,596
+- **核心概述**: 自动发送您的代码。一个开源代理，24/7 驻留在您的计算机上并保持您的应用程序运行。 🦀
+- **大概是做什么的**: 自动发送您的代码。一个开源代理，24/7 全天候驻留在您的机器上，让您的应用程序保持运行，并且仅在需要人工时才进行 ping 操作。 PaaS 的所有优点，没有任何锁定。 :star: 帮助我们接触更多开发者并发展 Stakpak 社区。给这个仓库加注星标！如需更多安装选项...您不能信任大多数 AI 代理与您的 DevOps。犯一个错误，你的作品就完蛋了。 Stakpak 的构建方式有所不同： - 秘密替换 - LLM 无需查看您的凭证即可使用 - Warden Guardrails - 网络级策略在运行前阻止破坏性操作 - DevOps Playbooks 内置 - Stakpak 规则手册中精选的 DevOps 知识库 生成基础设施代码、调试 Kubernetes、配置 CI/CD、自动化部署，无需向 LLM 提供生产密钥。 🤖 Autopilot（24/7 自主运行时） 使用新的生命周期别名进行单命令设置/启动/停止：您还可以使用规范的子命令： Autopilot 先决条件 在远程虚拟机上运行 Autopilot 之前： - Docker 必须已安装并且当前用户可以访问
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, autonomous-agent, devops, devops-agents, devtool
+
+---
+
+### 🌟 [deepseek-pp](https://github.com/zhu1090093659/deepseek-pp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 685
+- **核心概述**: DeepSeek Web 浏览器扩展：具有 MCP 工具、内存、技能、自动化、Web 搜索和对话导出的 AI 代理工作区。
+- **大概是做什么的**: DeepSeek 浏览器插件：把 DeepSeek 网页版扩展成支持 MCP、记忆、Skill、自动化和对话导出的 AI Agent 工作台 DeepSeek++ 是面向 DeepSeek 网页版的开源浏览器扩展，支持 Chrome、Edge 和 Firefox。它把 DeepSeek Web 扩展成 AI agent workspace，让用户在同一浏览器工作流里使用 MCP 工具、长期记忆、Skill、系统提示词预设、联网搜索、网页读取、对话导出和定时自动化。 如果你在寻找 DeepSeek Chrome extension、DeepSeek MCP tools、DeepSeek memory plugin、DeepSeek conversation export 或 DeepSeek AI agent，DeepSeek++ 对应的是同一个本地优先的 DeepSeek 浏览器增强工作台。 ------ ---------------- AI agent browser extension / AI Agent 工作台 把 DeepSeek Web 扩展成可以持续执行任务、调用工具、复用记忆和调度自动化的浏览器内工作台。 DeepSeek browser extension / DeepSeek Chrome extension 在 DeepSeek 网页版中加入侧边栏对话、右键发送文本、工具执行结果展示和 Chrome / Edge / Firefox 支持。 DeepSeek MCP tools 在侧边栏管理 MCP 服务、工具权限和执行状态，并把工具结果带回同一会话继续生成。 DeepSeek memory / 长期记忆 自动保存、筛选和注入长期记忆，让不同对话可以复用用户偏好、项目背景和常用信息。 DeepSeek Skills / /skill 工作流 通过内置、自定义或 GitHub 导入的 Skill 快速切换专家模式和任务模板。 DeepSeek conversation export / 对话导出 在 DeepSeek 回复工具栏里选择格式导出当前对话，支持 HTML、Markdown 和 PDF，并保留附件引用和元数据。 DeepSeek automation / 自动化任务 把固定任务放入独立 DeepSeek 会话，支持立即运行、定时触发、状态追踪和手动停止。 DeepSeek web search / 网页获取 在需要实时信息或指定网页内容时搜索互联网、读取网页文本，并继续生成最终回答。 - 希望把 DeepSeek 网页版扩展成带工
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agent, ai-memory, automation, browser-extension, chrome-extension
+
+---
+
+### 🌟 [pbi-cli](https://github.com/MinaSaad1/pbi-cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 360
+- **核心概述**: Power BI CLI - 语义模型 (.NET TOM) 和 PBIR 报告，用于令牌高效的 AI 代理使用，专为 Claude Code 构建
+- **大概是做什么的**: 为 Claude Code 提供所需的 Power BI 技能。安装一次，然后只需要求 Claude 使用您的语义模型和报告即可。所有命令 • 累计下载量，每天通过 GitHub Actions 从 pypistats.org 刷新。使用 .pbix 文件打开 Power BI Desktop，运行上面的三个命令，然后开始询问 Claude。要求：运行 Python 3.10+ 和 Power BI Desktop 的 Windows。替代方案：为 Claude 提供存储库 URL Claude 将自动克隆、安装、连接和设置技能。使用 pip 代替 pipx？在 Windows 上，pip install 通常会将 pbi 命令放置在 PATH 之外的目录中。修复：将 Scripts 目录添加到 PATH 将打印的路径添加到系统 PATH，然后重新启动终端。我们建议使用 pipx 来完全避免这种情况。语义模型层 要求 Claude 使用您的 Power BI 语义模型。需要 pbi 连接。批量创建度量 快照并恢复模型 审核模型是否存在问题 测试行级安全性 要求 Claude 构建和管理您的 Power BI 报告。无需连接——直接处理 PBIR 文件。视觉效果、页面、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, analysis-services, claude-code, cli, datamodel, dax
+
+---
+
+### 🌟 [aish](https://github.com/AI-Shell-Team/aish)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 465
+- **核心概述**: 赋予 Shell 思考的能力。发展运营。
+- **大概是做什么的**: 赋予 Shell 思考的能力。发展运营。真正的AI Shell：完整的PTY +可配置的安全和风险控制 - 安全和风险控制 - 社区和支持 - 开发和测试 - 真正的交互式Shell：完整的PTY支持，运行vim / ssh / top等交互式程序 - AI原生集成：用自然语言描述任务，生成、解释和执行命令 - 安全可控：AI命令具有风险分级和确认流程；可选的沙箱预运行用于变更评估 - 可扩展：具有热加载和优先级覆盖的技能插件系统 - 低迁移成本：与常规命令和工作流程兼容，默认情况下终端中的所有功能 AISH Claude 代码 --------- ------ ------------- 🎯 核心定位 Ops/系统故障排除 CLI 开发编码助手 �� 多模型支持 ✅ 完全开放 ⚠️ 主要是 Claude 🔧 子代理系统✅ ReAct 诊断代理 ✅ 多种代理类型 🧩 技能支持 ✅ 热加载 ✅ 🖥️ 原生终端集成 ✅ 完整的 PTY 支持 ⚠️ 有限支持 🛡️ 安全风险评估 ✅ 安全确认
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, aishell, fish, shell, zsh
+
+---
+
+### 🌟 [clawcodex](https://github.com/agentforce314/clawcodex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 376
+- **核心概述**: Claude Code 完整的 Python 重建。 180K LoC 纯 Python 中的 AI 编码代理！
+- **大概是做什么的**: English 中文 Français Русский हिन्दी العربية Português A production-oriented Python rebuild of Claude Code — real architecture, reliable CLI agent Ported from the TypeScript reference implementation and extended with a Python-native runtime 🔥 Active Development • New Features Weekly 🔥 - 2026-05-29: Codebase stats — Total Python files: 977文件； Python 代码总行数：213,777 行（高于 2026 年 5 月 21 日的 183,768 行；来自远程桥奇偶校验端口（阶段 0-18）加上 /buddy 配套子系统和 CLI 传输层的 +30k 行）。 - 2026-05-29：远程桥奇偶校验 + CLI 传输 (200–226) — 跨阶段 0–18 的远程控制��的完整端口：桥 API 客户端、子 CLI 会话运行程序、无环境 v2 协调器、多会话守护进程、工作树生成、就地重新连接、具有崩溃恢复功能的永久模式、JWT 刷新和 v1 WebSocketTransport / SerialBatchEventUploader 写入混合调度的路径。加上 CLI 传输工厂、合并工作状态上传器和 RemoteIO 桥 (226)；新的 /buddy 虚拟伴侣命令 — 孵化 / 宠物 / 状态
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-coding, claude, claude-code
+
+---
+
 ## 🕔 2026-06-10 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
