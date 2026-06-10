@@ -1,3 +1,67 @@
+## 🕔 2026-06-10 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-agents-from-zero](https://github.com/didilili/ai-agents-from-zero)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,838
+- **核心概述**: 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径 + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化
+- **大概是做什么的**: 🚀 全网最系统的 AI 智能体实战速成指南（从零到企业级落地） 2026 持续更新中 · 目标打造 「地表最强」 AI Agent 教程 —— 系统教程 + 可跑源码 + 面试题库 + 企业级实战项目 + 长期技术栈更新 ，全面对齐「AI 智能体 / 大模型应用开发工程师」 培训课表 与 招聘 JD 的一条龙学习路线 快速开始 • 教程大纲 • 案例汇总 • 更新日志 • 面试题库 • 新手入门与常见问题 📢 更新说明 ： AI 不停，更新不止 。本仓库将伴随 AI 大模型技术栈持续进化 ，坚持 开源、系统化、长期更新 。模型、框架、Agent、实战项目，都会随着生态变化持续完善和升级。它不只是帮你入门，而是陪你一路成长，从零基础到能真正落地。 目前 概念篇 已全部更新完毕，两个完整实战项目也已更新完毕： NL2SQL + LangGraph 实战项目 电商问数（源码仓库）已于 5 月 3 日完成。 DeepAgents 多智能体实战项目 深度研搜（源码仓库）已于 5 月 17 日完成。你可以点击更新日志，了解最新仓库动态。 市面上 AI 大模型应用内容很多，但绝大多数是碎片化帖子、收费训练营等；本仓库就是让你不用先花大几千甚至上万，也能系统进入大模型应用开发。若对你有帮助，欢迎 Star ⭐ 感谢 优云智算 赞助本项目！优云智算是 UCloud 旗下 AI 云平台。主打包月、按次的高性价比国模 Agent Plan 套餐，低至 49 元/月起；同时提供官转稳定海外模型，支持接入 Claude Code、Codex 及 API 调用，面向企业提供高并发、7\ 24 技术支持与自助开票。 🎁 通过 此链接 注册的用户，可得免费 5 元平台体验金。 - 🌱 全网首个系统开源的 AI 智能体教程 ：这是一套长期维护的 AI 大模型应用开发路线图。市面上不缺零散帖子，也不缺收费训练营，但真正系统、持续更新，并且覆盖 教程 + 源码 + 实战项目 + 面试题库 的 AI 大模型应用教程极少。本仓库要做的就是把这条路线公开、做深、做完整，陪你从入门、进阶、项目实战一路成长。 - 🧭 一条线拉通大模型应用全栈 ：从大模型与提示词，到低代码（Coze/Dify）与代码框架（LangChain/LangGraph），再到企业级 RAG/Agent、微调与工程规范——按知识体系统一编排， 完整链路 闭环，适合系统吃透而不是碎片化收藏。 - 🐍 聚焦 Python 生态，直击 Agent 工程 ：很多课程会围绕 Spring AI 、 langchain4j 展开，更偏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agentic-ai, ai-agent, aigc, coze
+
+---
+
+### 🌟 [moai-adk](https://github.com/modu-ai/moai-adk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,059
+- **核心概述**: SPEC-First Agentic Development Kit for Claude Code — 24 AI agents + 52 skills with TDD/DDD quality gates, 16-language projects, 4-language docs. Go CLI, zero deps.
+- **大概是做什么的**: Agentic Development Kit for Claude Code 官方文档 📚 官方文档 “vibe 编码的目的不是快速生产力而是代码质量。” MoAI-ADK是Claude Code的高性能AI开发环境。 24 名专业 AI 代理和 52 种技能协作生成高质量代码。它自动将 TDD（默认）应用于新项目和功能开发，或将 DDD 应用于具有最小测试覆盖率的现有项目，并支持子代理和代理团队的双重执行模式。用 Go 编写的单个二进制文件可以在任何平台上立即运行，并且零依赖。我们用 Go 完全重写了基于 Python 的 MoAI-ADK（73,000 行）。方面 Python 版 Go 版 -------- --------------- ------------ 分发 pip + venv + 依赖项 单个二进制文件，零依赖项 启动时间 800ms 解释器启动 5ms 本机执行 并发异步/线程 本机 goroutine 类型安全 运行时（mypy 可选） 编译时强制 需要跨平台 Python 运行时 预构建二进制文件（macOS、Linux、Windows） 钩子执行 Shell 包装器 + Pyt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-teams, agentic-ai, agentic-coding, agentic-workflow, ai-agent, ai-coding
+
+---
+
+### 🌟 [wesight](https://github.com/freestylefly/wesight)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 528
+- **核心概述**: 开源桌面 AI 代理工作区，具有一键式 Claude Code、Codex、OpenClaw、Hermes Agent 设置和自定义 LLM 模型路由。
+- **大概是做什么的**: 用于本地编码代理的桌面 AI 代理工作区 WeSight 是用于本地 AI 代理的开源桌面控制台。它可以帮助您安装或重用 Claude Code、Codex、OpenClaw、Hermes Agent、OpenCode、Qwen Code、DeepSeek-TUI 和内置代理运行时，然后为它们提供聊天、工具、文件、IM 渠道、技能、模型提供程序、运行时指标和桌面配套工作流程的可视化工作区。早期公开版本搭载 macOS Apple Silicon 和 Intel 版本。如果 WeSight 有助于您的代理工作流程，那么星星可以让项目更容易被更多构建者发现。 - 网站：wesight.ai - 最新版本：github.com/freestylefly/wesight/releases/latest - 屏幕截图：屏幕截图 - 核心功能：核心功能 - 代理引擎：代理引擎 - 产品路线图：产品路线图 - 开发：快速入门 终端原生编码代理功能强大，但它们的设置、模型路由、权限、IM 入口点、文件更改和运行时指标通常位于不同的位置。 WeSight 将这些移动部件转变为一个桌面工作区： - 安装、检测和重用本地代理 CLI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-workspace, ai-agent, claude-code, codex, desktop-app, electron
+
+---
+
+### 🌟 [deepcode-cli](https://github.com/lessweb/deepcode-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,180
+- **核心概述**: Deep Code 是专为 deepseek-v4 模型优化的终端 AI 编码助手，��持深度思考、推理强度控制以及 Agent Skills。
+- **大概是做什么的**: Deep Code 是专为 deepseek-v4 模型优化的终端 AI 编码助手，支持深度思考、推理强度控制、Agent Skills 以及 MCP 集成。 在任意项目目录下运行 deepcode 即可启动。 创建 /.deepcode/settings.json 文件，内容如下： 配置文件与 Deep Code VSCode 插件 共享，无需重复配置。 完整配置说明（多层级优先级、环境变量等）请参阅 docs/configuration.md。 Deep Code CLI 支持 agent skills，允许您扩展助手的能力： Scope Path Purpose :------ :-------------------- :---------------------------- Project ./.deepcode/skills/ Deep Code 原生位置 Project ./.agents/skills/ 跨客户端互操作 User /.deepcode/skills/ Deep Code 原生位置 User /.agents/skills/ 跨客户端互操作 - 专门为 DeepSeek 模型性能调优。 ------------- ---------------------------------- / 打开 skills / 命令菜单 /resume 选择历史对话继续 /continue 继续当前对话，或选择历史对话恢复 /model 切换模型、思考模式和推理强度 /raw 切换显示模式（Normal / Lite / Raw 滚动回溯） /init 初始化 AGENTS.md 文件 /skills 列出可用 skills /mcp 查看 MCP 服务器状态和可用工具 /undo 将代码和/或对话恢复到之前的状态 /exit 退出（也可用连续 Ctrl+D ） --------------- -------------------- Shift+Enter 插入换行（也可用 Ctrl+J ） Ctrl+V 从剪贴板粘贴图片 Esc 中断当前模型回复 - deepseek-v4-pro （推荐使用） - deepseek-v4-flash Deep Code 是否有 VSCode 插件？ 有的。Deep Code 提供功能完整的 VSCode 插件，可在 VSCode Marketplace 安装。插件与 CLI 共享 /.deepcode/settings.json 配置文件，可以在终端和编辑器之间无缝切换。 Deep Code 支持多模态，可使
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek
+
+---
+
+### 🌟 [sutando](https://github.com/sonichi/sutando)
+- **项目语言**: Python
+- **星标数量**: ⭐ 345
+- **核心概述**: 我的人工智能站。白天实时，晚上重写。召唤我的人工智能超能力。
+- **大概是做什么的**: -FFD700?logo=github&logoColor=white) My AI Stand — Realtime by Day, Rewriting Itself by Night. Summon my AI superpower. Voice, vision, screen, meetings, calls when I'm engaged. Learns my patterns, ships its own code when I'm not. Runs across my Macs, interacts with people & their Stands. It belongs entirely to you. 🛠 Open source: this repo — clone, build, run locally on your own Mac. 🍎 Native app preview: sutando.ai — packaged Mac app, request access. No Claude Extra usage required. Sutando runs on your existing Claude Code subscription ($20, $100, or $200/month) with minimal extra costs — no separate Anthropic API key to top up — unlike agents that route every action through pay-per-token APIs and hosted services. Named after Stands from JoJo's Bizarre Adventure — a personal spirit that fights on your behalf. Like a Stand, Sutando starts unnamed. As it learns your style and earns real capabilities, it names itself and generates its own avatar — your Stand, unique to you. https://github.com/user-attachments/assets/a86ec34e-3b26-4011-824c-d2d124753c25 24 tool calls. 6 tasks. 7 minut
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, claude, gemini, macos, multi-agent
+
+---
+
+### 🌟 [openclaw.net](https://github.com/clawdotnet/openclaw.net)
+- **项目语言**: C#
+- **星标数量**: ⭐ 372
+- **核心概述**: 自托管 OpenClaw 网关 + .NET 代理运行时（原生 AOT 友好）
+- **大概是做什么的**: 免责声明：本项目不隶属于 OpenClaw，不受 OpenClaw 认可，也与 OpenClaw 无关。它是一个独立的 .NET 实现，其灵感来自于他们的工作。 OpenClaw.NET 是一个 NativeAOT 友好的 AI 代理运行时和 .NET 网关，具有实用的 OpenClaw 生态系统兼容性。它适用于需要具有显式诊断、第一方 .NET 工具、OpenAI 兼容 HTTP 表面以及从源签出到 NativeAOT 发布工件的路径的本地或自托管代理网关的 .NET 开发人员和操作员。文档：AgentQi.dev 是 OpenClaw.NET 的文档和生态系统主页。 OpenClaw.NET 保留当前运行时和存储库标识。 AgentQi 文档 AgentQi 是 OpenClaw.NET 背后更广泛的开发人员基础设施方向：面向 .NET 开发人员的实用、可观察、自托管 AI 代理系统。 OpenClaw.NET 是您现在可以使用的运行时和存储库。 AgentQiX 可能是未来的运行时身份。 - 适用于 .NET 代理工作负载的 NativeAOT 友好运行时和网关 - 具有工具执行、流式传输、取消、重试、内存和会话支持的代理运行时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-runtime, agentqi, ai-agent, automation, csharp
+
+---
+
 ## 🕔 2026-06-09 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
