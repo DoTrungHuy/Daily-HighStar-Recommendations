@@ -1,3 +1,67 @@
+## 🕔 2026-06-11 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hacker-podcast](https://github.com/miantiao-me/hacker-podcast)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,539
+- **核心概述**: 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。
+- **大概是做什么的**: Agili 的 Hacker Podcast 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。 订阅地址: RSS Apple Podcasts YouTube 小宇宙 Spotify - 🤖 自动抓取 Hacker News 每日热门文章 - 🎯 使用 AI 智能总结文章内容和评论 - vinext (Vite + React Server Components) 应用框架 - Cloudflare Workers 部署和运行环境 1. 定时抓取 Hacker News 热门文章 2. 使用 AI 生成中文摘要和播报文稿 4. 存储到 Cloudflare R2 和 KV 5. 通过 RSS feed 和网页提供访问 项目由一个 Worker 和 Web 程序组成，Worker 负责抓取数据，处理音频。使用了 Cloudflare 的 R2 存储、 KV 存储、工作流和浏览器呈现。 Web 程序负责展示数据和提供 RSS 订阅。Web 程序使用 vinext 开发，通过 Cloudflare Vite 插件部署到 Workers。 - 本地运行工作流时，Edge TTS 转换音频可能会卡住。建议直接注释该部分代码进行调试。 - 由于合并音频需要使用 Cloudflare 的浏览器端呈现，不支持本地开发，需要远程调试。可以使用 pnpm tests 进行测试。 项目使用 Cloudflare Workers 部署: 1. 创建 R2 文件存储桶, 绑定域名后，修改 NEXT STATIC HOST 和 HACKER PODCAST R2 BUCKET URL 变量。 3. 修改 wrangler.jsonc 中 KV 和 R2 的值 4. 使用 wrangler 脚手架配置线上环境的环境变量: - Podify - 一个优雅的播客主题，为本项目提��了设计灵感和参考 欢迎提交 Issue 和 Pull Request! MiniMax-M2.1 是开源的业界顶尖编程模型，在多语言代码编写、界面设计理解与美学表达、长文本处理及多步骤复杂开发任务上表现卓越。让我们向通用生产力的长期愿景迈出了坚实一步，让人人都能轻松用上前沿的 AI 能力。 点击领取 MiniMax CodingPlan 专属 88 折优惠 。 本项目与 Hacker News 和 Y Combinator 没有任何关联。"Hacker News" 是 Y Combinator 的注册商标。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-workflow, cloudflare, cloudflare-workers, cloudflare-workflows
+
+---
+
+### 🌟 [knowledge-agent-template](https://github.com/vercel-labs/knowledge-agent-template)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 822
+- **核心概述**: 开源文件系统和基于知识的代理模板。构建能够与您的知识库保持同步的人工智能代理
+- **大概是做什么的**: 知识代理模板 开源文件系统和基于知识的代理模板。模板。对它进行分叉、定制并部署您自己的基于文件系统的 AI 代理。开源文件系统和基于知识的代理模板。构建能够与您的知识库保持同步的 AI 代理 - grep、find 和 cat 跨您的源，无需嵌入，无需矢量数据库。插入任何源（GitHub 存储库、YouTube 转录本、自定义 API）并部署为聊天应用程序、GitHub 机器人、Discord 机器人或同时部署。基于文件的搜索 — 无需嵌入 无需矢量数据库。没有分块管道。无嵌入模型。代理在隔离的沙箱内使用 grep 、 find 和 cat 来搜索所有源。结果是确定性的、可解释的且即时的。零基础设施开销。多平台机器人 — 一个代理，无处不在 编写一次代理，将其部署到网络聊天、GitHub Issues、Discord - 以及很快的 Slack、Linear 等上。通过 Chat SDK 由可插拔适配器提供支持。添加新平台是单个适配器文件。内置管理面板 开箱即用的完整管理界面：使用情况统计、错误
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agent, chatbot, file-system, knowledge-base, nuxt
+
+---
+
+### 🌟 [awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 958
+- **核心概述**: OpenClaw 资源、工具、技能、教程和文章的精选列表。 OpenClaw（以前称为 Moltbot / Clawdbot）— 用于 WhatsApp、Telegram、Discord 和 50 多个集成的开源自托管 AI 代理。
+- **大概是做什么的**: OpenClaw 资源、工具、技能、教程、文章和社区项目的精选列表——风靡全球的开源自托管 AI 代理。 OpenClaw（以前称为 Moltbot，最初称为 Clawdbot）是由 Peter Steinberger 创建的免费开源自主 AI 代理。它在您的计算机上本地运行，连接到 50 多个集成，并允许您通过 WhatsApp、Telegram、Discord、Signal、iMessage 等与 AI 聊天 - 无需订阅。另请参阅：awesome-hermes-agent — Hermes Agent 的精选资源（Nous Research），这是使用本机 Hermes Claw 迁移命令从 OpenClaw 进行最常见的升级路径。 OpenClaw 是一个自托管的开源 AI 代理，可充当您的个人 AI 助手 - 可通过 WhatsApp、Telegram、Discord 和 12 多个其他消息平台进行访问。与基于云的人工智能服务不同，OpenClaw 完全在您自己的硬件上运行，确保您的数据私密。 - 免费和开源 - 无需订阅，无锁定（MIT 许可） - 自托管 - 在 macOS、Linux 和 Windows 上本地运行 - 12+ 消息传递平台 - WhatsApp、Telegram、Discord、Slack、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agent, ai-automation, autonomous-agents, awesome, awesome-list
+
+---
+
+### 🌟 [QodeAssist](https://github.com/Palm1r/QodeAssist)
+- **项目语言**: C++
+- **星标数量**: ⭐ 407
+- **核心概述**: QodeAssist 是 Qt Creator 的人工智能编码助手插件
+- **大概是做什么的**: QodeAssist — Qt Creator 的 AI 编码助手 QodeAssist 为 C++ 和 QML 的 Qt Creator 带来了完整的 AI 编码工作流程 — 智能代码完成、多面板聊天、内联快速重构和项目感知工具调用。它与本地运行时（Ollama、llama.cpp、LM Studio）和云提供商（Claude、OpenAI、Google AI、Mistral、Qwen、DeepSeek）配合使用，可以作为 MCP 服务器运行，以便其他客户端重用其项目上下文，并且还可以充当 MCP 客户端来使用来自外部 MCP 服务器的工具（尚不支持经过身份验证的 MCP 服务器）。 ⚠️ 关于付费提供商的重要通知 当使用 Claude、OpenRouter 或 OpenAI 兼容服务等付费提供商时： - 这些服务将消耗 API 令牌，这��能会导致您的账户产生费用 - QodeAssist 开发者对产生的任何费用不承担任何责任 - 请在使用前仔细检查提供商的定价和您的账户设置 6. QtCreator 版本兼容性 9. 开发进度 10. 支持开发 QodeAssist 增强了 Qt Creator AI 支持的编码辅助： - 代码完成 — inte
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-chat, autocomplete, claude, claude-ai
+
+---
+
+### 🌟 [dockit](https://github.com/geek-fun/dockit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,104
+- **核心概述**: 适用于 Elasticsearch、OpenSearch、DynamoDB、MongoDB 和 EasySearch 的代理桌面 GUI 客户端。自然语言查询、可视化管理和监控。隐私第一。开源。
+- **大概是做什么的**: 适用于 Elasticsearch、OpenSearch、DynamoDB 和 MongoDB 的开源 GUI 客户端 — 适用于所有 NoSQL 数据库的本机桌面应用程序。隐私第一。您的数据，您的密钥。开源。网站·文档·下载·发布 DocKit 使用单个本机桌面应用程序取代了 Kibana 和 AWS Console 等浏览器控制台。用自然语言描述您的需求并获取可运行的查询，或直接使用 Monaco 支持的编辑器。支持 OpenAI、Anthropic 和 DeepSeek — 带上您自己的���钥。 Elasticsearch     OpenSearch     DynamoDB     MongoDB     DocKit 的数据代理可让您通过自然语言与数据库交互。描述您需要什么 - 代理编写查询、检查架构、更新文档、删除记录、创建索引并返回结果。每个操作都通过具有内置安全性的经过验证的工具运行：细粒度的每个源权限、在破坏性操作之前需要明确确认的安全门，以及永远不会向 LLM 公开连接秘密的凭证安全架构。��
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, database-gui, desktop-app, dynamodb, dynamodb-client, dynamodb-gui-client
+
+---
+
+### 🌟 [awesome-saas](https://github.com/Alchemyst-ai/awesome-saas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 416
+- **核心概述**: 使用 Alchemyst AI 平台构建下一个大型 AI 应用程序的模板集合。
+- **大概是做什么的**: 🧪 Alchemyst 平台食谱 🚀 让您的下一个人工智能创意成为现实 通过尖端的 AI 工具和模板为开发人员和构建者提供支持 📋 目录 - 🔗 API 文档 - Alchemyst 平台入门 - 💡 官方模板 - 🚀 社区模板 - 🎯 如何贡献 - 🔍 故障排除 🔗 API 文档 交互式 API Explorer 技术文档💡专业提示：查看我们的 AI 原生文档以获取智能代码示例！ 🧠 社区 AI 代理这些代理是 Awesome-saas 集合的一部分。由社区构建的 AI 代理 由社区构建的 AI 代理 由社区构建的 AI 代理 由社区构建的 AI 代理 💡 官方模板 针对��的电子邮件收件箱的代理电子邮件自动化，从头开始构建，不依赖于第三方提供商 根据您想要服务的公司的利益来推销您的想法。这是一个不断扩大的列表 - 我们将继续添加开源模板！ 🚀 社区模板 MASHire 是一个智能、自主的职位发布和招聘平台
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-saas, alchemyst-ai, hacktoberfest, hacktoberfest2025
+
+---
+
 ## 🕔 2026-06-11 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
