@@ -1,3 +1,67 @@
+## 🕔 2026-06-11 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-codex-computer-use](https://github.com/iFurySt/open-codex-computer-use)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,039
+- **核心概述**: 👾 开放计算机使用 – Codex 计算机使用的开源替代方案
+- **大概是做什么的**: 对浏览器的使用感兴趣？查看打开浏览器使用。 open-computer-use 是一个封装为 MCP 的开源计算机使用服务。任何 AI 代理或 MCP 客户端都可以使用它在 macOS、Linux 和 Windows 上运行计算机使用。该项目的灵感来自 OpenAI 的 Codex Computer Use。它表明非侵入式 CUA 可以构建在 Accessibility 之上，因此我决定构建一个开源版本。我用我的工具模板开始了这个存储库，这是一个用于快速启动人工智能优先项目的模板。它是我们最近最有用的工作流程之一，尤其是对于近 100% 人工智能生成的项目。我还写了一篇关于其背后的方法论的文章。 Codex App和Codex CLI开放计算机使用-在Codex App和Codex CLI中用作计算机使用，与官方体验一致。 https://github.com/user-attachments/assets/eacb3b15-f939-46c7-b3b3-6f876977a58d Gemini CLI 通过 MCP 连接到开放计算机使用并运行完整的计算机使用操作。 https://github.com/user-attachments/assets/e036b1c8-2200-4896-abd4-19225915cf66 在 Linux 上运行的开放计算机使用。在 macOS 上，运行一次并授予 Accessibil
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: accessibility, ai-agent, ai-agents, claude-code, codex, codex-computer-use
+
+---
+
+### 🌟 [best-of-ai](https://github.com/best-of-ai/best-of-ai)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 624
+- **核心概述**: 最佳人工智能工具精选列表
+- **大概是做什么的**: 精心挑选的人工智能工具——没有废话，没有平庸的应用程序。每一个工具都经过精心挑选，以保证质量、创新和现实世界的影响。 🌐 网站  ·  ➕ 提交工具  ·  🤝 贡献 - 客户支持 (8) - 平面设计 (10) - 法律助理 (6) - 本地搜索引擎 (4) - 会议助理 (8) - 个人助理 (6) - 研究工具 (10) - 搜索引擎 (6) - 写作助理 (13) - AI 目录 (4) - 背景去除器 (3) - 商业工具 (4) - 日历日程安排 (4) - 代码助理 (18) - 电子邮件助理 (4) - 图像生成 (12) - 知识管理 (8) - 语言学习 (4) - 潜在客户生成 (4) - 学习工具 (5) - 徽标生成器 (4) - 市场研究 (4) - 模因生成器 (4) - 音乐生成 (4) - 笔记应用程序 (4) - 项目管理 (5) - 社交媒体工具 (7) - 会说话的头像生成器 (4) - 文本转语音(6) - 视频增强器 (4) - 视频生成器 (10) - 视频字幕 (4) - 网站建设者 (4) - 工作流程自动化 (4) AI 驱动的生产力工具 - Akiflow — 回顾 — 统一任务管理和日常计划工具 - A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-assistant, ai-chatbot, ai-engineering
+
+---
+
+### 🌟 [hermes-hud](https://github.com/joeynyc/hermes-hud)
+- **项目语言**: Python
+- **星标数量**: ⭐ 840
+- **核心概述**: TUI Hermes 意识监视器
+- **大概是做什么的**: 人工智能照镜子时会看到什么？ Hermes HUD 是人工智能代理的意识监视器。一个终端仪表板，用于观察代理的思考——它的记忆、它的错误、它随时间的增长。专为 Hermes 打造，具有持久记忆功能的人工智能助手。部分是 Neofetch，部分是飞行记录器，部分是用 Unicode 呈现的存在危机。 Hermes HUD 读取 /.hermes/ 并显示智能体了解的有关自身的所有信息 - 进行的对话、获得的技能、纠正的错误、内存容量、工具使用模式、活动项目等等。所有值均从您的代理数据中实时提取。您的 HUD 反映了您的座席的实际状态。 - 交互式 TUI — 9 个选项卡、键盘导航、4 种颜色主题 - 主题启动屏幕 — 具有个性的渐变 ANSI 艺术介绍 - 增长跟踪 — 快照差异显示自昨天以来发生的变化 - Cron 监视器 — 计划作业及其执行历史记录 - 项目跟踪器 — 代理正在处理的 Git 存储库、语言、未提交的更改 - 健康检查 — API 密钥、正在运行的服务、网关状态一目了然 - 更正日志 — 代理的每个错误
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, dashboard, neofetch, python, terminal, textual
+
+---
+
+### 🌟 [anything_about_game](https://github.com/killop/anything_about_game)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,932
+- **核心概述**: 游戏开发资源的精彩列表。
+- **大概是做什么的**: 游戏开发资源干货分享QQ群:1067123079 &nbsp &nbsp &nbsp 高端职场灌水QQ群:894955505 - 个人/社交/博客 - Unity 官方教程及开发者经验分享： - 游戏中间件列表 - 纹理压缩 - 文章/集合 - 动画DCC工具 - 物理动画 - 动画控制器 - 角色控制器 -控制台/命令/Shell/调试器 - 程序生成 - 树/植被/草 - 元数据/Excel/模式/原型 - DataVisual\&\&Editor - Archive-GameReverse - 通用压缩 - ScriptWebTool\&\&TUI - 游戏服务器框架 - 集合\&\&文章 - Web/Http/Server/Client - 2D 引擎和框架 - 3D 引擎和框架 - Skinned-MeshRender - 课程/文章/网站 - 基于位置的动态 - 游戏基准/指标/工具 - 计算机图形 \&\& 着色 - 基于物理的渲染 - SphericalHarmonicLighting/CubeMap/探针 - URP/SPR/HDRP 课程 - 抖动透明度 - RenderPipelineFrameWork - 全局照明 (GI) - 辐照度探针/体素 - 不完美阴影贴图 - Metropolis Light传输 - 光能传递法线贴图 - BatchRendererGroup - 点分布 - 访谈/DataStruct-算法 - dynCall/ffi/i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 2d-game-framework, ai-agent, awesome-list, csharp, ecs, ecs-libraries
+
+---
+
+### 🌟 [mnemon](https://github.com/mnemon-dev/mnemon)
+- **项目语言**: Go
+- **星标数量**: ⭐ 339
+- **核心概述**: 用于 AI 代理的 LLM 监督持久记忆 — 基于图形的召回、跨会话知识、单个二进制文件。可与 Claude Code、OpenClaw 和任何 CLI 代理配合使用。
+- **大概是做什么的**: 用于 AI 代理的 LLM 监督持久内存。 LLM 代理会忘记会话期间的所有事情。上下文压缩会导致关键决策丢失，跨会话知识消失，长时间对话将早期信息排除在外。 Mnemon 为您的代理提供持久的跨会话记忆——一个四图知识存储，具有意图感知召回、重要性衰减和自动重复数据删除功能。单个二进制文件、零个 API 密钥、一个设置命令。实验测试版：此存储库还包括 mnemon-harness ，这是一个针对项目本地主机代理生命周期状态的源构建测试版。它与稳定的 mnemon CLI 分开，不适合生产，并且可能随时进行重大更改。请参阅harness/README.md。克劳德·麦克斯 / Pro 订阅者？ Mnemon 完全通过您现有的订阅工作 - 不需要单独的 API 密钥。您的法学硕士订阅是情报层。两个命令就完成了。大多数内存工具都将自己的 LLM 嵌入到管道中。 Mnemon 采用不同的方法：您的宿主 LLM 是主管。该二进制文件处理确定性计算（存储、图索引
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-memory, ai-agent, ai-tools, claude, claude-code
+
+---
+
+### 🌟 [WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 326
+- **核心概述**: A Simple and Universal Product Rehearsal Engine, Speccing Anything. 简洁通用的产品推演引擎，推演万物。
+- **大概是做什么的**: 一个简单且通用的产品排练引擎，可以指定任何内容。 TRAE 技能挑战/社区展示项目进度说明：工程应用程序目前落后于 WhyBuddy 技能。要获得完整的产品排练体验，请先使用 WhyBuddy 技能；该工程项目仍在向前推进。 ⚡ 30 秒概述 您输入一个句子。系统为您演练完整的产品方案。规格文档 · 系统架构 · 路径规划 · 提示包 · 效果预览 完全可视。完全可出口。完全有证据支持。您需要花费几天的时间编写 PRD，花费几周的时间来调整团队，并花费几个月的时间才能知道方向是否正确。输入一个想法 → 5 分钟 → 充分排练 → 决定它是否值得构建 → 如果不值得，则转到下一个想法。 WhyBuddy 示例排练中的 16 屏综合照片墙。观看完整排练演示 基于 TRAE SOLO 的产品排练自动化：从一句话想法到可执行规范。点击上面的视频封面即可打开 Bilibili 演示。 🧩 Whybuddy 技能包（便携式·可嵌入
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, chatgpt, claude
+
+---
+
 ## 🕔 2026-06-11 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
