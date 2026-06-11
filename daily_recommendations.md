@@ -1,3 +1,67 @@
+## 🕔 2026-06-11 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [obsidian-second-brain](https://github.com/eugeniughelbur/obsidian-second-brain)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,376
+- **核心概述**: Obsidian 的跨 CLI 技能：将您的金库变成跨 Claude Code、Codex、Gemini 和 OpenCode 的活生生的人工智能第二大脑。 43 个命令 - 现在使用 /obsidian-architect 来记录您的代码库、无密钥网络研究、Google 日历和自重写笔记。
+- **大概是做什么的**: 一个代码库。四个 CLI。一样的大脑。黑曜石第二大脑 Karpathy 的 LLM Wiki 模式的演变：一个重写自身的金库。每个源都会更新现有页面，而不仅仅是添加新页面。矛盾会自动调和。当你睡觉时，你的金库会复合。 44 个命令 · 自动合成 · 与您争论的来自 X、网络和 YouTube 的实时研究的思考工具 · 4 个计划代理 · 4 个角色预设写入时人工智能优先验证器 · /create-command 访谈流程 · 多语言触发模式 查看实际效果 · 所有命令 · v0.10 - 架构师（2026 年 5 月）：新的 /obsidian-architect 扫描代码库并将维护的架构注释写入您的库 - 可刷新，永远不会破坏你的编辑。加上免费的无钥匙研究、Google 日历命令、反幻觉防护以及测试 + CI。查看变更日志 → 来自博客 · AI Operator → 最新：“黑曜石第二大脑的巨大更新：架构师” v0.10 发布 /obsidian-architect · 将您的代码库记录到您的 vaul 中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, ai-automation, ai-research, ai-tools, anthropic
+
+---
+
+### 🌟 [VibeAround](https://github.com/jazzenchen/VibeAround)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 378
+- **核心概述**: 让您的人工智能编码代理在身边。从一个地方启动 Claude Code、Codex CLI、Gemini CLI、Pi Agent 等 — 并排、连接、可访问，并准备好跨 Web、移动和消息传递工作。
+- **大概是做什么的**: 您的人工智能编码代理，始终在您身边。在计算机上并排运行 AI 编码代理。从任何地方控制它们，继续之前的会话，并预览它们构建的内容。 VibeAround 是一个统一的 AI Agent 工作区。直接或通过第三方 AI API 启动 Claude Code、Codex CLI、Gemini CLI、Pi、OpenCode、Claude Desktop、Codex Desktop 等。从命令行、浏览器、移动消息应用程序或 Web 终端启动或继续之前的会话。预览代理构建的内容，从开发服务器到 Markdown、HTML 和生成的工件。 AI 编码工作分为代理、模型 API、终端、消息传递应用程序、浏览器和预览 URL。当代理仍在您的计算机上运行时，VibeAround 可以将工作集中在一起。 - 使用正确的模型配置文件启动正确的代理，无需编辑每个代理的配置文件。 - 让 Claude Code、Codex CLI、Gemini CLI、Pi、OpenCode 等可从一个工作区访问。 - 从桌面、Web、移动设备、消息应用程序或 Web 终端继续相同的会话。 - 无需移动即可预览本地开发服务器、Markdown、HTML 和生成的工件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tools, remote-execution, vibe-coding
+
+---
+
+### 🌟 [agentic.nvim](https://github.com/carlos-algms/agentic.nvim)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 507
+- **核心概述**: 直接在 Neovim 中与来自 Claude-Code、Gemini、Codex、OpenCode 和 Cursor-agent 的 ACP 提供商进行代理聊天界面
+- **大概是做什么的**: ⚡ Neovim 中 AI 代理的聊天界面，可与任何支持代理客户端协议 (ACP) 的提供商合作，包括 Claude、Gemini、Codex、OpenCode、Cursor Agent、Copilot、Auggie、Mistral Vibe、Cline、Goose、Kiro、Pi 等。 Agentic.nvim 通过实施代理客户端协议 (ACP) 将您的 AI 助手引入 Neovim。您将获得与直接从终端使用 ACP 提供商的官方 CLI 相同的结果和性能。 Agentic.nvim 是界面，你的代理是大脑。该插件将使用您已设置的所有相同配置和身份验证方法，包括 MCP 服务器、命令、技能和子��理，您无需重新创建配置即可使用 Agentic.nvim。会话是可以互换的——在 Neovim 中开始对话并在终端中继续，或者直接在 Neovim 中选择一个终端会话。您的 ACP 提供商本地管理会话，因此它们随处可用。幕后没有隐藏的提示或魔法发生。只是一个聊天界面、你的颜色和你的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, ai, ai-agent, neovim, neovim-plugin, neovim-plugin-lua
+
+---
+
+### 🌟 [CyberStrike](https://github.com/CyberStrikeus/CyberStrike)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 319
+- **核心概述**: 由 AI 驱动的进攻性安全代理，拥有 7,300 多种可操作的安全技能。由 MITRE ATT&CK（2,000 多项原子测试）、CIS 基准（1,500 多项控制）、OWASP、NIST 提供支持的自主渗透测试。延迟加载，零上下文污染。你的AI红队。
+- **大概是做什么的**: 第一个专为进攻性安全而构建的开源人工智能代理。从您的终端进行自动化渗透测试 - 插入您的 Claude、GPT 或任何 LLM 订阅，并将其转变为具有 13 多个专业代理和 120 多个 OWASP 测试用例的自主红队代理。智能层 • 有何不同 • MCP 生态系统 • 安装 • 就是这样。 Cyber​​Strike 在您的终端中启动 TUI，在首次运行时询问您的 LLM 提供商和 API 密钥，然后您就可以开始了。告诉它要测试什么——它可以自主处理侦察、漏洞发现、利用和报告。已经订阅了 Claude Code 或 OpenAI？ Cyber​​Strike 的智能层位于您现有的 AI 订阅之上。没有单独的 API 成本——您当前的计划支持整个渗透测试工具包。请访问 docs.cyberstrike.io 浏览完整文档，或访问 cyberstrike.io 以获取演示和指南。 Cyber​​Strike 不仅仅是法学硕士的包装。它是一个智能层，可将任何人工智能模型转变为进攻性安全专家。工作原理：当您连接 LLM 时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, appsec, atomic-red-team, bug-bounty, cis-benchmarks
+
+---
+
+### 🌟 [Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 466
+- **核心概述**: 针对 LLM/MLLM 记忆的精选系统、基准测试和论文等——长期上下文、检索和推理。
+- **大概是做什么的**: 🧠 Awesome Agent Memory 精选的系统、基准测试和论文等集合。研究大型语言模型 (LLM) 和多模态大型语言模型 (MLLM) 的记忆机制，探索不同的方法如何实现长期上下文、检索和高效推理。 👀 开源资源（例如在 Github 上公开的具有可复制代码的论文）以粗体标记，排名较高。 - 📰 [[OpenAI (2026-06-04)] 梦想：更好的记忆，更有用的 ChatGPT](https://openai.com/index/chatgpt-memory-dreaming/) - 📰 [[Bloo-Mind AI (2026-05-20)] 基准剧场：为什么你读到的关于智能体内存分数的几乎没有True](https://essays.bloo-mind.ai/posts/2026-05-20-mem-eval/) - 📰 [[Jiayi Weng (2026-05-09)] 学习超越梯度](https://trinkle23897.github.io/learning-beyond-gradients/) - 📰 [[Anthropic (2026-05-08)] Anthropic 正在为他们的下一代模型研究三个关键领域](https://www.reddit.com/r/singularity/comments/1t5q53r/anthropic 正在为他们的下一代模型研究三个关键领域/) - 📰 [[InfoQ (2026-04-30)] Cloudflare 宣布 Agent Mem
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agent, ai-agent-memory, awesome-agent-memory, llm-memory, memory
+
+---
+
+### 🌟 [better-agent-terminal](https://github.com/tony1223/better-agent-terminal)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 407
+- **核心概述**: 具有 Claude Code AI 集成的多工作空间终端聚合器
+- **大概是做什么的**: 更好的代理终端 一款由 Tauri 支持的终端聚合器，具有多工作空间支持和内置 AI 代理集成 在一个窗口中管理多个项目终端，具有内置的 Claude Code 和 Codex 代理面板、文件浏览器、git 查看器、代码片段管理器和远程访问 - 所有这些都在一个 Tauri 应用程序中。 3.0 版是仅限 Tauri 的版本。 Electron 运行时已被删除；该应用程序现在仅在仍需要 JavaScript SDK/运行时支持的情况下使用 Rust/Tauri 主机、React 渲染器和小型捆绑 Node sidecar。移动应用程序需要 Better Agent Terminal v3.1.3 或更高版本。 https://l.tonyq.org/bat-ios https://l.tonyq.org/bat-android Claude 代码代理面板 — 具有权限控制、状态行和流输出的内置 AI 代理 终端 — 与代理一起运行持久终端，以执行长时间运行的命令并监控 文件浏览器 — 无需离开应用程序即可浏览和预览项目文件 Git 查看器 — 查看提交历史记录和差异一目了然 工作区管理 - 多工作区 — 按项目文件夹组织终端；每个工作区绑定到一个目录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, claude, claude-code, developer-tools, electron
+
+---
+
 ## 🕔 2026-06-11 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
