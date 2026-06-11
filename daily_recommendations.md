@@ -1,3 +1,67 @@
+## 🕔 2026-06-11 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [waoowaoo](https://github.com/waooAI/waoowaoo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 12,682
+- **核心概述**: 首��工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.
+- **大概是做什么的**: waoowaoo AI 影视 Studio 一款基于 AI 技术的短剧/漫画视频制作工具，支持从小说文本自动生成分镜、角色、场景，并制作成完整视频。 English · 加入内测候补 · 反馈问题 ⚠️ 测试版声明 ：本项目目前处于测试初期阶段，由于暂时只有我一个人开发，存在部分 bug 和不完善之处。我们正在快速迭代更新中， 欢迎进群反馈问题和需求，及时关注项目更新！目前更新会非常频繁，后续会增加大量新功能以及优化效果，我们的目标是成为行业最强AI工具！ - 🎬 AI 剧本分析 — 自动解析小说，提取角色、场景、剧情 - 🎨 角色 & 场景生成 — AI 生成一致性人物和场景图片 - 📽️ 分镜视频制作 — 自动生成分镜头并合成视频 - 🎙️ AI 配音 — 多角色语音合成 - 🌐 多语言支持 — 中文 / 英文界面，右上角一键切换 前提条件 ：安装 Docker Desktop ⚠️ 当前为测试版，版本间数据库不兼容。升级请先清除旧数据： 启动后请 清空浏览器缓存 并重新登录，避免旧版本缓存导致异常。 方式二：克隆仓库 + Docker 构建（完全控制） 跳过 npx prisma db push 会导致所有数据库表不存在，启动后报错 The table 'tasks' does not exist 。请务必先运行此命令再启动开发服务器。 访问 http://localhost:13000（方式一、二）或 http://localhost:3000（方式三）开始使用！ 首���启动会自动完成数据库初始化，无需任何额外配置。 如果遇到网页卡顿 ：HTTP 模式下浏览器可能限制并发连接。可安装 Caddy 启用 HTTPS： 然后访问 https://localhost:1443 启动后进入 设置中心 配置 AI 服务的 API Key，内置配置教程。 💡 注意 ：目前仅推荐使用各服务商官方 API，第三方兼容格式（OpenAI Compatible）尚不完善，后续版本会持续优化。 - 框架 : Next.js 15 + React 19 - 数据库 : MySQL + Prisma ORM - 队列 : Redis + BullMQ - 样式 : Tailwind CSS v4 - 认证 : NextAuth.js 本项目由核心团队独立维护。欢迎你通过以下方式参与： - 🐛 提交 Issue 反馈 Bug - 💡 提交 Issue 提出功能建议 - 🔧 提交 Pull Request 供参考 — 我们会认真审阅每一个 PR 的思路，但最终由团队自
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, automation, film-production, generative-ai, short-drama
+
+---
+
+### 🌟 [BotSharp](https://github.com/SciSharp/BotSharp)
+- **项目语言**: C#
+- **星标数量**: ⭐ 3,068
+- **核心概述**: .NET 中的 AI 多代理框架
+- **大概是做什么的**: 开源 AI 代理应用程序框架将法学硕士连接到专注于您业务的现有应用程序“对话即平台 (CaaP) 是未来，因此我们已经向 .NET 开发人员提供了整个工具包，使用 BotSharp AI BOT Platform Builder 来构建 CaaP，这是完美的。它为您自己的机器人提供了尽可能多的学习能力，并精确控制 AI 处理管道的每一步。” BotSharp 是一个用于 AI Bot 平台构建器的开源机器学习框架。该项目涉及自然语言理解、计算机视觉和音频处理技术，旨在推动智能机器人助手在信息系统中的发展和应用。开箱即用的机器学习算法可以让普通程序员更快、更轻松地开发人工智能应用程序。它是用C编写的，运行在.Net Core上，是一个完整的跨平台框架，采用插件和管道流执行设计，使插件完全解耦。 C 是一种企业级编程语言，我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chatbot, multi-agent
+
+---
+
+### 🌟 [opencode-telegram-bot](https://github.com/grinev/opencode-telegram-bot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 785
+- **核心概述**: 通过 Telegram 的 OpenCode 移动客户端：从您的手机运行和监控 AI 编码任务，同时一切都在您的计算机上本地运行。计划任务支持。
+- **大概是做什么的**: OpenCode Telegram Bot OpenCode Telegram Bot 是在本地计算机上运行的 OpenCode CLI 的安全 Telegram 客户端。通过手机运行 AI 编码任务、监控进度、切换模型和管理会话。没有开放端口，没有公开的 API。该机器人仅与您的本地 OpenCode 服务器和 Telegram Bot API 进行通信。计划任务支持。将机器人变成 OpenCode 用户的轻量级 OpenClaw 替代品。平台：macOS、Windows、Linux 语言：英语 ( en )、德语 ( ar )、德语 ( de )、西班牙语 ( es )、法语 ( fr )、Русский ( ru )、简体中文 ( zh ) - 远程编码 — 从任何地方向 OpenCode 发送提示，接收以文件形式发送的代码的完整结果 - 会话管理 — 创建新会话或继续现有会话一个，就像 TUI - 跟踪实时会话一样 — 关注实时 OpenCode CLI 会话；请参阅跟踪现有会话 - 后台会话通知 - 当当前项目/工作树中的分离或非当前会话回复、提问或请求权限时获取简短通知 - 实时状态 - 与当前项目/工作树固定的消息
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, coding-agent, developer-tools, grammy, nodejs
+
+---
+
+### 🌟 [k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 794
+- **核心概述**: 由科学代理技能提供支持的人工智能联合科学家在您的桌面上运行。
+- **大概是做什么的**: 您自己的人工智能研究助手，在您的计算机上运行，​​由您的 API 密钥提供支持。 K-Dense BYOK（自带密钥）是一款免费的开源应用程序，为您提供 Kady——任何领域科学家的人工智能研究助理。用通俗易懂的语言描述一项任务——分析数据集、审阅手稿、搜索文献、构建图形——Kady 会完成这些工作：它读取和写入文件、运行真实代码、搜索网络并将结果交给您。不需要编码经验。该应用程序在您的计算机上本地运行，您的数据保留在您身边，并且您只需为自己帐户上的 AI 模型使用付费。测试版：K-Dense BYOK 目前处于测试版。许多功能和改进正在进行中。在 GitHub 上为我们加注星标以了解最新动态，并在 X、LinkedIn 和 YouTube 上关注 K-Dense 以获取发行说明和教程。 - 在完整的工作环境中承担真正的研究任务——数据分析、文献综述、手稿检查、图形生成，进度在聊天中实时显示。 - 委派给由 21 名科学专家组成的内置团队，例如引文检查员、统计审核员
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-assistant, bioinformatics, byok, drug-discovery
+
+---
+
+### 🌟 [terminaI](https://github.com/Prof-Harita/terminaI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 414
+- **核心概述**: Cowork 式计算机助手的开源、本地优先替代方案：真正的 PTY 终端操作、显式批准、JSONL 审核日志。 Windows + Linux + Mac OS。模型不可知。
+- **大概是做什么的**: 为您的终端提供安全、本地优先的人工智能操作员。停止从 ChatGPT 复制粘贴。 TerminAI 是使用您控制的权限操作您的机器的 CLI。使用您已经信任的模型（Gemini、OpenAI、本地法学硕士）在 Windows/Linux/macOS 上运行。专为真实的系统更改或用户工作流程而设计 - 受监管、可审查且可逆。 TerminAI 是一家人工智能驱动的系统运营商。你描述你想要什么； TerminAI 检查您的机器，提出计划，并通过具有确定性批准阶梯和审计跟踪的受管理工具执行它。状态：公共预览版 (v0.x) 核心运算符循环坚如磐石。 CLI 是规范曲面。桌面/语音/A2A 是可选的，并且仍在跨平台上进行强化。期待力量；预计会有粗糙的边缘。欢迎贡献。这是什么/这不是什么 - 本地优先的操作员运行时：意图→治理计划→批��→执行→审核日志。 - 真正的终端操作员（真正的 PTY）：它可以处理交互式会话（sudo 提示、ssh、vim/htop 样式流）。 - 模型灵活的设置：选择您已经使用的提供商（包括
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude-cowork, cowork, cowork-alternative, cursor-for-pc, desktop-agent
+
+---
+
+### 🌟 [open-antigravity](https://github.com/ishandutta2007/open-antigravity)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 509
+- **核心概述**: 🚀🪐🌕🌑☄️🛸 相当于 Google 反重力的开源
+- **大概是做什么的**: 用于代理开发的开源通用人工智能网关这是一项开放的、社区驱动的工作，旨在构建一个真正与模型无关的专有代理编码平台替代方案。 Open-Antigravity 不仅仅是另一个代码编辑器或人工智能助手。这是一个雄心勃勃的开源项目，旨在构建一个 Web 原生、代理优先的集成开发环境 (IDE)。与将您锁定在单一 AI 生态系统中的专有平台不同，Open-Antigravity 从一开始就被设计为成为任何 LLM 的通用网关。我们的目标是创建一个平台，开发人员可以将复杂的任务委托给由他们选择的模型支持的自主人工智能代理。如果您相信以下观点，那么这个项目适合您： - 真正的模型自由：构建一个不依赖于单一人工智能提供商的未来。 - 人工智能民主化：让每个人都能获得最先进的代理开发。 - 透明度和可扩展性：创建一个社区可以塑造、扩展和信任的开放核心。 - 自托管和隐私：让您完全控制您的代码、数据和人工智能连接。 ✨ 核心功能（Vi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-editor, anti-gravity, antigravity, antigravity-ai, antigravity-ide
+
+---
+
 ## 🕔 2026-06-10 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
