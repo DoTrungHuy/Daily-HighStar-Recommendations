@@ -1,3 +1,67 @@
+## 🕔 2026-06-12 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ag-ui](https://github.com/ag-ui-protocol/ag-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 14,232
+- **核心概述**: AG-UI：代理-用户交互协议。将代理引入前端应用程序。
+- **大概是做什么的**: AG-UI：代理-用户交互协议 AG-UI 是一种开放、轻量级、基于事件的协议，它标准化了 AI 代理连接到面向用户的应用程序的方式。它专为简单性和灵活性而设计，可实现人工智能代理、实时用户上下文和用户界面之间的无缝集成。加入我们的 Discord →     阅读文档 →     转到 AG-UI Dojo →     关注我们 → 在几秒钟内创建一个新的 AG-UI 应用程序： - 构建 AG-UI 支持的应用程序（快速入门） - 构建新的 AG-UI 框架集成（快速入门） - 预约电话讨论 AG-UI 与新框架的集成 - 加入 Discord 社区 AG-UI 是一种开放、轻量级、基于事件的协议，用于代理与人的交互，旨在实现简单性和灵活性：-在代理执行期间，代理后端发出与 AG-UI 16 种标准事件类型之一兼容的事件 - 代理后端可以接受一些简单的 AG-UI 兼容输入之一作为参数 AG-UI 包含一个灵活的中间件层，可确保跨不同环境的兼容性： - 适用于任何事件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag-ui-protocol, agent-frontend, agent-ui, agentic-workflow, ai-agents
+
+---
+
+### 🌟 [rowboat](https://github.com/rowboatlabs/rowboat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 14,954
+- **核心概述**: 开源人工智能同事，有记忆
+- **大概是做什么的**: 开源 AI 同事将工作转化为知识图并对其进行操作 Rowboat 连接到您的电子邮件和会议记录，构建长期存在的知识图，并使用该上下文帮助您在您的机器上私下完成工作。您可以执行以下操作： - 为我制作有关下季度路线图的演示文稿 → 使用您的知识图中的上下文生成 PDF - 为我与 Alex 的会面做准备 → 将过去的决定、未解决的问题和相关线索整理成清晰的摘要（或语音笔记） - 通过实时笔记跟踪个人、公司或主题 - 随时可视化、编辑和更新您的知识图（只是 Markdown） - 录制语音备忘录，自动捕获和更新图表中的关键要点 ⭐ 如果您觉得 Rowboat 有用，请加注星标回购协议。它可以帮助更多的人找到它。观看完整视频 所有发布文件：https://github.com/rowboatlabs/rowboat/releases/latest 要连接 Google 服务（Gmail、日历和云端硬盘），请遵循 Google 设置。要启用语音输入和语音注释（可选），请在 /.rowboat/config/deepgram.json 中添加 Deepgram API 密钥。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, agents-sdk, ai, ai-agents, ai-agents-automation, chatgpt
+
+---
+
+### 🌟 [agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,251
+- **核心概述**: AI 代理治理工具包 — 自主 AI 代理的策略执行、零信任身份、执行沙箱和可靠性工程。涵盖 10/10 OWASP Agentic 前 10 名。
+- **大概是做什么的**: 🌍 English 日本语 简体中文 한국어 代理治理工具包 让代理无需失眠即可投入生产 📋 规格 · 公共预览版——生产质量的公共预览版。在正式发布之前可能会发生重大变化。自主 AI 代理的策略执行、身份、沙箱和 SRE。一个 pip 安装，任何框架。您的 AI 代理调用工具、浏览网络、查询数据库以及委托给其他代理。一旦部署，他们就会自主做出决策。您需要回答三个问题： 1. 允许执行此操作吗？有权发送电子邮件和查询数据库的代理不应删除表。 OAuth 范围和 IAM 角色控制代理可以访问哪些服务，而不是连接后执行的操作。 2. 哪个代理人干的？在多代理系统中，五个代理可能共享一个 API 密钥。当出现问题时，“是代理干的”并不是事件响应。 3.你能证明发生了什么吗？审计员和监管机构需要对每个决策进行防篡改记录：哪些政策是有效的、代理人要求什么以及为什么允许或拒绝。提示级安全（“请
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agents, ai-safety, compliance, governance, microsoft
+
+---
+
+### 🌟 [flyte](https://github.com/flyteorg/flyte)
+- **项目语言**: Go
+- **星标数量**: ⭐ 7,085
+- **核心概述**: 动态、有弹性的人工智能编排。在构建 AI 工作流程时协调数据、模型和计算。
+- **大概是做什么的**: Flyte 2 Devbox 现已上市！查看此处的指南以开始使用。正在寻找 Flyte 1？转到 master 分支，这里现在维护着 Flyte 1。使用纯 Python 可靠地大规模编排 ML 管道、模型和代理。 Flyte 是 LF AI & Data Foundation 的毕业项目。有关完整的 SDK 和开发工具，请参阅 Flyte-sdk 存储库。本地开发体验 安装 TUI 以获得丰富的本地开发体验：在浏览器中尝试托管演示 - 无需安装。 Flyte 2 的开源后端即将推出。该存储库将包含 Kubernetes 原生后端基础设施，用于将 Flyte 2 部署为分布式多节点服务。有关后端的当前状态、协议缓冲区定义和贡献指南，请参阅后端自述文件。如果您现在需要适用于 Flyte 2 的企业级生产级后端，可以在 Union.ai 上找到。 - 现场演示 — 在浏览器中试用 Flyte 2 - 文档 — 开始本地运行 - SDK 参考 — API 参考文档 - CLI 参考 — CLI 文档 - Flyte-sdk — Flyte 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, ai-agents, ai-development-tools, data-analysis, data-science, declarative
+
+---
+
+### 🌟 [mirrord](https://github.com/metalbear-co/mirrord)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 5,119
+- **核心概述**: 在您的计算机上或 AI 代理的环境中运行任何进程，就像 Kubernetes 集群中的 pod 一样：真实环境变量、DNS、网络、流量。
+- **大概是做什么的**: Mirrord 在实时 Kubernetes 集群中运行本地进程。对于开发人员和 AI 编码代理（Claude Code、Cursor、Codex、Copilot、Windsurf）来说，它的工作方式相同：您的代码在您的计算机上运行，​​但镜像通过集群中的目标 Pod 路由其流量、文件和环境变量。这涵盖了软件开发循环的两半。在编写代码时读取实时集群上下文（真实环境变量、真实服务响应、真实队列内容），以便更改基于实际部署的内容。然后针对这些相同的服务和数据运行代码以确认其端���端工作。您可以在几秒钟内获得部署的反馈，无需部署，也不会为其他任何人中断集群。 mirrd 作为 VS Code 扩展、IntelliJ 插件和 CLI 工具提供。阅读更多。采用者：monday.com、SurveyMonkey、Cadence、CoLab、Daylight Security、Zooplus 等。 - 其他功能 - 将mirrd与AI编码代理结合使用 - 帮助和社区mirrd使用计算机的默认kubeconfig来访问Kubernetes API。给她加分机
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-coding, api, backend, claude-code
+
+---
+
+### 🌟 [gptme](https://github.com/gptme/gptme)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,329
+- **核心概述**: 您的终端中的代理配备了本地工具：编写代码、使用终端、浏览网页。打造你自己的持久自主代理！
+- **大概是做什么的**: 它代表什么？ 📜 个人 AI 代理，可在终端运行的任何地方运行 — 您的笔记本电脑、ssh 会话、tmux、无头服务器、CI 管道。与提供商无关、本地优先且不受约束：附带 shell、Python、Web、视觉以及代理所需的所有其他内容。一个很棒的编码代理，但通用性足以协助各种知识工作。免费且开源。可与 Anthropic、OpenAI、Google、xAI、DeepSeek、OpenRouter 配合使用，或通过 llama.cpp 完全本地化 — 您的数据、您的模型、您的终端。 Claude Code、Codex、Cursor 和 Warp 的有力替代方案 — 第一批代理 CLI 之一（2023 年春季），仍处于非常 📚 目录中 - 🔌 可扩展性：插件、技能和课程 - 🔗 集成：MCP 和 ACP - 🤖 自治代理 - 🛠 开发人员福利 - 🚀 入门 - 即将推出 -用于在云中运行代理的 gptme.ai 服务； gptme 桌面应用程序，方便本地使用。 - 2026-01 - gptme-agent-template v0.4：Bob 作为自主代理、自主运行循环、增强的上下文生成广泛运行 - 2025-12 - v0.31.0：后台作业、表单工具、成本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai-agents, ai-assistant, anthropic, chatbot
+
+---
+
 ## 🕔 2026-06-12 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
