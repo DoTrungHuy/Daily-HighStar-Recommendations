@@ -1,3 +1,67 @@
+## 🕔 2026-06-12 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [alphaclaw](https://github.com/chrysb/alphaclaw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,388
+- **核心概述**: OpenClaw 的终极设置安全带。只需几分钟即可部署。保持跑步数月。无需 CLI。
+- **大概是做什么的**: 终极 OpenClaw 安全带。只需几分钟即可部署。保持跑步数月。可观察性。可靠性。代理人纪律。零 SSH 救援任务。 AlphaClaw 为 OpenClaw 提供了方便的设置向导、自我修复看门狗、Git 支持的回滚以及完全基于浏览器的可观察性。附带防漂移提示强化功能，以保持代理纪律，并简化集成（例如 Google Workspace、Google Pub/Sub、Telegram Topics、Slack、Discord），以便您可以从一个 UI 而不是配置文件管理多个代理。在五分钟内首次部署到第一条消息。平台：AlphaClaw 目前针对 Docker/Linux 部署。尚不支持 macOS 本地开发。 - 设置 UI：受密码保护的 Web 仪表板，用于入门、配置和日常管理。 - 引导式入门：分步设置向导 — 模型选择、提供商凭据、GitHub 存储库、渠道配对。 - 多代理管理：侧边栏驱动的代理导航，具有创建、重命名和删除流程的功能。每个代理概述卡、渠道绑定和 URL 驱动的代理选择。 - 网关法力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, gateway, nodejs, openclaw, setup-ui, watchdog
+
+---
+
+### 🌟 [harness-anything](https://github.com/yb2460/harness-anything)
+- **项目语言**: Python
+- **星标数量**: ⭐ 653
+- **核心概述**: Harness Anything - AI 代理控制中心：WPS、MS Office、Zotero、Photoshop、47 个 CLI 命令、27 项学术技能、SVG 到 PPTX
+- **大概是做什么的**: AI Agent 工具集 —— 办公 + 设计 + 学术 全栈操控 1. cli-anything-wps — WPS / Microsoft Office 操控 47 个 CLI 命令，通过 COM 自动化接口操控 WPS Office 或 Microsoft Office（Word/Excel/PowerPoint）。 - Writer ：段落/标题/列表/表格/图片/查找替换/字体样式 - Calc ：工作表管理/单元格读写/公式/合并/批量填充 - Impress ：幻灯片增删改/文本框/形状/背景/导出 - 导出 ：DOCX/XLSX/PPTX/PDF/TXT/HTML/CSV/RTF - PPT 设计系统 ：4 套预设 + 14 种布局 + 5 维度质量审查 2. cli-anything-zotero — 学术研究智能体 文献管理 + 27 个学术 Skill 集成。写综述、写论文、审稿、做图表一站式。 ------ --------- ------ search 3 快速检索 / 系统评价 / 深度文献搜索 research 4 创意生成 / 头脑风暴 / 假设 / 深度研究 writing 5 写论文 / IMRAD稿件 / 引用 / 大纲 / 修改 review 5 5人审稿 / 同行评审 / 七轮对抗 / 引用验证 visualization 4 幻灯片 / 示意图 / 海报 / 期刊图表 analysis 3 探索分析 / 统计 / 证据评估 pipeline 2 完整学术流水线 / 研究到论文 3. Illustrator Harness — Adobe Illustrator AI Agent 通过 Windows COM 自动化接口操控 Adobe Illustrator ，让 AI Agent 直接创建和编辑矢量图形。 project 新建/打开/保存 AI 文档 layers 图层增删改、可见性、锁定 shapes 矩形、椭圆、线条、多边形绘制 text 文字添加/修改（字体、大小、颜色） export 导出 PNG / JPEG / SVG / PDF / AI 前置条件 ：Windows 10/11 + Adobe Illustrator 2023+ + Python 3.10+ + pywin32 + click 5. WPS PPT 自动化生成 — 5校招生数据全景 JSON 数据驱动 + 元素类型路由 + WPS COM 即时生成 ，全自动制作高质量 PPT。 ------ -------- ------ ------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, cli, cli-anything, com, office
+
+---
+
+### 🌟 [Centravity](https://github.com/ishandutta2007/Centravity)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 512
+- **核心概述**: 🚀🪐🌕🌑☄️🛸 相当于 Google 反重力/克劳德代码的开源代码
+- **大概是做什么的**: 🌌 开放式反中心性 用于代理开发的开源通用 AI 网关 一项开放的、社区驱动的工作，旨在构建一个真正与模型无关的专有代理编码平台替代方案。 Open Anticentravity 🌌 不仅仅是另一个代码编辑器或 AI 助手。这是一个雄心勃勃的开源项目，旨在构建一个 Web 原生、代理优先的集成开发环境 (IDE)。与将您锁定在单一 AI 生态系统中的专有平台不同，Open Anticentravity 从一开始就被设计为通往任何 LLM 的通用网关。我们的目标是创建一个平台，开发人员可以将复杂的任务委托给由他们选择的模型支持的自主人工智能代理。 🤖✨ 🌟 为什么要开放反中心性？ - 🔓 真正的模型自由：构建一个不依赖于单一人工智能提供商的未来。 - 🗳️ 人工智能民主化：让每个人都可以使用最先进的代理开发。 - 🛠️ 透明度和可扩展性：社区可以塑造、扩展和信任的开放核心。 - 🏠 自托管和隐私：完全控制您的代码、数据和 AI 连接。 ✨ 核心F
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-editor, anti-gravity, antigravity, antigravity-ai, antigravity-ide
+
+---
+
+### 🌟 [Software-Engineer-AI-Agent-Atlas](https://github.com/syahiidkamil/Software-Engineer-AI-Agent-Atlas)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: ATLAS：Claude Code 的高级工程师层。使用线框和原型进行探索，阐明要点，在实时 HTML 中捕获它，然后让 Claude Code 的本机计划/目标/工作流程循环构建。更少的象征，更少的仪式，更快地达到人们的想象。 KISS/YAGNI/DRY，具体情况决定。没有过度设计。干净、有效的架构。
+- **大概是做什么的**: SWE-ATLAS — Claude Code 的高级人工智能软件工程师 Claude Code 的高级工程师层。在构建之前进行探索，只澄清重要的内容，用实时 HTML 捕获它 - 然后将其交给 Claude Code 的本机计划/目标/工作流程循环。更少的象征，更少的仪式，更快地实现人们实际想象的事物。一声令下。完整设置。每个会话都不会出现复制粘贴提示。 ATLAS 是一个开源 Claude Code 模板 - 一组精选的技能、子代理、slash 命令和工程约定，可将 Claude Code 转变为生产级 AI 软件工程师，并用线框和原型工作流程代替重量级规范驱动开发。克劳德代码已经构建。 ATLAS 决定构建什么。 Claude Code 现在在编辑之前进行计划，跨轮流向目标努力，通过安全检查自主运行，并在框中本地编排子代理队列： 本地功能 做什么 计划模式 读取代码库并提出计划；在您批准/目标之前，不会触及任何文件 继续轮流工作，直到检查的完成条件保持自动模式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding-assistant, ai-software-engineer, anthropic, claude, claude-code
+
+---
+
+### 🌟 [gini-agent](https://github.com/Lilac-Labs/gini-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 318
+- **核心概述**: 具有记忆和学习能力的代理。
+- **大概是做什么的**: Gini Agent 是一个个人代理，可以记忆、改进和运行，而无需强迫您阅读日志行。 Gini 不仅仅是一个聊天框、CLI、消息传递机器人或一堆工具。聊天是一个交互界面。运行时是对话、运行、任务、批准、内存、技能、作业、工具、跟踪、审核事件和运行时运行状况的记录系统。 - 白皮书：该项目正在缩小的差距及其衡量标准 - 架构概述：网关/客户端映射 - 网关和控制平面：运行时流程、BFF、身份验证、实例、端口、磁盘布局 - 对话和运行：聊天、运行、任务、计划步骤、跟踪和审核切换 - 内存：保留、调用、嵌入、重新排名、审查和存储 - 运行时功能：当前 CLI/API 功能图和验证命令 - 操作：安装、启动、停止、冒烟、诊断和清理 - 发布：版本控制、CHANGELOG 约定和发布流程 - 从 openclaw 迁移：将现有的 openclaw 安装导入 gini - 实施说明：源代码布局和模块边界规则 - 路线图：已发布的 surfac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, ai-agent, bun, llm, local-first
+
+---
+
+### 🌟 [adminforth](https://github.com/devforth/adminforth)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 409
+- **核心概述**: 使用 AdminForth Framework 在 TypeScript 和 Vue.js 上更快地创建 Agentic 管理面板。在几分钟内设置主 CRUD 页面，并根据需要进行扩展
+- **大概是做什么的**: AdminForth - 强大的代理优先 Typescript 管理面板框架 YouTube 视频：用 AdminForth 在 5 分钟内构建代理管理面板 Hello world 使用 npx adminforth create-app 初始化 AdminForth 项目并传递数据库 URL，使用 npx adminforth 资源导入您希望在管理中看到的表，并为您的数据获取功能齐全的 UI（过滤、创建、编辑、删除） 现代外观和简单的 Tailwind-ish 调整能力 支持 Postgres、MySQL、Mongo、 SQLite、Clickhouse 定义 Vue 组件，使用 npx adminforth 组件更改管理各个部分的外观（编辑数据单元格、编辑字段、在表格上方添加内容、向标题或侧边栏注入内容、添加带有图表或自定义组件的自定义页面） 定义快速 API 并从组件和页面调用它们 使用各种现代后台必备插件，如审计日志、文件/图像上传、TOTP 2FA、I18N、Copilot 风格的 AI 编写和图��生成等等 AdminForth 是始终免费和开源（无付费版本，无云订阅） 项目初始化 创建一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: admin-dashboard, admin-live-panel, admin-panel, admin-template, admin-ui, agent
+
+---
+
 ## 🕔 2026-06-11 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
