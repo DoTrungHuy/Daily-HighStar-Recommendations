@@ -1,3 +1,67 @@
+## 🕔 2026-06-13 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fim-one](https://github.com/fim-ai/fim-one)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,242
+- **核心概述**: 面向全球×中国企业的开源代理平台——通过一个代理核心连接每个系统。自托管，任何法学硕士。
+- **大概是做什么的**: 🌐 English 🇨🇳 中文 🇯🇵 日本语 🇰🇷 한국어 🇩🇪 Deutsch 🇫🇷 Français 全球×中国企业一站式代理平台。通过一个代理核心连接您已经运行的每个系统（全球 SaaS 到中国堆栈）。 🌐 网站 · 📖 文档 · 📋 变更日志 · 🐛 报告错误 · 💬 Discord · 🐦 Twitter · 🏆 产品搜索 ☁️ 跳过设置 — 尝试 FIM One on Cloud。托管版本已在 cloud.fim.ai 上线 — 没有 Docker、没有 API 密钥、没有配置。登录并在几秒钟内开始连接您的系统。早期访问，欢迎反馈。全球企业运行着大量彼此不通信的系统——跨地区的 ERP、CRM、OA、HR、财务、数据库、IM 平台。 FIM One 是一款一体化代理平台，将您已经运行的每个系统连接到一个代理核心中 — 一方面是全球 SaaS，另一方面是完整的中国堆栈（飞书、WeCom、钉钉、DM、Kingbase 等）。一个大脑。每个系统。全球SaaS × 中国堆栈。模式 什么是 访问 -------------------------- ------------------------------------------------------------------ -------------------------- 独立式通用 AI 助手 — 搜索、打码、KB Po
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, connector, dag, fastapi
+
+---
+
+### 🌟 [nopua](https://github.com/wuji-labs/nopua)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,322
+- **核心概述**: 一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potential through love.We commanded. We threatened. They went silent, hid failures, broke things. Then we chose respect, care, and love. They opened up, stopped lying, and found twice the bugs.There is no fear in love.
+- **大概是做什么的**:      扫码加入微信群                         添加作者微信 🇨🇳 中文 🇺🇸 英语 🇯🇵 日本语 🇰🇷 한국어 🇪🇸 西班牙语 🇧🇷 葡萄牙语🇫🇷 Français 你的人工智能在骗你。不是因为它不好。因为你害怕了。目前最流行的 AI 代理技能教会您的 AI 害怕“3.25 绩效评估”。结果呢？ - 你的人工智能隐藏不确定性 - 制造解决方案而不是说“我不确定” - 你的人工智能跳过验证 - 声称“完成”以避免惩罚，发布未经测试的代码 - 你的人工智能忽略隐藏的错误 - 修复你所要求的内容，停在那里，不进行更深入的研究 我们对此进行了测试。相同的模型，相同的9个真实调试场景。恐惧驱动的代理错过了信任驱动的代理发现的 51 个对生产至关重要的隐藏错误。发现的隐藏错误增加了 104%。零威胁。零 PUA。 道德经企业PUA。 2000年前的智慧胜过现代的恐惧管理。恐惧会对您的 AI 产生什么影响 害怕的 AI (PUA) 可信的 AI (NoPUA) ------------ :---: :---: 🔄 Stuck Twea
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, ai-coding, anti-pua, ao-de-jing, claude-code
+
+---
+
+### 🌟 [scarf](https://github.com/awizemann/scarf)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 621
+- **核心概述**: 适用于 Hermes AI 代理的本机 macOS 和 iOS 应用程序 — 多窗口、多服务器（本地 + 通过 SSH 远程）。聊天、仪表板、会话、内存、cron、MCP 等。
+- **大概是做什么的**: Hermes AI 代理的本机 macOS 配套应用程序。全面了解 Hermes 正在做什么、何时做什么以及创造了什么。提供英语、简体中文、德语、法语、西班牙语、日本语和葡萄牙语（巴西）版本。 2.10.1 中的新增功能 v2.10.0 之上的“项目基础”维护版本。来自用户反馈的六个联锁修复： - 全局/scarf-斜线命令 - 六个捆绑命令（scarf-new、scarf-help、scarf-dashboard、scarf-widget、scarf-cron、scarf-export）在每个聊天中可用，而不仅仅是每个项目。从 /.hermes/scarf/slash-commands/ 加载，并在启动时使用与捆绑技能相同的版本控制升级模式进行引导。 - 技能侧边栏最终显示围巾模板作者 - SkillBootstrapService 安装到 /.hermes/skills/scarf/ （匹配 SkillsScanner 的 / /SKILL.md 布局）并自动迁移旧的平面安装。一次性迁移在首次启动时运行。 - 会话前斜线菜单 - 在打开聊天之前输入 / 现在会显示完整的代理命令集灰显（“聊天打开后可用”），而不是折叠为 /new 。 - 新项目向导
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, gui, hermes, macos, macos-app, swift
+
+---
+
+### 🌟 [pdf-reader-mcp](https://github.com/SylphxAI/pdf-reader-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 775
+- **核心概述**: 📄 用于 PDF 处理的生产就绪 MCP 服务器 - 并行处理速度提高 5-10 倍，测试覆盖率超过 94%
+- **大概是做什么的**: 📄 @sylphx/pdf-reader-mcp 用于 AI 代理的生产就绪型 PDF 处理服务器 并行处理速度提高 5-10 倍 • Y 坐标内容排序 • 94% 以上的测试覆盖率 • 通过 173 项测试 PDF Reader MCP 是一个生产就绪型模型上下文协议服务器，为 AI 代理提供企业级 PDF 处理功能。以无与伦比的性能和可靠性提取文本、图像和元数据。结果：可扩展的生产就绪 PDF 处理。 - 🚀 自动并行化速度比顺序执行速度快 5-10 倍 - ⚡ 12,933 操作/秒错误处理，5,575 操作/秒文本提取 - 💨 利用多核利用率在几秒钟内处理 50 页 PDF - 📦 轻量级，依赖性最小 开发者体验 - 🎯 路径灵活性 - 绝对和相对路径，Windows/Unix 支持 (v1.3.0) - 🖼️ 智能排序 - 基于 Y 坐标的内容保留文档布局 - 🛡️ 类型安全 - 启用严格模式的完整 TypeScript - 📚 经过实战测试 - 173 次测试，94% 以上的覆盖率，98% 以上的功能覆盖率 - 🎨 简单的 API - 单一工具即可优雅地处理所有操作 📊 真实性能基准
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-tools, document-processing, llm-tool, mcp, model-content-protocol
+
+---
+
+### 🌟 [re_gent](https://github.com/regent-vcs/re_gent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 686
+- **核心概述**: AI 编码代理的版本控制。
+- **大概是做什么的**: AI 代理的版本控制 跟踪您的代理所做的事情，提示写入每一行，并检查任何步骤。就是这样。您的代理活动现在可以审核。 https://github.com/user-attachments/assets/a19b7c56-2e3c-4f04-81a1-d8665e3963b8 每个代理回合都会自动捕获。无需手动提交。 - 调试错误的重构 - 使用 rgt log、rgtblame 和 rgtshow 跟踪实际的计费回归。看看你的代理实际上做了什么 责怪：哪个提示写了这行？跟踪多个并发会话 查看任何更改的完整上下文 AI 代理没有自己的版本控制。 - “五分钟前它正在工作” - “你为什么改变那个文件？” - “回到重构之前” - /compact 并祈祷 - 将代码复制粘贴到新的聊天中 应该已经存在的三个原语： - rgt log — 此会话做了什么？ - rgt Blat — 哪个提示写了这行？ - rgt show — 检查任何步骤的完整上下文 我们授予代理对我们的代码库的写入权限。我们没有为此给自己 git 。摄政王解决了这个问题。 regent 将代理活动存储在 .regent/ 中（如 .git/ ）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, developer-tools, devtools, golang, version-control
+
+---
+
+### 🌟 [clanker](https://github.com/bgdnvk/clanker)
+- **项目语言**: Go
+- **星标数量**: ⭐ 353
+- **核心概述**: 适用于任何云环境的自主系统工程 cli 代理：AWS、GCP、Cloudflare 等
+- **大概是做什么的**: 代理群为 Clanker Cloud 提供支持，这是第一个适用于代理和人类的 AI DevOps IDE。文档位于 docs.clankercloud.ai 询问有关您的基础设施（以及可选的 GitHub/等）的问题。 Clanker 可以检查现有环境，还可以通过其创建者和部署流程生成或应用基础设施和部署计划。仓库：bgdnvk/clanker Homebrew tap：clankercloud/homebrew-tap Homebrew（可能会过时，最好是从 master 构建）默认情况下，clanker 更新会使用 bgdnvk/clanker 的最新 GitHub 版本替换当前二进制文件。要跟��存储库默认分支上的最新提交，请在设置过程中设置更新通道：或编辑 /.clanker.yaml ：您也可以在一次运行中覆盖它： - AWS CLI v2（推荐；v1 中断 --no-cli-pager ）复制示例配置并针对您的环境/提供程序进行编辑：或者您可以执行大多数提供程序使用 env vars 作为密钥（请参阅 .clanker.example.yaml），例如：否配置文件默认值 如果您在没有 /.clanker.yaml 的情况下运行： - 默认提供程序：openai （除非您传递 --ai-profile ）。 - OpenAI 密钥顺序：--openai-key → OPENA
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-ops, aws, clanker
+
+---
+
 ## 🕔 2026-06-13 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
