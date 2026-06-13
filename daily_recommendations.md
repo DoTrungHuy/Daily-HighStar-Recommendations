@@ -1,3 +1,67 @@
+## 🕔 2026-06-13 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Mysti](https://github.com/DeepMyst/Mysti)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,069
+- **核心概述**: VS Code 的人工智能编码梦之队代理。 Claude Code + openai Codex 以头脑风暴模式进行协作，讨论解决方案，并为您的代码综合最佳方法。
+- **大概是做什么的**: English 简体中文 日本语 한국어 Español Português ׭וлибь Deutsch Français Türkçe Русский Mysti - 您的 AI 编码团队 与您一起工作的 VSCode 12 AI 提供商的 AI 编码团队 — Claude Code、Codex、Gemini、Copilot、Cline、Cursor、OpenClaw、Manus、OpenCode、Qwen Code、Ollama 和 LocalAI — 单独工作或团队工作 群体的智慧，多个智能体的集体智慧优于单个智能体。 v0.4.0 中的新增功能 4 个新提供程序（总共 12 个） Mysti 现在支持 12 个 AI 提供程序 - 添加了 OpenCode 、 Qwen Code 、 Ollama 和 LocalAI 以及 Claude Code、Codex、Gemini、GitHub Copilot、Cline、Cursor、OpenClaw 和 Manus。使用 Ollama/LocalAI 运行本地模型或使用 OpenCode 和 Qwen Code 等云提供商。每个提供商在 UI 中都有自己的真实徽标。阿里巴巴的AI编码CLI，具有深度推理能力。使用与 Claude Code 相同的流协议来实现无缝集成。支持具有计划、自动编辑和 yolo 批准模式的 Qwen3 Coder 模型。通过单个 CLI 支持 Anthropic、OpenAI、Google 和 Groq 的多后端编码代理。使用您配置的默认值
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-coding, agentic-workflow, agents, ai
+
+---
+
+### 🌟 [wanwu](https://github.com/UnicomAI/wanwu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,531
+- **核心概述**: 中国联通远景万物座席平台是企业级、多租户人工智能座席开发平台。它帮助用户构建智能代理、工作流和rag等应用程序，还支持模型管理。该平台具有开发人员友好的许可证，我们欢迎所有开发人员在该平台上进行开发。
+- **大概是做什么的**: 核心功能模块 • 典型应用场景 • 远景玩物代理平台是一款专为企业场景设计的一体化商用授权代理开发平台。以技术开放、生态共建的核心理念为指导，致力于为企业提供安全、高效、合规的人工智能解决方案。玩物旨在提供前向部署工程师（FDE）所需的所有工具功能，形成全栈FDE工具链。覆盖企业核心资产，以客户为中心，将能力深度融入客户系统，大幅降低AI项目交付门槛，打通构建到现场的最后一公里。它简化了每个业务决策并为每个 FDE 提供支持。 🌟全栈FDE工具链：5大核心能力针对复杂的企业场景，玩物提供了5大核心代理能力来解决交付痛点，让AI不仅可想而知，而且可行。 1️⃣ RAG/知识库代理 解决分散的文档，给予AI可靠的记忆。提供端到端知识
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agentic-framework, ai, ai-agent, ai-agent-development-framework
+
+---
+
+### 🌟 [wolfcha](https://github.com/oil-oil/wolfcha)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 617
+- **核心概述**: AI 驱动的狼人（黑手党）社交推理游戏，每个玩家都由 DeepSeek、Qwen、Gemini 等顶级法学硕士控制
+- **大概是做什么的**: 使用 AI 玩狼人杀 — 全桌，无需组队 在线游戏 (wolf-cha.com) TokenDance - 为核心游戏流程、角色扮演和摘要功能提供动力 Dashscope - 提供 AI 能力支持 Watcha - 提供 AI 能力和展示平台支持 注意：该项目诞生于“Watcha + ModelScope 全球黑客马拉松”，作为一款 AI 原生游戏。 “Wolfcha”是Wolf（狼人）+Cha（猹，中国文学中的一个人物）的组合。这是对黑客马拉松主持人的致敬，同时也捕捉了观看人工智能角色互动的乐趣——就像观看表演一样。毕业后，让 8 到 12 个人一起玩一场真正的狼人游戏几乎���不可能的。虽然《狼人杀》本质上是一款社交游戏，但其核心吸引力——逻辑推理、言语争吵和言外之意——即使没有社交元素，仍然具有吸引力。为了随时随地享受狼人杀，我们构建了这个人工智能版本。顾名思义，除了你之外的每个玩家（先知、女巫、猎人、守卫、狼人等）都由 AI 控制。 1. 双层人工智能角色扮演得益于不断增长的上下文窗口和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-game, llm, multiplayer-game, nextjs, open-source
+
+---
+
+### 🌟 [AI-fundamentals](https://github.com/ForceInjection/AI-fundamentals)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,463
+- **核心概述**: AI 基础知识 - GPU 架构、CUDA 编程、大模型基础及AI Agent 相关知识。
+- **大概是做什么的**: 本仓库是一个全面的人工智能基础设施（AI Infrastructure）学习资源集合，涵盖从硬件基础到高级应用的完整技术栈。内容包括 GPU 架构与编程、CUDA 开发、大语言模型、AI 系统设计、性能优化、企业级部署等核心领域，旨在为 AI 工程师、研究人员和技术爱好者提供系统性的学习路径和实践指导。 - 适用人群 ：AI 工程师、系统架构师、GPU 编程开发者、大模型应用开发者、技术研究人员。 - 技术栈 ：CUDA、GPU 架构、LLM、AI 系统、分布式计算、容器化部署、性能优化。 涵盖单机基础计算芯片（GPU、TPU）设计原理，PCIe、NVLink 高速互连总线协议，GPUDirect 跨节点直通技术，以及 NVIDIA GB300 NVL72 等异构融合超级芯片的系统级架构与延迟金字塔模型。详细内容请访问： 硬件架构与互连技术 。 - TPU 101：深度学习专用加速器架构解析 - GPGPU vs NPU：大模型推理训练对比 - Linux PCIe P2PDMA 技术介绍 - NVIDIA GPUDirect P2P 技术详解：节点内 GPU 高速互联 - NVIDIA GPUDirect RDMA 与 Storage 技术详解 - NVLink-C2C：芯片级高速互连技术详解 - NVIDIA GB300 NVL72：机架级计算系统架构解析 构建高吞吐 AI 计算集群的完整运维体系，涵盖基于 Device Query、nvidia-smi 和 nvtop 的 GPU 状态监控，InfiniBand (IB) 网络架构与健康检查，以及 NCCL 分布式通信库的基准测试与多节点部署实战。详细内容请访问： AI 集群运维与通信 。 - 状态监控：nvidia-smi 指南 - InfiniBand 高性能网络 基于 Kubernetes 的 AI 基础设施构建方案，涵盖 NVIDIA Container Toolkit 与 Device Plugin 底层机制、Kueue/HAMi 细粒度 GPU 资源切分与池化、LWS/llm-d 分布式推理调度，以及 JuiceFS、DeepSeek 3FS 等高性能分布式存储系统的架构实践。详细内容请访问： 云原生 AI 平台 。 3.1 Kubernetes AI 基础设施 解析 Kubernetes AI 场景核心组件，包括容器运行时 GPU 支持底层机制、设备插件源码分析、Kueue 调度整合，以及基于 LWS 的大模型分布式训练与推理架构。 - Kubernetes GPU 管理与 AI 工作负载：云
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-infra, cuda
+
+---
+
+### 🌟 [tinystruct](https://github.com/tinystruct/tinystruct)
+- **项目语言**: Java
+- **星标数量**: ⭐ 339
+- **核心概述**: 用于 Web 和 CLI 开发的轻量级模块化 Java 应用程序框架，专为 AI 集成和基于插件的架构而设计。使开发人员能够轻松创建强大的解决方案，以构建高效且可扩展的应用程序。
+- **大概是做什么的**: “耶和华啊，你的作品何其多！你用智慧创造了这一切；大地上充满了你的造物。” tinystruct 框架 一个用于 Java 开发的简单框架。简单的思维，更好的设计，易于使用，更好的性能！ - Java 开发工具包 (JDK) 17 或更高版本 - Maven（用于依赖项管理） - 文本编辑器或 IDE（IntelliJ IDEA、Eclipse、VS Code 等） Tinystruct 原型入门 您可以按照此原型快速创建基于 tinystruct 的项目：https://github.com/tinystruct/tinystruct-archetype 安装和入门 手动将依赖项添加到 pom.xml 中。用 Java 扩展 AbstractApplication： Smalltalk：https://github.com/tinystruct/smalltalk 在 http 服务器中运行它 您可以访问以下 URL：http://localhost:8080/?q=say/Praise%20to%20the%20Lord！ http://localhost:8080/?q=praise 每秒处理超过 86,000 个请求，平均延迟较低（17.44 毫秒），表明端点在重负载下非常高效。这显示了tinystruct框架的原始能力和效率。但这不仅仅是关于
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-development, framework, java, java-ai, java-cli
+
+---
+
+### 🌟 [awesome-ai-leaderboard](https://github.com/SAILResearch/awesome-ai-leaderboard)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 362
+- **核心概述**: 针对 AI 领域的精彩排行榜导向资源的精选列表
+- **大概是做什么的**: Awesome AI Leaderboard Awesome AI Leaderboard 是根据我们最近的调查，列出了很棒的 AI 排行榜以及各种开发工具和评估组织的精选列表：关于排行榜操作 (LBOps) 的工作流程和味道：对基础模型排行榜的探索性研究zhimin (Jimmy) Zhu、Abdul Ali Bangash、Filipe Roseiro Côgo、Bram Adams、Ahmed E. Hassan 软件分析和情报实验室 (SAIL) 如果您找到此存储库有用，请考虑给我们一颗星：星：和引用：此外，我们提供了一个搜索工具包，可以帮助您快速浏览排行榜。如果您想对此列表做出贡献（请这样做），欢迎提出拉取请求。如果您对此列表有任何建议、批评或疑问，欢迎提出问题。此外，如果满足以下条件，则应包含排行榜： 积极维护排行榜。这与人工智能有关。 - 基础设施排名演示排行榜后端演示排行榜后端帮助用户管理排行榜并处理提交请求，请查看此了解详细信息。评价结果
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, artificial-intelligence, awesome-list, benchmark, deep-learning, evaluation
+
+---
+
 ## 🕔 2026-06-12 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
