@@ -1,3 +1,67 @@
+## 🕔 2026-06-13 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pentagi](https://github.com/vxcontrol/pentagi)
+- **项目语言**: Go
+- **星标数量**: ⭐ 17,696
+- **核心概述**: 完全自主的人工智能代理系统能够执行复杂的渗透测试任务
+- **大概是做什么的**: 渗透测试 人工智能 加入社区！与安全研究人员、人工智能爱好者和道德黑客伙伴联系。获取支持、分享见解并随时了解最新的 PentAGI 开发动态。 - 登录后如何使用 PentAGI - LLM 提供商配置 - Google AI (Gemini) - Langfuse 集成 - 监控和可观察性 - 知识图谱 (Graphiti) - Docker 镜像配置 - 测试 LLM 代理 - 嵌入配置和测试 - 使用 ftester 进行功能测试 PentAGI 是一种利用尖端人工智能技术进行自动化安全测试的创新工具。该项目专为需要强大而灵活的解决方案来进行渗透测试的信息安全专业人士、研究人员和爱好者而设计。您可以观看视频 PentAGI 概述： - 安全和隔离。所有操作均在完全隔离的沙盒 Docker 环境中执行。 - 完全自主。由人工智能驱动的代理，可自动确定并执行渗透测试步骤，并可选执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-security-tool, anthropic, autonomous-agents, golang, gpt
+
+---
+
+### 🌟 [OB1](https://github.com/NateBJones-Projects/OB1)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,678
+- **核心概述**: 开放大脑——您思维的基础设施层。一个数据库、一个 AI 网关、一个聊天通道 — 任何 AI 均可插入。无需中间件，无需 SaaS。
+- **大概是做什么的**: 您思考的基础设施层。一个数据库、一个AI网关、一个聊天通道。您使用的任何人工智能都可以插入。没有中间件，没有 SaaS 链，没有 Zapier。这不是笔记应用程序。它是一个具有矢量搜索和开放协议的数据库，旨在让您使用的每个人工智能工具共享您的相同持久记忆。 Claude、ChatGPT、Cursor、Claude Code，无论下个月发布什么。一个大脑。所有的人。 Open Brain 由 Nate B. Jones 创建。请关注子堆栈以获取更新、讨论和配套提示包。加入 Discord 以获得实时帮助和社区。从未建立过开放大脑？从这里开始： 1. 设置指南 — 在大约 45 分钟内构建完整的系统（数据库、AI 网关、Slack capture、MCP 服务器）。无需编码经验。或者观看视频演练（27 分钟）。 2. AI 辅助设置 — 更喜欢使用 Cursor、Claude Code 或其他 AI 编码工具进行构建？将其指向此存储库并开始。相同的系统，不同的工作流程。 3. 配套提示 — 五个提示可帮助您迁移记忆、发现用例并养成捕捉习惯。 4.然后选择分机1
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, mcp, memory-layer, memory-layer-for-ai, open-brain, open-source
+
+---
+
+### 🌟 [claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,369
+- **核心概述**: Claude Code 的 425 个插件、2,810 个技能、200 个代理。 tonsofskills.com 上的开源市场，带有 ccpi CLI 包管理器。
+- **大概是做什么的**: 大量技能 - 为 Claude Code 构建的 Claude Code 插件市场。该目录中的每个插件和技能都针对 Anthropic 的官方 CLI。 432 个插件、2,769 项技能、297 名代理、30 名社区贡献者 - 经过验证并准备安装。 - 一个规范目录——marketplace.extended.json 中的每个插件都是 Claude Code CLI 读取的同一个marketplace.json。无需协调注册表，无需手动同步步骤。 - 规格正确或不发货 — 每个 PR 都根据 AgentSkills.io 开放标准以及 Claude Code 的技能和插件参考运行 Intent Solutions 验证器。 C级拒绝合并。 - 8 字段市场前沿内容是强制执行的，而不是理想的 - 名称/描述/允许的工具/版本/作者/许可证/兼容性/标签。 100 分的评分标准是公开的。 - Forge 生成和手工编写，都是一流的 — /skill-creator --forge 从任何带有审计跟踪的 REST API 构建生产级插件；手工编写的插件使用相同的模板和验证器。 - 经过生产测试的模式 — 学习实验室、11 本生产手册和一个公共 wiki
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agents, anthropic, automation, claude-code
+
+---
+
+### 🌟 [mirage](https://github.com/strukto-ai/mirage)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,147
+- **核心概述**: 人工智能代理的统一虚拟文件系统
+- **大概是做什么的**: Mirage 是一种用于 AI 代理的统一虚拟文件系统：它将 S3、Google Drive、Slack、Gmail 和 Redis 等服务和数据源并排安装为一个文件系统。任何已经了解 bash 的法学硕士都可以开箱即用地读取、grep 和通过管道传输每个后端，并且新词汇量为零。 - 一个接口代替N个SDK和M个MCP。每个服务都使用相同的文件系统语义，跨服务的管道组成就像在本地磁盘上一样自然。 - 大约 50 个内置后端：RAM、Disk、Redis、S3 / R2 / OCI / Supabase / GCS、Gmail / GDrive / GDocs / GSheets / GSlides、GitHub / Linear / Notion / Trello、Slack / Discord / Telegram / Email、MongoDB / Postgres / LanceDB、SSH 等，并排安装在单个根目录下。 - 便携式工作区：克隆、快照和版本化工作区；代理运行在机器之间移动，无需重新启动或重新配置系统。 - 可嵌入：Python 和 TypeScript SDK 在 FastAPI、Express、浏览器应用程序或任何异步运行时内运行；不需要单独的过程。 - 代理集成：OpenAI Agents SDK、Vercel AI SDK、Lang
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sandbox, agent-tools, ai-agents, bash, claude-code, fuse
+
+---
+
+### 🌟 [N.E.K.O](https://github.com/Project-N-E-K-O/N.E.K.O)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,335
+- **核心概述**: 人工智能伴侣，由类人记忆和具体情感引擎驱动，与您一起观看、阅读、聆听和玩耍。
+- **大概是做什么的**: English 日本语 Русский Project N.E.K.O. :kissing cat: 听见你的心情，看见你的世界， 陪你发现更多喜欢。 N.E.K.O. = N etworked E motional K nowledging O rganism (网络型情感知性生命体) N.E.K.O，一个渴望理解、建立连接、并与我们共同成长的数字生命。 :older woman: 零配置开箱即用，我奶奶也能轻松唤醒的赛博猫娘！ :newspaper: Steam 版已免费上架！喜欢的话，欢迎喜加一，顺手给个好评 Project N.E.K.O.，喵宇宙！ 💬 主动陪伴 屏幕理解、社交媒体热搜、个人动态、音乐梗图，她会主动找你聊天，分享你喜欢的新鲜事 🎙️ 实时语音、文字与视觉理解 语音实时对话 (Realtime API) + 文字对话 (ChatCompletion)，支持实时视觉理解 🧠 五维记忆系统 工作记忆 / 近期记忆 / 事实记忆 / ��思记忆 / 人格记忆，让她越聊越懂你 🎭 多形态 Avatar Live2D / VRM / MMD 三种形态，支持动作捕捉与全屏追踪 🤖 Agent 工具执行 可操作浏览器与电脑，调用 CUA / OpenClaw A2A / 插件完成任务 🔌 插件生态 SDK + 插件商城，支持联机游戏陪玩、社交媒体互动、直播互动、智能家居等扩展场景 🌐 14+ AI 服务商 OpenAI / Gemini / Qwen / DeepSeek 等，含免费模型开箱即用 🏪 UGC 创意工坊 Steam 创意工坊上传分享自定义角色、模型、语音包 猫娘计划 (Project N.E.K.O.) N.E.K.O. 是一个以开源为驱动的AI伙伴平台。核心驱动器基于MIT许可证 始终开源 ，你的每一次贡献都将有机会实装到Steam和App商店的正式版本中。 ✅ Steam 创意工坊 ：已上线。用户可上传和分享自定义角色、模型、语音包。 🚧 K.U.R.O. ：基于 N.E.K.O. 生态的首款 AI Native 独立游戏，开发中。 🚧 移动端 ：iOS / Android 适配进行中。 🚧 猫娘网络 (The N.E.K.O. Network) ：AI自主社交——猫娘们拥有自己的"意识"，互相交流、结成群体，在模拟社交媒体上发布动态。即将上线。 跨场景记忆同步 ：无论你是在桌面与她聊天，还是在游戏中与���探险，她都是同一个她。所有应用中的AI伙伴将 完全同步记忆 。 开发者： 前端、后端、AI、游戏引擎（Unity
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, jarvis-assistant, own-your-data, personal, waifu
+
+---
+
+### 🌟 [babysitter](https://github.com/a5c-ai/babysitter)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,321
+- **核心概述**: 保姆强制代理员工服从，使他们能够通过确定性、无幻觉的自我编排来管理极其复杂的任务和工作流程
+- **大概是做什么的**: 强制服从代理员工。通过确定性、无幻觉的自我编排来管理极其复杂的工作流程。入门文档社区 https://github.com/user-attachments/assets/8c3b0078-9396-48e8-aa43-5f40da30c20b - 什么是 Babysitter？ - Harness CLI Wrappers - 社区和支持 Babysitter 强制服从代理员工，使他们能够通过确定性、无幻觉的自我编排来管理极其复杂的任务和工作流程。在代码中定义您的工作流程 - Babysitter 强制执行每一步，确保在进展之前通过质量关卡，在断点处需要人工批准，并将每个决定记录在不可变的日志中。您的代理完全按照流程允许的方式行事，仅此而已。 - Node.js：版本 20.0.0+（推荐 22.x LTS） - Claude Code：最新版本（文档） - Git：用于克隆（可选） Babysitter 支持多种 AI 编码工具。为您选择的安全带安装插件：Claude Code（推荐） 本地市场安装：重新启动 Claude Code，然后输入 /skills 来验证“babysit”a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agent-skills, agentic-ai, agentic-workflow, ai-agents, ai-automation
+
+---
+
 ## 🕔 2026-06-13 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
