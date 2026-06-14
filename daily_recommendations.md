@@ -1,3 +1,67 @@
+## 🕔 2026-06-14 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Maestro](https://github.com/RunMaestro/Maestro)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,015
+- **核心概述**: 代理编排指挥中心
+- **大概是做什么的**: 大师将注意力分散为集中的意图。 Maestro 是一款跨平台桌面应用程序，用于编排您的 AI 代理和项目群。对于并行处理多个项目的黑客来说，这是一个高速解决方案。专为使用键盘而很少接触鼠标的高级用户而设计。与 AI 协作创建详细的规范文档，然后让 Auto Run 自动执行它们，每个任务都在具有干净上下文的新会话中执行。考虑到长时间运行的无人值守会话，我目前的记录是近 24 小时的连续运行时间。使用线性/超人级响应界面并行运行多个代理。目前支持 Claude Code 、 OpenAI Codex 、 OpenCode 、 Factory Droid 和 Copilot-CLI （测试版），并计划根据用户需求提供其他代理编码工具 (Gemini CLI)。工作原理：Maestro 是通往您的 AI 提供商的通道。您在 Claude Code、Codex 或 OpenCode 中配置的任何 MCP 工具、技能、权限或身份验证在 Maestro 中的工作方式都是相同的。唯一的区别是���们没有跑进去
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, generative-ai, opencode
+
+---
+
+### 🌟 [agent-teams-ai](https://github.com/777genius/agent-teams-ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,324
+- **核心概述**: 你是老板，经纪人是你的团队。他们自己处理任务，互相发送消息，并检查彼此的工作。您只需观看看板并发出高级命令即可。 Codex/Claude/OpenCode（200+ 模型，75+ LLM 提供商，免费模型无需授权）。建立拥有多个团队的人工智能公司。
+- **大概是做什么的**: 你是老板，经纪人是你的团队。他们自己处理任务，互相发送消息，互相审查。您只需看着看板并喝咖啡即可。适合人工智能代理团队的免费桌面应用程序。从无需身份验证的免费模型开始 - 无需注册、API 密钥或卡 - 或连接 Claude/Codex/OpenCode 提供商访问权限以获取更多模型。不仅仅是编码代理。在网站或此处观看演示： https://github.com/user-attachments/assets/9cae73cd-7f42-46e5-a8fb-ad6d41737ff8 https://github.com/user-attachments/assets/35e27989-726d-4059-8662-bae610e46b42 无先决条件 - 应用程序可以检测支持运行时/提供程序并从 UI 引导设置。可能会触发 SmartScreen - 单击“更多信息”-“仍然运行” 需要 Windows：以管理员身份启动 Agent Teams AI，尤其是在使用 OpenCode 运行时时。 - 开发人员架构文档 - 终端平台集成 - 调试队友运行时 - 为分发而构建 跨 Claude、Codex 和 OpenCode 的 AI 代理团队的编排层。 - Claude + Codex + OpenCode orchestration — start with a free model with no auth immediately, or auto-detec
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-teams, ai, ai-agents, ai-assistant, ai-tools, anthropic
+
+---
+
+### 🌟 [semantica](https://github.com/semantica-agi/semantica)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,216
+- **核心概述**: Semantica 🧠 — 用于语义检索、本体推理、上下文图和可解释 AI 系统的 AI 原生知识图智能框架。
+- **大概是做什么的**: AI 系统的上下文和责任层 可审计 可管理 可解释 可生产的网站 文档 不和谐 Twitter/X YouTube YouTube PyPI 变更日志 大多数人工智能代理的行为都没有踪迹。它们存储嵌入，而不是含义。他们做出无法审计的决策，回忆无法解释的背景，并产生无法追溯到源头的输出。监管机构、审计人员和企业风险团队都会问同样的问题：你能证明你的人工智能做了什么以及为什么这样做？ Semantica 是上下文和责任层，与 LLM、向量存储和代理框架并存。它补充了您现有的堆栈，而不是取代它，为您的代理所做的每个决策添加了结构化智能、因果推理和完整的审计跟踪。 - 上下文图：一个结构化的、可查询的图，其中包含您的代理所知道、决定和理由的所有内容 - 决策智能：每个决策都是一流的对象：可追踪、可通过先例和原因进行搜索
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, ai-infrastructure, context-graph, context-management
+
+---
+
+### 🌟 [loki-mode](https://github.com/asklokesh/loki-mode)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 978
+- **核心概述**: 多代理自治SDLC框架。已部署应用程序的规范。 PRD、GitHub 问题、OpenAPI/JSON/YAML 或一行摘要。 5 个 AI 提供商，11 个质量关卡。
+- **大概是做什么的**: 规范驱动的自主构建器，已完成验证。 Autonomi 提供的免费、可获取源代码的自主编码代理。为每个人提供相同的 Loki CLI、SDK 和 MCP；适用于团队和企业的商业版本以 Autonomi 品牌（Autonomi Cloud、Autonomi Enterprise）销售。 Hand it a spec.它不接受空差异或失败测试的“完成”。网站文档安装变更日志 Purple Lab Web UI 工作原理：删除规范 - PRD、GitHub 问题、OpenAPI/JSON/YAML 或一行摘要。 Loki 模式对复杂性进行分类（ run.sh:Detect Complexity() ），从 8 个域的 41 个专业代理角色中组建一个代理团队 - 编排器在每个阶段采用提示定义的规范，在 Claude Code 上进行并行审查（盲审委员会）和可选工作树流，在其他提供者上按顺序运行 - 并运行具有 11 个质量门（请参阅技能/质量门.md ）。在通过自动验证之前，代码并未“完成”。输出是一个包含源代码、测试、配置和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, aider, anthropic, autonomous, ci-cd, claude
+
+---
+
+### 🌟 [ClawBio](https://github.com/ClawBio/ClawBio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 969
+- **核心概述**: 🦖 ClawBio - 第一个生物信息学原生 AI 代理技能库。本地优先。 Reproducible.基于 OpenClaw 构建。
+- **大概是做什么的**: 第一个生物信息学原生 AI 代理技能库。 Built on OpenClaw (180k+ GitHub stars).本地优先。注重隐私。可重现。 Install in 30 seconds Prefer conda? conda install -c bioconda clawbio .或用作 Python 库：或作为 Claude 代码插件安装：/plugin market 添加 ClawBio/ClawBio 开发 ClawBio 或想要拥有完整演示数据的所有技能？相反，从源检查开始工作（推荐 uv）：ClawBio 今天做什么 88 项技能（29 项生产就绪）+ 8,000 个 Galaxy 工具 + 2,318 项测试 + 基准验证。默认情况下本地优先。可重现。无需猜测。 v0.5.0 发布（2026 年 4 月 4 日）：验证和基准基础设施。 AD 地面实况基准测试、用于离线测试的模拟 API 服务器、可交换的精细映射管道（SuSiE 与 ABF）、74 个基准测试、红/绿 TDD 指令。发行说明。 DOI: 10.5281/zenodo.19420648. Snap a photo of a medication in Telegram. ClawBio 从包装中识别药物，从您自己的基因组中查询您的药物基因组图谱，并在几秒钟内在您的机器上返回个性化剂量卡：华法林 CYP2C9
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bioinformatics, equity, genomics, local-first, openclaw
+
+---
+
+### 🌟 [agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,951
+- **核心概述**: Codex、Claude Code 和代理安全带设计的提供者中立代理技能。
+- **大概是做什么的**: 代理最佳实践“模型提出行动；工具验证、授权、执行、记录并返回观察结果。”一种与提供商无关的代理技能，用于设计、生成 MVP 蓝图、审核、重构和解释代理工具。它不仅适用于编码代理：研究、支持、运营、销售、财务、数据分析、采购、法律工作流程、医疗保健工作流程、教育和工作流程自动化代理都需要相同的核心运行时规则。安装 - 选择一个： A. 使用技能（任何兼容的代理）： -g 标志在用户级别全局安装，以便每个项目都可以发现它。 B. 或将此提示粘贴到您的 AI 代理： C. 手动安装路径：用例 · 这是什么 · 理念 · 布局 · 来源 安装后，当对话涉及代理架构、线束设计、工具权限、规划模式、工作流编排、上下文和内存、技能、连接器、可观察性、评估、提示缓存或生产准备情况时，技能就会激活。使用它的三种常见方法： 案例 1 - 生成 MVP 代理蓝图 您有一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, agentic-workflows, agents, ai-agents, anthropic
+
+---
+
 ## 🕔 2026-06-14 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
