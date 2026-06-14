@@ -1,3 +1,67 @@
+## 🕔 2026-06-14 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sem](https://github.com/Ataraxy-Labs/sem)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,778
+- **核心概述**: 语义版本控制 => 基于 git 的实体级差异、责任和影响分析。通过tree-sitter 提供 26 种语言。专为编码代理而设计。
+- **大概是做什么的**: Ataraxy Labs 堆栈的一部分 — 用于软件开发的代理本机基础设施。另请参阅：weave（实体级 git 合并驱动程序）·检查（语义代码审查）·opensessions（用于编码代理的 tmux 侧边栏）。阅读宣言：https://ataraxy-labs.com/ 论文 · 论文：https://ataraxy-labs.com/blogs · 法学硕士：https://ataraxy-labs.com/llms.txt 基于 Git 构建的语义版本控制。 sem 告诉您哪些实体发生了更改，而不是更改了行：函数、方法、类。 sem 是一个运行在 Git 之上的语义版本控制工具。它使用树守护者解析您的代码，将每个函数、类和方法提取为实体，并在实体级别而不是行级别进行差异。这意味着您会看到“函数 blahh 已修改”而不是“x-y 行已更改”。它可以在任何 Git 存储库中运行，无需设置。或者将 npm 包装器安装到节点模块中：使用 Bun，信任该包，以便其安装后脚本可以下载二进制文件：安装后，随时更新到最新版本：或从源代码构建（需要 Rust）：或从 GitHub Releases 获取二进制文件。与 GNU Parall 的名称冲突
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-intelligence, coding-agents, developer-tools, git, llm-tools
+
+---
+
+### 🌟 [nanocoder](https://github.com/Nano-Collective/nanocoder)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,053
+- **核心概述**: 终端的开放编码代理，由社区集体而不是公司构建。带上你自己的模型，将你的代码保存在你的机器上，不欠任何人任何东西。
+- **大概是做什么的**: 终端的开放编码代理，由社区集体而不是公司构建。带上你自己的模型，将你的代码保存在你的机器上，不欠任何人任何东西。由 Nano Collective 构建，这是一个社区集体，构建 AI 工具不是为了盈利，而是为了社区。 Nanocoder 在您选择的模型上运行代理编码：通过 Ollama 的本地模型，或任何 OpenAI 兼容的 API，例如 OpenRouter、Anthropic 和 Google。您可以决定哪个提供商运行您的代码以及您的数据的去向。没有闭源功能，也没有付费层来限制有用的部分：尊重隐私、本地优先和向所有人开放。也可通过 Homebrew 和 Nix Flakes 获得。直接指定提供程序、模型和启动模式：完整文档可在 docs.nanocollective.org 或 docs/ 文件夹中在线获取： - 入门 - 安装、设置和第一步 - 配置 - AI 提供程序、MCP 服务器、首选项、日志记录、超时 - 功能 - 技能（命令、子代理、工具、事件触发器）、每个项目守护进程、检查点、开发模式、任务管理和管理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-coding, coding-agents, llm, llm-inference
+
+---
+
+### 🌟 [agent-scripts](https://github.com/steipete/agent-scripts)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 4,905
+- **核心概述**: 代理脚本，在我的存储库之间共享。
+- **大概是做什么的**: 为 Peter 的本地工作空间共享代理指令、技能和小型便携式助手。该存储库是以下内容的规范位置： - AGENTS.MD ：Codex/Claude 风格代理的共享硬规则 - Skills/ ：可重用的工作流技能，包括由符号链接公开的存储库拥有的技能 - script/ ：跨项目使用的轻依赖帮助程序 - hooks/ ：本地护栏，例如技能验证 技能是主要路由层。每个技能/ /SKILL.md 都有 YAML 前面的内容： - 保持描述简短和通用；针对路由进行优化，而不是针对文档进行优化。 - 保��技能主体简洁且可操作。 - 当工作流程具有可重复命令时，首选技能/ /scripts/ 下的帮助程序脚本。 - 编辑后验证：scripts/validate-skills。 - 引用前面的描述。全局发现通常指向此处： - /.codex/skills - /Projects/agent-scripts/skills - /.claude/skills - /Projects/agent-scripts/skills 共享的个人技能作为 Skills/ 中的真实文件夹存在。公共 OpenClaw 共享技能位于 ../agent-skills 中，并通过跟踪的相对符号链接在此处公开。回购拥有的技能仍然是经典
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents
+
+---
+
+### 🌟 [agent-vault](https://github.com/Infisical/agent-vault)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,662
+- **核心概述**: 用于 Claude Code、OpenClaw、Hermes、自定义代理 + 安全带等 AI 代理的 HTTP 凭证代理和保管库。
+- **大概是做什么的**: HTTP 凭证代理和保管库 Infisical 的开源凭证代理位于您的代理和它们调用的 API 之间。代理人不应拥有凭证。 Agent Vault 通过代理访问消除了凭证泄露风险。新来的？发布博客文章讲述了 Agent Vault 背后的完整故事。文档安装教程视频演示 Slack 传统的机密管理涉及将凭据返回给您的应用程序和服务。这对于人工智能代理来说是不可行的，人工智能代理可以通过立即注入泄露的秘密来欺骗它们。这就是凭证泄露的问题。 Agent Vault 的创建是为了解决所有 AI 代理的凭据泄露问题。您无需直接提供 AI 代理凭证，而是将它们存储在 Agent Vault 中（例如 ANTHROPIC API KEY 、 GITHUB PAT 等），并强制您的代理通过它路由 HTTP 请求。 Agent Vault 会拦截每个请求，并在将请求转发到目标出站 API 之前将凭据附加到请求上。 - 凭证代理：代理 AI 代理无需访问 LLM 提供商和 GitHub 等目标服务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, secrets-management
+
+---
+
+### 🌟 [claude-tap](https://github.com/liaohch3/claude-tap)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,733
+- **核心概述**: 在本地跟踪查看器中拦截并检查来自 Claude Code、Codex CLI、Gemini CLI、Cursor CLI、OpenCode、Kimi/Kimi Code、Pi 和 Hermes 的 Coding Agent API 流量。
+- **大概是做什么的**: claude-tap 是 AI 编码代理的本地代理和跟踪查看器。通过它运行 CLI，然后检查真实的 API 流量：系统提示、对话历史记录、工具架构、工具调用、流响应、令牌使用情况和请求差异。网站：本地 AI 代理跟踪查看器 · 指南：如何在本地查看代理跟踪 它与 Claude Code、Codex CLI、Gemini CLI、Kimi CLI、OpenCode、OpenClaw、Pi、Hermes Agent、Cursor CLI、Qoder CLI、Antigravity CLI 和 CodeBuddy CLI 配合使用。打开真实的代理运行，检查每个请求，并比较轮次之间上下文的变化情况。浅色查看器概述 用于长时间审阅会话的深色模式 跨相邻请求的结构化差异 使用 claude-tap 构建 Phistory 存档来自代理 CLI（例如 Claude Code、Codex、Kimi、opencode 和 Pi）的版本化系统提示快照。它使用 claude-tap 的仅捕获提示导出来保留原始 HTTP 跟踪证据并生成易于比较的提示快照。打开提示差异查看器 · 查看存储库 - 👀 查看确切的上下文：检查提示、消息、工具定义、工具调用、工具结果、侦察
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-debugging, agent-observability, ai-agents, ai-tools, api-debugging, claude-code
+
+---
+
+### 🌟 [ai-engineering-interview-questions](https://github.com/amitshekhariitbhu/ai-engineering-interview-questions)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 1,850
+- **核心概述**: 人工智能工程面试备忘单 - 问题与解答。
+- **大概是做什么的**: AI 工程面试问题和解答 AI 工程面试问题和解答 - 您的 AI 工程面试备忘单 这些面试问题和答案对以下职位很有帮助： - 代理 AI 工程师 - AI 解决方案架构师 - AI 平台工程师 - 应用 AI 工程师 检索增强生成 (RAG) AI 代理和代理系统微调和模型适应 矢量数据库和嵌入 LLMOps 和生产 AI 评估和测试 AI 安全、道德和负责任的 AI AI 基础设施和可扩展性编码和实际实施基于行为和场景的问题由 Outcome School 创始人 Amit Shekhar 准备和维护：Amit Shekhar 关注 Outcome School 我在 Outcome School 任教 - 人工智能和机器学习 注意：我们将不断更新新的问题和答案。了解 LLM、RAG、MCP、代理、微调和量化：AI 工程解释：LLM、RAG、MCP、代理、微调、量化 - 什么是基础模型，它们如何改变了 AI 工程？ - 答案：在此视频中进行了解释：AI工程师
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-engineering, fine-tuning, interview
+
+---
+
 ## 🕔 2026-06-13 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 120 个候选项目中筛选出 6 个未推荐过的新项目。
