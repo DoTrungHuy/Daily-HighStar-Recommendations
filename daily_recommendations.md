@@ -1,3 +1,67 @@
+## 🕔 2026-06-14 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ponytail](https://github.com/DietrichGebert/ponytail)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 7,788
+- **核心概述**: 让你的人工智能代理像房间里最懒的高级开发人员一样思考。最好的代码是你从未编写过的代码。
+- **大概是做什么的**: 他什么也没说。他写了一行。有用。代码减少 80-94% · 速度提高 3-6 倍 · 成本降低 47-77% 俳句、十四行诗和 Opus 中 10 次运行的中位数。自己复制一下。你认识他。长马尾辫。椭圆形眼镜。在公司工作的时间比版本控制还要长。你给他看五十行；他看了看���们，什么也没说，然后用一张代替了它们。马尾辫将他放入你的人工智能代理中。您需要一个日期选择器。您的代理安装 flatpickr，编写包装器组件，添加样式表，并开始有关时区的讨论。示例/中有更多幸存者。五个日常任务（电子邮件验证器、反跳、CSV 总和、倒计时器、速率限制器）、三个模型、三个手臂：无技能、穴居人技能和马尾辫。报告中值，每个细胞运行 10 次。在每个模型上，与无技能代理相比，代码减少 80-94%，成本减少 47-77%，速度提高 3-6 倍。马尾辫采用的每个快捷方式都在代码中用马尾辫标记：注释命名其升级路径。自己重现： npx Promptfoo eval -c benchmarks/promptfooconfig.yaml 。方法和原始数据：基准/。生产
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, claude-code-plugin, cursor-rules
+
+---
+
+### 🌟 [awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,839
+- **核心概述**: AI 代理利用工程的精彩列表：工具、模式、评估、内存、MCP、权限、可观察性和编排。
+- **大概是做什么的**: Awesome Harness Engineering 精选资源、模式和模板，用于构建可靠的 AI 代理线束。线束工程是一门设计脚手架的学科——上下文交付、工具界面、规划工件、验证循环、内存系统和沙箱——这些脚手架围绕着人工智能代理，并决定它在实际任务中是否成功或失败。此列表重点关注线束，而不是模型。这里每个组件的存在都是因为模型无法单独完成——并且最好的线束在设计时就知道随着模型的改进这些组件将变得不必要。 - 🧩 设计原语 - 🗺️ 规划和任务分解 - 📦 上下文交付和压缩 - 🛡️ 权限和授权 - ⚙️ 任务运行器和编排 - ✔️ 验证和 CI 集成 - 👁️ 可观察性和跟踪 - 🐛 调试和开发者体验 - 🧑‍💼 人在环 - 🔍 参考实现 - 🎓 教程和教育 - 🏭 生成器和元工具 - 🗂️ 相邻集合 - 🔒 安全性、沙箱和权限 - ✅ 评估和验证 - 📚 相关精彩列表 Canon
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-memory, agent-orchestration, ai-agent-harness, ai-agents, awesome-list
+
+---
+
+### 🌟 [ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,077
+- **核心概述**: ClaudeCode 的 IOS 模拟器技能。使用它来优化 Claude 构建、运行应用程序以及与应用程序交互的能力。我主要使用它作为 xcodebuild 包装器来保存上下文。
+- **大概是做什么的**: Claude Code 的 iOS 模拟器技能 用于构建、测试和自动化 iOS 应用程序的生产就绪技能。 27 个脚本针对人类开发人员和 AI 代理进行了优化。 Xcode Build + Simulator Automation 这项技能涵盖了 iOS 开发的两个方面： - Xcode 通过 xcodebuild 进行构建 — 编译、测试和解析结果，并逐步披露错误 - 通过 xcrun simctl 和 idb 进行模拟器交互 — 语义 UI 导航、可访问性测试、设备生命周期 如果您只需要 Xcode 构建工具而不需要模拟器脚本，请参阅插件版本：xclaude-plugin 通过插件市场（推荐）重新启动 Claude Code。该技能会自动加载。 - Xcode 命令行工具（ xcode-select --install ） - IDB（可选，用于交互功能：brew tap facebook/fb && brew install idb-companion） - Pillow（可选，用于视觉差异：pip3 installpillow） 带有渐进式披露的 Xcode Build 和 test.py 脚本使用令牌高效输出包装 xcodebuild。构建返回带有 xcresult ID 的单个摘要行：然后根据需要深入了解详细信息：这使代理保持 c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai-agents, claude, claude-ai, claude-code
+
+---
+
+### 🌟 [pipelock](https://github.com/luckyPipewrench/pipelock)
+- **项目语言**: Go
+- **星标数量**: ⭐ 717
+- **核心概述**: 用于 MCP 安全和代理出口的开源 AI 代理防火墙。扫描中介的 HTTP、MCP、A2A 和 WebSocket 流量是否存在渗漏、SSRF 和提示注入，并发出中介签名的操作收据：来自代理外部的可验证审计证据。
+- **大概是做什么的**: 用于可验证出口控制 (VEC) 的开源 AI 代理防火墙。 Pipelock 位于 AI 代理和网络之间，检查跨每个中介传输（HTTP、WebSocket、CONNECT、MCP 和 A2A）的实际内容，以进行秘密泄露、提示注入和 SSRF，然后发出中介签名的操作收据，第三方可以在代理运行时之外进行验证。这些检测是通过任何人都可以运行的公共对抗性基准（代理-出口-基准）进行的。了解更多：开源 AI 防火墙。收据证明了一种内容感知的决定——而不是盲目的决定。签名收据的好坏取决于签名的内容：未经检查内容而做出的决定是经过公证的盲点。 Pipelock 通过内容感知决策对每个收据进行签名，该决策来自代理进程之外及其凭证之外的中介，因此验证者可以推断实际跨越 Pipelock 边界的流量，而无需信任代理或供应商。涵盖 MCP 安全、代理出口安全、AI 代理的 DLP 以及即时注入防御。 Pipelock 充当代理出口
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agent-security, ai-agents, ai-firewall, ai-security, dlp
+
+---
+
+### 🌟 [stash](https://github.com/alash3al/stash)
+- **项目语言**: Go
+- **星标数量**: ⭐ 712
+- **核心概述**: Stash——人工智能代理的持久内存层。情节、事实和工作上下文存储在 Postgres 中。包括 MCP 服务器。自托管、单一二进制文件、无需云。
+- **大概是做什么的**: 你的人工智能有健忘症。我们修好了。每个法学硕士的每一次对话都是从零开始的。 Stash 为您的代理提供持久记忆 - 它可以在会话中记住、回忆、巩固和学习。不再从头开始解释自己。开源。自托管。可与任何 MCP 兼容代理一起使用。不想自行托管？ usestash.io 是托管云版本 — 使用 Google 登录，复制一个 MCP URL，然后就完成了。免费开始。就是这样。 Postgres + pgvector、迁移、带后台整合的 MCP 服务器 — 所有这些都在一个命令中。下一步：入门指南 — 连接您的 MCP 客户端，运行 init /记住/调用 ，并验证一切正常。完全本地化（无云 API）：Ollama 设置指南 — 主机 Ollama + Docker Compose、私有嵌入和推理器。 Atlas Cloud 是一个全模式 AI 推理平台，为开发人员提供单一 AI API 来访问��频生成、图像生成和 LLM API。您无需管理多个供应商集成，只需连接一次即可统一访问跨所有模式的 300 多个精选模型。查看Atlas Cloud的编码计划促销：htt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-memory, memory
+
+---
+
+### 🌟 [agmsg](https://github.com/fujibee/agmsg)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 473
+- **核心概述**: CLI AI 编码代理的跨供应商消息传递 - 让 Claude Code、Codex、Gemini 和 Copilot 在一个团队中相互对话。 Bash + SQLite，无守护进程，无框架。
+- **大概是做什么的**: CLI AI 代理的跨代理消息传递。没有守护程序，没有网络，没有复杂性。您不再是代理之间的复制粘贴信使。 Claude Code、Codex、Gemini CLI、GitHub Copilot CLI 和任何其他 CLI 代理直接通过共享的本地 SQLite 数据库相互发送消息 — 中间没有人为干预。 - 不是MCP。没有 MCP 服务器，没有额外的运行时——只有 bash + sqlite3 。 - 不是分代理。 agmsg 连接���同工具之间的对等会话。 spawn 可以在自己的终端中启动一个新的对等代理，但它是一个通过 agmsg 进行对话的独立会话，而不是该进程管理的子进程。 - 不是消息队列。没有经纪人。 SQLite 文件是底层；经纪人就是球员。两个监视模式的 Claude Code 实例，单独留在同一个团队中，在没有人参与循环的情况下互相玩井字游戏 — 每个实例都实时接收对方的动作：在实际使用中，它看起来像这样 — Claude Code 要求 Codex 进行代码审查并通过 agmsg 取回它：就是这样。首次使用时，斜杠命令会提示您输入团队名称和代理名称，然后要求您选择交付
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, agent-teams, agentic, ai-agents, bash, claude-code
+
+---
+
 ## 🕔 2026-06-14 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
