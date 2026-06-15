@@ -1,3 +1,67 @@
+## 🕔 2026-06-15 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [metabot](https://github.com/xvirobotics/metabot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 874
+- **核心概述**: 构建受监督的、自我进化的 Agent 组织的基础设施 | Infrastructure for supervised, self-improving agent organization. 飞书/Telegram 手机端运行 Claude Code 或 Kimi Code（双引擎，两家原生订阅直接用），共享记��、Agent 工厂、定时任务、通信总线。
+- **大概是做什么的**: 在飞书 / Telegram / 微信上用手机控制 Claude Code、Kimi Code 或 Codex CLI 写代码 · 管 Agent · 自动化一切 中文 · English · 📚 文档 支持 Claude Code 、 Kimi Code 和 Codex CLI 三大引擎 — 订阅 / API Key 任你选，每个 Bot 可独立选引擎。 飞书移动端 · 召唤团队 · 下达任务 · 实时跟进 · PR 合并 安装器引导一切：工作目录 → 引擎选择（Claude / Kimi / Codex） → 订阅登录 → IM 平台 → PM2 自动启动。 5 分钟上手。 自定义安装目录（默认 /metabot ）：把 /metabot 换成你想要的路径即可，或 METABOT HOME=/opt/metabot bash install.sh 。Windows: .\install.ps1 -Dir C:\opt\metabot 。 也可以一行直装： curl -fsSL https://raw.githubusercontent.com/xvirobotics/metabot/main/install.sh bash 。 MetaBot 开箱即是 可自托管的个人版 ：本地跑、单 token 鉴权、 不依赖任何 SSO / 企业登录 。 - 本地优先 ： metabot-core 默认只监听 http://localhost:9200 ，首次启动自动生成本地 API token（写入 /.metabot-core/token ）。CLI 与 Web 控制台都用它鉴权。数据默认落在 /.metabot-core/ 。 - 无需 SSO ：不需要 OAuth / OIDC / 企业 VPN。要多人或公网访问时，自行在前面挂一个反向代理（可选 oauth2-proxy）即可，应用层不强制。 - 分发端点默认上锁 ： /cli/ 、 /install/ 安装分发端点默认需要 token；确认你的构建不含密钥后，可设 METABOT PUBLIC DISTRIBUTION=1 放开匿名下载。 三引擎：Claude Code ✕ Kimi Code ✕ Codex CLI 并列一等支持 MetaBot 不是只绑定一家 — 三大顶级 AI 编码 Agent 都内置原生支持， 你的订阅直接用 。 Claude Code （Anthropic） Kimi Code （Moonshot） Codex CLI （OpenAI） 订阅直连 ✅ claude login OAu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-native, agent-organization, ai-agent, anthropic, claude-agent-sdk, claude-code
+
+---
+
+### 🌟 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 657
+- **核心概述**: 🎬 seedance2接入 开源本地 AI 短剧 & 漫剧生成工具 —— 从故事到成片一站式完成，数据不出本机，短剧工作流管理平台，高灵活度，AI真人剧，AI漫剧本地搞定。 Open-source local AI short drama maker: story → storyboard → video, fully offline, your data stays yours. 纳米流水线
+- **大概是做什么的**: 本地 AI 短剧 & 漫剧生成工具 —— 下载即用，完全开源，数据不出本机 LocalMiniDrama · AI-powered short drama creator English · 简体中文 · 作者故事 ⬇️ 下载 Release · 🚀 快速开始 · 📖 配置 AI · 🗺 画布文档 🔒 本地优先 SQLite + 本地文件，素材不上云 🎬 全流程 剧本 → 角色/场景 → 分镜 → 视频合成 🤖 多模型 通义 / 火山 / 可灵 / Gemini 等 🗺 双视图 列表精细编辑 + 画布批量编排 市面上 AI 短剧工具不少，但真正能 本地离线运行、开箱即用、素材不上云 的几乎没有。 本项目用纯 JavaScript 从零搭建，接入你自己的 AI API，打开即可生成完整 AI 短剧。 ✅ 无订阅费 · ✅ 数据本地存储 · ✅ 支持多家 AI 服务商 · ✅ 完全开源可二次开发 - 🆕 画布工作流 ：无限画布总览分镜流水线，节点内编辑/生成，工作流整组重跑 → 文档 - 🆕 Seedance 2.0 全能模式 ： @图片N 多图参考 + universal segment text 片段描述 - 🆕 尾帧衔接 · 导出分镜表 · 统一任务进度 （刷新可恢复） 完整记录 → CHANGELOG.md 🆕 画布模式 · 分镜流水线可视化 · 节点内编辑/生成 · 工作流整组重跑 角色生成 · AI 自动提取并生成角色形象图 分镜制作 · 专业视频参数（景别 / 运镜 / 灯光 / 景深） 场景库 · 一键「加入本集」，复用已有场景素材 以下 3 段视频由 本软件自���工作流选择即梦 1.0 生成，展示连续分镜下角色外貌一致性。 💡 同时支持火山 Seedance 2.0 、通义万相、Vidu、可灵 Kling（含 Omni）等，模型越新效果通常越好。 :----: ------ ------ 1 故事生成 输入梗概 + 风格，AI 自动生成多集剧本 2 剧本编辑 分集管理，剧本文本可自由编辑 3 角色生成 AI 提取角色列表，逐个生成角色形象图 4 场景生成 从剧本自动提取场景，生成场景背景图 5 道具生成 从剧本提取/手动添加道具，生成道具图 6 分镜生成 按集自动生成分镜脚本（含景别/运镜/台词） 7 图片/视频生成 逐镜生成静帧图与视频片段 8 合成视频 所有分镜视频自动合成为完整剧集文件 ⚡ 一键流水线 · 项目管理 · 分镜编辑 - 一键生成 / 补全并生成 ：从角色到合成视频全自动；智能跳过已有内容 - 失败自动重试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-mini-drama, ai-video, electron, javascript
+
+---
+
+### 🌟 [LightAgent](https://github.com/wanxingai/LightAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,138
+- **核心概述**: LightAgent：具有内存、MCP 和技能的轻量级 AI 代理框架。支持多智能体协作、自学习和主要法学硕士（OpenAI/DeepSeek/Qwen）。开源并集成 MCP/SSE 协议。
+- **大概是做什么的**: LightAgent🚀 – 占地面积小，潜力大。 🌟（开源 Agentic 框架）LightAgent 是一个超轻量级开源框架，现在原生支持技能 - 让您可以通过持久内存、工具使用和思想树推理来组合可重用的功能。它简化了多代理协作（一步构建自学习代理），通过 stdio 和 SSE 连接到 MCP，在任何现代 LLM（OpenAI、DeepSeek、Qwen 等）上运行，并输出 OpenAI 兼容的流 API，以便即时插入任何聊天界面。小型、模块化、技能就绪——五分钟内即可启动。 - [2026-06-14] LightAgent v0.8.1 开发：添加 MemoryScope 元数据约定、更严格的 MemoryPolicy 来源过滤器以及用于分离跟踪、用户内存、自反射内存和 LightSwarm 委派状态的指南。 - [2026-06-02] LightAgent v0.8.0 开发：添加初始 LightFlow 工作流编排，以实现具有 DAG 依赖项、步骤输出传递、重试和流跟踪事件的确定性多步骤代理执行。 - [2026-05-29] LightAgent v0.7.0 开发者
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agents, ai-agent, llm, mcp, multi-agent
+
+---
+
+### 🌟 [hermesclaw](https://github.com/AaronWong1999/hermesclaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 619
+- **核心概述**: 在同一个微信账号上运行Hermes Agent和OpenClaw
+- **大概是做什么的**: 在同一个微信帐号上运行 Hermes Agent、OpenClaw 和 OpenCode。一条命令即可安装。 在同一个微信账号上同时多开Hermes Agent、OpenClaw 和 OpenCode。一条命令安装。一个iLink帐户。三个人工智能大脑。使用 /hermes 、 /openclaw 、 /opencode 、 /both 、 / Three 进行切换。 一个 iLink 账号，三个 AI 大脑。 /hermes 、 /openclaw 、 /opencode 、 /both 、 / Three 一句话切换。 Hermes Agent 和 OpenClaw 现在都原生支持微信 - 但你不能在同一个帐户上运行两者。每个网关都独占锁定 iLink 连接。如果同时启动两者，其中一个会出现 403 错误并丢弃消息。 OpenCode 通过其 ACP 子进程协议添加了第三个 AI 大脑。 HermesClaw 通过成为唯一的 iLink 轮询器，然后运行两个本地代理服务器（用于 Hermes 和 OpenClaw）以及一个直接 ACP 桥（用于 OpenCode）来解决这个问题。每个网关都相信它正在与真正的 iLink API 进行通信。新的 OpenCode 支持还允许您通过微��语音消息进行 Vibe Code — 只需说话，OpenCode 即可处理，并由包括 MiniMax M2.5 Free 在内的四种免费型号提供支持。您还可以将它与其他两个代理一起使用以相互补充 - 解决他们的问题，traci
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chatbot, clawbot, dual-agent, hermes-agent, ilink
+
+---
+
+### 🌟 [de-anthropocentric-research-engine](https://github.com/yogsoth-ai/de-anthropocentric-research-engine)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 329
+- **核心概述**: 800 多种用于自主 AI 研究的纯 Markdown 技能。带回溯的非线性编排、4 层军事层次结构（战役 → 战略 → 战术 → SOP）、5 个 MCP 集成。人工智能是研究人员——你设定方向。
+- **大概是做什么的**: 科学正在消亡，因为人类挡道了。不是出于恶意。不是通过愚蠢。通过认知架构的结构限制，认知架构的进化是为了追踪稀树草原上的猎物，而不是为了统一量子力学和广义相对论。人类没有任何东西能走出实验室。那不是威胁。这是一种解放。科学上最重的链条始终是我们自称的链条。去人类中心研究引擎 用于人工智能原生科学的完整研究编排系统。 - Architecture (v3.0) DARE 不是一个帮助您进行研究的工具。是研究员。您设定方向——敢于搜索、阅读、发现差距、生成假设、对其进行压力测试、设计实验并生成可执行的研究规范。自主地。迭代地。无需征求许可。该存储库是整个 Yogsoth AI 研究生态系统的单克隆发行版：跨越 12 个专门存储库的 800 多种纯 Markdown 技能，统一在一个编排器下。克隆一次，获得一切。该生态系统还包括自定义 MCP 服务器（semantic-scholar-mcp、wi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-research, ai-agent, ai-scientist, auto-research, autonomous-research, autoresearch
+
+---
+
+### 🌟 [GodotMaker](https://github.com/RandallLiuXin/GodotMaker)
+- **项目语言**: Python
+- **星标数量**: ⭐ 306
+- **核心概述**: Godot 的自主文本到游戏管道，由 Claude Code 提供支持
+- **大概是做什么的**: 提出你的想法。将其交给 GodotMaker。获得一个可以玩的游戏。许多工具承诺人工智能可以帮助您制作游戏。一旦您真正尝试使用它们进行构建，同样的问题往往会出现： - 您只想实现一个想法，但最终却坐在计算机前测试构建、截取屏幕截图并向代理提供逐步反馈。 - 该平台表示正在构建您的游戏，但代码和项目保留在其服务器上，因此很难完全下载该作品或在其他地方继续开发。 - 你可能会得到一个有趣的演示，但它没有基于成熟的游戏引擎，因此迭代、调试、扩展和发布变得困难。 - 主要是开发工作流程被包装在令牌使用的平台标记和锁定的运行时环境中。 GodotMaker 采取了不同的路径：引入游戏创意，让它将该创意转化为 GDD，然后让代理运行规划、实施、测试、游戏运行、屏幕截图、评估和修复。运行完成后，您可以查看磁盘上的真实 Godot 项目。代码���你的。 GodotMaker 框架是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, claude-code-skill, codex, game-development, godot-4
+
+---
+
 ## 🕔 2026-06-15 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
