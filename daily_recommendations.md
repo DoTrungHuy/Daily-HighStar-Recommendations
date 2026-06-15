@@ -1,3 +1,67 @@
+## 🕔 2026-06-15 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [goclaw](https://github.com/nextlevelbuilder/goclaw)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,260
+- **核心概述**: GoClaw -GoClaw 是用 Go 重建的 OpenClaw - 具有多租户隔离、5 层安全性和本机并发性。在不影响安全性的情况下大规模部署人工智能代理团队。
+- **大概是做什么的**: 多租户AI代理平台Go构建的多代理AI网关。 20+ 法学硕士提供商。 7 个频道。多租户 PostgreSQL。单个二进制。经过生产测试。为您精心策划的代理。 🇮🇩 印尼语 · - 8 阶段代理管道 — 背景→历史→提示→思考→行动→观察→记忆→总结。可插拔阶段，始终在线执行 - 4 模式提示系统 — 完整/任务/最小/无，具有部分门控、缓存边界优化和每会话模式分辨率 - 3 层内存 — 工作（对话）→ 情景（会话摘要）→ 语义（知识图）。渐进式加载 L0/L1/L2 - 知识库 - 使用 [[wikilinks]] 进行文档注册表、混合搜索（FTS + pgvector）、文件系统同步 - 代理团队和编排 - 共享任务板、代理间委派（同步/异步）、3 种编排模式（自动/显式/手动） - 自我进化 — 指标 → 建议 → 使用护栏自动适应。代理完善自己的通信方式 - 多租户 PostgreSQL - 每用户工作区、每用户上下文文件、加密 API 密钥 (AES-256-GCM)、RBAC、隔离会话
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agent, ai-gateway, anthropic, chatbot, discord-bot
+
+---
+
+### 🌟 [openclaw-master-skills](https://github.com/LeoYeAI/openclaw-master-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,038
+- **核心概述**: 🧠 精选 1209 多项最佳 OpenClaw 技能 — 由 MyClaw.ai 每周更新
+- **大概是做什么的**: 🧠 OpenClaw 大师技能 英语 · 中文 · 法语 · 德语 · Русский · 日本语 · 意大利语 · 西班牙语 🤖 由 MyClaw.ai 提供支持 MyClaw.ai 是一个 AI 个人助理平台，为每个用户提供在专用服务器上运行的功能齐全的 AI 代理。 OpenClaw Master Skills 是我们精心挑选的、每周更新的整个生态系统中的最佳技能集合，旨在帮助您的 AI 代理完成更多工作。 🌐 尝试 MyClaw.ai ：https://myclaw.ai 📦 技能指数（561 项技能） 🤖 AI 和 LLM 工具 (50) 学术深度研究 透明、严谨的研究，具有完整的方法论 - 不是黑盒 API 包装器。执行排气代理浏览器基于 Rust 的快速无头浏览器自动化 CLI，具有 Node.js 回退功能，使 AI 代理能够 na agent-browser-clawdbot 无头浏览器自动化 CLI 针对 AI 代理进行了优化，具有可访问性树快照和 ref-ba ai-ppt-generator 使用百度人工智能生成 PPT。根据内容智能选择模板。 ai-prompt-engineering-safety-review 全面的AI提示工程安全审查和改进提示。分析安全 ai-prompt-generator Professional 的提示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentskills, ai-agent, curated, myclaw, openclaw, skill-collection
+
+---
+
+### 🌟 [aiflowy](https://github.com/aiflowy/aiflowy)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 870
+- **核心概述**: AIFlowy是基于Java的企业级人工智能应用开发平台，可与Dify、Coze等产品相媲美。
+- **大概是做什么的**: AIFlowy：企业级人工智能代理开发平台 AIFlowy是一个使用Java构建的企业级开源人工智能应用（代理）开发平台，旨在为开发者和组织提供高效、开放、本地化的人工智能工具链和低门槛的人工智能解决方案部署能力。虽然 AIFlowy 与 Coze 和 Dify 等主流平台竞争，但它通过高度关注现实世界的企业需求和监管考虑而脱颖而出——这反映在其架构、功能集和场景驱动的设计中。 AIFlowy 支持人工智能应用程序的整个生命周期，从机器人创建和 RAG 知识库到人工智能工作流程编排和模型管理。 ✨ AIFlowy 核心功能 - ✅ 智能机器人构建和部署 - ✅ 插件系统（支持自定义工具集成） - ✅ RAG 知识库（支持文档上传、解析和检索） - ✅ AI 工作流程编排（可视化工作流程 + 条件/分支/循环） - ✅ 媒体中心（AI 生成的图像、音频、视频）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, aiflowy, coze, dify, langchain4j
+
+---
+
+### 🌟 [velobase-harness](https://github.com/velobase/velobase-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 506
+- **核心概述**: 从代码到现金——开源 SaaS 样板，包含 Stripe、附属机构、AI 应用程序的归因和基于使用的计费。 T3 堆栈 + Next.js 16.
+- **大概是做什么的**: 所有人工智能开发者都应该得到报酬。将您的 AI 原型转变为具有开源基础设施的付费 SaaS，用于使用计费、支付、归因、附属机构、反滥用和部署。如果 Harness 帮助您发货，请为存储库加注星标并加入社区。 English · 您可以交付什么 · 开源与云 · 架构 AI 编码工具可以快速制作原型。将一个企业转变为可靠的企业仍然意味着重建支付、使用计量、欺诈控制、归因、附属机构、生命周期电子邮件和部署。 Velobase Harness 软件包可用于 AI SaaS 构建者的 MIT 许可框架。从工作产品基础开始，然后将时间花在只有您可以构建的部分上。 Harness 可帮助您构建应用程序并从中获利。 Velobase Cloud 消除了基础架构和部署工作。推出付费人工智能产品接受订阅和基于使用情况的付款、管理积分、计量人工智能使用情况，并从第一天起就为客户提供计费仪表板。了解哪些增长渠道有效 通过服务器端归因、Google Ads 将购买与获取渠道联系起来
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-saas, billing, monetization, nextjs, nextjs-template
+
+---
+
+### 🌟 [giselle](https://github.com/giselles-ai/giselle)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 535
+- **核心概述**: Giselle：人工智能应用程序生成器。开源。
+- **大概是做什么的**: 为产品交付提供支持的 AI 代理工作室 ▶︎▶︎ 可以在此处找到带音频的 YouTube 视频 ◀︎◀︎ Giselle 是用于代理工作流程的开源 AI，可实现无缝的人机协作。在 2 分钟内让 Giselle 在本地运行：打开 http://localhost:3000 并开始构建您的 AI 代理！注意：您至少需要一个 AI 提供商 API 密钥。支持的提供商：OpenAI、Anthropic、Google AI。 - ⚡ GitHub AI Operations - 使用 AI 自动执行问题、PR 和部署 - 🎨 可视化代理生成器 - 使用直观的拖放界面在几分钟内创建和修改代理 - 🤖 多模型组合 - 利用 GPT、Claude、Gemini 等 — 代理为每项任务选择最佳模�� - 📁 知识库 - 从一个地方访问和搜索您的代码和数据。支持 GitHub 矢量存储集成 - 👥 团队协作 - 通过共享配置和上下文感知协作设计代理（开发中） - 🚀 模板中心 - 使用一键代理模板启动项目 - 由社区贡献（开发中） - 📚 研究助理 - 自动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-builder, agentic-ai, ai, ai-agent, ai-agents
+
+---
+
+### 🌟 [MakeMoneyWithAI](https://github.com/garylab/MakeMoneyWithAI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 476
+- **核心概述**: 您可以使用它轻松创收的开源人工智能项目列表。
+- **大概是做什么的**: Make Money With AI 是一份精选的人工智能工具和项目列表，可帮助您将开源转化为收入。 1. AutoGPT ☆178.8k 使用自主代理、任务自动化和可扩展插件集成，通过即时工程构建商业可扩展的 SaaS、自动化服务、市场产品和可货币化的工作流程解决方案。 2. stable-diffusion-webui ☆157.0k 提供可用于生产的 AI 图像 Web UI，具有自定义模型、批处理、插件和可导出的商业资产，可通过服务、印刷品、许可、商品、市场、订阅、广告、API 集成实现快速货币化。 3. JavaGuide ☆155.8k 全面的Java和后端面试指南，可通过企业培训、付费课程、开发人员技能提升、招聘服务、系统设计咨询和AI产品加速策略实现变现。 4. ollama ☆153.4k 在本地或企业中部署私有 LLM 并从中获利：运行 gpt-oss 、 DeepSeek-R1 、 Gemma 3 以获得低成本推理、API 集成、扩展、计费、分析和微调功能。 5.变形金刚☆1
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, deepfake, llm, mcp
+
+---
+
 ## 🕔 2026-06-14 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
