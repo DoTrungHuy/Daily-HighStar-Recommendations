@@ -1,3 +1,67 @@
+## 🕔 2026-06-15 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [onecli](https://github.com/onecli/onecli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,379
+- **核心概述**: 具有内置保管库的开源凭证网关。让您的人工智能代理在不暴露密钥的情况下访问服务。
+- **大概是做什么的**: 人工智能代理的秘密金库。储存一次。随处注射。特工永远不会看到钥匙。 OneCLI 是一个开源网关，位于您的 AI 代理和它们调用的服务之间。您无需将 API 密钥烘焙到每个代理中，而是将凭据存储在 OneCLI 中一次，然后网关透明地注入它们。特工永远看不到秘密。我们为何构建它：AI 代理需要调用数十个 API，但为每个代理提供原始凭证存在安全风险。 OneCLI 通过处理身份验证的单个网关解决了这个问题，因此您可以在一个地方来管理访问、轮换密钥并查看每个代理正在做什么。工作原理：您将真实的 API 凭证存储在 OneCLI 中，并为您的代理提供占位符密钥（例如 FAKE KEY ）。当代理通过网关发出 HTTP 调用时，OneCLI 网关会将请求与正确的凭据进行匹配，将 FAKE KEY 交换为 REAL KEY ，解密它们，并将它们注入出站请求中。特工永远不会触及真正的秘密。它只是进行正常的 HTTP 调用，然后由网关处理交换。 - Rust Gateway：拦截出站 r 的快速 HTTP 网关
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, mcp, nanoclaw, nodejs, openclaw
+
+---
+
+### 🌟 [awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 5,081
+- **核心概述**: 永久免费 LLM API（API 密钥）列表
+- **大概是做什么的**: LLM API 具有用于文本推理的永久免费套餐。除非另有说明，所有端点均与 OpenAI SDK 兼容。每个链接都指向提供商的 API 密钥页面。 - 推理提供商 API 由自行训练或微调模型的公司运行。注册时可获得 10 美元试用积分，无需信用卡。积分将在 3 个月后到期。涵盖 Jamba Large 和 Jamba Mini。基本 URL：https://api.ai21.com/studio/v1 型号名称 上下文 最大输出模态速率限制 -------------- ------- ---------- -------- --------------- Jamba Large 1.7 256K 4K 文本 200 RPM，10 RPS Jamba Mini 2 256K 4K 文本 200 RPM，10 RPS 每日免费代币限额，无需信用卡。专门用于角色扮演和讲故事。基本 URL：https://api.aionlabs.ai/v1 模型名称上下文 最大输出模态速率限制 ------------- ---------- ---------- --------------- --------------------- aion-2.0 131K 32K 文本（角色扮演） 每日代币额度 aion-1.0 131K 32K 文本 每日代币额度 aion-1.0-mini 131K 32K 文本 每日代币额度 阿里云模型工作室🇨🇳 注册时每个 Qwen 模型可获得 100 万个免费代币，90 天后到期（国际
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, awesome, awesome-list, gemini, llm
+
+---
+
+### 🌟 [open-cowork](https://github.com/OpenCoworkAI/open-cowork)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,628
+- **核心概述**: 适用于 Windows 和 macOS 的开源 AI 代理桌面应用程序。一键安装 Claude Code、MCP 工具和技能 — 具有沙箱隔离、多模型支持和飞书/Slack 集成。
+- **大概是做什么的**: 🚀 Open Cowork：您的个人 AI 代理桌面应用程序 • 开源 Claude Cowork • 一键安装 Open Cowork 是一款适用于 Windows 和 macOS 的免费开源 AI 代理桌面应用程序。它将 Claude Code、OpenAI、Gemini、DeepSeek 和其他 AI 模型包装到用户友好的 GUI 中，只需一键安装即可 — 无需编码。主要功能包括虚拟机级沙箱隔离（Windows 上的 WSL2、macOS 上的 Lima）、用于生成 PPTX、DOCX、XLSX 和 PDF 文档的内置技能系统、用于连接浏览器、Notion 和其他桌面应用程序的 MCP（模型上下文协议）集成、通过计算机使用的 GUI 自动化以及通过飞书（Lark）和 Slack 进行远程控制。 Open Cowork 是 Claude Cowork 的开源实现，旨在让每个人都能使用人工智能驱动的桌面自动化。 Open Cowork 是 Claude Cowork 的开源实现，具有适用于 Windows 和 macOS 的一键安装程序 — 无需编码。它提供了一个沙盒工作区，人工智能可以在其中管理文件，通过我们的内置技能系统生成专业输出（PPTX、DOCX、XLSX 等），
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-coding, ai-tools, anthropic, claude-code, coding-agent
+
+---
+
+### 🌟 [memgraph](https://github.com/memgraph/memgraph)
+- **项目语言**: C++
+- **星标数量**: ⭐ 4,159
+- **核心概述**: 用于 GraphRAG、AI 内存、代理 AI 和实时图形分析的高性能开源内存图形数据库。与密码兼容，用 C++ 构建。
+- **大概是做什么的**: :clipboard: 描述 Memgraph 是一个高性能内存图形数据库，支持实时 AI 上下文和图形分析。它采用 C/C++ 构建，可用作 GraphRAG 管道、AI 内存系统和代理工作流程的图形引擎，为任何需要结构化、连接上下文以及语义向量或文本搜索的系统提供亚毫秒级多跳遍历。 Memgraph 在单个查询层中提供了这两种功能：用于相似性搜索的内置文本和向量索引与完整的图遍历相结合，因此检索管道可以作为单个原子数据库操作运行，而不是分散在多个系统中。相同的架构可驱动实时图形分析，以进行欺诈检测、网络分析、基础设施监控以及其他注重性能的操作工作负载。 Memgraph 与 Neo4j 的 Cypher 查询语言完全兼容，符合 ACID，并且高度可用。 AI 和图形智能 - 索引 - 内置矢量索引通过单个查询中的相似性搜索以及文本和地理空间搜索来支持混合图形检索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-memory, context-graph, cypher, enterprise-context
+
+---
+
+### 🌟 [embabel-agent](https://github.com/embabel/embabel-agent)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 3,672
+- **核心概述**: JVM 的代理框架。发音为 Em-BAY-bel /ɛmˈbeɪbəl/
+- **大概是做什么的**: Embabel 代理框架 [//]: ([![质量门状态]& 40;https://sonarcloud.io/api/project badages/measure?project=embabel embabel-agent&metric=alert status&token=d275d89d09961c114b8317a4796f84faf509691c& 41;]& 40;https://sonarcloud.io/summary/new code?id=embabel embabel-agent& 41;) [//]: ([![Bugs]& 40;https://sonarcloud.io/api/project badages/measure?project=embabel embabel-agent&metric=bugs& 41;]& 40;https://sonarcloud.io/summary/new code?id=embabel embabel-agent& 41;)      Embabel (Em-BAY-bel) 是一个在 JVM 上编写代理流的框架，可将 LLM 提示的交互与代码和域模型无缝混合。支持实现目标的智能路径查找。用 Kotlin 编写，但提供了来自 Spring 的创建者的自然用法。有疑问吗？通过 Embabel 支持的中心与文档进行交流，该中心是一个 Embabel 代理，可以用自然语言回答您有关框架的问题。根据以下方面对代理流进行建模： - 操作：代理采取的步骤 - 目标：代理试图实现的目标 - 条件：执行操作或之前要评估的条件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai, ai-agents, aiagentframework
+
+---
+
+### 🌟 [claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,945
+- **核心概述**: 通用科学作家
+- **大概是做什么的**: 克劳德科学作家 🚀 寻找更高级的功能？如需端到端科学写作、深度科学搜索、高级图像生成和企业解决方案，请访问 www.k-dense.ai 保持最新动态：在 X、LinkedIn 和 YouTube 上关注 K-Dense，了解新功能、发布公告、演练、研究工作流程演示以及可与 Scientific Writer 一起使用的示例。一种深度研究和写作工具，将人工智能驱动的深度研究的力量与格式良好的书面输出相结合。生成可供发表的科学论文、报告、海报、资助提案、文献综述和更多学术文档——所有这些都由实时文献检索和经过验证的引文支持。科学作家在写作之前会进行全面的研究，确保每项主张都有真实、可验证的来源支持。功能包括通过 Perplexity Sonar Pro Search 进行实时研究查找、智能纸张检测、全面的文档转换以及使用 Nano Banana Pro 生成人工智能驱动的图表。您可以选择将其用作 claude 代码插件、python 包
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude, skills, tools, writer
+
+---
+
 ## 🕔 2026-06-15 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
