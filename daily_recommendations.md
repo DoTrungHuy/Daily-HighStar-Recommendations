@@ -1,3 +1,67 @@
+## 🕔 2026-06-15 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Vision-Agents](https://github.com/GetStream/Vision-Agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,926
+- **核心概述**: 通过 Stream 打开 Vision Agent。与任何模型或视频提供商一起快速构建语音和视觉代理。使用 Stream 的边缘网络实现超低延迟。
+- **大概是做什么的**: Open Vision Agents by Stream 多模式 AI 代理，可观看、收听和理解视频。 Vision Agent 为您提供构建块，以创建由您的模型、基础设施和用例提供支持的智能、低延迟视频体验。 - 视频人工智能：专为实时视频人工智能而构建。将 YOLO、Roboflow 等与 Gemini/OpenAI 实时结合。 - 低延迟：使用 Stream 的边缘网络快速加入（500 毫秒）并将音频/视频延迟保持在 30 毫秒以下。 - 开放：由 Stream 构建，但适用于任何视频边缘网络。 - 原生 API：来自 OpenAI（创建响应）、Gemini（生成）和 Claude（创建消息）的原生 SDK 方法 — 始终访问最新的 LLM 功能。 - SDK：适用于 React、Android、iOS、Flutter、React Native 和 Unity 的 SDK，由 Stream 的超低延迟提供支持 步骤 1：通过 uv 安装 uv add Vision-agents 步骤 2：（可选）使用额外集成安装 uv add "vision-agents[getstream、openai、elevenlabs、deepgram]" 步骤 3：获取 Stream API 凭证 从 Stream 获取免费的 API 密钥。开发者每月获得 333,000 分钟的参与时间
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agents, ai, ai-agents, realtime, stt
+
+---
+
+### 🌟 [telegram-search](https://github.com/groupultra/telegram-search)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,918
+- **核心概述**: 🔍 导出并模糊搜索 Telegram 聊天记录 | Export and fuzzy search your Telegram chat history
+- **大概是做什么的**: [ 立即体验 ] [ English ] [ 日本语 ] 是否曾因 Telegram 无法搜索中文聊​​天记录而困扰？ 或者想查找一条重要消息，却被海量消息淹没，难以定位？ 有了 Telegram Search，您可以便捷地备份并检索自己的 Telegram 消息。无论任何语言，强大的本地分词能力都能准确命中。 支持向量搜索，实现句子智能模糊匹配，查找信息更快速精准。 更多 AI 驱动场景，支持未读消息智能摘要、AI 助手对话等丰富功能体验。 - [x] 支持多种数据库导出聊天记录：兼容 PGlite 与 PostgreSQL - [x] 媒体资源可自动备份至 MinIO 对象存储，无需手动干预 - [x] 消息导出时自动完成向量嵌���与分词处理，助力后续精准检索 - [x] 实时同步，自动拉取并更新最新对话内容 - [x] 自动智能分词，支持多语言精准检索 - [x] 融合模糊匹配与向量语义搜索，查找效率更高 - [x] 图片语义搜索：支持图片 embedding，以文搜图 - [x] 搜索结果无限滚动，浏览体验更流畅 - [x] RAG 智能问答：直接与 AI 聊天，基于历史上下文获得实时解答 - [x] 通过 Bot 搜索和导出消息 - [x] 消息 deep link 跳转，一键定位原始对话 - [x] 未读消息智能摘要：一键汇总全部未读消息，自动生成精炼摘要，重点内容一目了然 - [x] 日期范围筛选，快速缩小搜索范围 - [x] 右键菜单跳转 Telegram 原消息，支持移动端 - [ ] “超级大脑”：基于历史消息，自动构建人物与事件的知识图谱 - [ ] 智能整理"已保存消息"收藏夹，提升内容管理效率 - [ ] 链接与图片深度索引：网页摘要、图片 OCR 文字识别及智能描述，助力搜索与归档 - [ ] 跨平台扩展：支持 Discord 及其他主流社交/通讯平台，实现统一检索与备份 我们提供了一个在线体验版，无需自行部署，即可体验 Telegram Search 的全部功能。 访问以下网址开始使用：https://search.lingogram.app 本项目未发行任何虚拟货币，请警惕相关诈骗风险。 本软件仅供您导出和检索个人聊天记录使用，切勿将其用于任何违法用途。 1. 新建一个空目录，用于存放 Telegram Search 的配置和数据： 2. 下载 Docker Compose 文件并启动全部服务（包括数据库、MinIO 等）： 3. 然后打开 http://localhost:3333 即可使用 🎉 若未配置 MinIO 相关参数，媒体
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, embedding, mcp, telegram, telegram-bot
+
+---
+
+### 🌟 [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,348
+- **核心概述**: 🚀 One sentence → multi-AI-role collaboration → complete plan in minutes. 211+ expert roles, zero-code YAML, 9 LLM providers (6 free). 一句话调度多个AI专家自动协作，几分钟交付完整方案。
+- **大概是做什么的**: 一句话，让多个 AI 角色自动协作，几分钟出完整方案。 一句话出结果 · 211 个专业 AI 角色 · YAML 零代码 · 10 种大模型 · 支持 key（推荐 DeepSeek），也有 7 种免 key 方式 📖 完整上手教程 — 从安装到实战，10 分钟上手 觉得有用？请点个 Star — 帮助更多人发现这个项目。 不想敲命令行？本地跑一条 ao web ，浏览器里勾选专家、运行工作流、查看产物、实时介入——全程图形界面，全中英双语。 角色组队：从 200+ 专家里勾选，AI 自动合成团队并运行 工作流：内置模板一键运行，也能对比多个模板 启动： ao web （本地，密钥只存你自己机器、绝不外传）。也有 桌面客户端（Electron）。 英文界面同样完整 → 见 English README。 不用写代码，不用写配置，不用选角色。 一句话 → AI 自动拆解任务 → 从 211 个角色中匹配 → 按 DAG 并行执行 → 输出完整方案。 每个场景自动匹配不同的 AI 角色组合。 为什么需要 Agency Orchestrator 跟一个 AI 聊天，它给你一个视角。但做任何决策，你需要产品的视角、技术的视角、财务的视角、营销的视角…… Agency Orchestrator = 让多个 AI 专家各干各的，最后汇总。相当于一个人 vs 一个团队。 ChatGPT / Claude CrewAI / LangGraph Agency Orchestrator --- -------- ----------- --------------------- 角色数 1 个通用 自己写 211 个���业角色 使用方式 对话 写 Python 一句话 / YAML API key — 必须 支持 key，也有 7 种免 key 方式 依赖 — pip + 几十个包 npm + 2 个依赖 并行 — 手动建图 DAG 自动检测 中文角色 — 无 211 个 价格 订阅制 开源 + API 费 DeepSeek 甜区极低成本，亦可免 key 起步 第 3 步：用内置模板或在 AI 编程工具中使用 也可以在 Cursor / Claude Code 中直接说"帮我跑一个工作流"——支持 14 个 AI 编程工具 （集成指南）。 6 个角色中，市场调研员和用户研究员 自动并行执行 （从 DAG 依赖关系检测）。 1. 解析 YAML → 构建 DAG （有向无环图） 2. 检测并行 — tech review 和 design review 并发执行 3. 通过 {{变
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, aider, autogen-alternative, claude, codex
+
+---
+
+### 🌟 [adk-java](https://github.com/google/adk-java)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,598
+- **核心概述**: 一个开源、代码优先的 Java 工具包，用于构建、评估和部署具有灵活性和控制性的复杂 AI 代理。
+- **大概是做什么的**: Java 代理开发套件 (ADK) 一个开源、代码优先的 Java 工具包，用于构建、评估和部署具有灵活性和控制性的复杂 AI 代理。代理开发套件 (ADK) 专为在构建与 Google Cloud 中的服务紧密集成的高级 AI 代理时寻求细粒度控制和灵活性的开发人员而设计。它允许您直接在代码中定义代理行为、编排和工具使用，从而实现强大的调试、版本控制和部署（从笔记本电脑到云端）的任何地方。 - 丰富的工具生态系统：利用预构建的工具、自定义功能、OpenAPI 规范或集成现有工具，为代理提供多样化的功能，所有这些都是为了与 Google 生态系统紧密集成。 - 代码优先开发：直接在 Java 中定义代理逻辑、工具和编排，以实现最终的灵活性、可测试性和版本控制。 - 模块化多代理系统：通过将多个专用代理组成灵活的层次结构来设计可扩展的应用程序。如果您使用 Maven，请将以下内容添加到您的依赖项中： 要改为使用 u
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, agentic-workflow, agents, agents-sdk
+
+---
+
+### 🌟 [apm](https://github.com/microsoft/apm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,889
+- **核心概述**: 代理包管理器
+- **大概是做什么的**: APM – 代理包管理器 用于 AI 代理的开源、社区驱动的依赖关系管理器。想想 package.json 、requirements.txt 或 Cargo.toml — 但用于 AI 代理配置。 GitHub Copilot · Claude Code · Cursor · OpenCode · Codex · Gemini · Windsurf · Kiro 文档 · 快速入门 · CLI 参考 · 路线图 通过清单可移植。默认情况下安全。受政策约束。一个文件描述了每个代理的上下文；一个命令可以在任何地方重现它；一项策略控制组织允许的内容。人工智能编码代理需要上下文才能发挥作用——标准、提示、技能、插件——但如今每个开发人员都手动设置这些。没有什么是可移植的或可复制的。没有清单。 APM 修复了这个问题。在 apm.yml 中声明一次项目的代理依赖项，每个克隆您的存储库的开发人员都可以在几秒钟内获得完全配置的代理设置 - 具有传递依赖项解析，就像 npm 或 pip 一样。它也是第一个允许您使用真正的依赖项管理器编写插件并导出标准的plugin.json 包的工具。来自 npx 技能添加？直达：萨
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex-cli, context-engineering, github-copilot, package-manager
+
+---
+
+### 🌟 [coding_agent_session_search](https://github.com/Dicklesworthstone/coding_agent_session_search)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 891
+- **核心概述**: 统一的 TUI 和 CLI 可以索引和搜索超过 11 个提供商（Codex、Claude、Gemini、Cursor、Aider 等）的本地编码代理会话历史记录
+- **大概是做什么的**: 🔎coding-agent-search (cass) 统一的高性能 TUI，用于索引和搜索本地编码代理历史记录。将 Codex、Claude Code、Gemini CLI、Cline、OpenCode、Amp、Cursor、ChatGPT、Aider、Pi-Agent、GitHub Copilot Chat、Copilot CLI、OpenClaw、Clawdbot、Vibe、Crush、Hermes、Kimi Code、Qwen Code 和 Factory (Droid) 的会话聚合到单个可搜索时间线中。默认安装最新版本。通过 --version / -Version 来固定特定版本。或者通过包管理器：Homebrew Bottle 目前已针对 Linux 和 Apple Silicon macOS 发布。在 Intel macOS 上，将安装脚本与 --from-source 结合使用。 🤖 代理快速入门（机器人模式）⚠️ 切勿在代理上下文中运行裸 cas — 它会启动交互式 TUI。始终使用 --robot 或 --json 。 - stdout = 仅数据 - stderr = 诊断 搜索资产合约 - SQLite 是索引对话和消息的真实来源。所有派生资产（词汇索引、语义向量、分析汇总、保留备份）都可以从 SQLite 重建；没有任何衍生资产具有权威性。 - 词法搜索是必需的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, developer-tools, rust, search, tui
+
+---
+
 ## 🕔 2026-06-15 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
