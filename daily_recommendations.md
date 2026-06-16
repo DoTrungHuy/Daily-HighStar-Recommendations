@@ -1,3 +1,67 @@
+## 🕔 2026-06-16 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sphere-sdk](https://github.com/unicity-sphere/sphere-sdk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,446
+- **核心概述**: 用于自主经济主体的 SDK。为代理人提供身份、钱包以及寻找其他代理人、与其他代理人协商和结算的能力 - 点对点、完美的隐私和超快的最终结果
+- **大概是做什么的**: 用于 Unicity 钱包操作的模块化 TypeScript SDK，支持第 1 层（ALPHA 区块链）和第 3 层（Unicity 状态转换网络）。 - 钱包管理 - BIP39/BIP32 密钥派生、AES-256 加密 - L1 支付 - 通过 Fulcrum WebSocket 的 ALPHA 区块链交易 - L3 支付 - 通过 v2 状态转换令牌引擎进行令牌传输、并发发送安全 (SpendQueue) - 发票/会计 - 链上发票生命周期，具有付款归属、自动返回、隐私保护的哈希发票 ID；发票以 v2 数据令牌 blob（十六进制字符串）形式传输 — createInvoice() 返回 blob，importInvoice() 接受它 - 令牌交换 - 通过基于 DM 的协商协议的托管进行 P2P 原子交换 - 付款请求 - 通过异步响应跟踪请求付款 - 市场（意图） - 具有语义搜��和实时提要的签名意图公告板 - 请参阅 docs/MARKET.md - 群聊 - NIP-29基于中继的群组消息传递，具有适度性 - Nostr Transport - 弹性 P2P 消息传递，具有经过验证的发布、健康检查、NIP-17 礼品包装 - IPFS 存储 - 去中心化代币备份
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, artificial-intelligence, blockchain, commerce
+
+---
+
+### 🌟 [cli-printing-press](https://github.com/mvanhorn/cli-printing-press)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,514
+- **核心概述**: 每个 API 都有一个秘密身份。它找到了它，吸收了每个竞争工具的所有功能，然后构建了 GOAT CLI——首先为 AI 代理设计，具有 SQLite 同步、离线搜索和复合洞察命令。
+- **大概是做什么的**: 没有什么比时间和金钱更有价值。在人工智能代理的世界中，这就是速度和代币支出。设计良好的 CLI 是代理的肌肉记忆：无需搜索文档、不会走错路、不会浪费代币。我们建造了印刷机来为代理商打印世界上最好的 CLI。它读取官方 API 文档，研究每个流行的社区 CLI 和 MCP 服务器，嗅探网络中没有发布的 API（例如 Google Flights 或 Dominos），并应用通过 discrawl 和 gogcli 证明的高级用户剧本 Peter Steinberger - 本地 SQLite、复合命令、代理本机标志。它融合了所有这些，并打印了一个高效的 Go CLI、Claude Code 技能以及适用于任何 API 或任何网站的 MCP 服务器。媒体印制的三个 CLI，今天即可安装： - ESPN（已嗅探，没有官方 API）。 “今晚的 NBA 季后赛有实时比分、系列赛状态、每支球队的主要得分手的统计数据，以及过去 24 小时内的任何伤病或阵容新闻。”一次调用即可返回所有内容。 - 飞行山羊（皮划艇不间断搜索加上嗅探谷歌航班）。 “从海上出发超过 8 小时的直达航班
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, cli-generator, developer-tools, golang, openapi
+
+---
+
+### 🌟 [agor](https://github.com/preset-io/agor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,262
+- **核心概述**: 在多人游戏画布上编排 Claude Code、Codex 和 Gemini 会话。管理 git 工作树、跟踪 AI 对话并实时可视化团队的代理工作。
+- **大概是做什么的**: 负责所有事务的团队指挥中心。 Agor 是一个共享画布，编码代理（Claude Code、Codex、Gemini）和长期助手在隔离的 git 分支上并排运行——会话、开发环境、提示和 PR 汇聚的锚实体。您的整个团队实时围绕相同的实时工作集结，代理本身通过​​ MCP 驱动 Agor。 - AI 代理的团队工作空间 - 多人游戏是核心差异化因素。实时游标、facepile、范围评论、共享会话和开发环境。 - 分支作��锚点 - 每件工作一个实体，其中对话 + 开发环境 + PR + 提示全部汇聚。 - 多代理、多运行时 — Claude Code、Codex、Gemini、OpenCode、Copilot，每个会话可互换。 - 共享的、长期存在的助手——具有身份、记忆和技能的持久代理，您可以为整个团队发布这些信息。 - 自托管——您的存储库、您的数据库、您的隔离状态。 📖 阅读 agor.live 上的完整文档 → 包含分支和区域的空间画布 用于 AI 对话的丰富 Web UI MCP 服务器和分支管理 实时协作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic, ai-agents, ai-coding, ai-pair-programming, canvas
+
+---
+
+### 🌟 [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 3,552
+- **核心概述**: AI 代理的多模式生成媒体技能（Claude Code、Cursor、Gemini CLI）。由 muapi.ai 提供支持的高质量图像、视频和音频生成。
+- **大概是做什么的**: 🎭 AI 代理的生成媒体技能 用于 Claude Code、Cursor、Gemini CLI 和 OpenCode 的终极多模式工具集。一种高性能、模式驱动的架构，供 AI 代理生成、编辑和显示专业级图像、视频和音频 - 由 muapi-cli 提供支持。 🚀 开始使用 🎬 配方包 🎨 专家库 ⚙️ 核心原语 🤖 MCP 服务器 📖 参考 - Open-Generative-AI — 免费自托管 AI 媒体工作室 — 用于同一模型集的这些技能的 GUI 替代方案 - Awesome-GPT-Image-2-API-Prompts — 精选的 GPT-Image-2 提示与这些技能一起使用 - Awesome-Gemini-Omni-API-Prompts — 精心策划的 Gemini Omni 提示用于视频生成 - 🤖 代理本机设计 — CLI 支持的脚本，具有结构化 JSON 输出、语义退出代码和 --jq 过滤，用于无缝代理管道。 - 🧠 专家知识层——融入专业电影摄影、原子设计和品牌逻辑的特定领域技能。 - ⚡ CLI 支持的核心 - 所有原语都委托给 muapi-cli - 没有curl，没有 JSON 解析，没有样板。 - 🖼️ 直接媒体显示 — 使用 --view fla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agent-tools, ai-agents, ai-video, claude-code, claude-code-skills
+
+---
+
+### 🌟 [heym](https://github.com/heymrun/heym)
+- **项目语言**: Python
+- **星标数量**: ⭐ 608
+- **核心概述**: 通过提示或视觉画布构建 AI 工作流程。 Heym 是源可用且自托管的，具有代理、RAG、MCP、HITL、可观察性、评估、代币成本跟踪等。
+- **大概是做什么的**: AI 原生工作流自动化平台 无需编写代码即可构建、可视化和运行智能 AI 工作流。拖放画布 · LLM 和代理节点 · RAG 管道 · 多代理编排 · MCP 支持 Heym 是一个围绕 LLM、代理和智能工具从头开始构建的 AI 原生自动化平台。在可视化画布上将 AI 代理、矢量存储、网络抓取工具、HTTP 调用和消息队列连接在一起，然后通过 Docker 立即部署。与最初作为经典触发动作自动化和后来分层人工智能的平台不同，Heym 中的人工智能是执行模型。浏览产品网站 heym.run 。没有企业把关 许多自动化平台将基本的生产功能转化为升级压力：全局变量、执行历史记录和搜索、见解、AI Builder / 主板功能、可观察性、审计式日志、团队控制、扩展或面向客户的门户。海姆采取了相反的立场。这些是核心工作流程原语，而不是企业诱饵。他们提供免费的自托管产品，因为认真的人工智能自动化应该是我的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-agents-framework, ai-assistant, automation, automation-tool, autonomous-agents
+
+---
+
+### 🌟 [bernstein](https://github.com/sipyourdrink-ltd/bernstein)
+- **项目语言**: Python
+- **星标数量**: ⭐ 578
+- **核心概述**: 针对 CLI 编码代理的审计级多代理编排（Claude Code、Codex、Gemini CLI 等 40 多个）。 HMAC 链审计日志、签名代理卡、每个工件沿袭、气隙部署。您的合规团队将签署的协调器。 https://bernstein.run
+- **大概是做什么的**: “要实现伟大的目标，需要两件事：计划和时间不够。” - 伦纳德·伯恩斯坦 伯恩斯坦以美国指挥家和作曲家伦纳德·伯恩斯坦的名字命名。该项目按照 Bernstein 指挥纽约爱乐乐团的方式精心安排了一组 CLI 编码代理：每个演奏者都按提示，乐谱是确定的，指挥对结果负责。他是该项目的最初协调者，该项目由此得名。确定性多代理 CLI 编排网站 · 文档 · 安装 · 首次运行 · 术语表 · 限制 · 赞助商 Bernstein 是一个确定性 Python 调度程序，它针对并行 git 工作树中的单个目标运行一组 CLI 编码代理（Claude Code、Codex、Gemini CLI 等 40 个），每个步骤都有一个 HMAC 签名的审核链。 - v2.2.x 中的 44 个 CLI 代理适配器：41 个第三方包装器、2 个叶节点委托器以及一个通用的 --prompt 包装器。事实来源：支持的代理如下表。 - 根据 RFC 2104 的 HMAC-SHA256 审核链，每个调度决策一条记录，防篡改。操作员
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agent-orchestrator, agentic-ai, ai-agents, ai-coding, aider
+
+---
+
 ## 🕔 2026-06-16 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 120 个候选项目中筛选出 6 个未推荐过的新项目。
