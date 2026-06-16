@@ -1,3 +1,67 @@
+## 🕔 2026-06-16 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [camofox-browser](https://github.com/jo-inc/camofox-browser)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,823
+- **核心概述**: 适用于 AI 代理的隐形无头浏览器 — 绕过 Cloudflare、机器人检测和反抓取。替代木偶师/剧作家。
+- **大概是做什么的**: 用于 AI 代理的反检测浏览器服务器，由 Camoufox 提供支持 站在 Camoufox 强大的肩膀上 - 一个在 C++ 级别具有指纹欺骗功能的 Firefox 分支。由 jo 背后的团队构建，jo 是一个个人人工智能代理，一半在您的 Mac 上运行，一半在专门为您提供的专用云计算机上运行 - 零维护。适用于 macOS、Telegram、WhatsApp 和电子邮件。免费试用测试版 - AI 代理需要浏览真实的网络。剧作家被封杀。无头 Chrome 获得指纹识别。隐形插件成为指纹。 Camoufox 在 C++ 实现级别修补 Firefox - navigator.hardwareConcurrency、WebGL 渲染器、AudioContext、屏幕几何、WebRTC - 所有这些都在 JavaScript 看到它们之前被欺骗。没有垫片，没有包装，没有告诉。该项目将该引擎包装在为代理构建的 REST API 中：可访问性快照而不是臃肿的 HTML、用于单击的稳定元素引用以及常见站点的搜索宏。 - C++ 反检测 - 绕过 Google、Cloudflare 和大多数机器人检测 - Element Refs - 稳定的 e1 、 e2 、 e3 标识符以实现可靠的交互 - T
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anti-bot, antidetect-browser, automation, bot-detection, browser-automation
+
+---
+
+### 🌟 [langchain4j-aideepin](https://github.com/moyangzhan/langchain4j-aideepin)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,306
+- **核心概述**: 基于AI的工作效率提升工具（聊天、绘画、知识库、工作流、 MCP服务市场、语音输入输出、长期记忆） | Ai-based productivity tools (Chat,Draw,RAG,Workflow,MCP marketplace, ASR,TTS, Long-term memory etc)
+- **大概是做什么的**: 🇨🇳 中文文档 English LangChain4j-AIDeepin — 人工智能应用平台。集成 AI 聊天、知识库 (RAG)、工作流程编排、长/短期记忆、MCP 工具等，用于快速构建智能业务助手。演示：http://www.aideepin.com 存储库结构 目录说明 文档：------------ :------------ :----- server/ 后端服务 (Spring Boot + langchain4j + langgraph4j) README admin-web/ 管理仪表板 (Vue 3 + Naive UI) README user-web/ 面向用户的 Web 应用程序 (Vue 3 + Naive UI) README 二次开发请参见开发指南。如需部署，请参阅 docker/README.md 或每个子项目的 README。功能描述 :-------- :------------ AI 聊天 多角色（多对话），可配置提示、模型和参数。流输出图像生成文本到图像和图像编辑。支持 GPT-Image-2、DashScope Wanx 等 知识库 (RAG) 支持向量搜索和知识图检索 AI 工作流可视化编辑器，具有条件分支、并行执行和用于 LLM 调用、知识库查询的内置节点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-workflow, graphrag, knowlege-base, langchain4j, mcp
+
+---
+
+### 🌟 [astronclaw-tutorial](https://github.com/iflytek/astronclaw-tutorial)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 410
+- **核心概述**: 从零到工作流，掌握 AstronClaw（云端）与 Loomy（桌面）的 AI 助手实战教程 | A complete tutorial to master AstronClaw (cloud AI) & Loomy (desktop AI)
+- **大概是做什么的**: AstronClaw & Loomy 教程 🦞      本项目是一个面向 AstronClaw 和 Loomy 的完整学习教程，帮助你从零开始掌握这款强大的 AI 助理系统。 AstronClaw ：基于 OpenClaw 核心能力打造的 云端 AI 助手 ，提供全天候在线服务，随时随地通过企业微信、钉钉、飞书等渠道为你效劳。 Loomy ：聚焦真实办公场景的 桌面端 AI 工作搭子 ，深入打通本地文件和系统工具，构建个人及小团队的高效自动化工作流。 无论你是想快速上手使用 AstronClaw 提升效率，还是想通过 Loomy 打造专属工作流，本教程都能为你提供清晰的学习路径。 ☁️ 第一部分：云端助手 AstronClaw 快速上手 ：一键极速部署，告别本地繁琐的环境配置，体验 7×24 小时在线的云端助手。 技能系统 ：内置 130+ 官方技能，支持技能市场一键安装、仓库搜索、对话自动安装，甚至自定义技能。 渠道接入 ：无缝对接飞书、钉钉、企业微信等企业级协作平台。 定位与特性 ：低门槛、高安全、强适配、主动协作，专注于国内办公环境和跨工具流程。 典型工作场景 ：自媒体运营、日常办公协同、投资与信息盯盘、日历与待办管理、远程移动办公、电商与业务运营。 安全与隐私 ：目录级授权，保护本地文件安全；支持自定义大模型 API 服务商。 零基础用户 ：不需要任何编程经验，想要一个随时待命的云端或桌面 AI 助手。 效率达人 ：希望通过飞书、钉钉等即时通讯软件随时随地远程控制 AI。 内容与运营团队 ：自媒体运营、电商从业者等需要频繁处理信息整理和多工具协作的人群。 本项目基于 VitePress 构建。如果你想在本地预览或修改文档： 欢迎提交 Issue 和 PR！让我们一起把它打磨得更好，帮助更多人让 AI 真正进入日常工作流。 在提交 PR 之前，请阅读我们的 贡献指南。首次贡献时，CLA Assistant 机器人会自动在您的 PR 下方留言，引导您完成贡献者许可协议 (CLA) 的签署。 欢迎扫码加入官方交流群，与开发者和其他用户一起交流： ☁️ AstronClaw 官方社群 💻 Loomy 交流群 本项目基于 Apache License 2.0 协议开源。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, iflytek-astron, openclaw
+
+---
+
+### 🌟 [Stirrup](https://github.com/ArtificialAnalysis/Stirrup)
+- **项目语言**: Python
+- **星标数量**: ⭐ 443
+- **核心概述**: 建筑代理的轻量级框架
+- **大概是做什么的**: 构建代理的轻量级基础 Stirrup 是构建代理的轻量级框架或起点模板。它与其他代理框架的不同之处在于： - 与模型一起工作，而不是对抗模型：Stirrup 不妨碍模型，让模型选择自己的方法来完成任务（类似于 Claude Code）。许多框架强加了严格的工作流程，这可能会降低结果。 - 内置最佳实践和工具：我们分析了领先的代理（Claude Code、Codex 等），以了解和整合与上下文管理和基础工具（例如代码执行）等主题相关的最佳实践。 - 完全可定制：使用 Stirrup 作为包或起始模板来构建您自己的完全定制代理。注意：这是Python实现，StirrupJS是Typescript实现。 - 🧪 代码执行：在本地、Docker 或 E2B 沙箱中运行代码 - 🔎 在线搜索/网页浏览：搜索和获取网页 - 🔌 MCP 客户端支持：连接到 MCP 服务器并使用其工具/资源 - 📄 文档输入和输出：将文件导入 con
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agent, ai-agents, python
+
+---
+
+### 🌟 [mobileClaw](https://github.com/eggbrid2/mobileClaw)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 340
+- **核心概述**: 开放 Android AI 代理运行时，用于电话控制、应用程序自动化、VLM 屏幕阅读、技能路由、迷你应用程序和 Mihomo VPN 工作流程。
+- **大概是做什么的**: 一个开放的 Android AI 代理运行时，可以查看屏幕、控制应用程序、构建工具、记住上下文并路由自己的技能。 MobileClaw 是一款实验性 Android 应用程序，用于在真实手机上运行 LLM 代理。它位于 Android 自动化、移动 AI 代理、基于辅助功能的电话控制、设备上 Python 工具、多代理工作流程和 VPN/代理操作的交叉点。这个想法很简单：移动代理不应该只是谈论您的设备。它应该能够观察屏幕、选择正确的工具、通过 Android 功能进行操作、创建新的工作流程，并保留足够的内存来改进跨任务。 MobileClaw 目前正在进行 UI 刷新，因此在重建新界面时，某些屏幕可能会感觉视觉上不一致或粗糙。该路线图还包括 MCP 支持，包括 MCP 连接和 MCP 创建流程，因此代理可以连接到标准 MCP 服务器并通过同一运行时公开兼容工具。从运行调试版本的小米设备捕获。这些是真实的代理运行，而不是模型：MobileClaw 创建并打开了一个 Web
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility-service, ai, ai-agent, ai-group-chat, android, android-automation
+
+---
+
+### 🌟 [DebugMCP](https://github.com/microsoft/DebugMCP)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 377
+- **核心概述**: 为您的 VS Code 代理提供一个真正的调试器：断点、单步执行、检查。
+- **大概是做什么的**: DebugMCP（MCP 服务器） - 为 AI 代理提供操作调试功能 让 AI 代理在 VS Code 中调试代码 - 设置断点、单步执行、检查变量和评估表达式。可与 Codex 、 GitHub Copilot 、 GitHub Copilot CLI 、 Cline 、 Cursor 、 Windsurf 、 Roo Code 和任何 MCP 兼容的助手配合使用。与任何 VS Code 支持的编码语言兼容。 ⭐ 如果您发现 DebugMCP 有用，请在 GitHub 上为该存储库加注星标！它可以帮助其他人发现该项目并激励持续开发。 📢 开发者通知：此扩展由 ozzafar@microsoft.com 和 orbarila@microsoft.com 维护。我们欢迎提供反馈和贡献来帮助改进此扩展。 🎬 观看 DebugMCP 的实际应用 - 您的 AI 助手可自动设置断点、单步执行代码并直接在 VS Code 中检查变量。 ✨ 2.0.0 中的新增功能 - /really-debug 代理技能 — DebugMCP 现在附带一个配套的代理技能，该技能会自动安装到每个配置的线束的个人技能目录中（例如 /.copilot/skills/really-debug/ ）。使用 /really-debu 调用它
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-debugging, breakpoints, copilot, cursor, debugger
+
+---
+
 ## 🕔 2026-06-16 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
