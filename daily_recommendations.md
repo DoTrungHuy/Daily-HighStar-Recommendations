@@ -1,3 +1,67 @@
+## 🕔 2026-06-16 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [memsearch](https://github.com/zilliztech/memsearch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,039
+- **核心概述**: 为所有 AI 代理（例如 Claude Code、Codex）提供持久、统一的内存层，由 Markdown 和 Milvus 支持。
+- **大概是做什么的**: 用于人工智能编码代理的跨平台语义记忆。 - 记忆技能 - MemSearch 现在将您重复的工作流程提炼为可重用、可安装的代理技能（第三个“程序记忆”层），并在后台保持它们最新。请参阅“记忆技能”。 - 高级内存维护 - 可选的后台任务使持久的 PROJECT.md 和 USER.md 注释在会话中保持最新状态。请参阅高级内存维护。 - 🌐 所有平台，一个内存 — 内存在 Claude Code、OpenClaw、OpenCode 和 Codex CLI 之间流动。一个代理中的对话将成为所有其他代理中的可搜索上下文 - 无需额外设置 - 👥 对于代理用户，安装插件并轻松获得持久内存；对于代理开发人员，使用完整的 CLI 和 Python API 将内存和利用工程构建到您自己的代理中 - 📄 Markdown 是真理之源 - 灵感来自 OpenClaw。你的记忆只是 .md 文件——人类可读、可编辑、版本可控。 Milvus 是一个“影子索引”：一个派生的、可重建的缓存 - 🔍 渐进式检索、混合搜索、智能去重、实时同步 — 3 层召回（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, ai-agents, claude-code, claude-code-plugin, codex
+
+---
+
+### 🌟 [antigravity-sdk-python](https://github.com/google-antigravity/antigravity-sdk-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,756
+- **核心概述**: 一个用于构建充分利用 Google Antigravity 功能的 AI 代理的 Python 库。
+- **大概是做什么的**: Google Antigravity SDK Google Antigravity SDK 是一个 Python SDK，用于构建由 Antigravity 和 Gemini 提供支持的 AI 代理。它提供了一个安全、可扩展且有状态的基础设施层，可抽象代理循环，让您专注于代理的功能而不是其运行方式。 Google Antigravity SDK 依赖于已编译的运行时二进制文件，该二进制文件包含在发布到 PyPI 的特定于平台的轮子中。仅克隆此存储库不足以运行 SDK。始终使用 pip install google-antigravity 从 PyPI 安装以获取二进制文件。首先运行 example/ 之一，例如 hello world 示例： Agent 类是最简单的入门方法。它在单个异步上下文管理器后面管理完整的生命周期——二进制发现、工具连接、钩子注册和策略默认值。系统指令参数是可选的。要实时流式传输代理输出（例如，对于流畅的 UI 或控制台应用程序），只需使用 async for 循环迭代 ChatResponse 对象即可。流包装器本身生成会话结构
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, antigravity, gemini, gemini-api, google, llm-agents
+
+---
+
+### 🌟 [open-mercato](https://github.com/open-mercato/open-mercato)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,400
+- **核心概述**: 人工智能工程基础框架，以人工智能为基础，为人工智能而设计。数百个架构和领域决策（多租户、RBAC、事件流、定价、销售管道、CRM/ERP 流程）已经制定为惯例和规范，因此代理（Cursor、Claude Code、Codex）得以建立。无需重新发明的决策。使用 AI 代理交付生产等级。
+- **大概是做什么的**: Open Mercato - 人工智能工程基础框架。 AI代码助手生成代码。他们不决定它的去向，它应该如何分层，或者它是否在团队中的 30 或 50 名工程师中保持一致。 Open Mercato 是解决这个问题的开源基础框架： - 架构感知人工智能工具 - 代理知道在项目中放置代码的位置，而不仅仅是如何编写代码，他们拥有从添加数据表、设计系统连贯表单到通过单元和集成测试实现整个功能的自主技能， - 规范优先开发 - 规范随存储库一起提供，人工智能输出变得可再现 - 包括人工智能工具和人类合作技能 - 代码审查、票务流程和调试 - 现成的 CRM/ERP 域模块 - 从已完成 80% 开始 - 开源，无锁定 - 完整的代码所有权，没有按席位定价陷阱 - 可教导 - 整个团队进入人工智能辅助开发，而不仅仅是 1-2 个老年人 以“几乎准备就绪的应用程序”结束。专业发货，快速发货。我们有你！专为已经部署 Cursor/Copilot 并注意到它的 CTO 打造
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: admin-panel, ai-agents, ai-coding, crm, framework, typescript
+
+---
+
+### 🌟 [Olares](https://github.com/beclab/Olares)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,767
+- **核心概述**: Olares：用于回收数据的开源个人云
+- **大概是做什么的**: Olares：回收您数据的开源个人云构建在公共云上的现代互联网正日益威胁您的个人数据隐私。随着对 ChatGPT、Midjourney 和 Facebook 等服务的依赖不断增加，数字自治面临的风险也随之增加。您的数据存储在他们的服务器上，并受到他们的条款、跟踪和潜在审查的约束。是时候做出改变了。我们相信您拥有控制自己数字生活的基本权利。维护这一权利的最有效方法是在您自己的硬件上本地托管您的数据。 Olares 是一款开源个人云操作系统，旨在让您能够在本地拥有和管理您的数字资产。您可以在 Olares 上本地部署功能强大的开源替代方案，而不是依赖公共云服务，例如用于托管 LLM 的 Ollama、用于图像生成的 ComfyUI 以及用于私有、AI 驱动的搜索和推理的 Vane（以前称为 Perplexica）。想象一下云的力量，但由您完全掌控。 🌟 给我们加注星标即可接收有关新版本和更新的即时通知。就像公共云一样
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-privacy, edge-ai, home-automation, home-cloud, home-server
+
+---
+
+### 🌟 [takt](https://github.com/nrslib/takt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,132
+- **核心概述**: TAKT 代理协调拓扑 - 在 YAML 中定义 AI 代理如何协调、人类干预的位置以及记录的内容
+- **大概是做什么的**: 停止照顾人工智能编码代理。 TAKT 是一个开源 CLI，可将 AI 编码代理转变为可重复的开发工作流程。在 YAML 中定义规划、实施、审查、修复循环、人工检查点、权限和输出合同，然后使用独立的工作树和可跟踪日志运行任务。 TAKT 没有要求一个代理记住整个过程，而是为每个步骤赋予自己的角色、上下文和转换规则。代理可以编码，但工作流程决定接下来会发生什么。 - 将计划 → 实施 → 审查 → 修复循环���为明确的工作流程步骤 - 通过特定于步骤的角色、策略、知识、说明和输出合同来保持上下文重点 - 在隔离的工作树中执行排队任务，然后检查日志和报告 - 使用 Claude Code、Claude SDK、Codex SDK、OpenCode SDK、Cursor、GitHub Copilot CLI 或 Kiro 作为提供者 T AKTA 代理协调拓扑通过结构化审查循环协调多个 AI 代理，进行托管提示和护栏。与 AI 对话以定义您想要的内容，将其作为任务排队，然后使用 takt run 运行它。规划、实施、修订
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agent-team, ai-agents, claude-code, codex, multi-agent
+
+---
+
+### 🌟 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,356
+- **核心概述**: 一个 Go 框架，用于构建具有图形工作流程、工具、内存、A2A、AG-UI、MCP、评估和可观察性的生产代理系统。
+- **大概是做什么的**: tRPC-Agent-Go 是一个用于构建生产代理系统的 Go 框架。它集 LLM 代理、图形工作流程、工具调用、会话和内存状态、知识检索、评估和 OpenTelemetry 可观察性于一体，当您需要适合 Go 服务的代理应用程序时使用它：并发、可观察、易于部署，并准备与 A2A、AG-UI 和 MCP 集成。 - Go-Native Agent Runtime：流式运行器、上下文取消和服务友好的 API - GraphAgent：具有多条件路由的类型安全图形工作流程，功能上相当于 Go 的 LangGraph - 多代理协作：链式、并行和基于循环的工作流程 - 丰富的工具生态系统：功能工具、MCP 工具、Web 搜索、代码执行和自定义服务 - 持久状态：会话、内存、工件和知识检索 - 代理技能：可重复使用的 SKILL.md 工作流程，安全执行 - 提示缓存：自动成本优化，缓存内容节省 90% - 评估和基准：评估集 + 衡量一段时间内质量的指标 - 协议集成：前端 AG-UI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, a2a-protocol, ag-ui, agent, agent-framework, ai
+
+---
+
 ## 🕔 2026-06-15 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
