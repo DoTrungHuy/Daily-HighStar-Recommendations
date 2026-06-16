@@ -1,3 +1,67 @@
+## 🕔 2026-06-16 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 120 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hermes-desktop](https://github.com/fathah/hermes-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 12,298
+- **核心概述**: Hermes Agent 桌面伴侣
+- **大概是做什么的**: 该项目正在积极开发中。功能可能会改变，有些东西可能会损坏。如果您遇到问题或有想法，请提出问题。欢迎贡献！ Hermes Desktop 是一款原生桌面应用程序，用于安装、配置 Hermes Agent 并与 Hermes Agent 聊天。Hermes Agent 是一个自我改进的 AI 助手，具有工具使用、多平台消息传递和封闭学习循环的功能。该应用程序不是手动管理 CLI，而是在一个地方完成安装、提供程序设置和日常使用。它使用官方的 Hermes 安装脚本，将 Hermes 存储在 /.hermes 中，并为您提供用于聊天、会话、配置文件、内存、技能、工具、调度、消息网关等的 GUI。 Atlas Cloud 是一个全模式、兼容 OpenAI 的 AI 推理平台（DeepSeek、Qwen、GLM、Kimi、MiniMax 等）。通过选择 Atlas Cloud 作为您的提供商，在 Hermes Desktop 中使用它 - 基本 URL 是自动预先配置的。 Windows 用户：安装程序未经过代码签名。 Windows SmartScreen 将在首次启动时发出警告 - 单击“更多信息”→“仍然运行”�� WSL 用户：如果安装程序在切换到 root u 时停止
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, autonomous-agents, chatbot, hermes, llm
+
+---
+
+### 🌟 [OpenMemory](https://github.com/CaviraOSS/OpenMemory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,243
+- **核心概述**: LLM应用程序的本地持久内存存储，包括claude桌面、github copilot、codex、反重力等。
+- **大概是做什么的**: 🚧 该项目目前正在重写。预计会出现重大变化和潜在的错误。如需贡献，请访问 https://github.com/CaviraOSS/OpenMemory/tree/rewrite 分支。如果您发现问题，请打开 GitHub 问题并提供详细信息，以便跟踪和解决问题。人工智能代理的真正长期记忆。不是拉格。不是矢量数据库。自托管，Python + Node. OpenMemory 是一个适用于法学硕士和代理的认知记忆引擎。 - 🧠 真正的长期记忆（不仅仅是表中的嵌入） - 💾 自托管、本地优先（SQLite / Postgres） - 🐍 Python + 🟦 Node SDK - 🧩 集成：LangChain、CrewAI、AutoGen、Streamlit、MCP、VS Code - 📥 来源：GitHub、Notion、Google Drive、OneDrive、Web Crawler - 🔍 可解释的痕迹（看看为什么某些东西被召回）你的模型保持无状态。你的应用程序不再失忆。 1. TL;DR – 10 秒内使用它 🐍 Python (本地优先) 注意：add 、 search 、 get 、 delete 是异步的。在异步上下文中使用await。 🤝 CrewAI / AutoGen / Streamlit OpenMemory 被设计为位于代理框架和 UI 后面： - Crew 风格的代理：使用内存作为共享的长期存储 - A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-infrastructure, ai-memory, artificial-intelligence, cognitive-architecture
+
+---
+
+### 🌟 [omnigent](https://github.com/omnigent-ai/omnigent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,515
+- **核心概述**: 适用于所有人工智能代理的元安全带。 Omnigent 在 Claude Code、Codex、Pi 和您自己编写的代理上提供了一个通用层：交换或组合线束而无需重写，使它们与策略和沙箱保持一致，并从任何设备在同一个实时会话中实时协作。
+- **大概是做什么的**: 适用于所有 AI 代理的元线束 Omnigent 在 Claude Code、Codex、Cursor、Pi 和您自己编写的代理之上提供了一个公共层：交换或组合线束而无需重写，使它们与策略和沙箱保持一致，并从任何设备在同一个实时会话中实时协作。 omn​​igent.ai · ⬇️ 下载 macOS 桌面应用程序 - 📱 通过任何设备（包括您的手机）与客服人员合作。会话跟随您：在终端中开始，在浏览器中继续，在手机上接听。消息、子代理、终端和文件保持同步。 - 🤖 监督多个代理人。在同一会话中一起使用 Claude Code、Codex、Pi 和自定义代理（在 YAML 中定义）。要求一名代理审查另一名代理的工作，或将任务分配给各自擅长的代理 - 🔌 使用任何模型。第一方 API 密钥、Claude/ChatGPT 订阅或任何兼容网关。都是一流的。 - 🤝 合作。共享会话，以便团队成员可以与您的代理聊天并观看其实时工作、在您的计算机上共同驱动它，或者分叉对话以继续自己的操作。 - ☁️ 运行代理我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, developer-tools, llm, ml
+
+---
+
+### 🌟 [claude-smart](https://github.com/ReflexioAI/claude-smart)
+- **项目语言**: Python
+- **星标数量**: ⭐ 677
+- **核心概述**: 一个 Claude Code 插件，可以让 Claude Code 自我改进——从你的更正中学习，而不仅仅是记住它们（现在也支持 codex）
+- **大概是做什么的**: Claude Code 和 Codex 的自我完善插件，可将交互转化为他们在未来课程中遵循的持久技能。 claude-smart 从您的更正和已经有效的内容中学习 - 因此助手不再重复错误并重复使用经过验证的路径。特定于项目的技能捕获存储库本地规则，而共享技能则汇总持久的模式以供跨项目重用。与 claude-mem 相比：将您的更正转化为 Claude 遵循的规则的能力提高了 3 倍，您的指导被保留了 50% 以上。阅读基准测试 → 然后重新启动 Claude Code。需要 Node.js （对于 npx ）或 uv （对于 uvx ）已经存在。或者，通过 Claude Code 的插件市场安装：或者，如果通过插件市场安装：然后完全退出并重新打开 Codex，以便钩子重新加载。需要 PATH 和 Node.js 上的 codex CLI（对于 npx ）。卸载后重新启动 Codex。卸载程序停止本地 claude-smart 服务并删除插件/缓存/配置状态； /.reflexio/ 和 /.claude-smart/ 下学习到的数据被保留并与 Claude Code 共享，因此您可以在主机之间切换而不会失去���能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, claude-code-plugin, codex-plugin, memory
+
+---
+
+### 🌟 [ai-dive-deep](https://github.com/Belkins/ai-dive-deep)
+- **项目语言**: Astro
+- **星标数量**: ⭐ 464
+- **核心概述**: Vlad's Playbook — 操作员的现场手册，其中每个工件都是实时的、可点击的和可转发的。 39 章 · 25 个交互式小部件 · 3 个嵌入式案例研究（AFC 推介 + 净化后的客户审核）。阅读 → divyslavpodoliako.com
+- **大概是做什么的**: Ultimate AI Dive Deep 45 章的操作员现场手册，其中每个工件都是实时的、可点击的和可转发的。 → 阅读：dive.vladyslavpodoliako.com ← 论文：HTML 化 停止发送无效文件。每份报告、推介、审计、演示文稿和分析都作为已部署链接上的实时交互式 HTML 工件提供，而不是导出后就开始腐烂的 PDF 附件。该链接是最新的，因为存储库是最新的。人们转发链接；他们将未读的 PDF 存档。这个 repo 就是证明。关于构建此类工件的书本身就是此类工件 - 部署到公共链接的私有 GitHub 存储库，通过提交进行更新，其中嵌入了两个可点击的真实交互式案例研究。 → 阅读论文 + 单击嵌入：dive.vladyslavpodoliako.com/html-first 阅读它（网站就是书） 存储库就是它的构建方式。该网站就是这样。 Surface 有什么 实时链接 所有 45 章 全书，MDX 渲染，带有 TL;DR、术语表工具提示、代码块以及每个声明/章节背后的收据 寓言 5 — 模型文件 A 轮毂 + C 上的 9 个辐条
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, anthropic, astro, claude, claude-code
+
+---
+
+### 🌟 [hermes-control-interface](https://github.com/xaspx/hermes-control-interface)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 765
+- **核心概述**: Hermes AI 代理堆栈的自托管 Web 仪表板。提供基于浏览器的终端、文件资源管理器、会话概述、cron 管理、系统指标和代理状态面板 - 所有这些都位于单个密码门后面。
+- **大概是做什么的**: Hermes 控制界面 Hermes AI 代理堆栈的自托管 Web 仪表板。在密码门后面管理代理、聊天、终端、文件、cron、令牌分析、MCP 服务器和集群管道。堆栈：Vanilla JS + Vite · Node.js · Express · WebSocket · xterm.js · Chart.js · better-sqlite3 版本：3.6.1 · 许可证：MIT 请参阅 docs/INSTALL.md 了解生产设置、nginx 和 systemd。主页 系统运行状况、座席概述、网关状态、令牌使用情况 聊天 实时流、工具调用卡、多配置文件 工作区 浏览、编辑文件并与 Hermes 聊天，范围仅限于项目目录 座席配置文件 CRUD、网关生命周期、每个座席仪表板/会话/cron Office 3 面板集群监控 — 座席运行状况、看板管道、实时馈送 监控网关日志、CPU/RAM 指标、实时流程��图 使用情况 令牌分析、每日趋势、成本预测、预算警报 日志 座席、错误和具有级别过滤器的网关日志 技能 浏览、安装和删除 Hermes 技能 文件 浏览和编辑服务器上的文件 MCP MCP 服务器控制平面 — 启动、停止、重新启动、日志尾部、配置编辑器 维护
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, hermes-agent
+
+---
+
 ## 🕔 2026-06-16 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 40 个候选项目中筛选出 6 个未推荐过的新项目。
