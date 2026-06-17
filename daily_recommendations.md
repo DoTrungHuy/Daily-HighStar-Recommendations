@@ -1,3 +1,67 @@
+## 🕔 2026-06-17 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai](https://github.com/TanStack/ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,787
+- **核心概述**: 🤖 类型安全、与提供商无关的 TypeScript AI SDK，用于跨 OpenAI、Anthropic、Gemini、React、Vue、Svelte 和 Solid 的流式聊天、工具调用、代理和多模式应用程序。
+- **大概是做什么的**: 类型安全、与提供商无关的 TypeScript SDK，用于构建流式聊天、工具调用代理、结构化输出、实时语音、媒体生成和框架本机 AI 应用程序。 TanStack AI 由可组合活动和提供者适配器构建而成。使用一个提供商或在多个提供商之间切换。仅导入聊天，或根据应用程序的需要添加图像、音频、视频、语音、转录、摘要、实时、代码模式、开发工具和框架绑定。 TanStack AI 是什么以及这些软件包如何组合在一起。 - 快速入门：React - 将流式聊天添加到 React 应用程序。 - 快速入门：Vue - - 快速入门：Svelte - - 快速入门：仅限服务器 - 从服务器端点、脚本或后端服务使用 TanStack AI。 - TanStack AI 与 Vercel AI SDK - 比较架构、功能覆盖范围和权衡。 - 通过键入消息、工具调用、推理部分和可配置连接适配器来流式传输聊天体验。 - 类型安全的工具，可以通过一个共享的 toolDefinition() 合约在服务器或客户端上运行。 - 由 JSON Schema、Zod、ArkType、Valibot 或支持的结构化输出流 - 多模式 pr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
+### 🌟 [big-AGI](https://github.com/enricoros/big-AGI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,003
+- **核心概述**: AI 套件由最先进的模型提供支持，并提供先进的 AI/AGI 功能。包括 AI 角色、AGI 功能、世界一流的 Beam 多模型聊天、文本到图像、语音、响应流、代码突出显示和执行、PDF 导入、开发人员预设等等。在本地或云端部署。
+- **大概是做什么的**: [//]: ([![正常运行时间机器人比率 & 40;30 天& 41;]& 40;https://img.shields.io/uptimerobot/ratio/m801796948-868b22ed7ceaa0acac4dc765?style=for-the-badge&labelColor=000&color=green& 41;]& 40;https://stats.uptimerobot.com/59MXcnmjrM& 41;) [//]: ([![开放版本]& 40;https://img.shields.io/github/v/release/enricoros/big-AGI?label=Open+Release&style=flat-square&logo=github&logoColor=white&labelColor=000& 41;]& 40;https://github.com/enricoros/big-AGI/releases/latest& 41;) [//]: (![GitHub Stars]& 40;https://img.shields.io/github/stars/enricoros/big-agi?style=flat-square&logo=github&logoColor=white&labelColor=000&color=yellow& 41;) [//]: ([![GitHub叉子]& 40;https://img.shields.io/github/forks/enricoros/big-agi?style=flat-square&logo=github&logoColor=white&labelColor=000& 41;]& 40;) [//]: ([![在 X 上关注]& 40;https://img.shields.io/twitter/follow/enricoros?style=flat-square&logo=X&logoColor=white&labelColor=000&color=000& 41;]& 40;https://x.com/enricoros& 41;) 这是 Big-AGI（专家的多模型 AI 工作区）的开源基础。 Big-AGI 是多模型 AI 工作空间
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agi, ai-agents, ai-suite, ai-workspace, anthropic-api, deepseek-api
+
+---
+
+### 🌟 [pilot-shell](https://github.com/maxritter/pilot-shell)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,752
+- **核心概述**: 真正的工程师如何运行 Claude Code 和 Codex：规范驱动的规划、强制 TDD、持久内存以及各个级别的质量执行。让您的代理做好生产准备。
+- **大概是做什么的**: 真正的工程师如何运行 Claude Code 和 Codex 从需求到生产级代码 - 计划、测试、验证。规范驱动的计划。强化质量关。持久的知识。 macOS · Linux · Windows (WSL2) — 安装时间不到 2 分钟。 Claude Code 和 Codex CLI 编写代码速度很快，但由于缺乏结构，它们会跳过测试、丢失上下文并产生不一致的结果。其他框架增加了复杂性（数十个代理，数千行配置），但没有明显更好的输出。 Pilot Shell 则不同。每个组件都通过工程解决方案解决实际问题： - /prd — 通过可选的深入研究将想法集思广益，转化为明确的需求 - /spec — 使用 TDD 端到端地计划、实现和验证功能 - /fix — 使用 TDD 进行错误修复工作流程；当复杂性超过标准修复通道时，就可以摆脱困境 - 规范协作 — 与队友共享规范，按作者分组的注释流回 - 质量挂钩 — 强制执行 linting、格式化、类型检查和测试作为质量门 - 上下文工程 — 跨会话保留决策和知识 - 代码智能 —
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-assistant, ai-coding, ai-coding-tools, ai-engineering, ai-tools
+
+---
+
+### 🌟 [knowhere](https://github.com/Ontos-AI/knowhere)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,471
+- **核心概述**: Knowhere 提取、解析和输出为 AI 代理和 RAG 准备的结构化块。
+- **大概是做什么的**: 为 AI 代理准备非结构化数据 Knowhere 是复杂、脏文档和 AI 代理之间的内存层。它摄取非结构化文档并生成持久的、可导航的内存：在单个管道中进行解析、层次结构提取、多模式结构化和图形构建。每个块都保留完整的语义上下文，使输出自然适合 Agentic RAG 、基于向量的 RAG 或任何 LLM 工作流程。几秒钟内即可开始使用 Knowhere Cloud。避免自行部署的复杂性。使用我们在 Knowhereto.ai 上托管的 API，注册后即可享受 5 美元的免费积分。 - 2026 年 6 月 1 日：📚 Knowhere 现在支持超长 PDF 和图集式文档。解析管道可以处理数百页（例如 300、500 或更多）的长格式 PDF，并通过专用的布局感知解析器路由技术地图集或绘图集合。 - 2026 年 5 月 7 日：🚀 Knowhere 现已开源！我们已经开源了用于文档摄取、解析和代理 RAG 的整个堆栈。您现在可以使用knowhere-self-hosted 自行托管整个平台。看看我们的骗局
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, chromadb, claude, claude-code, cursor
+
+---
+
+### 🌟 [hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,024
+- **核心概述**: 🗺️ Hermes Atlas — 由 Nous Research 提供的 Hermes Agent 的每个工具、技能和集成的社区地图。直播于 hermesatlas.com
+- **大概是做什么的**: Nous Research 社区策划的 Hermes Agent 的每个工具、技能和集成地图。 🌐 实时站点：hermesatlas.com Hermes Atlas 是 Hermes Agent 生态系统的实时目录。 Hermes Agent（来自 Nous Research 的自我改进 AI 代理）于 2026 年 2 月推出，并立即催生了一个快速增长的技能、插件、集成、部署模板和分支社区。该站点是所有内容的规范地图。 - 跨 12 个类别的 80 多个经过质量过滤的存储库 - 每个项目在纳入之前都经过安全审查 - 从 GitHub API 获取并缓存在 Redis 中的实时明星计数 - 迷你图和趋势徽章显示出随着时间的推移而增长的情况 - RAG ��动的聊天机器人（“Ask the Atlas”），可回答有关基于 27 个研究文件的 Hermes Agent 的问题 - 在整个生态系统中搜索、排序、过滤 - 带有操作系统偏好检测的浅色和深色模式 - 移动响应 - 前端：香草HTML/CSS/JavaScript（无框架，无构建步骤） - 托管：Vercel（静态 + 无服务器功能） - 缓存：Redis Cloud（星计数 1 小时 TTL，每日历史快照） - LLM
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ecosystem-map, hermes-agent, hermes-atlas, nous-research
+
+---
+
+### 🌟 [WFGY](https://github.com/onestardao/WFGY)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,758
+- **核心概述**: WFGY 正在朝着 WFGY 5.0 Polaris 协议迈进，这是一个针对人工智能推理、RAG、代理和现实世界工作流程的主要开源版本。包括问题图、全局调试卡、WFGY 4.0 和 CFV 复活节彩蛋。
+- **大概是做什么的**: WFGY 5.0 Polaris 协议目前正在分阶段进行功能部署。由于 WFGY 5.0 已发展为多个公共层，因此最初的单一日期发布计划已得到扩展：证据包、可移植协议、可重复性材料、运行时结构和更深层次的引擎组件。现在不再让大家等待一个巨大的掉落，而是批量发布有用的部件。早期的 Cite First Verification 版本是日程调整期间的一个小彩蛋。第一个公共可移植协议组件现已推出：Polaris Goal Compiler。打开 CFV 复活节彩蛋 打开 Polaris 目标编译器 加入 WFGY Discord ⭐️ WFGY 5.0 Polaris 协议 针对工程语言、人机交互、公共证据和可重用 AI 执行组件的分阶段协议推出。一个受治理的协议层，用于跨会话、任务和世界构建、调整、验证和承载结构化语言系统。 WFGY 5.0 Polaris 协议现已成为 WFGY 生态系统的旗舰公共界面。该版本正在逐批移动，因为系统有g
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, alignment, debugging, evaluation, graphrag, hallucination
+
+---
+
 ## 🕔 2026-06-17 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
