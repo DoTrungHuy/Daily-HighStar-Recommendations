@@ -1,3 +1,67 @@
+## 🕔 2026-06-17 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LobsterAI](https://github.com/netease-youdao/LobsterAI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,301
+- **核心概述**: 开源桌面级人工智能代理，可以完成实际工作 - 数据分析、幻灯片、文档、视频和网络研究。基于 OpenClaw 构建；在真实桌面上运行工具，并通过微信、飞书、钉钉和 Telegram 从手机接收命令。
+- **大概是做什么的**: LobsterAI — 一体化个人助理 Agent 网易有道打造的 24/7 全天候个人助理 Agent LobsterAI 是网易有道开发的一体化个人助理 Agent。它全天候工作来处理您的日常任务 - 数据分析、制作演示、生成视频、编写文档、搜索网络、发送电子邮件、安排任务等等。其核心是协同工作模式——它在本地或沙盒环境中执行工具、操作文件并运行命令，所有这些都在您的监督下。您还可以通过微信、WeCom、钉钉、飞书、QQ、Telegram、Discord 等方式联系客服，随时随地通过手机完成工作。 - 多合一生产力助手 — 数据分析、PPT 创建、视频生成、文档编写、网页搜索、电子邮件 — 涵盖日常工作的全方位 - 本地 + 沙盒执行 — 直接在您的机器上或 OpenClaw 沙盒环境中运行任务 - 内置技能 — Office 文档生成、网页搜索、Playwright 自动化、Remotion 视频生成等 - Windows Bu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-assistant, automation, autonomous-agents, chatbot
+
+---
+
+### 🌟 [full-stack-ai-agent-template](https://github.com/vstorm-co/full-stack-ai-agent-template)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,422
+- **核心概述**: 全栈 AI 应用程序生成器 — FastAPI + Next.js，具有 AI 代理、RAG、流媒体、身份验证和 20 多个开箱即用的集成。
+- **大概是做什么的**: 全栈 AI 代理模板可用于生产的 FastAPI + Next.js 项目生成器，具有 AI 代理、RAG 和 20 多个企业集成。 🤖 6 个 AI 代理框架（PydanticAI、PydanticDeep、LangChain、LangGraph、CrewAI、DeepAgents）📄 RAG 管道（Milvus、Qdrant、pgvector、ChromaDB）⚡ FastAPI + Next.js 15（WebSocket 流、实时聊天 UI）🔗 对话共享（直接共享、公共链接、管理浏览器）🔒企业就绪（JWT、OAuth、管理面板、Celery、Docker、K8s） - 生成的项目结构 - 配置选项 Vstorm OSS 生态系统 该模板是用于生产 AI 代理的更广泛的开源生态系统的一部分： 项目描述 --------- ------------- --- pydantic-deepagents Python 的模块化代理运行时。 Claude Code 风格的 CLI，带有 Docker 沙箱、浏览器自动化、多代理团队和 /improve。 pydantic-ai-shields Pydantic AI 代理的嵌入式护栏。 5 个基础设施 + 5 个内容盾。 pydantic-ai-subagents 具有令牌跟踪的声明式多代理编排。 summarization-pydantic-ai 针对长时间运行代理的智能上下文压缩。吡当特
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent-template, ai-agents, crewai, docker, fastapi
+
+---
+
+### 🌟 [webclaw](https://github.com/0xMassi/webclaw)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,397
+- **核心概述**: 为法学硕士提供快速、本地优先的 Web 内容提取。抓取、抓取、提取结构化数据——全部来自 Rust。 CLI、REST API 和 MCP 服务器。
+- **大概是做什么的**: 将网站转变为干净的 Markdown、JSON 和 LLM 就绪环境。用于 AI 代理和 RAG 管道的 CLI、MCP 服务器、REST API 和 SDK。大多数网络抓取工具都会给您的代理提供两种不良输出之一： - 被阻止的页面、登录墙或空的应用程序外壳 - 充满导航、脚本、样式、广告和重复样板的原始 HTML webclaw.io 是 webclaw 的托管 Web 提取 API。该存储库包含开源 CLI、MCP 服务器、提取引擎和自托管服务器。 webclaw 将 URL 转换为您的工具可以实际使用的干净内容。从终端使用它，通过 MCP 将其连接到 Claude/Cursor，从您的应用程序调用托管 API，或自托管 OSS 服务器。将 webclaw 连接到 Claude Code、Claude Desktop、Cursor、Windsurf、OpenCode、Codex CLI 和其他 MCP 兼容工具的最快方法：安装程序会检测支持的客户端并为您配置 MCP 服务器。如果由于缺少本机构建工具而从源代码构建失败，请安装平台先决条件： Debian / Ubuntu sudo apt install -y pkg-config libssl-dev cmake clang git build-essential Fedora / RHEL s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-scraping, cli, crawler, data-extraction
+
+---
+
+### 🌟 [ai-devkit](https://github.com/codeaholicguy/ai-devkit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,378
+- **核心概述**: 让人工智能编码代理遵循可重复的工程工作流程，包括规划、记忆、验证、技能和审查。一个配置。所有代理。相同的工作流程。
+- **大概是做什么的**: 您的人工智能编码代理团队快速、热切且鲁莽。让他们像高级工程师一样工作。 AI DevKit 将一次性 AI 编码聊天转变为可重复的软件交付工作流程：需求、设计、规划、实施、测试、验证、记忆和审查。 - 停止提示和祈祷编码 - dev-lifecycle 使代理在接触代码之前澄清问题 - 阻止虚假的“完成”声明 - 在完成声明之前验证需要新的测试/构建输出 - 保持项目知识活跃 - @ai-devkit/memory 跨会话存储决策、约定和修复 - 在推送之前捕获偏差 - 代码审查指南根据设计和需求文档审核差异 - 一个控制台适用于所有这些 - 代理控制台是一个实时 TUI 仪表板，用于控制所有正在运行的代理，无论提供商如何一个配置。所有编码代理：Claude Code、Cursor、Codex CLI、Gemini CLI、GitHub Copilot、Pi、Junie、Cline、Devin、opencode、Antigravity、Amp、Kilo Code、Roo Code。运行 npx ai-devkit@latest init ，您的代理将获得： 您需要什么 AI DevKit 安装什么 --------------- ---
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-skills, ai, ai-agents, ai-coding, antigravity
+
+---
+
+### 🌟 [ctx](https://github.com/stevesolun/ctx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 508
+- **核心概述**: Claude Code/自定义 LLM 的技能、代理、MCP 和工具建议：102,928 个节点 LLM-wiki 图、91,464 项技能、467 个代理、10,790 个 MCP、207 个工具和上限执行建议。
+- **大概是做什么的**: ctx — 技能、代理、MCP 和线束建议 ctx 监视您正在构建的内容，遍历 102,928 个节点的图表，并为当前任务推荐一小部分得分最高的技能、代理和 MCP 服务器。如果您使用自己的本地/API 模型而不是 Claude Code，ctx 有一个单独的线束设置流程：告诉它模型和目标，查看推荐的线束，然后使用试运行/更新/卸载控件进行安装。当前发布的快照： - 91,464 个技能实体页面，其中包含 89,465 个可安装的 SKILL.md 主体。 - 467 个代理、10,790 个 MCP 服务器和 207 个线束。 - 跨语义相似性、标签、slug 标记、源重叠、直接链接、质量、用法、类型亲和力和图结构的 290 万条图边。 - 28,612 个长技能体通过微技能门转换，而不是运送原始的长提示。 - 技能、代理、MCP 和线束的实体更新打印收益/风险并跳过更换，除非您明确批准更新。 - 发现 - 拥有 91K+ 技能页面、460+ 特工、10K+ MCP 服务器和 207 个工具，您不可能知道哪个存在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, anthropic, automation, claude, claude-code
+
+---
+
+### 🌟 [agentops](https://github.com/boshu2/agentops)
+- **项目语言**: Go
+- **星标数量**: ⭐ 392
+- **核心概述**: 编码代理的操作层。记忆、验证和反馈循环在会话之间复合。
+- **大概是做什么的**: 编码代理的自主代码验证 编码代理可以生成看似合理但仍然错误的代码。 AgentOps 有助于回答决定您是否可以信任这项工作的两个问题：代码是否正确，以及代理输出是否足以授予更多自主权？它位于您已经使用的代理（Claude Code、Codex、Cursor、OpenCode）之上，并添加了验证膜、证据跟踪和存储库本地语料库，使判断可重复。 /discovery → 珠图 · /crank → 波浪中的子代理 · /validate --mixed → 真正的克劳德 + Codex 判决。现场会议。 MP4 AgentOps 将意图分解为有界的切片，为每个切片提供失败的测试和写入范围，并使每个阶段边界成为记录证据的门。代理开始加载之前的决策和学习内容，而不是冷冰冰的：中心是验证：证明代理输出，保留证据，并使用该记录来决定下一次运行获得多少自主权。支持层全部保留在 .agents/ 中（无遥测，无托管控制平面）： 层 问题 AgentOps 添加了什么 验证膜代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, claude-code-plugins, claude-marketplace, claude-skills
+
+---
+
 ## 🕔 2026-06-17 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
