@@ -1,3 +1,67 @@
+## 🕔 2026-06-17 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [skillhub](https://github.com/iflytek/skillhub)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,493
+- **核心概述**: 面向企业的自托管开源代理技能注册表。发布和版本技能包，使用 RBAC 和审核日志进行管理，使用 Docker 或 Kubernetes 进行本地部署。
+- **大概是做什么的**: 企业级开源代理技能注册表 — 在整个组织中发布、发现和管理可重复使用的技能包。 SkillHub 是一个自托管平台，为团队提供了一个私人的、受监管的地方来分享代理技能。发布技能包，将其推送到命名空间，让其他人通过搜索找到它或通过 CLI 安装它。专为防火墙后面的本地部署而构建，具有与公共注册表相同的完善功能。 - 📖 用户指南 — 技能发布、搜索、CLI 使用和其他用户指南 - 🛠️ 开发人员文档 — 架构、API 参考、本地开发、部署和操作 - 自托管和私有 — 在您自己的基础设施上部署��将专有技能保留在防火墙后面，并拥有完整的数据主权。一个 make dev-all 命令即可在本地运行。 - 发布和版本 - 上传具有语义版本控制、自定义标签（beta、stable）和自动功能的代理技能包 - 发现 - 通过按命名空间、下载、评级和新近度进行过滤器进行全文搜索。可见性规则确保用户只能看到他们被授权的内容。 - 团队
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agent, ai-infrastructure, ai-orchestration, audit-log, enterprise-ai
+
+---
+
+### 🌟 [zeroshot](https://github.com/the-open-engine/zeroshot)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,508
+- **核心概述**: CLI 中的自主工程团队。将 Zeroshot 指向问题，然后离开，然后返回到生产级代码。支持 Claude Code、OpenAI Codex、OpenCode 和 Gemini CLI。
+- **大概是做什么的**: 🎉 v5.4 中的新增功能：现在支持 OpenCode CLI！使用 Claude、Codex、Gemini 或 OpenCode 作为您的 AI 提供商。还支持 GitHub、GitLab、Jira 和 Azure DevOps 作为问题后端。请参阅提供商和多平台问题支持。 npm install -g @the-open-engine/zeroshot 演示（100 倍速度，90 分钟运行，5 次迭代才能批准）Zeroshot 是一个开源 AI 编码代理编排 CLI，它运行多代理工作流程来自动实施、审查、测试和验证代码更改。它在隔离的环境中运行计划者、实��者和独立验证者，循环直到更改被验证或因可操作、可重现的故障而被拒绝。专为正确性比速度更重要的任务而设计。 - 计划：将任务转化为具体的验收标准 - 实施：在隔离的工作空间（本地、工作树或 Docker）中进行更改 - 验证：使用独立的验证器运行自动检查 - 迭代：重复直到验证，或返回可操作的失败 - 恢复：为恢复保留崩溃安全状态或内联描述复杂的任务：为什么不只使用单个 AI Agen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-workflow, ai-agent, ai-agents, autonomous-agents, claude
+
+---
+
+### 🌟 [claw-orchestrator](https://github.com/Enderfga/claw-orchestrator)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 508
+- **核心概述**: 将 Claude Code、Codex、Gemini、Cursor Agent 和自定义编码 CLI 作为爪式代理系统的统一运行时运行。独立运行，具有一流的 OpenClaw 插件支持。
+- **大概是做什么的**: 编码代理的运行时。将 Claude Code、Codex、Gemini、Cursor Agent、OpenCode 或任何自定义 CLI 包装为持久可编程会话；在多主体委员会中协调它们；运行自主规划器/编码器/审阅器循环；或者向 Opus 委员会提交一个包含五个问题的面试，该委员会在 localhost:19000/forge/ / 上发布了已部署的 Web 应用程序。 CLI 编码是为终端用户设计的。 Claw Orchestrator 将它们转变为无头引擎，并在顶部堆叠一个代理平台：一个包含 65 个工具�� API，可从单个会话调用扩展到完全生成、部署的 Web 应用程序 - 可通过 CLI、OpenClaw 网关、模型上下文协议或直接从 TypeScript 访问，并通过嵌入式三选项卡仪表板可见。 https://github.com/user-attachments/assets/fbd2b0ea-28d8-4387-9894-c29cf15ba030 控制·议会·自动循环·Ultraapp — 35 秒内的四个动作 功能 作用 参考 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agent-teams, ai-agent, claude-code, claw, claw-orchestrator
+
+---
+
+### 🌟 [oneshot-gtm](https://github.com/oneshot-agent/oneshot-gtm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 456
+- **核心概述**: 技术创始人的GTM代理。按结果付费。签署收据。两个界面：终端 CLI + 本地 Web 仪表板。
+- **大概是做什么的**: 面向技术创始人的开源 GTM 代理。按结果付费。签署收据。创始人主导的学科编码。两个界面：终端 CLI + 本地 Web 仪表板，两者都由相同的 SQLite 分类帐支持。围绕 OneShot 的一个专注的、固执己见的包装器——一个按使用付费的 API 工具箱，用于电子邮件、短信、语音、深度研究、人员丰富、浏览器自动化和网站构建，所有这些都在 USDC on Base 上按调用进行结算，并为每个操作提供加密签名的收据。 OneShot 是工具箱。 oneshot-gtm 是策略包装器：它将规范的 PMF + 创始人主导的销售剧本（Mom Test、Sean Ellis 40%、可预测收入、不规模化的事情、多渠道节奏、签名收据 CAC）编码为一组您实际从终端或仪表板运行的命名剧本。它是开源的（MIT），因此您可以阅读每个提示，分叉每个游戏，并信任正在运行的内容。终端 — 适用于高级用户 + 编写跨 9 个组的 30 个命令的脚本。请参阅bun run cli -- --help 或跳转到命令图。仪表板 - 用于可见性 + 非技术联合创始人 八页，全部阅读相同的 /.oneshot-gtm/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bun, cli, cold-email, dashboard, founder-led-sales
+
+---
+
+### 🌟 [CatchMe](https://github.com/HKUDS/CatchMe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 412
+- **核心概述**: “CatchMe：让您的人工智能代理真正个性化”
+- **大概是做什么的**: 中文·日本语·Español·English CatchMe：让您的人工智能代理真正个性化捕获您的整个数字足迹：轻量级、无矢量且功能强大。功能  ·  工作原理  ·  LLM 配置  ·  开始使用  ·  「 做你的事。 CatchMe 捕获其他所有内容 - 存储在本地以确保隐私和安全。 」 🦞 让您的代理人真正个性化。 CatchMe 作为 CLI 代理（OpenClaw、NanoBot、Claude、Cursor 等）的代理兼容技能提供。独立运行 CatchMe。您的代理仅通过 CLI 命令查询内存。 🎯 丰富您的个人数字环境💻 个人编码助手“我今天在 Claude Code 中编码了什么？” • 代码会话重播 • 调用您编辑过的文件 • 跟踪您输入的内容 🔍 个人深度研究“我昨天读到了有关人工智能的哪些内容？” • 输入的搜索查询 • 跟踪的阅读信息 📁 个人文件管理器“我今天更改了哪些文件？” • 跟踪文件更改🧩 数字生活概述“我的下午过得怎么样？” • 工作流程重播 • 活动回顾 📹 始终在线的事件捕获 - 事件驱动的记录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, clawdbot-plugin, llm, recall-ai, retrieval-systems, screen-recorder
+
+---
+
+### 🌟 [Open-AI-Design-Agent](https://github.com/Anil-matcha/Open-AI-Design-Agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 803
+- **核心概述**: 开源 AI 设计代理 — Lovart AI、Runway Agent、Luma Labs Agent、Krea Agent、Pika Agent、Galileo AI、Magic Patterns 的替代品。适用于海报、社交、品牌套件、广告创意和视频的自主多步骤创意。免费、麻省理工学院许可、自行托管。
+- **大概是做什么的**: 开放 AI 设计代理 — Lovart AI、Runway Agent、Luma Labs Agent、Krea Agent 的开源替代品免费、开源的 AI 设计代理。通过编排 200 多个图像和视频模型的自主代理，规划、生成和组装完整的创意交付成果 - 海报、社交活动、品牌套件、广告创意、动态广告和视频剪辑。没有订阅，没有信用上限，没有创意限制。社区：加入 Reddit 和 Discord 进行讨论和支持🤖 使用 AI 编码代理自动化 Lovart、Runway、Luma Labs、Krea、Pika 等：Generative-Media-Skills — 一个技能库，可让 Claude Code、Codex 和其他编码助手等代理直接从您的终端端到端驱动 200 多个图像/视频模型（简要 → 计划 → 生成 → 编辑 → 组装）。无需接触 UI 即可构建自动化创意流程。 https://github.com/user-attachments/assets/fee3857c-887d-4c27-b3dc-a1fe9ad8f438 开源 Freepik、Krea、Openart 替代方案 — 拥有 200 多个模型的未经审查的图像和视频工作室 - https://github.com/Anil-matcha/Open-Generative-AI 开源 Weavy、F
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-creative-agent, ai-design-agent, ai-logo, ai-poster, ai-video-agent
+
+---
+
 ## 🕔 2026-06-16 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
