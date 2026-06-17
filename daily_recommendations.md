@@ -1,3 +1,67 @@
+## 🕔 2026-06-17 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LetsFG](https://github.com/LetsFG/LetsFG)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,175
+- **核心概述**: 代理本地航班搜索和预订。与 Google Flights 相比，5 条航线节省了 116 美元（已验证）。 5 秒内查询 400 多家航空公司。加入社区 - 明星并传播信息
+- **大概是做什么的**: 我们是 LetsFG——一个旅行者社区。查找航班不应该意味着检查 47 个网站。或者3个小时的搜索。或者有这样的感觉：如果您再等一会儿，您可能会得到更好的交易。所以我们为此做了一些东西。没有标记。没有跟踪。不会因为你看了两遍而价格上涨。加入社区。帮助其他人找到更便宜的航班。传播这个词。 ⭐ 给仓库加注星标。与朋友分享 ✈️ 您的人工智能代理刚刚学会预订航班。数百家航空公司。真实价格。一个函数调用。 LetsFG 为您的 AI 代理提供航班搜索和预订超能力。我们的服务器端引擎扫描整个世界以获取最便宜的价格 - 使用 90 天的 Bearer 令牌免费，或者通过开发者 API 付费以获得直接预订 URL。零加价。真实的机票。由于您跳过了 OTA 通货膨胀、cookie 跟踪和峰时定价，因此同一航班的费用可以减少 20 至 50 美元。 CLI 或脚本：运行 Letsfg auth（一次性 Twitter/X 挑战）以获得 90 天的令牌，然后 Letsfg 搜索立即命中我们的云引擎。开发者 API：付费，但返回直接的航空公司预订 URL，不带任何内容
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, airline-api, booking, business
+
+---
+
+### 🌟 [OpenJudge](https://github.com/agentscope-ai/OpenJudge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 673
+- **核心概述**: OpenJudge：整体评估和质量奖励的统一框架
+- **大概是做什么的**: 全面评估，品质奖励：推动应用卓越 🌟 如果您觉得 OpenJudge 有帮助，请给我们一颗星！ 🌟 🌐 网站 🚀 在线试用 📖 文档 🤝 贡献 🐾 PawBench 中文 OpenJudge 是一个针对 AI 应用程序（例如 AI 代理或聊天机器人）的开源评估框架，旨在评估质量并推动持续的应用程序优化。在实践中，应用程序的卓越性取决于值得信赖的评估工作流程：收集测试数据→定义评分者→大规模运行评估→分析弱点→快速迭代。 OpenJudge 提供即用型评分器，并支持生成特定于场景的评分标准（作为���分器），使此工作流程更简单、更专业，并且易于集成到您的工作流程中。它还可以将评分结果转换为奖励信号，以帮助您微调和优化您的应用程序。 🚀 立即尝试！访问 openjudge.me/app 即可在线使用评分器 — 无需安装。测试内置评分器、构建自定义评分标准并直接在浏览器中探索评估结果。 📑 目录 - 2026-06-17 - 🐾 Pa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-skills, ai-agent, alignment, evaluation, grader
+
+---
+
+### 🌟 [agent-trade-kit](https://github.com/okx/agent-trade-kit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 335
+- **核心概述**: OKX 交易 MCP 服务器 — 通过模型上下文协议将 AI 代理连接到现货、掉期、期货、期权和网格机器人。
+- **大概是做什么的**: OKX Agent Trade Kit — 一个由 AI 驱动的交易工具包，包含两个独立软件包： 软件包 说明 okx-trade-mcp 用于 Claude / Cursor 和任何 MCP 兼容 AI 客户端的 MCP 服务器 okx-trade-cli 用于从终端操作 OKX 的 CLI OKX Agent Trade Kit 通过模型上下文协议将 AI 助手直接连接到您的 OKX 帐户。您无需在人工智能和交易用户界面之间切换，而是描述您想要的内容 - 人工智能调用正确的工具并执行它。它作为本地进程运行，您的 API 密钥仅存储在您的计算机上。没有云服务，没有数据离开您的设备。功能描述 --------- ------------- 11 个模块（17 个子模块）的 164 个工具 完整的交易生命周期：市场数据 → 订单 → 算法订单 → 账户管理 → 收益 → 交易机器人 → 事件合约 → 新闻 → 智能货币信号 内置算法订单 有条件、OCO 止盈/止损、追踪止损 安全控制 -- 只读标志、每个模块过滤、内置速率限制器 零基础设施 本地 stdio 进程，无需服务器或数据库 MCP 标准 兼容克劳德桌面，光标，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, crypto-trading, mcp, model-context-protocol, okx, typescript
+
+---
+
+### 🌟 [claude-code-skills-zh](https://github.com/laolaoshiren/claude-code-skills-zh)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 369
+- **核心概述**: 🛠️ 最实用的 Claude Code Skills 合集 | 精选 100+ | 18个原创可安装技能 | 按场景分类 | 复制即装
+- **大概是做什么的**: 🛠️ Claude Code Skills 中文精选集 🚀 最实用的 Claude Code Skills / Agents / Plugins 合集 精选 200+ 按场景分类 复制即装 持续更新 中文开发者最好的 Claude Code Skills 资源站。 不只是列表，更包含可直接安装的原创技能包。 - 👨‍💻 想给 Claude Code 快速补齐专业能力 的开发者 - 📦 想找 中文可读、复制即装 skills 的个人开发者 / 团队 - 🎯 想用现成技能解决 代码审查、README、API 测试、性能分析、重构建议 等高频场景的人 ✨ 如果你是第一次接触这个仓库，建议先看这 5 个最值得马上装的原创技能： - 🔍 zh-code-reviewer — 中文代码审查，直接输出中文审查报告 - 📝 zh-readme — 先分析项目，再写更像人写的中文 README - 🧪 api-tester — 自动解析 OpenAPI，快速生成接口测试思路 - ♻️ refactor-advisor — 找坏味道，给出可执行重构建议 - ⚡ perf-profiler — 定位性能瓶颈，优先级明确 🔗 官网 ：claude-skills.bt199.com - 不是只做导航 ：既有高质量第三方精选，也有能直接安装的原创技能 - 中文友好 ：很多说明直接面向中文开发者，不用自己二次理解 - 高频场景覆盖全 ：代码审查、文档、测试、安全、性能、重构、CI/CD 都覆盖 - 持续维护 ：定期补新技能、更新 README、官网和分类结构 ------ ---------------- zh-code-reviewer 当前最受关注的原创技能之一���适合几乎所有代码仓库 refactor-advisor 很适合老项目和屎山项目，容易形成强感知价值 zh-readme 对开源项目、作品集、内部工具都很实用 api-tester 后端、全栈、集成场景都高频需要 perf-profiler 适合排查慢接口、慢任务、慢页面 📖 什么是 Claude Code Skills？ Claude Code Skills 是可复用的指令模块，让 Claude Code 拥有特定领域的专业能力。只需一个 SKILL.md 文件，就能让 Claude 变成代码审查专家、安全审计师、文档写手… 如果你不想挑，第一次可以先装这 5 个： 安装方式： 将 skill 目录复制到 /.claude/skills/ 即可。 everything-claude-code 🧠 Clau
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, awesome-list, claude-code, claude-skills, developer-tools, prompt-engineering
+
+---
+
+### 🌟 [abcoder](https://github.com/cloudwego/abcoder)
+- **项目语言**: Go
+- **星标数量**: ⭐ 377
+- **核心概述**: 深入、可靠且保密的编码上下文
+- **大概是做什么的**: ABCoder: AI-Based Coder（又名：全新编码器） ABCoder是一个面向人工智能的代码处理框架，旨在增强和扩展大语言模型（LLM）的编码上下文，最终推动人工智能辅助编程应用的发展。 - 通用抽象语法树（UniAST），一种独立于语言、人工智能友好的代码信息规范，为人工智能和人类提供无限、灵活和结构化的编码上下文。 - 通用解析器，将任意语言代码解析为 UniAST。 - General Writer 将 UniAST 转换回代码。 - Code-Retrieval-Augmented-Generation (Code-RAG)，提供了一套MCP工具来帮助LLM在本地准确地理解代码存储库。而且它可以同时支持工作区内和工作区外的第三方库——我猜你正在考虑DeepWiki和context7，但ABCoder更可靠和保密——不需要等待他们的服务完成，也不用担心你的代码会被上传！基于这些功能，开发者可以轻松实现或增强他们的AI辅助产品
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding, ast, context-engineer, lsp, mcp-server
+
+---
+
+### 🌟 [bux](https://github.com/browser-use/bux)
+- **项目语言**: Python
+- **星标数量**: ⭐ 386
+- **核心概述**: Browser Use Box：一个 24/7 Claude Code 代理，用于剧作家风格的浏览器自动化，具有 Browser Use Cloud、Telegram 和您拥有的任何盒子上的真实浏览器。
+- **大概是做什么的**: 您的 24/7 Claude Code 代理配有真正的浏览器，在您拥有的任何盒子上。租用任何 5 美元的 VPS（Hetzner、DigitalOcean、Mac mini、Raspberry Pi — 任何运行 Ubuntu 的设备），在其上点一个安装脚本，然后从任何地方给您的代理发短信。 - Telegram 密集型团队的托管试点 - 托管试点手册 - 托管试点演示记录 - 托管 Telegram AI 操作员 - 机构的 Telegram AI 操作员 - n8n Telegram AI 操作员 - 加密货币和金融科技团队的 Telegram AI 操作员 - AI 自动化机构的托管试点 - 托管试点证明报告演示 - 托管试点术语 粘贴到 Claude Code（在您的笔记本电脑上），它将为您设置您的 VPS： - Claude Code 已登录并始终开启 - 真正的 Chromium通过浏览器线束进行会话 — cookie 持续存在，登录粘住 - Telegram 机器人，以便您可以给代理发短信 — 将 TG BOT TOKEN=xxx 传递给安装程序以启用 - 当 SSH 太多时，绑定到本地主机的 Web 终端 - 当 claude 遇到登录墙 / 2FA / CAPTCHA 时，它会向您提供实时视图 URL 并等待 — 无需凭证填充，没有脆弱的解决方法 - 一个盒子 — Ubuntu 22.04+ ≥2GB 内存。一个$
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-automation, automation, browser-agent, browser-automation, browser-use
+
+---
+
 ## 🕔 2026-06-17 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
