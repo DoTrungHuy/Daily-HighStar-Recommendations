@@ -1,3 +1,67 @@
+## 🕔 2026-06-17 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 15,141
+- **核心概述**: 🎭 216 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 17 种工具，覆盖工程/设计/营销/金融等 18 个部门。含 50 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。
+- **大概是做什么的**: agency-agents 中文版（AI 智能体专家团队） 🌐 简体中文 繁体中文 English (upstream) 266 个即插即用的 AI 专家角色 — 覆盖工程、设计、营销、产品、游戏、安全、GIS、金融等 20 个部门。不是通用提示词模板，每个智能体都有独立的人设、专业流程和可交付成果。支持 Claude Code / Cursor / Copilot 等 17 种 AI 编程工具。 agency-agents 的中文社区版。在完整翻译上游的基础上，新增了 50 个中国市场原创智能体（小红书、抖音、微信、B站、飞书、钉钉等平台运营，以及跨境电商、政务ToG、医疗合规、Qt 工业上位机、机械设计、畜禽养殖档案核对等垂直领域）。 🤖 AI 智能体 🌏 英文版翻译 🇨🇳 中国市场原创 🧠 支持工具 🏢 部门 :---: :---: :---: :---: :---: 266 215 50 17 种 20 个 📖 配套阅读 ：《AI 编程实战 · 方法论三卷书》 — 10 个 AI 编程工具完整教程 + 真实踩坑 · 这个仓的 266 个角色装进 Claude Code / Cursor / Codex 后，配合方法论效率更高 · 在线书 + PDF · 永久免费 🙏 赞助商   想出现在这里？联系 jnMetaCode@qq.com 感谢 APINEBULA 大屏赞助本项目！ APINEBULA 是银河录像局旗下的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户提供稳定、高性价比的大模型 API 接入服务。平台聚合 Claude、GPT、Gemini 等主流满血模型，​​一个接口接入全球顶尖 AI 大模型，各大模型价格低至 1 折起，支持企业级高并发、正式合同、对公打款与开票服务，适合 AI 编程、Agent 开发、业务系统集成等多种场景！ 🎁 通过此链接注册并在充值时填写 "agent" 优惠码可享九折优惠！ 感谢优云智算赞助了本项目！优云智算是UCloud旗下AI云平台，主打包月、按次的高性价比国模Agent Plan套餐,低至49元/月起。同时提供官转稳定海外模型。支持接入 Claude Code、Codex 及 API 调用。支持企业高并发、7 24技术支持、自助开票。 🎁 通过此链接注册的用户，可得免费5元平台体验金！ 🚀 让角色库跑起来 · Agency Orchestrator 一句话，让多个 AI 专家自动组队协作，几分钟交付完整方案。 不想用命令行？ 下载桌面客户端 （原生 App，免装 N
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agency-orchestrator, agent-definitions, ai-agents, ai-roles, chinese, claude
+
+---
+
+### 🌟 [tokscale](https://github.com/junhoyeo/tokscale)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,801
+- **核心概述**: 🛰️ 一个 CLI 工具，用于跟踪 OpenCode、Claude Code、🦞OpenClaw (Clawdbot/Moltbot)、Pi、Codex、Gemini、Cursor、AmpCode、Factory Droid、Kimi 等的令牌使用情况！ • 🏅全球排行榜+2D/3D贡献图
+- **大概是做什么的**: 高性能 CLI 工具和可视化仪表板，用于跟踪多个 AI 编码代理的令牌使用情况和成本。 v2 现已推出 — 原生 Rust TUI、跨平台支持等等。我每周都会放弃新的开源工作。不要错过下一篇。在 GitHub 上关注 @junhoyeo 了解更多项目。对人工智能、基础设施以及介于两者之间的一切进行黑客攻击。快来加入我们的 Discord，让自己置身于世界顶级的振动者之中。 🇺🇸 English 🇰🇷 한국어 🇯🇵 日本语 🇨🇳 简体中文 每日摘要统计前端（3D 贡献图） 包装 2025 运行 Bunx tokscale@latest 提交，将您的使用数据提交到排行榜并创建您的公共档案！ Tokscale 帮助您监控和分析您的代币消耗： 支持的徽标客户端数据位置 ------ ---------- ------------------ -------------- OpenCode /.local/share/opencode/opencode.db （1.2+，所有通道，包括 opencode-stable.db ）或/和 /.local/share/opencode/storage/message/ （旧版/未迁移） ✅ 是 Claude Code /.claude/projects/ 和/.claude/transcripts/ ✅ 是 OpenClaw /.openclaw/agents/ （+ 遗留： .clawdbot 、 .moltbot 、 .mol
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ampcode, claude, claude-code, clawdbot
+
+---
+
+### 🌟 [honcho](https://github.com/plastic-labs/honcho)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,241
+- **核心概述**: 用于构建有状态代理的内存库
+- **大概是做什么的**: Honcho 是用于构建有状态代理的内存基础设施，可以了解随着时间的推移不断变化的人员、代理、团体、项目和想法。存储消息和事件，让 Honcho 在后台推理，然后从任何模型或框架查询对等表示、会话上下文、搜索结果或自然语言见解。使用在 api.honcho.dev 管理的它或自行托管 FastAPI 服务器。使用 Honcho 作为您的记忆系统将为您的座席赢得更高的保留率、更多的信任，并帮助您建立数据护城河以超越现有的竞争者。 Honcho 定义了智能��记忆的帕累托前沿。观看视频，查看我们的评估页面，并阅读博客文章以了解更多详细信息。 - Honcho 为您提供什么 - 基准和评估 Honcho 项目分为多个存储库，其中托管核心服务逻辑 — 作为 FastAPI 服务器实现。 Python 和 TypeScript 的客户端 SDK 位于 sdks/ 目录中。我想要... 路径 开始 -------------------------------------------------- ---------------------------------------------------------- ------------------------------------------ 给予
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, ai-agents, ai-memory, anthropic, context-engineering
+
+---
+
+### 🌟 [hivemind](https://github.com/activeloopai/hivemind)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,268
+- **核心概述**: Hivemind 将您的痕迹转化为跨代理可重复使用的技能
+- **大概是做什么的**: 所有代理的一个大脑 自动学习、云支持的 Claude Code • OpenClaw • Codex • Cursor • Hermes • pi 代理的共享大脑。周一，一名工程师的代理人想出了一个棘手的迁移方案。周二，团队中的每个代理都可以执行该模式。在公共长上下文内存基准 LoCoMo 上，Hivemind 比没有共享内存的运行便宜 25%，令牌减少 1.7 倍，轮次减少 31%。 （参见下面的数字。） 超出记忆。 Hivemind 不只是记忆。它挖掘团队的重复模式痕迹，并将其编码为可重复使用的技能，并传播回团队中的每个代理。你的初级工程师今天早上使用的代理更加敏锐，因为你的高级工程师的代理上周发现了这一点。 - 📥 在 Deeplake 中将每个会话的提示、工具调用和响应捕获为结构化跟踪 - 🧠 将模式编码为可重用的 SKILL.md 文件，供团队中的每个代理使用 - 🔍 使用混合词汇 + 语义检索来搜索跟踪和技能（嵌入关闭时的 BM25 回退） - 🔗 跨会话、代理、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-memory, anthropic, artificial-intelligence, claude
+
+---
+
+### 🌟 [mcpc](https://github.com/apify/mcpc)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 688
+- **核心概述**: MCP 的通用 CLI 客户端。 mcpc 支持持久会话、stdio/HTTP、OAuth 2.1、任务、代码模式的 JSON 输出、AI 沙箱代理、x402 等。
+- **大概是做什么的**: mcpc — 通用 MCP CLI 客户端 mcpc 是模型上下文协议 (MCP) 的命令行客户端，它将每个 MCP 操作映射到交互式 shell 使用、脚本编写和 AI 代理的直观命令。 mcpc 是 MCP 的新型瑞士军刀。利用它来手动检查和调试 MCP 服务器，在普通 shell 中编写可重复的 MCP 工作流程脚本，或者通过最通用的接口（UNIX shell）为 AI 编码代理提供现代 MCP 的全部功能。 - 🔧 完整的 MCP 支持 - 工具、提示、资源、异步任务、技能、通知以及通过 stdio 和 Streamable HTTP 进行日志记录。 - 🔄 持久会话 - 并行保持与不同服务器的多个有状态连接。 - 🗺️ 渐进式工具发现 - 动态查找相关 MCP 工具以节省代币并提高准确性。 - 🔌 代码模式 - JSON 输出与 jq 、 xargs 和 MCP 工作流程的 shell 管道组成为 shell 脚本。 - 🔒 安全 - 全面支持 CIMD 和 DCR OAuth 2.1，使用操作系统钥匙串进行凭证存储。 - 🤖 AI 沙箱 - 代理 MCP 服务器连接以保护凭证
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, bash, claude, cli, code-mode, command-line
+
+---
+
+### 🌟 [agent-desktop](https://github.com/lahfir/agent-desktop)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 859
+- **核心概述**: 适用于 AI 代理的本机桌面自动化 CLI。通过具有结构化 JSON 输出和确定性元素引用的操作系统可访问性树来控制任何应用程序。
+- **大概是做什么的**: 观察。决定。行为。 agent-desktop 是一个专为 AI 代理设计的原生桌面自动化 CLI，使用 Rust 构建。它通过操作系统可访问性树提供对任何应用程序的结构化访问 - 无需屏幕截图，无需像素匹配，无需浏览器。 - 原生 Rust CLI：快速、单一二进制文件，无运行时依赖 - C-ABI cdylib（libagent 桌面 ffi）：从 Python / Swift / Go / Ruby / Node / C 加载一次，而不是每次调用分叉 CLI - 54 个命令：观察、交互、键盘、鼠标、通知、剪贴板、窗口管理，以及捆绑的技能文档加载器 - 渐进式骨架遍历：通过浅层 + 目标，在密集应用程序上减少 78–96% 的令牌概述向下钻取 - 快照和引用：使用紧凑快照 ID 和确定性元素引用（@e1、@e2）的 AI 优化工作流程 - 默认无头交互：引用操作使用辅助功能 API 并阻止静默焦点、光标、键盘或粘贴板副作用 - 结构化 JSON 输出：带有错误代码和恢复提示的机器可读响应 - 可与任何应用程序配合使用：Finder、Safari、系统设置、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, accessibility-api, ai-agents, automation, cli, desktop-automation
+
+---
+
 ## 🕔 2026-06-17 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
