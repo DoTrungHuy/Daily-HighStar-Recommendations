@@ -1,3 +1,67 @@
+## 🕔 2026-06-18 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 5,234
+- **核心概述**: 产品管理技能框架基于 Claude Code、Cowork、Codex 和 AI 代理的经过实战检验的方法构建。
+- **大概是做什么的**: 产品经理技能 49 个经过实战检验的 PM 框架，适用于 Claude、Codex、ChatGPT 以及任何可以读取结构化知识的代理。通用人工智能输出是产品经理最大的敌人。当您告诉代理在没有共享上下文的情况下“编写 PRD”时，您会得到一份通用文档，没有利益相关者信任，也没有工程师可以采取行动。该库为您和您的人工智能代理提供相同的专业基础：每个框架背后的原因、要避免的故障模式以及正确应用它们的判断。你不再重复自己。你的经纪人停止猜测。工作变得更好了。其目标是双重的——功能性和教学性并重。技能使代理能够以专业水平进行 PM 工作，并且他们向人类 PM 传授每个框架背后的推理 - 这样你就可以解释它、调整它并传递它。两者都不是对方的副产品。您可以完成什么 通过您实际想要完成的任务进行导航：框架和策略 - 问题框架画布 - MITRE 的向内看/向外看/重新构建序列；阻止团队解决错误的问题 - 定位声明
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-product-management, claude-skills, pm-frameworks, product-management
+
+---
+
+### 🌟 [leon](https://github.com/leon-ai/leon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 17,326
+- **核心概述**: 🧠 Leon 是您的开源个人助理。
+- **大概是做什么的**: 您的开源个人人工智能助手。我最常在 X / @grenlouis 上分享 Leon 进度 关注 X / @grenlouis 上的进度 · ⚠️ 重要通知（截至 2026 年 3 月 29 日）Leon 目前专注于开发分支上的 2.0 开发者预览版。 - 新的文档尚未准备好。 - 当前的文档站点和旧指南主要反映了遗留架构。 - 如果您想要旧版、更稳定的 Leon 前代理版本，请使用 master 分支。 - 如果你想探索或为莱昂的新核心做出贡献，开发就是正确的地方。 Leon 当前状态的最准确的高级参考是： - core/context/LEON.md - core/context/ARCHITECTURE.md Leon 是围绕工具、上下文、内存和代理执行构建的开源个人 AI 助手。 Leon 的设计注重实用、注重隐私并立足于您的真实环境。它可以在本地运行，使用专用工具而不是依赖于自由形式的猜测，并通过确定性工作流程和代理式执行从头到尾完成任务。 🧠 今天的莱昂 莱昂不再只是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-assistant, artificial-intelligence, assistant, automation
+
+---
+
+### 🌟 [oh-my-agent](https://github.com/first-fluke/oh-my-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,096
+- **核心概述**: 便携式、与供应商无关的代理工具，用于与您的代码库、约定和工程标准保持一致的项目特定技能、工作流程和代理团队。
+- **大概是做什么的**: oh-my-agent：便携式多代理背带 한국어 中文 Português 日本语 Français Español Nederlands Polski Русский Deutsch Tiếng Việt ภาษาไทย 曾经希望你的人工智能助手有同事吗？这就是 oh-my-agent 所做的事情。 oh-my-agent 不是一个 AI 包办所有事情（并且中途会感到困惑），而是将工作分配给专门的代理——前端、后端、架构、QA、PM、DB、移动、基础设施、调试、设计等等。每个人都深入了解自己的领域，拥有自己的工具和清单，并保持在自己的轨道上。适用于所有主要的 AI IDE：Antigravity、Claude Code、Codex、Cursor、Grok Build、Kimi Code、OpenCode、Pi、Qwen Code 等。通过代理包管理器安装 Microsoft 的代理包管理器 (APM) — 仅限技能分发。单击以展开。不要与 oma-observability 的 APM（应用程序性能监控）混淆。 APM 仅提供技能。对于工作流程、规则、 oma-config.yaml 、关键字检测挂钩和 oma agent:spawn CLI，请使用 Bunx oh-my-agent@latest 。每个项目选择一种发行版以避免漂移。选择一个预设即可：预设您得到的 -----
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, agentic-coding, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 876
+- **核心概述**: 在 Python 中构建 Claude Code 风格的深度代理：工具调用、沙盒执行、多代理团队、技能、检查点和无限的上下文 - 全部都在 Pydantic AI 上。
+- **大概是做什么的**: Pydantic Deep Agents 分叉自身的深度代理。将一项任务拆分为 N 个并行分支，让 AI 判断合并获胜者 - 在您的终端中或在一个函数调用中。 100% 类型安全。任何型号。自托管。大多数代理都会给你一次完成任务的机会。他们选择一种方法，并致力于它，如果错误，你就重新开始。 Pydantic Deep Agents 可以在运行中分叉。一个agent.run() 分成几个分支，每个分支并行尝试不同的方法——隔离的文件系统、单独的预算、独立的推理。人工智能法官（或您）选出获胜者，其历史记录将成为比赛的延续。这是代理思维的 git 分支。这是一个特点。还有四十多个——规划、多代理群、持久内存、沙盒执行、技能、MCP、检查点、成本跟踪——所有这些都包含电池，所有都在单个函数调用后面，所有都是 100% 类型安全的。 ⑂ Live Run Forking——这是其他人没有的功能，Claude Code 无法做到这一点。艾德不能。 LangGraph 和 CrewAI 不能。这就是使用 pydantic-deep 的原因。当代理遇到岔路口时——“我应该重构吗？
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agents, anthropic, claude-code, cli, coding-agent
+
+---
+
+### 🌟 [ToolUniverse](https://github.com/mims-harvard/ToolUniverse)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,469
+- **核心概述**: 利用 ToolUniverse 使人工智能科学家民主化
+- **大概是做什么的**: ToolUniverse：民主化 AI 科学家 [//]：（mcp-名称：io.github.mims-harvard/tooluniverse）AI 代理（推荐）— 打开您的 AI 代理并运行：该代理将引导您完成 MCP 配置、API 密钥、技能安装和验证。添加到您的 MCP 配置文件： 安装代理技能：Python 开发人员 — 安装 SDK：tu CLI — 从终端发现、检查、运行和测试工具。 Python SDK — 用于构建人工智能科学家系统的编程访问。使用 ToolUniverse 打造 AI 科学家 点击观看演示 ​​(YouTube) (Bilibili) 什么是 ToolUniverse？ ToolUniverse 是一个用于从任何大型语言模型创建人工智能科学家系统的生态系统。它由人工智能工具交互协议提供支持，标准化了法学硕士识别和调用工具的方式，集成了 1000 多个机器学习模型、数据集、API 和用于数据分析、知识检索和实验设计的科学包。 - 人工智能工具交互协议：管理人工智能科学家如何发出工具请求和接收结果的标准化接口 - 通用人工智能模型支持：与 Claude、GPT 合作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agents, ai-communication, ai-for-science, ai-scientists, automated-science
+
+---
+
+### 🌟 [iwe](https://github.com/iwe-org/iwe)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,125
+- **核心概述**: 为您和您的 AI 代理提供的 Markdown 记忆系统
+- **大概是做什么的**: IWE - 为您和您的 AI 代理提供的记忆系统 将您的思维转化为可查询的上下文 IWE 将 Markdown 文件的目录转换为知识图 - 您从编辑器浏览的连接结构以及从命令行进行 AI 查询的连接结构。相同的文件，相同的链接，两个界面。没有云，没有数据库，没有锁定。使用 git 对所有内容进行版本控制。用 Markdown 编写，用链接构建结构，为人工智能代理提供导航知识的工具。 IWE 本身没有内置人工智能——它与 Claude、Codex、Gemini 以及任何使用模型上���文协议的工具一起工作。 - 简单降价，完全所有权。您的笔记是本地目录中的 .md 文件。阅读它们、编辑它们、git 推送它们。没有什么专有的。 - 图表，而不是文件夹树。将笔记链接在一起，同一个笔记可以属于多个主题，而无需复制文件。 （链接如何工作） - 编辑器的 IDE 功能。与 VS Code、Neovim、Zed 和 Helix 的真正 LSP 集成 — 搜索、重构、重命名、自动完成。 - AI 代理的结构化访问。 CLI 工具和 MCP 服务器让代理可以搜索、检索和重构 sam
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, cli, developer-tools, graph, gtd
+
+---
+
 ## 🕔 2026-06-18 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
