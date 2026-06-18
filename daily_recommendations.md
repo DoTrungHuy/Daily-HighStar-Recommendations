@@ -1,3 +1,67 @@
+## 🕔 2026-06-18 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [txtai](https://github.com/neuml/txtai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,668
+- **核心概述**: 💡 用于语义搜索、LLM 编排和语言模型工作流程的一体化人工智能框架
+- **大概是做什么的**: 一体化人工智能框架 txtai 是一款用于语义搜索、LLM 编排和语言模型工作流程的一体化人工智能框架。 txtai 的关键组件是嵌入数据库，它是向量索引（稀疏和密集）、图网络和关系数据库的联合。该基础支持向量搜索和/或作为大型语言模型 (LLM) 应用程序的强大知识源。 txtai 功能摘要： - 🔎 使用 SQL 进行向量搜索、对象存储、主题建模、图形分析和多模式索引 - 📄 创建文本、文档、音频、图像和视频的嵌入 - 💡 由运行 LLM 提示、问答、标签、转录、翻译、摘要等的语言模型提供支持的管道 - ↪️️ 将管道连接在一起并聚合业务逻辑的工作流程。 txtai 流程可以是简单的微服务或多模型工作流程。 - 🤖 智能地将嵌入、管道、工作流程和其他代理连接在一起以自主解决复杂问题的代理 - ⚙️ Web 和模型上下文协议 (MCP) API。 Ja 可用的绑定
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-agents, embeddings, information-retrieval, language-model
+
+---
+
+### 🌟 [thunderbolt](https://github.com/thunderbird/thunderbolt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,718
+- **核心概述**: 您控制的人工智能：选择您的模型。拥有您的数据。消除供应商锁定。
+- **大概是做什么的**: 您控制的人工智能：选择您的模型。拥有您的数据。消除供应商锁定。 ⚠️ 我们对 Thunderbolt 引起的广泛兴趣感到兴奋，并希望澄清它仍处于早期阶段并且正在积极开发中。目前，我们的目标客户是想要在本地部署它的企业客户。我们鼓励您自行托管并尝试一下，但我们仍在研究一些注意事项： - 虽然我们最终计划首先使 Thunderbolt 完全离线，但它目前取决于身份验证和搜索功能（尽管您可以在应用程序的集成屏幕上禁用搜索）。您可以使用 Docker 部署自己的后端并注册以便在本地测试它。 - 您需要添加自己的模型提供程序 - 我们还没有公共推理端点。如果您想要免费的本地推理，我们建议您将 Thunderbolt 与 Ollama 或 llama.cpp 一起使用，或者您可以在设置中为任何 OpenAI 兼容的模型提供程序添加 API 密钥。 Thunderbolt 是一款开源、跨平台的 AI 客户端，可以部署在任何地方。 - 🌐 适用于所有主要桌面和
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, llms, on-device-ai
+
+---
+
+### 🌟 [ReMe](https://github.com/agentscope-ai/ReMe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,098
+- **核心概述**: ReMe：代理内存管理套件 - 记住我，完善我。
+- **大概是做什么的**: 适用于 AI 代理的内存管理工具包 — Remember Me, Refine Me。对于旧版本，请参阅0.2.x文档。 ------------------------ ----------------------------------------------------------------- 2026-03-30 上下文管理设计 🧠 ReMe 是一个专为 AI 代理设计的内存管理框架，提供基于文件和基于向量的内存系统。它解决了代理内存的两个核心问题：有限的上下文窗口（早期信息在长时间对话中被截断或丢失）和无状态会话（新会话无法继承历史记录并且总是从头开始）。 ReMe 为代理提供了真实的记忆——旧的对话会自动压缩，重要信息会被持久存储，相关上下文会在未来的交互中自动调用。 ReMe 在 LoCoMo 和 HaluMem 基准测试中取得了最先进的结果；参见实验结果。 ReMe - 个人助理可以做什么：为 QwenPaw 等代理提供长期记忆，记住用户偏好和对话历史记录。 - 编码助手：记录喜欢的代码风格
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, memory, memoryscope, rag, reme
+
+---
+
+### 🌟 [power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development)
+- **项目语言**: C#
+- **星标数量**: ⭐ 711
+- **核心概述**: 适用于 Claude Code 和 GitHub Copilot 的 Power BI AI 技能和 Power BI 代理：Power BI 技能、子代理以及语义模型、DAX、TMDL、报告和 AI 仪表板挂钩的插件市场。包括 Microsoft Fabric 技能和 Fabric 代理。每周更新。
+- **大概是做什么的**: power-bi-agentic-development 一个市场中 Power BI AI 技能和代理开发资源的最佳来源 教授 Claude Code 或 GitHub Copilot Power BI 和 Microsoft Fabric 等 AI 代理 这些技能正在积极开发中，每周发布一次，因此预计会定期重命名和重组。 26.26（下周发布）是一次大型的、破坏性的重组：许多技能将被巩固或消失，并且技能的自动激活程度将降低，因此它们不太适合完全自主的任务，除非您通过明确的参数调用它们。如果您想要稳定，请固定到 26.25。更多信息将于 26.26 版本发布。什么是代理开发？ - 代理开发是指您使用代理来帮助您构建、管理和优化工件和软件。这包括语义模型、报告以及它们周围的事物，例如工作区、部署管道以及流程。 - 市场托管您可以安装的插件。插件是帮助编码代理更好地执行的资源集合。它们通常是特殊指令文件和 SCR
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-development, agents, ai, ai-agents, business-intelligence, claude
+
+---
+
+### 🌟 [agentos](https://github.com/framerslab/agentos)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 581
+- **核心概述**: TypeScript AI 代理框架：认知记忆、运行时工具锻造、多代理编排、11 个 LLM 提供者。
+- **大概是做什么的**: AgentOS · TypeScript AI 代理框架 能够记住、打造自己的工具并在长时间运行的会话中生存的代理。持久的认知记忆、可选的 HEXACO 个性、多代理编排以及跨 11 个 LLM 提供商的一个调度界面。阿帕奇-2.0。基准测试 网站文档 npm Discord 博客 AgentOS 是一个开源 TypeScript 框架，用于 AI 代理，可以记忆、适应和编写自己的工具。 - 顶级开源内存基准测试：LongMemEval-S 上的得分为 85.6%，价格为 0.0090 美元/正确 (gpt-4o)，LongMemEval-M 上的得分为 70.2%，这是唯一一个在 M 上得分高于 65% 且采用可重现方法的开源库。 - 运行时工具锻造。代理使用 Zod 模式编写 TypeScript 函数，LLM 法官批准它，并在加入会话其余部分的目录之前在强化的 Node:vm 沙箱中运行。 - 具有 8 种神经科学支持机制的持久认知记忆：艾宾浩斯衰退、检索诱发的遗忘、重新巩固、来源信心衰退。 - 可选的 HEXACO 个性、6 种编排策略、护栏和跨 11 个 LLM 提供商的语音； 100+ 扩展
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-memory, agentic-ai, ai-agent-framework, ai-agents, autonomous-agents
+
+---
+
+### 🌟 [kiwifs](https://github.com/kiwifs/kiwifs)
+- **项目语言**: Go
+- **星标数量**: ⭐ 685
+- **核心概述**: 适用于代理和团队的 Markdown 文件系统。
+- **大概是做什么的**: 适用于代理和团队的 Markdown 文件系统。可搜索。结构化。版本化。一种二进制，零配置。文档 · API · 故事书 · 示例 · 常见问题解答 · 路线图 · 架构 · 贡献 Markdown 是代理商和开发人员的通用语言，但原始 .md 文件只是文件。没有搜索，没有版本控制，没有结构。当前的解决方案让您做出选择：数据库代理无法读取、只读检索层代理无法写入、消失的临时沙箱或您无法自行托管的专有 SaaS。 KiwiFS 使 Markdown 文件可写、可搜索、可查询、版本化且可读。文件是事实的来源。其他一切都是您可以重建的衍生索引。 62 MCP 工具 与 Claude、Cursor 和任何 MCP 客户端的本机集成。文档 Web UI 块编辑器，具有 wiki 链接、反向链接、知识图和暗模式。通过 go:embed 嵌入到二进制文件中 — 无需部署单独的前端。浏览组件 通过 SQLite FTS5 进行全文 + 矢量搜索 BM25。可插入向量：OpenAI、Ollama、ONNX、Cohere + sqlite-vec、Qdrant、pgvector、Pinecone。文档 Git 版本控制 每次写入都是一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, filesystem, golang, knowledge-base, knowledge-graph, llm-wiki
+
+---
+
 ## 🕔 2026-06-18 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
