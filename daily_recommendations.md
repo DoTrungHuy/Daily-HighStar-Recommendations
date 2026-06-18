@@ -1,3 +1,67 @@
+## 🕔 2026-06-18 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 114 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [9router](https://github.com/decolua/9router)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 17,875
+- **核心概述**: 无限免费人工智能编码。通过 40 多个提供商将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 连接到免费的 Claude/GPT/Gemini。自动回退，RTK -40% 代币，永远不会达到极限。
+- **大概是做什么的**: 9Router - 免费 AI 路由器和令牌节省程序 永远不要停止编码。通过 RTK + 自动回退到免费且廉价的 AI 模型，节省 20-40% 的代币。将所有 AI 代码工具（Claude Code、Cursor、Antigravity、Copilot、Codex、Gemini、OpenCode、Cline、OpenClaw...）连接到 40 多个 AI 提供商和 100 多个模型。 🚀 快速入门 • 💡 功能 • 📖 设置 • 🌐 网站 🇻🇳 Tiếng Việt • 🇨🇳 中文 • 🇯🇵 日本语 • 🇷🇺 Русский 停止浪费金钱、代币和达到限额： - ❌ 订阅配额每月未使用即过期 - ❌ 速率限制阻止您进行中途编码 - ❌ 工具输出（git diff、grep、ls...）会快速燃烧代币 - ❌ 昂贵的 API（每个提供商 20-50 美元/月） - ❌ 提供商之间的手动切换 9Router 解决了这个问题： - ✅ RTK Token Saver - 自动压缩工具结果内容，每个请求节省 20-40% 的代币 - ✅ 最大化订阅 - 跟踪配额，重置前使用每一位 - ✅ 自动回退 - 订阅 → 便宜 → 免费，零停机 - ✅ 多帐户 - 每个提供商的帐户之间循环 - ✅ 通用 - 可与 Claude Code、Codex、Cursor、Cline、任何 CLI 工具配合使用 1. 全局安装：🎉 仪表板在 http://localhost:2 打开
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-gateway, anthropic, chatgpt, claude, claude-code
+
+---
+
+### 🌟 [unstract](https://github.com/Zipstack/unstract)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,662
+- **核心概述**: LLM 驱动的非结构化数据提取 - 专为 API 部署和 ETL 管道工作流程而构建
+- **大概是做什么的**: 将非结构化文档转换为结构化数据 Unstract 使用 LLM 从文档（PDF、图像、扫描件等）中提取结构化 JSON。使用自然语言提示定义要提取的内容，并将其部署为 API 或 ETL 管道。专为金融、保险、医疗保健、KYC/合规等领域的团队而构建。当前状态 vs. Unstract 任务 不使用 Unstract 使用 Unstract ------------------ ------------------ -------------- 模式定义 编写正则表达式，为每个供应商构建模板 编写一次提示，处理变化 新文档类型 开发天数 Prompt Studio 的分钟数 LLM 集成 构建您自己的管道 插入任何提供商（OpenAI、Anthropic、Bedrock、Ollama） 部署 自定义基础设施 ./run-platform.sh 或托管云 输出 非结构化文本 blob 干净的 JSON，为您的数据库做好准备⭐ 如果 Unstract 对您有帮助，请为这个仓库加注星标！ Prompt Studio — 使用自然语言定义文档提取模式。文档 → API 部署 — 通过 REST API 发送文档，获取 JSON。文档 → ETL 管道 — 从文件夹中提取文档，处理它们，加载到您的 war 中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, data-engineering, document-ai, generative-ai, idp, json-extraction
+
+---
+
+### 🌟 [magic-context](https://github.com/cortexkit/magic-context)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 960
+- **核心概述**: 无限的上下文。自我管理的记忆。一堂课，终身受益。海马体用于编码代理，是 CortexKit 的一部分。
+- **大概是做什么的**: 无限的上下文。自我管理的记忆。一堂课，终身受益。海马体用于编码代理，是 CortexKit 的一部分。您不会为一项任务雇用一名开发人员，并在他们交付时解雇他们。别再对你的经纪人这样做了。什么是魔法上下文？ · 什么是魔法语境？你不会雇佣一名开发人员来修复一个错误并在发布后立即解雇他们。你保留好的。他们学习代码库，记住做出决定的原因，并且每周都会变得更加敏锐。编码代理的工作方式相反。每项任务都是新员工，对你的项目没有记忆，在每次会议结束时，你解雇他们并从零开始。在任务进行中，他们甚至会出现“压缩”暂停，从而打破流程并悄悄地放弃他们所知道的内容。这是顺行性遗忘症，与海马体受损时发生的情况相同。 Magic Context 给了他们一个。它是编码代理的海马体，是大脑中形成记忆、巩固记忆并回忆记忆的部分，完全在后台进行。一次会议不再是一次性承包商，而是成为整个项目的长期队友
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-memory, ai, ai-agents, ai-context, ai-memory
+
+---
+
+### 🌟 [portaljs](https://github.com/datopian/portaljs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,282
+- **核心概述**: 🌀 用于构建数据门户的人工智能原生框架。从简短的内容中构建一个完整的门户，并使用代理技能在几分钟内加载数据集 - 任何后端（CKAN、GitHub、Frictionless）。
+- **大概是做什么的**: 用于构建数据门户的人工智能原生框架。描述您想要的门户 - 您的代理帮助您选择架构、构建它并加载您的数据。创建一个门户 — 一个命令，除了 Node 18+ 之外无需安装任何内容：您可以在示例数据上获得三个界面 — 主页、目录 ( /search ) 和数据集展示 ( /@ / )。简单、可编辑的 Next.js，无锁定。将您自己的 CSV/JSON 添加到 datasets.json 中，它会自动呈现。进行组装的技能。安装它们一次（到 /.claude/commands 中）：然后，在任何目录的 Claude Code 会话中： /portaljs-new-portal 搭建三个表面； /portaljs-add-dataset （或 /portaljs-add-resource ）加载数据； /portaljs-connect-ckan 将其指向 CKAN 后端； /portaljs-deploy 运送它。 （所有技能 + 安装 →）更喜欢裸模板 - 简单的 Next.js，没有 AI，没有锁定：您将获得主页、目录 ( /search ) 和数据集展示 ( /@ / )，而不是示例数据。将您自己的 CSV/JSON 添加到 datasets.json 中，它会自动呈现。 ⭐ 如果有用，星星可以帮助其他人找到它。构建数据门户始终意味着不止
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ckan, data-fabric, data-management-platform, data-mesh
+
+---
+
+### 🌟 [python-utcp](https://github.com/universal-tool-calling-protocol/python-utcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 644
+- **核心概述**: UTCP 的官方 python 实现。 UTCP 是一个开放标准，允许 AI 代理直接调用任何 API，无需额外的中间件。
+- **大概是做什么的**: 通用工具调用协议 (UTCP) 通用工具调用协议 (UTCP) 是一种安全、可扩展的标准，用于跨各种通信协议定义工具并与之交互。 UTCP 1.0.0 引入了具有基于插件的架构的模块化核心，使其更具可扩展性、可测试性并且更易于打包。与其他协议相比，UTP 非常强调： 可扩展性：UTP 旨在处理大量工具和提供程序，而不会影响性能。可扩展性：可插拔的架构允许开发人员轻松添加新的通信协议、工具存储机制和搜索策略，而无需修改核心库。互操作性：随着协议插件生态系统（包括 HTTP、SSE、CLI 等）的不断发展，UTP 可以与几乎任何现有服务或基础设施集成。易于使用：该协议建立在简单、定义明确的 Pydantic 模型之上，使开发人员可以轻松实现和使用。存储库结构 该存储库包含完整的 UTCP Python 实现： - core/ - Cor
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, ai-agent-tools, developer-tools, llm, mcp
+
+---
+
+### 🌟 [mlxstudio](https://github.com/jjang-ai/mlxstudio)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 813
+- **核心概述**: MLX Studio - JANG_Q 之家 - 图像生成/编辑 + 聊天/代码多合一 - + OpenClaw（Anthropic API）
+- **大概是做什么的**: Apple Silicon vMLX v2 上用于本地 AI 的本机 macOS 桌面应用程序 — 本机 Swift + Metal，M 系列上为 50-95 t/s。热路径中的 PyTorch 为零。纯 SwiftUI。拖放模型。上面的 Python 面板仍然可用于旧版支持。图像生成 • JANG 量化 • 要求 • MLX Studio 是一款完整的桌面应用程序，用于在 Mac 上本地运行 LLM、VLM 和图像生成模型。没有云，没有 API 密钥，没有数据离开您的机器。支持 mlx-community 上的所有模型 - Qwen、Llama、Mistral、Gemma、Phi、DeepSeek 等等。基于 vMLX 引擎和 Apple 的 MLX 框架构建。 JANG 2 位在 MiniMax M2.5 上破坏了 MLX 4 位： 量化 MMLU (200q) 大小 JANG\ 2L（2 位） 74% 89 GB MLX 4 位 26.5% 120 GB MLX 3 位 24.5% 93 GB MLX 2 位 25% 68 GB 自适应混合精度量化使关键层保持更高的精度，同时压缩其余部分。在 jangq.ai 上查看分数。 JANGQ-AI 的模特。选项 1：下载应用程序（推荐） 1. 下载 vMLX-X.Y.Z-arm64.dmg 2. 打开 DMG 并拖至应用程序 3. 启动 - 就是这样 所有版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anthropic, anthropic-api, apple-silicon, inference
+
+---
+
 ## 🕔 2026-06-18 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
