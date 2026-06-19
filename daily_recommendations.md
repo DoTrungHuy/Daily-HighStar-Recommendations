@@ -1,3 +1,67 @@
+## 🕔 2026-06-19 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [solace-agent-mesh](https://github.com/SolaceLabs/solace-agent-mesh)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,920
+- **核心概述**: An event-driven framework designed to build and orchestrate multi-agent AI systems. It enables seamless integration of AI agents with real-world data sources and systems, facilitating complex, multi-step workflows.
+- **大概是做什么的**: 用于构建事件驱动的多代理 AI 系统的开源框架 Solace Agent Mesh 是一个支持构建 AI 应用程序的框架，其中多个专门的 AI 代理协同工作来解决复杂问题。 It uses the event messaging of Solace Platform for true scalability and reliability. With Solace Agent Mesh (SAM), you can create teams of AI agents, each having distinct skills and access to specific tools.例如，您可以拥有一个可以进行 SQL 查询来获取数据的数据库代理，或者一个可以帮助创建图像、音频文件和报告的多模式代理。 The framework handles the communication between agents automatically, so you can focus on building great AI experiences. SAM 创建标准化通信层，AI 代理可以在其中： 将任务委托给对等代理 共享数据和工件 连接不同的用户界面和外部系统 以最小耦合执行多步骤工作流程 SAM 构建于 Solace AI Connector (SAC) 之上，允许 Solace Platform Event Brokers 连接到 AI 模型和服务以及 Google 的 Agent Devel
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agentframework, agentic, agentic-ai, agentic-framework, agentic-workflow
+
+---
+
+### 🌟 [linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,420
+- **核心概述**: LinkedIn 的开源 MCP 服务器。为 Claude 和任何与 MCP 兼容的 AI 代理提供对个人资料、公司、职位和消息的访问权限。
+- **大概是做什么的**: LinkedIn 的 MCP 服务器免责声明：这是一个独立的社区项目。它不隶属于 LinkedIn Corporation 或 Microsoft，也不由其授权、认可或赞助。 “LinkedIn”是 LinkedIn Corporation 的注册商标，此处仅用于描述性识别与该软件交互操作的第三方服务。 MCP 服务器可让 Claude 等 AI 助手通过您自己登录的浏览器会话读取 LinkedIn 数据。访问个人资料和公司、搜索职位或获取职位详细信息。该 MCP 服务���是免费且开源的，由 Unipile 支持。它使用您自己的浏览器会话在本地运行。 Unipile 是完全托管的云替代方案：适用于 Classic、Sales Navigator 和 Recruiter 的 LinkedIn API，可为您处理所有基础设施，并具有白标签身份验证（无需扩展名的凭据登录、验证码解决、应用内验证、OTP/2FA、地理代理）、实时 Webhook、个人资料/公司/帖子提取和搜索以及外展序列（邀请、InMail、消息、帖子评论）。免费试用所有功能 7 天 → 安装
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, anthropic, chatgpt, chatgpt-desktop, claude, claude-ai
+
+---
+
+### 🌟 [secure-exec](https://github.com/rivet-dev/secure-exec)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 903
+- **核心概述**: 无需沙箱即可安全执行 Node.js 用于安全执行 Node.js 的轻量级库。没有容器，没有虚拟机——只有开箱即用的与 npm 兼容的沙箱。
+- **大概是做什么的**: 无需沙箱即可安全执行 Node.js 用于安全执行 Node.js 的轻量级库。没有容器，没有虚拟机——只有开箱即用的与 npm 兼容的沙箱。由与 Cloudflare Workers 相同的技术提供支持。 Documentation — API Reference — Discord Example: Kernel-first code execution Create a kernel, mount a Node runtime, and execute code in an isolated V8 sandbox.示例：具有安全代码执行功能的 AI 代理 让您的代理能够安全地编写和运行代码。此示例使用 Vercel AI SDK，但 secure-exec 适用于任何工具使用框架。让您的 AI 代理能够安全地编写和运行代码。 - 无需基础设施——无需 Docker 守护进程、无需虚拟机管理程序、无需编排器。在 Node.js、Bun 或 HTML5 浏览器运行的任何地方运行。部署到 Lambda、VPS 或静态站点 - 您现有的部署可以正常工作。 - Node.js 和 npm 兼容性 — fs、子进程、http、dns、进程、操作系统 — 桥接到真实主机功能，而不是存根。运行 Express、Hono、Next.js 和任何 npm 包。兼容性矩阵 → - 专为 AI 代理而构建 — 让您的 AI 代理能够编写和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, code-execution, code-interpreter, llm
+
+---
+
+### 🌟 [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,125
+- **核心概述**: 破坏性命令防护 (dcg) 用于阻止代理执行危险的 git 和 shell 命令。
+- **大概是做什么的**: dcg（破坏性命令防护）用于 AI 编码代理的高性能挂钩，可在执行前阻止破坏性命令，从而保护您的工作免遭 Claude Code、Codex CLI、Gemini CLI、Copilot、Cursor、Hermes Agent、Grok (xAI) 和相关工具的意外删除。支持：Claude Code、Codex CLI 0.125.0+、Gemini CLI、GitHub Copilot CLI、Cursor IDE、Hermes Agent、Grok (xAI)（原生 /.grok/hooks/ 加上 Claude 兼容层）、Antigravity CLI ( agy )（通过 dcg install --agy 原生 /.gemini/config/hooks.json ）、OpenCode（通过社区插件）、Pi（通过扩展配方）、 Aider（仅限 git hooks）、Continue（仅限检测）适用于 Linux、macOS 和 Windows (WSL)。自动检测您的平台，下载正确的二进制文件，并配置支持的代理挂钩，包括 Claude Code、Codex CLI、Gemini CLI、GitHub Copilot CLI、Cursor IDE、Hermes Agent 和 Grok (xAI)（通过 dcg install --grok 获取本机 /.grok/hooks/dcg.json ，或通过 Grok 自动选取的 Claude 兼容层）。问题：AI 编码代理（Claude、Codex、Gemini、Copilot 等）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, developer-tools, git, rust, safety
+
+---
+
+### 🌟 [open-agent-hub](https://github.com/guanyang/open-agent-hub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 912
+- **核心概述**: 一个轻量级、零依赖的 CLI 工具，用于管理和激活 AI 编码助手的功能（例如 Claude Code、Cursor、Trae 等）。
+- **大概是做什么的**: 一个轻量级、零依赖的 CLI 工具，用于管理和激活 AI 编码助手的功能（例如 Claude Code、Cursor、Trae 等）。使用单个命令，您可以将技能（模块化提示）、代理（专家工作流程角色）和命令（斜杠命令）链接到项目工作区或全局系统配置。 📂 目录结构（注： AGENTS.md 、 CLAUDE.md 和 GEMINI.md 包含项目级 LLM 编码行为指南，源自 andrej-karpathy-skills） 📖 技术指南和文档 为了维护干净且重点突出的文档，深入规范已移至 docs/ 目录下。���参考：🧩技能指南：设计标准、触发规则以及83+模块化技能的完整目录。 🤖 代理指南：协调器、评估器和优化器代理角色的规范，详细说明了移交合同和评估器-优化器循环。 🛠 命令指南：面向代理的斜线命令指南（例如 /commit 、 /review 和 /test-tdd ）。 open-agent-hub 使用 YAML frontm 遵循标准化 Markdown 提示
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-skills, anthropic-skills, claude-code, cli-tool
+
+---
+
+### 🌟 [rulesync](https://github.com/dyoshikawa/rulesync)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,178
+- **核心概述**: 用于 AI 编码代理的实用 CLI
+- **大概是做什么的**: 文档 npm 一个 Node.js CLI 工具，可以从统一的 AI 规则文件自动生成各种 AI 开发工具的配置文件。具有选择性生成、全面的导入/导出功能，并支持主要的人工智能开发工具，包括规则、命令、MCP、忽略文件、子代理和技能。如果您对 Rulesync 最新消息感兴趣，请关注维护者的 X(Twitter) 帐户：请参阅安装文档以获取手动安装和特定于平台的说明。如果您已经拥有 AI 工具配置：想要将配置从一种 AI 工具直接转换为另一种，而不采用 .rulesync/source-of-truth 工作流程？有关更多详细信息，请参阅快速入门指南。支持的工具和功能 下表显示每个工具是否支持给定功能（✅ = 支持，空白 = 不支持）。 ✅ 表示该功能至少在一种模式（项目、全局或模拟）下受支持 — 例如，Codex CLI 命令仅限全局。对于每个工具的 --targets 值和完整模式细分（项目/全局/模拟/MCP 工具配置），请参阅支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, llm, mcp, rules
+
+---
+
 ## 🕔 2026-06-18 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
