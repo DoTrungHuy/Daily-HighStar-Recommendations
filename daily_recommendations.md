@@ -1,3 +1,67 @@
+## 🕔 2026-06-19 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,082
+- **核心概述**: 🚀 EvoAgentX：构建人工智能代理的自我进化生态系统
+- **大概是做什么的**: 构建人工智能代理的自我进化生态系统 EvoAgentX 是一个开源框架，用于以自动化、模块化和目标驱动的方式构建、评估和发展基于 LLM 的代理或代理工作流程。从本质上讲，EvoAgentX 使开发人员和研究人员能够超越静态提示链接或手动工作流程编排。它引入了一个自我进化的代理生态系统，可以通过迭代反馈循环构建、评估和优化人工智能代理，就像不断测试和改进软件一样。 - 🧱 代理工作流程自动构建 根据单个提示，EvoAgentX 可以构建针对任务量身定制的结构化、多代理工作流程。 - 🔍 内置评估它集成了自动评估器，使用特定于任务的标准对代理行为进行评分。 - 🔁 自我进化引擎代理不仅能工作，还能学习。 EvoAgentX 使用自我进化算法改进工作流程。 - 🧩 即插即用兼容性通过（LiteLLM、siliconflow 或 openrouter）轻松集成原始 OpenAI 和 qwen 或其他流行模型，包括 Claude、Deepseek、kimi 模型。如果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, llms, memory, multi-agent-systems
+
+---
+
+### 🌟 [no-cost-ai](https://github.com/zebbern/no-cost-ai)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,702
+- **核心概述**: 80 多个免费 AI 服务，用于聊天、图像、视频、语音和 API（有时可能包括免费访问领先一代 AI 模型）
+- **大概是做什么的**: 花 0 美元购买 Ai-Models！欢迎并赞赏开发人员、研究人员和好奇的构建者贡献的生活索引！无需注册 图片/视频/聊天生成 nocostai.vercel.app 排行榜 • 贡献 openrouter.ai/rankings Openrouter 排行榜排名 alpaca eval 指令跟踪能力与 GPT-4 开放 llm 排行榜 跨域评估)4 k 开源 LLM 聊天机器人-arena-leaderboard 众包 Elo 聊天模型排名 mteb/排行榜 100 多种语言， 1000 + NLP 任务 Artificialanalysis.ai 基于独立评估的领先人工智能模型的智能 yupp.ai/leaderboard 基于 Yupp.ai 反馈的用户反馈 使用 lmarena.ai/leaderboard 基于众包投票链接 自由模型 限制 lmarena.ai 40+ 无限制 g4f.dev 200+ 吨本地模型 无限制 meta.ai Llama 4 无限制/未知 sharechat.cn gpt-4o 、 o3 、 o3-pro 、 o4-mini 、 o4-mini-high 无限制，但可能很难得到响应，因为许多其他人也使用它，但它确实有效 phind.com Phind-70B 无限制 groq.com 15+ 30 个请求/分钟，40 000 个令牌/分钟 chatgpt.co
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-list, audio-ai, chat-ai, claude
+
+---
+
+### 🌟 [SWE-AF](https://github.com/Agent-Field/SWE-AF)
+- **项目语言**: Python
+- **星标数量**: ⭐ 883
+- **核心概述**: 用于 AgentField 上生产级 PR 的 AI 代理的自主软件工程团队：计划、编码、测试和交付。
+- **大概是做什么的**: 基于 AgentField 构建的自主工程团队运行时 发音：“swee-AF”（一个词）一次 API 调用 → 完整的工程团队 → 交付代码。一次 API 调用就可以组建一支完整的自主工程团队——产品经理、架构师、编码员、审阅者、测试员——端到端地确定、构建、调整和交付复杂的软件。 SWE-AF 是迈向自主软件工程工厂的第一步，从简单的目标扩展到具有数百到数千个代理调用的硬性多问题程序。使用 af CLI 触发它（需要 af ≥ 0.1.87）——它会传输实时进度并打印结果：更喜欢原始 HTTP？直接使用curl访问API：将 models.default 和任何角色键（ coder 、 qa 、architect 等）交换到运行时支持的任何模型。 SWE-AF 以两种模式工作：将其指向单个存储库，或在一个构建中跨多个存储库协调协调更改。单存储库模式 默认。通过存储库 URL（远程）或存储库路径（本地），SWE-AF 处理一切： 多存储库模式 当您的工作跨越多个代码库时 — 主应用程序加上共享库
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-factory, agentfield, agentic-ai, ai-agents, ai-factory, autonomous-agents
+
+---
+
+### 🌟 [opentabs](https://github.com/opentabs-dev/opentabs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 793
+- **核心概述**: 浏览器自动化点击按钮。 OpenTabs 调用 API。
+- **大概是做什么的**: 文档  ·  插件  ·  Discord 你的 AI 通过你的浏览器会话调用真正的 Web API——没有屏幕截图，没有 DOM 抓取。 AI 发送 Discord 消息并添加反应 — 真正的 API 调用，而不是浏览器自动化 1. 安装 CLI 并加载 Chrome 扩展程序 2. 连接 — 该扩展程序将您的浏览器桥接到本地服务器 3. 使用 — 您的 AI 通过经过身份验证的会话调用 Web API 没有 API 密钥。没有 OAuth 设置。如果您已登录，您的 AI 就可以使用它。适用于任何 MCP 客户端。不想要MCP？请改用 CLI 模式。需要 Node.js 22+ 和 Chrome。从 chrome://extensions/ 中的 /.opentabs/extension 加载扩展（开发者模式 → 加载解压）。完整演练：快速入门指南 - 100 多个插件、2,000 个工具。 Slack、Discord、GitHub、Jira、Notion、Figma、AWS、Stripe 等等。一个命令即可安装，立即生效。 - 内置浏览器工具。屏幕截图、点击、打字、网络捕获——适用于任何选项卡，无需插件。 - 建立你自己的。用一个命令搭建一个插件，发布到 npm，任何人都可以安装它。或者指向你的AI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, chrome, chrome-extension, claude-code, mcp
+
+---
+
+### 🌟 [output](https://github.com/growthxai/output)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 422
+- **核心概述**: 用于构建 AI 工作流程和代理的开源 TypeScript 框架。专为 Claude 设计 代码描述您想要的内容，Claude 构建它，并已采用所有最佳实践。
+- **大概是做什么的**: 用于构建 AI 工作流程和代理的开源 TypeScript 框架。专为 Claude 代码而设计 — 描述您想要的内容，Claude 构建它，并已采用所有最佳实践。一个框架。提示、评估、跟踪、成本跟踪、编排、凭证。没有 SaaS 碎片。没有供应商锁定。您的代码库中的所有内容，您的 AI 编码代理可以访问的所有内容。 ▶ 观看使用 Output 构建新闻通讯管道的完整示�� AI 堆栈的每个部分都将成为单独的订阅。一种工具中的提示。另一个的痕迹。评估第三个。跨五个仪表板的成本跟踪。他们谁也不互相说话。其中一半将在您的产品发货之前被收购或关闭。输出将一切整合在一起。从数千个生产 AI 工作流程中提取的一个 TypeScript 框架。最佳实践让初学者从第一天起就交付专业代码，而经验丰富的人工智能工程师则不再重建相同的基础设施。 Output 是第一个为 AI 编码代理设计的框架。整个代码库是结构化的，因此 Claude Code 可以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-sdk, claude, claude-code
+
+---
+
+### 🌟 [hackerai](https://github.com/hackerai-tech/hackerai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 590
+- **核心概述**: 通过与 AI 聊天查找并修复漏洞
+- **大概是做什么的**: 您的 AI 支持的渗透测试助手 您将需要以下帐户： - OpenRouter - AI 模型提供商 - OpenAI - 内容审核 - E2B - 用于在代理模式下安全执行代码的沙盒环境 - Convex - 数据库和后端 - WorkOS - 身份验证和用户管理 - Trigger.dev - 代理任务所需的持久运行时 - Amazon S3 - 文件存储（Convex 存储的替代方案） - Perplexity - Web 搜索功能 - Jina AI - Web URL 内容检索 - Redis -流恢复 - Upstash Redis - 速率限制 - PostHog - Analytics - Stripe - 付款处理 导航到项目目录 安装依赖项 运行设置脚本 启动开发服务器 这将运行 Next.js 和 Convex 开发服务器：或者在两个终端中单独运行它们： 运行 Trigger.dev 工作线程 代理模式在 Trigger.dev 任务上运行代理循环。要在本地使用代理： 1. 在 https://cloud.trigger.dev 创建一个项目，并将您的开发密钥 ( tr dev … ) 复制到 .env.local 作为 TRIGGER SECRET KEY 。 2. 在 Trigger.dev 仪表板→您的项目→环境变量中，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, nextjs, react, typescript
+
+---
+
 ## 🕔 2026-06-19 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 114 个候选项目中筛选出 6 个未推荐过的新项目。
