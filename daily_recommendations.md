@@ -1,3 +1,67 @@
+## 🕔 2026-06-19 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-code-book](https://github.com/lintsinghua/claude-code-book)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,699
+- **核心概述**: 《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站：
+- **大概是做什么的**: "一器而工聚焉者，车为多。" ——《考工记》 两千年前，造一辆马车是最复杂的系统工程： 舆 承载乘者，辕定方向，辐传动力，軎辖为约束——每个构件各司其职，合而为一，车方能行。 今天，构建一个 AI Agent 亦是如此：对话循环为 辕 ，工具系统为 辐 ，权限管线为 軎辖 ，而将这一切承载于其上、使智能体真正运转的运行时框架—— Agent Harness——正是那个 舆 。 古人御舆，驾驭的是天地之间最精密的机械；今人御舆，驾驭的是硅基时代最复杂的智能体系统。 当所有人都在教你怎么 用 AI Agent—— 这本书带你拆开它。 对话循环如何驱动？工具权限为何是四阶段管线？上下文压缩怎样在 token 预算内运转？子智能体如何通过 Fork 继承父级上下文？ 读懂 Claude Code 的设计决策，你就拥有了一套 可迁移到任何 Agent 框架 的心智模型。 不做使用教程，不列 Prompt 技巧。 市面上充斥着"如何写好 Prompt"和"如何调用 Agent API"的指南。但如果你想知道一个生产级 Agent 系统的 骨架 是怎么搭的——几乎没有资料可查。这本书填补了这个空白。 架构分析而非 API 文档 不讲"怎么调用"，讲"为什么这样设计"——追溯动机、分析权衡、指出反模式 设计哲学而非使用教程 从异步生成器到断路器模式，每章提炼可迁移的设计原则 可迁���的认知模型 无论你用 LangChain、AutoGen、CrewAI 还是从零构建，书中 139 张架构图直接复用 全书字数 42 万字（中文）/ 75K+ words（English） Mermaid 架构图/流程图/状态机 139 张 覆盖核心子系统 工具系统、权限管线、上下文压缩、记忆系统、钩子系统、子智能体调度、MCP 集成、技能插件、流式架构、Plan 模式 分析的设计决策 50+ 个"为什么这样设计" 声明： 本书基于对 Claude Code 公开文档和产品行为的架构分析编写，未引用、未使用任何未公开或未授权的源码。Claude Code 为 Anthropic PBC 产品，本书不隶属于、未获授权于、也不代表 Anthropic。 时间紧张？ 01 → 02 → 04 → 15，拿到核心认知和动手能力就够用 有经验？ 直接读 Part 2 + Part 3，遇到概念缺口回溯 Part 1 系统学习？ 从头到尾，每章做练习，最后 Ch15 构建自己的 Harness（约 2–3 周） 查资料？ 直接翻 附录 A（模块定位）/ B（工具）/ C（功能标志）/ D（术语） Part 1.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-architecture, ai-agent, anthropic, book, chinese
+
+---
+
+### 🌟 [cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,831
+- **核心概述**: 基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。| An open-source Cultivation World Simulator using Agentic Workflow to create a dynamic, emerging Xianxia world.
+- **大概是做什么的**: 简体中文 · 繁体中文 · English · Tiếng Việt · 日本语 修仙世界模拟器 (Cultivation World Simulator) 你将作为“天道”，观察一个由规则系统与 AI 共同驱动的修仙世界模拟器自行演化。 全员 LLM 驱动、群像涌现叙事，桌面版已在 Epic Games Store 免费发布，也支持 Docker 部署、源码开发与二次创作。 这是一个 AI 驱动的修仙世界模拟器 。 模拟器中，每一个修士都是独立的Agent，可以自由观测环境并做出决策。同时，为了避免AI的幻觉与过度发散，编入了复杂灵活的修仙世界观与运行规则。在规则与 AI 共同编织的世界中���修士Agent们与宗门意志相互博弈又合作，新的精彩剧情不断涌现。你可以静观沧海桑田，见证门派兴衰与天骄崛起，也可以降下天劫或魔改心灵，微妙地干预世界进程。 - 👁️ 扮演“天道” ：你不是修士，而是掌控世界规则的 天道 。观察众生百态，体味苦辣酸甜。 - 🤖 全员 AI 驱动 ：每个 NPC 都独立基于LLM驱动，都有独立的性格、记忆、人际关系和行为逻辑。他们会根据即时局势做出决策，会有爱恨情仇，会结党营私，甚至会逆天改命。 - 🌏 规则作为基石 ：世界基于灵根、境界、功法、性格、宗门、丹药、兵器、武道会、拍卖会、寿元等元素共同组成的严谨体��运行。 AI 的想象力被限制在合理又足够丰富的修仙逻辑框架内，确保世界真实可信。 - 🦋 涌现式剧情 ：开发者也不知道下一秒会发生什么。没有预设剧本，只有无数因果交织出的世界演变。宗门大战、正魔之争、天骄陨落，皆由世界逻辑自主推演。 - 想改代码或调试 ：使用源码部署，并准备 Python 3.10+ 、Node.js 18+ 和可用的模型服务。 - 想直接体验 ：可前往 Epic Games Store 免费获取桌面版；也可以使用 Docker 一键部署。 - 如需快速查阅世界信息、动作、宗门等资料，可在 tools/wiki 生成本地辅助 wiki。 - 使用 Epic 桌面版时，启动后按设置页提示确认模型配置，即可开始新游戏。 - 使用源码或 Docker 时，首次进入后需要先在设置页配置可用的模型预设（如 DeepSeek / MiniMax / Ollama），再开始新游戏。 - 开发模式下，前端页面通常会自动打开；如果没有自动打开，请访问启动日志中显示的前端地址。 方式零：Epic Games Store 桌面版 1. 前往 Epic Games Store 免费获取并安装。 2. 启动游戏后，按设置页提示确认模型配置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai, ai-agents, ai-native, autonomous-agents, cultivation
+
+---
+
+### 🌟 [ai-factory](https://github.com/lee-to/ai-factory)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 970
+- **核心概述**: 您希望使用 AI 进行构建，但设置正确的上下文、提示和工作流程需要时间。 AI Factory 会处理所有这些事情，因此您可以专注于重要的事情 - 交付质量代码。
+- **大概是做什么的**: 停止配置。开始建造。您希望使用 AI 进行构建，但设置正确的上下文、提示和工作流程需要时间。 AI Factory 会处理所有这些事情，因此您可以专注于重要的事情 - 交付质量代码。一声令下。完整的人工智能驱动的开发环境。 - 零配置 - 安装相关技能，配置集成 - 内置最佳实践 - 日志记录、提交、代码审查，全部遵循行业标准 - 规范驱动的开发 - 人工智能遵循计划，而不是随机探索。可预测、可恢复、可审查 - 社区技能 - 利用 Skills.sh 生态系统或生成自定义技能 - 与堆栈无关 - 适用于任何语言、框架或平台 - 多代理支持 - Claude Code、Cursor、Windsurf、Roo Code、Kilo Code、Antigravity、OpenCode、Warp、Zencoder、Codex CLI、Codex 应用程序、GitHub Copilot、Gemini CLI、Junie、Qwen Code 或任何代理 - 询问您使用（或使用哪个 AI 代理） --agents 标志） - 安装相关技能（或使用 --skills 标志） - 配置 MCP 服务器（或使用 --mcp 标志） 然后打开您的 AI 代理并开始工作： Codex CLI 和 Codex 应用程序使用 $a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-skills, spec-driven-development
+
+---
+
+### 🌟 [codexia](https://github.com/milisp/codexia)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 730
+- **核心概述**: Codex CLI + Claude Code 的轻量级代理工作站 — 带有任务调度程序、git 工作树和远程控制、技能管理
+- **大概是做什么的**: Codexia 是一款适用于 Codex CLI + Claude Code 的 Tauri v2 应用程序 — 在一个工作区中结合了代理工作流程、类似 IDE 的编辑器、无头 Web 服务器和提示记事本。 - 代理工作流程：用于重复作业的任务计划程序，通过无头 Web 服务器进行远程控制 - 工作空间：Git 工作树管理、项目文件树、类似 IDE 的编辑器、提示记事本、本地 Web 预览 - 数据工具：一键 PDF / XLSX / CSV 预览 - 生态系统：MCP 服务器市场、代理技能市场 - 个性化：主题和口音定制、使用情况分析仪表板 预构建版本（macOS / Linux / Windows） - 现代 GitHub 发布镜像 - 代理工具：用于Codex 或 Claude 代码 - 代理技能市场：提示工作流程和任务自动化。 - MCP 服务器市场：使用本地或远程 MCP 工具扩展代理功能。每周市场聚焦 👉 拥有出色的服务器或技能？我们在每周焦点中展示优秀的社区提交内容，并将它们同步到内置的应用程序市场中。请参阅 CONTRIBUTING.md 提交您的！特色代理工具 - 接力棒 - 本地代码
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agents, awesome, chatgpt, claude-code
+
+---
+
+### 🌟 [SkillNet](https://github.com/zjunlp/SkillNet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,049
+- **核心概述**: 创建、评估和连接 AI 技能
+- **大概是做什么的**: SkillNet：人工智能技能操作系统搜索、安装、评估和连接可重用的人工智能技能。 SkillNet 将人工智能代理技能视为一流的软件资产。它提供公共技能库、Python SDK、CLI、质量评估和技能图。 SkillNet 是用于构建和重用人工智能代理技能的开放基础设施。技能可以打包指令、元数据、参考、脚本和评估结果，以便代理可以安装、检查并稍后再次使用。当您想要执行以下操作时，请使用 SkillNet： - 在客服人员重��相同功能之前查找现有技能。 - 将公共 GitHub 存储库中的技能安装到本地代理工作区中。 - 从存储库、办公文档、提示或执行跟踪中创建新技能。 - 评估五个质量维度的技能。 - 构建一个本地图表，显示技能之间的相互关系。安装Python包：搜索并下载技能：搜索和公共GitHub下载不需要凭据。当您使用 LLM 创建、评估或分析时，请设置 API KEY。 - [2026-03-26] 九纹爪整合
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-skills, artificial-intelligence, knowledge-graph, large-language-models, natural-language-processing
+
+---
+
+### 🌟 [nudgebee](https://github.com/nudgebee/nudgebee)
+- **项目语言**: Go
+- **星标数量**: ⭐ 372
+- **核心概述**: 具有 AI-SRE、AI-FinOps、AI-K8sOps 和 Agentic Automation Builder 的统一 CloudOps 平台，无需分散的工具、上下文切换或模型锁定。
+- **大概是做什么的**: 开源 SRE 副驾驶 - 跨 Kubernetes 和 AWS / Azure / GCP 的可观察性、FinOps、运行手册自动化和事件响应。 Nudgebee 是一个开源 SRE 副驾驶，可以监视您的 Kubernetes 集群和 AWS / Azure / GCP 帐户，将原始信号转化为排名结果，并引导操作员进行调查和修复。它捆绑了： - 可观察性摄取 - Kubernetes 事件、指标、跟踪，以及跨 AWS、Azure 和 GCP 的云提供商扫描。 - FinOps 和成本优化 — 跨云和 Kubernetes 显示未使用/未充分利用的资源（空闲工作负载、超大 Pod、过时快照、悬空卷）以及适当规模建议。 - 由法学硕士支持的分类——代理规划器，可以重现事件、找出根本原因并提出解决方案。 - ChatOps — 适用于 SRE 工作流程的 Slack / Teams 聊天机器人：查询状态、运行运行手册、确认警报，并从已存在待命通道的渠道推动调查。 - 运行手册自动化 — 将重复修复编写为可重复使用的运行手册，并从聊天、警报或计划中触发它们。 - 票务 + 通知 — 双向同步
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, ai-agents, aiops, aws, azure, cost-optimization
+
+---
+
 ## 🕔 2026-06-19 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
