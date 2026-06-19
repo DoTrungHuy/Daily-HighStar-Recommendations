@@ -1,3 +1,67 @@
+## 🕔 2026-06-19 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 80 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [n8n-claw](https://github.com/freddy-schuetz/n8n-claw)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 509
+- **核心概述**: 受 OpenClaw 启发的自主 AI 代理完全用 n8n 构建。自适应 RAG 支持的内存、通过 MCP 模板获得的技能、具有委派子代理的专家代理、主动任务管理、媒体理解 - 通过一个设置脚本进行自托管
+- **大概是做什么的**: n8n-claw — 自托管 AI 代理 一个基于 n8n + PostgreSQL + Claude 构建的完全自托管 AI 代理。通过 Telegram 或 HTTP API（Slack、Teams、自定义应用程序）与您交谈，构建自己的 MCP 工具，管理提醒和内存 - 所有这些都在您自己的基础设施上运行。 https://github.com/user-attachments/assets/10b7b93d-f482-47c1-a144-80a1b9d1be16 - 连接 Claude Desktop、ChatGPT、Claude Code、Lovable 和 Cursor - Webhook API 和外部集成 - MCP 技能库 - Google 服务 (OAuth2) - OpenClaw 集成 - 构建自定义 MCP 技能 - 提醒和计划操作 - 心跳和计划操作 - 替代 LLM 提供商 - 从 Telegram 切换到 WhatsApp - Postgres 17 升级 - 使用 Claude 代码的 WorkflowBuilder 用自然语言与您的代理交谈 - 它管理任务，记住对话中的上下文，构建 API 集成，并主动让您保持在正轨上。 - Telegram 聊天 — 通过 Telegram 直接与您的 AI 代理交谈 - Webhook API — 通过 HTTP 从任何外部系统调用代理（Slack、Teams、Paperclip、自定义应用程序） - 丰富的长期记忆 — 混合搜索
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agent, ai-agent-framework, ai-agents, ai-agents-framework
+
+---
+
+### 🌟 [recomby-geo](https://github.com/ViryaZheng/recomby-geo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 521
+- **核心概述**: GEO ��域 AI 员工开源方案 · Open-source GEO AI-employee solution (MIT). GEO Skills package + curated lists of agents and office CLIs that make up the AI-employee stack.
+- **大概是做什么的**: 把 Agent、办公 CLI、GEO 专业知识 skills 整合成一套 协作型 AI 员工方案 ——给你的 agent 装上 GEO skills，让它跟你的业务专家一起干 GEO 协作活儿。 alpha · 零外部依赖 · 零 API Key · 安装与使用 · 更新日志 · English 不是「AI 替代员工」，是一个 虚拟岗位的组装产物 。四块拼起来才是 AI 员工，缺一不可： 角色 提供者 本项目集合 / 开发 ------ -------- -------------------- 业务专家 你自己 / 客户团队 — Agent CC / Codex / OpenCode / ... 生态 ✓ 集合 → agents.md 数据 + CLI 脚手架 飞书 / 钉钉 / Slack / Notion ... ✓ 集合 → clis.md GEO Skills 本项目自研 + vendor 开源 ✓ 主战场 → plugins/recomby-geo/skills/ 我们做三件事： 集合主流 Agent CLI、集合国内外办公软件 CLI、封装 GEO 专业知识 skills 。 我们持续投入的主战场：GEO Skills plugins/recomby-geo/ （commands + skills + schemas）是本项目长期维护、未来持续优化的主要方向 ，MIT 许可证，可商用、可修改、可分发。 我们做的事是把 GEO 领域的专业知识封装成 agent 可调用的 skills，加上完整的 7 阶段协作工作流命令——这是仓库里 我们持续投入、迭代、维护的核心资产 。其中很多结构和方法论参考了 Princeton KDD 2024、Auriti Labs、awesome-geo 等开源工作，我们做的是组装、打磨、面向 AI 员工场景重新封装。 agents.md 和 clis.md 不是产品的另一部分——它们是 方案架构说明页 ：讲清楚我们的 GEO skills 在「业务专家 + Agent + 办公 CLI + Skills」这套 AI 员工方案里处于什么位置，配合哪些 agent / CLI 工作。读者可以从那两页知道生态全貌，但 主战场是 skills 。 这套方案天然 Local-first ——这是相比 SurferSEO / Frase / Clearscope 这类必须把客户数据上传到云端的 SaaS GEO 工具，最关键的差异化： - Agent 可接本地模型 — CC/Codex 等都支持本地 LLM（Ollama / vLL
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-cli, ai-agent, ai-coworker, ai-employee, ai-workforce, anthropic
+
+---
+
+### 🌟 [Mantic.sh](https://github.com/marcoaapfortes/Mantic.sh)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 550
+- **核心概述**: 人工智能智能体的结构代码搜索引擎。
+- **大概是做什么的**: Mantic 是一个上下文感知代码搜索引擎，它优先考虑相关性而不是原始速度。经过 5 个存储库（cal.com、next.js、tensorflow、supabase、chromium）的测试后，它表现出了比 grep/ripgrep 更高的结果质量，尽管对于非常大的代码库在速度上存在一些权衡。总体评估：4/5 - 非常适合 AI 代理，适合开发人员，需要针对 100K+ 文件存储库进行速度优化。 v1.0.25 企业级上下文基础设施中的新增功能 - 语义重新排名（混合智能）：将启发式速度与神经理解相结合。使用本地嵌入 (transformers.js) 来查找“概念相关”的代码，即使没有精确的关键字匹配。 - 用法：mantic“验证用户”--语义 - 代码智能：使用 Tree-sitter 深入了解代码库结构。 - 转到定义：mantic goto UserService 返回整个 monorepo 中的确切行号。 - 查找引用：mantic 引用 handleLogin 查找所有用法，尊重 .gitignore 。 - 学习背景（团队记忆）：Mantic 现在可以记住之前解决的文件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude, code-search, context-retrieval, cursor, developer-tools
+
+---
+
+### 🌟 [cordum](https://github.com/cordum-io/cordum)
+- **项目语言**: Go
+- **星标数量**: ⭐ 483
+- **核心概述**: 打开代理控制平面。通过预执行策略执行、审批门和审计跟踪来管理自主人工智能代理。可与 LangChain、CrewAI、MCP 和任何框架配合使用。
+- **大概是做什么的**: 了解您的人工智能代理在做什么。在他们这样做之前。用于治理、安全和信任的可用源代理控制平面。包括 Cordum Edge — 用于 Claude Code 和其他本地 AI 代理操作的合规防火墙。 Discord · 讨论 · 文档 一个命令构建了完整的堆栈 — API 网关、调度程序、安全内核、工作流引擎、上下文引擎、仪表板、NATS 和 TLS 保护的 Redis — 具有自动生成的机密、自动配置的证书和部署后冒烟测试，可进行真正的先决条件：Docker Desktop v4+（或带有 Compose v2 的 Engine v20.10+，已分配 ≥ 4 GB RAM）、Go 1.24+ （用于首次运行的证书生成）和curl。在 Windows 上使用 MSYS2 / Git Bash / WSL。最后你会得到什么： - 仪表板位于 http://localhost:8082 - 以 admin / ChangeMe123 身份登录！ （默认的开发密码，也作为 CORDUM ADMIN PASSWORD 保存到 .env 中；在公开堆栈之前更改它）。 - 网关位于 http://localhost:8081，并在 ./certs/ 下的 TLS CA、服务器和客户端密钥对中生成了 CORDUM API 密钥。 - 经内置平台验证的有效审批门工作流程
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agentic-ai, ai-agent, ai-governance, ai-orchestration, ai-safety
+
+---
+
+### 🌟 [PanWatch](https://github.com/TNT-Likely/PanWatch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 370
+- **核心概述**: 盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送
+- **大概是做什么的**: 自托管 AI 盯盘助手 · 集成 TradingAgents 多 Agent 投资决策 — A 股 / 港股 / 美股实时监控、持仓管理、智能分析、全渠道推送 💡 如果盯盘侠对你有帮助，点右上角 ⭐ Star 支持一下 —— 这是对开源项目最好的鼓励，也能让更多人发现它。 🧠 深度分析：TradingAgents 多 Agent 决策 接入 TradingAgents（76k+ star）多 Agent 投资决策框架，在持仓页点 🧠 图标即可触发： - 4 类分析师 （技术 / 情绪 / 新闻 / 基本面） → 看多看空辩论 → 风控审查 → PM 整合决策 - 3-5 分钟输出完整推理链，结论同步推送到 Telegram / 微信 / 钉钉 - 默认 deepseek-chat，单次 $0.05，月度预算可控 - 配置指南： .docs/tradingagents/USER GUIDE.md - 数据私有 — 自托管部署，持仓数据不经过任何第三方 - AI 原生 — 不是简单的指标堆砌，而是让 AI 理解你的持仓、风格和目标 - 开箱即用 — Docker 一键部署，5 分钟完成配置 ------- --------- ------ 盘前分析 每日开盘前 综合隔夜美股、新闻消息、技术形态，给出今日操作策略 盘中监测 交易时段实时 监控异动信号，RSI/KDJ/MACD 共振时推送提醒 盘后日报 每日收盘后 复盘当日走势，分析资金流向，规划次日操作 新闻速递 定时采集 抓取财经新闻，AI 筛选与持仓相关的重要信息 - 趋势指标 ：MA 多空排列、MACD 金叉死叉、布林带突破 - 动量指��� ：RSI 超买超卖、KDJ 钝化与背离 - 量价分析 ：量比异动、缩量回调、放量突破 - 形态识别 ：锤子线、吞没形态、十字星等 K 线形态 - 支撑压力 ：自动计算多级支撑位和压力位 - 覆盖市场 ：A 股、港股、美股实时行情 - 账户管理 ：支持多券商账户独立管理，汇总展示总资产 - 交易风格 ：按短线/波段/长线分别设置，AI 建议更精准 Telegram / 企业微信 / 钉钉 / 飞书 / Bark / 自定义 Webhook - 支持价格、涨跌幅、成交额、量比等条件组合（AND / OR） - 支持交易时段/全天生效、冷却时间、日触发上限、重复触发模式 - 到期时间使用弹窗内日期面板 + HH:mm 输入，留空表示永不过期 - 可按规则选择通知渠道，不选则走系统默认渠道 访问 http://localhost:8000 ，首次使用设置账号密码即可。 说明：镜
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, agent, ai, ai-agent, akshare, deepseek
+
+---
+
+### 🌟 [EvoSkills](https://github.com/EvoScientist/EvoSkills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 397
+- **核心概述**: 🧬 使用可安装的技能和知识包扩展 EvoScientist
+- **大概是做什么的**: EvoScientist 的官方技能存储库。每项技能都是一个可安装的知识包，可以扩展 EvoScientist 的特定领域专业知识。这些技能是专门为 EvoScientist 打造的——它们相辅相成，释放智能体和技能的全部潜力。在 EvoScientist 的领导下，技能通过持久记忆（进化记忆）在研究周期中不断发展。一次安装所有技能：或安装单个技能：直接询问 EvoScientist 只需在对话中询问客服人员：不使用 EvoScientist？这些技能与任何编码代理兼容。通过 Skills.sh 的一个命令即可安装在 Claude Code、OpenCode、Cursor、Codex、Gemini CLI、DeepAgents 等上：研究构思 💡 文献基础、锦标赛排名和提案生成 论文规划 📐 研究论文规划和大纲生成 实验管道 🧪 结构化 4 阶段实验执行实验工艺 🔧 实验调试、记录和迭代 实验迭代编码器 🔄 迭代代码细化（计划 → 代码 → 评估 → 细化）论文写作 ✍️ 端到端的论文写作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai4science, skills, vibe-research
+
+---
+
 ## 🕔 2026-06-19 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
