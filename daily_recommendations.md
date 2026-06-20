@@ -1,3 +1,67 @@
+## 🕔 2026-06-20 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 16,930
+- **核心概述**: AI 代理的 754 项结构化网络安全技能 · 映射到 5 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF ·agentskills.io 标准 · 可与 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 和 20 多个平台配合使用 · 26 个安全域 · Apache 2.0
+- **大概是做什么的**: Anthropic Cyber​​security Skills 最大的 AI 代理开源网络安全技能库 754 个生产级网络安全技能 · 26 个安全域 · 5 个框架映射 · 26 个以上 AI 平台 入门 · 内部内容 · 框架 · 平台 · 贡献 ⚠️ 社区项目 — 这是一个独立的社区创建的项目。不隶属于 Anthropic PBC。为任何 AI 代理提供高级分析师的安全技能 初级分析师知道在可疑内存转储上运行哪个 Volatility3 插件、Sigma 规则捕获 Kerberoasting 的哪些规则，以及如何跨三个提供商确定云漏洞的范围。你的人工智能代理不会——除非你赋予它这些技能。该存储库包含涵盖 26 个安全域的 754 项结构化网络安全技能，每个技能都遵循agentskills.io 开放标准。每项技能都映射到六个行业框架 - MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、MITRE D3FEND、NIST AI RMF 和 MITRE 打击欺诈框架 (F3) - 使其成为唯一具有统一跨框架覆盖的开源技能库。克隆它，将你的代理指向它，然后你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cloud-security, cybersecurity, devsecops, ethical-hacking
+
+---
+
+### 🌟 [opencode.nvim](https://github.com/nickjvandyke/opencode.nvim)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 3,583
+- **核心概述**: 连接 Neovim 和 OpenCode AI，让您保持流畅。
+- **大概是做什么的**: 连接 Neovim 和 OpenCode AI，让您保持流畅。 https://github.com/user-attachments/assets/e85e021c-fa8f-466e-830c-c667b28f611e 喜欢你所看到的吗？看看我的配置。 - 连接到任何 OpenCode 服务器，或启动集成实例 - 注入编辑器上下文（光标、选择、缓冲区等） - 包含完成、突出显示和正常模式的输入提示 - 选择和定义可重复使用的提示 - 监视和响应事件 - 接受/拒绝和重新加载编辑 - Vim-y — 运算符和点重复 - 简单而合理的默认值可让您快速入门 vim.pack（推荐） 设置后运行 :checkhealth opencode。 opencode.nvim 提供了丰富且可靠的默认体验 - 请在此处查看所有可用选项及其默认值。 opencode.nvim 将提示中的占位符替换为相应的上下文： 占位符上下文 -------------------------- ---------------------------------------------------------------------------- @this 范围或选择（如果有），否则光标位置 @buffer 当前缓冲区 @buffers 打开缓冲区 @diagnostics 范围或选择（如果有）内的诊断，否则在当前中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-assistant, neovim, neovim-plugin, nvim
+
+---
+
+### 🌟 [yao-meta-skill](https://github.com/yaojingang/yao-meta-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,341
+- **核心概述**: YAO = 产生人工智能成果。用于可重用代理技能的严格工程、评估、治理和可移植系统。
+- **大概是做什么的**: YAO 代表 Yielding AI Outcomes，目标不是生成更多提示文本，而是产生可重用的 AI 资产和实际的运营结果。 yao-meta-skill 创建、评估、打包和管理可重用的代理技能。 1.0 系列专注于将重复的工作流程转变为可安装、可读、跨平台的技能包。 2.0 系列将该工厂扩展为技能操作系统：一个受控系统，用于对技能进行一次建模、针对多个目标进行编译、测试其行为、审查其发布证据并跟踪下一次迭代。快速入门 · Skill OS 2.0 · 1.0 vs 2.0 · Operator UX · Benchmark · Examples · Evals · Failure Library · Method Doctrine Skill OS 2.0 升级 Skill OS 2.0 保留了 yao-meta-skill 的原始承诺，但使包生命周期更加明确。它没有停留在 SKILL.md 上，而是围绕该技能添加了语义契约、目标编译器、评估证据、发布门和操作报告。 - Skill IR：一种与平台无关的中间表示，用于表示意图、触发器、输入、输出、边界、参考和预期
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, evaluation, governance, meta-skill, portability
+
+---
+
+### 🌟 [parallel-code](https://github.com/johannesjo/parallel-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 738
+- **核心概述**: 并行运行 Claude Code、Codex 和 Gemini — 每个都在自己的 git 工作树中
+- **大概是做什么的**: 并行调度 AI 编码代理，每个代理都在自己的工作树中。检查差异，合并胜利，扔掉其余的。与 Claude Code、Codex 和 Gemini 配合使用 · 每个更改都隔离在自己的 git 工作树中 · 免费、开源，无额外平台费用 多个代理并行 专注于单个任务 ----------------------------------------------------------------- --------------------------------------------- 带有内嵌注释的差异审查 AI Arena — 竞赛代理面对面 - 使用您已经信任的 AI 编码工具 — Claude Code、Codex CLI、Gemini CLI 和 Copilot CLI — 所有这些都来自一个界面。 - 免费且开源——无需额外订阅。麻省理工学院许可。 - 保持每个更改的独立性和可审查性——每个任务都会自动获得自己的 git 分支和工作树。 - 并行运行代理，而不是按顺序运行 - 五个代理同时处理五个功能，零冲突。 - 在一个地方查看每个会话 - 切换上下文而不失去动力。 - 键盘优先控制一切 - 每个操作都有快捷键，鼠标可选。 - 通过手机监控进�� — 扫描二维码并观看
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding, ai-tools, claude-code, codex-cli, coding-agent
+
+---
+
+### 🌟 [RedBox](https://github.com/Jamailar/RedBox)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,088
+- **核心概述**: 用AI创作��质量内容，用gpt-image-2创作的最佳生图工具，AI图片自动编排，小红书版Openclaw，自媒体创作者的AI工作台，小红书创作AI工具RedClaw，支持小红书图文下载、创作风格学习、小红书AI创作｜🌟 Star if you like it! ｜ 你桌面盒子里的AI小河狸🦫
+- **大概是做什么的**: 面向小红书创作者的本地化 AI 创作工作台 评论区采集 选题洞察 笔记封面生成 知识库沉淀 RedClaw 自动化执行 English 简体中文 繁体中文 日本语 한국어 Español Português Türkçe RedBox (RedConvert) 是一个面向小红书创作者与内容团队的本地化 AI 工作台，把 内容采集、评论区洞察、选题发散、笔记封面生成、知识沉淀、稿件生产、自动化执行、主体资产管理 串成一条完整工作流。 你可以直接从浏览器插件采集小红书笔记和评论区内容，把用户讨论沉淀到本地知识库，再在桌面端分析评论需求、生成选题 brief、为笔记制作封面图，并继续进入稿件、媒体和 RedClaw 自动化执行链路。 围绕小红书内容生产，把评论区反馈、选题判断、笔记封面和后续创作任务放进同一条工作流。 1. 小红书评论区采集 ：浏览器插件支持采集小红书笔记和评论区内容，评论可归档进本地知识库，保留后续分析和复用价值。 2. 评论区选题洞察 ：AI 可以分析评论里的真实需求、高频问题、购买顾虑、情绪反馈和潜在选题机会，帮助从用户讨论中找到内容方向。 3. 选题中心与创作 brief ：把评论区洞察转成结构化选题 brief，继续进入笔记、脚本、封面和后续创作任务。 4. 笔记封面生成 ：支持围绕选题、正文、参考图��和社媒平台目标生成封面图，让小红书笔记更快完成视觉包装。 5. 本地知识库 ：统一管理小红书、YouTube、网页、图片、评论区归档和本地文档，支持搜索、筛选、空间隔离和后续 AI 检索。 6. 自由创作工作台 ：支持图片、视频、音频等媒体生成，支持拖拽媒体参考图、生成成本预估和 Agent 连续创作。 7. RedClaw 自动化执行 ：把单轮对话、技能调用、定时任务、长周期任务和后台 Runner 放在一个入口里持续运行。 8. 会话与团队协作 ：支持会话导入导出、会话列表管理、成员画像、成员知识、单成员对话和多人群聊协作。 9. 主体库与媒体库 ：统一沉淀人物、商品、场景、AI 生成图和导入素材，后续在写稿、生图、封面时直接复用。 10. 官方账号与会员体系 ：支持官方 AI、积分成本预估、会员权益和支付状态同步，减少模型与账户配置的割裂。 浏览器插件负责把外部内容送进 RedBox。小红书笔记、评论区、YouTube 视频、网页链接和网页图片都可以进入本地知识库，作为后续选题、分析和创作素材。 1. 在 RedBox 下载页 下载并安装。 2. 打开 设置 - AI ，填写 Endpoint / Key / Model。 3. 选择或创
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude-design, content-creation, gpt-image-2, harness-engineering
+
+---
+
+### 🌟 [roam-code](https://github.com/Cranot/roam-code)
+- **项目语言**: Python
+- **星标数量**: ⭐ 485
+- **核心概述**: 用于 AI 编码代理的本地代码库智能 CLI + MCP 服务器：SQLite 代码图、28 种语言、238 个命令、224 个 MCP 工具、变更安全门、审计证据、零 API 密钥。
+- **大概是做什么的**: 本地代码库智能层让人工智能编码代理获得更改代码的权利——并提供检查内容的证据。无凭证 · 默认情况下 100% 本地（选择加入指标推送是唯一的出站表面） · 防篡改 ChangeEvidence 数据包 · Apache 2.0 · 完全在您的计算机上运行 267 个命令 · 243 个 MCP 工具（默认核心预设中有 16 个） · 28 种语言 为什么 Roam 不同 METR 和 FrontierCode 都指向相同的差距：通过测试与可合并代码不同。 Roam 是一个代理优先的 CLI 界面，它在编辑之前为代理提供本地图形事实，控制有风险的更改，并在运行后发出范围内的证据。在截至 2026 年 6 月 12 日调查的代理/审核工具中，差异化因素是以下组合： - 无凭据。没有账户，没有API密钥，没有云登录。 pip 安装并运行。 - 默认情况下 100% 本地。源代码永远不会离开机器；气隙存储库的工作方式类似于云存储库。单个出站表面（漫游指标推送）是选择加入的、仅摘要的，并在 --dry-run 下打印其确切的负载。 - 防篡改 ChangeEvidence 数据包。一个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-coding, cli, code-analysis, code-graph, code-intelligence
+
+---
+
 ## 🕔 2026-06-20 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
