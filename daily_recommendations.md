@@ -1,3 +1,67 @@
+## 🕔 2026-06-20 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Machine-Learning-Interviews](https://github.com/alirezadir/Machine-Learning-Interviews)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 8,428
+- **核心概述**: 该存储库旨在作为机器学习/人工智能技术面试的指南。
+- **大概是做什么的**: 机器学习技术访谈 :robot: :newspaper: 新闻：2026 年更新：第 3 章和第 4 章现在涵盖最新的 GenAI / LLM 面试主题 - 基础模型和 LLM 内部结构（KV 缓存、GQA、RoPE、MoE）、训练后算法（SFT、DPO、GRPO、RLVR 等）、PEFT 和推理优化、多模态 AI（VLM、VLA、扩散 vs自回归）和 GenAI 系统设计（RAG、代理、护栏、评估）。有关更深入的代理内容，请参阅专用的 Agentic AI Systems 存储库，其中包含资源、系统设计摘要以及实践编码示例和项目。本存储库旨在作为大型科技公司（特别是 FAANG）相关职位的机��学习 (AI) 工程面试准备指南。它是根据作者收到 Meta（机器学习专家）、Google（机器学习工程师）、Amazon（应用科学家）、Apple（应用科学家）和 Roku（机器学习工程师）的录用通知时的个人经验和面试准备笔记而编写的。以下组件是不同公司的技术 ML 角色最常用的面试模块。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, ai, ai-agents, ai-engineering, deep-learning, interview
+
+---
+
+### 🌟 [awesome-architecture](https://github.com/study8677/awesome-architecture)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 1,453
+- **核心概述**: 🧭 架构优先的系统设计：26 个双语教程、25 个架构模板和 6 个端到端案例，涵盖分布式系统、AI 原生系统、RAG、编码 Agent 和生产权衡。
+- **大概是做什么的**: Awesome Architecture · 架构图谱 一个专注「 架构 」而非「代码」的开源知识库。 收集真实热门系统的架构模板,并配一套让你成为更好架构师的教程。 🌐 在线阅读(可交互 · 中英双语,HTTPS): 🏆 社区关注: 2026-06-08,项目登上 PickGithub Vue 趋势榜当日第 1 。 🧭 配套 skill: architecture-copilot —— 把这套知识变成能在 Claude Code / Cursor / Codex 里 引导你一步步设计架构 的交互式 skill。 过去二十年,程序员的核心竞争力是「 把代码写对、写快 」。 但有一件事正在我们眼前发生: 「写代码」这件事,正在消失。 不是变难,也不是变少,而是作为「一门靠人来做的稀缺手艺」正在终结。在 OpenAI、Anthropic 这样的前沿实验室,代码几乎已经全部由 AI 写出,人类工程师不再亲手敲实现——他们只做两件事: 告诉 AI 要造什么,然后判断它造得对不对。 当机器几秒就能吐出能跑的代码,"用 for 还是 map 、背没背过某个 API、熟不熟某种语法"这些曾经的看家本领,一夜之间一文不值。 真正不会贬值、而且越来越值钱的,是另一种能力: 在动手写第一行代码之前,先想清楚这个系统应该长什么样子。 数据从哪来、到哪去?哪些部分必须强一致、哪些可以最终一致? 哪里会先崩?用户从 1 万涨到 1 亿时,第一个瓶颈在哪? 这就是 架构思维 。它和具体语言无关,和框架无关,甚至和今年流行什么无关。它是一种「 先看地图,再上路 」的判断力。 本仓库的信念:未来优秀的开发者,首先是一个会做架构判断的人,其次才是会写代码的人。 你应该先在架构层面对自己要做的东西有清晰的理解,代码只是把这个理解落地的手段之一。 📚 tutorial/ —— 成为更好架构师的教程 不是讲「某个框架怎么用」,而是讲一套可迁移的思考方法:如何把模糊的需求拆成约束,如何在取舍中做决策,如何画出能沟通的架构图,如何从 0 设计一个全新系统。 01 为什么先有架构思维 为什么「架构优先」是这个时代的核心技能 02 架构师的思考框架 需求 → 约束 → 质量属性 → 取舍 的通用流程 03 读懂与画好架构图 用 C4 模型把脑中的系统画出来、讲明白 04 十大核心架构模式 分层、微服务、事件驱动、CQRS… 各自解决什么问题 05 数据与状态 为什么「数据」才是系统真正的难点 06 质量属性与取舍 性能/可用性/一致性/成本,怎么权衡 07 从 0 到 1 设计一个系统 一套可照着做的
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-coding, ai-native, architecture-decision-records, architecture-patterns, awesome-list
+
+---
+
+### 🌟 [vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 949
+- **核心概述**: 你的人工智能会忘记。这还记得。适用于 vibecoder、产品负责人、CEO 和真正构建者的规范驱动编码工具 — 自我改进上下文记忆、15 个代理、33 项与/目标合作的技能、代理团队以及自动驾驶循环上的工作流程，无需人工操作。消除上下文腐烂，提供功能，而不是意大利面条。克劳德法典和法典。任意堆栈
+- **大概是做什么的**: 由世界一流的工程师为 Flowser.ai 的 vibecoder 打造 — 带有 GTM vibecode-pro-max-kit 计算机的 AI 代理“总浓度 — Spec 呼吸，第十种形式：Vibe Flow 永不中断。”将其放入任何项目中。您的 AI 代理获得完整的计划优先开发流程 - 7 个门控阶段、自我修复检查循环以及从头到尾运行而不会失去其位置的自动驾驶仪。 📦 一键安装一根curl线将其放入任何项目中。它会检测新用户和回访用户，并且永远不会覆盖您的文件。 🌐 适用于任何技术堆栈、任何语言和任何 AI 编码代理 — Claude Code、Codex、Cursor、Windsurf、Copilot 等。 🧭 RIPER-5 计划优先工作流程 7 个门控阶段（研究 → 规格 → 创新 → 计划 → 验证 → 执行 → 更新流程）阻止代理直接跳转到代码。 🚀 自动驾驶模式（快速/快速/全面） 用一个短语在任何阶段开始免提跑步。三车道将仪式与风险相匹配。 🎯 /goal — 运行直到完成标记 一个可复制粘贴的块使代理不断运行而不停止 — 并恢复 r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agents, ai-coding-assistant, ai-development, ai-workflow, anthropic
+
+---
+
+### 🌟 [avibe](https://github.com/avibe-bot/avibe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 473
+- **核心概述**: 本地优先的代理操作系统——您的人工智能合作伙伴位于您自己的机器上。从您的浏览器或任何聊天应用程序驱动官方 Claude Code、Codex 和 OpenCode。
+- **大概是做什么的**: 本地优先的代理操作系统——您的人工智能合作伙伴位于您自己的机器上。拥有代理。从任何地方都可以到达它。永远不要陷入困境。您的 AI 代理非常出色，而陷入困境的 Claude Code、Codex、OpenCode 也令人难以置信。但是： - 🖥️ 被困在一台机器上。你的代理人住在航站楼里。关闭笔记本电脑，它就会停止。 - 📵 遥不可及。离开办公桌，您无法看到它在做什么，更不用说操纵它了。 - 🔒 锁定。每个工具都希望成为整个堆栈：它的应用程序、它的云、它的订阅、您上传到别人盒子的代码。一个命令即可将您自己的机器变成 AI 合作伙伴居住的家。您可以通过浏览器或任何聊天应用程序驱动官方 Claude Code、Codex 和 OpenCode，而您的代码和密钥则保留在您的机器上，并且 avibe.bot 永远不会看到您的数据。浏览器打开，您按照一个简短的向导操作，您的计算机就成为您可以从任何地方访问的代理操作系统。开源 - 如果您愿意，请先阅读安装脚本。短 URL 是指向该文件的 307 重定向。我们建议在 Windows 上使用 WSL 以获得最佳兼容性 - 请参阅从头开始使用 WSL 运行 Avibe。它
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-os, ai, ai-agents, chatops, claude
+
+---
+
+### 🌟 [ai-business-skills](https://github.com/minhnv0807/ai-business-skills)
+- **项目语言**: PowerShell
+- **星标数量**: ⭐ 467
+- **核心概述**: 63 个双语 AI 营销技能（31 个 VN + 31 个全球），适用于 Claude Code、OpenCode、Codex、VS Code。营销策略、内容制作、绩效分析、个人品牌、AI 头像、dropshipping 精通、设计大师（8 种设计类型）。 4 个地区（美国/欧盟/东南亚/拉丁美洲）+ 越南 2025-2026。人类模式对齐。伴侣：opa-kit。
+- **大概是做什么的**: AI 代理的全栈营销技能 — 63 项双语技能（越南语 + 全球）。越南优先 + 全球（美国/欧盟/东南亚/拉美） Over Powers Agency v2.7.0 — 设计大师技能（8 种设计类型：个人品牌、商业徽标、活动视觉、日常营销、社论、信息图表、网页模型混合、报价图形）。双语越南+全球。零破坏性变化。变更日志 ⚡ 快速启动（30 秒）在 Claude 代码中进行测试：“为 AI 赚钱课程制定营销计划 — 30 天内瞄准前 100 名学生”→ 技能 00-ke-hoach-mkt 自动激活，输出详细的 .md 文件，其中包含 VN 2025-2026 基准、KPI 3 场景、预算分配、每周时间表、风险矩阵。想要同时安装全栈（构建+市场）？请参阅下面的配套 OPA 套件。 🎯 何时使用人工智能商业技能？ ✅ 制定全面的营销计划 - B2B SME VN / Global SMB / Agency ✅ 简短的营销活动 - TVC、效果广告、30 天内容日历 ✅ 文案写作 - Facebook/TikTok 广告、视频脚本、电子邮件营销、登陆页面简介 ✅ 个人品牌策略 + AI 头像制作 - 创始人/教练/创建者 ✅ 竞争对手分析
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-avatar, anthropic, chatgpt, claude-code
+
+---
+
+### 🌟 [Awesome-Journal-Skills](https://github.com/brycewang-stanford/Awesome-Journal-Skills)
+- **项目语言**: Stata
+- **星标数量**: ⭐ 305
+- **核心概述**: Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。
+- **大概是做什么的**: Awesome Journal Skills (AJS) Stanford REAP × CoPaper.AI · 由斯坦福实证方法论团队精选与维护 横跨 经管社科 · 人文社科 · 自然科学 · 临床医学 · AI 计算机 等多个主流学科，为 每一本期刊 / 每一个会议 单独编码它的投稿工作流。 先看期刊，再进 Pack。 点击任意封面即可进入对应的期刊 Skill 包。 中文顶尖社科期刊 —— 每张封面直达一个按刊定制的 Skill 包。 英文经管顶尖期刊 —— 来自 English-SocialScience-Journal-Skills 广度合集（ 100 本期刊 + 选刊路由 ）。Top-5、Top-3、FT50、UTD24 等标签用于说明分层。 🔬 默认展开：自然科学 · 医学国际顶刊 —— 154 本旗舰封面墙 综合多学科 · 生命科学 · 临床医学 · Nature 子刊 · 物理天文 · 化学材料 · 地球环境 · 数学计算 · 跨学科前沿 🔬 自然科学 · 医学国际顶刊 —— 覆盖 154 本旗舰期刊 点击任意封面进入对应 Skill 包。 深度包（12 技能） ：Science · Nature · Cell · Cancer Cell · PNAS · NEJM · JAMA · The Lancet · PRL · JACS · ES&T；其余链接至 English-NaturalScience-Journal-Skills 广度合集页。 综合 · 多学科 Multidisciplinary 临床医学 Clinical Medicine Nature 子刊 Nature Research 物理与天文 Physics & Astronomy 化学与材料 Chemistry & Materials 地球 · 环境 · 生态 Earth & Environment 数学 · 计算 Mathematics & Computation ��� 期刊与会议 组织的 Agent Skill 包索引——每个 skill 覆盖论文生命周期的一个环节：选题、定位核心进展、识别策略、表格与图件规范、复制包 / 数据可得性准备、投稿与修改回复。收录范围横跨五大板块： 经管社科中英文顶刊 （经济、金融、管理、会计、营销、运营、信息系统）、 人文与广义社科顶刊 （社会学、政治学、心理学、人口学、传播学、历史、艺术、哲学、文学、宗教）、 自然科学与临床顶刊 （Science、Cell、PNAS、NEJM、The Lancet、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-research, academic-writing, agent, agent-skills, ai-agents, anthropic
+
+---
+
 ## 🕔 2026-06-19 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
