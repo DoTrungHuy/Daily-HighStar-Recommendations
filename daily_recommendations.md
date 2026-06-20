@@ -1,3 +1,67 @@
+## 🕔 2026-06-20 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [CyberVerse](https://github.com/Lynpoint/CyberVerse)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,235
+- **核心概述**: 自托管的实时数字人工代理平台。使用 WebRTC、角色记忆、工具、RAG 和可选的数字人类视频构建语音优先的 AI 代理。
+- **大概是做什么的**: Cyber​​Verse是一个开源的实时数字人类Agent框架。它使用 WebRTC、角色记忆、工具、RAG 和可选的数字人视频功能来帮助您构建以语音交互为中心的 AI 代理。英语 · 简体中文 · 日本语 · 한국어 一张照片。活生生的数字人。曾经梦想拥有自己的 J.A.R.V.I.S. — 一个真正能看到你、听到你并实时回复的人工智能？想再次见到你失去的人，听到他们的声音，看到他们对你微笑吗？或者也许有一个你一直希望能赋予生活的角色？只有一张照片。 Cyber​​Verse 让他们充满活力。什么是数字人类代理？以下字符仅为演示示例。它们不与 Cyber​​Verse 捆绑在一起，也不提供用于商业用途。 Alice — 在 YouTube 上观看 Lina — 在 YouTube 上观看 小龙女 — 在 YouTube 上观看 实时语音代理语音是 Cyber​​Verse 的默认交互模式，专为可运行长时间会话的低延迟实时对话而设计。用户可以通过麦克风连续与代理交谈，在模型说话时打断模型，并混合语音
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-companion, digital-human, digital-life, jarvis-assistant, lip-sync
+
+---
+
+### 🌟 [git-lrc](https://github.com/HexmosTech/git-lrc)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,383
+- **核心概述**: 在 Git Commit 上运行的免费微型 AI 代码审查
+- **大概是做什么的**: 🇩🇰 丹麦语 🇪🇸 西班牙语 🇮🇷 波斯语 🇫🇮 芬兰语 🇯🇵 日本语 🇳🇴 挪威语 🇵🇹 葡萄牙语 🇷🇺 Русский 🇦🇱 Shqip 🇨🇳 中文 🇮🇳 हिन्दी 在 Commit 上运行的免费微型 AI 代码审查         今天的 GenAI 是一辆没有刹车的赛车。它加速得很快——你描述一些东西，大块的代码就会立即出现。但人工智能代理会悄悄地破坏事物：它们删除逻辑、放松约束、引入昂贵的云调用、泄露凭证并改变行为——而不会告诉你。您经常会在生产中发现这一点。 git-lrc 是你的制动系统。它与 git commit 挂钩，并在每个差异落地之前对其运行人工智能审查。 60 秒设置。完全免费。简而言之，git-lrc 有助于预防中断、违规和技术债务发生。 概览：10 个风险类别 · 跟踪 100 多个故障模式 · 自动扫描每个提交。 Windows、替代安装和完整设置演练：请参阅入门。内嵌评论墙很难分类。问题导航器将每条评论变成跨 10 个领域的结构化、可过滤的视图
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-code-review, ai-code-reviewer, ai-coding-tools, code-review
+
+---
+
+### 🌟 [openpets](https://github.com/alvinunreal/openpets)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 791
+- **核心概述**: 桌面伴侣平台，带有动画宠物、插件 SDK v3、官方插件和可选的本地编码代理集成。
+- **大概是做什么的**: 带有宠物、插件和可选本地代理集成的桌面配套平台。 OpenPets 在您的桌面上放置一个动画伴侣，然后让插件将其变成焦点伙伴、提醒系统、小游戏、启动器或编码代理助手。作者：Boring Dystopia Development 阅读此内容： English 日本语 한국어 简体中文 繁体中文 Português（巴西） Español（拉丁美洲） - 桌面宠物：可以闲逛、漫步、反应的动画伙伴，让您的工作空间不再感到空虚。 - 官方插件：专注计时器、提醒、心情检查、迷你游戏、启动快捷方式、水合助推和虚拟宠物统计数据。 - 插件 SDK v3：沙盒 JavaScript/TypeScript 运行时，用于构建具有权限、配额、存储、时间表、命令、面板、事件、音频、通知等的新宠物能力。 - 可选代理层：Claude Code、OpenCode、Cursor、Pi 和 MCP 客户端可以驱动本地宠物反应，而无需在对话气泡中暴露提示、代码、路径、日志或秘密。如果 OpenPets 使您的编码设置或桌面工作区变得更有趣，请给该存储库一颗星。对于用户：获取 Sta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, coding-agents, desktop-companion, desktop-pet, electron
+
+---
+
+### 🌟 [dac](https://github.com/bruin-data/dac)
+- **项目语言**: Go
+- **星标数量**: ⭐ 698
+- **核心概述**: DaC 是一种仪表板即代码工具。使用 YAML 和 JSX 构建交互式仪表板。内置语义层。让您的代理构建标准化、可审查的仪表板。
+- **大概是做什么的**: DAC 是一种仪表板即代码工具，用于定义、验证和服务来自 YAML 和 TSX 的仪表板。 - TSX 的动态图表、选项卡、循环和条件。 - 通过 Bruin 支持所有主要数据库：Postgres、MySQL、Snowflake、BigQuery、Redshift、Databricks 等 - 内置语义层：在语义/中定义指标和维度，从任何小部件引用它们。 DAC 生成 SQL。它专为人工智能代理而构建，以可靠且可审查的方式构建仪表板。 <Dashboard name="Simple Dashboard" connection="my db"> name="Total Revenue" sql="SELECT SUM(amount) AS value FROM sales" value={{ field: "value", type: "number", format: "$,.2f" }} name: Sales Overview 连接: 仓库 sql: SELECT SUM(amount) AS value FROM sales 安装最新的稳定 DAC 版本：从 main 安装最新的边缘版本：DAC 使用您现有的 Bruin连接并当前使用 bruin 查询来执行查询。当 PATH 上尚不存在 bruin 时，安装脚本将首先安装 Bruin CLI。创建一个新的启动器项目：启动器包含一个 SQL-bac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, business-intelligence, dashboard, semantic-layer
+
+---
+
+### 🌟 [imcodes](https://github.com/im4codes/imcodes)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 455
+- **核心概述**: 代理的 IM。跨人工智能提供商共享代理上下文和内存、监督执行和跨代理审计。
+- **大概是做什么的**: English 简体中文 繁体中文 Español Русский 日本语 한국어 面向代理商的 IM。跨 AI 提供商的共享内存、托管 MCP 工具、监督执行和跨代理审计。两个头比一个头好。但齐心协力并不是回答命运，而是命运的创造者。 IM.codes 为编码代理提供了一个共享内存层和一个跨提供商的托管 MCP 工具界面。它将已完成的工作转化为可重用的上下文，然后在未来的会话中跨 Claude Code、Codex、Gemini CLI、GitHub Copilot、Cursor、OpenCode、OpenClaw、Qwen 等注入或调用正确的历史记录，包括终端访问、文件浏览��git 视图、本地主机预览、通知、多代理工作流程以及传输支持代理的本机流输出。内置自动监控可以判断已完成的转弯、继续自主工作，并可选择在交还控制权之前运行审核/返工循环。团队讨论让多个模型可以审查和审核彼此的计划和实施情况，这是减少单一模型失误、盲点和偏差的有效方法。免责声明：这是一个积极开发的个人开源软件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automation, claude, claude-code, codex
+
+---
+
+### 🌟 [project-golem](https://github.com/Arvincreator/project-golem)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 623
+- **核心概述**: 具有长期记忆、多代理协调、Titan Chronos 调度程序和 Moltbot Social Core 的操作系统级自主 AI 代理
+- **大概是做什么的**: 你的 AI 操作中枢：可对话、可行动、可记忆、可长期协作。 Project Golem 不是单纯聊天机器人，而是一套可运行的 AI 工作系统。 它把「语言模型能力」和「实际操作能力」整合成同一个执行核心，让你可以在一个 Dashboard 里完成： - 技能挂载与工具扩充（MCP / Skills） - RPG 剧情互动、股市看板、协作日历、羁绊日记 - Gemini Web （Browser-in-the-Loop，透过 Playwright） - LM Studio （OpenAI-compatible local API） 多数 AI 工具在「一次对话」很强，但在「长期工作」会掉链。 Project Golem 的设计重心是让 AI 在真实环境里持续可用： - 有介面：透过 Web Dashboard 做人机协作与治理 个人 AI 工作台 把对话、记忆、工具、设定集中到同��个 Dashboard，不需要在多个 AI 网页之间切换。 本机私有 AI 使用 Ollama 或 LM Studio，让模型推理与记忆资料留在自己的机器或私有网路内。 长期专案陪跑 透过记忆核心、摘要与技能系统，让 AI 累积专案背景，而不是每次都重新解释。 多代理决策 建立不同角色进行讨论，例如产品、工程、安全、营运，再整理成可执行结论。 工具型代理实验 用 MCP 与 Skills 把搜寻、档案、外部服务、专案工具逐步接进 AI 工作流。 生活与创作陪伴 用文字 RPG、羁绊日记、协作日历，把 AI 从工具延伸成可共同规划、共同记录的互动角色。 金融资讯看板 透过台股/美股股市看板，整理行情、新闻、技术指标与 watchlist，交给 Golem 做分析上下文。 多后端大脑 支援 gemini 、 ollama 、 lmstudio ，可依成本、隐私、效能切换。 Web Dashboard 预设 http://localhost:3000/dashboard ，提供对话、监控、设定、技能、MCP、记忆管理。 长期记忆 支援 lancedb-pro 与 native 记忆模式，含摘要压缩与检索流程。 多代理协作 Interactive Multi-Agent 模式可建立角色群组做讨论��共识输出。 技能系统 可载入内建/自订技能，支援安装、启用、测试与管理。 MCP 工具扩充 可接入标准 I/O MCP server，将外部能力接进 Golem 工作流。 股市看板 支援台股/美股 watchlist、行情、K 线、技术指标、新闻脉络与 Golem 分析快照。 协作日历 Dashboard
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agents, chatbot, discord-bot, golem, long-term-memory
+
+---
+
 ## 🕔 2026-06-20 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
