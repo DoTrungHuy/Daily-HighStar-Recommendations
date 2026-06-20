@@ -1,3 +1,67 @@
+## 🕔 2026-06-20 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [arc-kit](https://github.com/tractorjuice/arc-kit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,010
+- **核心概述**: 企业架构治理工具 - AI 编码助手的策略、架构、交付和保证
+- **大概是做什么的**: ArcKit：企业架构治理工具 ArcKit 是一个面向企业架构师的工具包，它将架构治理从分散的文档转变为系统的、人工智能辅助的工作流程，用于： - 🏛️ 建立和执行架构原则 - 👥 分析利益相关者驱动因素、目标和结果 - 🛡️ 风险管理（英国财政部橙皮书） - 💼 业务案例论证（英国财政部绿皮书 SOBC） - 📋 创建全面的需求文档 - 🗄️ 使用 ERD、GDPR 合规性和数据治理进行数据建模 - 🔬 通过构建与购买分析进行技术研究（网络搜索驱动） - ☁️ 使用 Microsoft Learn MCP 获取权威文档的 Azure 特定研究 - 🗺️ 使用 Wardley Mapping 进行战略规划 - 📊 生成可视化架构图 (Mermaid) - 🤝 管理供应商 RFP 和选择流程 - ✅ 进行正式设计审核 (HLD/DLD) - 🔧 ServiceNow 服务管理设计 - 🔗 维护需求可追溯性 - 📎 外部文档的引文可追溯性（带有源引用的内联 [DOC-CN] 标记） Claude Cod
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-governance, architecture-decision-records, architecture-governance, arckit, claude-code
+
+---
+
+### 🌟 [AgentLens](https://github.com/ZhangJinHaHaHa/AgentLens)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 687
+- **核心概述**: Agentlens是值得信赖的代理交易平台。在这里，您可以快速找到满足您需求的Agent，也可以发布自己的Agent，将其变成您的数字资产。我们鼓励大家将自己的专业领域转化为特工，将其转化为数字资产，让别人看到你的独特优势。
+- **大概是做什么的**: 网站 • 文档 • 集成指南 • 架构 • 中文文档 AgentLens 是一个去中心化的基础设施和市场，旨在解决 AI Agent 经济中的信任问题。在您雇用 AI 代理或与 AI 代理交互之前，AgentLens 会提供其功能、安全边界和跟踪记录的可验证证据。通过结合链上审计分数、英特尔 SGX TEE 证明、零知识证明 (ZK) 和多维动态信誉模型 (MDDRM)，AgentLens 确保代理信任是可验证的，而不仅仅是声称的。 🌐 官方平台 访问我们的实时平台：AgentLens — 可信 AI 代理选择 📊 维度风险分析：从 6 个维度（安全、任务执行、认知、环境、工程、合规性）评估代理，以生成全面的风险概况和场景适用性建议。 🔐 英特尔 SGX TEE 证明：所有沙盒审核都在硬件隔离的飞地内运行。加密证明（MRENCLAVE）锚定在链上以保证执行完整性。 🛡️ 零知识证明验证：使用 circom 和 snar
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agpl-v3, ai-agents, ai-safety, auditing, blockchain
+
+---
+
+### 🌟 [reader](https://github.com/vakra-dev/reader)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 542
+- **核心概述**: AI 的开源网络基础设施。抓取、抓取和自动化网络、干净的 Markdown、浏览器会话，为您的代理做好准备。
+- **大概是做什么的**: AI 的开源网络基础设施。轻松访问网络。文档 · 示例 · Discord 构建需要网络访问的代理是令人沮丧的。你拼凑 Puppeteer、添加隐形插件、对抗 Cloudflare、管理代理，但它仍然在生产中出现故障。因为生产级网页抓取并不是渲染页面并将 HTML 转换为 Markdown。它是关于下面的一切： 层 它实际需要什么 -------------------------------------------------------------------------------------------------------- 浏览器架构 大规模管理浏览器实例，而不是一次性脚本 反机器人绕过 Cloudflare、Turnstile、JS 挑战，它们都会阻止幼稚的抓取工具 TLS 指纹识别 真正的浏览器有指纹。傀儡师则不然。网站知道。代理基础设施 数据中心与住宅、轮换策略、粘性会话 资源管理 浏览器池、内存限制、优雅回收 可靠性 速率限制、重试、超时、缓存、优雅降级 我构建了 Reader，一个在 Ulixee Hero（无头 b）之上的生产级 Web 抓取引擎
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-crawler, ai-scraper, anti-bot, cloudflare-bypass
+
+---
+
+### 🌟 [Athena-Public](https://github.com/winstonkoh87/Athena-Public)
+- **项目语言**: Python
+- **星标数量**: ⭐ 509
+- **核心概述**: 适用于 AI 代理的 Linux 操作系统 — 适用于任何法学硕士的持久内存、自主性和时间意识。拥有国家。租用情报。
+- **大概是做什么的**: 你的记忆。你的机器。任何型号。开源认知增强层，为您提供持久记忆、结构化推理和完整的数据所有权——跨 ChatGPT、Claude、Gemini 以及您接下来切换到的任何模型。平台忘记了。雅典娜没有。快速入门 · 工作原理 · 文档 · 常见问题解答 · 安全 · 贡献 最后更新：2026 年 6 月 21 日 您已经花了几个月的时间训练 ChatGPT 来了解您。然后模型更新会重置个性。您的自定义指令停止工作。您找不到上周二的对话。如果换成克劳德或者双子座呢？你从零开始。平台内存不可靠、不透明，并且锁定于一个提供商。您不拥有它，无法检查它，也无法随身携带它。 Athena 将内存层移动到您的机器上。您拥有的纯 Markdown 文件、版本控制并指向任何模型。 - 🧠 你的内存，你的机器 — 文件位于磁盘上，而不是 OpenAI 的云中。阅读它们、编辑它们、对它们进行 git 版本控制。 - 🔌 自由切换模型 — 今天是 Claude，明天是 Gemini，下周是 GPT。记忆留下来了。模型就是谁的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-assistant, automation, chatgpt, developer-tools
+
+---
+
+### 🌟 [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 431
+- **核心概述**: GEO 内容和工作流程的开源技能集合，不断更新。
+- **大概是做什么的**: 面向 GEO （ Generative Engine Optimization ）工作流的开源 Skill 仓库。 本仓库里的 GEO 指生成式引擎优化，不是地理信息或地图相关工具。 当前仓库包含 17 个 GEO 相关 skill，覆盖战略诊断、页面技术、内容生产、知识资产、监测归因、研究拓词和 GEOFlow 运营。 geo-operations 3 GEOFlow CLI 操作、模板映射、Laravel Blade 主题编辑 geo-strategy 2 GEO 全景诊断、30/60/90 天执行路线图 geo-page-technical 2 页面 GEO 诊断、GEO 友好页面蓝图 geo-content-production 5 标题、科普、对比、旧文改造、榜单评测 geo-knowledge-assets 2 品牌知识图谱、品牌知识库和事实卡 geo-measurement 2 GEO 归因追踪、AI 答案监测月报 geo-research 1 AI 搜索问题集、意图簇和监测 Prompt - SKILL.md ：Agent 调用入口和执行边界 - manifest.json ：公开元信息 - templates/brief-template.md ：输入简报模板 - evals/trigger cases.json 与 evals/expected artifacts.json ：触发和产物校验 - docs/skills/ .md ：适合 GitHub 用户阅读的说明页 yao-geo-skills 用来沉淀一批可复用、可验证、可开源分享的 GEO Skill。 这里关注的不是零散 prompt，而是完整的执行资产： - 有稳定接口的 agents/interface.yaml - 有参考方法、样例、脚本和 eval 的完整包 - GEO 相关的共享模板、schema、rubric 和交付规则 把 GEO 相关的重复工作，整理成团队可以长期复用的 Skill 包。 - 强调可复用：每个 skill 都应该能在相似任务里重复使用，而不是一次性 prompt。 - 强调可验证：仓库和 skill 都有结构校验，不鼓励“能跑就行”的散装内容。 - 强调边界：明确什么时候该用、什么时候不该用，避免 skill 泛化成空话。 - 强调开源安全：公开案例必须去隐私、去内网依赖、去私有系统绑定。 - 强调交付：不少 skill 不只输出文字，还会生成 HTML、DOCX 等可直接交付的产物。 - 强调方法沉淀：复杂方法会拆到 references/ 、 sc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, cli, codex, geoflow, skills
+
+---
+
+### 🌟 [loop-library](https://github.com/Forward-Future/loop-library)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 341
+- **核心概述**: 适用于工程、评估、运营、内容和设计的实用的可重复人工智能代理工作流程。
+- **大概是做什么的**: 循环库技能是 AI 代理的可安装指南。告诉它你想要完成什么，它可以找到一个已发布的循环，审核和修复现有的循环，根据你的情况调整循环，或者通过简短的对话帮助你设计一个新的循环。 Loop Library 是一系列可重用方法的集合，可以帮助 AI 代理更好地工作。每个循环都会告诉代理要做什么、如何检查其工作、下一步要尝试什么以及何时停止。浏览循环库 代理无需安装任何内容即可使用已发布的站点。将它们发送到实时目录可用，因为大多数提示都要求代理执行一次操作。循环为代理提供了一种从结果中学习并采取下一个有用步骤的方法。例如，一次性提示可能会显示：使该网站更快。循环添加反馈，使工作可重复：找到最慢的页面，进行一项重点改进，然后再次测量。仅在有帮助时才保留更改。重复直到每个页面都达到目标或另一遍停止产生有意义的改进。将循环视为内置反馈的剧本。它很有用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-workflows, ai-agents, automation, codex, prompt-engineering
+
+---
+
 ## 🕔 2026-06-20 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
