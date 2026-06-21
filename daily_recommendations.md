@@ -1,3 +1,67 @@
+## 🕔 2026-06-21 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,951
+- **核心概述**: 用于自主 AI 代理编排的 Ralph Wiggum 技术的改进实现
+- **大概是做什么的**: 基于帽子的编排框架，使人工智能代理保持循环，直到任务完成。 “我英语不及格？这不可能！” - Ralph Wiggum 文档 入门预设 通过 npm（推荐） 通过 GitHub 发布安装程序 Homebrew 当前未从此存储库的自动发布流程中发布。首选 npm、Cargo 或 GitHub Releases 安装程序。 Ralph 进行迭代，直到输出 LOOP COMPLETE 或达到迭代限制。对于更简单的任务，跳过规划并直接运行： Web 仪表板 (Alpha) Alpha：Web 仪表板正在积极开发中。期待粗糙的边缘和突破性的变化。 Ralph 包括一个用于监视和管理编排循环的 Web 仪表板。 MCP 服务器工作区范围 ralph mcpserve 的范围为每个服务器实例的单个工作区根。 1. --workspace-root 2. RALPH API WORKSPACE ROOT 3. 当前工作目录 对于多存储库使用，请为每个存储库/工作空间运行一个 MCP 服务器实例。 Ralph 当前的控制平面 API 将配置、任务、循环、规划会话和集合保留在单个工作空间根下，因此每个工作空间的服务器是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-agents-framework, ai-developer-tools, claude-code, claude-code-cli
+
+---
+
+### 🌟 [octocode](https://github.com/bgauryy/octocode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 867
+- **核心概述**: 使用 LLM 模式实时进行语义代码研究和上下文生成的 MCP 服务器 |根据您的权限在公共和私人存储库中自然搜索 |将任何可访问的代码库转换为有关简单和复杂流程的人工智能优化知识 |从任何地方查找真实的实现和实时文档
+- **大概是做什么的**: Agentic 研究平台 面向 AI 代理和开发人员的证据优先代码研究。 Octocode 为代理提供了更改、审查或解释代码所需的完整上下文：来自本地工作区和外部源（GitHub 存储库、拉取请求和 npm 包）的真实证据。一个工具集涵盖了所有这些：ripgrep 和 AST 结构搜索、存储库树浏览、精确内容获取、LSP 语义导航和二进制检查。将其作为 CLI 或 MCP 服务器运行。 Rust 引擎使每次调用保持快速和令牌高效，缩小和骨架化代码，因此代理读取文件的形状而不是每个字节，从单个文件到大型存储���。它也是跨数百万个存储库进行跨存储库研究和探索的最佳工具。 - 身份验证方法 代理根据证据编写的代码比根据假设编写的代码更好。 Octocode 将猜测驱动的工作转变为研究驱动的工作。在代理更改、审查或解释代码之前，它会从本地工作区、GitHub 存储库、拉取请求和 npm 包中收集真实证据，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agents, ai-tools, claude-ai, code-intelligence
+
+---
+
+### 🌟 [shob](https://github.com/shobcoder/shob)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 548
+- **核心概述**: Shob – 提供高质量编码和自动化工作的人工智能代理
+- **大概是做什么的**: Shob — AI 代理工作区 Shob 是一个 AI 代理工作区，专为想要从单一环境运行多个 AI 驱动的工作流程的开发人员而设计。 Shob 无需兼顾对话、终端和工具，而是帮助您在一个地方管理一切。并行 AI 会话在同一项目中同时运行多个 AI 代理。进行错误修复、测试、文档、重构和功能开发——所有这些都是同时进行的。智能权限系统每一个动作都在你的控制之下。在命令、文件访问和代码更改发生之前对其进行审查和批准。深度 Git 集成 Shob 了解您的存储库、活动分支和本地更改，帮助 AI 代理在您的开发工作流程中安全工作。将大任务分解成更小的部分。将工作委派给专门的子代理并从单个工作区接收整合的结果。实时监控进度。观看代理制定计划、执行任务并逐步完成目标。终端和差异预览 准确查看代理正在做什么。检查终端输出并检查代码更改
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, antigravity, antrygravitry, claude-code, cli
+
+---
+
+### 🌟 [ntm](https://github.com/Dicklesworthstone/ntm)
+- **项目语言**: Go
+- **星标数量**: ⭐ 365
+- **核心概述**: 命名 Tmux 管理器：使用 TUI 命令面板在 tmux 窗格中生成、平铺和协调多个 AI 编码代理（Claude、Codex、Gemini）
+- **大概是做什么的**: NTM - 名为 Tmux 管理器 NTM 将 tmux 转变为用于多代理软件开发的本地控制平面。它将会话编排、图形感知工作分类、安全策略和批准、代理邮件协调、持久状态捕获、机器可读的机器人界面以及本地 REST/WebSocket API 结合在一个 Go 二进制文件中。并行运行多个编码代理很容易启动，但维护起来很烦人。普通 tmux 为您提供了窗格，但它并没有为您提供持久的协调、工作选择、安全策略、批准、历史记录、可重播的自动化界面或人类和代理都可以使用的共享控制模型。 NTM 为您提供了一个单一本地系统，用于： - 在 tmux 中生成标记的多代理会话 - 跨窗格发送工作、中断和后续操作 - 使用 br 和 bv 分类下一步要做什么 - 使用代理邮件协调代理、文件保留和分配 - 通过策略、批准和防护来保护危险操作 - 通过 --robot-、REST、SSE、WebSocket 和 OpenAPI 公开整个系统 - 通过检查点、时间线、审计捕获状态小径，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, developer-tools, go, tmux
+
+---
+
+### 🌟 [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 747
+- **核心概述**: 代理协调器列表
+- **大概是做什么的**: Awesome Agent Orchestrators 用于编排 AI 编码代理的工具和框架的精选列表。并行代理运行器 用于在不同任务上同时运行多个编码代理的工具。 - 1code - Claude Code 的 UI，具有本地和远程代理执行功能。 - agent-deck - AI 编码代理的终端会话管理器。 - 代理看板 - 代理优先的看板，具有领导者-工作者模型、加密代理身份和多运行时支持（Claude Code、Codex、Gemini CLI）。 - agent-of-empires - Linux 和 macOS 上 AI 编码代理的终端会��管理器。 - 代理协调器 - 用于并行编码代理的代理协调器。 - agentbox - 并行运行多个编码代理，每个代理传送到自己的沙盒中（本地 Docker 或通过 Hetzner/Daytona/Vercel/E2B 的云虚拟机），检查点启动时间不到 1 秒。适用于 Claude Code、Codex 和 OpenCode。 - agenttier - Kubernetes 原生运行时，在自己的 Pod + PVC 沙箱中运行每个 AI 编码代理，并具有默认拒绝 NetworkPolicy 和流式 SSE 调用 API。通过创建多个并行运行多个代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-coordination, agent-orchestration, agent-swarm, agentic-ai, ai-agents, ai-coding
+
+---
+
+### 🌟 [cass_memory_system](https://github.com/Dicklesworthstone/cass_memory_system)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 385
+- **核心概述**: AI 编码代理的程序记忆：将分散的会话历史记录转换为持久的跨代理记忆，以便每个代理都能相互学习
+- **大概是做什么的**: AI 编码代理的程序记忆。将分散的代理会话转换为持久的跨代理内存，以便每个代理都能从其他代理的经验中学习。一行安装 (Linux/macOS)：或通过包管理器：🤖 代理快速入门 (JSON) 始终在代理上下文中使用 --json。 stdout = 数据，stderr = 诊断，退出 0 = 成功。 - 架构与工程 - 深入探讨：核心算法 - 隐私与安全 - 创伤防护：安全系统 - 性能特征 - 与替代方案比较 人工智能编码代理通过会话积累宝贵的知识：调试策略、代码模式、用户偏好、特定于项目的见解。但这些知识是： 1. 陷入会话中 — 每个会话结束，上下文将永远丢失 2. 特定于代理 — Claude Code 不知道 Cursor 昨天学到了什么 3. 非结构化 — 原始对话日志无法作为指导进行操作 4. 容易崩溃 — 朴素的总结会丢失关键的细微差别和细节 这个月您已经在不同的代理上解决了 3 次身份验证错误。每一次，你都是从头开始
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bun, developer-tools, memory, typescript
+
+---
+
 ## 🕔 2026-06-21 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
