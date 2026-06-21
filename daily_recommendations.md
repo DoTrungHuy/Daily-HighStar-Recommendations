@@ -1,3 +1,67 @@
+## 🕔 2026-06-21 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mission-control](https://github.com/builderz-labs/mission-control)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,382
+- **核心概述**: 自托管 AI 代理编排平台：通过一个任务控制仪表板调度任务、运行多代理工作流程、监控支出并管理运营。
+- **大概是做什么的**: 用于 AI 代理编排的开源仪表板。管理 AI 代理队列、调度任务、跟踪成本并协调多代理工作流程 — 自托管、零外部依赖，由 SQLite 提供支持。 Alpha Software — 任务控制正在积极开发中。 API、数据库架构和配置格式可能会在不同版本之间发生变化。在部署到生产环境之前检查安全注意事项。 - 为什么团队采用 Mission Control - 代理入门 - 使用 Mission Control 32 个面板构建 任务、代理、技能、日志、令牌、内存、安全性、cron、警报、webhooks、管道等 - 全部来自单个 SPA shell。实时所有 WebSocket + SSE 推送更新，并通过智能轮询在您离开时暂停。零陈旧数据。零外部依赖 SQLite 数据库，单个 pnpm 启动运行。不需要 Redis，不需要 Postgres，不需要 Docker。基于角色的访问查看者、操作员和管理员角色，具有会话 + API 密钥身份验证。使用管理员批准工作流程进行 Google 登录。质量门 内置 Aegis 审查系统，可阻止任务在未经签字的情况下完成。技能中心浏览，在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-automation, ai-dashboard, claude, dashboard
+
+---
+
+### 🌟 [awesome-hermes-agent](https://github.com/0xNyk/awesome-hermes-agent)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 4,108
+- **核心概述**: Nous Research 为 Hermes Agent 精心挑选的技能、工具、集成和资源列表
+- **大概是做什么的**: 很棒的 Hermes Agent 用于增强 Hermes Agent 工作流程的技能、工具、集成和资源的精选列表 - 由 Nous Research 构建的自我改进的 AI 代理。 Hermes Agent 是唯一具有内置学习循环的代理 - 它根据经验创建技能，在使用过程中改进它们，并且从 v0.12.0 开始，通过自主的 Curator 维护自己的技能库，该库以 7 天的周期进行评分、整合和修剪。它会搜索自己过去的对话，并构建一个深入的模型来了解您在各个会话中的身份。在 5 美元的 VPS、GPU 集群或无服务器基础设施（七个终端后端，包括 Vercel Sandbox、Daytona 和 Modal）上运行它���从 18 个内置消息平台中的任何一个（Telegram、Discord、Slack、WhatsApp、Signal、飞书/Lark、WeCom、QQBot、元宝等）以及通过插件的 Microsoft Teams 与其进行对话。该列表跟踪了其周围不断发展的生态系统。生态系统状态（上次审核：2026-05-06） - Hermes Agent：v0.12.0 (v2026.4.30) —“The Curator 版本” - 核心存储库：NousResearch/hermes-agent（134k+ 星） - 最新发行说明：Hermes releas
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awesome, awesome-list, hermes-agent, nous-research, skills
+
+---
+
+### 🌟 [aeon](https://github.com/aaronjmars/aeon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 539
+- **核心概述**: 最自主的代理框架。没有审批循环。没有保姆。配置一次，永远忘记。
+- **大概是做什么的**: 最自主的代理框架。给它一个方向 - 它将使用 197 项技能（深入研究、公关审查、市场监控、Vercel 部署......）来完成它。没有审批循环。没有保姆。配置一次，永远忘记。您需要三件事： 1. Node.js 20+ - 从 nodejs.org 获取 LTS 安装程序，或使用包管理器：brew install node (macOS)、winget install OpenJS.NodeJS.LTS (Windows)、nvm 或发行版的包管理器 (Linux)。已经有了？ node -v 应打印 20 或更高。 2. GitHub CLI ( gh )，经过身份验证 - 仪表板将其用于所有内容（秘密、工作流程），并且 ./aeon 在开始之前检查它。安装：brew install gh (macOS)、winget install --id GitHub.cli (Windows)、每个发行版说明 (Linux)。然后运行 ​​gh auth login 并按照提示操作。 3. 您自己的此存储库的副本 - 单击存储库页面顶部的使用此模板 - 保持公开，公共存储库上的操作分钟是免费的。 CLI 版本：gh repo fork aaronjmars/aeon --clone 。打开 http://localhost:5555 并按照四个步骤操作： 1. 身份验证 - 连接您的 Claude Pro/Max 订阅
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aeon, agent-framework, ai-agents, claude-code, github-actions
+
+---
+
+### 🌟 [tossinvest-cli](https://github.com/JungHoonGhae/tossinvest-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 398
+- **核心概述**: 在AI代理/终端上抛投证券——非官方CLI，比官方Open API（计划）涵盖更广泛的询价/交易范围（供应/需求/AI信号/筛选器/实时推送/十进制顺序/试运行预览）
+- **大概是做什么的**: 将 AI 代理连接到 Toss Securities 的非官方 CLI — 比官方 Open API（计划中）更广泛的查询和交易范围。 Claude Code · Codex · Cursor · OpenClaw · bash · HTTP — 任何工具都可以使用相同的命令系统 ( tossctl ) 处理 Toss Securities 账户、报价和交易。人们也可以直接在终端中写入。供需·行情指数·抛售AI信号·条件搜索（筛选）·兴趣项目管理·交易历史账本·实时推送·十进制排序·试运行预览——涵盖官方Open API（计划）路线图中未包含的领域。完整比较表 ↓ 用于 AI 代理的非官方 Toss Securities CLI — 比（即将推出的）官方 Open API 更广泛的读取和交易覆盖范围。该项目不是 Toss Securities 的官方产品。非官方使用网络内部 API 可能会违反 Toss Securities 使用条款 (TOS)。 API 可能会更改，恕不另行通知，开发者对因使用而导致的任何帐户限制、损失或其他不利情况不承担任何责任。请自行决定使用并承担责任。所有交易功能在安装后立即关闭。仅当您直接在 config.json 中允许每个函数时它才会运行。 Windows (PowerShell)：身份验证登录需要 Google Chrome 和 Python，安装脚本会自动进行设置。对于其他安装方法，包括 Windows、Homebrew 和源构建，请参阅安装部分。扫描二维码后，请务必按手机上出现的“保持登录到此设备”的确认提示。如果您跳过此二次验证��您的会话将在大约一个小时的空闲时间后过期，并要求您重新登录。您可以通过 tossctl auth status 中的 Persistence: permanent cookie (expires ...) 检查捕获是否正常。没有 GUI 的环境（SSH 服务器/CI）： tossctl auth login --headless [--qr-output /tmp/toss-qr.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, go, korea-stock, llm-tools, stock-trading
+
+---
+
+### 🌟 [compass-skills](https://github.com/dongshuyan/compass-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 401
+- **核心概述**: 司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents
+- **大概是做什么的**: 中文 · 安全 · 许可 从这里开始：使用和开发您自己的技能生态系统 有关使用 SKILL.md、审核可重用技能、使用 AI 起草技能、提取真实工作流程以及构建本地技能生态系统的实用教程。 COMPASS Skills 为 AI 编码代理提供了四种本地技能：任务澄清、存储库本地任务记忆、AI 对话切换提示和本地协作配置文件。该项目目前提供四种 SKILL.md 技能：任务澄清者在模糊、昂贵或外部可见的工作之前调整目标、范围、证据、验收标准和风险边界。任务林 维护一个存储库本��任务林/DAG，其中包含目标、子任务、依赖项、进度、偏差、待办事项、决策和对话历史记录。 session-handoff-prompt 将当前 AI 对话的目标、进度、约束和后续步骤压缩为新 AI 对话的可粘贴提示。 user-profile-keeper 维护本地、可审核、可更正的协作配置文件，以了解通信偏好、风险风格和重复工作环境。之前列出可用的技能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-skills, ai-agents, ai-coding-agent, claude-code, claude-skills
+
+---
+
+### 🌟 [maestro-flow](https://github.com/catlog22/maestro-flow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 389
+- **核心概述**: 用于多代理 AI 开发的意图驱动工作流程编排 — 自适应生命周期引擎、自我强化知识图以及 Claude Code、Gemini、Codex 等的可视化仪表板
+- **大概是做什么的**: 多智能体时代的意图驱动工作流编排描述您想要什么。大师知道如何到达那里。 English     简体中文 大多数人工智能编码工具都允许您在一项任务上运行一个代理。 Maestro-Flow 通过自适应决策引擎、自我强化知识图和实时可视化仪表板在整个开发生命周期（从头脑风暴到部署）协调多个代理。 Maestro-Flow 建立在两个相互加强的互连系统之上： 工作流程生成知识。��识改善了未来的工作流程。代理从每次会话中学习，将发现保留为规范和专业知识，未来的代理通过钩子注入自动接收该上下文，从而创建一个自我强化的循环。先决条件：Node.js ≥ 18、Claude Code CLI。可选：用于多代理工作流程的 Codex CLI、Gemini CLI。 /maestro-ralph 是主要入口点 - 一个闭环生命周期引擎，它读取项目状态，推断您在开发生命周期中的位置，并构建自适应命令链：Ralph 自动确定 wh
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, codex, gemini, knowledge-graph
+
+---
+
 ## 🕔 2026-06-21 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
