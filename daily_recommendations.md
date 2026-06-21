@@ -1,3 +1,67 @@
+## 🕔 2026-06-21 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 3,518
+- **核心概述**: 使用 LangGraph 构建的模块化 Agentic RAG — 在几分钟内学习检索增强生成代理。
+- **大概是做什么的**: Agentic RAG for Dummies 安装和使用 • 如果您喜欢这个项目，一颗星 ⭐️ 意义重大 :) 该存储库演示了如何使用 LangGraph 以最少的代码构建 Agentic RAG（检索增强生成）系统。大多数 RAG 教程展示了基本概念，但缺乏构建模块化、代理驱动系统的指导 - 该项目通过提供学习材料和可扩展架构来弥补这一差距。功能描述 🗂️ 分层索引 搜索小块以实现精确性，检索大块以获取上下文 🧠 对话记忆 维护跨问题的上下文以进行自然对话 ❓ 查询澄清重写不明确的查询或暂停以询问用户详细信息 🤖 代理编排 LangGraph 协调完整的检索和推理工作流程 🔀 多代理 Map-Reduce 将复杂查询分解为并行子查询 ✅如果初始结果不足，自我更正会自动重新查询 🗜️ 上下文压缩 在长时间的检索循环中保持工作记忆精益 🔍 可观察性 跟踪 LLM 调用、工具使用情况和 gra
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-rag, agents, ai-agents, bm25
+
+---
+
+### 🌟 [skylos](https://github.com/duriantaco/skylos)
+- **项目语言**: Python
+- **星标数量**: ⭐ 455
+- **核心概述**: 开源本地优先 PR 扫描器，可在合并之前发现死代码、安全错误、秘密、质量回归和 AI 代码错误。对于初次使用的人，请参阅 https://duriantaco.github.io/skylos/repo-map/
+- **大概是做什么的**: 在合并之前，开源、本地优先检查死代码、安全问题、秘密、质量回归和 AI 代码错误。 English Deutsch 简体中文 翻译 Skylos 是一个开源静态分析 CLI，适用于 Python、TypeScript、JavaScript、Java、Go、Kotlin、PHP、Rust、Dart、C、Shell 和部署配置。它默认在本地运行，也可以用作 CI/CD PR 门。当您需要一个命令来检查存储库或拉取请求时，请使用 Skylos： - 死代码和未使用的文件 - 安全缺陷和危险数据流 - 秘密和依赖项 CVE - CI/CD 和边缘设备部署配置错误 - 质量回归，例如复杂性、重复分支和深度嵌套 - 常见的 AI 生成的代码错误，包括缺少防护、假帮助程序、发明的包 API 和不可能的依赖项版本 - LLM 应用程序风险，例如不安全的工具使��和缺少输出验证 默认扫描侧重于死代码。使用 -a 添加安全性、秘密、质量和依赖项检查：在代理将其提交审查之前验证更改的文件或范围：使用 threshol 创建项目配置
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-code-review, ai-generated-code, code-quality, code-scanning, dart
+
+---
+
+### 🌟 [opencode-swarm](https://github.com/ZaxbyHub/opencode-swarm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 357
+- **核心概述**: 以架构师为中心的 OpenCode 代理群插件。中心辐射型编排，包括 SME 咨询、代码生成和 QA 审查。
+- **大概是做什么的**: 你的人工智能编写代码。 Swarm 证明它是有效的。缩小“模型说它已经完成”和“这实际上在生产中有效”之间的信任差距。网站 · 入门 · 配置 · 架构 OpenCode Swarm 是 OpenCode 的一个插件，它将单个 AI 编码会话转变为由架构师主导的专业核心、可选和条件代理团队。为实时名册运行 /swarm 代理；它是从当前插件配置生成的。一名代理编写代码。另一位代理人对其进行了审查。另一个编写并运行测试。另一个检查安全。在通过所有必需的大门之前，不会有任何物品被运送。这个命令会安装该包，将其注册为 OpenCode 插件，禁用冲突的默认代理，并在 /.config/opencode/opencode-swarm.json 创建一个可供编辑的配置。需要 Bun（bun --version 来检查）。如果必须使用 npm： npm install -g opencode-swarm && opencode-swarm install 。首次运行注意：安装程序注册插件，写入全局插件配置，在丢失时创建项目覆盖，并禁用本机探索和常规
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-swarm, ai-agents, ai-coding, automation, bun, cli
+
+---
+
+### 🌟 [ai-agents-the-definitive-guide](https://github.com/Nicolepcx/ai-agents-the-definitive-guide)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 377
+- **核心概述**: AI 代理存储库权威指南
+- **大概是做什么的**: ⭐ 如果您发现此存储库有帮助，请考虑在 GitHub 上给它一个 ⭐（单击右上角的星形按钮）这是表示对此公开可用代码的支持的快速方法。 ⭐ AI Agents - The Definitive Guide 这是《AI Agents - The Definitive Guide》一书的相应代码，该书可以在此处和亚马逊上找到。这本书有一个附带的网站，其中包含测验和附加材料，以及一个 Discord 频道。 - 第 1 章从 LLM 到代理：基础蓝图 - 第 2 章架构和模式：规划、反应性和多代理系统 - 第 3 章代理中的高级规划、推理和可扩展执行 - 第 4 章代理背后的模型：功能和优化 - 第 5 章从原型到生产：合同、工具和可靠执行 - 第 6 章安全执行和工具治理 - 第 7 章部署真实产品中的代理 - 第 8 章代理系统的基础评估和运行观察 - 第 9 章代理系统的定制和高级评估 - 第 10 章代理内存：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, benchmarks, deployment, evaluation-framework, langchain
+
+---
+
+### 🌟 [infra](https://github.com/e2b-dev/infra)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,178
+- **核心概述**: 为 E2B 云提供支持的基础设施。
+- **大概是做什么的**: E2B是一个用于AI代码解释的开源基础设施。在我们的主存储库 e2b-dev/e2b 中，我们为您提供 SDK 和 CLI，用于自定义和管理环境并在云中运行您的 AI 代理。该存储库包含为 E2B 平台提供支持的基础设施。请参阅 CONTRIBUTING.md 了解为 E2B 基础设施做出贡献的方法。阅读自托管指南，了解如何自行设置基础设施。基础设施是使用 Terraform 部署的。支持的云提供商： - [ ] 通用 linux 机器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-interpreter, consul, devtools, firecracker, gcp
+
+---
+
+### 🌟 [Aether](https://github.com/Zhou-Shilin/Aether)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 318
+- **核心概述**: 适用于 Android 的令人惊叹的本地化通用 AI 代理。 |以太流
+- **大概是做什么的**: 适用于 Android 的令人惊叹的本地化通用 AI 代理。视觉与体验 • “大鹏鸟到南大洋时，会拍打水面三千里，乘旋风（以太/福耀）盘旋上升九万里，飞行六个月后休息。” Aether 致力于为 Android 设备带来现代的本地 AI 代理体验。告别臃肿的虚拟机配置和繁琐的终端界面。 Aether 将极简、轻量级的 UI 与巨大的可扩展性和无缝的工具调用体验结合在一起。 📱 视觉和体验 Aether 的 UI 和交互很大程度上受到 ChatGPT、Codex CLI/App、Gemini 和 Poco Agent 等优秀、成熟应用程序的启发。每一个动画和交互细节都经过精心打磨，打破“开源意味着廉价和粗制滥造”的刻板印象。 - 令人惊叹的 UI 和丝滑流畅的交互：提炼 ChatGPT 等顶级应用程序的设计精髓，创建简约、现代且优雅的界面。 - 综合技能/MCP支持：完全支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, ai-agents, android-application, llm
+
+---
+
 ## 🕔 2026-06-21 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
