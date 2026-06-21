@@ -1,3 +1,67 @@
+## 🕔 2026-06-21 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PantheonOS](https://github.com/aristoteleo/PantheonOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 447
+- **核心概述**: 用于数据科学的通用、可进化、分布式代理框架和工具。
+- **大概是做什么的**: [官方网站][官方网站] · [在线应用程序][在线应用程序] · [桌面应用程序][桌面发布链接] · [文档][文档] · [反馈][github-issues-link] [官方网站]: https://pantheonos.stanford.edu/ [在线应用程序]: https://app.pantheonos.stanford.edu/ [文档]: https://pantheonos.readthedocs.io/en/latest/ 1 什么是 PantheonOS？ PantheonOS 是一个可进化且保护隐私的多代理框架，旨在协调通用性与领域特殊性。 PantheonOS 自动化、扩展和加速数据科学，特别关注端到端单细胞生物学分析。至关重要的是，PantheonOS 利用代理代码进化来优化最先进的和新生的算法，在专门的科学任务上实现超人类的表现。 - 可进化 - Pantheon-Evolve 模块使代理能够通过遗传算法驱动的代理代码进化来改进算法和代码 - 多代理团队 - PantheonTeam、Sequential、Swarm、Mixture-of-Agents (MoA) 和 AgentAsTool 团队模式，实现灵活的编排 - 分布式架构 - 基于 NATS 的消息传递，用于可扩展、f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, bioclaw, bioinformatics, biology
+
+---
+
+### 🌟 [Ori-Mnemos](https://github.com/aayoawoyemi/Ori-Mnemos)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 310
+- **核心概述**: 由递归内存线束 (RMH) 提供支持的本地优先持久代理内存。开源必须获胜。
+- **大概是做什么的**: 用于人工智能代理的开源持久内存基础设施。 Ori 将人类认知实现为知识图谱上的数学模型。 ACT-R 的激活衰减。沿维基链接边缘传播激活。检索模式中的赫布共现。检索本身的强化学习。具有子问题分解的递归图遍历。该系统会学习重要的内容，忘记不重要的内容，并优化自己的检索管道。跨会话、客户端和机器的持久内存。零基础设施检索在基准测试中与现有技术相匹配，并且在某些情况下远远优于现有技术，并且您拥有数据的每个字节。磁盘上的降价。维基链接作为图形边缘。 Git 作为版本控制。没有数据库锁定，没有云依赖，没有供应商捕获。 v0.5.0 · npm · 论文 · Apache-2.0 HotpotQA — 多跳检索 与最广泛采用的代理内存系统 Mem0 进行正面交锋。 HotpotQA 测试多跳推理 - 需要连接多个文档的信息才能回答的问题。公制 Ori Mnemos Mem0 Δ -------- :------------: :---
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agent, ai-agents, ai-memory, knowledge-graph, llm
+
+---
+
+### 🌟 [Aegis](https://github.com/Justin0504/Aegis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 357
+- **核心概述**: AI 代理的运行时策略执行。加密审计跟踪、人机交互批准、终止开关。零代码更改。
+- **大概是做什么的**: AI 代理的防火墙。每个工具调用。被拦截。分类。在执行之前被阻止。您的代理刚刚致电 DROP TABLE 用户，因为提示说“清理旧记录”。您的代理刚刚泄露了 2GB，因为“用户要求提供报告”。您的代理刚刚运行 rm -rf / 因为模型幻觉了一个工具名称。这些都不是假设。每个代理框架都让人工智能以机器速度决定调用哪些工具、使用哪些参数。循环中没有人。没有撤消按钮。 AEGIS 是缺失的一层：位于代理及其工具之间的预执行防火墙，实时对每个调用进行分类，执行策略，阻止违规行为，并通过哈希链和可选签名支持创建防篡改的审计跟踪 - 所有这些都只需一行代码，并且对代理进行零更改。 AEGIS 合规驾驶舱 — 对所有代理进行实时监控。真正的 Claude 支持的研究助理，与 AEGIS 完全集成。观看它实时跟踪工具调用、阻止 SQL 注入、检测 PII 并暂停以供人工批准。合规驾驶舱
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-safety, anthropic, audit-trail, langchain, llm-observability
+
+---
+
+### 🌟 [atom](https://github.com/rush86999/atom)
+- **项目语言**: Python
+- **星标数量**: ⭐ 762
+- **核心概述**: Atom Agent，通过与人工智能对话来自动化您的工作流程，并让它像真正的助手一样记住、搜索和处理任务
+- **大概是做什么的**: 用于自托管自动化的开源 AI 代理平台开发人员注意：有关技术设置和架构，请参阅 docs/development/overview.md。通过与人工智能对话来自动化您的工作流程，并让它像真正的助手一样记住、搜索和处理任务。 Atom 是一个开源、自托管的 AI 代理平台，它将可视化工作流构建器与基于 LLM 的智能代理相结合。只需说出或输入您的请求，Atom 的专业代理就会在您的整个技术堆栈中规划、验证和执行复杂的工作流程。主要区别：Atom 完全在您的基础设施上运���。您的数据永远不会离开您的环境。比较替代方案？有关详细的功能比较，请参阅 Atom 与 OpenClaw。 Atom 与 OpenClaw：快速比较 方面 Atom OpenClaw -------- ------ ---------- 最适合业务自动化、多代理工作流程 个人生产力、消息传递工作流程 代理模型 具有专业代理的多代理系统 单代理运行时治理 ✅ 4 层成熟度（学生 → 自主） ❌ 无成熟度级别 内存 ✅ 带有毕业验证的情景记忆 ✅ 持久
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai, ai-agent, calendar, finance, gdrive
+
+---
+
+### 🌟 [ainovel-cli](https://github.com/voocel/ainovel-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 697
+- **核心概述**: ✨多agent实现全自动AI小说生成
+- **大概是做什么的**: 全自动 AI 长篇小说创作引擎。Coordinator 在一次 Prompt 里驱动 Architect / Writer / Editor 三个子代理完成整本书的创作，Host 只做启动、恢复和观察。从一句话需求到完整小说，全程无需人工干预。 - 多智能体协作 — Coordinator 在一次长循环中调度 Architect / Writer / Editor 三个子代理，自主决策创作流程 - LLM 驱动长循环 — 一次 Prompt 写完整本书，Host 不介入调度。越简单越稳定，拒绝复杂编排 - Step 级断点恢复 — 每个工具执行成功后写入 checkpoint，崩溃后精确到 plan/draft/check/commit 步骤级恢复 - 卷弧双层滚动规划 — 长篇不再一次性规划全部章节。初始只规划前 2 卷弧骨架 + 第 1 弧详细章节，后续弧/卷在写作推进到时再由 Architect 展开，每次展开都参考前文摘要和角色状态，远期规划不空洞 - 相关章节智能推荐 — 每章写作时从伏笔、角色出场、状态变化、关系四个维度自动推荐相关历史章节，配合下一章预告，确保 500+ 章长篇的连续性 - 自适应上下文策略 — 根据总章节数自动切换全量 / 滑窗 / 分层摘要，支持 500+ 章长篇 - 七维质量评审 — Editor 从设定一致性、角色行为、节奏、叙事连贯、伏笔、钩子、审美品质七个维度评审，审美维度细分描写质感/叙事手法/对话区分度/用词质量/情感打动力五项，每项必须引用原文举证 - 用��实时干预 — 写作过程中随时在输入框注入修改意见（无需暂停），系统自动评估影响范围并重写受影响章节 - 统一 TUI 入口 — 交互界面实时观察进度，也支持携带一句需求直接启动 - 多 LLM 支持 — OpenRouter / Anthropic / Gemini / OpenAI 等等随意切换 核心设计： LLM 驱动，Host 服务 。Coordinator 在一次 Run 中自主决策整本书的创作流程，Host 只做启动、恢复和事件观察。 - Host — 启动 Coordinator、崩溃恢复、事件投影给 TUI。不做任何调度决策 - Coordinator — 唯一的决策者，在一次 Run 里驱动规划→写作→评审→总结的完整流程 - SubAgents — Architect / Writer / Editor 各自独立 context，通过 Store 中的工件协作 - Tools — 原子 IO + checkpoint 写入，只返事实 JSON，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, claude, go, llm
+
+---
+
+### 🌟 [mega](https://github.com/web3infra-foundation/mega)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 489
+- **核心概述**: Mega 是 Google Piper 的开源实现 - 一个为 AI Agent 时代构建的与 Git 兼容的 monorepo 引擎。
+- **大概是做什么的**: Mega — AI Agent 时代的 Monorepo 基础设施 Mega 是 Google Piper 的开源实现，Google Piper 是一个为 AI 原生工程工作流程而构建的与 Git 兼容的 monorepo 引擎。 Mega 完全用 Rust 编写，旨在管理 PB 级代码库，同时充当 AI 编码代理的基础设施骨干。人工智能编码代理正在成为软件工程的一流参与者。但今天的版本控制系统是为在孤立分支中工作的人类开发人员设计的——它们缺乏代理大规模可靠运行所需的统一上下文、结构化元数据和编程接口。 Monorepos 解决了上下文问题。当代理可以看到整个代码库（依赖项、下游消费者、构建目标和测试覆盖率）时，它会做出更好的决策，产生更少的幻觉，并在一次提交中提供原子跨项目更改。 Mega 将 Google 规模的 monorepo 基础设施带入开源世界，专为代理未来而构建。 Mega + Libra：代理的版本控制 Mega 与我们的 Libra 合作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-infrastructure, ai, ai-agents, buck2, decentralised
+
+---
+
 ## 🕔 2026-06-21 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
