@@ -1,3 +1,67 @@
+## 🕔 2026-06-22 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [edict](https://github.com/cft0808/edict)
+- **项目语言**: Python
+- **星标数量**: ⭐ 16,111
+- **核心概述**: 🏛️ 三省六部制 · OpenClaw 多代理编排系统 — 9 个专门的 AI 代理，具有实时仪表板、模型配置和完整的审计跟踪
+- **大概是做什么的**: 我用 1300 年前的帝国制度，重新设计了 AI 多 Agent 协作架构。 结果发现，古人比现代 AI 框架更懂分权制衡。 12 个 AI Agent（11 个业务角色 + 1 个兼容角色）组成三省六部：太子分拣、中书省规划、门下省审核封驳、尚书省派发、六部+吏部并行执行。 比 CrewAI 多一层 制度性审核 ，比 AutoGen 多一个 实时看板 。 您的浏览器不支持视频播放，请查看下方 GIF 或 下载视频 。 🎥 三省六部 AI 多 Agent 协作全流程演示 飞书下旨 → 太子分拣 → 中书省规划 → 门下省审议 → 六部并行执行 → 奏折回报（30 秒） 🐳 没有 OpenClaw？ 跑一行 docker run -p 7891:7891 cft0808/edict 即可体验完整看板 Demo（预置模拟数据）。 大多数 Multi-Agent 框架的套路是： "来，你们几个 AI 自己聊，聊完把结果给我。" 然后你拿到一坨不知道经过了什么处理的结果，无法复现，无法审计，无法干预。 三省六部的思路完全不同 —— 我们用了一个在中国存在 1400 年的制度架构： 这不是花哨的 metaphor，这是 真正的分权制衡 ： CrewAI MetaGPT AutoGen 三省六部 --- :---: :---: :---: :---: 审核机制 ❌ 无 ⚠️ 可选 ⚠️ Human-in-loop ✅ 门下省专职审核 · 可封驳 实时看板 ❌ ❌ ❌ ✅ 军机处 Kanban + 时间线 任务干预 ❌ ❌ ❌ ✅ 叫停 / 取消 / 恢复 流转审计 ⚠️ ⚠️ ❌ ✅ 完整奏折存档 Agent 健康监控 ❌ ❌ ❌ ✅ 心跳 + 活跃度检测 热切换模型 ❌ ❌ ❌ ✅ 看板内一键切换 LLM 技能管理 ❌ ❌ ❌ ✅ 查看 / 添加 Skills 新闻聚合推送 ❌ ❌ ❌ ✅ 天下要闻 + 飞书推送 部署难度 中 高 中 低 · 一键安装 / Docker 核心差异：制度性审核 + 完全可观测 + 实时可干预 🔍 为什么「门下省审核」是杀手锏？（点击展开） CrewAI 和 AutoGen 的 Agent 协作模式是 "做完就交" ——没有人检查产出质量。就像一个公司没有 QA 部门，工程师写完代码直接上线。 三省六部的 门下省 专门干这件事： - 📋 审查方案质量 —— 中书省的规划是否完备？子任务拆解是否合理？ - 🚫 封驳不合格的产出 —— 不是 warning，是直接打回重做 - 🔄 强制返工循环 —— 直到方案达标才放行 这不是可选的插
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-orchestration, autonomous-agents, claude, dashboard, kanban
+
+---
+
+### 🌟 [mobilerun](https://github.com/droidrun/mobilerun)
+- **项目语言**: Python
+- **星标数量**: ⭐ 8,608
+- **核心概述**: 使用自然语言命令自动化您的移动设备 - 与 LLM 无关的移动代理 🤖
+- **大概是做什么的**: Mobilerun 是一个开源框架，用于使用 LLM 代理控制 Android 和 iOS 设备。它为代理提供移动原生工具来检查 UI 状态、了解屏幕截图、点击、滑动、键入、规划多步骤工作流程，并通过 CLI 或 Python API 返回结果。 - 🤖 使用自然语言命令控制 Android 和 iOS 设备 - 🔀 使用 OpenAI、Anthropic、Gemini、Ollama、DeepSeek、OpenRouter 和 OpenAI 兼容模型 - 🧠 运行直接任务或启用推理模式以实现复杂的多步骤自动化 - 💻 从 CLI、终端 UI、Docker 或 Python 代码实现自动化 - 🐍 使用自定义工具、结构化输出、应用卡和凭证扩展代理 - 📸 将可访问性树与屏幕截图相结合，以便直观理解 - 🫆 使用 Arize Phoenix 或 Langfuse 跟踪执行情况 当您想要在计算机上运行代理时，请使用该框架。当您想要为本地电话或云托管的虚拟/物理电话、托管基础架构和 API 驱动的设备工作流程提供现成的解决方案时，请使用 Mobilerun Cloud，而无需在本地计算机上运行代理。看看我们的长凳
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, android-automation, hacktoberfest, mobile-automation
+
+---
+
+### 🌟 [real-world-rails](https://github.com/steveclarke/real-world-rails)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 526
+- **核心概述**: 一个存储库中包含 200 多个生产级开源 Rails 应用程序和引擎。使用 AI 代理搜索真实代码库以研究架构模式。
+- **大概是做什么的**: Real World Rails 应用程序及其开源代码库供开发人员学习 这是 eliotsykes/real-world-rails 积极维护的延续。该项目将 200 多个活跃的开源 Rails 应用程序和引擎整合到一个存储库中。将真实的生产代码库聚合在一个地方对于学习来说一直很有价值——但在人工智能编码代理时代，它变得更加有用。请参阅 repos.md 以获取包含的应用程序和引擎的完整列表以及说明。为什么现在这很重要 创建此存储库时，您必须通过代码手动 grep 或使用自定义 Ruby 脚本来跨应用程序查找模式。人工智能编码代理彻底改变了这一点。将所有这些代码库放在一个目录中，您可以将代理指向 200 多个生产 Rails 应用程序并提出以下问题： - “这些应用程序如何实现后台作业重试逻辑？” - “向我展示跨这些代码库的多租户的每种方法” - “应用程序使用什么模式来生成 PDF？” - “找到这些应用程序处理软删除的所有不同方式” - “比较身份验证实现
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-patterns, learning, open-source, rails, real-world
+
+---
+
+### 🌟 [crit](https://github.com/tomasz-tomczyk/crit)
+- **项目语言**: Go
+- **星标数量**: ⭐ 522
+- **核心概述**: 您与代理的反馈循环
+- **大概是做什么的**: 对计划、代码差异、前端元素进行审查和评论，并将反馈直接发送给您的代理。每种类型输出的自适应 UI 对于代理来说，计划和代码都是相同的 - 它只是文本，但对于我们人类来说，审查生成的计划和审查 Web 应用程序是两种截然不同的活动。 Crit 为每种类型的输出添加了适当的接口，并让您指出错误的具体内容并留下评论以供代理修复： - crit plan.md 呈现具有正确格式和审阅 UI 的 Markdown 文件 - crit 自动检测 git 更改并显示语法突出显示的差异以供本地审阅。 - crit http://localhost:3000 代理您正在运行的应用程序并向其添加一个审核界面 - crit land.html 呈现一个静态 HTML 工件以审核所有内容通过一个二进制文件在本地运行。 1. 安装 Crit 二进制文件 也可通过 Go、Nix、Windows 获取 注意：然后将 crit.exe 移至 PATH 中的某个位置。 ARM64 用户：将 amd64 替换为 arm64。 WSL 用户：改用 Linux 二进制文件。或者从 GitHub 下载最新版本。 2. 与您的代理集成 Crit 也可与 Cursor 配合使用，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-tools, cli, code-review, developer-tools
+
+---
+
+### 🌟 [repoprompt-ce](https://github.com/repoprompt/repoprompt-ce)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 309
+- **核心概述**: RepoPrompt 的社区版：用于 AI 编码代理的本机 macOS 上下文工程应用程序，带有 MCP CLI。
+- **大概是做什么的**: 用于上下文工程的免费开源本机 macOS 应用程序和代理协调器。 RepoPrompt CE 帮助编码代理在采取行动之前了解您的代码库。它从文件、CodeMap、存储库结构和 Git 差异中组装有重点的、可审查的上下文，然后将该上下文传递给 AI 工具和 CLI 代理。 RepoPrompt CE 还围绕其捆绑的 MCP 服务器构建了代理工具。连接 MCP 兼容的客户端和 CLI 代理以搜索存储库、检查文件、管理上下文、运行代理会话以及通过共享的本机 macOS 界面编排工作。选择这些设置路径之一。您不需要打开 Xcode。使用 Homebrew 安装 对于经过签名和公证的公共应用程序，请使用专用的 RepoPrompt CE 这将从 repopprompt/homebrew-repopprompt-ce 水龙头安装 /Applications/RepoPrompt CE.app。桶使用 repopprompt/repopprompt-ce-updates 中提升的公共更新程序 ZIP ；它不是从源代码构建的。为贡献者和本地开发保留下面的源代码构建路径。为了进行开发和快速评估，请双击 F 中的 Launch RepoPrompt CE.command
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, coding-agents, context-engineering, developer-tools, macos, mcp
+
+---
+
+### 🌟 [a2a-java](https://github.com/a2aproject/a2a-java)
+- **项目语言**: Java
+- **星标数量**: ⭐ 444
+- **核心概述**: Agent2Agent (A2A) 协议的官方 Java SDK
+- **大概是做什么的**: 一个 Java 库，可帮助按照 Agent2Agent (A2A) 协议将代理应用程序作为 A2AServer 运行。您可以使用 mvn 构建 A2A Java SDK： 重新生成 gRPC 文件 我们将 https://github.com/a2aproject/A2A/blob/main/specation/grpc/a2a.proto 复制到 spec-grpc/ 项目，并将 java 包选项调整为如下： 然后使用 mvn clean install -Dskip.protobuf.generate=false 构建 spec-grpc 模块，以重新生成 gRPC 类org.a2aproject.sdk.grpc 包。您可以在 a2a-samples 存储库中找到如何使用 A2A Java SDK 的示例。更多示例将很快添加。 A2A Java SDK 提供 Agent2Agent (A2A) 协议的 Java 服务器实现。要将代理 Java 应用程序作为 A2A 服务器运行，只需按照以下步骤操作即可。 - 将 A2A Java SDK 服务器 Maven 依赖项添加到您的项目 - 添加创建 A2A 代理卡的类 - 添加创建 A2A 代理执行器的类 1. 将 A2A Java SDK 服务器 Maven 依赖项添加到您的项目 添加对 A2A Java SDK 服务器的依赖项将提供对以下核心类的访问：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-client, a2a-server, agent2agent, ai, ai-agents
+
+---
+
 ## 🕔 2026-06-22 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
