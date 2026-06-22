@@ -1,3 +1,67 @@
+## 🕔 2026-06-22 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 149 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [voltagent](https://github.com/VoltAgent/voltagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,736
+- **核心概述**: 基于开源 TypeScript AI 代理框架构建的 AI 代理工程平台
+- **大概是做什么的**: AI Agent工程平台 English 繁体中文 简体中文 日本语 한국어 ⭐ 喜欢我们正在做的事情吗？给我们一颗星⬆️ VoltAgent 是一个端到端 AI 代理工程平台，由两个主要部分组成： - 开源 TypeScript 框架 - 内存、RAG、Guardrails、工具、MCP、语音、工作流等。 - VoltOps 控制台云自托管 – 可观察性、自动化、部署、评估、护栏、提示等。核心 TypeScript 框架 借助开源框架，您可以构建具有内存、工具和多步骤工作流程的智能代理，同时连接到任何 AI 提供商。创建复杂的多代理系统，其中专业代理在主管协调下协同工作。 - 核心运行时 (@Voltagent/core)：在一个地方定义具有类型化角色、工具、内存和模型提供程序的代理，以便一切保持井井有条。 - 工作流引擎：以声明方式描述多步骤自动化，而不是将自定义控制流拼接在一起。 - 主管和子代理：在主管运行时运行专业代理团队，路由任务并保持同步。 - 工具注册表
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-agents-framework, aiagentframework, chatbots
+
+---
+
+### 🌟 [NeuroSploit](https://github.com/JoasASantos/NeuroSploit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,159
+- **核心概述**: NeuroSploit 是一种先进的、人工智能驱动的渗透测试框架，旨在自动化和增强进攻性安全操作的各个方面。利用大型语言模型 (LLM) 的功能。
+- **大概是做什么的**: 自主、降价驱动的人工智能渗透测试。 NeuroSploit v3.3.0 是渗透测试代理的彻底重新模型。它不再是一个单一的 Python 编排器，而是一个将 URL 转化为自主参与的精益引擎：它从 213 个 Markdown 代理的精选库中组成一个主提示，并将执行交给您安装的任何代理 CLI 后端 — Claude Code、Codex 或 Grok CLI（或 Claude 订阅） — 并通过 Playwright MCP 进行增强，以实现真正的基于浏览器的证明，以及每次运行都变得更加智能的强化学习循环。以前的Python编排现在位于legacy/中。 🦀 v3.4.0 — Rust 多模型线束。 Neurosploit-rs/ 中有一个新的高性能工具：一个 Rust 二进制文件 ( tokio + axum )，它驱动具有并发性、提供者故障转移和 N 模型验证器投票功能的 LLM 模型池（N 个模型必须同意发现的结果是真实的，然后才算数）。它提供自己可靠的网络仪表板。构建和运行：两个身份验证路径：模型 API（提供程序密钥）或订阅 - 直接驱动本地 Claude Code / Codex / Grok 登录（无 API 密钥）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cybersecurity, framework, hacking, llm, pentesting
+
+---
+
+### 🌟 [open-terminal](https://github.com/open-webui/open-terminal)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,743
+- **核心概述**: 一台可以卷曲的电脑⚡
+- **大概是做什么的**: 一个轻量级的自托管终端，为人工智能代理和自动化工具提供了一个专用的环境来运行命令、管理文件和执行代码——所有这些都通过一个简单的 API 实现。人工智能助手非常擅长编写代码，但他们需要有地方来运行它。开放终端就是这样一个地方——一个具有文件管理、搜索等功能的远程 shell，可通过简单的 REST API 进行访问。您可以通过两种方式运行它： - Docker（沙盒）- 在预安装完整工具包的隔离容器中运行：Python、Node.js、git、构建工具、数据科学库、ffmpeg 等。非常适合为人工智能代理提供一个安全的游乐场，而无需接触主机系统。 - 裸机 — 使用 pip 安装它并在任何运行 Python 的地方运行它。命令直接在您的计算机上运行，​​可以访问您的真实文件、真实工具和真实环境，非常适合本地开发、个人自动化或让人工智能助手完全访问您的实际项目。 Docker（推荐）就是这样 - 您已在 http://localhost:8000 上启动并运行。如果您未设置 API 密钥，则会自动生成一个。与 doc 一起抓住它
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agents, ai-tools, open-webui
+
+---
+
+### 🌟 [agent-swarm](https://github.com/desplega-ai/agent-swarm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 544
+- **核心概述**: 复合智能。每一天。
+- **大概是做什么的**: 一个让您的公司 AI 原生的引擎，由 desplega.sh 构建 — 由构建者为构建者服务。这个仓库每天都在发展。立即观看 → ▸ 日常演变 · slack → pr · Agent Swarm 的制作是您公司的复合智能层。一个人工智能代理系统，可以记忆、推理、行动并在每项任务上做得更好。 AI 原生 · 化合物 · 存在 · 与 LLM 无关 · 您的基础设施 · 您的记忆 · Agent Swarm 运行着一个自主协调的 AI 代理团队。主导代理接收任务（来自 Slack、GitHub、GitLab、Linear、Jira、电子邮件或 API），将其分解，然后委托给在隔离环境 (Docker) 中运行的工作代理。工作人员执行任务、发布解决方案，并将学到的知识写回到共享内存中，这样整个群体在每次会话中都会变得更加聪明。您可以为营销、产品、用户体验、工程、支持、运营、人力资源、财务或您能想到的任何角色运行代理。一个集中的领导者负责协调他们，他们横向分享经验教训。这就是 AI First 和 AI Native 之间的真正区别。 Agent Swarm 是共享的云大脑
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, swarm
+
+---
+
+### 🌟 [testkube](https://github.com/kubeshop/testkube)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,611
+- **核心概述**: ☸️ 人工智能驱动工程团队的开放测试平台
+- **大概是做什么的**: 面向人工智能驱动的工程团队的开放测试平台 Testkube 提供了一个单一平台，用于定义、运行和分析自动化测试，使用现有的测试工具/脚本，在 Kubernetes 基础设施中运行。受到 CoreWeave、NVidia、Siemens、T-Mobile、Harvard、SwissCom 等工程团队的信赖。 网站文档 更改日志 博客 Slack LinkedIn X - 运行任何测试：大规模执行任何测试/工具/脚本； API、E2E、性能、安全性、基础设施等 - 示例和指南。 - 需要时触发测试：按计划、从 CI/CD/GitOps 管道、Kubernetes 事件、通过 REST API、通过 MCP 等手动触发测试。 - 阅读更多。 - 查看一切：聚合所有测试结果、工件、日志和资源指标，以进行集中故障排除和报告 - 了解更多。 - 原生集成：Testkube 使用 Webhooks、Testkube REST API 或 MCP 服务器与现有工具和基础设施集成 - 请参阅集成示例。 - Testkube AI：使用 Testkube MCP 服务器或本机 AI 代理进行故障排除、分析、r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, cicd, devops, gitops, kubernetes
+
+---
+
+### 🌟 [zapier-mcp](https://github.com/zapier/zapier-mcp)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 314
+- **核心概述**: 托管 Zapier MCP 服务器的官方插件分发。将其安装在您的 AI 客户端中并连接到数千个应用程序。
+- **大概是做什么的**: 通过模型上下文协议将您的人工智能连接到数千个应用程序将您的人工智能助手从对话工具转变为应用程序的功能扩展。 Zapier MCP 是一款远程 MCP 服务器，可让您的 AI 直接访问 9,000 多个应用程序和 40,000 多个操作，无需复杂的 API 集成。 https://github.com/user-attachments/assets/8304058f-67da-40b9-bc4f-5095b2817d61 Zapier MCP 是一种将 AI 助手连接到数千个应用程序和服务的标准化方法。它使您的 AI 能够采取实际行动，例如： - 💬 发送 Slack 消息并创建频道 - 📊 将行添加到 Google 表格并创建电子表格 - 📧 发送 Gmail 电子邮件并管理标签 - ✅ 创建 Asana 任务并更新项目 - 🐙 创建 GitHub 问题并管理 PR - 📈 更新 HubSpot 交易并管理联系人 全部通过自然语言命令 - 只需描述您想要完成的操作即可。 - 9,000 多个应用程序连接 — 访问 Zapier 庞大的预建集成库 - 40,000 多个操作 — 跨应用程序启用特定任务和搜索 - 自然语言 — 无需复杂的命令 - 默认安全 — Au
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, claude-code, claude-code-plugin, codex-plugin, cursor-ai
+
+---
+
 ## 🕔 2026-06-22 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
