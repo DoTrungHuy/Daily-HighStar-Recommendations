@@ -1,3 +1,67 @@
+## 🕔 2026-06-22 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [holaOS](https://github.com/holaboss-ai/holaOS)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,497
+- **核心概述**: 您的超级工作代理：本地优先，在几分钟内了解您的工作环境，并且永远不会忘记。
+- **大概是做什么的**: 您的超级工作代理：本地优先，在几分钟内了解您的工作环境并且永远不会忘记 ⭐ 帮助我们接触更多开发者并发展 HolaOS 社区。给这个仓库加注星标！ HolaOS（什么是 HolaOS）： HolaOS 是您的超级工作代理：本地优先，在几分钟内了解您的工作环境并且永远不会忘记，以下是主要功能： - 通过 100 多个集成和自动获取，代理在几分钟内了解您的工作状态 通过一键 OAuth，您的代理连接到您每天已经使用的工具、浏览器配置文件、本地文件 - Linear、GitHub、Slack、Jira、HubSpot、Gmail 和 100 多个其他工作场所集成。不再需要复制更新、粘贴链接或重新解释背景。代理会在几分钟内自动从您的工具中获取（仅当您允许时）相关信号，并将分散的应用程序数据转换为工作内存。当您需要时，代理会带回正确的上下文。 - 内存管理系统，让您的 Agent 永远不会忘记您的工作内存 您的 Agent 永远不会从零开始工作 — 它会记住您的工作环境、工作所在的位置，并在您需要时带回正确的内存
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-harness, agent-os, agentic, ai, ai-agent
+
+---
+
+### 🌟 [snow-cli](https://github.com/MayDay-wpf/snow-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,093
+- **核心概述**: Agentic coding in your terminal,Simultaneously compatible with OpenAI, Gemini, and Claude.运行在终端的 AI 编程智能体，同时兼容 Deepseek、OpenAI、Gemini和Claude。
+- **大概是做什么的**: QQ 群：910298558 Telegram：https://t.me/snow cli 终端代理编码 AI Relay Station，支持 Codex 开源项目赞助商，提供免费 IDE 许可证 推荐使用字体：JetBrains Maple Mono NF Windows 用户推荐终端组合 - PowerShell 7+：现代跨平台 PowerShell，提供更强的功能和更好的兼容性 - GitHub：https://github.com/PowerShell/PowerShell - Windows Terminal ：现代终端应用程序，支持多选项卡、分屏和 GPU 加速渲染 - GitHub：https://github.com/microsoft/terminal 通过 npm 全局安装 Snow CLI： 安装后，运行： - 安装指南 - 系统要求、安装（更新、卸载）步骤、IDE 扩展安装 - 首次配置 - API 配置、模型选择、基本设置 - 启动参数指南 - 命令行参数说明、快速启动模式、无头模式、异步任务、开发者模式 高级配置 - 代理和浏览器设置 - 网络代理配置、浏览器使用设置 - 代码库设置 - Codeb
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding
+
+---
+
+### 🌟 [pi_agent_rust](https://github.com/Dicklesworthstone/pi_agent_rust)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,208
+- **核心概述**: 用 Rust 编写的高性能 AI 编码代理 CLI，零不安全代码
+- **大概是做什么的**: pi agent rust - 用 Rust 编写的高性能 AI 编码代理 CLI 为什么你应该关心？ • 您希望在终端中安装 AI 编码助手，但现有工具： - 启动速度慢：Node.js/Python 运行时在您输入之前会增加 500 毫秒以上 - 内存匮乏：电子应用程序或繁重的运行时会消耗千兆字节 - 不可靠：流中断、会话损坏、工具静默失败 - 难以扩展：封闭的生态系统或复杂的插件系统 pi agent rust 是 Mario Zechner 的 Pi Agent 的从头开始 Rust 端口（由 Mario Zechner 制作）祝福！）。单一二进制、即时启动、稳定流媒体和 8 个内置工具。该移植不是直接逐行翻译，而是建立在两个专门构建的 Rust 库上： - asupersync ：具有内置 HTTP、TLS 和 SQLite 的结构化并发异步运行时 - rich rust ：Will McGugan 的 Rich 的 Rust 移植，使用标记语法提供漂亮的终端输出 你为什么要关心？如果您已经使用 Pi Agent，尤其是通过 OpenClaw，则该项目在升级引擎的同时保留了核心工作流程： - 在现实环境中速度明显更快
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, developer-tools, rust
+
+---
+
+### 🌟 [COG-second-brain](https://github.com/huytieu/COG-second-brain)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 550
+- **核心概述**: 自我进化的第二大脑，具有 17 种人工智能技能、6 个工作代理和人员 CRM——灵感来自 Garry Tan 的 gstack 和 gbrain。适用于 Claude Code、Cursor、Kiro、Gemini CLI、Codex。
+- **大概是做什么的**: COG：实际上自我进化认知的代理第二大脑 + Obsidian + Git — 由人工智能代理、Markdown 文件和版本控制提供支持的自我进化第二大脑。没有数据库，没有供应商锁定——只有会思考的 .md 文件。快速入门技能 功能 常见问题解答 SETUP.md 可与 Claude Code 配合使用 • Cursor • Kiro • Gemini CLI • OpenAI Codex • 任何读取 markdown 的 AI 受 Garry Tan 的 gstack 和 gbrain 启发 COG 新手？观看 2 分钟的演练以了解其实际情况。 1. 克隆并输入存储库： 2. 在代理中运行入门：代理命令如何查找技能 Claude Code 代码 。 → “运行入门” .claude/skills/ Cursor 打开文件夹 → “运行入门” .cursor-plugin/ + .cursorrules Kiro 打开文件夹 → “设置 COG” .kiro/powers/ Gemini CLI gemini → /onboarding GEMINI.md + .gemini/commands/ OpenAI Codex codex → “运行入门” AGENTS.md 其他代理 指向AGENTS.md →“运行入职”AGENTS.md 或通过 Skills.sh 安装：完成 — COG 已个性化并在 2 分钟内准备就绪。请参阅 SETUP.md 了解可选配置（​​Git 同步、iCloud、Obsidian 任务等）。代理支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-loop, agentic, ai-agents, claude-code, cursor, garry-tan
+
+---
+
+### 🌟 [Agent-Skills](https://github.com/MicrosoftDocs/Agent-Skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 614
+- **核心概述**: 针对 Microsoft 和 Azure 的精选代理技能 – 通过 Microsoft Learn 文档为 AI 编码助理提供结构化、实时的专业知识。
+- **大概是做什么的**: ☁️ Azure 代理技能 🚀 Azure 开发代理技能 使用 Microsoft Azure 精心策划的生产就绪技能来增强您的 AI 编码助手。可与以下工具无缝协作：🟣 Claude Code 🔵 Gemini CLI 🟢 Codex CLI 🔴 Antigravity IDE 🩵 GitHub Copilot 🟠 Cursor ⚪ OpenCode ⚪ AdaL CLI Azure 代理技能是专门为 Azure 云开发设计的高质量代理技能的精选集合。这些技能遵循代理技能开放标准，并与现代 AI 编码助手无缝协作，为 Azure 服务提供专家级指导。 📍 目录 - 🚀 新版本？从这里开始！ - ⚡ 一键式插件安装 - 🔌 兼容性和调用 - 📦 功能和类别 - 🎁 精选集合（捆绑包） - 📚 浏览所有技能 - 📖 代理技能文档 - 🤝 如何贡献 🚀 新功能？从这里开始！ AI 代理（如 GitHub Copilot、Claude Code 或 Cursor）很聪明，但它们缺乏有关 Azure 服务的具体、最新的知识。技能是包含 Markdown 指令、脚本和资源的文件夹，可指导 AI 代理如何使用 Azur
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-skills, agentskill, ai, ai-agents
+
+---
+
+### 🌟 [hcom](https://github.com/aannoo/hcom)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 349
+- **核心概述**: 让 AI 代理在终端之间相互发送消息、监视和生成。克劳德代码、Codex、反重力 CLI、光标 CLI、OpenCode、Kilo、Pi、Kimi
+- **大概是做什么的**: 将您的编码代理连接在一起 hcom 是一个 CLI，代理可以使用它在终端之间相互发送消息、监视和生成。它与 Claude Code、Gemini、Codex、OpenCode、Kilo Code、Pi、Antigravity、Cursor、Kimi 和 Copilot 集成，无需改变您的使用方式。使用它来协调管道，运行不同的 AI CLI 作为彼此的子代理，或者只是代替复制粘贴。单个 Rust 二进制文件，无后台服务。启动前面有hcom的代理，然后正常提示。 https://github.com/user-attachments/assets/1ce23ed9-f529-4be0-8124-816aa4c2fd43 其他安装选项 - 询问其他代理他们最喜欢的蛋糕 - 回顾克劳德做了什么并发送修复 - 生成 3 个双子座，分割工作，收集结果 - 分叉自己调查错误并报告 实时互相消息：意图、回复、用于交接的捆绑上下文。互相观察：记录、文件编辑、终端屏幕、命令历史记录。相互订阅：通知状态更改、文件编辑、特定事件。自动反应。在任何终端模拟器中生成、分叉、恢复、互相杀死
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai, ai-agents, ai-tools, antigravity
+
+---
+
 ## 🕔 2026-06-21 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
