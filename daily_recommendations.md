@@ -1,3 +1,67 @@
+## 🕔 2026-06-22 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [adk-js](https://github.com/google/adk-js)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,235
+- **核心概述**: 一个开源、代码优先的 Typescript 工具包，用于构建、评估和部署具有灵活性和控制力的复杂 AI 代理。
+- **大概是做什么的**: TypeScript 代理开发套件 (ADK) 一个开源、代码优先的 TypeScript 工具包，用于构建、评估和部署复杂的 AI 代理，具有灵活性和控制力。重要链接：文档、示例和 ADK Web。代理开发套件 (ADK) 是一个灵活的模块化框架，用于构建、部署和编排 AI 代理工作流程，从简单任务到复杂的多代理系统。直接在代码中定义代理行为、编排和工具使用，从而在任何地方实现强大的调试、版本控制和部署。 ADK 的 TypeScript 版本是为 Node.js 和浏览器生态系统构建���，具有完整的类型安全性、Zod 模式验证以及对 ESM、CommonJS 和 Code-First TypeScript 的支持：定义具有完整类型安全性的代理逻辑、工具和编排。工具参数支持具有编译时类型推断的 Zod v3 和 v4 架构。 - 浏览器和服务器：提供 ESM、CommonJS 和 Web 捆绑包。在 Node.js 中或直接在浏览器中运行代理。 - 丰富的工具生态系统：用于 Google 搜索、Google 地图、Vertex AI 搜索和 URL 上下文的内置工具。连接MCP
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, agents, agents-sdk, ai
+
+---
+
+### 🌟 [llm-wiki-agent](https://github.com/SamurAIGPT/llm-wiki-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,010
+- **核心概述**: 自我构建和维护的个人知识库。插入来源 — Claude（或 Codex/Gemini）阅读它们，提取知识，并维护一个持久的相互链接的 wiki。适用于 Claude Code、Codex、OpenCode、Gemini CLI。无需 API 密钥。
+- **大概是做什么的**: 编码代理技能。将源文档放入 raw/ 并告诉代理摄取它们——它读取它们，提取知识，并构建一个持久的相互链接的 wiki。每一个新的来源都会使 wiki 变得更加丰富。你永远不会写它。大多数知识工具都会让您搜索自己的笔记。这个人会读取您收集的所有内容，并编写一个随着时间的推移而复合的结构化维基 - 已经建立了交叉引用，已经标记了矛盾，已经完成了综合。 - Open-Generative-AI — 将 AI 图像和视频生成添加到您的知识库管道中 - Open-AI-Design-Agent — 自主 AI 设计代理 — 与 wiki 代理配对以进行研究 + 视觉输出 - AI-Voice-Agent — 用于实时语音对话、销售电话和客户支持的自托管 AI 语音代理 需要：Claude Code、Codex、Gemini CLI 或任何读取配置文件的代理。在您的代理中打开 - 无需 API 密钥或 Python 设置：所有代理都理解自然语言和速记触发器：纯英语也可以使用：Claude Code 还提供 /wiki-ingest 、 /wiki-query 、 /wiki-lint 、 /wiki-graph 作为斜杠命令（通过
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tools, automation, claude-code, codex, gemini
+
+---
+
+### 🌟 [moss](https://github.com/usemoss/moss)
+- **项目语言**: Python
+- **星标数量**: ⭐ 424
+- **核心概述**: 生产型人工智能系统的检索层。闪电般快速（<10ms）的搜索，无需矢量数据库。专为浏览器、边缘、设备上和云而构建。
+- **大概是做什么的**: 网站·文档·Discord·博客 Moss 是一个为对话式 AI 代理构建的 10 毫秒以下语义搜索运行时。混合检索（语义 + 关键字搜索）、内置嵌入、元数据过滤以及在浏览器中运行的 WebAssembly 构建 - 所有这些都来自嵌入到您的应用程序中的单个 SDK。热路径上没有网络跃点。没有要调整的集群。将 SDK 指向 Moss Cloud，加载索引，并在 10 毫秒内对其进行查询。 Python、TypeScript、Elixir 和 C。开始之前：在 moss.dev 上注册以获取项目 ID 和项目密钥 - 提供免费套餐。下面的代码片段需要 Python 3.10+ 或 Node.js 20+。大多数检索堆栈都会调用远程矢量数据库。仅往返一次就需要 200-500 毫秒 - 足以中断实时对话。 Moss 在您的流程中运行搜索和嵌入。热路径上没有网络跃点，因此查询延迟只有个位数 - 速度足够快，以至于检索从延迟预算中消失。如果您正在构建一个语音机器人、副驾驶或任���与人类对话的代理，这就是感觉活跃的工具和感觉不真实的工具之间的区别。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-infra, hybrid-search, rag, real-time, retrieval
+
+---
+
+### 🌟 [ai-platform-engineering](https://github.com/cnoe-io/ai-platform-engineering)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 378
+- **核心概述**: CAIPE：社区人工智能平台工程多智能体系统
+- **大概是做什么的**: 🤖 CAIPE：社区 AI 平台工程多智能体系统代理 AI SIG 社区 🚀 入门 🎥 会议记录 🏛️ 治理 🗺️ 路线图 🕕 19:00–20:00 CET 🕔 18:00–19:00 GMT（伦敦） 🕘 10:00–11:00 PST 🔗 Webex 会议 📅 Google 日历 📥 .ics 下载 不在 CNCF Slack 中？先加入这里 加入 cnoe-sig-agentic-ai 频道 注意：使用最新文档开始 什么是 AI Platform Engineering？随着平台工程、SRE 和 DevOps 环境变得越来越复杂，传统方法通常会导致延迟、运营开销增加和开发人员感到沮丧。通过采用多代理系统和代理人工智能，平台工程团队可以从手动、任务驱动的流程转向更具适应性和自动化的操作，从而更好地支持开发和业务目标。社区人工智能平台工程（CAIPE）（发音为 cape ）是一个开源的多代理人工智能系统（MAS），由 CNOE（云原生卓越运营）论坛倡导。 CAIPE 提供安全、可扩展、角色驱动的参考实现，具有内置知识库检索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, caipe, multi-agent-systems, platform-engineering
+
+---
+
+### 🌟 [claude-skills](https://github.com/rampstackco/claude-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 368
+- **核心概述**: 与堆栈无关的 Claude 技能涵盖整个网站生命周期：品牌、设计、内容、SEO、开发、运营、增长和研究。构建、交付、审核、优化。
+- **大概是做什么的**: 克劳德的品牌建设技能 一个完整的、有观点的克劳德技能库，涵盖建立、启动、运行和发展品牌和网站的整个生命周期。 103 种与堆栈无关的技能，涵盖品牌、设计、内容、SEO、开发、运营、增长和研究。包括 Ahrefs MCP 支持的 SEO 审核套件。在 Next.js、WordPress、Shopify、Webflow、纯 HTML 或其他任何内容上使用它们。精选于“商业与营销”下的“令人敬畏的克劳德技能”。在 Claude Code 中安装 添加市场，然后安装您想要的插件：��喜欢仅列出精选子集（没有完整目录）的较轻市场？添加 Rampstackco/plugins 并从那里安装相同的三个插件： 按需加载技能：每个插件大致提供其名称和描述，直到 Claude 需要为止。 - 克劳德的技能是什么？ - 该库中有什么 - 实际徽标设计 - 实际参考构建 - 目录如何连接 - 103 技能目录 - 创作约定 - 存储库结构 - 信任和安全 什么是 Claude 技能？ Claude Skills 是可重用的功能包，可用于
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, anthropic, claude, claude-ai, claude-code
+
+---
+
+### 🌟 [ai-agent-camp](https://github.com/minicoohei/ai-agent-camp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 344
+- **核心概述**: AI Agent Camp — 非工程师友好的 AI Agent 培训课程。 Claude Code、Cursor 和 Codex 的课程、技能、命令和挂钩。
+- **大概是做什么的**: 针对非工程师的 AI 代理培训 - Claude 代码/光标/Codex 的完整指南 官方存储库（由作者维护）： - https://github.com/minicoohei/ai-agent-camp 从此存储库运行 AI 代理将授予它们在您的计算机上的 shell、文件写入和外部 API 权限。叉子和镜子可以默默地改变课程或技能。在运行任何课程之前，请验证您的克隆：如果检查报告存在分叉或丢失文件，请在继续之前查看 git diff upper/main -- .claude/skills/tools/scripts/。请参阅 docs/security-guardrails.md 。版本和下载 版本是从 main 中删除的，作为匹配 v (semver) 的标签。单个标签会生成三个特定于语言的 zip 存档，所有这些都附加到同一个 GitHub 版本。语言资产校验和 ---------- ------- ---------- 日本语 ai-agent-camp-ja-{tag}.zip ai-agent-camp-ja-{tag}.zip.sha256 英语 ai-agent-camp-en-{tag}.zip ai-agent-camp-en-{tag}.zip.sha256 西班牙语 ai-agent-camp-es-{tag}.zip ai-agent-camp-es-{tag}.zip.sha256 每个 zip 包含包含语言后缀的 course/ 、 Skills/ 、 .claude/ 、 .cursor/ 、 docs/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, codex, curriculum, cursor, education
+
+---
+
 ## 🕔 2026-06-22 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
