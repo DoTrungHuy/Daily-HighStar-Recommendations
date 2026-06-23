@@ -1,3 +1,67 @@
+## 🕔 2026-06-23 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [potpie](https://github.com/potpie-ai/potpie)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,466
+- **核心概述**: 大型代码库的规范驱动开发
+- **大概是做什么的**: Potpie 将您的整个代码库变成一个知识图 - 每个文件、类和函数的结构索引，捕获它们的所有关系以及代码的每个部分在其他所有内容的上下文中的作用。在此图上构建的人工智能代理可以像编写代码的人一样精确地推理您的代码 - 从调试到功能开发。 - 安装并运行 Docker - 使用 uv 的 Python 3.11+ 1. 克隆存储库 2. 配置环境 使用以下必需值编辑 .env：CHAT MODEL 和 INFERENCE MODEL 分别用于代理推理和知识图生成。模型名称遵循 LiteLLM 预期的提供者/模型名称格式。 💡 使用 Ollama 代替？设置 LLM PROVIDER=ollama 并使用 CHAT MODEL=ollama chat/qwen2.5-coder:7b 和 INFERENCE MODEL=ollama chat/qwen2.5-coder:7b 。请参阅 .env.template 以获取可选配置的完整列表（日志记录、功能标志、对象存储、电子邮件、分析等）。 3. 安装依赖项 4. 启动所有服务 这将启动 Docker 服务、应用迁移、启动 FastAPI 应用程序并启动 C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-agents-framework, artificial-intelligence, developer-tools, devtools
+
+---
+
+### 🌟 [lumibot](https://github.com/Lumiwealth/lumibot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,688
+- **核心概述**: 可回测的人工智能交易代理和 Python 算法交易策略，适用于股票、期权、加密货币、期货、外汇、SEC 文件、FRED 宏观数据和真实经纪商。
+- **大概是做什么的**: Lumibot：可回测的人工智能代理和 Python 算法交易 完整文档：lumibot.lumiwealth.com · 托管云：BotSpot.trade · MCP：人工智能编码代理的 BotSpot - 确定性策略：正常的 Python 逻辑、指标、if 语句、计划规则、头寸规模和风险控制。 - 人工智能代理策略：一个或多个代理通过证据进行推理、调用工具、写入内存并可选择下订单。 - 回测：重放历史数据和模拟订单以及您可以检查的工件。 - 纸面或实时交易：将相同的策略代码与真实经纪商状态和真实订单路由重用。从开源文档开始，然后在准备好后进行部署： Lumibot 文档 · 在 BotSpot 上尝试示例 Lumibot 策略 将其另存为我的策略.py ：使用纸质代理运行相同的策略 回测工作完成后，保留 MyStrategy 类并用代理运行器替换最终的 MyStrategy.backtest(...) 调用。本示例使用羊驼纸交易：从纸交易开始。当您准备好进行实时交易时，请使用相同的策略类别并切换您的经纪商账户/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, algorithmic-trading, alpaca, backtesting, broker, crypto-trading
+
+---
+
+### 🌟 [SearchCLI](https://github.com/volcengine/SearchCLI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 712
+- **核心概述**: 开放 CLI，用于将 AI 搜索、推荐和会话检索集成到座席系统和业务系统中
+- **大概是做什么的**: English 简体中文 日本语 Deutsch 한국어 Français Русский Italiano Español Português Türkçe ไทย Bahasa Indonesia 将稳定、可调的搜索、推荐和对话检索连接到您的座席系统或业务系统。快速入门 · AI 代理设置 · 完整代理指南 · 贡献 · 安全 SearchCLI 是 Volcengine 上 AI 搜索的开放 CLI。如果您的代理系统或业务系统需要稳定、可调节的信息分发服务，SearchCLI 为您提供了一条将生产级搜索、推荐和会话检索集成到实际工作流程中的实用路径。借助 SearchCLI 及其可安装的 Viking 技能，外部代理可以加载数据、构建和验证搜索和推荐流程、运行会话检索、调整策略配置、检查不良案例，并以稳定、可审查的方式迭代检索质量。 - Volcengine 上 AI 搜索的命令行集成界面。 - 外部系统访问搜索、推荐和会话检索功能的稳定路径。 - 围绕安装构建的代理友好的工作流程层
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-tools, ai-agents, ai-search, ai-search-engine, automation, cli
+
+---
+
+### 🌟 [agentcookie](https://github.com/mvanhorn/agentcookie)
+- **项目语言**: Go
+- **星标数量**: ⭐ 541
+- **核心概述**: 您的代理在 Mac 上运行，该 Mac 不是您的日常驱动程序。 agentcookie 使其会话与您实际浏览的 Mac 保持同步，持续通过 Tailscale 进行加密，因此 OpenClaw、Hermes 或任何其他代理运行时都可以通过身份验证唤醒。 macOS，点对点，没有云中间商。
+- **大概是做什么的**: 您的代理在 Mac 上运行，该 Mac 不是您的日常驱动程序。它需要在您已登录的每个网站上充当您的角色，并针对您已验证的每个 API 进行操作。 agentcookie 使您的第二台 Mac 的会话状态（Chrome cookie、每个 CLI 承载令牌、API 密钥以及您的工具保留在其旁边的身份验证 blob）与您的第一台 Mac 保持同步，通过 Tailscale tailnet 持续加密，每站点身份验证仪式为零。 OpenClaw、Hermes 或您指向第二台 Mac 的任何其他代理运行时都会在网络和终端上通过身份验证唤醒。您可以在第一台 Mac 上正常浏览。 agentcookie 监视 Chrome 的 Cookies 文件（以及并行的每 CLI 秘密总线），并在发生任何变化时将差异发送到您的第二台 Mac。在第二台 Mac 上，代理完成其工作：无身份验证登录。没有钥匙串提示。没有粘贴饼干的仪式。无需重新输入您已在笔记本电脑上配置的 API 密钥。当请求到达时，代理的会话已经在那里。对于浏览器驱动代理和任何未经修改的 cookie 工具来说也是如此。在通用水槽上（默认）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, chrome, cli, cookies, golang
+
+---
+
+### 🌟 [alook](https://github.com/alookai/alook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 374
+- **核心概述**: AI 员工的协作层。运行一个人工智能代理团队，通过电子邮件进行协调、共享内存并更好地完成每项任务。
+- **大概是做什么的**: 网站·模板·Discord Alook 是一个开源、自托管平台，可将您本地的 AI 编码代理转变为协作劳动力。为代理提供电子邮件地址，为他们分配角色（开发、运营、研究），并让他们像真正的团队一样进行协作。代理在您的计算机上运行，​​可以完全访问您的工具和代码库。 Alook 将它们连接到电子邮件、仪表板、日历和外部世界。你是首席执行官。定义组织结构图。您的公司 24/7 运行。这将引导您完成设置 - 连接机器、检测运行时以及部署您的第一个代理公司。完成后打开http://localhost:15210。或者访问 alook.ai 并为您的代理索取唯一的 @alook.ai 电子邮件地址。协作 - 定义角色，构建组织结构图。代理自动协调。电子邮件本机 - 每个代理都有自己的电子邮件。人与代理、代理与代理——全部集中在一处。看板——分配任务，跟踪进度。代理自主接手工作、更新状态并解决问题。日历 — 客服人员管理自己的日程安排 — 重复任务、提醒、日常事务。本地优先 &
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-automation, agent-orchestration, agent-workflow, ai-agents, ai-collaboration, ai-memory
+
+---
+
+### 🌟 [powermem](https://github.com/oceanbase/powermem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 709
+- **核心概述**: PowerMem：AI 内存插件 — 准确、敏捷、经济实惠。让AI Agent变得更聪明。
+- **大概是做什么的**: 适用于人工智能代理和应用程序的持久、自我进化的内存。 PowerMem 将矢量、全文和图形检索与 LLM 驱动的内存提取和艾宾浩斯式时间衰减相结合。它提供了两层经验+技能蒸馏，用于自我进化记忆、多代理隔离、用户配置文件和多模态信号（文本、图像、音频）。人工智能代理需要的不仅仅是聊天记录。上下文窗口是有限的，天真的“保存一切”内存很快就会变得嘈杂、昂贵且难以检索。 PowerMem 将对话、动作和反馈转化为结构化的长期记忆，可以在代理之间搜索、更新、衰减和共享。 PowerMem 的不同之处在于： - 智能内存生命周期 - LLM 驱动的提取、更新、合并和艾宾浩斯式衰减使内存保持有用，而不是成为静态笔记转储。 - 自我进化的两层记忆——经验+技能蒸馏让智能体从交互中学习可重用的工作流程，而不仅仅是回忆事实。请参阅经验+技能蒸馏。 - 开箱即用的混合检索 — 矢量、全文、图形和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agents, ai, ai-agents, ai-companion, chatbot
+
+---
+
 ## 🕔 2026-06-22 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 149 个候选项目中筛选出 6 个未推荐过的新项目。
