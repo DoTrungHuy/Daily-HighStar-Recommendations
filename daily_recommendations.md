@@ -1,3 +1,67 @@
+## 🕔 2026-06-23 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tensorlake](https://github.com/tensorlakeai/tensorlake)
+- **项目语言**: Python
+- **星标数量**: ⭐ 950
+- **核心概述**: Tensorlake 是一个用于沙箱和部署后台代理应用程序的无服务器运行时
+- **大概是做什么的**: Tensorlake 是一个计算基础设施平台，用于使用沙箱构建代理应用程序。 Sandbox API 创建 MicroVM 沙箱，您可以使用它们来运行代理，或将它们用作运行工具或 LLM 生成的代码的隔离环境。除了有状态虚拟机之外，您还可以使用具有扇出功能的无服务器函数运行时向代理添加长时间运行的编排功能。 Tensorlake 沙箱是有状态的 Firecracker MicroVM，专为 AI 代理的即时、有状态执行环境而构建，可启动数百万个具有接近 SSD 文件系统性能的虚拟机。最快的文件系统 I/O — 基于块的存储在虚拟机内实现接近 SSD 的速度。在 SQLite 基准测试（2 个 vCPU、4 GB RAM）中，Tensorlake 的完成时间为 2.45 秒，而 Vercel 3.00 秒（1.2 倍）、E2B 3.92 秒（1.6 倍）、Modal 4.66 秒（1.9 倍）和 Daytona 5.51 秒（2.2 倍）。快速启动——通过动态集群调度程序 Lattice 在不到一秒的时间内创建沙箱。快照和克隆——随时创建快照以创建持久内存和文件系统检查点；跨机器即时克隆运行沙箱。一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-execution, code-interpreter, llm, rl, sandbox
+
+---
+
+### 🌟 [Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)
+- **项目语言**: Python
+- **星标数量**: ⭐ 519
+- **核心概述**: 将 Windows Copilot 逆向设计为兼容 OpenAI 的 API。通过简单的 REST 接口访问 GPT-4 和 GPT-5 模型，无需 API 密钥或计费。
+- **大概是做什么的**: Windows Copilot API：由 Microsoft Copilot 提供支持的免费 LLM API 使用您自己的 Microsoft Copilot 帐户。没有 API 密钥、没有积分、没有付费计划：它将 copilot.microsoft.com 上的免费聊天变成了可以从代码调用的 API。您可以通过两种方式使用它： - 🐍 作为 Python 库：只需调用 client.chat("Hi") 。支持流式和多轮对话。 - 🔌 作为本地 OpenAI 兼容 API：在 http://localhost:8000/v1 运行一个采用 OpenAI 格式的服务器，因此官方 openai SDK（以及任何 OpenAI 兼容应用程序）可以作为一个插件，用 localhost 代替 OpenAI。您在浏览器中使用您的 Microsoft 帐户登录一次；之后您的会话将被保存并自动刷新。非官方项目。不隶属于 Microsoft，也不受 Microsoft 认可。它可以自动化消费者 Copilot Web 体验以供个人使用，因此请在 Microsoft 条款范围内负责任地使用它。 - 使用 Docker 运行（可选） - 用法 1：在 Python 中（无服务器） - 用法 2：作为 OpenAI 兼容服务器 - 并发和压力测试 - 注释和限制 - 免费：使用正常登录的 Copilot，无 API b
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, api, copilot, llm, microsoft-copilot
+
+---
+
+### 🌟 [everything-ai-ml](https://github.com/viveknaskar/everything-ai-ml)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 427
+- **核心概述**: 针对生成式 AI、机器学习、代理式 AI、法学硕士、RAG、微调、MLOps 等的精选学习资源集合。
+- **大概是做什么的**: 针对生成式 AI、机器学习、代理式 AI 及相关主题的精选学习资源集合。浏览交互式备忘单：viveknaskar.github.io/everything-ai-ml 随时了解人工智能的最新动态 — SavvyMonk Newsletter - AI/ML Key Concepts - AI/ML Building Blocks - Generative AI - General - Generative AI - Advanced - Prompt Engineering - RAG（检索增强生成） - MLOps 和 GenAIOps - Google Cloud AI 和 ML - AI 成本优化 - 在组织中采用 GenAI -提高生产力的人工智能工具 - 量子计算和 PQC - 法学硕士即将推出的创新 - 必读研究论文 - 工具和框架 - 面试准备 - 监督学习 - 无监督学习 - 强化学习 - 自然语言处理 (NLP) - 生成对抗网络 (GAN) - 降维 - 聚类算法 - 贝叶斯推理 - 时间序列分析 - 自监督学习��互式可视化： - MLU-Explain — 核心 ML 概念的交互式视觉解释 - CNN 解释器 — 卷积的浏览器内交互式解释器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, artificial-intelligence, machine-learning, ml, ml-ops
+
+---
+
+### 🌟 [icm](https://github.com/rtk-ai/icm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 460
+- **核心概述**: AI 代理的永久记忆。单一二进制、零依赖、MCP 原生。
+- **大概是做什么的**: English Français Español Deutsch Italiano Português Nederlands Polski Русский 日本语 中文 ¡单一二进制、零依赖、MCP 原生。 ⚠️ 项目状态：实验性 ICM 为 1.0 之前版本，正在积极开发中。重大更改可能会出现在任何次要版本中，并且 hooks/MCP 配置格式可能会发生变化。也就是说，我（维护者）每天都使用 ICM 作为我的主要 AI 编码内存层 - 它在 API 稳定性方面是实验性的，而不是在日常实用性方面。我目前的重点是rtk； ICM 更新以尽力的节奏合并。欢迎提出问题和拉取请求，但可能需要比平时更长的时间来审查。 ICM 已获得 Apache-2.0 许可并按原样发货，不提供任何形式的保证（请参阅许可证）。在进行任何破坏性操作之前，请先运行只读等效操作（ icm uninstall --dry-run 、 icm uninstall --check ）。 ICM 为您的 AI 代理提供真正的记忆——不是笔记工具，不是上下文管理器，而是记忆。 - 记忆——存储/回忆，按重要性随时间衰减。重要的记忆永远不会消失，不重要的记忆会自然消失。筛选
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, experimental, mcp, memory, rust
+
+---
+
+### 🌟 [skillport](https://github.com/gotalab/skillport)
+- **项目语言**: Python
+- **星标数量**: ⭐ 398
+- **核心概述**: 通过 CLI 或 MCP 将代理技能带给任何 AI 代理和编码代理。管理一次，随处服务。
+- **大概是做什么的**: 用于代理技能的 SkillOps 工具包 SkillOps = 大规模验证、管理和交付技能。当您... SkillPort... ------------- -------------- 使用没有本机技能支持的编码代理 通过 MCP 或 CLI 提供服务 拥有 50 多种技能，需要正确的一项快速搜索优先加载（工具搜索工具模式） 在部署前检查技能 根据 CI 中的规范进行验证 以编程方式管理技能元数据 提供元命令 在 GitHub 上查找技能 使用 add 进行安装 与代理技能规范完全兼容。根据代理技能规范检查技能。在缺失字段、命名问题和规范违规造成问题之前捕获它们。来自任何来源的完整生命周期管理。无需手动编辑文件即可更新技能元数据。对于自动化和保持整个团队的技能一致很有用。适用于本身不支持代理技能的客户端的 MCP 服务器。受到 Anthropic 工具搜索工具模式的启发 - 首先搜索，按需加载：搜索技能（查询）按描述查找技能（全文搜索）加载技能（技能 ID）获取完整说明 + 路径
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude, codex, context-engineering, cursor
+
+---
+
+### 🌟 [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)
+- **项目语言**: Python
+- **星标数量**: ⭐ 417
+- **核心概述**: 浏览器 AI 代理日常任务的开源基准。
+- **大概是做什么的**: 新功能：查看我们的姐妹项目 HarnessBench — 修复了基本模型，改变了线束。相同的评分管道，正交轴。克隆→配置→运行。   根uv包。   Docker 隔离的线束。 AI智能体能完成日常在线任务吗？ ClawBench 是一个开源基准测试，用于评估 AI 浏览器代理在实时网站上的日常在线任务（预订旅行、订餐、申请工作、管理电子邮件）。 V1 存在于 test-case/v1/ 中，在 144 个网站上有 153 个任务； V2 存在于 test-case/v2/ 中，有 130 个任务。它通过 5 层记录管道和将每次运行与人类参考进行比较的代理评估器来衡量端到端任务的成功。迄今为止最高分：33.3%。我们要求前沿人工智能代理做人们每天都会做的事情——订餐、预订旅行、申请工作、撰写评论、管理项目。即使是最好的代理也只能完成大约三分之一。由 NAIL Group 构建 姐妹项目：HarnessBench 可在任何 Chrome 上运行。 V1：153 项日常任务 V2：130 项任务 144 项生活任务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evaluation, agentic-ai, ai-agent-benchmark, ai-agents, benchmark, browser-agent
+
+---
+
 ## 🕔 2026-06-23 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
