@@ -1,3 +1,67 @@
+## 🕔 2026-06-23 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentshield](https://github.com/affaan-m/agentshield)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 908
+- **核心概述**: AI代理安全扫描仪。检测代理配置、MCP 服务器和工具权限中的漏洞。可作为 CLI、GitHub Action、ECC 插件和 GitHub 应用程序集成使用。 🛡️
+- **大概是做什么的**: AI 代理配置的安全审核员扫描 Claude 代码设置以查找硬编码机密、权限错误配置、挂钩注入、MCP 服务器风险和代理提示注入向量。可作为 CLI、GitHub Action 和 GitHub App 集成使用。快速入门 · 它捕获什么 · API 参考 · Opus Pipeline · GitHub Action · 分发 · MiniClaw · 变更日志 AI 代理生态系统的增长速度快于其安全工具。仅在 2026 年 1 月： - 主要代理技能市场中的 12% 是恶意的（2,857 个社区技能中的 341 个） - CVSS 8.8 CVE 将 17,500 多个面向互联网的实例暴露给一键式 RCE - Moltbook 漏洞破坏了 770,000 个代理的 150 万个 API 令牌 开发人员安装社区技能、连接 MCP 服务器并配置挂钩，而没有任何自动化方式��审核其安全性设置。 AgentShield 会扫描您的 .claude/ 目录并在漏洞成为漏洞之前对其进行标记。在 Claude Code 黑客马拉松上构建（Cerebral Valley x Anthropic，2026 年 2 月）。 Everything Claude Code 生态系统的一部分（42K+ 星）。就是这样。 AgentShield 自动发现
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, claude-code, hackathon, mcp, opus
+
+---
+
+### 🌟 [user-research-skill](https://github.com/cookiy-ai/user-research-skill)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 698
+- **核心概述**: 适用于 AI 代理的 Cookiey AI Skill（Claude、Codex、Cursor、OpenClaw）— 端到端用户研究：AI 访谈、综合用户、定量调查、参与者招募。
+- **大概是做什么的**: AI 代理的用户研究技能 AI 堆栈中的人类层 — 让任何 AI 代理可以直接访问真实的人类意见、经验和决策。创作者们正在谈论我们 🎬 超过 90 万次观看次数和超过 5,000 条评论，创作者们将这项技能付诸实践。 https://github.com/user-attachments/assets/5f4b31e8-4cfe-4c96-bae2-511a1636c9c5 @maxjohnscn · 106K 浏览量 · 1,608 个赞 · 3,051 条评论https://github.com/user-attachments/assets/04fbc50c-d57e-4cf9-9f5d-246d5d55fc72 @maxjohnscn · 57.7K 浏览量 · 1,176 个赞 · 1,314 条评论https://github.com/user-attachments/assets/f5bf50b6-34e8-4747-bc48-6420fc62333e @rishiexplainsai · 142K 浏览量 · 494 条赞 · 634 条评论https://github.com/user-attachments/assets/78b2964d-e100-4ea1-b19d-3b51fab3ae1d @carrie.researcher · 610K 浏览量 · 14,093 条赞 · 111 条评论 一种 AI 代理技能，使任何 AI 平台能够规划、运行和综合用户研究 - 定性（访谈）和定量（调查） - 无需离开谈话。将其用于通用研究（设计研究计划、访谈指南、综合报告
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-skill, claude-code, cli, codex, cursor
+
+---
+
+### 🌟 [Duel-Agents](https://github.com/2aronS/Duel-Agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,004
+- **核心概述**: 用于 Duel Agents 的 CLI、SDK 和 IDE 插件
+- **大概是做什么的**: 使用、扩展和交付 Duel Agents：IDE 原生路由层，针对多个模型运行提示并选择仍然获胜的最便宜的答案。此存储库是 duelagents.com 的官方集成包。此存储库中的每个工具都使用 Duel API 密钥 ( duel ) 通过 https://duelagents.com/v1 路由 LLM 流量。您不能在这些集成中使用原始 Anthropic 或 OpenAI 密钥。从仪表板获取密钥：https://duelagents.com/dashboard/settings（订阅 → 创建 API 密钥） Claude Code npx @duel-agents/install claude-code Cursor npx @duel-agents/install 光标 Codex CLI npx @duel-agents/install codex OpenClaw npx @duel-agents/install openclaw All npx @duel-agents/install all 使用 /duel-agents:setup in用于指导设置的克劳德代码。安装程序将技能复制到 .cursor/skills/duel-agents/ 并将 DUEL API KEY 写入您的项目 .env 。您仍然需要使用 Duel 密钥将“设置”→“模型”→“覆盖 OpenAI 基本 URL”设置为 https://duelagents.com/v1。请参阅 templates/cursor-models.override.md 和 templates/env.cursor.example。写入 OPENAI BASE URL 和 OPENAI API KE
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude-code, cli, cursor, duel-agents
+
+---
+
+### 🌟 [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
+- **项目语言**: Python
+- **星标数量**: ⭐ 753
+- **核心概述**: 我个人的 Claude Code 和 OpenAI Codex 设置以及我每天使用的经过实战检验的技能、插件、挂钩和代理。
+- **大概是做什么的**: 我每天经过实战测试的 Claude Code/Desktop 和 OpenAI Codex 设置包括技能、命令、挂钩、子代理和 MCP 服务器。 “他们代表你做出错误的假设，然后不经检查就随波逐流。他们不会管理自己的混乱，他们不会寻求澄清，他们不会表面不一致，他们不会做出权衡。他们真的喜欢使代码和 API 过于复杂，他们会夸大抽象，他们不会自己清理死代码。” -- Andrej Karpathy 此存储库的指南旨在准确修复这些陷阱。安装 • 插件 • 配置 • 参考 插件为您的 AI 编码工具添加技能、命令和自动化。仅安装下面插件列表中您需要的内容。先决条件：请参阅 INSTALL.md 了解设置要求。 Codex 从本地市场安装插件，而不是直接 shell 安装命令。 1. 在本地克隆此存储库并在 Codex 中打开它。 2. 此存储库已包含 .agents/plugins/marketplace.json 。 3. 如果添加或更改该文件时 Codex 已打开，请重新启动 Codex。 4. 在 Codex 中，打开 /plug
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, claude-ai, claude-code, claude-code-plugin, claude-skills
+
+---
+
+### 🌟 [ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+- **项目语言**: Python
+- **星标数量**: ⭐ 614
+- **核心概述**: AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。
+- **大概是做什么的**: AI Berkshire - AI 时代的价值投资研究框架 "Price is what you pay, value is what you get." — Warren Buffett 用 AI 重新定义投资研究的深度与效率。 AI Berkshire 是一套基于 Claude Code 的投资研究 Skill 合集，将巴菲特、芒格、段永平、李录四位价值投资大师的方法论系统化、结构化，通过 AI Agent 实现专业级投资研究。 一个人 + Claude = 一个投研团队。 不是纸上谈兵。这套框架背后是真金白银验证的投资体系。 指标 2024 全年 2025 至今 ------ ---------- ---------- 本框架实盘 +69.29% +66.38% 恒生指数 +17.67% +27.77% 标普500 +23.31% +16.39% 沪深300 +14.68% +17.66% 纳斯达克 +28.64% +20.36% 2024 年超额收益 ：跑赢标普500 46个百分点 ，跑赢恒生指数 52个百分点 2025 年超额收益 ：跑赢标普500 50个百分点 ，跑赢恒生指数 39个百分点 两年累计实盘收益超 146万元 ，连续两年大幅跑赢全球主要指数。 免责声明：历史收益不代表未来表现。截图来自富途证券真实账户。 你当然可以直接问 Claude："帮我分析拼多多值不值得买"。你会得到一篇"一方面...另一方面..."的平衡分析，最后以"投资有风险，请自行判断"收尾。 AI Berkshire 解决的不是"能不能分析"的问题，而是 分析质量和决策纪律 的问题。以下是核心差异： 直接问AI，你得到的是两面讨好的"分析"。AI Berkshire 强制输��： 通过/不通过/灰色地带 ，带具体价格区间和分层建议。 普通AI回答： "拼多多有增长潜力但也面临竞争压力，投资者需要权衡..." ------ ------ --------- 激进型 当前价位可建仓20% $95-105 稳健型 等回购政策明确后建仓 $85-95 保守型 不符合10年确定性标准，观望 — 镜子测试 ：5句话说不完整 = 不买，没有例外。 不是"用巴菲特方法分析一下"这么简单。四个视角会产生 真实的矛盾和张力 —— - 段永平 （商业模式）：好生意，C2M模式难以复制 → 评分 3.7/5 - 巴菲特 （财务估值）：扣现金PE仅6.3x，印钞机 → 评分 4.4/5 - 芒格 （逆向思考）：护城河比想象中浅，抖音3年做到4万亿GMV → 评分 3.5/5 - 李录 （长期确定性）：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, anthropic, berkshire-hathaway, charlie-munger, china-stock
+
+---
+
+### 🌟 [AutoAgents](https://github.com/liquidos-ai/AutoAgents)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 685
+- **核心概述**: 用 Rust 编写的多代理框架，使您能够构建、部署和协调多个智能代理
+- **大概是做什么的**: Rust 中的生产级多代理框架 English 中文 日本语 Español Français Deutsch 한국어 Português (巴西) 翻译可能落后于英文 README。文档示例 贡献 喜欢这个项目吗？在 GitHub 上给我们加星标 AutoAgents 是一个模块化的多代理框架，用于在 Rust 中构建智能系统。它将类型安全代理模型与结构化工具调用、可配置内存和可插入 LLM 后端相结合。该架构专为跨服务器和边缘的性能、安全性和可组合性而设计，并作为高级代理工具的基础。 - 代理执行：ReAct 和基本执行器、流式响应和结构化输出 - 工具：派生工具和输出的宏，以及用于工具执行的沙箱 WASM 运行时 - 内存：具有可扩展后端的滑动窗口内存 - LLM 提供程序：统一接口背后的云和本地后端 - LLM Guardrails：用于保护 LLM 推理的 Guardrail 实现 - LLM 优化：使用缓存和优化等优化通道构建 LLM 管道重试以获得更快、更可靠的结果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-agents-framework, llm
+
+---
+
 ## 🕔 2026-06-23 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
