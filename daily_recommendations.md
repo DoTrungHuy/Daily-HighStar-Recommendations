@@ -1,3 +1,67 @@
+## 🕔 2026-06-23 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fulling](https://github.com/FullAgent/fulling)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,425
+- **核心概述**: Fulling 是一个人工智能驱动的全栈工程师代理。使用 Next.js、Claude、shadcn/ui 和 PostgreSQL 构建。使用 kubernetes 如下。
+- **大概是做什么的**: Fulling - 人工智能驱动的全栈开发平台 v2 开发正在进行中我们正在将 Fulling 重新构建为 Agentic 应用程序。预计将发生重大变化。为了稳定，请使用 v1.0.0 。 Fulling 让您专注于编码。人工智能处理其他一切。从 GitHub 导入您的项目或重新开始。 Claude Code 是您的 AI 结对程序员——它编写代码、运行测试、管理数据库并部署到生产环境。一切都在基于浏览器的开发环境中。配置驱动的开发。需要条纹吗？ OAuth？只需在项目设置中输入您的 API 密钥即可。服务立即可用——无需 SDK 设置、无需环境变量、无需集成代码。 Claude Code 读取您的配置并为您实现功能。 Fulling 提供了一个包含 Claude Code 和 PostgreSQL 的沙盒环境 — 编写全栈应用程序所需的一切。 Fulling 会自动设置您需要的一切，一分钟内准备就绪： - AI 对编程器 (Claude Code) - 全栈开发环境 - 专用数据库 (PostgreSQL) - Web 终端和文件管理器 - 实时 HTTPS 域 - AI 对编程器 - Claude Cod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude, claude-code, docker, kubernetes, llm
+
+---
+
+### 🌟 [soulforge](https://github.com/proxysoul/soulforge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 829
+- **核心概述**: AI 编码代理可以编辑符号，而不是字符串。 AST 手术、完整的 LSP 以及连接到内存的实时代码图，通过文件、协同更改和语义重新显示。
+- **大概是做什么的**: AI 编码代理可以编辑符号，而不是字符串。 macOS、Linux 和 Windows 10 1809+ / Windows 11 (x64)。在 Windows 上，获取最新版本的 Soulforge- -windows-x64.zip（便携式）或 Soulforge-setup- -x64.exe（安装向导）。尚不支持 ARM64（上游跟踪）。其他提供商和 OpenAI 兼容端点：docs/providers。相同的模型（Claude Opus 4.6），相同的代码库，相同的提示。 SoulForge OpenCode 时间 6m 22s 11m 18s 成本 $1.70 $3.52 结果 正确 正确 审计任务（“验证成本��告是否正确接线”） SoulForge OpenCode 时间 2m 00s 5m 56s 成本 $0.84 $2.61 准确度 7/7 (100%) 4/7 (57%) 误报 0 3 错误声明 0 1 同样的错误。相同型号。相同的回购协议。一半的时间。成本一半。来源：录制 1 · 录制 2 · 录制 3 功能 作用 AST 编辑 TS/JS 通过 ts-morph、65+ 操作、原子批次进行编辑。文档 Live Soul Map SQLite 图表、PageRank + git 共同更改、blast-radius 标签。文档 LSP + Mason 576+ 服务器可从 TUI 33 种语言符号级读取安装，而不是文件转储 复合工具重命名符号、移动符号、重构、项目（23
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude-code, cli, graph, harness
+
+---
+
+### 🌟 [symbiotic-ai](https://github.com/lout33/symbiotic-ai)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 728
+- **核心概述**: 一个共生的人工智能代理，可以记住一切，挑战你，并扩展你的认知。
+- **大概是做什么的**: 共生人工智能是人工智能的一个参考实现，旨在实现更好的思维循环——这一类别围绕人工智能可以帮助人们以经受承诺、行动和审查的方式更好地思考而建立。请参阅 Thinking Loops 中的证明、方法和相邻工作流程。将一次对话转变为明确的下一步和可以继续使用的系统。共生人工智能为任何模型提供了一种持久的方式来在会话中传递您的背景、承诺和当前方向。该系统故意很简单：一小部分文件将一个有用的会话转变为持续的上下文。文件用途更改 ------ --------- --------- SOUL.md 代理个性、身份、价值观、思考和交谈方式 每月 USER.md 您的个人资料：身份、心理、线路、使命、能量模式 每月 AGENTS.md 代理如何运作：协议、工具、模式、干预 每周 NOW.md 当前状态：任务、队列、日志、活动项目、截止日期 每日 代理在会话开始时读取全部 4 个内容。在您工作时更新 NOW.md。使用时间越长，系统就会变得越智能——不是因为人工智能的改进，而是因为过滤器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, assistant, claude, claude-code
+
+---
+
+### 🌟 [bolna](https://github.com/bolna-ai/bolna)
+- **项目语言**: Python
+- **星标数量**: ⭐ 681
+- **核心概述**: 对话式语音 AI 代理
+- **大概是做什么的**: 端到端开源语音代理平台：通过json快速构建语音优先会话助理。我们正在积极寻找维护者。 Bolna 是端到端开源生产就绪框架，用于快速构建基于 LLM 的语音驱动对话应用程序。 https://github.com/bolna-ai/bolna/assets/1313096/2237f64f-1c5b-4723-b7e7-d11466e9b226 这个存储库是什么？该存储库包含用于构建语音 AI 应用程序的整个编排平台。它在技术上使用不同的 ASR+LLM+TTS 提供商和模型通过 Websockets 的组合来编排语音对话。 Bolna 帮助您创建 AI 语音代理，可以指示其执行以下任务： 1. 编排平台（此开源存储库） 2. 在此编排平台之上构建的托管 API (https://docs.bolna.ai/api-reference/introduction) [目前已关闭源代码] 3. https://platform.bolna.ai/ 上的无代码 UI 游乐场，使用托管 API + tailwind CSS [当前已关闭源代码] 开发理念 1. 最初的任何集成、增强或功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai-agents, cartesia, conversational-ai, deepgram
+
+---
+
+### 🌟 [neuro-san-studio](https://github.com/cognizant-ai-lab/neuro-san-studio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 530
+- **核心概述**: 神经桑的游乐场
+- **大概是做什么的**: 您构建智能多代理系统的启动板。 Neuro SAN Studio 是 Neuro SAN 框架的实践平台，具有可立即运行的示例、教程和工具，可让您在几分钟（而不是几个月）内设计、测试和部署复杂的代理网络。无论您是探索自适应人工智能系统的研究人员、制作生产解决方案原型的开发人员，还是无需代码配置代理的领域专家，该工作室都可以处理编排复杂性，以便您可以专注于解决实际问题。 Neuro SAN 是为 Cognizant Neuro® AI 多代理加速器提供支持的开源库，允许领域专家、研究人员和开发人员立即开始跨任何垂直行业进行原型设计和构建���理网络。 Neuro AI 代理网络系统 (Neuro SAN) 是一个开源、数据驱动的多代理编排框架，旨在简化和加速协作 AI 系统的开发。它允许用户（从机器学习工程师到业务领域专家）快速构建复杂的多代理应用程序，而无需额外的操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aaosa, agentic-ai, agentic-framework, agents, ai, ai-agents
+
+---
+
+### 🌟 [bunqueue](https://github.com/egeominotti/bunqueue)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 482
+- **核心概述**: ⚡ Bun 的高性能作业队列。 SQLite 持久性、DLQ、cron 作业、S3 备份。专为人工智能代理和自动化而构建
+- **大概是做什么的**: Bun 的高性能作业队列。专为人工智能代理和自动化而构建。零外部依赖。 MCP 原生。 TypeScript优先。文档·基准·bunqueue 仅限于 Bun (bun = 1.3.9)。客户端、TCP 传输和持久性依赖于 Bun 的运行时 API（Bun.connect、Bun.file、Bun.hash 等），并作为带有无扩展说明符的 ESM 提供，因此它们不在 Node.js 下运行。从 Node 导入包很快就会失败，并出现明显的错误指向此处，而不是神秘的解析器崩溃。从bun.sh 安装Bun 并使用bun 运行。就是这样。 Queue + Worker 在一个对象中。没有 Redis，没有配置，没有设置。 🪶 Featherweight install Bun add Bunqueue 提取 7 个软件包和 5.4 MB — 其中包括二进制队列服务器、CLI 和 MCP 服务器。大多数队列库会在对单个作业进行排队之前拉取 Redis 客户端及其依赖关系树。之前 (2.7.x) 现在 --- --- --- --- 节点模块 93 MB 5.4 MB −94% 软件包 117 7 −110 冷安装 6 s 1.2 s 快 5 倍 只需 2 个运行时依赖项 ( croner + msgpackr )。 SQLite、S3、HTTP 和 WebSocket 都是 Bun 内置组件。时间
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-scheduler, background-jobs, bullmq-alternative, bun
+
+---
+
 ## 🕔 2026-06-23 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
