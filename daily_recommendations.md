@@ -1,3 +1,67 @@
+## 🕔 2026-06-23 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,605
+- **核心概述**: 用于构建人工智能驱动的办公助理和生产力工作流程的模块化 SenseNova 技能
+- **大概是做什么的**: SenseNova 模型系列直接插入 OpenClaw 和 Hermes-agent 等代理运行时，该存储库中的技能通过具体的端到端办公功能扩展了模型。在此存储库中，每个技能都位于其自己的目录中，并通过 SKILL.md 文件声明触发器、功能和执行流程，遵循代理技能约定。这些技能涵盖图像生成和可视化、幻灯片 (PPT) 生成、Excel 数据分析和深入研究——可独立使用或组合成端到端工作流程。 🎨 想看看它能做什么吗？查看我们的 sn-infographic 图库，探索近 100 个令人惊叹的一代案例并窃取他们的即时设计！ 🦝 在 Raccoon 中开箱即用 此存储库中的最新 SenseNova 模型和完整的 Cowork-Skill 套件捆绑到 Raccoon 中，具有企业级安全性和零设置体验 - 如果您不想自己配置环境、API 密钥和运行时，您可以直接通过 Raccoon 使用这些功能。提供免费试用——无需付费即可开始使用。浣熊
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai-agents, ai-assistant, data-analysis, document-processing
+
+---
+
+### 🌟 [CoreCoder](https://github.com/he-yufeng/CoreCoder)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,260
+- **核心概述**: 受 Claude Code 启发的最小 AI 编码代理（~1,400 LoC Python）。适用于任何法学硕士。将 NanoGPT 视为编码代理。以前称为 NanoCoder。
+- **大概是做什么的**: 以前称为 NanoCoder — 重命名以避免与 Nano-Collective/nanocoder 混淆。旧存储库中的所有链接都会自动重定向到此处。 中文 English Claude 代码架构深度剖析（7 篇文章） 512,000 行 TypeScript → 1,400 行 Python。我花了两天时间对泄露的克劳德代码源进行逆向工程——总共五十万行。然后我把它拆下来只剩下承重墙，并用 Python 重建它们。结果是：Claude Code 中的每一个关键架构模式都在代码库中，您可以一口气读完。 CoreCoder 不是另一个 AI 编码工具。这是一个蓝图——编码代理的 nanoGPT。阅读它，分叉它，构建你自己的。 Claude Code 的 512K 行被提炼成 1,400 行，跨 7 个真正重要的模式： Pattern Claude Code CoreCoder 搜索和替换编辑（唯一匹配 + diff） FileEditTool tools/edit.py — 70 行并行工具执行 StreamingToolExecutor（530 行）agent.py — ThreadPool 3 层上下文压缩 历史片段 → 微型紧凑 → 上下文崩溃context.py — 145 行具有隔离上下文的子代理 AgentTool（1,397 行）tools/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, cli, coding-agent, corecoder, deepseek
+
+---
+
+### 🌟 [liveblocks](https://github.com/liveblocks/liveblocks)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,635
+- **核心概述**: 多人应用程序和代理的实时基础设施
+- **大概是做什么的**: Liveblocks 为您提供构建块和基础设施，使人们和人工智能能够在您的应用程序内协同工作。免费开始使用 Liveblocks 包含一组协作构建块，您可以单独或一起使用。这些现成的功能提供了预构建的组件、挂钩和 API，可处理实时协作的复杂性，使您能够专注于构建产品的独特性 - 评论 - 直接添加上下文评论 - 多人游戏 - 将实时协作添加到您的产品体验 - AI 代理 - 将 AI 协作者添加到您的产品 - 通知 - 将通知添加到您的应用程序以吸引用户回访特定库和框架的软件包，以将 Liveblocks 支持的协作体验添加到您的产品中。集成旨在服务各种协作用例，例如协作文本编辑器、评论、通知等。 - @liveblocks/client - @liveblocks/react - @liveblocks/react-ui - @liveblocks/react-tiptap - @liveblocks/react-blocknote - @liveblocks/node-prosemirror - @liveblocks/react-lexical - @liveblocks/n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-copilot, collaboration, commenting-system, comments, crdt
+
+---
+
+### 🌟 [deepagents-in-action](https://github.com/datawhalechina/deepagents-in-action)
+- **项目语言**: Astro
+- **星标数量**: ⭐ 816
+- **核心概述**: 📚 《Deep Agents 实战》—— LangChain 官方大使出品，基于 LangChain / LangGraph 生态，从零构建生产级 AI Agent 的完整指南
+- **大概是做什么的**: 基于 LangChain / LangGraph 生态，系统构建生产级 AI Agent 由 沧海九粟 出品  ·  LangChain 官方认证大使  ·  《LangChain 实战》《LangGraph 实战》作者  ·  B 站万粉 UP 主 本课程讲授的 Deep Agents 版本为 ≥ 0.5 。 部分进阶功能有更高最低版本要求，章节正文会单独标注；例如 FilesystemPermission 基础权限需要 deepagents =0.5.2 ， interrupt 权限模式需要 deepagents =0.6.8 。 官方文档：Deep Agents Overview 🤖 模型选择 ：示例默认通过 硅基流动 接入模型。建议用 MODEL NAME 环境变量管理模型名，而非写死在代码里；平台模型会不定期上下线，最新可用模型见 模型广场。 - 入门 / 简单任务 — 免费的 Qwen/Qwen2.5-7B-Instruct 即可跑通。 - 复杂场景 （任务规划、上下文总结、多子 Agent 编排）— 小模型往往 无法稳定跑通 ，需改用 SOTA 模型： - 🔥 nex-agi/Nex-N2-Pro — 能动性思考模型，开源 SOTA， 当前限免 ，复杂任务首选 - Pro/zai-org/GLM-5.1 — 智谱旗舰，Agent 任务同类最佳 配合课程学习，推荐安装以下两个 AI 编码助手技能，在开发过程中获得框架级的专业指导： 技能源码：langchain-dev-guide · langsmith-trace 准备篇 — 动手实操前的环境搭建与工具安装 基于 AgentSeek 工程化套件，帮助学员快速搭建开发环境： - agentseek create 搭建模板应用：拉取预制模板并前后���联调运行 - agentseek skills 安装开发技能：为 AI 编码助手加载 LangChain 工程经验 第 1 章 从 Agent Framework 到 Agent Harness — Deep Agents 的诞生逻辑 第 2 章 快速上手 — 5 分钟构建你的第一个 Deep Agent 第 3 章 虚拟文件系统 — Deep Agents 的 Context Engineering 核心 第 4 章 任务规划与分解 — 让 Agent 学会拆解复杂任务 第 5 章 子 Agent 与上下文隔离 — 让 Agent 学会委派 第 6 章 异步子 Agent — 让主 Agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, astro, chinese, context-engineering, course
+
+---
+
+### 🌟 [loop-engineering](https://github.com/cobusgreyling/loop-engineering)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 728
+- **核心概述**: 使用 AI 编码代理进行循环工程的实用模式、入门工具和 CLI 工具。设计提示和协调代理的系统（受到 Addy Osmani 和 Boris Cherny 的启发）。包括循环审核、循环初始化、循环成本。
+- **大概是做什么的**: 循环工程正在取代你自己，成为提示代理的人。您可以设计一个系统来执行此操作。适用于使用 Grok、Claude Code、Codex、Cursor 和其他 AI 编码代理的开发人员。循环是一个递归目标：您定义一个目的，AI 会进行迭代（通常使用子代理、验证和外部状态），直到目标完成或循环决定将任务交给您。 → 交互式展示 + 模式选择器 → 循环工程文章 (Substack) Addy Osmani 的规范文章 - 五个构建块 + 内存 - 入门（5 分钟） - 操作与安全 从这里开始 描述 ------------ ------------- 循环工程文章 概念、原语和 Grok 映射 - 首先阅读此内容 模式选择器 首先运行哪个循环 - 如���不确定原语 矩阵 Grok 与 Claude Code 与 Codex - 将此循环设计清单加入书签 船舶准备情况标题 模式7 种生产模式 + 交互式选择器 Starters 克隆并运行套件（Grok、Claude Code、Codex） 循环审核 循环就绪分数 CLI（v1.4 + 活动检测） — npx @cobusgreyling/loop-audit 。 --
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, ai-coding, anthropic, automation, claude
+
+---
+
+### 🌟 [ongrid](https://github.com/ongridio/ongrid)
+- **项目语言**: Go
+- **星标数量**: ⭐ 304
+- **核心概述**: 一个运维 AI 代理，可以直接从 Slack、Telegram、Lark 或钉钉了解您的基础设施、找到根本原因并修复它。
+- **大概是做什么的**: 一个 ops AI 代理，可以直接从 Slack 或 Telegram 了解您的基础设施、找到根本原因并修复它。指标·日志·跟踪·拓扑爆炸半径·根本原因关联·远程执行·警报驱动的自动调查·RAG知识和代码搜索·专业代理和技能。 English 简体中文 日本语 한국어 Español Français Deutsch Português Русский ▶ 观看高清完整演示 (MP4, 18 MB) 功能 • 安装 • 集成 • 许可证 - 🤖 协调员 + 专家代理 — 协调员分派到 SRE/网络/数据库子代理 - 🚨 警报自动调查 — 调查员生成 RCA工人，将原因写回到聊天中 - 🔍 根本原因 RCA — 遍历拓扑，关联 m/l/t，将“原因”固定到源代码行 - 🔒 零入站端口 — 边缘拨出；主机上没有端口 22 / 80 / 443 - 💻 浏览器 SSH — 反向隧道 shell 进入任何主机；没有密钥，没有跳转盒，全部经过审核 - 🐳 在一个命令中自托管 - install.sh 调出完整堆栈 - 📊 内置可观察性 - Prometheus + Loki + Tempo + Grafana 有线；代理编写查询 - 🧠 带上你自己的模型 - Ant
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, aiops, alerting, chatbot, chatops, devops
+
+---
+
 ## 🕔 2026-06-23 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
