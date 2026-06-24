@@ -1,3 +1,67 @@
+## 🕔 2026-06-24 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pocketpaw](https://github.com/pocketpaw/pocketpaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 862
+- **核心概述**: 30 秒内你的 AI 代理。不是30小时。自托管、开源个人人工智能，具有桌面安装程序、多代理指挥中心（深度工作）和 7 层安全性。 Anthropic、OpenAI 或 Ollama。
+- **大概是做什么的**: 在您的机器上运行的人工智能代理，而不是其他人的机器上。具有本机桌面应用程序和 Web 仪表板的自托管 AI 代理。通过 Discord 、 Slack 、 WhatsApp 、 Telegram 或浏览器与您交谈。没有订阅。无云锁定。您的数据保留在您的机器上。 ⚠️ Beta：该项目正在积极开发中。预计版本之间会有重大变化。桌面应用程序（推荐） Windows PocketPaw 0.1.3 x64-setup.exe macOS (Apple Silicon) PocketPaw 0.1.3 aarch64.dmg macOS (Intel) PocketPaw 0.1.3 x64.dmg Linux (.deb) PocketPaw 0.1.3 amd64.deb Linux (.AppImage) PocketPaw 0.1.3 amd64.AppImage 通过终端安装 - Python 3.11 或更高版本（在此处下载）- pip 包管理器（Python 附带）推荐安装（使用虚拟环境）：或使用自动安装脚本：Windows (PowerShell) Windows 安装（分步）- Python 3.11 或更高版本 — 下载 Python。在安装过程中，选中“将 Python 添加到 PATH”。 - pip（Python 附带） 选项 A — 自动安装程序（推���初学者）： 选项 B — 手动安装： 1. 打开 PowerShell 并验证 Python 版本（必须
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, jarvis-assistant, multi-agent-systems, ollama, open-source
+
+---
+
+### 🌟 [ospec](https://github.com/clawplays/ospec)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 553
+- **核心概述**: 用于 AI 编码代理的规范驱动的代理工作流程框架。将请求转变为可验证的目标循环 - 计划、行动、验证 - 并在存储库中提供持久的规范和证据。适用于 Claude Code、Codex、Gemini、OpenCode 和普通 CLI。
+- **大概是做什么的**: 官方的 OSpec CLI 包是 @clawplays/ospec-cli ，官方命令是 ospec 。 OSpec 是用于 AI 编码代理的规范驱动的代理工作流程框架 - 它将规范驱动的开发 (SDD) 和循环工程（可验证的计划 → 行动 → 验证目标循环）引入 Claude Code、Codex、Gemini、OpenCode、基于 MCP 的代理和普通 CLI 工作流程。人工智能编码助手功能强大，但仅存在于聊天历史记录中的需求很难彻底检查、审查和关闭。 OSpec 添加了一个轻量级工作流层，以便存储库可以在编写代码之前和工作发布之后保存更改上下文。 - 规范驱动的工作，保存到您的存储库中 — OSpec 将请求转换为文件（提案、设计、计划、任务、评论、验证证据），这些文件存在于您的存储库中而不是聊天历史记录中，因此任何助手（Codex/GPT、Claude Code、Gemini、OpenCode 或普通 CLI）都可以准确地从上一个停止的位置开始。 - ospec 变更 — 日常快速流程 — 一项需求在短时间内变成一项主动变更 - 变更 - 验证/最终确定路径，保持轻量级且易于实施
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-coding, ai, ai-agents, ai-coding-assistant, ai-workflow
+
+---
+
+### 🌟 [ok-skills](https://github.com/mxyhi/ok-skills)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 431
+- **核心概述**: 为 Codex、Claude Code、Cursor、OpenClaw 和其他 SKILL.md 兼容工具精心策划的 AI 编码代理技能和 AGENTS.md 手册。
+- **大概是做什么的**: OK 技能：适用于 Codex、Claude Code、Cursor、OpenClaw 等的 AI 编码代理技能 English 简体中文 繁体中文 日本语 한국어 Deutsch Español Tiếng Việt Русский हिन्दी 精心策划的 AI 编码代理技能和 CLAUDE.md / AGENTS.md 手册适用于 Codex、Claude Code、Cursor、OpenClaw、Trae 和其他 SKILL.md 兼容工具。该存储库当前捆绑了 29 个可重用技能，全部作为该存储库中的顶级技能目录进行维护。将其克隆到 /.agents/skills/ok-skills ；里面的目录已经匹配 AGENTS.md 驱动的工作流程预期的布局，并且 CLAUDE AGENTS.md 提供了一个面向 Claude Code 的代理剧本。如果您正在寻找 Codex 技能、Claude Code 技能、Cursor 技能、OpenClaw 技能、可重用的 CLAUDE.md / AGENTS.md 剧本或实用的 SKILL.md 示例，该存储库被设计为既可搜索又可立即使用。流行的用例：文档查找、浏览器自动化、提示工程、规划工作流程、前端设计、PDF/Word/PPTX/XLSX 创作。此存储库适合谁 - 您使用 Codex、Claude Code、Cursor、OpenClaw、Trae 或其他 AI 编码代理，并且
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents-md, ai, ai-agents, claude-code, claude-code-skills
+
+---
+
+### 🌟 [CodexBridge](https://github.com/Gan-Xing/CodexBridge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: 微信到 Codex 的桥梁，用于通过聊天运行 Codex 应用程序服务器，具有线程、斜杠命令、批准、代理、自动化、上传和辅助记录。
+- **大概是做什么的**: CodexBridge 是一种以 Codex 为中心的网关，用于将多个聊天平台连接到一个共享的 Codex 引擎，同时在需要时在 Codex 内切换后端提供商配置文件。 - 第一个交付目标：微信 + Codex - 包端实验暂时暂停 - packages/codex-gateway 未在积极开发中 - packages/mission-control 未在积极开发中 - packages/codex-native-api 被保留为计划用于未来可能工作的唯一包，但目前也已暂停 - 核心规则：平台是适配器，Codex 仍然是执行引擎，Codex 线程状态仍然是事实来源 - Codex Native API TODO - Codex Gateway TODO - 已暂停- Mission Control TODO - 已暂停 - Mission Control 架构 - 历史参考 - 微信斜线命令参考 项目 bootstrap 现在重点关注： 1. 保持微信 + Codex 作为产品中心 2. 避免更多的后端/包扩展，直到桥梁方向更清晰 3. 将 codex-gateway 和 Mission-control 视为暂停的工作流 4. 将 codex-native-api 仅作为保留的未来选项，而不是行动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, assistant, automation, bridge, chatbot, codex
+
+---
+
+### 🌟 [Awesome-AI-Pedia](https://github.com/qdleader/Awesome-AI-Pedia)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 533
+- **核心概述**: 🔥🔥🔥 A Comprehensive Collection of AI/ML Knowledge, Papers, Courses, and Tools. (AI 知识大全，包含skills、claude code、cursor工具和学习路径)
+- **大概是做什么的**: 🔥 在线访问 🚀 快速开始 📚 文档 Awesome AI Pedia 是一个现代化 AI 知识库，旨在为开发者提供全面的 AI 工具使用指南、最佳实践和实战经验分享。 - 📚 11个AI分类 - 涵盖 Claude Code、Cursor、MCP、Prompt、Rules、Skills 等全方位 AI 知识 - 💡 实战导向 - 从实际项目出发，提供可落地的解决方案 - 🔍 智能搜索 - 内置全文搜索，快速定位所需内容 Claude AI 编码助手的完整使用指南 - Settings.json 配置详解 Cursor AI 编辑器的使用方法和最佳实践 🔌 MCP (Model Context Protocol) - Playwright MCP 自动化 - Chrome DevTools MCP - React + UI 设计师 Prompt - Next.js + React + TypeScript Rules - Vue.js + TypeScript Rules - Expo React Native Rules - HTML & CSS Best Practices - Claude + Cursor 高级提示词 微信搜索 硬核Ai社 回复加群，加入AI交流群，一起学习AI 如果这个项目对你有帮助，请给一个 ⭐ Star！ Made with ❤️ by qdleader
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents
+
+---
+
+### 🌟 [flock](https://github.com/duckbugio/flock)
+- **项目语言**: Go
+- **星标数量**: ⭐ 746
+- **核心概述**: 自主人工智能开发团队机器人
+- **大概是做什么的**: 在您的服务器上运行 Claude Code AI 开发团队并通过聊天来驱动它。描述 Telegram 或 VK 中的某个功能；团队对其进行规划，在分支上构建它，测试它，审查它，并打开一个 PR - 每个聊天都在其自己的隔离工作区中进行。它在您的 Claude Pro/Max 订阅（无按令牌计费）或 Anthropic API 密钥上运行，作为预构建的 Docker 映像提供（无构建步骤），并将每次聊天保存在自己的沙盒工作区中。快速启动 (Docker) 提取预构建的映像 ghcr.io/duckbugio/flock-telegram — 无需构建，无需 Ansible — 然后向您的机器人发送消息。最低 .env ： 来自 @BotFather 的 TELEGRAM BOT TOKEN TELEGRAM BOT USERNAME 您的机器人的 @username（无 @ ） 允许的用户 以逗号分隔 允许使用机器人的 Telegram 用户 ID CLAUDE CODE OAUTH TOKEN claude setup-token （订阅） — 或设置 ANTHROPIC API KEY .env.example 中的其他所有内容都有合理的默认值。稍后使用 docker compose pull && docker compose up -d 进行更新。区域：主机位于人类支持的区域（某些国家/地区，例如 RU/CN，受到地理封锁）——否则 Claude 调用会失败。 VK与adapters/vk/下的模式相同
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anthropic, autonomous-agents, chatbot, claude, claude-code
+
+---
+
 ## 🕔 2026-06-23 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
