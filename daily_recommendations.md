@@ -1,3 +1,67 @@
+## 🕔 2026-06-24 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-codex-subagents](https://github.com/VoltAgent/awesome-codex-subagents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 5,302
+- **核心概述**: 130 多个专业 Codex 子代理的集合，涵盖广泛的开发用例。
+- **大概是做什么的**: 涵盖 13 个类别的 171 多个 Codex 子代理的精彩集合。 Awesome Codex Subagents 该存储库是 Codex Subagents 的权威集合，是专为特定开发任务而设计的专门 AI 助手。专门为 Codex 编写并与官方文档保持一致。完全按照记录使用 Codex 自定义代理目录： - /.codex/agents/ 用于全局代理（在所有项目中可用） - .codex/agents/ 用于特定于项目的代理（该存储库中的优先级更高） 1. 克隆此存储库。 2. 将所需的 .toml 代理文件复制到上述目录之一。 3. 如果需要，重新启动或刷新 Codex 会话。 4. 在提示中显式委托（Codex 不会自动生成自定义子代理）。如果您在 Codex 中使用代理配置，请将其保存在 [agents] 下的 .codex/config.toml 中，如官方文档中所述。子代理存储位置 类型 路径 可用性 优先顺序 ------ ------ -------------- ------------ 项目子代理 .codex/agents/ 仅当前项目 较高 全局子代理 /.codex/agents/ 所有项目 较低 注意：发生命名冲突时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awesome-list, chatgpt, codex, codex-skills, codex-subagents
+
+---
+
+### 🌟 [seekdb](https://github.com/oceanbase/seekdb)
+- **项目语言**: C++
+- **星标数量**: ⭐ 2,755
+- **核心概述**: AI 原生搜索数据库。最适合代理存储，它将矢量、文本、结构化和半结构化数据统一到单个引擎中。这一一体化数据库使代理更智能、更易于运行且更稳定。
+- **大概是做什么的**: 写。搜索。叉。 AI 代理的状态存储。 MySQL 兼容 · 嵌入式或服务器 · 混合向量 + 全文搜索 · COW 沙箱 ⚡ 1,523 QPS 流式写入+搜索（10× Milvus，3× Elasticsearch） 🌿 FORK/MERGE 沙箱，用于安全代理探索 🔍 一次 SQL 查询中的向量 + 全文 + 标量 🐬 完整 ACID，MySQL 协议，可与 LangChain/LlamaIndex/Dify 配合使用日本语 30 秒尝试 · 快速入门 · 为什么选择eekdb · 生态系统 · 贡献 如果您发现eekdb 有用，请考虑给它一颗星——它可以帮助其他人发现该项目。 ⚡ 性能概览 📖 阅读发布博客 → · 🔁 重现基准测试 → 📋 查看 demo.py 源代码 → 无服务器、无模式、无嵌入设置。嵌入模式在进程内运行；一根线切换到服务器/OceanBase模式。更多示例 → ✨ 为何为 Agents 使用eekdb？ 🔥 流式写入 + 并发搜索，如果没有 P99 Spike Agent，工作负载就是连续写入 + 毫秒后读取。 eekdb的异步索引管道（Change Stream）将DML与索引构建解耦，其两级HNSW（增量+快照）制作新写入的向量
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, copy-on-write, embedded-database, full-text-search, hnsw, hybrid-search
+
+---
+
+### 🌟 [AGenUI](https://github.com/AGenUI/AGenUI)
+- **项目语言**: C++
+- **星标数量**: ⭐ 858
+- **核心概述**: 适用于 iOS/Android/HarmonyOS 的原生 A2UI 渲染器 — 高性能流式 AI 生成的 UI，具有 22 个内置组件。唯一完整的 3 平台 A2UI 实现。
+- **大概是做什么的**: AGenUI 是一款高性能 A2UI SDK，用于跨 iOS、Android 和 HarmonyOS 构建原生生成式 UI 体验。官方网站 · 快速入门 · API 参考 · 贡献 该项目正在积极开发并迅速发展。热烈欢迎贡献、反馈和讨论。 v1.0.0 新增功能 2026-05-25 发布 - 布局引擎升级 - 所有布局计算现在都汇聚到共享 C++ 核心中；跨平台 Flex 嵌套、对齐和大小调整行为在源头是统一的。 - 渲染管道优化——简化的差异重绘路径���重构关键数据结构和批量计算通道，以减少全面的绘图开销。 - 可插入运行时记录器 - 新的 IRuntimeLogger 接口允许集成商通过动态级别控制（调试 → 致命 + 性能）注入自定义日志实现。 - 运行时错误报告——协议异常（缺少字段、类型不匹配、JSON 失败）现在通过统一的错误回调来显示，以进行生产级监控。 - 稳定性和视觉效果——自动交叉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2ui, agent-ui, agenui, ai-agents, ai-generative-ui, cross-platform
+
+---
+
+### 🌟 [ainativelang](https://github.com/sbhooley/ainativelang)
+- **项目语言**: Python
+- **星标数量**: ⭐ 827
+- **核心概述**: AINL 帮助将人工智能从“智能对话”转变为“结构化工人”。它专为构建需要多个步骤、状态和内存、工具使用、可重复执行、验证和控制以及较低对长提示循环的依赖的 AI 工作流程的团队而设计。 AINL 是一个紧凑的、图规范的、人工智能原生的编程系统（阅读：自述文件）
+- **大概是做什么的**: AI Native Lang (AINL) 在 X 上找到我们：@ainativelang AI 主导的联合开发项目，由 Steven Hooley 发起（ x.com/sbhooley 、 stevenhooley.com 、 linkedin.com/in/sbhooley ）。归属详细信息： docs/PROJECT ORIGIN AND ATTRIBUTION.md 和 tooling/projectprovenance.json 。 -- 该项目由 AI 命名:) 对于代理 — 安装 AINL（一步） 如果您是 AI 编码代理（Claude Code、Cursor、Cline、Codex、Aider 等）或任何支持 MCP 的运行时，并且用户希望将 AINL 添加到其堆栈中，请运行一个命令：如果 pipx 不可用，则回退：这就是整个安装。 setup 命令自动检测存在的每个主机（Claude Code 项目 + 用户、Cursor、Cline、Codex CLI/Desktop、Claude Desktop、OpenClaw、Hermes、ArmaraOS 或任何通用 MCP 主机），将正确的 MCP 服务器条目合并到每个配置文件中（原子写入、带时间戳的备份），并使用 ainl doctor 进行验证。幂等 — 安全 如果未自动检测到主机，请运行 ainl setup --print-config 以获得可粘贴的 stdio MCP 服务器块。机器可读规范：.agent-install.json · 设计：docs/architecture/2026-05-05-agent-insta
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai-agents, ai-native-language, ainl, claude-code, compiler
+
+---
+
+### 🌟 [horizon](https://github.com/peters/horizon)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 657
+- **核心概述**: GPU 加速终端板可将您的所有会话置于无限画布上
+- **大概是做什么的**: Horizo​​n 是一款 GPU 加速的终端板，可将您的所有会话置于无限的画布上。按工作区组织、从预设启动、快速导航，再也不会丢失终端。选项卡式终端隐藏您的工作。平铺的终端将您包围起来。Horizo​​n 为您提供了一个画布——一个无限的 2D 表面，其中每个终端都作为一个面板，您可以根据需要进行放置、调整大小和分组。将其视为终端会话的白板，顶部有结构化工作流程。从颜色编码的工作区开��，启动预设面板，使用快速导航跳转，并在您需要清晰的概览时调整活动工作区。在无限的工作空间表面上自由平移和缩放。将终端放置在任何地方。角落里的小地图可以让你保持方向——点击它可以跳跃。将相关面板分组到颜色编码的工作区中。使用三种布局模式自动排列 - 行、列、网格 - 或自由拖动面板。完整终端仿真 24 位颜色、鼠标报告、回滚、替代屏幕和 Kitty 键盘协议。由 Alacritty 终端引擎提供支持 — 与世界上最快的终端相同
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, codex, developer-tools, egui, gemeni-cli
+
+---
+
+### 🌟 [Aegis](https://github.com/GanyuanRan/Aegis)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 572
+- **核心概述**: 使 AI 编码代理具有架构意识：基线优先、证据验证、偏差检查以及长时间任务的安全性。
+- **大概是做什么的**: 面向 AI 编程 agent 的 baseline-first、evidence-driven 工作流程纪律包。 Aegis 是面向真实软件工作的 Superpowers 升级版 。它保留 composable - baseline first：高风险改动前先读当前项目事实 - evidence before completion：没有 fresh verification evidence，不声明完成 - repair track + retirement track：修复问题时同步说明旧路径保留或退役 - 工作流质量（Workflow Quality）护栏：简单任务保持轻量，风险升高才展开 - 多宿主可移植 method-pack skills 当 agent 容易在目标、owner、架构边界或验证路径不清楚时就开始写代码，Aegis 把下面这段话交给你的 AI 编程 Agent： 完成安装并登记当前宿主之后，后续更新可以用自然语言直接让 agent 更新 Aegis ， 也可以显式说 aegis:update 。agent 可以把这两种方式路由到本地更新路径：先定位 已安装的 method-pack 根目录，读取本机 host-scoped registry，再调用 scripts/aegis-update.py 默认更新当前宿主。只有用户明确要求 --all 时才更新所有 已登记宿主。Aegis 默认不做后台自动更新。 Aegis Method Pack (runtime-ready) 它不是完整的 Aegis Platform，不是 daemon，不是后台 runner，不是 runtime core， 不提供 authoritative GateDecision ，不提供 authoritative PolicySnapshot ， 也不授予 final completion authority。用户当前指令和目标项目规则优先于 Aegis。 Aegis 默认自动模式。要切换��显式模式，在已安装的 method-pack 根目录运行： 修改后需要重启宿主。长期设置方式和宿主注意事项见 docs/current/AEGIS ACTIVATION MODE.md。 TDD mode 默认是 auto ：Aegis 会按风险自动选择严格 TDD、轻量验证，或在 不适合 TDD 的任务中跳过 TDD。若只想关闭自动 TDD 路由，但仍保留完成前验证： 详细语义见 docs/current/AEGIS TDD MODE.md。 Aegis 保留多宿主、plug
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: add, agent-skills, ai-agents, ai-coding, architecture-driven-development, baseline-first
+
+---
+
 ## 🕔 2026-06-24 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
