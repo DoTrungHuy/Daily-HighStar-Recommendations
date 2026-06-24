@@ -1,3 +1,67 @@
+## 🕔 2026-06-24 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [osaurus](https://github.com/osaurus-ai/osaurus)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 6,028
+- **核心概述**: 拥有你的人工智能。用于 AI 代理的本机 macOS 工具 - 任何模型、持久内存、自主执行、加密身份。内置于斯威夫特。完全离线。开源。
+- **大概是做什么的**: Mac 上的代理、内存、工具和身份。纯粹用 Swift 构建。完全离线。开源。推理就是你所需要的。其他一切都可以归你所有。型号日益便宜且可互换性越来越强。不可替代的是它们周围的一层——你的背景、你的记忆、你的工具、你的身份。其他人则将该层保留在他们的服务器上。 Osaurus 将其保留在您的计算机上。 Osaurus 是 macOS 的 AI 工具。它位于您和任何模型（本地或云）之间，并提供使 AI 个性化的连续性：能够记忆、自主执行、运行真实代码并从任何地方保持可访问性的代理。这些模型是可以互换的。线束就是复合物。与本地模型完全离线工作。当您需要更多功能时，请连接到任何云提供商。除非您选择，否则任何内容都不会离开您的 Mac。 Apple Silicon 上的原生 Swift。没有电子。没有妥协。麻省理工学院许可。或者从发行版下载最新的 .dmg。安装后，从 Spotlight（⌘ Space →“Osaurus”）或 CLI 启动：需要 macOS 15.5+ 和 Apple Silicon。代理商是
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, apple-foundation-models, apple-intelligence, apple-neural-engine, llm, mcp
+
+---
+
+### 🌟 [emdash](https://github.com/generalaction/emdash)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,972
+- **核心概述**: Emdash 是开源代理开发环境 (🧡 YC W26)。并行运行多个编码代理。使用任何提供商。
+- **大概是做什么的**: Emdash 是一款用于并行运行 AI 编码代理的桌面应用程序。每个任务都在自己的 Git 工作树中运行，因此您可以一次探索多个修复或功能、查看差异并合并有效的内容。它通过 SSH 与本地项目和远程计算机配合使用。带上您已使用的 CLI 代理：Claude Code、Codex、OpenCode、Gemini、Amp 等。 - 一次运行多个编码代理，无需处理终端。 - 将每个代理隔离在其自己的 Git 工作树和分支中。 - 将问题和票证从 Linear、GitHub、Jira、GitLab、Asana、Featurebase、Monday.com、Forgejo 或 Plain 发送到代理。 - 查看差异、创建拉取请求、检查 CI 检查并从一处合并。 - 通过 SSH/SFTP 在本地或您自己的远程计算机上工作。 macOS brew install --cask emdash · Apple Silicon · Intel Windows Installer · Portable Linux AppImage · Debian 软件包 请参阅 Emdash 自动检测已安装的提供程序 CLI 的最新版本。它支持 Claude Code、Codex、Cursor、OpenCode、Gemini、Amp、Devin、Qwen Code、Droid 和 GitHub 等代理。请参阅提供程序以获取完整列表，设置 c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agenticdevelopment, agenticdevelopmentenvironment, ai, claude-code, cli, coding-agents
+
+---
+
+### 🌟 [openmed](https://github.com/maziyarpanahi/openmed)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,793
+- **核心概述**: 本地优先的医疗保健 AI：临床 NER 和 HIPAA PII 去识别，100% 在设备上运行。 1,000 多个医疗模型、12 种语言、Apple MLX + Python，无需云，患者数据不会离开您的网络。阿帕奇-2.0
+- **大概是做什么的**: 永远不会离开设备的本地优先医疗保健人工智能只需一行代码即可将临床文本转化为结构化见解。实体提取、PII 去识别以及 1,000 多个完全在您自己的硬件上运行的专业医疗模型 - 从 Python 中的单行代码到 iPhone 上由 Apple MLX 提供支持的本机 Swift 应用程序。没有云。没有供应商锁定。没有患者数据离开您的网络。 1,000 多个模型 12 种语言 247 个 PII 检查点 100% 在设备上 Apache-2.0 OpenMed 完全在设备上运行 — 临床文本永远不会离开设备。这是在 iPhone 上的情况，完全离线：在 iPhone 上通过 OpenMedKit — 扫描临床记录、去识别化并提取临床信号，所有这些都通过 Apple MLX 在本地完成。没有上传任何内容。实时 PII 去识别化——Nemotron 隐私过滤器完全在设备上编辑临床出院数据包中的姓名、地址、ID 和账单数据。 （显示的所有值都是合成值。）本地运行的最先进的临床 NER 模型 — 无需 API 密钥，无需网络调用。 OpenMed Cloud 医疗 API ------------------
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: clinical-nlp, healthcare, hipaa, ios, llm, local-llm
+
+---
+
+### 🌟 [bifrost](https://github.com/maximhq/bifrost)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,009
+- **核心概述**: 最快的企业 AI 网关（比 LiteLLM 快 50 倍），具有自适应负载均衡器、集群模式、护栏、1000 多个模型支持以及 5k RPS 时的开销 <100 µs。
+- **大概是做什么的**: 构建永远不会出现 Bifrost 故障的 AI 应用程序的最快方法是高性能 AI 网关，它通过单个 OpenAI 兼容 API 统一对 23 个以上提供商（OpenAI、Anthropic、AWS Bedrock、Google Vertex 等）的访问。通过零配置在几秒钟内完成部署，并获得自动故障转移、负载平衡、语义缓存和企业级功能。在不到一分钟的时间内从零到生产就绪的 AI 网关。步骤 1：启动 Bifrost Gateway 步骤 2：通过 Web UI 配置 步骤 3：进行第一个 API 调用 就是这样！您的 AI 网关通过 Web 界面运行，���于可视化配置、实时监控和分析。完整的设置指南： - 网关设置 - HTTP API 部署 - Go SDK 设置 - 直接集成企业部署 Bifrost 支持大规模运行生产 AI 系统的团队进行企业级私有部署。除了专用网络、自定义安全控制和治理之外，企业部署还可以解锁高级功能，包括自适应负载平衡、集群、护栏、MCP 网关和其他设计功能。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-gateway, gateway, gateway-services, generative-ai, guardrails, llm
+
+---
+
+### 🌟 [free-llm-api-keys](https://github.com/alistaitsacle/free-llm-api-keys)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,765
+- **核心概述**: 适用于 GPT-5.5、Claude、DeepSeek、Gemini、Grok 的免费 LLM API 密钥 — 复制、粘贴、使用。每天更新 3-5 次。无需信用卡。
+- **大概是做什么的**: 免费访问 LLM API 的最简单方法 — 无需信用卡，无需注册。从下表中复制密钥，将其粘贴到您的应用程序中，然后开始构建。 ⭐ 星星是可选的支持，不需要加入或获胜。它们只是帮助保持项目的可见性和免费密钥的运行。 🔔 在 X 上关注 @getkeyway，了解新密钥掉落、新模型警报和正常运行时间状态 English 中文 日本语 한국어 Español Português 🧪 在 Playground 中尝试 → — 粘贴密钥，在浏览器中与 90 多个模型聊天，无需安装 🎁 每日 AI API 补助 我们利用闲置的生产级 API 容量运行每日少量 AI API 补助。每天，我们都会与 X 上的构建者共享一些 24 小时私有 API 密钥。关注每日资助：X 上的 @getkeyway 最新资助帖子：2026-06-17 · x-ai/grok-4.3 没有购买。不隶属于 X 或 GitHub。 💡 为什么选择这个项目？人工智能正在改变一切，但大多数 API 都被锁定在信用卡和付费墙后面。并非每个人都可以访问，尤其是无法使用这些服务的地区的学生、爱好者和开发人员。我在自己的工作中大量使用 LLM API。我有多余的能力，否则的话
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, api, api-key, api-keys, chatgpt, claude
+
+---
+
+### 🌟 [baml](https://github.com/BoundaryML/baml)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 8,420
+- **核心概述**: 添加工程提示工程的AI框架（Python/TS/Ruby/Java/C#/Rust/Go兼容）
+- **大概是做什么的**: BAML：基本上是一种虚构的语言主页文档 BAML AI 聊天 Discord BAML 是一种简单的提示语言，用于构建可靠的 AI 工作流程和代理。 BAML 通过将提示工程转变为模式工程（您主要关注提示的模型）来获得更可靠的输出，从而使提示工程变得容易。您不需要用 BAML 编写整个应用程序，只需编写提示即可！您可以使用您选择的任何语言来连接您的法学硕士功能！请参阅我们的 Python、TypeScript、Ruby 和 Go 等快速入门。 BAML 附带所有电池 - 具有完整的类型安全、流式传输、重试、广泛的模型支持，即使它们不支持本机工具调用 API 尝试 BAML：提示小提琴 • 交互式应用程序示例 核心 BAML 原则：LLM 提示是函数 BAML 中的基本构建块是函数。每个提示都是一个接受参数并返回类型的函数。每个函数还定义了它使用的模型以及它的提示是什么。 BAML函数可以从任何语言调用下面我们通过Python调用我们在BAML中定义的ChatAgent函数
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: baml, boundaryml, guardrails, llm, llm-playground, playground
+
+---
+
 ## 🕔 2026-06-24 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
