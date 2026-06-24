@@ -1,3 +1,67 @@
+## 🕔 2026-06-24 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [steel-browser](https://github.com/steel-dev/steel-browser)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,218
+- **核心概述**: 🔥 适用于 AI 代理和应用程序的开源浏览器 API。 Steel Browser 是一款内置电池的浏览器沙箱，可让您实现网络自动化，而无需担心基础设施。
+- **大概是做什么的**: 适用于 AI 代理和应用程序的开源浏览器 API。构建实时网络代理和浏览器自动化工具的最佳方式。 Steel.dev 是一个开源浏览器 API，可以轻松构建与网络交互的 AI 应用程序和代理。您无需从头开始构建自动化基础设施，而是可以专注于 AI 应用程序，而 Steel 则负责处理复杂性。在底层，它管理会话、页面和浏览器进程，使您能够以编程方式执行复杂的浏览任务，而不会遇到任何麻烦： - 完全浏览器控制：使用 Puppeteer 和 CDP 来完全控制 Chrome 实例 - 允许您使用 Puppeteer、Playwright 或 Selenium 进行连接。 - 会话管理：跨请求维护浏览器状态、cookie 和本地存储 - 代理支持：用于 IP 轮换的内置代理链管理 - 扩展支持：加载自定义 Chrome 扩展以增强功能 - 调试工具：内置请求日志记录和用于查看/调试会话的 UI - 反检测：包括隐形插件和指纹管理 - 资源管理：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, browser-automation, llm
+
+---
+
+### 🌟 [CGraph](https://github.com/ChunelFeng/CGraph)
+- **项目语言**: C++
+- **星标数量**: ⭐ 2,283
+- **核心概述**: 【A common used C++ & Python DAG framework】 一个通用的、无三方依赖的、跨平台的、收录于awesome-cpp的、基于流图的并行计算框架。欢迎star & fork & 交流
+- **大概是做什么的**: 中文 English Readme deepwiki CGraph is a cross-platform D irected A cyclic G raph framework based on pure C++ without any 3rd-party dependencies. You, with it, can build your own operators simply, and describe any running schedules as you need, such as dependence, parallelling, aggregation, conditional and so on. Python APIs are also supported to build your pipeline. Tutorials and contact information are shown as follows. Please get in touch with us for free if you need more about this repository. CGraph 中文名为【色丶图】，是一套无任何第三方依赖的跨平台图流程执行框架。通过 GPipeline (流水线)底层调度，提供了包含依赖元素依次执行、非依赖元素并发执行，支持暂停、恢复、超时设定的 eDAG 调度功能。 使用者只需继承 GNode (节点)类，实现子类的 run() 方法，并根据需要设定依赖关系，即可实现任务的图化执行或流水线执行。还可以通过设定各种包含多节点信息的 GGroup (组)，自行控制图的条件判断、循环和并发执行逻辑。 本工程使用纯C++11标准库编写，无任何第三方依赖，兼容 MacOS 、 Linux 、 Windows 和 Android 系统。支持本地编译和二次开发，并且提供 Python 版本： pycgraph 。编译和安装方法，请参考 CGraph 编译说明 详细功能介绍和用法，请参考 一面之猿网 中的文章内容。相关视频在B站持续更新中，欢迎观看和交流： 全面介绍CGraph项��中，所有的名词术语和功能模块 结合实际coding过程，详细介绍了每个功能的具体的使用场景、用法、以及解决的问题 适合想要全面了解功能和快速上手使用CGraph的童鞋 如上图所示，图结构执行的时候，首先执行 a 节点。 a 节点执行完毕后，并行执行 b 和 c 节点。 b 和 c 节点全部执行完毕后，再执行 d 节点。 CsCGraph : A CSharp n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, dag, graph, pipeline, taskflow
+
+---
+
+### 🌟 [Citadel](https://github.com/SethGammon/Citadel)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 616
+- **核心概述**: Claude Code + OpenAI Codex 的操作层：持久项目内存、意图路由、安全挂钩、成本遥测和并行代理队列。
+- **大概是做什么的**: Citadel 是 Claude Code 和 OpenAI Codex 的开源编排层。它为您的编码代理提供持久的项目内存、/do 意图路由、安全挂钩、成本遥测以及隔离 git 工作树中的并行代理。如果 CLAUDE.md 和 AGENTS.md 告诉运行时您的项目是什么，Citadel 就会告诉运行时如何对其进行操作。安装·查看运行·工作原理·为什么存在·路线图上面的会话是说明性的，但其中的每一步都是真实的行为：层级联、编组步骤链、.planning/handoff 和/cost 遥测。在交互式���示中观看路由器动画，或在您自己的存储库中运行可复制的演示工作流程。安装后，从项目根目录尝试此操作：Citadel 将一次性编码代理聊天转变为可重复的工程工作流程。 Claude Code 和 Codex 擅长本地推理和代码编辑，但每个会话仍然需要项目上下文、安全操作规则、任务路由以及上下文重置后继续工作的方法。 Citadel 就是那个安全带层。克劳德代码 / Codex 单独与 Citadel 项目背景重新解释过
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agent-workflow, ai-agents, claude-code-plugin, claude-plugins, codex-plugin
+
+---
+
+### 🌟 [claude-skill-social-post](https://github.com/Hao0321/claude-skill-social-post)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 426
+- **核心概述**: 骆君昊的 Claude Code 技能可以学习您的 Facebook 语音，并通过 14 天的内容日历自动发布到 FB / IG / Threads / X。超级病毒式传播验证：第一篇帖子获得 72K 覆盖率/358 条点赞/443 条评论/+700 名社区成员。包括第 2 天的失败事后分析。
+- **大概是做什么的**: 一个 Claude Code skill，让 AI 学会你的 Facebook 讲话风格、帮你规划内容、自动发到 FB / IG / Threads / X。 原作者 ： 骆君昊 (Hao) · MetaFantasy Co-Founder / 3D Artist / VFX Artist / AIGC 数位创作者 🔗 Facebook 个人页 · Claude Code 台湾交流讨论区 (Line 社群) · GitHub 👉 觉得有用请按 ⭐ Star，加入社群讨论更多 AI 应用 2026-04-21 凌晨，我跟 Claude 一起做这个 skill — 学我自己的 FB 语气、排 14 天内容日历、然后自动发文。 做完当下我发了第一篇，贴文钩子是「 这篇 po 文就是这个 skill 自己发的 」。 Day 1 promo 型变体（2026-04-21 02:13）6 天 plateau ： - 浏览者 75,071 人 / 380 赞 / 457 留言 / 81 分享 - +167 FB 粉 / +1,319 Line 社群成员 （原 800→2,119） - 96.5% 非追踪者 — 演算法广推，不靠既有粉丝 Day 6 演算法复盘型变体（2026-04-28 02:13）26h plateau ： - 18,603 观众 / 100 赞 / 89 留言 / 25 分享 / 92.6% 非追踪者 - 排名 2/10 / 受众年龄 shift：45-54 岁 +6.6% 5/5 社群 social proof 型变体（2026-05-05 02:13）19h 战绩 ： - 44,110 观众 / 265 赞 / 342 留言 / 35 分享 / 95.3% 非追踪者 - Line 群 2,336 → 3,575（+1,239 人，94% 复制 Day 1 真 KPI） - 月内第 5 个 F6b 但叙事意图全新 → 推翻 v0.5「月配额硬限」假设 3 个变体 / 3 个 mega-viral / 都跨 90% 非追踪者天花板 。这�� repo 就是 v0.7.2 版本，加上 14 天 / 13 篇 Hao 实战累积 + 5 个外部 viral 范例逆向工程 + 2026 web 大数据整合。 姐妹 skill: claude-skill-code-cleanup v0.2 — 双模式 / 8 dimensions：Mode A 扫 codebase 找重复/命名/模组/过长；Mode B 跑 repo audit 检查私公版 sync / rel
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, aigc, anthropic, chrome-mcp, claude-code, claude-skill
+
+---
+
+### 🌟 [agentic-ai-apis](https://github.com/cporter202/agentic-ai-apis)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 341
+- **核心概述**: 用于构建自主 AI 代理的 API 的终极集合 - 跨代理、AI 模型和 MCP 服务器的 2,036 个生产就绪 API。停止浪费数周时间建设基础设施。立即将其插入并运送给您的代理。
+- **大概是做什么的**: 用于构建自主 AI 代理的 API 的终极集合 - 跨代理、AI 模型和 MCP 服务器的 2,528 个生产就绪 API。这个存储库的设计感觉就像一个启动板，而不是一个垃圾抽屉。它的范围紧密围绕在构建自主系统、副驾驶、工具使用助理和 MCP 原生工作流程时最重要的 API 层。最后更新时间：2026 年 6 月 24 日 重点关注代理 AI 基础设施执行层、编排、自主任务处理和代理式工作流程。开放代理目录生成、推理、提取、转换和模型驱动的产品构建块。开放式 AI 模型目录模型上下文协议集成，可将助手连接到真实的工具、系统和数据。打开 MCP 服务器目录 1. 首先选择您需要的层：代理、AI 模型或 MCP 服务器。 2. 打开该类别自述文件并扫描 API 名称和说明。 3. 单击进入提供商页面以获取实施详细信息、定价和文档。 4. 快速建立候选名单，而不是浪费时间挖掘不相关的类别。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, ai-tools, api-collection, api-directory, apis
+
+---
+
+### 🌟 [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,324
+- **核心概述**: 自主代理 (LLM) 研究论文。每日更新。
+- **大概是做什么的**: 自主代理-研究论文。每日更新。资源部分部分。研究论文: 2026 5/5 2026 (5/5), 2026 (4/5), 2026 (3/5), 2026 (2/5), 2026 (1/5), 2025 (4/4),2025 (3/4), 2025 (2/4), 2025 (1/4), 2024, 2023 年，较早的时间顺序。 Qwen-AgentWorld：通用代理的语言世界模型 - Qwen-AgentWorld：引入了通过三阶段管道训练的本机语言世界模型，以模拟跨七个域的代理环境。 - 该框架利用 CPT、SFT 和 RL 来开发一个世界模��，该模型可以用作解耦的环境模拟器或统一的代理基础模型。 - 使用 AgentWorldBench 进行评估，它采用法学硕士法官和基于规则的验证者来评估五个维度的模拟保真度。 MEMPROBE：通过隐藏用户状态恢复探测长期代理内存 - MEMPROBE：引入了一个基准，通过从内存存储中重建隐藏的用户状态维度，将 LLM 代理内存评估为可审计的交互后工件。 - 该框架利用具有隐藏分类法的合成用户模拟器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-context, agent-harness, agentic, agentic-ai, agents
+
+---
+
 ## 🕔 2026-06-24 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
