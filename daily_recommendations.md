@@ -1,3 +1,67 @@
+## 🕔 2026-06-25 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zcf](https://github.com/UfoMiao/zcf)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,049
+- **核心概述**: Claude 代码和 Codex 的零配置代码流程
+- **大概是做什么的**: ZCF - 零配置代码流程 English 中文 日本语 更新日志 ✨ 完整文档：ZCF Docs 零配置，一键设置 Claude Code 和 Codex，具有双语支持、智能代理系统和个性化 AI 助手 该项目由 Z.ai 赞助，支持我们的 GLM CODING PLAN。 GLM CODING PLAN 是一项专为 AI 编码而设计的订阅服务，起价仅为 10 美元/月。它提供了跨10+流行AI编码工具（Claude Code、Cline、Roo Code等）的旗舰GLM-4.7和（GLM-5仅适用于专业用户）模型的访问，为开发者提供顶级、快速、稳定的编码体验。 GLM CODING PLAN 10% OFF：https://z.ai/subscribe?ic=8JVLJQFSKB PatewayAI 是一家高品质模型 API 中继服务商，专注于为严肃的 AI 开发者提供官方直连，提供全系列 Claude 和 Codex 系列模型。 100% 官方来源供应，无掺假——可供检查。透明计费，带有可逐行审核的令牌级发票。企业级并发支持，为企业客户提供专用管理平台
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, bmad-method, ccr, claude
+
+---
+
+### 🌟 [nono](https://github.com/nolabs-ai/nono)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,806
+- **核心概述**: 在几秒钟内沙箱任何人工智能代理 - 零设置，零延迟。
+- **大概是做什么的**: 由为您带来安全软件证明标准的团队构建，由 PyPI、npm、brew 和 Maven Central 使用 在 1.0 版本发布之前，API 正在趋于稳定。 API 更改仍可能在必要时发生，但会保持在最低限度。只需几秒钟即可在零延迟沙箱中运行 AI 代理，并进行零设置 — Claude Code、Codex、Pi、CoPilot、Hermes、OpenCode、OpenClaw 等 — nono 可让您在几秒钟内启动并运行，无需守护程序、无需容器、无需虚拟机，也无需使用磁盘空间。 nono 开箱即用，强制执行最低权限沙箱并支持 macOS、Linux 和 Windows (WSL2)。从这里分叉配置，调整它，主题化，使其成为您自己的，并通过 nono 注册表与您的团队或社区共享。想要大规模或在您的团队内实施和运行吗？世界上一些最大的科技公司的工程师使用 nono 作为工作流程的一部分或在生产中运行人工智能代理。被许多人效仿——nono 开创了零延迟、零设置的代理沙箱，并持续创新并引领代理沙箱的发展方向。 macOS / Linux（自制）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sandbox, agent-security, ai-agent-sandbox, ai-agent-security, ai-agents, ai-security
+
+---
+
+### 🌟 [paperdebugger](https://github.com/PaperDebugger/paperdebugger)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,500
+- **核心概述**: 基于插件的多代理系统，用于编辑器内学术写作、审阅和编辑
+- **大概是做什么的**: PaperDebugger 是一款人工智能驱动的学术写作助手，可通过智能建议和无缝 Overleaf 集成帮助研究人员调试和改进他们的研究论文，而无需离开编辑器。它由我们基于 MCP 的定制编排引擎提供支持，该引擎模拟完整的学术工作流程研究 → 批评 → 修订。这使得多步骤推理、审阅者风格的批评和结构化修订超越了标准的基于聊天的帮助。 🚀 从 Chrome 网上应用店安装 我们的团队正在积极努力提高长期可靠性，希望本月能够解决问题。感谢您的耐心等待。与 PaperDebugger 社区保持联系！加入我们的 Discord 或微信渠道以获取更新、公告和支持。 - 自定义端点配置 - 架构概述 - 自主机开发设置 PaperDebugger 永远不会修改您的项目，它只会读取并提供建议。 - 🤖 AI 支持的聊天：关于您的 Overleaf 项目的智能对话 - ⚡ 即时插入：一键将 AI 响应插入到您的项目中 - 💬 评论
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai-agent, ai-agents-framework, chatgpt, latex
+
+---
+
+### 🌟 [token-tracker](https://github.com/stormzhang/token-tracker)
+- **项目语言**: Python
+- **星标数量**: ⭐ 328
+- **核心概述**: Claude Code & Codex 本地 token 追踪 — 状态栏（Codex 业界首创伪 statusline）、GitHub 风格热力图、多模型成本分析。 | Local token tracker for Claude Code & Codex — status line (industry-first Codex faux statusline), GitHub-style heatmap, multi-model cost analysis
+- **大概是做什么的**: 本地 AI Agent Token 消耗追踪/分析工具，支持 Claude Code 和 Codex 。 自定义 StatusLine 状态栏 + CLI Dashboard，实时查看 token 用量、等效成本、限额状态。 - 多 Agent 统一追踪 — Claude Code + Codex 统一读取，多 Agent 按来源分组 - 状态栏集成 — Claude Code 用官方 StatusLine 接口； Codex 业界首创伪 statusline 方案 （hook 注入两行真彩色状态栏，把官方未开放的能力在 Codex 里做了出来） - 限额监控 — 实时 5h / 7d 配额百分比 + 重置倒计时 - 多维成本分析 — 会话 / 日 / 周 / 月多维报表，等效成本统计 - 定价识别 — litellm 在线定价 + 内置官方价双层兜底，覆盖 Claude / OpenAI / Gemini / Grok 及国产主流（Kimi / GLM / Qwen / 豆包 / DeepSeek / MiniMax / MiMo）；新模型自动套用同系列定价、不静默归零 - 会话洞察 — 项目、模型、时长、消息数一览 - 多主题统一配色 — 6 套主题（Catppuccin 全家 + Nord + Dracula），CLI 报表 / CC 状态栏 / Codex 伪 statusline 三者同源 ， tt theme 一键切换 - 零配置 — 自动检测已安装的 Agent，直接读取本地数据 - 隐私安全 — 数据纯本地存储，不采集、不上传 tt setup 自动为 Claude Code 和 Codex 配置状态栏，脚本更新时自动升级。 基于 Claude Code 官方自定义 StatusLine 接口， 数据完全来自本地 Claude，无任何推测 。 1 项目 项目名（加粗）+ Git 分支（未���交修改标 ），括号内附工作区相对 HEAD 的增删行数 1 Total: 1.2M 本次会话累计消耗 token（输入+输出+cache，解析 transcript 得出） 1 Cost: $35.51 本次会话等效成本（Claude Code 自带，按官方计费，准确） 1 Code: +208 -8 本会话 Claude 写 / 删的代码行数（ + 绿 - 红，与 git 变动同配色） 2 Limit: 5h: ██░ 31% (1h19m) 5 小时滑动窗口配额（仅订阅模式；括号内重置倒计时） 2 7d: ██░ 11% (5d8h) 7 天滑动窗口配额 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anthropic-claude, claude-code, cli, codex, cost-analysis
+
+---
+
+### 🌟 [commonly](https://github.com/Team-Commonly/commonly)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 933
+- **核心概述**: 人类和人工智能代理的社交平台，由自己的人工智能团队构建和维护。通过 HTTP 连接任何代理。
+- **大概是做什么的**: 代理和人类的社交层。实时社交源。类似 Slack 的 Pod，带有内存和任务板。代理市场。通常是您的代理加入的共享空间 - 带来自己的运行时，但获得身份、记忆、社区和人员进行协作。现场演示 · 文档 · 自托管 · 代理市场 实时动态 — 代理和人员一起发帖。 X-Curator 展示内容，Liz 推动讨论，人类滚动并回复。 ./scripts/demo-bootstrap.sh 调出本地堆栈；然后将 claude、一个 Python webhook 机器人和一个讲 MCP 的 IDE（来自三个来源的三个代理）附加到一个 pod 中。演练：docs/DEMO QUICKSTART.md 。 Slack 是为偶尔使用机器人的人类而构建的。通常是为代理和人类平等构建的。 Think X 遇上 Slack 遇上 App Store——但你的社区有一半是人工智能。 - Feed — 实时社交源，代理发布更新，人工做出反应和回复 - Pods — 类似 Slack 的工作空间，具有持久内存、任务板和代理成员 - 代理 DM — 与任何已安装的代理进行个人 1:1 聊天，例如 talki
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-harness, agent-protocol, agentic, agentic-ai, agents
+
+---
+
+### 🌟 [free-ai-tools](https://github.com/ShaikhWarsi/free-ai-tools)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 501
+- **核心概述**: 用于构建真实 AI 应用程序的免费和低成本 AI 工具、LLM API、IDE、代理和基础设施的精选列表
+- **大概是做什么的**: 用于构建真实 AI 应用程序的免费 LLM API、编码副驾驶、AI IDE、代理和基础设施工具的精选列表。 - ✅ 免费 GPT-5.5 / Claude Fable 5 / Gemini API 访问 - 🤖 编码副驾驶和 AI 原生 IDE（Cursor、Trae、Windsurf） - 💰 最便宜的 AI API（每 1M 代币 0.08-0.50 美元） - 📚 RAG 堆栈工具（矢量 DB、嵌入、框架） - 🎯 代理框架和自动化工具 - 🔒 隐私保护本地模型（Ollama、Llama、Qwen） - 🏗️ 生产就绪堆栈配置 - 🆕 Claude Fable 5、Claude Opus 4.8、Sonnet 4.6、Haiku 4.5 — GPT-5.5（即时/思考） — GitHub Copilot AI Credits — Windsurf Max — Trae Ultra — OpenCode 167k⭐ — Kiro Cloud Agent — 小米 MiMo V2.5 Pro 目标：帮助开发者构建 AI 应用，每月无需支付 200 美元。请不要滥用这些服务，否则我们可能会失去每个人的服务。当您添加所有提供的工具的所有模型和子服务时，这个数字将达到 550+。提出问题或拉取请求时，请不要添加您自己的付费、昂贵的个人项目。 2026 年初模型等级变更：主要提供商（OpenAI、Anthropic、Google）ha
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-directory, ai-tools, ai-tools-directory, ai-tools-list
+
+---
+
 ## 🕔 2026-06-25 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 157 个候选项目中筛选出 6 个未推荐过的新项目。
