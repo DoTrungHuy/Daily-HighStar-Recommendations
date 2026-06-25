@@ -1,3 +1,67 @@
+## 🕔 2026-06-25 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [langchain4j](https://github.com/langchain4j/langchain4j)
+- **项目语言**: Java
+- **星标数量**: ⭐ 12,430
+- **核心概述**: LangChain4j 是一个惯用的开源 Java 库，用于在 JVM 上构建由 LLM 驱动的应用程序。它通过流行的 LLM 提供商和矢量存储提供统一的 API，并使工具调用（包括 MCP 支持）、代理和 RAG 的实现变得容易。它与 Quarkus 和 Spring Boot 等企业 Java 框架无缝集成。
+- **大概是做什么的**: LangChain4j：惯用的开源 Java 库，用于在 JVM 上构建 LLM 支持的应用程序 LangChain4j 的目标是简化将 LLM 集成到 Java 应用程序中的过程。 LLM 提供商（如 OpenAI 或 Google Vertex AI）和嵌入（矢量）存储（如 Pinecone 或 Milvus）使用专有 API。 LangChain4j提供了统一的API，以避免为每个API学习和实现特定的API。要尝试不同的 LLM 或嵌入存储，您可以轻松地在它们之间切换，而无需重写代码。 LangChain4j目前支持20多个流行的LLM提供商和30多个嵌入商店。 2. 综合工具箱：自 2023 年初以来，社区一直在构建许多由 LLM 支持的应用程序，识别常见的抽象、模式和技术。 LangChain4j已将这些提炼为实用代码。我们的工具箱包括从低级提示模板、聊天内存管理和函数调用到代理和 RAG 等高级模式的工具。对于每个抽象，我们提供一个接口以及多个即用型实现
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anthropic, chatgpt, chroma, embeddings, gemini, gpt
+
+---
+
+### 🌟 [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,100
+- **核心概述**: Apple Silicon 最快的本地人工智能引擎。比 Ollama 快 4.2 倍，0.08 秒缓存 TTFT，100% 工具调用。 17个工具解析器、提示缓存、推理分离、云路由。直接替代 OpenAI。与 Claude Code、Cursor、Aider 一起使用。
+- **大概是做什么的**: 在 Mac 上运行 AI。比什么都快。在 Mac 上运行本地 AI 模型 — 无需云，无需 API 成本。可与 Cursor、Claude Code 和任何 OpenAI 兼容的应用程序配合使用。社区基准 · pip install → 服务 Gemma 4 26B → 聊天 + 工具调用 → 与 PydanticAI、LangChain、Aider 等配合使用。您的 Mac 型号 速度 (tok/s) 有效 :--- :---: :---: :---: :---: 16 GB MacBook Air Qwen3.5-4B 147 tok/s 聊天、编码、工具 24 GB MacBook Pro Qwen3.5-9B 101 tok/s 伟大的全能 32+ GB Mac Mini / Studio 🆕 Gemma 4 12B 64 tok/s支持视觉 + 工具 32+ GB Mac Mini / Studio GPT-OSS 20B 119 tok/s Harmony 原生，100% 工具 32+ GB Mac Mini / Studio Qwen3.6-35B-A3B 93 tok/s 256 MoE 专家，262K 上下文 48+ GB Mac Mini / Studio Qwen3.5-35B-A3B 8bit 80 tok/s 智能 + 快速的最佳平衡 96+ GB Mac Studio / Pro Qwen3.5-122B 57 tok/s1 前沿智能 128+ GB Mac Studio Ultra DeepSeek V4 Flash 158B-A13B 31-56 tok/s1 Day-0 前沿 MoE，1M 上下文 单用户端到端吞吐量（B=1：一次一个请求，最大输出 256 个）令牌，输出令牌/挂钟，包括第一个令牌延迟
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apple-silicon, claude-code, cursor, deepseek, fastapi, hacktoberfest
+
+---
+
+### 🌟 [seatunnel](https://github.com/apache/seatunnel)
+- **项目语言**: Java
+- **星标数量**: ⭐ 9,432
+- **核心概述**: SeaTunnel是一个多模态、高性能、分布式、海量数据集成工具。
+- **大概是做什么的**: SeaTunnel是一个多模式、高性能、分布式数据集成工具，能够每天同步大量数据。它因其高效性和稳定性而受到众多公司的信赖。为什么选择 SeaTunnel SeaTunnel 解决了常见的数据集成挑战： - 多样化的数据源：与数百个不断发展的数据源无缝集成。 - 多模态数据集成：支持视频、图像、二进制文件、结构化和非结构化文本数据的集成。 - 复杂同步场景：支持多种同步方式，包括实时、CDC、全库同步。 - 资源效率：最大限度地减少计算资源和 JDBC 连接以实现实时同步。 - 质量和监控：提供数据质量和监控，以防止数据丢失或重复。 - 多样化的连接器：提供对 160 多个连接器的支持，并持续扩展。 - 批流集成：易于适应的连接器简化了数据集成管理。 - 分布式快照算法：确保跨同步的数据一致性
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apache, batch, cdc, change-data-capture, data-ingestion, data-integration
+
+---
+
+### 🌟 [agent-of-empires](https://github.com/agent-of-empires/agent-of-empires)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,651
+- **核心概述**: 从 TUI 或 Web 管理多个 Claude Code、OpenCode 代理，以便在移动设备上轻松访问。还支持 Mistral Vibe、Codex CLI、Gemini CLI、Pi.dev、Copilot CLI、Factory Droid Coding。
+- **大概是做什么的**: Agent of Empires (AoE) Linux 和 macOS 上 AI 编码代理的会话管理器，由终端 (TUI) 或任何浏览器（Web 仪表板）驱动。跨不同分支并行运行多个代理，每个代理都在其自己的隔离会话中，并具有可选的 Docker 沙箱。跟踪哪个智能体被卡住，哪个智能体正在等待输入，哪个智能体把你的工作树搞得一团糟，这些都变成了一份兼职工作； AoE 使其一目了然：一个仪表板、一个状态栏、为您设置的 git 工作树和沙箱，以及比您的终端更长久的会话，可通过笔记本电脑、手机或平板电脑进行访问。观看入门视频 从任何浏览器观看相同的代理： 桌面：完整仪表板、终端和差异 电话：结构化视图 - 多代理支持：Claude Code、OpenCode、Mistral Vibe、Codex CLI、Gemini CLI、Antigravity CLI、Cursor CLI、Copilot CLI、Pi.dev、Factory Droid、Hermes、Kiro CLI 和 Qwen Code - TUI 仪表板：用于创建、监控和管理会话的可视化界面 - Web 仪表板：创建、监控、并从任何浏览器控制您的代理，可作为 PWA 安装 - 结构化视图
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding, claude, claude-code, cli, codex, cursor
+
+---
+
+### 🌟 [agentfield](https://github.com/Agent-Field/agentfield)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,228
+- **核心概述**: 构建、运行和扩展 API 和微服务等 AI 代理 - 从第一天起就可观察、可审计和身份感知。
+- **大概是做什么的**: AgentField — AI 后端 AI 已经无法满足聊天机器人和提示协调器的需求。后端代理需要后端基础设施。文档 · 快速入门 · Python SDK · Go SDK · TypeScript SDK · REST API · 示例 · Discord AgentField 是一个开源控制平面，可让您构建可由堆栈中的任何服务（前端、后端、其他代理、cron 作业）调用的 AI 代理，就像任何其他 API 一样。您可以使用 Python、Go 或 TypeScript 编写代理逻辑。 AgentField 将其转变为生产基础设施：路由、协调、内存、异步执行和加密审计跟踪。每个函数都成为一个 REST 端点。每个代理都会获得一个加密身份。每一个决定都是可追溯的。 https://github.com/user-attachments/assets/9fb7b1cf-26de-4b9b-9ba2-917252cc26ec 一个提示 → 一个正在运行的容器化生产就绪的多代理后端。无需胶水代码，开始使用代理 API！用一行描述系统。获取生产就绪的多代理后端。适用于 Claude Code、Codex、Gemini CLI、OpenCode、Aider、Windsurf 和 Cursor。然后在您的编码代理中，使用 /agent 粘贴任何规范
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-auth, agent-authentication, agent-indentity, agent-scaling, agentic-ai
+
+---
+
+### 🌟 [OpenKB](https://github.com/VectifyAI/OpenKB)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,670
+- **核心概述**: OpenKB：开放法学硕士知识库
+- **大概是做什么的**: OpenKB：开放式 LLM 知识库可扩展至长文档 • 基于推理的检索 • 原生多模态 • 无矢量数据库 - Google 开放知识格式 (OKF)：Wiki 页面遵循 Google OKF 知识共享规范。 - 实体页面：人员、组织、地点和产品作为专用 wiki 页面，自动提取并保持同步。 OpenKB（开放知识库）是一个开源系统（在 CLI 中），它使用 LLM 将原始文档编译成结构化的、相互链接的 wiki 风格的知识库，由 PageIndex 的无向量、基于推理的长文档检索提供支持。这个想法基于 Andrej Karpathy 描述的一个概念��法学硕士生成摘要、概念页面和交叉引用，所有这些都自动维护。知识随着时间的推移而复合，而不是在每次查询时重新派生。为什么不是传统的 RAG？传统 RAG 在每个查询上从头开始重新发现知识。什么都没有积累。 OpenKB 将知识一次性编译到持久的 wiki 中，然后保持最新状态。交叉引用已经存在，矛盾被标记，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, knowledge-base, llm, rag, retrieval
+
+---
+
 ## 🕔 2026-06-25 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
