@@ -1,3 +1,67 @@
+## 🕔 2026-06-25 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 157 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-safehouse](https://github.com/eugene1g/agent-safehouse)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 1,872
+- **核心概述**: 沙盒您的本地人工智能代理，以便他们只能读/写他们需要的内容
+- **大概是做什么的**: 在 macOS 上沙箱您的 LLM 编码代理，以便他们只能访问他们实际需要的文件和集成。 Agent Safehouse 使用具有可组合策略配置文件和拒绝优先模型的 sandbox-exec。它包括主要编码代理和应用程序托管代理工作流程的配置文件，同时保持正常开发使用的实用性。 Agent Safehouse 是围绕实际的最低权限而设计的： - 从拒绝一切开始。 - 仅允许代理进行有用工作所需的内容。 - 保持开发人员工作流程高效。 - 默认情况下降低风险变得容易。它是一个强化层，而不是针对坚定攻击者的完美安全边界。默认情况下的 HOME 访问 HOME DIR 用于在组装的策略中呈现精确的 home 相关规则。它本身不会授予对主目录的递归读取访问权限。默认安全屋行为更窄： - 仅元数据遍历 / 、 $HOME 的路径和 $HOME 本身，因此运行时可以探测显式允许的主范围路径 - 目录根读取 /.config 和 /.cache，以便工具可以发现 XDG 位置 - 一些显式的主范围文件/目录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, llm, macos, sandbox, security
+
+---
+
+### 🌟 [mira-OSS](https://github.com/taylorsatula/mira-OSS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 466
+- **核心概述**: 这是 MIRA OS 的公开版本。离散记忆会因动量损失而衰减，工具在放入工具/文件夹时会自动配置，系统提示由模块化小饰品组成。我想我已经制作了一个优雅的大脑盒。您加载它并发送 cURL 请求 - 它会进行回复、学习并使用工具。欢迎贡献。
+- **大概是做什么的**: 我的想法是构建一个可以结合我的美食偏好的食谱生成器。 10,000 次范围蔓延后，MIRA 是连续数字实体的全面尽力近似。这是我的 TempleOS。 Mira 通过将类似于 REM 睡眠的异步对话处理和主动自引导上下文窗口操作相结合，实现了连续性和回忆的最终目标。永远有一个对话线程。没有“开始新聊天”的功能。这种限制迫使我们面临如何���本质上短暂的框架（前向传递变压器）内建立可信的持久性的难题。活跃对话历史记录在相关时保持活跃。较旧的材料崩溃成第一人称记忆。如果活动对话在自然崩溃之前变得太大，MIRA 会将较旧的消息压缩为一个滚动的延续摘要，同时保持最新的对话不变。当对话片段崩溃时，Mira 会生成第一人称摘要（“我在进程batch.py​​ 中调试了 IndexError...”），而不是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-assistant, ai-memory, anthropic, chatbot
+
+---
+
+### 🌟 [sandboxed.sh](https://github.com/Th0rgal/sandboxed.sh)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 457
+- **核心概述**: 自主链上人工智能代理的安全运行时：隔离沙箱、库技能、加密秘密和 OKX 只读安全检查。
+- **大概是做什么的**: 用于 AI 编码代理的自托管云编排器 具有 Claude Code、OpenCode、Codex、Gemini 和 Grok 运行时的独立 Linux 工作区 以前称为 Open Agent 准备好部署了吗？跳转到安装比较，或直接转到 Docker 指南/本机指南。移交整个开发周期。将代理指向 GitHub 问题，让它编写代码，通过启动桌面应用程序进行测试，并在测试通过时打开 PR。您检查差异，而不是过程。在无人值守的情况下进行多天操作。允许代理通过 VPN SSH 访问您的家庭 GPU。它读取 Nvidia 文档、设置训练、微调模型将敏感数据保留在本地。根据科学文献分析您的 DNA 测序结果。本地推理、隔离容器，一切都不会离开您的机器。 - 多运行时支持：在同一基础设施中运行 Claude Code、OpenCode、Codex、Gemini 和 Grok 代理 - 任务控制：实时远程启动、停止和监控代理 - 隔离工作区：带有每个任务目录的容器化 Linux 环境 (systemd-nspawn) - Git 支持的库：技能、工具、ru
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, autonomous-agents, claude, claude-code, coding-assistant, containerization
+
+---
+
+### 🌟 [awesome-autoresearch](https://github.com/WecoAI/awesome-autoresearch)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 988
+- **核心概述**: 包含优化跟踪和开源实现的 AutoResearch 用例精选列表
+- **大概是做什么的**: Awesome AutoResearch 精选的 AutoResearch 用例列表，包含优化跟踪和开源实现。每个条目都包含指向实际优化轨迹的链接，因此您可以看到代理尝试了什么，而不仅仅是最终结果。什么是自动研究？自动研究的核心是提示。 Karpathy 将其发布为单个 markdown 文件 - program.md ，指示编码代理（Claude Code、Codex 或类似）遵循优化工作流程。代理编辑一个文件（ train.py ，用于训练语言模型），在 GPU 上运行固定 5 分钟，检查指标是否有��改进，然后提交更改或恢复更改。然后就永远循环下去。 AutoResearch 附带的特定 program.md 是为一项任务编写的：训练 GPT 模型。但事实证明，该结构（使用丢弃/保留循环）根据评估指标迭代优化文件是可移植的。自发布以来的几周内，社区已对其进行了调整，以适应 GPU 内核优化、模板引擎优化、表格 ML 工程等。每个这些 lo 的program.md
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-research, automated-machine-learning, autonomous-agents, autoresearch, awesome
+
+---
+
+### 🌟 [aurora](https://github.com/Arvo-AI/aurora)
+- **项目语言**: Python
+- **星标数量**: ⭐ 334
+- **核心概述**: Aurora — 开源 AI 支持的代理事件管理和 SRE 根本原因分析。 LangGraph 代理跨 AWS、Azure、GCP、Kubernetes 进行调查。与 PagerDuty、Datadog、Grafana、Slack 等集成。阿帕奇2.0。
+- **大概是做什么的**: 尝试 Aurora Live   •   快速入门   •   文档   •   集成   •   网站   •   变更日志 - 工件 — 监视器中持久代理维护的文档，随着调查进展不断更新 - 操作 — 调查完成时触发自动 RCA 后工作流程（生成事后分析、开放修复 PR、通知 Slack） - AWS Bedrock 支持 — 使用 Claude、Titan 和其他 Bedrock 模型通过 IAM auth - Fly.io 连接器 — 调查 Fly.io 基础设施上的事件 - CloudBees Enterprise — 运营中心 + 功能管理连接器 - Kubeconfig Upload — 连接本地 Kubernetes 集群，无需云提供商 - CloudWatch Alarm Webhooks — 直接将 AWS CloudWatch 警报作为事件接收 - 可扩展性挂钩 — 控制 LLM 调用、强制席位限制以及使用生命周期挂钩自定义行为 查看所有版本的完整变更日志。当凌晨 3 点发出警报时，您的值班工程师会花费 30-60 分钟做同样的事情
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, aiops, automation, aws, azure, datadog
+
+---
+
+### 🌟 [anythingllm-docs](https://github.com/Mintplex-Labs/anythingllm-docs)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 358
+- **核心概述**: Mintplex Labs Inc. 的 AnythingLLM 文档
+- **大概是做什么的**: 本地开发设置 1. 使用 git clone 将此存储库克隆到本地计算机： 2. 使用yarn 安装依赖项： 3. 启动开发服务器： - 创建 PR，分支名称格式为 - - yee haw let's merge 该项目已获得 MIT 许可。特别感谢 @ShadowArcanist 迁移到 NextJS
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anythingllm, desktop-app, documentation, llm
+
+---
+
 ## 🕔 2026-06-24 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
