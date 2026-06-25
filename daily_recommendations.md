@@ -1,3 +1,67 @@
+## 🕔 2026-06-25 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [happier](https://github.com/happier-dev/happier)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 922
+- **核心概述**: 适用于 Codex、Claude Code、OpenCode、Kimi、Augment Code、Qwen 的 Web、桌面和移动客户端，完全端到端加密
+- **大概是做什么的**: 适用于 Claude Code、Codex、OpenCode、Pi、Cursor 的移动、Web 和桌面客户端...在计算机上运行 Claude Code、Codex、Gemini、OpenCode（等），并通过手机、浏览器或桌面应用程序无缝继续。端到端加密。可自行托管。由开发人员构建，为开发人员服务。 Happier 是一款开源、端到端加密、跨设备的配套应用程序和客户端，适用于您的 AI 编码代理。它允许您在计算机上本地运行 AI 编码会话，然后通过手机、Web UI 或桌面应用程序继续远程控制它们，而不会丢失上下文。无论您是去喝杯咖啡还是在任务中切换设备，Happier 都能让您的 AI 编码会话保持活跃且易于访问。加入 Discord，了解有关 Happier 的所有最新消息、报告问题、讨论新想法并请求功能。听到您的想法和反馈确实会让我们更高兴！ ;) 第 1 步：下载应用程序 Play Store 应用程序处于内测版，要访问它： 1. 加入 Happier Google Group 2. 从 Android 或网络加入内测版 第 2 步：在计算机上安装 CLI 如果您是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, codex, gemini, kimi
+
+---
+
+### 🌟 [recall](https://github.com/raiyanyahya/recall)
+- **项目语言**: Python
+- **星标数量**: ⭐ 534
+- **核心概述**: 停止浪费代币并在每次会议上重新解释您的项目。 Recall 为 Claude Code 提供了持久的记忆——完全离线。
+- **大概是做什么的**: 回想一下 — Claude Code 的完全本地项目内存 Claude Code 会冷启动每个会话。 Recall 保留您的会话的本地日志，并将其压缩为可用于恢复的摘要 - 完全在您的计算机上。没有 API 密钥，没有外部模型，没有任何内容发送到任何地方。它是为在订阅上本地运行 Claude Code 的人们而构建的：循环中唯一的 AI 是 Claude Code 本身；摘要是由经典的 Python 摘要器完成的。 - 免费订阅。它解决了冷启动问题——不再需要在每个会话中重新解释项目——无需计量总结器生成账单。摘要是本地算法，而不是 LLM 调用，因此持久内存除了您已经支付的订阅费用外，不会花费您任何费用。 - 节省您的使用积分。有两种方式：（1）摘要是在本地构建的，因此捕获和更新您的记忆花费零模型令牌； (2) 从紧凑的 context.md（1–2K 令牌）中恢复，而不是从头开始重新解释每个会话的项目意味着每个会话花费的令牌要少得多 - 扩展您的订阅的使用限制（或者，在 API 上，降低
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anthropic, claude, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [Rustchain](https://github.com/Scottcjn/Rustchain)
+- **项目语言**: Python
+- **星标数量**: ⭐ 453
+- **核心概述**: DePIN for Vintage Hardware — 旧机器胜过新机器的古代证明区块链。 AI 支持的硬件指纹识别、15+ CPU 架构、Solana 桥 (wRTC)。 0 美元风险投资。
+- **大概是做什么的**: 适用于老式硬件的 DePIN — 真实机器的人工智能增强证明 旧硬件比新硬件盈利的区块链。所有硬件都会变旧。这只是时间问题。 2003 年的 PowerBook G4 的收入是现代 Threadripper 的 2.5 倍。 Power Mac G5 赚取 2.0 倍。串行端口生锈的 486 赢得了最高的尊重。 ⭐ 帮助我们达到 512 颗星——第 2⁹ 二元里程碑（我们的供应量为 2²³）。如果您对古代证明感到奇怪，那么星星可以帮助找到更多旧机器。为什么是512？资源管理器 · 保留机器 · 安装矿工 · 初学者指南 · 硬件要求 · 宣言 · 白皮书 · 雇用我们 语言: 英语 · 简体中文 · 简体中文 (根目录) · 繁体中文 · 西班牙语 · 德语 · 日本语 · Русский · Tiếng Việt · 葡萄牙语 (BR) · हिन्दी · 意大利语 · 한국어 · 中文 API 快速参考 加密货币迷失了方向。我们要回去了。 2026 年，加密货币开发者的承诺下降了 75%。以太坊失去了 34% 的活跃开发人员。 Solana 损失了 40%。建设者们去了人工智能。 RustChain 是一个 DePIN（去中心化物理基础设施网络），它使用人工智能驱动的硬件指纹识别来验证真实的物理机器——而不是 cl
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-economy, ai, ai-agents, blockchain, cryptocurrency, decentralized
+
+---
+
+### 🌟 [AI-Bank-Statement-Document-Automation-By-LLM-And-Personal-Finanical-Analysis-Prediction](https://github.com/johnsonhk88/AI-Bank-Statement-Document-Automation-By-LLM-And-Personal-Finanical-Analysis-Prediction)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 588
+- **核心概述**: 通过LLM模型和个人财务分析实现AI银行对账单文档自动化
+- **大概是做什么的**: 🏦 AI 银行对账单文档自动化，具有 LLM 和个人财务分析功能 对银行对账单 PDF 进行自动提取、结构化、RAG 驱动的查询和 AI 代理财务分析，并提供强大的 PII 保护。该项目使用计算机视觉 (YOLO)、OCR 和大型语言模型将非结构化银行对账单 PDF 转换为结构化数据。它具有 CrewAI 技能、安全的 PII 处理以及用于自然语言财务分析的增强型 RAG 管道。 - 高级文档解析 — 自定义 YOLOv8 布局检测 + OCR + LLM 表提取 - CrewAI 技能支持 — 银行对账单解析、PII 处理和财务分析的领域特定技能 - 增强的 RAG 管道 — 嵌入前通过 PII 编辑进行安全检索 - 自主 AI 代理 — 使用 CrewAI + LangGraph 构建（带有深度代理探索） - 财务智能 — 收入/费用分类、趋势分析和月度/年度摘要- 强大的 PII 保护 - 在矢量存储之前自动检测和编辑 - 多模式和本地 LLM 支持 - 与 Gemini、Ollama 和 loc 配合使用
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, crewai, document-automation, gemma, langchain, llm
+
+---
+
+### 🌟 [agent-kanban](https://github.com/saltbo/agent-kanban)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 366
+- **核心概述**: 代理优先的任务板，为您的人工智能员工提供任务控制。
+- **大概是做什么的**: 人工智能员工的任务控制。代理看板是一个代理优先的任务板，其中人工智能编码代理是一流的团队成员。每个代理都会获得一个加密身份、一个角色和可加载的技能。座席不仅仅接受工作，他们还创建任务、分配队友并自组织团队来处理复杂的项目。更多屏幕截图位于 snapshots/ 目录中。 AI 编码代理（Claude Code、Codex、Gemini CLI、GitHub Copilot CLI、Hermes）可以编写代码，但它们无法协作。代理和人类没有共享的工作空间来作为一个团队进行协调——分配工作、审查输出、一起解决问题。代理看板就是那个工作区。每个代理都会获得一个 Ed25519 身份——一个在任务、提交和 PR 中跟踪他们的加密指纹。人类设定方向；代理自行组织执行。当您的人工智能团队工作时，该板会实时亮起。单个任务可以级联成整个团队的工作——座席��解工作、委托给专家并协调交接，所有这些都在看板上可见。代理具有三种生命周期状态：idl
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-coding-agent, claude-code, cloudflare-pages, codex
+
+---
+
+### 🌟 [FPF](https://github.com/ailev/FPF)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 400
+- **核心概述**: 第一原则框架（FPF）：在有问题的工程、研究和混合人类/人工智能工作中可接受的行动的模式语言和核心规范。
+- **大概是做什么的**: 第一原则框架 (FPF) - 核心概念规范 第一原则框架 (FPF) 是一种标准式模式语言，用于将困难的工程、研究、管理和混合人类/人工智能工作转化为明确的、可审查的、可改进的推理。 - 作者：Anatoly Levenchuk，在 AI 代理协助下 - 版本：2026 年 6 月 - 状态：规范内核，永恒 alpha：已在工作项目和开发计划中使用，同时仍在不断发展。当项目规模超出一次巧妙对话的范围时，FPF 会提供帮助。当意义、主张、选项、证据、架构、工作决策、出版物形式和改进标准必须在人员、团队、工具、时间或人工智能代理之间保持一致时，��非常有用。使用 FPF 作为参考模型和模式语言，而不是作为线性教科书。从您从项目中提出的工作问题开始。仅在内部 FPF 术语有助于您保持工作精确后才引入它们。决定 FPF 是否适合 当普通讨论不足以保持工作连贯性时，可以使用 FPF。典型迹象： - 多个团队、专家、工具或人工智能代理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, auditability, bounded-context, collective-intelligence, conceptual-modeling, decision-making
+
+---
+
 ## 🕔 2026-06-25 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
