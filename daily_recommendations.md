@@ -1,3 +1,67 @@
+## 🕔 2026-06-26 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-engineering-from-scratch-zh](https://github.com/fancyboi999/ai-engineering-from-scratch-zh)
+- **项目语言**: Python
+- **星标数量**: ⭐ 486
+- **核心概述**: Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南
+- **大概是做什么的**: 503 节课 · 20 个阶段 · Python / TypeScript / Rust / Julia · 配套中文网站 aieng-zh.cn 84% 的学生已经在用 AI 工具，可只有 18% 觉得自己能在专业场景里用好它们。 503 节课，20 个阶段，约 320 小时。Python、TypeScript、Rust、Julia。每节课都交付一件 能复用的东西：一个提示词、一个技能、一个 agent、一个 MCP server。免费，开源，MIT。 你不只是学 AI，你亲手把它造出来。从头到尾，全手写。 本项目是 AI Engineering from Scratch（作者 Rohit Ghumare，MIT 协议）的 简体中文衍生版 。衷心感谢原作者创作并开源了这套课程。 不是机器翻译堆出来的镜像。在忠实翻译之上，我们做了一套面向中文读者的本地化： 🇨🇳 全站简体中文 503 节课正文、83 条术语表、测验题、 mermaid 流程图、交互图表标签全部中文化（ agent 、 token 、 transformer 等技术术语按惯例保留英文） 🌐 独立中文网站 aieng-zh.cn 可搜索的课程目录、学习进度追踪、可拖动的交互式图表、命令面板（ Cmd / Ctrl + K ）、深色模式 🎬 配套动画讲解视频 3Blue1Brown 风格的无真人动画讲解，把每节课的数学推导与核心直觉做成可视化短片，中文配音、在课程页内嵌播放。Phase 1（数学基础 22 节）已上线，其余阶段陆续制作中——它是对动手推导的补充，不是替你跳过思考的速成视频 🔍 为 AI 检索���化 构建时自动生成 sitemap.xml / llms.txt / 结构化数据，方便被搜索引擎和 AI 助手引用 ✅ 课数一致性护栏 CI 自动校验课程数（ node site/build.js --check ），防止课程列表与磁盘上的实际内容漂移 翻译怎么翻见 TRANSLATION.md。课程结构、代码与上游保持一致，译文持续跟进上游更新。 目录 · 怎么运作 · 课程结构 · 一节课的样子 · 快速开始 · 每节课都有产出 · 课程目录 · 工具箱 · 参与贡献 大多数 AI 教材都是碎片化教学。这儿一篇论文，那儿一篇微调心得，别处再来个炫酷的 agent demo。这些碎片很少能拼到一起。你做出了一个聊天机器人，却讲不清它的 loss 曲线；你给 agent 挂了个函数，却说不出调用它的那个模型内部，attention 到底在干什么。 这套课程就是那根脊椎。20 个阶段，50
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: agents, ai, ai-agents, ai-engineering, chinese, chinese-translation
+
+---
+
+### 🌟 [claude-elixir-phoenix](https://github.com/oliver-kriska/claude-elixir-phoenix)
+- **项目语言**: Python
+- **星标数量**: ⭐ 460
+- **核心概述**: Elixir/Phoenix/LiveView 的 Claude 代码插件 — 20 个专业代理、铁律执行和 Tidewave MCP 集成。使用并行研究代理来规划功能，通过自动验证来执行，通过 4 代理并行审核进行审查，并将学习内容捕获为可重用的知识。
+- **大概是做什么的**: 用于 Claude Code 的 Elixir Phoenix 插件 Claude Code 很棒。但它不知道分配新会在重新连接时默默地跳过，不知道 :float 会破坏你的钱字段，或者你的 Oban 工作不是幂等的。这个插件可以。它协调 25 个专家代理，并行规划、实施、审查和验证您的 Elixir/Phoenix 代码——每个代理都拥有领域专业知识、新鲜的背景和强制执行的铁律，可以捕获您的测试无法发现的错误。没有及时的工程。没有“请检查 N+1 查询”。该插件会根据您正在编辑的文件自动加载正确的领域知识，并强制执行规则，以防止 Elixir 开发人员在生产中实际犯下的错误。 v2.10.0 -- 新的与框架无关的追赶配套插件：/catchup 缺勤返回简报。欢迎提出问题。来自 GitHub（推荐）多堆栈技巧 — 项目范围启用。该插件专为 Elixir/Phoenix 设计。如果您跨多个语言堆栈工作，更喜欢在每个项目而不是全局启用它 - 将其放入 /.claude/settings.json ：Hooks self-gate on mix.exs (v2.10.1+)，所以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding-assistant, automation, claude, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [Nubase](https://github.com/OtterMind/Nubase)
+- **项目语言**: Java
+- **星标数量**: ⭐ 447
+- **核心概述**: 🔥🔥🔥 将人工智能编写的代码变成真正的应用程序。 Nubase 是一个开源的 AI 原生后端平台，适用于 AI 编码、代理应用程序和现代产品团队：内存、数据库、存储和身份验证位于一个自托管服务中。
+- **大概是做什么的**: 官网：https://nubase.ai ⭐ 如果Nubase对您有用，请给我们一颗星——每一颗星都能帮助更多人发现这个项目，让我们保持动力。谢谢你！将人工智能编写的代码变成真正的应用程序。 Nubase 是一个开源的人工智能原生后端和部署层，由编码代理直接驱动，因此生成的应用程序在几分钟内即可上线。一项自托管服务中包含八个功能模块：数据库、身份验证、存储、资产、功能、AI 网关、内存和 cron 。代理可以对数据进行建模（数据库 + 身份验证）、部署后端逻辑（函��）、将生成的前端发布到公共 CDN（资产）以及安排重复工作（cron）——所有这些都通过 MCP 工具进行，无需单独的托管帐户。 Supabase 风格（Postgres、REST、JWT、RLS、对象存储、Studio 仪表板），加上一流的内存和为 AI 编码代理构建的 MCP 表面。 1. 在 Claude Code 或 Codex 中使用 Nubase — 一个命令 从您的项目文件夹中，运行： 该单个命令： - 📚 为 Claude Code 和 Codex 安装 Nubase 技能， - 🔌 连接 MCP 服务器配置，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, claude-code, cli, deno
+
+---
+
+### 🌟 [dao-code](https://github.com/tigicion/dao-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 311
+- **核心概述**: DeepSeek V4 的终端编码代理 — 经济高效、自验证内存、强大的长任务。麻省理工学院
+- **大概是做什么的**: 以成本、体验、可用性为核心的终端编码 agent —— 在高性价比的 DeepSeek V4 上,极致压榨模型的潜能与成本优势。 A terminal coding agent built around cost, experience, and availability — squeezing the most capability and the lowest cost out of the high-value DeepSeek V4. DAO CODE(命令 dao )是终端原生的 AI 编码助手:在你的终端里读代码、写代码、跑命令、修 bug,边流式展示推理与工具调用,边在审批门下安全执行,直到任务做完。它面向 DeepSeek V4 (1M 上下文),中文优先,灵感来自 Claude Code,但走的是另一条路—— 不靠贵模型堆体验,靠工程把高性价比模型的体验提升上来。 - Claude Code 依赖 Anthropic 账号与网络,国内开箱即用门槛高; - GLM 的 Coding Plan 名额紧俏、常常抢不到; - DAO 完全开源(MIT) ,底座 DeepSeek 注册即用、按量付费、国内直连 ——不挑网络、不抢额度、不等邀请。 - 单价低 —— DeepSeek 处于主流可用模型的最低价位档,输入/输出单价都远低于第一梯队闭源模型。 - 缓存再砍一截 —— DeepSeek 前缀缓存命中价 ≈ 未命中的约 1/10 。DAO 把系统前缀 / 工具表 / 记忆按【逐字节稳定】铺排,反思与记忆都走复用缓存的 fork,让命中率持续走高。 - 实测(真实开源 bug-fix,非玩具演示) —— 7 道 SWE-bench 风格任务(valibot / date-fns / es-toolkit / sqlglot / hono),合计 389 万输入 tok , 聚合缓存命中 95.8% (单任务 85.4%–97.7%)。DeepSeek V4 Pro 现价下, 一次完整功能开发(读+改+测+自审)¥0.07–0.21、均 ¥0.15 ,7 任务合计 ¥1.07 。每个数都可追溯到 evals/runs/ /run-1/agent.log , /cost 随时复看。 - 对标 Claude Code 的成本 —— 把这 7 个任务的 同一 token 轨迹 按各家官方单价各算一遍(并把 DAO 的高命中率一并算给 Claude、对它有利),总成本仍 比 Claude Opus 4.8 省 30×、比 Sonnet 4.6 省 18× 。 任
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cli, coding-agent, deepseek, llm, terminal
+
+---
+
+### 🌟 [tickflow-stock-panel](https://github.com/shy3130/tickflow-stock-panel)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 308
+- **核心概述**: 自托管、零运��的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据 | 能力驱动适配全档位订阅 | 自由接入第三方扩展数据(Tushare 等)
+- **大概是做什么的**: 自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 基于 TickFlow 数据 · 🚀 开箱即用 (单容器 / Free 模式) 能力驱动,适配 Free → Expert 全档位订阅 · 🔌 自由接入第三方扩展数据 (例如 Tushare、自有量化项目数据) 核心功能 · 快速开始 · 配置 · 路线图 ⚠️说明 :目前项目基于TickFlow数据源。无需付费即可使用策略+回测等功能.自有个性化数据源可接入扩展数据使用。 如果觉得有用,请Star支持一下,蟹蟹🌹 让任何 个人散户 / 量化爱好者 , 零运维 地拥有一套 与自己订阅档位严格匹配 的 A 股分析、选股、监控工作台。 基于 TickFlow Key 低成本 获取数据。 填写邀请码 V3KDKGXPEA 免费领取概念行业等扩展数据 。 任意接入第三方数据 (Tushare 等),页面可视化自定义配置扩展数据表。 TickFlow API Key 数据源凭证,留空启用 None 模式，获取免费key后开启free模式可定制策略+回测 可选 AI 大模型 API Key 用于 AI 生成策略、个股分析(开发中)、行情分析(开发中)等,任意 OpenAI 兼容接口,留空关闭 可选 ⚠️ 🚧 项目持续优化,功能陆续开放,敬请期待。 明确不做 :不对标同花顺/通达信的全功能股票软件;不内置任何「AI 荐股 / 涨停预测」。 20 个内置策略 —— 每个策略是一个独立 Python 文件( backend/app/strategy/builtin/ ),基于 Polars 表达式实现: 趋势 趋势突破 · 均线多头 · 缩量回踩 形态 MA 金叉 · MACD 金叉放量 · 布林突破 量价 量价齐升 · 高换手强势 · 强势高开 涨停 连板股 · 断板反包 · 逼近涨停 · 涨停动量 反转 超跌反弹 · 超卖反转 · 新低反转 波动 低波动龙头 · 回踩 MA20 反弹 - 自定义信号系统 —— 在 UI 上用 字段 + 操作符 + 阈值 组合(entry / exit / both),编译成 Polars 表达式热加载, 无需写代码 即可定义自己的买卖信号。 - 策略商店 —— 内置策略 + 用户自定义策略统一管理,支持参数覆盖( params 暴露阈值)。 除 20 个内置策略外,你可以用两种方式扩展: 🤖 AI 生成 用自然语言描述策略思路,LLM 读取 strategy-guide.md 自动生成完整 Polars 策略文件(经 ast 安全校验,限定 import polars
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-stock, ai-agent, aigc, backtesting, duckdb, fastapi
+
+---
+
+### 🌟 [video-recap-skills](https://github.com/worldwonderer/video-recap-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 329
+- **核心概述**: Turn any video into a narration recap with claude code skill｜用claude code skill把任何视频剪辑成中文解说视频，支持剪映导出
+- **大概是做什么的**: 在 claude code 仅需一句话把视频剪辑成解说视频。 本地只要 ffmpeg 加小米 MiMo Token Plan 的 API Key，不用 GPU、不用下载模型，macOS / Linux / Windows 均可运行。 成片之外，还能一键导出 剪映草稿 手动精修，原片、解说、BGM、字幕： - 一个 key 跑全程。 ASR、VLM、TTS 全走小米 MiMo，本地除了 ffmpeg 没别的依赖。 - 该查资料时先查。 片名/剧情明确或 brief 提示素材偏薄时，把人物关系、剧情背景存进 background research.json ，VLM 才更容易认出谁是谁。 - 解说成块，原声也成块。 解说一段段连着讲、整块一次配音，段间留白把精彩原声整段放回满音量——大致七三开。 - 先剪后配，画面对齐。 --edit-mode cut 先把长视频剪成成片，再对着成片写解说，时间轴天然对齐。 - 能接着在剪映里改。 可选导出 schema-driven 的多轨剪映草稿，原片、解说、BGM、字幕各占一轨；ffmpeg 仍是最终成片的判定标准。 ① 装插件 ——复制到 claude code： ② 装 ffmpeg （不用 pip install ：纯标准库 + PATH 上的 ffmpeg ，Python 3.10+）： 字幕默认烧进画面，需要带 libass（ subtitles 滤镜） 的 ffmpeg——上面这些包基本都自带。如果你的 ffmpeg 没编 libass，开跑前会立刻报错并提示（也可以加 --no-burn-subtitles 输出未遮黑条的 MP4 + .srt 外挂字幕）。用 python3 skills/video-recap/scripts/recap.py --doctor 自检。 ③ 配 MiMo API Key （一个 key 同时驱动 ASR / VLM / TTS；先在 platform.xiaomimimo.com 注册获取）： 按量付费的 sk- key 默认走 https://api.xiaomimimo.com/v1 。其它都有默认值；想分别配 key/URL 或改模型、音色、响度、字幕等，可见 它会分析视频、照背景写解说，产出带字幕的 recap .mp4 。 背后是编排器把几个阶段串起来跑，中间停下来让 Agent 写解说（剪辑模式会停两次：先写 clip plan.json 挑片段，剪成成片后再对着成片写 narration.json ）。第一次跑前可先自检环境： 把英文视频翻译成中文，并用 原说话人
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, asr, claude-code, claude-code-plugin, claude-skills, ffmpeg
+
+---
+
 ## 🕔 2026-06-26 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
