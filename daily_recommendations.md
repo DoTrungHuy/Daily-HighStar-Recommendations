@@ -1,3 +1,67 @@
+## 🕔 2026-06-26 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pg-aiguide](https://github.com/timescale/pg-aiguide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,772
+- **核心概述**: 用于 Postgres 技能和文档的 MCP 服务器和 Claude 插件。帮助 AI 编码工具生成更好的 PostgreSQL 代码。
+- **大概是做什么的**: 面向编码助理的 AI 优化 PostgreSQL 专业知识 pg-aiguide 可帮助 AI 编码工具编写出更好的 PostgreSQL 代码。它提供： - 跨官方 PostgreSQL 手册进行语义搜索（版本感知） - AI 优化的“技能”——AI 代理自动使用精选的、有观点的 Postgres 最佳实践 - 扩展生态系统文档，从 TimescaleDB 开始，即将推出更多内容 - 通过 npx 技能的代理技能 - 与 Claude Code、Cursor、Codex、Gemini CLI 和 40 多个其他代理一起使用 - 可与任何 AI 编码代理一起使用的公共 MCP 服务器，或者 - Claude Code 插件经过优化，可与 Claude 的本机技能支持一起使用。 AI 编码工具通常生成的 Postgres 代码存在以下问题： - 缺少约束和索引 - 不了解现代 PG 功能 - 与现实世界的最佳实践不一致 pg-aiguide 通过为 AI 代理提供深入的、版本化的 PostgreSQL 知识和经过验证的模式来修复这个问题。 https://github.com/user-attachments/assets/5a426381-09b5-4635-9050-f55422253a3d 给克劳德代码的提示：请描述您将为电子商务网站创建的架构两次
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, claude-code-plugin, claude-code-plugins, claude-code-plugins-marketplace
+
+---
+
+### 🌟 [weave](https://github.com/Ataraxy-Labs/weave)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,195
+- **核心概述**: 实体级 git 合并驱动程序。解决了独立代理编辑同一文件时 git 产生的错误冲突。与基于行的合并相比，减少了约 95%。
+- **大概是做什么的**: Ataraxy Labs 堆栈的一部分 — 用于软件开发的代理本机基础设施。另请参阅：sem（语义版本控制）·inspect（语义代码审查）·opensessions（编码代理的 tmux 侧边栏）。阅读宣言：https://ataraxy-labs.com/ 论文 · 论文：https://ataraxy-labs.com/blogs · 法学硕士：https://ataraxy-labs.com/llms.txt Git 的实体级语义合并驱动程序。通过树守护者了解代码结构，解决 Git 无法解决的合并冲突。 Git 通过比较行来合并。��两个分支都向同一个文件添加代码时——甚至是完全不同的函数——Git 会看到重叠的行范围并声明冲突：这些是完全独立的更改。没有真正的冲突。但无论如何都必须有人手动解决它。当多个人工智能代理在同一个代码库上工作时，这种情况经常发生。代理 A 添加一个函数，代理 B 向同一个文件添加不同的函数，Git 停止一切以供人工干预。 Weave 如何解决这个问题 Weave 将 Git 的基于行的合并替换为实体级合并。它不是比较线，而是： 1. Pa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-intelligence, coding-agents, conflict-resolution, developer-tools, git-merge
+
+---
+
+### 🌟 [awesome-design-skills](https://github.com/bergside/awesome-design-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,424
+- **核心概述**: 67 个很棒的 DESIGN.md 和 SKILL.md 设计技能文件列表，适用于 Claude Design、Google Stitch、Codex、Cursor 和其他 AI 工具等代理工具
+- **大概是做什么的**: 出色的设计技能 精心整理的 67 个设计系统技能文件注册表，适用于 Claude Code、Cursor、Codex 等人工智能驱动的代理工具。使用单个命令将任何技能引入您的项目。现在，每项技能都以文件夹形式提供，其中包含： - SKILL.md 用于 AI 代理指令（令牌、组件规则、可访问性约束、质量门） - DESIGN.md 用于人类可读的设计意图、基本原理和实施说明 在 Type UI 上预览所有设计技能 使用 TypeUI CLI 将任何设计技能直接拉入您的项目：例如，拉取 Glassmorphism 设计技能：或以交互方式浏览所有可用技能：什么是设计技能？设计技能是包含 SKILL.md 和 DESIGN.md 的文件夹。 SKILL.md 充当 AI 代理和 LLM 的指令源。它包含： - 品牌和使命 - 设计理念和视觉识别 - 风格基础 - 版式比例、调色板、间距系统 - 组件系列 - 按钮、输入、卡片、模式、导航等 - 辅助功能规则 - WCAG 2.2 AA 合规性、键盘优先交互 - 书写语气 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-ai, agentic-workflow, agents, ai, ai-agents
+
+---
+
+### 🌟 [anton](https://github.com/mindsdb/anton)
+- **项目语言**: Python
+- **星标数量**: ⭐ 692
+- **核心概述**: AI同事自我提升代理
+- **大概是做什么的**: Anton 是一个自我完善的人工智能代理，你可以将任何任务交给它；创建和发送报告、清理收件箱、发送电子邮件、管理日历、CRM、预订航班等。Claude-Cowork 的开放、强大替代方案，您可以在任何地方运行并与您想要的任何模型一起使用 - OpenAI、Anthropic、OpenRouter（200 多个模型）、NVIDIA Nemotron、z.ai/GLM、Kimi/Moonshot、MiniMax 或您自己的端点。 Anton 可以作为桌面应用程序或命令行工具安装。 - macOS：单击此处下载适用于 MacOS 的 Anton 桌面应用程序。 - Windows：单击此处下载适用于 Windows 的 Anton 桌面应用程序。或 - 命令行应用程序：打开终端并使用以下命令进行安装 - Windows (PowerShell)：就是这样，您现在只需键入命令即可运行它。 🔧 询问任何需要采取行动的事情 - 发送电子邮件 - 连接帐户、起草消息，甚至代表您发送。 - 管理日历 - 总结您的一天、创建会议、限制时间等。所有这些都只需询问即可。 - 自动报告 - 从多个数据库中提取数据，处理数字，按计划交付报告。 - 工作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agi, ai, ai-agents, claude-cow, clawdbot, code-generation
+
+---
+
+### 🌟 [gini-agent](https://github.com/Sheldenshi/gini-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 668
+- **核心概述**: 具有记忆和学习能力的代理。
+- **大概是做什么的**: Gini Agent 是一个个人代理，可以记忆、改进和运行，而无需强迫您阅读日志行。 Gini 不仅仅是一个聊天框、CLI、消息传递机器人或一堆工具。聊天是一个交互界面。运行时是对话、运行、任务、批准、内存、技能、作业、工具、跟踪、审核事件和运行时运行状况的记录系统。 - 白皮书：该项目正在缩小的差距及其衡量标准 - 架构概述：网关/客户端映射 - 网关和控制平面：运行时流程、BFF、身份验证、实例、端口、磁盘布局 - 对话和运行：聊天、运行、任务、计划步骤、跟踪和审计切换 - 内存：保留、召回、嵌入、重新排名、审查和存储 - 从技能中学习技能：Gini 如何从任务结���中提高自己的技能（两层） - 运行时功能：当前 CLI/API 功能图和验证命令 - 模型提供商：OpenAI、Anthropic、Bedrock、Azure、OpenRouter、DeepSeek、Cod 的每个提供商设置指南（凭据、先决条件、CLI/Web 配置）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, ai-agent, bun, llm, local-first
+
+---
+
+### 🌟 [awesome-evals](https://github.com/benchflow-ai/awesome-evals)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 451
+- **核心概述**: 一个精心策划的非BS库，包含用于构建和评估人工智能代理的最佳资源——论文、博客、演讲、工具、基准。由 BenchFlow 维护。
+- **大概是做什么的**: 一个精心策划的、有观点的、非BS库，包含用于构建和评估人工智能代理的最佳资源——论文、博客文章、演讲、课程、工具和基准。由 BenchFlow 维护 · 大多数“很棒”的列表都是链接转储。这个是经过注释和验证的：每个条目都说明了它是什么以及它所属的原因，检查了 URL，逐字引用，并且删除了失效/废弃的工具（不是默默列出）。它由以下内容组成： - 深度 4 递归引文抓取（11,600 篇论文，按学位排名），以呈现学术经典， - 针对行业来源引文图遗漏的有针对性的从业者网络发现（Eugene Yan、Han-Chung Lee、Hamel Husain、Shreya Shankar、Nathan Lambert 等）， - 47 个转录和深度注释的演讲和播客（逐字+时间戳），以及 -通过对抗性验证进行每个部分的差距审计。 443+ 个精选链接 · 146 个深度阅读笔记（参见笔记/）。标记：🆕 = 2025–2026 年发布/更新 · ⚠️ = 警告。欢迎贡献——请参阅贡献。 📘 剧本：PATTERNS.md — 真实的、可运行的代码 + LLM-as-judge 的工作示例（与人类一致），pass@k/pass^
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evaluation, ai-agents, awesome, awesome-list, benchmarks, evals
+
+---
+
 ## 🕔 2026-06-26 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
