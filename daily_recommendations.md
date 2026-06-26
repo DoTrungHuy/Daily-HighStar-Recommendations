@@ -1,3 +1,67 @@
+## 🕔 2026-06-26 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 156 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [devops-ai-guidelines](https://github.com/VersusControl/devops-ai-guidelines)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,174
+- **核心概述**: DevOps 的首次 AI 之旅 - 提供全面的学习路径、实用技巧和企业指南
+- **大概是做什么的**: DevOps AI 指南和学习路径 从 DevOps 工程师到 AI 基础设施架构师的完整旅程 - 提供全面的学习路径、实用技巧和企业指南 该存储库提供了您在 DevOps 中掌握 AI 所需的一切 - 从您的第一个 AI 工具到成为 AI 基础设施架构师。无论您是开始人工智能之旅、在团队中实施人工智能，还是引领企业采用人工智能，我们都拥有全面的资源和经过验证的框架来指导您取得成功。您将在这里找到什么 - 从 DevOps 到 AI 基础架构架构师的完整学习路线图 - AI 基础知识和高级技术的结构化教程 - 用于安全团队实施的企业 AI 框架 - 职业加速策略和面试准备 - 日常生产力提示和自动化工作流程 - 使用 AI 工具和技术进行云���化 DevOps 的 AI 学习路径 从 DevOps 工程师到 AI 基础架构架构师的完整 18 个月旅程 文档描述状态 ----------------------------------------------------------------------------- --
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agent, amazon-web-services, artificial-intelligence, aws
+
+---
+
+### 🌟 [repository-harness](https://github.com/hoangnb24/repository-harness)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 898
+- **核心概述**: 将任何存储库转变为适用于 Claude Code、Codex、Cursor 和其他编码代理的代理就绪工作区。
+- **大概是做什么的**: 将任何软件存储库转变为代理就绪的工作区。 repository-harness 是 Claude Code、Codex、Cursor 和其他编码代理的存储库级操作工具。它为代理提供了更改代码之前所需的缺失项目上下文：从哪里开始、产品合同内容、工作风险有多大、需要什么证明以及未来代理应该继承哪些决策。该应用程序是用户触摸的地方。安全带是特工接触的地方。软件开发更加可靠、可检查并且更易于人类操控。这个项目正在探索一个简单的想法：编码代理不仅需要更好的提示。他们需要更好的存储库。大多数存储库都是为人们阅读熟悉的代码库中的代码而构建的。编码代理通常只带有聊天提示和浅层文件快照。这会导致常见的故障模式： - 代理在理解产品意图之前编辑代码。 - 重要的限制只存在于聊天记录或某人的脑海中。 - 验证期望模糊或发现得太晚。 - 架构权衡是重复的而不是继承的。 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-md, ai-agents, ai-assisted-development, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [papr](https://github.com/l0ng-ai/papr)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 446
+- **核心概述**: 快速的本机 RSS 阅读器 - 加上面向代理的 CLI，以便您的 AI 代理可以从 shell 读取、搜索和分类您的提要。
+- **大概是做什么的**: 快速的本机 RSS 阅读器 - 以及您的 AI 代理可以实际驱动的 CLI。 Papr 是一个本地数据库上的两个前端： - 桌面阅读器 - 快速、本机、离线优先。没有帐户，就没有云。 - papr，一个面向代理的 CLI — 因此自治代理（Claude Code、Codex、OpenCode…）可以直接从 shell 读取、搜索和分类您的提要。两者都通过共享的 papr-core crate 读取相同的数据库，因此应用程序和 CLI 永远不会分开。 - 源和文件夹 — 订阅、组织和导入/导出 OPML。 - 智能视图 - 全部、未读、加星标和稍后阅读，并带有实时计数。 - 标签和规则 — 自动标记新文章的颜色编码标签和规则。 - 全文 — 当提要仅发送摘要时，获取并清理完整的文章。 - AI — 摘要、文章问答和摘要。带上您自己的 API 密钥。 - 音频 — 一个内置播放器，可跟随您浏览文章。 - FreshRSS 同步 — 使读取状态与 FreshRSS 服务器保持同步。 - 本地优先 - 一切都保留在您的计算机上。没有帐户，就没有云。 - 本地化 - 英语、日语和简体中文。苹果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic, ai-agents, claude-code, cli, desktop-app
+
+---
+
+### 🌟 [bytechef](https://github.com/bytechefhq/bytechef)
+- **项目语言**: Java
+- **星标数量**: ⭐ 775
+- **核心概述**: 开源平台，将人工智能代理编排和工作流程自动化统一起来——在一个平台上实现自主性和精确性。
+- **大概是做什么的**: 这一开源平台将 AI 代理编排和工作流程自动化、自主性和精确性统一在一个平台上。文档 · 现场演示 · Discord · Connect on X · 路线图 [//]: ( 关于 ByteChef) [//]: (ByteChef 是一个用于 AI 代理、工作流程自动化和 API 集成的开源平台。) [//]: (ByteChef 没有为 AI 代理和自动化工作流程使用单独的工具，而是将两者整合到具有一个编排层、集中管理和企业级安全性的单一平台中。) [//]: (ByteChef 是为现代企业构建的可以在受监管的环境中运行，并嵌入到为最终用户提供 AI 功能的产品中。） AI 代理 — 内置，而非固定 拖放式 AI 代理组件运行完整的代理循环 — 模型 → 工��选择 → 执行 → 观察 → 下一步 — 具有流式和结构化输出。 [//]: ( 发布的功能 ) [//]: ( --- --- ) [//]: ( LLM 提供商 & 40;14& 41; OpenAI · Anthropic · Azure OpenAI · Bedrock · Vertex Gemini · Mistral · Groq · DeepSeek · Hugging Face · Nvidia · 困惑 · 稳定性 · Ol
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, api, automation, embedded-ipaas, hacktoberfest
+
+---
+
+### 🌟 [EnterpriseAgentFramework](https://github.com/w8123/EnterpriseAgentFramework)
+- **项目语言**: Java
+- **星标数量**: ⭐ 337
+- **核心概述**: Enterprise AI Capability Platform for Java/Spring Boot. Register business APIs as governed AI capabilities, compose Agents with GraphSpec, Runtime, MCP/A2A/Gateway, RunOps and Trace. 企业智能体开发框架-把 Java 企业系统中的接口、领域方法、知识、模型和流程，沉淀为可治理、可编排、可开放的 AI 能力资产。
+- **大概是做什么的**: 让已有 Java 企业系统快速接入可控 AI 用 AI 辅助搭建确定性业务流程，用 Graph 层固化可执行语义，让智能体安全调用 OA、ERP、CRM、工单、合同、采购等系统中的真实业务能力。 以下截图先使用仓库现有图片占位，后续可以替换为更适合 README 首屏展示的新版截图。 SDK 快速接入 Workflow Studio / GraphSpec 嵌入到业务系统 使用 AI Coding 快速接入 AI 生成 Workflow 草稿 接口图谱与业务能力 RunOps 运行中心 执行链路追踪 ReachAI 面向已有 Java 企业系统，帮助企业把存量接口、领域方法、页面动作、知识库和固定业务流程接入到 AI 智能体体系中。 它不是再搭一个孤立的 AI 应用，也不是只做聊天机器人或工作流画布。ReachAI 的核心思路是： AI 负责理解需求和辅助搭建，Graph 负责确定性执行，SDK 和临时 token 负责跨系统连接，智能体最终回到真实业务页面里完成工作。 对于 OA、ERP、CRM、MES、合同、采购、工单、班组管理等系统，ReachAI 希望解决的是一个很现实的问题： 已有企业系统如何低改造接入 AI，同时不牺牲流程确定性、权限边界、审计追踪和跨系统协作？ 很多 AI 应用搭建平台更适合从零构建一个独立 AI 应用。但企业现场的大量价值已经沉淀在现有系统中：接口、审批流、页面操作、业务权限、用户身份、运行日志和历史数据都��老系统里。 ReachAI 不要求企业把业务搬到另一个 AI 平台里，而是把 AI 接回企业系统： - 后端通过 reachai-spring-boot2-starter 和 reachai-capability-sdk 注册已有业务能力。 - 平台形成项目、实例、能力快照、字段级 diff 和评审链路。 - Workflow Studio 用 GraphSpec 固化确定性业务流程。 - Agent 根据用户意图选择 Workflow、Capability、Tool、知识检索、MCP 调用或页面动作。 - Chat Embed SDK 和 Page Bridge 让智能体嵌入到 OA / ERP / CRM 等业务页面。 - 临时 token 机制打通平台身份、业务用户、Agent 授权和跨系统调用。 - Trace / RunOps / ACL / Guard 让每一次调用都可审计、可复盘、可治理。 和 Dify 这类 AI 应用编排平台的区别 Dify 这类平台很适合快速搭建独立 AI 应用、Prompt 编排和知识库问
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-framework, ai-agents, ai-capability, ai-gateway, ai-platform
+
+---
+
+### 🌟 [harnessclaw](https://github.com/harnessclaw/harnessclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 322
+- **核心概述**: Harnessclaw 是一款功能强大、基于 Electron 的桌面应用程序，旨在无缝管理、聊天和操作 AI 代理和技能。
+- **大概是做什么的**: 马具爪，你的特工准备好了。 Harnessclaw 是一款功能强大、基于 Electron 的桌面应用程序，旨在无缝管理、聊天和操作 AI 代理和技能。 - 🤖 代理管理：轻松管理和配置您的人工智能代理。 - 💬 互动聊天：丰富的聊天界面，用于与您的客服人员互动。 - 🛠️ 技能集成：通过 ClawHub 发现和管理技能。 - 📊 会话跟踪：跟踪您的代理会话和历史记录。 - ⚙️ 高度可定制：综合设置页面可调整您的体验。 - 框架：Electron + React + Vite - UI 和样式：Tailwind CSS + Radix UI - 状态管理：Zustand - 数据库：Better SQLite3 - Node.js（推荐 v18 或更高版本） - Yarn 包管理器 克隆存储库并安装依赖项： 在开发模式下启动应用程序： 为本地平台构建应用程序： 针对特定平台构建： - Mac：yarn dist：mac - Windows：yarn dist：win 记录提交、发布和变更日志规则在 docs/release-rules.md 中。 - 使用奖励任务模板打开一个新问题并添加问题
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, astron-community, chatbot, desktop-app, electron-app
+
+---
+
 ## 🕔 2026-06-26 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
