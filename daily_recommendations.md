@@ -1,3 +1,67 @@
+## 🕔 2026-06-26 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [EverOS](https://github.com/EverMind-AI/EverOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 8,997
+- **核心概述**: 每个 AI 代理都有一个便携式内存层：本地优先、Markdown 原生、用户拥有，并且跨应用程序、工具和工作流程自我进化。
+- **大概是做什么的**: 网站 · 文档 · 博客 · 中文 - EverMind 生态系统 EverOS 是一个 Python 库和面向代理和创客的本地优先内存运行时。从第一天起，它就为编码助手、应用程序、设备和工作流程提供了一个便携式存储层。它将对话、文件和代理轨迹存储为可读的 Markdown，然后同步本地 SQLite 和 LanceDB 索引，以实现快速检索和自我演化重用。其他代理内存库 Markdown 事实来源 ✅ 可读、可编辑、可比较和 Git 版本控制的规范 .md 文件 ❌ 通常是 API、矢量、图形、仪表板或数据库状态 ✅ 编辑 .md 文件；级联观察者同步 ❌ 通常是 SDK、API、仪表板或后端更新路径 本地三部分堆栈 ✅ Markdown + SQLite + LanceDB；不需要 MongoDB、Elasticsearch 或 Redis ❌ 通常依赖于托管服务、向量数据库、图形数据库或服务器堆栈 ✅ 用户事件/个人资料和代理案例/技能是单独的一流表面 ❌ 通常以聊天历史记录、个人资料、实体、事实或检索记录为中心 正交检索 ✅ 按用户 id、代理 id、应用程序 id、p 进行搜索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agentic-ai, ai, chats, clawdbot, clawdbot-skill
+
+---
+
+### 🌟 [forgecode](https://github.com/tailcallhq/forgecode)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 7,433
+- **核心概述**: 适用于 Claude、GPT、O Series、Grok、Deepseek、Gemini 和 300 多个型号的 AI 结对编程器
+- **大概是做什么的**: ⚒️ Forge：AI 增强型终端开发环境 将 AI 功能与您的开发环境集成的综合编码代理curl -fsSL https://forgecode.dev/cli sh 目录 - Forge 的工作原理：三种模式 - 交互模式 (TUI) - ZSH 插件模式（: 前缀） - ZSH 插件：: 前缀系统 - 会话管理 - Shell 命令工具 - 会话和配置 - 自定义代理行为 - 语义搜索（工作区） - 快速参考：全部：命令 - 命令行选项 - 高级配置 - 提供程序配置 - 管理提供程序凭据 - 已弃用：环境变量 - forge.yaml 配置选项 - 环境变量 - 在多代理工作流程中的使用 要开始使用 Forge，请运行以下命令： 首次运行时，Forge 将引导您使用交互式登录流程设置 AI 提供程序凭据。或者，您可以预先配置提供程序：就是这样！ Forge 现在已准备好协助您完成开发任务。 Forge 可以根据您的需要以不同的方式使用。这里有一个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-pair-programming, ai-workflows, artifical-intelligense, claude-3-7-sonnet, claude-4, claude-4-sonnet
+
+---
+
+### 🌟 [md](https://github.com/doocs/md)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 12,901
+- **核心概述**: ✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性
+- **大概是做什么的**: Markdown 文档自动即时渲染为微信图文 ，让你不再为公众号排版发愁。只需掌握基本的 Markdown 语法，即可生成样式简洁、美观大方的微信图文。 如果这个项目对你有帮助，欢迎点个 Star ⭐️，我们会持续维护与迭代。 https://md.doocs.org 推荐使用 Chrome 浏览器以获得最佳体验。 现有的开源微信 Markdown 编辑器普遍存在样式繁杂、排版需反复调整的问题。本项目致力于提供一个更简洁、易用的编辑器，让内容创作者专注于写作本身，而非排版细节。 欢迎随时提交 PR 参与共建，也欢迎在 Discussions 中分享你的想法。 - 支持标准 Markdown 语法及数学公式（KaTeX） - 支持 Mermaid 图表、PlantUML、GFM 警告块 - 支持 Ruby 注音扩展，格式兼容 [文字]{注音} 与 [文字]^(注音) - 代码块提供多种高亮主题，可自定义主题色与 CSS 样式 - 登录账户后可同步编辑器偏好（云同步说明） - 支持多种图床（GitHub、阿里云、腾讯云、七牛云、MinIO、S3、Cloudflare R2 等） - 集成主流 AI 模型（DeepSeek、OpenAI、通义千问、腾讯混元、火山方舟、302.AI 等），辅助内容创作 图床 使用时是否需要配置 备注 --- ------------------------------------------------------ -------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------- 1 默认 否 - 2 GitHub 配置 Repo 、 Token 参数 如何获取 GitHub token？ 3 阿里云 配置 AccessKey ID 、 AccessKey Secret 、 Bucket 、 Region 参数 如何使用阿里云 OSS？ 4 腾讯云 配置 SecretId 、 SecretKey 、 Bucket 、 Region 参数 如何使用腾讯云 COS？ 5 七牛云 配置 AccessKey 、 SecretKey 、 Bucket 、 Domain 、 Region 参数 如何使用七牛云 Kodo？ 6 Min
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-bot, doocs, editor, llm, markdown, markdown-editor
+
+---
+
+### 🌟 [LMCache](https://github.com/LMCache/LMCache)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,855
+- **核心概述**: LMCache：用最快的 KV 缓存层增强您的 LLM
+- **大概是做什么的**: 用于可扩展 LLM 推理的 KV 缓存管理层 - [2026/05] 🔥 AMD MI300X 上的代理工作负载基准（博客）。 - [2026/04] 🔥 LMCache 的新多进程 (MP) 架构发布（博客）。 - [2026/03] GTC 2026 上的 LMCache（发布）。 - [2026/01] LMCache 多节点 P2P CPU 内存共享，从实验功能到生产（博客）。 - [2025/11] LMCache x CoreWeave 加速 Cohere 的高效 LLM 推理（博客）。 - [2025/10] LMCache 加入 PyTorch 基金会并揭晓 Tensormesh（博客，PyTorch）。 - [2025/09] NVIDIA Dynamo 集成 LMCache，加速 LLM 推理（博客）。 - [2025/08] 🎉 LMCache 获得 5,000 多个 GitHub star（博客）。 - [2025/08] LMCache 在第一天支持 gpt-oss (20B/120B)（博客）。 - [2025/07] 使用 LMCache 和 Redis 获得更快的 LLM 推理和更便宜的响应（Redis 博客）。 - [2025/07] LMCache 将其涡轮增压扩展到 vLLM V1 中的多模式模型（博客）。 - [2025/06] LLM Production Stack 跨硬件：AMD、Arm 和 Ascend（博客）。 LMCache是​​用于LLM推理的KV缓存管理层。它将 KV 缓存从临时状态转变为可重用的 AI 原生状态
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: amd, cuda, fast, inference, kv-cache, llm
+
+---
+
+### 🌟 [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP)
+- **项目语言**: C#
+- **星标数量**: ⭐ 3,318
+- **核心概述**: 适用于 Unity 引擎的 AI 技能、MCP 工具和 CLI。完整的人工智能开发和测试循环。使用 cli 进行快速设置。高效的代币使用，先进的工具。任何 C# 方法都可以通过一行代码变成一个工具。与 Claude Code、Gemini、Copilot、Cursor 和任何其他完全免费的工具一起使用。
+- **大概是做什么的**: ✨ AI 游戏开发人员 — Unity 技能、MCP Unity MCP 是一款用于编辑器和运行时的 AI 游戏开发助手。通过 MCP 将 Claude 、 Cursor 和 Windsurf 连接到 Unity。自动化工作流程、生成代码并在游戏中启用 AI。与其他工具不同，该插件在编译的游戏中运行，允许实时 AI 调试和玩家与 AI 交互。 💬 加入我们的 Discord 服务器 - 提出问题、展示您的作品并与其他开发者联系！ - ✔️ AI 代理 - 使用来自 Anthropic、OpenAI、Microsoft 或任何��他提供商的最佳代理，无需锁定供应商 - ✔️ 工具 - 用于在 Unity 编辑器中操作的各种默认 MCP 工具 - ✔️ 技能 - 根据操作系统、Unity 版本、项目中的插件生成 AI 技能 - ✔️ 代码和测试 - 开发游戏机制并使用 AI 代理进行测试 - ✔️ 运行时（游戏内） - 直接在编译的游戏中使用 LLM用于动态 NPC 行为或调试 - ✔️ 调试支持 - 让 AI 调试并修复项目中的问题 - ✔️ 自然对话 - 像与人类一样与 AI 聊天 - ✔️ 灵活
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-integration, anthropic, claude, claude-code, claude-desktop
+
+---
+
+### 🌟 [agentos](https://github.com/rivet-dev/agentos)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,158
+- **核心概述**: 比沙箱更快、更轻、更便宜的替代方案。在隔离的 Linux VM 内运行任何编码代理，并内置代理编排。
+- **大概是做什么的**: 用于人工智能代理的便携式开源操作系统。近乎零的冷启动（6 毫秒），比沙箱便宜高达 32 倍。内置 ACP 代理：Pi、Claude Code 和 OpenCode 文档快速入门 - 在进程内运行：无需启动 VM，无需拉取容器。代理在几毫秒内启动，内存开销最小。 - 嵌入您的后端：代理通过绑定直接调用您的函数。服务之间没有网络跳跃，没有复杂的身份验证。 - 精细安全性：默认拒绝文件系���、网络和进程访问权限。全球浏览器信任的相同隔离技术。 - 部署在任何地方：只是一个 npm 包。适用于您的笔记本电脑、Rivet Cloud、Railway、Vercel、Kubernetes 或任何容器平台。 - 开源：Apache 2.0 许可。自托管或使用 Rivet Cloud 进行托管基础设施。 agentOS 是一个在您的进程内运行的轻量级虚拟机。沙箱是完整的 Linux 环境。 agentOS 通过绑定和精细权限将代理集成到您的后端。沙盒为您提供了适用于浏览器、本机二进制文件和开发服务器的完整操作系统。你不
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, javascript, llm, sandbox, v8
+
+---
+
 ## 🕔 2026-06-25 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
