@@ -1,3 +1,67 @@
+## 🕔 2026-06-27 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 179 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [read-frog](https://github.com/mengxi-ream/read-frog)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,202
+- **核心概述**: 🐸 Read Frog - Open Source Immersive Translate | 🐸 陪读蛙 - 开源沉浸式翻译
+- **大概是做什么的**: 适用于浏览器的开源人工智能语言学习扩展。支持沉浸式翻译、文章分析、多种AI模型等。就在浏览器中，通过 AI 轻松深入地掌握语言。官网 · 教程 · [Changelog][github-release-link] · 博客 ![Last Commit bad][last-commit-shield] 注册优云智算：用最少的钱，换的编程效率最高。 - 👋🏻 入门 \& 加入我们的社区 - 🔄 双语/仅翻译 - ✨ 选择翻译 - 🧠 上下文感知翻译 - 🎬 字幕翻译 - 🔊文本转语音 (TTS) - 🤖 20 多��人工智能提供商 - 📜 商业许可授予 👋🏻 入门并加入我们的社区 Read Frog 的愿景是为各个级别的语言学习者提供易于使用、智能和个性化的语言学习体验。这在AI时代已经成为可能，但市场上满足这一需求的产品却很少。因此，我们决定亲自动手，最终让世界不再依赖人类语言教师。无论您是用户还是开发者，Read Frog 都将成为您的重要组成部分
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: browser-extension, chinese, chrome-extension, deepseek, english, english-learning
+
+---
+
+### 🌟 [ag2](https://github.com/ag2ai/ag2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,714
+- **核心概述**: AG2（以前称为 AutoGen）：开源 AgentOS。加入我们：https://discord.gg/sNGSwQME3x
+- **大概是做什么的**: AG2是由AutoGen演变而来。完全开源。我们邀请所有组织的合作者做出贡献。 AG2 正在迈向 v1.0。协议驱动框架现在是顶级包，导入为 ag2 。经典框架（ ConversableAgent 、 GroupChat 等）已被删除，并且导入名称 autogen 不再可用 - 使用 import ag2 。阅读完整的发布路线图 → AG2：AI 代理的开源 AgentOS AG2（以前称为 AutoGen）是一个开源编程框架，用于构建 AI 代理并促进多个代理之间的合作以解决任务。 AG2 旨在简化代理人工智能的开发和研究。它提供的功能包括能够相互交互的代理、促进各种大型语言模型 (LLM) 和工具使用支持、自主和人机交互工作流程以及多代理对话模式的使用。该项目目前由来自多个组织的一群充满活力的志愿者维护。如果您有兴趣成为一名项目管理员，请通过 support@ag2.ai 联系项目管理员 Chi Wang 和 Qingyun Wu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, ag2, agent-framework, agentic, agentic-ai, ai
+
+---
+
+### 🌟 [ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,684
+- **核心概述**: 非官方且出色的 Home Assistant MCP 服务器
+- **大概是做什么的**: 重大更改 (v7.3.0)：ha config set yaml 已移至测试版。非官方且令人敬畏的 Home Assistant MCP 服务器 一个全面的模型上下文协议 (MCP) 服务器，使 AI 助理能够与 Home Assistant 交互。使用自然语言控制智能家居设备、查询状态、执行服务并管理您的自动化。开始使用 Claude Desktop 的完整指南（10 分钟）无需付费订阅。单击您的操作系统：           快速安装（5 分钟） 1. 转到 claude.ai 并登录（或创建免费帐户） 2. 打开终端并运行： 3. 下载 Claude Desktop（或重新启动：Claude 菜单 → 退出） 4. 询问 Claude：“你能看到我的 Home Assistant 吗？”您现在已连接到演示环境！连接您自己的 Home Assistant → Anthropic 不提供适用于 Linux 的 Claude Desktop，因此请选择一种路径：Claude Desktop — 免费，通过社区构建： 1. 安装社区 Claude Desktop for Linux 构建并使用免费的 claude.ai 帐户登录 2. 打开终端并运行： 3. 重新启动 Claude Desktop，然后询问：“您可以吗？
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, hacs, home-assistant, home-automation, llm
+
+---
+
+### 🌟 [codesight](https://github.com/Houseofmvps/codesight)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,188
+- **核心概述**: 通用人工智能上下文生成器。在 Claude Code、Cursor、Copilot、Codex 等中的每个对话中保存数千个令牌。
+- **大概是做什么的**: 你的人工智能助手每次对话都会浪费数千个代币来弄清楚你的项目。 codesight 通过一个命令修复了这个问题。超过 4,000 次下载并且还在不断增加。零依赖。 AST 精度。 30 多个框架检测器。 13 个 ORM 解析器。 13 个 MCP 工具。一次 npx 调用。适用于 TypeScript、JavaScript、Python、Go、Ruby、Elixir、Java、Kotlin、Rust、PHP、Dart、Swift、C 和 BrightScript/BrighterScript (Roku)。 TypeScript 项目获得完整的 AST 精度。其他所有内容都在相同的 30 多个框架中使用经过实战测试的正则表达式检测。由 HouseofMVPs 和 Kailxlabs 的创始人 Kailesk Khumar 构建 另外：ultraship（Claude Code 的 39 项专家技能）·claude-rank（Claude Code 的 SEO/GEO/AEO 插件）Claude Code、Cursor、GitHub Copilot、OpenAI Codex、Windsurf、Cline、Aider 以及任何读取 Markdown 的内容。就是这样。在任何项���根目录中运行它。无需配置、无需设置、无需 API 密钥。 Wiki 知识库 (v1.6.2) 受到 Karpathy 的 LLM wiki 模式的启发 - 但从 AST 编译，而不是 LLM。零 API 调用。 200毫秒。生成 .codesight/wiki/ — 代码库的持久知识库
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, claude, cli, code-analysis, codebase, codex
+
+---
+
+### 🌟 [n8n-install](https://github.com/kossakovsky/n8n-install)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 890
+- **核心概述**: 🚀 自托管人工智能自动化平台。使用一个命令即可部署 n8n、Ollama、Flowise、RAG、Supabase 和 30 多种工具。自动 HTTPS。免费扎皮尔/做出替代方案。
+- **大概是做什么的**: 自托管 AI 自动化平台 使用单个命令部署 30 多种 AI 和自动化工具。这个开源 Docker Compose 模板创建了一个完整的自托管环境，其中包含 n8n（工作流程自动化）、Flowise（AI 代理）、Ollama（本地 LLM）、矢量数据库（Qdrant、Weaviate）、RAG 引擎、Supabase、监控堆栈等，所有这些都在带有自动 HTTPS 的 Caddy 反向代理后面进行了预配置。另外，还可以在设置过程中选择导入 300 多个社区工作流程！ - 快速启动和使用 - 私人 AI Homelab — 使用 Ollama 在本地运行 LLM，将数据保存在您自己的服务器上 - ChatGPT 替代方案 — 开放 WebUI 为本地 AI 模型提供熟悉的聊天界面 - 工作流程自动化 — n8n 具有 400 多个集成，可扩展的基于队列的架构 - AI Agents 和 RAG — Flowise、Dify、LangChain、矢量数据库（Qdrant、Weaviate） - 一个命令安装 — 交互式向导、自动机密、零手动配置 - 自动 HTTPS —具有自动 Let's Encrypt 证书的 Caddy 反向代理 - 内置监控 - 包括 Grafana + Prometheus 堆栈 - 生产就绪 - 可扩展工作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automation, chatgpt-alternative, dify, docker
+
+---
+
+### 🌟 [models](https://github.com/reyamira/models)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 455
+- **核心概述**: TUI 和 CLI 用于浏览 AI 模型、基准测试、编码代理和 AI 提供商的状态。
+- **大概是做什么的**: TUI 和 CLI 用于浏览 AI 模型、基准测试、编码代理和提供商状态。 - 来自 models.dev 的 85 多个提供商的 4,000 多个模型 - 按功能、价格、上下文和提供商类别进行筛选 - 4 个数据源的 1,000 个基准条目 - Artificial Analysis、Epoch AI、Arena 和 LLM Stats - 使用散点图和雷达图对模型进行头对头比较 - 通过版本检测、变更日志和 GitHub 集成跟踪 11 多个编码代理 - 跨 7 个状态页面平台实时监控 22 个提供商状态v0.12.1 中的新增功能 - 鼠标支持 — 单击一行以选择它，单击一个面板以将其聚焦，单击标题选项卡以切换选项卡，然后使用滚轮滚动。弹出窗口（排序、列、术语表、跟踪器、帮助）滚动并接受行单击。 v0.12.0 中的新增功能 - 多源基准测试 - 4 个可切换数据源（Artificial Analysis、Epoch AI、Arena、LLM Stats），具有状态保留切换、应用内刷新和基准术语表 - 列选择器 - 选择哪些指标列可见，并在 config.toml 中按源保留 - 比较器列 - 周期字段平均值
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anamolyco, artificial-analysis, benchmarks, claude-code, codex
+
+---
+
 ## 🕔 2026-06-27 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
