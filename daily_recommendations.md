@@ -1,3 +1,67 @@
+## 🕔 2026-06-27 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [semantic-router](https://github.com/vllm-project/semantic-router)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,601
+- **核心概述**: 适用于云、数据中心和边缘混合模型的系统级智能路由器
+- **大概是做什么的**: 用于云、数据中心和边缘混合模型的系统级智能路由器在LLM时代，模型的数量呈爆炸式增长。不同的模型在功能、规模、成本和隐私边界方面有所不同。选择并连接正确的模型来构建语义人工智能基础设施是一个系统问题。 vLLM Semantic Router 是针对该问题的信号驱动智能路由器。它帮助团队构建跨云、数据中心和边缘环境更高效、更安全、更具适应性的模型系统。它提供了三个核���价值： - 代币经济学：减少浪费的代币，增加有效产出，并最大化每个代币的价值。 - LLM 安全：检测越狱、敏感泄漏和幻觉，使代理保持可控、可信和可审计。 - Fullmesh 智能：通过跨成本、隐私和功能边界协调本地、私有和前沿模型，在边缘构建个人 AI 并在云中构建智能 MaaS。有关平台说明、详细设置选项和故障排除，请参阅安装指南。网上游乐场d
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-gateway, bert-classification, fine-tuning, golang, huggingface-candle, huggingface-transformers
+
+---
+
+### 🌟 [openui](https://github.com/thesysdev/openui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,461
+- **核心概述**: 生成式 UI 的开放标准
+- **大概是做什么的**: OpenUI - 生成式 UI 的开放标准 OpenUI 是一个全栈生成式 UI 框架：一种紧凑的流优先语言、带有内置组件库的 React 运行时以及即用型聊天界面，其令牌效率比 JSON 高出 67%。文档 · Playground · Discord · 贡献 重要提示：OpenUI 没有官方的加密货币、代币或硬币。任何使用 OpenUI 名称的资产均与该项目无关，并且未得到其维护者的认可。 OpenUI 的核心是 OpenUI Lang：一种紧凑的、流优先的语言，用于模型生成的 UI。 OpenUI 不是将模型输出仅视为文本，而是允许您定义组件、从该组件库生成提示指令，并将结构化 UI 呈现为模型流。 - OpenUI Lang - 一种用于生成结构化 UI 的紧凑语言，专为流输出而设计。 - 内置组件库 - 图表、表单、表格、布局等，可供使用或扩展。 - 从您的组件库提示生成 - 直接从您允许的组件生成模型指令。 - 流式渲染器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, generative-ui, help-wanted, javascript
+
+---
+
+### 🌟 [llm-d](https://github.com/llm-d/llm-d)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 3,458
+- **核心概述**: 使用 Kubernetes 上的现代加速器实现最先进的推理性能
+- **大概是做什么的**: 在任何加速器上实现 SOTA 推理性能 llm-d 是一种高性能分布式推理服务堆栈，针对 Kubernetes 上的生产部署进行了优化。我们通过经过充分测试的指南和实际基准，帮助您在大多数硬件加速器和基础设施提供商的关键 OSS 大语言模型上实现最快的“达到最先进 (SOTA) 性能的时间”。 llm-d 是一个云原生计算基金会 (CNCF) 沙盒项目，由 Red Hat、Google Cloud、IBM Research、CoreWeave 和 NVIDIA 创立。 llm-d 为生产推理提供什么？ vLLM 和 SGLang 等模型服务器可以在加速器上高效运行大型语言模型。 llm-d 在模型服务器之上提供最先进的编排和优化，以高效可靠地服务大规模的现实世界流量。我们的产品分为四个核心主题： 智能路由：通过前缀缓存和负载感知平衡最大限度地提高性能，包括实验性的基于预测延迟的调度，以减少延迟并提高吞吐量。高级 KV 缓存管理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, cncf, distributed-inference, gpu, inference, intelligent-routing
+
+---
+
+### 🌟 [natively-cluely-ai-assistant](https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,627
+- **核心概述**: Natively——免费的开源人工智能会议助手、面试副驾驶和笔记员。 Cluely、Otter、Granola、Final Round AI、Fireflies 和 Interview Coder 的最佳替代品。实时转录、AI会议笔记、讲座录音、本地RAG、BYOK、隐身模式。在本地运行。没有订阅。没有数据泄露。
+- **大概是做什么的**: 由 Recall AI 赞助 - 用于桌面录制的 API 如果您正在寻找托管桌面录制 API，请考虑查看 Recall.ai，这是一个用于录制 Zoom、Google Meet、Microsoft Teams、面对面会议等的 API。本机 — 个人使用的源 AI 面试副驾驶和会议助理 C​​luely、Final Round AI、LockedIn AI 和 Interview Coder 的最佳免费替代品。与 Cluely 相同的 UI。更多功能。个人/非商业用途 0 美元。来源可用。没有数据泄露。竞争对手的收费为 20 至 149 美元/月，将您的数据存储在他们的服务器上，其中一个已经突破了 83,000 个用户。原生成本为 0 美元，在本地运行，并且从未发生过数据泄露。您的钥匙、您的型号、您的机器。需要 macOS 12+（Apple Silicon 和 Intel）或 Windows 10/11 👥 9,000+ 用户  ·  🔥 700+ DAU  ·  💸 0 美元 vs 149 美元/月的竞争对手  ·  ⚡  ·  🛡️ 0 次数据泄露 免费供个人使用、来源可用的 Cluely Cluely 克隆本机启动作为 Cluely 界面的像素完美再现 - 然后继续下去。如果您使用过 Cluely，那么您已经知道如何使用 Natively。山姆
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-assistant, cheating, claude-code, claude-skills, cluely
+
+---
+
+### 🌟 [markstream-vue](https://github.com/Simon-He95/markstream-vue)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 2,612
+- **核心概述**: 适用于 AI 应用程序的多框架流式 Markdown 渲染器：Vue/Nuxt、React/Next.js、Svelte 和 Angular，以及 Mermaid、KaTeX、Shiki、Monaco、安全 HTML 和低抖动更新。
+- **大概是做什么的**: Markstream 是一个流式 Markdown 渲染器系列，用于 AI 聊天、LLM 令牌流、SSE/WebSocket 输出和长 AI 响应。对 Vue 3、Nuxt 和 VitePress 使用 markstream-vue；使用 React、Svelte、Angular 和 Vue 2 的同级包。渲染器是为不完整的 Markdown 状态、渐进式 Mermaid、KaTeX、流代码块、移动 WebView 和安全组件渲染而构建的。为什么不标记/markdown-it/react-markdown？对于完成的 Markdown 文档，请使用marked、markdown-it或react-markdown。当用户阅读时 Markdown 仍在变化时，请使用 Markstream。详细比较：react-markdown、marked/markdown-it 和 Streamdown。如果您要在软件包之间进行选择，请从框架概述开始。包框架安装文档 --- --- --- --- markstream-vue Vue 3 / Nuxt / VitePress pnpm add markstream-vue 框架概述 · Vue 登陆 · Nuxt 登陆 markstream-react React / Next.js / Remix pnpm add markstream-react React 登陆 · Next.js 登陆 markstream-svelte Svelte 5 pnpm add markstream-svelte svelte@^5 Svelte 登陆 · 快速启动 m
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-chat, angular, katex, llm, markdown
+
+---
+
+### 🌟 [zerostack](https://github.com/gi-dellav/zerostack)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,363
+- **核心概述**: 用 Rust 编写的最小编码代理，针对内存占用和性能进行了优化
+- **大概是做什么的**: 用 Rust 编写的最小编码代理，受到 pi 和 opencode 的启发。博文：我们在 2 周内构建了内存设计子代理设计 Xavier 的内存分析 注：想要支持吗？考虑在这里捐款；如果您是一家有兴趣赞助 Zerostack 的公司，请在此处与我联系。如果您想无需付费即可获得支持，请查看 multistack。 - 多提供商：OpenRouter、OpenAI、Anthropic、Gemini、Ollama 以及自定义提供商 - 标准工具：公开给编码代理的所有标准工具，如 opencode 文档所述。 - 权限系统：五种可配置模式，包括每个工具模式、会话允许列表和可配置模式到规则应用程序策略 - 会话管理：保存/加载/恢复会话、自动压缩以保留在上下文窗口中 - 终端 UI：基于交叉项、Markdown 渲染、鼠标选择/复制、回滚、推理可见性切换 - 提示系统：在运行时（代码、计划、审查、调试等）之间切换系统提示模式，以定制代理的行为无需管理技能即可完成任务。 - MCP 支持：连接
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-coding, agents, ai, claude-code
+
+---
+
 ## 🕔 2026-06-27 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
