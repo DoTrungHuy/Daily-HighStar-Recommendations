@@ -1,3 +1,67 @@
+## 🕔 2026-06-27 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ClawRouter](https://github.com/BlockRunAI/ClawRouter)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,603
+- **核心概述**: OpenClaw 的代理本机 LLM 路由器。 41+ 型号，<1ms 路由，通过 x402 在 Base 和 Solana 上进行 USDC 支付。
+- **大概是做什么的**: 为自治代理构建的LLM路由器代理无法注册帐户。代理不能输入信用卡信息。代理人只能签署交易。 ClawRouter 是唯一一款允许代理独立运行的 LLM 路由器。 8 个免费模型，无需加密。没有注册。没有 API 密钥。没有信用卡。 ClawRouter 是一款开源智能 LLM 路由器，可将 AI API 成本降低高达 92%。它从 15 个维度分析每个请求，并在 1 毫秒内完全在本地路由到最便宜的模型。 ClawRouter 是唯一为自主 AI 代理构建的 LLM 路由器 - 它使用钱包签名进行身份验证（无 API 密钥），并通过 x402 协议进行 USDC 小额支付（无信用卡）。来自 OpenAI、Anthropic、Google、xAI、DeepSeek 等的 55 多个模型。麻省理工学院许可。为什么 ClawRouter 存在 每个其他 LLM 路由器都是为人类开发人员构建的 - 创建帐户、获取 API 密钥、从仪表板中选择模型、使用信用卡付款。这些事情代理都做不到。 ClawRouter 专为代理优先的世界而打造： - 起价 0 美元 - 8 个 NVIDIA 型号永久免费（包括 675B Mistral Large 3、Qwen3.5）。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, anthropic, cost-optimization, deepseek, gemini
+
+---
+
+### 🌟 [atlassian-mcp-server](https://github.com/atlassian/atlassian-mcp-server)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 804
+- **核心概述**: Atlassian 的官方远程 MCP 服务器。使用 OAuth 2.1 或 API 令牌将 Jira、Confluence、Jira Service Management、Bitbucket 和 Compass 安全连接到 Claude、ChatGPT、Cursor、VS Code 和其他 AI 工具。
+- **大概是做什么的**: Atlassian Rovo MCP 服务器 Atlassian 的官方模型上下文协议 (MCP) 服务器：云托管桥，让您的 AI 工具能够安全、实时地访问 Jira、Confluence、Jira Service Management、Bitbucket 和 Compass。安全和管理 · 官方 Atlassian Rovo MCP 服务器是 Atlassian Cloud 站点和兼容外部工具之间基于云的桥梁。配置完成后，这些工具就可以与 Jira、Confluence、Jira Service Management、Bitbucket 和 Compass 数据实时交互。身份验证使用 OAuth 2.1 或 API 令牌，因此每个操作都会尊重用户现有的访问控制。借助 Atlassian Rovo MCP 服务器，您可以： 汇总和搜索 Jira、Confluence、Jira Service Management 和 Bitbucket 内容，无需切换工具。基于自然语言命令创建和更新问题或页面。自动执行重复性工作，例如根据会议记录或规格生成票据。它专为使用 IDE 或 AI 工具并希望在不不断切换上下文的情况下使用 Atlassian 数据的开发人员、内容创建者和项目团队而构建。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, atlassian, bitbucket, chatgpt, claude
+
+---
+
+### 🌟 [council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 994
+- **核心概述**: 18 个人工智能角色仔细考虑了您在多个 LLM 提供商中最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔兹等——具有真正模型多样性的结构化多轮审议。一个命令：/council
+- **大概是做什么的**: 高智商委员会的 18 个人工智能角色会仔细考虑您在多个 LLM 提供商中最艰难的决定。一声令下。 - 18 名理事会成员 - 三种审议模式 - 多提供商自动路由 - 审议协议 - 支持项目 然后在克劳德代码中：单个法学硕士为您提供一条装扮成信心的推理路径。问一个很难的问题，你会得到一个流畅的、有条理的、错误的答案。相反，委员会会为您提供结构化的分歧： - 获得真正不同的观点 - 极性对会产生真正的张力（苏格拉底破坏假设；费曼从第一原则重建）。多提供商路由将成员分布在 Claude、OpenAI、Gemini 和 Ollama 之间，因此您实际上会得到不同的推理，而不是在一种模型上进行服装更改 - 及早发现错误的问题 - 问题重述门使每个成员在分析开始之前重新构建问题。如果 3 名成员以不同的方式重述您的问题，则问题就是问题 - 知道理事会无法回答什么 - 判决以未解决的问题和建议的后续步骤为主导，而不是听起来充满信心
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, claude-code, decision-making, deliberation, gemini
+
+---
+
+### 🌟 [claude-night-market](https://github.com/athola/claude-night-market)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: 23 个 Claude 代码插件：TDD 执行挂钩、git/PR 工作流程、规范驱动开发、代码审查、项目生命周期、错误修复、维护自动化、上下文优化、研究和多法学硕士授权。 186个技能，128个命令，54个特工。
+- **大概是做什么的**: Claude Code 的插件市场。仅安装从 Claude Code 会话内部运行 git 工作流程、代码审查、规范驱动开发和自主代理所需的插件。挂钩需要 Claude Code 2.1.16+ 和 Python 3.9+。安装后运行 claude --init 一次。更喜欢一个命令？ npx 技能 add athola/claude-night-market 安装所有内容； opkg i gh@athola/claude-night-market --plugins sainttum,pense 安装一个子集。完整选项位于如果技能工具不可用，请直接在 plugins/{plugin}/skills/{skill-name}/SKILL.md 处读取技能文件。 Night Market 是围绕您已经使用的循环构建的。典型的功能通过几个命令端到端运行： 1. 启动一个功能。 /attune:mission 引导您经历集思广益、指定、计划和执行阶段。 2. 编写代码。 imbue 首先强制执行失败的测试，因此实现遵循测试，而不是相反。 3.推送前先回顾一下。 /full-review 运行多学科通行证； /refine-code 清除重复 4. 发送。 /prepare-pr 运行质量门并留下干净的 git s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, architecture-patterns, awesome-claude-code, awesome-claude-skills, claude-agents, claude-code
+
+---
+
+### 🌟 [manifold](https://github.com/intelligencedev/manifold)
+- **项目语言**: Go
+- **星标数量**: ⭐ 496
+- **核心概述**: Manifold 是一个实验平台，可使用人工智能助手团队实现长期工作流程自动化。
+- **大概是做什么的**: Manifold 是一个具有人工智能助手团队的长期工作流程自动化实验平台。它支持 OpenAI、Google 和 Anthropic 模型，以及与 OpenAI 兼容的 API，用于通过 llama.cpp 或 vLLM 提供服务的自托管开放权重模型。 Manifold 是一个实验性的前沿人工智能平台。除非本 README 另有明确说明，否则请勿将其部署在需要强大稳定性保证的生产环境中。 Manifold 专为超越一次性提示的工作流程而构建。它为您提供了一个工作空间��专家、工具、项目和工作流程可以在其中长时间协同工作，实现多步骤目标。使用传统的聊天界面将目标分配给专家。除了文本响应之外，代理专家还可以配置为呈现可视化效果。专家可以跨多个回合进行协作。 Manifold 旨在利用前沿模型的长视野功能，可以在复杂的目标上工作数小时。 Manifold 支持 OpenAI 和 Google 模型的图像生成，也支持本地图像生成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-assistant, ai-tools, artificial-intelligence, go
+
+---
+
+### 🌟 [AppGenesisForge](https://github.com/pcliangx/AppGenesisForge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 321
+- **核心概述**: 用于 Claude Code 的生产就绪 AI Agent 团队模板 — 14 名专家，通过技能/hook/DoD 3 层（非 wiki）实施敏捷+Scrum+TDD，PRD→UAT 6 个阶段门，4 层 hook 防御，多 LLM（DeepSeek/Doubao/Qwen/MiniMax），微信小程序，三语 README（中文/EN/日文）。连夜发布功能。
+- **大概是做什么的**: Code the Origin, Forge the App. 给 Claude Code 装上一支 19 人 AI 开发团队 ——Web / 小程序 / Apple 原生三轨，Agile + Scrum + TDD 跑完整条交付链，一个终端 tab 看完全程。 AppGenesisForge（AGF） 是基于 Claude Code Agent Teams 的 AI 团队脚手架 ：装进你的项目后， product-lead 带着 18 个 AI 同事按「变更文件夹（需求入口）→ 实现 → 审查 → 部署 → 测试 → 签字」的阶段门交付 feature——流程不靠 agent 自觉，靠 skill 强制 + hook 阻断 + DoD 清单 三层机制兜底。 - ✅ 适合 ：Web 全栈（默认 React + FastAPI + Postgres，可换栈）· AI Agent / RAG / 多模态 · 微信小程序 · Apple 原生（macOS 桌面 / iOS） - ❌ 不适合 ：Android 原生 · Windows / Linux 桌面 · 大模型训练 前置 ：Claude Code ≥ v2.1.154 · git · macOS / Linux 交互式 TUI 一条龙：选版本 → 选目标目录（ 新项目 / 已有仓库都行 ，不存在自动 mkdir + git init ）→ 选角色裁剪 → 确认安装 → 完成页一键进入 /agf-init ，由 Claude 自动完成初始化（体检 / 合并 CLAUDE.md / 按你项目真实技术栈写 ADR-000 / 清理残留）。装完即可： 升级 ：在已装 AGF 的项目上重跑 bash setup/agf-install.sh 即进入升级模式（显示 旧版 → 新版，可选刷新 docs，旧文件自动备份）。安装器 永不覆盖 你已有的 CLAUDE.md / ADR-000 / settings.json 。 装完先读 docs/FIRST RUN.md ——Day-1 复核清单 + 前置知识 + 常见踩坑。 19 个 AI 同事 PO+SM（ product-lead ）统一编排；开发 / 评审 / QA / 部署职责互锁——Reviewer 不改源码、QA 不签业务字、dev 自跑 Unit + SIT 7 道阶段门 变更文件夹（OpenSpec 风格需求入口，取代 PRD）→ 派单 → TDD 实现+SIT → Code Review（含 SIT Audit）→ UAT 部署 → E2E → UAT 签字；
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-team, agile-scrum, ai-agents, claude, claude-code, deepseek
+
+---
+
 ## 🕔 2026-06-26 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
