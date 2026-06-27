@@ -1,3 +1,67 @@
+## 🕔 2026-06-27 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [loopy](https://github.com/Forward-Future/loopy)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,757
+- **核心概述**: 实用的人工智能代理循环库和可安装的技能，用于查找、调整和设计可重复的代理工作流程。
+- **大概是做什么的**: 循环库在此存储库中有两个独立但相关的部分： 部分 它是什么 它所在的位置 循环库网站 人们和代理可以在公共目录中浏览已发布的循环、阅读它们并复制其提示。无需安装。实时网站·loop-library/ 下的所有网站代码（loop-library/site/ 中的 shell，loop-library/worker/ 中的数据库和渲染） Loopy 技能 可选的可安装指南，可帮助 AI 代理发现、查找、审核、修复、制作、运行、汇报或准备循环以供发布。它在推荐或发布循环时使用网站的实时目录。来源在 Skills/loopy/ 网站是图书馆； Loopy 是使用它的一种配套方式。您无需安装 Loopy 即可浏览网站或将网站提供给代理。安装 Loopy 会添加指导工作流程，但不会安装或托管网站。没有 Loopy 的代理可以使用已发布的每个已发布的循环告诉代理要做什么、如何检查其工作、下一步要尝试什么以及何时停止。大多数提示都会要求代理执行一次某项操作。循环为代理提供了一种方式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-workflows, ai-agents, automation, codex, prompt-engineering
+
+---
+
+### 🌟 [pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 322
+- **核心概述**: 该软件包实现了代理技能 (https://agentskills.io) 支持，并逐步公开 Pydantic AI。支持文件系统和编程技能。
+- **大概是做什么的**: 用于在 Pydantic AI 生态系统中构建和管理代理技能的标准化、可组合框架。代理技能是指令、脚本、工具和资源的模块化集合，使 AI 代理能够逐步发现、加载和执行特定领域任务的专用功能。该包使用工具调用方法实现了 Pydantic AI 的代理技能规范，保持与规范的完全兼容性，同时调整了 Pydantic AI 架构的加载机制。 Agent Skills 是由 Anthropic 维护的开放格式，并对社区的贡献开放。 - 渐进式披露 - 仅在需要时加载技能信息，减少令牌使用 - 代理技能规范 - 与代理技能开放格式完全兼容 - 文件系统技能 - 使用 Markdown 文件和脚本将技能定义为文件系统目录 - 编程技能 - 使用装饰器或数据类在 Python 代码中动态创建技能 - 类型安全 - 使用 Python 数据类和类型提示构建 - 验证 - 自动验证技能元
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-skills, agentic-ai, ai-agents, claude-code, pydantic-ai
+
+---
+
+### 🌟 [devo](https://github.com/7df-lab/devo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 300
+- **核心概述**: 适用于私有、企业和 OpenAI 兼容模型环境的开源、模型中立代理桌面/运行时。支持 DeepSeek、Qwen、Kimi、Anthropic 兼容 API、MCP 和本地代码搜索。
+- **大概是做什么的**: Devo 是一个开源编码代理，具有桌面应用程序、终端 TUI/CLI 和模型中立的 Rust 运行时，适用于私有、企业和 OpenAI 兼容的模型环境。连接 DeepSeek、Qwen、Kimi、Anthropic 兼容的 API、本地网关或您自己的模型端点。 English 简体中文 繁体中文 日本语 Русский 为什么选择 Devo · 屏幕截图 · 功能 · 测试的模型 · 测试的平台 · 安装 · 快速入门 · 文档 Devo 适合需要在单一托管模型生态系统之外使用编码代理的团队。它使桌面体验、终端工作流程、模型选择、运行时行为和工作区执行都在您的控制之下。 - 自带模型 - 通过提供者/模型绑定连接 OpenAI 兼容的聊天完成、OpenAI 兼容的响应、Anthropic 消息、DeepSeek、Qwen、Kimi 或私有模型网关。 - 在私有和内联网环境中工作 - 运行单个本地 Rust 二进制文件，支持离线安装路径，并将 Devo 指向内部端点，而不依赖于托管代理服务。 - 跨桌面和终端的一名代理 - 使用桌面应用程序进行可视化引导和部署
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, ai-agent, anthropic-compatible, code-search, coding-agent, deepseek
+
+---
+
+### 🌟 [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 438
+- **核心概述**: 自主 AI 渗透测试引擎跨 Web、云、AD 和 Kubernetes 执行持续的攻击性安全。使用代理推理、真实漏洞执行和攻击路径分析来提供基于证据的漏洞。
+- **大概是做什么的**: 开源 AI 支持的自主渗透测试平台 完整文档 · 贡献 · 许可证 DarkMoon 是一种自动化渗透测试工具，可使用人工智能安全代理来协调完整的安全评估。它作为开源网络安全工具构建，使组织能够运行专业级漏洞评估，而无需人工干预。 DarkMoon 并没有取代渗透测试程序，而是充当一个自主安全测试系统——它推理、计划和协调专门代理，通过受控执行层执行真正的攻击性安全操作。观看 DarkMoon 实际应用 — 完全自主渗透测试演示 传统���透测试： - ⏱️ 耗时 — 手动测试需要数周 - 💰 昂贵 — 专家顾问每天花费数千美元 - 🔄 不一致 — 结果因测试人员的专业知识而异 - 📊 难以扩展 — 受人力资源限制 DarkMoon 通过 AI 渗透测试解决了这个问题： - 🤖 AI 支持的渗透测试 — 自主代理进行端到端的全面安全评估 - 🛡️S
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-security-tool, autonomous-agents, cybersecurity, llm, multi-agent-systems
+
+---
+
+### 🌟 [puppyone](https://github.com/puppyone-ai/puppyone)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 645
+- **核心概述**: AI 代理的上下文驱动
+- **大概是做什么的**: 适用于 AI 代理的 Git 原生上下文驱动。 Puppyone 为 AI 代理提供上下文托管，并为每个代理提供 Git 版本控制和文件级范围权限。 Puppyone 为 AI 代理提供上下文托管，并为每个代理提供 Git 版本控制和文件级范围权限。它通过不同 AI 代理的接入点支持 CLI、MCP、Git、bash/SSH 和 Web 应用程序交互。一个共享的上下文驱动器，用于不同代理和工具的多个范围的接入点。选项 A：云（托管） 最快的方法 — 无需管理基础设施。在 puppyone.ai 创建一个帐户。选项 B：自托管 (Docker) 使用 Docker 在本地运行完整堆栈。唯一的先决条件是 Docker。这将在单个命令中启动所有内容 - PostgreSQL、Auth、API 网关、Redis、MinIO、后端和前端。数据库架构会在首次运行时自动应用。 Docker 默认已经将面向浏览器的 URL ( localhost ) 与容器内部服务 URL ( api 、 kong ) 分开，因此相同的设置适用于客户端和 Next.js 服务器端请求。后端容器也
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, ai-agents, context, context-engineering
+
+---
+
+### 🌟 [agnix](https://github.com/agent-sh/agnix)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: AI 编码助手缺少 linter 和 lsp。验证 CLAUDE.md、AGENTS.md、SKILL.md、hooks、MCP。包含所有主要 IDE 的插件，具有自动修复功能。
+- **大概是做什么的**: 在代理配置破坏您的工作流程之前检查它们 在 AI 工具默默忽略它们之前捕获损坏的代理配置。跨 Claude Code、Codex CLI、OpenCode、Cursor、Copilot 等的 432 条规则 - 验证 CLAUDE.md、SKILL.md、hooks、MCP 配置和其他代理文件。自动修复 GitHub Action VS Code + JetBrains + Neovim + Zed 新规则和工具支持不断发布。关注实时更新：您的技能不会触发。 Vercel 的研究发现，如果语法不正确，技能调用率为 0%。一个错误的领���，你的技能就看不见了。 “几乎正确”是最坏的结果。 66% 的开发者认为这是他们最大的人工智能挫败感。配置错误的代理恰恰会产生这种情况。多工具堆栈会悄无声息地失败。光标+克劳德代码+副驾驶各自想要不同的格式。在一种工具中有效的配置在另一种工具中会崩溃。不良模式会被放大。人工���能助手不会忽略错误的配置——他们会从中学习。 agnix 验证了所有这些 - 432 条规则源自官方规范、学术研究和现实世界的破损模式。包括自动修复。想先尝试一下吗？打开
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, ai-coding-assistant, claude, cli
+
+---
+
 ## 🕔 2026-06-27 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
