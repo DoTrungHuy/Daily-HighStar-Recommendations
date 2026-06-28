@@ -1,3 +1,67 @@
+## 🕔 2026-06-28 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ms-swift](https://github.com/modelscope/ms-swift)
+- **项目语言**: Python
+- **星标数量**: ⭐ 14,643
+- **核心概述**: 使用 PEFT 或全参数 CPT/SFT/DPO/GRPO 600+ LLM（Qwen3.6、DeepSeek-V4、GLM-5.1、InternLM3、Llama4...）和 300+ MLLM（Qwen3-VL、Qwen3-Omni、InternVL3.5、Ovis2.5、GLM4.5v、Gemma4、Llava、Phi4、 ...）（AAAI 2025）。
+- **大概是做什么的**: SWIFT (Scalable lightWeight Infrastructure for Fine-Tuning) ModelScope 社区网站 中文 &nbsp ｜ &nbsp 英文 &nbsp 论文 &nbsp ｜ 英文文档 &nbsp ｜ &nbsp 中文文档 &nbsp 📖 目录 您可以通过添加我们的群来联系我们并与我们交流：Discord Group 微信群 :----------------------------: :----------------------------: 🍲 ms-swift 是一个大模型以及ModelScope社区提供的多模态大模型微调和部署框架。它现在支持 600 多个纯文本大型模型和 400 多个多模态大型模型的训练（预训练、微调、人类对齐）、推理、评估、量化和部署。大型模型包括：Qwen3、Qwen3.5、InternLM3、GLM4.5、Mistral、DeepSeek-R1、Llama4等。多模态大型模型包括：Qwen3-VL、Qwen3-Omni、Llava、InternVL3.5、MiniCPM-V-4、Ovis2.5、GLM4.5-V、DeepSeek-VL2等。 🍔此外，ms-swift还集成了最新的训练技术，包括TP、PP、CP、EP等Megatron并行技术加速训练，以及众多GRPO算法家族强化
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: deepseek-r1, embedding, grpo, internvl, liger, llama
+
+---
+
+### 🌟 [casdoor](https://github.com/casdoor/casdoor)
+- **项目语言**: Go
+- **星标数量**: ⭐ 13,843
+- **核心概述**: 开源代理优先身份和访问管理 (IAM) /LLM MCP 及代理网关和身份验证服务器，具有支持 OpenClaw、MCP、OAuth、OIDC、SAML、CAS、LDAP、SCIM、WebAuthn、TOTP、MFA、Face ID、Google Workspace、Azure AD 的 Web UI
+- **大概是做什么的**: Casdoor：AI 优先身份和访问管理 (IAM) / AI MCP 网关 开源、AI 优先 IAM / MCP 网关和具有 Web UI 的身份验证服务器。支持 MCP、A2A、OAuth 2.0、OIDC (OAuth 2.x)、SAML、CAS、LDAP、SCIM、WebAuthn、TOTP、MFA、Face ID、Google Workspace、Azure AD 等。文档和指南：casdoor.ai - 社区和支持 Casdoor 是一个 UI 优先的身份提供商和访问管理平台：一个使用现代 Web 控制台管理用户、组织、应用程序和提供商的地方。授权策略可以用Casbin（ACL、RBAC、ABAC等）来表达。与以反向代理为中心的身份验证伙伴不同，Casdoor 是一款具有广泛协议支持的专用身份验证服务器，旨在轻松自托管和集成 - 请参阅 casdoor.ai 了解文档。环境 URL 描述 ------------- ----- ------------- 只读door.casdoor.com 全局演示；任何修改或写入操作都将失败（只读）。可写 demo.casdoor.com 完全访问测试；数据大约每 5 分钟重置一次。默认演示管理员登录（当
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agi, ai-gateway, auth, authentication
+
+---
+
+### 🌟 [Edit-Banana](https://github.com/BIT-DataLab/Edit-Banana)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,376
+- **核心概述**: Edit Banana：将统计格式转换为可编辑的框架。
+- **大概是做什么的**: 通用内容重新编辑器：使不可编辑、可编辑的内容摆脱静态格式的束缚。我们的平台使您能够将固定内容转变为完全可操作的资产。它由 SAM 3 和多模态大型模型提供支持，可实现高保真重建，保留原始图表细节和逻辑关系。 👆 点击上方或https://www.editbanana.net/ 尝试在线编辑香蕉！上传图像即可在几秒钟内获得可编辑的 DrawIO (XML)。请注意：我们的 GitHub 存储库目前落后于我们基于 Web 的服务。要获得最新的功能和性能，我们建议使用我们的网络平台。 💬加入微信群欢迎加入我们的微信群讨论交流！扫描下方二维码加入：扫描加入Edit Banana社区 如果二维码已过期，请提交Issue以请求更新。教授·博士生导师 数据库系统 不确定数据管理 多媒体数据管理 分布式查询处理 教授·博士生导师 大数据管理 图数据管理 时空数据分布
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, data, figure, llm, nanobanana, open-source
+
+---
+
+### 🌟 [OnlySwitch](https://github.com/jacklandrin/OnlySwitch)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 5,739
+- **核心概述**: ⚙️ 多合一菜单栏应用程序，隐藏 💻MacBook Pro 的刘海、深色模式、AirPods、快捷方式
+- **大概是做什么的**: ️️2.5.6及以下版本自动更新失败，请手动更新或使用Homebrew。菜单栏更小，您只需要一个一体式开关。 Telegram 群组：https://t.me/OnlySwitchforMac Discord：https://discord.gg/UzSNpYdPZj OnlySwitch 是什么？ OnlySwitch 提供了一系列切换开关来简化您的日常工作，例如隐藏桌面图标、深色模式以及新 Macbook Pro 的隐藏凹口等。开关显示在状态栏上，您可以轻松控制它们。可以自定义开关和快捷方式项目（删除/添加或排序）以显示在列表上。这些功能甚至可以作为小部件放在您的桌面上。从1.7版本开始，快捷方式可以导入到OnlySwitch中。从2.0版本开始，支持键盘快捷键。您可以使用键盘控制所有开关和快捷方式。自版本 2.3.6 起，开关可用性（包括播放器和隐藏菜单栏图标）已移至系统菜单栏。从2.5.0版本开始，OnlySwitch开始支持Apple Widgets（Sonoma及以上版本）。从版本 2.5.4 开始，OnlySwitch 具有 Only Control 外观。每个人都可以
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, audioplayer, clamshell, composable-architecture, dark-mode
+
+---
+
+### 🌟 [hope-agent](https://github.com/shiwenwen/hope-agent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,085
+- **核心概述**: 🦭跨端交接、越用越懂你的桌面 AI 助手——也能服务化常驻、跑在云上 | Desktop AI that hands off across your devices and gets to know you better — also runs headless on a NAS or in the cloud
+- **大概是做什么的**: 跨端交接、越用越懂你的桌面 AI 助手，也能服务化常驻、跑在云上 会记忆 · 能成长 · 深度融合 · 在你所有的聊天里随叫随到 Hope Agent 想让 AI 助手真正打开就能用，并且长期稳定地陪你工作：一个原生安装包，内置主流模型 Provider 配置模板；填完 API Key 就能开聊，不必先装运行时、学命令行，也不用维护一堆复杂配置。桌面端是最顺手的入口，我们把 GUI、性能、交互细节和系统深度融合放在最前面；在你授权后，它还能观察并控制本机电脑（暂时仅 macOS）。同时，Hope Agent 也可以作为 HTTP/WS 服务常驻 NAS、自家服务器或云主机，接入 IM 渠道、对接 IDE（ACP），让同一份会话在桌面、浏览器和聊天之间随手交接。随着日常使用，它会持续积累跨会话记忆，在空闲时整理重要内容，把做过的事沉淀成可复用技能。目标很简单：降低使用和维护成本，让日常场景顺手，让长期运行可靠。 🖥️ 桌面原生 GUI macOS / Linux / Windows 三端原生应用，下载即用。12 种界面语言（简/繁中、英、日、韩、西、葡、俄、阿、土、越、马），深色主题与精心调校的字体排版。 🧙 傻瓜式 Provider 配置 44 个内置 Provider 模板，覆盖 335 个预设模型。Anthropic / OpenAI / Gemini / Codex / GitHub Copilot / OpenRouter / DeepSeek / Kimi / Qwen / 豆包 / GLM / MiniMax / xAI / Mistral / Cerebras / DeepInfra / Novita / 腾讯混元 / Ollama 一站式覆盖；同一 Provider 支持多 API Key 自动轮换，遇到限流或额度用尽无缝切换下一把钥匙。 🦙 本地小模型一键安装 不用账号、不用 API Key、不用终端 ——设置 → 模型页面按硬件挑一个能跑得动的 Qwen3.6 / Gemma 4 尺寸，一键完成 Ollama 安装、模型下载、Provider 注册与切换。同一流程也覆盖本地 Embedding 模型。 💬 12 个 IM 渠道一站接入 Telegram、Discord、Slack、飞书、Google Chat、LINE、QQ Bot、Signal、iMessage、IRC、WeChat、WhatsApp。图片 / 语音 / 文件入站自动转多模态上下文；工具审批直接在聊天窗按按钮决定；每个群聊 / 账号可绑定独立 Agent 和权限策略
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-assistant, anthropic, chatbot, claude
+
+---
+
+### 🌟 [llmgateway](https://github.com/theopenco/llmgateway)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,342
+- **核心概述**: 使用统一的 API 接口在多个提供商之间路由、管理和分析您的 LLM 请求。
+- **大概是做什么的**: LLM Gateway 是用于大型语言模型 (LLM) 的开源 API 网关。它充当您的应用程序和各种 LLM 提供商之间的中间件，使您能够： - 将请求路由到多个 LLM 提供商（OpenAI、Anthropic、Google Vertex AI 等） - 在一个位置管理不同提供商的 API 密钥 - 跟踪所有 LLM 交互中的令牌使用情况和成本 - 分析性能指标以优化您的 LLM 使用情况 - 统一 API 接口：与 OpenAI API 格式兼容，实现无缝迁移 - 使用情况分析：跟踪请求、使用的令牌、响应时间和成本 - 多提供商支持：通过单一网关连接到各个LLM提供商 - 性能监控：比较不同模型的性能和成本效�� 您可以通过两种方式使用LLM网关： - 托管版本：要立即使用而无需设置，请访问llmgateway.io创建帐户并获取API密钥。 - 自托管：在您自己的基础设施上部署 LLM Gateway，以完全控制您的数据和配置。使用 Docker 自托管 使用 Docker 管理的卷来实现您的目的
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-gateway, analytics, anthropic, api-key-management, claude
+
+---
+
 ## 🕔 2026-06-28 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
