@@ -1,3 +1,67 @@
+## 🕔 2026-06-28 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [build-your-own-openclaw](https://github.com/czl9707/build-your-own-openclaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,752
+- **核心概述**: 构建您自己的 AI 代理的分步指南。
+- **大概是做什么的**: 构建您自己的 AI 代理的分步教程，从简单的聊天循环到 OpenClaw 的轻量级版本。 18 个渐进步骤教您如何构建 OpenClaw 的最小版本。每个步骤包括： - README.md 介绍关键组件和设计决策。 - 可运行的代码库。示例项目：pickle-bot - 我们的参考实现阶段 1：有能力的单个代理（步骤 0-6） - 00-chat-loop - 只是一个聊天循环 - 01-tools - 为您的代理提供一个工具。 - 02-技能 - 使用 SKILL.md 扩展您的代理 - 03-持久性 - 保存您的对话。 - 04-slash-commands - 直接用户控制会话。 - 05-compaction - 打包您的历史记录并继续... - 06-web-tools - 您的代理想要看到更大的世界。第 2 阶段：事件驱动架构（步骤 7-10） 重构事件驱动架构以实现可扩展性和多平台支持。 - 07-事件驱动 - 将您的代理暴露在 CLI 之外。 - 08-config-hot-reload - 编辑而不重新启动。 - 09-频道 - 通过手机与您的代理交谈。 - 10-websocket - 想要以编程方式与您的代理交互吗？第三阶段：自主与移动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, build-your-own-x, llm, python, tutorial
+
+---
+
+### 🌟 [entroly](https://github.com/juyterman1000/entroly)
+- **项目语言**: Python
+- **星标数量**: ⭐ 418
+- **核心概述**: 将 Claude / OpenAI / Gemini 的 AI 编码费用减少 70-95%。压缩上下文、保持提供程序缓存热并验证 LLM 输出（0 美元幻觉防护）的本地代理。 Cursor、Claude Code、Codex、Aider + 34 个以上和自定义提供程序的插入 — 30 秒，无需更改代码
+- **大概是做什么的**: 将 Claude / OpenAI / Gemini 的 AI 编码费用减少 70-95%。压缩上下文，保持提供者缓存热，并使用 0 美元的幻觉守卫验证每个答案。 Cursor、Claude Code、Codex、Aider + 34 个以上和自定义提供程序的插入 — 30 秒，无需更改代码。可审计的上下文控制平面 · 每个答案都会得到一个收据：使用了什么，省略了什么，为什么，以及仍然存在的风险 · 本地优先 · Rust + WASM · 可逆 · 根据实际工作负载测量节省 pip install entroly && cd /your/repo && entroly go Entroly 是 AI 代理的可审计上下文控制平面。它决定发送什么上下文，记录遗漏的内容，并生成一个收据，您可以在信任硬性多文件答案之前检查该收据。 - 收据 - 每次选择运行都可以解释选定的块，忽略附近的证据、依赖链接、指纹、令牌比率和剩余风险。 - 选择 - 对您的存储库或文档集进行排名，然后在令牌预算下发送与答案相关的上下文。 - 验证 - 见证人根据给出的证据检查模型的答案，并标记不受支持的主张。 $0，3 毫秒，无扩展
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-hallucination, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [rssh](https://github.com/shihuili1218/rssh)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: The SSH client built to be an AI ops copilot · 为 AI 运维而生的 SSH 客户端(macOS/Windows/Linux/Android)
+- **大概是做什么的**: SSH 客户端旨在成为 AI 操作副驾驶。连接到主机并询问“为什么磁盘已满？” — 人工智能提出命令，标记其副作用，并仅在您批准后才在您的终端中运行它们。在任何内容离开您的计算机之前，敏感数据都会在本地进行编辑。桌面·移动·JetBrains·CLI — 一种共享数据存储。 ⬇️ 下载最新版本  ·  为什么选择 RSSH？不是另一个聊天框。它读取终端中实际发生的情况，建议先读命令，每个命令都注释有其副作用，并在明确的“运行”单击后面进行门控。在任何有效负载离开您的机器之前，它都会通过形状验证器和本地编辑 - 您的密钥和内部地址永远不会逐字输出。 🎨 颜色编码的命令块每个命令及其输出都成为一个带有颜色编码左边缘的块。在千行回滚中，您可以一眼看到上一个命令的输出。完全本地渲染——零远程依赖，服务器上没有安装代理。 ⌨️ 配置一次，随处使用 rssh open prod 从任何终端启动会话 — CLI 和 GUI 共享一个 SQ
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, devops, mobile-app, multi-platform, rust
+
+---
+
+### 🌟 [latex-arxiv-SKILL](https://github.com/appautomaton/latex-arxiv-SKILL)
+- **项目语言**: TeX
+- **星标数量**: ⭐ 363
+- **核心概述**: 高度可定制的代理工具，适用于 arXiv 就绪的 ML/AI 审稿论文（及其他论文）。它通过带有经过验证的 BibTeX 引文的门控 LaTeX 工作流程来驱动 Codex CLI 和 Claude Code 等代理 AI。
+- **大概是做什么的**: arXiv Review Paper Harness 一种代理工具，包装为 Claude Code 和 Codex 的便携式代理技能。它将主题转变为 arXiv 就绪的 ML/AI 评论论文，该论文经过门控、问题驱动且逐个引用进行验证。 arXiv Review Paper Harness 是一个用于在 LaTeX 中编写机器学习和 AI 评论论文的代理工具。你给你的编码代理一个主题，然后工具通过一个严格的管道驱动它：文献发现、人工批准门、逐个问题的写作循环、引文验证、散文细化和编译。结果是一个两���的 IEEEtran 项目，可编译为 PDF。其技能和脚本遵循可移植代理技能标准，因此相同的文件在 OpenAI Codex 和 Anthropic Claude Code 中运行。在满足两个条件之前，代理无法将单个段落写入 main.tex。首先，您批准该计划。其次，CSV存在的问题。从那里开始，每个部分都是一个带有目标引用和接受标准的跟踪问题，并且每个引用在进入 ref.bib 之前都会根据实时来源进行检查。 - 硬质门
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, agent-skill, agentic, agentic-ai, ai-agents, anthropic
+
+---
+
+### 🌟 [Jumping-Agent-platform](https://github.com/answeryt/Jumping-Agent-platform)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 453
+- **核心概述**: 通过游戏玩法构建你自己的人工智能代理。
+- **大概是做什么的**: 通过游戏方式，将平面智能体构建改为空间化智能体构建，让小白轻松上手 这是一个非常有趣的项目，以 跳一跳游戏 式的交互与呈现，帮助零基础用户在移动端（先以平板为主） 简单、快速地搭建属于自己的 Agent ，把抽象的流程变成可点、可跳跃的步骤，极大降低上手门槛。 本项目把传统平面 workflow 转换为空间化、游戏化流程，通过跳一跳这个载体更动态地演示 Agent 的运行过程。 在这里，你看不到错综复杂的连线与箭头；只需按压屏幕、操控棋子一次次跳跃，就能直观地体会 Agent 工作流是如何一环接一环向前推进的。 点击上方封面图，在 GitHub 视频播放页直接观看介绍视频。 Jumping Agent 现已支持 微信 作为正式接入渠道。在前端完成 Agent 构建后，可通过扫码绑定微信账号，直接在微信中与你的 Agent 对话。 1. 在跳一跳式前端中构建并完成 Agent。 2. 切换到 微信 标签页，发起扫码登录。 4. 在微信中发送消息 — 连接器会将消息转发至编排服务，运行对应 Agent workspace，并将回复发回微信。 - Frontend/ — 微信标签页、二维码展示与登录状态轮询。 - backend/orchestrator.py — 微信相关 API，以及 Weixin bridge 的自动启动。 - apps/weixin-main/ — 微信 iLink 连接器（扫码登录、账号存储、长轮询、文本/媒体消息）。 - Frontend: http://localhost:6301 - back agent: http://localhost:8000/chat - backend / Orchestrator: http://localhost:8001 - Weixin bridge: http://localhost:8787 - Frontend/ ：跳一跳式 Agent 构建界面，负责 workflow 展示、节点配置、聊天入口，以及微信扫码绑定。 - agent builder/ ：Agent 骨架与模板，包括流程模板、Agent 模板、项目模板和配置生成逻辑。 - back agent/ ：读取骨架代码，并结合用户在前端输入的需求，对 Agent 进行补全、改写与落地。 - backend/ ：编排服务。 orchestrator.py 负责串联前端请求、动态加载 agent builder 、生成 Agent workspace、通过本地 HTTP 调用 back agent ，并提供微信接入 API。 - apps/we
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, ai-agent, platform, workflow
+
+---
+
+### 🌟 [spinedigest](https://github.com/oomol-lab/spinedigest)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 320
+- **核心概述**: 将任何一本书精炼到书脊
+- **大概是做什么的**: =22.12.0" src="https://img.shields.io/badge/node-%3E%3D22.12.0-brightgreen" SpineDigest 是一个针对 AI 代理优化的知识库 CLI。它将 EPUB、Markdown 和纯文本导入 .sdpub ，可以使用 LLM 提取知识图和摘要，然后将存档公开为可搜索、可浏览、可读、源支持、图形导航、上下文可打包的 LLM Wiki。它不是一次性的书籍到摘要转换器。摘要、EPUB、Markdown 和 JSON 输出是 .sdpub 知识档案的投影。主要对象是 .sdpub 本身：可以构建、维护、搜索和重用的便携式知识档案。探索 .sdpub 档案有三种主要方法： - 搜索模式：使用 find 来发现与关键字相关的知识档案。对象和 grep 检查精确的连续文本 - 结构模式：使用章节树 --json 作为目录层次结构、章节和知识节点集合的列表，然后使用 page 打开页面并跟踪相关节点、源片段和链接 - 阅读模式：使用 read 来连续阅读章节、知识节点或源片段。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, jinja2, knowledge-graph, llm, sdpub
+
+---
+
 ## 🕔 2026-06-27 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 179 个候选项目中筛选出 6 个未推荐过的新项目。
