@@ -1,3 +1,67 @@
+## 🕔 2026-06-28 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,955
+- **核心概述**: 展示 RAG、代理、工作流程和其他 AI 用例的项目集合
+- **大概是做什么的**: 该存储库全面收集了 80 多个实用示例、教程和配方，用于构建强大的 LLM 支持的应用程序，包括文本代理、语音助手、RAG 应用程序和 MCP 支持的工具。这些项目为使用各种人工智能框架和堆栈的开发人员提供了指南。 📋 目录 - 🚀 特色人工智能应用程序 - 📚 RAG 应用程序 - 🔬 高级代理 - 📺 教程和视频 - 🚀 入门 非常感谢我们的赞助商的慷慨支持！ AI 推理提供商 AI Web 抓取框架 用于 AI 代理应用程序平台的 SQL 本机内存 用于 AI 代理的 AI 可观察性平台 Kubernetes 有兴趣赞助该项目吗？请随时与我们联系！ AWS Strands 初学者课程 关于使用 AWS Strands SDK 构建 AI 代理的综合实践课程： - AWS Strands 课程 - 完整的 8 课课程，涵盖代理基础知识到生产模式 - 基础：基本代理、会话管理、结构化输出 - 集成：MCP 代理、人机交互模式 - 多代理：Orchestrator 代理、集群智能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, hacktoberfest, llm, mcp
+
+---
+
+### 🌟 [ODS](https://github.com/Light-Heart-Labs/ODS)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 2,323
+- **核心概述**: 将您的 PC、Mac 或 Linux 机器变成 AI 服务器。 LLM 推理、聊天 UI、语音、代理、工作流程、RAG 和图像生成。
+- **大概是做什么的**: Osmantic 部署系统将您的 PC、Mac 或 Linux 机器变成私人 AI 服务器。人工智能服务器和家庭实验室设置正在迅速成为一个已解决的问题。每个人都应该有这样的感觉。 ODS 安装并连接本地运行 AI 所需的所有内容，因此您无需手动组装 Ollama、Open WebUI、n8n、ComfyUI 和隐私工具： - 本地模型推理 — 在您自己的硬件上运行开放模型 - ChatGPT 式 Web UI — 从任何浏览器与您的模型对话 - 控制仪表板 — 从一个地方管理模型、服务、设置、GPU 状态和扩展 - 语音、代理和工作流程 — 构建可以听、说、调用工具的自动化，并完成工作 - RAG 和搜索 - 连接本地文档、私人搜索和检索工作流程 - 图像生成 - 运行本地图像工具，而不向托管 API 发送提示 - 隐私和操作 - 将服务身份验证、秘密、可观察性和诊断保留在一个本地堆栈中 无需云。无需订阅。除非您另有选择，否则您的提示和数据将保留在您的计算机上。云和混合API模式可选
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amd, comfyui, docker, llama-cpp, llm
+
+---
+
+### 🌟 [jcode](https://github.com/1jehuang/jcode)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 7,845
+- **核心概述**: 编码剂线束
+- **大概是做什么的**: 下一代编码代理可以提高技能上限。专为多会话工作流程、无限的可定制性和性能而构建。功能 · 安装 · 快速入门 · 进一步阅读 · 贡献 需要 Windows、Homebrew、源代码构建、提供程序设置，还是告诉您的代理为您设置？跳转到详细安装。性能和资源效率 jcode 的构建目标是尽可能提高性能和资源效率。每个指标都针对骨骼进行了优化，这对于扩展多会话工作流程非常重要。在这里，我们采样了一些指标来显示差异：RAM 使用情况和启动情况。 jcode（本地嵌入关闭） jcode（本地嵌入关闭） 工具 到第一帧的时间 范围比较 jcode 14.0 ms 10.1–19.3 ms 基线 Antigravity CLI 383.5 ms 363.1–415.4 ms 27.4× 较慢 pi 590.7 ms 369.6–934.8 ms 42.2× 较慢 Codex CLI 882.8 ms 742.3–1640.9 ms 63.1× 较慢 OpenCode 1035.9 ms 922.5–1104.4 ms 74.0× 较慢 GitHub Copilot CLI 1518.6 ms 1357.4–1826.8 ms 108.5× 较慢 Cursor Agent 1949.7 ms 1711.0–2104.8 ms 139.3× 较慢的克劳德码 3436.9 ms 2032.7–8927.2 ms 245.5× s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, claude, cli, coding-agent, llm, mcp
+
+---
+
+### 🌟 [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,189
+- **核心概述**: CISO Assistant 是一个针对风险管理、AppSec、合规与审计、TPRM、BIA、隐私和报告的一站式 GRC 平台。它支持 150 多个具有自动控制映射的全球框架，包括 ISO 27001、NIST CSF、SOC 2、CIS、PCI DSS、NIS2、DORA、GDPR、HIPAA、CMMC 等。
+- **大概是做什么的**: CISO Assistant 提供了关于网络安全管理和 GRC（治理、风险和合规性）实践的全新视角： - 设计为一个中心枢纽，通过对象之间的智能链接连接多个网络安全概念， - 构建为适应不同背景、方法和期望的多范式工具， - 明确将合规性与网络安全控制解耦，实现跨平台的可重用性， - 促进可重用性和互连，而不是冗余工作， - 使用 API 优先开发- 包含各种内置标准、安全控制和威胁库， - 提供开放格式来自定义和重用您自己的对象和框架， - 包括内置风险评估和补救跟踪工作流程， - 通过简单的语法和灵活的工具支持自定义框架， - 跨各种渠道和格式（UI、CLI、Kafka、报告等）提供丰富的导入/导出功能。我们的愿景是创建一站式网络安全管理服务
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: audit, automation, bsi, cis, compliance, cybersecurity
+
+---
+
+### 🌟 [mesh-llm](https://github.com/Mesh-LLM/mesh-llm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,228
+- **核心概述**: 为人们提供分布式 AI/LLM。私下或公开共享计算，为您的代理和聊天提供支持。
+- **大概是做什么的**: Mesh LLM 跨机器池化 GPU 和内存，并将结果作为一个与 OpenAI 兼容的 API 在 http://localhost:9337/v1 上公开。启动一个节点，稍后添加更多节点，然后让网格决定模型是在本地运行、路由到对等节点，还是对对于一个盒子来说太大的模型使用 Skippy 阶段分割。安装最新版本：在 Windows 上，使用 PowerShell：加入公共网格并开始服务：该命令选择后端风格，根据需要下载合适的模型，加入发现的最佳公共网格，在端口 9337 上启动本地 API，并在端口 3131 上启动 Web 控制台。检查可��模型： 发送 OpenAI 兼容请求： 对于服务器部署，添加 --headless 以隐藏 Web UI，同时将管理 API 保留在 --console 端口上： 选择您需要的工作流程 目标命令 完整指南 尝试公共网格 mesh-llmserve --auto docs/MESHES.md 启动私有网格 mesh-llmserve --model Qwen3-8B-Q4 K M docs/MESHES.md 发布您自己的网格 mesh-llmserve --model Qwen3-8B-Q4 K M --publish docs/MESHES.md 通过邀请令牌加入 mesh-llmserve --join docs/MESHES.md
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, decentralized, distributed, llm
+
+---
+
+### 🌟 [agent-shell](https://github.com/xenodium/agent-shell)
+- **项目语言**: Emacs Lisp
+- **星标数量**: ⭐ 1,456
+- **核心概述**: 用于与由 ACP 提供支持的 LLM 代理交互的本机 Emacs 缓冲区
+- **大概是做什么的**: +标题：Emacs Agent Shell +作者：Álvaro Ramírez [[https://melpa.org/ /agent-shell][文件：https://melpa.org/packages/agent-shell-badge.svg]] 👉 [[https://github.com/sponsors/xenodium][通过 GitHub 赞助商支持这项工作]] 作者：[[https://github.com/xenodium][@xenodium]] （查看我的[[https://xenodium.com][博客]]）[[file:agent-shell.png]]这个项目需要您的资金当您支付这些有用的LLM代币时，请考虑[[https://github.com/sponsors/xenodium][sponsoring]]该项目的开发和维护。在您的帮助下，我可以使这项工作更加[[https://github.com/sponsors/xenodium][可持续]]。 [[https://xenodium.com/][Alvaro]] 一个本机 Emacs shell，用于与由 ACP ([[https://agentclientprotocol.com][Agent Client Protocol]]) 提供支持的 LLM 代理进行交互。通过 agent-shell，您可以与 Gemini CLI、Claude Agent、Auggie、Mistral Vibe 或任何其他 ACP 驱动的代理聊天。 [[https://www.youtube.com/watch?v=R2Ucr3amgGg][agent-shell - YouTube]] [[https://www.youtube.com/watch?v=R2Ucr3amgGg][file:yt.png]] [[https://www.youtube.com/watch?v=ymMlftdGx4I][agent-shell +
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, claude, claude-code, codex, emacs, emacs-lisp
+
+---
+
 ## 🕔 2026-06-28 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
