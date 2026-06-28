@@ -1,3 +1,67 @@
+## 🕔 2026-06-28 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [adk-go](https://github.com/google/adk-go)
+- **项目语言**: Go
+- **星标数量**: ⭐ 8,254
+- **核心概述**: 一个开源、代码优先的 Go 工具包，用于构建、评估和部署具有灵活性和控制性的复杂 AI 代理。
+- **大概是做什么的**: Go 的代理开发套件 (ADK) 一个开源、代码优先的 Go 工具包，用于构建、评估和部署具有灵活性和控制性的复杂 AI 代理。代理开发套件 (ADK) 是一个灵活的模块化框架，它将软件开发原理应用于 AI 代理创建。它旨在简化从简单任务到复杂系统的构建、部署和编排代理工作流程。虽然 ADK 针对 Gemini 进行了优化，但它与模型、部署无关，并且与其他框架兼容。 ADK 的这个 Go 版本非常适合开发人员构建云原生代理应用程序，利用 Go 在并发性和性能方面的���势。 Idiomatic Go：旨在感觉自然并利用 Go 的力量。丰富的工具生态系统：利用预构建的工具、自定义功能或集成现有工具，为代理提供多样化的功能。代码优先开发：直接在 Go 中定义代理逻辑、工具和编排，以实现最终的灵活性、可测试性和版本控制。模块化多代理系统：通过组合多个特殊的应用程序来设计可扩展的应用程序
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agents, agents-sdk, ai, aiagentframework, gemini
+
+---
+
+### 🌟 [open-swe](https://github.com/langchain-ai/open-swe)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,059
+- **核心概述**: 开源异步编码代理
+- **大概是做什么的**: 用于构建组织内部编码代理的开源框架。像 Stripe、Ramp 和 Coinbase 这样的精英工程组织正在构建自己的内部编码代理——Slackbot、CLI 和 Web 应用程序，以满足工程师已经工作的地方。这些代理通过正确的上下文、许可和安全边界连接到内部系统，以便在最少的人工监督下运行。 Open SWE 是该模式的开源版本。它基于 LangGraph 和 Deep Agents 构建，为您提供与公司内部构建相同的架构：云沙箱、Slack 和线性调用、子代理编排以及自动 PR 创建 - 准备好根据您自己的代码库和工作流程进行自定义。 💬 在此处阅读公告博客文章 Open SWE 做出与最佳内部编码代理相同的核心架构决策。以下是它如何映射到 Stripe 的 Minions、Ramp 的 Inspect 和 Coinbase 的 Cloudbot 概述中描述的模式： 1. 代理框架 — 在深度代理上组成 Open SWE 不是分叉现有代理或从头开始构建，而是在深度 Ag 上组成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, anthropic, claudecode, llm
+
+---
+
+### 🌟 [lemonade](https://github.com/lemonade-sdk/lemonade)
+- **项目语言**: C++
+- **星标数量**: ⭐ 4,678
+- **核心概述**: Lemonade 通过直接从用户自己的 GPU 和 NPU 提供优化的 LLM 服务，帮助用户发现和运行本地 AI 应用程序。加入我们的不和谐：https://discord.gg/5xXzkMu8Zk
+- **大概是做什么的**: 🍋 Lemonade：令人耳目一新的快速本地 AI Lemonade 是本地 AI 服务器，可为您提供与云 API 相同的功能，但 100% 免费和私有。在您自己的 NPU 和 GPU 上使用最新模型进行聊天、编码、语音和图像生成。 Lemonade 有两种版本：Lemonade Server 安装一项服务，您可以使用标准 OpenAI、Anthropic 和 Ollama API 连接到数百个出色的应用程序。 Embeddable Lemonade 是一种便携式二进制文件，您可以将其打包到您自己的应用程序中，为其提供多模式本地 AI，从而针对用户的 PC 自动优化。该项目由社区针对每台 PC 构建，并由 AMD 工程师进行优化，以充分利用 Ryzen AI、Radeon 和 Strix Halo PC。 1. 安装：Windows · Linux · macOS · Docker · 源 2. 获取模型：使用模型管理器浏览和下载 3. 生成：尝试使用内置聊天、图像生成、语音生成等界面的模型 4. 移动设备：随身携带柠檬水：iOS · Android · 源 5. 连接：将 Lemonade 与您喜爱的应用程序一起使用：               &nb
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, amd, genai, gpu, llama, llm
+
+---
+
+### 🌟 [PPTAgent](https://github.com/icip-cas/PPTAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,741
+- **核心概述**: 反思性 PowerPoint 生成的主体框架
+- **大概是做什么的**: 我们强烈建议部署我们经过微调的模型，以获得代理项目的最佳体验。根据我们的实验，它明显优于现有的开源模型。格式 HuggingFace ModelScope -------- ------------- ------------ GGUF（量化） Forceless/DeepPresenter-9B-GGUFforceless/DeepPresenter-9B-GGUF 全权重 Forceless/DeepPresenter-9Bforceless/DeepPresenter-9B - [2026/04] 🎉 DeepPresenter 已被 ACL 2026 接受！ - [2026/03] 🤗 我们在 Hugging Face 上发布了微调的模型和任务集。 - [2026/01] 🆕 自由格式和模板生成现在支持 PPTX 导出和离线模式���添加上下文管理以防止上下文溢出。 - [2025/12] 🔥 发布了 DeepPresenter 代码库，并进行了重大升级 — 深度研究集成、自由形式视觉设计、自主资产创建、文本到图像生成以及带有沙箱和 20 多种工具的代理环境。 - [2025/09] 🛠️ 添加了 MCP 服务器支持 — 有关配置详细信息，请参阅 MCP 服务器。 - [2025/08] 🎉 PPTAgent 被 EMNLP 2025 录取！ - [2025/05] ⭐ GitHub 上的星星达到 1,000 颗！ - [2025/01] 🔓 开酸
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, llm, mcp, openclaw, presentation
+
+---
+
+### 🌟 [Atomic-Chat](https://github.com/AtomicBot-ai/Atomic-Chat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 992
+- **核心概述**: 用于代理的本地人工智能应用程序和推理引擎。在本地运行开放式法学硕士 — 私有，在您的计算机上 100% 离线。
+- **大概是做什么的**: 用于代理的本地人工智能应用程序和推理引擎。在您的计算机上本地运行开放式法学硕士（私有）。入门 · Hugging Face · Discord · X / Twitter · Bug 报告 Atomic Chat 在 http://localhost:1337/v1 上运行 OpenAI 兼容服务器 - OpenAI SDK 的直接替代品。在应用程序中加载模型，然后将任何客户端指向它：默认绑定到 127.0.0.1；设置主机：0.0.0.0 将其公开在您的 LAN 上。可与使用 OpenAI API 的任何代理、CLI 或 IDE 插件配合使用 - 请参阅下面的启动方式。 - 从 HuggingFace 本地运行开放权重 LLM — Llama、Gemma、Qwen、Mistral、Phi 等 - 多令牌预测 (MTP) 推测性解码 — 支持的模型吞吐量提升 30–70%，在 Gemma 4 上高达 3 倍 - DFlash 块扩散解码 — 在 Qwen 3.6、Gemma 4、Kimi K2.5 上速度高达 6 倍 - Flash Attention 切换（开/关/ auto ) - 思想链模型的自动推理上下文跟踪 - 带溢出通知的自动上下文窗口扩展 - Apple Silicon (MLX) 上 Gemma 4 的 EAGLE-3 推测解码 - MLX 上的 MTP，适用于 Qwen 3.5 / 3.6 和 DeepSeek V4 - Tur
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-chat, ai-tools, apple-silicon, chatgpt, deepseek, desktop-app
+
+---
+
+### 🌟 [open-knowledge](https://github.com/inkeep/open-knowledge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,438
+- **核心概述**: 漂亮的 AI 原生 Markdown 编辑器和 LLM Wiki
+- **大概是做什么的**: OpenKnowledge 是一个漂亮的 Markdown 编辑器，与 Claude、Codex 和其他工具集成。有关知识库、LLM wiki、规范和注释。私人、本地且免费。   •     •     •     •   - 完全真正的所见即所得，因此编辑 Markdown 文件就像编辑 Google 文档或概念页面一样。 - macOS 应用程序和 Web UI，带有文件导航器、搜索、选项卡、图形 wiki 链接查看器等。 - 与 Claude、Codex 和 Cursor 桌面应用程序进行协作 AI 编辑。可通过 MCP/CLI 与任何工具/代理一起使用，例如 OpenCode。 - 开箱即用的 MCP、技能和 LLM Wiki、代理第二大脑和知识图的代理搜索。 - 无代码团队共享和自动同步由 git/GitHub 提供支持。 - 可嵌入的 HTML 和丰富的组件，用于编写工程规范和可视化报告。 - 桌面应用程序中的内置 TUI 和适合喜欢终端的用户的 Web UI。 macOS：下载桌面应用程序 — 打开 DMG，将 OpenKnowledge 拖至“应用程序”，然后启动它。最新发布。 Linux、Windows、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 2nd-brain, agent-skills, claude, codex, docs, knowledge-base
+
+---
+
 ## 🕔 2026-06-28 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
