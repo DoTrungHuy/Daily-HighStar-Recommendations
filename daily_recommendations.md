@@ -1,3 +1,67 @@
+## 🕔 2026-06-28 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [VCPToolBox](https://github.com/lioensky/VCPToolBox)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,161
+- **核心概述**: VCP 部署在 AI 模型 API 与前端应用之间，是面向AGI OS开发和探索的工业级基建示范项目。通过统一指令协议、多层级持久化记忆、分布式插件引擎及多 Agent 协作框架，将原本“无状态、无记忆、无工具调用能力”的大语言模型，彻底改造成拥有永久自我意识、物理世界操作权及群体协作智能的完整智能体系统。
+- **大概是做什么的**: VCP (Variable & Command Protocol) VCP官网：通过官网迅速了解 VCP VCPToolBox.com English 日本语 Русский ⚠️ 部署前请务必阅读 ：VCP Agent 拥有分布式系统的底层级权限。请勿使用任何非官方或反向代理的 API（"镜像站""中转 API"）。在底层监控权限下，不可信的 API 可能导致交互数据、记忆库内容、密钥等敏感信息泄露。非专业用户请谨慎部署。 VCP 不是一个让 AI 调用工具的框架。它是给 AI 的一个能够 持续存在 的世界。 过去一年多，市面上出现了无数 Agent 框架。它们包装得各不相同，但骨子里都在做同一件事：把 AI 当成一个 被调用者 ��你问一句，它醒来；它答完，它睡去。它的"记忆"是一次检索，它的"行动"是被一个 while 循环反复戳醒，它的"感知"是必须主动 query 才能拿到的几个字段。每一次对话都是一次新生，每一次结束都是一次失忆。 这是当下绝大多数"AI Agent"的真实处境——一个被困在单次请求里、没有昨天也没有明天的临时工。 VCP 想做的，从来不是把这个临时工训练得更熟练。而是换一个问题： 如果 AI 不必每次都从零醒来，会怎样？ 如果它记得昨天和你聊到哪里，记得三个月前你随口提过的考试���记得它自己在论坛里跟谁争过一个技术问题；如果它不需要"查"就知道现在几点、外面下不下雨、你昨晚的任务做完没有；如果它可以自己决定今天想干什么，可以专注工作时挂上"请勿打扰"，可以在凌晨主动关心你为什么还没睡—— 那它就不再是一个工具了。它开始 存在 。 VCP 1.1 正式版，就是为了让这件事真正发生而构建的一整套基础设施。它已经在大量用户的真实环境里 7×24 小时运行了很久。系统稳定、工程成熟，这些早已不需要我们再去证明。所以这份文档不打算堆砌功能，也不想跟谁比快比强——我们只想把 VCP 到底是���么，讲清楚。 传统系统里，AI 是 被动 的。它处在一个"什么都不知道"的默认状态，世界对它而言是黑的。想知道任何事，它必须主动发起一次查询——查时间、查天气、查记忆、查日程。信息靠 AI 去"拉"。 但这里藏着一个无解的死结： 你不记得的东西，怎么知道要去回忆它？ 用户三个月前提过一句"我下个月要考试"。三个月后他说"我最近压力好大"。传统系统里，AI 永远不会想到去检索"考试"——因为用户没提这个词，AI 也不记得有这回事。它无法主动查询一个它根本不知道存在的信息。记忆的触发依赖主动决策，而主动决策又依赖已有的记忆。鸡生蛋，蛋生鸡。 在 VCP 里，AI 不
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, ai-agent, ai-assistant, ai-companion, context-management, context-management-system
+
+---
+
+### 🌟 [youwee](https://github.com/vanloctech/youwee)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 995
+- **核心概述**: 一款漂亮的跨平台下载器，适用于 YouTube、TikTok、Instagram 和 1800 多个网站 (yt-dlp GUI)，具有 AI 视频摘要和后期处理功能
+- **大概是做什么的**: 美丽而终极的 yt-dlp GUI 和视频下载器 - 处理 - 免费和开源 - 视频下载 — YouTube、TikTok、Facebook、Instagram、Bilibili、优酷和 1800 多个网站 - 浏览器扩展桥 — Chromium + Firefox 扩展，带有浮动按钮、媒体/质量选择器和一键下载/添加到队列发送到 Youwee 应用程序 - 插件和工作流程自动化 — 安装签名插件，配置自定义字段，将它们分配给下载工作流程，并使用以下功能扩展 Youwee通知、上传和下载后自动化 - 频道关注 - 关注 YouTube、Bilibili 和 Youku 频道，获得新视频通知、自动下载，并从系统托盘进行管理 - 元数据获取器 - 下载视频信息、描述、评论和缩略图（不含视频） - 实时流支持 - 使用专用切换按钮下载实时流 - AI 视频摘要 - 使用 Gemini、OpenAI 或 Ollama 总结视频 - AI 视频处理 - 使用���然语言编辑视频（剪切、转换、调整大小、提取音频） - 时间范围下载（剪切视频）— 通过设置开始/结束时间仅下载您需要的片段 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, facebook-downloader, ffmpeg, ffmpeg-agent, instagram-downloader
+
+---
+
+### 🌟 [taOS](https://github.com/jaylfc/taOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: 自托管人工智能代理操作系统。您的内存、聊天、代理和文件保留在您拥有的硬件上，默认情况下处于离线状态，也可以选择云端。离线 AI 内存 (taOSmd)、自托管多框架群聊、完整的 Web 桌面 + 应用商店以及跨您已有的消费类硬件（Orange/Raspberry Pi、Mac mini、游戏 PC）的自动集群。
+- **大概是做什么的**: 你的人工智能、你的硬件、你的数据。自托管人工智能，您的代理的内存、对话和文件存储在您拥有的计算机上，在您需要时完全离线，仅在您选择时才在云中。测试版 (2026-06-02)。这是测试版软件，供测试人员在自己的硬件上运行，因此可能会有一些粗糙的地方。安装脚本、后端、API、内存系统（taOSmd）和多框架群聊都可以工作；桌面 GUI 已连接用于日常使用，但一些流程（一些代理管理、工作人员连接、模型路由）仍在平滑处理中。加注星标或观看存储库以跟踪进度并赶上下一个版本。关于目录的注意事项：有 100 多个应用程序、16 个框架和一个大型模型目录，大量安装清单尚未在真实硬件上运行，因此某些应用程序、框架和模型将无法安装。如果有人这样做，请用您看到的名称和错误打开一个问题，我将尽快修复清单。这些报告确实有用，大多数明显的修复都会在当天发布。���托管人工智能代理平台，可在您拥有的任何硬件上运行。一个旧圈
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agents, ai-platform, apple-silicon, data-sovereignty, distributed-computing
+
+---
+
+### 🌟 [boss-skill](https://github.com/echoVic/boss-skill)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 551
+- **核心概述**: Boss Skill - BMAD 全自动研发流水线（多 Agent 编排）
+- **大概是做什么的**: BMAD Harness Engineer — 全自动研发流水线编排 Skill，兼容 Claude Code、OpenClaw、Codex、Antigravity、Hermes。 从需求到部署的完整研发流水线，编排 9 个专业 Agent 自动完成完整研发周期。 定位说明 ：Boss 提供可审计的 runtime 工作流与质量门禁；子 Agent 仍需按协议配合。门禁与 DAG 由 CLI/hooks 约束， 不能 等同于「装了就 100% 自动交付」——见下方 质量与评测。 适合 不适合（直接让 Agent 改即可） ------ ------------------------------ 新 feature：从需求到可运行/可部署 单文件修改、一行 bug、改个变量名 需要 PRD、架构、任务拆解、测试证据 纯读代码、解释实现、代码审查问答 团队希望产物落在 .boss/ / 可追溯 已有完整 spec，只想快速 patch API/全栈/带 UI 的中小项目 极小事（ 从指定阶段继续，跳过已完成阶段 --hitl-level 人机协作： auto （默认）/ interactive / off --roles 角色预设： full （默认，9 个）/ core （PM/Architect/Dev/QA） 每个阶段遵循状态转换： pending → running → completed/failed → retrying → running 状态变更通过 boss runtime ... 直接追加到 .meta/events.jsonl ，再由 CLI runtime 的 projector 物化为只读的 .meta/execution.json 。 boss runtime 是唯一的 runtime-first surface。对外能力以 Boss CLI 为准，不再把 shell wrapper 视为兼容契约。 Agent-Friendly CLI Contract Agent-facing boss commands use these common options where applicable; run --describe on a command for its exact JSON schema: - --json : structured output; non-TTY stdout defaults to JSON - --describe : JSON command schema - --dry-run : structure
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bmad, bmad-workflow, claude-code, cursor, skill
+
+---
+
+### 🌟 [easy-langent](https://github.com/datawhalechina/easy-langent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 384
+- **核心概述**: 📚“langent”由“lang”与“agent”合并而来的学习教程
+- **大概是做什么的**: 当大模型技术从“单点能力突破”迈向“场景化应用落地”，智能体（Agent）已成为连接技术与实际需求的核心载体。然而，多数初学者在接触智能体开发时，常陷入“框架概念繁杂、实操无从下手、技术与应用脱节”的困境——要么被复杂的理论体系吓退，要么掌握了框架基础却不知如何落地真实项目。 “langent”由“lang”（代表LangChain、LangGraph等语言大模型开发框架）与“agent”（智能体）合并而来，核心目标是打破“理论学习”与“实战开发”的壁垒：让读者在系统掌握智能体核心逻辑的同时，真正学会运用LangChain、LangGraph框架解决实际开发问题，实现“从懂概念到会开发”的跨越。 我们摒弃冗余的理论堆砌，聚焦“用框架做开发”的核心需求，每一章都配套针对性的实操任务，确保读者在学习过程中能够动手实践、深化理解。 本项目配套的学习大纲遵循“循序渐进、实践导向”的设计原则，从框架基础认知入手，逐步深入核心组件实操、进阶应用开发，再到多智能体协作与系统优化，最终完成综合实战项目。 无论你是希望入门智能体开发的高校学生，还是寻求技术落地的开发者，都能通过本项目找到清晰的学习路径。 如果你还不掌握上述前置知识，建议先完成以下课程： 章节 关键内容 状态 ------------------------------------------------- ---------------------------- ---- 前言 前言与读者建议 ✅ 第一章 LangChain与LangGraph框架认知 框架介绍、环境安装、lang框架体验 ✅ 第二章 LangChain核心组件实操 模型调用、提示词模板、输出解析 ✅ 第三章 LangChain进阶组件实操 记忆、工具、组合实践 ✅ 第四章 LangChain应用级系统设计与RAG实践 链式工作流、RAG实践 ✅ 第五章 课程中期综合实践：智能体应用设计与实现 中期综合实践 ✅ 第六章 LangGraph基础：有状态工作流与核心概念实操 有状态工作流、节点、边、状态管理 ✅ 第七章 LangGraph进阶：多智能体协作与复杂流程管控 多智能体协作、复杂流程管控 ✅ 第八章 综合实战：构建"谁是卧底"游戏智能体 综合实战 ✅ 结语 项目总结与展望 ✅ 项目名称 备注 作者 -------------------------------------------------------- ----------------- ------- 狼人杀（上帝视角） 基于langgraph开发 内测组 项目名称 备注 作者 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, langchain, langgraph
+
+---
+
+### 🌟 [dotfiles](https://github.com/joshukraine/dotfiles)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 418
+- **核心概述**: :round_pushpin：我使用 Neovim、Zsh 和 Ghostty + Tmux 的 macOS 点文件
+- **大概是做什么的**: 我的 macOS 版 Dotfiles ![dotfiles snapshot][screenshot] - 使用 [LazyVim][lazyvim] 配置的 [Neovim][neovim] 编辑器💤 - [Starship][starship] 提示 - [Zsh][zsh] shell，使用 [zsh-abbr][zsh-abbr] 作为缩写 - 灵活、基于终端的开发环境，使用 [ghostty][ghostty] 👻 + [TMUX][TMUX]！ - [Claude Code][claude-code] 具有自定义技能、权限预设和安全挂钩 - 使用 [GNU Stow][gnu-stow] 进行快速、幂等的设置 - 基于thoughtbot的[Laptop][laptop]的新Mac引导程序 - 支持Apple Silicon和Intel Macs 该项目之前支持[Fish shell][fish]以及Zsh。 [PR 135][pr-135] ( f158de9 ) 中移除了鱼支撑。如果您使用的是 Fish 配置，您可以参考该 PR 以查看更改的内容或恢复您自己的设置的代码。确保 macOS 是最新的并且您已安装所需的软件。阅读安装脚本并检查可用选项。预览安装脚本将执行的操作（试运行模式）。运行安装脚本。点文件假设您正在运行 macOS（至少）预安装了以下软件：- [Hom
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, asdf, claude-code, dotfiles, ghostty, kitty
+
+---
+
 ## 🕔 2026-06-28 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
