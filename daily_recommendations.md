@@ -1,3 +1,67 @@
+## 🕔 2026-06-29 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [litgpt](https://github.com/Lightning-AI/litgpt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 13,450
+- **核心概述**: 20 多个高性能法学硕士，提供大规模预训练、微调和部署的方法。
+- **大概是做什么的**: 20 多个高性能法学硕士，提供大规模预训练、微调和部署的方法。 ✅ 从头开始​​实现 ✅ 无抽象 ✅ 初学者友好 ✅ Flash 关注 ✅ FSDP ✅ LoRA、QLoRA、适配器 ✅ 减少 GPU 内存 (fp4/8/16/32) ✅ 1-1000+ GPU/TPU ✅ 20+ LLM 超过 340,000 名开发人员使用 Lightning Cloud - 专为 PyTorch 和 PyTorch Lightning 构建。 - 集群：前沿级训练/推理集群。 - AI Studio（氛围训练）：人工智能帮助您调试、调整和氛围训练的工作空间。 - AI Studio（vibe 部署）：AI 帮助您优化和部署模型的工作区�� - 笔记本：持久的 GPU 工作区，人工智能可帮助您编码和分析。 - 推理：将模型部署为推理 API。微调、预训练和推理 LLM 快如闪电 ⚡⚡ 每个 LLM 都是从头开始实现的，没有抽象和完全控制，使其在企业规模上速度极快、极简且高性能。 ✅ 企业就绪 - Apache 2.0 可供无限制的企业使用。 ✅ 开发人员友好 - 轻松调试，没有抽象层和单个文件实现。 ✅ 优化性能 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, deep-learning, large-language-models, llm, llm-inference
+
+---
+
+### 🌟 [QOwnNotes](https://github.com/pbek/QOwnNotes)
+- **项目语言**: C++
+- **星标数量**: ⭐ 5,799
+- **核心概述**: QOwnNotes 是一个纯文本文件记事本和待办事项列表管理器，具有 Markdown 支持和 Nextcloud / ownCloud 集成。
+- **大概是做什么的**: QOwnNotes Web Companion Firefox 扩展 QOwnNotes Web Companion Chrome 扩展 QOwnNotes Tor 隐藏服务 QOwnNotes 是一款开源记事本，带有适用于 GNU/Linux、macOS 和 Windows 的待办事项列表管理器，可与 Nextcloud Notes 和 ownCloud Notes 配合使用。您可以使用 QOwnNotes 写下您的想法，然后通过移动设备进行编辑或搜索，例如使用 Android 版 Nextcloud Notes 或 Nextcloud / ownCloud Web 服务。笔记存储为纯文本 Markdown 文件，并与 Nextcloud/ownCloud 的文件同步功能同步。当然，也可以使用其他软件，例如 Syncthing 或 Dropbox。如果您喜欢在纯文本文件中访问笔记的概念，就像在 Nextcloud / ownCloud 笔记应用程序中所做的那样，以获得最大的自由，那么 QOwnNotes 适合您。请访问此处的项目页面：QOwnNotes 项目页面 要在网络和移动设备上管理您的待办事项列表，您需要在 Nextcloud 上安装任务后端 要为您的笔记获得更多在线功能，例如版本控制和垃圾箱访问，您可能还
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: bookmark, c-plus-plus, caldav, chrome-extension, dropbox, firefox-extension
+
+---
+
+### 🌟 [Mooncake](https://github.com/kvcache-ai/Mooncake)
+- **项目语言**: C++
+- **星标数量**: ⭐ 5,692
+- **核心概述**: Mooncake是Moonshot AI提供的领先LLM服务Kimi的服务平台。
+- **大概是做什么的**: 以 KVCache 为中心的 LLM 服务月饼分解架构是 Kimi 的服务平台，Kimi 是 Moonshot AI 提供的领先的 LLM 服务。现在传输引擎和月饼店都开源了！该存储库还托管其技术报告和开源跟踪。 - 2026 年 5 月 7 日：🚀 vLLM 正式推出 Mooncake Store — 深入探讨 Mooncake 的分布式 KVCache 引擎如何通过高吞吐量、内存高效、跨实例 KV 缓存共享来增强 vLLM 推理！ - 2026 年 4 月 29 日：SGLang 使用 Mooncake TransferEngine 推出基于 RDMA 的 P2P 权重传输，用于大规模分布式 RL，通过跨数千个 GPU 的零拷贝 RDMA 传输，将 1T 参数 Kimi-K2 模型的权重更新速度提高了 7 倍（53s → 7.2s）。 - 2026 年 3 月 19 日：TorchSpec：大规模推测性解码训练已开源，使用 Mooncake 通过高效的隐藏状态管理来解耦推理和训练。 - 2026年3月5日：LightX2V现支持基于Mooncake的分解部署，实现编码器/变压器服务与Mooncake的解耦
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: disaggregation, inference, kvcache, llm, rdma, reinforcement-learning
+
+---
+
+### 🌟 [bitsandbytes](https://github.com/bitsandbytes-foundation/bitsandbytes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 8,295
+- **核心概述**: 通过 PyTorch 的 k 位量化可访问大型语言模型。
+- **大概是做什么的**: bitsandbytes 通过 PyTorch 的 k 位量化实现可访问的大型语言模型。我们提供了三个主要功能，可大幅减少推理和训练的内存消耗： 8 位优化器使用逐块量化来以一小部分内存成本维持 32 位性能。 LLM.int8() 或 8 位量化只需一半的所需内存即可实现大型语言模型推理，并且不会降低任何性能。该方法基于向量量化，将大多数特征量化为 8 位，并通过 16 位矩阵乘法单独处理异常值。 QLoRA 或 4 位量化支持使用多种不影响性能的内存节省技术进行大型语言模型训练。该方法将模型量化为 4 位，并插入一小组可训练的低秩适应 (LoRA) 权重以允许训练。该库包括通过bitsandbytes.nn.Linear8bitLt和bitsandbytes.nn.Linear4bit进行8位和4位操作的量化基元，以及通过bitsandbytes.optim模块提供的8位优化器。位和字节有 th
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llm, machine-learning, pytorch, qlora, quantization
+
+---
+
+### 🌟 [mockserver-monorepo](https://github.com/mock-server/mockserver-monorepo)
+- **项目语言**: Java
+- **星标数量**: ⭐ 4,903
+- **核心概述**: MockServer 是一个用于测试的 HTTP(S) 模拟服务器和代理，可让您模拟 API、检查和修改实时流量以及注入故障。它在单个端口上支持 HTTP/1.1、HTTP/2、gRPC、WebSockets、TCP 等，还支持 HTTP/3、消息代理和 AI/LLM API。
+- **大概是做什么的**: MockServer            MockServer 是一个用于测试的 HTTP(S) 模拟服务器和代理。它做了三件事： - 模拟您的应用程序所依赖的 API，以便您可以针对不可用、不完整或难以重现的系统进行开发和测试。 - 代理真实流量以记录、检查和修改运行中的请求和响应，并在交互式代理断点处暂停它们，以像网络流量调试器一样单步执行、编辑或中止每个交换。 - 混沌工程 - 使依赖项按需行为不当，注入延迟、断开连接和错误，以测试应用程序在其所依赖的系统降级或失败时如何应对。说出您的堆栈使用的每个协议。 HTTP/1.1 和 HTTPS、HTTP/2、gRPC 和 gRPC-Web、WebSockets 和原始 TCP 是从每个连接的第一个字节自动检测的，因此一个 MockServer 端口可以处理所有这些，无需按协议配置。除了该核心之外：HTTP/3（QUIC - 实验性的，在其自己的 UDP 端口上）、用于 MCP/A2A 模拟的 JSON-RPC、针对 ext 的 AsyncAPI 驱动的消息代理测试
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, chaos-engineering, grunt-plugin, homebrew, java-client, javascript-client
+
+---
+
+### 🌟 [node-llama-cpp](https://github.com/withcatai/node-llama-cpp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,117
+- **核心概述**: 使用 llama.cpp 的 node.js 绑定在计算机上本地运行 AI 模型。在生成级别的模型输出上强制执行 JSON 架构
+- **大概是做什么的**: 在您的计算机上本地运行 AI 模型提供了预构建的绑定，并可以使用 cmake 从源代码进行构建 ✨ Gemma 4 就在这里！ ✨ 在您的机器上本地运行 LLM Metal、CUDA 和 Vulkan 支持 提供预构建的二进制文件，可以回退到从源代码构建，无需使用 Node-gyp 或 Python 自动适应您的硬件，无需配置任何在项目中使用 LLM 所需的完整套件 使用 CLI 与模型聊天，无需编写任何代码 使用最新的 llama.cpp 进行更新。使用单个 CLI 命令下载并编译最新版本 强制模型以可解析格式（如 JSON）生成输出，甚至强制其遵循特定的 JSON 模式 为模型提供可按需调用的函数，以检索信息或执行操作 嵌入和重新排序支持 安���抵御特殊令牌注入攻击 具有完整 TypeScript 支持和完整文档的出色开发人员体验 入门指南 无需安装即可尝试 使用单个命令在终端中与模型聊天：此包
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, bindings, catai, cmake, cmake-js, cuda
+
+---
+
 ## 🕔 2026-06-29 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 156 个候选项目中筛选出 6 个未推荐过的新项目。
