@@ -1,3 +1,67 @@
+## 🕔 2026-06-29 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 156 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openclaw-docs](https://github.com/yeuxuan/openclaw-docs)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 731
+- **核心概述**: OpenClaw 中文文档站 | AI 智能体框架 源码剖析 安装教程 | WhatsApp Telegram Discord 飞书 多通道机器人
+- **大概是做什么的**: OpenClaw 中文文档 保姆级教程 · 源码剖析 · AI 智能体框架 OpenClaw 是自托管的多通道 AI 助手平台，通过 Gateway 统一连接 Web 控制 UI、聊天通道、节点、工具和模型。本仓库是面向中文读者的教程站，目标是把官方最新架构讲到足够清楚：先让新手能跑起来，再带开发者看懂源码。 📖 立即在线阅读 → openclaw-docs.dx3n.cn 本文档站包含 767 篇 中文教程，分为 4 条学习主线： Track 0 安装教程 零基础照着做、快速安装、onboard、Web 控制 UI、节点、AI 服务商接入、通道接入、Gateway 运维、常见问题排查 680 篇 → 教程中心 Track A 完整工程主线 CLI 启动框架、Gateway 控制平面、插件与通道适配器、节点、路由与会话键、Agent 执行链路、函数级源码剖析 62 篇 → 工程主线 Track B AI 核心框架 上下文工程、Agent 状态机、工具策略与审批、模型回退、记忆系统、Hook 插件注入机制 24 篇 → AI 框架 Track C 通道适配器 接口合同、注册链路、账号生命周期、入站路由、出站发送解耦 含于 Track A → 适配器索引 OpenClaw 是一款开源的个人 AI 助手平台，让你的 AI 助手运行在你自己的电脑或服务器上，并通过浏览器、聊天软件和移动节点为你工作。 WhatsApp · Telegram · Discord · Slack · Signal · iMessage / BlueBubbles · 飞书（Feishu） · Mattermost · Google Chat · Microsoft Teams · Matrix · LINE · Zalo · QQ · WeChat · IRC · Nostr · Twitch · WebChat Anthropic Claude · OpenAI GPT · DeepSeek · 通义千问（Qwen） · Kimi（月之暗面） · 智谱 GLM · MiniMax · Ollama（本地大模型） · OpenRouter · LiteLLM · Cloudflare AI Gateway · Vercel AI Gateway · NVIDIA · Together AI · HuggingFace · vLLM · SGLang 打开终端输出的本地地址即可预览完整文档站。 - 函数级精度 ：关键模块精确到具体函数的源码入口与调用链路 - 保姆级讲解 ：先讲人话，再讲术语
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, clawdbot, documentation, llm, multi-channel
+
+---
+
+### 🌟 [gmgn-skills](https://github.com/GMGNAI/gmgn-skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 352
+- **核心概述**: 适用于 AI 代理的 GMGN OpenAPI 技能 — 查询代币、钱包和市场数据，并在 Solana、BSC 和 Base 之间执行链上交易。
+- **大概是做什么的**: 借助 GMGN 代理技能，您可以使用 AI 代理查询跨多个链的实时趋势代币排名、代币基本面、社交媒体信号、实时交易活动、战壕中的新代币、顶级持有者、顶级交易者、智能货币头寸、KOL 持股、内部钱包、捆绑钱包曝光和其他专业链上分析。它还支持市价订单、限价订单、高级止盈/止损策略订单、单命令烹饪订单（单流程中的买入+条件订单）和钱包管理（包括实时持仓、近期损益和交易历史），所有这些都通过自然语言进行。专为人工智能代理而构建，可实时高速查询和交易多链 Meme 代币。 gmgn-skills 使人工智能代理能够直接访问 GMGN 的趋势代币、Trenches 新代币列表以及专业的链上数据——包括 Smart Money、KOL、rat trader 和捆绑器分析。 500+专业数据维度，让您的AI代理成为24/7实时链扫描交易工具——监控多链代币动量，即时下单
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, api, cli-tool, crypto, gmgn, memecoin
+
+---
+
+### 🌟 [flyto-core](https://github.com/flytohub/flyto-core)
+- **项目语言**: Python
+- **星标数量**: ⭐ 311
+- **核心概述**: AI 代理的开源执行引擎。 412 模块、MCP 原生、触发器、队列、版本控制、计量。
+- **大概是做什么的**: 可调试的自动化引擎。追踪每一步。从任意点重播。 Flyto2.com · 桌面应用程序 · 文档 · YouTube 捕获的屏幕截图。提取的性能指标。 JSON 报告已保存。每一步都被追踪。如果第 8 步失败会发生什么？使用 shell 脚本，您可以重新运行整个过程。使用 Flyto-core：步骤 1-7 是即时的。仅重新执行步骤 8。保留完整的上下文。立即尝试 3 种食谱 每个食谱都有追踪记录。每次运行都是可重播的。查看所有 32 个秘诀 → 这是 Python 中竞争性定价分析的样子：flyto-core — 12 个步骤 无痕迹。没有重播。没有时间安排。如果步骤 5 失败，请重新运行所有内容。完整踪迹。从任何步骤重播。每步计时。每次运行都是可调试的。 v2.19.0 中的新增功能 - 智能验证参数 — 通过别名映射（例如， site 到 url ）自动更正错误的字段名称，并在请求不存在的模块时建议替代方案 - 增强的搜索模块 — 单词级和标签匹配评分取代了旧的仅子字符串搜索，为自然语言查询生成更相关的结果 - browser.extract 默认文本模式 — 当没有时
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-tools, atomic-modules, automation, browser-automation, execution-engine
+
+---
+
+### 🌟 [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 409
+- **核心概述**: 适用于 Microsoft 365 Copilot 的 78 个可粘贴的声明性代理。没有编码。没有蔚蓝。只需几分钟即可部署。
+- **大概是做什么的**: Awesome Copilot Studio Agents 适用于 Microsoft 365 Copilot 的 89 个可用于生产的声明式代理。将每个指令块粘贴到 Copilot Studio → 新代理 → 指令字段中。无需编码。只需几分钟即可部署。 17 个领域的 89 个生产就绪代理。请参阅 AGENTS.md 了解完整的库。工作中的 AI — Microsoft 365 Copilot 的新闻通讯测试提示。一次扮演一个角色。加上经过验证的 GenAI 新闻和一项您在变更日志中找不到的见解。每两周一次，阅读时间 4 分钟。免费订阅 → — 没有垃圾邮件，没有废话，可以随时取消订阅。提示食品储藏室 — 来自 NerdyChefs.ai 的每周该网站为您提供提示。时事通讯为您提供判断力——何时使用它们、如何对它们进行排序，以及为什么一种方法有效而另一种方法失败。每周。自由的。总是。想要超越代理商吗？ AI 快速入门要点是一门时长 35 分钟的免费课程，涵盖负责任的 AI 使用和实用的人机+AI 协作工作流程。开始免费课程 → — 没有注册墙，没有信用卡。新功能：M365 Copilot 现场指南 — 12 份交互式参考指南（决策图、故障分类、每项壮举一份指南
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, awesome, copilot-agents, copilot-studio, declarative-agents
+
+---
+
+### 🌟 [hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 304
+- **核心概述**: Hermes Agent 的浏览器本机侧面板 — 将 Web 上下文连接到本地 Hermes 运行时。
+- **大概是做什么的**: Hermes 浏览器扩展 Hermes Agent 的浏览器本机侧面板 — 将活动 Web 上下文连接到本地或远程 Hermes 运行时。由 Jon Komet (@abundantbeing) 创建。 Nous Research 的 Hermes Agent 社区扩展。公共 alpha · 加载解压 · 本地/远程 Hermes API · 只读浏览器上下文 尚未在 Chrome 网上应用店上架。 Hermes 浏览器扩展不是浏览器聊天机器人。它是真正的 Hermes Agent 运行时的 Chrome/Edge/Chromium 侧面板。它与您的 Hermes 网关/API 服务器通信（默认情况下是本地服务器，当您配置可访问的 URL 时则为远程服务器），因此它可以使用 Hermes 中已配置的模型、工具、技能、会话、内存和 MCP 服务器。该存储库专门针对 Hermes 浏览器扩展：Hermes Agent 的 Chrome/Edge/Chromium 侧面板集成。侧面板主题设置本地代理 - 由侧面板 API 提供支持的 Chrome/Edge/Chromium MV3 侧面板。 - 连接到可配置的本地或远程 Hermes API 服务器。默认值：http://127.0.0.1:8642 。 - 当您登录远程 Hermes dashb 时，支持仪表板 WebSocket 模式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-extension, chrome-extension, edge-extension, hermes-agent, local-first
+
+---
+
+### 🌟 [XActions](https://github.com/nirholas/XActions)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 345
+- **核心概述**: ⚡ 完整的 X/Twitter 自动化工具包 — Scrapers、用于 AI 代理的 MCP 服务器 (Claude/GPT)、CLI、浏览器脚本。无 API 费用。开源。取消关注不回复的人。监控实时分析。自动关注、点赞、评论、抓取，无需 API。
+- **大概是做什么的**: ██╗██╗█████╗██████╗████████╗██╗██████╗███╗██╗███████╗ ╚██╗██╔╝██╔══██╗██╔════╝╚══██╔══╝██║██╔═══██╗████╗ ██║██╔════╝ ╚███╔╝ ███████║██║ ██║ ██║██║ ██║██╔██╗ ██║███████╗ ██╔██╗ ██╔══██║██║ ██║ ██║██║ ██║██║╚██╗██║╚════██║ ██╔╝ ██╗██║ ██║╚██████╗ ██║ ██║╚██████╔╝██║╚████║███████║╚═╝╚═╝╚═╝╚═╝ ╚═════╝╚═╝╚═╝╚═════╝╚═╝╚═══╝╚══════╝完整X/Twitter 自动化工具包 Scrapers  ·  用于 AI 代理的 MCP 服务器  ·  CLI  ·  浏览器脚本  ·  浏览器扩展 无 API 密钥。没有月费。 100% 开源。 https://xactions.app 网站  ·  npm  ·  文档  ·  MCP 服务器  ·  Docker  ·  API 参考 🏆 XActions 比较 为何使用 XActions 而不是其他替代方案进行构建？功能 XActions twikit twitter-mcp agent-twitter-client twit twitter-scraper --------- :---: :---: :---: :---: :---: :---: 无需 API 密钥 ✅ ✅ ❌ 需要密钥 ✅ ❌ 需要密钥 ✅ MCP 服务器（AI 代理） ✅ 140 多种工具 ❌ ✅ 2 种工具 ❌ ❌ ❌浏览器控制台脚本 ✅ 50 多个 ❌ ❌ ❌ ❌ ❌ 空间中的 AI 语音代理 ✅ 加入、聆听、说话 ❌ ❌ ❌ ❌
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, automation, claude, gpt, mass-unfollow, mcp
+
+---
+
 ## 🕔 2026-06-29 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
