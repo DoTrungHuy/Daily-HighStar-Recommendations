@@ -1,3 +1,67 @@
+## 🕔 2026-06-29 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pro-workflow](https://github.com/rohitg00/pro-workflow)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,486
+- **核心概述**: Claude Code 从您的纠正中学习：通过 50 多个会话复合的自我纠正记忆。上下文工程、并行工作树、代理团队和 17 项经过实战检验的技能。
+- **大概是做什么的**: 您的克劳德代码每次会话都会变得更加智能。自校正内存 + 持久的 FTS5 索引 wiki + 自动研究循环，全部都在一个 SQLite 存储上。纠正克劳德一次——它永远不会再犯同样的错误。建立一个关于某个主题的维基——它会在一夜之间自行成长。 34 种技能 • 8 个代理 • 22 个命令 • 跨 24 个事件的 37 个挂钩脚本 通过 SkillKit 与 Claude Code、Cursor 和 32 多个代理配合使用。你以同样的方式纠正克劳德 50 次。您在每次新会议中都会解释惯例。背景变得紧凑，经验消失，错误重演。你在三个不同的会议中研究同一主题，因为答案没有持久的地方。每个 Claude Code 用户都会遇到这堵墙。 Pro Workflow 在每个会话下放置一个 SQLite 存储。 - 自我修正记忆——每次修正都会成为一条规则，FTS5 可搜索，在会话开始时自动加载。 - 知识平面 - 磁盘上的持久研究维基 + FTS5 影子索引，可从任何会话查询，可以选择通过自动研究循环进行增长。 - 质量门——LLM驱动的钩子，确定性的git/secre
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-coding, ai-workflow, claude, claude-code
+
+---
+
+### 🌟 [code-graph-rag](https://github.com/vitali87/code-graph-rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,274
+- **核心概述**: 适合您的单一存储库的终极 RAG。借助人工智能和知识图的力量查询、理解和编辑多语言代码库
+- **大概是做什么的**: Code-Graph-RAG：适用于任何代码库的基于图的 RAG 系统精确的检索增强生成 (RAG) 系统，可使用 Tree-sitter 分析多语言代码库，构建全面的知识图谱，并实现代码库结构和关系的自然语言查询以及编辑功能。 - PHP 语言支持：添加了完整的 PHP 语言支持 - 类、接口、特征、枚举、命名空间、PHP 8 属性和调用图分析。由@rs-ipps 贡献。 - C 语言支持：添加了完整的 C 语言支持 - 函数、结构、联合、枚举、预处理器包含和调用图分析。由@dj0nes 贡献。 - 立即可视化任何 GitHub 存储库！只需将任何存储库 URL 中的 github.com 更改为 gitcgr.com — 就是这样，只有 3 个字母！获取整个代码库结构的交互式图表。立即尝试：gitcgr.com - 多语言支持：语言状态扩展功能类/结构模块包检测附加功能-------- ------ ---------- --------- --------------- ------- ----------------- ------- C 完全支持
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ast, claude-code, code-analysis, code-understanding, codebase-search
+
+---
+
+### 🌟 [GoModel](https://github.com/ENTERPILOT/GoModel)
+- **项目语言**: Go
+- **星标数量**: ⭐ 979
+- **核心概述**: 用 Go 编写的 AI 网关。适用于 OpenAI、Anthropic、Gemini、Groq、xAI 和 Ollama 的轻量级统一 OpenAI 兼容 API。 LiteLLM 替代品，具有可观察性、护栏、流媒体、成本和使用情况跟踪。
+- **大概是做什么的**: GoModel - Go 中的 AI 网关 用 Go 编写的快速、轻量级 AI 网关，为 OpenAI、Anthropic、Gemini、DeepSeek、xAI、Groq、OpenRouter、Z.ai、Azure OpenAI、Oracle、Ollama 等提供统一的 OpenAI 兼容和 Anthropic 兼容 API。 Docker 快速入门第 1 步：启动 GoModel 容器环境变量的完整列表（包括所有可用的提供程序）：.env.template ⚠️ 避免在生产中的命令行上使用 -e 传递机密 — 它们可能会通过 shell 历史记录和进程列表泄漏。使用 docker run --env-file .env 从文件加载 API 密钥。第 2 步：进行第一个 API 调用 就是��样！ GoModel 会根据您提供的凭据自动检测可用的提供商。支持的 LLM 提供商 GoModel 支持 OpenAI、Anthropic、Google Gemini、Vertex AI、DeepSeek、Groq、OpenRouter、Z.ai、xAI (Grok)、阿里云模型工作室 (Bailian)、MiniMax、小米 MiMo、OpenCode Go、Azure OpenAI、Oracle、Ollama、vLLM、Amazon Bedrock 以及所有 OpenAI 兼容提供商。请参阅提供商概述，了解每个提供商的完整功能矩阵（聊天、/re
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-gateway, ai-proxy, anthropic, go, golang
+
+---
+
+### 🌟 [Wax](https://github.com/christopherkarani/Wax)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 767
+- **核心概述**: 用于 AI 代理的单文件存储层，Apple Silicon 上的亚毫秒级 RAG。设备上的 Metal 优化。没有服务器。没有 API。一个文件。纯迅捷
+- **大概是做什么的**: 为您的人工智能代理提供永不忘记的记忆。一个文件。零云。 Apple Silicon 上的召回速度极快。英语 · 西班牙语 · 法语 · 日本语 · 한국어 · Português · 中文 Wax 是用于 AI 代理的 Swift 原生内存引擎。它将文档、嵌入和结构化知识存储在完全位于您设备上的单个 .wax 文件中。没有服务器。没有 API 密钥。没有码头工人。只需一个文件，您就可以像任何其他文档一样通过 AirDrop、同步或备份进行备份。 - 持久聊天机器人——您的助手会记住会话中的每一次对话、偏好和决定。 - 具有长期记忆的编码代理 - Claude Code 或 Cursor，可以回忆上周的代码库模式、架构决策和 TODO。 - 个人知识库——对笔记、文档和网络剪辑进行语义搜索。问“我读到了有关 HNSW 的哪些内容？”并获得确切的段落。 - 设备上的 RAG — 在您的 iOS 或 macOS 应用程序中提供 AI 功能，无需调用云。蜡在你所在的地方遇见你。选择与您正在构建的内容相匹配的路径：🛠️ Swift Developer ⌨️ CLI Power User 🤖 AI Agent Setup :-------------------- :--
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, coreml, coreml-framework, data-science, machine-learning
+
+---
+
+### 🌟 [Gym](https://github.com/NVIDIA-NeMo/Gym)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,013
+- **核心概述**: 使用环境评估和改进模型和代理
+- **大概是做什么的**: 要求 • 快速入门 • 环境教程 • 可用环境 • 文档和资源 • 社区和支持 • 引用 NeMo Gym 是一个用于使用环境评估和改进模型和代理的库。 NeMo Gym 提供用于开发环境、可扩展运行评估和培训的基础设施，以及一系列流行的基准测试和培训环境。环境是代理交互以完成任务的完整系统。它由数据集（要解决的任务）、代理工具（模型如何与世界交互）、验证器（任务完成评分）和状态（每个任务执行上下文）组成。 🎯 何时使用 NeMo Gym - 您需要在有状态环境（例如代码执行、工具调用、沙箱）中评估模型或代理 - 您希望使用共享环境和验证器在团队之间进行可重复的评估 - 您需要大规模使用环境 - 每个任务多次重复，或数千个并发培训请求 - 您希望在评估、代理优化和培训之间无缝过渡 如果您正在评分
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, benchmarks, environments, evaluation, gym, llm
+
+---
+
+### 🌟 [indie-hacker-tools-plus](https://github.com/XiaomingX/indie-hacker-tools-plus)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,723
+- **核心概述**: 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀
+- **大概是做什么的**: 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀 - 效率神器 ：帮你以最快的速度搞定项目，省下宝贵的时间 ⏱️。 - 省钱利器 ：把每一分钱花在刀刃上，让开发成本降到最低 💸。 - 热门工具 ：用被行业认可的好工具，避免那些没人用、掉坑里的风险 📈。 不想踩坑、不想多花冤枉钱？那就来看看我们为你整理的工具合集吧！💡✨ 欢迎大家提PR和issues，帮助我们一起完善这个工具库，让每一位开发者都能从中受益，获取最精粹的技术支持！✨ - 欢迎投稿，推荐或自荐文章/软件/资源，请提交 issue 。 📋 100k-us-domains:ai导航站点数据集 🧠 世界上覆盖最全的优秀Qwen（千问）提示语大全 全栈 SaaS 启动器 (SaaS Starters) T3 Stack 类型安全 。Next.js + TypeScript + tRPC 的极致开发体验。 Marblism AI 生成全栈 。通过 Prompt 直接生成包含后端、数据库和前端的完整 SaaS。 Refine 黑马工具 。无头 (Headless) 后台框架，支持自由组合各类 UI 库。 shadcn-admin 简洁美观 。基于 shadcn/ui 的仪表盘模板，目前非常流行。 现代 UI 组件体系 (Modern UI) shadcn/ui 行业标准 。不再安装组件库，而是直接复制代码块，拥有 100% 控制权。 Magic UI 动态���觉 。专注于动效和高逼格交互组件，提升页面质感。 Aceternity UI 现代感利器 。提供极具视觉冲击力的落地页组件。 v0.dev AI 生成 UI 。Vercel 出品，通过自然语言直接生成可用的 React 组件代码。 内容驱动框架 (Content & SEO) Next.js (SSG) 全能选手 。强大的静态生成模式，兼顾性能与全栈扩展性。 Hono 极致性能 。支持边缘计算（Cloudflare Workers, Edge），是构建高性能 Content API 与极速 SEO 页面的首选。 Astro 孤岛架构 。极致的静态性能，SEO 与内容站点的王者。 AI 知识、调研与笔记 (AI Knowledge & Research) NotebookLM Google 出品 。基于上传源文件的 AI 笔记与调研神器，支持生成播客、思维导图、幻灯片等。 Perplexity.ai AI 搜索 。结合实时搜索与模型推理，是技术调研、市
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, awesome, awesome-list, awesome-lists, aws
+
+---
+
 ## 🕔 2026-06-29 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
