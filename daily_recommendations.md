@@ -1,3 +1,67 @@
+## 🕔 2026-06-30 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [opencove](https://github.com/DeadWaveWave/opencove)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,477
+- **核心概述**: 您的无限画布工作空间，用于代理、任务、知识和研究。克劳德代码、Codex、终端、任务和注释的无限画布。
+- **大概是做什么的**: 克劳德代码、Codex、终端、任务和注释的无限画布。将每个代理、终端、任务和注释保留在一个无限的画布上。并行工作一目了然，保持上下文可见，并从上次中断的地方继续。 📖 OpenCove 是什么？ OpenCove 是一个为每天使用 AI 编码代理的人们提供的空间开发工作空间。 OpenCove 不会将工作隐藏在选项卡、侧边栏和长聊天线程中，而是将您的 AI 代理、终端、任务和注释放在同一个无限的 2D 画布上，因此您的工作的完整状态保持可见。它专为以下工作流程而构建： - 并排运行多个 Claude Code 或 Codex 会话 - 将任务计划、注释和终端输出保存在一个共享工作区中 - 切换项目而不丢失布局、上下文或执行历史 - 🌌 无限空间画布：按照您实际的想法排列终端、注释、任务和代理会话。 - 🤖 专为 CLI 代理构建：针对 Claude Code、Codex 和类似的终端本机代理工作流程进行了优化。 - 🧠 上下文保持可见：计划、执行和结果同时存在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, canvas, claude-code, codex
+
+---
+
+### 🌟 [bkit-claude-code](https://github.com/popup-studio-ai/bkit-claude-code)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 566
+- **核心概述**: bkit Vibecoding 套件 - PDCA 方法 + Claude Code 掌握，用于 AI 原生开发
+- **大概是做什么的**: bkit — AI 原生开发操作系统 唯一的 Claude Code 插件，可以根据自己的设计规范验证 AI 生成的代码。三个命令。任何人——甚至是第一次进行 vivi 编码的人——都可以发布强大的、生产质量的软件。 bkit 将 Claude Code 转变为上下文工程系统：44 项技能、34 名专家代理、11 个质量门以及跨会话保存的记忆，可在正确的时刻向 AI 提供正确的上下文，因此您无需了解提示、命令或 PDCA 即可获得高质量的结果。要求：bkit 需要 Claude Code v2.1.143 或更高版��（严格的插件清单路径仅识别 v2.1.143 中的官方 displayName 字段）。在较旧的克劳德代码上，您将在克劳德插件安装期间看到验证错误：无法识别的密钥：“displayName”。运行 npm install -g @anthropic-ai/claude-code@latest 进行升级，或参见 docs/06-guide/cc-compatibility.guide.md 。你是…… bkit 为你提供了 🌱 第一次的氛围编码器——你描述你想要什么，AI 为你编码，但你还不知道如何判断结果是否正确 一个安全网。人工智能建议，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-driven-work, ai-native-development, bkit, claude-code, multi-language
+
+---
+
+### 🌟 [LLM-Agents-Ecosystem-Handbook](https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook)
+- **项目语言**: Python
+- **星标数量**: ⭐ 530
+- **核心概述**: 用于构建、部署和理解 LLM 代理的一站式手册，包含 60 多个框架、教程、生态系统指南和评估工具。
+- **大概是做什么的**: LLM 代理生态系统手册 用于构建、评估、保护和运输现代 LLM 代理系统的实用操作手册。现代代理并不是“提示+工具”。它们是系统——具有身份、记忆、技能、工具、MCP 集成、护栏、可观察性、评估和提供商策略。本手册教授整个堆栈并提供模板、蓝图、可运行适配器以及您今天可以采用的精选示例。精心策划的、有观点的、面向生产的手册，分为七个部分： 1. 概念 — 代理操作系统、身份、内存、技能、MCP、安全性、可观察性 — 现代代理堆栈的每一层 2. 提供商生态系统 — 24 个以上 LLM 提供商的适配器 + 文档（前沿 API、快速推理、市场、企业云、专业、本地运行时），以及用于后备链的路由器 3. 技能生态系统 — 设计指南、分类、成熟度模型、安全性清单和精心策划的技能目录 4. 提示工程 — 代理提示模式、指令层次结构、上下文工程、提示注入防御 5. 编码代理工作流程 — 用于 Claude Code、Cursor、Cod
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, fine-tuning, finetuning-llms, freamework
+
+---
+
+### 🌟 [claude-council](https://github.com/hex/claude-council)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 407
+- **核心概述**: Claude Code 插件可咨询多个 AI 编码代理（Gemini、OpenAI、Grok）以获取不同的观点
+- **大概是做什么的**: 一个 Claude Code 插件，可并行咨询多个 AI 编码代理并并排显示他们的答案。当一种模型的偏见可能会误导您并且正确的选择取决于交叉检查（架构决策、调试死胡同、安全审查、框架选择）时，这很有用。快速入门 · 使用 · 配置 · 参考 · 开发 您可以从每个配置的提供商处获得并行响应：在 tmux 内，结果会实时流入侧窗格，并带有供应商颜色的横幅。运行 /claude-council:status 以确认已配置和连接的内容。 - 同时���询 Gemini、OpenAI (GPT/Codex)、Grok 和 Perplexity - 安装后使用 Codex 和 Gemini CLI（订阅身份验证） — 优于其 API 同类产品 - 并排比较响应与供应商颜色的标头 - 流式传输 tmux 窗格，在响应落地时呈现响应 - 专门角色、辩论模式和代理增强的深度分析，以实现高风险决策 - 后台作业 ( --async )长时间运行的查询，使用 /claude-council:result 来获取、列出和取消 - 选择加入停止门：一秒
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, claude-code-plugin, gemini, grok, llm
+
+---
+
+### 🌟 [agents](https://github.com/astronomer/agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 394
+- **核心概述**: 用于数据工程工作流程的人工智能代理工具。
+- **大概是做什么的**: 用于数据工程工作流程的人工智能代理工具。包括用于 Airflow 的 MCP 服务器、用于从终端与 Airflow 交互的 CLI 工具 ( af )，以及扩展 AI 编码代理的技能，以使用 Airflow 和数据仓库的专业功能。可与 Claude Code、Cursor 和其他代理编码工具配合使用。由天文学家建造。 Apache 2.0 已获得许可并与开源 Apache Airflow 兼容。 - Airflow CLI ( af ) - 仓库连接 - 本地开发设置 这将通过 Skills.sh 将所有天文学家技能安装到您的项目中。系统将提示您选择要安装到的代理。要单独选择技能，请省略 --skill 标志。 Claude Code 用户：我们建议使用该插件（请参阅下面的 Claude Code 部分），以便更好地与 MCP 服务器和挂钩集成。技能：可与超过 25 个 AI 编码代理配合使用，包括 Claude Code、Cursor、VS Code (GitHub Copilot)、Windsurf、Cline 等。 MCP 服务器：可与任何 MCP 兼容的客户端配合使用，包括 Claude Desktop、VS Code 等。开源 Airflow 用户：MCP 服务器可与任何 Airflo 配合使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, agents, ai, ai-agents, airflow, apache-airflow
+
+---
+
+### 🌟 [vue-tui](https://github.com/vuejs-ai/vue-tui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 304
+- **核心概述**: 用于终端 UI 的 Vue 框架。 SFC 和 JSX、Yoga Flexbox、HMR 以及开箱即用测试。
+- **大概是做什么的**: 公开测试版 — @vue-tui/runtime API 正在稳定到 1.0；开发模式 HMR 仍处于实验阶段。欢迎报告错误。用于终端 UI 的 Vue 框架。 - Vue SFC 和 JSX — 使用 、TSX 或两者编写终端接口 - Flexbox 布局 — 由 Yoga 提供支持，React Native 背后的引擎相同 - 开发工具包（实验性） — 通过 @vue-tui/vite 插件 ( npm run dev ) 在终端中使用 HMR - 输入和焦点 — 键盘处理、焦点管理、选项卡导航、Kitty 键盘协议 - 测试工具 — 开箱即用的组件级终端测试 — 渲染、模拟输入、断言帧 Flappy Bird — 存储库中包含的示例之一 使用 vue-tui 有两种方法 — 搭建一个完整的项目，或者将运行时放入现有项目中。 1. 搭建一个项目（推荐） 准备开发的设置：Vue SFC 和通过 @vue-tui/vite 插件的终端 HMR 开发服务器。编辑 src/app.vue 并观察终端立即更新。 2. 使用运行时独立 @vue-tui/runtime 是一个独立的 Vue 渲染器，独立于 @vue-tui/vite 插件。将组件编写为 SFC 并安装��们
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, cli, command-line, flexbox, llm
+
+---
+
 ## 🕔 2026-06-30 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
