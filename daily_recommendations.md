@@ -1,3 +1,67 @@
+## 🕔 2026-06-30 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [swarmclaw](https://github.com/swarmclawai/swarmclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 595
+- **核心概述**: 开源自托管 AI 代理运行时和用于自治代理群的多代理框架。代理内存、MCP 工具、计划、委派和 23+ LLM 提供商（Claude、GPT、Gemini、OpenRouter、Ollama）。实用的 Claude Code 和 LangChain 替代方案。
+- **大概是做什么的**: 用于自主代理的自托管 AI 代理运行时和多代理框架。开源代理群拥有持久的代理内存、MCP 工具、技能、委派、时间表和 23 多个 LLM 提供者 - 实用的 Claude Code 和 LangChain 替代方案。 SwarmClaw 是一个开源、自托管的 AI 代理运行时和多代理框架。跨 OpenClaw 网关、Claude、GPT、Gemini、OpenRouter、Ollama 和超过 23 个其他提供商，运行具有心跳、时间表、委派、代理内存、运行时技能和经过审核的对话技能学习的自主 AI 代理、代理群和编排器。将其用作您的 AI 代理仪表板、代理编排平台和自托管多代理 AI 工作流程的大本营。 GitHub：https://github.com/swarmclawai/swarmclaw 文档：https://swarmclaw.ai/docs 网站：https://swarmclaw.ai Discord：https://discord.gg/sbEavS8cPV 扩展教程：https://swarmclaw.ai/docs/extension-tutorial 用于可视化代理团队、委派和实时活动的组织结构图。座席聊天具有持久的历史记录、工具和操作员控件。 - Node.js 22.6+（nvm 使用将
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-memory, agent-runtime, agent-swarm, agents, ai
+
+---
+
+### 🌟 [Awesome-Prediction-Market-Tools](https://github.com/aarora4/Awesome-Prediction-Market-Tools)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 551
+- **核心概述**: 预测市场工具的精选列表 - 人工智能代理、分析、API、仪表板、复制交易、警报、跟踪等等！
+- **大概是做什么的**: 很棒的预测市场工具最完整、由社区维护的预测市场工具目录 - 分析平台、交易机器人、仪表板、API、数据源、警报系统、教育资源等。涵盖 Polymarket、Kalshi、Manifold、Hyperliquid 以及更广泛的预测生态系统。欢迎请求请求 - 添加您的工具或改进列表！ Oddpool — 预测市场的彭博社。 Oddpool 汇集了 Polymarket 和 Kalshi 等平台的跨场地预测市场数据，包括实时赔率、点差、流动性、订单深度、套利机会和历史市场数据。它为交易者、量化分析师和研究人员提供实时源、分析仪表板和机构级数据集，以制定策略或分析预测市场微观结构。 👉 查看实时仪表板：https://www.oddpool.com - 📊 分析工具 - 🔹 套利工具 - 📚 教育资源 - 🏗️ 基础设施 - 🔹 投资组合跟踪 - Alphascope — 用于预测市场的人工智能驱动的市场情报引擎，提供实时信号、研究
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awesome-list, awesome-readme, kalshi, polymarket, prediction-market
+
+---
+
+### 🌟 [agnosticui](https://github.com/AgnosticUI/agnosticui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 819
+- **核心概述**: AgnosticUI Local (v2) 是一个基于 CLI 的 UI 组件库，可将组件直接复制到您的项目中。可与 AI 工具、代理驱动的 UI 和提示就绪的工作流程配合使用。
+- **大概是做什么的**: 复制源代码 拥有代码 与框架无关 专为人类和 AI 代理构建 一个组件库。每个框架。登录 AI Playbook · Onboarding AI Playbook · 仪表板 AI Playbook · 源优先架构 AgnosticUI 组件在安装时复制到您的项目中。它们位于您的存储库中（未隐藏在节点模块内）： - 对源代码的完全控制 - 与您的框架的本机集成 - AI 可读的高保真上下文 您拥有源代码（和上下文） 组件源代码直接位于您的项目中。可读、可编辑，属于您。默认情况下，组件位于 src/components/ag/ 下：一个专用的命名空间，使 AgnosticUI 组件与您自己的组件分开。如果您愿意，可以进行配置。 🤖 AI-Native by Design 因为代码是本地的，所以解决了传统库隐藏在节点模块中的“黑匣子”问题。光标·克劳德·副驾驶·风帆·辅助者·双子座·Replit·Kiro·反重力每个工具都看到原始来源。这为生成式 UI 和 Age 创建了一个高保真环境
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-skills, ai-agents, context-engineering, css, generative-ui
+
+---
+
+### 🌟 [skills](https://github.com/elevenlabs/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 354
+- **核心概述**: 使用 ElevenLabs 进行构建的技能集合
+- **大概是做什么的**: ElevenLabs 开发人员产品的代理技能。这些技能遵循代理技能规范，可与任何兼容的 AI 编码助手一起使用。 ------- ------------- 文本转语音 使用 ElevenLabs 的 AI 语音将文本转换为逼真的语音 语音转文本 将音频文件转录为带时间戳的文本 语音引擎 将实时语音对话添加到自定义 LLM 或聊天代理 构建会话语音 AI 代理声音效果 从文本描述音乐生成音效 使用 AI 合成变声器生成音乐曲目 将录音中的语音转换为不同的目标语音（语音转语音） voice-isolator 消除背景噪音并从音频中隔离人声/语音 setup-api-key 通过获取和配置 ElevenLabs API 密钥进行指南 所有技能都需要 ElevenLabs API 密钥。将其设置为环境变量：从 setup-api-key 技能获取 API 密钥或使用 ElevenLabs 仪表板。大多数技能包括以下示例： - Python - pip install Elevenlabs - JavaScript/TypeScript - npm install @elevenlabs/elevenlabs-js - cURL -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, elevenlabs, music, sfx, skills, stt
+
+---
+
+### 🌟 [restheart](https://github.com/SoftInstigate/restheart)
+- **项目语言**: Java
+- **星标数量**: ⭐ 879
+- **核心概述**: MongoDB 的代理就绪后端。
+- **大概是做什么的**: MongoDB RESTHeart 的代理就绪后端通过本机 MCP 服务器以及完整的 REST 和 GraphQL API 公开您的数据，因此 AI 代理和开发人员无需自定义集成代码即可读写。 RESTHeart 为 AI 代理和开发人员提供对 MongoDB 的即时、安全访问。它附带一个本机 MCP 服务器，任何 MCP 兼容的客户端（Claude、Claude Code、Cursor、VS Code）都可以直接连接到该服务器，此外还提供用于传统应用程序开发的完整 REST、GraphQL 和 WebSocket API。内置身份验证和授权、零后端样板以及在需要时用于自定义业务逻辑的插件框架。以 Docker 映像和 GraalVM 本机二进制文件形式提供。基于 Java 25、Undertow 和虚拟线程构建。 - MCP 服务器：本机模型上下文协议服务器。通过一行配置，将任何兼容 MCP 的 AI 客户端（Claude、Claude Code、Cursor、VS Code）直接连接到 MongoDB 数据。 - REST API：完整的 CRUD、聚合、过滤、排序、分页 - GraphQL：架构驱动的映射到 MongoDB 查询 - WebSocket：实时更改流和数据同步 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, data-persistence, database, docker, framework, graphql
+
+---
+
+### 🌟 [swarmvault](https://github.com/swarmclawai/swarmvault)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 591
+- **核心概述**: 本地优先的 LLM Wiki：开源知识图构建器、RAG 知识库和代理内存存储。基于 Andrej Karpathy 的模式构建。用于个人知识管理、人工智能第二大脑和持久的 Claude Code / Codex / OpenClaw 内存的黑曜石替代品。
+- **大概是做什么的**: 语言：英语 简体中文 日本语 本地首创的 LLM Wiki、知识图谱构建器和 AI 代理的 RAG 知识库。 SwarmVault 将文档、代码、成绩单、注释和 URL 转换为持久的 Markdown wiki 以及您可以检查、查询并交给代理的本地图表。从一个命令开始，然后在需要时学习更深入的图表、审查、上下文包和自动化工作流程。网站上的文档目前以英语为主。如果翻译之间的措辞发生变化，README.md 是规范来源。 30 秒内试用快速入门会初始化当前目录中的保管库，提取本地文件、目录或公共 GitHub 存储库，编译 wiki 和图表，写入共享工件，然后打开本地图表查看器。它是 swarmvault scan 的初学者友好别名。第一次编译后，最有用的下一个命令是： 不确定保管库处于什么状态？ swarmvault next 是只读的，会告诉您是否初始化、摄取、编译、查询、审查或刷新。首次运行不需要 API 密钥。内���启发式提供程序在本地和外部运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude-code, claude-code-memory, codex, karpathy
+
+---
+
 ## 🕔 2026-06-30 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
