@@ -1,3 +1,67 @@
+## 🕔 2026-06-30 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PhoneClaw](https://github.com/kellyvv/PhoneClaw)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,114
+- **核心概述**: 适用于 iPhone 的移动原生本地 AI 代理框架，具有完全离线的本地路径、设备上模型、原生 iOS 技能和可选的 Mac 网关推理
+- **大概是做什么的**: 完全离线优先的私人 iPhone AI Agent。 官网 · TestFlight · English · 报告问题 · 功能建议 核心能力 · 内置 Skill · 技术文章 · 快速开始 · Mac 远程 · 自定义 Skill · 常见问题 · 后续计划 PhoneClaw 是一个运行在 iPhone 上的本地私人 Agent。内置 Gemma 4 E2B / E4B（LiteRT）和 MiniCPM-V 4.6 多个本地模型，支持完全离线的端侧推理和 Skill 调用，联网搜索、网页读取和 Mac 远程推理由用户显式触发。 PhoneClaw for iPhone 是运行在 iOS 上的本地私人 AI Agent。基于 Gemma 4 E2B / E4B（LiteRT）和 MiniCPM-V 4.6，在端侧完成推理和 iOS 原生 Skill 调用，支持完全离线使用。 聊天、图片和个人数据（日历、提醒事项、通讯录、剪贴板、健康数据）默认留在 iPhone 设备端处理。联网搜索、打开网页和 Mac 远程推理是显式触发能力；配对 Mac 时请求会发到你那台 Mac——选 Ollama 留在本机；选 CLI 或其它上游 provider，则以对应 provider 的数据策略为准。 用自然语言完成：日历（创建事件、查询日程、忙闲分析）、提醒事项、通讯录（查询、保存、更新、删除）、剪贴板、健康数据摘要（步数、距离、卡路里、心率、睡眠、运动）、图片理解、语音与 LIVE 实时对话、灵动岛 LiveLand、翻译，以及明确需要时的联网搜索。 为什么说 PhoneClaw 是移动端 Agent 框架？ PhoneClaw 是面向移动���和端侧设备设计的 iPhone Agent 与 Agent 框架，围绕 iOS 的真实约束做了端侧优化：本地模型推理、移动端内存预算、模型下载与断点续传、Skill 路由、多轮工具调用、权限边界、Live / LiveLand 交互，以及可选的 Mac 局域网远程推理。它的核心价值是把本地模型、iOS 原生能力和手机交互入口组织成一个移动端 Agent 运行时。 - 新增 LiveLand ：可以在灵动岛里使用 PhoneClaw，本地 AI 会边听边理解你的指令，并把执行结果直接显示出来 - 可以从桌面小组件、锁屏小组件、快捷指令、控制中心小组件和 App 内入口启动 LiveLand，非 iOS 27 系统也可以体验 - 任务执行过程更清楚：你能看到 PhoneClaw 已接收指令、正在理解、正在查询或执行、正在整理结果、已完成 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, ai-agent, gemma, healthkit, ios, ios-agent
+
+---
+
+### 🌟 [bub](https://github.com/bubbuild/bub)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,528
+- **核心概述**: 布布吧。建造它。为与人们生活在一起的代理提供的钩子优先运行时。
+- **大概是做什么的**: 我们正在积极开发 0.4.0 版本。在此之前，请将 0.3.9 固定在 PyPI 或 e5d8ceb 上。为与人们生活在一起的代理提供的钩子优先运行时。 Bub 是一个小型 Python 运行时，用于在共享环境中构建代理。它始于群聊，多个人和代理必须在同一个对话中工作，没有隐藏状态、挥手记忆或特定于框架的魔法。 Bub 建立在 Agents.md 和 Agent Skills 的基础上，故意保持较小的规模。每个回合都是一个插入式钩子。包含内置但可替换。相同的运行时驱动 CLI、Telegram 以及您添加的任何频道。对于本地开发，请改用 make install，以便也安装网站工具链和 prek 挂钩。 - 钩子优先运行时。每个回合都是一个钩子。覆盖一个阶段或替换整个流程，而无需分叉运行时。 - 磁带上下文。上下文是从仅附加记录重建的，而不是作为可变会话状态进行携带。更容易检查、重播和移交。 - 一次跨表面运行。相同的入站管道跨 CLI、Telegram 和自定义渠道运行。适配器改变
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, ai-agents, aiagentframework, bub
+
+---
+
+### 🌟 [adhd](https://github.com/UditAkhourii/adhd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 897
+- **核心概述**: ADHD——编码代理的一项技能。带修剪的思想树，基于 Claude & Codex Agent SDK 构建。在不同的认知框架、分数、修剪陷阱下扇出平行的发散思维，加深幸存者。创造性和跨学科工作的简单技能。
+- **大概是做什么的**: ADHD — 智能体的一项技能 自回归推理中过早收敛的架构修复。线性思想链锚定它首先所说的内容。思想树扩大了搜索范围，但仍然遍历单个共享上下文，因此锚定在分支之间持续存在。 ADHD 将此视为一个架构问题，而不是一个提示问题——它在故意扭曲的认知框架下产生 N 个孤立的推理过程，在分歧期间共享上下文为零，然后运行一个单独的批评者通道来评分、聚类、修剪陷阱并加深幸存者。在设计决策、模糊调试、命名、API 表面设计、策略和任何形状提示“给我一些方法......”方面达到它。 📄 预印本：ADHD：编码代理的并行发散构想 · 👤 作者：Udit Akhouri — @akhouriudit · LinkedIn 并排：基线与 ADHD 一个评估问题，相同的模型，两种策略。完整的成绩单位于 bench/results.json 中。问题。 “我们有一个 CLI 调用 LLM，有时会挂起 90 秒。设计正确的重试/超时/UX 策略。” 🟦 基线（单次）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adhd, agents, ai, ai-agents, brainstorm, chain-of-thought
+
+---
+
+### 🌟 [paperjury](https://github.com/u7079256/paperjury)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 508
+- **核心概述**: 研究论文提交前人工智能审查压力测试。克劳德代码技能：审查、裁决、修改、验证。
+- **大概是做什么的**: 真正投稿前，先让 AI reviewer 把该挑的坑挑出来。 直接对 Claude Code 说：「审稿，重点看实验和 claim 是否站得住。」 📄 论文已上 arXiv，欢迎阅读和引用。 PaperJury: Due-Process Review for Bounded LaTeX Revision 🏆 Dogfood showcase · 🧑‍✈️ Agent Guide · 一篇真实草稿的完整多轮评审：仓库里放了 修改前后 PDF ，以及 人工核对过的运行报告 。先看样例，再决定要不要把自己的论文交给它挑刺。 PaperJury 是投稿前的自查工具， 不能替代作者的科学判断，也不能替代 peer review 。它不能用来编造实验、伪造结果、添加没有证据支撑的 claim，或掩盖论文局限。遇到需要新实验、缺证据、需要作者私有知识或研究判断的问题，它都会交回作者处理。 - 🎉 RedNote（小红书）里程碑： 相关分享已经达到 3 万浏览 、 1.8k 收藏 。感谢大家转发和收藏，也感谢大家把 PaperJury 推荐给更多正在赶论文、改论文的朋友。 - 📄 2026-06-15：PaperJury 论文已上 arXiv。 arXiv 页面： PaperJury: Due-Process Review for Bounded LaTeX Revision （arXiv:2606.16322）。论文系统介绍了「审稿 → 裁定 → 修改 → 复查」这套引擎：哪些事交给确定性脚本，哪些判断交给语义 agent；有争议的问题如何进入审议；不同风险的编辑该上什么护栏。 - 🔔 2026-06-10：v1.0.0 发布。 这是第一个稳定版，和 Codex 版 v1.0 对齐。新增软更新提醒：发现新的稳定 tag 时只提示，不打断当前工作。 - 🚀 2026-06-05：PaperJury 的 Codex 版已经推送。 入口在这里：paperjury-codex。 - 🧪 Dogfood sample 已加入。 仓库里放了一个紧凑的 dogfood sample：修改前后 PDF，以及人工核对过的运行报告。 如果 PaperJury 对你的研究或写作流程有帮助，可以引用这篇 arXiv 论文： 同一条目也放在 CITATION.bib 。 不需要背命令。PaperJury 会根据你的描述选择 direct-edit、review 或 auto 模式；真正落稿前，会先把补丁交给你确认。 PaperJury 以 Claude Code skill 的形式提供
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, ai-agents, claude-code, latex, llm-agents, paper-review
+
+---
+
+### 🌟 [chubbyskills](https://github.com/chubbyguan/chubbyskills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 494
+- **核心概述**: 把中文全渠道内容（抖音 / B站 / 小红书 / 公众号 / X / 播客）采集进个人知识库的 13 个 AI Skill：图文存图、视频转文字稿、字幕优先免 GPU，附带知识库 MCP server。 ｜ Ingest Chinese content into your personal knowledge base — image/video routing, subtitle-first transcription, and a KB MCP server.
+- **大概是做什么的**: 信息流会忘，知识库会记 —— 把全渠道好内容采集进你的第二大脑 我是 Chubby ，Ai+电商的探索者 平时做内容、搭个人知识库，也写一些 AI Agent / Skill 的实践。我习惯把每天刷到的好东西——视频、播客、公众号、小红书、推特——自动收进自己的知识库，让信息真正沉淀下来，而不是看完就忘。这个仓库里的工具，就是这套工作流里我自己每天在用的那几件。 都是在自己项目里跑通了一段时间，确实省事，才搬出来开源的。没什么花活，就是几个挺实用的东西。 这里的每个 Skill 都是 Agent 能直接加载的结构化指令集，遵循 Agent Skills 开放标准。Claude Code、Codex、OpenCode、OpenClaw、Hermes 都能装。 - 📥 全渠道采集 —— 抖音 / B站 / 小红书 / 公众号 / X / 播客 / YouTube，把链接丢进来就行 - 🎬 图文 / 视频自动分流 —— 图文笔记存图、视频笔记转成文字稿，不用你操心 - ⚡ 字幕优先，免 GPU —— YouTube / B站 有字幕时秒出文字，不必先装一堆模型 - 🧠 沉淀进知识库 —— 统一格式入 Obsidian，还带一个 MCP server，让任何 Agent 都能查你的库 - 🧩 每个 skill 独立可装 —— 只装你需要的那一个，纯图文 / 文字采集零依赖 一句话： 把中文全渠道的内容，变成你自己的、可检索的第二大脑。 - v0.2 reliability ：安装分档、CI、示例输出、���一 frontmatter 校验、失败提示更清晰 - v0.3 workflow ：把「识别链接 → 调用 skill → 可选加工 → 入库」串成一个命令 - v0.4 platform depth ：补 B站/YouTube 批量、公众号结构保真、小红书/X 手动 fallback 当前 README 已覆盖这三阶段的第一批能力；后续会继续补真实平台 smoke test 和更多平台深水区能力。 轻量模式可直接使用：公众号文章、X 图文、小红书图文、行业情报雷达、知识库健康检查、content-enrich。只有视频/播客转录才需要装重依赖。 统一输出协议要求每篇 Markdown 至少带这些 frontmatter 字段： title 、 type 、 platform 、 source 、 created 。 能力 平台/范围 默认依赖 关键限制 字幕优先转录 B站 / YouTube yt-dlp 有字幕时免模型；无字幕回退视频转录 视频转录 抖音 /
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, chinese, claude-code, knowledge-base, mcp
+
+---
+
+### 🌟 [denova](https://github.com/alfredxw/denova)
+- **项目语言**: Go
+- **星标数量**: ⭐ 399
+- **核心概述**: 一个用于小说写作和故事驱动游戏的人工智能创意平台，由人工智能代理、技能、子代理工作流程、自动化和版本化项目工作区提供支持。
+- **大概是做什么的**: Nova 是面向创作者的 AI-native 创作工作台：用写作模式管理小说创作，用游戏模式运行互动文字冒险，并把资料库、方案预设、上下文、版本与自动化留在同一个可持续迭代的 workspace 里 当前版本： v0.1.17 （2026-06-27） · Beta Nova 不是“输入提示词，生成一段正文”的一次性工具，而是为长期创作和互动娱乐准备的完整工作台。它把作品文件、Markdown 编辑、多 Tab、全局搜索、章节统计、结构化资料库、互动故事、Agent 工具调用和本地版本管理放在同一个 workspace 里，让小说创作和互动推进都能基于同一套长期资产持续迭代。 除了写自己的原创故事，Nova 也支持导入既有小说作为同人或改编起点，支持导入 AI 酒馆角色卡来快速建立互动预设。模型可见上下文会按来源和上限渐进式组织，资料库、文件片段、工具结果和历史展示彼此分离，避免把完整历史或全部设定无脑塞进下一轮模型输入。 - 写作模式 ：围绕小说创作组织作品文件、大纲、章节组细纲、进度、Markdown 编辑、多 Tab、全局搜索和章节统计。 - 创作 Agent ：读取选区、读取文件、引用资料库、调用工具，并在 chapters/ 下写入章节初稿。 - 章节插画 ：创作 Agent 可通过内置 chapter-illustration Skill 为当前或指定章节生成一张非剧透插画，保存到 assets/illustrations/ 后由作者手动插入 Markdown 正文。 - 结构化资料库 ：角色、世界观、地点、势力、规则、物品等长期设定可沉淀为可检索资料。 - 渐进式上下文 ：按来源、用途和大小上限组织模型上下文，避免无界注入历史、日志或完整设定。 - 游戏模式 ：围绕互动文字冒险游戏推进可游玩的故事分支、角色行动、场景记忆和故事线变化。 - 自定义故事记忆 ：支持为互动故事维护场景、故事线和自定义记忆字段，让长期游玩持续沉淀上下文。 - Memory Compact 与缓存优化 ：压缩长历史并稳定复用上下文，提高缓存命中率，降低持续创作的 token 成本。 - 版本管理 ：基于 go-git 保存、Diff、恢复、定时保存，并在 Agent 大量输出时自动保存。 - 写作 Skills 与 SubAgents ：内置 Lite / Standard / Heavy 写作 Skill Preset，默认 Lite；也可给不同 Agent 配置自定义技能、提示词、可用工具和文风。 - 自动化 ：支持定时任务、review、自动续写和自定义 Prompt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, ai-tools, ide, novel
+
+---
+
 ## 🕔 2026-06-30 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
