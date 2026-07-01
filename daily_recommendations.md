@@ -1,3 +1,67 @@
+## 🕔 2026-07-01 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GenieX](https://github.com/qualcomm/GenieX)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 8,115
+- **核心概述**: 只需几行代码即可在跨 NPU、GPU 和 CPU 的 Qualcomm 设备上本地运行前沿 LLM 和 VLM
+- **大概是做什么的**: 在 Qualcomm 设备上本地运行前沿 LLM 和 VLM 的最简单方法 文档·快速入门·模型·社区 GenieX 是适用于 Qualcomm 设备的设备上 Gen AI 推理运行时。从 Hugging Face 获取几乎所有 GGUF 模型，或者从 Qualcomm AI Hub 获取预编译包，并通过几行代码在 Hexagon NPU、Adreno GPU 或 CPU 上本地运行。底层有一个 C SDK，通过 CLI、Python、Kotlin/Java、Docker 和 OpenAI 兼容服务器公开。它是 Qualcomm GENIE 的社区版本。 GenieX 仅在 Qualcomm Snapdragon 上运行。找到您的平台，然后直接跳转到您要使用的界面。平台 示例设备 跳转到快速入门 🪟 Windows ARM64（计算） Snapdragon X · X Elite CLI · Python · 本地服务器 🤖 Android（移动） Snapdragon 8 Elite · 8 Elite Gen 5 Android SDK 🐧 Linux ARM64 (IoT) Dragonwing QCS9075 CLI · Docker · Python 手头没有设备？在 Qualcomm Device Cloud 上启动远程会话。在下面选择您的界面。每一个都遵循相同的三个步骤 - Install 、 Run 和 Docs - 并显示两个运行时：来自 Hu 的 GGUF 模型
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: gemma4, go, gpt-oss, granite4, hexagon, llama3
+
+---
+
+### 🌟 [chat-ui](https://github.com/huggingface/chat-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 10,792
+- **核心概述**: 为 HuggingChat 提供支持的开源代码库
+- **大概是做什么的**: LLM 的聊天界面。它是一个 SvelteKit 应用程序，为 hf.co/chat 上的 HuggingChat 应用程序提供支持。 3. 可选的 Docker Image Chat UI 仅通过 OPENAI BASE URL 和 /models 端点支持与 OpenAI 兼容的 API。特定于提供商的集成（旧版 MODELS env var、GGUF 发现、嵌入、网络搜索助手等）已被删除，但任何使用 OpenAI 协议的服务（llama.cpp 服务器、Ollama、OpenRouter 等）都将默认运行。旧版本仍然可以在旧分支上使用，聊天 UI 仅与 OpenAI 兼容的 API 进行交互。最快的运行方法是使用 Hugging Face Inference Providers 路由器以及您的个人 Hugging Face 访问令牌。步骤 1 – 创建 .env.local ：OPENAI API 密钥可以来自您计划调用的任何与 OpenAI 兼容的端点。选择与您的设置相匹配的组合并将值放入 .env.local 中： Provider 示例 OPENAI BASE URL 示例 key env --------------------------------------------------------- ---------------------------------- -------------------------------------------------------------------------- Hugging Face Inference Provider
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatgpt, hacktoberfest, huggingface, llm, svelte, svelte-kit
+
+---
+
+### 🌟 [genkit](https://github.com/genkit-ai/genkit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,160
+- **核心概述**: 用于使用 JavaScript、Go 和 Python 构建人工智能驱动的应用程序的开源框架，由 Google 在生产中构建和使用
+- **大概是做什么的**: Genkit 是一个开源框架，用于构建全栈人工智能驱动的应用程序，由 Google 的 Firebase 构建并在生产中使用。它为多种编程语言提供了 SDK，具有不同程度的稳定性： - JavaScript/TypeScript：生产就绪，具有完整功能支持 - Go：生产就绪，具有完整功能支持 - Python（测试版）：接近生产就绪的广泛功能支持 - Dart（预览版）：具有核心功能的早期开发 它提供了一个统一的接口，用于集成来自 Google、OpenAI、Anthropic、Ollama 等提供商的 AI 模型。使用适用于多模式内容、结构化输出、工具调用和代理工作流程的简化 API 快速构建和部署可投入生产的聊天机器人、自动化和推荐系统。只需几行代码即可开始：使用 Genkit 探索和构建 玩 AI 示例应用程序，并通过为它们提供支持的 Genkit 代码的可视化效果，无需您支付任何费用。通过示例探索 Genkit 广泛的 AI 模型支持 使用统一的界面与 Google 等提供商的数百个模型集成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, embedders, genkit, llm, multimodal
+
+---
+
+### 🌟 [solon](https://github.com/opensolon/solon)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,751
+- **核心概述**: 🔥全场景Java企业应用开发框架：克制、高效、开放、生态！！！并发性提高 700% 内存节省 50% 启动速度提高 10 倍。包装缩小90%；兼容java8~java25；支持 LTS。 （可更换弹簧）
+- **大概是做什么的**: 全场景Java企业应用开发框架 克制、高效、开放 https://solon.noear.org 语言：English 中文 Русский 日本语 并发量提升700% 内存节省50% 启动速度提升10倍。包装缩小90%；它还支持 java8 java25、本机运行时。从零开始打造，接口规格更加灵活，生态开放 特性描述 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 计算资源性价比更高 并发量提高 700%（techempower），节省 50% 内存 更快的开发效率 更快的开发效率 代码更少；易于上手；启动速度加快 10 倍（调试速度更快） 更好的生产和部署体验 包缩小 90% 更大范围的兼容性 非 java-ee 架构；还支持java8 java25、graalvm原生镜像 主代码仓库 代码仓库 说明 ------------------------------------------------------------------------------------------ -----
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aop-framework, ioc-framework, java, llm, mcp-server, microservice
+
+---
+
+### 🌟 [cv-santiago](https://github.com/santifer/cv-santiago)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 715
+- **核心概述**: 与人工智能聊天集成的交互式简历。使用 React 19、TypeScript、Claude API 构建。与我的人工智能头像聊聊我的经历。
+- **大概是做什么的**: :gb: English :es: Español 包含 AI 聊天机器人（文本 + 语音）、agentic RAG、71 个自动评估、LLMOps 仪表板和 6 层提示注入防御的交互式产品组合 静态 CV 不会显示您实际可以构建的内容。 PDF 列出了技能，但并不能证明这些技能。一个生产级交互式产品组合，展示了它所描述的技能：具有代理 RAG 的双模式 AI 聊天机器人（文本 + 语音）、具有自定义仪表板的完整 LLMOps 可观察性、作为 CI 门的 71 个自动评估、提示版本控制以及从生产故障生成测试的闭环。 - AI 聊天机器人“Santi” — 文本（Claude Sonnet）+ 语音（OpenAI Realtime API）。以圣地亚哥的第一人称回答。具有混合搜索 (pgvector + BM25) 和 Haiku 重新排名的 Agentic RAG - 6 层防御 - 关键字检测、金丝雀令牌、指纹识别、反提取、在线安全评分、对抗性红队。实时越狱电子邮件警报 - 71 个自动评估 - 10 个类别：事实准确性、角色、边界、质量、安全、语言、RAG 质量、多轮、来源徽章、语音质量。每次推送都会出现 CI 门 - LLMO
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, claude, langfuse, llm, llmops
+
+---
+
+### 🌟 [ai-dev-tools-zoomcamp](https://github.com/DataTalksClub/ai-dev-tools-zoomcamp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,136
+- **核心概述**: AI 开发工具 Zoomcamp 是一门免费课程，可帮助您使用 AI 工具更快地编写更好的代码。我们将于 2025 年 11 月 18 日开始第一批课程！在这里注册加入我们👇🏼
+- **大概是做什么的**: AI 开发工具 Zoomcamp：更快地编写更好的代码免费课程可帮助您使用 AI 工具更快地编写更好的代码。 course-ai-dev-tools-zoomcamp 频道 • Telegram 公告 • 注册 报名参加 2026 年课程 课程资料 GitHub 存储库 视频讲座 YouTube 播放列表 文档 Zoomcamp Logistics · AI 开发工具 Zoomcamp 课程平台 AI 开发工具 Zoomcamp 2026 Slack 频道 course-ai-dev-tools-zoomcamp 公告 Telegram AI 开发工具 Zoomcamp 是一门免费的实践课程，教您如何使用 AI 工具更快地编写更好的代码。您将与编码助理、代理、模型上下文协议、用于测试和 CI/CD 的 AI 以及低代码自动化一起工作，一路构建真实的项目。本课程适合任何想要使用人工智能工具帮助编码的人。您不需要任何人工智能经验即可开始，只需对在工作中使用人工智能工具的好奇心即可。 - 具备基本的编程能力（Python、JavaScript 或类似能力） - 无需具备使用 AI 工具的经验 如何学习课程 有两种方式学习课程：现场学习和自定进度。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automation, cicd, coding-agent, course
+
+---
+
 ## 🕔 2026-07-01 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
