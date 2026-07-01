@@ -1,3 +1,67 @@
+## 🕔 2026-07-01 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Photo-agents](https://github.com/jmerelnyc/Photo-agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 844
+- **核心概述**: 自主的自我进化代理。为操作计算机的法学硕士代理提供基于视觉的分层记忆和自写技能。
+- **大概是做什么的**: 自主的、自我进化的光代理。一个感知/推理/行动框架，用于照片感知代理，以您的方式操作您的计算机。 “100% 自主、自我进化的代理。”跳转至：关于·安装·运行·GUI 客户端·故障排除·常见问题解答 Photo Agents 正在构建下一代 LLM 驱动的代理，该代理以他们在屏幕上实际看到的内容为基础。我们不会像生物学那样对待记忆，而是将较长的聊天记录放入模型中并希望得到最好的结果。视觉输入。分层存���的绑定观察结果。代理自己写的技能来自真实的成功。此存储库中的包是实现该想法的运行时。它在本地运行，因此您可以保留屏幕、数据和密钥的所有权。 Photo Agents 是一个单一的 Python 包，它捆绑了： - 一个流代理循环，通过感知→原因→行动循环驱动任何工具调用 LLM。 - 多提供商 LLM 路由器，对 Anthropic Claude（本机）OpenAI GPT（本机）和 mixin 故障转移会话提供一流支持。 - 物理执行工具集：文件 I/O、沙盒代码执行（Python / Power
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, autonomous-agents, computer-use, llm, photo-agents
+
+---
+
+### 🌟 [aiden](https://github.com/taracodlabs/aiden)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 408
+- **核心概述**: Aiden - 自主人工智能代理，可根据提示操作您的计算机：浏览器控制、终端执行、工作流程、工具、恢复系统和持久内存。单独建造。 AGPL-3.0。
+- **大概是做什么的**: 自主 AI 引擎 — 本地优先、Windows 原生，您拥有 74 种技能 · 60 个工具 · 19 个提供商 · 9 个通道 · AGPL-3.0 https://github.com/user-attachments/assets/1081e5c5-f1ec-4980-b710-1640981ec58b 在您的计算机上运行的半自主 AI 代理。触及您的文件、浏览器和 shell。记住重要的事情。单独建造。开源。有些地方仍然很粗糙。 60 秒内尝试一下就是这样。选择一个提供商（Groq 是免费的且速度最快），粘贴您的密钥，然后开始聊天。想要自主触发器吗？将文件放入 /Documents/inbox/anything.txt 中，Aiden 就会对其进行操作。通过 aiden running list 可以看到代理轮次。 https://github.com/user-attachments/assets/7a66bc19-8b17-4b01-be85-3aa5945a1b3b Aiden 变得可检查、耐用，并最终正确传输。 - 在向导层恢复流媒体默认设置。对于全新安装，display.streaming 现在默认为 true — 恢复 v4.1.4 尝��但无法操作的内容，因为向导将旧的默认值写入了 config.yaml 。具有显式流式传输的现有用户： false 保留其设置并看到每次会话一次性
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentskills, ai, ai-agents, ai-os, ai-skills, ai-tools
+
+---
+
+### 🌟 [surf-cli](https://github.com/nicobailon/surf-cli)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 523
+- **核心概述**: 用于 AI 代理控制 Chrome 的 CLI。零配置、与代理无关、经过实战考验。
+- **大概是做什么的**: 用于 AI 代理控制 Chrome 的 CLI。零配置、与代理无关、经过实战考验。 v2.6.0 — AI Studio 支持（ surf aistudio 、 surf aistudio.build ）、Windows 支持、Helium 浏览器支持、环境变量覆盖。请参阅变更日志。 AI 代理的浏览器自动化比看起来更难。大多数工具都需要复杂的设置，将您与特定的人工智能提供商联系起来，或者在现实世界的页面上中断。 Surf 采用了不同的方法：与代理无关 - 通过 Unix 套接字的纯 CLI 命令。适用于 Claude Code、GPT、Gemini、Cursor、自定义代理、shell 脚本 - 任何可以运行命令的东西。零配置 - 安装扩展，运行命令。无需配置 MCP 服务器、无需中继进程、无需订阅。经过实战测试 - 通过对生产浏览器扩展进行逆向工程构建，并有条不紊地处理代理敌对页面（例如 Discord 设置）。当 CDP 失败时优雅地回退。智能默认值 - 屏幕截图自动调整大��至 1200 像素（节省令牌）。操作自动捕获屏幕截图（节省往返）。受限页面上的错误会发出警告而不是失败。无需 API 密钥的 AI - 查询 ChatGPT、Gemini、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, chrome, cli, devtools
+
+---
+
+### 🌟 [sim-use](https://github.com/lycorp-jp/sim-use)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 376
+- **核心概述**: 让您的 AI 代理在 iOS 模拟器和 Android 模拟器/设备上进行操作。
+- **大概是做什么的**: 使 AI 代理能够观察 iOS 模拟器和 Android 模拟器/设备屏幕并采取行动。观察 — 将任何屏幕变成法学硕士可以推理的高效令牌大纲： 行动 — 通过其别名点击任何元素，无需坐标：计划、编码、验证、交付 — 将此 CLI 教给您的代理，并缩小代理移动开发循环中的最后一个差距。让代理验证他们构建的内容，以便您可以专注于重要的事情。 sim-use 是一个跨平台 CLI，可通过单个命令界面驱动 Apple 的 Accessibility API、iOS Simulator HID 管道和 Android 的 AccessibilityService。它发出一个紧凑的、对代理友好的屏幕描述 ( ui ) 和一个别名缓存的点击快捷方式 ( 点击 @N )，因此 LLM 循环可以在每次往返几百毫秒内观察 → 操作。 - 观察 → 行动循环 观察 → 行动循环 每个交互都遵循相同的循环 - 观察、行动、验证：满足不同需求的多种选择器样式： 选择器示例 最适合 @N 别名点击 @9 速度 - 从上次 ui 点击设置缓存按钮稳定性 - 在布局更改后仍然存在 --label tap --label "常规
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, ai-development, android-emulator, ios-simulator, mobile-automation
+
+---
+
+### 🌟 [wikigraph](https://github.com/oomol-lab/wikigraph)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 323
+- **核心概述**: 将任何一本书精炼到书脊
+- **大概是做什么的**: =22.12.0" src="https://img.shields.io/badge/node-%3E%3D22.12.0-brightgreen" SpineDigest 是一个针对 AI 代理优化的知识库 CLI。它将 EPUB、Markdown 和纯文本导入 .wikg ，可以使用 LLM 提取知识图和摘要，然后将存档公开为可搜索、可浏览、可读、源支持、图形导航、上下文可打包的 LLM Wiki。它不是一次性的书籍到摘要转换器。摘要、EPUB、Markdown 和 JSON 输出是 .wikg 知识档案的投影。主要对象是 .wikg 本身：可以构建、维护、搜索和重用的便携式知识档案。探索 .wikg 档案有三种主要方法： - 搜索模式：使用搜索来发现可寻址的 URI。源、摘要、块、实体和三元组对象。 - 结构模式：使用 wkg://.../chapter/tree get --json 获取目录层次结构，然后使用列表或范围搜索来检查本地对象集合。 - 阅读模式：在选择相关对象后，使用 get 获取源、章节、摘要、块、实体或三元组 URI。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, jinja2, knowledge-graph, llm, sdpub
+
+---
+
+### 🌟 [startup-skill](https://github.com/ferdinandobons/startup-skill)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 512
+- **核心概述**: 用于初创企业验证、竞争情报和规划的人工智能代理技能
+- **大概是做什么的**: 一名价值 1 万美元的战略顾问将提供什么：市场研究、竞争性战斗卡、定位、财务预测和 30 天的行动计划。如果你的想法死了，它会告诉你。与 Claude Code 和任何支持技能的代理一起工作。网站：startupskill.me 最新版本：v1.10.0 欢迎贡献！打开 PR 或问题。技能 您获得的东西 ------- ------------- 启动设计 完整的启动策略：市场研究、客户发现、竞争分析、品牌、产品定义、财务预测和验证实验。 8 个阶段加上飞行前检查和客户访谈门，30 多个结构化交付成果。初创公司竞争对手 每个竞争对手的战斗卡、定价格局、功能矩阵和战略报告。根据真实评论、论坛、网络数据和经过审查的社交/社区源数据包（如果提供）构建。初创公司定位 使用 April Dunford 的框架进行市场定位。定位文档、竞争替代方案地图、市场类别分析和消息传递影响。初创公司推介 多种形式的投资者准备推介
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, battle-cards, claude-code, claude-skills, competitive-analysis, competitive-intelligence
+
+---
+
 ## 🕔 2026-07-01 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
