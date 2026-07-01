@@ -1,3 +1,67 @@
+## 🕔 2026-07-01 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [unity-mcp](https://github.com/CoplayDev/unity-mcp)
+- **项目语言**: C#
+- **星标数量**: ⭐ 11,195
+- **核心概述**: Unity MCP 充当 AI 助手和 Unity 编辑器之间的桥梁。为您提供 LLM 工具来管理资源、控制场景、编辑脚本以及在 Unity 中自动执行任务。
+- **大概是做什么的**: English 简体中文         Discord Wiki 由 Aura（Unreal & Unity 的 AI 助手）自豪地赞助和维护。不要错过 Godot AI，这是来自 MCP for Unity 制造商的新开源项目。使用法学硕士创建您的 Unity 应用程序。 MCP for Unity 通过模型上下文协议将 AI 助手（Claude、Codex、VS Code、本地 LLM 等）与 Unity 编辑器连接起来。为您的法学硕士提供管理资产、控制场景、编辑脚本、运行测试和自动化游戏开发工作流程的工具。 v10.0.0 (2026-06-30) v9.7.3 (2026-06-15) v9.7.1 (2026-05-24) v9.7.0 (2026-05-22) v9.6.8 (2026-04-27) 完整历史记录：发行说明。从任何 MCP 客户端以自然语言控制 Unity 编辑器 — 创建场景和游戏对象、编辑 C 脚本、管理资产、运行测试、配置文件和构建。 47 个专注的 MCP 工具入口点，任何客户端，免费且 MIT。浏览完整的工具目录 → 要求：Unity 2021.3 LTS → 6.x · Python 3.10+（通过 uv ）。可与任何 MCP 客户端配合使用 - Claude Desktop & Code、Cursor、VS Code、Windsurf、Cline、Gemini CLI 等。 1.安装——Unity→Package Ma
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-integration, anthropic, claude, copilot, cursor
+
+---
+
+### 🌟 [note-gen](https://github.com/codexu/note-gen)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 12,248
+- **核心概述**: 一款跨平台的 Markdown AI 笔记软件。
+- **大概是做什么的**: 先捕获，后组织。先捕获，后组织。 NoteGen 是一款开源、跨平台的笔记应用程序，可帮助您先捕获粗略信息，然后将其转化为结构化写作。它的工作原理就像一个应用程序中的捕获收件箱、Markdown 编辑器和 AI 助手。将分散的想法、录音、屏幕截图、图像、链接、文件和待办事项保存在一处。当您准备好时，让人工智能将这些原始记录组织成清晰的笔记、摘要、报告、文章或可重用的知识。 NoteGen 能做什么？ NoteGen 围绕一个简单的想法构建：不要强迫自己在想法出现时写出完美的笔记。 - 🧩 快速捕获任何内容：文本、语音、屏幕截图、图像、链接、文件和待办事项。 - 🧠 将杂乱的记录变成有组织的笔记：选择记录，选择模板，并生成结构化的 Markdown。 - ✍️ 在 AI 帮助后继续写作：使用表格、图表、数学、大纲、搜索和导出工具在 Markdown 编辑器中编辑结果。 - 💬 提出有关您自己的材料的问题：用笔记、记录和知识库内容聊天，而不是开始
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chatbot, knowledge-base, llm, markdown, mcp
+
+---
+
+### 🌟 [claude-code-tools](https://github.com/pchalasani/claude-code-tools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,881
+- **核心概述**: 适用于 Claude Code、Codex-CLI 和类似 CLI 编码代理的实用生产力工具。
+- **大概是做什么的**: CLI 工具、技能、代理、挂钩和插件，用于提高 Claude Code 和其他编码代理的工作效率。搜索引擎 ( aichat search ) 需要单独的 Rust 二进制文件： - Homebrew (macOS/Linux)：brew install pchalasani/tap/aichat-search - Cargo ：cargo install aichat-search - 预构建的二进制文件：（查找 rust-v ）安装 Claude 代码以获取钩子、技能和代理：单击卡片即可跳转到该功能，或阅读完整文档。旧链接 - 以下部分的存在是为了保留先前讨论中共享的链接。有关当前文档，请访问 aichat — 会话管理 请参阅完整文档中的 aichat。 tmux-cli — 终端自动化 请参阅完整文档中的 tmux-cli。请参阅完整文档中的语音。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, cli, cli-agent, code-agent, codex, codex-cli
+
+---
+
+### 🌟 [InferenceX](https://github.com/SemiAnalysisAI/InferenceX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,180
+- **核心概述**: 开源连续推理基准研究平台 — Kimi K2.7-Code、MiniMax M3、DeepSeekv4、GLM5 - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 & Soon™ TPUv6e/v7/Trainium2/3
+- **大概是做什么的**: InferenceX™，开源连续推理标准和研究平台，深受 OpenAI、Meta、Microsoft、Oracle 等万亿美元代币工厂运营商和 PyTorch Foundation、vLLM、SGLang、Tri Dao 等 ML 社区的信赖 - [2026/06] 🔥 MiniMax M3：从 Day 0 仪表板开始持续基准测试 - [2026/04] 🔥 DeepSeek V4 Pro 1.6T：连续基准测试自第 0 天文章、仪表板开始生效 - [2026/03] 🔥 Qwen3.5 397B：连续基准测试自第 0 天仪表板起生效 - [2026/03] 添加了 Kimi K2.5（与 Kimi 2.7 代码相同的架构）、GLM5（与 GLM5.1 相同的架构）和 MiniMax M2.5（与 MiniMax M2.7 相同的架构）仪表板 - [2026/02] GB300 NVL72：添加到 InferenceX 并持续进行基准测试 SGLang 维护者 Lmsys 博客 - [2026/02] 🔥 InferenceX v2 发布 — NVIDIA Blackwell vs AMD vs Hopper 文章 - [2025/10] 🔥 InferenceX（以前称为 InferenceMAX）v1 发布文章 InferenceX™（以前称为 InferenceMAX）是一个致力于持续分析的推理性能研究平台& 对主要代币使用的世界上最流行的开源推理框架进行基准测试
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, amd, benchmark, cuda, deepseek, gb200
+
+---
+
+### 🌟 [tt-metal](https://github.com/tenstorrent/tt-metal)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,557
+- **核心概述**: :metal：TT-NN 算子库和 TT-Metalium 低级内核编程模型。
+- **大概是做什么的**: 硬件安装 Discord 加入我们赏金 $ TT-NN 是一个 Python 和 C++ 神经网络 OP 库。 API 参考模型演示 模型团队专注于开发以下模型，并优化它们的性能、准确性和兼容性。请点击每个型号的链接了解更多详细信息。有关完整的模型列表，请参阅模型矩阵，或访问开发人员中心。性能指标： - 第一个令牌时间 (TTFT) 测量收到输入后生成第一个输出令牌所需的时间（以毫秒为单位）。 - T/S/U（每个用户每秒的令牌数）：表示预填充后生成第一个令牌的吞吐量。它的计算方式为 1 / 令牌间延迟。 - T/S（每秒令牌数）：表示总令牌吞吐量，计算公式为 T/S = T/S/U x 批量大小。 - TP（张量并行）和DP（数据并行）：指示跨多个设备的并行化因子。 - 报告的 LLM 表现：基于所有模型的 128 个标记的输入序列长度。 - 性能数据源：使用 tt-metal 模型演示（上面链接）收集指标。使用其他 ru 时结果可能会有所不同
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: accelerator, ai, cuda, deepseek, gpu, img-gen
+
+---
+
+### 🌟 [TauriTavern](https://github.com/Darkatse/TauriTavern)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 809
+- **核心概述**: 经典的 Sillytavern，现在已用 Tauri/Rust 重写。
+- **大概是做什么的**: TauriTavern 将 SillyTavern 移植为基于 Tauri v2 + Rust 后端的原生应用，同时保留上游前端体验。前端已同步至 SillyTavern 1.18.0，并通过模块化的 Tauri 注入层进行集成。 - 基于 Tauri v2 的原生桌面运行时，支持 Windows、macOS、Linux - 前端兼容 SillyTavern 1.18.0 - 支持多种 Chat Completion 提供商：OpenAI、Claude、Gemini（MakerSuite）以及自定义 OpenAI 兼容端点 - 模块化请求注入管线（ src/tauri/main/ ），并收敛为可维护的 Host Kernel 分层（ context/kernel/services/adapters/routes ） - 平台 ABI： window. TAURITAVERN （小而稳定的宿主对外接口）+ 请求追踪 header： x-tauritavern-trace-id - 工程守护：严格类型检查（ tsc -p tsconfig.host.json ）+ guardrails（依赖边界/行数预算/路由禁止引用 window ） - 统一的前端引导管线，无需运行时加载器间接层 - presentation ：Tauri 命令与 API 边界层 - application ：用例/服务与 DTO 编排层 - domain ：核心模型、契约、错误定义 - infrastructure ：文件持久化、仓储实现、日志 - 上游 SillyTavern 前端代码（HTML/CSS/JS） - Tauri 桥接与拦截层，将 HTTP 请求替换为本地 Tauri 命令调用 1. src/init.js 依次加载 lib.js → tauri-main.js → script.js 2. src/lib.js 静态导入 src/dist/lib.core.bundle.js 并导出稳定的 ESM 库接口（重/可选库通过 getHljs()/getReadability() 动态加载 src/dist/lib.optional.bundle.js ） 3. src/tauri-main.js 委托给 bootstrapTauriMain() 4. src/tauri/main/bootstrap.js 创建上下文/路由/拦截器，安装 window. TAURITAVERN 平台 ABI，并为宿主接管路由注入追踪 header - pnpm run tauri:build:po
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, rust, sillytavern, tauri, tauri-app
+
+---
+
 ## 🕔 2026-06-30 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
