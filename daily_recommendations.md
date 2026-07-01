@@ -1,3 +1,67 @@
+## 🕔 2026-07-01 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AReaL](https://github.com/areal-project/AReaL)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,338
+- **核心概述**: 用于基于 LLM 的代理应用程序的 RL Bridge。变得简单且灵活。
+- **大概是做什么的**: AReaL：大规模异步强化学习系统论文文档中文文档 Ask DeepWiki 🤗 模型和数据 AReaL 是一个强化学习 (RL) 基础设施，旨在将基础模型训练与现代基于代理的应用程序联系起来。它最初是由清华大学研究院和蚂蚁集团 AReaL 团队的研究人员和工程师开发的。 AReaL 基于完全异步的 RL 训练范例构建，针对效率和可扩展性进行了优化，使其特别适合训练大规模推理和代理模型。 AReaL 的使命是让广大开发人员和研究人员社区能够轻松、高效且经济高效地构建 AI 代理。就像奶茶一样——可定制、可扩展、令人愉悦——我们希望 AReaL 为您的 AI 开发体验带来灵活性和愉悦感。干杯! - ⚡ 灵活性：只需替换基本 URL，即可无缝定制黑盒代理应用程序。 - 📈 可扩展性：行业领先的稳定的完全异步 RL 训练 - ✨ 尖端性能：最先进的数学、cus
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llm, llm-agent, llm-reasoning, machine-learning-systems, mlsys
+
+---
+
+### 🌟 [Decepticon](https://github.com/PurpleAILAB/Decepticon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,545
+- **核心概述**: 红队自主黑客代理
+- **大概是做什么的**: 霸天虎 — 自主红队特工“另一个 AI 黑客？让我们猜猜 — 它运行 nmap 并编写报告。” ☁️ 不想自行托管？霸天虎在云端运行。跳过 Docker 设置 - 直接从浏览器运行自主红队活动。先决条件：Docker 和 Docker Compose v2。在 macOS (Apple Silicon + Intel)、Linux (amd64 + arm64) 和 Windows (amd64 + arm64) 上受支持 - 通过 PowerShell 或通过 WSL2 (Ubuntu / Kali) 原生支持。 macOS / Linux / WSL2 ��认启动会调出核心管理平面（LiteLLM、PostgreSQL、Neo4j、Skillogy、LangGraph、沙箱）并启动终端 CLI。专业工作负载（BloodHound CE、Sliver C2、Ghidra MCP 等）和 Web 仪表板按需出现 - 编排器通过 ops start("ad") 等生成专家，然后您可以使用 /web 从 CLI 内部调出仪表板（请参阅 Web 仪表板）。 Windows（PowerShell、本机）→ 快速入门 · 完整设置演练 用作库 (pip) 构建在代理之上 - 产品、研究集成还是自定义编排器？从 PyPI 安装 SDK：霸天虎是客户端 SDK
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cybersecurity, generative-ai, hacking, langchain
+
+---
+
+### 🌟 [rig](https://github.com/0xPlaygrounds/rig)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 7,795
+- **核心概述**: ⚙️🦀 使用 Rust 构建模块化且可扩展的 LLM 应用程序
+- **大概是做什么的**:   •     •     •     •   ✨ 如果您想帮助宣传 Rig，请考虑为该存储库加注星标！这里有龙！由于我们计划在接下来的几个月内发布大量功能，因此未来的更新将包含重大更改。随着 Rig 的发展，我们将在遇到变化时对其进行注释并突出显示迁移路径。 Rig 是一个 Rust 库，用于构建可扩展、模块化且符合人体工程学的 LLM 驱动的应用程序。有关此 crate 的更多信息可以在官方和 crate API ���考文档中找到。 - 可以处理多轮流和提示的代理工作流程 - 完全 GenAI 语义约定兼容性 - 20 多个模型提供程序，全部在一个单一的统一界面下 - 10 多个向量存储集成，全部在一个单一的统一界面下 - 完全支持 LLM 完成和嵌入工作流程 - 支持转录、音频生成和图像生成模型功能 - 以最少的样板将 LLM 集成到您的应用程序中 - 完全 WASM 兼容性（核心）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, artificial-intelligence, automation, generative-ai, large-language-model
+
+---
+
+### 🌟 [beatai](https://github.com/genesislab-io/beatai)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 4,685
+- **核心概述**: 不玩晦涩不搞少数派的 AI 入门圣经，从学生到工程师都能轻松掌握。涵盖神经网络到大模型、顶层设计到微观原理、工程实现到算法基础。 学完后，大家能彻底看懂为什么下一 token 预测这个看似不起眼的能力可以改变世界，也能发现原来 AI 并没有想象中那么神秘、那么高不可攀。 Let's just beat it !
+- **大概是做什么的**: 市场部的某位员工在分析工具中输入了一个问题：“上个季度，DACH 地区的企业收入为何下降？” - 模型蒸馏指南：压缩 LLM 以提高边缘效率 掌握模型蒸馏的工作原理，并在 Llama 3 等 LLM 上动手实现。 - 理解 Transformer（第一部分）：为什么 RNN 几乎不可能训练 本文将逐步讲解循环神经网络的工作原理以及导致其失效的数学原理。 - 理解 Transformer（第二部分）：LSTM 如何（基本）修复循环神经网络 逐步解析 LSTM 单元、其巧妙的门控系统，以及它最终如何使序列学习得以实现。 - 理解 Transformer（第三部分）：位置编码和词嵌入 为什么位置很重要？正弦波和余弦波如何拯救了 Transformer - 关于 LLM 能力和局限性的 5 个思考 关于 LLM 的根本局限，存在不同的观点。 - “理解 Transformer（第四部分）：注意力不过是几个矩阵” 简单的矩阵运算如何揭示上下文、意义以及现代人工智能背后的奥秘。 - “Claude Cowork 101：从提示到交付成果和自动化工作流程” 大多数人将 Claude 用作聊天机器人：他们提出问题，上传几个文件，得到答案，然后继续进行其他操作。 这很有用，但这却使 Claude 桌面工作流程的很大一部分功能没有得到充分利用。 - Nemotron 3：NVIDIA 最新 LLM 简明解读 LatentMoE、1M 上下文、强化学习和 NVIDIA 开放模型策略的简要概述 - ��驾驭工程：2026 年每位人工智能工程师都需要了解的知识》 三个阵营，三种架构——而 Opus 4.7 刚刚证明了这一切。 第一个问题是：“这是真的吗？”它会成为一种从根本上重塑社会和商业运作方式的范式，还是只是一时的风潮——远看气势磅礴，但很快就会悄然消退？ 无需人工投入即可提升提示质量的实用技巧…… - Claude Code 插件完全指南 深入剖析 Claude Code 的插件系统，包括插件概念、安装和使用、市场、局限性以及与其他 Coding Agent 插件系统的比较。 - 当数据出现异常时：营销人员异常检测指南 上周我发布了《营销人员机器学习实战指南》，涵盖了许多营销领域最常用的机器学习（ML）算法。一位读者指出，我只简单提及了异常检测，并强调它是营销分析中最有用（也最容易被忽视）的工具之一。我同意这一点，所以今天就来补上。 - Claude 动态工作流：通过编排扩展复杂工作 深入探究 Claude 的多智能体编排框架 - AI 让市场推广团队更快，却也更困惑、更烧钱 人工智
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-learning, engineering, llm, neural-network, transformer
+
+---
+
+### 🌟 [Proma](https://github.com/proma-ai/Proma)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,437
+- **核心概述**: 把最丝滑的通用 Agent 体验带进你的工作流，为 100x 专业用户而生的未来产品，正在实现 proactive Agent 阶段。基于 Claude Agent SDK 的完整开源实践，原生支持飞书群聊调用、灵活接入任意大模型供应商 —— 让顶级 Agent 能力真正跑在你每天用的地方。
+- **大概是做什么的**: Proma 是一个本地优先的 AI 桌面应用，把多模型 Chat、通用 Agent、工作区、Skills、MCP、远程机器人和记忆能力放在同一个开源客户端里。 它不是只面向闲聊的聊天框，而是一个可以长期沉淀个人工作流的 Agent 工作台：简单问题用 Chat，复杂任务交给 Agent，数据和配置尽量留在本地。 English README 新手教程 下载开源版 下载商业版 最新思考 ｜ 2026 Q2–Q3 ：勇敢地解决真实的问题 — Proactive · 个人注意力 · 团队协作 ｜ 往期思考：2026 Q1 - Chat 模式 ：多模型对话、附件解析、图片输入、Markdown / Mermaid / KaTeX / 代码高亮、并排对话、系统提示词、上下文管理。 - Agent 模式 ：基于 @anthropic-ai/claude-agent-sdk 的通用 Agent，支持工作区隔离、权限模式、文件操作、长任务流式输出、计划确认和用户追问。 - SubAgent / Tasks ：复杂任务可以通过 Claude Agent SDK 的 Agent 工具拆分为子 Agent / Task，并在消息流中展示调用过程和结果。 - Skills & MCP ：每个工作区可以独立配置 Skills、MCP Server 和工作区文件，适合沉淀可复用能力。 - 远程机器人 ：支持飞书 / Lark 机器人桥接，并已提供钉钉、微信桥接入口，用手机或群聊触发本机 Agent 工作流。 - 记忆与工具 ：Chat 和 Agent 可共享记忆能力，并支持联网搜索、内置 Chat 工具、Agent 推荐等辅助能力。 - 本地优先 ：会话、工作区、附件、配置、Skills 等默认存储在 /.proma/ ，使用 JSON / JSONL 文件组织，不依赖本地数据库。 - 桌面体验 ：自动更新、代理设置、文件预览、全局快捷键、快速任务窗口、语音输入、亮色 / 暗色 / 跟随系统主题。 从 GitHub Releases 下载开源版本。当前 release notes 以 v0.9.12 为准，提供 macOS Apple Silicon、macOS Intel 和 Windows 安装包。 如果你希望开箱即用、减少 API 配置成本，也可以使用 Proma 商业版。商业版和开源版并行运行，主要区别是商业版提供内置渠道和订阅方案。 1. 打开 Proma，先完成环境检查。Agent 模式依赖本机基础环境，尤其是 Git、Node.js / Bun 以及可用的 Shell。 2.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-sdk, agents, chatbot, chatgpt, claude
+
+---
+
+### 🌟 [spec_driven_develop](https://github.com/zhu1090093659/spec_driven_develop)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 912
+- **核心概述**: AI 编码代理的规范驱动开发工作流程：架构优先规划、任务分解、GitHub 问题/PR 跟踪、深度讨论以及 Claude Code、Codex、Cursor 和其他支持 Markdown 的代理的自适应控制。
+- **大概是做什么的**: 规范驱动开发：AI 编码代理的规范驱动开发 用于 AI 编码代理的架构优先工作流程插件。纯降价。 Claude Code、Codex、OpenCode、Cursor 以及任何读取自定义技能的代理。规范驱动开发是用于 AI 编码代理的开源、与平台无关的工作流程。它将大型软件变更转变为规范驱动的循环：项目分析、任务分解、GitHub Issue/PR 跟踪、进度连续性以及受钱学森工程控制论启发的自适应控制。该存储库提供���两种互补的 Markdown 技能： - 规范驱动开发 — 自动执行大规模复杂任务的完整开发流程：深度项目分析、分阶段任务分解、文档驱动的进度跟踪以及单个会话中的执行。 - 深度讨论——结构化的深度讨论工作流程，通过严格的多阶段思维进行问题分析、集思广益和解决方案设计。没有 SDK。没有运行时间。没有依赖性。只是任何 AI 编码代理都可以读取和执行的 Markdown 文件。 - LLM友好总结 - 深入讨论 - 结构
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assisted-development, ai-coding-assistant, claude-code, codex, cursor
+
+---
+
 ## 🕔 2026-07-01 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
