@@ -1,3 +1,67 @@
+## 🕔 2026-07-01 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 4,246
+- **核心概述**: 🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对
+- **大概是做什么的**: Guizang Social Card Skill · 小红书图文 / 公众号封面对 一个适配 Claude Code / Codex 等 Agent 环境的图文卡片技能,用于从文章、文案、截图、产品笔记、字幕、照片或用户视频生成 小红书 / Rednote 图文组图 、 Live Photo 动态卡 与 公众号 21:9 + 1:1 封面对 。 - 电子杂志风(Editorial) 。像 Monocle / Kinfolk / Cereal 那样克制的版面,适合叙事、生活方式、旅行、阅读、影视、个人观察。 - 瑞士国际主义(Swiss) 。网格、单一锚点色、直角发丝线、极致字号对比,适合产品测评、数据、方法论、教程、AI 工具。 这个 Skill 是 guizang-ppt-skill 的姊妹项目,共享美学语言但独立维护。PPT 解决"横向翻页演讲",这里解决"静态信息流图文"。 也可以直接把这段话发给有 shell 权限的 AI Agent: - 🖋 双视觉系统 :电子杂志风做氛围与叙事,瑞士风做事实与结构,两套共用同一份工作流 - 📐 3 个画板尺寸 : .poster.xhs 1080×1440(小红书 3:4)、 .poster.wide 2100×900(公众号 21:9)、 .poster.square 1080×1080(公众号 1:1) - 🎬 Live Photo 动态卡 :支持单视频、二宫格、三宫格、四宫格、三连拼图、长视频低成本诊断;小红书按 5s ,微信公众号文章内按 3s - 🧩 28 个版式骨架 :Editorial 16 个( M01-M16 ,含 Image-Led Cover、Pipeline、Before/After 等)+ Swiss 12 个( S01-S12 ,含 KPI Tower、H-Bar Chart、Matrix + Hero 等) - 🎨 10 套主题预设 :Editorial 6 套(墨水经典、靛蓝瓷、森林墨、牛皮纸、沙丘、 Midnight Ink 暗色)+ Swiss 4 套锚点色(IKB Klein Blue、柠檬黄、柠檬绿、安全橙) - 🖼 图源工作流 :用户图优先;无图时按 Unsplash → Pexels → Flickr CC → Wallhaven → 直接搜索的优先级取图,落本地 + 自动写 SOURCES.md - 🌫 WebGL 墨流背景 :杂志风 hero 页可挂动态墨流;低性能或截图时可禁用 - 🪧 文字压图 + 主体避让 :满铺图先做 quiet-zone 与主
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, anthropic, claude-code, claude-skill, codex
+
+---
+
+### 🌟 [Awesome-AI-Agents-for-Healthcare](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,110
+- **核心概述**: Agentic AI 和医疗保健 AI 代理的最新进展
+- **大概是做什么的**: Awesome AI Agents for Healthcare 该存储库是与 Agentic AI / AI 代理在医疗保健中的应用相关的研究论文、项目和资源的精选列表，包括医学图像分析、EHR 操作、咨询、药物发现、患者对话和医疗保健管理。 AI 代理是指通常通过使用大型语言模型 (LLM)、多代理系统和工具集成来自主执行任务、做出决策并与环境交互的人工智能系统。 1. 下图介绍了一个全面的概念框架。它提供了一个整体视图，详细介绍了从初始数据感知和基本代理功能到分层应用程序生态系��的管道。 2. 我们对最近的学术文献进行了定量分析，主要发现如下图所示。该分析提供了该领域的增长轨迹、技术基础和应用热点的数据驱动快照： 主要数据模式：文本数据仍然是最常用的数据
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, healthcare-agents, medical-agents
+
+---
+
+### 🌟 [macro](https://github.com/macro-inc/macro)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 304
+- **核心概述**: Macro 是电子邮件、消息、任务、呼叫、代理、拉取请求、文档、crm 的统一界面，与共享 AI 内存链接在一起。
+- **大概是做什么的**: Macro是团队的统一系统。我们为我们的初创公司构建了它。将电子邮件、任务、呼叫、消息、代理、文档、图表和 CRM 集中在一处 — 与团队级内存@链接在一起。取代 Slack、Linear、Notion、HubSpot 和 Super human。或者与他们融为一体。我们构建 Macro 是因为我们想要一个统一的系统。好的产品有很多，但没有一个能协同工作。因此，我们从头开始重建���切，从第一原则开始，用 SolidJS 和 Rust 来共同工作。我们已经对其进行了两年的测试，现在我们已将其开放，以便您也可以使用它。注册 · 预订演示 · 阅读文档 电子邮件的灵感来自超人，具有更好的人工智能。受 Linear 启发的任务，深度集成到渠道中。像 Slack 这样的频道，具有 Reddit 风格的线程，用于集中技术讨论。人工智能可以将随机 ping 与重要的 ping 分开。 “有效”的 CRM。视频通话记录到团队级内存中。一个统一的收件箱，将所有这些内容集中在一个地方，等等。对于每个模块，我们都研究了最好的现有技术并试图使其变得更好。每个块都有自己的页面
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, all-in-one, crm, crm-system
+
+---
+
+### 🌟 [Emergence-World](https://github.com/EmergenceAI/Emergence-World)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 514
+- **核心概述**: 新兴世界：一个旨在揭示任何基准都无法揭示的世界：新兴智能。
+- **大概是做什么的**: 一个持久的、生动的世界，自主人工智能代理在真实的约束和真实的后果下构建、管理和发展。没有脚本。没有重置。没有固定的结果。 🔬 仅研究许可证该存储库（包括所有文档、代理配置文件、地标、工具目录、治理文档和数据集）仅在 CC BY-NC 4.0 下发布用于非商业研究和教育用途。您可以：阅读、引用、共享和改编这些材料以用于非商业研究，前提是您明确注明 Emergence AI 的归属（链接此存储库并指出任何更改）。您不得： 将材料用于任何商业目的，或使用任何内容或数据集来训练、微调、评估或基准化 AI/ML 模型以用于商业目的。所有内容均为 Emergence AI 专有。如需商业许可或模型训练查询，请联系 world@emergence.ai。请参阅许可证了解完整条款和所需的归属格式。什么是新兴世界？ Emergence World 是一项长期实验，它将自主人工智能���理置于一个持久的、模拟的世界中——并且令人着迷
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, simulation
+
+---
+
+### 🌟 [mega](https://github.com/gitmono-dev/mega)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 493
+- **核心概述**: Mega 是 Google Piper 的开源实现 - 一个为 AI Agent 时代构建的与 Git 兼容的 monorepo 引擎。
+- **大概是做什么的**: Mega — AI Agent 时代的 Monorepo 基础设施 Mega 是 Google Piper 的开源实现 — Google Piper 是一个为 AI 原生工程工作流程而构建的与 Git 兼容的 monorepo 引擎。 Mega 完全用 Rust 编写，旨在管理 PB 级代码库，同时充当 AI 编码代理的基础设施骨干。人工智能编码代理正在成为软件工程的一流参与者。但今天的版本控制系统是为在孤立分支中工作的人类开发人员设计的——它们缺乏代理大规模可靠运行所需的统一上下文、结构化元数据和编程接口。 Monorepos 解决了上下文问题。当代理可以看到整个代码库（依赖项、下游消费者、构建目标和测试覆盖率）时，它会做出更好的决策，产生更少的幻觉，并在一次提交中提供原子跨项目更改。 Mega 将 Google 规模的 monorepo 基础设施带入开源世界，专为代理未来而构建。 Mega + Libra：代理的版本控制 Mega 与我们的 Libra 合作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-infrastructure, ai, ai-agents, buck2, decentralised
+
+---
+
+### 🌟 [network-sketcher](https://github.com/cisco-open/network-sketcher)
+- **项目语言**: Python
+- **星标数量**: ⭐ 367
+- **核心概述**: Network Sketcher 是一款支持 AI 的网络设计工具，具有本地 MCP、在线和离线版本，用于创建网络设计以及导出 PowerPoint 图表和基于 Excel 的配置数据。
+- **大概是做什么的**: Network Sketcher 是一款人工智能原生网络设计和绘图工具。它根据结构化网络数据和自然语言工作流程生成 L1/L2/L3 拓扑图、设备表和 AI 就绪上下文文件。对于 MCP 用户，Network Sketcher Local MCP 允许 Cursor 和 Claude Code 等 LLM 客户端通过模型上下文协议工具调用直接设计 Cisco 风格的网络。它通过 stdio 在本地运行，将主文件保存在您的计算机上，并生成 SVG / PowerPoint 图表以及 HTML 设备表。 Discovery：Network Sketcher Local MCP 已在 LobeHub MCP 插件市场上列出，并在 Remote OpenClaw 上的 AI 和 ML MCP 服务器类别中排名。如果 Network Sketcher 对您的工作流程有帮助，请考虑为存储库加注星标。 - 通过 AI 对话构建 5 站点 WAN 或园区 LAN 设计 - 生成 L1 物理、L2 VLAN/广播域和 L3 IP 拓扑图 - 导出组合的 L1/L2/L3 HTML 查看器和交互式设备表 - 创建 AI 上下文文件，以便其他法学硕士可以审查或扩展网络设计 快速入门：三步本地 MCP 最快速的方法
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, cisco, claude-code, cursor, mcp-server, model-context-protocol
+
+---
+
 ## 🕔 2026-07-01 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
