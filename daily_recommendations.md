@@ -1,3 +1,67 @@
+## 🕔 2026-07-02 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [apfel](https://github.com/Arthur-Ficial/apfel)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 5,897
+- **核心概述**: 免费的 AI 已在您的 Mac 上。 CLI 工具、OpenAI 兼容服务器和交互式聊天 - 全部通过 Apple Intelligence 在设备上实现。没有 API 密钥、没有云、没有下载。
+- **大概是做什么的**: 免费的 AI 已在您的 Mac 上。 Apple Silicon Mac 通过 Apple FoundationModels 提供内置 LLM。 apfel 将其公开为 UNIX 工具和本地 OpenAI 兼容服务器。 100% 在设备上。没有 API 密钥，没有云。模式命令 你得到的 ------ --------- -------------- UNIX 工具 apfel "prompt" / echo "text" \ apfel 管道友好的答案、文件附件、JSON 输出、退出代码 OpenAI 兼容服务器 apfel --serve 插入 OpenAI SDK 的本地 http://localhost:11434/v1 后端 apfel --chat - 交互式 REPL。工具调用适用于所有上下文。 4096-令牌上下文。要求和安装 macOS 26 Tahoe+、Apple Silicon (M1+)、启用 Apple Intelligence。 Nix，当天水龙头，Mint，mise，故障排除：docs/install.md。报价提示带有 !用单引号括起来（zsh/bash 历史扩展）： apfel 'Hello, Mac!' 。 OpenAI 兼容服务器后台服务详细信息：docs/background-service.md。 apfel --chat 是一个用于测试提示或 MCP 服务器的小型 REPL。对于 GUI 聊天应用程序，请参阅 apfel-chat。 Ctrl-C 退出。上下文会自动修剪（docs/context-strategies.md）。真实世界的 shell 脚本
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: apple-intelligence, apple-silicon, cli, foundationmodels, homebrew, llm
+
+---
+
+### 🌟 [NarratoAI](https://github.com/linyqh/NarratoAI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,106
+- **核心概述**: 利用AI大模型，一键解说并剪辑视频； Using AI models to automatically provide commentary and edit videos with a single click.
+- **大概是做什么的**: 一站式 AI 影视解说+自动化剪辑工具🎬🎞️ 📖 English 简体中文 ☁️ 云端版入口 (NarratoAI.cn) 🔥 隆重推荐：VibeCut 的新范式 —— speclip.com 一个真正意义上的视频剪辑 Agent！像聊天(vibecoding)一样剪辑视频。 NarratoAI 是一款自动化影视解说工具，基于 LLM 实现文案撰写、自动化视频剪辑、配音和字幕生成的一站式流程，助力高效内容创作。支持本地部署开源版及 云端托管版。 💬 加入开源社群，获取项目动态和最新资讯 - 2026.07.02 发布新版本 0.8.4，升级豆包语音 TTS 新版 API Key 配置并保留旧版凭据兼容 - 2026.06.10 发布新版本 0.8.1， 大版本更新 ，优化多个核心流程 - 2026.04.27 发布新版本 0.7.9，新增 Fun-ASR一键转录字幕 - 2026.04.03 发布新版本 0.7.8，重构纪录片逐帧分析链路，统一共享服务并优化抽帧、缓存、视觉并发与文案生成流程 - 2026.03.27 发布新版本 0.7.7，出于安全考虑，已移除 LiteLLM 依赖，统一使用 OpenAI 兼容请求链路 - 2025.11.20 发布新版本 0.7.5，新增 IndexTTS-1.5 语音克隆支持 - 2025.10.15 发布新版本 0.7.3，升级大模型供应商管理能力 - 2025.09.10 发布新版本 0.7.2，新增腾讯云tts - 2025.08.18 发布新版本 0.7.1，支持 语音克隆 和 最新大模型 - 2025.05.11 发布新版本 0.6.0，支持 短剧解说 和 优化剪辑流程 - 2025.03.06 发布新版本 0.5.2，支持 DeepSeek R1 和 DeepSeek V3 模型进行短剧混剪 - 2024.12.16 发布新版本 0.3.9，支持阿里 Qwen2-VL 模型理解视频；支持短剧混剪 - 2024.11.24 开通 discord 社群：https://discord.com/invite/V2pbAqqQNb - 2024.11.11 迁移开源社群，欢迎加入！ 加入官方社群 - 2024.11.10 发布官方文档，详情参见 官方文档 - 2024.11.10 发布新版本 v0.3.5；优化视频剪辑流程， 即日起全面支持硅基流动！注册即享2000万免费Token（价值16元平台配额），剪辑10分钟视频仅需0.1元！ 1️⃣ 点击链接注册：https://cloud.siliconflow.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aiagent, aiops, gemini-api, llm, moviepy, python
+
+---
+
+### 🌟 [MaiBot](https://github.com/Mai-with-u/MaiBot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,253
+- **核心概述**: MaiSaka 是一位基于法学硕士的智能代理，它是一种数字生命形式，致力于了解您并以真人的方式进行交互。她不追求完美，也不追求效率；相反，她看重温暖、真实和真诚的联系。
+- **大概是做什么的**: 双语 / Bilingual 中文 English An interactive agent based on large language models. 麦麦 MaiSaka 是一个基于大语言模型的可交互智能体。 MaiSaka is an interactive agent based on large language models. MaiSaka 不仅仅是一个机器人，不仅仅是一个可以帮你完成任务的“有帮助的助手”，她还是一个致力于了解你，并以真实人类的风格进行交互的数字生命。她不追求完美，不追求高效，但追求亲切和真实。 MaiSaka is more than just a bot, and more than a "helpful assistant" that completes tasks. She is a digital life form that tries to understand you and interact in a genuinely human style. She does not pursue perfection or efficiency above all else. She pursues warmth and authenticity. - 💭 没有人喜欢 GPT 的语言风格 ：麦麦使用了更加自然、贴合人类对话习惯的交互方式，不是长篇大论或者 markdown 格式的分点，而是或长或短的闲谈。 No one likes GPT-sounding dialogue : MaiSaka uses a more natural conversational style. Instead of long-winded markdown-heavy replies, she chats in a way that feels casual, varied, and human. - 🎭 不再是傻乎乎的一问一答 ：懂得在合适的时间说话，把握聊天中的气氛，在合适的时候开口，在合适的时候闭嘴。 No longer stuck in rigid Q&A : She knows when to speak, how to read the room, when to join a conversation, and when to stay quiet. - 🧠 麦麦·成为人类 ：��多人对话中，麦麦会模仿其他人的说话风格，还会自主理解新词或者小圈子里的黑话，不断进化。 MaiSaka becoming human : I
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chat, chatbot, llm, llm-agent, llms
+
+---
+
+### 🌟 [vllm-ascend](https://github.com/vllm-project/vllm-ascend)
+- **项目语言**: C++
+- **星标数量**: ⭐ 2,332
+- **核心概述**: 社区维护 Ascend 上 vLLM 的硬件插件
+- **大概是做什么的**: 关于Ascend文档SIG-Ascend用户论坛周会 - [2026/05] 我们发布了新的正式版本v0.18.0！请按照官方指南开始在 Ascend 上使用 vLLM Ascend 插件。 - [2026/02] 我们发布了新的正式版本v0.13.0！请按照官方指南开始在 Ascend 上使用 vLLM Ascend 插件。 - [2025/12] 我们发布了新的正式版本v0.11.0！请按照官方指南开始在 Ascend 上使用 vLLM Ascend 插件。 - [2025/09] 我们发布了新的正��版本v0.9.1！请按照官方指南开始在Ascend上部署大规模专家并行（EP）。 - [2025/08] 我们与vLLM和腾讯共同举办了vLLM北京见面会！请查找聚会幻灯片。 - [2025/06] 用户故事页面现已上线！它从 LLaMA-Factory/verl/TRL/GPUStack 开始，展示 vLLM Ascend 如何帮助 Ascend 用户增强微调、评估、强化学习 (RL) 和部署场景的体验。 - [2025/06] 贡献者��面现已上线！所有的贡献都值得被记录，感谢所有的贡献
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ascend, inference, llm, llm-serving, llmops, mlops
+
+---
+
+### 🌟 [OpenBidKit_Yibiao](https://github.com/FB208/OpenBidKit_Yibiao)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,199
+- **核心概述**: 开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用
+- **大概是做什么的**: 易标投标工具箱 - AI智能标书写作助手 🚀 开箱即用-开源免费AI标书编写工具 易标投标工具箱是一款面向招投标场景的智能标书制作工具，完全开源，包括AI生成技术方案、图文生成、商务标、企业知识库管理、标书查重、废标项检查、标讯等，更多功能还在开发中。 支持OpenAI like模式的所有AI api，目前已深度适配GPT、DeepSeek、龙猫、火山方舟四个平台，也支持ollama、lm studio等接入本地模型。 现在AI写标书的付费工具非常多，但是价格都超级高，一份标书几十块，除非企业给报销，小企业的牛马根本用不起。免费的工具质量又非常差，OpenBidkit力争做投标领域的OpenClaw，提供开箱即用的优质标书编写工具，亲测一份10万字的投标标书，用deepseek v4 flash 生成只需要1元。 在线体验 : https://yibiao.pro 【获取更多产品信息、在线体验和技术支持。】 如果这个项目对你有帮助，欢迎通过 爱发电 支持项目维护和持续开源。 AI写标书 · 标书AI · AI标书生成 · 技术标编写 · 投标文件生成 不止生成标书初稿，更强调开源可控、本地工作区、素材复用、图文表达和流程可恢复。 开源 AI标书 项目，可自行部署、二次开发和适配团队流程。 配置、缓存和生成结果保存在本机，适合 Windows 标书文件处理。 支持本地解析与 MinerU 解析配置，兼顾���规文档和复杂文件。 沉淀企业资料、历史案例和方案素材，让标书AI更贴合业务。 支持 Mermaid 预览、正文配图和图表转 Word，增强方案表达。 解析、生成等耗时任务持续落盘，切换页面后仍可恢复进度。 预留标书查重、废标项检查工作区，聚焦重复表达和响应完整性。 支持文本模型、生图模型和文件解析方式配置，适配团队习惯。 目录、正文和扩写结果可持续调整，方便 AI写标书 后人工定稿。 从 GitHub Releases 下载最新版本，运行安装包或可执行文件即可启动。 点击前往 Bilibili 观看使用演示视频 本仓库根目录没有 package.json ，桌面客户端代码在 client/ ，开发命令都需要在 client/ 目录下执行。 本地开发调试 OpenCode Agent 相关能力前，需要先准备当前平台的 OpenCode binary。否则开发者测试页会报错： OpenCode binary 不存在 。 macOS Apple Silicon： 如果你已经有可用的 OpenCode binary，也可以通过环境变量指定路径： 普通用户下载 GitHu
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-writing, bid, bidding, document-ai, electron
+
+---
+
+### 🌟 [SiliconScope](https://github.com/kennss/SiliconScope)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 611
+- **核心概述**: Sudoless Apple Silicon 系统监视器（原生 SwiftUI GUI），带 ANE/媒体引擎/内存带宽跟踪
+- **大概是做什么的**: 英语 · 德语 · 简体中文 · 繁体中文 · 日本语 · 한국어 一个无sudoless Apple Silicon系统监视器——一个原生的SwiftUI仪表板和一个完整的菜单栏套件——具有一流的ANE（神经引擎）、媒体引擎和内存带宽跟踪，这是活动监视器和终端监视器所不具备的。诞生于想了解设备上的人工智能和媒体工作负载如何驱动 Apple Silicon 加速器，并成长为可以替代 iStat 菜单的日常驾驶员监视器。 AAPL Ch. 精选（日本）和 ifun.de（德国）。整机一览 - AI 工作负载瓶颈分类器、E/P 核心重叠趋势、GPU/GPU 内存/ANE/媒体、根据 M1 Max 的 400 GB/s 上限测量的内存、每核心温度、功率和实时进程。底部的栏是重播（3.0 中的新增功能）：记录每个指标，因此您可以像 DVR 一样重新浏览会话。菜单栏 — 每个指标，iStat 风格 将任何卡固定到其自己的菜单栏项目 — CPU · GPU · 内存 · 网络 · SSD · 传感器 · 电池 — 每个都有一个实时字形和丰富的下拉菜单。一切无需sudoless。最丰富的下拉菜单。 GPU / 媒体 / 神经网络 —
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apple-silicon, gpu, llama-cpp, llm, lm-studio, local-llm
+
+---
+
 ## 🕔 2026-07-01 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 153 个候选项目中筛选出 6 个未推荐过的新项目。
