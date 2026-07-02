@@ -1,3 +1,67 @@
+## 🕔 2026-07-02 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,289
+- **核心概述**: 最全面的 Claude 代码指南：代理工作流程、挂钩、技能、MCP 服务器、测验和生产就绪模板。 430K+ 行。
+- **大概是做什么的**: Claude 代码终极指南 6 个月的日常实践提炼成一本指南，教您“为什么”，而不仅仅是“什么”。从核心概念到生产安全，您将学习设计自己的代理工作流程，而不是复制粘贴配置。如果本指南对您有帮助，请给它一颗星 ⭐——它也可以帮助其他人发现它。你是谁 你的指南 🏗️ 技术主管/工程经理 在整个团队中部署 Claude 代码 → 📊 CTO/决策者 投资回报率、安全态势、团队采用率 → 💼 CIO/CEO 预算、风险、向技术团队提出什么要求（3 分钟）→ 🎨 产品经理/设计师 Vibe 编码、与 AI 辅助开发团队合作 → ✍️ 作家/运营/经理 Claude 协作指南（单独）代码库） → 👨‍💻 开发人员（所有级别） 你来对地方了 — 请继续阅读 ↓ 🧭 职业枢轴/新 AI 角色 AI 角色和职业路径 → 🎯 您将学到什么 本指南教您以不同的方式思考 AI 辅助开发： - ✅ 理解权衡 — 何时使用代理、技能和命令（不仅仅是如何配置它们） - ✅ 构建心智模型 — Claude Code 内部如何工作（架构、上下文）流量
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-assistant, ai-coding, ai-pair-programming, ai-security, anthropic
+
+---
+
+### 🌟 [youtube-automation-agent](https://github.com/darkzOGx/youtube-automation-agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,487
+- **核心概述**: 🎬 使用 AI 代理进行全自动 YouTube 频道管理。 24/7 创建、优化和发布视频。可与免费的 Gemini API 或 OpenAI 配合使用。无需编码！
+- **大概是做什么的**: YouTube 自动化代理 - 真正的 AI 生成 - 内容策略、脚本编写器和 SEO 代理现在会调用您配置的 AI 提供商（OpenAI、OpenRouter、Kimi、MiMo、GLM 或 Gemini）来获取主题、脚本、标题、描述和标签。如果未设置提供程序密钥，它们将回退到内置模板，以便管道仍然运行。 - API 保护 — 在 .env 中设置 API KEY，并且变异端点（ POST /generate 、 POST /publish/:id ）需要匹配的 x-api-key 标头。请求正文经过验证且大小有限。 - 更安全的发布 - 默认隐私现在是私有的（设��默认隐私状态=公共以选择加入），上传者流式传输真实的视频文件 - 它拒绝上传模拟运行中的占位符资产。 - 启动和调度程序修复 - 添加了缺失的尖锐依赖项（应用程序之前在启动时崩溃），创建了缺失的自动化事件表（之前将每个计划任务写入日志记录），修复了内容管道中的双插入，并修复了发布队列删除。 - 不再捏造统计数据 - 模板脚本不再发明数字
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-powered, automation, content-automation, content-creation, content-strategy
+
+---
+
+### 🌟 [vmlx](https://github.com/jjang-ai/vmlx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 732
+- **核心概述**: vMLX - JANGTQ Uber 压缩 MLX 模型 - L2 磁盘缓存（重启后仍可正常运行）+ L1 分页（超快 ttft）+ 混合 SSM 调度程序 + 连续批处理 + 等！
+- **大概是做什么的**: 适用于 Apple Silicon 的 MLX 推理服务器 用于 Apple Silicon 上的 LLM、VLM 和图像生成的自托管推理服务器。 OpenAI + Anthropic + Ollama 兼容 HTTP API。自托管；无需第三方 API 密钥。本机 MTP 工件检测和特定于系列的缓存策略门可保持推测/缓存设置明确且模型安全。正在寻找原生 Swift macOS 应用程序或 Swift 推理引擎？参见 osaurus.ai 。贡献 • JANG 2 位在 MiniMax M2.5 上破坏了 MLX 4 位：量化 MMLU (200q) 大小 JANG\ 2L（2 位） 74% 89 GB MLX 4 位 26.5% 120 GB MLX 3 位 24.5% 93 GB MLX 2 位 25% 68 GB 自适应混合精度使关键层保持更高的精度。 jangq.ai 的分数。 JANGQ-AI 的模特。与任何 MLX 模型聊天 — 思维模式、流式传输和语法突出显示 具有完整编码功能的代理聊天 — 工具使用和结构化输出 在 PyPI 上发布为 vmlx — 通过一个命令安装和运行： 注意：在 macOS 14+ 上，裸 pip 安装失败，并显示“外部管理环境”。使用 uv 、 pipx 或 venv 。 vMLX 推理服务器现在正在 http://0 上运行。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic-api, kvcache-compression, kvcache-optimization, kvcache-reuse, llm, lmstudio
+
+---
+
+### 🌟 [openinfer](https://github.com/openinfer-project/openinfer)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 498
+- **核心概述**: 纯 Rust + CUDA LLM 推理引擎 — 无 PyTorch，兼容 OpenAI，服务于 Qwen3 到 Kimi-K2
+- **大概是做什么的**: 纯 Rust + CUDA LLM 推理引擎。没有 PyTorch。无模型框架运行时。快速入门 · 性能 · openinfer 是一个完全用 Rust 和 CUDA 构建的 LLM 推理引擎 — 没有 PyTorch、没有 ONNX、没有框架运行时，每个内核和调度程序都是手写的。它为从 Qwen3 到万亿参数 Kimi-K2 的前沿规模模型提供服务，并且已经在最好的开源推理框架中占有一席之地。 - Rust（2024 版）、CUDA 工具包（nvcc、cuBLAS）、支持 CUDA 的 GPU - NVIDIA 驱动程序 R535 (CUDA 12.2) 或更高版本；驱动程序符号在调用时延迟解析，因此 cuda-12090 cudarc 功能不会提高驱动程序底线 - 默认构建 (Qwen3-4B / 8B) 是纯 Rust + CUDA — 根本没有 Python - Python 3 + Triton 用于 qwen35-4b 功能构建（仅限构建时 — 运行时没有 Python） - 用于 deepseek-v4 功能构建的 TileLang（仅限构建时） - deepseek-v4 / kimi-k2 EP 路径在运行时还需要 NCCL ≥ 2.27 ( ncclAlltoAll ) 注意：服务器 CLI 位于 openinfer-server 中。模型包，例如 openinfer-qwen3-4b 、 openinfer-qwen35-4b 和 openinfer-deepsee
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda, cuda-kernels, deepseek, gpu, inference, inference-engine
+
+---
+
+### 🌟 [Foundation-Models-Framework-Lab](https://github.com/rudrankriyam/Foundation-Models-Framework-Lab)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,138
+- **核心概述**: 一个实用实验室，用于使用 Apple 的基础模型框架构建、测试和评估应用程序。
+- **大概是做什么的**: Foundation Lab 是一个原生 iOS 和 macOS 工作台，用于学习、测试和与 Apple 的 Foundation Models 框架一起发布。它将提示、配置、工具、记录和运行证据保留在一个地方，同时仍然为需要专门接口的 API 提供重点实验室。该应用程序专为两个互补的工作流程而设计： - 打开工作配方，更改一件事，然后立即运行它。 - 编写自定义提示和工具，检查每次运行，比较适配器，并从应用程序导出可重现的证据。基础实验室具有三个主要目的地： 目的地 目的图��馆 浏览 18 个可编辑的配方、14 个指导实验室、三个研讨会、已保存的实验和 1 个工作区。 Playground 编辑提示和说明、配置模型和工具、流响应、使用语音输入、保存实验以及导出 Swift。运行 检查持久运行状态、配置、转录事件、工具调用、计时和令牌使用情况。库条目标识它们的打开方式： - 配方在 Playground 中打开，可以编辑、运行和保存。 - 引导实验室使用一个集中的界面
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, apple-foundation-models, apple-intelligence, foundation-models, foundation-models-framework, generative-ai
+
+---
+
+### 🌟 [tingly-box](https://github.com/tingly-dev/tingly-box)
+- **项目语言**: Go
+- **星标数量**: ⭐ 319
+- **核心概述**: 你的智慧，精心策划。每个建设者。每个团队。每个代理。对于每个人。
+- **大概是做什么的**: 公告：这是故障记录。请更新至最新版本以解决已知问题。感谢您一直以来的支持。 Tingly Box 通过内置远程控制和安全、可定制的集成，为客服人员提供服务、协调人工智能模型、优化环境并路由请求以实现最高效率。 - 代理优先模型网关 – 代理的统一端点 - 通过自动协议转换和本机代理兼容性无缝桥接 OpenAI、Anthropic、Google Gemini 等 - 代理集成 - Claude Code、OpenCode、Codex、Xcode 等的一键配置 - SDK 和 CLI 工具的透明代理 - 代理配置文件 - 使用单独的配置文件运行像 Claude Code 这样的代理，每个配置文件可以使用不同的模型和代理配置 - 通过 IM 机器人进行远程控制 - 通过 Telegram 远程控制 AI 代理，钉钉、飞书、飞书、微信、WeCom、Slack 和 Discord - 多租户 API 令牌 - 使用专用 API 令牌隔离每个用户的数据 - 每个用户都有自己的使用情况跟踪、提供商访问和配置 - 智能路由引擎 - 智能路由
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, gateway, llm, orches, orchestration
+
+---
+
 ## 🕔 2026-07-02 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
