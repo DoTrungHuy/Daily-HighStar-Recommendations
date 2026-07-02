@@ -1,3 +1,67 @@
+## 🕔 2026-07-02 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [how-claude-code-works](https://github.com/Windy3f3f3f3f/how-claude-code-works)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,943
+- **核心概述**: Deep dive into Claude Code internals — architecture, agent loop, context engineering, and more. / 深入解析 Claude Code 源码：架构、Agent 循环、上下文工程、工具系统等
+- **大概是做什么的**: How Claude Code Works Claude Code 架构学习笔记 — Agentic Coding System 深度分析       🛠️ 想动手造一个？ 配套项目 Claude Code From Scratch — 4300 行 TypeScript / Python 两个版本，13 章分步教程，clean-room 教育实现，从零造一个受 Claude Code 启发的 Coding Agent ⚖️ 声明 / Disclaimer ：本项目是面向开发者的教育性架构分析。所有内容均为独立研究与推理， 不代表 Anthropic 官方设计 ，也不保证与 Claude Code 真实内部实现一致。"Claude Code" 是 Anthropic 的商标，本项目与 Anthropic 无任何关联，亦不对外分发任何来自 Anthropic 的源码。 Claude Code 是目前使用最广泛的 AI 编程 Agent，也是我们认为最好用的 AI 编程工具。它能理解整个代码仓库、自主执行多步编程任务、安全地运行命令——而这一切背后是 50 万行 TypeScript 源码 中沉淀的工程智慧。 这份 50 万行 TypeScript 的源码以快照形式在社区流出后，第一次让我们能从一个真实的、跑在百万开发者机器上的生产级 Coding Agent 里，亲眼看到它到底长什么样。 但 50 万行——从哪里开始读？ 这也是我们创建这个项目的初衷——我们都遇到了没有办法阅读这么庞大代码项目的问题，解决方案是和 Claude Code 一起读，让它写文档配合我们理解源代码。在此同时，我们想把这个过程文档化，就形成了这个项目。 我们和 Claude Code 加班从源码中提炼出 15 篇专题文档 ，覆盖了从核心循环到安全防护的每一个关键设计决策。不管你是想造自己的 AI Agent，还是想更深入地理解和使用 Claude Code，这里都是最短路径（应该？就算不是最短的，我们也会不断更新这个项目）。 大多数 AI Agent 框架都是"demo 级别"——跑通一个场景就宣布成功。Claude Code 不同，它是一个 日活百万级开发者实际使用的生产系统 ，需要处理的问题远比 demo 复杂： - 对话动辄上百万 token，上下文窗口不够用怎么办？（记忆管理、压缩方案是如何设计的超重要） - 66 个内置工具同时存在，怎么协调？（如果所有工具上下文都给AI，那将直接爆炸） - 怎么让用户感觉"快"，哪怕模型推理本身就要几十
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, anthropic, architecture, claude, claude-code
+
+---
+
+### 🌟 [agentset](https://github.com/agentset-ai/agentset)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,024
+- **核心概述**: 开源 RAG 平台：内置引用、深入研究、22+ 文件格式、分区、MCP 服务器等。
+- **大概是做什么的**: 抹布。针对最大性能进行了优化。 Agentset 是一个开源平台，用于构建、评估和交付生产就绪的 RAG 和代理应用程序。它提供端到端工具：摄取、向量索引、评估/基准、聊天平台、托管和开发人员友好的 API。 - 交钥匙 RAG：摄取、分块、嵌入和检索 - 与模型无关：可与您选择的 LLM、嵌入和矢量数据库配合使用 - 具有消息编辑和引用功能的聊天平台 - 具有预览链接和自定义域的生产托管 - API + 类型化 SDK、OpenAPI 规范 - 内置多租户 - 使用 TypeScript、Next.js、AI SDK、Prisma、Supabase 和 Trigger.dev 构建 最快的入门方式代理集。慷慨的免费套餐，包含 1,000 个页面和 10,000 次检索。无需信用卡。 - 注册：https://app.agentset.ai/login 遵循我们的完整指南：https://docs.agentset.ai/open-source/precessions 快速入门（本地开发） - Bun db:studio – 打开 Prisma Studio - Bun dev:web – 仅运行 Web 应用程序 如果您发现 Agentset 有用，请给该存储库一个星号 — 它有助于
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-rag, ai, ai-agents, ai-sdk, chatbots, embeddings
+
+---
+
+### 🌟 [atomic-agent](https://github.com/AtomicBot-ai/atomic-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 416
+- **核心概述**: 当地第一艾特工。针对本地人工智能模型进行了优化。长上下文窗口。正确的工具调用。在您的设备上私下运行。
+- **大概是做什么的**: 当地第一艾特工。针对本地人工智能模型进行了优化。 Turboquant 用于长上下文窗口。正确的工具调用。没有云。完全私人。即使离线原子代理也可以在本地设备上运行，它是为真正的桌面工作而不是聊天窗口演示而构建的。它可以浏览、读取和编辑文件，运行批准的命令，检查文档，记住有用的上下文，安排后续行动，通过 MCP 驱动工具，并通过 HTTP 或 Tauri sidecar 嵌入到应用程序中。承诺很简单：保持代理控制循环和状态本地，首先使用 llama.cpp，并使小型量化模型适用于消费类硬件上的长期、多步骤桌面工作。在底层，原子代理是一个紧凑的本地运行时，用于提示、工具调用、批准、状态、跟踪和故障边界。从表面上看，它是一个通用的人工智能代理，您可以运行、检查、中断和嵌入。开发者预览/积极开发：API、命令、配置和行为仍在变化。如果您需要稳定的集成点，请期待锋利的边缘，并固定释放。平台可用性：当前版本可用于 macOS 和 Linux
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agent, browser-automation, cli, gguf, hermes-agent
+
+---
+
+### 🌟 [ego-lite](https://github.com/citrolabs/ego-lite)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 319
+- **核心概述**: 最适合您和您的 AI 代理并行工作的浏览器。
+- **大概是做什么的**: 最适合您和您的 AI 代理并行工作的浏览器。 ego（精简版）是一个浏览器，您和您的人工智能代理可以在其中并行工作。您的代理在自己的空间中运行多个浏览器任务，而您的选项卡仍然属于您，并且任务可以使用更少的令牌更快地完成。浏览器使用和代理浏览器等现有工具是浏览器自动化框架：它们需要单独的浏览器来驱动，登录永远不会干净地进行，并且您和代理最终会争夺相同的选项卡。 ego lite 是一款从一开始就为你们两个共享而设计的浏览器。无需额外设置，代理始终可以通过 ego-browser 访问您的真实登录名和选项卡。 https://github.com/user-attachments/assets/ffe7954b-58ee-411e-b35d-ec30c58a08bc ego lite 目前在 macOS 上运行。 Windows 和 Linux 已在路线图上。选择适合您流程的选项。 1.1 下载macOS应用程序点击下载，然后打开安装。无论哪种方式，ego lite 都会将 ego-browser 技能添加到您计算机上每个代理的技能目录中。 1.2 使用 npx 添加技能 仅安装 ego-browser 技能：代理第一次运行浏览时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, browser, skills, skills-sh
+
+---
+
+### 🌟 [mobilerun-portal](https://github.com/droidrun/mobilerun-portal)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 331
+- **核心概述**: 使用自然语言命令自动化您的移动设备 - mobilerun 框架的对应 Android 应用程序
+- **大概是做什么的**: Mobilerun Portal 是一项 Android 辅助功能服务，可为屏幕上的 UI 元素提供实时视觉反馈和数据收集。它创建了一个交互式覆盖层，突出显示可点击、可检查、可编辑、可滚动和可聚焦的元素，使其成为 UI 测试、自动化开发和可访问性评估的宝贵工具。 - 突出显示可点击、可检查、可编辑、可滚动和可聚焦元素的交互式叠加层 - 本地控制 API（HTTP 套接字服务器、WebSocket JSON-RPC 和 ContentProvider） - 用于云控制的反向 WebSocket 连接 - 支持自动接受的 WebRTC 屏幕流式传输 - 从 URL 安装 APK（包括拆分 APK），具有可选的自动接受 - 具有按事件切换的通知事件流式传输 1. 在 Android 设备上安装应用程序 2. 在 Android 设置 → 辅助功能 → 中启用辅助功能服务Mobilerun Portal 3. 出现提示时授予覆盖权限 4. （可选）在应用程序中打开“设置”以启用本地服务器或反向连接 🔐 Auth Token（本地 API） Mobilerun Portal 生成本地 au
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, android-automation, mobile-automation
+
+---
+
+### 🌟 [thunderid](https://github.com/thunder-id/thunderid)
+- **项目语言**: Go
+- **星标数量**: ⭐ 301
+- **核心概述**: ThunderID 是一个高性能、开源身份堆栈，专为开发人员设计，通过完全可组合的身份流来保护和管理人类、AI 代理和工作负载的访问。
+- **大概是做什么的**: ThunderID 是一款轻量级开源身份和访问管理 (IAM) 引擎，旨在保护人类、AI 代理和机器的访问安全。 ThunderID 专为代理时代而设计，提供开发人员优先的 IAM 平台和支持工具，用于保护应用程序、API、服务和代理驱动的工作流程。它适用于传统和去中心化的身份生态系统，从一开始就内置了后量子就绪的安全性。 ThunderID 的核心设计目标包括： - 代理原生身份：将 AI 代理作为一流身份进行管理，具有委派权限、同意感知访问、可追溯性以及支持向代理颁发可验证凭证。 ThunderID 还旨在通过代理可以安全且以编程方式使用的接口公开 IAM 功能。 - 去中心化身份：通过使服务提供商能够在现实应用程序中消费、验证和信任去中心化身份（包括 DID、可验证凭证、数字钱包、信任注册机构和发行者-验证者-持有者交互模型），缩小依赖方的采用差距
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: access-management, ai-agents, authentication, authorization, go, golang
+
+---
+
 ## 🕔 2026-07-02 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
