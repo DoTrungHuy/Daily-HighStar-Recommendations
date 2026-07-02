@@ -1,3 +1,67 @@
+## 🕔 2026-07-02 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ragent](https://github.com/nageoffer/ragent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,976
+- **核心概述**: 企业级 Agentic RAG 智能体 - 全链路覆盖文档解析、多路检索、意图识别、问题重写、会话记忆、MCP 工具调用与深度思考。面向真实业务场景，从 0 到 1 完整工程实现。
+- **大概是做什么的**: Ragent 是一个企业级 Agentic RAG 平台，覆盖从文档入库到智能问答的完整链路。 - 多路检索 ：多渠道并行检索，去重重排兼顾精准与召回。 - 意图识别 ：树形多级分类，置信度不足主动引导澄清，扩展模型、提示词、topK 等核心参数。 - 模型引擎 ：模型调度、首包探测、健康检查、自动降级，模型故障不影响服务。 - MCP 集成 ：非知识类意图自动提参调用业务工具，检索与工具无缝融合。 生产落地智能体会踩的坑，这里都有对应方案，一套经过真实场景锤炼的工程实践，系统补全 RAG / Agent / MCP 等知识，面试写进简历聊得起来。 觉得不错？先点个 Star 收藏，所有链接都会在新标签页打开，不会离开本页 👇 📖 官网文档 Ragent AI 完整文档 🚀 在线体验 无需部署，直接体验 Ragent AI ⚡ 快速启动 本地搭建 Ragent AI 前后端项目 📝 简历怎么写 项目如何写到简历上 💡 为什么不用 Spring AI / LangChain4j 技术选型的思考 Ragent AI 仍在持续迭代中，欢迎参与共建，一起把项目打磨得更好。 感谢各位亦菲、彦祖们对 Ragent AI 的贡献： - 1. 调个 API 就算会 RAG 了 - 2. RAG 就是“检索 + 生成”两步走 - 3. 用 OpenAI/LangChain 套一套就是企业级 AI 这波浪潮，Java 程序员已经躲不过去了。 不管你现在做的是业务系统还是中间件，面试的时候多多少少都会���问到 AI 相关的东西。RAG 是什么？Agent 怎么实现？用过 MCP 吗？这些问题越来越高频。可以说， AI 已经从加分项变成了必答题 。 但说实话，对于大多数应用层的开发者来说，去死磕大模型的微调、蒸馏、Transformer 原理，性价比并不高。真正实用的，是掌握 RAG 和 Agent 这些应用层的东西——能落地、能出活、面试也能聊得起来。 校招 / 社招 / 怎么学？ （点击展开） 简历上清一色的 CRUD 项目——商城、外卖、博客，面试官早就审美疲劳了。当别人还在写基于 SpringBoot 的 XX 管理系统时，你简历上有一个完整的 AI 项目，区分度直接拉满。而且大厂校招越来越看重候选人对新技术的敏感度，AI 项目能直接证明你的学习能力和技术视野。 2024 年以来，几乎所有技术团队都在往 AI 方向靠。很多公司已经把有 AI 相关经验写进了 JD 里。你可能 Java/Go 写得很溜，但面试官会问：你对 LLM 了解多少？RAG 做过没有？向量检索怎么实
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-rag, ai, llm, mcp, rag
+
+---
+
+### 🌟 [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,054
+- **核心概述**: Build your own Claude Code from scratch. 🔍 Claude Code 开源了 50 万行代码，读不动？用 ~4000 行 TypeScript / Python 从零复现核心架构，11 章分步教程带你理解 coding agent 精髓
+- **大概是做什么的**: Claude Code From Scratch 一步一步，从零造一个 Claude Code       📘 Read Tutorial (English) →       📖 想深入了解原理？ 姊妹项目 How Claude Code Works — 12 篇专题，33 万字，从源码级别深度解析 Claude Code 架构 Claude Code 开源了 50 万行 TypeScript。读不动？ 本项目用 4300 行代码 （TypeScript 和 Python 两个版本分别实现）复现了 Claude Code 的核心架构——Agent Loop、13 个工具（含并行执行 + 流式早期启动）、4 层上下文压缩、语义记忆召回、技能系统、多 Agent、MCP 集成……每一步都对照真实源码讲解"它怎么做的 → 我们怎么简化的"。 这不是 demo，是一份 分步教程 ——13 章内容，跟着动手写几千行代码，快速理解 Claude Code 这样最好用的 coding agent 的精髓。读完你就理解了 coding agent 的工作原理，无需啃那几十万行代码。 13 章内容，分两个阶段——先构建一个可用的 Coding Agent，再逐步添加进阶能力。每章都贴真实代码 + Claude Code 源码对照： ------ ------ --------- Phase 1: 构建一个可用的 Coding Agent 1. Agent Loop 核心循环：调用 LLM → 执行工具 → 重复 agent.ts ↔ query.ts 2. 工具系统 13 个工具 + mtime 防护 + 延迟加载 tools.ts ↔ Tool.ts + 66 工具 3. System Prompt 提示词工程 + @include 语法 prompt.ts ↔ prompts.ts 4. CLI 与会话 REPL、Ctrl+C、会话持久化 cli.ts ↔ cli.tsx 5. 流���输出 双后端 + 流式工具执行 + 并行执行 agent.ts ↔ api/claude.ts 6. 权限与安全 5 模式 + 声明式规则 + 危险检测 tools.ts ↔ permissions/ (52KB) 7. 上下文管理 4 层压缩 + 大结果持久化 agent.ts ↔ compact/ 8. 记忆系统 4 类型记忆 + 语义召回 + 异步预取 memory.ts ↔ memory.ts 9. 技能系
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, anthropic, build-from-scratch, claude, claude-code
+
+---
+
+### 🌟 [globalthreatmap](https://github.com/unicodeveloper/globalthreatmap)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,683
+- **核心概述**: 全球威胁地图。了解战争、冲突、军事基地和国家历史。
+- **大概是做什么的**: 全球威胁和事件情报地图 实时全球态势感知平台，可在交互式地图上绘制安全事件、地缘政治发展和威胁指标。将其视为 OSINT（开源情报）指挥中心。 - 实时事件映射 - 在世界地图上绘制突发新闻事件（冲突、抗议、自然灾害），并以颜色编码威胁级别 - 交互式 Mapbox 地图 - 具有聚类、热图可视化和平滑导航的深色主题地图 - 事件源 - 通过类别和威胁级别过滤器实时过滤全球事件源 - 英特尔档案 - 通过深入研究报告、CSV 数据导出和 PowerPoint 简报，为任何参与者构建情报档案 - 警报系统 - 配置关键字和基于区域的警报，带有实时通知 国家情报 单击任何国家即可查看详细的冲突情报： - 历史冲突 - 历史上的战争、军事交战和冲突，包括日期、对立方和结果 - 当前冲突 - 正在进行的战争、军事紧张局势、边界争端、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-assistant, intelligence, nato, osint
+
+---
+
+### 🌟 [hertzbeat](https://github.com/apache/hertzbeat)
+- **项目语言**: Java
+- **星标数量**: ⭐ 7,300
+- **核心概述**: 由人工智能驱动的下一代开源实时观测系统。
+- **大概是做什么的**: English 中文 日本语 主页：hertzbeat.apache.org 电子邮件：发送邮件至 dev-subscribe@hertzbeat.apache.org 订阅邮件列表 Apache HertzBeat™ 是人工智能驱动的下一代开源实时观测系统。统一指标和日志采集，集中告警分发，智能管理和分析。无需Agent，高性能集群，提供强大的自定义监控和状态页面构建能力。 - 将收集+分析+警报+通知集成到一个平台中，并在HertzBeat AI下提供新的人工智能驱动的交互和功能，以及内置的MCP服务器功能。 - 统一指标平台，无代理，兼容Prometheus，支持应用程序服务、程序、数据库、缓存、操作系统、大数据、中间件、Web服务器、云原生、网络、自定义监控等。 - 统一日志平台，通过OTLP协议无缝集成多个日志源进行报告。 - 统一报警平台，集成内部报警与外部各种报警源，统一报警处理和分析，灵活
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, alerting, database, grafana, linux
+
+---
+
+### 🌟 [future-agi](https://github.com/future-agi/future-agi)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,281
+- **核心概述**: 用于评估、观察和改进 LLM 和 AI 代理应用程序的开源端到端平台。追踪·评估·模拟·数据集·网关·护栏。可自行托管。阿帕奇2.0。
+- **大概是做什么的**: ⚠️ 每晚发布以进行早期测试。预计会有粗糙的边缘。稳定版本即将推出 - 如果您遇到任何问题，请提出问题。人工智能特工产生幻觉。修复得更快。用于交付自我改进的人工智能代理的开源平台。评估、跟踪、模拟、护栏、网关、优化。从第一个原型到实时部署，一切都在一个平台和一个反馈循环上运行。尝试云（免费） · 大多数人工智能代理在生产中都会失败，团队最终将评估、可观察性和永远不会闭合循环的护栏缝合在一起。 FutureAGI 将所有这些整合到一个平台和一个反馈循环中。在发布前模拟边缘情况，评估生产中发生的情况，实时保护用户，并将每条痕迹转化为下一版本的信号。结果是：代理不仅会受到监控，还会自我改进。不再需要拼接 Langfuse + Braintrust + Helicone + Guardrails AI + 自定义模拟器。一个平台涵盖生命周期：模拟→评估→保护→监控→优化，数据循环回流。开放且自托管的 Apache 2.0 核心。乙
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-gateway, evals, llm, observability, simulation
+
+---
+
+### 🌟 [ai-gateway](https://github.com/envoyproxy/ai-gateway)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,798
+- **核心概述**: 管理对基于 Envoy Gateway 构建的生成式 AI 服务的统一访问
+- **大概是做什么的**: Envoy AI Gateway 是一个开源项目，用于使用 Envoy Gateway 处理从应用程序客户端到生成式 AI 服务的请求流量。使用 Envoy AI Gateway 时，我们指的是两层网关模式。第一层网关充当集中入口点，第二层网关处理流向自托管模型服务集群的入口流量。 - 第一层网关处理身份验证、顶级路由和全局速率限制 - 第二层网关提供对自托管模型访问的细粒度控制，并为 LLM 推理优化提供端点选择器支持。支持的 AI 提供商 Envoy AI Gateway 支持广泛的 AI 提供商，可以轻松与您首选的 LLM 服务集成：Tetrate Agent Router Service - 介绍 Envoy AI Gateway 的博客。 - Envoy AI 网关的文档。 - 只需几个简单的步骤即可快速开始使用 Envoy AI Gateway。 - 了解 Envoy AI Gateway 的架构和资源的概念。 - 关于 Envoy AI Gateway 的讲座和演示。 - Slack：如果您还不是 [Envoy Slack 工作区][]，请加入
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-gateway, api-gateway, cncf, inference, kubernetes
+
+---
+
 ## 🕔 2026-07-02 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
