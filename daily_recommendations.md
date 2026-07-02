@@ -1,3 +1,67 @@
+## 🕔 2026-07-02 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [axolotl](https://github.com/axolotl-ai-cloud/axolotl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,134
+- **核心概述**: 继续问蝾螈问题
+- **大概是做什么的**: 免费开源 LLM 微调框架 - Axolotl 中添加了对 Mistral Medium 3.5 和 Gemma 4 的新模型支持。 - Axolotl 现在是 uv-first 的，并且具有 SonicMoE 融合 LoRA 支持。 - Axolotl 中添加了对 Mistral Small 4、Qwen3.5、Qwen3.5 MoE、GLM-4.7-Flash、GLM-4.6V 和 GLM-4.5-Air 的新模型支持。 - MoE 专家量化支持（通过量化 moe 专家：true）在训练 MoE 模型（FSDP2 兼容）时大大减少 VRAM。 - ScatterMoE LoRA 支持。 LoRA 使用定制 Triton 内核直接对 MoE 专家权重进行微调。 - Axolotl 现在支持 SageAttention 和 GDPO（通用 DPO）。 - EAFT（熵感知焦点训练）的新集成、top-k logit 分布的熵权重损失和可扩展 Softmax，改善了注意力的长上下文。 - Axolotl 现在支持 Kimi-Linear、Plano-Orchestrator、MiMo、InternVL 3.5、Olmo3、Trinity 和 Ministral3。 - 为 FSDP2 预训练添加了分布式 Muon 优化器支持。 - 2025/10：Axolotl 中添加了新模型支持：Qwen3 Next、Qwen2.5-vl、Qwen3-vl、Qwen3、
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: fine-tuning, llm
+
+---
+
+### 🌟 [lotus](https://github.com/lotus-data/lotus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,611
+- **核心概述**: 优化的法学硕士和代理数据处理
+- **大概是做什么的**: LOTUS：优化的代理和法学硕士批量处理 使用代理和法学硕士大规模批量处理您的数据集，具有更高的准确性和更低的成本。来自斯坦福大学和加州大学伯克利分校 [ ][ arxiv-paper-package] 什么是 LOTUS？ • 安装 • 快速入门 • 语义运算符 • 社区 • 文档 • Cite LOTUS 使代理和LLM 批量处理变得快速、简单且稳健。它引入并优化了语义运算符（例如，基于 LLM 的映射、减少、过滤原语），让您可以使用 LLM 和自然语言指令处理大型数据集。 LOTUS 优化了这些操作，帮助您获得更高的准确性和更低的成本。 - 代理代码处理 - 对每个文件、文档或记录运行使用工具的代理（使用沙盒 Python REPL），然后减少到一个答案（代码库分析、安全扫描、迁移）。 - 深入研究和综合——在语料库上展开、提取和综合。 - 代理跟踪故障分析——挖掘大量代理日志以找出故障模式。 - 文档提取和非结构化分析——结构化字段和来自文本的见解。 - 法学硕士法官评估和 RAG
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-data-processing, data, llm, llm-data-processing, llm-document-processing, pandas
+
+---
+
+### 🌟 [mcp-searxng](https://github.com/ihor-sokoliuk/mcp-searxng)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 993
+- **核心概述**: 通过 SearXNG 对 AI 助手进行私人网络搜索 — 支持 Claude、Cursor 和任何 MCP 客户端
+- **大概是做什么的**: 🔍 SearXNG MCP 服务器 用于 AI 助手的专用网络搜索 — 将任何 SearXNG 实例连接到 Claude、Cursor 等。集成了 SearXNG API 的 MCP 服务器，为 AI 助手提供网络搜索功能。 ✨ 在 GitHub MCP 注册表中精选。添加到您的 MCP 客户端配置（例如 claude Desktop config.json ）：将您的 SEARXNG 实例 URL 替换为您的 SearXNG 实例的 URL（例如 https://searxng.example.com ）。您还可以提供可互换的副本作为分号分隔的列表，例如https://one.example.com；https://two.example.com 。 - 网络搜索：一般查询、新闻、文章，带分页。 - 实例故障转移：在 SEARXNG URL 中配置多个可互换的 SearXNG 副本；默认情况下，搜索会进行故障转移，并且可以选择并行扇出。 - 结构化搜索输出：选择带响应格式的格式化文本或原始 SearXNG 形状的 JSON。 - 直接答案和元数据：文本结果显示在结果列表之前的 SearXNG 答案、更正、建议和信息框。 - 搜索建议：通过 SearXNG 的 /autocompleter 端点查询自动完成
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, claude, cursor, llm, mcp, mcp-server
+
+---
+
+### 🌟 [skillspec](https://github.com/modiqo/skillspec)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 553
+- **核心概述**: SkillSpec 使代理技能可遵循、可测试，并可通过 Doctor 风险报告、引导导入、结构化合同和一致性证明进行证明。
+- **大概是做什么的**: 代理实际上可以遵循的技能您写了一个很好的 SKILL.md 。但特工是否真的遵循了它，或者跳过了后期安全规则，抓住了一个未申报的工具，并在没有证据的情况下报告“完成”？技能规范告诉你。运行一个命令并获取风险报告。然后将任何技能转化为代理必须遵循的合同，并提供可以在“无新代理运行时”中检查的记录。没有编排平台。只是一个 CLI 和一个位于 SKILL.md 旁边的小 Skill.spec.yml 。 30 秒内查看任何技能的 Point Doctor、本地文件夹或公共 GitHub URL：无需安装即可尝试。将公共技能 URL 粘贴到托管页面中：SKILL.md 只是文本。线束加载它并希望模型读取正确的部分。对于一次性技能来说，这可能没问题。对于您依赖的技能，“希望”不是一个计划： - 隐藏的规则被跳过。重要的“永远不要做 X”位于第 400 行，模型在上下文的开始和结束时最可靠，而不是中间。 - 每一次思念都会成长为散文。每次失败都会成为另一个段落，这使得下一次失败的可能性更大。 - 你只能看到最终答案
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-evals, ai-tool
+
+---
+
+### 🌟 [sigmap](https://github.com/manojmallick/sigmap)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 532
+- **核心概述**: AI 编码会话的代币减少了 97% — 零依赖、31 种语言、MCP 服务器
+- **大概是做什么的**: SigMap 是人工智能代码工作的确定性、可验证的基础层。无需安装。在任何机器上立即运行：零配置。零依赖。不到10秒。 SigMap 为您的代码库构建确定性、可审计的签名和证据图——无 LLM 调用、无嵌入、字节稳定输出——因此 AI 代理、CI 和审阅者可以在采取行动之前信任并验证哪些文件和符号是真实的。每次都输入相同的存储库，输出相同的地图。该地图正是代理 grep 最不擅长的：代理可以在无需复制粘贴的情况下使用可复制、可审计的上下文，以及证明人工智能答案锚定到真实签名和行号的基础检查。代币减少是免费的——但信任才是重点。与模型无关。适用于： - 云法学硕士：Claude、GPT-4、Copilot、Gemini - 开源代理：OpenCode、Aider、OpenHands、Cline - 本地法学硕士：Ollama、llama.cpp、vLLM（无 API 密钥，完全隐私） - 任何编辑器：VS Code、Cursor、Windsurf、Neovim、JetBrains - 任何模型：使用您想要的，无供应商锁定 确定性且可验证 —代理 grep 的两件事
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, claude, cli, code-context, code-intelligence, context-compression
+
+---
+
+### 🌟 [smg](https://github.com/lightseekorg/smg)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 373
+- **核心概述**: Rust 中与引擎无关的 LLM 网关。跨 vLLM、TRT-LLM、TokenSpeed、SGLang、OpenAI、Gemini 等完全兼容 OpenAI 和 Anthropic API。业界首创的 gRPC 管道、KV 缓存感知路由、聊天历史记录、标记化缓存、响应 API、嵌入、WASM 插件、MCP 和多租户身份验证。
+- **大概是做什么的**: Shepherd 模型网关 与引擎无关的高性能模型路由网关，适用于大规模 LLM 部署。集中工作人员生命周期管理，平衡 HTTP/gRPC/OpenAI 兼容后端的流量，并提供对历史存储、MCP 工具和隐私敏感工作流程的企业级控制。 :-------------------------------- :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 🚀 最大化 GPU 利用率 缓存感知路由了解推理引擎的 KV 缓存状态（无论是 vLLM、TensorRT-LLM、TokenSpeed 还是 SGLang），以重用前缀并减少冗余计算。 🔌 一个 API，通过单个统一端点，任意后端路由到自托管模型（vLLM、TensorRT-LLM、TokenSpeed、SGLang）或云提供商（OpenAI、Anthropic、Gemini、Bedrock 等）。 ⚡ 专为速度原生 Rust 打造，具有 gRPC 管道、亚毫秒级路由决策和零复制标记化。断路器和自动故障转移使一切保持正常运行。 🔒 企业
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anthropic, anthropic-api, chat, claude, gemini, inference-gateway
+
+---
+
 ## 🕔 2026-07-02 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
