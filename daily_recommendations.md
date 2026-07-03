@@ -1,3 +1,67 @@
+## 🕔 2026-07-03 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [figma-use](https://github.com/dannote/figma-use)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 575
+- **核心概述**: 从命令行控制Figma。 AI 代理的完全读/写访问权限 — 创建形状、文本、组件、设置样式、导出图像。 100 多个命令。
+- **大概是做什么的**: ⚠️ Figma 126+ 阻止远程调试。 Figma-use 仍然可以通过Figma-use daemon start --pipe 来工作。或者使用 OpenPencil 完全跳过 Figma，OpenPencil 是一种开源设计编辑器，可以读取和写入 .fig 文件，具有内置 AI 和 P2P 协作功能。 Figma 的 CLI。从终端控制它——使用命令或 JSX。 Figma官方的MCP插件可以读取文件但不能修改它们。这个可以。法学硕士了解 CLI��法学硕士了解 React。这将两者结合起来。 CLI 命令非常紧凑——易于阅读、易于生成、易于链接。当一项任务涉及数十个操作时，每个保存的令牌都很重要。 JSX 是法学硕士对 UI 的思考方式。他们已经见过数百万个 React 组件。描述 Figma 布局对他们来说是很自然的 — 无需特殊培训，也无需冗长的模式。 ▶️ 按钮组件 ▶️ Tailwind UI 日历 或者不安装直接运行： 启动 Figma 并启用远程调试： 就是这样。无需安装插件。命令式 - 一次一个命令：或声明式 - 在 JSX 中描述结构并渲染它：stdin 模式仅接受纯 JSX - 没有变量，没有逻辑。对于组件，var
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, cli, design, figma
+
+---
+
+### 🌟 [open-reverselab](https://github.com/LING71671/open-reverselab)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: Open-source reverse engineering lab: 197-article knowledge base + MCP tools + CTF/APK/PE automation toolchain. Agent-native. Note:由于场景原因，目前有让几乎所有AI都会越狱的bug，暂时不修😉
+- **大概是做什么的**: 开源逆向工程实验室——167篇知识库，100+MCP自动化工具，涵盖CTF渗透测试/APK逆向工程/PE二进制分析/密码学和协议破解/游戏作弊分析。代理本机，目录即约定。信号类型板 KB 类别/文件 MCP 工具系列 HTTP/Web/API/CVE/CAPTCHA ctf-网站 26/113 http 探针运行 ctf 工具 kb 路由器 APK/DEX/SO/Frida/Java apk-reverse 8/17 android 应用程序基线 android 加密解包配方 android frida PE/x64/x86/恶意软件/驱动程序 pe-reverse 9/19 分类 pe ghidra 无头分析 make x64dbg 断点脚本示例完整工作加密/协议/作弊/物联网/无线电通用 5/17 芯片扫描 ghidra rizin python 重新工具每个技术文件都遵循以下结构：场景 → 输入信号 → 方法 → 攻击链 → MCP 工具映射 代理工作流程：检测信号 → kb 路由器查找 → kb 读取文件 → 通过 MCP 工具映射执行。板触发信号板/ctf-网站 URL、HTTP、JWT、SQLi、SSRF、CVE、API、CSP、OAuth、CAPTCHA、Cloudflare、ReDoS、Slowloris、DoS、付费墙板/android APK、DEX、adb、Frida、jadx、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-jailbreak, ai-jailbreak-universal, android-reverse-engineering, binary-analysis, claude-code
+
+---
+
+### 🌟 [linkedin-skills](https://github.com/sergebulaev/linkedin-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: 促进 LinkedIn 发展的 Claude Code 和 Codex 技能：撰写听起来很人性化的帖子、撰写引人注目的评论、分析您的提要以及建立发布节奏，所有这些都可以在您的终端上完成。内容创作者、创始人和营销人员的即插即用技能。
+- **大概是做什么的**: 适用于 Claude Code 和 Codex 的 LinkedIn 营销技能 10 种技能可帮助 Claude Code 和 Codex 用您的声音撰写 LinkedIn 帖子、评论和回复。他们起草内容，剥离人工智能的信息，并在发布任何内容之前等待您的批准。无需编码。选择使用 Claude Code 或 Codex 的方式： 要在发布更改之前测试本地克隆： 1. 打开 https://claude.ai/code 2. 转到侧边栏中的“技能” 3. 单击“从 GitHub 添加” 4. 粘贴​​：sergebulaev/linkedin-skills 5. 完成。当您询问 LinkedIn 时，这些技能会自动激活。 Claude Desktop (Mac / Windows) 1. 打开 Claude Desktop 2. 单击自定义 3. 单击个人插件旁边的 + → 创建插件 → 添加市场 4. 选择从存储库添加并粘贴：sergebulaev/linkedin-skills 5. 安装插件 6. 完成。开始一个新对话并要求 Claude 写一篇 LinkedIn 帖子。 1. 打开 OpenClaw 工作目录 2. 将技能克隆到其中： 3. 在 OpenClaw 设置中，将其添加到系统提示符中： 4. 完成。要求 OpenClaw 撰写 LinkedIn 帖子或评论。���劳德代码（CLI / VS Code / JetBrain
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-content, ai-marketing, anthropic, awesome-claude, claude-code
+
+---
+
+### 🌟 [mcp-google-map](https://github.com/cablate/mcp-google-map)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 369
+- **核心概述**: 强大的模型上下文协议 (MCP) 服务器提供全面的 Google 地图 API 集成与 LLM 处理功能。
+- **大概是做什么的**: 让您的人工智能代理能够理解物理世界——地理编码、路线、搜索和位置推理。 - 18 个工具 — 14 个原子 + 4 个复合工具（探索区域、规划路线、比较地点、本地排名跟踪器） - 3 种模式 — stdio、StreamableHTTP、独立执行 CLI - 代理技能 — 内置技能定义教 AI 如何链接地理工具（技能/谷歌地图/）与 Google Grounding Lite 此项目 Grounding Lite 地理编码 是 否 分步指示 是 否 海拔 是 否 距离矩阵 是 否 地点详细信息 是 否 空气质量是 否 地图图像 是 否 综合工具（探索、规划、比较） 是 否 开源 MIT 否 自托管 是 仅由 Google 管理 代理技能 是 否 特别感谢 @junyinnnn 帮助添加对 Streamablehttp 的支持。 ------ ------------- 地图搜索附近 按类型（餐厅、咖啡馆、酒店等）查找位置附近的地点。支持按半径、等级、开放状态进行过滤。地图搜索地点 自由文本地点搜索（例如“东京的寿司店”）。支持位置偏差、评级、立即开放过滤器。地图地点详细信息 获取完整详细信息
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skill, ai, ai-agent, dive, geocoding, geospatial
+
+---
+
+### 🌟 [EDDI](https://github.com/labsai/EDDI)
+- **项目语言**: Java
+- **星标数量**: ⭐ 361
+- **核心概述**: 配置驱动的引擎，可将 JSON 转换为生产级 AI 代理。多代理编排、12+ LLM 提供商、MCP/A2A 协议、RAG、持久内存和企业合规性（欧盟人工智能法案、GDPR、HIPAA）。基于 Quarkus 构建。
+- **大概是做什么的**: E.D.D.I — 用于对话式 AI 的多代理编排中间件 E.D.D.I（增强型对话驱动接口）是用于对话式 AI 的生产级、配置驱动的多代理编排中间件。它通过智能路由、持久内存和 API 编排来协调用户、AI 代理和业务系统，而无需编写代码。使用 Java 25 和 Quarkus 构建。作为红帽认证的 Docker 镜像提供。被选为工业人工智能领域工发组织值得信赖的合作伙伴。对 MCP（模型上下文协议）、A2A（代理到代理）、Slack、OpenAPI 和 OAuth 2.0 的本机支持。网站 · 文档 · 许可证：Apache 2.0 📑 目录 - 📸 查看实际操作 - 📋 合规性和隐私 - Maven 命令参考 - 📜 行为准则 运行 EDDI 的最快方法是使用单命令安装程序。它通过 Docker Compose 设置 EDDI + 您选择的数据库，部署 Agent Father 启动代理，并引导您创建第一个 AI 代理。 Linux / macOS / WSL2：Windows (PowerShell)：需要 Docker。该向导会自动生成一个唯一的保管库加密密钥
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, ai-agents, ai-orchestration, chatbot, conversation-memory, conversational-ai
+
+---
+
+### 🌟 [Context-Engine](https://github.com/Context-Engine-AI/Context-Engine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 396
+- **核心概述**: Context-Engine MCP - 代理上下文压缩套件
+- **大概是做什么的**: AI 编码助手的语义代码搜索、记忆和符号智能。在 dev.context-engine.ai 网站获取免费帐户 · 开始使用 · 许可证 Context Engine 提供 AI 代理技能，可教您的编码助手如何使用 30 多种 MCP 工具进行语义搜索、符号图导航、记忆等。 Claude Code / Claude Desktop 推荐：从公共 GitHub 存储库本地安装：这会直接从 GitHub 提取技能，并将 MCP 工具指南自动加载到您的会话中。或者，手动复制规则文件：上下文引擎规则包含在工作区根目录下的 .cursorrules 中。当文件存在时，光标会自动选择该文件。推荐：使用内置技能安装程序进行本地安装 - 只需询问 Codex：“从 https://github.com/Context-Engine-AI/Context-Engine 安装上下文引擎技能” Codex 会自动将 .codex/skills/context-engine/ （包括 SKILL.md 和参考文档）拉入 /.codex/skills/ 中。或者手动安装：核心技能文件可与任何支持自定义指令的AI助手配合使用：然后告诉你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, codex, compression, context, context-engine
+
+---
+
 ## 🕔 2026-07-03 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
