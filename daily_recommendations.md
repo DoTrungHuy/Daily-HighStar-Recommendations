@@ -1,3 +1,67 @@
+## 🕔 2026-07-03 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,037
+- **核心概述**: 全栈 AI 红队平台通过 OpenClaw 安全扫描、代理扫描、技能扫描、MCP 扫描、AI 基础设施扫描和 LLM 越狱评估来保护 AI 生态系统。
+- **大概是做什么的**: 📖 文档     🌐 🇨🇳 中文 · 🇯🇵 日本语 · 🇪🇸 西班牙语 · 🇩🇪 德语 · 🇫🇷 法语 · 🇰🇷 한국어 · 🇧🇷 葡萄牙语 · 🇷🇺 Русский 🚀 腾讯朱雀实验室AI红队平台A.I.G（AI-Infra-Guard）集成了ClawScan（OpenClaw安全扫描）、Agent Scan、AI基础设施漏洞扫描、MCP服务器和Agent技能扫描、越狱评估等功能，旨在为用户提供最全面、智能、人性化的AI安全风险自查解决方案。我们致力于将A.I.G(AI-Infra-Guard)打造成业界领先的AI红队平台。更多的明星帮助这个项目接触到更广泛的受众，吸引更多的开发者做出贡献，从而加速迭代和改进。您的明星对我们至关重要！ 📋 用户反馈调查 帮助我们改进 A.I.G！请花 3-5 分钟填写我们的用户反馈调查。提供高质量反馈并留下有效邮箱地址的用户将获得腾讯专属纪念品礼物一份。 - 2026-06-25 · v4.1.15 — MCP Scan：3 个新的威胁检测规则（工具中毒、凭证泄露
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-security, ai-infra, ai-red-teaming, ai-security, llm
+
+---
+
+### 🌟 [lmdeploy](https://github.com/InternLM/lmdeploy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,931
+- **核心概述**: LMDeploy 是一个用于压缩、部署和服务 LLM 的工具包。
+- **大概是做什么的**: English 简体中文 日本语 - \[2026/04\] PyPI 扩大了 LMDeploy 的存储配额，轮上传已恢复。 v0.12.3 现已在 PyPI 上提供，因此您可以直接通过 pip install lmdeploy 安装它。 - \[2026/02\] 支持 Qwen3.5 - \[2026/02\] 支持 vllm-project/llm-compressor 4bit 对称/非对称量化。详细指南请参阅此处 - \[2025/09\] TurboMind 从 V100 开始在 NVIDIA GPU 上支持 MXFP4，对于 openai gpt-oss 模型，在 H800 上实现 vLLM 性能的 1.5 倍！ - \[2025/06\] FP8 MoE 模型的全面推理优化 - \[2025/06\] 现在通过与 DLSlime 和 Mooncake 集成支持 DeepSeek PD 分解部署。非常感谢两个团队！ - \[2025/04\] 通过集成 DeepSeek-ai 技术增强 DeepSeek 推理性能：FlashMLA、DeepGemm、DeepEP、MicroBatch 和 eplb - \[2025/01\] 支持 DeepSeek V3 和 R1 - \[2024/11\] 通过 PyTorch 引擎支持 Mono-InternVL - \[2024/10\] PyTorchEngine 在升腾平台上支持图形模式，推理速度加倍 - \[2024/09\] LMDeploy PyTorchEngine 增加支持
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: codellama, cuda-kernels, deepspeed, fastertransformer, internlm, llama
+
+---
+
+### 🌟 [PromptHub](https://github.com/legeling/PromptHub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,442
+- **核心概述**: 一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control
+- **大概是做什么的**: 本地优先的 Prompt、Skill 与 AI 编程资产工作台。 简体中文 · 繁体中文 · English · 日本语 · Deutsch · Español · Français PromptHub 把你的 Prompt、SKILL.md 和项目级 AI 编程资产放进一个本地工作区。它能把同一份 Skill 一键安装到 Claude Code、Cursor、Codex、Windsurf、Gemini CLI、Cline 等十几个工具，给 Prompt 做版本管理与多模型测试，并通过 WebDAV 或自部署 Web 同步到其他设备。 最新稳定版 v0.5.8 ；当前预览版 v0.5.9-beta.2 已开放测试。稳定版直链继续指向 v0.5.8，预览版请从 GitHub Prerelease 下载： - 直链下载 — 当前临时指向 GitHub 稳定版资产，避免 CDN 镜像未就绪时出现 404；镜像同步完成后会切回固定文件名 CDN 直链 - GitHub Releases — 官方发布页，可下载历史版本、查看签名与 Release Notes 平台 直链下载 GitHub Releases ------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cli-tool, llm, prompt, prompt-toolkit
+
+---
+
+### 🌟 [agents-flex](https://github.com/agents-flex/agents-flex)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,015
+- **核心概述**: Agents-flex 是一个轻量级的 Java AI 代理开发框架（定位为 Spring AI 的对应项）。它支持 RAG、MCP、技能、Text2SQL、LLM Wiki、子代理、Web 搜索、TTS（同步和流式传输）和 STT 等功能。
+- **大概是做什么的**: 用于LLM应用程序开发的优雅Java框架真正开源·易于集成·生产就绪Agents-Flex专为Java工程师和架构师设计，提供轻量级、模块化和可扩展的AI代理开发体验，帮助企业快速构建生产级LLM应用程序。 ✨ 新核心功能 (v2.0+) 功能描述 使用案例 --------- ------------- -------------- MCP 支持与 Model Context Protocol 原生集成，实现与外部数据源和工具的标准化连接 跨系统上下文共享、工具编排 AI 技能 将业务能力封装为可重用、可组合的技能单元 快速领域代理构建、技能市场 Text2SQL / 智能数据查询 内置 Text2SQL 和自然语言数据分析功能 面向业务用户的零代码查询、数据洞察🔧 核心能力矩阵 💡 设计原则：零入侵集成 · 接口驱动扩展 · 通过代码配置 · 生产友好 1️⃣ 添加依赖项（Maven）控制台输出示例： 📝 [Agents-Fle]
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, chatbot, chatgpt, gpt, langchain4j
+
+---
+
+### 🌟 [dust](https://github.com/dust-tt/dust)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,406
+- **核心概述**: 定制人工智能代理平台，加速您的工作。
+- **大概是做什么的**: 定制人工智能代理平台，加速您的工作。查看我们的用户指南和开发者平台
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, large-language-models, llm, rust
+
+---
+
+### 🌟 [zero](https://github.com/Gitlawb/zero)
+- **项目语言**: Go
+- **星标数量**: ⭐ 439
+- **核心概述**: 编码代理可以回答您、您的模型、您的机器、您的规则。
+- **大概是做什么的**: 您拥有的终端编码代理。 Zero是您本地终端的人工智能编码代理。它可以检查存储库、编辑文件、运行命令、使用浏览器/终端助手，并在您选择模型和权限级别时保持持久的本地会话。 - 使用您想要的模型。引入 OpenAI、Anthropic、Gemini、Groq、OpenRouter、DeepSeek、Mistral、xAI、Qwen、Kimi、GitHub Models、Ollama、LM Studio 或任何 OpenAI/Anthropic 兼容端点。 - 保持控制。��件写入、shell 命令、网络访问和工作空间外写入都经过 Zero 的权限和沙箱策略。 - 在终端中工作。 TUI 具有模型/提供商选择器、图像输入、斜线命令、实时计划/工具渲染、回滚、主题和简历/分叉 - 无需 TUI 即可工作。 Zero exec 可编写脚本，支持文本/JSON/流 JSON I/O、隔离工作树、规范优先运行和有意义的退出 - 保持上下文本地化。会话存储在磁盘上，可搜索、可恢复，并且永远不会由 Zero 作为遥测数据上传。 - 当您需要时可扩展。使用 MCP 服务器、技能、插件、挂钩和专业子代理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, anthropic, cli, code-assistant, coding-agent
+
+---
+
 ## 🕔 2026-07-03 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
