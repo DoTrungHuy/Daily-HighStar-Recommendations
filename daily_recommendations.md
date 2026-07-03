@@ -1,3 +1,67 @@
+## 🕔 2026-07-03 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [html-anything](https://github.com/nexu-io/html-anything)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 7,484
+- **核心概述**: ✨ 代理 HTML 编辑器 — 您本地的 AI 代理编写 HTML，然后您发送它。 🚀 75 种技能 × 9 个界面（杂志·甲板·海报·XHS/推文·原型·数据报告·超帧）🛡️沙盒预览·📤一键进入微信/X/知乎/HTML/PNG🔑零API密钥 - Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider。
+- **大概是做什么的**: 来自开放设计背后的团队 — 40k★ · 200 多名贡献者，生产级且迭代速度更快。 html-anything 是专注于代理时代的 HTML 编辑器；如果您喜欢的话，开放式设计是同一团队大规模交付的地方。实时页面：open-design.ai/html-anything/ — 克隆之前的概述、表面模式和展示。 Markdown 是草稿。 HTML 是人类阅读的内容。您当地的代理会写信。代�� HTML 编辑器——在代理时代，您不再需要手动编辑文档，因此输出格式应该是读者真正想要的：HTML。本地优先，零 API 密钥，重用您已登录的 CLI 会话 — 在您的 PATH 上自动检测 8 个编码代理 CLI（Claude Code · Cursor Agent · Codex · Gemini CLI · GitHub Copilot CLI · OpenCode · Qwen Coder · Aider），由跨 9 个可交付界面的 75 个可组合技能模板驱动（杂志文章 · 主题演讲稿 · 简历 · 海报 · 小红书卡 · 推特卡 · 网络原型·数据报告·超帧视频）。一键导出至微信/X/知乎，或下载 .html/.png 。表面上的八种技能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic, ai-agents, ai-design, ai-editor, byok
+
+---
+
+### 🌟 [awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,506
+- **核心概述**: 2026 年发布的人工智能代理研究论文精选集，涵盖代理工程、内存、评估、工作流程和自主系统。
+- **大概是做什么的**: 关于 AI 代理生态系统的精选研究论文，于 2026 年发表。为开发人员提供的更多精彩合集 Awesome AI Agent Papers 2026 年发表的精选研究论文合集，源自 arXiv，涵盖 AI 代理生态系统的核心主题，如多代理协调、内存和 RAG、工具、评估和可观察性以及安全性。无论您是构建代理系统的 AI 工程师、探索新架构的研究人员，还是将 LLM 代理集成到产品中的开发人员，这些论文都可以帮助您掌握实际有效的内容、正在突破的内容以及该领域的发展方向。每周从 arXiv 更新。为什么存在这个列表 arXiv 上每周都会发表数百篇论文，其中越来越多的论文涉及人工智能代理。我们会仔细检查所有内容，筛选与 AI 代理生态系统直接相关的内容，并对它们进行分类，以便您无需进行分类。该列表仅包含 2026 年 1 月以后发表的论文。 - 评估和可观察性 (80) - 代理工具 (95) - AI 代理安全 (82) PerceptUI：LLM 代理作为人类对齐 Syn
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awesome, awesome-list, llm, llm-agents, memory
+
+---
+
+### 🌟 [ante-preview](https://github.com/AntigmaLabs/ante-preview)
+- **项目语言**: MDX
+- **星标数量**: ⭐ 396
+- **核心概述**: 幽灵在你的壳里。 Ante 是一款独立的代理安全带，具有高度优化的核心。它的工作方式类似于 Claude Code 或 Codex，没有任何依赖性或模型约束。
+- **大概是做什么的**: Ante 目前处于 alpha 阶段，并作为研究预览提供。预计会有重大变化和不完整的功能。仅限 macOS 和 Linux。你的壳里有一个幽灵。 Ante 是一个独立的编码代理，位于您的终端中并进行自组织。来自 Antigma Labs 的一个 15MB Rust 二进制文件，零运行时依赖性，旨在充分利用任何模型。它的工作方式类似于 Claude Code 或 Codex，没有任何依赖性或模型约束。它还可以成为构建您自己的安全带和高性能助手的优化核心。我们关心的是线束，而不是模型或提示。文档是新的源代码。每个经纪人都声称自己很好。您可以查看以下数字： 🥇 经过公开证明，在我们发布的版本中，Ante 在官方排行榜限制下连续运行 Terminal-Bench 2.1。对于我们运行的每个模型，Ante 都是第一个同模型代理。每个结果都固���您可以下载的确切构建，并链接原始 Harbor 运行以进行独立审核。在开放权重 GLM 5.2 中，Ante 得分为 74.6%：在公共验证排行榜上排名前 7。实时结果 → · 方法
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, ai-agents, artifical-life, rust, terminal
+
+---
+
+### 🌟 [genie](https://github.com/automagik-dev/genie)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 322
+- **核心概述**: 愿望进来，公关出去。 CLI 代理会与您面谈、规划工作、在隔离的工作树中分派并行代理，并在您看到代码之前对其进行审查。
+- **大概是做什么的**: Genie 是人工智能编码代理的规划和执行层。你用一句话描述你想要什么； Genie 会与您面谈制定计划，派遣代理并行构建该计划，根据验收标准审查结果，然后为您提供准备合并的内容。整个东西是一个轻量级的主体：一组技能、git 中的纯 Markdown 文档以及单个每个存储库的 SQLite 文件。没有守护进程，没有 Postgres，没有任何驻留。一条命令打开数据库，运行一个事务，然后退出。每个版本都经过 SLSA 出处的联合签名（无密钥 OIDC）；安装程序在运行之前验证二进制文件 - 通过 gh attestation verify ，回退到 cosign verify-blob 。然后，从您的存储库中运行 genie setup 来配置 Genie 并连接其 Claude Code 挂钩。精灵医生随时检查安装情况。生命周期作为 Claude Code 技能运行。在 Claude Code 中打开您的存储库，然后执行：随时重新运行 genie board 以获得看板上任务状态的当前快照。计划文档随着你的进展而登陆 git；操作状态位于 .genie/genie.db 中。 - 技能卡尔
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-developer-tools, anthropic, automation, autonomous-agents, claude
+
+---
+
+### 🌟 [agent-skills-hub](https://github.com/zhuyansen/agent-skills-hub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 发现并比较开源代理技能、工具和 MCP 服务器 — 包括质量评分、趋势分析和自动 GitHub 同步
+- **大概是做什么的**: AgentSkillsHub — Claude Skills / MCP 服务器 / 代理工具目录 AgentSkillsHub（代理技能中心）是 Claude Skills、MCP 服务器、Codex Skills 和 AI 代理工具的开源目录。 117,000+ 个项目 · 安全分级 + 10 个维度的质量评分 · 每 8 小时刷新一次。 🌐 直播：agentskillshub.top · 🛡️ 安全报告 · 🏢 企业 · 📰 时事通讯 · 𝕏 关注 什么是 AgentSkillsHub？ AgentSkillsHub — 也称为 Agent Skills Hub 、 Claude Skills Hub 或 Claude Skills Marketplace/Library — 是一个不断更新的目录，从 GitHub 收集每个有意义的开源 AI 代理技能、MCP 服务器、Codex 技能、AI 编码助手和代理框架。每个项目都： - 分为 7 个类别之一（ mcp-server 、 claude-skill 、 codex-skill 、 agent-tool 、提示库 、 ai-coding-assistant 、未分类 ） - 根据 10 个加权信号和 6 个质量维度（完整性、清晰度、特异性、示例、README 结构、代理准备情况）进行评分 - 通过 /compare/ 功能并排比较/最佳/{场景}/拉
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-security, claude, claude-code, directory
+
+---
+
+### 🌟 [stackql](https://github.com/stackql/stackql)
+- **项目语言**: Go
+- **星标数量**: ⭐ 861
+- **核心概述**: 通过面向人类和人工智能代理的统一的基于 SQL 的框架查询、配置和操作云、SaaS、API 和模型上下文协议 (MCP) 资源。
+- **大概是做什么的**: [徽标]：https://stackql.io/img/stackql-logo-bold.png“stackql 徽标”[主页]：https://stackql.io/ [文档]：https://stackql.io/docs [博客]：https://stackql.io/blog [注册表]：https://github.com/stackql/stackql-provider-registry [变量]： https://stackql.io/docs/getting-started/variables [macpkg]：https://storage.googleapis.com/stackql-public-releases/latest/stackql darwin multiarch.pkg [winmsi]：https://releases.stackql.io/stackql/latest/stackql windows amd64.msi [winzip]： https://releases.stackql.io/stackql/latest/stackql windows amd64.zip [tuxzip]: https://releases.stackql.io/stackql/latest/stackql linux amd64.zip [dockerhub]: https://hub.docker.com/u/stackql [dockerstackql]: https://hub.docker.com/r/stackql/stackql [dockerjupyter]: https://hub.docker.com/r/stackql/stackql-jupyter-demo [setupaction]：https://github.com/marketplace/actions/stackql-studios-setup-stackql [execaction]：https://github.com/marketplace/actions/stackql-studios-stackql-exec [平台]： https://img.shields.io/badge/platform-windows%20macos%20linux-brightgreen?style=flat-square“平台”[许可证]：htt
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, asset-management, cloud, cloud-automation, cloud-config, cloud-operations
+
+---
+
 ## 🕔 2026-07-02 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
