@@ -1,3 +1,67 @@
+## 🕔 2026-07-03 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Dayflow](https://github.com/JerryZLiu/Dayflow)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 6,357
+- **核心概述**: The automatic work journal.私下将您的屏幕变成您实际完成的时间线。开源和本地优先。
+- **大概是做什么的**: 适用于 Mac 的私人自动工作日志。 Dayflow 了解您在 Mac 上所做的工作，并将其转化为您一天的清晰时间表。它是为了保护隐私而从头开始构建的，它是开源的、本地优先的，并且可以完全与本地人工智能一起运行。 Dayflow turns raw screen activity into a chronological timeline of what you actually did, so you can reconstruct the day without timers or manual notes.查看当天的 GitHub 风格的活动网格，以及昨天的亮点、今天的优先事项和阻碍因素，以便您可以带着已经编写的更新进入站立会议。一目了然地了解您的一周：您什么时候集中精力、时间都花在哪里、哪些应用占主导地位，以及是什么让您偏离了轨道。与你的工作日记聊天询问有关你的一天/一周/一年的问题，并根据你的时间线获得答案，而不是挖掘笔记、屏幕截图或记忆。 Dayflow 在您的 Mac 上安静地运行，并根据您的屏幕活动构建有用的一天记录。功能 它是如何工作的 为什么它有用 自动时间线 Dayflow 捕获轻量级屏幕块，并与您选择的 AI 提供商一起分析它们，
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, claude, gemini, llm, lmstudio
+
+---
+
+### 🌟 [jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,968
+- **核心概述**: Cut AI token costs 95%+ on code exploration. The leading MCP server for precise, symbol-level GitHub code retrieval via tree-sitter AST. Works with Claude Code, Cursor & any MCP client.保存了 313B+ 代币。
+- **大概是做什么的**: The leading, most token-efficient MCP server for precise GitHub source code retrieval via tree-sitter AST parsing. Cut AI token costs 95%+ on code exploration — stop burning your context window reading entire files.实际结果，生产中的实时结果 节省了 313B+ 代币 · 超过 45,000 名开发人员 · 避免了超过 158 万美元的人工智能支出 · 阻止了超过 37,500 千克二氧化碳 jcodemunch.com 上的实时遥测 — 基准：平均代币减少 95%（15 个任务/3 个存储库，峰值 99.8%）。 Works with Claude Code , Cursor , VS Code , Codex CLI , Continue , Windsurf , and any MCP-compatible client.更喜欢命令行？对于需要独立于 PyPI 的版本稳定安装通道的固定/B2B 部署，请直接从存储库安装（需要 git ，从源代码构建）：快速入门 - https://github.com/jgravelle/jcodemunch-mcp/blob/main/QUICKSTART.md 大量详细信息：http://jcodemunch.com/ Live OSS code-health observatory - Express、FastAPI 的每周六轴运行状况快照 Gin, Pydantic, Django, Flask, NestJS, Cobra, and this very repo: https://jgravelle.github.io/jcodemunch-observatory/ Token Cost R
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-coding, ai-tools, ast, claude, claude-code, code-intelligence
+
+---
+
+### 🌟 [mlx-vlm](https://github.com/Blaizzy/mlx-vlm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,114
+- **核心概述**: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.
+- **大概是做什么的**: MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) and Omni Models (VLMs with audio and video support) on your Mac using MLX. - 命令行界面 (CLI) - 推测性解码 - MiniMax M3 EAGLE-3 - 带 Gradio 的聊天 UI - 连续批处理 - 自动前缀缓存 (APC) - KV 缓存量化 - 激活量化 (CUDA) - 多图像聊天支持 - 模型特定文档 - 视觉特征缓存 - TurboQuant KV 缓存 - 分布式推理模型特定文档 某些模型具有包含提示格式、示例和最佳实践的详细文档： 模型文档------- --------------- DeepSeek-OCR-2 文档 Unlimited-OCR 文档 Phi-4 Reasoning Vision 文档 Phi-4 Multimodal 文档 LocateAnything 文档 Granite Vision 3.2 文档 Granite 4.0 Vision 文档 MiniCPM-V 4.6 文档 最简单的入门方法是使用 pip 安装 mlx-vlm 软件包： 命令行界面 (CLI) 从使用 CLI 的模型：对于思维模型（例如 Qwen3.5），您可以限制在思维块中花费的代币数量： ------ ------
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: apple-silicon, florence2, idefics, llava, llm, local-ai
+
+---
+
+### 🌟 [codanna](https://github.com/bartolli/codanna)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 702
+- **核心概述**: Local code intelligence MCP server and CLI for AI coding agents
+- **大概是做什么的**: 为您的代理人进行 X 射线视力检查。 Give your code assistant the ability to see through your codebase—understanding functions, tracing relationships, and finding implementations with surgical precision.上下文优先编码。没有 grep-and-hope 循环。没有无休止的来回。只需更少的击键即可实现更智能的工程。 Built for rapid R&D and pair programming—instant answers when LSP is too slow.了解更多 安装 (macOS、Linux、WSL) Windows (PowerShell) 请参阅 Cargo 和其他选项的安装指南。初始化和索引搜索文档 (RAG) 您的 AI 助手获得代码的结构化知识： - “这个函数在哪里调用？” - Instant call graph, not grep results - "Find authentication logic" - Semantic search matches intent, not just keywords - "What breaks if I change this?" - 跨文件的完整依赖关系分析 区别：Codanna 了解代码结构。它知道 parseConfig 是一个调用 validateSchema 的函数，而不仅仅是字符串匹配。 Feature Description --------- ------------- Semantic Search Natural language queries against code and documentation. F
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, call-graph-analysis, code-indexing, code-intelligence, code-search, coding-agents
+
+---
+
+### 🌟 [beta9](https://github.com/beam-cloud/beta9)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,688
+- **核心概述**: Ultrafast serverless GPU inference, sandboxes, and background jobs
+- **大概是做什么的**: 大规模运行 AI 工作负载 Beam 是适用于无服务器 AI 工作负载的快速开源运行时。它为您提供了一个 Pythonic 界面，用于以零基础设施开销部署和扩展 AI 应用程序。 - Fast Cold Starts : Launch containers in under a second using a custom container runtime, scheduler, and embedded caching - Parallelization and Concurrency : Fan out workloads to 100s of containers - First-Class Developer Experience : Hot-reloading, webhooks, and scheduled jobs - Scale-to-Zero : Workloads are serverless by default - Volume Storage : Mount distributed storage volumes - GPU Support : Run on our cloud (4090s, H100s, and more) or bring your own GPUs 1. Create an account here 2. Follow our Getting Started Guide Spin up isolated containers to run LLM-generated code: Deploy a serverless inference endpoint Create an autoscaling endpoint for your custom model: Run background tasks Schedule resilient background tasks (or replace your Celery queue) by adding a simple decorator: Self-Hosting vs Cloud Beta9 is the open-source engine powering Beam, our fully-managed cloud platform.你c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: autoscaler, cloudrun, cuda, developer-productivity, distributed-computing, faas
+
+---
+
+### 🌟 [hermex](https://github.com/uzairansaruzi/hermex)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 427
+- **核心概述**: 适用于 Hermes 代理商的原生 iPhone 应用程序
+- **大概是做什么的**: Control your self-hosted Hermes agent from your iPhone. Your server. Your iPhone.没有中间人。 Website · App Store · Report a bug · Contributing Hermex is a native SwiftUI iPhone app for driving a self-hosted hermes-webui server — a mobile cockpit for an AI agent that lives on a machine you control. The phone is the control plane, not the compute plane: the agent, its tools, and your data stay on your own hardware. - 自由的。没有订阅，没有应用内购买。 - 私人的。 No analytics, no tracking, no third-party relay — the app talks only to your server. - 本国的。 Real SwiftUI, built for iOS 18+, not a web wrapper. - Chat with your agent — send messages with model, reasoning-effort, workspace, and profile options; attach files and images; watch responses stream in real time with thinking and tool-call detail. - Steer or stop a run mid-flight. - Sessions — browse, search, and resume every conversation on your server;缓存的会话保持离线可读。 - Pick your models — switch between any model or provider your server is configured for, with recents and favorites. - 简介&
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: hermes, hermes-agent, hermex, ios, llm, self-hosted
+
+---
+
 ## 🕔 2026-07-03 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
