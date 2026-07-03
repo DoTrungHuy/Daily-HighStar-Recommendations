@@ -1,3 +1,67 @@
+## 🕔 2026-07-03 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fragments](https://github.com/e2b-dev/fragments)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,341
+- **核心概述**: 用于构建完全由人工智能生成的应用程序的开源 Next.js 模板。通过E2B。
+- **大概是做什么的**: 这是 Anthropic 的 Claude Artifacts、Vercel v0 或 GPT Engineer 等应用程序的开源版本。由 E2B SDK 提供支持。 → 尝试fragments.e2b.dev - 基于 Next.js 14（应用程序路由器、服务器操作）、shadcn/ui、TailwindCSS、Vercel AI SDK。 - 使用 E2B 的 E2B SDK 安全地执行 AI 生成的代码。 - 在用户界面中进行流式传输。 - 可以安装和使用 npm、pip 中的任何包。 - 支持的堆栈（添加您自己的）： - 🔸 Python 解释器 - 支持的 LLM 提供商（添加您自己的）： - ��� Morph Apply 模型集成，以实现令牌高效、准确和更快的代码编辑。请务必给我们一颗星！ - Node.js 和 npm 包管理器的最新版本 - LLM 提供程序 API 密钥 1. 克隆存储库 2. 安装依赖项 进入存储库：运行以下命令来安装所需的依赖项： 3. 设置环境变量 创建 .env.local 文件并设置以下内容： 4. 启动开发服务器 5. 构建 Web 应用程序 添加自定义角色 1. 确保已安装 E2B CLI 并且已登录。 2. 在 sandbox-templates/ 下添加一个新文件夹3.初始化一个新的模板usi
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-code-generation, anthropic, claude, claude-ai, code-interpreter
+
+---
+
+### 🌟 [ruby_llm](https://github.com/crmne/ruby_llm)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 4,223
+- **核心概述**: 适合每个主要 AI 提供商的令人愉快的 Ruby 框架。使用美观、富有表现力的代码构建 AI 代理、聊天机器人、RAG 应用程序和多模式工作流程。
+- **大概是做什么的**: 一个令人愉快的 Ruby AI 框架，在 Rails 中感觉很自在。无需重写代码即可切换模型，然后使用从聊天和工具到代理、RAG 和工作流程的所有内容扩展到生产环境。战斗测试在 - 完全私人工作 AI 使用 RubyLLM？分享你的故事！需要 5 分钟。 https://github.com/user-attachments/assets/65422091-9338-47da-a303-92b918bd1345 每个人工智能提供商都提供自己臃肿的客户端。不同的 API。不同的响应格式。不同的约定。真累。 RubyLLM 为您提供了一个适用于所有这些问题的漂亮框架。无论您使用 GPT、Claude 还是本地 Ollama，界面都是相同的。只有三个依赖项：Faraday、Zeitwerk 和 Marcel。就是这样。聊天：使用 RubyLLM.chat 进行对话式 AI 视觉：分析图像和视频 音频：使用 RubyLLM.transcribe 转录语音并使用 RubyLLM.speak 生成它 文档：从 PDF、CSV、JSON、任何文件类型中提取 图像生成：使用 RubyLLM.paint 创建图像 嵌入：使用 RubyLLM.embed 生成嵌入 审核：使��� RubyLLM.moderate 实现内容安全 工具：让 AI 调用您的 Ruby 方法
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, anthropic, chatgpt, claude, deepseek
+
+---
+
+### 🌟 [abogen](https://github.com/denizsafak/abogen)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,095
+- **核心概述**: 从 EPUB、PDF 和带有同步字幕的文本生成有声读物。
+- **大概是做什么的**: Abogen 是一款功能强大的文本到语音转换工具，可以在几秒钟内轻松将 ePub、PDF、文本、Markdown 或字幕文件转换为带有匹配字幕的高质量音频。使用 Kokoro-82M，可将其用于有声读物、Instagram、YouTube、TikTok 的配音或任何需要自然声音文本转语音的项目。 https://github.com/user-attachments/assets/094ba3df-7d66-494a-bc31-0e4b41d0b865 该演示仅用 5 秒就生成了，生成了约 1 分钟的音频，并且字幕完美同步。要创建类似的视频，请参阅演示指南。转��� espeak-ng 最新版本下载并运行 .msi 文件。选项 1：使用脚本安装 1. 下载存储库 2. 解压 ZIP 文件 3. 双击运行 WINDOWS INSTALL.bat 此方法会自动处理所有内容 - 在独立环境中安装包括 CUDA 在内的所有依赖项，无需单独安装 Python。 （您仍然需要安装 espeak-ng。）您不需要单独安装 Python。该脚本将自动安装 Python。选项 2：使用 uv 安装 首先，安装 uv
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: audiobook, audiobooks, content-creation, content-creator, ebook, epub
+
+---
+
+### 🌟 [ClawTeam-OpenClaw](https://github.com/win4r/ClawTeam-OpenClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,418
+- **核心概述**: ClawTeam fork 完全适应 OpenClaw — 以 OpenClaw 作为默认代理的多代理群协调
+- **大概是做什么的**: CLI 编码代理的多代理群协调 — 默认为 OpenClaw 您设定目标。代理群处理剩下的事情——产生工作人员、分割任务、协调和合并结果。可与 OpenClaw（默认）、Claude Code、Codex、Hermes Agent、nanobot、Cursor 和任何 CLI 代理配合使用。 - Linux 和 macOS 保留原始 tmux -first 工作流程。 - Windows 10/11 支持自动回退到子进程后端。 - 任务锁定、进程活跃度检查和信号注册通过共享兼容层进行路由，因此不受支持的仅限 Unix 的行为可以在 Windows 上安全降级。 - 板连接仍然需要 tmux ，因此在 Windows 上更喜欢使用 Clawteam 板进行实时监控。 - 如果您想要 Windows 上的原始 tmux 工作流程，请在 WSL 中运行 ClawTeam。目前的人工智能代理很强大，但工作却是孤立的。 ClawTeam 允许代理自行组织成团队 - 分配工作、沟通并聚合结果，无需人为微观管理。 ClawTeam 其他多智能体框架 --- --------- ---------------------------- 谁使用它 AI 智能体本身
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, clawdbot, openclaw, openclaw-extension, openclaw-plugin, openclaw-skills
+
+---
+
+### 🌟 [ax](https://github.com/ax-llm/ax)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,805
+- **核心概述**: Typescript 的几乎“官方”DSPy 框架
+- **大概是做什么的**: Ax — 适用于 TypeScript / Python / Java / C++ / Go / Rust 等的 DSPy 跨 TypeScript、Python、Java、Ax 的 LLM 构建的编程模型是 TypeScript 优先，目前以 @ax-llm/ax 形式发布。相同的签名、提供者映射、代理、流程、运行时契约和优化器也被编译到经过验证的生成的 Python、Java、C++、Go 和 Rust 库中。 💬 在 X 上关注 @dosco 以获取新版本并讨论该项目。 - 用于类型化结构化生成的签名：字符串 DSL、Fluent f() 构建器或任何标准模式 v1 验证器 — Zod、Valibot、ArkType。 - 跨 OpenAI 兼容端点、OpenAI Responses、Anthropic、Gemini、Grok/xAI、Mistral、Cohere、Reka、DeepSeek、Azure OpenAI、音频和实时事件流提供抽象。 - 具有运行时执行、上下文预算、检查点、操作日志重播、发现、记忆、技能和委派的代理。 - 流为带有分支、循环、反馈、缓存行为、并行执行和 .returns(...) 投影的类型化程序图。 - 优化器包括 GEPA、few-shot bootstrapping、便携式优化器
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anthropic, claude, cohere, dspy, gemini
+
+---
+
+### 🌟 [dario](https://github.com/askalf/dario)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 您在任何工具（Cursor、Cline、Aider、Agent SDK）中的 Claude Pro/Max 订阅均按订阅定价，而不是按代币计费。一个本地端点，可重播 Claude Code 的线路形状，以便您的流量保留在订阅池中。
+- **大概是做什么的**: 您的 Claude Pro/Max 订阅仅在一个地方起作用：Claude Code。 dario 让它可以在任何地方使用——按订阅定价，而不是按代币 API 计费。零运行时依赖 · SLSA 认证的每个版本 · 没有任何电话回家 · 周末可以阅读 20.5k 行 · 独立、非官方、第三方 ( DISCLAIMER.md ) 🗓️ 2026-06-15 — Anthropic 拆分 Claude 计费。 Agent-SDK 和 claude -p（无头）流量不再计入您的订阅池，并转移到单独的小额每月信用额度（按计划为 20 美元/100 美元/200 美元），然后按令牌 API 费率计量。大多数代理会按照重新分类到该存储桶中的形式转发您的请求。 dario 在每个请求离开您的计算机之前将其重写为交互式克劳德代码线形，因此您的流量保留在您已经付费的订阅池中 - 相同的安装，无需更改悬崖配置。有什么变化，以及如何在自己的机器上验证 → ⚠️ 还在 4.8.39 之前的版本吗？立即升级 - 这些可能会悄悄地破坏通过代理路由的代码/结构化内容（标识符擦除
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sdk, ai, aider, anthropic, claude, claude-code
+
+---
+
 ## 🕔 2026-07-03 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 116 个候选项目中筛选出 6 个未推荐过的新项目。
