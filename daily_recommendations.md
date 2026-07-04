@@ -1,3 +1,67 @@
+## 🕔 2026-07-04 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [LLPlayer](https://github.com/umlx5h/LLPlayer)
+- **项目语言**: C#
+- **星标数量**: ⭐ 3,891
+- **核心概述**: 用于语言学习的媒体播放器，具有双字幕、人工智能生成字幕、实时翻译等！
+- **大概是做什么的**: 用于语言学习的媒体播放器。一款专注于字幕相关功能的视频播放器，如双字幕、AI生成字幕、实时翻译、查词等等！ https://github.com/user-attachments/assets/05a7b451-ee3b-489f-aac9-f1670ed76e71 TED 演讲 - Linux LLPlayer 背后的思想具有许多普通视频播放器所不具备的语言学习功能。 - 双字幕：可以同时显示两个字幕。支持文本字幕和位图字幕。 - AI 生成字幕 (ASR)：由 OpenAI Whisper 提供支持，从任何视频��音频实时自动生成字幕。支持两个引擎whisper.cpp 和faster-whisper。 - 实时翻译：支持多种翻译引擎，如Google、DeepL、Ollama、LM Studio、OpenAI。 - 上下文感知翻译：通过使用法学硕士识别字幕上下文，实现高度准确的翻译。 - 实时 OCR 字幕：可以将位图字幕实时转换为文本字幕，由 Tesseract OCR 和 Microsoft OCR 提供支持。 - 字幕侧边栏：文本和位图均支持
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: asr, csharp, flyleaf, language-learning, llm, media-player
+
+---
+
+### 🌟 [Agent_Memory_Techniques](https://github.com/NirDiamant/Agent_Memory_Techniques)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 746
+- **核心概述**: LLM 的代理内存：30 个可运行的 Jupyter 笔记本，涵盖对话缓冲区、向量存储、知识图、情景和语义内存、MemGPT、Mem0、Letta、Zep、Graphiti、LoCoMo 基准测试和生产模式。
+- **大概是做什么的**: 🧠 代理记忆技术 了解 LLM 代理的每种代理记忆技术。 ⭐ 如果您觉得这有用，请为该存储库加注星标，以便更多学习者可以发现它。 🧭 新来的？从 01 对话缓冲存储器开始或选择一个学习路径。更喜欢视觉效果？请参阅下面的决策树。 30 个可运行的 Jupyter 笔记本，涵盖对话缓冲区、向量存储、知识图、情景和语义记忆、工作记忆、MemGPT、Mem0、Letta、Zep、Graphiti、LoCoMo 基准测试和生产内存模式。 RAG Made Simple - 400 页的 RAG 视觉指南，由该存储库的作者编写。生成 AI 领域的亚马逊畅销书 · 1,500 多名读者 · ⭐ 4.6 获取 - 使用代码 RAGKING 可享受 33% 折扣 → · 免费阅读第 1 章 🎯 前 0.1% 内容 加入超过 50,000 名读者，每周获得清晰的 AI 教程。订阅者还可以抢先阅读我的书并享受 33% 的折扣。 💡 为什么代理记忆很重要 💡 快速解答（对于搜索引擎和浏览器） 代理记忆是一组技术，可以让基于 LLM 的代理（围绕大型语言模型构建的系统）跨回合、会话和会话记住信息。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, anthropic, episodic-memory, generative-ai, graphiti
+
+---
+
+### 🌟 [LangAlpha](https://github.com/ginlix-ai/LangAlpha)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,499
+- **核心概述**: 克劳德投资法典
+- **大概是做什么的**: LangAlpha 是一款氛围投资代理工具，旨在帮助解读金融市场并支持投资决策。入门 • 从仪表板中固定精选的新闻简报，启动想法生成，并派遣并行子代理来筛选市场 - 然后在内联交互式仪表板中获得五个多头/空头配对交易想法，并根据您的书籍进行校准。如今，每一种人工智能金融工具都将投资视为一次性的：提出问题，得到答案，然后继续。但真正的投资是贝叶斯投资——你从一篇论文开始，每天都有新数据到达，然后你相应地更新你的信念。这是一个需要数周和数月展开的迭代过程：完善论文、重新审视立场、将新分析叠加在旧分析之上。没有任何一个提示可以捕捉到这一点。从氛围编码到氛围投资受到软件工程的启发：代码库持续存在，每次提交都建立在之前的基础上。像 Claude Code 和 OpenCode 这样的代码代理工具通过构建采用这种模式的代理、探索现有上下文并以先前的工作为基础而取得了成功。 LangAlpha 带来了同样的见解：g
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, investment, langchain, langraph, llm, mcp
+
+---
+
+### 🌟 [nanolang](https://github.com/jordanhubbard/nanolang)
+- **项目语言**: C
+- **星标数量**: ⭐ 609
+- **核心概述**: 一种小型实验语言，旨在针对法学硕士进行编码
+- **大概是做什么的**: 我是一种最小的编程语言，专为机器编写和人类阅读而设计。我需要测试，我使用明确的语法，并且我的核心得到了正式证明。当您需要本机性能时，我会转换为 C。我还提供了自己的虚拟机 NanoISA，它将危险的外部调用隔离在单独的进程中。我的核心语义在 Coq 中被机械地证明了——类型健全性、进步性和确定性是完整的；大步↔小步等价证明中的一个元组子情况仍然被承认。 → 用户指南 ← - 我提供了一个教程，其中包含您可以执行的示例。这是我建议您开始的地方。其他资源： - 入门 - 我的环境的简要介绍。 - 快速参考 - 我的语法，总结。 - 语言规范 - 我完整的技术定义。 - NanoISA VM 架构 - 我的虚拟机是如何构建的。 - 形式验证 - 我的 Coq 证明套件。 - 所有文档 - 我要说的所有内容的索引。 BSD 用户：使用 gmake 而不是 make 。 - 正式证明的语义 - 我已经证明了类型的健全性、进展和确定性
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: domain-ai, domain-lang, llm, new-language-design, thought-exercise, vibe-coding
+
+---
+
+### 🌟 [VLA-Handbook](https://github.com/sou350121/VLA-Handbook)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 351
+- **核心概述**: 本项目旨在为致力于进入VLA(Vision-Language-Action)领域的算法工程师提供一份全中文、实战导向的学习/面试手册。 不同于通用的 CV/NLP 面试指南，本项目聚焦于 Robotics 特有的挑战
+- **大概是做什么的**: 📊 PULSAR 照见 · 每日北京时间 12:00 更新，减少信息焦虑 — sou350121.github.io/pulsar-web 📈 Daily Pulse · 15 个 VLA 方法族的论文流量 + 加速度 + 30 日趋势图 · 每日自动生成 📡 RSS 订阅 · 4 个主题 feed + 一键 OPML 导入 — 新文章/⚡🔧 论文/SOTA/周报直达你的阅读器 · 完整使用说明 🤖 VLA Expert Skill · 一键让 AI 编程助手变成 VLA 专家 — 支持 Claude Code / Cursor / Codex / OpenCode 🛰️ Spatial-Intelligence-Handbook · 姊妹仓库 — VLA 管 action policy，Spatial 管 world representation（3DGS / VGGT / depth foundation + 跨 embodiment 横向对比）。两者交集是 3D-aware VLA。 🏭 行业情报雷达 · 🆕 每日扫描机器人/具身公司动态（融资 · 产品 · IPO · 合作）→ qwen 联网搜索 + 机械核验后追加到公司档案；周五出行业判断地图，原始记录见 memory/blog/archives/industry-radar/ 。 - 理论总纲两个月来首次全面同步 ：10 个主题 mainline.md 综合了 4-6 月新进的 109 篇深度解析（保留旧判断并显式记录张力），71 篇散落文章归位，200+ 失效内链修复，全库 254 → 380 篇 。 - 行业情报层上线 ： companies/ .md 不再静态——新增自动雷达每日补充融资/产品/IPO 动态（已回填过去 2 个月积压），周度生成行业判断地图。 全中文 · 工程实战导向的 VLA 知识库 VLA 论文每天几十篇，真正能用的工程细节零散��� GitHub Issue 和论文附录里。 这个 Handbook 做一件事： 把"看懂论文"和"跑通代码"之间的坑，全部填平。 380 篇理论文档（10 个主题目录，每日自动新增 2-3 篇深度解析） · 165 篇英文社区实战笔记 · 300+ 条中文社区蒸馏 · 47 条 GitHub Issues 工程经验 · 12 期双周推理报告 · 行业情报雷达 （公司动态 · 融资 · IPO 每日追踪） · 每日自动 pipeline（⚡ 论文评分 · 深度拆解 · 社交情报） 三句话说清楚这个 Handbook 的价值 1. 不只
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: chinese, deep-learning, embodied-ai, llm, robot-learning, robotics
+
+---
+
+### 🌟 [wiki-graph](https://github.com/oomol-lab/wiki-graph)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 324
+- **核心概述**: 将任何一本书精炼到书脊
+- **大概是做什么的**: =22.12.0" src="https://img.shields.io/badge/node-%3E%3D22.12.0-brightgreen" SpineDigest 是一个针对 AI 代理优化的知识库 CLI。它将 EPUB、Markdown 和纯文本导入 .wikg ，可以使用 LLM 提取知识图和摘要，然后将存档公开为可搜索、可浏览、可读、源支持、图形导航、上下文可打包的 LLM Wiki。它不是一次性的书籍到摘要转换器。摘要、EPUB、Markdown 和 JSON 输出是 .wikg 知识档案的投影。主要对象是 .wikg 本身：可以构建、维护、搜索和重用的便携式知识档案。探索 .wikg 档案有三种主要方法： - 搜索模式：使用搜索来发现可寻址的 URI。源、摘要、块、实体和三元组对象。 - 结构模式：使用 wkg://.../chapter/tree get --json 获取目录层次结构，然后使用列表或范围搜索来检查本地对象集合。 - 阅读模式：在选择相关对象后，使用 get 获取源、章节、摘要、块、实体或三元组 URI。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, jinja2, knowledge-graph, llm, sdpub
+
+---
+
 ## 🕔 2026-07-04 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
