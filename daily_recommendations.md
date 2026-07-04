@@ -1,3 +1,67 @@
+## 🕔 2026-07-04 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ccg-workflow](https://github.com/fengshao1227/ccg-workflow)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5,670
+- **核心概述**: 多模型协作工作流引擎 — /ccg:go 一个命令，AI 自动分析意图、选择策略��编排 Codex + Gemini + Claude 协作执行
+- **大概是做什么的**: CCG - Claude + Codex + Gemini 多模型协作 简体中文 English 文档 302.AI 是一个按需付费的企业人工智能资源中心，提供市场上最新、最全面的人工智能模型和 API，以及各种即用型在线人工智能应用。 NotebookLM Remover — 免费的浏览器本地 AI 水印去除器。删除各种格式的 NotebookLM 水印 - 视频、PDF、PPTX、信息图、播客等。 100% 私密，离线工作。 CCG 是 Claude Code 的工作流引擎，它通过基于钩子的状态跟踪、自动策略选择和 Agent Teams 并行执行来协调多个 AI 模型（Codex、Gemini、Claude）。 v3.0 是一个彻底的重写。一个命令取代 29。 - /ccg:go — 用简单的语言描述您想要什么。引擎分析您的意图，选择正确的策略并执行它。 - Hook 引擎 — 每回合状态注入即使在上下文压缩之后也能让 Claude 保持在正轨上。会话启动挂钩在每个新会话中注入完整的项目上下文。 - 任务持久性 - 中等+复杂性任务创建具有持久性的 .ccg/tasks/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-teams, ai, ccg, claude-code, cli, codex
+
+---
+
+### 🌟 [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,042
+- **核心概述**: AudioMuse-AI 使用声音分析来重新发现被遗忘的歌曲，发现音乐库中隐藏的连接，并为 Jellyfin、Navidrome、LMS、Lyrion 和 Emby 生成智能播放列表：无需元数据或外部服务。
+- **大概是做什么的**: ⭐ 在这个项目上留下一颗星星：一个人独自发光；他们一起让它变得可见并保持活力。 💛 通过支持 AI 许可证、家庭实验室基础设施和持续开发来捐款，塑造 AudioMuse-AI 的未来。 AudioMuse-AI - 音乐成形的地方 AudioMuse-AI 是一款开源自托管工具，它使用声音分析来重新发现音乐库中被遗忘的歌曲，并生成凹槽感知播放列表，这些播放列表还捕获每首曲目背后的含义，而无需依赖元数据或外部 API。您可以使用 Docker Compose 或 Podman 在本地运行它，在 Kubernetes 集群中大规模部署它（支持 AMD64 和 ARM64），或者使用适用于 macOS、Windows 和 Linux 的本机应用程序。它与主要的自托管音乐服务器集成，包括 Jellyfin、Navidrome、LMS、Lyrion 和 Emby，并计划进行更多集成。不想自行托管？我们很自豪 Elestio 选择 AudioMuse-AI 作为托管云服务，很高兴看到该项目惠及更多人。需要托管 LLM 提供商吗？ AudioMuse-AI 通过现有的 OPENAI 提供商支持 OpenAI 兼容的 API
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: clap, docker, emby, jellyfin, jellyfin-plugin, k3s
+
+---
+
+### 🌟 [tokenspeed](https://github.com/lightseekorg/tokenspeed)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,544
+- **核心概述**: TokenSpeed 是光速 LLM 推理引擎。
+- **大概是做什么的**: TokenSpeed 是一款光速 LLM 推理引擎，专为代理工作负载而设计，具有 TensorRT-LLM 级别的性能和 vLLM 级别的可用性。我们的目标是成为生产代理工作负载中性能最强的推理引擎。 - 建模层：带有静态编译器的本地 SPMD 设计，可根据模块边界放置注释生成集体通信，因此用户无需手动编写并行逻辑。 - 调度程序：C++ 控制平面和 Python 执行平面。请求生命周期、KV 缓存所有权和重叠计时被编码为有限状态机，类型系统在编译时强制执行安全的 KV 资源重用。 - 内核：可插拔的分层内核系统，具有可移植的公共 API 和集中式注册表，包括 Blackwell 上用于代理工作负载的最快 MLA（多头潜在注意）实现之一。 - 入口点：SMG 集成的 AsyncLLM，用于低开销 CPU 端请求 - [2026/06] 深入研究 TokenSpeed-Kernel 的设计和优化。博客] - [2026/05] 🚀 TokenSpeed 在 Qwen3.5-397B-A17B 上达到 580 TPS，用于代理工作
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: blackwell, deepseek, glm, gpt-oss, kimi, lightseek
+
+---
+
+### 🌟 [oh-my-taiyiforge](https://github.com/Dong90/oh-my-taiyiforge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 807
+- **核心概述**: AI 工作流程自动化插件，用于使用 Claude/Codex 生成智能代码
+- **大概是做什么的**: 把 AI 写代码的玄学，变成一条可执行、可审计的工程流水线。 快速开始 · 核心能力 · 文档 · 社区 用 AI 写代码很简单。用 AI 做工程很难。 Agent 跳过需求/设计，直接写代码 没有阶段约束，AI 总会走捷径 长会话上下文爆炸，之前写的全丢了 没有 token 管理机制，上下文就是消耗品 Claude / Codex / Cursor 各一套流程 同一特性四套仪式，按工具入职不按团队 没人敢让 AI 独立拍板 没有门控的 review 形同虚设 装好的 Skill 实际行为没人说得清 文档漂移，出问题没法追溯 TaiyiForge 的回答 ：一套九阶段工件契约 + 状态机引擎。在四套 AI 终端里行为完全一致。 /taiyi:plan 默认半自动（拆模块 + 推荐 profile，人确认后批量 /taiyi:new ）；切到 auto 模式即可一键生成全栈骨架（见下方"一键生成"小节）。不用背阶段顺序，不用记工件模板。 27 秒终端实录。从零创建一个 change，引擎自动推进阶段： 注： /taiyi:new → /taiyi:status → /taiyi:write → /taiyi:continue ，四步走完一个阶段。 你只管写 Markdown 和代码。阶段顺序、工件模板、门控校验全是引擎的活。 每次变更顺序走九步，每步固定产出。关键节点 人类门控 ——AI 不能放行自己。 ------ ------ ------ change 方案 + 范围边界 人 requirement 验收标准 + AC 引擎 design ≥2 方案对比 + 决策 人 ui-design UI/UX 契��� 引擎（仅触 UI 时） task 可独立 PR 的片段 引擎 review 跨 AI 评审 人 integration 交付门控 引擎 不管是 Claude Code 的 /taiyi:new 、Cursor 的同名 slash、Codex 的 $taiyi-new ，还是 OpenCode 的插件工具—— 同一套词汇，同一种行为 。 /taiyi:plan [file] 项目规划 ：README / PRD / PDF / URL → 一次性拆出全部模块 + 一键生成代码骨架 /taiyi:status 查看进度 /taiyi:write 写当前阶段 /taiyi:continue 推进下一阶段 /taiyi:apply 进入实现 /taiyi:archive 全阶段归档 ------ ------ -------- ------ 项目级 /taiyi:
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, automation, claude, code-generation, codex, developer-tools
+
+---
+
+### 🌟 [LLM-Hub](https://github.com/timmyy123/LLM-Hub)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 482
+- **核心概述**: 手机本地AI助手
+- **大概是做什么的**: LLM Hub 是一款开源移动应用程序，用于设备上的 LLM 聊天、图像生成和视频生成，适用于 Android 和 iOS。它针对移动使用（CPU/GPU/NPU 加速）进行了优化，并支持多种模型格式，因此您可以在本地和私下运行强大的模型。 💻 桌面版本即将推出：计划推出 Windows 和 macOS 本机应用程序，通过高级光标集成和类似 Claude Code 的功能带来桌面级体验。 📸 演示和屏幕截图 Vibe Coder 在 iOS 上演示 Android 上的图像生成 Vibe Coder 在 iPhone 上使用 Gemma 4 模型（HTML 预览） 在 Android 上生成稳定的扩散图像 ------ ------------- 💬 聊天 使用 RAG 内存、网络搜索、TTS 自动读出和多模式输入进行多���对话 🤖 creAItor [新] 在几秒钟内使用专门的系统提示 (PCTF) 设计自定义 AI 角色 💻 Vibe Coder [新] 解释您的应用创意，并通过实时 HTML/JS 预览观看它的实时构建 ✍️ 写作辅助 总结、扩展、重写、改进语法或根据描述生成代码 🎨 图像生成器 根据文本提示创建图像
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, gemma3, gemma3n, gemma4, gemma4-agent-skills, gptoss
+
+---
+
+### 🌟 [rtp-llm](https://github.com/alibaba/rtp-llm)
+- **项目语言**: Cuda
+- **星标数量**: ⭐ 1,251
+- **核心概述**: RTP-LLM：阿里巴巴面向多种应用的高性能LLM推理引擎。
+- **大概是做什么的**: - [2025/09] 🔥 RTP-LLM 0.2.0 release with enhanced performance and new features - [2025/01] 🚀 RTP-LLM now supports Prefill/Decode separation with detailed technical report - [2025/01] 🌟 Qwen series model and bert embedding model now supported on Yitian ARM CPU - [2024/06] 🔄 Major refactor: Scheduling and batching framework rewritten in C++, complete GPU memory management, and new Device backend - [2024/06] 🏗️ Multi-hardware support in development: AMD ROCm, Intel CPU and ARM CPU support coming soon - 大模型推理新突破：分布式推理技术探索与实践 - 为异构推理做好准备：次世代 RTP-LLM 推理引擎设计分享 - LLM推理加速：decode阶段的Attention在GPU上的优化 - LLM推理加速：decode阶段的Attention在GPU上的优化（二） RTP-LLM is a Large Language Model (LLM) inference acceleration engine developed by Alibaba's Foundation Model Inference Team. It is widely used within Alibaba Group, supporting LLM service across multiple business units including Taobao, Tmall, Idlefish, Cainiao, Amap, Ele.me, AE, and Lazada. RTP-LLM is a sub-project of the havenask project. 🏢 Production Proven Trusted and deployed across numerous LLM scenarios: Alibaba's international AI platform, Aidg
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: gpt, inference, llama, llm, llm-serving, llmops
+
+---
+
 ## 🕔 2026-07-04 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
