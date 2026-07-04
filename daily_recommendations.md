@@ -1,3 +1,67 @@
+## 🕔 2026-07-04 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openocta](https://github.com/openocta/openocta)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,952
+- **核心概述**: 你的 IT 工作助手，自主进化、伴你成长，专为中国团队打造的开源Agent
+- **大概是做什么的**: OpenOcta 八爪鱼 —— 开源企业级 AI Agent；单一二进制，随处部署，快速使用，对接企业。 OpenOcta 完全自研 为 单一 Go 二进制后端 + 内嵌前端 ，适用于企业内的智能对话、流程自动化，以及业务系统、API 与工具链的整合。 热烈欢迎大家对该项目提交PR或者好的意见 - 定位 ：在企业内提供统一的 AI Agent 运行时与控制面 ，可接入业务系统、HTTP/API、MCP 工具与自定义技能，支持对话、任务编排与自动化集成。 - 形态 ：一个包含 Gateway、Agent、Channels、Cron、前端静态资源的单一二进制，可通过 CLI、HTTP/WebSocket、Webhook 等方式对接外部系统。 - 讨论与使用经验分享 ：欢迎加入八爪鱼讨论群，交流部署实践、集成场景与最佳实践。 - 问题反馈与需求建议 ：可以在群内提问或反馈使用问题，也欢迎在 Git 仓库中提交 Issue / PR。 扫码加入 OpenOcta 讨论群，获取最新动态与问题支持 - Go 1.24+ （用于构建后端） - Node ≥18 （仅构建时用于编译前端，生产环境无需 Node） - 环境变量 ANTHROPIC API KEY （使用 agent 命令时需要） Gateway 默认监听 http://127.0.0.1:18900 ，HTTP 与 WebSocket 共用同一端口， 前端已通过 go:embed 内嵌在二进制中 ，直接通过浏览器访问即可使用 Control UI。 浏览器访问 http://localhost:5173 即可调试前端。 首次运行且配置文件不存在时，会自动从嵌入的 openocta.json.example 初始化并写入配置目录： 平台 默认配置目录 --------------- ------------------------------------ Linux / macOS /.openocta/openocta.json Windows %APPDATA%\openocta\openocta.json - .dmg ：挂载后路径在 /Volumes/... （只读映像），将应用拖入「应用程序」或按首次运行弹窗安装到 /Applications/OpenOcta.app ； 不要 把 /Volumes 下内容当成已安装副本，应在访达中 推出 磁盘映像。详见 deploy/dist-README.md 。 - 根文档： README.md （本文件） - Root: README.en.md - 后端总览 ：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, hermes, llm, openclaw, openhuman
+
+---
+
+### 🌟 [tracecat](https://github.com/TracecatHQ/tracecat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,707
+- **核心概述**: 适用于团队和人工智能代理的开源安全自动化平台
+- **大概是做什么的**: 代理安全自动化平台。 Tracecat 是面向团队和 AI 代理的开源安全自动化平台。 - 提示自动化：使用您自己的代理工具（例如 Claude 代码、Codex、OpenCode）中的代理、工作流程、案例和表格构建端到端自动化。 - 原生代码：将自定义 Python 脚本从 Git 存储库同步到 Tracecat。 - 多合一：代理、工作流程、查找表和案例管理。安全团队将工作自动化所需的一切都集中在一处。 - 部署选项：注册 Tracecat 托管云，或使用 Docker、AWS Fargate 或 Kubernetes Helm 进行自托管。默认情况下使用 nsjail 进行沙盒化，并在 Temporal 上运行，以实现安全性、可靠性和可扩展性。 Tracecat 正在积极开发中。更新之前查看发布变更日志。 - 代理：使用提示、工具和聊天构建自定义代理 - 工作流程：具有复杂控制流（if 条件、循环）和持久执行（临时）的低代码构建器 - 案例管理：使用代理和工作流程跟踪、自动化和解决工作项目 - 集成：超过 100 多个预构建连接器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, automation, event-driven, fastapi, llm, low-code
+
+---
+
+### 🌟 [langgraphjs](https://github.com/langchain-ai/langgraphjs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,077
+- **核心概述**: 将弹性语言代理构建为图形的框架。
+- **大概是做什么的**: 用于构建有状态代理的低级编排框架。 LangGraph——Replit、Uber、LinkedIn、GitLab 等公司使用——是一个用于构建可控代理的低级编排框架。虽然 langchain 提供集成和可组合组件来简化 LLM 应用程序开发，但 LangGraph 库支持代理编排 - 提供可定制的架构、长期记忆和人机交互，以可靠地处理复杂的任务。如果您希望快速构建代理，请查看 Deep Agents — 一个基于 LangGraph 构建的更高级别的包，用于可以规划、使用子代理并利用文件系统来执行复杂任务的代理。对于等效的 Python 库，请查看 LangGraph 和 Python 文档。 LangGraph 为任何长时间运行、有状态的工作流程或代理提供低级支持基础设施： - 持久执行 - 构建能够在故障中持续存在并可以长时间运行的代理，并从中断的位置自动恢复。 - 人机交互——通过检查和修改代理状态无缝地纳入人工监督
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, artificial-intelligence, generative-ai, llm, node
+
+---
+
+### 🌟 [readme-ai](https://github.com/eli64s/readme-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,935
+- **核心概述**: 自述文件生成器，由 AI 提供支持。
+- **大概是做什么的**: 专为简单性、定制性和开发人员生产力而设计。上面的指标是用 HyperWeave 渲染的——一个用于代理的实验性 SVG 工件层。   探索 → - 贡献指南 探索[官方文档][文档]以获取功能、自定义选项和示例的完整列表。 ReadmeAI 是一种开发人员工具，可使用强大的存储库处理引擎和高级语言模型自动生成 README 文件。只需提供代码库的 URL 或路径，就会生成结构良好且详细的自述文件。该项目旨在简化所有技术学科和经验水平的文档创建和维护过程。核心原则包括： - 🔵 自动化：使用单个命令生成详细且结构化的自述文件。 - ⚫️ 自定义：从各种模板、样式、徽章等中进行选择。 - 🟣 灵活：随时在 OpenAI 、 Ollama 、 Anthropic 和 Gemini 之间切换。 - 🟠 语言无关：与多种语言和框架兼容。 - 🟡 最佳实践：E
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-documentation, anthropic, badge-generator
+
+---
+
+### 🌟 [mistral.rs](https://github.com/EricLBuehler/mistral.rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 7,412
+- **核心概述**: 快速、灵活的 LLM 推理
+- **大概是做什么的**: 文档 快速入门 支持的模型 Rust SDK Python SDK Discord - OpenAI 兼容 技能：上传 /v1/skills 包并从可重用过程、帮助程序脚本和本地数据的响应请求中引用它们。指南 - OpenAI 兼容的文件输入：上传 /v1/files ，附加响应输入文件或聊天文件部分，并将请求文件挂载到 shell/代码会话中。指南 - DiffusionGemma：块扩散文本生成。完全集成：分页注意力、前缀缓存、ISQ、多模式和工具调用。指南 - Anthropic 消息 API：mistralrs 现在公开了 Anthropic 兼容的 /v1/messages 和 /v1/messages/count 令牌端点以及 OpenAI 兼容的 /v1 API。指南 - v0.8.2 CUDA 性能：CUDA 图形、FlashInfer 分页内核和 MoE 优化在 GB10、B200 和 H100 SXM 上提供了出色的结果。基准 - Agentic 运行时：网络搜索、本地 Python 代码执行、shell 执行、OpenAI 兼容技能、会话管理和自定义工具挂钩。指南 - Gemma 4：完整的多模式：文本、图像、视频和音频输入。支持型号 视频
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, rust, uqff
+
+---
+
+### 🌟 [token-monitor](https://github.com/Javis603/token-monitor)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 401
+- **核心概述**: Real-time token, cost, and AI limits widget with multi-device sync for Claude Code, Codex, OpenCode, Hermes, OpenClaw, Cursor, Antigravity and more. | 为 AI Tools 打造的即时Token、成本与限额监控桌面组件，支持多设备同步
+- **大概是做什么的**: 每个人工智能编码工具都有一个实时仪表板，在每台机器上同步。什么是令牌监视器？桌面小部件，显示各种 AI 编码工具（Claude Code、Codex、Hermes Agent、OpenCode、OpenClaw、Cursor、Antigravity、Cline 等）的实时令牌使用情况和 AI 工具限制，并具有实时多设备同步、历史使用趋势以及按工具、设备、模型或会话进行的细分。令牌监视器分别支持令牌使用、帐户限制检查和会话详细信息： 徽标工具 数据路径 令牌使用 AI 工具限制 会话详细信息 :---: ------ -------------- :---: :---: :---: Claude Code /.claude/projects/ , /.claude/transcripts/ ✅ ✅ ✅ Codex /.codex/sessions/ ✅ ✅ ✅ OpenCode /.local/share/opencode/ ✅ ✅ ✅ Hermes Agent $HERMES HOME/state.db 或 /.hermes/state.db ✅ — — OpenClaw /.openclaw/agents/ ✅ — — 光标 /.config/tokscale/cursor-cache/ （通过光标同步保持新鲜） ✅ ✅ — Antigravity /.config/tokscale/antigravity-cache/ （通过反重力同步保持新鲜） ✅ ✅ — Cline VS Code globalStorage 任务（ .../saoudrizwan.claude-dev/tasks/ ) ✅ — — Kimi CLI / Kimi 代码 /.kimi/sessions/ , /.ki
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-tools, antigravity, claude-code, codex, cursor
+
+---
+
 ## 🕔 2026-07-03 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
