@@ -1,3 +1,67 @@
+## 🕔 2026-07-04 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ludwig](https://github.com/ludwig-ai/ludwig)
+- **项目语言**: Python
+- **星标数量**: ⭐ 11,729
+- **核心概述**: 用于构建自定义法学硕士、神经网络和其他人工智能模型的低代码框架
+- **大概是做什么的**: 适用于法学硕士、多模式模型和表格 AI 的声明式深度学习框架。文档 · 入门 · 示例 · Discord Ludwig 是一个声明式深度学习框架，可让您使用 YAML 配置文件和零样板 Python 来训练、微调和部署 AI 模型（从 LLM 微调到表格分类）。技术堆栈：Python 3.12 · PyTorch 2.7+ · Pydantic 2 · Transformers 5 · Ray 2.54 Ludwig 由 Linux 基金会 AI 和数据托管。 Ludwig 0.16 的新增功能 功能描述 ------------------------------------------- ---------------------------------------------------------------------------------------------------------- PatchTST 和 N-BEATS 编码器 最先进的时间序列预测编码器，具有 MASE/sMAPE 指标 高级 PEFT 适配器 PiSSA、EVA、CorDA/LoftQ 初始化器； TinyLoRA、OFT、HRA、WaveFT、LN-Tuning、VBLoRA、C3A 适配器类型 VLM 微调 训练 LLaVA、Qwen2-VL、InternVL via 是多模态：门控交叉注意 HyperNetwork 组合器为真 基于条件的特征融合 — 一个特征为其他特征生成权重 Nash-MTL 和 Pareto-MTL Game-theo
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: computer-vision, data-centric, data-science, deep, deep-learning, deeplearning
+
+---
+
+### 🌟 [locally-uncensored](https://github.com/PurpleDoubleD/locally-uncensored)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 848
+- **核心概述**: 未经审查的本地人工智能桌面应用程序：聊天、代理模式、图像和视频生成。与您自己的提供商完全离线运行取消/未经审查的 LLM + ComfyUI。单个 .exe，无 Docker。
+- **大概是做什么的**: 生成任何内容——文本、图像、视频。本地。未经审查。没有云。没有数据收集。没有 API 密钥。自动检测 12 个本地后端。你的人工智能，你的规则。唯一运行人工智能聊天、图像和视频生成的桌面应用程序 - 在本地，一键点击，无需云。绘制图像的聊天 内置图像和视频工作室 编码代理审查和���复 代理模式为您构建 v2.5.5 — 当前版本 v2.5.4 之上的安全和改进补丁。您的聊天、记忆和图库会自动保留，并在下次启动时自动更新提示。安全性：全面强化。远程访问默认关闭 shell 权限并限制连接速率，并具有更强的密码和更严格的跨域规则；文件工具仅限于其工作空间（路径监狱）； Web 获取和下载现在会阻止对内部地址的请求（SSRF 防护）；更严格的内容安全政策；以及 Windows 和 macOS 上提供程序 API 密钥的可选操作系统钥匙串存储。改进：每个模型的自动生成设置现在都是正确的 - FLUX 和 Z-Image 以适当的低 CFG 而不是通用值运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: abliterated, agent-mode, ai, ai-chat, comfyui, desktop-app
+
+---
+
+### 🌟 [Fusion](https://github.com/Runfusion/Fusion)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 902
+- **核心概述**: 多节点代理协调器 - 构建更快更好
+- **大概是做什么的**: 从粗略的想法到生产代码——自动完成。 🏭 一个软件工厂，由多代理协调器运行。描述您想要什么——人工智能代理团队为您计划、构建、审查和运输。 Fusion 是您的软件工厂：跨任务、代理、任务、git、文件和工作树运行的代码装配线，具有任何模型、本地或云。 runfusion.ai → · 文档 · GitHub · npm · Discord 英语 · 简体中文 · 繁体中文 · 法语 · 西班牙语 · 한국어 您的整个开发环境。在一块玻璃上。用通俗易懂的语言描述任务。规划代理会读取您的项目，了解上下文，并编写完整的 PROMPT.md 计划 - 步骤、文件范围、验收标准。然后，Fusion 在一个隔离的 git 工作树中进行计划、审查、执行和再次审查，并在您需要的任何地方提供人工批准门。一块板。从任何地方控制。笔记本电脑、Mac mini、Linux 服务器、云虚拟机、电话 — 全部连接。与 Trello 类似，但您的任务由 AI 指定、执行和交付。建立在dustinbyrne/kb 的伟大工作之上。零安装，直接从 npm：启动仪表板。苏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, agents, llm, orchestration-framework
+
+---
+
+### 🌟 [AITreasureBox](https://github.com/superiorlu/AITreasureBox)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 824
+- **核心概述**: 🤖 Automatically collected AI repos, tools, websites, papers & tutorials. 实用AI百宝箱 💎
+- **大概是做什么的**: 收集有关 AI 的实用 AI 存储库、工具、网站、论文和教程。翻译自ChatGPT，图片来自Midjourney。每 2 小时更新一次 repos 和 star，并自动重新排名。编号 仓库描述 ----: :-------------------------------------------------------- :------------------------------------------------------------------------------------------------------------------------ 1 codecrafters-io/build-your-own-x 从头开始​​重新创建您最喜欢的技术，掌握编程能力。 2 sindresorhus/awesome 😎 关于各种有趣主题的精彩列表 3 public-apis/public-apis 免费 API 的集体列表 4 moltbot/moltbot 你自己的个人人工智能助手。任何操作系统。任何平台。龙虾方式。 🦞 5 kamranahmedse/developer-roadmap 交互式路线图、指南和其他教育内容，帮助开发人员在职业生涯中成长。 6 vinta/awesome-python 很棒的 Python 框架、库、软件和资源的精选列表 7 实用教程/基于项目的学习 基于项目的教程的精选列表 ⭐ 8 🔥🔥obra/superpowers 代理技能框架和软件开发
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, agi, ai, ai-gents, ai-prompts, ai-tools
+
+---
+
+### 🌟 [agentica](https://github.com/shibing624/agentica)
+- **项目语言**: Python
+- **星标数量**: ⭐ 327
+- **核心概述**: Agentica: Lightweight async-first Python framework for AI agents. 轻量级异步优先的AI Agent框架，支持工具调用、RAG、多智能体和MCP。
+- **大概是做什么的**: 🇨🇳中文 🌐English 🇯🇵日本语 Agentica: Build AI Agents Agentica 不是套一层 LLM API 的聊天壳，而是一个 Async-First 的 agent harness。 它让 Agent 能真正跑起来: 调工具、跑长任务、做多智能体协作、跨会话保留记忆，并通过 Skill system 接入可演进的 self-learn 工作流。 Long-running Agent Loop Runner 驱动的 LLM ↔ Tool 循环，内置压缩、重试、成本预算、死循环防护 Works Beyond Chat 文件、执行、搜索、浏览器、MCP、多智能体、Workflow，不依附单一 IDE 场景 Memory That Survives Sessions Workspace 记忆按条目存储、相关性召回，并可把确认过的偏好同步到 /.agentica/AGENTS.md Skill-Based Self-Learn SkillTool 可加载外部技能；内置 Agent 持续学习策略 Self-Evolution（自进化） 工具失败 / 用户纠正 / 成功序列 → 经验卡片 → 自动生成 SKILL.md，跨会话复用 Open, Composable Harness 模型、工具、记忆、Skill、Guardrails、MCP 都是可替换部件，而不是封闭 SaaS 黑盒 - [2026/07/05] v1.4.7 ：CLI 新增 cron 运行时（ /cron 命令 + daemon）、自管理（ /upgrade 、 /config set env ）；统一配置到 /.agentica/config.yaml 。详见 Release-v1.4.7 - [2026/06/03] v1.4.6 ：支持fallback模型可配置，支持多个fallback模型；支持 LSP， CLI 开启 LSP 开关（ --enable-diagnostics / --diagnostics-server ）；支持 agentica doctor ；支持 /goal 长程任务。详见 Release-v1.4.6 - [2026/05/11] v1.4.4 ：MemoryExtractHooks 优化，新增 auto extract memory background 后台抽取（不再阻塞 on agent end ），memory 抽取优先走更快更便宜的 auxiliary model 。详见 Release-v1.4.4 - [2026/05/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: actionflow, agent, agentica, agents, langchain, llm
+
+---
+
+### 🌟 [rushdb](https://github.com/rush-db/rushdb)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 309
+- **核心概述**: RushDB 是一个用于 AI 代理的图+向量数据库和内存层。推送任何 JSON，获取键入的、可搜索的、关系感知的记录 — 无架构，无需迁移。基于 Neo4j 构建。
+- **大概是做什么的**: AI 代理和应用程序的内存层。推送任何 JSON。您的代理将获得实时的、可查询的模式、图形关系和语义搜索——自动推断。没有管道。没有单独的商店。无需设计架构。 🌐 网站 • 📖 文档 • ☁️ 云 • 🔍 示例 英语 • 中文 • 日本语 • 한국어 • 德语 • 法语 • 葡萄牙语 • 西班牙语 • हिन्दी • 巴哈萨印度尼西亚语 • ไทย 您的代理需要内存。标准答案是三个数据库：用于键值的 Redis、用于语义搜索的向量存储、用于关系的图形数据库，以及用于保持它们同步的粘合代码。 RushDB 取代了这三个。推送一次 JSON。通过图形遍历、语义搜索或同时使用这两种方式进行查询 - 在一次调用中。不使用 RushDB 使用 RushDB ----------------------------------------- -------------------------------------- Redis + Pinecone + Neo4j + 粘合代码 一个 API 设计模式 → 写入迁移 → 重复 推送任何形状，无需模式 单独的嵌入管道 托管嵌入，服务器端 手工制作关系边缘 从数据结构中自动检测 两条路径取决于您的设置： - 云 — 管理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-memory, ai-tools, app-backend, cloud
+
+---
+
 ## 🕔 2026-07-04 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
