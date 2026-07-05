@@ -1,3 +1,67 @@
+## 🕔 2026-07-05 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Claude-Code-Everything-You-Need-to-Know](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,249
+- **核心概述**: 实用的克劳德代码指南，具有清晰的思维模型和复制粘贴示例 - 设置、提示工程、斜线命令、技能、挂钩、子代理、代理团队和 MCP 服务器。通往高级用户深度的初学者之路。在《令人敬畏的克劳德代码》中精选。
+- **大概是做什么的**: 克劳德·代码：从第一次提示到代理团队您需要了解的一切 - 一本指南。 Claude Code 的实用指南 — 从第一次提示到多代理自动化、hooks、MCP 和团队工作流程。建立在清晰的心理模型和真实的例子之上，而不是营销。适用人群：使用（或即将使用）Claude Code 的开发人员。初学者可以获得指导路径；高级用户可以深入了解技能、Hooks、MCP 和代理团队。您是… 从这里开始 时间 🚀 Claude ���码设置新手 → 提示工程 → 您的第一项技能 15 分钟 ⚡ 已经在使用它，想要深入 技能 · Hooks · MCP 每个 30 分钟 🧠 构建团队或自动化代理团队 · 工作流程和自动化 · BMAD 各不相同 Claude 代码中的四个扩展点，并排：工具使用时…跳过如果…生活在技能中（斜线命令）您重复相同的提示或工作流程 ≥3 次 一次性任务 .claude/commands/ .md 挂钩 您希望代码在使用工具、会话启动等时自动运行。您只需要手动触发器 .claude/settings.json 子代理 子任务足够大，需要自己的隔离上下文 该任务适合您的主会话 .c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, agentic-coding, ai-agents, anthropic, anthropic-claude, best-practices
+
+---
+
+### 🌟 [narrator-ai-cli-skill](https://github.com/NarratorAI-Studio/narrator-ai-cli-skill)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,426
+- **核心概述**: AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用
+- **大概是做什么的**: 🧠 讲述人 AI CLI 技能 — 教您的 AI 代理创建电影旁白视频 在您的 AI 代理（OpenClaw、Windsurf、WorkBuddy 等）中安装此技能，然后只需说“创建电影旁白视频” — AI 会处理其余的事情。 A machine-readable skill file ( SKILL.md ) that teaches AI agents how to use the narrator-ai-cli tool for automated video narration production. CLI 和 Skill 如何协同工作 CLI（命令行工具） Skill（功能描述） 它是什么 一组可执行命令 教 AI 如何使用这些命令的说明 类比 厨房工具 菜谱书 单独工作吗？是的，在终端手动 否，需要CLI 简而言之：CLI就是双手。技能就是大脑。人工智能代理可以一起制作端到端的视频。步骤 1：安装 CLI 工具 有关详细安装选项，请参阅 narrator-ai-cli。第 2 步：配置 API 密钥 📧 需要 API 密钥吗？发送电子邮件至 merlinyang@gridltd.com 或扫描本页底部的二维码。步骤 3：安装技能 该技能由 SKILL.md 和references/目录组成——两者都是必需的。 Clone the repo directly into your agen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, ai-video, claude-code, claude-code-skill, content-creation
+
+---
+
+### 🌟 [redbook](https://github.com/lucasygu/redbook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 372
+- **核心概述**: 小红书 CLI — 搜索、分析、自动化 Xiaohongshu content. Built for AI agents.
+- **大概是做什么的**: 小红书 CLI 工具：搜索笔记、阅读内容、分析博主、发布图文。使用浏览器 Cookie 认证，无需 API Key。 把这段话发给你的 AI 助手（Claude Code、Cursor、Codex、Windsurf、OpenClaw 等）： "帮我用 npm 安装 @lucasygu/redbook 这个小红书 CLI 工具，然后运行 redbook whoami 验证是否能正常连接。GitHub 地址：https://github.com/lucasygu/redbook" OpenClaw 用户也可以直接： clawhub install redbook AI 会自动完成安装、验证连接、处理可能的 Cookie 问题。你只需要确保已在 Chrome 中登录 xiaohongshu.com。 安装完成后，试试： "帮我分析'AI编程'这个话题在小红书上的竞争格局" —— AI 会自动搜索关键词、分析互动数据、发现头部博主、给出内容建议。 需要 Node.js = 22。支持 macOS、Windows、Linux 。使用 Chrome 浏览器的 Cookie —— 请先在 Chrome 中登录 xiaohongshu.com。 安装后运行 redbook whoami 验证连接。CLI 会自动检测所有 Chrome 配置文件，找到你的小红书登录状态。 - macOS —— 如果遇到钥匙串弹窗，请点击"始终允许" - Windows —— Chrome 127+ 使用了 App-Bound Encryption，CLI 会自动启动 Chrome headless 模式读取 Cookie（需要先关闭 Chrome）。如果自动提取失败，可以用 --cookie-string 手动传入 - 话题研究 —— 搜索关键词，分析哪些话题有流量、哪些是蓝海 - 竞品分析 —— 找到头部博主，���比粉丝量、互动数据、内容风格 - 爆款拆解 —— 分析爆款笔记的标题钩子、互动比例、评论主题 - 爆款模板 —— 从多篇爆款笔记提取内容模板（标题结构、正文结构、钩子模式） - 限流检测 —— 检测笔记是否被隐形限流（通过创作者后台 API 的隐藏 level 字段） - 收藏专辑 —— 查看收藏专辑内容，分析专辑内的笔记 - 收藏管理 —— 查看收藏列表、收藏/取消收藏笔记（支持自己和其他用户的公开收藏） - 评论管理 —— 发评论、回复评论、按策略批量回复（问题优先 / 高赞优先 / 未回复优先） - 图文卡片 —— Markdown 渲染为小红书风格的 PNG 图文卡片（7 种配色
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cli, redbook, xiaohongshu
+
+---
+
+### 🌟 [bex](https://github.com/bex-co/bex)
+- **项目语言**: Go
+- **星标数量**: ⭐ 408
+- **核心概述**: 开源渲染替代方案——AI 原生。 Git推送→构建→部署在自己的基础设施上；代理商是一流的用户。
+- **大概是做什么的**: 开源渲染替代方案——AI 原生。推送 Git 存储库（或预构建的映像），在 .onbex.co 上获取正在运行的 HTTPS 服务 — 在您拥有的计算机上。 bex 与本地 Docker 模拟在 Hetzner 上的运行方式相同；只有基础设施提供商覆盖发生变化。人工智能代理可以像一流用户一样部署和操作应用程序，而不是事后才想到。 - 拥有您的 PaaS。 Render 的开发人员体验 — 从 git 部署、自定义域 + TLS、暂停/恢复 — 在您自己的硬件 Apache-2.0 上。 - 顺便熟悉一下。 bex.yml 是 render.yaml 形状的，bex-api 使用 Render 的 REST 和 GraphQL，并根据 Render 的 OpenAPI 规范 (docs/bex-api.md) 进行验证。 - 专为代理商打造。每个操作都是一个 API 调用或 Kubernetes CR；状态是机器可读的（阶段/修订/网址）。没有仅限仪表板的操作。请参阅 docs/vision.md 中的使命和路线图。快速入门：本地模拟（机器= Docker 容器）先决条件：Docker（OrbStack 有效）、Go 1.25+、kubectl、kind、clusterctl。部署到 Hetzner：相同的 bex，不同的提供商 — 交换 infra/clusterapi/overlays/local-capd → …/hetzner-caph 。参见 infra/README.md
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, deploy, deploy-from-git, gitops, golang, heroku-alternative
+
+---
+
+### 🌟 [Light-skills](https://github.com/Light0305/Light-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 357
+- **核心概述**: 面向科研、竞赛与创新项目的 AI 全流程技能包
+- **大概是做什么的**: 面向科研、竞赛与创新项目的 AI 全流程技能包 Light Skills 是一套公开、通用、领域无关的 AI skill 包，用来把一个研究或创新项目从“模糊想法”推进到“可检查的交付物”。 你现在的需求 Light Skills 会怎么帮 我只有一个研究方向 追问目标、约束、数据来源和评价标准，再拆成阶段计划 我有一个 idea，但不知道新不新 检索相似工作、拆 target/background、找最强反例和审稿人攻击点 我要做实验/数据分析 设计数据流、实验矩阵、脚本、自测、结果解释和鲁棒性检查 我要写英文论文 组织故事线、图表、引用核查、LaTeX 排版、投稿前检查 我要画科研图 用 Python/R 程序化出图，检查尺寸、字号、色盲安全、视觉诚实 我要做竞赛/项目展示界面 设计 frontend demo、系统结构、交互页面和展示材料 我要准备专利/软着材料 生成交底书草案、技术方案、实施例、软着文档清单 我要跨对话继续项目 用项目台账记录目标、决策、产物、未验证声明和下一步 - 先读再写 ：先读文件、数据、日志和论文源，再判断下一步。 - 查不到就标 unknown ：事实、DOI、链接、期刊规则和软件版本不靠猜。 - 图表必须可复现 ：论文图、数据图、实验图走 Python/R 程序化生成。 - 关键节点问用户 ：选题、创新性、证据强度、投稿目标和继续投入都应有人确认。 - 不依赖私有知识库 ：公开版不要求 MCP 或本地数据库；最新信息在任务现场核查。 - Windows 上运行 Python 前建议设置： $env:PYTHONUTF8="1" 用于论文排版、PDF 编译、模板检查。 light-typesetting 支持 latexmk 、pdfLaTeX、XeLaTeX、LuaLaTeX、BibTeX、Biber；如果本机缺工具，会标记 UNAVAILABLE ，不会假装已经排版成功。 用于 ggplot2 科研图。没有 R 时，图表技能应先问你：继续用 Python 诚实降级，还是安装/配置 R。 你可以按当前状态直接复制下面的 prompt： 只有方向 /light-orchestrator 我想把这个方向做成可投稿英文论文。请先问必要问题，再拆阶段、产物、风险和用户确认点。 已有 idea $light-idea-critique 批判这个 idea：创新性、可证伪性、相似工作、最强反例、审稿人风险和验证路线。 已有项目文件 $light-file-reading 先读取这个项目目录，列出关键文件、已完成内容、未验证声明、风险和下一
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, agent-skills, ai-agent, ai-skills, claude-code, codex
+
+---
+
+### 🌟 [opencode-primer](https://github.com/wesammustafa/opencode-primer)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 335
+- **核心概述**: 掌握 OpenCode，开源 AI 编码代理 — 设置、代理、技能、插件、MCP、Zen 和无头 CI。
+- **大概是做什么的**: 您需要了解的有关 OpenCode 的一切 — 从第一次提示到自定义代理、技能、插件和 MCP 集成。清晰的思维模型，真实的例子，每一个事实都根据当前版本进行了验证。适用对象：使用（或即将使用）OpenCode 的开发人员。初学者可以获得指导路径；高级用户可以深入了解自定义命令、技能、插件、MCP 和代理。 ⚖️ 不隶属于 OpenCode 团队。这是社区维护的指南。有关规范来源，请查看 opencode.ai/docs 和 github.com/anomalyco/opencode。 💡 专业提示：如果本指南为您节省了一个下午的时间，⭐ 可以帮助其他开发人员找到它。您是…从时间开始 🚀 OpenCode 新手 它是什么 → 设置 → 提示工程 15 分钟 ⚡ 已经在使用它 自定义命令 · 技能 · 插件 · MCP 每个 20 分钟 🧠 配置或无头代理 · 无头和 CI · 模型和提供程序各不相同 OpenCode 是一个开源 AI 编码代理 — 一个终端应用程序 (TUI)、桌面应用程序和 IDE 扩展，可读取您的存储库、运行命令、编辑文件，并与您指向的任何法学硕士进行交谈。由 Anomaly 维护，经 MIT 许可 — 自 J 起
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-coding, ai-agents, ai-coding, claude-code, cli
+
+---
+
 ## 🕔 2026-07-05 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
