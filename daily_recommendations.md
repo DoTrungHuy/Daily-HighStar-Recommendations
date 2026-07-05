@@ -1,3 +1,67 @@
+## 🕔 2026-07-04 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [qiushi-skill](https://github.com/HughYau/qiushi-skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,320
+- **核心概述**: 求是Skill——从经典唯物辩证法与实践哲学中提炼出一条总原则和九大方法论工具武装AI大脑。Qiushi-Skill: Build agents that investigate first, focus on the main contradiction, validate in practice, and keep pushing until the work is actually done.
+- **大概是做什么的**: 🔴 求是 Skill —— 武装 AI 的大脑 🌟 "我们的同志在困难的时候，要看到成绩，要看到光明，要提高我们的勇气。" 你的 AI 不应该是一个唯唯诺诺的工具。它应该是一个先看事实、再下判断的行动者。 「求是 Skill」是一个 AI Agent Skills 合集，从经典唯物辩证法与实践哲学中提炼出一条总原则和九大方法论工具，系统性地武装 AI 的大脑。不是口号，不是鸡汤，而是可操作的方法论集合。 每一条方法都有据可依、有迹可循，直接引用经典著作原文（详见各 skill 目录下的 original-texts.md ）。 当前的 AI Agent 有一个根本问题： 它们会思考，但不会"想问题"。 - 🌀 面对复杂问题，胡子眉毛一把抓，抓不住重点 - 🗣️ 没有调查就急于给出答案，犯教条主义的错误 - 😴 方案做完不自查，"差不多就行了" - 🏳️ 遇到困难就说"这超出了我的能力"，缺乏持续推进的能力 - 🎯 同时做十件事，件件做不好，不懂集中兵力 教员思想中的方法论——矛盾分析、实践认识论、调查研究、群众路线、批评与自我批评、持久战略——恰恰解决的就是"怎么想问题、怎么做事情"这个根本问题。 欢迎支持作者的其他项目！： AcademicForge ： One Forge, All Skills. 一键生成安装多个 AI Agent Skills 的跨平台命令。 - 🚫 这不是 Politics或者Propaganda。 这是 Methodology。经典唯物辩证法与实践哲学方法论可以用于指导任何需要分析问题和解决问题的场景。 - 🧭 这不是人格蒸馏。 该项目发布于3月25日，彼时尚无“人格蒸馏”这一概念。作者认为，以skills本身的形式限制，除了作为知识库和工作流的载体，大模型目前不能够、也不应被用来模拟人物人格，任何此类尝试都不可避免地流于失真。 本项目仅提炼经实践检验的方法论，将其转化为可执行的认知工具，以实现取法其上、用之于今，以期借前人之光，照当下之路。 ☀️ 总原则 —— 约束全部判断过程 - 实事求是 ：从客观存在着的实际事物出发，让事实规定判断，让现实修正理论。它不是第十件思想武器，而是全部思想武器共同服从的认识论准绳。 ⚙️ 第一层·哲学基座 —— 分析任何问题的底层框架 - ⚔️ 矛盾分析法 ：识别矛盾、抓住主要矛盾、区分矛盾性质。"捉住了这个主要矛盾，一切问题就迎刃而解了。" - 🔄 实践认识论 ：实践→认识→再实践，螺旋上升。"实践是检验真理的唯一标准。" 🛠️ 第二层·工作方法 —— 日常工作的基本方法 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, methodology, skills, workflow
+
+---
+
+### 🌟 [Operit](https://github.com/AAswordman/Operit)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 5,517
+- **核心概述**: The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大、发展最久的AI Agent
+- **大概是做什么的**: 📱 移动端首个功能完备的AI智能助手应用，完全独立运行，拥有强大的工具调用能力 📱 Operit AI 是移动端首个功能完备的 AI 智能助手应用，完全独立运行于您的 Android 设备上（除API调用），拥有强大的 工具调用能力 、 深度搜索 、 工作流与自动化 、 智能记忆库 ，并支持 人设定制 与 角色卡 等高度自定义功能，集成 MNN/llama.cpp 本地模型 、 MCP/Skill 生态 与 多语言界面 。它不仅仅是聊天界面，更是与Android权限和各种工具深度融合的 全能助手 ，内置 Ubuntu 24 环境 ，提供前所未有的强大功能。 内置完整 Ubuntu 24 系统，支持 vim、MCP、Python等工具，在手机上运行复杂的Linux命令和自动化任务 AI自动分类管理记忆，支持时间查询/导入导出/自动总结，智能搜索历史对话，记住您的偏好和习惯，提供个性化服务 连续自然对话，支持本地/云端 TTS + 本地 STT、自定义音色、语音/特定音频唤醒、自动朗读 支持 MNN / llama.cpp 本地模型（GGUF），完全离线运行AI，保护隐私数据 自定义AI性格、说话风格，支持角色卡导入导出（酒馆/JSON）/备份/二维码分享，角色卡可互聊并拥有独立对话历史 40+ 内置工具 + MCP/Skill 市场插件 + 工具包/工作流，含自动点击 Agent、绘图/图片搜索、AI 互聊/自我认知、定时任务、提示词市场等，覆盖文件操作、网���请求、系统控制、媒体处理 🐧 Linux环境 完整Ubuntu 24，支持apt包管理、Python/Node.js运行环境、自定义软件源 📁 文件系统 读写文件、搜索、解压缩、格式转换、Git集成 🌐 网络工具 HTTP请求、网页访问、文件上传下载、Web开发与导出 ⚙️ 系统操作 安装应用、权限管理、无障碍 / ADB / Root 三通道自动化（含 AutoGLM 自动点击 Agent，支持 adb root 虚拟屏/多显示器） 🎬 媒体处理 视频转换、帧提取、OCR/图像理解、相机拍照、音视频读取 🧑‍💻 开发与终端 Web 工作区/一键打包、代码编辑/语法高亮、终端 SSH/Chroot/vim、Ctrl 组合键 🎨 AI 创作 绘图工具包（OpenAI/Qwen/NanoBanana）、图片搜索/下载 🔍 搜索引擎 深度搜索、DuckDuckGo、Tavily、谷歌学术、Bing、Sogou、Quark、百度地图集成 🧩 工具包 & 工作流 工具包生态/包管理、工作流自动化、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, android, compose, kotlin, llama
+
+---
+
+### 🌟 [awesome-openclaw](https://github.com/alvinreal/awesome-openclaw)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 704
+- **核心概述**: 最佳 OpenClaw 资源的精选列表：官方项目、技能、插件、仪表板、部署工具、内存系统和指南。
+- **大概是做什么的**: OpenClaw 生态系统的优质资源精选列表。如果此列表可以节省您的时间，请考虑给该存储库一颗星。贡献指南 · 许可证 - 🏛️ 官方资源 - 🧰 技能和注册表 - 🎛️ 仪表板和控制中心 - 🚀 部署和操作 - 🧠 内存和上下文系统 - 🛡️ 安全性 - 🔌 插件和渠道集成 - ⚡ 替代客户端和运行时 - 🎓 学习资源 🏛️ 官方资源 - openclaw/openclaw - 核心 OpenClaw 项目。 - openclaw.ai - 官方网站。 - docs.openclaw.ai - 官方文档。 - openclaw/lobster - 用于编写工具和可恢复自动化的官方工作流程外壳。 - openclaw/openclaw-windows-node - 官方 Windows 配套套件。 - openclaw/acpx - 用于有状态 ACP 会话的官方无头 CLI 客户端。 🧰 技能和注册 - openclaw/clawhub - 官方技能目录和发现中心。 - openclaw/skills - 存档已发布的技能版本。 - VoltAgent/awesome-openclaw-skills - 大型外部技能索引。 - LeoYeAI/openclaw-master-skills - 精选 560 多个最佳 OpenCl 集合
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automation, awesome, awesome-list, llm
+
+---
+
+### 🌟 [langchain](https://github.com/brainlid/langchain)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 1,177
+- **核心概述**: Elixir 实现了 LangChain 风格的框架，使 Elixir 项目能够与法学硕士集成并利用法学硕士。
+- **大概是做什么的**: Elixir LangChain 使 Elixir 应用程序能够将 AI 服务和自托管模型集成到应用程序中。支持的聊天模型： - Anthropic Claude - Claude 模型，包括扩展思维支持和 AWS Bedrock - AWS Bedrock Mantle - 用于 Bedrock 上托管的第三方模型的 OpenAI 兼容网关（Moonshot Kimi K2 系列、OpenAI gpt-oss 等） - OpenAI ChatGPT - 通过聊天完成 API 的 GPT 模型 - OpenAI Responses API - OpenAI 具有 WebSocket 传输支持的较新的 Responses API - Cloudflare Workers AI -通过 ChatOpenAI 的 OpenAI 兼容网关（例如 Moonshot Kimi K2.6 和其他 Workers AI 模型） - xAI Grok - Grok-4、Grok-3-mini、Grok-4 Heavy（多代理）等 - Google Gemini - Gemini AI 模型 - Google Vertex AI - Google 的企业 AI 产品 - DeepSeek - 具有即时缓存支持的 DeepSeek 模型 - Ollama - 本地托管开源模型 - Mistral - Mistral AI 模型- Perplexity - Perplexity AI 模型 - orq.ai - orq.ai 部署 API - Bumblebee - 通过 Nx（Llama、Mistral、Zephyr）的自托管模型 - ReqLLM - 多提供商适配器
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, bumblebee, chatgpt, claude-ai, elixir
+
+---
+
+### 🌟 [cocoplus](https://github.com/Snowflake-Labs/cocoplus)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 632
+- **核心概述**: CocoPlus 是一款适用于 Snowflake Cortex Code CLI 的人工智能驱动的开发生命周期插件。它为数据工程项目带来了结构化的多代理工作流程——涵盖从项目初始化到规范、计划、构建、测试、审查和交付阶段的所有内容。
+- **大概是做什么的**: CocoPlus 是一款适用于 Snowflake Cortex Code CLI 的人工智能驱动的开发生命周期插件。它为数据工程项目带来了结构化的多代理工作流程——涵盖从项目初始化到规范、计划、构建、测试、审查和交付阶段的所有内容。仅使用 Coco-native 结构构建：Skills、Agents、Hooks 和 AGENTS.md。 CocoPlus 围绕每个项目构建了结构化的开发生命周期——从需求捕获到生产交付——在每个步骤中强制实施阶段门、并行专家执行和检查点验证的交付。它分解与域匹配的八个专家角色的工作，在隔离的 git 工作树中运行它们，并跟踪会话中的每个决策、令牌和质量发现。多层安全门可保护生产雪花对象免受意外修改，而持久模式库和项目知识库会随着时间的推移复合机构记忆。三十五个功能，涵盖编排、评估、治理、成本可见性、即时工程、预先规范承诺、多代理审议
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, agentskills, cortex, cortexai, llm, snowflake
+
+---
+
+### 🌟 [dramaclaw](https://github.com/dramaclaw/dramaclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 317
+- **核心概述**: A general-purpose AIGC video engine: script to finished film in one pipeline — dramas, ads, product videos, otome games, and more. | 通用 AIGC 视频引擎 —— 从剧本到成片一条流水线，漫剧、广告、电商、乙游皆可
+- **大概是做什么的**: 他们说你已经过时了。也许“为别人工作”的整个想法已经过时了。在人工智能时代，真正的问题不是机器是否取代人。真正的问题是：谁拥有这些机器？管道的所有权归谁所有？谁拥有工业化生产力？如果答案始终是大型科技，那么人工智能就不是赋权。这只是一堵新墙。不是残缺版。这就是我们自己团队每天运行的工业化戏剧生产线。从剧本到故事板，从素材到成品——整个链条。因为人不是驮兽。因为创造力是人类的最后一道防线。 DramaClaw 的目标很简单：将只有大型科技公司才有的工业化戏剧制作能力交到普通创作者手中。如果这引起共鸣，请留下 ⭐。我们将继续拆除围墙��英语     简体中文     网站     文档     快速入门 🎬 预告片：Bilibili  ·  YouTube 🎬 用 DramaClaw 制作 我们团队在此管道上制作的真正短剧 — 单击链接即可播放。 ▶ 第02集
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-filmmaking, ai-video, aigc, aigc-pipeline, content-creation
+
+---
+
 ## 🕔 2026-07-04 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
