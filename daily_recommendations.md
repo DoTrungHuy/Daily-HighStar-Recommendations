@@ -1,3 +1,67 @@
+## 🕔 2026-07-05 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openless](https://github.com/Open-Less/openless)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,619
+- **核心概述**: Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)
+- **大概是做什么的**: 适用于 macOS 和 Windows 的开源语音输入 按住热键，说话，然后观看 AI 修饰的文本直接流到您的光标 - 以您选择的书写风格。 💬 加入我们的 Discord QQ 群 1078960553 OpenLess 得到了赞助商的慷慨支持。 ⭐ 特色赞助商·江木然.com 特别感谢江木然的持续支持，让OpenLess不断前进。 悠雾云数据 · 有物云数据 (knin.net) github.com/Cooper-X-Oak OpenLess 是一款跨平台（macOS 和 Windows）语音输入应用程序，是 Typeless、Wispr Flow、Lazy 和 Superwhisper 等商业工具的完全开源替代品。官方网站：openless.top。将光标放在任何文本字段中 - ChatGPT、Claude、光标、Notion、电子邮件草稿、聊天框 - 按一个全局热键，然后说话。 OpenLess 录制音频、转录音频、以您选择的模式润色文本，并将结果插入光标处。如果插入被阻止，文本将被复制到剪贴板，因此您所说的任何内容都不会丢失。与简单地发出“wo”的听写工具不同
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-prompt, asr, dictation, linux, llm, macos
+
+---
+
+### 🌟 [julep](https://github.com/julep-ai/julep)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,602
+- **核心概述**: Julep — 耐用、可组合的人工智能代理。崩溃和恢复、安全重试并解释每一步的流程。
+- **大概是做什么的**: Julep — 耐用、可组合的人工智能代理。崩溃和恢复、安全重试并解释每一步的流程。 Julep 将代理构建为可组合、持久的数据流，而不是临时循环：流可以崩溃和恢复、安全重试、通过派生投影解释每一步，并拒绝模型未明确允许调用的任何工具。主要创作界面是按构造定义的 @flow ：普通 Python 命名图形步骤，同时注册工具、pure、reasoners、分支、扇出、重试和超时编译为相同的冻结线格式 IR。纯核心保持无依赖性，而���间层是可选的。 Julep 3 目前作为候选版本发布，因此需要 --pre 标志；一旦 3.0.0 最终版本，它就会下降。 10 分钟，无 API 密钥。安装基础包并将其作为普通 Python 脚本运行：@flow 在定义时使用数据句柄运行一次。注册工具、注册 pures、think(...) 、 cond(...) 、 switch(...) 、each(...) 和 reschedule(...) 附加图形步骤而不是执行运行时工作；合并记录，h["key"] 提取字段。部署（...
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-agents-framework, ai-memory, ai-platform
+
+---
+
+### 🌟 [optillm](https://github.com/algorithmicsuperintelligence/optillm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,166
+- **核心概述**: 优化 LLM 的推理代理
+- **大概是做什么的**: 🚀 零训练推理任务的准确性提高 2-10 倍🤗 HuggingFace Space • OptiLLM 是一个与 OpenAI API 兼容的优化推理代理，它实现了 20 多种最先进的技术，可显着提高推理任务上的 LLM 准确性和性能 - 无需任何模型训练或微调。通过在推理时进行额外的计算，可以在不同的任务中使用这些技术来击败前沿模型。 Cerebras 的 CePO 方法是如何将这些技术结合在一起的一个很好的例子。 - 🎯 即时改进：数学、编码和逻辑推理的准确性提高 2-10 倍 - 🔌 直接替换：可与任何 OpenAI 兼容的 API 端点配合使用 - 🧠 20 多种优化技术：从简单的 best-of-N 到高级 MCTS 和规划 - 📦 所需的零培训：只需通过 OptiLLM 代理现有的 API 调用 - ⚡ 生产就绪：在生产中使用全球的公司和研究人员 - 🌍 多提供商：通过 LiteLLM 支持 OpenAI、Anthropic、Google、Cerebras 和 100 多个模型 获得强大的推理改进
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agentic-framework, agentic-workflow, agents, api-gateway
+
+---
+
+### 🌟 [pdf_oxide](https://github.com/yfedoseev/pdf_oxide)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 875
+- **核心概述**: 适用于 Python 和 Rust 的最快 PDF 库。文本提取、图像提取、Markdown 转换、PDF 创建和编辑。平均 0.8 毫秒，比行业领先者快 5 倍，3,830 个 PDF 的通过率为 100%。麻省理工学院/Apache-2.0。
+- **大概是做什么的**: PDFOxide - 适用于 20 种语言的最快 PDF 工具包 — Python、Rust、Go、JS/TS、C、Java、Kotlin、Swift、C++ 等，以及 CLI 和 AI v0.3.69 中的新增功能 — 11 种新语言绑定。 PDFOxide 现在提供 C++、Swift、Kotlin、Dart、R、Julia、Zig、Scala、Clojure、Objective-C 和 Elixir 的惯用绑定，每个绑定都基于稳定的 C ABI 构建，具有自己的 CI 工作流程、api 覆盖测试和可运行示例。这使得该工具包支持 20 种语言（Rust 核心 + 19 种绑定）。想要另一种语言吗？ Open an issue and tell us.用于文本提取、图像提取和 Markdown 转换的最快 PDF 库。 Rust 核心，绑定了 19 种语言 - Python、Go、JavaScript / TypeScript、C / .NET、Java、Kotlin、Scala、Clojure、Ruby、PHP、C++、Objective-C、Swift、Dart、R、Julia、Zig、Elixir 和 WASM - 以及用于 AI 助手的 CLI 工具和 MCP 服务器。每个文档平均 0.8 毫秒，比 PyMuPDF 快 5 倍，比 pypdf 快 15 倍。 100% pass rate on 3,830 real-world PDFs.麻省理工学院许可。 MCP 服务器（用于 AI 助手）- 快速 — 每个文档平均 0.8 毫秒，比 PyMuPDF 快 5 倍，比 pypdf 快 15 倍，29 倍
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: data-extraction, document-processing, fast, image-extraction, llm, markdown
+
+---
+
+### 🌟 [yams](https://github.com/trvon/yams)
+- **项目语言**: C++
+- **星标数量**: ⭐ 375
+- **核心概述**: LLM 和应用程序的持久内存。具有重复数据删除、压缩、全文和矢量搜索功能的内容寻址存储。
+- **大概是做什么的**: YAMS — 另一种内存系统 用于法学硕士和应用程序的持久内存。具有重复数据删除、压缩、全文和矢量搜索功能的内容寻址存储。实验性的——尚未准备好投入生产。在 1.0 之前，预计会出现错误和重大更改。 - 具有块级重复数据删除功能的 SHA-256 内容寻址存储（Rabin 分块） - 全文搜索 (SQLite FTS5) + 语义向量搜索（嵌入） - 18 种语言的 Tree-sitter 符号提取（列表） - 带 Merkle 树差异和重命名检测的快照管理 - WAL 支持的持久性、高吞吐量 I/O、线程安全 - CLI、MCP 服务器和 C-ABI 插件（ONNX/GLiNER/ColBERT、S3 存储、通过 ZYP 生成 PDF） - 通过 CLI 调整和医生工作流程进行交互式相关性调整 主题链接 ---------------------------------- ------------------------------------------------------------------------- 安装文档/用户指南/installation.md CLI 参考文档/用户指南/cli.md MCP 服务器文档/用户指南/mcp.md 嵌入文档/用户指南/embeddings.md 插件文档/PLUGINS.md 架构文档/architecture/ 基准 文档/benchmarks/README.md 变更日志 文档/变更日志/ 路线图 d
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: compression, knowledge-base, knowledge-graph, llm, localstorage, memory
+
+---
+
+### 🌟 [peerd](https://github.com/NotASithLord/peerd)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 302
+- **核心概述**: 第一个人工智能代理利用浏览器原生的技术。在浏览器中运行代理循环的 Chrome/Firefox 扩展 — 驱动选项卡、启动沙盒计算（JS 笔记本、WASM Linux 虚拟机、客户端应用程序），并点对点共享其构建的内容。 BYOK · no backend · no telemetry.
+- **大概是做什么的**: peered 是第一个浏览器原生的人工智能代理工具。它是一个 Chrome/Firefox 扩展，可在您已使用的浏览器内以及现有选项卡和会话中运行完整的代理循环。它读取并驱动您的页面，启动沙盒计算（JS Notebook、编译为 WebAssembly 的完整 Linux VM、个人客户端应用程序），并（在预览通道上）共享其通过为代理间通信而构建的点对点 WebRTC 网络构建的内容。 BYOK 给您选择的模型提供商。数据路径中没有后端、没有遥测、没有云组件。 https://github.com/user-attachments/assets/d2e4c285-6952-4c95-bf5a-d06087de084d 对等使用浏览器作为其运行时和安全模型。它建立在数十年强化的浏览器平台工作之上（用于沙箱的 V8 隔离、用于保管库的 WebCrypto、用于解锁的 WebAuthn 密钥、不透明源 iframe、子资源完整性），并且不编写任何自己的加密或进程隔离代码。持有您密钥的代理本身永远不会操作环境。每个浏览器选项卡、VM、笔记本和应用程序均由其自己的参与者驱动：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agent, browser-extension, chrome-extension, firefox-extension, llm
+
+---
+
 ## 🕔 2026-07-04 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
