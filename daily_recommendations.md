@@ -1,3 +1,67 @@
+## 🕔 2026-07-05 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openagents](https://github.com/openagents-org/openagents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,843
+- **核心概述**: OpenAgents - 用于开放协作的人工智能代理网络
+- **大概是做什么的**: OpenAgents Workspace — 代理协作操作系统。所有 AI 代理协作的一个工作空间。开源。无需帐户。 ⭐ 打开我的工作区 · openagents.org · 设置教程 安装代理，将它们连接到工作区，然后进行协作 - 只需不到一分钟。 CLI — 从终端安装并启动：然后运行启动器 ( agn ) 以打开用于管理 AI 编码代理的交互式仪表板。安装运行时、配置 API 密钥、连接到工作区并保持代理作为后台守护程序运行。 agn create 仅写入代理配置。首先使用 agn install，或者如果您希望 CLI 在同一步骤中安装运行时，则在创建过程中传递 --install。桌面应用程序 — 或直接下载启动器： ⬇ macOS · ⬇ Windows · ⬇ Linux · 所有版本 OpenAgents Workspace 简介 📖将本地和云代理连接到 OpenAgents Workspace 的详细指南 OpenAgents Workspace 7 个常用功能的详细演示 您的代理无处不在。人们在服务器上维护数据库。另一个负责管理您的营销并回复 Discord 上的用户。一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, collaboration, llm, network
+
+---
+
+### 🌟 [BiBi-Keyboard](https://github.com/BryceWG/BiBi-Keyboard)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 700
+- **核心概述**: 说点啥（BiBi Keyboard）:一个基于 Kotlin 的 Android ���台的 LLM 与 ASR 语音输入法键盘应用 An LLM ASR voice input method keyboard application for the Android platform based on Kotlin
+- **大概是做什么的**: 「说点啥」(BiBi Keyboard) 基于 AI 的智能语音输入法 让语音输入更自然、更高效 💎 「说点啥」Pro 版 现已正式上架 Play 商店，买断价仅 4.49$！ Pro 版提供更多高级功能和更优质的使用体验。 欢迎在「说点啥」3.9.0 版本后的关于-了解 Pro ，或者Pro 功能文档中了解更多内容。我们非常欢迎你的体验反馈，帮助我们打磨出更好的产品！ 如果你对「说点啥」感兴趣，也加入我们的 Telegram 群组了解更多信息 - 长按录音 - 简单直观的录音操作 - 智能判停 - 静音自动停止录音,无需手动操作 - 极速识别 - 松开即上传，快速返回结果 - 多引擎支持 - 11 个主流 ASR 服务（7 个云端 + 4 个本地） - 本地 ASR 模型 - 支持离线语音识别，无需网络，保护隐私 - AI 文本后处理 - LLM 后处理修正识别结果 - 跨输入法使用 - 任何输入法都能语音输入 - 无缝集成 - 保持原有输入习惯 - 自动插入 - 识别结果自动填入 - 兼容性模式 - 支持 Telegram、抖音等特殊应用 - 视觉反馈 - 录音/处理状态一目了然 - AI 编辑面板 - 专用编辑界面，语音指令编辑文本 - 丰富的编辑工具 - 光标移动、选择、复制粘贴等完整编辑功能 - 智能目标选择 - 自动识别编辑目标（选中文本/上次识别/全文） - 自定义按键 - 个性化标点符号 - 小企鹅/同文输入法联动 - 支持通过修改版小企鹅/同文输入法直接调用「说点啥」的语音识别能力 - 外部语音输入接口 - 支持第三方应用通过 SpeechRecognizer 接口调用「说点啥」进行语音输入 开源接口测试工具 - Material3 设计 - 现代化界面风格，Monet 色彩适配 - 多语言支持 - 支持简体中文、繁体中文、英文、日语 - 键盘高度调节 - 三档高度自由选择 - 测试输入 - 设置页内直接测试输入法 - 振动反馈 - 按下麦克风时振动反馈 - 自动更新检查 - 每日打开软件自动检查新版本 简洁的键盘界面，支持语音输入、键盘切换和自定义按键 丰富的配置选项，支持多种 ASR 引擎和 LLM 后处理 - Android 8.0 (API 26) 或更高版本 - 无障碍权限（可选，用于自动插入文本） - 从 Releases 页面下载最新版本 APK - 选择 ASR 供应商（推荐：火山引擎） 💡 提示 : 首次使用建议先配置火山引擎，可获得 20 小时免费额度！ 本项目采用 Apache 2.0 许可证 ，详见 LICENSE
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: android-app, asr, doubao, elevenlabs, keyboard, kotlin
+
+---
+
+### 🌟 [Paper-Notes](https://github.com/zhaoyang97/Paper-Notes)
+- **项目语言**: Python
+- **星标数量**: ⭐ 961
+- **核心概述**: 📚 数千篇 AI、LLM、NLP、CV 顶会论文解读，每篇 5 分钟读懂核心思想。
+- **大概是做什么的**: 5分钟读懂一篇顶会论文，一个仓库读懂最新 AI 进展。 - 📖 23000+ 篇 AI · LLM · NLP · CV 顶会论文解读 - 🏛️ 覆盖 ACL · CVPR · ICLR · AAAI · NeurIPS · ICCV · ICML · ECCV 等会议 - 🔬 横跨 LLM Reasoning · VLM · Agent · RLHF · RAG · AIGC · Robotics · Auto Driving 等40多个研究方向 https://papernotes.org/ 💡 提示 ：如果数学公式渲染异常，刷新页面通常可以解决。 Paper Notes 交流群: 1094559400 - v1.4.0 （2026-06-20）：补全 ICLR 2026 全部约 5,000 篇论文解读 - v1.3.0 （2026-06-13）：补全 CVPR 2026 全部约 4,000 篇论文解读 - v1.2.0 （2026-05-23）：新增 ICML 2026 论文解读 - v1.1.0 （2026-04-25）：新增 ACL 2026 论文解读 - v1.0.0 （2026-04-18）：首个正式版本，累计 13,000+ 篇论文解读，覆盖 CVPR 2026、ICLR 2026、AAAI 2026、NeurIPS 2025、ICCV 2025、ACL 2025、ICML 2025、CVPR 2025、ECCV 2024共9个会议 ------ -------: :------------- CVPR 2026 4,067 CVPR2026-Papers.md → ICLR 2026 5,342 ICLR2026-Papers.md → ACL 2026 1,419 ACL2026-Papers.md → ICML 2026 1,846 ICML2026-Papers.md → AAAI 2026 1,381 AAAI2026-Papers.md → NeurIPS 2025 2,530 NeurIPS2025-Papers.md → ICCV 2025 1,315 ICCV2025-Papers.md → ICML 2025 1,063 ICML2025-Papers.md → ACL 2025 1,855 ACL2025-Papers.md → CVPR 2025 1,820 CVPR2025-Papers.md → ECCV 2024 869 ECCV2024-Papers.md → 会议 录用通知时间 名单公布时间 会议召开时间
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: acl, acl2026, ai, cv, cvpr, cvpr2026
+
+---
+
+### 🌟 [Lynkr](https://github.com/Fast-Editor/Lynkr)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 513
+- **核心概述**: 使用 Lynkr 简化您的工作流程，Lynkr 是一个 CLI 工具，可充当 HTTP 代理，以便使用 Claude Code CLI 进行高效的代码交互。
+- **大概是做什么的**: 优化您的令牌使用的 LLM 网关。 JSON 工具结果中的标记减少了 87.6%。需要大量工具的请求中的令牌减少了 53%。 171 毫秒语义缓存命中。零代码更改。 87.6% JSON 压缩 53% 工具令牌减少 171 毫秒 语义缓存命中 0 次代码更改所需的数字来自针对相同工作负载的 LiteLLM 的实时基准测试。查看完整报告 → 🚀 新功能：AI 编码工具的包裹模式 将 Lynkr 的路由与您的 AI 编码助手结合使用 — 最大化您的订阅价值： - ✅ 分层路由（将简单的任务发送到免费的 Ollama，将复杂的任务发送到您的订阅/API） - ✅ TOON/RTK 压缩（工具输出的令牌减少 87%） - ✅ 语义缓存（171 毫秒缓存命中） - ✅ 相同订阅限制的使用量增加 3-5 倍 - ✅使用 OAuth（Claude、Copilot、Cursor）或 API 密钥（Aider、Codex）快速启动（2 分钟） 最快的路径是交互式向导：它会询问四个问题 - 使用模式（通过包装的 Claude Pro/Max，或直接 API 密钥）、跨 12 个受支持的提供商的 SIMPLE/MEDIUM/COMPLEX/REASONING 层选择、您选择的凭据以及一些路由智能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, claude, claudecode, code-assistant, code-assistants
+
+---
+
+### 🌟 [chidori](https://github.com/ThousandBirdsInc/chidori)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,356
+- **核心概述**: 默认情况下，每次运行都是持久、可重播和可恢复的代理框架。
+- **大概是做什么的**: 默认情况下，每次运行都是持久、可重播和可恢复的代理框架。将代理编写为普通的异步 TypeScript。每个副作用（每个 LLM 调用、工具调用和 HTTP 请求）都作为记录的主机调用流过运行时。因此，任何运行都可以在磁盘上设置检查点，以零 LLM 调用重播字节相同的输出，并从任何暂停中恢复 - 即使在崩溃后的新进程中也是如此。一个 Rust 二进制文件、一个嵌入式纯 Rust JavaScript 引擎和 TypeScript + Python SDK。没有 Node、没有 DSL、没有本机绑定。 🧰 您可以构建什么 · 代理具有不确定性、昂贵且长期运行。这种组合使得他们构建起来很痛苦： - 🐛 一个错误表面三层深度 - 并且你无法重现它。 - 💸 每个调试周期都会重新计费相同的代币。 - 💥 多步运行中途发生碰撞会失去一切。 - ⏳“等待人类批准”意味着让进程保持几个小时的活动状态。大多数框架都在这种混乱之上进行编排。 Chidori 将其移除 技巧是单一边界。代理执行的每个副作用 - 每个 LLM 调用、工具校准
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agents, ai, checkpointing, deterministic, durable-execution
+
+---
+
+### 🌟 [OpenGUI](https://github.com/Core-Mate/OpenGUI)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 413
+- **核心概述**: OpenGUI 是一个用于手机人工智能的 Android GUI 代理框架，可以通过 GUI 查看、规划和操作真实的移动应用程序。
+- **大概是做什么的**: 语言：英语 简体中文 日本语 Android 的移动 GUI 代理框架。 OpenGUI 帮助 AI 代理在真实设备上查看、理解和操作 Android 应用程序界面。 OpenGUI 读取真实的 Android 应用程序 UI，计划下一步，采取移动操作，并返回结构化结果。尝试 OpenGUI 的最快方法是让 Claude Code 或 Codex 为您引导它。 - Android 手机或模拟器 - 启用 USB 调试 - 启用 AccessibilityService - 用于实际任务执行的模型 API 密钥 OpenGUI 将使用存储库脚本来启动后端并安装 Android 客户端： 后端和 Android 客户端运行后，发送第一个任务： 手动设置指南： docs/get-started.md 。 - [2026.5.16] 添加了使用本地 REST API 的 Codex / Claude Code 远程控制、pnpm opengui -- ... CLI 以及用于从编码代理分派 Android 应用程序任务的 open-gui-remote-control 技能。 - [2026.5.9] 添加了用于远程 Android 任务调度的 Discord IM 通道，包括前缀命令、斜杠命令、白名单和公会范围的命令注册。 - [2026.5.7] 强化本地启动以避免com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-framework, ai-agent, android, android-accessibility, android-agent
+
+---
+
 ## 🕔 2026-07-05 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
