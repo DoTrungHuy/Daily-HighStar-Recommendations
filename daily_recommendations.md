@@ -1,3 +1,67 @@
+## 🕔 2026-07-06 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [idea-reality-mcp](https://github.com/mnemox-ai/idea-reality-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 754
+- **核心概述**: 为 AI 编码代理预先构建现实检查。扫描 GitHub、HN、npm、PyPI、Product Hunt。 MCP 服务器。 290 多颗星星。
+- **大概是做什么的**: 如何自动检查是否有人已经构建了您的应用程序创意。 idea-reality-mcp 是一个 MCP 服务器，它扫描 GitHub、npm、PyPI、Hacker News、Product Hunt 和 Stack Overflow，以检查您的创业想法是否已经存在。它会返回 0-100 的现实分数，包括证据、趋势检测和关键点建议，以便您的 AI 代理可以在编写任何代码之前决定是否构建、关键点或终止该想法。何时使用：您即将开始一个新项目，并想知道是否已经存在类似的工具、该领域的竞争力如何以及市场是在增长还是在下降。 1. 用简单的英语描述你的想法——例如“将 Figma 设计转换为 React 组件的 CLI 工具” 2. 想法检查并行扫描 6 个数据库（GitHub 存储库 + 星星、黑客新闻讨论、npm/PyPI 包、Product Hunt 发布、Stack Overflow 问题） 3. 获得 0-100 的现实分数，包括趋势方向（加速/稳定/下降）、主要竞争对手和 AI 生成的关键点建议 一个分数。六个来源。趋势检测。您的代理人决定下一步该做什么。在浏览器中尝试一下——无需ins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, developer-tools, github-api, idea-validation, market-research, mcp
+
+---
+
+### 🌟 [Raven](https://github.com/EverMind-AI/Raven)
+- **项目语言**: Python
+- **星标数量**: ⭐ 733
+- **核心概述**: 基于 EverOS 构建的内存优先的自我改进代理工具。
+- **大概是做什么的**: Raven 是基于 EverOS 构建的自我改进代理工具。 Raven 通过不断改进代理周围的系统来帮助代理改进运行：工具、技能、内存、代码执行、策略和工作环境。 EverOS 跨会话提供持久的用户内存、代理内存和世界知识，因此成功的工作流程可以演变成可重复使用的代理模板和数字工作人员。 - 2 分钟内可以做什么 - 消息网关 - Raven 的构建目的 - 开发人员工作流程 - EverMind 生态系统 Windows（本机、PowerShell） 注意：本机 Windows 无需 WSL 即可运行 Raven。 CLI、TUI、网关和工具本机安装。如果您更愿意使用 WSL2，上面的 Linux/macOS 单行代码也可以在那里使用。在 PowerShell 中运行：安装程序处理所有内容：uv、Python 3.12、Node.js 22 和 Raven。打开一个新终端。在 Linux、macOS 或 WSL2 上，您还可以重新加载当前 Raven 支持的 OpenRouter、OpenAI、Anthropic、Gemini、DeepSeek、GitHub Copilot、OpenAI Codex OAuth 和自定义 OpenAI 兼容端点。如果设置失败或提供程序未准备好，请运行：您可以��什么
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anthropic, chatgpt, claude, codex
+
+---
+
+### 🌟 [open-connector](https://github.com/oomol-lab/open-connector)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 379
+- **核心概述**: 开源身份验证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000 多个 SaaS 提供商连接到 AI 代理。
+- **大概是做什么的**: English 简体中文 日本语 Русский Français OpenConnector 是 Composio 的开源替代方案，用于代理就绪的 SaaS 身份验证、工具和集成。它是需要可靠访问外部应用程序中的用户帐户的代理的连接器层。它处理身份验证、工具执行和代理就绪集成。该开源目录目前包括 840 多个提供商和 8,300 多个预构建操作，在本地或与 Cloudflare 兼容的基础设施上运行，并通过 Connector SDK、MCP、HTTP、OpenAPI 公开相同的工具，本地 Web OpenConnector 为代理提供了进入实际产品的受控路径，同时将凭证、范围、模式、策略和运行日志保留在可检查的运行时内。网关、提供程序目录和操作执行器都是开源的，因此团队可以审查合同、扩展提供程序并控制部署边界。开源目录是 OOMOL 连接器目录的一部分，已完成迁移到可维护的提供程序定义和执行程序。托管的 OOMOL 产品目前涵盖 1,000 多家提供商。两个表面都使用兼容的连接器
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agents, api-gateway, automation, cli, cloudflare-workers
+
+---
+
+### 🌟 [flowcraft](https://github.com/GizClaw/flowcraft)
+- **项目语言**: Go
+- **星标数量**: ⭐ 490
+- **核心概述**: 生产级 Go SDK，用于构建具有长期记忆、知识检索和语音功能的 AI 代理 - 可作为库、守护程序或实时管道运行。
+- **大概是做什么的**: 生产级 Go SDK，用于构建具有长期记忆、知识检索和语音功能的 AI 代理 - 可作为库、守护程序或实时管道运行。 FlowCraft 是一个分层的、包含电池的工具包，用于在 Go 中交付 LLM 应用程序。选择您需要的层： - sdk — 可组合原语：代理、DAG 执行器、LLM 合约、工具、遥测、工作区和看板式多代理委托。 - 记忆——长期回忆、对话历史、知识检索、文本处理和记忆支持存储。 - sdkx — 嵌入式提供商：OpenAI、Anthropic、DeepSeek、MiniMax、ByteDance / Volcengine���以及嵌入、重新排序、沙箱和兼容性适配器。 - 容器 - 进程内运行时，通过生命周期管理、重启策略、探针、sidecars、每次运行工作区和程序集助手来托管代理。 - Vesseld — 一个独立的守护进程，从声明性 YAML 运行容器实例，公开 HTTP + SSE 控制平面，并在许多容器之间共享 LLM 客户端和速率限制。 - 语音 — 实时 STT → LLM → TTS 管道，具有 VAD、插入和 WebRTC。一切
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-runtime, agents, ai, ai-agents, anthropic
+
+---
+
+### 🌟 [openscience](https://github.com/synthetic-sciences/openscience)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 346
+- **核心概述**: 用于科学研究的开源人工智能工作台
+- **大概是做什么的**: 用于科学研究的开源人工智能工作台 给它一个目标。它阅读文献、编写和运行代码、运行实验并写下发现的结果。安装·快速入门·文档·Atlas OpenScience 是一个用于科学研究的 AI 工作台。你给它一个目标，它就会像有能力的合作者一样通过研究循环进行工作。它阅读重要的论文，形成假设，编写和运行代码，在实际计算上运行实验，查询主要科学数据库，并写下结果。它作���浏览器中的工作区运行，并使用您自己的 API 密钥与来自 Anthropic、OpenAI、Google 和数十个其他提供商的任何前沿或开放权重模型配合使用。无需帐户。它与模型无关、开源，专为机器学习、生物学、物理和化学领域的实际工作而构建。 - 运行整个循环。文献综述、假设、代码、实验、分析和写作，在一个连续的过程中。 - 研究代理。默认情况下是一名研究代理人，加���生物学、物理学和机器学习专家，并具有评论和文献综述苏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, bun, cli, co-scientist
+
+---
+
+### 🌟 [awesome-quant-ai](https://github.com/leoncuhk/awesome-quant-ai)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 441
+- **核心概述**: 精选的定量投资和交易策略资源列表，重点关注人工智能和机器学习在金融领域的应用。
+- **大概是做什么的**: 精选的定量投资和交易策略资源列表，重点关注人工智能和机器学习在金融领域的应用。你的优势：你比共识更了解哪一层？ ⭐ 除了精选链接之外，该项目还包括一个原创的 8 章双语策略指南，其中包含 Python 实现以及有关政权检测和人工智能代理交易的研究论文。 - 量化交易策略 - 交易范式比较 - 前沿：新兴主题（2025/2026） - 工具和平台 - 学习资源 - 原创研究和笔记 - 社区和会议 量化投资使用数学模型和算法来确定投资机会。该存储库旨在为那些对人工智能、机器学习和定量金融交叉感兴趣的人提供全面的资源。从本质上讲，该领域解决了三个支柱： 1. 定量金融的主要挑战： - 有效市场假说（EMH）：通过严格的方法平衡市场效率和可利用的低效率之间的紧张关系。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, algorithmic-trading, awesome, awesome-list, llm-agents
+
+---
+
 ## 🕔 2026-07-06 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
