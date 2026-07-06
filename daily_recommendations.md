@@ -1,3 +1,67 @@
+## 🕔 2026-07-06 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks)
+- **项目语言**: C++
+- **星标数量**: ⭐ 10,307
+- **核心概述**: 用于本地运行 AI 的生产就绪工具包
+- **大概是做什么的**: 适用于每个平台的设备端人工智能。在本地运行法学硕士、视觉、语音转文本和文本转语音。私密、离线、快速。一款适用于 iOS、Android、Flutter、React Native 和 Web 的 SDK，并在 Snapdragon 上提供 Hexagon NPU 加速。什么是随处运行？ RunAnywhere 可让您将 AI 功能添加到完全在设备上运行的应用程序，无云、无延迟、无数据离开设备： - LLM 聊天：Llama、Qwen、Gemma、Phi、LFM、Mistral 等 - 视觉 (VLM)：图像理解和字幕 - 语音转文本：基于 Whisper 和 Moonshine 的转录 - 文本转语音：神经语音合成 - 语音助手：完整的语音到文本、LLM 和文本到语音管道 一个 API 涵盖 iOS、Android、Flutter、React Native 和 Web，并路由到每台设备上的最佳引擎：Apple 上的 Core ML、浏览器中的 WebGPU、作为后备的 llama.cpp 以及 Snapdragon 上的 Hexagon NPU。 Hexagon NPU 加速 (QHexRT) QHexRT 是 RunAnywhere 针对 Qualcomm Hexagon NPU 的推理运行时。它直接在 Snapdragon NPU（Hexagon v79 / v8
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: android, apple-intelligence, cpp, diffusion-models, edge, flutter
+
+---
+
+### 🌟 [context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,203
+- **核心概述**: 手工制作的 Claude 代码技能专注于提高代理结果质量。与 OpenCode、Cursor、Antigravity、Gemini CLI 等兼容。
+- **大概是做什么的**: 适用于 Claude Code、OpenCode、Cursor、Antigravity 等的高级上下文工程技术和模式。快速入门 · 插件 · Github 操作 · 参考 · 文档 上下文工程套件 手工制作的高级上下文工程技术和模式的集合，具有最小的令牌占用空间，专注于提高代理结果质量和可预测性。该市场基于我们公司的开发人员长期以来每天使用的提示，并辅以来自基准论文和高质量项目的插件。 - 使用简单 - 易于安装和使用，无需任何依赖。包含自动使用的技能和不言自明的命令。 - 令牌高效 - 精心设计的提示和架构，在可能的情况下，更喜欢使用子代理的面向命令的技能而不是一般信息技能，以尽量减少使用不必要的信息填充上下文。 - 注重质量 - 每个插件都专注于有意义地改善特定领域的代理结果。 - 粒度 - 仅安装您需要的插件。每个插件仅加载其特定的代理、命令和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude, cline, cursor, llm
+
+---
+
+### 🌟 [Swarm](https://github.com/christopherkarani/Swarm)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 528
+- **核心概述**: 🐦‍🔥 LangGraph for Swift — 在 Apple/Linux 平台上原生构建有状态的 AI 代理工作流程。
+- **大概是做什么的**: 用于构建代理和多代理工作流程的 Swift 框架。两个代理，一个管道，编译为具有崩溃恢复和 Swift 并发安全性的 DAG。这是一个具有类型安全工具调用的工作代理。 Swarm 还支持 AGENTS.md 和 SKILL.md 以获取声明性代理规范和可重用技能 - 请参阅入门指南以了解完整的工作区布局。 - 快速并发是表面的一部分。 Swift 6.2 StrictConcurrency 在整个包中启用。 - 工具保持类型安全。 @Tool 宏从 Swift 结构生成 JSON 模式。 - 工作流程可以承受崩溃。持久工作流检查点允许您从显式检查点 ID 恢复。 - 云和设备上模型使用相同的抽象。 Foundation 模型、Anthropic、OpenAI、Ollama、Gemini、MiniMax、OpenRouter 和 MLX 都适合相同的形状。 - 它自始至终都是用 Swift 编写的。 AsyncThrowingStream 、参与者、结果构建器和宏在这里都是一流的。能力矩阵展示 Swarm 现在附带一个回购内能力展示，可以在一个确定性矩阵中运用稳定的表面积： - c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agentic-systems, agents, ai, ai-agents
+
+---
+
+### 🌟 [raft](https://github.com/NVIDIA/raft)
+- **项目语言**: Cuda
+- **星标数量**: ⭐ 1,024
+- **核心概述**: RAFT 包含用于机器学习和信息检索的广泛使用的基本算法和原语。这些算法经过 CUDA 加速，形成构建块，可以更轻松地编写高性能应用程序。
+- **大概是做什么的**:  RAFT：可重用的加速功能和工具 3. RAFT 适合我吗？ 6. 代码库结构和内容 - RAFT 参考文档：API 文档。 - RAFT 入门：RAFT 入门。 - 构建和安装 RAFT：安装和构建 RAFT 的说明。 - RAPIDS 社区：获取帮助、贡献和协作。 - GitHub 存储库：下载 RAFT 源代码。 - 问题跟踪器：报告问题或请求功能。 RAFT 包含用于机器学习和数据挖掘的广泛使用的基本算法和原语。这些算法经过 CUDA 加速，形成构建块，可以更轻松地编写高性能应用程序。通过采用基于原语的算法开发方法，RAFT - 加快算法构建时间 - 通过最大限度地跨项目重用来减少维护负担，并且 - 集中核心可重用计算，允许未来的优化使所有使用它们的算法受益。虽然并不详尽，但以下一般类别有助于总结 RAFT 中的加速功能：
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anns, building-blocks, clustering, cuda, distance, gpu
+
+---
+
+### 🌟 [studio](https://github.com/decocms/studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 384
+- **核心概述**: 适用于 AI 代理的开源控制平面。连接工具、雇用代理、跟踪每个代币和美元
+- **大概是做什么的**: 开源 · TypeScript 优先 · 随处部署 适用于您的 AI 代理的开源控制平面。 TL;DR：雇用代理人。连接工具。将它们组织成具有适合工作的 UI 的项目。追踪每一个代币和美元。自托管或使用云。 Studio 是您雇用代理、连接工具并将其组织成实际执行任务的项目的地方。特工拥有真正的技能和经过战斗考验的提示。通过连接，他们可以访问您的工具（GitHub、Slack、Postgres、OpenRouter 以及任何支持 MCP 的工具），这些工具是通过 Web UI 通过一键式 OAuth 设置的。项目将代理和连接围绕一个目标聚集在一起：每个项目都有自己的侧边栏和 UI，由其内部内容决定。每个连接、每个代理的所有内容都会被跟踪——令牌、成本、错误、延迟。在本地安装并保持私密性。同步到云以进行远程访问、团队角色和共享账单。或者从源代码克隆并运行：在 http://localhost:4000（客户端）运行，API 路由代理到 Bun 服务器 浏览并从内置商店雇用专门的 AI 代理。每个代理都知道如何使用特定工具
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, bun, deco, llm, mcp
+
+---
+
+### 🌟 [instructor-php](https://github.com/cognesy/instructor-php)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 322
+- **核心概述**: 统一的 LLM API、LLM 的结构化数据输出和代理 SDK - 采用 PHP
+- **大概是做什么的**: 该 monorepo 包含一组开发友好、与框架无关的组件，提供 3 个主要功能： - PHP 讲师 - PHP 中的结构化数据提取 - 由 LLM 提供支持，专为简单性、透明性和控制而设计；支持自定义 LLM 输出处理器（不仅仅是 JSON）， - PHP 多语言 - 统一 LLM API - 编写一次代码，与任何 LLM 提供商一起部署：OpenAI 聊天完成 API、OpenAI 响应 API、Anthropic、Gemini、Ollama 等；您可以编写自己的 LLM 驱动程序， - PHP 代理 SDK - 轻量级但功能强大的代理 SDK，支持自定义工具、生命周期挂钩、子代理、上下文管理、自定义停止/继续标准、通过事件的可观察性、打包功能、代理模板、会话管理等。框架集成包： - Laravel 包 - 用于外观、HTTP 传输、本机代理、遥测、日志记录和测试的第一方 Laravel 集成 - Symfony 包 - 第一方包含电池的 Symfony 集成包，目前在 packages/symfony 下引入 - 官方网站 https://instructorphp.com - 文档网站
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, genai, llm, php
+
+---
+
 ## 🕔 2026-07-06 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
