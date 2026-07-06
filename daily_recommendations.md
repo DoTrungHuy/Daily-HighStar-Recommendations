@@ -1,3 +1,67 @@
+## 🕔 2026-07-06 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenRath](https://github.com/Rath-Team/OpenRath)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,070
+- **核心概述**: 一个类似于 PyTorch 的开源运行时，用于动态多代理和多会话工作流程。
+- **大概是做什么的**: OpenRath 是一个类似 PyTorch 的多代理和多会话框架。它将代理运行时状态转换为显式的、可组合的 Python 对象： - 会话承载对话状态和代理间协作沿袭。 - 沙盒决定工具实际运行的位置。 - 内存在运行过程中保持代理内存状态。 - 工具是暴露给模型的类似于操作员的可调用表面。 - 代理是一个可重用、可组合的会话转换层。 - 工作流将多个代理和工作流组合成更大的系统。 - 选择器在运行时在自描述工作流之间进行路由，因此 if/while 控制流保持纯 Python。 PyTorch 镜头中的 OpenRath PyTorch 理念 OpenRath 理念 含义 Tensor Session 流动的运行时值：有序块、放置、沿袭和使用。设备沙箱/后端 工具运行的执行环境：本地进程、OpenSandbox 或其他后端。参数内存持久状态绑定到代理或存储，跨运行调用和提交。函数工具 具有模型可见架构和运行时行为的可调用操作。 nn.线性代理A可重复使用
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-framework, agentic-ai, ai-agents, anthropic, lllm-agent, llm
+
+---
+
+### 🌟 [superlog](https://github.com/superloglabs/superlog)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 985
+- **核心概述**: 开源可观察性工具，使用人工智能代理来自我修复您的软件
+- **大概是做什么的**: Superlog 是一个开源代理遥测系统。它会摄取痕迹、日志和指标，将噪声信号分组到事件中，并在您睡觉时监视您的基础设施。您可以使用我们在您最喜欢的编码代理中的技能在您的项目中安装 Superlog：Superlog 是 OpenTelemetry 数据的开放核心可观察性工作区。它摄取跟踪、日志和指标，将噪声信号分组为事件，并为团队提供本地优先的产品界面来调试生产系统。该存储库包含完全开源的免费社区版本： - 用于事件分组和后台作业的工作进程 - Postgres 模式和 ClickHouse 支持的遥测查询 - 用于可插入调查运行时的代理运行器接口 - 记录本地事件摘要的默认社区代理运行器 我们还提供托管 Superlog Cloud 版本，其中包含免费套餐、付费计划和每月积分包。安装依赖项： 启动本地堆栈：默认本地服务为： - Web：http://localhost:5173 - API：http://localhost:4100 - OTLP 摄入：http://localhost:4101 - a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, llm, memory, observability, opentelemetry, react
+
+---
+
+### 🌟 [maxtext](https://github.com/AI-Hypercomputer/maxtext)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,348
+- **核心概述**: 一个简单、高性能且可扩展的 Jax LLM！
+- **大概是做什么的**: 注意：我们建议使用 Python 3.12 运行 MaxText，因为它是我们主要支持的版本。其他 Python 版本可能会遇到兼容性问题。 MaxText 是一个高性能、高度可扩展的开源 LLM 库和参考实现，用纯 Python/JAX 编写，针对 Google Cloud TPU 和 GPU 进行训练。 MaxText 提供了可供选择的高性能模型库，包括 Gemma、Llama、DeepSeek、Qwen 和 Mistral。对于每个模型，MaxText 支持预训练（最多数万个芯片）和可扩展的后训练，采用监督微调（SFT）和组相对策略优化（GRPO，一种强化学习）和组序列策略优化（GSPO，一种强化学习）等流行技术。得益于 JAX 和 XLA 编译器的强大功能，MaxText 实现了从单主机到大型集群的高模型 FLOP 利用率 (MFU) 和每秒令牌数，同时保持简单且很大程度上“无需优化”。 MaxText 是研究和生产领域雄心勃勃的法学硕士项目的起点。我们
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deepseek, fine-tuning, gemma2, gemma3, gpt, jax
+
+---
+
+### 🌟 [qvac](https://github.com/tetherto/qvac)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: QVAC - 用于构建私有、跨平台、点对点 AI 应用程序的本地 AI SDK 和库。在 Linux、macOS、Windows、Android 和 iOS 上本地运行法学硕士、语音转文本、翻译等。
+- **大概是做什么的**: 网站  •  支持  •  QVAC 是一个开源的跨平台生态系统，用于构建本地优先的点对点人工智能应用程序和系统。借助 QVAC，您可以在 Linux、macOS、Windows、Android 和 iOS 上本地运行 LLM、语音、RAG 等 AI 任务，或者使用其内置 P2P 功能将推理委托给同行。 - 本地优先：加载人工智能模型并在您自己的机器上进行推理。不涉及第三方 API、SaaS 或云。 - P2P：构建不可阻挡的互联网系统——例如 BitTorrent、IPFS 和区块链网络，但针对的是 AI。 - 跨平台：跨硬件、操作系统和 JS 运行时环境的一致开发人员体验 - 编写一次代码，在任何地方运行。 - OpenAI兼容的API：与更广泛的AI生态系统集成。 - 开源：100% 免费使用和修改 - 构建于之上，回馈，成为我们社区的一部分。 QVAC 由汇聚在 JS SDK 中的 JavaScript 库和工具组成。 SDK 是使用 QVAC 的主要入口点。它是类型安全的，并通过统一的接口公开所有 QVAC 功能
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, bare-runtime, cross-platform, embeddings, llm, local-ai
+
+---
+
+### 🌟 [headroom-desktop](https://github.com/gglucass/headroom-desktop)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 422
+- **核心概述**: 解锁 2 倍以上的 Claude Code 和 Codex 使用量
+- **大概是做什么的**: Headroom Desktop — 将 Claude Code 和 Codex 令牌成本削减 50% Headroom 是一款 macOS 菜单栏应用程序，可将 Claude Code 和 OpenAI Codex 令牌成本削减 50% — 而无需改变您的编码方式。它运行本地优先的优化管道，可逆地压缩工具输出、日志和样板文件，从而使每个提示都膨胀，因此您已经支付的 AI 计划可以进一步扩展约 2 倍。模型所需的任何内容都不会丢失——它可以根据需要拉回原始内容。定价：Headroom 有免费套餐和付费计划 - 请参阅定价。此存储库中的桌面 shell 是 MIT 许可的；帐户功能和付费计划是可选的。稳定：Apple Silicon 上的 macOS 14 (Sonoma) 或更高版本（M1 或更高版本）预览：Linux x86 64 版本处于实验阶段，目前仅支持核心代理流。 1. 转到最新版本 2. 在 macOS 上，下载 .dmg 文件（例如 Headroom 0.2.9.dmg ） 3. 打开 DMG，将 Headroom 拖至应用程序 4. 启动 Headroom — 它会出现在菜单栏中，并引导您完成设置 Headroom 已签名和公证，因此 macOS 将在没有 Gatekeeper 警告的情况下打开它。 Linux 上一页
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, claude-code, codex, developer-tools, llm
+
+---
+
+### 🌟 [solon-ai](https://github.com/opensolon/solon-ai)
+- **项目语言**: Java
+- **星标数量**: ⭐ 415
+- **核心概述**: Java AI应用开发框架（支持LLM-tool、skill；RAG；MCP；Agent-ReAct、Team-Agent）。兼容java8~java25。它还可以嵌入到SpringBoot、jFinal、Vert.x、Quarkus等框架中。
+- **大概是做什么的**: Java LLM(工具、技能) & RAG & MCP & Agent(ReAct、Team) 应用开发框架 克制、高效、开放 与 LangChain、LangGraph、LlamaIndex 是同类型的开发框架 https://solon.noear.org/article/learn-solon-ai 语言：English 中文 Solon AI 是 Solon 项目的核心子项目之一。它是一个全场景Java AI开发框架，旨在深度融合LLM大模型、RAG知识库、MCP协议和Agent协作编排。完整的用例支持：完美融入Solon生态系统，可以无缝集成到SpringBoot、Vert.X、Quarkus等框架中。 多模型方言：使用ChatModel的统一接口（OpenAI、Gemini、Claude、Ollama、DeepSeek、Dashscope等）按方言调整模型差异。图驱动编排：支持Agent推理转化为可观察、可治理的计算流图。 solon-ai 的嵌入示例（包括第三方框架）：https://gitee.com/solonlab/solon-ai-mcp-embedded-examples https://gitcode.com/solo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chat, deepseek, embedding, function-call, java
+
+---
+
 ## 🕔 2026-07-06 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
