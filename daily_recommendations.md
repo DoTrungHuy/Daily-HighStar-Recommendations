@@ -1,3 +1,67 @@
+## 🕔 2026-07-06 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [astron-agent](https://github.com/iflytek/astron-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 8,607
+- **核心概述**: 企业级、商业友好的代理工作流程平台，用于构建下一代超级代理。
+- **大概是做什么的**: 🔭什么是 Astron Agent Astron Agent 是一个企业级、商业友好的 Agentic Workflow 开发平台，集成了 AI 工作流编排、模型管理、AI 和 MCP 工具集成、RPA 自动化和团队协作功能。该平台支持高可用性部署，使组织能够快速构建可扩展、可立即投入生产的智能代理应用程序，并为未来奠定人工智能基础。为什么选择Astron代理？ - 稳定可靠：与科大讯飞Astron Agent平台采用相同的核心技术构建，以完全可用的高可用版本开源提供企业级可靠性。 - 跨系统集成：原生集成智能RPA，高效连接企业内外部系统，实现Agent与企业系统的无缝交互。 - 企业级开放生态：深度兼容各种行业模型和工具，支持自定义扩展，灵活适应多样化企业场景。 - 商业友好：根据 A 发布
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-workflow, ai, enterprise, enterprise-automation
+
+---
+
+### 🌟 [bisheng](https://github.com/dataelement/bisheng)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,494
+- **核心概述**: BISHENG是一个开放的LLM DevOps平台，适用于下一代企业人工智能应用程序。强大而全面的功能包括：GenAI工作流程、RAG、Agent、统一模型管理、评估、SFT、数据集管理、企业级系统管理、可观测性等。
+- **大概是做什么的**: 自豪的中国制造，愿我们像《深海寻踪》和《黑神话：悟空》的创作者一样，为世界带来更多奇迹和伟大。 传承中国匠心，希望我们能像[Deepseek]、[黑神话：悟空]团队一样，给世界带来更多美好。 BISHENG是一个开放的LLM应用devops平台，专注于企业场景。已被大量行业领先组织和财富500强企业所使用。 “毕升”是活字印刷术的发明者，对人类知识的传播起到了至关重要的推动作用。希望必胜也能为智能应用的广泛��地提供有力的支持。欢迎大家参与。 1. Lingsight，具有专家级品味的通用智能体：通过AGL（Agent Guidance Language）框架，我们将领域专家的偏好、经验和业务逻辑嵌入到AI中，使智能体在处理任务时表现出“专家级理解”。 2. 独特的必升工作流程 - 🧩 独立且全面的应用程序编排框架：允许在单个框架内执行各种任务（同时类似于
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, chatbot, enterprise, finetune, genai
+
+---
+
+### 🌟 [gpustack](https://github.com/gpustack/gpustack)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,272
+- **核心概述**: 用于高性能 AI 模型服务（vLLM、SGLang）和按需可通过 SSH 访问的 GPU 实例的 GPU 集群管理器。
+- **大概是做什么的**: GPUStack 是一个开源 GPU 集群管理器，用于 AI 模型服务和 GPU 实例配置。它配置和编排推理引擎（vLLM、SGLang、TensorRT-LLM 或您自己的），并允许您按需启动可通过 SSH 访问的 GPU 实例。其核心功能包括： - 多集群GPU管理。跨多个环境管理 GPU 集群。这包括本地服务器、Kubernetes 集群和云提供商。 - 可插拔推理引擎。自动配置vLLM、SGLang、TensorRT-LLM等高性能���理引擎。您还可以根据需要添加自定义推理引擎。 - 第 0 天模型支持。 GPUStack 的可插拔引擎架构使您能够在新模型发布当天就进行部署。 - 性能优化的配置。提供低延迟或高吞吐量的预调整模式。 GPUStack支持扩展的KV缓存系统，如LMCache和HiCache，以减少TTFT。它还包括对推测解码方法（例如 EAGLE3、MTP 和 N-gram）的内置支持。 - GPU 实例。按需启动可通过 SSH 访问的 GPU 实例
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ascend, cuda, deepseek, distributed-inference, genai, high-performance-inference
+
+---
+
+### 🌟 [giskard-oss](https://github.com/Giskard-AI/giskard-oss)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,492
+- **核心概述**: 🐢 LLM 代理的开源评估和测试库
+- **大概是做什么的**: 代理系统的评估、红队和测试生成模块化、轻量级、动态和异步优先 Giskard v3 是专为 AI 代理的动态、多轮测试而设计的全新重写。该版本消除了严重的依赖关系，提高了效率，同时引入了更强大的 AI 漏洞扫描器和增强的 RAG 评估功能。目前，漏洞扫描器和 RAG 评估仍然依赖 Giskard v2。 Giskard v2 仍然可用，但不再积极维护。关注进度 → 阅读 v3 公告 · 路线图需要 Python 3.12+。遥测：基于 giskard-core （包括 giskard-checks ）构建的库可以发送可选的聚合使用分析，以帮助改进产品。不包含提示、模型输出或场景文本。查看收集的内容以及如何选择退出。 Giskard 是一个用于测试和评估代理系统的开源 Python 库。 v3 架构是一组模块化的重点包 - 每个包只携带它需要的依赖项 - 从头开始​​构建以包装任何内容：LLM、黑盒代理或多步骤管道
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evaluation, ai-red-team, ai-security, ai-testing, fairness-ai, llm
+
+---
+
+### 🌟 [TuyaOpen](https://github.com/tuya/TuyaOpen)
+- **项目语言**: C
+- **星标数量**: ⭐ 1,640
+- **核心概述**: 适用于 T2/T3/T5AI/ESP32 等的下一代 AI+IoT 框架 – 快速 IoT 和 AI Agent 硬件集成
+- **大概是做什么的**: TuyaOpen 为下一代 AI 代理硬件提供支持：通过灵活的跨平台 C/C++ SDK 支持设备（涂鸦 T 系列 WIFI/BT MCU、Pi、ESP32），搭配涂鸦云的低延迟多模式 AI（拖放工作流程），集成顶级模型（ChatGPT、Gemini、Qwen、Doubao 等），并简化开放式 AI-IoT 生态系统构建。 🚀 通过 TuyaOpen，您可以： - 开发采用 ASR（自动语音识别）、KWS（关键字识别）、TTS（文本转语音）和 STT（语音转文本）等语音技术的硬件产品 - 与领先的法学硕士和人工智能平台集成，包括 Deepseek、ChatGPT、Claude、Gemini 等。 - 构建具有先进多模态 AI 功能的智���设备，包括语音、视觉和基于传感器的功能 - 创建定制产品并将其无缝连接到涂鸦云以进行远程控制、监控和 OTA 更新 - 开发与 Google Home 和 Amazon Alexa 兼容的设备 - 设计由涂鸦硬件支持的定制产品 - 使用蓝牙、Wi-Fi、以太网等针对各种硬件应用 - 受益于强大的内置功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, aiot, asr, chatbot
+
+---
+
+### 🌟 [Agents-Anywhere](https://github.com/anywhere-labs/Agents-Anywhere)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 363
+- **核心概述**: 通过您的手机控制任何设备上的任何编码代理。
+- **大概是做什么的**: 通过手机控制任何设备上的任何编码代理。在 Mac、Windows PC、Linux devbox 或云沙箱上运行 Codex、Claude Code 和更多代理。使用移动应用程序与会话聊天、预览文件和代码、批准操作以及在该设备上打开终端。 Docker 快速入门·入门·下载·Docker 文档·简体中文中国区服务已在 Beta 中，目前免费试用，对中国用户开放。想申请试用，请跳转到 Beta 访问并联系加入交流群。 什么是 Agents Anywhere？ Agents Anywhere 可让您通过手机控制在另一台设备上运行的编码代理。在 Mac、Windows PC、Linux 服务器、远程开发盒或云沙箱上运行 Codex、Claude Code 和更多代理。 Agents Anywhere 将您的电话连接到这些设备，以便您可以查看和控制在那里运行的代理会话。通过您的手机，您可以： - 与跑步会话交谈并在需要指导时接管。 - 从远程设备预览文件、代码、日志和运行时状态。 - 批准、中断、继续或同步长时间运行的工作。 - 在实际运行代理的设备上打开远程终端。 Agents Anywhere 是远程的，不是新的代理主机
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, claudecode, codex, llm, opencode
+
+---
+
 ## 🕔 2026-07-05 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
