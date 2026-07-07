@@ -1,3 +1,67 @@
+## 🕔 2026-07-07 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Sage](https://github.com/ZHangZHengEric/Sage)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,208
+- **核心概述**: 复杂任务的多智能体系统框架
+- **大概是做什么的**: 🌟 体验 Sage 的强大功能 🧠 Sage 代理平台 🎯 从复杂工作到可靠交付 🌟 一个用于任务执行、自动化、浏览器工作流程、IM 交付和企业部署的生产就绪代理平台。 📸 产品截图 实时协作 多格式支持 📖 详细文档：https://wiki.sage.zavixai.com/ - 🤖 规划到交付：内置规划、执行、自检、记忆调用和工具建议代理，用于完成复杂的任务。 - 🌐 多入口产品界面：根据工作流程从桌面、Web、CLI 和 Chrome 扩展使用 Sage。 - 🔁 自动化和重复任务：运行计划作业��调查问卷驱动的收集流程以及具有进度可见性的长期运行的操作任务。 - 💬 全渠道 IM 集成：连接微信个人版 (iLink)、WeCom、飞书和钉钉，支持消息和文件传送。 - 🧰 统一工具系统：将内置工具、技能、MCP 服务器、浏览器自动化、搜索和图像生成结合在一个执行堆栈中。 - 🛡️ 沙盒执行：本地、直通和远程
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, llm, manus, muilt-agents, workflow
+
+---
+
+### 🌟 [prism-insight](https://github.com/dragon1086/prism-insight)
+- **项目语言**: Python
+- **星标数量**: ⭐ 675
+- **核心概述**: 基于人工智能的股票分析和交易系统
+- **大概是做什么的**: 人工智能驱动的股市分析和交易系统 超过 13 个专业人工智能代理协作检测激增股票、生成分析师级报告并自动执行交易。 AI3 是 WrksAI（专业人士人工智能助手）的创建者，自豪地赞助 PRISM-INSIGHT（投资者人工智能助手）。新功能：ChatGPT Plus/Pro 订阅支持 没有 API 密钥？没问题。 PRISM-INSIGHT 现在支持通过 Codex OAuth 代理订阅 ChatGPT Plus（20 美元/月）或 Pro（200 美元/月）直接运行分析。令牌会在后台自动刷新，因此如果您更改 ChatGPT 帐户或密���，只需重新登录。零 API 账单。同样强大的分析。您现有的订阅即可完成此工作。随时随地获取 AI 股票分析 - 智能过滤 - 只接收您关心的 Telegram 提醒 - PDF 报告 - 移动优化的 AI 分析报告 - 启动促销（截至 2026 年 4 月 23 日） - 立即安装并获得 20 个免费积分（通常为 10 个） 观看 PRISM-INSIGHT 实际操作 立即尝试（无需安装） 实时查看 AI 交易表现：analysis.stocksimulation.kr 2.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, llm, mcp, multi-agent, stock
+
+---
+
+### 🌟 [agentsight](https://github.com/eunomia-bpf/agentsight)
+- **项目语言**: C
+- **星标数量**: ⭐ 514
+- **核心概述**: eBPF 中的系统级 AI 代理分析/跟踪/监控工具和技能
+- **大概是做什么的**: AgentSight：使用 eBPF 进行系​​统范围的 AI 代理分析和监控 您本地的第一个类似于 AI 代理的 perf / top / strace / nsight 工具。查看代理对您的机器实际执行的操作，并将这些操作连接回触发它们的提示、模型调用和工具决策。围绕 Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw 或任何命令运行 agentsight。 AgentSight 记录： - 进程和子进程、shell 命令、cwd、argv、退出状态和持续时间 - 创建、写入、截断、重命名或删除的文件 - 联系的网络目标 - 提示、响应、工具意图和 LLM/模型/令牌 无 SDK、无代理、无供应商集成。 AgentSight 通过 eBPF 和 TLS 流量跟踪进行观察，因此即使代理是闭源 CLI，它也能正常工作。 ✨ 零 SDK 需求 按模型、会话令牌、运行状况、进程系列、工具调用、文件活动和网络活动排名的实时会话 传统可观察性与系统级监控 应用程序级工具（例如 LangSmith、Langfuse 和 Phoenix）非常适合跟踪、提示、令牌、评估和延迟。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ebpf, llm, observability
+
+---
+
+### 🌟 [gemini-web-to-api](https://github.com/ntthanh2603/gemini-web-to-api)
+- **项目语言**: Go
+- **星标数量**: ⭐ 349
+- **核心概述**: ✨Gemini Web 应用程序的逆向工程 API。它可以用作 OpenAI、Gemini 和 Claude 的正版 API 密钥。
+- **大概是做什么的**: Gemini Web To API 🚀 将 Google Gemini Web 界面转换为标准化的 REST API。无需 API 密钥即可访问 Gemini 的功能 — 只需使用您的 cookie！该项目仅用于研究和教育目的。请负责任地使用，避免任何商业用途。该项目不隶属于谷歌。它使用逆向工程网络 cookie，可能不遵守 Google 的服务条款。使用风险自负——作者对任何帐户操作或数据丢失不承担任何责任。 🎯 为什么选择 Gemini Web To API？问题：您想要使用 Google Gemini 的最新型号，但没有 API 密钥或不想使用 API 密钥。解决方案：创建一个本地 API 服务器，该服务器： - ✅ 使用浏览器 cookie 连接到 Gemini 的 Web 界面 - ✅ 公开与 OpenAI / Claude / Gemini 兼容的 API 端点 - ✅ 不需要 API 密钥 - 只需来自浏览器的 cookie - ✅ 自动处理身份验证和会话管理 - 无需 API 密钥即可使用 Gemini - 本地测试 Gemini 集成 - 利用 Gemini 的最新模型构建应用程序 - 使用基于 cookie 的身份验证进行开发
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, api, chatbot, claude, docker, fiber-framework
+
+---
+
+### 🌟 [AIGuide](https://github.com/Snailclimb/AIGuide)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 311
+- **核心概述**: AI 应用开发、AI 编程实战与面试指南，涵盖 LLM、Agent、RAG、MCP、Claude Code、Codex 等核心技术与工程实践。
+- **大概是做什么的**: 你好，我是 JavaGuide 的作者。最近这段时间，我一直在补 AI 应用开发、AI 编程实战和 AI 面试这几块内容。 这份开源指南写给所有想系统学习 AI 应用开发与 AI 工程化落地 的同学：后端、前端、测试、架构师、技术管理者、产品技术同学都可以看。你不需要先转算法岗，也不需要一上来就啃训练框架和论文公式；这里重点放在 LLM、Agent、RAG、MCP、Prompt、评测、系统设计、Claude Code、Codex 这些做应用时会真正用到的东西。 如果你本来是 Java / Go 后端，会更容易把高并发、缓存、数据库、消息队列、可观测性这些经验迁移过来；如果你是前端、测试或产品技术方向，也可以从 Prompt、RAG、Agent、AI Coding、评测和系统设计切入，理解一个 AI 功能从 Demo 到上线到底要补哪些环节。 目前每篇文章都会尽量配上真实工程场景、关键参数、踩坑点和图解。内容还在持续更新，有帮助的话欢迎 Star，也欢迎提 Issue 一起补充。 发布之后，收到了不少读者朋友的反馈和推荐。感谢大家，我会继续维护。 AIGuide 仓库里也会同步维护一部分可直接安装的 Agent Skill，目前已提供： - drawio-chart ：根据需求生成专业的 draw.io 图表，支持流程图、架构图、时序图、ER 图等，并可导出为 PNG/SVG/PDF。 - java-coding-standards ：为 Java / Spring Boot 项目提供分层架构、编码风格、事务、异常、日志、性能与测试方面的工程规范。 如果你主要在 Codex 里使用，也可以直接从 GitHub 安装： 如果你是第一次系统学 AI 应用开发，建议按这个顺序走： 1. 先看 大模型基础 ：把 Token、上下文窗口、采样参数、API 调用、结构化输出和评测搞清楚。 2. 再看 RAG ：企业知识库问答最常见，坑也最多，文档处理、向量检索、更新链路和评测都得补。 3. 接着看 AI Agent ：重点理解 Tool Calling、Memory、MCP、Skills、Workflow / Graph / Loop。 4. 最后看 AI 系统设计 ：把 Demo 放进生产环境，处理网关、限流、fallback、成本、观测、安全和灰度。 AI Coding 不是另一条完全独立的线。它更像是日常研发方式的升级，写业务代码、改前端页面、补测试、做重构、查线上问题都能用。建议一边学 AI 应用开发，一边用 Claude Code、Codex、Cursor、Trae
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude-code, codex, context-engineering, cursor
+
+---
+
+### 🌟 [agent-craft](https://github.com/Annyfee/agent-craft)
+- **项目语言**: Python
+- **星标数量**: ⭐ 369
+- **核心概述**: AI Agent 教学仓库 | 系统化 LangChain、RAG、LangGraph、MCP 全栈实战代码 | 万��博客详解 | 开源可运行示例 | 从零构建智能体
+- **大概是做什么的**: 🤖 Agent Craft —— 从零构建全栈AI智能体 ✅ 系统性开源教学项目 ，手把手带你用 Python 构建可运行的 AI Agent，涵盖 Prompt、LLM、LangChain、RAG、LangGraph、MCP 到部署发布全流程。 如果你正在学习 AI 智能体开发，却卡在“知道概念但不会动手”或“会调 API 但不懂原理”的阶段—— Agent Craft 就是为你设计的学习路径。 我们从最基础的 LLM 调用开始，一步步带你构建完整的 Agent 能力栈： - 让模型调用外部工具（Function Calling） - 用 LangGraph 实现带状态、可调试的决策流程 - 整合记忆、工具与检索，打造真正可用的智能体 - 💻 代码可运行 ：每个模块独立、注释清晰、本地一键复现 - 📖 原理可理解 ：配套 CSDN 博客详解设计思路与关键机制 💡 我们不重复造轮子，但也不止于调用框架 —— 而是在 LangChain、LangGraph 等主流工具中，看清 Agent 是如何思考、决策与行动的。 💡 每个模块对应独立目录（含代码、说明与示例），可独立运行与学习。 🔥 已更新至 13 Streamlit 快速入门，持续更新中！ 章节 模块 博客 核心关键词 难度 :-----------: :--------------------------------------------------------------------------------------------------------- :--------------------------------------------------------------------: :------------------------------------------------------------- :-----: 🏗️ 基��篇 01 Agent 入门 & 环境搭建 🏠 OpenAI API ⭐ 02 LLM 基础调用 🏠 LLM API 调用 · prompt · 上下文记忆 ⭐ 03 Function Calling 与工具调用 🏠 Function Call · 工具函数封装 ⭐⭐ ⚙️ 框架篇 04 LangChain 基础篇 🏠 LLM · Prompt · Chain · Memory ⭐⭐ 05 LangChain 进阶篇 🏠 Agents · 缓存 · 流式输出 ⭐⭐⭐ 06 RAG 基础篇 🏠 RAG概念 · Split · Embeddi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, artificial-intelligence, beginner-guide, chatbot, deepseek, langchain
+
+---
+
 ## 🕔 2026-07-06 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
