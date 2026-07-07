@@ -1,3 +1,67 @@
+## 🕔 2026-07-07 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pentestagent](https://github.com/GH05TCREW/pentestagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,737
+- **核心概述**: PentestAgent 是一个用于黑盒安全测试的 AI 代理框架，支持错误赏金、红队和渗透测试工作流程。
+- **大概是做什么的**: AI 渗透测试 https://github.com/user-attachments/assets/a67db2b5-672a-43df-b709-149c8eaee975 - OpenAI、Anthropic 或其他 LiteLLM 支持的提供程序的 API 密钥 在项目根目录中创建 .env：任何 LiteLLM 支持的模型都可以工作。通过 OPENAI API BASE 在任何 OpenAI 兼容端点上使用中继/自定义 API 基点 PentestAgent ：对于 Anthropic 兼容端点，请改用 ANTHROPIC API BASE。请参阅 .env.example 了解完整的提供者说明和嵌入选项。在 Docker 容器内运行工具以进行隔离和预安装的渗透测试工具。选项 1：拉取预构建的映像（最快） 选项 2：本地构建 容器运行 PentestAgent，可以访问 Linux 渗透测试工具。代理可以直接通过终端工具使用 nmap 、 msfconsole 、 sqlmap 等。需要安装并运行 Docker。 PentestAgent 具有三种模式，可通过 TUI 中的命令访问： 模式 命令 说明 ------ --------- ------------- Assist /assist 一条单次指令，带工具执行 Agent /agent 自主执行单个任务 Crew /crew 多代理模式。乐团
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-assistant, ai-cybersecurity, ai-hacking, ai-security-tool
+
+---
+
+### 🌟 [lanhu-mcp](https://github.com/dsphper/lanhu-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,872
+- **核心概述**: ⚡ 需求分析效率提升 200%！全球首个为 AI 编程时代设计的团队协作 MCP 服务器，自动分析需求自动编写前后端代码，下载切图
+- **大概是做什么的**: 🎨 Lanhu MCP Server 蓝湖MCP服务器2.0 让所有 AI 助手共享团队知识，打破 AI IDE 孤岛 lanhumcp 蓝湖mcp lanhu-mcp 蓝湖AI助手 蓝湖skills Lanhu AI Integration 快速开始 • 功能特性 • 使用文档 • 贡献指南 一个功能强大的 Model Context Protocol (MCP) 服务器，专为 AI 编程时代设计，完美支持蓝湖（Lanhu）设计协作平台。 - 📋 智能需求分析 ：自动提取 Axure 原型，三种分析模式（开发/测试/探索），需求分析准确率 95% - 💬 团队知识库 ：打破 AI IDE 孤岛，让所有 AI 助手共享知识库和上下文 - 🎨 UI设计支持 ：自动下载设计稿，智能提取切图，语义化命名；设计图分析可获取尺寸/间距/颜色/字体等精确参数，并得到转换后的 HTML+CSS 代码参考 - ⚡ 性能优化 ：基于版本号的智能缓存，增量更新，并发处理 - ✅ Cursor + 蓝湖：让 Cursor AI 直接读取蓝湖需求文档和设计稿 - ✅ Windsurf + 蓝湖：Windsurf Cascade AI 直接读取蓝湖需求文档和设计稿 - ✅ Claude Code + 蓝湖：Claude AI 直接读取蓝湖需求文档和设计稿 - ✅ OpenClaw + 蓝湖：OpenClaw 原生支持读取蓝湖需求文档和设计稿 - ✅ ClawBot + 蓝湖：ClawBot 智能助手深度集成蓝湖协作 - ✅ Trae + 蓝湖：Trae AI 直接读取蓝湖需求文档和设计稿 - ✅ 通义灵码 + 蓝湖：通义灵码 AI 直接读取蓝湖需求文档和设计稿 - ✅ Cline + 蓝湖：Cline AI 直接读取蓝湖需求文档和设计稿 - ✅ 任何支持 MCP 协议的 AI 开发工具 - ❌ 旧世界 ：每个开发者的 AI 独立工作，重复分析需求，无法共享经验 - ✅ 新世界 ：所有 AI 连接同一知识中枢，需求分析一次、全员复用，踩坑经验永久保存 - 团队留言板：突破 AI 协作的最后一公里 - 智能文档提取 ：自动下载和解析 Axure 原型的所有页面、资源和交互 - 🔧 开发视角 ：详细字段规则、业务逻辑、全局流程图 - 🧪 测试视角 ：测试场景、用例、边界值、校验规则 - 🚀 快速探索 ：核心功能概览、模块依赖、评审要点 - 四阶段工作流 ：全局扫描 → 分组分析 → 反向验证 → 生成交付物 - 零遗漏保证 ：基于 TODO 驱动的系统化分析流程 - 设计稿查看
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, ai-tools, mcp, mcp-service
+
+---
+
+### 🌟 [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 513
+- **核心概述**: 把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.
+- **大概是做什么的**: 🤝 本项目由 甲木 × 「摸鱼小李」 联名共建 —— 排版组件、主题设计与质量标准凝聚了两人的公众号实践与共同打磨，特别感谢小李。 gzh-design-skill · 公众号排版技能 把 Markdown 一键排成可直接粘贴进微信公众号编辑器的精致 HTML 6 套精选主题 + 主题生成器 · 代码块/图片/GIF · 自动章节编号与关键词标记 · 双关卡质量校验 一个给 AI Agent（Claude Code / Codex / Cursor 等）用的公众号排版 Skill。你写完 Markdown，它按你选的主题，生成 样式全内联、粘贴到公众号编辑器不掉格式 的 HTML——自动编章节号、标关键词下划线、配引言卡与目录、处理代码块和图片、合并作者签名，并用脚本确定性地兜住公众号平台的各种限制。 - 6 套精选主题 ：摸鱼绿（默认）· 红白 · 石墨极简 · 留白禅意 · 摸鱼票据 · 橄榄手记 —— 每套都是自成体系的厚组件库（设计变量 + 数十个精细组件 + 视觉层级表 + 文章类型配方表）。 - 主题生成器 ：不满足现成主题？用一句话描述或一张参考图，生成一套全新组件库并保存本地复用（见 references/theme-generator.md ）。 - 内容全兼容 ：代码块（深/浅色，等宽不折行）、图片、GIF（带动图角标）、行内代码、引用、列表、产品徽章。 - 智能排版 ：章节自动编号（末章 ∞ / ///）、每段主动标 1–3 个关键词下划线、从正文提炼引言卡与目录、作者签名去重合并。 - 中文全角标点 ：正文自动规范全角，代码块内原样保留。 - 不掉格式 ：所有样式内联、文字 包裹，规避 / /class/grid/position 等公众号会过滤的写法。 - 双关卡质量校验 ： component lint.py （组件库源头）+ validate gzh html.py （最终产物），构成可复现的「改→验→修」闭环。 - 一键复制 ：生成带「复制」按钮的预览页，点一下把富文本复制到剪贴板，直接粘进公众号，免手动全选。 6 套主题各排同一篇长文（真实长图，含配图、引言卡、编号章节、金句、名词旁注等完整组件）： 📚 6 套完整长图 → docs/all-themes.md ｜ 克隆后浏览器打开 docs/gallery/index.html 可看可交互的完整 HTML。 ✅ 适合 ：观点/深度分析 · 教程/操作指南 · 测评/工具盘点 · 知识整理/方法论 · 访谈/人物特稿 · 数据复盘/报告 · 生活/情感随笔 · 案例实战 ——
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, claude-code, codex, cursor, gongzhonghao
+
+---
+
+### 🌟 [telemem](https://github.com/TeleAI-UAGI/telemem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 470
+- **核心概述**: TeleMem 是 Mem0 的高性能替代品，具有语义重复数据删除、长期对话记忆和多模态视频推理功能。
+- **大概是做什么的**: TeleMem：为 Agentic AI 构建长期和多模态内存 如果您觉得这个项目有帮助，请在 GitHub 上给我们一个 ⭐️ 以获取最新更新。 🤝 欢迎投稿！请随意提出问题或提交拉取请求。 📄 Awesome-Agent-Memory → TeleMem 是一个代理内存管理层，只需一行代码即可作为 Mem0 的高性能替代品（ import telemem as mem0 ），针对多轮对话、角色建模、长期信息存储和语义检索等复杂场景进行了深度优化。通过其独特的上下文感知增强机制，TeleMem 为对话式 AI 提供了核心基础设施，从而提供更高的准确性、更快的性能和更强的字符记忆能力。在此基础上，TeleMem 实现了视频理解、多模态推理和视觉问答功能。通过视频帧提取、字幕生成和矢量数据库构建的完整流程，AI 代理可以轻松存储、检索和推理视频内容
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-memory, ai-agents, character-memory, conversational-ai, faiss
+
+---
+
+### 🌟 [AI-company](https://github.com/CronusL-1141/AI-company)
+- **项目语言**: Python
+- **星标数量**: ⭐ 314
+- **核心概述**: Claude Code 的多代理团队操作系统。 108 个 MCP 工具、40 多个代理模板、10 个生命周期挂钩、7 个管道工作流程。持久的团队、结构化会议、任务墙、实时 React 仪表板。没有 LangChain/AutoGen — 纯 CC 原生集成。
+- **大概是做什么的**: 当您停止提示时，您的人工智能编码工具就会停止。我们的没有。 📌 版本说明：此公共存储库维护在 v1.6.2 — 一个稳定的、完全修补的版本（包括安装程序、插件清单和仪表板修复）。主动开发（v1.7.0+：CC ultracode 工作流程可观察性、阶段泳道、仪表板改造等）在私有存储库中继续进行。想要访问新版本吗？联系 gl2980@nyu.edu。 AI Team OS 将 Claude Code 打造成一家自动驾驶 AI 公司��你是主席。 AI是CEO。设定愿景——系统自主执行、学习和发展。其他人工智能工具的问题 每个人工智能编码助手的工作方式都是一样的：你提示，它响应，它停止。当你离开的那一刻，工作就停止了。您返回到空白提示。 AI Team OS 的工作方式有所不同。晚上你走开。第二天早上，你打开笔记本电脑，发现： - 首席执行官检查任务墙，拿起下一个优先级最高的项目，然后发货 - 当它遇到需要你批准的阻碍时，它会停顿该线程并切换到并行工作流 - 研发时代
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-orchestration, ai-agents, autonomous-agents, claude, claude-code
+
+---
+
+### 🌟 [alphora](https://github.com/opencmit/alphora)
+- **项目语言**: Python
+- **星标数量**: ⭐ 347
+- **核心概述**: 用于构建可组合人工智能代理的生产就绪框架
+- **大概是做什么的**: 用于构建可组合 AI 代理的生产就绪框架快速入门 示例 Alphora 是用于构建生产 AI 代理的全栈框架。它提供您所需的一切——代理编排、工具执行、内存管理、安全代码沙箱、技能生态系统、流媒体和部署——所有这些都采用异步优先、OpenAI 兼容的设计。对于并发生产 API，请使用 alphora = 1.3.3（修复了请求范围的配置/沙箱隔离）。 - 反应和计划执行 - 内置推理操作循环，具有自动工具编排、重试逻辑和迭代控制。先计划，后执行。 - 代理派生——子代理通过derive()从父代理继承LLM、内存和配置。网关可以根据请求生成协调器、专家或快速路径代理（请参阅生产参考）。 - 零配置工具 — @tool 装饰器根据类型提示和文档字符串自动生成 OpenAI 函数调用架构。 Pydantic V2 验证、并行执行、实例方法支持。 - 智能内存 — 具有可组合处理器的多会话隔离
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai-agents, llm, multi-agent-systems
+
+---
+
 ## 🕔 2026-07-07 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
