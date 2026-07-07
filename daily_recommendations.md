@@ -1,3 +1,67 @@
+## 🕔 2026-07-07 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xalgorix](https://github.com/xalgord/xalgorix)
+- **项目语言**: Go
+- **星标数量**: ⭐ 693
+- **核心概述**: 自主人工智能渗透测试代理——实时侦察、漏洞检测和漏洞利用编排。 Go + TypeScript。
+- **大概是做什么的**: Xalgorix — AI 自主渗透测试 自托管 AI 渗透测试平台，具有 LLM 驱动的代理、浏览器自动化、22 阶段测试方法、实时 WebSocket 遥测、经过验证的结果和品牌 PDF 报告。内置 Go 和 TypeScript。在您的基础设施上运行 - 不依赖云，数据不会离开您的机器。创建 /.xalgorix.env ：启动仪表板：打开 http://127.0.0.1:9137 。仅在您拥有或具有明确测试权限的系统上使用 Xalgorix。不想自行托管？ www.xalgorix.com 提供完全托管的版本 — 单击即可扫描，无需安装或 API 密钥。 - 从以前的版本升级 - 环境变量 Xalgorix 是一个自托管的 AI 渗透测试平台，用于授权安全测试、漏洞评估和错误赏金工作流程。它结合了 LLM 驱动的自主代理、浏览器自动化、终端工具、全面的 22 阶段测试方法、实时 WebSocket 遥测、带有 CVSS 评分的查找管理、品牌 PDF 报告生成以及 AgentMail、Discord 和 Telegram 的集成。温里
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-security, automation, autonomous-pentesting, bug-bounty, cybersecurity
+
+---
+
+### 🌟 [Vibe-Research](https://github.com/simonlin1212/Vibe-Research)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 432
+- **核心概述**: Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。
+- **大概是做什么的**: Vibe-Research · 个人 AI 投研系统（A股/美股/港股） 🌐 官网 · 产品预览 · 功能 · 数据源 · 快速开始 · 接入 AI · 合规 · 相关生态 · 联系作者 Vibe-Research: Your Personal Trading Research Agent · A股 / 美股 / 港股 的个人投研 Agent。 每日复盘、资讯雷达、个股数据、自选股、板块中心、我的持仓、我的研报、研究记录。把数据和功能配齐，由 你自己的 AI 驱动投资研究。 Vibe-Research 是一个开源的「个人 AI 投研看板」， 主推 A 股、兼看美股 / 港股 （A 股常要看隔夜外围脸色，数据配上更全）。它不替你做决定——把行情、研报、估值、财务、公告、资金面、资讯都配齐，放进一个干净的看板，再留一个能接入 你自己的 AI 的接口。方向和结论，交给你自己配置的模型 / agent。 Vibe-Research: Your Personal Trading Research Agent. An open dashboard for China A-share (plus US / HK): it wires up all the data and plugs into your own AI / agent — it never recommends a stock. You bring the model, it brings the data. 每日复盘 — 大盘 / 短线情绪(连板股 · 成交额 TOP20) / 板块资金一屏看全，一键交给你的 AI 复盘 个股数据 — 财报速览 + 估值分位 + 资金面一屏看穿 资讯雷达 — 12 赛道 108 个公开源，一键提炼今日要点 📊  每& 8288;日& 8288;复& 8288;盘 大盘指数 · 全球市场 （隔夜美股道指 / 标普 / 纳指 + 港股恒指 / 恒生科技）· 关注股票（自选实时行情）· 短线情绪 （连板股 / 最高连板 / 连板梯队 / 封板率 / 炸板率 / 晋级率）· 全市场成交额 TOP20 · 市场情绪（大盘宽度 / 题材投机 / 涨跌停）· 板块资金趋势榜 · 资金轮动 · AI 当日复盘 📡  资& 8288;讯& 8288;雷& 8288;达 12 赛道 108 个公开 RSS 源 · AI 一键提炼「今日要点」· A 股公告 / 公开新闻（挂钩你的关注列表） 🔍  个& 8288;股& 8288;数& 8288;据 A 股 ：行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-stock, ai-agent, dashboard, fastapi, fintech, hk-stocks
+
+---
+
+### 🌟 [open-science](https://github.com/ai4s-research/open-science)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 305
+- **核心概述**: 开放科学——为科学家提供的开放人工智能工作台。 Claude Science 的开源替代方案：本地优先、与模型无关、可重复的 AI 研究桌面（macOS 和 Windows），基于 Tauri + MCP + 代理技能构建。
+- **大概是做什么的**: 为科学家提供的开放式人工智能工作台。您严谨科学的研究合作伙伴。一个开源、本地优先、与模型无关、可重复的人工智能研究工作台——Claude Science 和类似的人工智能科学产品的开放替代品。不是一个聊天框：一个工作台，将文献、代码、图表、报告和审查联系到一个可审核、可重现的工作流程中。 - ✨ 为什么不同 - 🎬 查看实际应用 - 🔌 技能和连接器 - 📦 下载和安装 - 🚀 入门 - 🔒 安全和隐私 - 🗂️ 存储库布局 - 📌 状态和路线图 - 🙏致谢 ✨ 为什么不同 - 工作台，而不是聊天框 — 计划 → 批准 → 执行 → 工件 → 审查。 - 可追踪的工件，而不仅仅是文本——每个图形、表格和报告都链接回其代码、数据、环境以及生成它的对话。 - 本地优先——您的数据和计算保留在您的计算机上；该应用程序清楚地说明了它留下了什么（如果有的话）。 - 与模型无关——通过 OpenRouter、OpenAI 兼容、Anthropic 或本地模型进行 BYOK；免费的开箱即用模型可实现零设置。 - 可复制的 - 代码，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-for-science, ai-scientist, ai4s, claude-science, claude-science-alternative
+
+---
+
+### 🌟 [browser-search](https://github.com/Johell1NS/browser-search)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 319
+- **核心概述**: AI 代理的一项技能：使用 SearXNG 搜索网络，使用 Camofox 浏览，使用 CloakBrowser 绕过保护。精心设计的抗幻觉。自托管、免费、无限制。
+- **大概是做什么的**: AI 代理的一项技能。 OpenCode、Claude Code、Cursor、OpenClaw 等。使用 SearXNG 搜索网络，使用 Camofox 浏览，使用 CloakBrowser 绕过保护。精心设计的抗幻觉。全部自托管、免费、无限制。 English · 简体中文 · Español · 日本语 · 한국어 · Português (巴西) · Français · Deutsch · Русский · Русский · Русский · हिन्दी · Italiano 浏览器搜索是一项技能 — 适用于 OpenCode、Claude Code、Cursor、OpenClaw 等 AI 代理的指令集和其他人。它教您的代理如何使用三个精心设计的开源工具搜索和浏览网络。问题？网络对自动化怀有敌意。 Cloudflare、Akamai、DataDome 和其他反机器人系统会阻止简单的请求。现代网站使用大量 JavaScript、延迟加载和客户端渲染。一个解决方案浏览器搜索将三个开源工具编排成一个专为人工智能代理设计的搜索和浏览系统。每个工具都有其作用，由具有升级逻辑、自动选择和即用型集成的技能精心编排： 1. SearXNG — 用于搜索阶段的元搜索引擎（多源，JSON）2
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, ai-tools, browser-automation, camoufox, cloakbrowser
+
+---
+
+### 🌟 [imixs-workflow](https://github.com/imixs/imixs-workflow)
+- **项目语言**: Java
+- **星标数量**: ⭐ 415
+- **核心概述**: 用于业务流程管理的开源技术
+- **大概是做什么的**: Imixs-Workflow 是一个开源工作流引擎，用于在灵活而强大的框架上构建以人为中心的工作流应用程序。使用业务流程建模符号 - BPMN 2.0，可以快速、轻松且灵活地对业务逻辑进行建模。 Imixs-Workflow 基于 Jarkarta EE 和 Eclipse Microprofile 标准，由于其开放性，适合任何现代微服务架构。 Imixs-Workflow 可以在所有现代应用程序服务器上运行，例如 Wildfly、Payara、Open Liberty 或 Apache TomEE。要关注我们，请通过创建帐户加入 GitHub。您可以通过上面的链接“观看”该项目，或者如果您喜欢该项目，请单击“星标”。您将在项目主页上找到如何使用 Imixs-Workflow 的更多详细信息。 Imixs-Worflow 完全支持 Jakarta EE 9！这意味着您可以在支持 Jakarta EE 9 的每个现代应用程序服务器上运行 Imixs-Workflow。如果您想在 Jakarta EE 8 上运行 Imixs-Workflow，您可以使用版本 5.2。该版本仍然完全支持！ Imixs-BPMN 是一个 Eclipse 建���工具，用于设计基于
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, bpmn, bpmn-engine, bpmn-model, java, javascript
+
+---
+
+### 🌟 [Linghun](https://github.com/linghungegeg/Linghun)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: 面向 AGI、抗幻觉的 AI 编码运行时基于证据、工具、内存、代理和验证。
+- **大概是做什么的**: 把大模型接到真实项目、真实工具、真实权限、真实验证和真实上下文里。 English README · 中文白皮书 · English Whitepaper · 更新记录 · English Updates · App Bridge Linghun 可以理解成：给大模型装上一套工程化外骨骼。模型负责理解、推理和生成；Linghun 负责把模型接到真实项目、真实工具、真实权限、真实验证和真实上下文里。 普通聊天工具可以回答“应该怎么改”。Linghun 更关心另一件事：它有没有真的读过相关代码、有没有真的改对文件、有没有真的跑过验证、有没有把不确定的地方说清楚。 这就是 Linghun 反幻觉系统的价值：不是让模型少说错话那么简单，而是把“读事实、看证据、区分验证范围、拒绝空口完成、说明不确定性”变成运行时约束。模型仍然会推理和生成，但关键工程结论不能只靠模型自信。 Novita x Harbor 榜单记录 Linghun 已完成 Novita x Harbor Agent Benchmark 四个公开 TB2.1 榜单的运行与提交： 榜单 提交时名次 Harbor 记录 File & Recovery 第 2 名 f77879ac-b30f-47bb-8fb1-650108364fc0 Systems & Security 第 1 名 151a5351-bbf9-45c9-ae2f-1f8db1cd0619 Data & Science 第 1 名 dc4a720b-79a5-49dd-b083-6fc40acd1079 Code & Debug 第 3 名 23a26b7f-f1c0-4653-b0c2-4ecc4acae4de 感谢 geek2api 中转站 对 Linghun 开发过程中的支持。geek2api 提供一站式 AI 服务接入能力，无���管理多个订阅账号，即可接入 Claude、GPT、Gemini 等主流 AI 服务。 也感谢 geek2api 中转站各位群友提供的相关思路和思想支持。交流群号： 1104150634 。 - 2026-07-07（当下完美版） ：深度真实开发后的重度更新，反幻觉和各个底座咬合，以及输出更丝滑、更快、更稳，缓存命中率大幅度提升至96%+ 且不傻。深度 compact、命令面板、Provider watchdog、最终回答闸门和任务进度展示继续加固。详见：更新记录。 - 2026-07-05 ：终端底座、任务面板和运行时恢复继续加固，模型输出更快更丝滑；模型回答在反幻觉清洗、证据对齐后再展示，部分场景下清洗后的回答展
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, agi, ai, ai-agent, ai-coding, capability-runtime
+
+---
+
 ## 🕔 2026-07-07 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
