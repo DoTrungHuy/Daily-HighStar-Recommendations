@@ -1,3 +1,67 @@
+## 🕔 2026-07-07 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zenml](https://github.com/zenml-io/zenml)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,475
+- **核心概述**: ZenML 🙏：从管道到代理的一个 AI 平台。 https://zenml.io。
+- **大概是做什么的**: 从管道到代理的一个人工智能平台 [pypi-shield]：https://img.shields.io/pypi/pyversions/zenml?color=281158 [pypi-url]：https://pypi.org/project/zenml/ [pypiversion-shield]：https://img.shields.io/pypi/v/zenml?color=361776 [downloads-shield]： https://img.shields.io/pepy/dt/zenml?color=431D93 [下载网址]：https://pypi.org/project/zenml/ [贡献者屏蔽]：https://img.shields.io/github/contributors/zenml-io/zenml?color=7A3EF4 [贡献者网址]：https://github.com/zenml-io/zenml/graphs/contributors [license-shield]：https://img.shields.io/github/license/zenml-io/zenml?color=9565F6 [license-url]：https://github.com/zenml-io/zenml/blob/main/LICENSE 注册 ZenML Pro • 🎉 有关最新版本，请参阅变更日志。 ZenML 专为在公司环境中处理传统 ML 用例、LLM 工作流程或代理的 ML 或 AI 工程师而构建。从本质上讲，ZenML 允许您编写在任何基础设施后端（堆栈）上运行的工作流程（管道）。您可以在这些管道中嵌入任何 Pythonic 逻辑，例如训练模型或运行代理循环。 ZenML然后操作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentops, agents, ai, automl, data-science, deep-learning
+
+---
+
+### 🌟 [nobodywho](https://github.com/nobodywho-ooo/nobodywho)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,019
+- **核心概述**: NobodyWho 是一个推理引擎，可让您在任何设备上本地高效地运行 LLM。
+- **大概是做什么的**: 适用于任何设备的设备端人工智能。 NobodyWho 是一个推理引擎，可让您在本地高效地运行法学硕士。本地离线运行 — 无需 API 密钥或隐藏费用 运行任何聊天 LLM — Gemma、Qwen、Mistral 等 快速、类型安全的工具调用 — 根据您的函数签名自动生成结构化语法，无需编写模式 多模式输入 — 为您的 LLM 提供图像和音频信息 文本转语音 — 使用 Kokoro 和 Supertonic 后端合成本地 WAV 音频 模型下载 — 直接从 Hugging Face 或任何 URL 加载模型 对话感知先发制人的上下文转换 — 保留完整对话内存，没有任何消息长度限制通过 Vulkan 或 Metal 进行 GPU 加速推理 - 在任何操作系统上快速运行 与数千个预先训练的 LLM 兼容 - 使用 GGUF 格式的任何 LLM 由精彩的 llama.cpp 提供支持 我们支持 Kotlin、Swift、Python、Flutter、React Native 和 Godot。平台安装文档 ---------- ------------- --------------- Kotlin Maven Central docs.nobodywho.ooo/kotlin Swift SPM docs.nobodywho.ooo/swift React Native
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, flutter, godot, godot-engine, godot-plugin, godot4
+
+---
+
+### 🌟 [spool](https://github.com/paperboytm/spool)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 567
+- **核心概述**: 您本地的 AI 会话库。浏览、固定和 ⌘K 搜索每个 Claude Code、Codex、Gemini 和 OpenCode 会话，并让内置扫描器捕获泄露的秘密。本地优先，没有任何东西离开你的机器。
+- **大概是做什么的**: 您本地的 AI 会话库。 Spool 将您曾经使用过的每个 Claude Code、Codex CLI、Gemini CLI 和 OpenCode 会话收集到项目的侧栏中，您可以浏览、固定和重新访问。按 ⌘K 搜索整个档案。早期。线轴正在积极开发中——预计会有粗糙的边缘。非常欢迎通过 Issues 或 Discord 提供反馈、错误报告和想法。或者直接从发布页面获取预构建的 DMG (macOS arm64) / AppImage (Linux x86 64)。或者从源代码构建：Spool 将磁盘上的一堆 AI 会话转变为可浏览的库。 - 库 shell — 项目侧边栏（源自跨代理的工作目录路径）和主窗格，显示您选择的任何内容的最近 + 固定会话 - 会话索引 — 实时监视 Claude/Codex/Gemini 会话目录和 OpenCode 的 SQLite 数据库，包括基于配置文件的路径，如 /.claude-profiles/ /projects 、 /.codex-profiles/ /sessions 、/.gemini/tmp/ 下的 Gemini 项目临时目录/chats 和 /.local/share/opencode/opencode.db - Pin — 将重要会话保留在其项目之上，并
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, codex-cli, developer-tools, electron
+
+---
+
+### 🌟 [skills](https://github.com/AI-Builder-Club/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 781
+- **核心概述**: 代码库线束+循环工程师
+- **大概是做什么的**: AI Builder Club — 技能 这是我们在构建循环工程师中分享的技能的 Claude Code 插件市场：代理自行触发、接收工作、发送工作、验证工作并记录他们学到的内容，因此工作会在您不提示每一步的情况下复合。这是我的团队在生产中运行的设置的产品化版本。两个旗舰技能集（更多）： - 代码库利用 - 使任何存储库代理做好准备（运行、测试、验证、发布 - 包括每个代理一个独立的云盒，以便并行循环发布代码）。 - 循环 — 在基于文件的共享知识库上启动复合代理循环。加上独立的实用技能： - 视觉流 GIF — 将文章、工作流程或架构转换为静态 PNG + 动画 GIF 流程图（JSON 规范 → 本地 Python/Pillow 渲染器）。循环工程师和代码库利用转变：您不再逐个任务提示编码代理，而是开始设计循环。循环是一个代理，它在触发器（cron、webhook、事件、另一个代理）上唤醒，进行一些调查和工作，并将其发现和执行的内容写入共享文件中 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, ai-agents, claude, claude-code, developer-tools
+
+---
+
+### 🌟 [trainer](https://github.com/kubeflow/trainer)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,129
+- **核心概述**: Kubernetes 上的分布式 AI 模型训练和 LLM 微调
+- **大概是做什么的**: - [2026/03] Kubeflow Trainer v2.2 正式发布，支持 JAX 和 XGBoost 训练运行时、通过指标传播到 TrainJob 状态增强可观测性，以及针对 HPC 和 MPI 工作负载的 Flux 框架集成。查看博客文章公告。 - [2025/11] Kubeflow Trainer v2.1 正式发布，支持分布式数据缓存、Kueue 和 Volcano 的拓扑感知调度以及 LLM 训练后增强功能。查看 GitHub 发行说明。 - [2025/09] Kubeflow SDK v0.1 正式发布，支持 CustomTrainer、BuiltinTrainer 和本地 PyTorch 执行。查看 GitHub 发行说明。 - [2025/07] Kubernetes 上的 PyTorch：Kubeflow Trainer 加入 PyTorch 生态系统。在 PyTorch 博客文章中查找该公告。 - [2025/07] Kubeflow Trainer v2.0 已正式发布。查看博客文章公告和 - [2025/04] 从高性能计算到 Kubernetes 上的 AI 工作负载：Kubeflow TrainJob 中的 MPI 运行时。请参阅 KubeCon + CloudNativeCon 伦敦演讲 Kubeflow Trainer 是 Kubernetes 原生发行版
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, distributed, fine-tuning, gpu, huggingface, jax
+
+---
+
+### 🌟 [golembot](https://github.com/0xranx/golembot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 307
+- **核心概述**: 任何代理 × 任何提供商 × 任何地方。将 Cursor、Claude Code、OpenCode 或 Codex 连接到 Slack、Telegram、Discord、飞书、钉钉、WeCom、微信 — 与任何 LLM 提供商。
+- **大概是做什么的**: 任何代理 × 任何提供商 × 任何地方 兼容 13,000 多种 OpenClaw 社区技能 - 最大的 AI 代理技能生态系统。一个命令即可搜索和安装。 📖 文档和指南 → 0xranx.github.io/golembot 将您的编码代理连接到 Telegram & Discord Cursor、Claude Code、OpenCode、Codex 的一个命令 — 这些编码代理已经可以编写代码、运行脚本、分析数据并推理复杂的任务。但它们被困在 IDE 或终端窗口中。 GolemBot 给了他们一个身体。一条命令将您的 Coding Agent 连接到 Slack、Telegram、Discord、飞书、钉钉、WeCom、WeChat 或任何 HTTP 客户端（通过任何 LLM 提供商）。通过 OpenRouter 路由 Claude 代码，在 MiniMax 上运行 Codex，或将 OpenCode 指向 DeepSeek — 一个配置块，零代码更改。编写自定义适配器来插入电子邮件、GitHub 问题或任何其他消息源。或者用 5 行代码嵌入到您自己的产品中。没有人工智能框架，没有即时工程——你已经拥有的代理就是大脑。在 IM 上随处运行您的编码代理 — 您团队的 24/7 AI 队友您的同事 @ c 组中的机器人
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-assistant, bot-framework, chatbot, claude-code
+
+---
+
 ## 🕔 2026-07-07 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 155 个候选项目中筛选出 6 个未推荐过的新项目。
