@@ -1,3 +1,67 @@
+## 🕔 2026-07-08 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,207
+- **核心概述**: 审核和重写内容以消除人工智能写作模式的技能。将其与您最喜欢的代理一起使用，包括 Claude Code、OpenClaw 和 Hermes。
+- **大概是做什么的**: 审核和重写内容以消除人工智能写作模式。对于任何人工智能代理来说都是一项实用技能。支持仅检测和就地编辑模式以及语音配置文件。适用于 Claude Code、OpenClaw、Hermes 和任何其他与agentskills.io 兼容的代理的便携式编写技能。审核并重写内容以消除人工智能写作模式（“人工智能主义”）。 - 重写（默认）— 标记 AI 模式并重写文本来修复它们。内置的第二遍捕获在第一次编辑中幸存���来的模式。 - 检测 — 标记 AI 模式而无需重写。显示哪些标志是真正的问题，哪些是判断调用。当模式可能是故意的、审核您不希望更改的内容时或者您只想快速扫描时，这很有用。 - 编辑 — 通过最少的、有针对性的更改就地编辑文件（通过编辑工具），保留已经包含的段落。返回经过编辑+验证的报告，而不是完整文件。可选的语音��置文件（休闲/专业/技术/温暖/生硬）设置散文的听起来如何，独立于观众的上下文配置文件。当然！ Acme Analytics，一家充满活力的初创公司
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-writing, claude, claude-code, llm, prompt-engineering, skill
+
+---
+
+### 🌟 [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,994
+- **核心概述**: UI 通过 MCP。使用协议和 SDK 创建下一代 UI 体验！
+- **大概是做什么的**: 📦 模型上下文协议 UI SDK mcp-ui 开创了 MCP 上交互式 UI 的概念，为 AI 工具提供了丰富的 Web 界面。除了 Apps SDK 之外，此处开发的模式也直接影响了 MCP Apps 规范，该规范通过协议标准化了 UI 交付。 @mcp-ui/ 包实现了 MCP Apps 标准。 @mcp-ui/client 是推荐用于 MCP 应用程序主机的 SDK。 @mcp-ui/ 包完全符合 MCP 应用程序规范，可供生产使用。 mcp-ui 是一个 SDK，通过 MCP 实现 UI 的 MCP Apps 标准。它提供： @mcp-ui/server (TypeScript) ：使用 createUIResource 创建 UI 资源。与@modelcontextprotocol/ext-apps/server 中的registerAppTool 和registerAppResource 一起使用。 @mcp-ui/client (TypeScript) ：使用 AppRenderer（MCP 应用程序）或 UIResourceRenderer（旧版 MCP-UI 主机）渲染工具 UI。 mcp ui server (Ruby)：在 Ruby 中创建 UI 资源。 mcp-ui-server (Python) ：在 Python 中创建 UI 资源。 MCP 应用程序模式通过 meta.ui.resourceUri 将���具链接到其 UI。主机获取并渲染 UI 以及工具结果。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, frontend, llm, mcp, ui, web
+
+---
+
+### 🌟 [nimbalyst](https://github.com/nimbalyst/nimbalyst)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,095
+- **核心概述**: Nimbalyst - Claude Code、Codex 和 OpenCode 的开源可视化工作区。并行运行多个编码代理，在 Markdown、模型和图表中直观地编辑其工作，并跟踪任务。适用于 macOS、Windows、Linux 的免费、麻省理工学院许可的桌面应用程序，以及适用于 iOS 和 Android 的移动伴侣。
+- **大概是做什么的**: Nimbalyst 是用于使用 Codex 和 Claude Code 进行构建的可视化工作区 Nimbalyst 是一款免费、开源、本地、交互式可视化编辑器和会话/任务管理器，适用于开发人员、产品经理、设计师、构建人员。 - 通过在集成文件、会话和任务上进行可视化协作，利用 Codex、Claude Code、Opencode (alpha)、Copilot (alpha) 最大限度地提高速度、带宽和上下文 - 使用 Markdown、模型、图表、csv、Excalidraw、数据模型和代码中的编码代理进行可视化迭代。以红/绿所见即所得方式批准编码代理的更改、编辑、注释。 - 并��和在看板中管理多个会话。搜索、恢复、链接会话到文件以及文件到会话。对于开发人员，我们包括 git 管理、AI 提交、工作流、工作树和终端。 - 管理任务。跟踪您的计划、错误、待办事项等。让代理编辑任务和项目、添加它们、移动它们并执行它们。人类也可以看到并编辑它。 - 延长宁巴力士。构建您自己的自定义编辑器和可视化界面，与 Nimbalyst 的其余部分和您的代理集成。 - 移动应用程序。开始，米
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, claude-code, codex, coding-agent, developer-tools
+
+---
+
+### 🌟 [astrbot_plugin_qq_group_daily_analysis](https://github.com/SXP-Simon/astrbot_plugin_qq_group_daily_analysis)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 406
+- **核心概述**: [多平台接入开发中] ✨ 群日常分析总结插件 - 生成精美的群聊分析报告，支持话题分析、用户形象、群聊圣经等功能；支持 QQ (OneBot)、Telegram、Discord
+- **大概是做什么的**: ✨ 一个基于 AstrBot 的智能群聊分析插件，支持 QQ (OneBot) 、 Telegram 、 Discord ，未来支持更多平台。 灵感来源。 ✨ - 统计数据 : 全面的群聊活跃度和参与度统计 - 话题分析 : 使用LLM智能提取群聊中的热门话题和讨论要点 - 用户画像 : 基于聊天行为分析用户特征，分配个性化称号 - 圣经识别 : 自动筛选出群聊中的精彩发言 - 多种格式 : 支持图片和文本输出格式 - 精美图片 : 生成美观的可视化报告 - HTML报告 : 生成清晰的HTML格式分析报告，可以进一步配置为外链形式发送 - QQ群 : 支持上传到群相册和群文件，查阅黑历史友好 - 详细数据 : 包含消息统计、时间分布、关键词、金句等 - 多平台支持功能尚在开发中，当前仅支持QQ OneBot, Discord, Telegram。 - 旧版本稳定版在QQ 分支，仅 QQ 平台支持 如果机器人无法获取群列表或分析报 403 Forbidden ，请检查 Discord 开发者面板中： 1. Privileged Gateway Intents : 开启 Message Content Intent 。 2. 频道权限 : 确保机器人所在的频道，对应的角色拥有 “查看消息历史记录” 权限。 1. 如果 TG Bot 不是群管理员，务必在拉入群前先关闭 BotFather 隐私模式。 2. 如果 Bot 已经在群里且不是管理员，关闭隐私模式后必须先移除再重新拉入群，否则新设置不会生效。 注：群聊隐私模式关闭流程： @BotFather →左下角Open��选择要调整的bot→Bot Settings→将 Group Privacy 关闭 如果生成图片失败，日志显示 渲染策略 ... 返回了无效或空数据 、 Endpoint ... failed 等并回退到文本总结，通常是因为日报内容过大导致 T2I 渲染超时（默认 30s 左右）。 插件现支持 两轮渲染策略 ，可在配置面板的 图片渲染策略 ( t2i rendering ) 分组中按需调整： - 增加超时时间 ：若日报极其复杂（包含大量内联 CSS/JS/图表），请将 渲染超时 (ms) 调大。建议范围：30,000ms - 180,000ms (3 分钟)。 - 优化回退策略 ：建议第一轮使用 png + ultra 追求极致清晰；第二轮作为回退，建议使用 jpeg + high/normal 分辨率并配合更长的超时时间，以确保即使在资源受限的情况下也能产出报告。 若配置调整后渲染仍频繁失败，可尝试
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: analyze, astrbot-plugin, discord, llm, qq, summary
+
+---
+
+### 🌟 [bugbug](https://github.com/mozilla/bugbug)
+- **项目语言**: Python
+- **星标数量**: ⭐ 567
+- **核心概述**: 软件工程机器学习项目平台
+- **大概是做什么的**: Bugbug 旨在利用机器学习技术来帮助进行错误和质量管理以及其他软件工程任务（例如测试选择和缺陷预测）。在 bugbug Matrix 房间与我们聊天。有关 Mozilla Hacks 博客的更多信息： - https://hacks.mozilla.org/2020/07/testing-firefox-more-efficiently-with-machine-learning/ - https://hacks.mozilla.org/2019/04/teaching-machines-to-triage-firefox-bugs/ BugBug 生成的用于训练模型的数据可以独立于 BugBug 使用。有关详细信息，请参阅文档。 - 受让人 - 该分类器的目的是为错误建议合适��受让人。 - 撤销 - 该分类器的目的是检测更有可能被撤销的补丁（由于构建或测试失败）。它可用于测试优先级/调度目的。 - bugtype - 该分类器的目的是根据 bug 的类型对其进行分类。标签是从错误中自动收集的：现在它们是“崩溃/内存/性能/安全”。计划是在手动标记后添加更多类型。 - 组成部分 - 目标
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, developer-tools, llm, machine-learning, ml, python
+
+---
+
+### 🌟 [flint-chart](https://github.com/microsoft/flint-chart)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 353
+- **核心概述**: 🪄 Flint 是一种可视化语言，可让 AI 代理根据简单的、人工可编辑的图表规范可靠地创建富有表现力、美观的图表。
+- **大概是做什么的**: Flint：AI 时代的可视化语言 请访问：Flint 项目网站 MCP 服务器指南 Flint 是一种可视化中间语言，可让 AI 代理根据简单的、人工可编辑的图表规范创建富有表现力、精美的可视化效果。 Flint 编译器不会要求代理或开发人员调整详细的图表配置细节（例如比例、轴、间距、标签和布局），而是从数据、语义类型、图表类型和编码中导出优化的图表设置。结果是一个紧凑的图表规范，代理可以可靠地生成，人们可以直接编辑，并且多个后端可以呈现为本机。此存储库包含两个主要组件： - flint-chart：一个 JavaScript/TypeScript 库，可将相同的 Flint 输入编译为 Vega-Lite、ECharts 或 Chart.js 规范。 - flint-chart-mcp ：一个 MCP 服务器，允许代理直接从聊天或编码环境创建、验证和渲染图表。 - 语义图表规范。 Flint 使用 70 多种语义类型（例如 Rank 、Temperature 、 Price 或 Country ）捕获每个字段的含义。 - 自动布局。燧石
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, charting-library, data-visualization, mcp-server
+
+---
+
 ## 🕔 2026-07-07 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 115 个候选项目中筛选出 6 个未推荐过的新项目。
