@@ -1,3 +1,67 @@
+## 🕔 2026-07-08 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-review](https://github.com/Nikita-Filonov/ai-review)
+- **项目语言**: Python
+- **星标数量**: ⭐ 508
+- **核心概述**: 🚀 适用于 GitHub、GitLab、Bitbucket Cloud、Bitbucket Server、Azure DevOps 和 Gitea 的人工智能代码审查工具 — 使用 OpenAI、Claude、Gemini、Ollama、Bedrock、OpenRouter 和 Azure OpenAI 等法学硕士构建
+- **大概是做什么的**: 人工智能驱动的代码审查工具。由 @NikitaFilonov ❤️ 制作 ❤️ 支持 AI Review 如果 AI Review 可以帮助您减少 Pull 请求中的噪音并节省代码审查时间，请考虑支持其 您的支持有助于： - 提高审查准确性并减少误报 - 扩展集成（GitHub、GitLab、Azure DevOps 等） - 开发新功能并维护项目 👉 https://boosty.to/ai review 📑 目录 - ⚙️ ️CI/CD 集成 - ⚠️ 隐私和责任声明 AI Review 是一种开发人员工具，可将 AI 支持的代码审查直接带入您的工作流程。它可以帮助团队提高代码质量、加强一致性并加快审查过程。 - 多个 LLM 提供商 — 在 OpenAI 、 Claude 、 Gemini 、 Ollama 、 Bedrock 、 OpenRouter 或 Azure OpenAI 之间进行选择，并随时切换。 - VCS 集成 — 与 GitLab、GitHub、Bitbucket Cloud、Bitbucket Server、Azure DevOps 和 Gitea 开箱即用。 - 可定制的提示——调整内联、上下文和摘要审查，以符合您团队的编码指南。 - 代理模式 — 迭代式 ReAct 式循环，其中模式
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-code-review, ai-code-reviewer, ai-review, bitbucket, claude
+
+---
+
+### 🌟 [Automodel](https://github.com/NVIDIA-NeMo/Automodel)
+- **项目语言**: Python
+- **星标数量**: ⭐ 690
+- **核心概述**: 🚀 Pytorch 用于 LLM/VLM 的分布式本机训练库，支持 OOTB Hugging Face
+- **大概是做什么的**: 📖 文档 • 🔥 即用型食谱 • 💡 示例 • 模型覆盖范围 • 性能 • 🤝 贡献 📣 新闻和讨论 - [06/27/2026] NeMo AutoModel 中的推测性解码 端到端训练目标对齐的绘图器：EAGLE-1/2/3、P-EAGLE、DFlash 和 DeepSeek 新发布的 DSpark。非常感谢@Khazic 提供的推测解码堆栈和@kashif 提供的 DSpark 支持。 - [06/21/2026] GLM-5.2 我们现在支持使用 IndexShare DSA、可选的 TileLang 稀疏内核和长上下文 CP 配方对 zai-org/GLM-5.2 进行微调。查看我们的 32K 长上下文配方和模型覆盖页面。 - [06/15/2026] DiffusionGemma 我们现在支持微调 google/diffusiongemma-26B-A4B-it 模型。查看我们的食谱和指南。 - [06/12/2026] MiniMax M3 我们现在支持微调 MiniMax 的 MiniMax-M3。查看我们的食谱和指南。 - [06/04/2026] Nemotron-3 Ultra 我们现在支持微调 NVIDIA 的 Nemotron 3 Ultra 550B A55B。查看我们的食谱和指南。 - [06/03/2026] Gemma 4 12B 我们现在支持微调密集的 google/gemma-4-12B 模型。看看我们的食谱。 - [05/27/2026] 步骤 3.7-Flas
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, deepseek-v3-2, deepseek-v4, finetuning, gemma3, gemma4
+
+---
+
+### 🌟 [hoop](https://github.com/hoophq/hoop)
+- **项目语言**: Go
+- **星标数量**: ⭐ 749
+- **核心概述**: 每个协议前面都有一个网关。跨 MCP、LLM、数据库和容器的政策相同。线级执行速度低于 5 毫秒。
+- **大概是做什么的**: 新 · 用户 MCP 服务器 — AI 编码代理如何安全地获取生产访问权限。了解更多 → 您的团队和基础设施之间的一个网关。 hoop.dev 是第 7 层网关，可在任何内容到达您的基础设施之前屏蔽敏感数据、阻止危险命令、批准有风险的写入并内联记录每个会话。工程师 · AI 代理 · MCP 客户端 · 服务 · 支持/QA 开源。由纽约证券交易所上市公司使用。 5,000 多个数据库受到保护。 hoop 是一个开源第 7 层网关，位于用户（工程师、AI 代理、服务帐户）和基础设施（数据库、Kubernetes 集群、服务器、API）之间。每个查询和命令都在有线协议级别传递，网关可以： - 屏蔽响应中的敏感数据 - ML 支持的分类，而不是正则表达式模式匹配，在字节离开网关之前应用。 - 在危险命令执行前阻止它们 — DROP TABLE 、 rm -rf 、 DELETE without WHERE ，可按角色和后端进行配置。 - 有风险的操作需要人工批准 - Slack 或 Teams 工作流程，有时间限制，完整记录。 - 记录每一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, databases, grpc, llm, mcp, proxy
+
+---
+
+### 🌟 [agent-prism](https://github.com/evilmartians/agent-prism)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 369
+- **核心概述**: 用于可视化 AI 代理痕迹的 React 组件
+- **大概是做什么的**: AgentPrism 是一个 React 组件的开源库，用于可视化 AI 代理的痕迹。代理跟踪包含有关代理在每个计划、操作和重试中的行为的完美信息。但这些信息会在 JSON 的海洋中丢失。使用 AgentPrism 将痕迹转化为清晰、可视化的图表，以调试 AI 代理。插入 OpenTelemetry 数据并查看代理的流程展开：在分层时间线中显示 LLM 调用、工具执行和代理工作流程。 ⚠️ Alpha 版本：该库正在积极开发中。 API 可能会发生变化。阅读这篇文章了解更多 AgentPrism 信息和推荐。在 agent-prism.evilmartians.io 上实时尝试 AgentPrism — 可视化和调试您自己的代理跟踪。 https://github.com/user-attachments/assets/69e592e2-b67c-4ebc-b301-2d8b73492e0dstorybook.agent-prism.evilmartians.io 将 UI 组件复制到您的项目： 安装数据和类型包： 安装所需的 UI 依赖项： 最简单的入门方法是使用 TraceViewer 组件，它提供完整的跟踪可视化界面： TraceViewer 包括： - Trace
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-monitoring, component-library, developer-tools, distributed-tracing, generative-ai
+
+---
+
+### 🌟 [generative-ai-cdk-constructs](https://github.com/awslabs/generative-ai-cdk-constructs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 541
+- **核心概述**: AWS Generative AI CDK 构造是针对常见生成 AI 模式的 AWS CDK 的示例实现。
+- **大概是做什么的**: AWS Generative AI CDK 构造 所有类都正在积极开发中，并且可能会在任何未来版本中进行非向后兼容的更改或删除。这些不受语义版本控制模型的约束。这意味着虽然您可以使用它们，但在升级到此软件包的较新版本时可能需要更新源代码。 - 设计指南和开发指南 - 其他资源 - 操作指标集合 AWS Generative AI Constructs Library 是 AWS 云开发套件 (AWS CDK) 的开源扩展，它提供多服务、架构良好的模式，用于在代码中快速定义解决方案，以创建可预测和可重复的基础设施（称为构造）。 AWS Generative AI CDK Constructs 的目标是帮助开发人员使用基于模式的架构定义来构建生成 AI 解决方案。 AWS Generative AI CDK 构造中定义的模式是 AWS CDK 构造的高级多服务抽象，这些构造具有基于架构良好的最佳实践的默认配置。图书馆分为以下几部分：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, amazon-bedrock, appsync, aws, aws-cdk, content-generation
+
+---
+
+### 🌟 [gobii-platform](https://github.com/gobii-ai/gobii-platform)
+- **项目语言**: Python
+- **星标数量**: ⭐ 471
+- **核心概述**: 您易于使用、始终在线的 AI 劳动力👾
+- **大概是做什么的**: 为有实际工作要做的团队提供人工智能同事。该存储库包含用于自托管和开发的开源Gobii平台。正在寻找托管产品？从戈壁AI同事开始。 Gobii 是一个人工智能同事平台，用于在生产中运行持久的自主代理。托管的Gobii产品可在gobii.ai获取；该存储库包含用于自托管部署和开发的开源平台。每个代理都可以连续运行���从计划和事件中唤醒、使用真实的浏览器、调用外部系统以及与其他代理协调。每个代理也可以像 AI 同事一样进行联系：为其分配一个身份、发送电子邮件或发短信，然后它就可以 24/7 持续工作。如果您正在单个设备上优化本地优先的个人助理用户体验，那么有一些出色的项目可以实现。 Gobii 针对不同的问题进行了优化：为团队和企业提供可靠、安全、始终在线的代理操作。 Gobii 代理演示正在运行 大多数寻找 Gobii Cloud 的用户应该从 gobii.ai 开始。当您想要自行托管或针对开源 Go 进行开发时，请使用此安装路径
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, anthropic, automation, deepseek, docker
+
+---
+
 ## 🕔 2026-07-08 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
