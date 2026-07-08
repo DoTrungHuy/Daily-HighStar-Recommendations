@@ -1,3 +1,67 @@
+## 🕔 2026-07-08 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 179 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [UFO](https://github.com/microsoft/UFO)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,270
+- **核心概述**: UFO³：编织数字特工银河
+- **大概是做什么的**: UFO3：将数字代理 Galaxy 从单设备代理编织到多设备 Galaxy 📖 完整文档 UFO3 多设备代理 Galaxy - 🔗 跨设备协作工作流程 - 📊 复杂的多步骤自动化 - 🎯 基于 DAG 的任务编排 - 🌍 异构平台集成 - 星座：任务分解为可执行 DAG - 动态 DAG 编辑以实现自适应工作流程演进 - 具有并行任务协调的异步执行 - 统一 AIP用于安全代理通信的协议 📖 Galaxy 文档 → 📖 Galaxy 快速入门 → ⭐ 在线文档 UFO² Desktop AgentOS 稳定且久经考验 - 💻 单一 Windows 自动化 - ⚡ 快速任务执行 - 🎓 学习代理基础知识 - 🛠️ 简单的工作流程 - 深度 Windows 操作系统集成 - 混合 GUI + API 操作 - 经过验证的可靠性 - 可用作 Galaxy 设备代理 📖 UFO² 文档 → 🎬 查看 UFO³ Galaxy 的实际应用 观看 UFO³ Galaxy 如何跨多个设备编排复杂的工作流程： 🎥 点击观看：使用 UFO³ Galaxy 进行跨设备任务编排 🌟 UFO³ 有哪些新增功能？ 🚀 UFO³ = Galaxy（多设备 Orche
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, automation, copilot, gui, llm, windows
+
+---
+
+### 🌟 [SwanLab](https://github.com/SwanHubX/SwanLab)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,039
+- **核心概述**: ⚡️SwanLab - 一款开源、现代设计的人工智能训练跟踪和可视化工具。支持云/自托管使用。与 PyTorch / Transformers / verl / LLaMA Factory / ms-swift / Ultralytics / MMEngine / Keras 等集成。
+- **大概是做什么的**: 面向模型训练团队，与50+主流框架集成，与你的实验代码轻松结合 🔥SwanLab 在线版 · 📃 文档 · 报告问题 · 建议反馈 · 更新日志 · 基线社区 · SKILL 中文 / English / 日本语 / Русский - 2026.06.16: 🔥 新增 HTML 图表，支持嵌入LLM Vibe Coding 生成页面；Kubenetes 部署 Prometheus + Grafana 方案 上线； - 2026.06.05: ⚡️ 重构版 SDK （v0.8.0）上线，大幅提升了指标记录性能，配合大规模训练体验更佳； SwanLab CLI 与 Skill 上线，面向 AutoResearch范式； - 2026.05.18：📒 日志支持 全局筛选 ，快速在全局找到你需要的日志片段；新增 图表复制 功能；图表搜索上线 历史记录 功能；图表详情新增 相对时间 显示； - 2026.04.28：🪨 项目置顶 上线，将团队最关心的项目卡片放到最显眼的位置；优化了在Hover折线图时指标看板的显示效果； - 2026.03.25：📊 实验置顶 上线，一键将最好的实验固定在到最好找的位置； Baseline 对比功能上线，支持将实验们和baseline对比并显示差异百分比，加速找到最佳参数组合； https://github.com/user-attachments/assets/964380e0-feb2-480d-b1ca-eba1be239ebb - 2026.03.19：📊 新增 实验复制 功能，支持将创建实验副本到不同项目、团队下； parallel 模式上线，支持在不同进程同时记录指标到同一实验下；实验ID现在可以自定义了； - 2026.02.06: 🔥 swanlab.Api 已正式上线，提供更强大的、面向对象式的开放API接口，文档；ECharts.Table支持CSV下载；现在支持将图表一键置于分组首位了； - 2026.01.28：⚡️ LightningBoard V2 上线，进一步提升仪表盘性能； - 2026.01.16：⚡️ LightningBoard（闪电看板）V1 现已上线，专为超大图表数量级场景打造；新增 图表嵌入链接 ，现在可以把你的图表嵌入到在线文档当中（如Notion、飞书云文档等）； - 2026.01.02：🥳 新增对 AMD ROCm 与 天数智芯Iluvatar GPU 的硬件监控支持；SDK增加心跳包特性，实现更稳健的端云连接； - 2025.12.15：🎉 SwanLab Kub
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-infra, data-science, deep-learning, llm, logging, machine-learning
+
+---
+
+### 🌟 [Hexabot](https://github.com/hexabot-ai/Hexabot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,041
+- **核心概述**: Hexabot v3 是一种 AI 工作流程自动化平台，将工作流程、操作、代理和对话通道结合在一个运行时中。
+- **大概是做什么的**: 自动化无聊，保持魔力 Hexabot v3 是一个自动化平台，具有一流的 AI 功能，将工作流程、操作和对话通道结合在一个运行时中。 - 一个包管理器（npm、pnpm、yarn或bun） - Docker（可选，适用于基于Docker的服务）此快速入门针对使用CLI生成的项目。如果您正在为 Hexabot monorepo 本身做出贡献，请使用 PNPM（请参阅 CONTRIBUTING.md）。或者在没有全局安装的情况下运行 CLI： 2) 创建并运行项目 没有全局安装？使用 npx 等效项：hexabot create 自动检测您的包管理器。您可以使用 --pm 强制执行此操作，例如：hexabot 创建提示输入初始管理员凭据并需要交互式终端 (TTY)。在 CI/非交互式 shell 中，首先从本地终端运行它。默认本地端点： - 管理 UI：http://localhost:3000 - API：http://localhost:3000/api - API 文档（非生产）：http://localhost:3000/docs 有用的 CLI 命令： - hexabot dev [--docker --services ] - hexabot start [--docker --services ] - hexabot migrate [args...] 有关完整的 CLI 详细信息，请参阅packages/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agents, ai, ai-automation, artificial-intelligence
+
+---
+
+### 🌟 [compose-skill](https://github.com/aldefy/compose-skill)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 526
+- **核心概述**: Jetpack Compose Agent Skill — AI 支持的编码指导，带有实际的 androidx/androidx 源代码收据。适用于 Claude Code、Codex CLI、Gemini CLI、Cursor、Copilot、Windsurf 等。
+- **大概是做什么的**: 让您的 AI 编码工具真正理解 Compose — Android、桌面、iOS 和 Web。由 androidx/androidx 和 compose-multiplatform-core 的真实源代码支持 - 而不是 vibes。该技能作为插件分发。请参阅 docs/INSTALL.md 了解每个主机的说明： - Claude Code：/pluginmarketplace add aldefy/compose-skill → /plugin install compose-expert - Copilot CLI：copilot 插件安装 aldefy/compose-skill - Codex CLI：手动安装 — 请参阅 INSTALL.md。已经手动安装了？请参阅 docs/MIGRATION.md ���新版本作为 GitHub 版本发布，并附有迁移说明。运行 /plugin update (Claude Code) 或 copilot plugin update aldefy/compose-skill (Copilot) 来获取它们。 AI 编码工具生成的 Compose 代码可以编译，但细节错误。错误的记忆用法、不稳定的重组、损坏的修饰符顺序、已弃用的导航模式、不存在的幻觉 API。他们猜测行为而不是了解行为。这项技能通过为您的 AI 助手提供两件事来解决这个问题： 1. 24 个参考指南，涵盖每个主要的 Compose 主题 - 包括 Compos
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, ai-coding, android, androidx, claude-code
+
+---
+
+### 🌟 [comfyui-mcp](https://github.com/artokun/comfyui-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: ComfyUI 的本地优先、代理本机控制平面 — MCP 服务器 + Claude Code 插件。 108 个工具，29 个 AI 技能（Flux·WAN·LT2.3·Qwen·Ideogram4·Krea2）。创作和运行工作流程、用自然语言编辑实时图表、管理模型和自定义节点。本地、LAN、VPS 或舒适云。
+- **大概是做什么的**: comfyui-mcp — 使用任何 LLM 驱动 ComfyUI ComfyUI 的本地优先、代理本机控制平面 — 一个 MCP 服务器 + 实时侧边栏代理，可生成图像、视频和音频，创作和运行工作流程，管理模型和自定义节点，并以自然语言编辑实时 ComfyUI 图形。带上您拥有的任何模型：订阅中的 Claude 或 ChatGPT、Google 登录中的 Gemini、通过 Ollama 的免费本地模型（完全离线），或通过一个 API 密钥的任何托管模型（DeepSeek、GLM、MiMo、Kimi、GPT、通过 OpenRouter 的 Claude）。相同的工具、相同的面板、每一层 - 内置的 LLM Arena 在真正的 ComfyUI 任务上对它们进行评分，以便您确切地知道您的模型可以做什么。一种配置针对本地安装、LAN、VPS 或 Comfy Cloud。   一键式 GPU pod — 一个可立即运行的 ComfyUI，此项目 + 代理面板 + 预安装在您自己的 GPU 上的 ComfyUI-Manager v2。无需设置。适用于 macOS、Linux 和 Windows。自动检测您的 ComfyUI 安装和端口。 108 个 MCP 工具 32 个 AI 技能（Flux · WAN · LTX 2.3 视频 · Qwen · Z-Image · Ideogram 4 · ERNIE · ANIMA · 模型注册表 · Civitai ·
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agent, claude-code, claude-plugin, claude-skills, comfyui
+
+---
+
+### 🌟 [GOD](https://github.com/XiaoLuoLYG/GOD)
+- **项目语言**: Python
+- **星标数量**: ⭐ 919
+- **核心概述**: 治理、观察、指导——特工社团的实时控制室
+- **大概是做什么的**:  上帝 · 统治 · 观察 · 直接 🌩️ 对于一座特工城镇来说，就像神一样。暂停时间。对一个灵魂低语。下一步弯曲。重置世界——只需单击一下即可。 ▶ 尝试浏览器重放  ·  无需安装，无需 API 密钥  ·  内置实验 · 大多数特工协会演示都可以让您观看模拟比赛。上帝给了你控制权。重播一次运行，询问任何居民，改变接下来发生的事情，并导出其他人可以重新运行的包，所有这些都在一个屏幕上进行。它是为了检查语言代理社会而建立的，而不是为了声称它们是社会现实的。 - 2026-06-11 · v0.2.0：带有浏览器重播的公共站点；实验/地图/代理包中心和 ZIP 导入导出； Windows 启动器；强化首次运行启动。 - 2026-06-06 · 站点和包：重建公共站点和前端；通过发布资产交付的站点包；地图包预览页面。 ( 61 62 63) - 2026-06-01 · 便携包：统一实验包下载； GOD包导入/导出；策划的实验库。 - 2026-05-30 · Windows 启动器和集线器：god.cmd start 与 macOS/Linux 流程匹配； AgentPack 集线器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-control-room, agent-society, ai-agents, generative-agents, human-in-the-loop
+
+---
+
 ## 🕔 2026-07-08 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
