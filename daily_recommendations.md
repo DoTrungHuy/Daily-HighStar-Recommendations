@@ -1,3 +1,67 @@
+## 🕔 2026-07-08 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [inference](https://github.com/xorbitsai/inference)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,417
+- **核心概述**: 通过更改一行代码即可将 GPT 替换为任何 LLM。 Xinference 可让您在云、本地或笔记本电脑上运行开源、语音和多模式模型 — 所有这些都通过一个统一的、可用于生产的推理 API。
+- **大概是做什么的**: Xorbits Inference：模型服务变得简单 🤖 Xinference Enterprise · Xorbits Inference（Xinference）是一个强大且多功能的库，旨在为语言、语音识别和多模态模型提供服务。借助 Xorbits Inference，您只需使用一个命令即可轻松部署和服务您的或最先进的内置模型。无论您是研究人员、开发人员还是数据科学家，Xorbits Inference 都能帮助您释放尖端 AI 模型的全部潜力。 👉 加入我们的 Discord 社区！ · 加入我们的 Telegram 群组！框架增强 - 代理原生服务：Xinference 与 Xagent 集成，以实现动态规划、工具使用和自主多步骤推理 - 超越静态管道。 - 自动批处理：自动批处理多个并发请求，显着提高吞吐量：4197 - Xllamacpp：新的 llama.cpp Python 绑定，由 Xinference 团队维护，支持连续批处理并且更适合生产。：2997 - 分布式推理：跨工作线程运行模型：2877 - VLLM 增强：跨多个代表共享 KV 缓存
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: artificial-intelligence, chatglm, deployment, flan-t5, gemma, ggml
+
+---
+
+### 🌟 [lumen](https://github.com/jnsahaj/lumen)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,537
+- **核心概述**: 漂亮的 git diff 查看器，使用 AI 生成提交，获取更改摘要，所有这些都来自 CLI
+- **大概是做什么的**: 快速终端 diff 查看器和代码审查 TUI，用 Rust 编写。无需离开终端即可并排查看 git diff 、提交、分支或 GitHub PR。作为单个静态 Rust 二进制文件提供，并在数千行差异上保持敏捷。 - 具有树托管语法突出显示的并排差异查看器 - 使用 lumen diff --pr 123 查看 GitHub Pull 请求 - 对选择、块或整个文件进行注释 - 监视模式和堆叠提交审核 - 可选 AI 提交消息和更改说明（10 多个提供者） - 与 Git 和 Jujutsu (jj) 配合使用 - 可视化差异查看器 - 生成提交消息 - 生成 Git 命令 - 编码代理集成 - 高级配置 - 配置文件 - 配置优先级 在开始之前，请确保您已经： 1. 系统上已安装 git 2. fzf（可选） - lumenterpret --list 命令所需 3. mdcat（可选） - 漂亮的输出格式所需 使用 Homebrew（MacOS 和 Linux）cargo 是 rust 的包管理器，在安装 rust 时会自动安装。请参阅安装指南 启动交互式并排安装
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cli, commit, git, llm, openai, rust
+
+---
+
+### 🌟 [AngelSlim](https://github.com/Tencent/AngelSlim)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,376
+- **核心概述**: 模型压缩工具包旨在增强可用性、全面性和效率。
+- **大概是做什么的**: 一个更易于访问、更全面、更高效的大型模型压缩工具包。 ✒️ 技术报告 &nbsp&nbsp &nbsp&nbsp 📖 文档 &nbsp&nbsp &nbsp&nbsp🤗 Hugging Face &nbsp&nbsp &nbsp&nbsp🤖 ModelScope 💬 微信 &nbsp&nbsp🫨 Discord - [26/07/06] 我们现在支持 FP8-Static量化 , SmoothQuant for Hy3 (MoE A20B).[[Docs]](https://github.com/Tencent/AngelSlim/tree/main/scripts/ptq) - [26/06/04] 我们发布了 Stem，这是一种稀疏注意力算法，它通过动态选择前 k 个关键块进行块稀疏注意力来加速长上下文 LLM 的 Prefill 阶段，显着减少延迟，同时保持生成质量。 [[Docs]](https://angelslim.readthedocs.io/zh-cn/latest/features/sparse Attention/stem.html) - [2001年6月26日]我们发布了DFlare，一个具有逐层融合的块扩散推测解码框架，可实现高达 5.52× 的端到端加速。 [[Docs]](https://angelslim.readthedocs.io/zh-cn/latest/features/speculative reporting/dflare.html) - [26/05/27] 我们发布了 D-Cut ，一种自适应验证深度剪枝技术
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: audio, deepseek, dflash, diffusion, eagle, fp4
+
+---
+
+### 🌟 [dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 852
+- **核心概述**: 一种 AI 代理技能，可从多个视觉主题生成浏览器可编辑的演示文稿，并可导出为 HTML、PDF 和 PPTX。
+- **大概是做什么的**: DashiAI PPT Skill · 大师 PPT / 网页 PPT / 可编辑 PPTX 🌏 English version: README.en.md 一个真正适合职场人的 PPT Skill。把文档丢给你的 AI Agent，几分钟后拿到一份 可离线打开、可横向翻页、每一页都自带编辑控制台 的网页 PPT——不满意的地方直接在浏览器里改，改完还能 一键导出成真实的、可编辑的 PPTX 。 - 12 套视觉主题 ：轻拟态、炫光紫绿、深浅代码、玻璃糖果、色谱图表、深色图谱、冷白调研、黑金实验、深蓝杂志、金色指数、高能增长、声波霓虹 - 1020 个版式页面 ：从几十种图表、SWOT / 波特五力 / 商业模式画布等分析模型，到架构图、时间线、图文画廊——做汇报真正会用到的页面都有现成版式 - 8576 个可调控件 ：2372 个滑杆、4276 个开关、1825 个下拉，以及百余个图片 / 图标选择器——拖一下滑杆就能增减页面模块 - 生成 ≠ 结束 ：改文字、换布局、换图表、换配色、换风格，全部在浏览器里完成，编辑自动写回文件 我们花了两个多月，和团队里最专业的设计师一起打磨这套 Skill。丰富的视觉效果只是它的表象——真正想解决的问题是： 让生成之后如何编辑这件事，比生成本身更重要。 生成时 Skill 会展示预览让你选，你也可以随时让 Agent 整套换掉。下面每套主题的预览，都是从它自己的版式库里挑出的 4 个正文版式（图表、分析模型、卡片、目录等）， 全部由这个 Skill 真实渲染，非示意图 ： theme01 轻拟态风 适配场景：产品介绍、企业汇报、方案说明、轻量级发布 适配人群：创业团队、产品经理、销售顾问 theme02 炫光紫绿风 适配场景：科技发布会、AI / 自动驾驶 / 机器人主题、增长故事 适配人群：科技公司创始人、技术负责人 theme03 深浅代码风 适配场景：技术方案、开发者大会、系统架构、AI 工程实践 适配人群：工程师、架构师、开发者社区 theme04 玻璃糖果风 适配场景：年轻化品牌、消费产品、创意提案、社媒感内容 适配人群：品牌团队、设计师、内容创作者 theme05 色谱图表风 适配场景：数据报告、市场分析、KPI 复盘、行业研究 适配人群：数据分析师、咨询顾问、研究员 theme06 深色图谱风 适配场景：高密度数据展示、战略分析、科技 / 金融 / 产业报告 适配人群：战略团队、投资人、高管汇报者 theme07 冷白调研风 适配场景：调研报告、白皮书、竞品分析、学术 / 政策型表达 适配人群：研究机构、咨
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, ai-ppt, claude, claude-code, html-presentation
+
+---
+
+### 🌟 [cuvs](https://github.com/NVIDIA/cuvs)
+- **项目语言**: Cuda
+- **星标数量**: ⭐ 807
+- **核心概述**: cuVS - 在 GPU 上进行矢量搜索和聚类的库
+- **大概是做什么的**:  cuVS：GPU 上的矢量搜索和聚类 - 文档：库文档。 - 构建和安装指南：安装和构建 cuVS 的说明。 - 入门指南：cuVS 入门指南。 - 代码示例：独立的代码示例。 - API 参考文档：API 文档。 - RAPIDS 社区：获取帮助、贡献和协作。 - GitHub 存储库：下载 cuVS 源代码。 - 问题跟踪器：报告问题或请求功能。 cuVS 包含多种算法的最先进实现，用于在 GPU 上运行近似最近邻和聚类。它可以直接使用，也可以通过集成它的各种数据库和其他库来使用。 cuVS 的主要目标是简化 GPU 在向量相似性搜索和聚类中的使用。矢量搜索是一种在过去几年中越来越流行的信息检索方法，部分原因是从非结构化数据创建的多媒体嵌入的重要性不断上升，以及需要对嵌入执行语义搜索以查找
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anns, clustering, cuda, distance, gpu, information-retrieval
+
+---
+
+### 🌟 [agentok](https://github.com/dustland/agentok)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 415
+- **核心概述**: AG2 可视化 - 通过拖放构建多代理应用程序。
+- **大概是做什么的**: AG2 可视化 - 通过拖放操作简单地构建代理应用程序。 Agentok Studio 现在以 AG2 v1 ( ag2==1.0.0b0 ) 为目标。 Codegen 发出协议驱动的 API（ import ag2 、 Agent 和 ag2.network hubs/channels），而不是经典的 autogen / ConversableAgent 堆栈。某些旧节点类型（Captain、Nested Chat、Retrieve、GPT Assistant 等）尚不受支持，并且将导致代码生成失败并出现明显错误。 🎉 2025 年 2 月 10 日：推出 DeepSeek 辅助节点。同时，我们还添加了一个新功能，允许用户为所有可对话节点配置LLM模型。我们目前正忙于后端框架项目VibeX，作为Agentok的新后端。请通过“打开问题”告诉我们您的任何想法。 🌟 什么是 Agentok Studio Agentok Studio 是一款基于 AG2（以前称为 AutoGen）构建的工具，AG2 是来自 Microsoft 的强大代理框架和充满活力的贡献者社区。我们认为 AG2 处于下一代多代理应用技术的前沿。 Agentok Studio 通过提供直观的可视化工具来简化这一概念，将这一概念提升到一个新的水平
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag2, artificial-intelligence, autogen, deepseek, gpt, llm
+
+---
+
 ## 🕔 2026-07-08 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 179 个候选项目中筛选出 6 个未推荐过的新项目。
