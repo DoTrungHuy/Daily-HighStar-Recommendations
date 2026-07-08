@@ -1,3 +1,67 @@
+## 🕔 2026-07-08 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-skills](https://github.com/supabase/agent-skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,325
+- **核心概述**: 代理技能可帮助开发人员将 AI 代理与 Supabase 结合使用
+- **大概是做什么的**: Supabase 代理技能 代理技能可帮助开发人员将 AI 代理与 Supabase 结合使用。座席技能是座席可以发现和使用的指令、脚本和资源的文件夹，可以更准确、更高效地完成工作。与超过 18 个 AI 代理兼容，包括 Claude Code、GitHub Copilot、Cursor、Cline 等。此存储库中的技能遵循代理技能请参阅 Supabase AI 技能文档以获取详细的安装说明。安装特定技能 您还可以将技能安装为 Claude Code 插件： 全面的 Supabase 开发技能，涵盖所有 Supabase 产品以及 - 使用任何 Supabase 产品（数据库、Auth、Edge Functions、实时、存储、向量��Cron、队列） - 在 Next.js、React、SvelteKit、Astro、Remix 中使用客户端库和 SSR 集成（supabase-js、@supabase/ssr） - 解决身份验证问题（登录、注销、会话、JWT、cookie、getSession、getUser、getClaims、RLS） - 使用 Supabase CLI 或 MCP 服务器 - 处理架构更改、迁移、安全审核或 Postgres 扩展（pg graphql、pg cron、pg v
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, skills, supabase
+
+---
+
+### 🌟 [FastFlowLM](https://github.com/FastFlowLM/FastFlowLM)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,564
+- **核心概述**: 只需几分钟即可在 AMD Ryzen™ AI NPU 上运行法学硕士。就像 Ollama - 但专为 AMD NPU 构建并深度优化。
+- **大概是做什么的**: ⚡ FastFlowLM (FLM) — 解锁 Ryzen™ AI NPU 只需几分钟即可在 AMD Ryzen™ AI NPU 上运行大型语言模型，现在具有视觉、音频、嵌入和 MoE 支持。无需 GPU。速度更快，能效提高 10 倍以上。支持高达 256k 令牌的上下文长度。超轻量级 (17 MB)。 20 秒内安装。 📦 唯一专为 Ryzen™ AI 构建的开箱即用、NPU 优先的运行时。 🤝 想想 Ollama — 但针对 NPU 进行了深度优化。 ✨ 从闲置芯片到即时供电 — FastFlowLM 让 Ryzen™ AI 大放异彩。 FastFlowLM (FLM) 支持所有配备 XDNA2 NPU 的 Ryzen™ AI 系列芯片（Strix、Strix Halo、Kraken 和 Gorgon Point）。 🔽 下载 📊 基准测试 📦 型号列表 🐧 Linux 入门指南 📖 文档 📺 演示 🧪 测试驱动 💬 Discord 打包的 FLM Windows 安装程序可在此处获取： flm-setup.exe 。有关更多详细信息，请参阅发行说明。 📺 观看快速入门视频 (Windows) ⚠️ 确保 NPU 驱动程序版本 = 32.0.203.304（最低要求为 .304，但建议使用 .311；通过任务管理器→性能→NPU 或设备管理器检查）。建议：尝试运行 Windows Update o
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: amd, deepseek, llama, llm, npu
+
+---
+
+### 🌟 [altimate-code](https://github.com/AltimateAI/altimate-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 742
+- **核心概述**: 用于 dbt、SQL 和云仓库的开源代理数据工程工具。 100 多种工具、10 个仓库，由 AI 驱动。
+- **大概是做什么的**: 开源数据工程工具。数据工程 AI 的智能层 — 100 多个确定性工具，用于跨每个主要云平台的 SQL 分析、列级沿袭、dbt、FinOps 和仓库连接。在终端中独立运行，嵌入 Claude Code 或 Codex 下，或集成到 CI 管道和编排 DAG 中。适用于任何法学硕士的精密数据工具。或者在 macOS/Linux 上通过curl（将 altimate 二进制文件安装到 /.altimate/bin ）：在 Windows 上，从 PowerShell 安装相同的独立二进制文件（到 %USERPROFILE%\.altimate\bin ） — 无需节点：独立安装会删除一个名为 altimate 的独立二进制文件。 npm 安装在 PATH 上公开了 altimate 和 altimate-code；独立安装仅公开 altimate .独立二进制文件当前不支持 Alpine Linux (musl) 和 ARM64 上的 Windows — 在 Alpine 上使用 apk add gcompat，或在 Windows-on-ARM 上使用 WSL。对于 GitHub，安装 Altimate Code App 来选择交互式代理任务的存储库。自动 dbt pull-request 审查使用确定性 GitHub Act
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-data-engineering, ai, analytics-engineering, bigquery, cli
+
+---
+
+### 🌟 [ParseBench](https://github.com/run-llama/ParseBench)
+- **项目语言**: Python
+- **星标数量**: ⭐ 517
+- **核心概述**: ParseBench - AI 代理的文档解析基准
+- **大概是做什么的**: ParseBench 是一个基准，用于评估文档解析工具将 PDF 转换为人工智能代理可以可靠执行的结构化输出的效果。它测试解析的输出是否保留自主决策所需的结构和含义，而不仅仅是它看起来是否与参考文本相似。该基准涵盖来自真实企业文档（保险、金融、政府）的 2,000 个经过人工验证的页面，围绕五个功能维度进行组织，每个维度都针对破坏生产代理工作流程的故障模式。总分前10名。有关完整的可排序、可过滤的排行榜，请���阅 parsebench.ai；有关原始数据，请参阅排行榜.csv。排名提供商类别总体表格图表内容信仰。 SEM。格式。视觉地面。 ¢/页 ---: --- --- ---: ---: ---: ---: ---: ---: ---: 1 LlamaParse Agentic LlamaParse 84.88 90.74 78.11 89.68 85.24 80.62 1.25 2 KDL-Frontier-Parser-nano VLM - 开放权重 76.36 85.56 63.41 87.19 66.81 78.84 — 3 Google Gemini 3 Flash (Thinking High) VLM - 专有 75.05 91.50 64.79 90.87 68.31 59.77 2.41 4 Infinity-Parser2-Pro VLM - 开放权重 74
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: benchmark, document-ai, document-parsing, evaluation, llamaindex, llm
+
+---
+
+### 🌟 [activegraph](https://github.com/yoheinakajima/activegraph)
+- **项目语言**: Python
+- **星标数量**: ⭐ 378
+- **核心概述**: 用于持久和有状态代理的事件源图运行时
+- **大概是做什么的**: 图表就是世界。行为是物理学。痕迹就是证据。用于长期运行、可审计、代理系统的事件源反应式图运行时。行为对共享图作出反应，而不是相互交谈。每一个变化都是可追溯的。每次运行都是可恢复的、可分叉的，并且可从其事件日志中进行比较。如果基于聊天的代理是群组对话，那么 Active Graph 就是一个共享工作区，每个人都可以在其中看到更改的内容、更改者。在 30 秒内试用捆绑的 Diligence 包针对记录的装置运行：无 API 密钥、无配置、字节确定性输出。在了解框架如何工作之前，您会先了解该框架的功能。然后完成 10 分钟的教程：它构建一个行为，针对相同的固定装置运行它，并以 fork-and-diff 工作流程结束 - 该框架最有区别的两个 LLM 提供程序都公开相同的 LLMProvider 协议表面；将一个替换为另一个而不触及 @llm 行为定义。 LLM 提供商参考涵盖了并行表面，包括工具使用和提供商特定的 Python 3.11+。两个硬依赖
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, ai-agents, event-sourcing
+
+---
+
+### 🌟 [sokuji](https://github.com/kizuna-ai-lab/sokuji)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 922
+- **核心概述**: 由设备端 AI 和云提供商提供支持的实时语音翻译 — OpenAI、Google Gemini、Palabra.ai、Kizuna AI、Volcengine 等
+- **大概是做什么的**: 实时语音翻译 - 云端或在您的设备上完全离线 英语 日本语 中文 由 Kizuna AI Lab 构建 - 我们使用人工智能打破语言和可访问性障碍，创建真正的人际关系。 “绊”在日语中的意思是“纽带”，而“即时”是我们的旗舰工具，可以实现跨任何语言的实时沟通。 Sokuji 是一款适用于桌面和浏览器的跨平台实时语音翻译应用程序。它支持本地推理——由 WASM 和 WebGPU 提供支持的设备上 ASR、翻译和 TTS，无需 API 密钥，无需昂贵的 GPU，完全离线且完全私有。它还与云提供商集成，包括 OpenAI、Google Gemini、Palabra.ai、Kizuna AI、Doubao AST 2.0 和 OpenAI 兼容的 API。提供商 7 — OpenAI、Gemini、Palabra.ai、Kizuna AI、豆宝 AST 2.0、OpenAI 兼容、本地推理本地模型 48 个 ASR 模型、55 个以上翻译对、136 个 TTS 语音 语言 99+（语音识别）·55+（翻译）·53（文本转语音） 平台 Linux · Windows · macOS · Chrome · Edge Privacy Local推理 = 100% 在设备上，无 API 密钥，无 int
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chrome-extension, electron, linux-app, llm, meeting
+
+---
+
 ## 🕔 2026-07-08 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
