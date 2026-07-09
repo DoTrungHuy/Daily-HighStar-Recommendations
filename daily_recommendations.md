@@ -1,3 +1,67 @@
+## 🕔 2026-07-09 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentscope-java](https://github.com/agentscope-ai/agentscope-java)
+- **项目语言**: Java
+- **星标数量**: ⭐ 4,338
+- **核心概述**: AgentScope Java：用于构建 LLM 应用程序的面向代理编程
+- **大概是做什么的**: AgentScope Java 是一个面向代理的编程框架，用于构建 LLM 支持的应用程序。它提供了创建智能代理所需的一切：ReAct 推理、工具调用、内存管理、多代理协作等等。 🎯 智能代理，完全控制 AgentScope 采用 ReAct（推理-行动）范式，使代理能够自主规划和执行复杂的任务。与严格的基于工作流程的方法不同，ReAct 代理动态决定使用哪些工具以及何时使用，实时适应不断变化的需求。然而，缺乏控制的自主性是生产中的一种负担。 AgentScope 提供全面的运行时干预机制： - 安全中断 - 随时暂停代理执行，同时保留完整的上下文和工具状态，从而实现无缝恢复而不会丢失数据 - 优雅取消 - 终止长时间运行或无响应的工具调用，而不破坏代理状态，允许立即恢复和重定向 - 人机交互 - 通过 Hook 系统在任何推理步骤中注入更正、附加上下文或指导，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-ai, ai, llm
+
+---
+
+### 🌟 [dmux](https://github.com/standardagents/dmux)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,691
+- **核心概述**: 用于 git 工作树和编码代理的开发代理多路复用器。
+- **大概是做什么的**: 具有 tmux 和工作树的并行代理在隔离的 git 工作树中管理多个 AI 编码代理。分支、开发和合并——所有这些都是并行的。文档  ·  入门  ·  按 n 创建一个新窗格，输入提示，选择一个或多个代理（或者对于普通终端，选择一个或多个代理），然后 dmux 处理其余的工作 — 工作树、分支和代理启动。 dmux 为每个任务创建一个 tmux 窗格。每个窗格都有自己的 git 工作树和分支，因此代理可以完全隔离地工作。任��完成后，使用 m 打开窗格菜单，然后选择“合并”将其带回主分支，或“创建 GitHub PR”以推送分支并提交拉取请求。 - 工作树隔离 — 每个窗格都是完整的工作副本，代理之间不会发生冲突 - 代理支持 — Claude Code、Codex、OpenCode、Cline CLI、Gemini CLI、Qwen CLI、Amp CLI、pi CLI、Cursor CLI、Copilot CLI 和 Crush CLI - 目标启动 — 可选择从初始提示中以目标模式启动支持的代理 - 多选启动 — 每个提示选择已启用代理的任意组合
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai, ai-agents, cli, coding-agents, coordinator
+
+---
+
+### 🌟 [LLaVA-OneVision-2](https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,132
+- **核心概述**: 民主化多模式培训的完全开放框架
+- **大概是做什么的**: 民主化多模态训练的完全开放框架👉微信群👈🤗2个模型·数据集·技术报告·主页·编解码器游乐场·Discord🤗1.5个模型·数据集·技术报告·NeMo·Discord - 2026年4月30日：发布了LLaVA-OneVision-2 -下一代多模态模型，具有新的LLaVA-OneVision-2-VideoCaption和LLaVA-OneVision-2-空间数据集。 - 2026-02-10：发布了 OneVision-Encoder — 编解码器对齐的视觉编码器，并附有技术报告。 - 2025 年 12 月 11 日：发布了 LLaVA-OneVision-1.5 的 RL 配方，包含项目、代码、数据和模型。 - 2025-09-30：发布LLaVA-OneVision-1.5技术报告。 - 评估再现 - 快速入门（4B，单节点） - LLaVA-OneVision-1.5 LLaVA-OneVision-2 是 LLaVA-OneVision 系列的下一代版本 - 一个完全开放的 8B 多模态模型，将图像、长格式视频和空间理解统一在单一架构下，并端到端发布整个管道（数据、编码器、训练、检查点、日志）。 🎬 编解码器对齐的视觉编码器超越统一补丁。 OneVision-编码器
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llava, llava-onevision, llm, mllm, qwen3, vision-language-model
+
+---
+
+### 🌟 [vscode-unify-chat-provider](https://github.com/smallmain/vscode-unify-chat-provider)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 643
+- **核心概述**: 使用语言模型 API 将多个 LLM API 提供程序集成到 VS Code 的 GitHub Copilot Chat 中。一键使用您的 Claude Code、Gemini CLI、Antigravity、Github Copilot、OpenAI Codex (ChatGPT Plus/Pro)、xAI Grok (SuperGrok / X Premium+) 帐户配额。
+- **大概是做什么的**: 使用语言模型 API 将多个 LLM API 提供程序集成到 VS Code 的 GitHub Copilot Chat 中。 - 🐑 免费层级接入：聚合最新免费主流机型通道配置！ - 📦开箱即用：一键配置、自动同步官方型号列表、从其他工具迁移。 - 🔌 完美兼容性：支持所有主要的 LLM API 格式（OpenAI 聊天完成、OpenAI 响应、Anthropic 消息、Ollama 聊天、Gemini）。 - 🎯深度适配：适配45+主流提供商的特殊API功能和最佳实践。 - 🚀 最佳性能：内置200+主流模型的推荐参数，让您无需调优即可最大限度发挥模型潜力。 - 💾 导入和导出：完整的导入/导出支持；通过 Base64、JSON、URL 或 URI 导入配置。 - 💎 出色的用户体验：可视化界面配置，完全可定制的模型参数，支持无限的提供者和模型配置，并支持同一提供者和模型的多个配置变体共存。 - ✨ 还有一件事：一键使用您的克劳德代码，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chat, copilot, custom-chat, custom-models, github-copilot
+
+---
+
+### 🌟 [Master-skill](https://github.com/xr843/Master-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: 由佛金驱动的佛教人工智能角色框架——源头扎根、边界感知、保真度测试、运行时就绪。
+- **大概是做什么的**: 「一切有为法，如梦幻泡影，如露亦如电，应作如是观。」 Secured by SHA-pinned GitHub Actions · npm provenance · OIDC Trusted Publishing — see SECURITY.md . 学术研究想引用祖师原文，苦于找不到权威出处？ FoJin 驱动的佛教 AI 祖师人格框架 有来源 · 守边界 · 可评测 · 可运行 · 15 位祖师 · 印度 / 汉传 / 藏传 / 南传跨传统 Source-grounded · Boundary-aware · Fidelity-tested · Runtime-ready CBETA / BDRC / SuttaCentral / PTS Vism 真实出处 · AgentSkills 标准 大多数用户无需安装任何工具 —— 佛教学习者、研究者、只想了解某位祖师思想的普通读者，都可以直接在浏览器里用。 👉 打开 fojin.app/chat 在 AI 问答页面左下角点击「法师模式」，从 15 位四大传统祖师中选一位即可开始对话。 - 三种教学模式均可用： /compare-masters 多祖师对比、 /master-debate 祖师辩论、 /master-curriculum 学修路径（含跨传统） - 内置 FoJin 的 503 个数据源、678K+ 语义向量做实时经证检索 - 每条回答附原典出处（CBETA 经号 / BDRC 藏文典籍号 / SuttaCentral 巴利经号） "妄念纷飞坐不住" /虚云 /智顗 /master-ajahn-chah （参话头 / 止观 / 正念观察） "读经文看不懂逻辑" /玄奘 （唯识严密分析） "学佛很久但无力感" /印光 （老实念佛） "想了解空性" /master-nagarjuna /鸠摩罗什 /慧能 /master-milarepa /master-tsongkhapa ���中观源头 / 中观译师 / 禅直指 / 大手印明空 / 应成中观） "想系统学华严 / 天台" /法藏 /智顗 （判教与哲学体系） "在禅与净土之间犹豫" /蕅益 （跨宗派融通） "对苦行 / 闭关好奇" /master-milarepa （雪山闭关 · 噶举派典范） "想学最朴素的禅修" /master-ajahn-chah （南传森林禅 · 出入息念） "想学完整的道次第" /master-atisha /master-tsongkhapa （噶当三士道 → 格鲁《广论》） "想了解上座部论藏体系" /master-budd
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-persona, bdrc, buddhism, chinese-buddhism, claude-skills
+
+---
+
+### 🌟 [llm-inference-handbook](https://github.com/bentoml/llm-inference-handbook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: 关于 LLM 推理您需要了解的一切
+- **大概是做什么的**: LLM 推理手册 此存储库包含 LLM 推理手册的源代码，这是理解、优化、扩展和操作 LLM 推理系统的实用指南。该手册是一个独立的 Docusaurus 网站，采用模块化设计语言系统。其未来的规范源代码主页是 module/llm-inference-handbook 。安装依赖项并启动本地开发服务器：该站点在 http://localhost:3000/ 上运行。在本地构建或提供生产输出：欢迎贡献！请随意提出问题、提出改进建议或提交拉取���求。本手册遵循上游双许可方式： - docs/ 文件夹中的所有文件均根据 Creative Commons Attribution 4.0 International (CC BY 4.0) 许可证获得许可。 - 所有其他文件均已获得许可
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: inference-handbook, inference-infrastructure, inference-optimization, llm, llm-inference
+
+---
+
 ## 🕔 2026-07-08 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
