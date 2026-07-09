@@ -1,3 +1,67 @@
+## 🕔 2026-07-09 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [video-search-and-summarization](https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,721
+- **核心概述**: NVIDIA VSS 蓝图是一套参考架构，用于构建 GPU 加速的视觉代理和人工智能驱动的视频分析应用程序。
+- **大概是做什么的**: NVIDIA AI 蓝图：视频搜索和摘要 (VSS) - 用例/问题描述 - 软件组件 - 存储库结构概述 - 硬件要求 NVIDIA 视频搜索和摘要 (VSS) 蓝图提供了一套参考架构，用于构建视觉代理和 AI 驱动的视频分析应用程序。这些架构将加速视觉微服务、视觉语言模型 (VLM) 和大型语言模型 (LLM) 结合在一起，因此您可以在现有应用程序中使用它们，作为独立的微服务，或作为更大的视觉代理的一部分。 VSS 分为三个处理和分析领域：实时视频智能（特征提取、嵌入和流理解，并将结果发布到消息代理）、下游分析（将元数据丰富到轨迹、事件和经过验证的警报）以及���理和离线处理（用于搜索、问答、摘要和剪辑检索的编排工具，包括通过模型上下文协议）。该存储库实现了蓝图并为 NVIDIA 构建提供支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, llm, rag, skills, video-analytics, video-search
+
+---
+
+### 🌟 [open-computer-use](https://github.com/e2b-dev/open-computer-use)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,121
+- **核心概述**: 由开源法学硕士和 E2B 桌面沙箱支持的 AI 计算机使用
+- **大概是做什么的**: 由 E2B Desktop Sandbox 提供支持并由开源 LLM 控制的安全云 Linux 计算机。 https://github.com/user-attachments/assets/3837c4f6-45cb-43f2-9d51-a45f742424d4 - 使用 E2B 进行安全桌面沙箱 - 通过键盘、鼠标和 shell 命令操作计算机 - 支持 10 多个 LLM、OS-Atlas/ShowUI 以及您想要集成的任何其他模型！ - 实时流式传输客户端计算机上沙箱的显示 - 用户可以随时暂停并提示代理 - 使用 Ubuntu，但设计为可与任何操作系统配合使用 设计的详细信息在本文中列出：我如何教 AI 使用计算机 开放计算机使用旨在使新的 LLM 的换入和换出变得容易。代理使用的 LLM 在 config.py 中指定，如下所示： 提供程序从providers.py 导入，包括： - Fireworks、OpenRouter、Llama API： - Llama 3.2（仅视觉）、Llama 3.3（仅操作） - Llama 3.2（视觉 + 操作）、Llama 3.3（仅操作） - DeepSeek（仅操作） - Gemini 2.0 Flash（视觉 + 操作） - GPT-4o 和 GPT-4o mini（愿景 + 行动）- Claude（愿景 + ac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, anthropic, claude, computer-use, llm
+
+---
+
+### 🌟 [KohakuTerrarium](https://github.com/Kohaku-Lab/KohakuTerrarium)
+- **项目语言**: Python
+- **星标数量**: ⭐ 424
+- **核心概述**: KohakuTerrarium 是一个通用 AI 代理框架和包含电池的应用程序，用于构建、运行和组成独立代理和多代理团队，具有内置工具、子代理、持久会话、TUI 和 Web UI。
+- **大概是做什么的**: 用于构建代理的机器，因此每次您需要新机器时都无需重建机器。 English  ·  繁体中文  ·  简体中文 查看运行情况（60 秒） 这是一个带有完整编码代理的交互式 shell：文件工具、shell 访问、网络搜索、子代理、可恢复会话。 Ctrl+D 退出； ktresume --last 准确地从您停止的位置恢复。同样的代理，作为图书馆，就是四行：想要更多的帮助吗？入门。想建立自己的吗？第一个生物。想要嵌入它吗？程序化使用。如果您需要新的药剂形状并且不想重建基质，您可能需要红白水晶容器；您需要可以定制的强大的开箱即用代理；您想要从您自己的 Python 驱动代理（批处理作业、机器人、管道）； your requirements are still evolving.如果现有的代理产品（Claude Code、Codex 等）已经满足您的稳定需求，您可能不会这样做；你的心智模型没有映射到控制器/工具/触发器/子代理/通道上； you need sub-50 ms per-operation latency. More honesty at boundaries. What KohakuTerrarium is Ko
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-framework, llm
+
+---
+
+### 🌟 [react-native-ai](https://github.com/dabit3/react-native-ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,287
+- **核心概述**: Full stack framework for building cross-platform mobile AI apps
+- **大概是做什么的**: Full stack framework for building cross-platform mobile AI apps supporting LLM real-time / streaming text and chat UIs, image services and natural language to images with multiple models, and image processing. Check out the video tutorial here - LLM support for OpenAI GPT-5.2 + GPT-5 mini, Anthropic Claude Fable 5, Sonnet 5, and Opus/Sonnet/Haiku 4.5, Gemini, Z.ai GLM 5.2, and Moonshot Kimi K2.7 - Image generation with Gemini (Nano Banana) - Real-time / streaming responses from all providers - Server proxy to easily enable authentication and authorization with auth provider of选择。 - Theming (comes out of the box with 5 themes) - easily add additional themes with just a few lines of code. Generate a new project by running: Next, either configure your environment variables with the CLI, or do so later. Change into the app directory and run: Change into the server directory and run: Environment variables The server environment variables are available in server/.env.example . If already not present, update this file name to .env and configure server environment variables. Gemini imag
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cross-platform, express, llm, react, react-native
+
+---
+
+### 🌟 [desktop](https://github.com/e2b-dev/desktop)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,430
+- **核心概述**: 适用于法学硕士的 E2B 桌面沙箱。具有桌面图形环境的 E2B 沙箱，您可以连接到任何 LLM 以安全地使用计算机。
+- **大概是做什么的**: E2B 桌面沙箱 - 供计算机使用的开源虚拟计算机 E2B 桌面沙箱是一款可供计算机使用的开源安全虚拟桌面。由 E2B 提供支持。每个沙箱都与其他沙箱隔离，并且可以使用您想要的任何依赖项进行自定义。 - 流式桌面应用程序： - 100% 开源法学硕士使用计算机。 - 使用 E2B 桌面沙箱的 OpenAI 计算机使用代理。作为 Next.js 应用程序运行。 E2B 桌面沙箱构建在 E2B 沙箱之上。在 E2B 注册并获取您的 API 密钥。使用您的 API 密钥设置环境变量 E2B API KEY。 3. 创建桌面沙盒 流式传输桌面屏幕 具有密码保护的流式传输 流式传输特定应用程序 - 如果所需的应用程序尚未打开，则会引发错误 - 一旦应用程序关闭，流将关闭 - 不支持同时创建多个流，您可能必须停止当前流并为每个应用程序启动一个新流 运行任何 bash 命令 类似桌面的环境目前基于 Linux 和 Xfce。我们选择 Xfce 因为它是一个��速且轻量级的 en
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, computer, desktop, e2b, e2b-dev, gpt
+
+---
+
+### 🌟 [ai-analyst](https://github.com/e2b-dev/ai-analyst)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 380
+- **核心概述**: 由 E2B 提供支持的开源 AI 分析师。使用 Llama 3.1 分析您的 CSV 文件并创建交互式图表。
+- **大概是做什么的**: 这是一个使用 Next.js 和 E2B SDK 构建的人工智能驱动的代码和数据分析工具。 → 试用 ai-analyst.e2b.dev - 🔸 使用 Meta 的 Llama 3.1 分析数据 - 🔸 上传 CSV 文件 - 🔸 创建交互式图表 - 🔸 Vercel 的 AI SDK - 🔸 用于交互式图表的 echarts 库 支持的 LLM 提供商： 支持的图表类型： - 🔸 此处描述了所有支持的图表。请务必给我们一颗星！访问在线版本或自行在本地运行。 2. 安装依赖项 将 .example.env 复制到 .env.local 并填写 E2B 和一个 LLM 提供商的变量。 - 在此处获取您的 E2B API 密钥。 - Fireworks：FIREWORKS API 密钥 - Together AI：TOGETHER API 密钥 - Ollama：OLLAMA BASE URL
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-analysis, analysis, e2b, llama, llm
+
+---
+
 ## 🕔 2026-07-09 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 189 个候选项目中筛选出 6 个未推荐过的新项目。
