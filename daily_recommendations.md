@@ -1,3 +1,67 @@
+## 🕔 2026-07-09 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 189 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [aiox-core](https://github.com/SynkraAI/aiox-core)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,024
+- **核心概述**: Synkra AIOS：用于全栈开发的人工智能编排系统 - 核心框架 v4.0
+- **大概是做什么的**: AIOX Squad：人工智能编排体验 🌍 英语 葡萄牙语 🌐 自述文件（按语言）：EN PT ES ZH 赋予人们创造能力 — 开源 AI 编排框架，将控制权交还给那些有勇气构建的人。适用于任何领域的专家代理、工作流程和 CLI First 体验。新的 npm 命名空间：@aiox-squads/core 是无作用域 aiox-core 的后继者。内容同AIOX框架；新的命名空间反映了 @aiox-squads/ 下小队的整合。 CLI 命令（包括 aiox-core ）在过渡期间仍然保留。从这里开始（10 分钟） 如果您是第一次使用 AIOX，请遵循以下线性路径： 1. 安装到新的或现有的项目中： 2. 选择您的 IDE/CLI 和激活路径： - Claude Code：/agent-name - Gemini CLI：/aiox-menu → /aiox- - Codex CLI：/skills → aiox- - Cursor/Copilot/AntiGravity：遵循中的限制和解决方法docs/ide-integration.md 3. 激活 1 个代理并确认问候语。 4. 运行 1 个初始命令（帮助或等效命令）以验证第一个值。第一个值的定义（二进制
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, automation, claude, cli
+
+---
+
+### 🌟 [uzu](https://github.com/trymirai/uzu)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,645
+- **核心概述**: 用于人工智能模型的高性能推理引擎
+- **大概是做什么的**: 用于人工智能模型的高性能推理引擎。它允许您直接在您的应用程序中部署人工智能，实现零延迟、完全数据隐私且无推理成本。主要特点： - 简单、高级的 API - 统一的模型配置，可以轻松添加对新模型的支持 - 可追踪的计算，以确保事实来源实现的正确性 - 在 Apple 设备上利用统一内存 - 广泛的模型支持 从模型下载到推理配置的一切都是自动处理的。有关如何自定义流程每个步骤的详细信息，请参阅文档。您可以通过货物工具运行任何示例 \ \ ：在这个示例中，我们将下载一个模型并获得对特定消息列表的回复：加载后，同一个 ChatSession 可以重复用于多个请求，直到您删除它。每个模型都可能消耗大量 RAM，因此一次仅加载一个会话非常重要。对于 iOS 应用程序，我们建议添加“增加内存容量”权利，以确保您的应用程序可以分配所需的内存。与 cl 聊天
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, high-performance, inference, llm, metal, rust
+
+---
+
+### 🌟 [nestia](https://github.com/samchon/nestia)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,162
+- **核心概述**: NestJS Helper + AI 聊天机器人开发
+- **大概是做什么的**: Nestia 是 NestJS 的一组帮助程序库，支持以下功能： - 超快速/简单的装饰器 - 高级 WebSocket 路由 - Swagger 生成器，比以往更加先进 - 客户端的 SDK 库生成器 - 用于客户端应用程序的模型模拟器 - 自动 E2E 测试函数生成器 - @nestia/e2e：利用 e2e 测试函数的测试程序 - @nestia/benchmark：使用 e2e 测试函数的基准程序 - @nestia/editor：带有 Online 的 Swagger-UI TypeScript 编辑器 - @agentica ：专门用于 LLM 函数调用的 Agentic AI 库 - @autobe ：生成 NestJS 应用程序的 Vibe 编码代理 - Nestia ：Just CLI（命令行界面）工具 - 只需一行，使用纯 TypeScript 类型 - 性能提高 30 倍 - 运行时验证器比类验证器快 20,000 倍 - JSON 序列化比类转换器快 200 倍 - 软件开发套件 - 类型化获取函数的集合tRPC 等 DTO 结构 - Mockup 模拟器意味着 SDK 中嵌入后端模拟器 - 与 msw 类似，但完全自动化 左边是 NestJS 服务器代码，右边是 clie
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, api, class-validator, decorator, hacktoberfest
+
+---
+
+### 🌟 [memtrace-public](https://github.com/syncable-dev/memtrace-public)
+- **项目语言**: Python
+- **星标数量**: ⭐ 389
+- **核心概述**: AI 编码代理的结构记忆。双时态图、MCP 原生、零 LLM 调用。光标·克劳德代码·法典·爱马仕·VS代码·风帆。
+- **大概是做什么的**: 您的代理值得结构记忆。 📖 文档  ·  ⭐ Star us  ·  memtrace.io  ·  Memtrace 将您的代码库转变为实时知识图，AI 编码代理可以在几毫秒内查询每个会话中的每个函数、类、调用边缘和版本，而无需重新读取文件或破坏他们看不到的内容。在 90 秒内让您的车队使用共享结构内存。结构性 · 零 LLM 调用 · 双时态 · 时间旅行查询 · 重播感知 · 零盲重构 每次发布都要做三件事。 🧭   在同一个存储库上运行一组编码代理，而无需合并地狱。每个代理读取相同的调用图，看到相同的爆炸半径，继承相同的时间历史。没有碰撞。没有陈旧的上下文。 🔁   以充分的因果意识重放任何重构。代理可以准确地看到什么取决于什么，以及什么时候发生了什么变化。不再有“我重构了一个函数，14 个测试失败了，但没有人看到”。 ⚡   在 90 秒内为 50k 个文件的存储库建立索引。 Rust + Tree-sitter，API 成本为 0 美元，20 多种语言以及框架感知扫描
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, bi-temporal-graph, claude-code, code-intelligence, code-search
+
+---
+
+### 🌟 [openOii](https://github.com/Xeron2000/openOii)
+- **项目语言**: Python
+- **星标数量**: ⭐ 340
+- **核心概述**: 故事想法 → 多智能体协作 → 漫剧成片 | 基于 LangGraph 的 AI 漫剧生成平台
+- **大概是做什么的**: 故事想法 → 多智能体协作 → 漫剧成片 一个以 LangGraph 为核心的 AI 漫剧生成学习项目。 也在研究像 openOii 这样的多智能体流水线？ 让 Claude、ChatGPT、DeepSeek 等多个 AI 在同一对话里协作——互相质疑、交叉核对、一起把结果打磨到位。 openOii 把故事创意串成 规划、角色/分镜生成、视频生成与合成 的完整链路，并用无限画布展示过程与结果。 这是一个 LangGraph 学习 / 演示项目 ，重点是验证多阶段编排、恢复执行、实时进度与前后端协作。 - 可恢复 / 可取消 / 可反馈的 run 流程 - tldraw 无限画布审阅角色、分镜与结果 - Frontend: React 18 + TypeScript + tldraw - Backend: FastAPI + SQLModel + LangGraph - Infra: PostgreSQL + Redis + /static - Frontend: http://localhost:15173 - API Docs: http://localhost:18765/docs
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-video, comic, fastapi, langgraph
+
+---
+
+### 🌟 [ai-dial-core](https://github.com/epam/ai-dial-core)
+- **项目语言**: Java
+- **星标数量**: ⭐ 657
+- **核心概述**: AI DIAL的主要组件，为不同的聊天完成和嵌入模型、助手和应用程序提供统一的API
+- **大概是做什么的**: - 存储要求 - Claude 代码命令 HTTP 代理为不同的聊天完成和嵌入模型和应用程序提供统一的 API。用 Java 21 编写并构建在 Eclipse Vert.x 之上。了解有关 DIAL Core 的更多信息 DIAL Core 依赖于 JClouds 的 GitHub 包。 Github 不提供对包的匿名访问。这需要传递凭据 GitHub 才能访问已发布的 JClouds 包。请参阅下面的代码片段：您应该将环境变量 GPR USERNAME 和 GPR PASSWORD 设置为有效值，其中 GPR USERNAME - GitHub 用户名和 GPR PASSWORD - GitHub 个人访问令牌。访问令牌需要 read:packages 权限。请参阅此处的更多详细信息以在 GitHub 中生成个人访问令牌。使用 Gradle 运行项目：或者从您最喜欢的 IDE 运行 com.epam.aidial.core.server.AiDial 类。您可以选择利用伞式拨号 Helm 图表在 Kubernetes 集群上部署 DIAL Core，该图表还部署其他 DIAL 组件。或者，您可以使用 dial-core Helm 图表来仅部署 Core。请参阅示例以获取指南。在
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-dial, llm
+
+---
+
 ## 🕔 2026-07-09 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 156 个候选项目中筛选出 6 个未推荐过的新项目。
