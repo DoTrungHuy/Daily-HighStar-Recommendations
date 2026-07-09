@@ -1,3 +1,67 @@
+## 🕔 2026-07-09 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 156 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MemMachine](https://github.com/MemMachine/MemMachine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,298
+- **核心概述**: AI 代理的通用内存层。它提供可扩展、可扩展和可互操作的内存存储和检索，以简化下一代自治系统的 AI 代理状态管理。
+- **大概是做什么的**: AI 代理的开源内存层。停止构建无状态代理。只需 5 行代码即可为您的 AI 提供持久记忆。 MemMachine 是一个开源长期存储层，适用于 AI 代理和 LLM 支持的应用程序。它使您的人工智能能够学习、存储和调用过去会话中的信息，将无状态聊天机器人转变为个性化的、上下文感知的助手。 - Episodic Memory：跨会话持续存在的基于图形的对话上下文 - Profile Memory：存储在 SQL 中的长期用户事实和首选项 - Working Memory：当前会话的短期上下文 - Agent Memory Persistence：在重新启动、会话甚至模型更改���仍然存在的内存 在 5 分钟内启动并运行： 先决条件：此代码需要运行 MemMachine 服务器。本地启动服务器或在 MemMachine 平台上创建免费帐户。如需完整安装选项（Docker、自托管、云），请访问 MemMachine 与您最喜爱的 AI 框架无缝协作： 框架说明 ----------- ------------- LangChain LangChain 代理的内存提供程序
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, agents-sdk, ai, ai-agents
+
+---
+
+### 🌟 [ODS](https://github.com/Osmantic/ODS)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 2,852
+- **核心概述**: 将您的 PC、Mac 或 Linux 机器变成 AI 服务器。 LLM 推理、聊天 UI、语音、代理、工作流程、RAG 和图像生成。
+- **大概是做什么的**: Osmantic 部署系统将您的 PC、Mac 或 Linux 机器变成私人 AI 服务器。人工智能服务器和家庭实验室设置正在迅速成为一个已解决的问题。每个人都应该有这样的感觉。 ODS 安装并连接本地运行 AI 所需的所有内容，因此您无需手动组装 Ollama、Open WebUI、n8n、ComfyUI 和隐私工具： - 本地模型推理 — 在您自己的硬件上运行开放模型 - ChatGPT 式 Web UI — 从任何浏览器与您的模型对话 - 控制仪表板 — 从一个地方管理模型、服务、设置、GPU 状态和扩展 - 语音、代理和工作流程 — 构建可以听、说、调用工具的自动化，并完成工作 - RAG 和搜索 - 连接本地文档、私人搜索和检索工作流程 - 图像生成 - 运行本地图像工具，而不向托管 API 发送提示 - 隐私和操作 - 将服务身份验证、秘密、可观察性和诊断保留在一个本地堆栈中 无需云。无需订阅。除非您另有选择，否则您的提示和数据将保留在您的计算机上。云和混合API模式可选
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amd, comfyui, docker, llama-cpp, llm
+
+---
+
+### 🌟 [repobrain](https://github.com/study8677/repobrain)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,293
+- **核心概述**: 🧠 RepoBrain（以前称为Antigravity）——给你的repo一个大脑。适用于您的代码库的 ChatGPT：适用于 Claude Code、Cursor、Codex、Windsurf 等。
+- **大概是做什么的**: Give your repo a brain 🧠 — ChatGPT for your codebase, works in Claude Code, Cursor, Codex, Windsurf & 4 more. Formerly known as Antigravity Workspace Template — same project, new name. English · 中文 · Español 🚀 实测推荐: TeamoRouter —— 非广告，我自己在 Codex、Claude Code 等 AI 编程工具里高强度使用：一个 API Key 接入 Claude、GPT-5.5 等，模型价格方便调整，价格优惠，并没有掺水的情况。接入指南见 openrouter-api-key 。 Sponsored placement: DolOffer ( GitHub project ) offers discounted GPT and Claude membership recharge, official subscriptions, and after-sales support. Use code AI8888 for 10% off. Disclaimer: This is a paid sponsor placement. DolOffer services, pricing, availability, and support are provided by DolOffer; please review their terms before purchase. Note: the plugin/package ID is still repobrain ; it will migrate in a future release. 99% factual · 2.1× faster than Codex CLI · works in any AI IDE. Head-to-head benchmark ↓ Codex CLI users — drop the repobrain: prefix; the same four slash commands ship there too. Cross-IDE repository knowledge engine for grounded codebase Q&A. Same .repobrain/ knowledge layer reads in every IDE; one engin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-sdk, ai-agent, claude-code, code-intelligence, code-search, codebase-qa
+
+---
+
+### 🌟 [passmark](https://github.com/bug0inc/passmark)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,135
+- **核心概述**: 用于 AI 浏览器回归测试的开源 Playwright 库，具有智能缓存、自动修复和多模型验证功能。
+- **大概是做什么的**: 用于 AI 回归测试的开源 Playwright 库。 Passmark 涵盖端到端的浏览器回归测试，并帮助您尽早发现回归。快速地。它使用人工智能模型通过 Playwright 执行自然语言浏览器步骤，并具有智能缓存、自动修复和多模型断言验证。您的测试保持稳定，无需更新 AI 提示或重新训练模型。我们至少需要一个来自 Anthropic 的模型和一个来自 Google 的模型才能使用 Passmark 的多模型共识功能。在 .env 中设置所需的环境变量：或者，您可以使用 Vercel AI Gateway、OpenRouter 或 OpenCode Zen 等 AI 网关将请求路由到多个提供商，而无需管理单独的 API 密钥。如果选择此选项，请设置 AI GATEWAY API KEY（对于 Vercel）、OPENROUTER API KEY（对于 OpenRouter）或 OPENCODEZEN API KEY（对于 OpenCode Zen）。您还可以通过 Cloudflare AI Gateway 路由请求，以实现可观察性、缓存和速率限制。与 Vercel/OpenRouter/OpenCode Zen 不同，Cloudflare 是代理（不是经销商），因此您仍然需要自己的 ANTH
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-testing, aigateway, aisdk, browser-testing
+
+---
+
+### 🌟 [agentcn](https://github.com/shadcn-labs/agentcn)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 346
+- **核心概述**: shadcn/ui，但用于建筑代理。 🤖
+- **大概是做什么的**: 免费开源、可定制且可立即投入生产的 AI 代理配方。零配置。一个命令设置。基于 Eve 、 Flue 和 Mastra 构建，与 shadcn CLI 无缝协作。 - 🎯 零配置 — 开箱即用，具有合理的默认值 - 📦 shadcn/ui 兼容 — 使用相同的注册表格式和 CLI - 🧩 可组合 — 使用简单的声明性组件构建复杂的终端 UI - ⌨️ Eve、Flue 和 Mastra 支持 — 完全访问强大的代理框架 - 🍳 完整配方 — 完整的代理源：说明、工具、技能和工作流程 - 🧪 实时预览 - 直接从文档页面运行每个代理 请参阅开发指南了解更多详细信息。考虑展示您在以下方面的工作： - Awesome-eve-agents — 使用 Eve 构建的优秀资源和 AI 代理的精选列表 - Awesome-flue-agents — 使用 Flue 构建的优秀资源和 AI 代理的精选列表 - Awesome-mastra-agents — 使用 Mastra 构建的优秀资源和 AI 代理的精选列表 欢迎贡献！请随时提交 Pull 请求。 1. 分叉存储库 2. 创建功能分支 ( git checkou
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, eve, flue, mastra, shadcn
+
+---
+
+### 🌟 [webbrain](https://github.com/webbrain-one/webbrain)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 303
+- **核心概述**: 适用于 Chrome 和 Firefox 的开源 AI 浏览器代理 (monorepo) 🧠
+- **大概是做什么的**: 适用于 Chrome 和 Firefox 的开源 AI 浏览器代理。与任何网页聊天、自动执行浏览器任务并运行多步骤代理工作流程 - 由您选择的法学硕士提供支持。 - 页面阅读 — 从任何页面中提取文本、链接、表单、表格和交互元素 - 浏览器操作 — 单击、键入、滚动、导航以及与页面元素交互 - 询问/行动/开发模式 — 默认情况下为只读，根据请求进行正常浏览器操作，以及用于源/样式/页面调试工作的开发附加组件 - 行动前计划 — 行动和开发模式可以生成结构化计划，将其显示以供批准，然后在工具运行之前将已批准的计划固定到草稿本 - 多步骤代理 — 自主任务使用工具使用循环执行（可配置，默认 130 个步骤） - 从限制继续 — 当代理达到步骤限制时，单击继续继续 - 多提供商 LLM — 支持本地和云模型： - WebBrain Cloud 1.0（云，默认） — 内置托管云选项；无需本地设置 - llama.cpp（本地）— 无需 API 密钥。还有 Ollama 、 LM Studio 、 Jan 、 vLLM 、 SGLang 和 LocalAI - OpenAI （GPT-5.5 等）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tools, browser-extension, chrome-extension, firefox-addon
+
+---
+
 ## 🕔 2026-07-09 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
