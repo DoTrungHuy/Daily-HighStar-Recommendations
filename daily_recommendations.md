@@ -1,3 +1,67 @@
+## 🕔 2026-07-10 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,131
+- **核心概述**: 与 ChatGPT、OpenAI API 和 Codex 相关的开源 GitHub 存储库的精选列表。可通过克劳德代码技能进行搜索。
+- **大概是做什么的**: Awesome-ChatGPT-repositories 专门用于与 ChatGPT 相关的开源 GitHub 存储库的精选资源列表。 Hugging Face Spaces 上提供了用于搜索这些存储库的工具。随时欢迎您的贡献！在贡献之前，请阅读指南。直接从 Claude Code 搜索 2,500 多个精选存储库 - 无需浏览器，只需描述您要查找的内容即可。 - 按主题查找工具 - RAG 框架、代理库、聊天机器人 UI、CLI 工具等 - 按类别或语言过滤 - 将结果缩小到特定类别（例如 CLI、NLP）或编程语言 - 多语言查询 - 以日语、中文、韩语或任何语言搜索 - ���分结果 - 按相关性、星级数和项目质量排名 在 Claude 代码中运行这两个命令： English 日本语（日语） 繁体中文（中文） 最新版本补充 🎉 headroom - 在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。减少 60-95% 的标记，答案相同。库、代理、MCP 服务器。 gptme - 与配备本地工具的法学硕士聊天：执行 pytho
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai, awesome, awesome-list, chatgpt
+
+---
+
+### 🌟 [evalscope](https://github.com/modelscope/evalscope)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,057
+- **核心概述**: 一个简化且可定制的框架，用于高效的大型模型（LLM、VLM、AIGC）评估和性能基准测试。
+- **大概是做什么的**: 中文 &nbsp ｜ &nbsp English &nbsp 📖 中文文档 &nbsp ｜ &nbsp 📖 英文文档 ⭐ 如果您喜欢这个项目，请点击右上角“星”按钮支持我们。您的支持是我们前进的动力！ EvalScope是ModelScope社区打造的一站式LLM评估框架。只需一个命令即可启动 - 它支持模型能力评估、推理性能压力测试和结果可视化。 - 📚综合评估基准：内置多个行业认可的评估基准，包括MMLU、C-Eval、GSM8K等。 - 🧩 多模态和多领域支持：支持各种模型类型的评估，包括大型语言模型（LLM）、视觉语言模型（VLM）、嵌入、Reranker、AIGC 等。 - 🚀 多后端集成：无缝集成包括OpenCompass、VLMEvalKit、RAGEval在内的多个评估后端，以满足不同的评估需求。 - 🤖 代理评估模式：通过可插入策略、工具在受控多轮 AgentLoop 内驱动基准测试（例如 GSM8K、AIME、SWE-bench Agentic）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: evaluation, llm, performance, rag, vlm
+
+---
+
+### 🌟 [claude-code-skills](https://github.com/levnikolaevich/claude-code-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 514
+- **核心概述**: 用于 Claude Code 的插件套件 + 捆绑的 MCP 服务器。完整的交付生命周期：具有多模型人工智能审查、项目引导、文档生成、代码库审计、性能优化、社区工作流程的敏捷管道。包括 hex-line（哈希验证编辑）、hex-graph（代码知识图）和 hex-ssh（远程 SSH）MCP 服务器。
+- **大概是做什么的**: 市场布局在 2026 年 5 月 6 日重构中发生了变化。技能现在仅存在于plugins/ /skills/ / 下的独立插件包内。 root共享/目录是维护者专用的源材料，用于2个以上技能重用的文件；运行时安装使用复制的技能本地引用/文件。 7 个插件。两个本土市场。仅安装您需要的内容并自动化整个交付工作流程 - 从项目引导到代码审核再到生产质量关卡。独立工作或作为完整的敏捷管道工作。双代理 AI 审查 — Claude 和 Codex 可以通过主机感知的外部顾问路由来审查彼此的工作。插件 · 安装 · 快速入门 · 工作流程 · MCP · AI 评论 · 常见问题解答 · 完整技能树 · 链接 添加市场一次，然后仅安装您需要的插件。每个人独立工作。插件描述 -------- ------------- 敏捷工作流 范围分解、故事/任务管理、执行、质量门、编排 文档管道 具有自动检测功能的完整项目文档管道（后端/前端/devops） codebase-audit-suite 文档、安全
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agile-workflows, ai-agents, anthropic, claude-ai, claude-code, claude-code-skills
+
+---
+
+### 🌟 [snd](https://github.com/BigJk/snd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 662
+- **核心概述**: 销售与地下城 — 热敏打印机作为 D&D / TTRPG 实用程序
+- **大概是做什么的**: 销售与地下城 — 作为 D&D 实用程序的热敏打印机。通过 Sales & Dungeons，您可以为您的《龙与地下城》（或其他 PnP）会话创建高度可定制的讲义、快速参考等。大多数热敏打印机尺寸都很小，可以随身携带并放在游戏桌上。用例范围从打印团队发现的魔法物品、咒语或字母到用作 DM 笔记的玩家的小字符表。可能性几乎是无限的！打印机设置 • 已测试的打印机 • Wiki 重要提示：如果您��使用此功能时遇到困难，最好访问我们的 Discord。 - Linux（x64、ARM64） - Raspberry Pi（ARMv6、ARMv7） - Android（实验性） - 任何其他 go 都可以编译 - 通过 Nunjucks 的广泛模板系统 - 广泛的随机生成系统 - 各种连接方法 - Windows 直接打印 - Android USB 打印 - 导入和导出模板和数据源 - 快速访问 Open5e 等外部数据源（即时访问 SRD 怪物、咒语等） - 从其他来源导入数据： - FoundryVTT 模块 - 图
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: dnd-tools, dnd5e, dungeon-master, dungeons-and-dragons, epson, llm
+
+---
+
+### 🌟 [awesome-web-agents](https://github.com/steel-dev/awesome-web-agents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,501
+- **核心概述**: 🔥 用于构建 AI Web 代理的工具、框架和资源列表
+- **大概是做什么的**: 用于构建可以浏览网络并与网络交互的人工智能代理的工具、框架和资源的精选列表。 Steel 是专为 AI 代理构建的开源浏览器 API。我们让构建能够有效地与网络交互的人工智能应用程序变得容易。 ✨ 在这里免费开始。 - 出色的 Web 代理 - 自治 Web 代理 - 计算机使用代理 - AI Web 自动化工具 - AI Web 爬虫/爬虫 - Web 搜索\和查询工具 - 基准\和研究 - 教程\和指南 - 有兴趣实施 Steel？ - 加入社区自治网络代理人工智能代理，通过用户友好的界面自主导航并与网络交互。 （又名浏览器代理） - Surf.new - 一个用于与不同网络代理聊天的开源游乐场。 - OpenAI Operator - OpenAI 的 AI 代理可以为您浏览网页。 - 浏览器使用 - SOTA 代理和框架，使网络 LLM 友好。 - Skyvern-AI - 自动化基于浏览器的工作流程的框架。 - Google Project Mariner - 一个研究原型，探索人机交互的未来，从您的 b 开始
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, awesome, awesome-list, browser-automation, llms
+
+---
+
+### 🌟 [Gito](https://github.com/Nayjest/Gito)
+- **项目语言**: Python
+- **星标数量**: ⭐ 380
+- **核心概述**: 一种基于人工智能的 GitHub 代码审查工具，使用法学硕士来检测高可信度、高影响力的问题，例如安全漏洞、错误和可维护性问题。
+- **大概是做什么的**: Gito 是一款开源 AI 代码审查器，可与任何语言模型提供商合作。它可以即时、可靠地检测 GitHub 拉取请求或本地代码库更改中的问题，且无需供应商锁定。在几秒钟内获得一致、彻底的代码审查——无需等待人工可用性。 📋 目录 - 支持的平台和集成 - 安全和隐私 - 1. 通过 GitHub Actions 查看 Pull 请求 - 2. 在本地运行代码分析 - 指南和参考 - 命令行参考 ↗ - 配置手册 ↗ - GitHub 设置指南 ↗ - GitLab 设置指南 ↗ - 线性集成 ↗ - Atlassian Jira 集成 ↗ - 使用 Gito 生成文档 ↗ - [⚡] Lightning快速：在几秒钟内而不是几天内获得详细的代码审查 - 由并行 LLM 处理提供支持 - [🔧] 与供应商无关：可与任何语言模型提供商（OpenAI、Anthropic、Google、本地模型等）合作 - [🔒] 私有和安全：您的代码直接进入您选择的 LLM 推理提供商或本地模型 - 无需中间服务器 - [🌐] 通用：支持所有主要编程语言和框架 - [🔍] 综合 A
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-code-analysis, ai-code-review, ai-code-reviewer, ai-coding, ai-coding-assistant
+
+---
+
 ## 🕔 2026-07-10 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
