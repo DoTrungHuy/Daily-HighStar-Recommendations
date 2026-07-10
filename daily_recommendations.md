@@ -1,3 +1,67 @@
+## 🕔 2026-07-09 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [astrid](https://github.com/unicity-astrid/astrid)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 10,321
+- **核心概述**: Unicity Astrid OS：人工智能代理的安全操作系统。
+- **大概是做什么的**: 人工智能代理的模块化操作系统。使用密封部件进行构建，稍后更换任何部件，并保持所有功能均处于控制之中。 Unicity Astrid OS 对待 AI 代理的方式就像操作系统对待进程的方式一样。每项能力都是一个密封的 WebAssembly 胶囊：模型、循环、内存、工具、技能、防护和前端。将它们组成一个代理，稍后交换任何部分，代理永远不会获得比您提供的更多的东西。 Unicity Astrid OS 位于您已使用的代理下方。下面的内核很小并且故意愚蠢。它路由事件、强制执行功能、运行沙箱并记录审计跟踪；它不包含模型、工具模式或业务逻辑。越狱、中毒工具或普通错误仍然无法读取文件、访问网络或在其授权之外生成进程。权威是内核强制执行的一种能力，而不是模型被信任遵循的指令。从 Astrid 网站开始进行现场参观，从架构书或贡献者手册开始为 Unicity Astrid OS 做出贡献。为什么 Unicity Astrid OS 存在 Agent 框架把 tr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, ai-agents, capability-security, llm, mcp, microkernel
+
+---
+
+### 🌟 [botpress](https://github.com/botpress/botpress)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 14,772
+- **核心概述**: 用于构建和部署 GPT/LLM 代理的开源中心 ⚡️
+- **大概是做什么的**: Botpress 是构建由 OpenAI 提供支持的下一代聊天机器人和助手的终极平台。开始以闪电般的速度为您的项目或业务构建令人难以置信的助手。该存储库包含： - 集成 - Botpress Hub 上由 Botpress 维护的所有公共集成 - 开发工具 - 所有 Botpress 云开发工具（CLI、SDK、API 客户端） - 机器人 - 仅使用 SDK 和 CLI 制作的“代码”机器人示例 - 插件 - Botpress Studio 上的所有插件（即将推出） 我们喜欢社区的贡献！我们欢迎与此存储库中包含的任何代码相关的拉取请求和问题。有关更多详细信息，请参阅此存储库部分。对于与 Botpress Cloud 相关的错误或功能，您可以在此存储库上创建问题，但请记住，通过在 Discord 上与我们交谈，您将获得更快的响应！对于与本地 Botpress v12 相关的任何问题，请参阅 Botpress v12 存储库。 /integrations 文件夹包含我们所有的公共和开源集成。我们邀请社区为我们的集成做出贡献
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, botpress, chatbot, chatgpt, gpt
+
+---
+
+### 🌟 [meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,060
+- **核心概述**: 元广告 (Facebook/Instagram) 用于 Claude、ChatGPT、Perplexity 和 Cursor 的 MCP 服务器 — Pipeboard 5 平台系列（+ Google、TikTok、Snap、Reddit）的元节点。托管远程 MCP、Meta 业务合作伙伴徽章、免费计划 — 无需自托管。
+- **大概是做什么的**: 模型上下文协议 (MCP) 服务器可让 AI 助手（Claude、ChatGPT、Perplexity、Cursor 或任何 MCP 客户端）端到端运行您的元广告：启动营销活动、上传创意、更新预算，并通过 Facebook、Instagram 和每个元广告界面上的自然对话来分析效果。可用作托管远程 MCP — 无需开发人员令牌，无需自托管。 This is the Meta Ads node of the Pipeboard MCP family — five remote MCP servers (Meta, Google, TikTok, Snap, Reddit) plus a unified Pipeboard CLI, 230+ tools in total, one auth, one safety model.如果您要比较单平台 MCP，您所关注的是网络的一个节点 — 请参阅下面的 Pipeboard MCP 系列。注意：这是一个独立的开源项目，使用Meta的公共API。它背后的托管服务 - Pipeboard - 是一个带有徽章的 Meta 业务合作伙伴和官方批准的 Meta 应用程序，只需一次登录即可管理 Meta、Google、TikTok、Snap 和 Reddit 广告（免费计划） - 因此它既不是仅限 Meta，也不是您必须自行托管的东西。 Meta、Facebook、Instagram 和其他 Meta 胸罩
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: advertising, ai-agents, chatgpt, claude, facebook-ads, instagram-ads
+
+---
+
+### 🌟 [selfhost-ai](https://github.com/kossakovsky/selfhost-ai)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 896
+- **核心概述**: 🚀 自托管人工智能自动化平台。使用一个命令即可部署 n8n、Ollama、Flowise、RAG、Supabase 和 30 多种工具。自动 HTTPS。免费扎皮尔/做出替代方案。
+- **大概是做什么的**: Selfhost AI — 自托管 AI 自动化平台 使用单个命令部署 30 多种 AI 和自动化工具。这个开源 Docker Compose 模板创建了一个完整的自托管环境，其中包含 n8n（工作流程自动化）、Flowise（AI 代理）、Ollama（本地 LLM）、矢量数据库（Qdrant、Weaviate）、RAG 引擎、Supabase、监控堆栈等，所有这些都在带有自动 HTTPS 的 Caddy 反向代理后面进行了预配置。另外，还可以在设置过程中选择导入 300 多个社区工作流程！ - 快速启动和使用 - 私人 AI Homelab — 使用 Ollama 在本地运行 LLM，将数据保存在您自己的服务器上 - ChatGPT 替代方案 — 开放 WebUI 为本地 AI 模型提供熟悉的���天界面 - 工作流程自动化 — n8n 具有 400 多个集成，可扩展的基于队列的架构 - AI Agents 和 RAG — Flowise、Dify、LangChain、矢量数据库（Qdrant、Weaviate） - 一个命令安装 — 交互式向导、自动机密、零手动配置 - 自动 HTTPS —具有自动 Let's Encrypt 证书的 Caddy 反向代理 - 内置监控 - 包括 Grafana + Prometheus 堆栈 - 生产就绪
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automation, chatgpt-alternative, dify, docker
+
+---
+
+### 🌟 [ome](https://github.com/ome-projects/ome)
+- **项目语言**: Go
+- **星标数量**: ⭐ 478
+- **核心概述**: 开放模型引擎 (OME) — 用于 LLM 服务、GPU 调度和模型生命周期管理的 Kubernetes 运算符。适用于 SGLang、vLLM、TensorRT-LLM 和 Triton
+- **大概是做什么的**: OME（开放模型引擎）——用于 LLM 服务的 Kubernetes Operator OME（开放模型引擎）是一个用于企业级管理和大型语言模型 (LLM) 服务的 Kubernetes 运营商。它通过自动化模型管理、智能运行时选择、高效的资源利用和复杂的部署模式来优化 LLM 的部署和操作。阅读文档以了解有关 OME 功能和特性的更多信息。 - 模型管理：模型是 OME 中的一等公民自定义资源。复杂的模型解析直接从模型文件中提取架构、参数计数和功能。支持具有自动修复、双重加密、命名空间范围和多种格式（SafeTensors、PyTorch、TensorRT、ONNX）的分布式存储。请参阅支持的模型参考，了解预配置模型的完整列表，包括 Llama、Qwen、DeepSeek、Gemma、Phi 和 80 多个其他模型系列。 - 智能运行时选择：通过基于架构、格式、质量的加权评分，将模型自动匹配到最佳运行时配置
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deepseek, k8s, kimi-k2, llama, llm, llm-inference
+
+---
+
+### 🌟 [restai](https://github.com/apocas/restai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 512
+- **核心概述**: RESTai 是一个 AIaaS（人工智能即服务）开源平台。支持 Ollama/vLLM/等支持的许多公共和本地 LLM。精确的嵌入使用、调整、分析等。带有动态加载生成器的内置图像/音频生成。实时聊天部署。内置基于块的图形语言。提示版本控制等等...
+- **大概是做什么的**: AIaaS（人工智能即服务）——创建人工智能项目并通过简单的 REST API 使用它们。尝试 RESTai，无需安装 — ai.retai.cloud 登录：demo / demodemo（受限帐户 — 可以浏览和聊天，但无法创建或修改项目） 使用 env 文件进行配置：可在 PyPI 上使用 — 包括预构建的 React 前端，不需要 Node.js。从源代码运行（开发）拉取官方预构建映像（多架构 - linux/amd64 和 linux/arm64 ）：也以 ghcr.io/apocas/retai:latest 的形式发布到 GitHub 容器注册表。使用 :6.2.13 （或 :6.2 、 :6 ）而不是 :latest 固定版本。或者使用捆绑的 compose 堆栈在本地构建：从 GitHub 获取最新版本标签、安装依赖项、运行数据库迁移并重建前端。自动检测 GPU 特定于 GPU 的 deps。 - 多项目 AI 平台 — RAG（可选 SQL 到 NL 和从 URL/S3 自动同步）、代理、块（视觉逻辑）和推理在一个地方 - 包括完整的 Web UI - 带分析的 React 仪表板，而不仅仅是 API - 任何 LLM - OpenAI、Anthropic、Ollama、Gemini、LiteLLM、vLLM、Azure、
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: blocky, embeddings, fastapi, langchain, llama, llamaindex
+
+---
+
 ## 🕔 2026-07-09 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
