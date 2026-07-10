@@ -1,3 +1,67 @@
+## 🕔 2026-07-10 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 179 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [meridian](https://github.com/rynfar/meridian)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,637
+- **核心概述**: 将您的 Claude Max 订阅与 OpenCode、Pi、Droid、Aider、Crush、Cline 一起使用。连接 Anthropic 官方 SDK 的代理，以在第三方工具中启用 Claude Max。
+- **大概是做什么的**: Meridian 将 Claude Code SDK 与标准 Anthropic API 连接起来。没有 OAuth 拦截。没有二进制补丁。没有黑客。只是纯粹的、有记录的 SDK 调用。任何使用 Anthropic 或 OpenAI 协议的工具（OpenCode、ForgeCode、Crush、Cline、Aider、Pi、Droid、Open WebUI、Claude Code）都会连接到 Meridian 并获取 Claude，会话管理、流式传输和提示缓存均由 SDK 本地处理。 Meridian 与 Anthropic Meridian 的配合方式完全基于 Claude Code SDK 构建。每个请求都流经 query()——Anthropic 为编程访问提供了相同的记录函数。不会提取任何 OAuth 令牌，不会修补任何二进制文件，也不会进行任何逆向工程。由于我们使用 SDK，Anthropic 仍然可以完全控制提示缓存、上下文窗口管理、压缩、速率限制和身份验证。 Meridian 不会绕过这些机制——它依赖于它们。最大订阅代币流经正确的渠道，由 Claude Code 中内置的相同护栏 Anthropic 管理。 Meridian 添加的是表示层和互操作性层。我们
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding, aider, anthropic, bun, charmbracelet, claude
+
+---
+
+### 🌟 [trulens](https://github.com/truera/trulens)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,434
+- **核心概述**: LLM实验和AI代理的评估和跟踪
+- **大概是做什么的**: 🦑 欢迎来到 TruLens！不要只是检查你的 LLM 应用程序！使用 TruLens 系统地评估和跟踪您的法学硕士实验。当您开发包括提示、模型、检索器、知识源等的应用程序时，TruLens 是您了解其性能所需的工具。细粒度、与堆栈无关的仪器和全面的评估可帮助您识别故障模式并系统地迭代以改进您的能力。阅读有关 TruLens 背后的核心概念的更多信息，包括反馈功能以及诚实、无害和有用的评估。开发工作流程中的 TruLens TruLens。确定您需要哪些反馈，并使用 TruLens 指定它们以与您的应用程序一起运行。然后在易于使用的用户界面中迭代和比较应用程序的版本。 安装和设置 从 PyPI 安装 trulens pip 包。使用特定的 LLM 提供商进行安装以进行反馈评估：使用特定的应用程序框架集成进行安装：演练如何使用 🔭 基于 OpenTelemetry 的跟踪来检测和评估从头开始构建的 RAG TruLens 检测基于 OpenTelemetry 构建。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-evaluation, agentops, ai-agents, ai-monitoring, ai-observability, evals
+
+---
+
+### 🌟 [pgGraph](https://github.com/Evokoa/pgGraph)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 512
+- **核心概述**: 开源图形数据库对您现有的 Postgres 数据具有强大的能力。
+- **大概是做什么的**: 图形数据库对现有 Postgres 数据的强大功能。 pgGraph 是一个 PostgreSQL 扩展，用于直接针对普通 PostgreSQL 表运行图形搜索、遍历、最短路径和关系查询。您的表格仍然是事实的来源。 pgGraph 构建派生图索引，并允许您使用图模式中的函数从 SQL 查询它。正在寻找托管版本？我们在 polygres.com 上推出了 pgGraph 的托管版本，以在 Postgres 上实现完整的高性能 GraphRAG。 PostgreSQL 擅长关系查询，但图形样式问题通常需要为每个模式自定义递归 SQL： - “在 2 个跃点内查找与 Alice 相关的记录。” - “找到这个人和这家公司之间的最短路径。” - “跨注册表搜索节点。” pgGraph 在现有的 PostgreSQL 表之上添加图形查询，无需单独的图形数据库、特定于图形的存储系统或新的尝试 pgGraph 的最快方法是拉取预构建的 Docker 映像 — 否 该映像是多架构的（ linux/amd64 和 linux/arm64 ）并且适用于 macOS、Linux 和 Window
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-agents-framework, graph, graph-database, pgrx
+
+---
+
+### 🌟 [crw](https://github.com/us/crw)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 302
+- **核心概述**: Rust 中的快速、轻量级 Firecrawl/Tavily 替代方案。带有用于 AI 代理的 MCP 服务器的网络爬虫、爬虫和搜索 API。嵌入式 Firecrawl 兼容 API（/scrape、/crawl、/search）。在 1K-URL 基准测试中，比 Tavily 快 2.3 倍，比 Firecrawl 快 1.5 倍。 6 MB RAM，单个二进制文件。自托管或使用托管云。
+- **大概是做什么的**: 适用于 AI 代理的 Web 数据 API — 搜索、抓取、映射和抓取任何网站，将其转换为干净的 Markdown 或 JSON。使用托管云实现零基础设施，或自行托管相同的开源引擎。从 Python、TypeScript、cURL 或 MCP 开始——你永远不会接触 Rust。在真实回忆方面击败 Firecrawl 和 Crawl4AI — 根据 Firecrawl 自己的公共数据集进行测量。快速入门 — 30 秒内第一次抓取 获取免费 API 密钥 → fastcrw.com/register — 500 个免费积分（1 个积分 ≈ 1 页），无卡。在这两个 SDK 中， page 都是普通对象（ markdown 、metadata 、 contentType 等），因此 page["markdown"] / page.markdown 是干净的内容：通过 cURL，您将获得包含在 {"success": true, "data": { … }} 中的相同字段。不想使用 SDK？每个示例都通过纯 HTTP 针对 https://api.fastcrw.com 运行。第一次刮擦就花费了您 500 个免费积分中的 1 个 — 请参阅计划 → 当您需要更多积分时。有一页吗？抓取整个网站： crw.crawl("https://docs.example.com") 返回每个页面 - 然后在核心操作中搜索、映射和提���。完整文档：快速入门 → · API 参考 → - 最准确 - 最高的真实召回率（多少
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, crawler, data-extraction, docker, firecrawl
+
+---
+
+### 🌟 [agentic-threat-hunting-framework](https://github.com/Nebulock-Inc/agentic-threat-hunting-framework)
+- **项目语言**: Python
+- **星标数量**: ⭐ 322
+- **核心概述**: ATHF 是一个代理威胁狩猎的框架 - 构建能够记忆、学习和以越来越高的自主性行动的系统。
+- **大概是做什么的**: 代理威胁搜寻框架 (ATHF) 快速入门 • 安装 • 文档 • 示例 为您的威胁搜寻程序提供内存和代理。代理威胁搜寻框架 (ATHF) 是威胁搜寻程序的内存和自动化层。它为你的狩猎提供了结构、持久性和背景——使人类和人工智能都可以访问过去的每一次调查。 ATHF 适用于任何狩猎方法（PEAK、TaHiTI 或您自己的流程）。它不是替代品；而是替代品。该层使您现有的流程适合人工智能。 ATHF 为威胁搜寻程序提供结构和持久性。它是一个基于 Markdown 的框架，可以： - 使用 LOCK 模式进行文档搜寻（学习 → 观察 → 检查 → 保留） - 维护过去调查的可搜索存储库 - 使 AI 助手能够参考您的环境和之前的工作 - 可与任何 SIEM/EDR 平台配合使用 - 新功能：包括 AI 支持的研究和假设生成代理 (v0.3.0+) 大多数威胁搜寻程序在搜寻结束后会失去有价值的上下文。注释存在于 Slack 或票据中，查询一次性编写
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, automation, cybersecurity, detection-engineering, pypi
+
+---
+
+### 🌟 [nvidia_gpu_exporter](https://github.com/utkuozdemir/nvidia_gpu_exporter)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,508
+- **核心概述**: 使用 nvidia-smi 二进制文件的 Nvidia GPU 导出器 for prometheus
+- **大概是做什么的**: Prometheus 的 Nvidia GPU 导出器，使用 nvidia-smi 二进制文件收集指标。维护状态：我知道如果没有收到您提出的内容或您建议的更改的回复，可能会令人沮丧。但老实说，一年多了，我几乎没有时间跟上我的个人开源项目，包括这个项目。我仍然致力于保持这个工具的运行并慢慢地向前推进，但是如果我暂时无法解决您的修复问题或检查您的代码，请耐心等待。感谢您的理解。那里有许多 Nvidia GPU 导出器，但它们都存在问题，例如不维护、不提供预构建的二进制文件、依赖 Linux 和/或 Docker、针对企业设置 (DCGM) 等等。这是一个简单的导出器，使用 nvidia-smi(.exe) 二进制文件来收集、解析和导出指标。这使得它可以在 Windows 上运行并在玩游戏时获取 GPU 指标 - 不需要 Docker 或 Linux。该项目基于a0s/nvidia-smi-exporter。然而，这个是用 Go 编写的，用于生成单个静态二进制文件。如果哟
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cryptocurrency, gaming, llm, llm-training, monitoring
+
+---
+
 ## 🕔 2026-07-10 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
