@@ -1,3 +1,67 @@
+## 🕔 2026-07-10 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [dash](https://github.com/agno-agi/dash)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,101
+- **核心概述**: 根据系统工程原理构建的自学习数据代理。它根据 6 层上下文提供答案，并随着每次查询而改进。
+- **大概是做什么的**: 根据系统工程原理构建的自学习数据代理。它根据 6 层上下文提供答案，并随着每次查询而改进。通过 Slack、终端或 AgentOS Web UI 与 Dash 聊天。确认 Dash 正在 http://localhost:8000/docs 上运行。连接到 Web UI 1. 打开 os.agno.com 并登录 2. 添加操作系统 → 本地 → http://localhost:8000 尝试一下（SaaS 指标数据集）： - 我们当前的 MRR 是多少？ - 哪个计划的流失率最高？ - 按计划���示过去 6 个月的收入趋势 - 哪些客户面临流失风险？ Railway 部署使用 .env.Production 将生产凭据与本地开发分开。步骤 1：部署基础设施 这将创建 Railway 项目、数据库和应用程序服务。该应用程序将崩溃循环，直到在下一步中添加 JWT 密钥 - 这是预期的。步骤 2：获取 JWT 密钥 生产环境需要来自 AgentOS 的 JWT 验证密钥。您需要步骤 1 中的 Railway 域才能进行设置。 1. 从步骤 1 的输出中复制您的 Railway 域名（例如 dash-product-xxxx.up.railway.app ） 2. 打开 os.agno.com 并登录 3. 添加 O
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agno, ai-agents, text-to-sql
+
+---
+
+### 🌟 [awesome-LangGraph](https://github.com/vonzosten/awesome-LangGraph)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,893
+- **核心概述**: LangChain + LangGraph 生态系统的索引：LLM 和多代理应用程序的概念、项目、工具、模板和指南。
+- **大概是做什么的**: 🦜🕸️ 很棒的 LangGraph 和 LangChain 生态系统 对于想要使用 LangChain + LangGraph 堆栈构建、观察、评估和部署有状态、使用工具的 AI 代理的团队来说，框架、模板和实际项目的权威索引。无论您是对第一个工作流程进行原型设计还是操作生产系统，此列表都映射了代理开发的整个生命周期，从使用核心库和集成进行构建，到使用平台工具观察运行、评估质量和行为以及部署可靠的代理应用程序。 - 核心框架：LangChain、LangGraph、Deep Agents 和 LangSmith - 用于构建、观察、评估和部署代理系统的资源 - 跨模型、向量存储、加载器和工具的集成和 MCP 工具 - 官方 LangChain/LangGraph 项目和预构建代理库 - 按用例分组的社区项目（RAG、网络自动化、研究、金融等） - 入门模板和学习资源，以快速提高生产力 欢迎贡献 - 请参阅贡献指南。 - 🦜🕸️ 很棒的 LangGraph \& LangChain 生态系统 - Ec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, awesome, awesome-list, langchain, langgraph, llm
+
+---
+
+### 🌟 [LoongForge](https://github.com/baidu-baige/LoongForge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: 适用于 LLM、VLM、扩散和体现模型的模块化、可扩展、高性能培训框架。
+- **大概是做什么的**: 适用于 LLM、VLM、扩散和体现模型的模块化、可扩展、高性能培训框架。 🚀 高达 5.04 倍的训练加速  ·  🌐 原生 NVIDIA GPU 和昆仑 XPU 支持 🐉 LoongForge 是百度白鸽 Loong 开源系列的一部分 - 以中国传统龙舟（龙舟）命名，象征着协调的力量和前进的动力。 LoongForge是LLM、VLM、扩散和体现模型的统一训练框架，涵盖预训练、持续预训练和SFT。它以 Megatron-LM 为基础，在模型覆盖范围、训练性能和硬件支持方面进行了深入的系统增强，与主流开源基准相比提供了显着的加速。在开源之前，LoongForge 被开发为 AIAK-Training-LLM，百度白鸽的训练加速栈。它为教育、计算机视觉和嵌入式人工智能领域的企业客户提供生产培训支持，通常比客户基线提高 30% 50% 的速度，最大的生产运行达到 5,000 多个 XPU。 - [2026/07] ✨ 添加了培训支持
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, diffusion, distributed, dit, infra, llm
+
+---
+
+### 🌟 [ai-dial-chat](https://github.com/epam/ai-dial-chat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 500
+- **核心概述**: AI DIAL 的默认 UI
+- **大概是做什么的**: DIAL 聊天是 DIAL 的默认 UI。 DIAL 可以用作无头系统，但建议使用 UI 来学习该功能。最初从 chatbot-ui 分叉，然后完全重新设计并在 apache 2.0 许可证下发布，而从原始存储库获取的代码仍然受原始 MIT 许可证的约束。由于返工，我们引入了许多新功能，例如各种 IDP 支持、模型并排比较、DIAL 扩展支持、对话重播、品牌推广等等。该存储库由 NX 工具作为 monorepo 进行管理。 - DIAL 聊天文档放置在此处。 - DIAL 聊天主题文档位于此处。 - DIAL Overlay 文档位于此处。 - DIAL Chat Visualizer Connector 文档位于此处。 - DIAL Visualizer Connector 文档位于此处。 - DIAL 自定义查看器文档位于此处。 - 文档中描述了独立视图模式。在 DIAL 存储库中，您可以找到 DIAL Chat 应用程序的用户指南。为了使用这个存储库，我们使用 NX。注意：所有命令都可以在 package.json 的脚本部分找到。运行此命令
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-dial, llm
+
+---
+
+### 🌟 [sdd-riper](https://github.com/huisezhiyin/sdd-riper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: 用于代理编码的轻量级 AI 代理线束：让强大的模型进行探索，而人类则以最少的规格、检查点、批准、验证和反向同步进行驾驶。
+- **大概是做什么的**: SDD-RIPER Light：AI Agent Harness 让模型推动工作向前发展。让人类拥有目标、界限、权限、检查点、证据和接受。 SDD-RIPER 是一个上下文优先的 LLM 任务自动化工具包，用于与强大的编码代理一起工作。它不是一个神奇的提示，也不是重量级的规范驱动的开发。它是一小组控件和配套技能，使模型驱动的工作可观察、可恢复、可审查并且可以安全地恢复。默认条目是 sdd-riper-one-light 。当任务需要更严格的门、更密集的工件或训练/审计就绪跟踪时，请使用更重的 sdd-riper-one。该存储库围绕四种互补技能进行组织： - sdd-riper-one-light 和 sdd-riper-one 控制执行、检查点、验证和反向同步。 - 代码映射将不熟悉的代码转换为面向代理的上下文索引。 - new-chat-ready 保留新聊天、切换和长时间暂停的恢复上下文。使用此提示进行普通编码或文档工作： 对于不熟悉的代码，首先要求提供 CodeMap： 对于新鲜聊天交接： 这四种技能共享
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-coding, ai-agent, ai-agent-harness, ai-coding, ai-programming, checkpoint-driven
+
+---
+
+### 🌟 [scout](https://github.com/agno-agi/scout)
+- **项目语言**: Python
+- **星标数量**: ⭐ 625
+- **核心概述**: 开源公司大脑
+- **大概是做什么的**: Scout：公司情报代理 Scout 是一个开源公司情报代理。它导航实时信息源（Web、slack、drive、wiki、CRM、MCP 服务器）以按需组合上下文 - 并在了解您的公司时构建自己的 wiki 和 CRM。 YC 的 2026 年夏季 RFS 被命名为“公司大脑”和“公司人工智能操作系统”——从两个角度表达了同样的想法：从碎片化的来源中提取知识，并将其转化为人工智能可以采取行动的东西。大脑是数据层。操作系统在其之上运行。如今，两者都没有作为成品存在，但碎片却存在。 Scout 使用已经有效的模式将它们拼接在一起：搜索导航、上下文提供程序、代理 SQL 和持久内存。通过搜索进行导航。使用知识源时的默认做法是将所有内容摄取到向量数据库中、分块、嵌入和祈祷。这不起作用的原因有很多。编码代理找到了正确的方法。他们导航： ls 、 grep ，打开文件，然后导入。 Scout 在 Slack、Drive 和其他平台上也做了同样的事情。侦察兵保持其o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agno, ai-agents, crm, knowledge
+
+---
+
 ## 🕔 2026-07-10 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
