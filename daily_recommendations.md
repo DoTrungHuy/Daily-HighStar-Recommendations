@@ -1,3 +1,67 @@
+## 🕔 2026-07-10 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openlake](https://github.com/openlake-project/openlake)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,783
+- **核心概述**: OpenLake 是一个高性能存储引擎，用于高效的 LLM 推理和 GPU 训练
+- **大概是做什么的**: 从 NVMe 到 GPU 内存的最短路径。适用于 GPU 工作负载的分布式对象存储。 OpenLake 基于 Rust on io ing 构建，是一种最先进的存储引擎，可在 1 毫秒内提供超过百万次的 iops。 Discord · 网站 · 比较 · 架构 · 快速入门 OpenLake 是用于 AI 基础设施的对象存储。训练和推理集群花费很大一部分时钟时间将字节从存储移动到 GPU 内存，大多数对象存储将主机 CPU、页面缓存和多个用户空间副本直接放在该路径中。 OpenLake 是一种高吞吐量、低延迟的存储引擎，适用于高吞吐量 GPU 工作负载。 - io uring，每个核心的线程。构建在基于 compio 完成的运行时之上。每个核心一个运行时，固定，无工作窃取。 HTTP 前端和存储引擎在同一线程上运行，因此请求永远不会跨越热路径上的核心边界。 - 没有内核参与。 GPUDirect Storage 和 RDMA，数据从对等 NIC 移动到 GPU VRAM 零复制，消除了主机内存和页面缓存。参见建筑学。 - 纠删码。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: blackwell, gpt, gpu, high-performance, llm, llm-training
+
+---
+
+### 🌟 [agentUniverse](https://github.com/agentuniverse-ai/agentUniverse)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,296
+- **核心概述**: agentUniverse是一个LLM多代理框架，允许开发人员轻松构建多代理应用程序。
+- **大概是做什么的**: 语言版本： English 中文 日本语 什么是agentUniverse？ agentUniverse是一个基于大型语言模型的多智能体框架。它为构建单独的代理提供了灵活且易于扩展的功能。 AgentUniverse的核心是一套丰富的多Agent协作模式组件（作为协作模式工厂），它允许Agent在解决不同领域的问题时各司其职，最大限度地发挥自己的能力；同时，agentUniverse注重领域经验的融合，帮助您将领域经验顺利融入到智能代理的工作中。🎉🎉🎉🌈🌈🌈agentUniverse源自蚂蚁集团（https://github.com/antgroup）的真实金融业���实践，致力于帮助开发者和企业轻松构建协作完成任务的领域专家级智能代理。我们期待您通过社区进行不同领域的实践和交流与分享。这个框架已经放置了很多有用的com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, autonomous, awesome, awesome-list
+
+---
+
+### 🌟 [AI-Compass](https://github.com/tingaicompass/AI-Compass)
+- **项目语言**: Python
+- **星标数量**: ⭐ 844
+- **核心概述**: “AI-Compass”将为社区指引在 AI 技术海洋中航行的方向，无论你是初学者还是进阶开发者，都能在这里找到通往 AI 各大方向的路径。旨在帮助开发者系统性地了��� AI 的核心概念、主流技术、前沿趋势，并通过实践掌握从理论到落地的全过程。
+- **大概是做什么的**: AI-Compass 将为你和社区提供在AI技术海洋中航行的方向与指引。无论你是刚踏入AI领域的初学者，还是寻求技术突破的进阶开发者，都能在这里找到通往AI各大技术方向的清晰路径和实践指南。作为一个全面覆盖人工智能技术栈的综合性开源项目， AI-Compass 不仅仅是一个简单的资源收集库，更是一个经过精心策划和系统化组织的AI学习生态系统 。 我们深度 整合了从基础理论到前沿应用的完整知识体系，涵盖大语言模型、多模态AI、机器学习、深度学习、计算机视觉、自然语言处理、推荐系统、强化学习等核心技术领域 ，以及 RAG 、 Agent 、GraphRAG等前沿应用架构。项目还包含了丰富的工程实践资源，从模型训练、推理部署到产品化落地的全流程技术指南，帮助开发者构建从概念验证到商业化应用的完整技术能力。 除了作为资料库阅读， 这个仓库也适合作为 AI 编程助手的本地知识库 。你只需要 fork 或下载整个仓库到本地，就可以直接结合 Claude Code 、 Codex 等工具，对仓库内容进行 智能问答、专题检索、项目结构拆解和学习路线梳理 ；无论是快速理解某个目录、追问某个技术点，还是让 AI 深入拆解一个完整项目，这个仓库都能直接提供高质量上下文。 如果你准备把它长期作为本地知识库使用，建议把 weeklyHighlights/latest.md 、 weeklyHighlights/INDEX.md 和 weeklyHighlights/README.md 一起交给 AI 阅读。这样 AI 更容易区分 长期沉淀内容 与 周度增量更新 ，回答“最近有什么变化”“过去几周提到过哪些产品/模型”这类问题时会更稳定。 🎫 AI Compass知识星球优惠券 AI-Compass 致力于构建最全面、最实用、最前沿的AI技术学习和实践生态，通过九大核心模块的系统化组织，为不同层次的学习者和开发者提供从入门到精通的完整学习路径。 - ✍️ 博客模块 ：沉淀体系化技术文章，当前覆盖 Python 基础、算法题解与编程能力提升，后续会持续更新 LLM 相关指南、面试技巧与面试题、企业级逻辑项目讲解等内容 - 💻 Code模块 ：提供可运行的 AI 实战代码与 Demo，当前包含 RAG 等工程样例，后续会持续补充更多项目实战代码，便于直接调试、复用，以及让 AI 做代码级问答与项目拆解 - 🧠 基础知识模块 ：作为入门与选型入口，整合AI导航工具、Prompt工程、LLM测评榜、语言大模型与多模态大模型资源 - ⚙️ 技术框架模块 ：包含Embedding模型、训练框架、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, llm, llm-inference, llm-training, nlp
+
+---
+
+### 🌟 [MiniSearch](https://github.com/felladrin/MiniSearch)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 575
+- **核心概述**: 极简网络搜索平台，带有直接从浏览器运行的人工智能助手。演示：https://felladrin-minisearch.hf.space
+- **大概是做什么的**: 一款极简主义的网络搜索应用程序，带有直接从浏览器运行的人工智能助手。现场演示：https://felladrin-minisearch.hf.space - 注重隐私：无跟踪、无广告、无数据收集 - 易于使用：适合所有用户的简约而直观的界面 - 跨平台：模型在浏览器内运行，无论是在桌面还是移动设备上 - 集成：通过将浏览器地址栏设置为默认搜索引擎进行搜索 - 高效：仅在需要时加载和缓存模型 - 可自定义：可调整搜索结果和文本生成的设置 -开源：代码可在 GitHub 上进行检查和贡献 以下是开始使用 MiniSearch 的最简单方法。选择最适合您的一款。选项 1 - 通过在终端中运行来使用 MiniSearch 的 Docker 映像： 选项 2 - 将 MiniSearch 的 Docker 映像添加到现有的 Docker Compose 文件中： 选项 3 - 通过下载存储库文件并运行从源代码构建： 容器运行后，在浏览器中打开 http://localhost:7860 并开始搜索！常见问题 我可以使用吗
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-search-engine, artificial-intelligence, generative-ai, gpu-accelerated, information-retrieval
+
+---
+
+### 🌟 [Simulator-Controller](https://github.com/SeriousOldMan/Simulator-Controller)
+- **项目语言**: AutoHotkey
+- **星标数量**: ⭐ 425
+- **核心概述**: 模拟赛车的基于人工智能的虚拟维修站工作人员。使用最新的 GPT 技术在赛道上打造逼真的体验。
+- **大概是做什么的**: 模拟器控制器 模拟器控制器是一款用于模拟赛车的模块化且可扩展的管理和控制器应用程序。其核心是一个具有综合插件功能的自动化框架，它可以使用几乎任何外部控制器硬件（例如按钮盒）来控制典型的模拟器组件（例如 SimHub、SimFeedback 等）。除此之外，模拟器控制器还配备了多个基于人工智能技术的语音聊天助手。第一个是人工智能竞赛工程师，它将在比赛期间帮助你保持双手放在方向盘上。它将处理所有繁琐的事情，例如准备进站、关注天气预报、计算对单圈时间的损害影响等等。第二位助理是人工智能比赛策略师，他将密切关注比赛整体情况，并根据比赛位置、交通和天气变化制定和调整策略。下一个助手是人工智能比赛观察员，他将监视您的比赛，并就附近车辆的紧急情况向您发出警告，等等。最后，但不是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, artificial-intelligence, assistant, autohotkey, automation, chatbot
+
+---
+
+### 🌟 [coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 330
+- **核心概述**: Apple Core AI (iOS/macOS 27) 的社区模型动物园 + 知识库：Qwen3.5 和 Gemma 4 端到端转换、设备上验证 (iPhone 17 Pro GPU/ANE)、转换陷阱、自定义 Metal 内核、Swift 运行程序
+- **大概是做什么的**: LLM 转换为 Apple Core AI（.aimodel、iOS 27 / macOS 27）——可下载、在设备上进行验证，并带有转换代码和知识库。核心 AI 预训练的后继者 - 一条线，任何动物园模型，通过每种功能的相同手势 - KitTranscriber（目录：“whisper-large-v3-turbo”）是 3 行语音到文本（卡）。每个模型的卡片都带有完整的复制粘贴片段及其集成清单。下面的每一行还链接了一个准备构建的应用程序 - 在此存储库的 apps/ 或 CoreAIKit 示例中（标记为 ↗）。快速入门 — 在您的设备上运行模型 这是新功能吗？几分钟后，您将在设备上得到一个模型应答（需要 Xcode 27 + Mac 或 iOS/macOS 27 上的 iPhone/iPad）：该应用程序会在第一次选择时下载模型（之后缓存），然后完全离线运行。从小处开始，以获得最快的首次运行：Qwen3-0.6B (454 MB) 或 iPhone 上的 Qwen3.5-2B； Mac 上的任何仅限 Mac 的行。更喜欢终端？快速运行 chat-c​​li --model qwen3-0.6b --prompt "Hello" 来自 Examples/ChatDemo 。要将模型放入您自己的应用程序中，请从该模型的卡片中复制代码片段 - 它不是
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, apple-silicon, coreai, coreml, gemma4, granite
+
+---
+
 ## 🕔 2026-07-09 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 181 个候选项目中筛选出 6 个未推荐过的新项目。
