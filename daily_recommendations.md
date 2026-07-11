@@ -1,3 +1,67 @@
+## 🕔 2026-07-11 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [my-neuro](https://github.com/morettt/my-neuro)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,303
+- **核心概述**: 该项目可让您创建自己的 AI 桌面伴侣，其中包含可自定义的角色和仅需 1 秒即可响应的语音对话。功能包括长期记忆、视觉识别、语音克隆和法学硕士培训。兼容各种Live2D定制。
+- **大概是做什么的**: 云端部署肥牛整合包（文件路径不能有中文空格括号等字符）：点我下载 my-neuro的目标是打造专属个人的 AI 角色,打造出逼近真人的AI伙伴 - 通过您的数据印记,塑造出心目中理想的 TA 的形象。 此项目受neuro sama启发，所以取名为my-neuro（社区提供的名称） 项目可训练声音、性格、替换形象 您的想象力有多丰富，模型就能多贴近您的期望。本项目更像是一个工作台。利用打包好的工具，一步步亲手描绘并实现心中理想的 AI 形象。 如果你想用全部都用本地推理，使用本地的大语言模型（LLM）推理或者微调。不基于第三方的API的话，那可以进入LLM-studio文件夹，里面有本地模型的推理、微调指导。 如果想用闭源AI模型，推荐使用 DMXAPI 支持市面上大部分主流AI模型的统一调用。 - [x] 开源模型：支持开源模型微调，本地部署 - [x] 超低延迟：全本地推理，对话延迟在1秒以下 - [x] 语音定制：支持男、女声、各种角色声线切换等 - [x] MCP支持：可使用MCP工具接入 - [x] 实时打断：支持语音、键盘打断AI说话 - [ ] 真实情感：模拟真人的情绪变化状态，有自己的情绪状态。 - [ ] 超吊的人机体验(类似真人交互设计，敬请期待) - [x] 动作表情：根据对话内容展示不同的表情与动作 - [x] 集成视觉能力，支持图像识别，并通过语言意图判断何时���动视觉功能 - [x] 声音模型（TTS）训练支持，默认使用gpt-sovits开源项目 - [x] 字幕显示中文。音频播放是外语。可自由开启关闭（适用于TTS模型本身就是外语的角色） - [x] 桌面控制：支持语音控制打开软件等操作 - [x] AI唱歌（功能由： @jonnytri53 资金赞助开发，特此感谢） - [x] 直播功能：可在哔哩哔哩平台直播 - [x] AI讲课：选择一个主题，让AI给你讲课。中途可提问。偏门课程可植入资料到数据库让AI理解 - [x] web网页界面支持（已做好，近期会接入） - [x] 打字对话：可键盘打字和AI交流 - [x] 主动对话：根据上下文主动发起对话。目前版本V1 - [x] 手机app应用：可在安卓手机上对话的肥牛 - [x] 播放音效库中的音效，由模型自己决定播放何种音效 - [x] 游戏陪玩，模型和用户共同游玩配合、双人、解密等游戏。目前实验游戏为：你画我猜、大富翁、galgame、我的世界等游戏（当前接入：我的世界、galgame） - [x] 长期记忆，让模型记住你的关键信息，你的个性，脾气 - [ ] 变色功能：按照模型
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-vtuber, chatbots, live2d, llm
+
+---
+
+### 🌟 [gateway](https://github.com/adaline/gateway)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 599
+- **核心概述**: 唯一完全本地生产级的超级 SDK，提供简单、统一且功能强大的接口，用于调用 200 多个 LLM。
+- **大概是做什么的**: 唯一完全本地化的生产级超级 SDK，为调用 300 多个 LLM 提供简单、统一且功能强大的接口。 - 生产就绪并受到企业信任 - 完全本地化，而不是代理 - 将其部署在任何地方 - 内置批处理、重试、缓存、回调和 OpenTelemetry 支持 - 可通过用于缓存、日志记录、HTTP 客户端等的自定义插件进行扩展 - 将其用作构建块，与您的基础设施集成 - 支持即插即用提供程序 - 运行完全自定义的提供程序，同时利用 Adaline Gateway 的所有优势 - 🔧 TypeScript 强类型 - 📦 同构 - 随处可用 - 🔒 100% 本地、私有，而非代理 - 🛠️ 所有兼容 LLM 的工具调用支�� - 📊 通过自定义队列支持对所有请求进行批处理 - 🔄 具有指数退避功能的自动重试 - ⏳ 具有自定义缓存插件支持的缓存 - 📞 用于全面检测和挂钩的回调 - 🔍 OpenTelemetry 集成现有基础设施 - 🔌 用于本地和自定义模型的即插即用自定义提供程序 提供程序聊天模型 Embeddi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, anthropic, language-model, llm, llmops
+
+---
+
+### 🌟 [blockrun-mcp](https://github.com/BlockRunAI/blockrun-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 474
+- **核心概述**: 人工智能代理的实时数据——搜索、研究、市场、加密货币、X/Twitter。通过 x402 小额支付按通话付费。
+- **大概是做什么的**: 克劳德和任何人工智能代理的实时数据和真实交易。代理不能注册帐户。代理不能输入信用卡信息。代理人只能签署交易。 BlockRun MCP 为您的代理提供 19 种工具——市场、研究、网络搜索、图像、视频、链上数据和实时 Polymarket 交易——以 USDC 的每次调用付费。没有账户。没有 API 密钥。没有仪表板。通过一个自助钱包阅读赔率并下注。首次运行时自动创建钱包。使用 5 美元 USDC 进行融资。询问克劳德任何事情。 BlockRun MCP 是一款开源模型上下文协议服务器，为 Claude 和任何 MCP 兼容代理提供 19 种用于实时数据和实际操作的工具：55 个以上的 LLM、图像和视频生成、预测市场数据、实时 Web/X 搜索、跨 40 多个链的链上查询，以及在 Polymarket 上进行真实的、由 USDC 结算的投注的能力。身份验证是钱包签名（无 API 密钥）；您通过 x402 协议以 USDC 支付每次通话费用（无需信用卡，无需订阅）。 Base 或 Solana 上的一个自助钱包。麻省理工学院许可。 🏆 首创 — Claude 代码中的信号 → 交易循环 阅读 li
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, claude-code, llm, mcp, mcp-server, x402
+
+---
+
+### 🌟 [smithers](https://github.com/smithersai/smithers)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 314
+- **核心概述**: 具有完全可观察性和时间旅行的代理工作流程：实时观看每一步、倒带、分叉、重播任何运行。 Claude Code、Codex、Gemini、任何模型或安全带。
+- **大概是做什么的**: 您可以观看实时、倒带、分叉和重播的代理工作流程。告诉您的编码代理进行真实的多步骤工作，然后史密瑟斯运行它几分钟或几天：实时观察每一步，将有风险的步骤置于人工批准之后，并倒带、分叉或重放任何运行。相同的工作流程跨 Claude Code、Codex、Pi、AI SDK 模型和远程沙箱运行。时间旅行：从任何较早的帧中分出一个运行并分支一个备用时间线。每个步骤都是一个数据库行，因此内置了实时观看、倒带和重播。 - ⏪ 完全可观察性和时间旅行：实时观看每一步，然后从任何点倒带、分叉或重放任何运行。 - 🛡️ 能够承受崩溃的持久运行：每个已完成的步骤在完成时都会被保留，因此运行会从停止的地方恢复，而不是重新开始。 - 🔌 任何代理、任何模型：Claude Code、Codex、Pi、Antigravity 等，以及通过 AI SDK 的任何模型。无需重写工作流程即可更换线束。 - 🛠️ 更高质量的输出：审查循环、人工批准和评估为代理提供了实际工作所需的结构。 - 🧩 数十种现成的 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai-agents, background-agents, claude-code, codex, developer-tools
+
+---
+
+### 🌟 [ai-commits-intellij-plugin](https://github.com/Blarc/ai-commits-intellij-plugin)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 838
+- **核心概述**: AI 致力于基于 IntelliJ 的 IDE/Android Studio。
+- **大概是做什么的**: AI 致力于基于 IntelliJ 的 IDE/Android Studio。 - 从 zip 安装 [//]: (- [Demo]& 40; demo& 41;) AI Commits 是一个使用 git diff 和 LLM 生成提交消息的插件。首先，安装插件并在插件设置中配置 LLM API 客户端： 设置工具 AI 提交 - 使用 LLM 从 git diff 生成提交消息 - 仅根据提交对话框中选定的文件和行计算差异 - 创建您自己的提交消息生成提示 - 使用预定义变量和提示自定义提示 - 支持 Git 和 Subversion 作为版本控制系统。 - Claude Code（通过 CLI） - Codex CLI（通过 CLI） 该��件以通用方式实现，并使用 langchain4j 创建 LLM API 客户端。如果您想使用 langchain4j 支持的其他 LLM 模型，请在 GitHub issues 中提出功能请求。 IntelliJ IDEA、PhpStorm、WebStorm、PyCharm、RubyMine、AppCode、CLion、GoLand、DataGrip、Rider、MPS、Android Studio、DataSpell、Code With Me 或者您可以将其安装在 IDE 中： 对于 Windows 和 Linux：文件设置插件 M
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, chatgpt, claude, commit, commit-message
+
+---
+
+### 🌟 [Github-Ranking-AI](https://github.com/yuxiaopeng/Github-Ranking-AI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 453
+- **核心概述**: A list of the most popular AI Topic repositories on GitHub based on the number of stars they have received.| AI相关主题Github仓库排名，每日自动更新。
+- **大概是做什么的**: 最多 github star 和 fork 存储库的列表。最后自动更新时间：2026-07-11T05:49:12Z 这是前 10 名，更多信息请点击 LLM 排名中的前 100 颗星 项目名称 星数 Forks 语言 未解决问题 描述 最后一次提交 ------- ------------ ----- ----- -------- ----------- ----------- ----------- 1 ECC 228320 35021 JavaScript 24 代理利用性能优化系统。 Claude Code、Codex、Opencode、Cursor 等的技能、直觉、记忆、安全性和研究优先的开发。 2026-07-09T07:53:52Z 2 hermes-agent 212877 39315 Python 9171 与你一起成长的代理 2026-07-11T05:43:50Z 3 andrej-karpathy-skills 190673 19575 None 0 一个用于改进 Claude 的 CLAUDE.md 文��代码行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。 2026-04-20T10:05:04Z 4 AutoGPT 185459 46112 Python 285 AutoGPT 的愿景是为每个人提供可访问的人工智能，供每个人使用和构建。我们的使命是提供工具，以便您可以专注于重要的事情。 2026-07-11T04:54:01Z 5 ollama 175898 16930 Go 2313 启动并运行 Kimi-K2.6、GLM-5。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, github-stars, llm, python, ranking
+
+---
+
 ## 🕔 2026-07-11 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
