@@ -1,3 +1,67 @@
+## 🕔 2026-07-11 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ramalama](https://github.com/containers/ramalama)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,953
+- **核心概述**: RamaLama 是一款开源开发人员工具，可通过熟悉的容器语言简化任何来源的 AI 模型的本地服务，并促进其在生产中进行推理。
+- **大概是做什么的**: RamaLama 致力于通过使用 OCI 容器使 AI 的使用变得简单、直接和熟悉。 RamaLama 是一款开源工具，可简化 AI 模型的本地使用和服务，以便通过熟悉的容器方法从任何来源进行推理。它允许工程师使用以容器为中心的开发模式和优势来扩展到人工智能用例。 RamaLama 无需配置主机系统，而是拉取特定于主机系统上发现的 GPU 的容器映像，并允许您使用各种模型和平台。 - 消除了用户为 AI 配置主机系统的复杂性。 - 检测并提取特定于主机系统上 GPU 的加速容器映像，处理依赖关系和硬件优化。 - RamaLama 支持多个 AI 模型注册表，包括 OCI 容器注册表。 - 模型的处理方式与 Podman 和 Docker 处理容器镜像的方式类似。 - 使用通用容器命令来处理 AI 模型。 - 在无根容器中安全地运行人工智能模型，将模型与底层隔离
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, containers, cuda, hacktoberfest, hip, inference-server
+
+---
+
+### 🌟 [OpenOutreach](https://github.com/eracle/OpenOutreach)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,374
+- **核心概述**: Agentic 电子邮件自动化工具：描述您的产品。定义您的目标市场。人工智能会为您找到线索。
+- **大概是做什么的**: 描述您的产品。定义您的目标市场。人工智能会找到线索并通过电子邮件发送给您。 🚀 什么是 OpenOutreach？ OpenOutreach 是一个自托管、开源、电子邮件优先的 AI 销售代理，用于 B2B 潜在客户开发。它发现来自许可数据提供商的潜在客户，在您自己的计算机上对其进行资格认证，并从您拥有的邮箱运行代理电子邮件外展 - 平台 ToS 界面为零：它无浏览器，不使用社交网络帐户，并且不进行抓取。与其他工具不同，您不需要联系个人资料列表 - 您可以描述您的产品和目标市场，系统会自动发现、筛选合适的人员并通过电子邮件发送给合适的人员。 1. 您提供产品描述和活动目标（例如，针对“B 轮初创公司的工程副总裁”的“SaaS 分析平台”） 2. 法学硕士将其转换为 ICP 过滤器和与许可发现源（BetterContact Lead Finder）中的公司统计资料相匹配的页面 - 还没有电子邮件，无需付费 3. 贝叶斯 ML 模型（资料嵌入上的高斯过程回归器）可了解哪些资料与您的理想c 相匹配。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, agentic-marketing, agentic-workflow, automated-outreach, automation
+
+---
+
+### 🌟 [CSSwitch](https://github.com/SuperJJ007/CSSwitch)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 335
+- **核心概述**: 帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点
+- **大概是做什么的**: CSSwitch 是一个给 Claude Science 使用的本地模型切换器。它把 Science 的推理请求接到你自己的第三方模型 API 上，让没有 Claude 订阅的用户也能在 Science 里使用 DeepSeek、通义千问、Kimi、MiniMax、GLM、OpenRouter、中转站或自定义兼容端点。 它面向的不只是开发者：你只需要准备 Claude Science、一个第三方 API Key，然后在桌面面板里新建配置、设为当前、点击「一键开始」。 当前版本主要支持 macOS Apple Silicon。首次打开未公证的 .dmg 应用时，macOS 可能需要你右键选择「打开」。 下载最新版 · 更新日志 · 报告问题 · 功能建议 0.4.0 升级提示： 推理数据面已改为随应用打包的 Rust gateway，正式包不再携带 Python proxy 或 fallback。覆盖安装会保留 v2 配置；升级前建议备份配置，需要回退时重新安装上一稳定版。见 升级与回滚说明。 Claude Science 是 Anthropic 面向科研与分析场景的 AI Agent 应用，可以做文献分析、数据处理、代码执行、图表生成和论文写作等工作。但 Science 默认依赖 Claude 登录和 Anthropic 推理服务。 - 在隔离环境里启动 Claude Science。 - 在独立的本地工作区中运行第三方模型模式，不接管你的真实 Claude 账号。 - 把 Science 的模型请求转发到你选择的第三方 provider。 - 在需要时把 Anthropic Messages API 和 OpenAI 兼容接口互相转换。 - 保留「官方 Claude」模式，让有订阅的用户可以随时回到真实 Science。 简单理解：CSSwitch 之于 Claude Science，类似 CC Switch 之于 Claude Code，并额外管理桌面应用、隔离工作区与本地网关。 - 用桌面面板管理多套模型配置，不需要手改环境变量。 - 同一家 provider 可以保存多套配置，例如不同 Key、不同模型、不同中转地址。 - 点击「设为当前」前会先验证 Key；失败不会悄悄切换到坏配置。 - 点击「一键开始」会自动启动代理、准备隔离环境、打开 Science。 - Science 顶部模型选择器会显示你选择的真实模型名，而不是笼统的 claude 或 opus 。 - 可以一键切回「官方 Claude」模式，不干扰你的真实 Claude 登录。 - 支持原
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anthropic, claude, claude-science, dashscope, deepseek, llm
+
+---
+
+### 🌟 [FableCut](https://github.com/ronak-create/FableCut)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 321
+- **核心概述**: AI 代理可以驱动的零依赖浏览器视频编辑器 — JSON 时间线、MCP + REST、实时重新加载 UI
+- **大概是做什么的**: 人工智能代理可以驱动的浏览器视频编辑器。 https://github.com/user-attachments/assets/2430b854-168b-4a9a-af2e-489e5efa7543 FableCut 是一款 Premiere 风格的非线性视频编辑器，完全在浏览器中运行 - 并将其整个时间线公开为一个 JSON 文档。从 UI 手动编辑它，或者让 AI 代理（Claude Code、Claude Desktop 或任何支持 MCP/REST 的东西）在您观看时间线更新时为您剪切视频 零 npm 依赖项。一个节点 server.js 。就是这样。为什么有趣 大多数“AI 视频”工具都将编辑隐藏在 API 后面。 FableCut 翻转了这一点：项目文件就是界面。 project.json 描述媒体、剪辑、轨道、效果、关键帧和过渡 - 任何可以编写 JSON 的进程都可以编辑视频，并且打开的浏览器 UI 通过服务器发送的事件在 150 毫秒内热重载。人员和代理可以在同一时间线上工作 - 4 个视频轨道 + 3 个音频轨道、拖动/修剪/分割/捕捉、撤消/重做 - 时间轴多重选择 - 橡皮筋选取框（在空白轨道区域上拖动）、Ctrl/Cmd/Shift+单击以添加/删除剪辑、Ctrl+A 选择全部、Esc t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, canvas, claude, ffmpeg, javascript, llm
+
+---
+
+### 🌟 [Lucarne](https://github.com/tuchg/Lucarne)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 306
+- **核心概述**: 停止照顾本地人工智能代理。只需通知、批准并在任何地方恢复您的 Codex、Pi、Grok 或 Claude 代码会话。 0-通过Telegram/微信/飞书入侵移动控制桥。没有挂钩，没有技能，没有 MCP。
+- **大概是做什么的**: 别再照顾你当地的人工智能代理了。 - 无需新的移动应用程序；通过现有渠道接收及时、安全的通知 - 零入侵设置：无挂钩、无技能、无 MCP、无项目变更；扫描二维码，一步开始使用 - 代理在您的本地计算机上运行，​​因此您可以离开，而微信/电报让您同步关键进度 - 权限批准、澄清问题和失败通知成为可操作的移动事件 - 扫描微信二维码接收代理消息；引用消息以自动继续匹配上下文 - 使用 Telegram 控制台查看所有代理、工作区和历史会话 - 查看本地代理会话历史记录和当前在本机上运行的代理 - 具有高性能和低内存使用的轻量级常驻进程；空闲代理会自动发布 Homebrew（推荐）和发布档案 发布档案也适用于 x86 64 和 aarch64 上的 macOS、Linux 和 Windows。初始化将引导您完成： - 选择启用的代理： claude 、 codex 、 copilot 、 gemini 、 pi 、 grok
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-bridge, agent-im, agent-management, agent-sessions, ai-agents, claude-code
+
+---
+
+### 🌟 [openclaw-dashboard](https://github.com/mudrii/openclaw-dashboard)
+- **项目语言**: Go
+- **星标数量**: ⭐ 452
+- **核心概述**: 一个漂亮的、零依赖的 OpenClaw AI 代理指挥中心
+- **大概是做什么的**: 一个漂亮的、零依赖的 OpenClaw AI 代理指挥中心。当您认真运行 OpenClaw 时（多个代理、数十个 cron 作业、产生子代理的子代理、多个 Telegram 群组以及 Whatsapp、Slack 和 Discord 频道、10 多个模型、多个代理和子代理），信息会快速分散。问题：没有一个地方可以回答明显的问题： - 我的网关现在实际上正在运行吗？ - 我今天花了多少钱，哪个型号烧得最多？ - 哪些 cron 作业运行了，哪些失败了，下一个作业何时触发？ - 哪些会话处于活动状态以及它们消耗了多少上下文？ - 我的下级代理是在做有用的工作还是在原地踏步？ - 过去 7 天的成本趋势是什么 - 我是否在加速？回答这些问题的唯一方法是挖掘日志文件、运行 CLI 命令，并在心里将来自 5 个不同来源的图片拼接在一起。这种摩擦会增加。解决方案：单个本地页面将所有内容收集到一个位置 - 网关运行状况、成本、cron 状态、活动会话、子代理运行、模型使用情况、git
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cost-tracking, dashboard, monitoring, openclaw, python
+
+---
+
 ## 🕔 2026-07-11 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
