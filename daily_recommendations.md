@@ -1,3 +1,67 @@
+## 🕔 2026-07-11 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [WindsurfAPI](https://github.com/dwgx/WindsurfAPI)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,888
+- **核心概述**: Turn Windsurf / Devin Desktop's 100+ AI models (Claude, GPT, Gemini, DeepSeek, Kimi, GLM, SWE) into OpenAI-, Anthropic- & Gemini-compatible APIs. Zero-dependency self-hosted reverse proxy for Claude Code, Cline & Cursor. 把 Windsurf/Devin 云端 100+ 模型变成三套兼容 API。
+- **大概是做什么的**: WindsurfAPI · DevinAPI 把 Windsurf / Devin 的 100+ AI 模型（Claude、GPT、Gemini、DeepSeek、Kimi、GLM、SWE…）变成 OpenAI / Anthropic / Gemini 三套标准 API。零 npm 运行时依赖。 没点 Star 和 Follow 的 ：严禁商业使用、转售、代部署、挂后台对外提供服务、包装成中转服务出售。 点了 Star 和 Follow 的 ：随便用，我睁一只眼闭一只眼。 代码本体按 MIT License 开源（见 LICENSE），上面这段是作者个人态度。 把 Windsurf（原 Codeium，现 Devin Desktop）的 AI 模型变成 三套标准 API 同时兼容 ： - POST /v1/chat/completions — OpenAI 兼容 任何 OpenAI SDK 直接用 - POST /v1/responses — OpenAI Responses 兼容 - POST /v1/messages — Anthropic 兼容 Claude Code / Cline / Cursor 直接连 - POST /v1beta/models/ — Gemini 兼容 直接对接 Gemini SDK 100+ 模型 ：Claude 4.5/4.6/Opus 4.7 · GPT-5/5.1/5.2/5.4 全系 · Gemini 2.5/3.0/3.1 · Grok · Qwen · Kimi K2.x · GLM 4.7/5/5.1/5.2 · MiniMax · SWE 1.5/1.6 · Arena 等。零 npm 依赖 纯 Node.js。 关键词：Windsurf 逆向 · Devin 代理 · Claude Code 中转 · Cursor 镜像 · AI 中转 API · OpenAI 兼容接口 · 免费 Claude/GPT/Gemini · 大模型反代 · Codeium 逆向 1. 一个 HTTP 服务（端口 3003）同时暴露 OpenAI 和 Anthropic 两套 API 2. 把请求翻译成 Windsurf 内部 gRPC 协议，通过本地 Language Server 发给 Windsurf 云 3. 维护账号池，自动轮询 + 速率限制 + 故障转移 4. 返回前把上游 Windsurf 身份剥掉，模型自称"我是 Claude Opus 4.6 由 Anthropic 开发" Claude Code / Cline
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic-compatible, api-gateway, claude, claude-code, cline, codeium
+
+---
+
+### 🌟 [zotero-AI-Butler](https://github.com/steven-jianhao-li/zotero-AI-Butler)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,534
+- **核心概述**: 【Zotero AI 管家】调用大模型，自动精读论文库里的论文，总结为Zotero笔记。支持主流大模型平台！您只需像往常一样把文献丢进 Zotero， 管家会自动帮您精读论文，将文章揉碎了总结为笔记，让您“十分钟完全了解”这篇论文！
+- **大概是做什么的**: Zotero插件： zotero-AI-Butler【AI 管家】 隐私声明：本项目为第三方开源Zotero插件，不提供任何的大模型代理服务。用户需自行申请并配置大模型API Key方可使用。本插件绝不收集、存储或上传您的任何个人数据、文献或API Key，所有的交互请求均直接从您的本地设备发送至您配置的大模型服务商处。 如果本插件对您的研究有帮助，欢迎在论文中引用或致谢！ 点我查看 AI Butler Wiki ——配置与使用文档 想着稍后阅读的论文，最后却变成了永不阅读？ 长篇大论的学术论文，有翻译却也抓不住重点？ - 痛点一：文章太多，读不过来。即便让AI辅助阅读，却还要一篇一篇的发给AI，效率低下。 - 痛点二：读完就忘，需要反复重新阅读。 辛辛苦苦读完一篇，两天后就忘了，想回忆又得从头看起，浪费时间。 - 痛点三：文章太长，即使有翻译插件，也难以抓住重点，读下一页忘上一页。 别慌！您的专属AI管家 Zotero-AI-Butler 已闪亮登场！ TA 是您7x24小时待命、不知疲倦且绝对忠诚的私人管家。 您只管像往常一样把文献丢进 Zotero，剩下的体力活全交给TA！ 管家会自动帮您精读论文，将文章揉碎了总结为笔记，让您“十分钟完全了解”这篇论文！ 3.0版本震撼首发“一图总结”功能，用Nano Banana Pro生成学术海报，一图胜千言！ 1. 自动化处理 ：管家自动扫描新添加的PDF文献，利用大模型生成条理清晰的Markdown笔记，和论文条目一同保存，随时都能回顾。 2. 多模态支持 ：支持Base64上传PDF，数学公式、图表和复杂排版无损提取，中英文论文全部支持，甚至纯图PDF也能阅读总结。 3. 一图总结 ：全网首发——用一张图总结一篇论文，利用 Nano Banana Pro 为每篇论文生成学术海报式图片，帮助快速在脑海中建立论文知识体系。“一图胜千言”，快速把握论文核心，建立文章内容记忆点。 4. 思维导图 ：自动生成论文思维导图，将长篇论文层次结构可视化呈现。支持放大缩小、导出PNG图片和OPML大纲格式，轻松复用到其他工具中。 5. 多文献综述 ：右键分类即可对多篇论文进行综合分析，自动生成文献综述报告，创建独立的报告条目并关联所有原始PDF。 6. 沉浸阅读 ：内置AI管家侧边栏，支持LaTeX公式渲染和大模型追问功能，一边读论文原文，一边看论文讲解，同时随时向大模型提问。还可以固定侧边栏为AI管家，切换文献再也不会打断心流！ 7. 开源平台 ：AI管家旨在提供一个自由、定制化的智能论文管理平台。所有模型提示词均可自定义——如
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: academic-tools, ai, ai-butler, artificial-intelligence, butler, knowledge-management
+
+---
+
+### 🌟 [mex](https://github.com/mex-memory/mex)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,152
+- **核心概述**: AI 编码代理的持久项目内存。结构化脚手架+漂移检测CLI。
+- **大概是做什么的**: AI 编码代理的持久项目内存。人工智能代理会忘记会话之间的一切。 mex 为他们提供了永久的、可导航的项目内存，因此每个会话都以正确的上下文开始，而不是冷提示转储。大多数代理内存设置都会成为一个巨大的指令文件。这会工作一段时间，然后它会淹没上下文窗口，烧毁令牌，并偏离真正的代码库。没有 mex 使用 mex ------------- ---------- 巨大的 CLAUDE.md / 规则文件 小锚文件加上路由上下文 代理忘记决策和约定 决策、模式和项目状态持续存在 文档默默地从代码中漂移 mex 检查捕获陈旧或损坏的脚手架声明 每个会话冷启动 代理仅加载与任务相关的文件 重复工作保持部落 新模式从实际任务中增长 mex 为代理内存创建了一个结构化的降价脚手架： - AGENTS.md / CLAUDE.md — 微型工具加载锚点 - ROUTER.md — 特定于任务上下文的路由表 - context/ — 架构、堆栈、设置、决策、约定 - 模式/ — 带有陷阱和验证的可重用任务指南
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, claude-code-skills, cli-tool, codex, context-management, cursor
+
+---
+
+### 🌟 [agentic-soc-platform](https://github.com/FunnyWolf/agentic-soc-platform)
+- **项目语言**: Python
+- **星标数量**: ⭐ 945
+- **核心概述**: Agentic SOC 平台：强大、灵活、开源、以代理为中心的自动化安全运营平台 (AI SOC)
+- **大概是做什么的**: Agentic SOC 平台 Agentic SOC 平台是一个基于 Agentic AI 构建的开源安全运营平台，使代理能够主动参与分类、调查、充实和知识积累，以便安全团队能够从警报疲劳转向人工智能辅助决策。警报泛滥，汇聚成可采取行动的案例模块传输 SIEM/Webhook 警报，提取 IOC，关联相关信号，并生成案例、警报和工件，以便将大量日志量汇聚成少量可采取行动的案例。 AI 支持的调查，只需几秒而非几小时 将数小时的手动分析压缩为数秒，自动生成严重性、置信度、影响、优先级、判决和结构化调查报告。一键推动复杂调查围绕每个案例启动 LLM 调查、知识提取、威胁情报丰富和 CMDB 丰富，在同一 Playbook 系统中协调传统 SOAR 工作流程和 AI 分析。深度 Harness Agent 集成 将 ASP 功能公开给 Claude Code / Codex / OpenCode 和其他 Harness Agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-soc, ai, blueteam, cybersecurity, dify, langchain
+
+---
+
+### 🌟 [Relax](https://github.com/redai-infra/Relax)
+- **项目语言**: Python
+- **星标数量**: ⭐ 470
+- **核心概述**: 用于大规模全模态后训练的异步强化学习引擎
+- **大概是做什么的**: Relax：用于大规模全模态后训练的异步强化学习引擎，面向异步、大规模全模态强化学习，Just Relax。 📖 English 📖 中文 Relax ( Reinforcement Engine Leveraging Agentic X -modality ) 是小红书 AI 基础设施团队针对多模态大语言模型开源的高性能强化学习后训练框架。 Relax 基于 Ray Serve 构建，具有面向服务的架构，使用 Megatron-LM 作为训练后端，使用 SGLang 作为推理引擎。通过TransferQueue数据传输系统，实现训练与推理的完全解耦，支持从文本到图像、视频、音频的端到端多模态强化学习训练。 - 🌐 完整的全模态训练 — 文本、视觉和音频 RL 的统一框架 — 少数能够进行端到端 Omni 模型 (Qwen3-Omni) 后训练的系统之一 - ⚙️ 面向服务的六层架构 — 每个角色都是独立的 Ray Serve 部署，具有本机服务级弹性调度和故障恢复 - ⚡ 通过 TransferQueue 实现完全异步 — Rollout、Actor、ActorFw
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-rl, distributed-training, grpo, llm, megatron-lm, multi-agent
+
+---
+
+### 🌟 [smart-ralph](https://github.com/tzachbon/smart-ralph)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 421
+- **核心概述**: 通过智能压缩进行规范驱动的开发。 Claude Code 插件将 Ralph Wiggum 循环与结构化规范工作流程相结合。
+- **大概是做什么的**: “我的规格不合格？这不可能！” Claude Code 和 Codex 的规范驱动开发。逐个任务执行，每个任务都有新的上下文。自包含的执行循环。没有外部依赖。快速启动命令 工作原理 故障排除 Smart Ralph 是一个 Claude Code 插件，可将您模糊的功能想法转化为结构化规范，然后逐个任务执行它们。就像在您的终端中拥有一个小型产品团队一样。以拉尔夫代理循环图案和每个人最喜欢的斯普林菲尔德学生命名。拉尔夫并没有想太多。拉尔夫刚刚完成下一个任务。像拉尔夫一样。先决条件：首先安装 Codex CLI： npm install -g @openai/codex 个人安装（每个项目中都可用） 从任何目录运行这些命令。他们将存储库克隆到临时文件夹，将插件复制到您的 Codex 插件目录，然后进行清理。每个项目安装（仅限一个存储库）从项目根目录（您要在其中使用 Ralph 的存储库）运行这些命令。使用任一方法后：重新启动 Codex，打开插件目录，然后安装 ralph-specum 。可选：启用自动停止挂钩
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai, ai-agents, autonomous-coding, claude, claude-code
+
+---
+
 ## 🕔 2026-07-11 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
