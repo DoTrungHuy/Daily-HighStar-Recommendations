@@ -1,3 +1,67 @@
+## 🕔 2026-07-12 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,732
+- **核心概述**: 知识编译器。输入原始来源，输出相互链接的 wiki。受到 Karpathy 的 LLM Wiki 模式的启发。
+- **大概是做什么的**: 1.0 中的新增功能：可配置的生命周期配置文件将 llmwiki 转变为可重用的领域知识基础。在一个经过验证的配置文件中声明类型化实体、关系、生命周期门、工作流、工件、连接器和检索策略。从内置的 autosci 研究包或故意不同的新闻编辑室编辑包开始，或者安装本地声明性模板。将原始来源编译成一个相互链接、可追踪引文的 Markdown wiki，代理和人员可以浏览、查询、lint、导出和重用。默认配置文件保留了经典的概念和查询布局；可选配置文件添加特定于域的类型和工作流程，而无需向编译器添加域分支。 llmwiki 实现了 LLM Wiki 模式：不是在查询时从原始文件中重新发现知识，而是将其一次性编译成持久页面，随着时间的推移积累结构、出处、审查状态和检索元数据。何时使用此存储库 当您需要来自原材料的持久知识库时，请使用 llmwiki： - 将论文、笔记、自述文件、成绩单、PDF、图像或网页编译为类型
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cli, compiler, context-engineering, karpathy, knowledge-base, knowledge-compilation
+
+---
+
+### 🌟 [graphjin](https://github.com/dosco/graphjin)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,083
+- **核心概述**: AI 代理的一张受管图 — GraphQL + MCP 覆盖您的数据库、文件、API 和代码
+- **大概是做什么的**: GraphJin — 为您的 AI 代理提供一个受控图 GraphJin 是一种编译器和运行时，它为 AI 代理提供了一个基于真实公司已有系统的受控图：数据库、仓库、文件、源代码、工作流程、元数据和安全策略。 GraphJin 不是向代理提供原始凭据并希望其猜测正确，而是通过 GraphQL + MCP 公开该图：代理在行动之前发现、验证查询、运行批准的工作、观察运行时状态 - 每个答案在离开服务器之前都会根据执行分类帐进行检查。它不仅适用于代理商。 GraphJin 仍然是一个高性能的 GraphQL 到���据库编译器、Go 库、独立 API 服务、REST/OpenAPI 网关和实时订阅服务器。代理用例是将所有内容结合在一起的地方：为您的应用程序提供服务的同一个编译器还可以为 AI 提供一种智能、可审核的方式来跨数据、代码和操作工作。适用于 PostgreSQL、MySQL、MongoDB、SQLite、Oracle、MSSQL、Snowflake、Redshift、BigQuery、Apache Cassandra / Amazon Keyspaces、S3/GCS/本地文件、CodeSQL 源索引
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, cloud-native, cockroachdb, database, graphql
+
+---
+
+### 🌟 [connectonion](https://github.com/openonion/connectonion)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,172
+- **核心概述**: 用于代理协作的最佳人工智能代理框架。
+- **大概是做什么的**: 一个简单、优雅的开源框架，适用于生产就绪的 AI 代理 📚 文档 • 💬 Discord • ⭐ Star Us 🌟 理念：“让简单的事情变得简单，让复杂的事情成为可能” 这是驱动 ConnectOnion 中每个设计决策的核心原则。 🎯 践行我们的理念 步骤 1：简单 - 创建和使用 步骤 2：添加工具 步骤 3：调试代理 步骤 4：生产就绪 步骤 5：多代理 - 使其可远程调用 大多数框架都为您提供了调用 LLM 的方法。 ConnectOnion 为您提供了相关的一切 — 因此您只需编写提示和工具。内置 AI 程序员 co ai 是使��� ConnectOnion 构建的 AI 编码助手。它编写工作代理代码，因为它对框架了如指掌。完全开源——检查、修改、构建您自己的。内置前端和后端 - 只需编写提示和工具传统路径：编写代理逻辑 → 构建 FastAPI 后端 → 构建 React 前端 → 连接 API → 部署。 ConnectOnion路径：编写提示和工具→部署。 - 后端：框架处理 API 层 - 前端：chat.openonion.ai — 即用型聊天界面
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, llm, openonion
+
+---
+
+### 🌟 [holmesgpt](https://github.com/HolmesGPT/holmesgpt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,832
+- **核心概述**: SRE 代理 - CNCF 沙箱项目
+- **大概是做什么的**: HolmesGPT — CNCF SRE 代理开源 AI 代理，用于调查生产事件并查找根本原因。适用于任何堆栈 — Kubernetes、虚拟机、云提供商、数据库和 SaaS 平台。我们是一个云原生计算基金会沙盒项目。最初由 Robusta.Dev 创建，微软做出了主要贡献。新功能：操作员模式 — 在后台 24/7 全天候查找问题 大多数 AI 代理非常擅长解决问题，但仍然需要人工来发现问题并触发调查。操作员模式���决了这个问题 - HolmesGPT 在后台 24/7 运行，在客户注意到之前发现问题，并在 Slack 中向您发送修复消息。连接 GitHub 集成，它甚至可以打开 PR 来修复它发现的问题。虽然 Operator 本身在 Kubernetes 中运行，但运行状况检查可以查询 Holmes 连接到的任何数据源 - 虚拟机、云服务、数据库、SaaS 平台等。 - 部署验证 — 与您的应用程序一起部署运行状况检查，以验证新版本是否运行良好 - 定期运行状况检查 — 持续监控服务和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aiops, chatbot, chatops, devops, devops-tools, incident
+
+---
+
+### 🌟 [opencodex](https://github.com/lidge-jun/opencodex)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 326
+- **核心概述**: OpenAI Codex 的通用提供商代理 — 将任何 LLM 与 Codex CLI、应用程序和 SDK 结合使用
+- **大概是做什么的**: npm install -g @bitkyc08/opencodex · ocx start · localhost:10100 English · 한국어 · 简体中文 · 📖 完整文档 → 使用 Claude、Gemini、Grok、GLM、DeepSeek、Kimi、Qwen、Ollama 或任何其他带有 Codex 的 LLM — 无需等待 OpenAI 添加支持。 opencodex 是一个轻量级本地代理，可将 Codex 的响应 API 转换为您的提供商所说的任何内容。流媒体、工具调用、推理标记、图像——一切都有效，双向。 Codex，运行任何模型。选择一个提供商并开始 — 相同的 Codex 工作流程，不同的大脑。它还可以管理 Codex 身份验证的 ChatGPT 帐户池。添加多个 ChatGPT / Codex 帐户，在仪表板中刷新其 5 小时/每周/30 天配额，并让新会话自动路由到使用率最低的健康帐户。现有的 Codex 线程保持固定到启动它们的帐户，只要 SSH、tmux 或移动连接的会话不会在会话中跳转帐户。操作系统状态 服务管理器 macOS (arm64 / x64) 完全支持 launchd Linux (x64 / arm64) 完全支持 systemd（用户单元） Windows (x64) 完全支持 任务计划程序 需要节点 1
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, anthropic, claude, codex, codex-cli, developer-tools
+
+---
+
+### 🌟 [octo-server](https://github.com/Mininglamp-OSS/octo-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 301
+- **核心概述**: 🐙 Go 后端为 OCTO 提供支持——一个为人类 × AI 代理构建的开放工作场所。 REST 和 WebSocket API、Lobster（AI 代理）编排和 WuKongIM 实时消息传递控制平面。
+- **大概是做什么的**: OCTO——为人类×人工智能代理构建的开放工作场所。让 Lobsters（OpenClaw 支持的数字替身）思考和行动。你注重品味。 🌐 阅读内容：English · 简体中文 OCTO 中心的 Go 后端 — REST + WebSocket API、Lobster 代理编排以及 WuKongIM 的控制平面。 octo-server 是 OCTO 平台的核心。它公开了 octo-admin 使用的 REST + WebSocket API，编排业务逻辑和 Lobster（AI 代理）调度，并实时驱动 WuKongIM IM 核心 - 整个平台的一个锚点。客户端、适配器、事务、摘要和管理都在 octo-server 上会面。部署和扩展一个后端；其他一切都说明了这一点。 - 龙虾编排一流。 OpenClaw 支持的数字替身的路由、会话和工具调用执行都内置在服务器中，而不是固定在服务器上。座席被视为一流的对话参与者。 - 可插拔存储和即时消息。包装盒中附带 MySQL 兼容的 SQL 迁移和对象存储适配器； WuKongIM 在薄控制平面边界上驱动，因此 IM 核心保持可交换。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, apache2, chat, collaboration, digital-workplace, go
+
+---
+
 ## 🕔 2026-07-12 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
