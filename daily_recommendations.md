@@ -1,3 +1,67 @@
+## 🕔 2026-07-12 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 188 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [parlant](https://github.com/emcie-co/parlant)
+- **项目语言**: Python
+- **星标数量**: ⭐ 18,168
+- **核心概述**: 使用 Parlant 构建可靠的面向客户的 AI 代理：针对受控、一致和可预测的 LLM 交互进行优化的交互控制工具。
+- **大概是做什么的**: 面向客户的 AI 代理的交互控制工具正在寻找 Ada、Decagon 或 Sierra 的开源替代方案吗？ Parlant 已做好生产准备。它简化了企业级 B2C（企业对消费者）和敏感 B2B 交互的开发和维护，这些交互需要一致、合规、品牌化和全面可追溯。会话上下文工程很困难，因为现实世界的交互是多样的、微妙的和非线性的。 ❌ 问题：您可能已经尝试过但无法大规模发挥作用系统提示会一直工作，直到生产变得复杂为止。您添加到提示中的指令越多，您的代理就会越快停止关注其中的任何指令。路由图解决了提示过载问题，但是添加的路由越多，面对自然交互的混乱时它就会变得越脆弱。 🔑 解决方案：上下文工程，针对对话控制进行了优化 Parlant 是一种代理工具，为对话用例提供优化的上下文工程：将正确的上下文（不多也不少）引入到 t 中。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-alignment, customer-service, customer-success, gemini, genai
+
+---
+
+### 🌟 [awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 4,377
+- **核心概述**: 🇨🇳 OpenClaw中文用例大全 | 50个真实场景 | 国内特色 + 海外案例的国内适配 | 自动化办公·内容创作·运维·AI助理·知识管理 | 新手友好
+- **大概是做什么的**: 50 个经过验证的真实场景，手把手教你用 AI 智能体自动化工作与生活 快速开始 · 用例目录 · 贡献指南 Awesome OpenClaw 最佳案例合集（中文版）🇨🇳 解决 OpenClaw 普及的瓶颈：不是 技能 ，而是找到 能改善你生活的方式 。 一份面向中文用户的 OpenClaw 真实使用案例合集，包含社区验证的国际用例的中国适配，国内生态特色用例，从零入门。 本仓库受 awesome-openclaw-usecases 启发，在其基础上独立发展，包含大量国内生态原创用例和适配内容。感谢原作者 hesamsheikh 和所有社区贡献者。 2026.7 更新 ：新增 to-agent 适配层 ——AGENTS.md（执行协议 + 人机分工协议）、INDEX.md（50 用例索引 + 风险标签）、CONCEPT-MAPPING.md（跨 agent 概念对照），任何 AI 智能体都能按协议帮你复现本仓库用例。⚠️ 注意： CLAUDE.md 已纳入版本控制——存量 clone 若有本地私有 CLAUDE.md ，请先改名（如 CLAUDE.local.md ）再 pull。 2026.5.4 更新 ：新增 Multica 多 CLI 协作看板用例——把 OpenClaw / Claude Code / Codex / Hermes 拉进同一个 Web 看板，Apache 2.0 自部署友好。详见 基础设施与 DevOps。 🤖 For AI agents / 给 AI Agent ：如果你是 AI 智能体（OpenClaw / Hermes / Claude Code / Codex 等），请先读 AGENTS.md ——里面有执行协议和"人机分工协议"（教你替用户算出 最少要做什么、在什么时点做 ，再做二次指导）。用例索引见 INDEX.md，跨 agent 概念翻译见 CONCEPT-MAPPING.md。本合集用 OpenClaw 术语写就，但任何 agent 都能复用。 转发提醒 ：把单个用例发给不在本仓库目录中的 agent（聊天粘贴 / raw URL）时，请连同 AGENTS.md 一起发——协议不在用例文件里。 - 🇨🇳 中国特色用例 — 23 个国内生态用例 - 平台机器人 (4) — 飞书、钉钉、企业微信等 IM 平台 AI 接入 - 内容创作与发布 (3) — 小红书、公众号、播客全流程自动化 - 数据研究与监控 (7) — A 股、财报、竞品、论文、中文互联网研究 - 办公与客户服务 (4) — 邮件、会议、多渠道客服、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, ai-automation, ai-tools, automation, awesome-list
+
+---
+
+### 🌟 [LandPPT](https://github.com/sligter/LandPPT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,491
+- **核心概述**: 一个基于LLM的演示文稿生成平台，能够自动将文档内容转换为专业的PPT演示文稿。平台支持多种AI模型，提供丰富的模板和样式选择，让用户能够创建高质量的演示文稿。
+- **大概是做什么的**: LandPPT - AI驱动的PPT生成平台 基于大语言模型（LLM）的智能演示文稿生成平台 LandPPT 是一个基于大语言模型（LLM）的智能演示文稿生成平台，能够自动将文档内容转换为专业的PPT演示文稿。平台集成了多种AI模型、智能图像处理、深度研究功能和丰富的模板系统，提供一站式的AIPPT服务。 - 一键生成 ：主题到完整 PPT 全程自动化，支持并行生成 - 智能配图 ：图库 / 网络 / AI 生成三源融合，自动匹配 - 深度研究 ：Tavily + SearXNG 双引擎，实时抓取并提取网络信息 - 讲稿与讲解视频 ：生成演讲稿，Edge-TTS 逐页讲解，可导出 1080p 视频 - 多格式导出 ：PDF / HTML / PPTX / 图片 / DOCX / Markdown - 自动化就绪 ：OpenAI 兼容 API + REST API，支持 API Key 鉴权 - OpenAI GPT 系列、Anthropic Claude、Google Gemini、Azure OpenAI - 兼容 DeepSeek、Moonshot、Qwen 等 OpenAI 协议平台 - 支持 Ollama 本地模型；按功能角色自定义模型，精准控制成本 - 多格式支持：PDF / Word / Markdown / TXT / Excel / PowerPoint - MinerU + MarkItDown 高质量解析；Tavily + SearXNG 多引擎检索 - 网页内容深度提取与摘要，多语言实时信息 - 三源获取：本地图库 / 网络搜索（Pixabay、Unsplash）/ AI 生成（DALL-E、SiliconFlow、Pollinations、OpenAI、Gemini） - AI 自动匹配最合适图像，自动尺寸调整、格式转换、质量优化 - 全局主模板 + ���样化 AI 布局，通用 / 旅游 / 教育等场景模板 - 上传参考 PPTX 抽取版式；项目级 AI 自适应模板；支持自定义模板 - 四阶段工作流：需求确认 → 大纲生成 → TODO 追踪 → PPT 生成 - 阶段重跑与恢复；可视化大纲编辑与实时预览；批量处理 - 一键公开分享，分享页支持全屏放映、讲解音频与字幕联动 - 响应式界面，侧边栏 AI 对话编辑，支持图像上传与视觉分析 - 演讲稿生成（DOCX / Markdown / PPT 备注），全屏放映与 16:9 实时预览 - Docker / Compose 单容器与多服务编排；PostgreSQL + Valkey + Min
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, ppt
+
+---
+
+### 🌟 [chat-js](https://github.com/FranciscoMoretti/chat-js)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,179
+- **核心概述**: 生产就绪的人工智能聊天。从这里开始，让它成为你自己的。前身为 Sparka AI
+- **大概是做什么的**: 停止重建相同的人工智能聊天基础设施。 ChatJS 为您提供了一个可用于生产的基础，包括身份验证、120 多个模型、流式传输和工具，以便您可以专注于使您的应用程序独一无二。网站 · 现场演示 · 文档 创建一个新的 ChatJS 应用程序：CLI 将引导您完成网关、功能和身份验证选择，生成 chat.config.ts ，并列出您的选择所需的环境变量。 - 120 多个模型：Claude、GPT、Gemini、Grok，通过一个 API - 授权：GitHub、Google、匿名。准备出发了。 - 附件：图像、PDF、文档。拖放。 - 可恢复流：页面刷新后继续生成 - 分支：分叉对话，探索替代方案 - 共享：通过公共链接共享对话 - Web 搜索：实时 Web 搜索集成 - 图像生成：AI 支持的图像创建 - 代码执行：在沙箱中运行代码片段 - MCP：模型上下文协议支持 - 桌面应用程序：使用 Electron 打包为原生 macOS、Windows 或 Linux 应用程序 - Next.js - 应用程序路由器、React 服务器组件 - TypeScript - 完整类型安全 - AI SDK - TypeScr 的 AI 工具包
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, chat, chatbot, chatgpt, claude
+
+---
+
+### 🌟 [LightMem](https://github.com/zjunlp/LightMem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 960
+- **核心概述**: [ICLR 2026] LightMem：轻量级高效的内存增强生成
+- **大概是做什么的**: LightMem：轻量高效的内存增强一代 ⭐ 如果您喜欢我们的项目，请在 GitHub 上给我们一个 Star 以获取最新更新！ LightMem 是一个轻量级、高效的内存管理框架，专为大型语言模型和 AI 代理而设计。它提供了简单而强大的内存存储、检索和更新机制，帮助您快速构建具有长期记忆能力的智能应用程序。 🚀 轻量级、高效的极简设计，资源消耗最少，响应时间快 简单的 API 设计 - 只需几行代码即可集成到您的应用程序中 🔌 灵活且可扩展的模块化架构，支持自定义存储引擎和检索策略 🌐 对云 API（OpenAI、DeepSeek）和本地模型（Ollama、vLLM 等）的广泛兼容性支持 - [2026-04-24] : 🚀 LightMem 现在支持最新的 DeepSeek 模型，包括 deepseek-v4-flash 和 deepseek-v4-pro ，具有推理能力和思维模式配置！ - [2026-04-24] : 🎉🎉🎉 StructMem：法学硕士中长视野行为的结构化记忆已被ac
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agents, artificial-intelligence, chatbot, genai, knowledge
+
+---
+
+### 🌟 [torchtrade](https://github.com/TorchTrade/torchtrade)
+- **项目语言**: Python
+- **星标数量**: ⭐ 402
+- **核心概述**: 用于算法交易的模块化强化学习框架
+- **大概是做什么的**: 基于 TorchRL 的算法交易机器学习框架。 TorchTrade 的目标是为交易提供 RL 方法的可访问部署。该框架支持各种 RL 方法，包括在线 RL 、离线 RL 、基于模型的 RL 、对比学习以及强化学习研究的更多领域。除了 RL 之外，TorchTrade 还集成了传统的交易方法（例如基于规则的策略）以及现代方法，包括作为交易参与者的 LLM（本地模型和前沿模型集成）。 TorchTrade 为主要交易所的实时交易和离线回测提供模块化环境。该框架支持： - 🎯 多时间范围观察 - 同时在 1m、5m、15m、1h 柱上进行训练 - 🤖 多种 RL 算法 - PPO、DQN、IQL、GRPO、DSAC、CTRL 实现 - 📊 功能工程 - 添加技术指标和自定义功能 - 🔴 实时交易 - 直接 Alpaca、Binance、Bitget、Bybit、OKX 和 Polymarket集成 - 🧠 LLM 集成 - 使用 GPT-4o-mini 或本地 LLM 作为交易代理 - 🔧 LLM 工具使用 - 让 LLM 代理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: algorithmic-trading, crypto-trading-system, llm, pytorch, quantitative-finance, reinforcement-learning
+
+---
+
 ## 🕔 2026-07-12 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
