@@ -1,3 +1,67 @@
+## 🕔 2026-07-12 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Awesome-AITools](https://github.com/ikaijua/Awesome-AITools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,083
+- **核心概述**: Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests
+- **大概是做什么的**: 这个仓库收集了很棒的人工智能工具。欢迎大家一起推荐更多牛逼的AI工具！请使用以下模板作为您的建议的参考。非常感谢我们的赞助商的慷慨支持！ 【“Doloffer”——一站式数字订阅和充值平台，我们专注于提供各种人工智能数字服务的正版订阅，包括GPT和Claude。使用代码 AI8888 可享受 10% 折扣。快速发货，无忧售后服务。】 - ChatGPT 等 AI 聊天机器人 - 办公协作 CLI/MCP - GPT LLM 应用 - AI 金融与量化投资 - LLM 培训平台 - 语音识别 - AI 生成的音乐或音效 - 语音翻译 - 视频内容摘要 ChatGPT 等 AI 聊天机器人 名称 描述 链接 费用 --- --- --- --- Claude Anthropic 的 AI 聊天机器人，包括 Claude 5 （寓言/神话）、克劳德作品 4.8 和克劳德十四行诗 4.6。最适合编码、长上下文、安全性和企业使用。协同工作功能将人工智能转变为真正的“代理”而不仅仅是聊天机器人 - 可以提取财务数据，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, artificial-intelligence, awesome, awesome-list, awesome-lists
+
+---
+
+### 🌟 [stock-sdk](https://github.com/chengzuopeng/stock-sdk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,689
+- **核心概述**: 为前端设计的无需 Python、无需后端服务、零依赖的获取股票数据 JavaScript SDK。
+- **大概是做什么的**: 为 前端和 Node.js 设计的股票行情 JavaScript SDK 。 无需 Python、无需后端服务，直接在 浏览器或 Node.js 中获取 A 股 / 港股 / 美股 / 公募基金 的实时行情与 K 线数据。还自带 命令行工具 与 MCP server ，一条命令取行情或接入 AI。 ✨ 零依赖、轻量发布包 🌐 Browser + Node.js 📦 ESM + CJS + subpath 🧠 完整 TypeScript 类型 🖥️ CLI 🤖 MCP ✨ v2.0.0 ：v2 是一次架构跃迁（命名空间 API、统一符号模型、 Quote 可辨识联合、统一错误体系、CLI / MCP / subpath 导出）。 安装： npm i stock-sdk 。从 v1 升级请先读 v1 → v2 迁移指南（ 破坏性变更，无兼容别名 ）。 👉 https://stock-sdk.linkdiary.cn 完整 API、命名空间总览、CLI / MCP 指南、在线 Playground、v1 → v2 迁移文档全部在这里。先看官网再上手最快。 📦 NPM 📖 GitHub 🎮 在线 Playground 🧭 Stock Dashboard：基于 stock-sdk 搭建的股票数据大盘演示站点，欢迎体验。 如果你是前端工程师，可能遇到过这些问题： 股票行情工具大多是 Python 生态 ，前端难以直接使用 想做行情看板 / Demo，不想额外维护后端服务 财经接口返回格式混乱、编码复杂（GBK / 并发 / 批量） 让前端工程师，用最熟悉的 JavaScript / TypeScript，优雅地获取股票行情数据。 📊 股票行情看板（Web / Admin） 📈 数据可视化（ECharts / TradingView） 🧪 量化策略原���验证（JS / Node） 🖥️ 命令行临时查行情 / 🤖 给 AI 工具接数据源 - ✅ 零依赖 ，浏览器 + Node.js 18+ 双端运行；同时提供 ESM 和 CommonJS - ✅ 命名空间 API ： sdk.quotes.cn() / sdk.kline.cn() / sdk.options.etf.dailyKline() ，按领域分组、IDE 自动补全友好 - ✅ 统一符号模型 ： string 一等公民， sh600519 / 600519 / 600519.SH / 00700 / hk00700 / AAPL / 105.AAPL 等写法容错解析；支持中证等特殊指数（ 9
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, akshare, finance, financial-data, fintech
+
+---
+
+### 🌟 [json_repair](https://github.com/mangiucugna/json_repair)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,025
+- **核心概述**: 修复来自 LLM、API、日志和 Python 中的用户输入的格式错误的 JSON。
+- **大概是做什么的**: 修复来自 LLM、API、日志和 Python 中的用户输入的格式错误的 JSON。 - 修复缺失的引号、逗号、方括号、注释、杂散的散文和截断的值。 - 将其用作 json.loads() 的备用后备或作为模式引导的修复步骤。 - 使用 pip install json-repair 安装或尝试现场演示。如果 json 修复可以节省您的时间，请为存储库加注星标，以便更多人可以找到它。如果您不确定此库是否能解决您的特定问题，或者只是希望在线验证您的 JSON，请尝试以下其中一项： - 现场演示：https://mangiucugna.github.io/json Repair/ - 音频概述：NotebookLM 介绍 - CallCoach 的 Icana-AI 制造商，世界上最好的呼叫中心 AI 教练。访问 https://www.icana.ai/ 考虑赞助这个图书馆！这个库对每个人都是免费的，并且作为一个副项目进行维护，所以如果它对您的工作有帮助，请考虑成为赞助商：https://github.com/sponsors/mangiucugna 一些 LLM 在返回格式良好的 JSON 数据时有点不确定，有时他们会跳过括号，有时会在其中添加一些单词，因为这就是 LLM 所做的。幸运儿
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cli, json, json-repair, json-schema, llm, llm-output
+
+---
+
+### 🌟 [Gemini-Nexus](https://github.com/yeahhe365/Gemini-Nexus)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,075
+- **核心概述**: Gemini Nexus 是一款面向浏览器场景的 AI 助手扩展，集成 Gemini Web、Gemini API 与 OpenAI 兼容接口，支持网页上下文、图像处理、工具调用和 MCP 浏览器控制。
+- **大概是做什么的**: 为您的浏览器提供原生 AI 层 Gemini Nexus 通过将 Gemini Web、Google Gemini API、OpenAI 兼容 API 和专用第三方 API 提供商结合在一个 Chrome 扩展程序中，为您的浏览器提供原生 AI 层。它不仅仅是一个侧面板：该扩展包括注入的浮动工具栏、图像和屏幕截图输入、基于 Chrome DevTools 协议的浏览器控制工具以及用于浏览器本机 AI 工作流程的可选外部 MCP 工具。逆向工程和数据流披露 Gemini Web 提供程序：此扩展通过对内部 RPC 端点进行逆向工程并从 HTML 页面提取身份验证令牌（ atValue 、 blValue 、 f.sid ）来访问 Google Gemini Web (gemini.google.com)。这些令牌存储在本地并用于模拟浏览器请求，无需官方 API 密钥即可进行访问。这种方法可能违反了 Google 的服务条款，并可能被视为未经授权的访问。请求将使用您的会话凭据发送到 Google 的服务器（gemini.google.com、push.clients6.google.com）。水印去除：对于 Gemini 生成的图像，外部
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: browser-automation, chrome-extension, gemini, google-gemini, llm, manifest-v3
+
+---
+
+### 🌟 [clodex-ide](https://github.com/mereyabdenbekuly-ctrl/clodex-ide)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 635
+- **核心概述**: 本地优先、零信任代理 IDE，用于可验证的自主软件开发。
+- **大概是做什么的**: 具有受控执行功能的本地优先代理 IDE Clodex 是一种开源代理开发环境，它将持久 AI 任务、代码、终端、浏览器、Git、模型、内存和受控执行结合在一个 Electron 工作区中。它是围绕一个简单的原则构建的：模型输出是不可信的输入。权威来自明确的策略、隔离的运行时和用户控制的审查。当前版本状态：技术预览版。架构核心在本地实现和测试。高级执行通道保持功能门控，直到其实时促销证据和手动签核完成。目标文档 --------------------------------------- --------------------------------------------------------------------------------------------- 几分钟内了解产品 产品概述 · Русский обзор 本地运行 Clodex 开发人员手册 研究整个系统 完整的项目文档 浏览工程文档 开发人员文档索引 查看架构 架构 查看安全性和数据处理 安全性和数据 · 安全策略
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-ide, ai-agents, developer-tools, electron, ide
+
+---
+
+### 🌟 [OpenAdapt](https://github.com/OpenAdaptAI/OpenAdapt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,637
+- **核心概述**: 记录一次工作流程，将其编译成在您自己的机器上运行的确定性、自我修复的自动化。适用于桌面工作流程的开源演示编译器 — 本地优先、模型可选、审计就绪。
+- **大概是做什么的**: OpenAdapt：具有大型多模态模型 (LMM) 的人工智能优先流程自动化 OpenAdapt 是大型多模态模型 (LMM) 与传统桌面和 Web GUI 之间的开源软件适配器。记录 GUI 演示、训练 ML 模型并评估代理 - 所有这些都来自统一的 CLI。加入我们的 Discord 文档 OpenAdapt.ai OpenAdapt v1.0+ 使用模块化元包架构。主要的 openadapt 包提供了统一的 CLI，并通过 PyPI 依赖于重点子包： 包描述存储库 --------- ------------- ------------ openadapt 具有统一 CLI 的元包 此存储库 openadapt-capture 事件记录和存储 openadapt-capture openadapt-ml ML 引擎、训练、推理 openadapt-ml openadapt-evals 基准评估 openadapt-evals openadapt-flow 演示编译器（确定性、自我修复回放） openadapt-flow openadapt-viewer HTML 可视化 openadapt-viewer openadapt-grounding UI 元素本地化 openadapt-grounding openadapt-retrieval 多模式演示检索 openadapt-retrieval openadapt-privacy PII/PHI 清理 openadapt
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agents, ai-agents-framework, anthropic, computer-use, computer-use-agents
+
+---
+
 ## 🕔 2026-07-12 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 188 个候选项目中筛选出 6 个未推荐过的新项目。
