@@ -1,3 +1,67 @@
+## 🕔 2026-07-12 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Prompt_Engineering](https://github.com/NirDiamant/Prompt_Engineering)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 7,671
+- **核心概述**: 22 种实用的 Jupyter Notebook 教程提示工程技术，从基本概念到利用法学硕士的高级策略。
+- **大概是做什么的**: Prompt Engineering Techniques: Comprehensive Repository for Development and Implementation 🖋️ Welcome to one of the most extensive and dynamic collections of Prompt Engineering tutorials and implementations available today. This repository serves as a comprehensive resource for learning, building, and sharing prompt engineering techniques, ranging from basic concepts to advanced strategies for leveraging large language models. 22 hands-on tutorials covering everything from basic prompt templates to advanced techniques like chain-of-thought, self-consistency, and tree-of-thought prompting. 🚀 Cutting-edge Updates 🎯 Top 0.1% Content Join over 50,000 AI enthusiasts getting unique cutting-edge insights and free tutorials! Plus, subscribers get exclusive early access and special discounts to our upcoming RAG Techniques course! 🎓 From prompts to production Prompt to Production - my full course on building software with AI the way professionals do: the methods and paradigms behind reliable, efficient, modular production systems, taught systematically. 16 个讲座，每个讲座都有一个实践课程
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chain-of-thought, chatgpt, claude, few-shot-learning, genai
+
+---
+
+### 🌟 [daily-paper-reader](https://github.com/ziwenhahaha/daily-paper-reader)
+- **项目语言**: Python
+- **星标数量**: ⭐ 807
+- **核心概述**: 开源的每日 arXiv / OpenReview 论文推荐与 AI 阅读平台，支持 GitHub Actions 自动更新、GitHub Pages 部署与论文问答。
+- **大概是做什么的**: Your Daily Companion for Discovering and Reading AI Papers - 2026-07-07 🎛️ 微调会议与侧边栏显示（ f202c703 / a12d6d2b ）：ACL 2026 与 ICML 2026 年份按钮右上角增加星标提示，并将新版 sidebar 默认宽度从 373px 收窄到 298px，旧默认宽度会自动迁移到新宽度。 - 2026-07-07 🏛️ 接入 ICML 2026 会议论文（ 69a55296 ）：从 OpenReview 同步 accepted 与公开 reject 共 6,555 篇论文，其中官方录取 6,341 篇，并补齐 PDF 链接、向量索引、统一会议检索与前端年份统计。 - 2026-07-07 🏛️ 接入 ACL 2026 会议论文（ 89351061 ）：从 ACL Anthology 同步 Long / Short / Findings 共 4,459 篇公开论文，补齐 PDF 直链、向量索引与会议年份统计，并开放前端 ACL 2026 年份按钮。 - 2026-07-01 🧭 修复侧边栏 v2 收起与冻结层细节（ adaa0dab / 9384abb4 / 5b9c807a ）：大屏收起后侧边栏真正归零，正文重新居中；论文页 AI 输入框、模型选择、底部工具区与问题面板随正文一起居中，并修复冻结标题遮罩压住首篇论文的问题。 - 2026-07-01 🔄 支持 Sync Fork 后再更新自有静态资源（ 19ceb63a ）：项目自有 app/ .js / app/ .css 默认从当前站点本地加载，只有显式配置版本时才走不可变 CDN 路径，避免 CDN 自动部署后用户立即拿到未同步资源。 - 2026-07-01 🏛️ 打通统一会议年份检索（ 801c1c1b / 4de71724 / 13154da5 ）：新增统一��议论文入口与 RPC 过滤能力，前端可把多个会议年份组合成一次检索，并按所选论文总数限制在 3 万篇以内，同时按论文数量线性估算费用与耗时。 - 2026-07-01 🎛️ 微调会议年份按钮展示（ 8dcc05c0 / 91e02269 ）：设置页会议面板改为双列滚动布局，并统一年份统计数字颜色。 - 2026-06-30 📊 展示会议年份统计（ 7ea7204b ）：会议年份按钮直接展示库内数量 / 官方录取数量，并将统计快照写入前端静态数据。 - 2026-06-29 🏛️ 接入系统与安全会议数据源（ e00d82aa / 9
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: academic-research, arxiv, arxiv-papers, github-actions, github-pages, literature-review
+
+---
+
+### 🌟 [AlphaAvatar](https://github.com/AlphaAvatar/AlphaAvatar)
+- **项目语言**: Python
+- **星标数量**: ⭐ 801
+- **核心概述**: 基于 LiveKit 构建的实时交互式 Omni Avatar，它允许您与任何开源 Avatar 组件（实时模型、视觉、语音、内存、搜索等）无缝集成。
+- **大概是做什么的**: 适合所有人的可学习、可配置和可插入的 Omni 个人助理 AlphaAvatar 简介 AlphaAvatar 是一个可自托管的 Omni 个人助理框架，旨在演变成智能个人管家 - 一个持续、个性化和主动的助理，可以记住、理解、计划并代表用户采取行动。它围绕基于插件的实时代理架构构建，结合了： - 🧠 长期用户、助手和工具交互历史的记忆 - 🧬 用户理解、身份连续性和个性化的角色 - 💡 自我完善和长期行为适应的反思 - 📅 任务分解、提醒和面向未来的行动规划 - ⚙️ 响应风格、工作流策略和主动协助的行为 - 🧰 工具通过 MCP、RAG、DeepResearch 和外部集成 - 😊 用于实时语音/化身交互的虚拟角色 ✨ 完全自我托管且隐私优先 - AlphaAvatar 可以在本地或您自己的基础设施上运行，让您可以控制自己的数据、内存、工具和行为。运行时A
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, avatar, livekit, llm, memory
+
+---
+
+### 🌟 [codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 6,739
+- **核心概述**: ✨ AI 编码，Vim 风格
+- **大概是做什么的**: A Neovim AI coding assistant for coding with LLMs (Anthropic, OpenAI, Gemini, Copilot and more ) and AI agents. With built-in support for Agent Client Protocol (ACP) , Model Context Protocol (MCP) , and agents like Claude Code and Codex New features are always announced here :purple heart: Sponsors Thank you to the following people: If you love CodeCompanion and use it in your workflow, please consider sponsoring me - :speech balloon: Copilot Chat meets Zed AI, in Neovim - :zap: Integrates Neovim with LLMs and Agents in the CLI - :electric plug: Support for LLMs from Anthropic, DeepSeek, Google Gemini, GitHub Copilot, GitHub Models, Mistral, Novita, Ollama, OpenAI, Azure OpenAI, OpenRouter, HuggingFace and xAI out of the box (or bring your own) - :robot: Support for Agent Client Protocol, enabling coding with agents like Augment Code, Cagent from Docker, Claude Code, Codex, Copilot CLI, Gemini CLI, Goose, Cursor CLI, Kimi CLI, Kiro, Mistral Vibe and OpenCode - :heart hands: User contributed and supported adapters - :battery: Support for Model Context Protocol (MCP) - :rocket: Inline
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent, agent-client-protocol, anthropic, claude-code, copilot
+
+---
+
+### 🌟 [AI-Gist](https://github.com/yarin-zhang/AI-Gist)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 833
+- **核心概述**: ✨ AI Gist 是一款隐私优先的 AI 提示词管理工具，致力于让个人收藏的 AI 提示词能够发挥最大价��。支持变量替换、Jinja 模板、AI 生成与调优、历史版本记录、云端备份等核心功能。
+- **大概是做什么的**: ✨ AI Gist 是一款隐私优先的 AI 提示词管理工具，致力于让个人收藏的 AI 提示词能够发挥最大价值。现已覆盖 Windows / macOS / Linux 桌面端，并提供 Android APK 与 iOS App Store 版本，支持变量替换、Jinja 模板、AI 生成与调优、历史版本记录、云端备份等核心功能。 🏠 访问官网 🔗 GitHub 下载 🤖 Android APK 🍎 App Store AI Gist 提供基础的 AI 提示词管理功能，旨在帮助用户高效地创建、组织和使用 AI 提示词。支持 Jinja 模板。 变量填充 ：调用模板时动态填入变量，结构清晰灵活，支持 Jinja 模板。 多视图管理 ：集中管理提示词模板，支持卡片视图、表格视图、分类视图。 筛选分类 ：快速筛选、查找、组织提示词，支持标签、分类、评分、收藏等功能。 多种历史记录 ：便于重复调用与持续优化，事后可回溯。 AI Gist 还集成了 AI 模型，支持自动生成和调整提示词，提升管理效率。用之前，改一改。 接入多种 AI 模型 ：支持接入多种 AI 模型（包括本地模型 Ollama、LM Studio，以及 OpenAI 等多种常见在线模型）。 AI 生成 ：使用 AI 快捷生成提示词，支持自定义系统提示词。 AI 调优 ：使用 AI 改写提示词，快速让提示词更具体、更丰富，同样支持自定义。 AI 提取变量 ：无需手动挖空，使用 AI 自动提取可能的变量。 AI Gist 关注隐私和数据��全，所有数据都存储在本地，并支持云备份功能，方便在不同设备间同步。 本地优先 ：所有数据存储在本地，默认情况无需联网，确保隐私和安全。 掌控数据 ：拥有完整的数据控制，支持完整导出和导入，通用格式 CSV 导出。 云端备份 ：支持 WebDAV、iCloud 备份与恢复，方便在多设备间共享数据。 多平台支持 ：支持 Windows / macOS / Linux 桌面端，Android（APK）和 iOS（App Store）移动端。 多语言支持 ：支持简体中文、繁体中文、英文、日语。 桌面端安装包通过 GitHub Releases 发布；移动端目前提供 Android APK 安装包，iOS 版本已上架 App Store。 ------ ---------- ------ Windows Setup Windows 安装程序 macOS (Apple Silicon) 适用于 Apple 芯片 macOS (Intel) 适用于 Intel 芯片 Linux Ap
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, claude, electron, gemini, gpt, llm
+
+---
+
+### 🌟 [lmstudio-js](https://github.com/lmstudio-ai/lmstudio-js)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,720
+- **核心概述**: LM Studio TypeScript SDK
+- **大概是做什么的**: Use local LLMs in TypeScript LM Studio Client SDK lmstudio-js is LM Studio's official JavaScript client SDK, written in TypeScript.它允许您 - 使用 LLM 在聊天中进行响应或预测文本完成 - 将函数定义为工具，并将 LLM 转变为完全在本地运行的自主代理 - 从内存中加载、配置和卸载模型 - 支持浏览器和任何与 Node 兼容的环境 - 生成文本嵌入等等！使用Python？ See lmstudio-python For more examples and documentation, visit lmstudio-js docs. Why use lmstudio-js over openai sdk? Open AI's SDK is designed to use with Open AI's proprietary models.因此，它缺少在本地环境中使用 LLM 所必需的许多功能，例如： - 管理从内存加载和卸载模型 - 配置加载参数（上下文长度、GPU 卸载设置等） - 推测性解码 - 获取有关模型的信息（例如上下文长度、模型大小等） 此外，虽然 openai sdk 是自动生成的，但 lmstudio-js 的设计从头到尾都是干净和简单的
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, lm-studio, lmstudio, nodejs, typescript
+
+---
+
 ## 🕔 2026-07-12 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
