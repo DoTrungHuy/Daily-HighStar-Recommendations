@@ -1,3 +1,67 @@
+## 🕔 2026-07-12 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [axonhub](https://github.com/looplj/axonhub)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,665
+- **核心概述**: ⚡️ 开源 AI 网关 — 使用任何 SDK 调用 100 多个 LLM。内置故障转移、负载平衡、成本控制和端到端跟踪。
+- **大概是做什么的**: AxonHub - 一体化人工智能开发平台 使用任何 SDK。访问任何模型。零代码更改。 Atlas Cloud 是一个全模式 AI 推理平台，为开发人员提供单一 AI API 来访问视频生成、图像生成和 LLM API。您无需管理多个供应商集成，只需连接一次即可统一访问跨所有模式的 300 多个精选模型。查看 Atlas Cloud 的新编​​码计划促销活动，以获取更经济实惠的 API 访问。在 Bloome 上尝试 AxonHub 进行零本地设置：从浏览器或手机上单击一下，即可轻松与您的团队共享。提供商计划说明链接 ---------- ------ ------------- ---------- 智普AI GLM编码计划 您已被邀请加入GLM编码计划！享受对 Claude Code、Cline 和 10 多个顶级编码工具的全面支持 - 每月只需 3 美元。立即订阅并享受限时优惠！ English / 中文 Volcengine CODING PLAN 方舟编码计划支持Doubao、GLM、DeepSeek、Kimi等模型。兼容无限的工具。立即订阅可额外享受 10% 折扣 — 低至每月 1.2 美元。订阅越多，越多
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, anthropic, anthropic-api, api-gateway
+
+---
+
+### 🌟 [langroid](https://github.com/langroid/langroid)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,062
+- **核心概述**: 通过多代理编程利用法学硕士
+- **大概是做什么的**: Langroid 是一个直观、轻量级、可扩展且有原则的 Python 框架，由 CMU 和威斯康辛大学麦迪逊分校的研究人员开发，可轻松构建由 LLM 驱动的应用程序。您设置代理，为它们配备可选组件（LLM、矢量存储和工具/功能），为它们分配任务，并让它们通过交换消息协作解决问题。这种多代理范例的灵感来自于（但您不需要对此有所了解！）。 Langroid 是 LLM 应用程序开发的全新尝试，在简化开发人员体验方面投入了大量精力；它不使用 Langchain 或任何其他 LLM 框架，并且几乎适用于任何 LLM。 🔥 ✨ Claude Code 插件可通过内置模式和最佳实践加速 Langroid 开发。 🔥 阅读 langroid 架构的（WIP）概述，以及 Langroid 的快速浏览。 🔥 MCP 支持：允许任何 LLM-Agent 通过 Langroid 的简单 MCP 工具适配器利用 MCP 服务器，该适配器将服务器的工具转换为 Langroid 的 ToolMessage 实例。 📢 公司正在生产中使用/改编 Langroid。这里
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, chatgpt, function-calling, gpt, gpt-4
+
+---
+
+### 🌟 [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api)
+- **项目语言**: Python
+- **星标数量**: ⭐ 798
+- **核心概述**: 一款完全开源的微信公众号文章获取、 RSS 订阅API服务，支持IP代理池反风控，支持mcp接入各种Agent工具。
+- **大概是做什么的**: 微信公众号文章获取 & RSS 订阅服务 完全开源 免费部署 RSS 订阅 文章抓取 反风控 100% 开源，100% 免费。 代码完全公开，私有化部署无任何限制，不搞"开源"之名行收费之实。 - RSS 订阅 — 订阅任意公众号，自动定时拉取新文章（ 包含完整文章内容和图片 ），生成标准 RSS 2.0 源，接入 FreshRSS / Feedly 等阅读器即可使用 - MCP · AI 客户端接入 — 内置 MCP 服务，Claude / Codex / Cline / Cursor 等 AI 客户端可 直接搜索、订阅、读文章 （6 个工具，静态 Token 鉴权，单用户自托管无需 OAuth） - 文章内容获取 — 通过 URL 获取文章完整内容（标题、作者、正文 HTML / 纯文本、图片列表） - Markdown 导出 — 把已抓取文章导出为 markdown（带 YAML frontmatter，图片走代理可直接渲染），可导入 Obsidian / Logseq；支持按时间游标增量同步全部文章 - 反风控体系 — Chrome TLS 指纹模拟 + SOCKS5 代理池轮转 + 三层自动限频，有效对抗微信封控 - 文章列表 & 搜索 — 获取任意公众号历史文章列表，支持分页和关键词搜索 - 公众号搜索 — 按名称搜索公众号，获取 FakeID - 公众号主体信息 — 获取公众号认证主体、认证状态、原创文章数等详细信息 - 扫码登录 — 微信公众平台扫码登录，凭证自动保存，4 天有效期 - 图片代理 — 代理微信 CDN 图片，解决防盗链问题 - Webhook 通知 — 登录过期提醒（提前24h/6h预警+已过期通知）、触发验证等事件自动推送（支持企业微信机器人） - API 文档 — 自动生成 Swagger UI / ReDoc，在线调试所有接口 管理面板 — 登录状态、接口文档、在线测试一站式管理 RSS 订阅管理 — 搜索公众号一键订阅，复制地址接入 RSS 阅读器 最快速的部署方式 ，无需配置 Python 环境，一键启动： 服务启动后访问 http://localhost:5000/login.html 扫码登录即可使用。 支持多架构 ： linux/amd64 / linux/arm64 （Apple Silicon、树莓派、ARM 服务器） 不想折腾部署？30 秒注册即可使用 👉 wechatrss.waytomaster.com 搜索公众号名称，拿到 RSS 链接，丢进你的阅读器——Feedly、Inoreader、NetNew
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, mcp, rss, rss-feed, wechat, wechat-article
+
+---
+
+### 🌟 [vice](https://github.com/Webba-Creative-Technologies/vice)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 534
+- **核心概述**: VICE 是一种安全审核 CLI 工具，可以查找 Web 应用程序中的漏洞。
+- **大概是做什么的**: ██╗ ██╗██╗ ██████╗███████╗ ██║ ██║██║██╔════╝██╔════╝ ██║ ██║██║██║ █████╗╚██╗██╔╝██║██║██╔══╝╚████╔╝██║╚██████╗███████╗╚═══╝ ╚═╝ ╚═════╝╚══════╝ Web 应用程序的黑盒和白盒安全审核器。 VICE 是一种安全审核 CLI 工具，可以查找 Web 应用程序中的漏洞。它有两种模式： 远程扫描为其提供 URL。它使用真实的浏览器对您的站点进行爬网，检查公共客户端资源，限定公开的服务，检查 Supabase 访问控制，并在选定的目标范围内运行有界只读安全探测器。本地审计将其指向您的项目目录。它读取您的源代码，检查您的 .env 文件，运行 npm 审核，分析您的 Supabase 迁移是否缺少 RLS，查找代码中的 SQL 注入和 XSS，并准确告诉您要修复的内容。由 Webba Creative Technologies 打造。 VICE 作为 GitHub Action 提供，它会扫描每个拉取请求和推送的代码，将发现结果作为 PR 评论发布，并在您的存储库中维护安全徽章。将 .github/workflows/security.yml 添加到您的存储库中：就是这样。动作安装VICE，审核哟
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, security, security-tools
+
+---
+
+### 🌟 [ManimCat](https://github.com/Wing900/ManimCat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 385
+- **核心概述**: EN: ManimCat: AI-generated math animations from natural language. High-quality Manim rendering with LaTeX support and auto-code fixing. 中: ManimCat：AI 数学动画生成器。支持描述即视频，内置 LaTeX 与代码纠错，让数学动效触手可及。
+- **大概是做什么的**: ∫   Σ   ∂   ∞ 用于数学视觉效果的双模式 AI 工作区 将直接工作流程生成与代理驱动的工作室协作相结合，由 Manim 和 matplotlib 提供支持 我很高兴向您介绍我的新项目 ManimCat。毕竟，它是一只猫。 ManimCat 建立在 manim-video-generator 之上，现在是一个更广泛的人工智能辅助创建系统，用于数学教学视觉效果，而不仅仅是一个生成流程。它专为课堂解释、实例分解和视觉推理任务而设计。您可以使用自然语言通过视频和图像输出生成、修改、重新渲染和组���动画和静态教学视觉效果。该项目现在围绕三个明确的轴进行组织：双模式、双引擎和双工作室。 - 工作流模式用于在需要快速输出时直接生成和渲染 - 代理模式用于基于 Studio 的协作工作，具有较长生命周期的会话、任务状态、审查和迭代 - Manim 用于动画和基于时间线的数学故事讲述 - matplotlib 在 Plot Studio 中用于静态数学视觉效果，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3blue1brown, ai, ai-agents, educational-project, generative-ai, llm
+
+---
+
+### 🌟 [GhidrAssistMCP](https://github.com/symgraph/GhidrAssistMCP)
+- **项目语言**: Java
+- **星标数量**: ⭐ 659
+- **核心概述**: Ghidra 的本机 MCP 服务器扩展
+- **大概是做什么的**: 强大的 Ghidra 扩展，提供 MCP（模型上下文协议）服务器，使 AI 助手和其他工具能够通过标准化 API 与 Ghidra 的逆向工程功能进行交互。 GhidrAssistMCP 弥合了人工智能分析工具和 Ghidra 综合逆向工程平台之间的差距。通过实施模型上下文协议，此扩展允许外部 AI 助手、自动化分析工具和自定义脚本与 Ghidra 的分析功能无缝交互。 - MCP 服务器集成：使用官方 SDK 实现完整的模型上下文协议服务器 - 双 HTTP 传输：支持 SSE 和流式 HTTP 传输，以实现最大的客户端兼容性 - 49 个内置工具：全面的分析工具集，具有基于操作的整合，以���现更清洁的 API - 6 个 MCP 资源：用于程序信息、函数、字符串、导入、导出和段的静态数据资源 - 7 个 MCP 提示：针对常见逆向工程任务的预构建分析提示 - 结果缓存：智能缓存系统以提高 repe 的性能
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ghidra, ghidra-extension, ghidra-plugin, llm, mcp, mcp-server
+
+---
+
 ## 🕔 2026-07-11 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
