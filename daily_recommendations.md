@@ -1,3 +1,67 @@
+## 🕔 2026-07-13 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [smile](https://github.com/haifengl/smile)
+- **项目语言**: Java
+- **星标数量**: ⭐ 6,403
+- **核心概述**: 统计机器智能和学习引擎
+- **大概是做什么的**: 统计机器智能和学习引擎 SMILE（统计机器智能和学习引擎）是一个全面的、高性能的 JVM 机器学习框架。 SMILE v5+ 需要 Java 25 ； v4.x requires Java 21;所有以前的版本都需要 Java 8。SMILE 还为 Scala 和 Kotlin 提供惯用的 API。 With advanced data structures and algorithms, SMILE delivers state-of-the-art performance across every aspect of machine learning. SMILE Studio is an agentic IDE for data science using Python, Java, or Scala. See studio/README.md how to get your first project up and start interacting with your data with natural language in a few minutes. - 原生库 (BLAS / LAPACK) 5. SMILE Studio 和 Shell 6. 模型序列化 9. 问题和讨论 LLM LLaMA-3 推理、tiktoken BPE 分词器、OpenAI 兼容 REST 服务器、SSE 聊天流 深度学习 LibTorch/GPU 后端、EfficientNet-V2 图像分类、自定义层 API 分类 SVM、决策树、随机森林、AdaBoost、梯度 Boosting, Logistic Regression, Neural Networks, RBF Networks,
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: classification, clustering, computer-algebra-system, computer-vision, data-science, dataframe
+
+---
+
+### 🌟 [R-KV](https://github.com/Zefan-Cai/R-KV)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,203
+- **核心概述**: [Neurips 2025] R-KV: Redundancy-aware KV Cache Compression for Reasoning Models
+- **大概是做什么的**: 缩小缓存，保留大脑。 R-KV 会即时丢弃重复的标记，仅用一小部分内存即可提供完全准确的推理。 - Apply R-KV in GPT-OSS - Integrate R-KV with VeRL - Harden R-KV benchmark coverage in vLLM, Nano-vLLM and SGLang (GPU smokes in tests/smoke/ , throughput bench + raw artifacts in results/ , CPU tests in CI) - Extend dataset to GPQA, liveCodeBench - Expand Qwen-3 evaluation coverage - 🚀 [26/07/13] SGLang R-KV 端口 — 更快，但仍然无损。 The decode-time port is now performance-hardened: a fused Triton redundancy kernel , in-graph CUDA-graph decode , batched cross-layer scoring , two-phase compaction , and compression-aware admission — plus tensor + data parallelism (DP scales 5.1× , TP validated on 8× H100 via a cross-rank eviction-score all-reduce). GSM8K 上的预算 = 512 时精度保持无损（与 Full-KV 相当），而吞吐量则位于公平 Full-KV 基线的百分之几以内。请参阅 SGLang/benchmark/ （RESULTS.md、RESULTS dp.md、RESULTS tp.md）和 SGLang/docs/OPTIMIZATIONS.md。 - 🚀 [2002年7月26日] SGLang (v0.5.14) R-KV
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: kvcache, llm, reasoning-models
+
+---
+
+### 🌟 [aidevops](https://github.com/marcusquinn/aidevops)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 304
+- **核心概述**: Vibe-Coding 很简单。 DevOps 很难。 OpenCode 和 Git 令牌高效的 AI 代理自动化，适合您的应用程序、业务和个人开发。意见一致的工具、服务、CLI 和 API 堆栈，可实现速度、安全性和 24/7 结果。开源第一。一切都很顺利。 Try on your repos for money-making magic.
+- **大概是做什么的**: aidevops.sh 是一个 OpenCode 插件和 AI DevOps 框架，适合那些希望 AI 跨代码、基础设施、业务、营销、内容和创意项目完成有用工作的人，而不是将每项工作变成另一场漫长而脆弱的聊天。大多数人工智能工具仍然让你自己进行艰苦的协调：找到正确的上下文、选择模型、保护秘密、管理分支、监视 CI、发现卡住的工作以及记住上次出了什么问题。 aidevops 围绕该工作构建结构，以便代理可以共享上下文、安全地并行工作、在重要的地方花费模型预算，并使系统比他们发现的更好。推荐设置：OpenCode + OpenAI 模型。 GPT-5.5是复杂代理工作的首选高性能模型； GPT-5.4 mini 是用于分类和例行实施的首选快速、低成本模型。 Claude 模型（Anthropic）仍然受到完全支持，并且随着其他模型提供商的质量、延迟和成本概况的变化，我们会不时对其进行评估。 “重新设计登陆页面的任务范围——将其分解为里程碑，调度
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, agents-md, ai, ai-agents, ai-assistant, ai-assistants
+
+---
+
+### 🌟 [awesome-second-brain](https://github.com/aristoapp/awesome-second-brain)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 465
+- **核心概述**: A curated solutions to building a self-evolving second brain that helps AI agents understand your personal and team context.
+- **大概是做什么的**: Awesome AI Second Brain A curated comparison of second brain, AI memory, and knowledge systems for people who want AI to understand their personal context, team knowledge, and working history. It focuses on the full lifecycle: collecting scattered context, organizing it into durable knowledge, keeping it fresh over time, and making it useful when people or AI tools work. Second-Brain Lifecycle Use this repo to decide how you want your second brain to work end to end: Stage Key question What to compare Collect How does context from chats, docs, apps, notes, calendars, Slack, email, code, and files enter the brain? Connectors, imports, APIs, manual notes, custom collectors Organize Does raw context become structured knowledge instead of a pile of embeddings? Entities, facts, links, summaries, timelines, tags, Wiki/pages Evolve Does memory improve as new context arrives and old context gets stale? Consolidation, deduping, correction, refresh, dream/maintenance loops Use Can the right context show up when a person or AI tool is doing real work?搜索、接地、过滤器、引文、AI-t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anthropic, awesome, awesome-lists, brain, chatgpt, claude
+
+---
+
+### 🌟 [vera](https://github.com/aallan/vera)
+- **项目语言**: Python
+- **星标数量**: ⭐ 390
+- **核心概述**: Vera: a programming language designed for LLMs to write
+- **大概是做什么的**: Vera (v-ERR-a) 是一种专为大型语言模型编写的编程语言。这个名字来自拉丁文veritas（真理）。 Programs compile to WebAssembly and run at the command line, in the browser, or — experimentally — on stock WASI Preview 2 hosts.没有变量名。 @Int.0 是最新的 Int 绑定； @Int.1 是之前的那个。 The requires clause is a precondition the compiler checks at every call site. Ensure 子句是 SMT 求解器静态证明的后置条件。该功能是纯粹的——没有任何副作用。如果其中任何一个错误，代码将无法编译。编程语言始终与其用户共同发展。组装是由于硬件限制而出现的。来自操作系统的C。 Python源于生产力需求。如果模型成为代码的主要作者，那么语言也应该适应这一点。证据表明，模型面临的最大问题不是语法��而是规模上的连贯性。 Models struggle with maintaining invariants across a codebase, understanding the ripple effects of changes, and reasoning a
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: algebraic-effects, contracts, formal-verification, llm, parser, programming-language
+
+---
+
+### 🌟 [mcp](https://github.com/IBM/mcp)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 395
+- **核心概述**: IBM 提供的模型上下文协议 (MCP) 服务器、客户端和开发人员工具的集合。
+- **大概是做什么的**: IBM 的模型上下文协议 (MCP) 服务器、MCP 客户端和开发人员工具的集合。将您的 IBM 产品连接到任何 AI Agent 或 AI 应用程序。 MCP is an open-source protocol designed to enable AI models to securely interact with local and remote resources through standardized server implementations. This collection of IBM MCP services focuses on both production-ready and experimental MCP servers that enhance AI capabilities by providing file access, database connections, API integrations, and additional contextual services. Available MCP Servers Server name Description Usage IBM MQ Server Provides access to IBM MQ queue managers health checks, and to run any MQSC command against a specific queue manager. see link for instructions K Planner K MCP Server provides a containerized deployment of Top-K and Top-Q planners from the KStar repository as Model Checking Problem (MCP) tools. see link for instructions 💼 Business Automation Server name Description Usage IBM Business Automation Workflow MCP Server The IBM® Business Automation Workflow MCP Server is a local Model Control
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, llm, mcp, modelcontextprotocol, toolcalling, tools
+
+---
+
 ## 🕔 2026-07-13 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
