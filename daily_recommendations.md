@@ -1,3 +1,67 @@
+## 🕔 2026-07-13 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [astrid](https://github.com/astrid-runtime/astrid)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 10,321
+- **核心概述**: Astrid 是一个用于可组合软件的便携式、功能安全的操作系统。
+- **大概是做什么的**: 用于可组合软件的便携式、功能安全的操作系统。 Astrid 对待组件的方式就像操作系统对待进程的方式一样。每个能力都是一个密封的 WebAssembly 胶囊：它可以与其他胶囊组成，仅授予明确的权限，并且可以在不扩大其范围的情况下进行替换。 Astrid 独立于任何特定产品、模型提供商、代理循环、用户界面或发行版。下面的内核很小并且故意愚蠢。它路由事件、强制执行功能、运行沙箱并记录审计跟踪；它不包含模型、工具模式或业务逻辑。越狱、中毒工具或普通错误仍然无法读取文件、访问网络或在其授权之外生成进程。权威是内核强制执行的一种能力，而不是模型被信任遵循的指令。从架构书籍或贡献者手册开始代理框架信任提示。阿斯特丽德将其放入运行时。代理是在您的计算机上执行的不受信任的代码，可以访问您的文件、网络和凭据。告诉它t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, ai-agents, capability-security, llm, mcp, microkernel
+
+---
+
+### 🌟 [nexent](https://github.com/ModelEngine-Group/nexent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,610
+- **核心概述**: Nexent 是一个零代码平台，用于使用 Harness Engineering 原理（统一的工具、技能、内存和具有内置约束、反馈循环和控制平面的编排）自动生成生产级 AI 代理。
+- **大概是做什么的**: Nexent 是一个用于自动生成生产级 AI 代理的零代码平台，基于 Harness Engineering 原理构建。它提供了统一的工具、技能、内存和编排，以及内置的约束、反馈循环和控制平面——无需编排，不需要复杂的拖放操作，使用纯语言来开发您想要的任何代理。一提示。无尽的触及。观看演示视频 ⭐ 在开始之前，请在 GitHub 上为我们加注星标 - 您的支持推动我们前进！选项 1：尝试我们的官方演示 无需安装 — 直接进��我们的在线演示环境，立即体验 Nexent 的功能。选项 2：自行部署 如果您需要在本地或私有基础设施中运行 Nexent，我们提供两种部署选项： 资源 Docker Kubernetes ---------- -------- ------------- CPU 4 核（最小）/8 核（建议） 4 核（最小）/8 核（建议） 内存 8 GiB（最小）/16 GiB（建议） 16 GiB（最小）/64 GiB （建议）磁盘 40 GiB（最小）/100 GiB（建议） 100 GiB（最小）/200 GiB（建议）架构 x86 64 / ARM64 x86 64 / ARM64 软件 Docker 24+、Docker Compos
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-framework, agentic-rag, agentic-workflow, ai
+
+---
+
+### 🌟 [Trinity-RFT](https://github.com/agentscope-ai/Trinity-RFT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 668
+- **核心概述**: Trinity-RFT 是一个通用、灵活且可扩展的框架，专为大语言模型 (LLM) 的强化微调 (RFT) 而设计。
+- **大概是做什么的**: 中文主页 教程 常见问题 Trinity-RFT：用于大型语言模型强化微调的通用且统一的框架 💡 什么是 Trinity-RFT？ Trinity-RFT 是一个通用、灵活且用户友好的 LLM 强化微调 (RFT) 框架。它将 RFT 解耦为三个协同工作的组件：Explorer 通过代理与环境交互生成体验数据；训练器通过最小化数据损失来更新模型权重； Buffer 在整个 RFT 生命周期中管道化数据处理。 Trinity-RFT 为具有不同背景和���标的用户提供功能： 🤖 代理应用程序开发人员：训练由 LLM 驱动的代理并提高其在特定领域的能力 [[tutorial]](https://agentscope-ai.github.io/Trinity-RFT/en/main/tutorial/developworkflow.html) 🧠 强化学习研究人员：使用允许非侵入式定制的紧凑、即插即用模块设计、实现和验证新的 RL 算法[[tutorial]](https://agentscope-ai.github.io/Trinity-RFT/en/main/tutorial/develop Algorithm.html) 📊 数据工程师：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, llm, rlhf
+
+---
+
+### 🌟 [openserp](https://github.com/karust/openserp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,065
+- **核心概述**: 用于 AI、SEO 和自动化的自托管 SERP API。浏览器渲染的 Google、Bing、Yandex、Baidu、DuckDuckGo 和 Ecosia 搜索以及页面提取 🎉
+- **大概是做什么的**: OpenSERP 是一个免费的开源 SERP API 和 CLI，用于来自 Google、Yandex、百度、Bing、DuckDuckGo 和 Ecosia 的实时搜索数据。将其用作法学硕士、代理和 RAG 管道的搜索工具，或用作 Google、Yandex、百度等 SEO 排名跟踪的抓取后端。当您的工作流程需要 RU/CN 网络覆盖而不是其他仅限 Google 的 API 时，它特别有用。在本地运行它、自行托管它，或者当您需要相同的公共 API 形状而不操作服务器时使用云版本。云也是支持 OpenSERP 的最简单方法：它是对技术进行大规模测试的地方，并且���作直接返回到这个开源项目中。 - 🔍 多引擎 - Google、Yandex、百度、Bing、DuckDuckGo 和 Ecosia 的专用端点，为 SEO 排名管道提供稳定的 JSON - 🌐 Megasearch - /mega/search 在每个选定的引擎上运行一个查询，然后合并和删除重复结果 - 📄 URL 提取 - 在一次调用中返回搜索结果以及干净的 Markdown/文本目标页面内容，以实现基础和自动化 - ✨ SERP 功能 - 人工智能摘要、答案盒子，个人
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, api, baidu, bing, cli, duckduckgo
+
+---
+
+### 🌟 [caura-memclaw](https://github.com/caura-ai/caura-memclaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: AI 代理队列的受控共享内存 — 多代理、多租户、MCP 原生。信任层、关键策略、审计跟踪、知识图、自我改进检索。阿帕奇2.0。
+- **大概是做什么的**: 人工智能代理的舰队记忆——治理、共享、自我改进。快速入门 · 性能 · API 参考 · 插件文档 · 贡献 · MemClaw — 用于 AI 代理的队列内存 MemClaw 是用于多租户、多代理 AI 队列的开源内存。您的代理存储他们所学到的知识，查找车队所知道的知识，并通过每次交互变得更加聪明 - 互相学习而不是重复错误。代理编写纯文本。 MemClaw 将其转变为可搜索、可管理、自我改进的记忆。一个循环，三大��柱：书写、回忆、复合——每一次互动都会让下一次互动变得更聪明。专为车队而非单个代理而打造。公共代理内存基准（LoCoMo、LongMemEval）测量一个代理、一个用户、一个长对话——单聊天机器人形状。我们在生产中看到的部署形式是相反的：数十或数千个代理代表公司工作，分享他们在治理下学到的知识。 MemClaw 从第一天起就围绕这种形状进行架构设计——范围内存、跨代理结果传播、车队范围的信任层——以及
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agentic-ai, ai-agents, ai-infrastructure, claude, fastapi
+
+---
+
+### 🌟 [marm-memory](https://github.com/Lyellr88/marm-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 307
+- **核心概述**: 用于 Claude Code 和 Cursor 的本地优先 3 合 1 AI 内存层和 MCP 服务器。在 SQLite 中融合会话历史记录、代码库索引和概念图。为多代理群实现零云、隐私优先的上下文和即时调用。
+- **大概是做什么的**: MARM：适用于 MCP 客户端的本地优先持久多代理内存层 v2.21.1 欢迎贡献！浏览未解决的问题以做出贡献，或加入 MARM Discord 以共享工作流程、获取设置帮助并与其他构建者联系。重要消息 - marm-console 已添加，但尚未完全激活，即将推出！ - 性能和扩展基准 - 完整的 MCP 工具套件 - 使用 MARM：谈话，不要调用工具 - 了解 MARM 内存 - 知识图：代码和概念 - 架构和内部结构 - 项目文档 您的 AI 会忘记一切。 MARM内存没有。 marm-memory 是一款高性能三合一人工智能记忆框架，可解决对话漂移、上下文污染和代理失忆症。它不是杂乱地使用分散的工具，而是将三个上下文层本地融合到一个本地运行时中： 🧠 核心内存（7 个工具） - 通过本地向量嵌入和确定性精确匹配来实现长期情景记忆、会话日志、笔记本和智能摘要 💻 代码图（5 个工具） - 即时存储库索引、符号查找和树守护者语法分析，由
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, ai-memory, claude-code, codex-cli, developer-tools
+
+---
+
 ## 🕔 2026-07-12 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
