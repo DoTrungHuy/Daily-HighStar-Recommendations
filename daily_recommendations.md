@@ -1,3 +1,67 @@
+## 🕔 2026-07-13 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [osmedeus](https://github.com/j3ssie/osmedeus)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,471
+- **核心概述**: 现代安全编排引擎
+- **大概是做什么的**: Osmedeus - 现代安全编排引擎 Osmedeus 是一个专注于安全的声明式编排引擎，它将复杂的工作流程自动化简化为可审核的 YAML 定义，并配有加密数据处理、安全凭证管理和沙盒执行。它专为初学者和专家打造，提供强大的可组合自动化功能，且不会牺牲基础设施的完整性和安全性。 - 声明式 YAML 工作流程 - 使用挂钩、决策路由、模块排除和跨多个运行程序（主机、Docker、SSH）的条件分支定义管道 - 分布式执行 - 基于 Redis 的主从模式，具有队列系统、Webhook 触发器和跨工作文件同步 - 丰富的函数库 - 80 多个实用函数，包括 nmap 集成、tmux 会话、SSH 执行、TypeScript/Python 脚本、SARIF 解析和CDN/WAF 分类 - 事件驱动调度 - Cron、文件监视和事件触发器，具有过滤、重复数据删除和延迟任务队列 - 代理 LLM 步骤 - 具有子代理管弦乐队的工具调用代理循环
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, attack-surface-management, bugbounty, go, hacking, hacking-tool
+
+---
+
+### 🌟 [WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 404
+- **核心概述**: A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。
+- **大概是做什么的**: 这不是官方功能说明书的改写，而是一本以真实任务为主线的实战读本。先完成安装和第一项工作，再进入移动办公、知识管理、专业诊断、内容自动化和多 Agent 团队，最后把一次成功变成团队可复用的工作系统。 推荐访问 workbuddy.homes 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。 GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。 第一篇 · 使用手册 下载、安装、界面、第一个任务、Skill、连接器、API 和自动化 第二篇 · 案例篇 办公、文件、远程、资讯、知识、会议、投资、视频、自媒体和 GEO 第三篇 · 进阶篇 打造 Skill、多 Agent 系统设计、自动化可靠性 第四篇 · 岗位与行业 不同岗位的使用路线和行业工作流 - 第一次使用 ：从第 1 章开始，按顺序完成第一篇。 - 已经有具体任务 ：直接进入第二篇对应案例，跑通后再阅读第三篇。 - 准备团队落地 ：重点阅读第三、四篇，并记录权限边界、验收标准和失败回退。 如果你有真实的工作场景，却不知道怎样用 WorkBuddy 完成，可以前往 帮你解决 提交场景问卷。 请在问卷中说明你遇到的问题、目前的处理方式、会用到的资料、期望结果和安全边界。我们会阅读并评估每一份需求；如果需要补充信息，会通过你��动留下的联系方式与你沟通。 具有代表性和复用价值的问题，我们会尝试制作成完整的开源 Case，写清所用 Skill、安装与使用方法、任务描述、操作过程和最终效果，并发布到社区案例集，帮助更多遇到类似问题的人。 需要 Node.js 20～24，推荐 Node.js 22。 我们优先收集真实、可复现的 WorkBuddy 使用案例。提交 Case 前，请先搜索社区案例集和蓝皮书目录，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。 - 场景与问题 ：谁在什么任务中遇到了什么困难。 - 使用的 Skill ：Skill 的作用、来源、安装方式和必要配置。 - 任务描述 ：在 WorkBuddy 中输入的提示词、步骤或自动化设置。 - 执行过程 ：关键操作、权限要求、输入资料和安全边界。 - 实际效果 ：使用截图或其他结果证明展示最终输出。 - 验收标准 ：怎样判断任务已经正确完成。 投稿时，在 docs/cases/submissions/ 下为案例新建独立目录，使用 Case 正文模板编写内容，并通过 Case PR 模板提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: codex, guide, llm, workbuddy
+
+---
+
+### 🌟 [fess](https://github.com/codelibs/fess)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,116
+- **核心概述**: 基于 OpenSearch 构建的开源、自托管企业和站点搜索服务器。抓取 Web/文件/数据库/云源、20 多种语言、REST API 以及 AI/RAG 和语义搜索。阿帕奇-2.0。
+- **大概是做什么的**: Fess：企业搜索服务器 Fess 是一个企业搜索服务器，您可以在任何具有 Java 运行时的平台上安装和运行它。它基于 OpenSearch 构建，但不需要具备 OpenSearch 知识：Fess 是通过基于浏览器的管理 UI 进行配置的。内置爬虫从网站、文件系统和数据存储（例如数据库和 CSV 文件）收集文档。支持多种文件格式，包括 Microsoft Office、PDF 和 ZIP 存档。 Fess Site Search 是 Google Site Search 的免费替代品，您可以将其嵌入到您自己的网站中。有关详细信息，请参阅 FSS JS 生成器文档。 - 具有分面、排序和搜索建议的全文搜索 - 网站、文件系统和数据存储（数据库、云存储和 SaaS）的爬网程序 - 支持多种文档格式，包括 Microsoft Office、PDF 和档案 - 基于浏览器的管理 UI 和 REST API - 基于角色和权限的搜索结果过滤 - 使用 LDAP、OpenID Connect、SAML、SPNEGO 和 Microsoft Entra ID 进行单点登录 - 多语言用户界面和文本分析
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-search, crawler, docker, elasticsearch, elasticsearch-alternative, enterprise-search
+
+---
+
+### 🌟 [samples](https://github.com/strands-agents/samples)
+- **项目语言**: Python
+- **星标数量**: ⭐ 808
+- **核心概述**: 使用 Strands Agents SDK 构建的代理示例。
+- **大概是做什么的**: Strands Agents 示例一种模型驱动的方法，只需几行代码即可构建 AI 代理。欢迎来到 Strands Agent 示例存储库！探索易于使用的示例以开始使用 Strands Agents 。此存储库中的示例仅用于演示和教育目的。它们展示了概念和技术，但并不打算直接用于生产。在生产环境中使用之前，请务必应用适当的安全和测试程序。 - Python 3.10 或更高版本 - pip 包��理器 - 验证方式：pip --version 或 pip3 --version - 通常与 python.org 中的 Python 3.4+ 安装程序捆绑在一起 - 如果缺少 pip，请使用以下方法之一进行安装： 步骤 1：创建虚拟环境 探索 Python 教程 → - Node.js 18 或更高版本 - npm 或 YARN 包管理器 探索 TypeScript 教程 → 模型提供程序设置 按照此处的说明配置模型提供程序和模型访问。探索存储库 - 01-learn - SDK 教程，涵盖基础知识、多代理系统和流媒体 - 02-deploy - Lamb 的部署模式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agents, ai, anthropic, autonomous-agents
+
+---
+
+### 🌟 [agent-sphere](https://github.com/nullpointexception-i/agent-sphere)
+- **项目语言**: Java
+- **星标数量**: ⭐ 354
+- **核心概述**: This project is an AI Agent orchestration platform. It uses an LLM-driven decision engine, combined with capabilities (built-in tools, MCP protocol, CLI execution, browser operations, etc.), to achieve a basic closed loop from perception → planning → execution → feedback.本项目是一个面向 AI Agent 编排平台。它通过 LLM 驱动的决策引擎，结合能力（内置工具、MCP 协议、CLI 执行、浏览器操作等）
+- **大概是做什么的**: 🔗 线上预览 / 现场演示 → as.buukle.top 👤 演示账户 / 演示账户：demo001 / demo001 该项目是一个 AI Agent 编排平台。在基于LLM的决策引擎驱动下，结合能力（内置工具、MCP协议、CLI执行、浏览器自动化等），实现感知→规划→执行→反馈的初级闭环。支持配置不同的模型提供者：OpenAI、DeepSeek、QuickRouter（中继站）、BigModel（智普AI）、LiteLLM。 ▶ 点击观看视频演示 1. 开发快速入门 2.1 总体结构 2.2.1 SessionRunner (ReAct Engine) 管理 AI 会话的完整执行生命周期，实现 Plan → Act → Observe → Learn 循环：与 ReAct 模式对齐： 2.2.2 能力层能力类型实现描述示例 ----------------- ---------------- ------------- ---------- MCP (Model Context Protocol) MCP Server 客户端 标准协议，连接任意 MCP Server Jira、GitHub、Slack、数据库Builtin（内置工具） SPI：CapabilityBuiltinToolSpi Java SPI 扩展 WebFetch、WebRe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, java, llm, reactjs
+
+---
+
+### 🌟 [chatluna](https://github.com/ChatLunaLab/chatluna)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 426
+- **核心概述**: 多平台模型接入，可扩展，多种输出格式，提供大语言模型聊天服务的插件 | A bot plugin for LLM chat with multi-model integration, extensibility, and various output formats
+- **大概是做什么的**: 多平台模型接入，可扩展，多种输出格式，提供大语言模型聊天服务的机器人插件。 项目状态：1.0 正式版（缓慢开发，准备 v2 版本） 预设 Agent 模式 & 流式输出 图像渲染输出 --------------------- -------------------------- -------------------- 🚀 高度可扩展（基于 LangChain 和 Koishi API） 🎨 多格式输出（文本、语音、图像、混合） 🔒 内容审核（通过 Koishi 审核服务） [x] 回复内容审核 （基于其他插件提供的 censor 服务） [x] 语音输出支持（即文字转语音，基于 initialencounter [x] 导入或导出会话记录（实际未完成，已放弃支持） 在 Koishi 下可直接安装本插件，而无需额外编辑配置文件。 模型/平台 接入方式 特性 :----------------------------------------------------- :----------------------- ---------------------------------------------- OpenAI 本地 Client，官方 API 接入 可自定义人格，支持 Agent/浏览模式等聊天模式 Azure OpenAI 本地 Client，官方 API 接入 可自定义人格，支持 Agent/浏览模式等聊天模式 Google Gemini 本地 Client，官方 API 接入 速度快，性能超越 GPT-3.5 Claude API 本地 Client, 官方 API 接入 超大上下文，大部分情况下能超过 GPT 3.5，需要 API KEY，收费 Deepseek 本地 Client，官方 API 接入 国产知名模型 通义千问 本地 Client，官方 API 接入 阿里出品国产模型，有开源版本，有免费额度 豆包 本地 Client，官方 API 接入 字节出品模型，送免费额度 智谱 本地 Client，官方 API 接入 ChatGLM，新人注册可获取免费 Token 额度 讯飞星火 本地 Client，官方 API 接入 国产模型，新人注册可获取免费 Token 额度 文心一言 本地 Client，官方 API 接入 百度出品系列模型 混元大模型 本地 Client，官方 API 接入 腾讯出品系列大模型 Ollama 本地 Client，自搭建 API 接入 知名开源模型合集，支持 CPU / GPU 混合部署，可本地搭建 RWKV
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, bot, chatbot, chatglm, chatgpt
+
+---
+
 ## 🕔 2026-07-13 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
