@@ -1,3 +1,67 @@
+## 🕔 2026-07-13 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [basic-memory](https://github.com/basicmachines-co/basic-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,417
+- **核心概述**: 真正记住的人工智能对话。永远不要再向人工智能重新解释你的项目。加入我们的 Discord：https://discord.gg/tyvKNccgqN
+- **大概是做什么的**: 跳过安装 — 尝试 30 秒内连接的云端 Claude、Codex 或 Cursor 中的 Basic Memory。没有Python，没有JSON，没有终端。终身锁定 15.00 美元/月（年费 12.50 美元/月）。 7 天免费试用 — 如果不适合您，可以在第 7 天之前随时取消。测试版定价——立即注册，您的价格永远不会上涨。 OSS 用户：使用代码 BMFOSS 可再享 20% 折扣，为期 3 个月。基本记忆团队现已推出！为您的团队提供单一、共享的云工作空间。知识并不局限于一个人——队友写的任何内容都可以立即供其他人和他们的人工智能助手使用。实时一起编辑注释，在人类和代理之间手动完成工作，并构建一个相互连接的知识库而不是分散的副本。相同的定价 - 从一名用户开始，然后根据需要添加更多用户。你的人工智能永远不会再忘记。从上次停下的地方继续 - 在 Claude、Codex、Cursor、ChatGPT 或任何使用 MCP 的语言中。您的知识以 Markdown 文件形式存在，您和您的 AI 都可以读取、写入和本地优先。磁盘上的纯文本。永远。 - 双向。人工智能和人类写信给
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, claude, knowledge-management, knowlege-graph, llm, local-first
+
+---
+
+### 🌟 [FunClip](https://github.com/modelscope/FunClip)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,912
+- **核心概述**: FunASR 支持的视频转录、字幕生成和 LLM 辅助剪辑工具以及本地 Gradio UI。
+- **大概是做什么的**: ⚡ 开源、准确且易于使用的视频剪辑工具 🧠 使用 FunClip 探索基于 LLM 的视频剪辑 FunClip 是一款完全开源、本地部署的自动化视频剪辑工具。它利用阿里巴巴统一语音实验室开源的FunASR Paraformer系列模型对视频进行语音识别。然后，用户可以从识别结果中自由选择文本片段或说话人，然后单击剪辑按钮即可获取所选片段对应的视频片段（快速体验Modelscope⭐HuggingFace🤗）。 - 🔥立即在 FunClip 中使用 LLM 尝试 AI 剪辑。 - FunClip 集成了阿里巴巴开源工业级模型 Paraformer-Large，该模型是目前性能最好的开源中文 ASR 模型之一，在 Modelscope 上的下载量超过 1300 万次。它还可以以集成的方式准确预测时间戳。 - FunClip融合了SeACo-Paraformer的热词定制功能，允许用户在ASR过程中指定某些实体词、名称等作为热词，以增强识别结果。 - FunClip集成了CAM++扬声器
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, ai-video-editing, asr, auto-subtitles, chinese, content-creation
+
+---
+
+### 🌟 [continuous-claude](https://github.com/AnandChowdhary/continuous-claude)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 1,356
+- **核心概述**: 🔂 带 PR 的 Ralph 循环：连续循环运行 Claude Code，自主创建 PR、等待检查、合并
+- **大概是做什么的**: 自动化工作流程，在连续循环中编排 Claude Code、自主创建 PR、等待检查和合并 - 因此多步骤项目在您睡觉时完成。这一切都开始了，因为根据合同，我有义务为包含数十万行代码的代码库编写单元测试，并在接下来的几周内将覆盖率从 0% 提高到 80% 以上——这似乎是 Claude 应该做的事情。因此，我构建了 Continuous Claude，这是一个 CLI 工具，用于在循环中运行 Claude 代码，从而在多个迭代中维护持久上下文。当前的人工智能编码工具往往会在完成任务后停止，一旦他们认为工作已经完成，并且他们实际上没有���我批评或进一步改进的机会。这种一次性模式使得处理更大的项目变得困难。因此，与“按原样”运行 Claude 代码（在孤立突发中提供帮助）相比，您想要的是长时间运行 Claude 代码而不耗尽上下文窗口。事实证明，这就像在连续循环中运行 Claude Code 一样简单 - 但从 CI/CD 中汲取灵感
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude, claude-code, continuous-ai
+
+---
+
+### 🌟 [ai](https://github.com/stripe/ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,659
+- **核心概述**: 使用 Stripe 构建人工智能产品和业务的一站式商店。
+- **大概是做什么的**: 该存储库是在 Stripe 之上构建人工智能产品和业务的一站式商店。它包含一系列 SDK，可帮助您将 Stripe 与 LLM 和代理框架集成，包括： @stripe/ai-sdk - 用于将 Stripe 的计费基础设施与 Vercel 的 ai 和 @ai-sdk 库集成。 @stripe/token-meter - 用于将 Stripe 的计费基础设施与 OpenAI、Anthropic 和 Google Gemini 的本机 SDK 集成，无需任何框架依赖性。模型上下文协议 (MCP) Stripe 在 https://mcp.stripe.com 托管远程 MCP 服务器。这允许通过 OAuth 进行安全的 MCP 客户端访问。在此处查看文档。您还可以使用 MCP 构建自主代理。代理技能是代理可以用来更快、更准确地构建的指令。 Stripe 提供了一系列技能，可帮助您的代理在使用 Stripe 进行构建时使用最新的最佳实践。如果您使用这些流行的代理工具之一，我们建议您安装官方 Stripe 插件，其中包括其他代理工具并自动更新。在您的项目中运行此命令：运行此 com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, llm, llm-agents, mcp, python, typescript
+
+---
+
+### 🌟 [opentypeless](https://github.com/tover0314-w/opentypeless)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 338
+- **核心概述**: 适用于 macOS、Windows 和 Linux 的开源 AI 语音输入。按热键，自然说话，在任何应用程序中获得精美的文本。
+- **大概是做什么的**: English 中文 日本语 한국어 Español Français Deutsch Português Русский русский уский हिन्दी Italiano Türkçe Tiếng Việt ภาษาไทย Bahasa Indonesia Polski Nederlands 的开源替代方案Wispr Flow 和 Superwhisper 用于在 macOS、Windows 和 Linux 上进行 AI 语音输入、重写和语音问答。按热键，自然说话，并在您已经使用的应用程序中获得干净的文本。或者提出一次性语音问题，无需打开聊天应用程序即可获得简洁的 AI 答案。如果 OpenTypeless 有助于您的工作流程��那么 GitHub 之星可以帮助更多人发现该项目。随处听写 · 重写选定的文本 · 提出一次性语音问题 · 自带密钥或使用托管云单词 Ask Anything 是一种快捷方式优先的语音问答流程，而不是聊天选项卡。按下“Ask Anything”热键，说出一个问题，停止录音，OpenTypeless 会转录它，向 LLM 发送一次性请求，然后仅在一个小的浮动注释中显示最终答案。它专为快速回答而设计，没有聊天历史记录，没有输入框，也没有额外的发送步骤。如果启用了选定文本上下文，Ask 还可以回答有关文本内容的问题
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-tools, byok, cross-platform, desktop-app, dictation
+
+---
+
+### 🌟 [drawio-ai-kit](https://github.com/sparklabx/drawio-ai-kit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 447
+- **核心概述**: 教你的人工智能绘制正确、漂亮的draw.io图表——声明性布局引擎、真实模板、结构验证器、视觉自检。 AWS·Azure·GCP·Databricks·BPMN。零依赖。
+- **大概是做什么的**: 一个编排和验证框架，使人工智能代理能够生成结构精确且美观标准化的draw.io图表，并针对AWS、Azure和GCP架构进行了优化。它使用三个关键组件来缓解常见的 AI 代理幻觉（例如生成不存在的模板 ID，从而导致空形状）： 1. 声明性目录 — 将 draw.io 模板 ID ( mxgraph.aws4. ) 映射到各自的分类法和规范调色板的单一真实来源。 2. 设计原则——编纂的架构和布局规则（rules/principles.md）。 3. 结构验证器 — 一个静态分析引擎，用于审核图 XML 以保证模板引用有效，并且在序列化之前���足设计原则。通过零依赖的drawio-ai CLI 暴露给AI。每个平台一个图表 - 全部由套件端到端生成：无需手动放置坐标、真实模板、经过验证、视觉检查。全套示例/。完整安装 — CLI 加上所有 5 个领域技能（AWS、Azure、GCP、Databricks、BPMN） — 一行：重新启动您的代理，然后尝试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, architecture-diagrams, aws, azure, bpmn
+
+---
+
 ## 🕔 2026-07-13 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
