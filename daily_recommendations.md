@@ -1,3 +1,67 @@
+## 🕔 2026-07-14 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [FastDeploy](https://github.com/PaddlePaddle/FastDeploy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,702
+- **核心概述**: 基于PaddlePaddle的LLM和VLM的高性能推理和部署工具包
+- **大概是做什么的**: FastDeploy 飞桨大模型高效部署套件 [2026-03] FastDeploy v2.5 全新发布! 新增Qwen3-VL与Qwen3-VL MoE模型部署支持，新增W4AFP8量化方法，增强强化学习训练支持能力，包含170+项Bug修复与性能优化，升级全部内容参阅 v2.5 ReleaseNote。 [2026-01] FastDeploy v2.4 : 新增 DeepSeek V3 与 Qwen3-MoE 模型的 PD 分离部署，增强MTP 投机解码能力，全面优化多硬件平台上的 MoE 推理与多模态前缀缓存性能，升级全部内容参阅 v2.4 ReleaseNote。 [2025-11] FastDeploy v2.3 : 新增ERNIE-4.5-VL-28B-A3B-Thinking与PaddleOCR-VL-0.9B两大重磅模型在多硬件平台上的部署支持，进一步优化全方位推理性能，以及带来更多部署功能和易用性的提升，升级全部内容参阅v2.3 ReleaseNote。 [2025-09] FastDeploy v2.2 : HuggingFace生态模型兼容，性能进一步优化，更新增对baidu/ERNIE-21B-A3B-Thinking支持! [2025-08] FastDeploy v2.1 :全新的KV Cache调度策略，更多模型支持PD分离和CUDA Graph，昆仑、海光等更多硬件支持增强，全方面优化服务和推理引擎的性能。 FastDeploy 是基于飞桨（PaddlePaddle）的大语言模型（LLM）与视觉语言模型（VLM）推理部署工具包，提供 开箱即用的生产级部署方案 ，核心技术特性包括： - 🚀 负载均衡式PD分解 ：工业级解决方案，支持上下文缓存与动态实例角色切换，在保障SLO达标和吞吐量的同时优化资源利��率 - 🔄 统一KV缓存传输 ：轻量级高性能传输库，支持智能NVLink/RDMA选择 - 🤝 OpenAI API服务与vLLM兼容 ：单命令部署，兼容vLLM接口 - 🧮 全量化格式支持 ：W8A16、W8A8、W4A16、W4A8、W2A16、FP8等 - ⏩ 高级加速技术 ：推测解码、多令牌预测（MTP）及分块预填充 - 🖥️ 多硬件支持 ：NVIDIA GPU、昆仑芯XPU、海光DCU、天数智芯GPU、燧原GCU、沐曦GPU、英特尔Gaudi等 - Python: 3.10 3.12 FastDeploy 支持在 英伟达（NVIDIA）GPU 、 昆仑芯（Kunlunxin）XPU 、 天数（Iluvatar）
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ernie, ernie-45, ernie-45-vl, inference, llm, llm-serving
+
+---
+
+### 🌟 [xtuner](https://github.com/InternLM/xtuner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,159
+- **核心概述**: 专为超大型 MoE 模型打造的下一代训练引擎
+- **大概是做什么的**: 🔍 探索我们的模型 - \[2025/09\] XTuner V1 发布！专为超大型教育部模型打造的新一代训练引擎 XTuner V1 是专为超大型教育部模型设计的新一代 LLM 训练引擎。与传统的3D并行训练架构不同，XTuner V1针对当今学术研究中流行的主流MoE训练场景进行了优化。 📊 Dropless Training - 可扩展且不复杂：无需专家并行即可训练 200B 规模的 MoE 模型； 600B 模型仅需要节点内专家并行 - 优化的并行策略：与传统 3D 方法相比，专家并行维度更小，可实现更高效的无滴训练 📝 长序列支��� - 内存高效设计：通过先进的内存优化技术在 64k 序列长度上训练 200B MoE 模型，无需序列并行 - 灵活扩展：完全支持 DeepSpeed Ulysses 序列并行，具有可线性扩展的最大序列长度 - 强大的性能：即使专家也能保持稳定性长序列t期间的负载不平衡
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, deepseek-v3, gpt-oss, intern-s1, internvl, kimi-k2
+
+---
+
+### 🌟 [aimock](https://github.com/CopilotKit/aimock)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 647
+- **核心概述**: 模拟您的 AI 应用程序所涉及的所有内容 — LLM API、MCP、A2A、AG-UI、矢量 DB、搜索。一包，一端口，零依赖。
+- **大概是做什么的**: https://github.com/user-attachments/assets/76815122-574a-48e1-b275-edae0a014667 用于 AI 应用测试的模拟基础设施 — LLM API、图像生成、图像编辑、文本转语音、转录、音频翻译、音频生成、视频生成、嵌入、MCP 工具、A2A 代理、AG-UI 事件流、矢量数据库、搜索、重新排名和适度。一包，一端口，零依赖。 AImock 模拟您的 AI 应用程序与之对话的所有内容： 工具 它模拟的内容 文档 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -------------------------------------------------- LLMock OpenAI（聊天/响应/实时 GA+Beta）、Claude、Gemini（REST/实时/交互/嵌入）、Bedrock、Azure、Vertex AI、Ollama（聊天/嵌入）、Cohere（聊天/嵌入）、 ElevenLabs TTS 提供 MCPMock MCP 工具、资源、会话管理提示 MCP A2AMock 具有 SSE 流的代理到代理协议 A2A AGUIMock AG-UI 用于前端的代理到 UI 事件流
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-testing, aimock, llm, mcp, mock-server, openai
+
+---
+
+### 🌟 [csghub-server](https://github.com/OpenCSGs/csghub-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,071
+- **核心概述**: csghub-server 是 CSGHub 的后端服务器，可帮助用户管理数据集、模式，并运行模型推理、微调和应用程序空间。
+- **大概是做什么的**: English ∙ 简体中文 ∙ 日本语 CSGHub Server 是开源且可靠的大型模型资产管理平台 - CSGHub 的一部分。它专注于通过REST API管理模型、数据集和其他LLM资产。 - 用户和组织的创建和管理 - 模型和数据集标签的自动标记 - 搜索用户、组织、模型和数据 - 数据集文件的在线预览，如.parquet文件 - 文本和图像的内容审核 - 单个文件的下载，包括LFS文件 - 跟踪模型和数据集的活动数据，例如下载量和点赞量 帮助用户快速了解功能和使用情况CSGHub，我们录制了一个演示视频。您可以观看该视频，快速了解该程序的主要功能和操作流程。 - CSGHub 演示视频如下，您也可以在 YouTube 或 Bilibili 上查看 请访问 OpenCSG 网站体验强大的管理功能。系统资源要求：4c CPU/8GB内存请自行安装Docker。本项目已在Ubuntu22环境下测试
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, datasets, golang, huggingface, llm, models
+
+---
+
+### 🌟 [Risuai](https://github.com/kwaroran/Risuai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,535
+- **核心概述**: 创造你自己的故事。用户友好的 LLM 角色扮演软件
+- **大概是做什么的**: Risuai，简称Risu，是一款跨平台人工智能聊天软件/Web应用程序，具有强大的功能，例如多个API支持、聊天中的资产、正则表达式功能等等。屏幕截图 1 屏幕截图 2 :--------------------------: :----------------------------------------: ![屏幕截图 1][屏幕截图 1] ![屏幕截图 2][屏幕截图 2] ![屏幕截图 3][屏幕截图 3] ![屏幕截图 4][屏幕截图 4] [屏幕截图 1]: https://github.com/kwaroran/Risuai/assets/116663078/cccb9b33-5dbd-47d7-9c85-61464790aafe [截图2]： https://github.com/kwaroran/Risuai/assets/116663078/30d29f85-1380-4c73-9b82-1a40f2c5d2ea [截图3]： https://github.com/kwaroran/Risuai/assets/116663078/faad0de5-56f3-4176-b38e-61c2d3a8698e [截图4]： https://github.com/kwaroran/Risuai/assets/116663078/ef946882-2311-43e7-81e7-5ca2d484fa90 - 多种 API 支持：支持 OpenAI、Claude、Gemini、DeepInfra、Ooba、OpenRouter...等等！ - 表情图像：根据当前角色的表情显示他/她的图像！ - 群聊：一次聊天中有多个角色。 - 插件：添加您的功能和提供程序，以及
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, characters, chat, chatbot, claude, gemini
+
+---
+
+### 🌟 [awesome-on-policy-distillation](https://github.com/chrisliu298/awesome-on-policy-distillation)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 517
+- **核心概述**: 用于大型语言模型的策略蒸馏 (OPD) 的论文、技术报告、框架和工具的精选集
+- **大概是做什么的**: ⚗️ Awesome On-Policy Distillation 用于大型语言模型的 on-policy distillation (OPD) 的论文、技术报告、框架和工具的精选集合。政策蒸馏用来自其自身不断发展的政策的样本来训练学生，而教师（外部的、特权的或自我调节的）对这些相同的样本提供密集的监督。在策略蒸馏（OPD）根据从其自己的策略采样的轨迹来训练学生，而教师则通过密集的令牌级指导对学生访问的前缀进行评分。这种策略内数据收集减少了影响固定轨迹上的非策略 KD/SFT 的训练推理分布间隙。根据估计器的不同，OPD 看起来像学生推出的 GKD 或具有教师定义的每个代币 KL/log-prob 奖励的策略梯度/RL，从而使自然对比稀疏结果奖励 RL 而不是整个 RL。截至 2026 年，OPD 已成为阿里巴巴 (Qwen3)、DeepSeek (V4)、小米 (MiMo)、Zhipu (GLM-5)、NVIDIA (Nemotron-Cascade 2) 等公司的标准后训练原语。今天发货吗？跳转至框架和实施。新来的
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome, awesome-list, distillation, gkd, knowledge-distillation, llm
+
+---
+
 ## 🕔 2026-07-13 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 184 个候选项目中筛选出 6 个未推荐过的新项目。
