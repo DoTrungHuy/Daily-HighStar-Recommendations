@@ -1,3 +1,67 @@
+## 🕔 2026-07-14 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 158 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenAgentsControl](https://github.com/darrenhinde/OpenAgentsControl)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,562
+- **核心概述**: AI 代理框架，用于计划优先的开发工作流程以及基于批准的执行。多语言支持（TypeScript、Python、Go、Rust），并为 OpenCode 构建自动测试、代码审查和验证
+- **大概是做什么的**: OpenAgents Control (OAC) 控制您的 AI 模式。获得可重复的结果。人工智能代理可以学习您的编码模式并每次生成匹配的代码。 🎯 模式控制 - 定义一次模式，AI 就永远使用它们 ✋ 审批门 - 在执行前进行审查和批准 🔁 可重复的结果 - 相同的模式 = 相同质量的代码 📝 可编辑代理 - 完全控制 AI 行为 👥 团队就绪 - 每个人都使用相同的模式 多语言：TypeScript • Python • Go • Rust • C • 任何语言 模型不可知：Claude • GPT • Gemini • MiniMax • 本地模型🚀 快速入门 • 💻 演示代码 • 🗺️ 路线图 • 💬 基于 OpenCode 构建的社区 - 开源 AI 编码框架。 OAC 通过专门的代理、上下文管理和团队工作流程扩展了 OpenCode。大多数人工智能代理就像雇用一个不了解您的代码库的开发人员。他们编写通用代码。您花费数小时重写、重构和修复不一致之处。代币被烧毁。时间浪费了。没有完成任何实际工作。 OpenAgentsControl 预先向代理传授您的模式。他们了解您的编码标准、您的架构
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-agents-framework, ai-t, automation, code-generation, code-validation
+
+---
+
+### 🌟 [kindly-web-search-mcp-server](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 356
+- **核心概述**: Kindly Web Search MCP 服务器：针对 AI 编码工具（Claude Code、Codex、Cursor、GitHub Copilot、Gemini 等）和 AI 代理（Claude Desktop、OpenClaw、Hermes 等）的 Web 搜索 + 强大的内容检索。支持 Serper、Tavily 和 SearXNG。
+- **大概是做什么的**: 将 AI 生成的代码质量提高 20% 网络搜索 + AI 编码工具的强大内容检索。 Kindly Web Search 是 Shelpuk AI 技术咨询代理套件的一部分，该套件是一组工具，可将 AI 编码代理生成的代码质量提高 15-20%。了解有关 Claude 代码生成质量改进的更多信息。可与 Claude Code 、 Codex 、 Antigravity 、 Cursor 、 Windsurf 以及任何支持技能或 MCP 服务器的代理配合使用。组件角色 -------------------------------------------------------------------------- --- tdd 对每个编码任务强制执行 TDD、需求纪律和同行评审 Serena 语义代码导航 + 持久项目内存 请进行 Web 搜索 ← 您在这里 通过 Web 搜索获取最新的 API 和包文档 Lad MCP 服务器 项目感知 AI 设计和代码评审 如果您喜欢我们正在构建的内容，请为这个存储库加星标 – 这是我们继续前进的巨大动力！如何使用套件 1. 安装三台 MCP 服务器和一项技能： 2. 请求功能时使用该技能：提示您最喜欢的 AI 编码代理（Clau
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, claude-code, codex, gemini
+
+---
+
+### 🌟 [Agenvoy](https://github.com/agenvoy/Agenvoy)
+- **项目语言**: Go
+- **星标数量**: ⭐ 310
+- **核心概述**: 让人工智能真正为你服务——一个可以编写自己的工具并自我修复的个人代理。
+- **大概是做什么的**: 本地 AI 代理可以构建、测试和重用自己的工具 Agenvoy 在您的计算机上运行，​​处理多步骤工作，搜索本地文件，安排重复任务，并通过 MCP 将其工具库公开给其他代理。 - 构建缺失的工具而不是停止 - 在 Agenvoy、Claude Code、Codex 等之间共享一个沙盒工具库 - 通过调度、内存和文件搜索运行本地工作流程 - 将其用作代理应用程序和 MCP 服务器 您可以用它做什么 询问实时答案 台北的天气怎么样？代理查找当前数据、调用工具并为您提供答案。如果工具不存在，它就会构建一个。将一句话变成自动化 每天早上 8 点报告台积电股价 - 将结果推送到哪里 - 你想要什么格式 然后自动创建时间表。向您的本地档案提出问题 查找去年的所有发票 哪个文件提到了提示指南？客服人员会搜索您的本地文件并直接回答。完成多步骤工作总结今天的GitHub提交并生成进度报告代理分解任务，调用工具，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai, ai-agents, claude, codex, deepseek
+
+---
+
+### 🌟 [repo-harness](https://github.com/Ancienttwo/repo-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 391
+- **核心概述**: 文件支持的工作流程工具可实现可靠的 Claude Code 和 Codex 会话。
+- **大概是做什么的**: repo-harness 将 Claude/Codex 编码会话转变为可重复的存储库本地工作流程。它提供了 CLI 以及技能/运行时挂钩，可将上下文、计划、移交、检查和审查证据写入项目中，因此下一个代理会话可以从文件而不是聊天内存中继续。 - 采用具有任务优先代理合同的现有存储库 - 使 Claude 和 Codex 在相同的计划、检查、移交和上下文上保持一致 - 通过使用 CodeGraph 和渐进式，花费更少的代币重新发现结构 给代理一个完整的 PRD 或 Sprint；之后，你的循环就是回顾和下一步，或者开始/目标然后离开。存储库：https://github.com/Ancienttwo/repo-harness English 简体中文 日本语 Français Español - 文件支持的会话，而不是聊天内存。单独的代理会话（现在和以后的 Claude 和 Codex）通过存储库（而不是线程）保持协调。当新会话开始时，.ai/hooks/session-start-context.sh 注入前一个会话的恢复数据包（.ai/harness/handoff/resume.md、tasks/current.md）； stop-orchestrator.sh 写入停止切换，而 post-edit-guard.sh 刷新
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflows, ai-agents, claude-code, codegraph, codex, developer-tools
+
+---
+
+### 🌟 [mavsdk_drone_show](https://github.com/alireza787b/mavsdk_drone_show)
+- **项目语言**: Python
+- **星标数量**: ⭐ 306
+- **核心概述**: 适用于 PX4 的开源 MAVLink 机队操作：SITL、无人机表演、搜索和救援、合作自主和现场验证
+- **大概是做什么的**: MDS - 任务导向群开源 MAVLink 机队操作，适用于 PX4 无人机、SITL、无人机表演、SAR 和合作自治。 MDS 最初是 MAVSDK 无人机展，现在涵盖更广泛的面向 PX4 的机队堆栈：无人机端运行时、GCS/后端服务、React 操作员仪表板、SITL、真正的配套计算机、边车连接和任务执行工作流程。它的构建足够简单，可以进行快速 SITL 演示，同时保持足够的结构化，可以进行严肃的多无人机验证、操作和自定义部署。 - 具有 SkyBrush 导入轨迹和同步执行的离线无人机表演 - 具有实时领导者-跟随者协调和运行时控制的智能群体任务 - 具有多��人机覆盖规划和 PX4 任务模式执行的 QuickScout SAR/侦察 - 具有 SITL、GCS 服务、群体轨迹规划和实时/历史日志的统一操作工具 MDS 是一个现场操作和研究平台，而不是经过认证的航空电子设备。飞行测试需要合格的操作员、当地航空合规性、地理围栏、故障安全审查和独立的安全验证
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, autonomous-drones, drone-show, drone-swarm, fleet-management, ground-control-station
+
+---
+
+### 🌟 [kronotop](https://github.com/kronotop/kronotop)
+- **项目语言**: Java
+- **星标数量**: ⭐ 300
+- **核心概述**: 由 FoundationDB 支持的分布式事务文档数据库。
+- **大概是做什么的**: Kronotop 是一个由 FoundationDB 支持的分布式事务性文档数据库。数百万个数据库。一簇。 Kronotop 为每个 AI 代理、租户或应用程序提供了自己的逻辑数据库，称为命名空间。命名空间是作为 FoundationDB 键前缀实现的，因此创建命名空间本质上是免费的并提供隔离。证明：在单个集群中创建了 1,000,001 个命名空间。单个事务可以跨任意数量的命名空间原子提交。 Kronotop 支持 RESP2 和 RESP3，因此您可以使用现有的 RESP 兼容客户端，包括 redis-cli 或 valkey-cli ，而无需新驱动程序。使用存储桶查询语言 (BQL) 回读：或者，使用嵌入上的向量索引，通过同一字段的相似性来回忆它：跳转到快速入门了解更多详细信息并快速启动集群。加入我们的 Discord 来提出问题、分享反馈或关注开发。 Kronotop 目前处于开发者预览阶段。核心架构和交易模型基本稳定，但 API、内部格式和操作行为在第一个稳定版本��前仍可能发生变化。医生
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: acid, ai-agents, ai-memory, database, distributed-database, document-database
+
+---
+
 ## 🕔 2026-07-14 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
