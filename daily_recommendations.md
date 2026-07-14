@@ -1,3 +1,67 @@
+## 🕔 2026-07-14 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [burp-ai-agent](https://github.com/six2dez/burp-ai-agent)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,352
+- **核心概述**: Burp Suite 扩展添加了内置 MCP 工具、AI 辅助分析、隐私控制、被动和主动扫描等
+- **大概是做什么的**: Burp Suite 和现代人工智能之间的桥梁。关于名称的说明：此扩展作为 Custom AI Agent （以前称为 Burp AI Agent ）发布。它被重命名是为了符合 PortSwigger 的 BApp Store 命名要求，并避免与 Burp Suite 的内置 Burp AI 提供程序混淆。 GitHub 存储库 ( github.com/six2dez/burp-ai-agent )、文档站点 ( burp-ai-agent.six2dez.com ) 和配置目录 ( /.burp-ai-agent/ ) 保留 burp-ai-agent 标识符以保持连续性。自定义 AI 代理是 Burp Suite 的扩展，可将 AI 集成到您的安全工作流程中。使用本地模型或云提供商，通过 MCP 连接外部 AI 代理，并让被动/主动扫描器发现漏洞，同时您专注于手动测试。 v0.9.0 中的新功能 - Native Anthropic 后端 (CAP-01) - 通过 Burp 的 HTTP 传输直接 Anthropic 消息 API；所有流量都显示在代理历史记录中。 - AES-256-GCM 静态机密 (SEC-01) — 所有存储的 API 密钥和令牌均使用 javax.crypto 使用每次安装密钥进行加密；首选项中没有明文。 - 真正的 HKDF 主机匿名化（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, appsec, bugbounty, burp, burp-extensions, burp-plugin
+
+---
+
+### 🌟 [CountBot](https://github.com/countbot-ai/CountBot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 745
+- **核心概述**: 更适配中文用户的轻量开源AI Agent | 国产大模型Coding plan支持 | 兼容OpenClaw Skills生态| 已接入微信ClawBot/微博龙虾/飞书/钉钉/QQ/小智AI/Telegram/deepseek-v4。
+- **大概是做什么的**: 面向中文用户的开源 AI Agent 框架与运行中枢 连接大模型、IM 渠道、工作流与外部工具，帮助 AI 真正进入执行链路 CountBot 是一个更加符合中文用户习惯的轻量级 AI Agent 框架，也是一个面向本地部署与长期运行的 AI Agent 中枢。 它把角色、团队、工作流、工具调用、记忆、大模型、IM 渠道和本地工作空间连接起来，让 AI 具备长期运行、跨入口协作与任务执行能力。 你可以把 CountBot 理解为一个框架和中枢： - 向上连接 100+ LLM 提供商与不同模型策略 - 向外连接 Web、微信、飞书、钉钉、Telegram、企业微信、QQ、微博等入口 - 向内组织角色、团队、工作流、记忆与安全边界 - 向执行层连接文件、Shell、Web、屏幕、文件传输，以及 Claude Code、Codex、OpenCode 一类外部行业工具 一句话概括： CountBot 是连接模型、渠道、团队和工具的 AI Agent 框架与运行中枢。 CountBot 由自然语言而生。CountBot 的愿景，不是让更多人先学会复杂配置和编程再去使用 AI，而是让普通用户也能直接通过自然语言与 AI 交互，完成信息获取、内容生成、任务拆解、工具调用、流程编排，乃至搭建属于自己的个人助手、团队协作流与自动化系统。 - 新增 MCP 客户端模块，支持多服务器连接、健康检查与工具发现，扩展 AI 执行能力边界。默认关闭，为个性化用户而新增的功能 - 新增 Wiki 知识库模块，基于 BM25 全文搜索，支持批量获取、相关性过滤与 LRU 缓存加速 - 新增 MCP、Wiki 管理面板，组件模块化拆分与国际化支持 - 新增 WebSocket 状态广播模块，实时同步 MCP 连接状态至前端会话 - 改进上下文管理与心跳机制，简化问候逻辑，减少 LLM 调用成本 - 完善工具注册与初始化流程，提升系统启动一致性与可维护性 - 新增 API Key 轮换机制与故障转移能力，支持多 key 自动切换 - 改进 send media 工具网页版兼容性，支持在WEB UI 预览图片和下载附件 - 发布说明：https://654321.ai/docs/releases/v0.9.0 - 集中修复 issue 与用户反馈中的多项问题，修复一批高频使用场景下的已知 Bug - 全面优化前端界面与交互体验，提升整体易用性与操作流畅度 - 持续优化系统响应链路，提升 AI 回复的准确性、及时性与整体稳定性 - 重构会话上下文维护链路，新增短期摘要缓存、溢出历史总结与整会话自动记
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-assisted, assistant, deepseek-v4, official
+
+---
+
+### 🌟 [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,207
+- **核心概述**: 根据您最近在 Jellyfin、Plex 或 Emby 上观看的内容，轻松向 Jellyseer/Overseer 请求推荐的电影、电视节目和动漫，让 SuggestArr 自动处理这一切，让您的图书馆保持新鲜的新内容！
+- **大概是做什么的**: 🚀 SuggestArr - 媒体自动化变得简单 SuggestArr 是一个项目，旨在根据 Jellyfin、Plex 和现在的 Emby 等媒体服务器中的用户活动自动执行媒体内容推荐和下载请求。它检索最近观看的内容，使用 TMDb API 搜索类似的标题，并向 Seer 发送自动下载请求。新作业会遵循全局批准请求，然后将其发送到 Seer 设置，默认情况下在 Advanced 下禁用。每个作业都可以继承该设置或覆盖它以始终批准或始终自动发送。保留的结果显示在“请���”页面上，作业所有者或管理员可以在其中将它们发送给 Seer、拒绝它们或将它们全局列入黑名单。全局请求工作流程设置还可以在其 SuggestArr 建议等待审核时暂停作业，并自动拒绝在配置的天数内悬而未决的建议。每个作业的暂停行为都可以被覆盖。 - 多媒体服务器支持：支持 Jellyfin、Plex 和 Emby 检索媒体内容。 - TMDb 集成：搜索类似的电影和电视
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: automation, docker, emby, jellyfin, jellyseerr, llm
+
+---
+
+### 🌟 [SpecForge](https://github.com/sgl-project/SpecForge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 987
+- **核心概述**: 轻松训练推测解码模型并将其顺利移植到 SGLang 服务。
+- **大概是做什么的**: SpecForge 是由 SGLang 团队开发的生态系统项目。它是一个用于训练推测解码模型的框架，以便您可以将它们平滑地移植到 SGLang 服务框架以加速您的推理。我们已经看到了许多用于推测解码的开源项目，但其中大多数都维护得不好或者不直接与 SGLang 兼容。我们准备这个项目是因为我们希望开源社区能够享受到一个推测性解码框架，该框架由 SpecForge 团队定期维护：代码可以开箱即用地运行 - 直接与 SGLang 兼容：无需额外的工作来移植到 SGLang - 提供高性能的训练功能：我们提供了在线/离线/张量并行/FSDP 以满足您的需求 查看我们的文档以开始使用。 🔧 支持的方法 方法说明 训练实例优化 --- --- --- --- --- EAGLE3 基于特征的自回归绘图脚本/train eagle3.py Examples/run qwen3 8b eagle3 online.sh LK loss DFlash 块并行绘图脚本/train dflash.py Examples/run qwen3 8b
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: eagle, eagle3, fsdp, llm, pytorch, sglang
+
+---
+
+### 🌟 [ccproxy](https://github.com/starbaser/ccproxy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 354
+- **核心概述**: 为克劳德代码构建模组：挂钩任何请求，修改任何响应，/模型“使用您的自定义模型”，使用您或我们的逻辑进行智能模型路由
+- **大概是做什么的**: ccproxy — CLI 代理 ccproxy 是一个用于 LLM 工具和 AI 工具的透明网络拦截器，基于 mitmproxy 和 WireGuard 构建，具有完整的 TLS 检查和 Wireshark 键盘日志导出功能。 ccproxy 最初是专门为 Claude Code 构建的，现在可与任何 LLM 客户端配合使用：Aider、Cursor、OpenAI SDK 或任何其他使用 HTTP 的客户端。它将进程囚禁在无根 WireGuard 命名空间内，在网络层进行拦截，并通过 DAG 驱动的管道提供数据，该管道可以分解、转换和重新路由提供商之间的流量。跨提供商请求和响应转换由 lightllm 处理，lightllm 是 ccproxy 内的外科适配器和流 FSM ��� - 没有 LiteLLM 代理子进程，没有网关服务器。 2.0 中的新增功能：Codex/OpenAI 响应支持打包请求整形，以及通过 DeepSeek 的 /anthropic/v1/messages 端点对 Anthropic 格式请求进行 DeepSeek V4 路由。请参阅配置以了解挂钩管道是构建 mod 并控制 LLM 使用的扩展点，同时尊重服务条款： - 跨提供商路由：重定向或传输
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-gateway, ai-proxy, ai-tools, anthropic, claude
+
+---
+
+### 🌟 [notebook-intelligence](https://github.com/plmbr/notebook-intelligence)
+- **项目语言**: Python
+- **星标数量**: ⭐ 321
+- **核心概述**: JupyterLab 扩展支持 Claude Code、Copilot、Ollama 和 OpenAI 兼容的 LLM，具有 MCP、技能、插件和笔记本代理。
+- **大概是做什么的**: Notebook Intelligence Notebook Intelligence (NBI) 是 JupyterLab 的 AI 编码助手和可扩展 AI 框架。它添加了聊天、内联编辑、自动完成和可以驱动笔记本的代理 - 由 GitHub Copilot、OpenAI 兼容或 LiteLLM 兼容端点、本地 Ollama 模型或 Anthropic 的 Claude Code CLI 支持。 NBI 是免费且开源的。将其连接到您选择的免费或付费 LLM 提供商 — GitHub Copilot、任何 OpenAI 或 LiteLLM 兼容端点、Ollama（本地）或 Anthropic Claude（通过 Claude Code CLI）。供应商费用（如适用）直接支���给供应商。 - 功能亮点 - 使用内联聊天生成代码 - 单元格输出操作 - 笔记本工具栏生成 - 在磁盘上更改时重新加载打开的文件 - 配置文件 - 记住 GitHub Copilot 登录 - 模型上下文协议 (MCP) 支持 - MCP 配置示例 - Claude MCP 服务器 - Node.js — 仅 Claude 模式（Claude Code CLI）和通过 npx 启动的 MCP 服务器需要。 - 建议使用新的 virtualenv 或 conda env，这样 NBI 就不会与系统 Python 发生冲突。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-plugins, agent-skills, ai, ai-agents, ai-tools, claude-code
+
+---
+
 ## 🕔 2026-07-14 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
