@@ -1,3 +1,67 @@
+## 🕔 2026-07-14 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [any-llm](https://github.com/mozilla-ai/any-llm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,114
+- **核心概述**: 使用单一界面与 LLM 提供商进行沟通
+- **大概是做什么的**: 使用单一、统一的界面与任何 LLM 提供商进行沟通。在 OpenAI、Anthropic、Azure / Microsoft Foundry、Mistral、Ollama 等之间切换，无需更改代码。文档 otari.ai 尝试贡献演示 就是这样！更改提供者名称并添加提供者特定的密钥以在 LLM 提供者之间切换。来自 LiteLLM？您的 API 密钥和环境变量保持不变。安装 SDK 以及您需要的提供程序的附加功能，然后更新您的导入和模型字符串：请参阅支持的提供程序��映射您的现有模型字符串。这就是完整的迁移——没有代理，没有额外的配置。 - Python 3.11 或更高版本 - 您想要使用的 LLM 提供商的 API 密钥 安装对特定提供商的支持：请参阅我们支持的提供商列表以选择您需要的提供商。为您选择的提供程序设置环境变量：或者，直接在代码中传递 API 密钥（请参阅使用示例）。有关预算管理、API 密钥管理、使用情况分析和多租户支持，请参阅 mozilla-ai/otari。为什么选择any-llm？ - 简单、统一的界面 -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, developer-tools, inference, llm, openai
+
+---
+
+### 🌟 [quant-mind](https://github.com/LLMQuant/quant-mind)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,003
+- **核心概述**: QuantMind 是一个用于量化金融的智能知识提取和检索框架。
+- **大概是做什么的**: 将金融知识转化为可操作的智能 QuantMind 是一个用于量化金融的智能知识提取和检索框架。它将非结构化金融内容（论文、新闻、博客、报告）转化为可查询的知识库，从而实现大规模人工智能驱动的研究。 🗞️ 新闻 📝 描述 ------------------------------------------------------------------------------------------------------------ 🎉 NeurIPS 2025 研讨会被接受 我们的论文 Quant-Mind 已被 NeurIPS 2025 GenAI 金融研讨会接受！🚀 📢 GitHub 上的首次发布 Quant-Mind 现已在 GitHub 上发布 — 请查看并加入我们！ 🤗 QuantMind 是下一代人工智能平台，可将每一项新的定量金融研究（包括论文、新闻、博客和 SEC 文件）摄取、处理和构建到语义知识图谱中。机构投资者、对冲基金和研究团队现在可以在几秒钟内探索因子策略、风险模型和市场洞察的前沿，释放原本被埋藏的阿尔法。金融研究格局
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: data, knowledge, llm, pipeline, quantitative-finance, quantitative-research
+
+---
+
+### 🌟 [Whale](https://github.com/usewhale/Whale)
+- **项目语言**: Go
+- **星标数量**: ⭐ 910
+- **核心概述**: Whale — DeepSeek 的速度极快、终端优先的 AI 编码代理。 ~98% 提示缓存命中率、1M 上下文、MCP 工具、动态工作流程。
+- **大概是做什么的**: 速度极快 · 98% 的即时缓存命中率 · 零膨胀 Whale — 适用于 DeepSeek 的 AI 编码代理，适用于任何环境。长上下文、工具和可编程工作流程 - 从终端开始，扩展到桌面及其他范围。需要 Windows 10 或 Windows Server 2016 或更高版本。就是这样。输入你的问题，Whale 就会开始工作——读取文件、运行命令、编辑代码、搜索网络。需要不同的模型提供程序、代理或自定义配置？请参阅配置。为何如此重要💰 98% 的提示缓存命中率 Whale 积极地重用缓存上下文 — 大多数提示命中缓存，从而将每个会话的成本削减到几美分。 DeepSeek 定价 × 鲸鱼缓存 = 大规模人工智能辅助编码。 🐋 DeepSeek-native 专为 DeepSeek 的长上下文（1M 代币）、工具调用和成本效率而构建 - 无通用多模型包装器 🔁 动态工作流程 编写编排多个代理的 JavaScript 脚本 - 扇出研究、多视角审查、管道。克劳德代码兼容。 🔌 MCP 插入 1,000 多个 MCP 服务器以实现扩展工具 — 文件操作、shell、git、web 等 🧩 技能 + 插件 安装社区
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coding-agent, deepseek, deepseek-agent, deepseek-cli, deepseek-coding-agent, go
+
+---
+
+### 🌟 [aeon](https://github.com/aeonfun/aeon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 574
+- **核心概述**: 最自主的代理框架。没有审批循环。没有保姆。配置一次，永远忘记。
+- **大概是做什么的**: 最自主的代理框架。给它一个方向，它就能完成工作：将功能发布到您的存储库，发现并私下披露真正的漏洞，部署实时应用程序，进行深入研究 - 并为自己编写新技能。没有审批循环。没有保姆。配置一次，永远忘记。您需要三件事： 1. Node.js 20+ - 从 nodejs.org 获取 LTS 安装程序，或使用包管理器：brew install node (macOS)、winget install OpenJS.NodeJS.LTS (Windows)、nvm 或发行版的包管理器 (Linux)。已经有了？ node -v 应打印 20 或更高。 2. GitHub CLI ( gh )，经过身份验证 - 仪表板将其用于所有内容（秘密、工作流程），并且 ./aeon 在开始之前检查它。安装：brew install gh (macOS)、winget install --id GitHub.cli (Windows)、每个发行版说明 (Linux)。然后运行 ​​gh auth login 并按照提示操作。 3. 您自己的此存储库的副本 - 单击存储库页面顶部的使用此模板 - 保持公开，公共存储库上的操作分钟是免费的。 CLI 版本： gh repo fork aeonfun/aeon --clone 。打开 http://localhost:5555 并按照
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agents, ai, ai-agents, anthropic, claude
+
+---
+
+### 🌟 [waggle](https://github.com/modiqo/waggle)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 472
+- **核心概述**: 用于代理切换的归属的、可解析的工件引用 - 一个约 30 字节的令牌，而不是粘贴的上下文。 MCP 原生；代理线束世界的参考层。
+- **大概是做什么的**: 不是一条路。不是网址。进行回应的切换。位置是愚蠢的——没有每个代理的调整，没有收据，一旦发送就无法修复它们。 waggle 的 30 字节令牌解析为每个代理自己的视图，对每次读取进行计数，并将更正传播给每个持有者。路径做不到这一点； URL 需要服务器；我们正在进入代理工具的世界：Claude Code 编排器扇出子代理，Codex 会话并行委托，跨供应商代理通过开放协议相互发现。如今，每一次交接都以相同的方式进行：传递背景和希望。成本是经过衡量的，而不是假设的。多代理系统消耗 15 倍聊天会话的令牌——供应商本身将这种开销归因于“跨代理复制上下文……并总结切换结果”，其一行摘要是“每次切换都会丢失上下文”。大约 37% 的多代理失败正是源于这个接缝。 Waggle 的竞争对手不是另一个协议。它是“这里是/tmp/analysis.md。使用它。” ——这种直觉是正确的：路径是一个 30 字节的引用，我
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, harness-engineering, llm-tools, loop-engineering
+
+---
+
+### 🌟 [skills](https://github.com/heygen-com/skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 355
+- **核心概述**: HeyGen AI 代理技能 — 通过 v3 视频代理管道创建头像和视频制作
+- **大概是做什么的**: 用于创建头像视频的 AI 代理技能。您的代理可以获得面孔、声音，并且能够像消息一样发送视频。可与 Claude Code、OpenClaw、Codex、Cursor 和其他 AI 编码代理配合使用。将其粘贴到您的代理中。它会完成剩下的工作——将存储库克隆到正确的路径，询问您的 HeyGen API 密钥，选择最佳传输，运行验证测试，并以工作视频结束。就是这样。代理获取 INSTALL FOR AGENTS.md 并执行其余的安装。永远相同的提示 - 安装规范位于存储库中，而不是剪贴板中。想要手动安装吗？请按照以下步骤操作。步骤 1 — 安装技能 该存储库提供了三种技能： heygen-avatar 、 heygen-video 和 heygen-translate 。选择与您的工具匹配的安装路径。选项 A：gh 技能安装（适用于 Claude Code、Cursor、Codex、Gemini CLI、Copilot、Junie、Goose、OpenHands、Amp、Cline、OpenCode、Warp 等 —agentskills.io）：需要 GitHub CLI v2.90+。 CLI 会自动写入代理的正确目录。选项 C：OpenClaw 插件（捆绑 MCP 支持）： 选项 D：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, avatar-video, claude-code, heygen, openclaw
+
+---
+
 ## 🕔 2026-07-14 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
