@@ -1,3 +1,67 @@
+## 🕔 2026-07-15 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 210 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,717
+- **核心概述**: 适用于法学硕士的 Power CLI 和工作流程管理器（核心包）
+- **大概是做什么的**: LLM 工作流程引擎 (LWE) 是适用于 LLM 的 Power CLI 和工作流程管理器。阅读文档 您想做什么？了解该项目 阅读文档 了解有关配置/功能的更多信息 解决常见问题 原始 ChatGPT Wrapper 项目发生了什么？请参阅 CHATGPT WRAPPER.md ChatGPT Wrapper 在当时是一个了不起的工具，感谢它的原始创建者 mmabrouk 的所有辛勤工作，它以新的形式继续存在:) 🤖 LWE 允许您从命令行使用强大的 ChatGPT/GPT4 机器人。 💬 在 Shell 中运行。您可以在终端中与ChatGPT/GPT4进行通话和交互。 💻 支持官方 ChatGPT API 。直接对 OpenAI ChatGPT 端点进行 API 调用（您的 OpenAI 帐户可访问所有支持的模型） 🔌 简单的插件架构。使用自定义功能扩展 LWE 🗣 支持多个 LLM 提供商。提供商插件允许与其他 LLM（GPT-3、Cohere、Huggingface 等）交互 🔄 构建工作流程。通过 Ansible Playbooks 🔧 工具使用，轻松将对 LLM 的调用集成到更大的工作流程中。 （对于支持的提供商）🐳 Docker
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatbot, chatgpt, gpt-3, gpt3, gpt4, llm
+
+---
+
+### 🌟 [aideml](https://github.com/WecoAI/aideml)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,388
+- **核心概述**: AIDE：人工智能驱动的代码空间探索。自动化 AI 研发的机器学习工程代理。
+- **大概是做什么的**: AIDE ML — 机器学习工程代理 LLM 驱动的代理，用于编写、评估和改进机器学习代码。在生产中使用？尝试 Weco → AIDE ML 是 AIDE 算法的开源“参考构建”，它是一个树搜索代理，可以自主起草、调试和基准测试代码，直到用户定义的指标最大化（或最小化）。它作为一个研究友好的 Python 包提供，带有电池实用程序（CLI、可视化、配置预设），以便学术界和工程研究人员可以复制论文、测试新想法或对 ML 管道进行原型设计。层 描述 在哪里可以找到它 AIDE 算法 LLM 引导的代码空间中的代理树搜索。我们的论文中有描述。 AIDE ML 存储库（本存储库）用于实验和扩展的精益实现。 pip install aideml Weco 产品 该平台将 AIDE 的功能推广到更广泛的代码优化场景，提供实验跟踪和增强的用户控制。 weco.ai - 代理架构研究人员 - 交换新的搜索启发式、评估器或 LLM 后端。 - 机器学习从业者 – 快速构建
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, automated-machine-learning, autonomous-agents, autoresearch, code-optimization
+
+---
+
+### 🌟 [AI-Studio](https://github.com/MindWorkAI/AI-Studio)
+- **项目语言**: C#
+- **星标数量**: ⭐ 521
+- **核心概述**: MindWork AI Studio 是一款免费、独立的跨平台桌面应用程序，适用于跨提供商的本地和云法学硕士，旨在实现 AI 访问的民主化。
+- **大概是做什么的**: 你是新来的吗？在这里阅读什么是 AI Studio。自 2024 年 11 月以来，我们目前正在开展的 RAG（检索增强生成）工作： RAG（数据和文件的集成）工作已经开始。我们将支持本地和外部数据源的集成。我们需要实现以下运行时 (Rust) 和应用程序 (.NET) 步骤： - [x] 运行时：将代码重构为有意义的模块 (PR 192) - [x] 将外部检索接口 (ERI) 定义为集成任意外部数据的合约 (PR 1) - [x] 应用程序：提供程序的元数据（哪个提供程序提供嵌入？）(PR 205) - [x] 应用程序：添加一个选项以显示预览功能 (PR 1) 222) - [x] 应用程序：配置嵌入提供程序 (PR 224) - [x] 应用程序：实现 ERI 服务器编码助手 (PR 231) - [x] 应用程序：管理数据源（通过 ERI 进行本地和外部数据）(PR 259, 273) - [x] 运行时：从 txt / md / pdf / docx / xlsx 文件中提取数据 (PR 374) - [x] 应用程序：实现以下对话框：检查和处理 pandoc 安装（PR 393、PR 487） - [x] 应用程序：实施外部嵌入提供程序（PR 654） - [ ] 应用程序：Impleme
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assistant, business, llm
+
+---
+
+### 🌟 [speakeasy](https://github.com/speakeasy-api/speakeasy)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 424
+- **核心概述**: 使用 Speakeasy 构建您的用户喜爱的 API ❤️。 ✨ 完善且类型安全的 SDK。 🌐 Terraform 提供商、MCP 服务器、CLI 和 API 合约测试。原生 OpenAPI。
+- **大概是做什么的**: 文档快速入门   //   加入 Slack                                 现代 OpenAPI 本机工具链 完善且类型安全的 SDK、Terraform 提供程序和 API 合约测试。 10 种语言和计数。 - SDK 代码看起来像您编写的。针对性能、可调试性和现代惯用法进行了优化。 - 基于类型安全的 Go SDK 构建的完整 Terraform 提供程序。 - 使用预先构建的模拟服务器生成合同测试（由 Arazzo 提供支持） - 生成干净的代码示例以与 API 文档同步。 - 让 npm 安装 your-api 。管理版本控制和发布到包管理器 - 用于检查、清理、比较和编辑规范的现代 OpenAPI 3.X 工具链。 （由 Overlays 提供支持）查看路线图，了解即将推出的内容！通过以下方式安装 Speakeasy CLI： - Shell 脚本/GitHub 操作 有关更多信息，请参阅 Speakeasy CLI 安装文档。 CLI 版本也可以直接在存储库版本中获得。有关用法，请参阅 Speakeasy CLI 参考
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, api, client-sdks, csharp, go, java
+
+---
+
+### 🌟 [verl-tool](https://github.com/TIGER-AI-Lab/verl-tool)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,016
+- **核心概述**: 支持多种工具使用的 verl 版本 [TMLR 2026]
+- **大概是做什么的**: VerlTool：基于verl的统一且易于扩展的工具代理训练框架。 + [2026/06/01] 🏆 我们的论文已被 TMLR 2026 接收！ + [2026/05/01] 🏆 我们的论文获得 ICLR 2026 SPOT 最佳论文奖！ + [2025/11/10] VerlTool 重新组织了代码库，以提高模块化性和可维护性，支持最新的 verl ( 0.6.0 ) 和 vllm ( 0.11.0 ) 版本。更多详情请参考verl-tool v0.6.0.dev升级说明。 + [2025/09/02] VerlTool技术报告出炉！见抱脸日报！ + [2025/06/30] 我们在相同的基准测试中重现了具有更高性能的Search-R1！有关更多详细信息，请参阅 PR 和培训自述文件。 + [2025/06/28] 我们支持NL2SQL工具强化学习训练。有关更多详细信息，请参阅 NL2SQL 自述文件。 + [2025/06/26] 我们支持DAPO菜谱培训。有关更多详细信息，请参阅 DAPO.md。 + [2025/06/18] VerlTool 现在正式支持轨迹级异步，通过工具调用将 rollout 生成速度提高至少 2 倍！有关更多详细信息，请参阅 asyncRL.md。 + [2025/06/16] 我们已将 verl 子模块更新到最新版本（06/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, learning, llm, reinforcement
+
+---
+
+### 🌟 [nebula](https://github.com/berylliumsec/nebula)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,059
+- **核心概述**: 由人工智能驱动的渗透测试助手，用于自动侦察、记笔记和漏洞分析。
+- **大概是做什么的**: Nebula – AI 驱动的渗透测试助手 Nebula 是一款先进的、AI 驱动的渗透测试开源工具，通过将最先进的 AI 模型集成到命令行界面中，彻底改变了渗透测试。 Nebula 专为网络安全专业人士、道德黑客和开发人员而设计，可自动执行漏洞评估，并通过实时洞察和自动笔记来增强安全工作流程。重要升级通知 Nebula 2.0.0现已发布。由于早期版本是作为 beta 版本发布的，因此即使使用 --upgrade，pip 也可能会在旧版本上保留一些现有安装。运行 Python 3.10 到 3.13 的用户应使用以下方法进行升级： 使用以下方法验证安装的版本： 输出应显示 Version: 2.0.0 。目前不支持Python 3.14；安装 Nebula 2.0.0 时使用 Python 3.13 或更早版本。首先我要感谢全能的上帝，他是所有知识的源泉，没有他，这是不可能的。介绍深度应用程序分析器 (DAP)。 DAP 使用神经网络来分析可执行文件
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-powered-ethical-hacking-tool, ai-powered-penetration-testing-tool, cybersecurity, cybersecurity-tools, ethical-hacking
+
+---
+
 ## 🕔 2026-07-15 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 117 个候选项目中筛选出 6 个未推荐过的新项目。
