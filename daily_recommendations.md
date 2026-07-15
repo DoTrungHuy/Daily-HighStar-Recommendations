@@ -1,3 +1,67 @@
+## 🕔 2026-07-15 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [opencompass](https://github.com/open-compass/opencompass)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,193
+- **核心概述**: OpenCompass 是一个 LLM 评估平台，支持各种模型（Llama3、Mistral、InternLM2、GPT-4、LLaMa2、Qwen、GLM、Claude 等）超过 100 多个数据集。
+- **大概是做什么的**: 👋加入我们的 Discord 和微信 就像指南针指引我们踏上旅程一样，OpenCompass 将引导您完成评估大型语言模型的复杂过程。凭借其强大的算法和直观的界面，OpenCompass 可以轻松评估 NLP 模型的质量和有效性。 🚩🚩🚩 探索 OpenCompass 的机会！我们目前正在招聘全职研究人员/工程师和实习生。如果您对 LLM 和 OpenCompass 充满热情，请随时通过电子邮件与我们联系。我们很乐意听取您的���见！ 🔥🔥🔥 我们很高兴地宣布 OpenCompass 已获得 Meta AI 推荐，点击 Llama 入门了解更多信息。重大变更通知：在 0.4.0 版本中，我们将所有 AMOTIC 配置文件（之前位于 ./configs/datasets、./configs/models 和 ./configs/summarizers 中）合并到 opencompass 包中。建议用户更新其配置参考以反映此结构变化。 - \[2026.02.05\] OpenCompass 现在支持 Intern-S1-Pro 相关的一般和科学评估基准
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: benchmark, chatgpt, evaluation, large-language-model, llama2, llama3
+
+---
+
+### 🌟 [sgr-agent-core](https://github.com/vamplabAI/sgr-agent-core)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,100
+- **核心概述**: 模式引导推理（SGR）具有由 Neurodeep 社区创建的代理系统设计
+- **大概是做什么的**: SGR Agent Core — 第一个用于模式引导推理的 SGR 开源代理框架 用于使用模式引导推理构建智能研究代理的开源代理框架。该项目提供了一个核心库，该库具有可扩展的 BaseAgent 接口，实现了两阶段架构以及构建在其之上的多个即用型研究代理实现。该库包括用于搜索、推理和澄清的可扩展工具、实时流响应、兼容 OpenAI 的 REST API。可与任何兼容 OpenAI 的法学硕士一起使用，包括用于完全私人研究的本地模型。为什么使用 SGR Agent Core？ - 模式引导推理 — SGR 将结构化推理与灵活的工具选择相结合 - 多种代理类型 — 从 SGRAgent 、 ToolCallingAgent 或 SGRToolCallingAgent 中进行选择 - 可扩展架构 — 易于创建自定义代理和工具 - OpenAI 兼容 API — OpenAI API 端点的直接替换 - 实时流 — 内置支持通过 SSE 进行流响应 - 生产就绪 — 通过全面的测试覆盖范围和 Dock 进行实战测试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deep-research, function-calling, llm, openai-api, research
+
+---
+
+### 🌟 [llm-space](https://github.com/deer-flow/llm-space)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 314
+- **核心概述**: 一款桌面应用程序，可在一个地方对代理想法进行原型设计、检查每个控制步骤、重放失败并评估性能。本地优先。
+- **大概是做什么的**: https://github.com/user-attachments/assets/2ba7a600-1f1a-44c0-b9f1-34ad42100213 LLM Space v4 是一款面向代理构建者的桌面应用程序 - 为您的下一个代理想法制作原型，检查线束执行的每一步，调试故障并评估性能，所有这些都在一个地方完成。官方网站：https://deer-flow.github.io/llm-space/ LLM Space 是 DeerFlow 的姊妹项目，我们对其进行了大力测试：DeerFlow 的每个版本都是使用 LLM Space 构建和调试的。该项目于 2023 年 3 月启动，v4 是其第四次主要迭代。 - 构建 — 编写提示、系统消息、工具和模型设置并对其进行版本控制。 - 跟踪 — 查看代理循环内运行的每个模型调用和工具。 - 调试 — 重播历史记录中的运行并单步执行以查找问题所在。 - 评估 — 衡量代理在运行中的表现。 - 管理 — 将您的线程作为文件组织在您自己的计算机上。您的文件和 API 密钥保留在您的本地计算机上。 LLM Space 收集少量匿名使用数据来改进应用程序 - 请参阅 TELEMETRY.md 了解收集的具体内容以及如何收集
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deer-flow, develop, electrobun, harness, llm
+
+---
+
+### 🌟 [OllamaSharp](https://github.com/awaescher/OllamaSharp)
+- **项目语言**: C#
+- **星标数量**: ⭐ 1,391
+- **核心概述**: 在 .NET 中使用 Ollama 的最简单方法
+- **大概是做什么的**: OllamaSharp 为 Ollama API 提供 .NET 绑定，简化了与 Ollama 的本地和远程交互。 🏆 Microsoft 推荐 - 易于使用：只需几行代码即可与 Ollama 交互。 - 可靠性：为 Microsoft Semantic Kernel、.NET Aspire 和 Microsoft.Extensions.AI 提供支持 - API 覆盖范围：涵盖每个 Ollama API 端点，包括聊天、嵌入、列出模型、拉取和创建新模型等。 - 实时流式传输：将响应直接流式传输到您的应用程序。 - 进度报告：模型拉取等任务的实时进度反馈。 - 工具引擎：带有源生成器的复杂工具支持。 - 多模态：支持视觉模型。 - 本机 AOT 支持：选择支持本机 AOT 以提高性能。入门 安装、客户端设置和第一步 聊天和生成 聊天类、GenerateAsync、流式传输、图像、结构化输出、思维模型 模型管理 列表、拉取、推送、复制、删除、显示、嵌入 工具支持 使用源生成器调用函数 高级配置 配置操作
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, gpt, ichatclient, library, llama, llamacpp
+
+---
+
+### 🌟 [chatgpt-scraper-api](https://github.com/ScrapingBee/chatgpt-scraper-api)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 415
+- **核心概述**: 通过发送带有有效 ChatGPT 抓取 API 凭据的提示，从 ChatGPT 抓取器收集结构化响应。只需几个参数即可启用实时搜索、注入 HTML 上下文以及自动化智能抓取工具 ChatGPT 工作流程。
+- **大概是做什么的**: 一款可投入生产的 ChatGPT 抓取工具，用于智能网络搜索、上下文提取和人工智能驱动的网站抓取。该存储库演示了如何使用单个 API 构建可扩展的 ChatGPT 抓取工作流程，该 API 结合了： - 大型语言模型推理 - 可选的实时网络搜索 - 地理定位结果 - HTML 上下文注入 您无需编写脆弱的选择器和维护解析逻辑，而是用自然语言描述您需要的内容并接收结构化输出。如果您正在构建 chatgpt 抓取器、chatgpt 抓取器集成，或尝试使用 chatgpt 抓取进行自动研究和数据提取，则此存储库提供了完整的技术实施指南。为什么要进行 ChatGPT 抓取？传统的网页抓取需要： - CSS 选择器维护 - JavaScript 渲染 - 持续解析更新 布局更改。反机器人系统不断发展。脚本中断。 ChatGPT 抓取改变了模型。您无需定义如何提取数据，而是定义要提取的内容。 - 可选的实时搜索 - 生成结构化输出 这显着减少了维护
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-scraper, api, chat-gpt, chatgpt, chatgpt-api, chatgpt-scraper
+
+---
+
+### 🌟 [LightLLM](https://github.com/ModelTC/LightLLM)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,168
+- **核心概述**: LightLLM 是一个基于 Python 的 LLM（大型语言模型）推理和服务框架，以其轻量级设计、易于扩展和高速性能而著称。
+- **大概是做什么的**: LightLLM 是一个基于 Python 的 LLM（大型语言模型）推理和服务框架，以其轻量级设计、易于扩展和高速性能而著称。 LightLLM 利用了众多备受推崇的开源实现的优势，包括但不限于 FasterTransformer、TGI、vLLM 和 FlashAttention。 English Docs 中文文档 博客 - [2025/11] 🚀 DPRanker之间支持Prefix KV Cache Transfer！查看我们的博客文章中的技术深入探讨。 - [2025/09] 🔥 LightLLM v1.1.0 发布！ - [2025/08] Pre $^3$获得ACL2025优秀论文奖。 - [2025/05] ACL2025 接受的关于约束解码的 LightLLM 论文（Pre $^3$：启用确定性下推自动机以加快结构化 LLM 生成）。要更容易地了解该研究的关键见解和示例，请查看我们的博客文章：LightLLM 博客 - [2025/04] LightLLM 关于请求调度程序的论文发表在 ASPLOS’25（SLA 保证下的 LLM 服务的过去-未来调度程序）- [2025/02] 🔥 LightLLM v1.0.0 版本，实现最快的 DeepSeek-R1 服务性能
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deep-learning, gpt, llama, llm, model-serving, nlp
+
+---
+
 ## 🕔 2026-07-15 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
