@@ -1,3 +1,67 @@
+## 🕔 2026-07-15 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-chat-ui](https://github.com/langchain-ai/agent-chat-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,989
+- **核心概述**: 🦜💬 Web 应用程序，用于通过聊天界面与任何 LangGraph 代理（PY 和 TS）进行交互。
+- **大概是做什么的**: Agent Chat UI 是一个 Next.js 应用程序，它允许通过聊天界面使用消息键与任何 LangGraph 服务器聊天。 🎥 在此处观看视频设置指南。不想在本地运行应用程序？使用此处部署的站点：agentchat.vercel.app！首先，克隆存储库，或运行 npx 命令： 安装依赖项：该应用程序将在 http://localhost:3000 上可用。应用程序运行后（或者如果使用已部署的站点），系统将提示您输入： - 部署 URL ：您要与之聊天的 LangGraph 服务器的 URL。这可以是生产或开发 URL。 - 助手/图形 ID：图形的名称，或者通过聊天界面获取和提交运行时使用的助手的 ID。 - LangSmith API 密钥：（仅连接到已部署的 LangGraph 服务器时需要）在验证发送到 LangGraph 服务器的请求时使用的 LangSmith API 密钥。 - 使用 Agent Builder 构建：针对 Agent Builder 部署打开此选项。这会自动将身份验证方案设置为 langsmith-api-key 。输入这些值后，单击继续。然后您将被重定向
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chat, langgraph, llm
+
+---
+
+### 🌟 [VeritasGraph](https://github.com/bibinprathap/VeritasGraph)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: VeritasGraph — GitHub 上的开源知识图和 GraphRAG 框架。针对您自己的数据构建多跳推理、本体感知检索和可验证归因。节点、边、RDF、链接数据——在本地或云端运行。
+- **大概是做什么的**: VeritasGraph — 受治理的本地 GraphRAG 和代理框架 停止盲目分块。将树搜索结构与知识图推理相结合，并将其连接到受治理的人工智能代理中。 100% 在本地或云端运行。 🎯 传统的 RAG 基于相似性的猜测。 VeritasGraph 基于结构的原因。不要只是找到文档 - 了解其中的联系，然后与受监管的代理一起采取行动。 ⭐ 星标 · 🍴 分叉 · 💬 讨论 · 🐛 报告错误 📚 特色指南 — 在本地构建受治理的 AI 代理 完全在您自己的基础设施上设计、连接和运输受治理的 AI 代理的完整演练。 📄 阅读指南：在本地构建受治理的 AI 代理 (PDF) ▶️ 在 YouTube 上观看演练 🚀 快速入门（2 行，无 GPU） 就是这样 - 使用云 API (OpenAI/Anthropic) 的交互式演示，无需本地模型。最适合要求的模式 ------ ---------- -------------- --mode=lite 快速演示，无 GPU OpenAI/Anthropic API 密钥 --mode=本地隐私，离线使用 Ollama + 8GB RAM --mode=完整生产，所有功能 Docker + Neo4j 有用链接： ⚡ Live docs · 🎮 Live de
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, ai-memory, context-window, data-privacy, enterprise-ai
+
+---
+
+### 🌟 [open-bsp-api](https://github.com/matiasbattocchia/open-bsp-api)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 463
+- **核心概述**: 开源 WhatsApp + Instagram 商业平台
+- **大概是做什么的**: 开源 WhatsApp 和 Instagram 业务平台 可自托管、多租户、AI 代理就绪。使用 Deno 🦕 和 Postgres 🐘 构建，由 Supabase ⚡ OpenBSP 提供支持，专为个体企业和服务提供商而设计。您可以使用它来管理您自己的 WhatsApp 和 Instagram 消息传递，或利用其功能成为元业务合作伙伴并向其他组织提供消息传递服务。要使用完整的基于 Web 的界面来管理对话，请查看🖥️ OpenBSP UI — 使用 React 和 Tailwind 构建的现代响应式 Web 界面。 https://github.com/user-attachments/assets/1ef30dde-9de1-4f5a-856a-db34ca2e3063 触发传入消息和传递状态更改。每个事件都可以携带完整的对话上下文，因此您的 AI 节点会回复历史记录。发送文本、媒体、模板、位置和联系人；阅读对话、联系人和模板。 OpenBSP n8n 节点 — OpenBSP 的官方 n8n 社区节点包。 OpenBSP 插件为 Claude Code 提供完整的 API 访问权限，并可选择实时桥接 WhatsApp 消息。克劳德可以查询联系方式
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, deno, instagram, instagram-api
+
+---
+
+### 🌟 [ketch](https://github.com/1broseidon/ketch)
+- **项目语言**: Go
+- **星标数量**: ⭐ 362
+- **核心概述**: 用于网络搜索和抓取的快速、无状态 CLI。专为人工智能代理而构建。
+- **大概是做什么的**: 用于网络搜索、代码搜索、库文档和抓取的无状态 CLI — 一个二进制文件，无需守护程序，无需运行 API 服务器。大多数代理研究工具意味着连接多个提供商 SDK，每个 SDK 都有自己的身份验证和响应形状。 ketch 将其折叠为具有三个研究界面的一个二进制文件： - ketch 搜索 - Web 搜索（Brave、DuckDuckGo、SearXNG、Exa、Firecrawl 或 Keenable） - ketch 代码 - 跨公共存储库（Grep、Sourcegraph 或 GitHub 代码搜索）grep 真正的 OSS 源代码 - ketch 文档 - 精心策划的、版本感知的库文档 (Context7) 加上 ketch scrape 和 ketch scrape 将 HTML 页面和基于文本的 PDF 转换为干净的文件降价。它同时为两个受众构建： - 人类，他们想要一个快速终端工具来完成相同的工作，否则curl pandoc或浏览器选项卡就可以了。 - AI 代理，需要结构化、可预测的输出（到处都是 --json）、控制流的记录退出代码以及单个 ketch 配置调用来发现哪些后端处于活动状态 - 无需环境探测，无需每个提供商的粘合代码。操作员配置后端一次（ ketch config set backend
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, golang, scraping, search, web-scraping
+
+---
+
+### 🌟 [MCP-Nest](https://github.com/rekog-labs/MCP-Nest)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 676
+- **核心概述**: 一个 NestJS 模块，可轻松创建模型上下文协议 (MCP) 服务器以公开 AI 工具、资源和提示。
+- **大概是做什么的**: NestJS MCP 服务器模块 一个 NestJS 模块，可使用模型上下文协议 (MCP) 从 NestJS 应用程序轻松公开 AI 工具、资源和提示。通过 @rekog/mcp-nest，您可以以 NestJS 中熟悉的方式定义工具、资源和提示，并利用依赖项注入的全部功能来利用现有代码库来构建复杂的企业级 MCP 服务器。 - 🧩 NestJS 微服务策略：MCP 作为 CustomTransportStrategy 运行，因此工具/资源/提示是真正的 @MessagePattern 处理程序 - 守卫、管道、拦截器和异常过滤器本机应用于它们 - 🚀 多传输支持：可流式 HTTP 和 STDIO - 通过传输数组选择 - 🔧 工具：将 NestJS 方法公开为 MCP 工具，具有自动发现和 Zod 验证功能 - 🛠️ 诱导：通过用户输入诱导进行交互式工具调用 - 🌐 HTTP 请求访问：对 MCP 处理程序中的请求上下文的完全访问 - 🔐 每个工具授权：对工具实施细粒度授权 - 📁 资源：通过 MCP 资源系统提供内容和数据 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llm, llms, mcp, mcp-nest, model-context-protocol, modelcontextprotocol
+
+---
+
+### 🌟 [langchain-google](https://github.com/langchain-ai/langchain-google)
+- **项目语言**: Python
+- **星标数量**: ⭐ 392
+- **核心概述**: 🦜🔗 LangChain 与 Google 的 AI 产品套件（例如 Gemini 和 Vertex AI）接口
+- **大概是做什么的**: 🦜️🔗 LangChain Google 该存储库集中了 LangChain 项目的 Google 集成。 - langchain-google-genai 实现了 Google Generative AI (Gemini API) 模型的集成。 - langchain-google-vertexai 实现了 Google Cloud Generative AI 在 Vertex AI 上的集成 - langchain-google-community 实现了不属于上述两个软件包的 Google 产品的集成 有关更多详细信息，请参阅 LangChain 文档中的 Google 提供商页面。有关完整文档，请参阅 API 参考。有关使用这些类的概念指南、教程和示例，请参阅 LangChain Google Docs。有关开发、调试和部署 AI 代理和 LLM 应用程序的信息，请参阅 LangSmith。 📕 发布和版本控制 请参阅我们的发布和版本控制政策。作为一个快速发展领域的开源项目，我们对贡献非常开放，无论是新功能、改进的基础设施还是更好的文档。有关如何贡献的详细信息，请参阅贡献指南。要为这个特定的包做出贡献，请参阅 langchain
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, gemini, gemini-api, langchain, langchain-python, llm
+
+---
+
 ## 🕔 2026-07-14 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 186 个候选项目中筛选出 6 个未推荐过的新项目。
