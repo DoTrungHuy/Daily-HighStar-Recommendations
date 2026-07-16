@@ -1,3 +1,67 @@
+## 🕔 2026-07-16 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 210 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [snip](https://github.com/edouard-claude/snip)
+- **项目语言**: Go
+- **星标数量**: ⭐ 368
+- **核心概述**: CLI 代理可将 LLM 令牌使用量减少 60-90%。适用于 Claude Code、Cursor、Copilot、Gemini 的声明式 YAML 过滤器。 Go 中的 rtk 替代方案。
+- **大概是做什么的**: snip - 将 LLM 令牌使用量减少 60-90% CLI 代理，可在 shell 输出到达 AI 编码助手的上下文窗口之前对其进行过滤。适用于 Claude Code、Cursor、Copilot、Gemini CLI、Windsurf、Cline、Codex、Kilo Code、Antigravity、Aider 以及任何运行 shell 命令的工具。 AI 编码代理在添加零信号的详细 shell 输出上刻录令牌。通过测试会产生数百行 LLM 永远不会使用的代码。当每次提交一行就足够时，git log 会转储完整的提交元数据。 snip ���于 AI 工具和 shell 之间，通过声明性 YAML 管道过滤输出。编写一个 YAML 文件，将其放入文件夹中，完成。可扩展的LLM令牌优化器：过滤器是YAML数据文件，而不是编译的代码。在真实的 Claude Code 会话上测量 — 128 个命令，保存了 230 万个令牌。之前 — Claude Code 看到这个（689 个令牌）： 之后 — snip 返回这个（16 个令牌）： 令牌减少了 97.7% 。法学硕士获得相同的信号——所有测试都通过——没有噪音。没有过滤匹配？该命令不变地传递——零开销。通过命令节省令牌 命令 之前 之后
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-coding, ai-tools, aider, claude-code, cli, cline
+
+---
+
+### 🌟 [llama.vscode](https://github.com/ggml-org/llama.vscode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,440
+- **核心概述**: 用于 LLM 辅助代码/文本完成的 VS Code 扩展
+- **大概是做什么的**: 本地 LLM 辅助文本完成、与 AI 聊天以及 VS Code 的代理编码扩展 - 输入时自动建议 - 使用 Tab 接受建议 - 使用 Shift + Tab 接受建议的第一行 - 使用 Ctrl/Cmd + Right 接受下一个单词 - 按 Ctrl + L 手动切换建议 - 控制最大文本生成时间 - 配置光标周围的上下文范围 - 使用打开和编辑的文件和拉出的文本中的块来环形上下文 - 即使在低端硬件上也支持非常大的上下文通过智能上下文重用 - 显示性能统计数据 - 用于代理编码的 Llama 代理 - 模型的添加/删除/导出/导入 - 完成、聊天、嵌入和工具 - 模型选择 - 用于完成、聊天、嵌入和工具 - 引入 Env（模型组）概念。选择/取消选择 env 会选择/取消选择其中的所有模型 - 为 env 添加/删除/导出/导入 - 预定义模型（包括作为本地添加的 OpenAI gpt-oss 20B） - 针对不同用例的预定义 env - 仅完成、聊天 + 完成、聊天 + 代理、本地完整包（带有 gpt-oss 20B）等 - 也是 MCP
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: copilot, developer-tool, extension, llama, llm, vscode
+
+---
+
+### 🌟 [ailia-models](https://github.com/ailia-ai/ailia-models)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,355
+- **核心概述**: 适用于 ailia SDK 的预训练、最先进的 AI 模型集合
+- **大概是做什么的**: 预先训练的最先进的人工智能模型的集合。 ailia SDK是一款跨平台、高速人工智能推理SDK。它支持 Windows、Mac、Linux、iOS、Android、Jetson 和 Raspberry Pi，并通过 Vulkan 和 Metal 进行 GPU 加速。绑定适用于 C++、Python、Unity (C)、Kotlin、Rust 和 Flutter。 ailia SDK ONNX Runtime GPU 通过 Vulkan 和 Metal 进行推理 ✓ − ailia Speech / Voice / LLM / Tokenizer / Tracker ✓ − 400 多个经过验证的模型库及示例代码 ✓ − 非操作系统/RTOS 推理支持 ✓ − Unity 绑定和模型收集 ✓ △ 模型特定优化 ✓ △ △ = 支持，但由于通用实现而受到限制。立即在 Google Colaboratory 上尝试 如果您想在计算机上尝试： ailia MODELS 教程 ailia MODELS 教程 日本语版 ailia MODELS deepwiki 从支持的 Ailia 版本导出的模型参考 日期 博客 :------------ ------------: :------------: :------------: :------------: :------------: :------------: va-cnn 查看基于骨骼的人类的自适应神经网络 (VA)动作识别 Pytorch 1.2.7 及更高版本 2017 年 3 月 st-gcn ST-GCN P
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: action-recognition, anomaly-detection, audio-processing, background-removal, crowd-counting, deep-learning
+
+---
+
+### 🌟 [octo-web](https://github.com/Mininglamp-OSS/octo-web)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 适用于 OCTO 开放工作场所的 Web 和桌面 (Electron) 客户端 — 一个 React + TypeScript 代码库，提供浏览器和 PC 表面，具有一流的 AI 代理 UX。
+- **大概是做什么的**: OCTO——为人类×人工智能代理构建的开放工作场所。让 Lobsters（OpenClaw 支持的数字替身）思考和行动。你注重品味。 🌐 阅读语言：英语 · 简体中文 OCTO 消息平台的 Web 和 PC (Electron) 客户端 — 一个 React 代码库，两个交付的界面。 octo-web 是 TypeScript / React 前端，通过 REST + WebSocket 与 octo-server 进行通信。相同的代码库以两种方式提供：作为浏览器构建（规范的 OCTO 聊天界面），以及作为 Electron 打包的桌面 PC 客户端。 - 一个代码库，两种产品。浏览器 + PC (Electron) 是从相同的 src/ 构建的——没有并行的 React 树，没有不同的 UX。分支切换仅发生在平台功能边界处。 - 龙虾就绪的用户界面。人工智能代理对话的一流界面：流式回复、打字指示器、内联工具调用预览、已读收据、代理与人类身份芯片。 - 完整的双语外壳。英语和简体中文一起发货，开箱即用； i18n 密钥位于 src/locales/ 中，并在 CI 中强制执行。默认情况下，Web 构建需要一个可通过 http://l 访问的 octo-server 实例
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chat, desktop-app, electron, i18n, im
+
+---
+
+### 🌟 [llm-paper-daily](https://github.com/xianshang33/llm-paper-daily)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,296
+- **核心概述**: Daily updated LLM papers. 每日更新 LLM 相关的论文，欢迎订阅 👏 喜欢的话动动你的小手 🌟 一个
+- **大概是做什么的**: llm-paper-daily 日常论文精选 欢迎来到 llm-paper-daily ! 这是一个获取 LLM、Agent 相关研究论文的每日更新和分类平台。 📚 每日更新: 仓库每天会带来最新的 LLM、Agent 相关研究，并附有 arXiv 地址、相关 GitHub 仓库和文章的总结。 查看更新文章    更新时间: 2026年07月16日 04:33 - STOCKTAKE: Measuring the Gap Between Perception and Action in LLM Agents with a Fair Oracle - Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents - Explaining Reinforcement Learning Agents via Inductive Logic Programming - Automatic Ordinary Differential Equations Discovery For Biological Systems Using Large Language Model Powered Agentic System - DevicesWorld: Benchmarking Cross-Device Agents in Heterogeneous Environments 想订阅每日 LLM、Agent 论文更新时，不需要手动配置脚本。把下面这段话发送给本地的 OpenClaw、Codex 或 Claude Code，让 Agent 帮你完成配置： Agent 会使用仓库里的 paper-subscribe skill，只读取公开的 feed-papers.json ，不会在你的机器上运行论文抓取或总结生产流程。  Date   Paper Links & Summary 07-15 STOCKTAKE: Measuring the Gap Between Perception and Action in LLM Agents with a Fair Oracle 机构: QpiAI STOCKTAKE 通过引入基于精确贝叶斯滤波的公平 Oracle，成功解决了 LLM 智能体在部分可观测环境中评估难的问题。它明确区分了感知失败和控制失败，并���示了当前顶级模型的主要瓶颈不在于无法发现隐藏状态，而在于难以将正确的认知转化为经
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, chatgpt, large-language-models, llm, rag
+
+---
+
+### 🌟 [TeachingDataScience](https://github.com/yogeshhk/TeachingDataScience)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 301
+- **核心概述**: 用 LaTeX 编写的人工智能和数据科学相关主题的开源课程笔记
+- **大概是做什么的**: 教授数据科学 用于机器学习、深度学习、NLP、生成式 AI、ML 数学和 Python 的免费开源 Beamer 幻灯片和代码，从 1 小时研讨会到完整课程。这里的所有内容，包括幻灯片、代码和注释，都是通过学习和引用现有的最佳公共材料而构建的，并在开放许可下返回，以便任何人都可以教学、学习或构建。一些示例幻灯片，来自此存储库中 .tex 源的实际输出，无需编辑：内容分为三层，因此您可以准确选择所需的深度： - 课程（完整课程，1-2 周/40 小时）：机器学习、深度学习、生成式 AI、ML 数学、Python - 研讨会：一个深入的主题，1-2 天（8-16 小时） - 研讨会：一场重点会议， 1-2 小时的研讨会和研讨会涵盖的内容远多于上述课程：经典机器学习、线性代数、法学硕士、RAG、LangGraph、GNN、区块链、职业建议等等。 Code/ 中还有越来越多的可运行代码项目：LangChain、LangGraph、RAG 管道、微调、经典 ML、NLP、图神经网络等
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: course-materials, data-science, data-science-education, deep-learning, genai, jupyter-notebooks
+
+---
+
 ## 🕔 2026-07-16 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
