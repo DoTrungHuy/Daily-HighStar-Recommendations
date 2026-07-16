@@ -1,3 +1,67 @@
+## 🕔 2026-07-16 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-autoresearch](https://github.com/webfuse-com/awesome-autoresearch)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,318
+- **核心概述**: 受卡帕西自动研究启发的自主改进循环、研究代理和自动研究式系统的精选列表。
+- **大概是做什么的**: 🔬 很棒的自动研究 受 karpathy/autoresearch 启发的自主改进循环、研究代理和后代的精心策划的高信号索引。 - 🛠️ 通用后代 - 🔬 研究代理系统 - 💻 平台端口和硬件分支 - 🎯 特定领域的适应 - 📊 评估和基准 - 📈 值得注意的用例和文章 - 📚 相关资源 🛠️ 通用后代 - kayba-ai/recursive-improve - 代理捕获的递归自我改进框架执行跟踪、分析故障模式并通过保留或恢复评估应用有针对性的修复。 - vukrosic/auto-research - 用于开放式自主人工智能研究实验室的纯文档控制平面 - 用于人类指导和代理执行的基于文件的操作模型。 -uditgoenka/autoresearch - Claude 代码技能，将自动研究概括为软件、文档、安全、运输、调试和其他可衡量目标的可重用循环。 - leo-lilinxiao/codex-autoresearch - Codex 原生自动研究技能，具有简历支持、跨运行课程、可选并行实验和特定模式工作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-systems, ai-agents, ai-research, ai-tools, autonomous-agents, autoresearch
+
+---
+
+### 🌟 [deepwiki-rs](https://github.com/sopaco/deepwiki-rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,360
+- **核心概述**: 让代码变得清晰。在几分钟内生成准确的技术文档和人工智能就绪的上下文 - 为人类团队和智能代理构建完美的结构。
+- **大概是做什么的**: 💪🏻 使用 Rust 构建的高性能 AI 驱动的智能文档生成器（类似 DeepWiki）📚 自动为任何代码库生成高质量的 Repo-Wiki Litho 是一个 AI 驱动的文档生成引擎，可以自动分析您的源代码并以 C4 模型格式生成全面、专业的架构文档。不再有落后于代码更改的手动文档 - Litho 使您的文档与代码库完美同步。 Litho 将原始代码转换为结构精美的文档，其中包含上下文图、容器图、组件图和代码级文档 - 所有这些都从源代码自动生成。无论您是开发人员、架构师还是技术主管，Litho 都消除了维护文档的负担，并确保您的团队始终拥有准确、最新的架构信息。在几分钟内将您的代码库转换为专业的架构文档 手动文档 过时、不完整或缺失的文档 落后于代码更改的手动更新 不一致
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude, deepseek, deepwiki, llm, mistral, openai
+
+---
+
+### 🌟 [stride-gpt](https://github.com/mrwadams/stride-gpt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,079
+- **核心概述**: 一种由 AI 驱动的威胁建模工具，利用 OpenAI 的 GPT 模型根据 STRIDE 方法为给定应用程序生成威胁模型。
+- **大概是做什么的**: STRIDE GPT 是一种基于 AI 的威胁建模工具，它利用大型语言模型 (LLM) 根据 STRIDE 方法为给定应用程序生成威胁模型和攻击树。用户提供应用程序详细信息，例如应用程序类型、身份验证方法以及应用程序是否面向互联网或处理敏感数据。然后，模型根据提供的信息生成输出。 - 支持项目 - 企业部署 - 在开放安全峰会上演讲 - 安全最佳实践 如果您发现 STRIDE GPT 有用，请考虑支持该项目： - ⭐ 在 GitHub 上为存储库加注星标，以帮助更多人发现该工具 - ☕ 请我喝杯咖啡以支持持续开发和维护 - 代理代码库分析：将 CLI 指向代码库并获得自主、深入的 STRIDE 威胁模型 — 代理计划、探索并综合跨子系���的发现 - CLI 和交互式 REPL：功能齐全的终端体验，包括选项卡完成、历史记录和实时进度 - 无需浏览器 - 简单且用户友好的 Streamlit 我们
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-security, application-security, attack-trees, cybersecurity, dread, generative-ai
+
+---
+
+### 🌟 [omni](https://github.com/fajarhide/omni)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 302
+- **核心概述**: 人工智能代理的降噪环境和长期记忆。不再付钱让克劳德像 AI 代理的耳机一样读取 10,000 行终端噪音
+- **大概是做什么的**: 人工智能代理的降噪环境和长期记忆。停止支付 Claude 像 AI 代理的耳机一样读取 10,000 行终端噪音 🇺🇸 English 🇯🇵 日本语 🇨🇳 简体中文 🇸🇦 งงงงงงงงงงงยงงง 🇮🇩 Bahasa Indonesia 🇻🇳 Tiếng Việt 🇰🇷 한국어 代币减少高达 85% · 跨会话内存 · 速度提高 40% · 零幻觉触发 每个 AI 编码助手都有两个大问题。 1.他们阅读一切。数千个标记...才能找到一行。克劳德并不贵。你的终端是。 2.他们忘记了一切。每次您重新启动 Cursor 或从 Claude Code 切换到 Windsurf 时，您的代理都会失忆。你必须重新解释项目目标。您必须一遍又一遍地提醒他们相同的框架问题。问题 1：您的终端淹没了信号 如果没有 OMNI：10,000 行“正在下载...”、“正在提取...”和警告。人工智能读取一切。使用 OMNI：包冲突。需要节点 20。没有 OMNI：4,500 行未更改的执行计划。使用 OMNI：未通过 IAM 权限的 3 个资源。没有 OMNI：无休止的缓存命中，层 ha
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, antigravity, claude-code, cli, context-distillation, cost-reduction
+
+---
+
+### 🌟 [awesome-ai-for-economists](https://github.com/hanlulong/awesome-ai-for-economists)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 411
+- **核心概述**: 用于经济学研究、教学和政策分析的人工智能工具、图书馆和资源的精选列表。由 OpenEcon 团队维护。
+- **大概是做什么的**: 为经济学家提供的出色人工智能 精选的人工智能工具、库和资源列表，改变了经济学家进行研究、教学和分析政策的方式——从自然语言数据访问到因果机器学习。范围：对经济学家具有特定价值的工具。通用人工智能助手在附录中。该列表由 OpenEcon 团队维护 - 构建连接人工智能与经济的开源基础设施。 - 人工智能研究设置——这是新手吗？从这里开始设置 Claude Code 和 Codex，用于 macOS 和 Windows 上的经济学研究。 - OpenEcon 数据 — 以简单的英语查询来自 FRED、世界银行、国际货币基金组织和 10 多个来源的 330,000 多个经济指标。可用作 Web 应用程序、Python API 和 MCP 服务器。 - Stata-MCP — 从 VS Code、Cursor、Claude Code 和 GitHub Copilot 运行 Stata，并提供实时输出、数据查看器和图形显示。 - 经济学写作技能——人工智能代理撰写经济学论文的技能，综合了 Cochrane、McCloskey、Shapiro、Head 和其他领先经济学家的 50 多篇指南。 - 经济论文审稿技巧——经济学论文的人工智能审稿报告：经过验证的评论、编​​辑
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, artificial-intelligence, awesome, awesome-list, causal-inference, econometrics
+
+---
+
+### 🌟 [how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda)
+- **项目语言**: Cuda
+- **星标数量**: ⭐ 3,140
+- **核心概述**: 如何优化cuda中的某些算法。
+- **大概是做什么的**: how-to-optim-algorithm-in-cuda CUDA、GPU 内核和 AI 基础设施优化说明。该存储库收集了 CUDA 内核实践、CUTLASS/CuTe 笔记、Triton 示例、PTX ISA 笔记、PyTorch 内部笔记和 LLM 推理/训练优化材料。这是我关于 GPU 系统工作的主要公共学习和工程笔记本之一。 - cuda-kernels/ ：手写的 CUDA 内核，用于减少、softmax、elementwise、GEMV、索引、原子添加、上采样和线性注意。 - cuda-mode/：CUDA-MODE 讲座系列的注释和代码。 - cutlass/：CUTLASS 和 CuTe DSL 注释，包括 GEMM、TMA、WGMMA、swizzling 和指令级材料。 - triton/ ：Triton 内核、PyTorch 互操作示例和聚会笔记。 - 大语言模型/：法学硕士服务、培训和系统优化说明。 - pytorch/ ：PyTorch 内部结构和 CUDA 相关注释。 - 论文/：GPU 架构和机器学习系统论文笔记。 - ptx-isa/：PTX ISA 学习笔记。 -tools/：小帮助脚本。 - 已弃用/：保留旧材料以供参考。相关存储库 - CUDA 和 GPU 优化：thi
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cuda, llm
+
+---
+
 ## 🕔 2026-07-16 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 210 个候选项目中筛选出 6 个未推荐过的新项目。
