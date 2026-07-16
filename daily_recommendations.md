@@ -1,3 +1,67 @@
+## 🕔 2026-07-16 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 241 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [stagewise](https://github.com/stagewise-io/stagewise)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,734
+- **核心概述**: 开源 Agentic IDE。创建和编排编码代理、显示应用程序预览并运行 git 工作流程。在所有提供商中使用您最喜欢的模型。
+- **大概是做什么的**: 用于开源模型的 Agentic IDE English 简体中文 Deutsch 日本语 Español 한국어 Português Français Italiano हिन्दी Русский Українська / Components/feature-images/full-demo-dark.png) stagewise 是一款面向开发人员的开源 Agentic IDE - 在同一工具中浏览和构建 - 无需上下文切换 - 使用可完全访问选项卡控制台和调试器的编码代理 - 进行临时测试更改或连接代码库以进行永久编辑 - 对任何网站的组件、样式系统和调色板进行逆向工程 - IDE 集成，可在您喜爱的编辑器中查看和应用代码更改 - 自带 API 密钥 - 完全支持所有 AI 提供商 使用您的编码订阅 为所有流行模型提供商提供您自己的密钥 - 您可以还注册完全自定义的提供程序（包括本地推理！）并定义自定义模型。轻松导入 — 使用您现有的订阅使用单个 API 密钥连接以下任何订阅，以解锁提供商直接在 stagewise 内提供的所有模型。订阅提供商特色模型
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-orchestration, ide
+
+---
+
+### 🌟 [open-slide](https://github.com/1weiho/open-slide)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,784
+- **核心概述**: 为代理构建的幻灯片框架。
+- **大概是做什么的**: 为代理构建的幻灯片框架。用自然语言描述你的套牌——你的编码代理编写 React。 open-slide 处理画布、缩放、导航、热重载和演示模式，以便代理可以专注于内容。每张幻灯片都会渲染到固定的 1920 × 1080 画布中。页面是任意的 React 组件，而不是受约束的 DSL。幻灯片是可视化代码。代理非常擅长编写代码。 open-slide 是缺少的运���时，它可以将“制作有关 X 的幻灯片”变成精美的、美观的幻灯片 — 您无需离开聊天室。 🤖 代理原生创作可与任何编码代理一起使用（Claude Code、Codex、Cursor 等）。脚手架工具有内置技能： - /create-slide — 端到端地起草甲板。提出四个范围问题（主题和美学、页数、文本密度、运动与静态），选择 ID，规划结构并编写页面。 - /slide-authoring — 1920 × 1080 画布、字体比例、调色板和布局规则的技术参考。代理在写入之前会阅读此内容。从一行提示到精美的甲板，没有样板。 🎯 浏览器内检查器 CLI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, react, slides
+
+---
+
+### 🌟 [jarvis-registry](https://github.com/ascending-llc/jarvis-registry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,201
+- **核心概述**: 通过具有内置身份、访问控制和完全可观察性的单一安全 MCP/Agent 网关，将任何 AI 副驾驶或自主代理连接到您的企业工具。
+- **大概是做什么的**: 通过具有内置身份、访问控制和完全可观察性的单一安全 MCP 网关，将任何 AI 副驾驶或自主代理连接到您的企业工具。 🚀 快速入门 📖 文档 🎬 演示 🌐 网站 什么是 Jarvis Registry？ Jarvis Registry 是 ASCENDING Inc 构建的开源企业级 MCP（模型上下文协议）和 A2A 代理网关和工作流编排平台。它解决了企业 AI 中最困难的问题之一：为 AI 副驾驶和自主代理提供对内部工具和数据的安全、受管控的访问，而不会出现碎片集成或安全盲点。功能 说明 MCP 网关和反向代理 所有 AI 客户端和代理使用 MCP over SSE 或可流式 HTTP 的单一身份验证入口点 AI Copilot 集成 Connect Cursor、Claude Desktop、GitHub Copilot、VS Code 和任何与 MCP 兼容的 copilot 到企业工具 A2A 代理编排 注册和管理自主代理； Orchestrator 代理通过同一安全网关协调工作代理 身份和访问管理 OAuth 2.0/OIDC 与 Keycloak, A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-gateway, agent-orchestration, mcp, mcp-gateway, orchestration
+
+---
+
+### 🌟 [pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,028
+- **核心概述**: PipesHub 是一个完全可扩展的开源 AI 上下文层，可统一您的业务数据，以实现可解释的企业搜索和代理工作流程自动化。
+- **大概是做什么的**: 开源工作场所人工智能平台 翻译： Français · Deutsch · 简体中文 · 日本语 · Русский · עברת · 한국어 · Español · Português · Türkçe · Tiếng Việt · Italiano PipesHub - 可解释和可扩展的 PipesHub 是企业的开源上下文层人工智能。连接整个组织的企业知识、保留访问权限、生成值得信赖的引用，并在单个受管上下文层上构建 AI 代理、企业搜索、RAG 应用程序、MCP 服务器和代理工作流程。 - 📝 可解释的答案：PipesHub 通过对原始文档的精确块引用提供接地气的答案。 - 🔒 权限感知搜索：强制执行源级别访问控制，以便用户只能看到他们被授权的内容。 - 🕸️ 知识图检索：图支持的检索，可捕获企业数据之间的关系。 - 🔌 企业连接器：30 多个连接器，具有开箱即用的实时和计划索引功能。 - 🔍 统一搜索、深度研究和代理：一个上下文层上的搜索、问答、深度研究、网络搜索和人工智能代理。 - 📊 工件和代码执行：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, drive, glean, gmail
+
+---
+
+### 🌟 [oxideterm](https://github.com/AnalyseDeCircuit/oxideterm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 935
+- **核心概述**: 适用于本地 shell 和远程计算机的 AI 原生工作区。零电子、零 OpenSSL、零遥测，并且无需应用程序订阅。
+- **大概是做什么的**: AI 支持的 SSH 客户端和远程操作工作区 在一个本机工作区中实现 SSH、Telnet、串行、RDP/VNC、SFTP、端口转发和轻量级编辑。 GPU 渲染。自由的。无需帐户。没有电子。没有捆绑的 WebView。没有遥测。没有订阅。 BYOK 第一。没有 OpenSSL/libssh2 的纯 Rust SSH。开源、本地优先、使用 GPUI 进行 GPU 渲染。 English 简体中文 繁体中文 日本语 한국어 Français Deutsch Español Italiano Português Tiếng Việt OxideTerm 是一个开源、本地优先的工作区，用于连接到服务器并跨终端、文件、转发、主机工具和远程桌面工作。 - 在一个本机工作区中管理 SSH、Telnet、串行、RDP/VNC、SFTP、端口转发、本地 shell 和轻量级编辑 - 通过宽限期重新连接，在网络中断时保持远程工作正常进行 - 要求 OxideSens AI 检查实时会话，并通过您自己的 AI 提供商执行批准的工作区操作 您的连接和操作数据始终在您的控制之下。 OxideTerm 不需要帐户，在启用 OxideSens 时使用您自己的 AI 提供商，并保持免费的桌面体验
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-terminal, bring-your-own-key, devtools, filemanager, local-first
+
+---
+
+### 🌟 [patent](https://github.com/r14dd/patent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 510
+- **核心概述**: 对您的代码想法进行现有技术搜索 - 该开发工具已经发布了吗？
+- **大概是做什么的**: 该专利采用简单的英语开发工具理念，并搜索 16 个来源——包注册表（crates.io、npm、PyPI、Homebrew、Packagist、Hex 等）以及 GitHub 和 Hacker News。结果按语义相似性排序，并概括为“开放”、“拥挤”或“饱和”。就像专利检索一样，但是针对的是代码。它发现了现有技术，但从未证明不存在。在构建开发工具之前，专利会检查它是否已经存在。一次查询会同时分布在 16 个来源（包注册表加上 GitHub 和 Hacker News），而不是您手动搜索每个来源。匹配按语义相似性（而不是关键字匹配）进行本地排名，因此措辞相似但措辞不同的现有技术仍然浮出水面，并且判决范围仅限于实际发现的内容 - 诚实的“继续寻找”，而不是幻觉的“这很新颖”。 1. 来源选择——专利选择与您的想法相关的注册机构； GitHub 和 Hacker News 总是被搜索。 2. 语义排名——每场比赛都通过 fastembed 本地嵌入，并根据与您的想法的余弦相似度进行排名。 3. 结论——法学硕士将情况总结为以下之一：
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cli, command-line-tool, developer-tools, embeddings, llm
+
+---
+
 ## 🕔 2026-07-16 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
