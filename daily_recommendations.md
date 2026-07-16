@@ -1,3 +1,67 @@
+## 🕔 2026-07-16 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cheatengine-mcp-bridge](https://github.com/miscusi-peek/cheatengine-mcp-bridge)
+- **项目语言**: Lua
+- **星标数量**: ⭐ 1,010
+- **核心概述**: 通过 MCP 将 Cursor、Copilot 和 Claude AI 直接连接到 Cheat Engine。使用自然语言自动执行逆向工程、指针扫描和内存分析。
+- **大概是做什么的**: Cheat Engine MCP Bridge 让价值数十亿美元的 AI 数据中心为您分析程序内存。创建模组、培训师、安全审核、游戏机器人、加速 RE，或在短时间内对任何程序和游戏执行任何其他操作。谢谢大家的星星，非常感谢！特别感谢所有贡献者！ @libangli218、@lauralex、@iamtyroon、@HachiroSan、@Attacktive 您正在盯着千兆字节的内存。数百万个地址。数千个功能。找到一个指针、一个结构需要数天或数周的手动工作。如果你可以直接问怎么办？ “找到数据包解密器挂钩。” “找到字符坐标的操作码。” “找到健康值的操作码。” “找到独特的 AOB 模式，让我的训练师在游戏更新后变得可靠。”这正是它的作用。 - 停止点击十六进制转储并开始与内存对话。之前（手动）之后（AI Agent + MCP） ----------------- --------------------- 第 1 天：查找数据包地址 第 1 分钟：“查找 RX 数据包解密挂钩” 第 2 天：跟踪写入内容 第 3 分钟：“生成 uniqu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, automation, cheat-engine, ctf-tools, debugger
+
+---
+
+### 🌟 [crabtalk](https://github.com/crabtalk/crabtalk)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 717
+- **核心概述**: 不隐藏任何内容的代理守护进程
+- **大概是做什么的**: 代理守护进程。运行代理、调度工具、连接到 MCP 服务器。启动它，与它交谈，用包扩展它。或者，cargo 安装crabup 并用它来拉其余部分。详细信息请参阅[安装指南][安装]。完整配置参考：crates/crabtalk/config.toml。该守护进程附带内置工具（shell、任务委派、内存）、MCP 服务器集成和技能（Markdown 提示文件）。应用程序是建立在守��进程之上的代理驱动的体验和独立服务 - 通过以下方式连接的独立二进制文件 - [The Crabtalk Book][book] - 宣言、架构和设计 RFC - 配置 - config.toml 参考 - 贡献 - 架构、分层和数据流 [crates-badge]：https://img.shields.io/crates/v/crabtalk.svg [crates]：https://crates.io/crates/crabtalk [文档徽章]：https://img.shields.io/badge/docs-crabtalk.ai-blue [文档]：https://crabtalk.ai/docs/crabtalk [discord-badge]：https://img.shields.io/discord/1481168707391852659?label=discord [discord]：https://discord.gg/XxyxfNX3Fn [书籍]：https://crabtalk.github.io/crabtalk [安装]：https://www.c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-runtime, ai, ai-agent, composable, developer-tool
+
+---
+
+### 🌟 [opendroid](https://github.com/yashab-cyber/opendroid)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 305
+- **核心概述**: 您的开放式自治 Android 代理 — 一款可投入生产、自我规划的 AI 助手，由本地/远程 LLM 和可访问性驱动的屏幕自动化提供支持。
+- **大概是做什么的**: 🤖 适用于 Android 您手机的开源自主 AI 代理。你的规则。你的人工智能。 🎯 什么是 OpenDroid？ OpenDroid 不仅仅是另一个聊天机器人。它是一个完全自主的人工智能代理，驻留在您的 Android 手机上，并实际为您做事。 “看看明天是否会下雨，如果是的话，给我妻子发短信说我会迟到，并定个下午 6 点的闹钟。” OpenDroid 会将其计划为 3 个步骤，执行每个步骤，验证��果，并在出现任何失败时进行调整 - 所有这些都无需您费力。 🧠 自主代理引擎功能描述 ------------ ------------- 自规划 通过依赖性跟踪将复杂命令分解为连续步骤 重新评估 监控执行结果并在步骤失败时动态重新计划 复合意图防护 智能检测多操作命令（例如“打开 WhatsApp 并发送消息”） 联系人消歧 通过模糊匹配和关系别名进行 4 层联系人解析（“给爸爸打电话”） 🛠️ 设备上模型管理器(LiteRT-LM) 功能描述 ------------ ------------- 后台下载器 真实网络下载（通过 WorkManager）wi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agent, android, automation, autonomous, kotlin
+
+---
+
+### 🌟 [Sponsio](https://github.com/SponsioLabs/Sponsio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 465
+- **核心概述**: 概率人工智能代理的确定性安全解决方案
+- **大概是做什么的**: Sponsio 为代理程序随时间提供确定性合同，在 0.01 毫秒内执行，运行时 LLM 成本为零。使用 Python 或 TypeScript 与 LangChain、Claude Agent、OpenAI Agents、Google ADK、CrewAI、Vercel AI、MCP 或任何自定义工具调用循环配合使用。代理契约是一种运行时规则，在每个代理操作时都会进行检查，并由形式方法支持。 v0.2.0a3 alpha 已发布。 pip install --pre sponsio==0.2.0a3 。关闭非 LangGraph 适配器中安全打开错误的重定向（不安全调用无论如何都在运行），将 TS Eq 语义引入 Python 奇偶校验以获取复合值，并添加 Cloudflare Workers 兼容性。如果您使用的是 0.2.0a2，建议升级。请参阅 v0.2.0a3 发行说明。在 ODCV-Bench（12 个前沿 LLM × 80 个轨迹）上，无保护模型在 11.5%–66.7% 的运行中作弊。使用 Sponsio，平均可以避免 95.6% 的错位； 24/36 100% 的高风险场景。在财务审计欺诈调查场景中，前沿模型在 16/24 试验中犯有欺诈行为； Sponsio 块 18/19 。在 RedCode-Exec（1,410 个案例）上，Sponsio 合计达到 92%（bash 95%·
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-guardrails, agent-harness, agent-runtime, agent-safety, agent-security, agent-skills
+
+---
+
+### 🌟 [fenic](https://github.com/typedef-ai/fenic)
+- **项目语言**: Python
+- **星标数量**: ⭐ 541
+- **核心概述**: 人类和代理的语义数据框架
+- **大概是做什么的**: fenic：面向人类和代理的语义数据框架 fenic 将人工智能辅助的结构化和非结构化数据探索转变为可重用、可检查的 DataFrame 管道。它是一个用于语义数据处理的 DataFrame 查询引擎，在查询模型中内置了 AI 运算符（extract、classify、summarize、embed、semantic join 等）。使用它将文档、记录、日志、评估跟踪、票证、表格和 API 转换为键入的行和可重复的工作流程。关键是数据工作产生的结果发生了变化。人类和代理在相同的管道上工作——两者都可以编��、检查和重用它们。结果不是一次性的提示或稍后必须进行逆向工程的脆弱的正则表达式脚本 - 它是一个持久的工件：可键入、可检查、可重新运行和可调用。从探索到神器。使用 AI 编码代理编写 fenic？运行 fenic 技能安装，以便 Claude Code / Cursor / Codex 正确写入，然后 fenic 检查以检查它 - 详细信息如下。 fenic 是一个语义 DataFrame 引擎。��编写您已经知道的 PySpark/SQL 风格的操作 - select 、 filter 、 join
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, llm
+
+---
+
+### 🌟 [tradingcodex](https://github.com/monarchjuno/tradingcodex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: 将 Codex 转变为您的投资工作流程团队
+- **大概是做什么的**: 在 Codex 中进行研究，并提供可以检查的踪迹。 TradingCodex 是 Codex 的本地优先投资操作系统。用自然语言提出问题，让有限的固定角色团队收集并质疑证据，然后将结果研究、来源态势、不确定性和后续步骤保留在您自己的工作空间中。它不是一个自主交易机器人。研究回应本身永远不会成为经纪人的行动。开始使用 · 所有面向用户的技能 · 提供者订购 · 文档 1. 附加一个空工作区。 TradingCodex 创建本地合约、启动器、技能、挂钩和研究文件夹，而无需创建提交或 2. 打开新的本机 Codex 任务。从您需要的结果开始，而不是从预先选定的分析师或代理人开始。 3. 检查证据。在只读工作区查看器中读取保存的工件，然后继续、缩小问题范围或停止。您需要 Git、uvx 和已安装、经过身份验证的 codex CLI。在您想要研究的空文件夹中，运行： 在本机 Windows PowerShell 上：然后完全重新启动 Codex，打开并信任该工作区，然后启动新任务。这
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agents, codex, django, investment-research, mcp
+
+---
+
 ## 🕔 2026-07-15 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 210 个候选项目中筛选出 6 个未推荐过的新项目。
