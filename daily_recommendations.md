@@ -1,3 +1,67 @@
+## 🕔 2026-07-17 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kelivo](https://github.com/Chevey339/kelivo)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 3,286
+- **核心概述**: Flutter LLM 聊天客户端。支持移动和桌面。
+- **大概是做什么的**: Flutter LLM 聊天客户端 🔗 下载最新版本 🔗 TestFlight 进行 beta 测试。感谢siliconflow.cn与我们合作提供免费模型。 - 🎨 现代设计 - Material You 设计语言支持动态颜色主题（Android 12+）。 - 🌙 深色模式 - 完美适配深色主题，保护您的眼睛。 - 🌍 多语言支持 - 支持英文和中文界面。 - 🖥️ 多平台支持 - 移动设备（Android/iOS/Harmony）和桌面设备（Windows/macOS/Linux）。 - 🔄 多提供商支持 - 支持 OpenAI、Google Gemini、Anthropic 等主要 AI 提供商。 - 🤖 自定义助手 - 创建和管理个性化 AI 助手。 - 🖼️ 多模式输入 - 支持多种格式，包括图像、文本文档、PDF、Word 文档等。 - 📝 Markdown 渲染 - 完全支持代码高亮、LaTeX 公式、表格等。 - 🎙️ 语音/TTS 提供商 - 内置系统 TTS 加上 OpenAI / Google Gemini / ElevenLabs 语音服务器。 - 🛠️ MCP 支持 - 模型上下文协议工具集成。 - 🧰 内置 MCP 工具 - 包括内置 MCP Fe
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, android, chatbot, chatbox, flutter, flutter-apps
+
+---
+
+### 🌟 [wigolo](https://github.com/KnockOutEZ/wigolo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 734
+- **核心概述**: AI 编码代理的首选网络 — 通过 MCP 进行本地优先搜索、获取、爬行和研究。没有 API 密钥，没有云，每次查询 0 美元。公开测试版。
+- **大概是做什么的**: 基于 MCP 的本地优先网络智能 — 无密钥、无云、无计量账单。适用于 Claude Code · Cursor · Codex · Gemini CLI · VS Code · Windsurf · Zed · 反重力快速入门 · 工具 · 为什么选择 wigolo · 基准测试 · 架构 · 配置 · 反馈 · 常见问题解答 · 可用 · 贡献 wigolo 作为 MCP 服务器在您的计算机上运行，​​并为 AI 编码代理提供了一个持久的表面，用于执行与 Web 相关的所有操作 — 搜索、获取、抓取、提取、缓存、查找相似、研究和自主收集循环。核心工具不需要 API 密钥，它所触及的任何内容都不会离开 /.wigolo/ ，并且不会随着您的代理的想法而增长。 wigolo 于 2026 年 7 月上旬上市。它很快就找到了受众——下面的大多数明星都在 48 小时内登陆。从公共 GitHub 明星时间线生成的图表。如果当你读到这篇文章时它仍在攀升，那就是重点 - 添加 ⭐ 。需要节点 ≥ 20 和 1.5 GB 可用磁盘。 macOS、Linux 和 Windows。一条命令将本地引擎连接到您的代理并设置 MCP 连接。默认情况下 init 是无人值守的——没有提示
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agent, claude, cli, developer-tools
+
+---
+
+### 🌟 [kubeai](https://github.com/kubeai-project/kubeai)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,223
+- **核心概述**: Kubernetes 的人工智能推理运算符。在生产中提供 ML 模型的最简单方法。支持 VLM、LLM、嵌入和语音转文本。
+- **大概是做什么的**: KubeAI：AI 推理运算符 在 Kubernetes 上部署和扩展机器学习模型。专为法学硕士、嵌入、重新排名和语音转文本而构建。 🚀 LLM 推理 - 操作 vLLM 和 Ollama 服务器 🎙️ 语音处理 - 使用 FasterWhisper 转录音频 🔢 矢量嵌入 - 生成无限嵌入 📚 重新排名 - 使用跨编码器模型重新排序搜索结果 ⚡️ 智能扩展 - 从零扩展以满足需求 📊 优化路由 - 大幅提高大规模性能（参见论文） 💾 模型缓存 - 自动下载和安装（EFS 等） 🧩 动态适配器 - 跨副本编排 LoRA 适配器 📨 事件流 - 与 Kafka、PubSub 等集成 我们努力提供“它就是有效”的体验： 🔗 OpenAI 兼容 - 与 OpenAI 客户端库配合使用 🛠️ 零依赖 - 不需要 Istio、Knative、 🖥 硬件灵活 - 在 CPU、GPU 或 TPU 上运行 社区引述：可重用、抽象良好的运行 LLM 的解决方案 - Mike Ensor，Google 大规模性能更好 当运行 vLLM 的多个副本时，随机负载平衡
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, autoscaler, faster-whisper, inference-operator, k8s, kubernetes
+
+---
+
+### 🌟 [Flawless](https://github.com/William-Lu-stack/Flawless)
+- **项目语言**: Python
+- **星标数量**: ⭐ 701
+- **核心概述**: 适用于 Kubernetes 和云基础设施的 AI SRE AgenticOps。
+- **大概是做什么的**: Your infrastructure can explain itself, heal safely, and prove it recovered. 让基础设施自己解释故障、安全完成修复，并证明它真的恢复了。 Flawless is an AI-native SRE control plane for Kubernetes and cloud infrastructure. It connects alerts, evidence, topology, human approval, controlled remediation, and recovery verification in one auditable AgenticOps loop. 它不是另一个只会给建议的运维聊天框。Flawless 将“发现问题、收集证据、生成预演、人工授权、执行变更、恢复验证、经验沉淀”连接成一个可审计闭环。 Created in Shanghai by 陆宣宇 (Xuanyu Lu) . Product Preview / 产品实景 These are real console captures from the running platform, not conceptual mockups. AI inspection and executable preview SRE conversation and live evidence Current release: 3.2.0 . Release 3.2 adds persistent remediation lineage: every failed strategy, action, verification result, and replacement plan stays linked across operator-approved follow-up jobs. The effectiveness ledger is persisted on the runtime volume so model comparisons and recovery records survive Pod restarts. Compatibility note: the public product name is Flawless . Existing LUXYAI environment variables, the charts/luxyai directory, storage paths, and Kube
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agenticops, ai, aiops, aisre, cloud, cloud-native
+
+---
+
+### 🌟 [hackagent](https://github.com/AISecurityLab/hackagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: HackAgent 是一个开源安全工具包，用于检测 AI 代理的漏洞
+- **大概是做什么的**: AI Security Red-Team Toolkit HackAgent 是一个全面的 Python SDK 和 CLI，旨在帮助安全研究人员、开发人员和 AI 安全从业者评估和增强 AI 代理的安全性。随着人工智能代理变得更加强大和自主，它们面临着传统测试工具无法解决的安全挑战： 威胁描述 -------- ------------- 提示注入 劫持代理行为的恶意输入 越狱 绕过安全护栏和内容过滤器 目标劫持 操纵代理以实现意想不到的目标 工具滥用 利用代理功能进行未经授权的操作 HackAgent 使用研究支持的攻击技术自动测试这些漏洞，帮助您在安全问题被利用之前识别和修复它们。交互式 TUI，具有实时攻击进度和可视化报告。无需 API 密钥：HackAgent 在本地开箱即用。问题？加入社区讨论或发送电子邮件至 ais@ai4i.it。 HackAgent 使用模块化管道来端到端测试代理的稳健性。组件说明 ----------- ------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, hacking, jailbreak, pentesting, red-team
+
+---
+
+### 🌟 [agent](https://github.com/statelyai/agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 370
+- **核心概述**: 使用 XState 创建状态机驱动的 LLM 代理
+- **大概是做什么的**: AI 代理的逻辑层。 Stately Agent 将模型请求和决策添加到 XState。状态机定义了代理可以做什么。您的应用程序选择模型、运行请求并存储状态。任何代理工作流或循环都可以建模为状态机。模型调用和工具在其中作为效果运行。该模型提出了一个事件。机器决定是否允许以及接下来会发生什么。 《庄严特工 2》正处于 alpha 阶段。在稳定版本发布之前，API 可能会发生变化。文档·示例·需要 XState Node 22.18 或更高版本。该代理审核退款请求。该模型可能会建议自动退款，但状态机拥有 100 美元的限额。当机器达到退款时，结果是： 模型在决定时允许的事件之间进行选择。仅当金额最多为 100 美元时，自动退款转换才有效。如果模型选择的金额较大，则警卫会拒绝该选择并再次尝试该决定。该示例有一个模型决策和两个最终结果。真机可以添加批准状态、重试、并行工作、儿童年龄
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, llm, state-machine, statechart, workflow
+
+---
+
 ## 🕔 2026-07-17 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 235 个候选项目中筛选出 6 个未推荐过的新项目。
