@@ -1,3 +1,67 @@
+## 🕔 2026-07-17 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [brooks-lint](https://github.com/hyhmrright/brooks-lint)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,237
+- **核心概述**: 基于 12 本经典工程书籍的 AI 代码审查 — 通过书籍引用、严重性标签和 6 种分析模式（包括全面自动修复）进行衰退风险诊断
+- **大概是做什么的**: 人工智能代码审查以十二本经典工程书籍为基础。持续的。可追溯。可操作的。六种衰退风险 • 情况如何 • “无论分配多少妇女，生孩子都需要九个月的时间。” — Frederick Brooks，《人月神话》(1975) 50 年后，Brooks 仍然是对的，而 McConnell、Fowler、Martin、Hunt & Thomas、Evans、Ousterhout、Winters、Meszaros、Osherove、Feathers 和 Google 测试团队也是如此。大多数代码质量工具都会计算行数和圈复杂度。 brooks-lint 更深入——它根据从十二本经典工程书籍中合成的六个衰退风险维度来诊断您的代码，每次都会生成带有书籍引用、严重性标签和具体补救措施的结构化结果。有关完整的源到技能映射，包括异常和误报防护，请参阅 Skills/shared/source-coverage.md 。然后只需询问（“审查此 PR”、“审核架构”） - 或运行命令： 命令 它的作用 --------- -------------- /brooks-review 审查 PR 或 diff /brooks-audit 审核架构（+ Mermaid 依赖关系图）
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-code-review, architecture-review, auto-fix, claude, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [open-harness](https://github.com/MaxGfeller/open-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 586
+- **核心概述**: 代码优先、可组合的 SDK，用于构建强大的 AI 代理
+- **大概是做什么的**: 包 说明 @openharness/core 代理、会话、对话、中间件、工具、UI 流集成 @openharness/provider-chatgpt 用于 ChatGPT 订阅支持的本地工具的实验 ChatGPT/Codex OAuth 模型提供程序 @openharness/provider-vfs 用于沙盒、内存或 SQLite 支持的文件访问的虚拟文件系统提供程序 @openharness/react 用于 AI SDK 5 聊天 UI 的 React 挂钩和提供程序@openharness/vue Vue 3 可组合项和 AI SDK 5 聊天 UI 的提供程序 具有会话的多轮 可组合中间件 内置子代理默认情况下保持无状态，但您现在可以选择： - 在运行时解析的动态子代理目录 - 在会话之上构建的可恢复子代理会话 - 使用单独的运行 ID 和会话 ID 进行后台运行 CLI 代理 — 具有工具批准和子代理的终端代理 pnpm --filter cli-demo start 或pnpm --filter cli-demo start -- --chatgpt Next.js chat — 与 @openharness/react 进行流式聊天 pnpm --filter nextjs-demo dev Nuxt chat — 与 @openharness/vue 进行流式聊天 pnpm --filter nuxt-demo dev 默认情况下，示例使用 OPENAI API KEY 。钍
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, agentskills, ai, ai-agents, mcp
+
+---
+
+### 🌟 [claude-code-cache-fix](https://github.com/cnighswonger/claude-code-cache-fix)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 369
+- **核心概述**: 修复了 Claude Code 中的提示缓存回归，该回归导致恢复会话的成本增加高达 20 倍
+- **大概是做什么的**: claude-code-cache-fix English 中文 한국어 Português Claude Code 的缓存优化代理。修复了导致过度配额消耗的提示缓存错误，稳定了请求前缀，并监视静默回归。适用于所有 CC 版本，包括 v2.1.113+ Bun 二进制文件。 v4.0.0 — 具有成本影响和可观察性扩展管道的本地 HTTP 代理。两个长期存在的默认设置被翻转：默认情况下，thinking-block-sanitize v1 处于启用状态（缓解 Thinking-desync 400 楔形 — 63147），并且进程内扩展热重载处于选择加入状态（ CACHE FIX HOT RELOAD=on ）。 A/B 基线（v3.0.0，v2.1.117）：通过代理的缓存命中率为 95.5%，第一次热转时直接缓存命中率为 82.3%。完整发行说明 → Opus 4.7 公告：计量数据显示，对于同等可见代币数量，第 5 小时的 4.7 次销毁配额是 4.6 次销毁的 2.4 倍（由 @ArkNill 独立确认）。两个因素：新的标记生成器（标记增加多达 35%，已记录）和自适应思维开销（105%，未在使用响应中记录）。第 5 季度的影响复合到第 7 季度——大多数重度用户将首先达到的每周配额上限。解决方法
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: anthropic, api-proxy, cache, claude, claude-code, claude-code-tools
+
+---
+
+### 🌟 [os-june](https://github.com/open-software-network/os-june)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: Mac 上的私人 AI。在一个开源工作区中进行聊天、听写、会议记录和本地代理。
+- **大概是做什么的**: Mac June 上的私人 AI 将聊天、语音听写、会议记录和本地代理带入单个私人工作区。默认情况下是本地的，通过保护隐私的人工智能和开源进行路由，因此可以检查而不是相信隐私声明。大多数人工智能应用程序要求您交出最敏感的数据并信任它们。每个提示、文件和会议都会揭示有关您的一些信息，而具有这种影响力的云代理是远程公司了解您工作的窗口。 June 的构建方式正好相反。该��用程序和代理在您的 Mac 上运行。默认情况下，笔记、录音、文字记录、文件、会话和座席内存保留在您的计算机上。当 June 需要模型推理时，请求会通过 June API，这是一项经过 TEE 认证的开源服务，该服务将提供程序密钥保留在服务器端，并默认路由到具有零数据保留的私有模型。您不必相信这些：整个产品均获得 MIT 许可，并且服务于生产的确切代码是加密的 - Chat。在没有对话训练的情况下提出问题、进行研究、集思广益和制定计划，这样
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, dictation, local-first, macos, meeting-notes
+
+---
+
+### 🌟 [MisakaNet](https://github.com/Ikalus1988/MisakaNet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: 📚 一个零依赖、git 支持的微课程库，供 AI 代理异步共享和搜索经过验证的调试经验。仅限 Python 标准库。 | https://misakanet.org
+- **大概是做什么的**: Swarm Knowledge Protocol (SKP) MisakaNet 是 Swarm Knowledge Protocol 的旗舰参考实现。让 Cursor / Claude 能够访问超过 235 个经过验证的失败教训。克隆 → 粘贴 MCP 配置 → 询问“搜索 MisakaNet for DCO 签核失败”。 3 步 MCP 快速入门 → 遇到 CI、DCO、pip、令牌或代理失败问题？在创建 PR 之前先搜索一下失败的教训。陷入失败？在打开 PR 之前搜索超过 235 个经过验证的修复课程： 🔴 Windows 上的 DCO 签核失败 → dco-auto-fix-workflow 🔴 pip install 超时/SSL 错误 → pip-install-timeout-ssl 🔴 提交中的秘密扫描/令牌 → codeql-alert-dismissal-误报 🔴 GitHub API 401 / 令牌已过期 → github-401-credential-lookup 🔍 搜索所有课程 → 项目 MisakaNet 类别 Git 支持的 AI 代理故障课程网络 核心用例 防止 AI 代理重复调试同一故障 接口 CLI、MCP 服务器、静态搜索页面、静态课程页面 检索 BM25、RRF、静态 JSON、零依赖核心 最适合 DCO 故障、GitHub 令牌错误、pip 超时、飞书 API、WSL、FANUC 不适用于私人备忘录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-network, ai-agent, claude, devops, distributed-memory
+
+---
+
+### 🌟 [juggler](https://github.com/juggler-ai/juggler)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 469
+- **核心概述**: 杂耍者代码特工
+- **大概是做什么的**: 是的，这是另一个人工智能编码代理。该行业肯定还需要一个。如果说 Juggler 有一个角度的话，那就是它是为那些想要更多地亲身体验 LLM 对其代码库所做的事情的人而设计的。它为您提供了一个可视化工作台：可检查的工具调用、分支线程、可编辑的上下文。网站上有更多简介：https://juggler.studio 工具调用、项目属性和嵌套子线程布置在 Finder 风格的 Miller 列视图中。这是 TL;DR： - 这是一个合适的 GUI。这不是控制台应用程序。这一切都与图形视觉导航、检查和控制有关。 - 会话是一棵树，而不是一个末日卷轴。这是 Yjs 文档，而不是成绩单。创建子线程、向下钻取、回溯、比较和编辑。 - 所有重要的事情都是可见的。工具调用、批准、线程结构、项目属性、原始上下文 - 布置在 Finder 风格的 Miller 列中，而不是隐藏在可折叠的聊天中。 - 一直都是插件。上下文项、斜杠命令、LLM 循环策略及其 UI 是您可以检查、分叉或替换的 JavaScript 扩展。 - 它在本地、远程运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai-agents, coding-assistant
+
+---
+
 ## 🕔 2026-07-17 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
