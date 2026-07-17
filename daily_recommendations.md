@@ -1,3 +1,67 @@
+## 🕔 2026-07-17 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [metaflow](https://github.com/Netflix/metaflow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 10,184
+- **核心概述**: 构建、管理和部署 AI/ML 系统
+- **大概是做什么的**: Metaflow 是一个以人为本的框架，旨在帮助科学家和工程师构建和管理现实生活中的人工智能和机器学习系统。 Metaflow 为各种规模和规模的团队提供服务，简化了整个开发生命周期——从笔记本电脑中的快速原型设计到可靠、可维护的生产部署——使团队能够快速迭代并高效地交付强大的系统。 Metaflow 最初由 Netflix 开发，现在由 Outerbounds 支持，旨在提高从事各种项目的研究和工程团队的生产力，从经典统计到最先进的深度学习和基础模型。通过统一每个阶段的代码、数据和计算，Metaflow 可确保对现实世界的 AI 和 ML 系统进行无缝、端到端的管理。如今，Metaflow 为各种大大小小的公司提供了数千种 AI 和 ML 体验，包括 Amazon、Doordash、Dyson、Goldman Sachs、Ramp 等。仅在 Netflix，Metaflow 支持超过 3000 个 AI 和 ML 项目，执行数亿个数据密集型高性能协作
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, aws, azure, cost-optimization, datascience
+
+---
+
+### 🌟 [eidos](https://github.com/mayneyao/eidos)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,153
+- **核心概述**: 个人数据管理的可扩展框架。
+- **大概是做什么的**: 个人数据管理的可扩展框架。将 SQLite 转变为每个人都可以使用的个人袖珍数据库。 Eidos 正在积极开发中。虽然您可以尝试一下，但不建议将其用于生产用途。请继续关注官方发布的更新。 - 个人数据管理：一个综合框架，用于使用类似概念的文档和数据库来组织、存储和管理您的个人数据 - 离线支持：一切都在本地计算机内运行。��需互联网连接即可访问您的数据。数据存储在本地以实现极快的性能。 - 人工智能功能：与法学硕士深度集成，提供人工智能驱动的功能。在 Eidos 中翻译、总结您的数据并与之交互。 - 可扩展：简单而强大的扩展系统，使Eidos成为一个可扩展的软件，手动编写扩展代码或使用AI生成扩展代码。构建工具和使用工具，无限扩展。 Block：用于定制数据显示和交互的UI组件。脚本：使用 TypeScript/JavaScript/Python 创建强大的数据处理逻辑。 - 开放格式：你个
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: database, editor, llm, local-first, notion-alternative, offline
+
+---
+
+### 🌟 [LangChain](https://github.com/tryAGI/LangChain)
+- **项目语言**: C#
+- **星标数量**: ⭐ 1,060
+- **核心概述**: LangChain的C#实现。我们尝试在抽象方面尽可能接近原始内容，但对新实体持开放态度。
+- **大概是做什么的**: 🦜️🔗 LangChain .NET ⚡ 通过可组合性使用 LLM 构建应用程序 ⚡ LangChain 的 C 实现。我们尝试在抽象方面尽可能接近原始内容，但对新实体持开放态度。虽然 SemanticKernel 很好，我们会尽可能使用它，但我们相信它有很多限制并且基于 Microsoft 技术。我们从最大限度地选择可用选项的立场出发，并愿意在单独的实现中使用第三方库。 - 我不太可能独自取得重大进展，所以我的目标是联合C开发人员的努力来创建C版本的LangChain并控制最终项目的质量 - 我尝��在24小时内接受任何Pull Request（当然，这取决于情况，但我会尝试） - 我也在寻找开发人员加入核心团队。我会尽可能赞助他们，并分享收到的任何资金。 - 对于与该项目相关的任何问题，我也会在 Discord 上快速回复。您可以使用我们的 wiki 开始：https://tryagi.github.io/LangChain/ 如果 wiki 包含
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, csharp, dotnet, langchain, langchain-csharp, langchain-dotnet
+
+---
+
+### 🌟 [AudioMuse-AI-NV-plugin](https://github.com/NeptuneHub/AudioMuse-AI-NV-plugin)
+- **项目语言**: Go
+- **星标数量**: ⭐ 408
+- **核心概述**: AudioMuse-AI Navidrome 插件通过使用声音分析实时对类似歌曲进行排队来增强音乐发现。
+- **大概是做什么的**: AudioMuse-AI Navidrome 插件 AudioMuse-AI-NV-Plugin 是一个 Navidrome 插件，它将核心 AudioMuse-AI 功能集成到 Navidrome 前端。实际上，这是集成功能的列表： - 即时混合 - 歌曲相似度 - 广播 - 艺术家相似度 - 艺术家信息 - 它返回相似的艺术家 对于想要映射此功能的移动应用程序，他们需要实现 getSimilarSongs2 / getSimilarSongs 和 getArtistInfo API。使用该插件测试的前端包括： - Navidrome 集成 Web 前端 - Substreamer - iOS/Android 开源移动前端，更多信息请参见：https://github.com/ghenry22/substreamer/issues/58 - Tempus - Android 开源移动前端，更多信息请参见：https://github.com/eddyizm/tempus/issues/410 - Symfium - Androind 闭源移动前端。您需要在配置中启用“使用类似的曲目进行广播混音”。使用 AudioMuse-AI API 的附加功能实际上仅使用 Jellyfin 实现。更多信息请参见：https://support.symfium.app/t/implement-navidrome-audiomuse-ai-plugin-to-symfium/12238/12
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: audiomuse-ai, docker, instant-mix, k3s, kubernetes, llm
+
+---
+
+### 🌟 [gpt-home](https://github.com/judahpaul16/gpt-home)
+- **项目语言**: Python
+- **星标数量**: ⭐ 644
+- **核心概述**: 在家聊天GPT！商业智能家居助手的更好替代品，使用 LiteLLM 和 LangGraph 在 Raspberry Pi 上构建。
+- **大概是做什么的**: 在家聊天GPT！基本上是更好的 Google Nest Hub 或 Amazon Alexa 家庭助理。使用 LiteLLM 和 LangGraph 基于 Raspberry P 构建。本指南将解释如何构建您自己的。这非常简单。您还可以将其用作在 Raspberry Pi 上构建其他项目的参考。理论上，由于 docker，该应用程序应该可以在任何 Linux 系统上运行，但我只能保证兼容性表中列出的版本。您应该能够使用任何受 ALSA 或 PortAudio 支持的即插即用 USB/3.5mm 扬声器或麦克风。 📚 一般知识 📖 开发者文档：有关深入的技术文档、架构详细信息和 API 参考，请访问 GPT Home Wiki。生产 (Raspberry Pi) 1. 运行设置脚本： 2. 必需：设置您的 API 密钥。复制示例配置并添加您的密钥。 GPT Home 使用 LiteLLM，它支持 100 多个提供商（OpenAI、Anthropic、Google、Cohere 等）： 提示：您还可以通过 gpt-home.local/settings 的 Web 界面设置 API 密钥。请参阅 LiteLLM 文档了解所有受支持的提供商。 3. 可选：查看l
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, automation, docker, fastapi, home-assistant, home-automation
+
+---
+
+### 🌟 [Interceptor](https://github.com/Hacker-Valley-Media/Interceptor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 309
+- **核心概述**: 代理驱动的 Chrome 扩展程序，可通过 CLI 进行全面的浏览器控制
+- **大概是做什么的**: AI 代理像人类一样使用您真实的浏览器和 macOS 应用程序。没有 CDP。没有单独的自动浏览器。没有从零开始。 Interceptor 为代理提供了对您已使用的工具的人性化控制 - 计算机用于桌面上的本机 macOS 应用程序，浏览器用于浏览器中的 Web 应用程序。工作发生在两个地方，所以 Interceptor 在中间满足你。一个 CLI，两个产品界面： - 拦截器浏览器 — 作为 Chrome 扩展程序在实际浏览器中运行。您的 cookie、会话、登录名和选项卡保持不变。阅读页面、单击、键入、导航、观察网络流量、自动化丰富的编辑器、记录和重播用户流。 - Interceptor macOS — 作为 Swift 桥守护进程运行。以相同的方式驱动本机 macOS 应用程序：结构化可访问性树、操作系统级可信输入、设备上视觉/语音/NLP、系统范围的事件监控。 - Interceptor iOS（新）——通过设备上的 XCUITest 运行程序驱动拥有的、解锁的开发人员模式 iPhone 上安装的任何应用程序，该运行程序通过 WiFi 拨入守护程序。参考标记元素树、确定性坐标点击、可靠文本 en
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, browser-automation, browser-extension, browser-use
+
+---
+
 ## 🕔 2026-07-17 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
