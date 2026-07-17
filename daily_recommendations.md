@@ -1,3 +1,67 @@
+## 🕔 2026-07-17 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 235 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-code-review](https://github.com/alibaba/open-code-review)
+- **项目语言**: Go
+- **星标数量**: ⭐ 10,635
+- **核心概述**: 开源且免费——经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道 + LLM Agent、精确的行级注释、内置微调规则集（NPE、线程安全、XSS、SQL 注入）、OpenAI 和 Anthropic 兼容。
+- **大概是做什么的**: English 简体中文 日本语 한국어 Русский 什么是开放代码审查？ Open Code Review 是一款基于 AI 的代码审查 CLI 工具。它最初是阿里巴巴集团内部官方的人工智能代码审查助手，两年来已服务数万名开发者，发现了数百万条代码缺陷。经过大规模彻底验证后，我们将其孵化为社区的开源项目。只需配置模型端点即可开始。它读取 Git 差异，通过具有工具使用功能的代理将更改的文件发送到可配置的 LLM，并生成具有行级精度的结构化审阅注释。代理可以读取完整的文件内容，搜索代码库，检查其他更改的文件的上下文，并生成深入的评论 - 而不仅仅是表面级别的差异反馈。除了 diff 审查之外，ocr 扫描还会审查整个文件，以审核不熟悉的代码库或没有有意义 diff 的目录。访问官方网站了解更多详情。与通用代理（Claude Code）相比，Open Code Review 在相同的条件下实现了显着更高的 Precision 和 F1
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, code-review, code-review-assistant, harness, repository-level-context
+
+---
+
+### 🌟 [ClawX](https://github.com/ValueCell-ai/ClawX)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,541
+- **核心概述**: ClawX 是一款桌面应用程序，为 OpenClaw AI 代理提供图形界面。它将基于 CLI 的 AI 编排转变为桌面体验，而无需使用终端。中国网站是https://clawx.com.cn。
+- **大概是做什么的**: OpenClaw AI 代理的桌面界面 English 简体中文 日本语 Русский ClawX 弥合了强大的 AI 代理和日常用户之间的差距。它构建在 OpenClaw 之上，将命令行 AI 编排转变为易于访问、美观的桌面体验 - 无需终端。无论您是自动化工作流程、管理人工智能驱动的渠道还是安排智能任务，ClawX 都能提供您有效利用人工智能代理所需的界面。 ClawX 预先配置了最佳实践模型提供程序，并且本身支持 Windows 以及多语言设置。当然，您也可以通过 设置 → 高级 → 开发者模式 来微调高级配置。如需完整的企业版、专门的服务支持或针对您的业务场景量身定制的部署指南，请通过 public@valuecell.ai 联系我们。构建人工智能代理不需要掌握命令行。 ClawX 的设计理念很简单：强大的技术值得拥有尊重您时间的界面。挑战 ClawX 解决方案 ----------------------- ---------------- 复杂的 CLI 设置 一键安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai, clawdbot, moltbot
+
+---
+
+### 🌟 [Backlog.md](https://github.com/MrLesk/Backlog.md)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,212
+- **核心概述**: Backlog.md - 用于管理 git 生态系统中人类和 AI 代理之间的项目协作的工具
+- **大概是做什么的**: 适用于任何 Git 存储库的 Markdown 原生任务管理器和看板可视化工具 AI 代理编写代码。您回顾任务：之前、期间和之后。 Backlog.md 将任何文件夹变成一个独立的项目板，由纯 Markdown 文件和零配置 CLI 提供支持。为什么要在人工智能时代使用 Backlog.md 现在，人工智能代理在一小时内生成的代码比你一天内仔细阅读的代码还要多。瓶颈不再是编写代码。这是你的注意力。您无法一次有意义地审查 15,000 行生成的行，但您可以在任何代码存在之前阅读一屏带有验收标准的任务规范，并在误解仍然是一句话而不是重建功能时进行反驳。 Backlog.md 围绕三个审查检查点构建代理工作： 1. 审查规范：代理在实施开始之前将您的想法分解为带有描述、验收标准和里程碑的任务。 2.审查计划：代理研究您的代码库并将其实施计划写入任务中。在编写任何代码之前先批准它或进行引导。 3. 审查代码：一项任务 =
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, management, markdown, project, task-manager
+
+---
+
+### 🌟 [rmux](https://github.com/Helvesec/rmux)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,426
+- **核心概述**: 带有类型化 SDK 的通用 Rust 多路复用器 — 从代码驱动任何 CLI 或 TUI 应用程序。本机适用于 Linux、macOS 和 Windows。
+- **大概是做什么的**: 通用多路复用器引擎。 English · Français · 简体中文 · 日本语 RMUX 现在具有端到端网络复用功能。在文档中了解更多信息。 RMUX 现在提供 Python 和 TypeScript SDK：librmux、@rmux/sdk。如果您有功能请求或想要报告任何内容，请提出问题。 RMUX 是一个用 Rust 编写的异步类型终端多路复用器引擎。它实现了 90 多个 tmux 命令，并在 Linux、macOS 和 Windows 上本机运行，无需 WSL。将其用作独立的 CLI，将其嵌入 Rust 终端应用程序中，或通过 Rust、Python 和 TypeScript 的类型化 SDK 驱动它。 - 通用引擎：适用于 Rust、Python 和 TypeScript 的类型化 SDK。 - 本机跨平台运行时：Linux、macOS 和 Windows 后端。 - tmux 兼容命令界面：重点兼容性测试涵盖 90 多个命令。 - 针对速度进行设计和优化：请参阅基准。 - 网络共享：具有混合后量子端到端加密的浏览器共享会话。 - Ratatui 小部件：在 Rust 终端应用程序中渲染实时 RMUX 窗格。 - 本地守护进程架构：shell、窗​​格、窗口、会话和回滚保持不变
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cli, linux, macos, multiplexer
+
+---
+
+### 🌟 [coze-loop](https://github.com/coze-dev/coze-loop)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5,613
+- **核心概述**: 下一代AI代理优化平台：Cozeloop通过提供从开发、调试、评估到监控的全生命周期管理能力，解决AI代理开发的挑战。
+- **大概是做什么的**: Coze Loop是一个面向开发者的平台级解决方案，专注于AI代理的开发和运营。它解决了AI代理开发过程中面临的各种挑战，提供从开发、调试、评估到监控的全生命周期管理能力。在商业版本的基础上，Coze Loop推出了开源版本，为开发者提供免费访问核心基础功能模块的机会。通过以开源模式共享其核心技术框架，开发者可以根据业务需求进行定制和扩展，促进社区共建、共享和交流，帮助开发者零门槛参与AI代理探索和实践。 Coze Loop 可以做什么？ Coze Loop通过提供全生命周期管理功能，帮助开发者更高效地开发和运营AI Agent。无论是即时工程、AI Agent评估，还是部署后的监控和优化，Coze Loop都提供了强大的工具和智能支持，大大简化了AI Agent的开发流程
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-evaluation, agent-observability, agentops, ai, coze
+
+---
+
+### 🌟 [ruoyi-ai](https://github.com/ageerle/ruoyi-ai)
+- **项目语言**: Java
+- **星标数量**: ⭐ 5,519
+- **核心概述**: 面向企业级市场的一站式AI应用开发框架，支持多厂商大模型统一接入与管理，具备安全可控的企业知识库与高精度检索优化能力，提供可视化流程编排、自主决策智能体与多智能体协同调度，兼容主流 Agent Skill 协议，帮助企业与开发者零门槛快速构建安全、高效、可落地的AI智能体应用与行业解决方案。
+- **大概是做什么的**: 开箱即用的全栈AI平台，支持多智能体协同、Supervisor模式编排、多种决策模式、RAG技术和流程编排能力 English 📖 使用文档 🚀 在线体验 🐛 问题反馈 💡 功能建议 模型管理 多模型接入(DeepSeek/智谱/MIMO/百炼/OpenAI)、多模态理解、Coze/DIFY/FastGPT/RAGFlow平台集成 知识管理 本地RAG + 向量库(Milvus/Weaviate/Qdrant) + 文档解析 工具管理 Mcp协议集成、Skills能力 + 可扩展工具生态 流程编排 可视化工作流设计器、节点拖拽编排、SSE流式执行,目前已经支持模型调用,邮件发送,人工审核等节点 智能体管理 基于Langchain4j的Agent框架、Supervisor模式编排,支持多种决策模型,可以灵活搭配工具,skills 项目模块 GitHub 仓库 Gitee 仓库 GitCode 仓库 ---------- ------------------------------------------------------- ------------------------------------------------------ -------------------------------------------------------- 🔧 后端服务 ruoyi-ai ruoyi-ai ruoyi-ai 🎨 用户前端 ruoyi-web ruoyi-web ruoyi-web 🛠️ 管理后台 ruoyi-admin ruoyi-admin ruoyi-admin 🎬 短剧平台 ruoyi-drama ruoyi-drama ruoyi-drama 🤖 编程助手 ruoyi-copilot ruoyi-copilot ruoyi-copilot 📱 小程序端 ruoyi-uniapp ruoyi-uniapp ruoyi-uniapp 项目名称 GitHub 仓库 Gitee 仓库 ---------------- ------------------------------------------------------- ------------------------------------------------------ element-plus-x element-plus-x element-plus-x - 后端架构 ：Spring Boot 3.5.8 + Langchain4j - 数据存储 ：MySQL 8.0
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, knowledge, mcp, rag
+
+---
+
 ## 🕔 2026-07-17 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 205 个候选项目中筛选出 6 个未推荐过的新项目。
