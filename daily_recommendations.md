@@ -1,3 +1,67 @@
+## 🕔 2026-07-18 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [eve](https://github.com/vercel/eve)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,827
+- **核心概述**: 建筑代理框架
+- **大概是做什么的**: eve 是一个用于持久 AI 代理的文件系统优先框架。核心代理功能位于传统位置，因此项目更容易检查、扩展和操作。文件系统是创作接口 典型的 eve 代理具有以下结构： 阅读文档以获取完整的项目布局和指南。这将创建一个新的 my-agent 目录，安装其依赖项，初始化 Git，并启动交互式终端 UI。要将 eve 添加到现有项目，请传递路径： eve 包包含其完整文档，因此编码代理可以从节点 module/eve/docs 本地读取它。生成的项目包含一个代理目录。将agent/instructions.md替换为：在agent/tools/getweather.ts中添加模拟天气工具：在agent/agent.ts中选择模型：对于新的脚手架，再次启动代理：这是一个工作代理。根据需要添加人机交互提示、子代理和计划。遵循第一代理教程，在 GitHub 讨论区中获取完整的 The eve 社区，您可以在其中提出问题、分享想法并展示您所构建的内容。贡献是我们
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, framework, harness, javascript, markdown, sandbox
+
+---
+
+### 🌟 [deepchat](https://github.com/ThinkInAIXYZ/deepchat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,110
+- **核心概述**: 🐬DeepChat - 将强大的人工智能连接到您的个人世界的智能助手
+- **大概是做什么的**: DeepChat - 开源本地优先 AI 代理桌面客户端 DeepChat 是一款开源、本地优先 AI 代理桌面客户端，具有丰富的代理功能，围绕 Tape.systems 理念设计，支持 MCP、Skills、ACP 和消息应用程序的远程控制集成。 中文 / 英语 / 日本语 📑 目录 - 📑 目录 - 🚀 项目介绍 - 💡 为什么选择 DeepChat - 🧩 ACP 集成（代理客户端协议） - 🤖 支持的模型提供程序 - 兼容 OpenAI/Gemini/Anthropic API 格式的任何模型提供程序 - 下载并安装 - 开始对话 - 💻 开发指南 - 安装依赖项 - 👥 社区 \& 贡献 - 👨‍💻 贡献者 🚀 项目简介 DeepChat 是一款强大的开源、本地优先的 AI 代理桌面客户端，它将模型、工具、技能、代理运行时、磁带和长时间运行的会话集成在一个桌面应用程序中。无论您使用 OpenAI、Gemini、Anthropic 等云 API，还是本地部署的 Ollama 模型，DeepChat 都能提供流畅的用户体验。 DeepChat 的会话和代理进程遵循磁带。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai, ai-assistant, ai-sdk, chatgpt
+
+---
+
+### 🌟 [agentcore-samples](https://github.com/awslabs/agentcore-samples)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,198
+- **核心概述**: Amazon Bedrock Agentcore 可加速 AI 代理投入生产，其规模、可靠性和安全性对于实际部署至关重要。
+- **大概是做什么的**: Amazon Bedrock AgentCore 示例 使用任何框架和模型安全地大规模部署和操作 AI 代理 欢迎来到 Amazon Bedrock AgentCore 示例存储库！ Amazon Bedrock AgentCore 与框架和模型无关，让您能够灵活地安全、大规模地部署和操作高级 AI 代理。无论您是使用 Strands Agents、CrewAI、LangGraph、LlamaIndex 还是任何其他框架进行构建，并在任何大型语言模型 (LLM) 上运行它们，Amazon Bedrock AgentCore 都能提供支持它们的基础设施。通过消除构建和管理专用代理基础设施的无差别繁重工作，Amazon Bedrock AgentCore 让您可以引入自己喜欢的框架和模型，并在无需重写代码的情况下进行部署。该集合提供示例和教程，帮助您了解、实施 Amazon Bedrock AgentCore 功能并将其集成到您的应用程序中。从入门工具包迁移？该存储库正在从 Bedrock AgentCore Starter Toolkit 过渡到新的 AgentCore CLI。仍然依赖的样本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, authentication, bedrock, core
+
+---
+
+### 🌟 [fanbox](https://github.com/alchaincyf/fanbox)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 929
+- **核心概述**: vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.
+- **大概是做什么的**: "AI 帮你一个下午起十个项目，然后它们就再也找不到了。FanBox 帮你把它们找回来。" "AI spins up ten projects in an afternoon. FanBox helps you find them again." FanBox：Coding Agent 的驾驶舱。指挥 Claude Code、Codex 在本地干活，看清它碰过的每个文件、改过的每一行，随时接手。 FanBox — the cockpit for coding agents: command Claude Code or Codex, see every file and line they change, and take over anytime. 一边浏览、预览、编辑本地文件；一边在内嵌真实终端里跑 Claude Code 或任何 coding agent。 agent 每写一个文件，对应卡片就会亮起来—— 找回文件 → 运行 agent → 看清改了什么 ，全部在一个窗口完成。 Browse, preview and edit local files on one side; run Claude Code or any coding agent in a real embedded terminal on the other. Every time the agent writes a file, its card lights up — find files → run agents → see what changed , all in one window. ⬇ 下载 dmg / Download dmg · Screenshots / 截图 · Features / 功能 · Install / 安装 · Credits / 致谢 ▲ 真机截图：浏览 fanbox 仓库本身，README 原地预览，内嵌终端正在跑 git。本页所有截图均由 Playwright 从实时 App 中直接拍摄，未修图。 Real capture: browsing the fanbox repo itself, README previewed in place, git running in the embedded terminal. All screenshots in this README are taken from the live app via Playwright, unedited. Why FanBox · 为什么要做 FanBox AI 帮你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude, codex, electron, file-manager
+
+---
+
+### 🌟 [VTCode](https://github.com/vinhnx/VTCode)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 752
+- **核心概述**: VT Code 是一种 Rust 编码代理，具有 LLM 原生代码理解、操作系统原生沙箱和多提供商支持。
+- **大概是做什么的**:      安全、开放、通用。 VT Code 是一种 Rust 编码代理，专为长期运行的自主工作流程而构建，具有操作系统本机沙箱、多提供商 LLM 支持、开放协议和可扩展技能。 - 代理运行时 - 交互式 TUI、斜线命令、流式传输、ask / exec CLI、会话恢复 - 编码工具 - 安全文件操作、ripgrep 搜索 + ast-grep 轮廓符号映射、模糊发现、代码智能、项目索引、终端执行 - 可扩展性 - 代理技能、模型上下文协议 MCP 客户端/服务器、生命周期挂钩、子代理、自定义提供程序、代理客户端协议 (ACP)。 - 模型提供程序 - 超过 21 个 LLM 提供程序：Anthropic、OpenAI、Gemini、OpenRouter、通过 Ollama、LM Studio 和 llama.cpp（使用 /local 命令管理）进行本地推理 - 安全 - 受限 shell 沙箱、工具护栏、子进程隔离、完整审核日志记录 - 协议 - 开放响应、Agent2Agent (A2A)、ATIF、Anthropic Messages API - 循环工程 - 并行工作树隔离代理，建议/验证子代理分离，持久循环状态，成本护栏 - Pl
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cargo, cli, codingagent, crossterm, ratatui
+
+---
+
+### 🌟 [loushang](https://github.com/zhnt/loushang)
+- **项目语言**: Python
+- **星标数量**: ⭐ 715
+- **核心概述**: 用于 Python 编码工作流程的 AI 原生代理工具：多模型 LLM 编排、有状态会话、工具治理、可追踪交付以及 GPT、Claude、DeepSeek、Qwen、Kimi、GLM 和 MiniMax 的提供者路由。
+- **大概是做什么的**: Loushang是一个方法原生的人工智能工作系统，用于运行从意图到验证交付的复杂工作。当前重点：loushang code，一个用于软件开发的 CLI 和终端工作台，具有模型路由、持久会话、工具、扩展和方法引导交付。现代人工智能代理可以计划和行动，但当上下文丢失、执行无法恢复、工具难以管理、结果未经验证时，复杂的工作仍然会失败。 Loushang 将方法、阶段、角色、工具、会话和工作产品视为运行时对象。目标不仅是让代理变得更聪���，而且是让复杂的工作更加可靠、可恢复、可审计和可交付。 Method是工作契约，work是运行时事实，agent是执行内核，ai是模型访问层，harness是跨产品底层，coding是V1产品面，tui是终端展现，channel是边界协议——将复杂的知识工作组织成一个可运行、可恢复、可验证、可演化的系统。今天你可以使用什么 - loushang code ：专注于编码的 C
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-harness, agentic, ai, chatgpt, claude
+
+---
+
 ## 🕔 2026-07-17 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 212 个候选项目中筛选出 6 个未推荐过的新项目。
