@@ -1,3 +1,67 @@
+## 🕔 2026-07-18 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 178 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [intelligent-audit-system](https://github.com/Ricky-7-Yan/intelligent-audit-system)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,161
+- **核心概述**: 企业审计代理工作区，具有 Agentic RAG、受控工具使用、评估工具、内存和人工审核交付工作流程。
+- **大概是做什么的**: 面向审计交付场景的企业级 AI Agent 工作台：把 RAG 取证、控制映射、工具治理、评测门禁和人工复核放进同一条可追溯工作流。 很多 Agent 项目停留在聊天框或 Demo。AuditPilot 选择一个更“硬”的落地场景：企业审计交付。它需要证据、控制、风险、复核、报告和整改闭环，也天然要求可追溯、可回归、可解释。 AuditPilot 的目标不是替代审计师，而是把审计师反复执行的取证、映射、检查、补证和交付动作，组织成一套可治理的 Agent 工作流。 Audit Workspace 审计立项、控制矩阵、审计程序、抽样计划、发现、整改和交付包。 Agent Runtime Plan / Execute / Reflect、任务产物、失败恢复、安全门和运行指标。 Agentic RAG 知识写入、切块、检索、来源引用、证据质量门和缺证提示。 Skills / MCP-style Tools 工具 Schema、权限声明、TTL 缓存、熔断器、调用日志和工具指标。 Memory Working / Episodic / Profile Memory，保留多轮审计上下文。 Evaluation Harness Agent / RAG / Research 评测、基线对比、release gate 和 badcase 沉淀。 Interview-driven Diagnostics 将大厂 Agent 面经/JD 中常问的 Runtime、RAG、Tool、Memory、评测和生产化问题转成可执行诊断。 Audit workspace Agent runtime Agent collaboration Mobile overview - LLMs help with understanding, summarization and explanation. - Evidence gaps, quality gates, permissions, risk signals and delivery state stay auditable. - High-risk or low-confidence outputs are routed to evidence补充 and human review. The system can run in deterministic fallback mode without model keys. Add an OpenAI-compatible provider only when you want LLM-enhan
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, agentic-rag, ai-agent, audit, evaluation-harness, fastapi
+
+---
+
+### 🌟 [fusio](https://github.com/apioo/fusio)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 2,105
+- **核心概述**: 面向构建者的自托管 API 管理
+- **大概是做什么的**: 开源 API 管理平台 将您的业务逻辑转变为供人类和人工智能代理使用的可扩展 API 产品。 📺 视频演练 (15m) • 💬 Discord 社区 Fusio 是一个用 PHP 编写的自托管开源后端平台和 API 网关，可弥合内部基础设施与外部世界之间的差距。无论您是公开遗留数据库、编排微服务还是构建自定义业务逻辑，Fusio 都能处理繁重的工作。它将您的服务转变为专业的 API 产品，并配有自动化开发人员门户、SDK 生成和货币化工具。借助原生 MCP 支持，Fusio 还充当 AI 生态系统的桥梁，允许您将后端逻辑转变为自主数据库 API 网关的工具 - 立即将旧版 SQL/NoSQL 数据库（MySQL、PostgreSQL 等）公开为 REST API。微服务网关 - 在分布式服务之间安全地路由、编排和负载平衡流量。自定义 API 逻辑 - 使用 PHP 或 Javascript 中的可重用操作构建强大的后端逻辑。代理开发 - 使用您的客户
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, api, api-gateway, api-management, api-manager
+
+---
+
+### 🌟 [girl-agent](https://github.com/AnnenkovLabs/girl-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 331
+- **核心概述**: 具有人类行为的 AI 女孩：睡眠、情绪、日程、记忆、关系阶段和冲突。通过 MTProto 的用户机器人模式 - 反应、打印、放置反应。反AI提示消除ChatGPT习惯。不是聊天机器人，而是一个拥有财富的角色。
+- **大概是做什么的**: Telegram 上的人工智能女孩，行为举止像人类。有睡眠、日程安排、记忆力、性格——但没有“当然，我理解”。网站·文档·频道·社区·作者：Felxon 这是测试版。所有的问题和错误都在问题中。她没有回复每条消息。有时他会阅读并保持沉默。有时他会做出反应。有时她会在一小时内回复，因为她很忙或根本不想回复。这不是一个错误。事情就是这样的。 Girl-agent 是 Telegram 的人工智能角色引擎。不提示。不是 GPT。不是插件。这是一个成熟的代理，有自己的状态：日程安排、存在模式、睡眠、未来几个月的记忆、冲突系统、五个关系计数器、九个和解阶段。行为是从这些层收集的，而不是从一个系统提示收集的。 - Linux / macOS / WSL - 使用一个命令 - Windows - 通过 npx - 如果您已经有 Node ≥ 22 - Docker（用于服务器） - 为什么不只是 GPT 或提示 Linux / macOS / WSL - 使用一个命令 机器上没有 Node，没有 sudo： - 将确定 OS + arch（linux x64/arm64、macos x64/arm64、wsl）； - 如果有 Docker → 它将安装一个 Docker 包装器（与系统完全隔离）； - 否则→
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, aigirl, aigirlfriend, anti-ai-slop
+
+---
+
+### 🌟 [kvcached](https://github.com/ovg-project/kvcached)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,105
+- **核心概述**: 用于动态 GPU 共享等的虚拟化弹性 KV 缓存
+- **大概是做什么的**: 让 GPU 共享变得灵活、简单 kvcached（KV 缓存守护进程）是一个 KV 缓存库，用于共享 GPU 上的 LLM 服务/训练。通过将操作系统风格的虚拟内存抽象引入LLM系统，它可以实现弹性和需求驱动的KV缓存分配，从而提高动态工作负载下的GPU利用率。 kvcached 通过将 GPU 虚拟寻址与 KV 缓存的物理内存分配解耦来实现这一点。它允许服务引擎最初仅保留虚拟内存，然后在主动使用缓存时使用物理 GPU 内存来支持它。这种解耦实现了按需分配和灵活共享，在动态和混合工作负载下带来更好的 GPU 内存利用率。在博客中查看更多详细信息。 - 弹性KV缓存：动态分配和回收KV内存以匹配实时负载。 - GPU 虚拟内存：通过运行时映射将逻辑 KV 与物理 GPU 内存解耦。 - 内存控制 CLI：使用 kvcached CLI 强制执行内存限制。 - 前端路由器和睡眠模式：将请求路由到目标模型并在空闲时使模型进入睡眠状态。 - 支持主流服务环境
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: elastic-kvcache, gpu-mutiplexing, gpu-sharing, inference-engine, kvcache, kvcache-optimization
+
+---
+
+### 🌟 [aidermacs](https://github.com/MatthewZMD/aidermacs)
+- **项目语言**: Emacs Lisp
+- **星标数量**: ⭐ 909
+- **核心概述**: Emacs 中的 AI 结对编程与 Aider
+- **大概是做什么的**: Aidermacs：Emacs 中的 AI 结对编程 Aidermacs 通过集成 Aider（最强大的开源 AI 结对编程工具之一），为 Emacs 带来了人工智能驱动的开发。如果您缺少 Cursor 但更喜欢使用 Emacs，Aidermacs 提供类似的 AI 功能，同时保持 Emacs 工作流程。 - 具有多个后端的智能模型选择 - 内置 Ediff 集成，用于 AI 生成的更改 - Emacs 增强的文件管理 - 出色的可定制性和添加内容的灵活方式 以下是社区对 Aidermacs 的评价：“您使用 aidermacs 吗？对我来说，优于光标。” - u/berenddeboer “这太棒了......每次我升级我的软件包时，我都会看到你的新提交。我觉得这是 emacs 的真正助手” - u/wchmbo “在 Aidermacs 和 Gptel 之间，Emacs 在这些东西上的前沿表现是多么疯狂。我的工作场所正在探索 MCP 注册表，甚至风靡一时的客户端（例如 Cursor）都落后于我使用 mcp.el 和 gptel 工具所能做的事情使用。” - 你/没有好名字可用“这看起来很棒......我一直在与当地的 llms 一起使用 ellama，看起来
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-programming, aider, chatgpt, claude, deepseek
+
+---
+
+### 🌟 [LLM.swift](https://github.com/eastriverlee/LLM.swift)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 863
+- **核心概述**: LLM.swift 是一个简单且可读的库，可让您在 macOS、iOS、watchOS、tvOS 和 VisionOS 上轻松地在本地与大型语言模型进行交互。
+- **大概是做什么的**: LLM.swift 是一个简单且可读的库，可让您在 macOS、iOS、watchOS、tvOS 和 VisionOS 上轻松地在本地与大型语言模型进行交互。有时，由于需要内存和计算，修改 maxTokenCount 参数来初始化 LLM 是个好主意。特别是在移动设备中，如果您想要更好的速度，请降低数字，但如果您将其设置得太低（甚至无法容纳两圈），您将体验到质量下降，因为上下文将被切断。因此根据您的用例调整值。如果您已经捆绑了模型： 如果您想使用 Huggingface ��型进行初始化： 默认情况下，LLM.swift 使用嵌入在 gguf 文件本身中的聊天模板呈现对话，由 llama.cpp 自己的 Jinja 引擎执行。这意味着您不再需要传递模板：初始化 LLM 时 - 它只适用于模型附带的任何模板： HuggingFaceModel 的模板参数现在也是可选的，因此 HuggingFaceModel("unsloth/Qwen3-0.6B-GGUF", .Q4 K M) 单独使用嵌入的模板。思维/推理分离
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: gguf, ios, llm, llm-inference, macos, swift
+
+---
+
 ## 🕔 2026-07-18 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
