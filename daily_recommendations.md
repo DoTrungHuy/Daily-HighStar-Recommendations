@@ -1,3 +1,67 @@
+## 🕔 2026-07-18 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [trafilatura](https://github.com/adbar/trafilatura)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,312
+- **核心概述**: 用于在 Web 上收集文本和元数据的 Python 和命令行工具：抓取、抓取、提取、输出为 CSV、JSON、HTML、MD、TXT、XML
+- **大概是做什么的**: Trafilatura：在 Web 上发现和提取文本数据 Trafilatura 是一个尖端的 Python 包和命令行工具，旨在收集 Web 上的文本并简化将原始 HTML 转换为结构化的、有意义的数据的过程。它包括所有必要的发现和文本处理组件，以执行网络爬行、下载、抓取和提取主要文本、元数据和评论。它的目标是保持方便和模块化：不需要数据库，输出可以转换为常用格式。通过关注实际内容、避免页眉和页脚等重复元素造成的噪音以及通过选定信息理解数据和元数据，从 HTML 块转向基本部分可以缓解与文本质量相关的许多问题。提取器在限制噪声（精度）和包含所有有效部分（召回）之间取得平衡。它很强大并且速度相当快。 Trafilatura 被 HuggingFace、IBM 和 Microsoft Research 等公司以及 Al 等机构广泛使用并集成到数千个项目中。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: article-extractor, corpus-builder, corpus-tools, crawler, html-to-markdown, html2text
+
+---
+
+### 🌟 [SimpleMem](https://github.com/aiming-lab/SimpleMem)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,652
+- **核心概述**: SimpleMem：LLM 代理的高效终身记忆 - 文本和多模式
+- **大概是做什么的**: LLM 代理的高效终身记忆 — 文本和多模式 通过语义无损压缩来存储、压缩和检索长期记忆。现在提供对文本、图像、音频和视频的多模式支持。可与任何支持 MCP（文本记忆）或 Python 集成（完全多模态）的 AI 平台配合使用。Atlas Cloud 是一个全模态、兼容 OpenAI 的 AI 推理平台 — 将 SimpleMem 的 OPENAI BASE URL 指向它，即可通过单个 API 使用 DeepSeek、Qwen、GLM、Kimi、MiniMax 等进行内存构建、检索和判断，无需多供应商设置。提供经济实惠的编码计划。 🚀 快速入门 • 🌟 概述 • 📦 安装 • 🔌 MCP 服务器 • 📊 重现 • 📝 引文 - [05/21/2026] 📦 统一 simplemem 包 — 一次导入，自动路由！ SimpleMem、Omni-SimpleMem 和 EvolveMem 现在位于一个包中。 from simplemem import SimpleMem 从您调用的第一个方法中自动选择文本或多模式后端，并且 simplemem.optimize(...) 点击 EvolveMem 的自进化循环。使用 pip install -e 一步安装。 。 - [05/14/2026] 🧬 EvolveMem (v3.0)
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, audio, compression, knowledge-graph, lifelong-memory, llm
+
+---
+
+### 🌟 [clawk](https://github.com/clawkwork/clawk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 705
+- **核心概述**: 为编码代理提供一次性 Linux 虚拟机，而不是您的笔记本电脑
+- **大概是做什么的**: 为编码代理提供其自己的一次性 Linux 机器，而不是您的。安装 · 快速入门 · 为什么要使用虚拟机？ · 工作原理 · 与 · 常见问题解答 · 文档相比 编码代理仅在您让它实际执行操作时才有用：安装软件包、运行它编写的代码、启动服务器、使用网络。在你自己的机器上，留下了两个不好的选择。你批准每一个命令（并每隔几秒照顾一次提示），或者你运行 --dangerously-skip-permissions 并希望没有什么重要的事情是一个 rm -rf 或一个泄漏的令牌消失。克劳克是第三种选择。 cd 到存储库中，输入clawk，Claude Code（或 Codex，或 shell）正在一次性 Linux VM 中工作（您的代码安装在，在来宾中 root，没有权限提示），而您的文件、钥匙串和计算机的其余部分则遥不可及。代理拥有自己的机器而不是您的机器。对工作代理发出一个命令；尝试将数据发送到被网络白名单阻止的未知服务器； Clawk Attach 稍后恢复会话。边界并不是提示中的规则，代理可以被说服。它是一台单独的机器，也是唯一的操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sandbox, ai-agent-sandbox, ai-agents, claude, claude-code, codex
+
+---
+
+### 🌟 [web-builder](https://github.com/biaogebusy/web-builder)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 570
+- **核心概述**: AI 驱动 UI 生成和发布的低代码平台，基于TailwindCss，通过拖拽可视化快速构建现代化响应式UI、动态自定义组件、多主题、多语言的网站应用。AI-powered UI generation and publishing low code platform, built on TailwindCSS, enabling rapid drag-and-drop visual creation of modern responsive UIs, dynamic customizable components, multi-theme, and multi-language web applications.
+- **大概是做什么的**: 信使 Web builder AI 生成UI和工具应用的低代码平台 AI 生成UI和工具应用的低代码平台，国内首款开源的基于 Drupal 作为 Headless 的低代码，基于 TailwindCss，通过拖拽可视化快速构建现代化响应式UI、动态自定义组件、多主题、多语言的网站应用。AI-powered UI generation and publishing low code platform, built on TailwindCSS, enabling rapid drag-and-drop visual creation of modern responsive UIs, dynamic customizable components, multi-theme, and multi-language web applications. https://builder.design 奥陌陌是已知的第一颗经过太阳系的星际天体，意为"远方信使"。 功能点 说明 -------------------- --------------------------------------------------------------------- Layout builder 动态 layout，基于 TailwindCss 的动态组件，支持静态数据和 API 数据来源 组件编辑 删除、复制 JSON、编辑组件数据、拖动上下排列 媒体库 可在前台批量上传、查看、更新媒体库 小程序数据维护 通过 builder 管理小程序的页面和组件 页面历史版本 当提交、清空、加载示例等覆盖操作时新增历史版本 草稿检测 当前内容有最新时，提醒是否拉取最新 丰富的模板库、示例库 基于模板库选择模板，快速生成页面 复制整个页面的 JSON 可直接复制 json，部署到后台发布 动画 支持通用的AOS页面滚动动画和高细粒度的GSAP动画 切换全宽 方便大屏编辑，减少干扰 快速生成页面 根据一定的规则从组件库中生成页面 多主题切换预览 预览在多主题下的组件显示情况 暗黑风格 支持切换浅色风格和暗黑风格，专注内容创作 页面预览 调转到新窗口查看真实的页面 响应式预览 可切换不同设备尺寸查看页面响应式排版 ---------------------------------------------------- --------------------------------------------------- 基于AI大模型生成UI、页面和工具应用，欢迎体验。 ---------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, angular, deepseek, drag-and-drop, drupal
+
+---
+
+### 🌟 [Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,187
+- **核心概述**: 由法学硕士 (LLM) 提供支持的自主代理🤖️ 集合。
+- **大概是做什么的**: Awesome-AI-Agents 🤖️ - Awesome-AI-Agents 🤖️ - 自治代理任务求解器项目 - 多代理任务求解器项目 - 代理社会模拟 - 高级组件 - 基准/评估器 自治代理任务求解器项目 开源大型语言模型 (LLM) 驱动的自治代理，可以自动解决各种任务。 - AutoGPT - AutoGPT 是让每个人都可以使用、使用和构建人工智能力量的愿景。 - AIDE - ML 工程代理，使用树搜索根据评估指标优化代码，在 Kaggle/MLE-bench 上达到人类水平的性能。 - gpt-engineer - 指定你想要它构建的内容，AI 会要求澄清，然后构建它。 - gpt-researcher - 基于 GPT 的自主代理，可对任何给定主题进行在线综合研究 - JARVIS - 将法学硕士与机器学习社区连接起来的系统。 - Babyagi - 人工智能驱动的任务管理系统的示例。 - AgentGPT - 🤖 在浏览器中组装、配置和部署自主 AI 代理。 - OpenDevin - 由人工智能和法学硕士提供支持的自主软件工程师平台。 - XAgent - 汽车
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, llm, llm-powered-agents, multi-agent
+
+---
+
+### 🌟 [claude-code-source-code](https://github.com/777genius/claude-code-source-code)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 919
+- **核心概述**: 克劳德代码源代码
+- **大概是做什么的**: Claude 代码 源代码 项目说明 agent-teams-ai 您是 CTO，代理是您的团队。他们自己处理任务，互相发送消息，审查彼此的代码。您只需看着看板并喝咖啡即可。 claude-notifications-go 🔔 Claude Code 的跨平台智能通知插件。 6种。单击聚焦。 1线安装。该存储库现在保留为可发现性的指针存储库。如果您正在寻找实际的代码，请从下面的主要项目开始。 777genius/claude-code-working 主要工作存储库。 777genius/claude-code-source-code-full 该项目的完整源代码存储库。 777genius/claude-multimodel 多模型 Claude 工作流程项目。该项目的完整源代码已移至 777genius/claude-code-source-code-full。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, anthropic, anthropic-ai, anthropic-claude
+
+---
+
 ## 🕔 2026-07-18 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
