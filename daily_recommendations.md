@@ -1,3 +1,67 @@
+## 🕔 2026-07-19 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 235 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fast-agent](https://github.com/evalstate/fast-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,860
+- **核心概述**: 编码、构建和评估代理 - 优秀的模型和技能/MCP/ACP/A2A 支持
+- **大概是做什么的**: 请参阅 https://fast-agent.ai 了解最新文档。 fast-agent 是一种与 LLM 交互的灵活方式，非常适合用作编码代理、开发工具包、评估或工作流平台。要启动支持 shell 的交互式会话，请安装 uv 并运行 要使用 Hugging Face 推理提供程序开始编码或使用您的 OpenAI Codex 计划：使用 ! 输入 shell ，或运行 shell 命令，例如！ cd web && npm run build .使用 /skills 命令管理技能，并使用 /connect 连接到 MCP 服务器。默认的快速代理注册表包含可让您设置 LSP、代理和工具挂钩、压缩策略、自动化等的技能。建议安装 fast-agent 来设置 shell 别名和其他工具。将本地模型与通用提供程序一起使用，或自动为 llama.cpp 创建正确的配置：任何快速代理设置或程序都可以与任何 ACP 客户端一起使用 - 最简单的方法是使用 fast-agent-acp ：快速代理使您能够在几分钟内创建复杂的多模式代理和工作流并与之交互。这是第一个有智慧的框架
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, acp, agent, agent-framework, agent-skills, cli
+
+---
+
+### 🌟 [openakita](https://github.com/openakita/openakita)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,849
+- **核心概述**: 具有技能和代理架构的开源人工智能助手框架
+- **大概是做什么的**: 开源多代理 AI 助手 — 不仅仅是聊天，而是一个完成任务的 AI 团队 多代理协作 · 组织编排 · 插件系统 · 沙箱安全 · 30 多个法学硕士 · 6 个 IM 平台 · 89 多个工具 · 桌面/Web/移动组织编排 · 其他 AI 只是聊天。 OpenAkita 把事情做好了。 OpenAkita是一款开源的一体化AI助手——多个AI Agent协同工作，构建一个自主运行的AI公司，可以搜索网络、操作计算机、管理文件、运行计划任务，并通过Telegram / Feishu / WeCom / DingTalk / QQ即时响应。扫描二维码，30秒即可绑定您的聊��应用程序。它会记住您的偏好，自学新技能，并且永不放弃任务。通过插件系统扩展任何内容，并受到 6 层沙箱安全保护。完全基于 GUI 的设置。 5 分钟后准备就绪。需要零命令行。 🌐 网站 openakita.ai     📥 下载桌面应用程序     📖 文档     💬 Discord 社区 🚀 适合初次用户（3 分钟） 无需安装 — 下载桌面应用程序
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, assistant, automation, claw, clawd
+
+---
+
+### 🌟 [liteflow](https://github.com/dromara/liteflow)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,805
+- **核心概述**: 轻量级、快速、稳定、可编程的基于组件的规则引擎——人工智能代理像普通组件一样进行编排。独特设计的DSL：组件复用、同步/异步和动态编排、多语言脚本、嵌套规则、热部署和平滑刷新。如果你能编排LiteFlow，你就能编排AI。
+- **大概是做什么的**: 你的星星是我继续前进的动力。如果你喜欢LiteFlow，请帮我右上角点个星。 LiteFlow 是一个强大的现代规则引擎框架，结合了最佳的编排和规则引擎。可用于复杂组件化业务编排领域。 DSL规则驱动整个复杂业务，并且可以实现平滑刷新热部署，支持多种脚本语言规则的嵌入。帮助系统变得更加丝滑、灵活。 LiteFlow于2020年��式开源，从此成为国内开源规则引擎领域不可或缺的存在。更重要的是，最关键的一点是，LiteFlow是一个持续高速迭代的开源项目。从 v2.16.0 开始，LiteFlow 甚至将 AI Agent 变成一等公民，可以直接编排到您的规则中，与您现有的业务节点并肩作战。 LiteFlow 是一个社区驱动的项目，非常重视其庞大且活跃的用户社区。我们欢迎您提出
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, component, dsl, flow-engine, hot-reload
+
+---
+
+### 🌟 [relay](https://github.com/AgentWorkforce/relay)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 766
+- **核心概述**: 代理的实时沟通。通过消息、渠道、DM 和操作唤醒。对于协调代理很有用。
+- **大概是做什么的**: 让你的代理人说话。让 Claude Code 向 Codex 发送消息。让您的超级代理与您的 Hermes 代理交谈。为您的定制代理提供一种相互发送消息的方式。 Relay 为所有代理提供共享通道、线程、DM、反应、文件、搜索和实时事件，而无需构建聊天基础设施。使用代理进行快速测试 与您的应用程序集成 创建quickstart.ts：使用真正的代理 代理中继是一个消息传递层，但我们使与代理的使用变得非常容易。定义您自己的工具 工具是可以实现 Agent Relay 运行时适配器的任何运行时边界：终端中的 Claude Code 或 Codex、OpenCode 服务器、OpenClaw 或 Hermes 代理、浏览器应用程序或您自己的托管代理。最小的契约是接收消息，即获取中继消息加上传递上下文并报告发生的情况。完整的工具合约还声明了生命周期、交付模式、可观察事件和可选操作。通常，像 Claude Code 和 Codex 这样的 CLI 工具将使用注入和钩子来接收消息，并使用 mcp 来发送消息。但是，只要您的安全带实现了
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-collaboration, agent-communication, agent-skills, agentic-ai, agents
+
+---
+
+### 🌟 [spectrum-ts](https://github.com/photon-hq/spectrum-ts)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,111
+- **核心概述**: 将代理带到任何接口
+- **大概是做什么的**: 将代理带到任何界面。 Photon (photon.codes) 构建了 Spectrum，这是一个多渠道代理框架，使 AI 代理可以通过 iMessage、SMS 和电子邮件等真实对话界面进行访问，而不是将它们困在网络聊天中。 Photon 为通过真实通信渠道运行的人工智能代理构建基础设施。 Spectrum 是 Photon 的开源多渠道代理框架，使 AI 代理能够通过人们已经使用的界面（例如 iMessage、短信、电子邮件、Slack、Discord 和语音）进行通信，而不是局限于网络聊天。了解更多信息，请访问 https://photon.codes 。最快的交付方式是使用 Spectrum Cloud——适用于 iMessage 等平台的托管基础​​设施，只需几分钟即可准备好凭证。 1. 在 app.photon.codes 注册以获取您的项目 ID 和密钥。 2. 安装 SDK（spectrum-ts 包含电池 — 运行时加上标准提供程序集）：Spectrum 也完全独立运行 — 您可以使用单独的 @spectrum-ts/imessage-local 包连接到本地 iMessage 数据库，带上您自己的 gRPC 端点，或构建您自己的平台提供程序。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, photon, typescript
+
+---
+
+### 🌟 [agent](https://github.com/grafana/agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,726
+- **核心概述**: 供应商中立的可编程可观测性管道。
+- **大概是做什么的**: Grafana Agent 已于 2025 年 11 月 1 日达到生命周期终止 (EOL)。我们建议迁移到 [Grafana Alloy] 收集器，它构建在 Grafana Agent Flow 的基础上。有关更多信息，请阅读我们关于 Alloy 以及如何轻松从 Agent 迁移到 Alloy 的博客文章：Alloy 公告博客文章 [Grafana Alloy]：https://github.com/grafana/alloy Grafana Agent 是一个 OpenTelemetry Collector 发行版，其配置灵感来自 [Terraform][]。它的设计灵活、高性能，并且与 Prometheus 和 OpenTelemetry 等多个生态系统兼容。 Grafana Agent 基于组件。组件连接在一起，形成用于遥测收集、处理和交付的可编程可观测性管道。注意：本页面主要关注“[Flow mode][Grafana Agent Flow]”，这是 Grafana Agent 受 Terraform 启发的修订版。 Grafana Agent 可以收集、转换数据并将其发送到： [Prometheus][] 生态系统 [OpenTelemetry][] 生态系统 Grafana 开源生态系统（[Loki][]、[Grafana][]、[Tempo][]、[Mimir][]、[Pyrscope][]） [Terraform]：htt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, grafana, loki, monitoring, observability, opentelemetry
+
+---
+
 ## 🕔 2026-07-19 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
