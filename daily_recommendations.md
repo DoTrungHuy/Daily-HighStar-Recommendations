@@ -1,3 +1,67 @@
+## 🕔 2026-07-19 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 182 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [obsidian-mind](https://github.com/breferrari/obsidian-mind)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,373
+- **核心概述**: 一个自组织的黑曜石保险库，为人工智能编码代理提供持久记忆。克劳德代码、Codex CLI、Gemini CLI。
+- **大概是做什么的**: 🌐 English 日本语 中文 한국어 黑曜石保险库，为人工智能编码代理提供持久记忆。专为 Claude Code 构建，具有 Codex CLI 和 Gemini CLI 的工作挂钩。开始一个会话，谈论您的一天，然后代理处理其余的事情 - 注释、链接、索引、绩效跟踪。每一次谈话都建立在上一次谈话的基础上。人工智能编码代理很强大，但它们却忘记了。每一次训练都从零开始——没有关于你的目标、你的团队、你的模式、你的胜利的背景。你重新解释同样的事情。你会失去三次谈话前做出的决定。知识永远不会复合。给你的经纪人一个大脑。可与 Claude Code（完全支持）、Codex CLI 和 Gemini CLI 配合使用 — 相同的挂钩、相同的命令、相同的库。通过 shardmind install 或 git clone 进行安装 — 无论哪种方式都是相同的保管库。会议后大脑转储： 📦 通过 ShardMind 安装（推荐） shardmind install 会写入当前目录，因此首先创建并进入一个新文件夹。该向导会收集您的姓名、组织、保管库用途、要包含的代理以及是否启用 QMD；然后 ShardMind 初始化 git，可选地引导 QMD，并且
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex-cli, gemini-cli, knowledge-management, obsidian
+
+---
+
+### 🌟 [dbhub](https://github.com/bytebase/dbhub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,181
+- **核心概述**: 适用于 Postgres、MySQL、SQL Server、MariaDB、SQLite 的零依赖、令牌高效的数据库 MCP 服务器。
+- **大概是做什么的**: 由开源数据库 DevSecOps 平台 Bytebase 为您提供。 DBHub 是一个零依赖、令牌高效的 MCP 服务器，实现模型上下文协议 (MCP) 服务器接口。这个轻量级网关允许 MCP 兼容的客户端连接和探索不同的数据库： - 本地开发优先：零依赖、令牌高效，只需两个 MCP 工具即可最大化上下文窗口 - 多数据库：通过单个接口实现 PostgreSQL、MySQL、MariaDB、SQL Server 和 SQLite - 多连接：通过 TOML 配置同时连接到多个数据库 - Guardrails：只读模式、行限制和查询超时以防止失控操作 - 安全访问：SSH 隧道和 SSL/TLS 加密PostgreSQL、MySQL、SQL Server、MariaDB 和 SQLite。 DBHub 实现用于数据库操作的 MCP 工具： - 执行 sql：通过事务支持和安全控制执行 SQL 查询 - 搜索对象：搜索和探索数据库模式、表、列、索引和逐步公开的过程 - 自定义工具：定义可重用、参数化的 SQL o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, anthropic, claude, claude-ai, codex
+
+---
+
+### 🌟 [safe-agentic-workflow](https://github.com/bybren-llc/safe-agentic-workflow)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 376
+- **核心概述**: SAW — SAFe 代理工作流适用于多代理团队工作流的 AI 代理工具基于 SAFe 方法（扩展敏捷框架）构建，适用于 AI 代理团队。适用于任何具有可重复流程的团队：软件、营销、研究、法律、运营。
+- **大概是做什么的**: SAW — SAFe 代理工作流 用于多代理团队工作流的 AI 代理线束 用于协调 AI 团队的经过生产测试的三层架构 支持的 AI 提供商 模板存储库 - 单击上面的“使用此模板”以创建您自己的 AI 代理线束。克隆后，运行 bash script/setup-template.sh 来针对您的项目进行自定义。有关详细信息，请参阅 TEMPLATE SETUP.md。经过生产测试的 AI 代理工具，适合需要结构化 AI 工作流程的团队。多提供商支持：可与 Claude Code (Anthropic)、Gemini CLI (Google)、Codex CLI (OpenAI) 和 Cursor IDE (Anysphere) 配合使用。基于 SAFe 方法（规模化敏捷框架）构建，适用于 AI 代理团队。适用于任何具有可重复流程的团队：软件、营销、研究、法律、运营。 - 18 种模型调用技能 - 自动加载的领域专业知识（技能 2.0 frontmatter） - 24 个 Slash 命令 - 常见任务的工作流程自动化 - 11 个 SAFe 代理配置文件 - 边界清晰的专业角色 - 三层架构 - 挂钩 → 命令 → 技能 - 代理团队 - 具有 SAFe 质量的多代理编排
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agile-methodology, ai-agents, ai-assisted-development, claude-code, commands, dark-factory
+
+---
+
+### 🌟 [brain0](https://github.com/Brain0-ai/brain0)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 463
+- **核心概述**: 人工智能编写代码的黑匣子。将每个提交与其背后的代理提示相关联的被动决策图：偏差检测、代理读取内容的 DLP 审计、证据驱动的风险、编码代理的 MCP 内存、签名的出处证明。一条命令，默认离线。
+- **大概是做什么的**: 人工智能编写代码的黑匣子。 git 告诉你发生了什么变化。 Brain0 告诉您原因：哪个提示写了它，代理读取了什么来写它，以及您是否可以信任它。快速入门 · 它的答案是什么 · 为您的代理提供记忆 · 它是如何工作的 · 编码代理现在可以编写大部分差异：连续、并行和不透明。 Brain0 被动地构建存储库的决策图：每个提交都与其背后的代理意图相关联，直至单个功能，具有过时的历史记录、偏差检测、对代理读取内容的 DLP 审核以及呈现为绿色 → 红色的二维风险评分。没有钩子，没有代理合作，没有代码更改：它读取 git 和代理已经写入磁盘的记录。从第一天开始就进行测试：brain0 自己的发展由 Brain0 跟踪。就是这样。从任何存储库中， up 从 git 远程推断存储库 id，索引 git 历史记录（事实），被动地摄取您的编码代理会话（意图，自动发现 Codex 和 Claude Code），并在 http://localhost:8787 打开 GUI：从存储库到模块的代码库的可探索图表，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, attestation, audit, claude, cli
+
+---
+
+### 🌟 [DevoxxGenieIDEAPlugin](https://github.com/devoxx/DevoxxGenieIDEAPlugin)
+- **项目语言**: Java
+- **星标数量**: ⭐ 666
+- **核心概述**: DevoxxGenie 是 IntelliJ IDEA 的代理插件，它使用本地 LLM（Ollama、LMStudio、GPT4All、Jan 和 Llama.cpp）和基于云的 LLM 来帮助审查、测试和解释您的项目代码。最新版本现在还支持使用 CLI 运行器进行规范驱动开发。
+- **大概是做什么的**: Devoxx Genie 是一款适用于 IntelliJ IDEA 的完全基于 Java 的 LLM 代码助手插件，旨在与本地 LLM 提供商（如 Ollama、LMStudio、GPT4All、Llama.cpp 和 Exo）集成，也可与基于云的 LLM（如 OpenAI、Anthropic、Mistral、Groq、Gemini、DeepInfra、DeepSeek、Kimi、GLM、OpenRouter、Azure OpenAI、Amazon Bedrock 和 NVIDIA）集成。技能 — 将可移植的 SKILL.md 文件放入 /.devoxxgenie/skills/ 、 /.devoxxgenie/skills/ 、 .claude/skills/ 或 .agents/skills/ 中，LLM 会在相关时在对话中激活它们。相同的文件在 Claude Code、Codex 和 Gemini 中工作，并且自定义提示已重命名为命令以明确区分。 🆕 安全扫描 — 直接从 LLM 代理运行 Gitleaks（秘密检测）、OpenGrep（SAST）和 Trivy（依赖项 CVE）。结果会在规范浏览器中自动创建为优先任务，以进行跟踪和修复！ 🆕 规范驱动开发 (SDD) — 在 Backlog.md 中定义任务，在规范浏览器中使用任务列表和看板视图浏览它们，然后让 Agent 自主实现它们！使用代理循环
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: anthropic, azure-ai, chatgpt, chatgpt-api, claude-3, claude-ai
+
+---
+
+### 🌟 [awesome-vibe-coding](https://github.com/ai-for-developers/awesome-vibe-coding)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 785
+- **核心概述**: 精心挑选的 Vibe Coding 工具和资源集合
+- **大概是做什么的**: 精心挑选的工具和参考集合，用于在人工智能的帮助下通过提示、迭代和探索来构建软件。该列表重点关注人工智能在开发过程中发挥核心作用的工具和工作流程。这种方法不是传统的编码，而是强调描述想法、快速迭代和信任流程——即使你不确定它的发展方向。您可以在 AI For Developers 上找到可搜索的、更详细的列表 通过赞助此列表、我们的时事通讯和 AI For Developers，接触到使用 AI 进行构建的数千名开发人员。请通过 aifordevelopers.org/advertise 与我们联系 扩展和插件 桌面和本地应用程序 AI 驱动的任务管理 监控和成本跟踪 项目文档 Karpathy 的“vibe 编码”思维方式 — 非传统编码。更像是通过语言和直觉来塑造软件。 Automata 的 AI 编码指南 — 为使用 AI 优先开发方法的新手提供的结构化起点。 Bolt.new — 通过提示快速构建原型并启动网络和移动应用程序。可爱 - 来自简单想法的全栈应用程序。维
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-app-builder, ai-ide, ai-tools, awesome-ai
+
+---
+
 ## 🕔 2026-07-19 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 235 个候选项目中筛选出 6 个未推荐过的新项目。
