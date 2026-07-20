@@ -1,3 +1,67 @@
+## 🕔 2026-07-19 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [khazix-skills](https://github.com/KKKKhazix/khazix-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 17,290
+- **核心概述**: 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: neat-freak 洁癖 (docs/memory closeout), hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, codex, developer-tools
+
+---
+
+### 🌟 [tiny-llm](https://github.com/skyzh/tiny-llm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,373
+- **核心概述**: 为系统工程师提供在 Apple Silicon 上服务的 LLM 推理学习课程：构建微型 vLLM + Qwen。
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: course, large-language-model, llm, python, qwen, qwen2
+
+---
+
+### 🌟 [mlx-serve](https://github.com/ddalcu/mlx-serve)
+- **项目语言**: Zig
+- **星标数量**: ⭐ 349
+- **核心概述**: 适用于 Apple Silicon 的本机 LLM 推理服务器。兼容 OpenAI + Anthropic API。没有Python。包括具有聊天、代理模式和工具调用功能的 MLX Core macOS 应用程序。
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, anthropic-api, apple-silicon, claude-code, deepseek-v4, diffusion
+
+---
+
+### 🌟 [token-optimizer-mcp](https://github.com/ooples/token-optimizer-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 444
+- **核心概述**: Claude Code 的智能令牌优化 - 通过缓存、压缩和智能工具智能实现 95% 以上的令牌减少
+- **大概是做什么的**: 通过 Claude Code 和 Claude Desktop Token Optimizer 的缓存、压缩和智能工具实现智能令牌优化 MCP 是模型上下文协议 (MCP) 服务器，可通过智能缓存、压缩和智能工具替换将上下文窗口使用率减少 60-90%。通过将压缩内容存储在 SQLite 外部并提供标准工具的优化替代方案，服务器可以帮助您最大化可用的上下文窗口。生产结果：在实际使用中的 38,000 多个操作中，代币减少了 60-90%。 - 智能工具替换：自动优化 Read、Grep、Glob 等 - 上下文窗口优化：在外部存储内容以释放上下文空间 - 高压缩：Brotli 压缩（典型为 2-4 ���，重复内容高达 82 倍） - 持久缓存：基于 SQLite 的缓存，在会话中持续存在 - 准确的令牌计数：使用 tiktoken 进行精确的令牌测量 - 61 个专用工具：文件操作、API缓存、数据库优化、监控等 - 零外部依赖：完全离线操作
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, caching, claude, compression, llm, mcp
+
+---
+
+### 🌟 [harbor](https://github.com/av/harbor)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,144
+- **核心概述**: 停止配置您的 AI 堆栈。开始使用它。一个命令带来了完整的预连线 LLM 堆栈，其中包含数百种服务可供探索。
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, automation, bash, cli, container, docker
+
+---
+
+### 🌟 [apple_generative_model_safety_decrypted](https://github.com/BlueFalconHD/apple_generative_model_safety_decrypted)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: 包含过滤器的 Apple Intelligence 的解密生成模型安全文件
+- **大概是做什么的**: 苹果生成模型安全解密 包含过滤器的 Apple Intelligence 的解密生成模型安全文件 如果您对我计算出这些内容的过程感到好奇，请查看 HOW.md - 解密覆盖/：包含各种模型的解密覆盖。 - com.苹果。 / ：使用与安全信息关联的资产说明符命名的目录 - Info.plist ：包含覆盖的元数据 - AssetData/ ：包含解密的 JSON 文件 - 组合元数据/ ：包含组合和去重后的元数据文件，以便于查看 - 全局metadata.json ：来自所有模型的组合全局安全过滤器 - Region .json ：组合特定于区域的安全过滤器（例如，区域 CNmetadata.json ） - locale .json ：组合特定于区域设置的安全过滤器（例如 locale en USmetadata.json ） - 获取密钥 lldb.py ：获取加密密钥的脚本（请参阅下面的使用信息） - 解密 overrides.py ：解密覆盖的脚本（请参阅下面的使用信息） - 组合metadata.py ：通过区域/区域设置密码组合和删除重复元数据文件的脚本是唯一的 de
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, apple, apple-intelligence, decryption, lldb-script, llm
+
+---
+
 ## 🕔 2026-07-19 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 210 个候选项目中筛选出 6 个未推荐过的新项目。
