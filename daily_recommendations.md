@@ -1,3 +1,67 @@
+## 🕔 2026-07-20 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [intelligent-terminal](https://github.com/microsoft/intelligent-terminal)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,582
+- **核心概述**: Windows 终端的一个分支，在命令行中具有本机代理集成。
+- **大概是做什么的**: 欢迎来到智能终端仓库 - 什么是智能终端？ - 安装和运行智能终端 - 键盘快捷键 什么是智能终端？智能终端是 Windows 终端的实验性分支，具有本机代理集成。智能终端可与任何兼容代理客户端协议 (ACP) 的代理 CLI 配合使用。您所需要做的就是在您的 PC 上安装您首选的代理 CLI。如果您没有首选代理，我们将帮助您使用 GitHub Copilot CLI 进行设置。智能终端具有 Windows 终端中您喜欢的所有功能，例如：选项卡、配置文件、主题、设置、shell 和键盘快捷键，所有这些功能都按照您期望的方式工作。请阅读公告博客文章了解更多详细信息。安装和运行智能终端 智能终端需要 Windows 10 2004 (19041) 或更高版本。您还需要受支持的代理 CLI 和订阅。 GitHub Copilot 是默认设置。 Microsoft Store（推荐） 从Microsoft Store安装智能终端。这使您可以在我们使用 auto 发布新版本时始终使用最新版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent, agent-client-protocol, agentic-ai, ai, cli
+
+---
+
+### 🌟 [baguette](https://github.com/tddworks/baguette)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,535
+- **核心概述**: 适用于 iOS 26 的无头 iOS 模拟器管理器/农场 + 主机端输入注入 — 点击、滑动、多指手势和 60 fps 流媒体
+- **大概是做什么的**: 无头 iOS 模拟器管理器 + 适用于 iOS 26 的主机端输入注入。单个 Swift CLI — baguette — 加上一个独立的 Web UI，让您无需打开 Xcode 或 Simulator.app 即可完全无头控制 iOS 模拟器。启动设备，以 60 fps 传输屏幕，调度点击/滑动/多指手势/系统手势/键盘/硬件按钮，跟踪统一日志，检查辅助功能树，截取屏幕截图和录音，以及从 0.1.72 开始将 Mac 网络摄像头连接到模拟器的摄像头https://github.com/user-attachments/assets/e904413f-16bb-4b3d-86d5-162333403cee https://github.com/user-attachments/assets/c49c9f4b-0e4b-47ea-9272-3223b1ac7739 https://github.com/user-attachments/assets/65dc62ee-f0c7-48fb-9c57-5bd267c8c02f 原始剪辑位于 asset/demo.mp4 - 将其拖到此 README 的 GitHub Web 编辑中，以作为 CDN 托管的视频上传，并将上面的行替换为自动生成的 URL。 - 帧流 - 通过 stdout 或 WebSocket 的 MJPEG 或 H.264 / AVCC。运行时可调比特率/fps/比例。浏览器内录制 (MP4) 复合边框 +
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, devicefarm, ios, simulator, simulatorkit
+
+---
+
+### 🌟 [img2threejs](https://github.com/hoainho/img2threejs)
+- **项目语言**: Python
+- **星标数量**: ⭐ 708
+- **核心概述**: 将参考图像中的对象重建为纯代码、程序化、质量门控、动画就绪的 Three.js 模型。令牌高效的图像转 3D。
+- **大概是做什么的**: 将参考图像中的对象重建为纯代码、过程 Three.js 模型。质量门控、动画就绪、刻意的令牌效率——通过代码重建，而不是摄影测量、网格提取或下载的艺术包。用代码重建的单个参考图像 - 正确的比例、颜色、斜角、金色装饰和发光标志 - 在浏览器中实时运行。 → 打开实时演示库 库中的每个模型都是生成的代码，在浏览器中运行。没有网格文件，没有下载。重建完全由基元、���序着色器和生成的几何体构建。下面的剪辑是在浏览器中运行的实时模型 - 打开每个剪辑以绕行它并读取生成的源代码。演示预览主题视图源 --- --- --- --- --- Sony WF-1000XM3 耳塞 + 保护套硬表面物体 实时代码 ISSACA 12 规格猎枪硬表面物体 实时代码 Gerber Paracord Knife 硬表面物体 实时代码 Doraemon House（等距西洋镜）硬表面物体 实时代码 War-Hauler“SECTOR 07”硬表面物体 实时代码 Crowned Loot Chest 硬表面物体
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, ai-agents, claude-code, computer-graphics, generative, image-to-3d
+
+---
+
+### 🌟 [openyak](https://github.com/openyak/openyak)
+- **项目语言**: Python
+- **星标数量**: ⭐ 700
+- **核心概述**: 用于桌面工作的开源本地优先 AI 代理。没有帐户，没有遥测：使用 Ollama/Rapid-MLX 本地模型或携带您自己的提供商密钥。
+- **大概是做什么的**: 用于文件、工具、长线程和真实桌面工作的本地优先 AI 代理。在您自己的计算机上运行代理，使用本地文件，尽可能使用本地模型，并仅在需要时选择云提供商。 OpenYak 是为那些希望 AI 代理驻留在自己的计算机上而不是位于另一个托管工作区帐户后面的人们而构建的。 - 没有 OpenYak 帐户。安装应用程序，选择本地型号或携带您自己的提供商密钥，然后开始工作，无需登录、计费、席位或充值流程。 - 本地优先代理运行时。文件、对话、内存、生成的工件、工具权限和工作流程状态保留在您的设备上。 - 根据您的实际文件进行工作。附加 DOCX、XLSX、PPTX、PDF、CSV 和本地项目上下文，然后要求提供简报、表格、后续工作、计划和可重用工件。 - 将工作流程保持在一个线程中。从分析开始，继续进行 RACI，要求后续电子邮件，并在长时间对话中保留上下文。 - 选择您的模型边界。通过 Rapid-MLX 或 Ollama 运行本地模型，或选择直接 BYOK 调用 OpenRouter、OpenAI、Anthr
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, ai-agent, ai-coding-assistant, byok, claude-code-alternative
+
+---
+
+### 🌟 [agent_learning](https://github.com/Haozhe-Xing/agent_learning)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 310
+- **核心概述**: A systematic AI Agent development tutorial covering LLM agents, RAG, tool use, memory systems, multi-agent systems, LangChain, LangGraph, MCP, and agentic RL.｜从零开始学 AI Agent 开发 | 系统、全面、实战导向的 Agent 开发教程 | 每日自动追踪 arXiv 最新论文 | Learn AI Agent Development from Scratch
+- **大概是做什么的**: 🤖 代理学习：从头开始学习代理开发学习 AI 代理的完整开源路线图 — 从 LLM 基础知识到生产就绪的代理系统。 Agent Learning（代理学习）是一套系统的、面向实践的AI Agent学习路线图和上手教程，内容涵盖LLM基础知识、RAG、内存、工具使用、函数调用、代理工作流程、LangChain、LangGraph、MCP、多代理系统、评估、部署和代理RL。如果您想学习如何构建 AI 代理（不仅仅是使用 ChatGPT，而是了解代理如何检索知识、记住上下文、调用工具、计划操作、协作以及在生产中安全运行），那么这个项目适合您。每日自动跟踪 arXiv 前沿论文——内容始终保持前沿。每日更新的 Agentic-RL 前沿研究章节 循序渐进的 GRPO / GSPO 学习内容 🐛 报告问题 · 💬 讨论 · 🇨🇳 中文版 README 🚀 自动追踪前沿：每日 arXiv 论文更新 🤖 该仓库每天自动在 arXiv 中搜索最新的 AI Agent 相关论文，并相应更新内容 —
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-learning, agentic-workflow, ai-agent, ai-agent-tutorial, dspy, grpo
+
+---
+
+### 🌟 [PiDeck](https://github.com/ayuayue/PiDeck)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 280
+- **核心概述**: PiDeck 是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。支持多项目工作区、会话历史、Git 集成、内置终端、模型配置和插件管理，基于 Electron 构建。
+- **大概是做什么的**: English · LinuxDO 友链 一个用于管理多个 pi 编码 Agent 会话的桌面工作台。 PiDeck 是一个开源的桌面工作台，用于在本地项目目录中统一管理 pi Agent 会话，并支持导入 Codex、Claude 本地会话以便统一浏览和恢复。基于 Electron + TypeScript 构建，提供多项目工作区、AI 会话管理、Git 集成、内置终端、模型配置和插件扩展能力，让本地 AI 编码助手在多项目环境中保持统一、可追溯、可配置。 适合谁用： 希望在桌面端同时管理多个本地项目的 AI 编程助手会话、需要统一查看会话历史与 Git 状态、并希望以图形化方式管理 pi 配置的开发者。 PiDeck 不是 pi 的分支。它是一个轻量 Electron 外壳，通过启动多个 pi --mode rpc 进程，将项目管理、会话管理、对话界面、配置管理和工具编排整合到一个原生桌面应用中——所有 Agent 能力由 pi 原生提供。 最新版本 v0.6.5 （2026-07-13） - 🚀 Prompt 模板系统 ：全新模板管理、内置模板、 / picker 快速插入、变量占位符 - 🚀 Prompt/Skill 商店 ：集成 prompts.chat 和 Yao Open Prompts（121 个中文 Prompt） - 🚀 Git Worktree 工作区 ：分支管理、会话按 worktree 分组 - 🚀 消息多选 & 分享 ：多选转发、复制文字/图片 - 🚀 内置浏览器预览 ：右侧抽屉浏览网页，支持多标签、全屏和移动端视口 - 🚀 会话管理器 ：右键项目���开、多选删除、来源筛选 - 🚀 外部编辑器集成 ：右键项目直接「打开方式」选择编辑器 - 🚀 xhigh 推理级别 支持 - ✨ 公共 MonacoEditor 组件抽取、统一图标按钮、统一弹框尺寸 - 🐛 Windows 启动崩溃修复（0x80000003） - 🐛 pi 压缩后进程重启断连修复、Extension RPC 生命周期修复 - 🐛 消息交错渲染、分片 text 竖排显示、思考状态动态读取、工作区会话加载修复 - 🔧 会话打开性能优化、IPC 裁剪、清理调试日志 多项目工作区 添加、搜索、拖动排序和切换本地项目目录，同时运行多个 pi Agent，项目间完全隔离。 内置 Chat 对话区 项目列表顶部固定 Chat 入口，写入应用用户目录，适合无需绑定代码项目的通用对话。 计划模式 (Plan Mode) Composer 工具栏切换计划模式，Agen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-assistant, ai-coding-agent, claude-code, codex, coding-agent
+
+---
+
 ## 🕔 2026-07-20 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
