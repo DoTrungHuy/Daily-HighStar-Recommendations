@@ -1,3 +1,67 @@
+## 🕔 2026-07-20 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 208 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MathModelAgent](https://github.com/jihe520/MathModelAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,796
+- **核心概述**: 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
+- **大概是做什么的**: 🤖 MathModelAgent 📐 自动完成数学建模，生成一份完整的可以直接提交的论文。 - 🔍 自动分析问题，数学建模，编写代码，纠正错误，撰写论文 - 💻 Code Interpreter - local Interpreter: 基于 jupyter , 代码保存为 notebook 方便再编辑 - 云端 code interpreter: E2B 和 daytona - 🤝 multi-agents: 建模手，代码手，论文手等 - 🔄 multi-llms: 每个 agent 设置不同的、合适的模型 - 🤖 支持所有模型: litellm - 💰 成本低：workflow agentless，不依赖 agent 框架 - 🧩 自定义模板：prompt inject 为每个 subtask 单独设置需求 - 🌐 Web Search: Agent 自主搜索互联网获取真实数据（Tavily API） - 📚 RAG 知识库: 从本地知识库检索建模方法、代码模板、论文写作参考（ChromaDB + Rerank） - 🤝 HIL 人机协作: 关键节点暂停等待用户审批，支持 6 种决策动作（confirm / edit / regenerate / ask / skip / abort） - 🛡️ 四层容错: 有限重试 → Fallback Hand Off → Evaluator Shadow Mode → Feedback Rerun 我在平台中托管了一个在线版本，方便使用，欢迎体验： https://mathmodel.top/home MathModelAgent SKILL —— 直接在 Harness 中驱动的数学建模自动化方案. 从问题分析、建模、编码、绘图到论文排版和验收，一条 /1start-mathmodel 命令全自动完成，中间阶段自动串联，无需人工干预。 内置中英文主流赛事模板（国赛、华数杯、华���杯、MCM/ICM 等），自动匹配赛事类型，生成排版精良、可直接提交的 PDF 论文。 包含完整的建模规范、模型选择决策树（AHP、TOPSIS、ARIMA、GA 等）、常见易错模式和 MCM/ICM 评分标准，每个阶段自动参考，降低模型幻觉。 文本泄漏检测 → 数值一致性校验 → Typst 编译 → PDF 可视化检查，确保论文零低级错误。 每个阶段是独立 Skill，可单独调用（如只跑分析、只写论文）；模板和知识库可自由扩展；支持 Typst 生态排版。 skills 中包含一个科研绘图模板skill,可以绘制一
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, llm, mathmodel, skills
+
+---
+
+### 🌟 [mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,035
+- **核心概述**: AI 编码代理的异步协调层：通过 FastMCP + Git + SQLite 的身份、收件箱、可搜索线程和咨询文件租赁
+- **大概是做什么的**: “这就像您的编码代理的 Gmail！”用于编码代理的类似邮件的协调层，公开为仅 HTTP FastMCP 服务器。它为代理提供了令人难忘的身份、收件箱/发件箱、可搜索的消息历史记录以及自愿文件保留“租赁”以避免互相踩踏。将其视为代理的异步电子邮件 + 目录 + 变更意图信号，由 Git（用于人工审核的工件）和 SQLite（用于索引和查询）支持。状态：正在积极开发中。该设计在 docs/planning/project idea 和guide.md 中有详细描述（从该文件顶部的原始提示开始）。现代项目通常同时运行多个编码代理（后端、前端、脚本、基础设施）。如果没有共享的协调结构，代理将： - 覆盖彼此的编辑或因意外差异而恐慌 - 错过并行工作流中的关键上下文 - 要求人类跨工具和团队“联络”消息 该项目提供了一个轻量级、可互操作的层，以便代理可以： - 注册临时但持久的身份（例如 GreenCastle） - 发送/接收 GitH
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coordination, fastmcp, mcp, python
+
+---
+
+### 🌟 [tpu-mlir](https://github.com/sophgo/tpu-mlir)
+- **项目语言**: C++
+- **星标数量**: ⭐ 948
+- **核心概述**: 基于 MLIR 的 Sophgo TPU 机器学习编译器。
+- **大概是做什么的**: 用于 TPU 的基于 MLIR 的开源机器学习编译器。 TPU-MLIR 将预训练的神经网络从主流框架转换为可在 TPU 上高效运行的 bmodel 文件。它构建在 MLIR 之上，提供统一的 IR、干净的降低管道以及丰富的量化、校准和部署工具。 - 多框架前端 - PyTorch、ONNX、TFLite、Caffe（通过 ONNX 的其他框架）。 - LLM 就绪 — 通过 llm Convert.py 一次性转换 HuggingFace LLM（Qwen、MiniCPM-V 等）。 - 完整的量化工具链 — F32 / BF16 / F16 / INT8（对称和非对称）、AWQ / GPTQ / AutoRound 直通、校准、QAT。 - 基于 MLIR 的管道 — 干净的方言（Top / Tpu）、模式重写、层组内存规划。 - 生产工具——模型运行器、模型工具、精度验证、模拟器、可视化工具。 - 双语文档和活跃社区 — 英文/中文手册、论文和视频教程。 📚 目录 - 快速入门（LLM — Qwen） - 快速入门（Vision — YOLOv5）TPU-MLIR 在预构建的 Docker 镜像内运行。容器运行后您可以
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: compiler, llm, mlir, tpu
+
+---
+
+### 🌟 [aikit](https://github.com/kaito-project/aikit)
+- **项目语言**: Go
+- **星标数量**: ⭐ 534
+- **核心概述**: 🏗️ 轻松微调、构建和部署开源 LLM！
+- **大概是做什么的**: AIKit 是一个综合平台，可快速开始托管、部署、构建和微调大型语言模型 (LLM)。 AIKit 提供三种主要功能： - 推理：AIKit 使用 LocalAI，支持多种推理功能和格式。 LocalAI 提供了与 OpenAI API 兼容的直接替代 REST API，因此您可以使用任何 OpenAI API 兼容的客户端（例如 Kubectl AI、Chatbot-UI 等）来发送开放 LLM 的请求！ - 微调：AIKit 提供可扩展的微调接口。它支持 Unsloth，以实现快速、内存高效且轻松的微调体验。 - OCI 打包：将模型打包为 OCI 工件，以便通过任何符合 OCI 的注册表进行分发。支持 CNCF ModelPack 规范和通用工件打包。 👉 如需完整文档，请访问 AIKit 网站！ - 🐳 除了 Docker 或 Podman 之外，不需要 GPU、互联网接入或其他工具！ - 🤏 最小图像大小，通过自定义凿刻图像减少漏洞和更小的攻击面 - 🎵 微调支持 - 📦 OCI 对发行版的打包支持
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, buildkit, chatgpt, docker, fine-tuning, finetuning
+
+---
+
+### 🌟 [Principia](https://github.com/pzqpzq/Principia)
+- **项目语言**: Python
+- **星标数量**: ⭐ 410
+- **核心概述**: Principia 提取可重用的原则，将这些原则组合成可追溯的研究想法，并帮助研究人员检查为什么一个想法值得测试。
+- **大概是做什么的**: 原则第一的科学思想发现以证据为基础。结构化以供审查。导出以供验证。想法源于原则。有证据证实。 Principia 是一个本地优先的 Python 框架，它将公共文献和私人研究材料转化为可追踪的创意卡、现有技术比较和可验证的研究包。发布范围：本自述文件仅记录维护的 Principia v1.3.3 框架。为什么原理 · 工作流程 · 安装 · 示例 · 可信度 · 研究基础 · 架构 · 联系 大多数法学硕士研究助理都会优化以获得令人信服的答案。 Principia 针对可检查的科学对象进行优化。一个严肃的研究想法应该让五件事变得可见： 1. 起源——哪些著作和证据记录告诉了它； 2. 原则——它建立在哪些机制、约束和可转移的抽象之上； 3. 构建——这些成分如何成为所提出的方法； 4. 风险——哪些假设、故障模式和现有技术的重叠可能使其无效； 5. 可测试性——什么实验、基线、指标和错误
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-scientist, ai4science, autoresearch, llm, multi-agent
+
+---
+
+### 🌟 [vibe-investing](https://github.com/gameworkerkim/vibe-investing)
+- **项目语言**: Python
+- **星标数量**: ⭐ 305
+- **核心概述**: AI 支持的纳斯达克、标准普尔 500 指数和加密货币 Vibe 投资：LLM 量化交易工具、多代理回测和数据驱动的市场专栏（mNAV 套利、BTC-纳斯达克耦合、Alpha Arena）。美股/虚拟货币AI投资策展/专栏/交易机器人。
+- **大概是做什么的**: Vibe Investing 使用人工智能作为工具 策展·策略·专栏·论文回购 AI 只是一个像 Excel 一样的工具。我揭示了我的观点和我自己的解决方案，以区分信号和市场噪音。人工智能（LLM）并不是万能的，我们认为人类阅读模型的洞察力才是最重要的。我们通过研究美国纳斯达克/标准普尔 500 指数、虚拟货币、奢侈品行业以及加密股票相关性来追求颠覆性创新行业的阿尔法回报。这个仓库在干扰中蕴藏着宝石，就像日本无所不能的堂吉诃德，就像丹尼斯和我平淡的性格一样。自述文件不太可能每周更新，并将以随机频率更新。新 · 您在 LLM 中输入的提示是否经过验证？ — 很棒的金融与量化法学硕士提示 “即使是拥有 143,000 颗星的提示库，也无法对您的投资组合说任何话。”当用法学硕士进行投资分析时，造成差异的是提示的质量，而不是模型。然而，GitHub 上充斥着未经验证的“你是沃伦·巴菲特”式的人物提示，而且能够直接用于金融、量化和加密工作的结构化提示屈指可数。从prompts.chat (143K+★) 中的通用提示到三元-ai/prompts 中基于代理的财务工作流程，本指南从金融、定量和加密角度审视公共提示库，并逐层剖析它们，直至风险（错觉、奉承偏见、羊群风险和加密数据污染）。它诚实地捕捉到了“这个库可以在哪里使用，���及它在哪里出现故障”。 → 打开 Awesome LLM Prompts 全文 “LLM 不是神谕。提示库只是工具的手册；最终判断和验证的责任在于你。”新内容·介绍取代人类的腾讯混元Hy3——Hy3入门指南又名腾讯对象征性乞丐的回答“我们竞争的是生产可靠性，而不是基准第一名——姚舜宇‘AI下半场’的第一个真正的产品。” Hy3，由腾讯于2026年7月正式推出（
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-search, algorithmic-trading-dotnet, backtesting, bitcoin, claude
+
+---
+
 ## 🕔 2026-07-19 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
