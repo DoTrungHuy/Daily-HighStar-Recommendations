@@ -1,3 +1,67 @@
+## 🕔 2026-07-21 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 189 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AI-Youtube-Shorts-Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,290
+- **核心概述**: Opus Clip、Vidyo.ai、Klap 和 SubMagic 的开源替代品。使用 LLM 精彩片段检测、Whisper 转录和自动垂直裁剪，将 YouTube 长视频变成病毒式传播的 9 分 16 秒短片 — 免费、无水印、无每个剪辑的字幕。
+- **大概是做什么的**: AI YouTube Shorts Generator Opus Clip、Vidyo.ai、Klap、SubMagic、2short.ai 和其他 AI 剪辑工具的开源替代品。放入任何长格式的 YouTube 视频，即可获得排名靠前、病毒式传播的 9 分 16 秒短片 — 免费，没有每个剪辑的制作人员名单，没有水印，并且可以完全控制精彩片段算法。专为不想每月支付 20 至 300 美元或不想受到处理时间限制的创作者、代理机构和开发人员而打造。使用 GPT 级 LLM 亮点检测和 Whisper 转录来提取最具病毒传播价值的时刻，并为 TikTok、Reels 和 Shorts 垂直自动裁剪它们。构建您自己的 Opus Clip 式 SaaS？跳过基础设施并使用为该存储库提供支持的相同 API： - AI Clipping API — 端到端剪辑选择 + 渲染 - 自动裁剪 API — 仅垂直重构 🎨 探索 50 多个开源 AI 应用程序 → 为什么使用它而不是 Opus Clip / Vidyo.ai / Klap？此存储库 Opus Clip / Vidyo.ai / Klap / SubMagic 价格 免费 + 开源（仅支付 API 使用费用） 20-300 美元/月订阅 每个剪辑积分 无 — 处理无限视频 每月分钟上限，超额
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: 2short-ai-alternative, ai-clip-generator, ai-clipping, auto-clip, auto-crop, highlight-detection
+
+---
+
+### 🌟 [paperless-gpt](https://github.com/icereed/paperless-gpt)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,550
+- **核心概述**: 使用法学硕士和法学硕士视觉（OCR）来处理无纸化-ngx - 由人工智能支持的文档数字化
+- **大概是做什么的**: 💡 由 Icereed 维护。得到 BubbleTax.de 的大力支持——为德国盈透证券交易者提供符合 BMF 标准的自动化税务报告。 paperless-gpt 与 [paperless-ngx][paperless-ngx] 无缝配对，生成人工智能驱动的文档标题和标签，节省您的手动排序时间。虽然其他工具可能提供 AI 聊天功能，但无纸化-gpt 凭借法学硕士增强 OCR 功能而脱颖而出，即使在进行棘手的扫描时也能确保高精度。如果您渴望更高级别的文本提取和轻松的文档组织，这就是您的解决方案。 https://github.com/user-attachments/assets/bd5d38b9-9309-40b9-93ca-918dfa4f3fd4 ❤️ 支持这个项目 如果 paperless-gpt 正在帮助您组织文档并节省您的时间，请考虑赞助其开发。您的支持有助于确保持续改进和维护！ 1. LLM 增强型 OCR 利用大型语言模型（OpenAI 或 Ollama）实现比传统 OCR 更好的效果——将杂乱或低质量的扫描转换为上下文感知的高保真文本。 2.使用专门的AI OCR服务-LLM OCR：使用OpenAI或Ollama提取文本
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, llm, mistral, ocr, ollama
+
+---
+
+### 🌟 [surogate](https://github.com/invergent-ai/surogate)
+- **项目语言**: C++
+- **星标数量**: ⭐ 806
+- **核心概述**: 以光速训练/微调
+- **大概是做什么的**: ⚡ FP8/FP4 光速训练、微调和强化学习 Surogate Trainer 专为需要快速实验的开发人员和企业而构建 - 无论是在本地运行还是在云端运行。 ⚡ Surogate训练器在单GPU、多GPU和GPU+CPU的性能上大幅超越了所有现有的训练框架。 ✨ 与 QLoRA 相比，本机 CPU 卸载功能实现了卓越的性能和 VRAM 使用率。您可以以本机 bf16 精度微调模型，从而使 QLoRA 过时。 - 🔧 预训练 + 微调：全面微调，LoRA - 🔧 BF16、FP8 和 NVFP4 强化学习：使用自定义、确定性环境进行高级 GRPO 训练和评估 - ���� RL 环境：用于 RL 训练的可预测环境 - 🖥️...🖥️ 具有多线程后端的本机多 GPU 训练 - 🖥️...🖥️ 使用 Ray 进行本机多节点 DDP 训练 - ⚡ 本机 C++/CUDA 引擎，实现近光速 (SOL) 吞吐量 - 🔥 具有 AOT 自动微分功能的 Python DSL，用于添加新模型架构 - ⚖️ 用于权重、梯度、激活、量化的智能 CPU 卸载 - 📜
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda, deep-learning, fine-tuning, generative-ai, llama, llm
+
+---
+
+### 🌟 [agentsmith](https://github.com/PromptPartner/agentsmith)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 314
+- **核心概述**: 适用于 AI 代理（Claude、Codex、Gemini 等）的通用、与模型无关的操作工具 — 由一个设置脚本组装的精益核心 + 工作类型配置文件。
+- **大概是做什么的**: AgentSmith — 通用代理工具 Vibe 编码为您提供了一个工作演示。一旦客户到达、产品发生变化或其他工程师必须接触它，人工智能辅助工程就能使其保持不变。 Agentsmith 是第二层——一个适用于 Claude Code（以及任何读取 CLAUDE.md / AGENTS.md / GEMINI.md 的代理）的便携式、经过实战考验的操作系统。将其放在任何机器上，选择您正在做的工作类型，相同的纪律核心就会适应它 - 软件、开发运营/设置、营销和外展、文档创建、数据处理、研究、设计和一般管理。代理就是模特加吊带。模型占结果的 10%；安全带——规则、工具、内存、护栏和围绕它的反馈循环——是另外 90%，这是你控制的部分。这个 repo 是 90% 的、通用的、可重用的。 （推理在 docs/01-harness-philosophy.md 中；公共工作这些想法并不是来自白板。它是经过 6 个月的真实、自主工作而成长起来的——数据处理、营销推广、数十个较小的项目和一个软件产品
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-coding, ai-agents, ai-tools, automation, claude
+
+---
+
+### 🌟 [ai-creator-academy](https://github.com/Anil-matcha/ai-creator-academy)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,842
+- **核心概述**: 为创作者和机构提供免费的开源课程，用于通过生成 AI 图像、视频和音频赚钱。
+- **大概是做什么的**: 为创作者和机构提供免费的开源课程，用于通过生成 AI 图像、视频和音频赚钱。大多数人工智能教育要么教你提示一种工具，要么教你构建一个工具。这还教会了一些东西：如何将人工智能生成的图像/视频/音频——或者你自己用编码代理构建的工具——变成实际的、有价格的、可销售的服务或产品。每个模块都以定价、定位以及在哪里找到第一个客户而结束，而不仅仅是“它是如何运作的”。 ⭐ 给这个存储库加星标以将其添加为书签 - 新曲目和模块定期发布。教授此内容的付费社区（Skool/Whop 风格，$47-$97/月）已经聚集在这些利基市场上——需求已得到证实。缺少的是一个免费的版本，它引用真实的数字而不是模糊的收入声明，并且将“我实际上如何获得报酬”作为主要主题，而不是事后附加到工具教程上。 - 模块的形状 15 个独立轨道 - 选择与您想要建立的业务相匹配的轨道，按任何顺序。按需求证据和覆盖广度编号，而不是按难度编号
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-audio, ai-avatars, ai-filmmaking, ai-image
+
+---
+
+### 🌟 [optimum-intel](https://github.com/huggingface/optimum-intel)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 607
+- **核心概述**: 🤗 Optimum Intel：利用 Intel 优化工具加速推理
+- **大概是做什么的**: 🤗 Optimum Intel 是🤗 Transformers、Diffusers、Sentence Transformers 和 timm 库以及 OpenVINO 提供的不同工具和库之间的接口，用于加速 Intel 架构上的端到端管道。 OpenVINO 是一个开源工具包，可为 Intel CPU、GPU 和特殊的深度学习推理加速器提供高性能推理功能（请参阅支持设备的完整列表）。它提供了一组工具，可通过量化、修剪和知识蒸馏等压缩技术来优化模型。 Optimum Intel 提供了一个简单的界面来优化您的模型，将其转换为 OpenVINO 中间表示 (IR) 格式并使用 OpenVINO 运行时运行推理。要安装最新版本的 🤗 Optimum Intel 以及相应的所需依赖项，您可以使用 pip，如下所示： Optimum Intel 是一个快速发展的项目，定期添加新模型支持，因此您可能需要使用以下命令从源代码安装： 要将模型导出为 OpenVINO IR 格式，请使用 optimization-cli 工具。下面是一个
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: asr, diffusers, llm, omni, openvino, openvino-genai
+
+---
+
 ## 🕔 2026-07-21 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 159 个候选项目中筛选出 6 个未推荐过的新项目。
