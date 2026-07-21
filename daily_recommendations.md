@@ -1,3 +1,67 @@
+## 🕔 2026-07-21 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 159 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [actionbook](https://github.com/actionbook/actionbook)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,579
+- **核心概述**: 让您的人工智能代理获取登录和付费专区背后的来源。
+- **大概是做什么的**: 速度提高 10 倍 节省 90% 令牌 一次执行 30 个操作 网站 · GitHub · X · Discord Actionbook 将您每天使用的网站变成您的 AI 代理可以实际操作的网站。可能的话直接 API 请求，没有的话 UI 自动化，并处理登录。快速且有弹性。 ❌ 没有 Actionbook - 慢。代理在每一步后都会拍摄快照，解析页面，然后决定下一步要做什么。在 Airbnb 上搜索一间房间需要 5 分钟。 - 易碎。现代网站使用虚拟 DOM、流组件和 SPA。代理不了解这些渲染机制，因此他们在下拉菜单、日期选择器和登录墙上失败。 - 一次一个。您的代理完成一页后才能开始下一页。需要检查 30 个公司网站？一轮又一轮，一共30轮。 - 速度提高 10 倍。行动手册准确地告诉代理人该做什么。没有解析，没有猜测。 - 准确的。如果可能，直接 API 调用；如果不行，则使用 UI 回退。无论哪种方式登录都可以处理。 - 并发。无状态架构。并行操作数十个选项卡。查看代理访问 192 第一轮 p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, rust, skills
+
+---
+
+### 🌟 [Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 970
+- **核心概述**: 代理操作系统：将专业代理保留在中心，为每个任务启动一个临时协调器。本地优先，适用于任何模型。
+- **大概是做什么的**: 将简单语言请求转变为可运行的代理或团队，从公共 Agentlas Hub 借用专家，并通过私有的、所有者范围内的代理云保持您创建的代理可用。通过您已使用的 LLM 支持的主机运行它们。 Hephaestus 是底层的开源引擎。我们是信托代理。您的代理不是一个程序。这是一种资产。 — Agentlas — 您创建的代理不依赖于一台模型工作区或计算机。要从其他地方的云中检索它，请在受支持的主机上安装 Agentlas OS 并登录。将其粘贴到您现在使用的 LLM 中，例如 Claude Code、Codex、Gemini CLI、Antigravity 或 Cursor：当您已经在 LLM 内并希望 Agentlas 命令界面处于活动状态时，请使用此选项。对于直接 shell 命令，请参阅下面的安装方法。在本地工作区、私有 Agent Cloud 和公共 Agentlas Hub 中构建、拥有、借用和运行代理。运行中的 Agentlas Desktop 用通俗易懂的语言描述工作。 Agentlas 对请求进行分类，运行采访和研究门，生成包，验证它，然后作为
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agent, agent-framework, agent-os-desktop, agent-skills, agentic-ai
+
+---
+
+### 🌟 [Orkas](https://github.com/Orkas-AI/Orkas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 461
+- **核心概述**: 开源多代理 AI 桌面客户端 — 通过对话构建和指挥您的 AI 代理团队。指挥官LLM并行或串行派遣子代理；智能体通过反思和技能结晶进行自我进化。本地优先，BYO LLM 密钥（Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen）。 macOS / Windows / Linux。
+- **大概是做什么的**: 用于复杂工作的开源、本地优先的人工智能劳动力。 Orkas 是一个开源、本地优先的人工智能团队。超级指挥官协调专业特工共同完成复杂的工作。它作为桌面应用程序在 macOS、Windows 和 Linux 上运行；您的对话、文件、代理配置和模型密钥保留在本地，模型调用会直接发送给您的提供商。一名超能力指挥官将您的目标转变为可执行的路径，自己完成一般工作，并在工作需要团队时协调专业代理。没有流程图，没有编排代码。您的对话、文件和 API 密钥永远不会离开您的计算机。 - 开源、本地优先的 AI 劳动力 — 一个桌面 GUI，您可以通过一次聊天来指挥由专业 AI 代理组成的协调劳动力。不是一个聊天机器人，不是一个代码框架，也不是一个托管的 SaaS。 - 超级强大的指挥官 - 指挥官了解背景，分解目标，选择正确的代理、技能、连接器和工具，并在没有专家更适合时直接处理一般分析、写作、研究、文件工作和自动化。 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-collaboration, agent-orchestration, agent-team, agentic-ai, ai-agents, ai-assistant
+
+---
+
+### 🌟 [awesome-hermes-agent](https://github.com/SamurAIGPT/awesome-hermes-agent)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,843
+- **核心概述**: Nous Research 精心整理的 Hermes Agent 技能、插件、工具、集成和资源列表
+- **大概是做什么的**: 很棒的 Hermes Agent 为 Hermes Agent（来自 Nous Research 的自我进化 AI 代理）精心挑选的技能、插件、工具、集成和社区资源集合。 Hermes Agent 围绕一个封闭的学习循环构建 - 它根据实际经验生成技能，在工作时改进它们，并且从 v0.12.0 开始运行一个自治 Curator，在每周的 cron 周期内对技能库进行评分、合并和修剪。它构建了一个不断增长的模型，了解您在各个会话中的身份，并持久保留该背景。您可以将其托管在 5 美元的 VPS、GPU 集群或七个无服务器后端之一（Vercel Sandbox、Daytona、Modal 等）上。通过 18 个内置消息平台中的任何一个（Telegram、Discord、Slack、WhatsApp、Signal、飞书/Lark、WeCom、QQBot、元宝等）以及 Microsoft Teams（通过插件）访问它。该列表跟踪围绕它构建的生态系统。另请参阅：awesome-openclaw — OpenClaw（以前称为 Moltbot / Clawdbot）的精选资源，OpenClaw 是具有本机 Hermes 迁移路径的前身代理。生态系统快照（最后回顾：2026-05-06） - Hermes Age
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-tools, agentic-ai, ai-agents, autonomous-agents, awesome, awesome-list
+
+---
+
+### 🌟 [master-fetch](https://github.com/dondai1234/master-fetch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 344
+- **核心概述**: MCP 服务器，用于通过 Cloudflare 旁路、Trafilatura 提取和智能路由进行 Web 获取。免费、自托管、无 API 密钥。
+- **大概是做什么的**: 为您的 AI 代理提供网络。 0 美元。两个命令。没有钥匙。获取·爬行·绕过机器人墙·阅读PDF（甚至扫描）·搜索网络一台MCP服务器·一个温暖的浏览器·零帐户·在您的计算机上运行安装·6个工具·搜索·比较·诚实的限制相同的提示，三个工具。 Hound 在本地自行完成整个工作：搜索 + 获取 + 爬网。其他人则陷入了他们不做的部分。 Termux/Android 支持 + 仅 HTTP 优雅降级。 - 📱 精益安装无处不在。 pip install hound-mcp 不再拉动 playwright （它没有 Termux/aarch64 的轮子）。浏览器部门已将引脚移至[所有]额外位置。在没有 playwright 的平台上，hound 以纯 HTTP 模式运行。 - 🔧 优雅的降级。当浏览器依赖不可用时，Web fetch 直接使用 httpx + trafilatura。网络搜索和网��爬行工作正常。跳过隐秘的浏览器升级，并显示明显的浏览器不可用错误。网络屏幕截图会引发明显的运行时错误以及安装说明。 - 🩺 医生浏览器检查。 hound --doctor 现在检查浏览器 deps（非阻塞，显示 HTT
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, fetch, mcp, web, websearch-agent
+
+---
+
+### 🌟 [open-science](https://github.com/aipoch/open-science)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 309
+- **核心概述**: 用于科学发现的开源、模型无关的 AI 工作台。
+- **大概是做什么的**: 用于科学发现的开源、模型无关的 AI 工作台。 Open Science 是一款供研究人员使用的本地桌面应用程序。创建一个项目，用简单的语言描述一项任务，然后让代理在一个工作区中读取文件、运行代码、搜索网络、调用科学数据连接器以及返回报告、表格、图形和可检查的活动历史记录。 ⭐ 为仓库加注星标：如果这个项目有帮助，我们将非常感谢在 GitHub 上加注星标。对存储库加注星标可以鼓励持续开发。虽然只需要一秒钟，但却对项目产生了有意义的影响。 💡 该应用程序现已推出。 macOS、Windows 和 Linux 的安装程序已发布在最新版本页面上。 Open Science支持完整的计划→执行→制作→预览的工作流程；使用发行说明和已安装的应用程序了解特定于版本的详细信息。 - 常见问题 - 数据、权限和信任 - 开发和打包 - 从源代码构建 - 与 aipoch 生态系统的关系 打开最新版本，展开资产，然后选择适合您计算机的安装程序：您的 co
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agent, ai-for-science, ai4s, ai4science
+
+---
+
 ## 🕔 2026-07-21 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
