@@ -1,3 +1,67 @@
+## 🕔 2026-07-21 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 215 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SAG](https://github.com/Zleap-AI/SAG)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,185
+- **核心概述**: RAG 的新 SOTA — 原始检索架构以及人类和智能体的开源知识库。
+- **大概是做什么的**: 从现在开始，这是您唯一需要的知识库应用程序。它建立在最先进的 SAG 架构之上，将分散的文档和数据转化为可搜索、可连接和可追踪的知识。 https://github.com/user-attachments/assets/9bb618e9-fef8-4d07-8a30-3f7d83beb0ff 发布了基于 zleap-sag 包构建的全新版本，具有完全重新设计的 UI。之前的版本已经存档在v1分支中，不再维护。 SAG 并不是传统 RAG 和 GraphRAG 的融合。它是替代两者的原始检索��构。通过事件实体索引和查询时动态超边，SAG 在一个系统中提供语义检索和关系推理，无需维护两个 RAG 系统或合并两个检索路径。 SAG 在 HotpotQA、2WikiMultiHopQA 和 MuSiQue 的 9 个 Recall@1/2/5 指标中的 8 个指标中取得了最佳结果，为 RAG 建立了新的技术水平。该项目是基于 SAG 构建的面向个人和代理的完整知识库应用程序：来源和文档 → 结构化知识 → 搜索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, data-engineering, graphrag, knowledge-base, knowledge-graph
+
+---
+
+### 🌟 [DEEIX-Chat](https://github.com/DEEIX-AI/DEEIX-Chat)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,042
+- **核心概述**: 用于模型路由、多模式聊天、文件、工具、计费、身份和操作的企业 AI 工作区。
+- **大概是做什么的**: 用于企业模型路由、聊天、文件、工具、计费、身份和操作的集成 AI 平台。 DEEIX Chat 是一个开源、可部署的 AI 平台，适合需要长期、稳定、统一访问多个模型提供商的个人、团队和企业。它为多个上游模型和提供商提供了一个清晰的入口点，将多模式聊天、模型路由、文件和 RAG、MCP 工具、使用计费、身份、审核日志和操作控制集成到一款产品中。系统围绕简单部署、高效静态交付、低运行时资源占用进​​行设计：轻量而不受限、受限而不失能力、开放而不混乱。对话 适合日常使用的多模式聊天界面，具有流、分支、重试、编辑、反馈、共享、丰富的渲染和可追踪的模型执行元数据。模型和路由 上行通道、真实模型、路由绑定、优先级、权重、熔断、供应商映射和能力配置的平台模型层，减少了
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-chatbots, llm, mcp, open-source, rag
+
+---
+
+### 🌟 [Adrian](https://github.com/secureagentics/Adrian)
+- **项目语言**: Python
+- **星标数量**: ⭐ 406
+- **核心概述**: 开源运行时 AI 代理安全工具 - 在代理采取行动之前监视和控制 AI 代理，实时捕获恶意工具的使用、提示注入和策略漂移。
+- **大概是做什么的**: 代理攻击无法通过静态分析和网络监控。 Adrian 在运行时通过观察代理实际执行的操作（其操作和推理）并在其采取行动之前介入来捕获它们。开源，永久免费。 +35% 检测准确度 · 与仅行为监控相比，捕获的细微攻击多出 4 倍（OpenAI 和 DeepMind 研究）⭐ 如果您认为代理需要运行时安全层，请为该存储库加注星标。这就是新人们如何发现阿德里安的方式，以及我们如何知道如何继续公开建设它。 Adrian 是一款面向 AI 代理的开源、符合 AARM 的运行时安全监控引擎。它分析代理活动日志（工具调用、操作、输出）和推理跟踪，以检测恶意、错位或超出职权范围的行为，并可选择在运行中进行干预。 SDK 可用于 Python (LangChain) 和 TypeScript (sdk/typescript/README.md)，以及可保护来自终端的每个工具调用的本机 Claude Code 插件。 🆕 Claude Code 插件 - 现已上线。将 Adrian 放入 Claude Code 中，每个工具调用都会实时分类，并阻止或保留危险操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aarm, agent-security, agentic-ai, agentic-security, agents, ai
+
+---
+
+### 🌟 [datastoria](https://github.com/FrankChen021/datastoria)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 325
+- **核心概述**: AI 原生 ClickHouse 控制台，用于集群诊断和查询生成、优化和数据可视化。
+- **大概是做什么的**: AI 原生 ClickHouse 控制台，用于集群诊断、查询生成、基于证据的优化、智能可视化。 📖 更多演示/屏幕截图请访问 docs.datastoria.app - 自然语言数据探索 — 用简单的英语描述您的数据需求并立即接收优化的 ClickHouse 查询。 - 智能查询优化——人工智能检查架构、验证 SQL、收集证据并建议具体的 ClickHouse 性能改进。 - 智能可视化 - 要求使用简单语言的图表，DataStoria 会生成 SQL 和时间序列、条形图、饼图和表格视图的可视化规范。 - 支持代理技能——基于技能的代理架构，可在多轮对话中保存令牌；将官方 ClickHouse 代理技能应用于您的 ClickHouse - 多个模型提供商 - 使用 OpenAI、Anthropic Claude、Google Gemini、GitHub Copilot、OpenRouter、Groq、Cerebras、Nebius 等。 - GitHub Copilot 集成 — 使用 GitHub 设备流登录并使用现有的 Copilot 订阅进行聊天、查询帮助和其他人工智能驱动的工作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agent, ai-assistant, clickhouse, console
+
+---
+
+### 🌟 [awesome-openclaw](https://github.com/Anil-matcha/awesome-openclaw)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 977
+- **核心概述**: OpenClaw 资源、工具、技能、教程和文章的精选列表。 OpenClaw（以前称为 Moltbot / Clawdbot）— 用于 WhatsApp、Telegram、Discord 和 50 多个集成的开源自托管 AI 代理。
+- **大概是做什么的**: OpenClaw 资源、工具、技能、教程、文章和社区项目的精选列表——风靡全球的开源自托管 AI 代理。 OpenClaw（以前称为 Moltbot，最初称为 Clawdbot）是由 Peter Steinberger 创建的免费开源自主 AI 代理。它在您的计算机上本地运行，连接到 50 多个集成，并允许您通过 WhatsApp、Telegram、Discord、Signal、iMessage 等与 AI 聊天 - 无需订阅。另请参阅：awesome-hermes-agent — Hermes Agent 的精选资源（Nous Research），这是使用本机 Hermes Claw 迁移命令从 OpenClaw 进行最常见的升级路径。 OpenClaw 是一个自托管的开源 AI 代理，可充当您的个人 AI 助手 - 可通过 WhatsApp、Telegram、Discord 和 12 多个其他消息平台进行访问。与基于云的人工智能服务不同，OpenClaw 完全在您自己的硬件上运行，确保您的数据私密。 - 免费和开源 - 无需订阅，无锁定（MIT 许可） - 自托管 - 在 macOS、Linux 和 Windows 上本地运行 - 12+ 消息传递平台 - WhatsApp、Telegram、Discord、Slack、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agent, ai-automation, autonomous-agents, awesome, awesome-list
+
+---
+
+### 🌟 [xybrid](https://github.com/xybrid-ai/xybrid)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: 构建由设备上人工智能支持的应用程序
+- **大概是做什么的**: English · 简体中文 · 日本语 在应用程序和游戏中本地运行 LLM、ASR 和 TTS。 Flutter · Swift · Kotlin · Unity · Rust 私有，离线，无需云。 [docs-shield]：https://img.shields.io/badge/Docs-docs.xybrid.dev-1F6FEB?style=for-the-badge&logo=readthedocs&logoColor=white [docs-url]：https://docs.xybrid.dev/ [网站-shield]： https://img.shields.io/badge/Website-xybrid.ai-4285F4?style=for-the-badge [website-url]: https://www.xybrid.ai/ [discord-shield]: https://img.shields.io/badge/Join Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white [discord-url]: https://discord.gg/YhFHHkhbad [build-shield]：https://img.shields.io/github/actions/workflow/status/xybrid-ai/xybrid/ci.yml?branch=master&style=flat-square [build-url]：https://github.com/xybrid-ai/xybrid/actions [release-shield]： https://img.shields.io/github/v/release/xybrid-ai/xybrid?style=flat-square&sort=semver [release-url]: https://github.com/xybrid-ai/xybrid/releases [license-shield]: https://img.shields.io/badge/License-Apache 2.0-blue.svg?style=flat-square [license-url]: https://opensource.org/licenses/Apache-2.0
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-games, edge-ai, ios, kotlin, llamacpp, llm
+
+---
+
 ## 🕔 2026-07-21 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 189 个候选项目中筛选出 6 个未推荐过的新项目。
