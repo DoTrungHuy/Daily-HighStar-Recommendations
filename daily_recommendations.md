@@ -1,3 +1,67 @@
+## 🕔 2026-07-22 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ChatGPT-Shortcut](https://github.com/rockbenben/ChatGPT-Shortcut)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,627
+- **核心概述**: 🚀💪Maximize your efficiency and productivity. The ultimate hub to manage, customize, and share prompts. (English/中文/Español/العربية). 让生产力加倍的 AI 快捷指令。更高效地管理提示词，在分享社区中发现适用于不同场景的灵感。
+- **大概是做什么的**: AiShort（ChatGPT 快捷方式）- AI 提示管理工具 简体中文 繁体中文 5000 多个即用型 AI 提示 — 将 ChatGPT、Cursor 和任何 AI 工具从平庸变成专家级。 📖 目录 - 🧩 浏览器扩展 1. 访问 aishort.top 2. 搜索或浏览您需要的提示 3. 单击“复制”并粘贴到任何 AI 工具中 — ChatGPT 风格的聊天页面、Cursor 等编码工具、您自己的 API 调用等。就是这样！有关更多功能，请查看用户指南。使用人工智能和用好人工智能之间的差距就是一个很好的提示。同样的问题，不同的提示——人工智能的输出从通用变成真正有用。自己编写专家级提示需要多年的迭代。 AiShort 为您提供了一个经过社区考验的精选提示库，涵盖写作、编码、办公室工作、学习、设计、营销等。立即复制 → 粘贴 → 专家级输出。没有注册。没有付费专区。无需安装。打开并使用。 🚀 精选提示 — 涵盖写作、编码、办公室工作等 — 可供复制和使用。 🔍 标签+关键字搜索 — 按场景标签过滤，或按关键字搜索。 🌍
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-tools, aigc, chatgpt, chatgpt-api, chatgpt-prompts
+
+---
+
+### 🌟 [crabwalk](https://github.com/crabwise-ai/crabwalk)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 878
+- **核心概述**: 🦀 Crabwalk 🦀 OpenClaw 代理的实时同伴监控。
+- **大概是做什么的**: OpenClaw (Clawdbot) 代理的实时同伴监控，作者：@luccasveg。在实时节点图中观察您的 AI 代理在 WhatsApp、Telegram、Discord 和 Slack 上的工作情况。查看发生时的思维状态、工具调用和响应链。 - 实时活动图 - 代理会话和操作链的 ReactFlow 可视化 - 多平台 - 同时监控所有消息平台上的代理 - 实时流 - 与 openclaw 网关的 WebSocket 连接 - 操作跟踪 - 展开节点以检查工具参数和有效负载 - 会话过滤 - 按平台过滤，按接收者搜索 将此链接粘贴到您的 OpenClaw 代理并要求其安装/更新 Crabwalk：CLI 自动从 /.openclaw/openclaw.json 检测您的网关令牌 - 如果您是，则无需配置本地运行 OpenClaw。启动时，Crabwalk 会显示一个二维码，您可以扫描该二维码来打开手机上的监视器。需要安装 qrencode（安装程序会自动添加）。 Docker（推荐） 注意：在 Docker 中运行 Crabwalk 时，OpenClaw 网关通常在主机上运行。使用 CLAWDBOT URL=ws://host.do
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, clawdbot, moltbot, monitoring
+
+---
+
+### 🌟 [Awesome-LLMs-for-Vulnerability-Detection](https://github.com/huhusmang/Awesome-LLMs-for-Vulnerability-Detection)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,192
+- **核心概述**: 社区最全面、不断更新的软件漏洞检测大型语言模型研究索引——涵盖功能级、存储库级、代理和智能合约检测的论文，以及数据集、基准测试和调查。
+- **大概是做什么的**: 用于漏洞检测的很棒的大型语言模型有关使用法学硕士进行漏洞检测和发现的论文、项目和代理技能的精选列表。仅显示 2025 年及以后。对于早期的工作，请参阅论文档案（2024 年及更早）。标题 地点 年份 论文 Github :---: :---: :--: :---: :---: VulnGym：白盒漏洞搜寻代理的真实世界、项目级漏洞基准 2026 链接 VulTriage：基于 LLM 的漏洞检测的三路径上下文增强 2026 链接 链接 综合多代理工具漏洞发现 2026 链接 链接 QRS：用于自主漏洞发现的规则综合神经符号三元组 2026 链接 Seclens：针对安全漏洞检测的法学硕士的角色特定评估 2026 链接 链接 微调的法学硕士了解漏洞吗？语义陷阱调查 2026 链接 筛选噪音：LLM 代理在漏洞误报过滤中的比较研究 ISSTA 2026 链接 AgenticSCR：用于不成熟漏洞检测的自主代理安全代码审查 2026 链接
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome-list, code-security, large-language-models, llm, security, static-analysis
+
+---
+
+### 🌟 [Awesome-LLM-On-Policy-Distillation](https://github.com/nick7nlp/Awesome-LLM-On-Policy-Distillation)
+- **项目语言**: Python
+- **星标数量**: ⭐ 462
+- **核心概述**: 有关大型语言模型的策略蒸馏的精选论文和资源集。
+- **大概是做什么的**: 🔥 很棒的 LLM On-Policy Distillation 关于大型语言模型的 On-Policy Distillation 的论文和资源精选集。 2026.07.13 : 📦 EasyOPD 发布——第一个统一的 OPD 框架，涵盖 10 多种方法（交叉分词器、自蒸馏、逐步），具有单行 YAML 切换功能，基于 verl 构建。我们的调查的配套工具包。论文：arXiv:2607.11012 演示视频。 2026.06.18 : 📊 Survey V4 发布，包含 72 篇新的 OPD 论文、全文审查和 AI-trace 审核、更新的分类树和方法表。阅读 arXiv。 2026.06.02 : 🌐 OPDHub 推出，这是一个具有全文搜索和多轴过滤器（部分、损失、域、信号源、推出频率、学生规模、年份）的配套网站，以及可复制的 BibTeX 块。 2026.05.18 : 🚀 Survey V3 发布，添加§3 景观和方法选择章节和 §7.4 On-Policy vs Off-Policy Decision Framework 。阅读 arXiv。 2026.05.12 : 🛠️调查V2发布，新增名人堂、背景推荐阅读顺序、美人鱼进化时间表和分类思维导图。阅读 arXiv。 2026.04.01 : 📝 初始
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome-list, awesome-opd, awesomeopd, github-pages, knowledge-distillation, large-language-models
+
+---
+
+### 🌟 [sandlock](https://github.com/multikernel/sandlock)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 300
+- **核心概述**: 最轻的AI沙盒。 Linux的基于进程的沙箱，无容器，无VM，无特权，无提示注入
+- **大概是做什么的**: Linux 的轻量级进程沙箱。使用 Landlock（文件系统 + 网络 + IPC）、seccomp-bpf（系统调用过滤）和 seccomp 用户通知（资源限制、IP 强制、/proc 虚拟化）来限制不受信任的代码。没有 root、没有 cgroup、没有容器。容器和虚拟机功能强大但笨重。 Sandlock 瞄准了这一差距：没有镜像构建或 root 权限的严格限制。内置 COW 文件系统自动保护您的工作目录。功能 Sandlock ��器 MicroVM (Firecracker) 需要 Root 否 是 是 (KVM) 映像构建 否 是 是 启动时间 5 ms 200 ms 100 ms 内核共享 共享 单独的来宾 文件系统隔离 Landlock + seccomp COW 覆盖 块级网络隔离 Landlock + seccomp notif 网络命名空间 TAP 设备 HTTP 级 ACL 方法 + 主机 + 路径规则 N/A N/A 系统调用过滤 seccomp-bpf seccomp N/A 资源限制seccomp notif + SIGSTOP cgroup v2 VM 配置 \ 无根容器存在，但需要用户命名空间支持和 /etc/subuid 配置。 Sandlock 在 Rust 中实现，以提高性能和安全性： - sandlock-core : Rust
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, faas, landlock, linux, promptinjection, rust
+
+---
+
+### 🌟 [Awesome-LLM-RAG](https://github.com/jxzhangjhu/Awesome-LLM-RAG)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,338
+- **核心概述**: Awesome-LLM-RAG：大型语言模型中高级检索增强生成（RAG）的精选列表
+- **大概是做什么的**: 该存储库旨在记录法学硕士中有关检索增强生成（RAG）的高级论文。我们强烈鼓励想要向 LLM RAG 推广其出色工作的研究人员提出 Pull 请求来更新其论文信息！ - Bernstein - 具有 RAG 增强任务规划功能的多代理协调器。使用代码库分析中的上下文分解目标。 - 研讨会和教程 - 调查和基准 - 检索增强型法学硕士 - RAG 指令调优 - RAG 上下文学习 - RAG 长文本和记忆 - RAG 缺失模态 - 监护代理提示 - 49 个经过生产测试的 AI 代理系统提示 Claude Code 多代理编排，具有检索增强生成模式。麻省理工学院许可。 - CCHub - Claude Code / Codex / Gemini CLI 生态系统的桌面控制面板。从单个 Tauri 应用程序 (Windows / macOS / Linux) 管理 MCP 服务器、配置文件、代理技能、CLAUDE.md、挂钩和工作流程模板。 - ChunkTuner - 开源 Python/CLI/MCP 工具，用于对 RAG 的分块策略进行基准测试，并使用检索指标推荐配置（
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: embeddings, large-language-models, llm, rag, rag-embeddings, retrieval-augmented-generation
+
+---
+
 ## 🕔 2026-07-21 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 235 个候选项目中筛选出 6 个未推荐过的新项目。
