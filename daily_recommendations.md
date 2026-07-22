@@ -1,3 +1,67 @@
+## 🕔 2026-07-22 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [yao](https://github.com/YaoApp/yao)
+- **项目语言**: Go
+- **星标数量**: ⭐ 7,550
+- **核心概述**: ✨ 使用单个二进制文件构建 AI 代理和 Web 应用程序。
+- **大概是做什么的**: Yao — AI 时代的应用程序运行时 Yao 是一个用于构建 AI 代理和 Web 应用程序的开源运行时 — 作为单个二进制文件提供。 🏠 主页：https://yaoagents.com 📚 文档：https://yaoagents.com/docs 🖥️ Yao 桌面：https://yaoagents.com/download 将 Yao Agent 视为一个笼子，而不是一个动物。你放入的内容决定了行为；笼子让它受到控制。每个请求都流经相同的管道：Create Hook 在执行器之前运行 - 注入上下文、强制约束、路由请求。 Next Hook 在之后运行 - 验证输出、触发下游操作、驱动多步循环。人工智能承担着繁重的工作。您定义边界。模式执行器 何时使用 ------ ---------- ------------- LLM OpenAI、Anthropic 等 对话助手、问答、内容生成 CLI 代理 OpenCode、Claude Code、容器中的 Codex 计算机使用、沙箱隔离、SKILL 生态系统 纯 Hook 您自己的 TypeScript 代码 确定性逻辑、路由、菜单流 — 无需 AI 所有三者共享相同的 Hook 接口。你可以自由地混合它们——通过法学硕士��递一些请求，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agents, ai, ai-applications, ai-dev
+
+---
+
+### 🌟 [echo-agent](https://github.com/fuyuxiang/echo-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 723
+- **核心概述**: Echo Agent 是一个可自托管、长期运行、持续学习的 AI Agent，面向个人与团队的私有自动化场景。它可以部署在自有服务器上，统一连接模型、工具、记忆、权限与消息入口。内置四层认知记忆、遗忘曲线与矛盾检测机制，能够在跨会话任务中持续沉淀上下文，并保持长期记忆的质量。针对命令执行、文件操作等高风险行为，它提供基于 LLM 的审批与解释机制，为关键操作建立可审计、可追溯的安全边界。原生支持 MCP、A2A、多模型路由、任务调度、工具调用和多通道接入，覆盖 CLI、Gateway API、微信、Telegram 等入口。它让 Agent 带着长期记忆和可进化技能，持续、安全地为你工作。
+- **大概是做什么的**: 记得住过去，学得会未来的开源 AI Agent Echo Agent 是一个可自托管的长期运行 AI Agent。与一次性问答不同，它能： - 跨会话记忆 — 四层认知记忆结构，自动衰减与矛盾检测，解决长期运行下的记忆膨胀问题，对话不再从零开始。 - 自进化技能 — 从真实执行轨迹中生成候选改进，经评测验证后才生效，支持回滚。 - 多入口归一 — CLI、Gateway、Webhook、Cron 及 Telegram / Discord / Slack / 微信 / 飞书 / 钉钉等 12 个通道共享同一份状态。 - 安全可控 — 高风险工具调用经统一审批，凭证加密存储，执行日志可审计。 一句话： 让 Agent 带着记忆和不断进化的技能，长期为你工作。 环境要求：Python 3.11+，至少一个模型 API Key。. 国内镜像 / Windows / 一键脚本 查看配置项： echo-agent config explain 查看单项说明（含类型、默认值与可选值）、 echo-agent config dump 查看当前生效配置（密钥自动脱敏）、 echo-agent config validate 校验配置文件。 echo-agent run 和 echo-agent gateway 都是前台进程，关掉终端就退出。想让 agent 7×24 常驻，把网关注册为系统服务即可（macOS 注册用户级 LaunchAgent，Linux 注册用户级 systemd 服务，均无需 root，开机自启、崩溃自动拉起）： 网关运行后，在本机任意终端用 echo-agent cli 接入，即可与同一个常驻 agent 对话（会话独立、记忆共享���。网关仅监听本机 loopback（127.0.0.1），不支持远程地址；远程接入请走 ssh。 Linux 注意事项 / 无 systemd 环境 / 旧命令 - 退出登录后继续运行 （Linux 用户级服务默认随登录会话结束）： sudo loginctl enable-linger $USER - 服务器多用户场景 ： echo-agent gateway install --system 注册系统级 systemd 服务（需 sudo） - 无 systemd 的环境 （WSL 未开 systemd、容器等）：用 tmux 或 nohup 保持前台进程，如 tmux new -s echo-agent 'echo-agent gateway' - 升级后服务文件过期 ： echo-agent gateway status
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, memory
+
+---
+
+### 🌟 [huatuo](https://github.com/ccfos/huatuo)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,035
+- **核心概述**: 基于 eBPF 的 Linux 内核可观测性项目🚀🚀
+- **大概是做什么的**: 内核洞察、即时观测、自动追踪、持续分析 HUATUO 是 DIDI 开源、CCF 孵化的云原生操作系统可观测项目。它为通用云原生计算、人工智能计算和裸机基础设施服务提供内核级可观察性。通过集成 kprobe、tracepoint、ftrace 和 eBPF 等 Linux 内核动态跟踪技术，HUATUO 提供内核范围的洞察：更细粒度的指标、从内核运行时自动捕获上下文以及智能跟踪。华拓在滴滴生产环境中大规模部署，在解决系统故障、提升云原生操作系统的高可用性和性能方面发挥着关键作用。 HUATUO 现已列入 CNCF 版图。 - 内核范围的洞察：利用 BPF 将性能开销保持在 1% 以下，为 Linux 内核子系统（如 MM、CPU 调度、网络和块 I/O）提供全堆栈、低级可观察性洞察。 - 即时可观察性：事件驱动的运行时上下文捕获机制
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, autotracing, ebpf, k8s, linux-kernel
+
+---
+
+### 🌟 [curvine](https://github.com/CurvineIO/curvine)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 873
+- **核心概述**: AI-Native & Cloud-Native FS：云对象存储的高性能文件语义层，与高速缓存集成。 CNCF 沙箱项目。
+- **大概是做什么的**: Curvine：AI 原生和云原生文件系统 - 构建在云对象存储之上的高性能 POSIX 文件语义层，具有集成的多层分布式缓存，专为大规模 AI 工作负载和 AI 代理平台而设计。名字由来——“Curvine”源自刘慈欣科幻小说《三体》中超光速推进装置“曲率引擎”。它象征着该项目对数据访问极致加速的追求。 📚 文档资源 更多详细信息，请参考： - 官方文档 - 详细使用说明 - 贡献指南 AI 基础设施格局正在经历根本性的架构转变：从单个大型模型实例服务所有请求的集中式模型，到数以万计的 Agent 实例独立运行的分布式模型。每个代理都不是无状态的 HTTP 处理程序 - 它是一个有状态的进程，有自己的工作目录、持久上下文文件、节点模块、.git 历史记录，并且需要一个独立的 POSIX 工作区。这
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-infra, ai-memory-bank, ai-native, cloud-native
+
+---
+
+### 🌟 [Seal-Report](https://github.com/ariacom/Seal-Report)
+- **项目语言**: C#
+- **星标数量**: ⭐ 1,623
+- **核心概述**: 数据库报告工具和任务 (.Net)
+- **大概是做什么的**: Seal Report & Task 是一个完整的开源框架，用于从任何数据库或 NoSQL 源生成报告，以及执行复杂的任务（ETL、批处理）。完全用 C 语言为 Microsoft .NET 编写，并且根据 MIT 许可证免费向所有人开放。该产品专注于轻松安装和报告设计：设置后，可以在一分钟内构建和发布报告。网站和快速入门指南：sealreport.org Web 报表服务器的现场演示：sealreport.org/demo 免费支持和社区：GitHub 讨论 动态 SQL 源：使用您自己的 SQL，或让 Seal 引擎构建用于动态查询数据库的 SQL。 LINQ 查询：利用 LINQ 的强大功能连接和查询任何数据源（SQL、Excel、XML、OLAP Cube、HTTP JSON 等）。本机数据透视表：直接将元素拖放到数据透视表（交叉表）中并将其显示在报告中。 HTML5 图表：只需单击两次鼠标即可定义和显示图表系列（支持 ChartJS、ECharts、Plotly、ScottPlot 和 Gauge 库）。 AI代理：与基于角色的AI代理聊天，设计报告、分析数据、管理数据源
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, business-intelligence, chart, dashboards, etl
+
+---
+
+### 🌟 [veadk-python](https://github.com/volcengine/veadk-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 321
+- **核心概述**: 一个用于代理开发的开源套件，集成了 Volcengine 的强大功能。
+- **大概是做什么的**: Volcengine Agent 开发套件 一款用于 Agent 开发的开源套件，集成了 Volcengine 的强大功能。有关更多详细信息，请参阅我们的文档。教程可以通过 Jupyter Notebook 获取，或者直接在 Google Colab 中打开。我们使用 uv 来构建这个项目（how-to-install-uv）。我们建议您在自己项目的根目录中创建一个 config.yaml 文件，VeADK 能够自动读取它。要运行最小代理，您只需在 config.yaml 文件中设置以下配置：您可以参阅配置说明以了解更多详细信息。享受 VeADK 的最小代理：AgentKit 应用程序 当您的项目需要 AgentKit API、VeADK 的捆绑 Web UI、运行状况检查和代理拓扑端点时，请使用共享的 AgentKit 应用程序工厂。这使得平台路由和生命周期代码远离代理模块：有关完整生成的项目，请参阅示例/生成的 agentkit 项目。代理服务器元数据端点报告根代理的名称、描述、型号、子代理、工具、技能和安装的组件摘要。每个运行时行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, sdk, volcengine
+
+---
+
 ## 🕔 2026-07-22 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 188 个候选项目中筛选出 6 个未推荐过的新项目。
