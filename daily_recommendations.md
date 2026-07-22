@@ -1,3 +1,67 @@
+## 🕔 2026-07-22 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 213 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenChatCut](https://github.com/0xsline/OpenChatCut)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 385
+- **核心概述**: 本地优先的对话式 AI 视频编辑器，具有专业的多轨时间线、代理技能、MCP 集成和 Remotion 支持的渲染。
+- **大概是做什么的**: 开源 ChatCut 替代方案 · 代理原生 · 本地优先 AI 视频编辑器 让 Codex、Claude Code 和内置代理读取、编辑和导出保持完全可编辑的真实视频项目。网站：openchatcut.com 从单一指令到真实时间线：代理、媒体、预览、动态图形、过渡、效果和多轨音频都在一个项目中协同工作。什么是 OpenChatCut？ OpenChatCut 是开源 ChatCut 的替代品：一款视频编辑器，可将对话代理和专业时间线编辑带入同一工作区。它是独立开源（AGPL）的，不��属于商业 ChatCut 产品。 OpenChatCut = 本地视频项目 + 多轨时间线 + AI 代理 + MCP + 生产就绪的导出。它不仅仅生成无法再更改的视频。每次编辑都会写入项目内的真实轨道、剪辑、过渡、字幕、效果和媒体。您可以继续手动编辑、撤消或重做更改、保存版本或将项目交给其他代理。 OpenChatCut 是为那些想要
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, agentic-ai, ai-agent, ai-video-editor, claude-code, codex
+
+---
+
+### 🌟 [domd](https://github.com/do-md/domd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 359
+- **核心概述**: 适用于 React 的 20KB Markdown 原生 WYSIWYG 编辑器，专为 AI 流、人工编辑、大文件、macOS、Web 和代理工作流程而构建。
+- **大概是做什么的**: 所见即所得 Markdown 编辑器，由 20 KB、从头开始的 Markdown 原生引擎提供支持。专为快速人工编辑、巨大的 Markdown 文件和实时 AI 流而构建。 20 KB Brotli 压缩内核，仅使用 React 和 Immer 作为运行时依赖项 流畅地编辑和流式传输 20,000 行 Markdown 文档 锁步输入和渲染：稳定的光标、无延迟、无闪烁 原生 macOS 应用程序、快速查看预览、本地优先 Web 编辑器和代理友好的 CLI 在 Web 上尝试 · Streaming Playground · Input Playground English · 简体中文 · 日本语 Markdown 原生内核 DOMD 的所见即所得编辑直接发生在降价。 Markdown 文档本身就是编辑的真相来源。它不是构建在 ProseMirror、Slate、Lexical 或任何通用富文本框架之上。解析、渲染、编辑、撤消/重做、流式 AI 注入和分块文件加载都被建模为内核内的确定性状态变化。仅在发生更改的地方进行渲染，并且整个编辑堆栈适合 20 KB Brotli 压缩。 AI 模型逐个发出 Markdown 令牌，通常在中间分裂
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-streaming, contenteditable, large-files, llm
+
+---
+
+### 🌟 [opendraft](https://github.com/federicodeponte/opendraft)
+- **项目语言**: Python
+- **星标数量**: ⭐ 326
+- **核心概述**: 免费开源 AI 研究论文作者：19 名特工在约 10 分钟内起草了 2 万字的学术论文，并根据 CrossRef/OpenAlex/arXiv 验证了引用。导出 PDF/Word/LaTeX。托管于 openpaper.dev
+- **大概是做什么的**: OpenDraft — AI 研究草稿生成器 免费的开源自主研究引擎：从提示到经过验证的引文的基于来源的草稿的自动研究。 19 个专业代理 · CrossRef、OpenAlex、Semantic Sc​​holar、arXiv · PDF/DOCX/LaTeX 导出 不想管理 API 密钥和基础设施？使用托管版本 → OpenPaper.dev 每天 3 篇免费论文 · 无需 API 密钥 · 无需设置 · 无需信用卡 什么是 AI 生成研究草稿的开源 Python 引擎，并经过验证的引文 最适合文献综述、研究论文、论文草稿、可重复的研究工作流程 代理 19 个专门的 AI 代理（研究、结构、写作、引文、润色、导出） 来源 CrossRef、OpenAlex、Semantic Scholar (200M+)、 arXiv 语言 超过 57 种语言，包括英语、西班牙语、德语、法语、中文、日语 导出 PDF、Microsoft Word (.docx)、LaTeX 免费（自托管，MIT 许可证）或 OpenPaper.dev 的免费套餐（3 篇论文/天） 典型输出 5–80+ 页、10k–20k+ 字、30–50+ 经验证的引文 起草时间 10–20 分钟 每稿 API 成本 0.35 美元（双子座闪光）至 3 美元
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-papers, academic-writing, ai-agents, ai-writing, chatgpt-alternative, citation-verification
+
+---
+
+### 🌟 [overlay-translator](https://github.com/ciddwd/overlay-translator)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 325
+- **核心概述**: 无需 ROOT 的开源 Android 屏幕实时翻译工具，适合游戏、视觉小说和漫画。支持端侧与云端 OCR、离线 LLM、多种翻译服务和文字朗读（TTS），译文可直接显示在画面上。Open-source no-root Android real-time screen translator for games, visual novels, and manga. Supports on-device and cloud OCR, offline LLMs, multiple translation services, on-screen translations, and text-to-speech (TTS).
+- **大概是做什么的**: 屏译 · Screen Translator Android 屏幕实时翻译 · 截屏 → 识字 → 翻译 → 叠加显示 / 朗读 通过 MediaProjection / Shizuku 截屏 → 端侧或云端 OCR → LLM / 机器翻译 → 悬浮窗叠加显示。 译文既可以盖在原文附近，也可以用手机语音、自建语音服务或在线音色朗读。 无需 ROOT，单机可用，面向视觉小说、漫画、游戏对话等任意屏上文字的实时翻译。 安装 · 使用 · 配置 · 参与开发 · Releases · Issues 游戏 / 漫画 / 视觉小说画面在屏，按一下圆球，识别和翻译完成后，目标语言译文盖在原文上；需要时还能直接朗读。 - 悬浮球单击 ：默认翻整个屏幕；可切到「划词模式」——按一下后用手指圈一小块文字单独翻（更准、专挑要看的那一段） - 悬浮球长按 ：弹出弧形子菜单，常用动作一指可达：循环翻译 / 重选区域 / 在「全屏翻译」和「划词翻译」之间切换 / 快速切源语言与目标语言 / 切换翻译预设 / 打开设置 / 回主页。 按钮顺序和每页数量可在设置里调整 ；超过一页自动出现「下一组」翻页按钮 - 循环模式 ：可选固定间隔，或等待报幕文字稳定后再翻译；会跳过完全相同的画面 / 译文，并可优先检测下半屏对话区域，连续看剧情时不用反复点球 - 音量双键 ：同时按住「音量+ / 音量−」0.3 秒触发，手指不用离开游戏（需在系统无障碍中启用） - 从其它 App 选中文字 ：在任意 App 里长按选中一段文字 → 系统菜单选「屏译翻译」→ 直接弹译文卡片，省去切到屏译再框选的步骤 - 本机识别 ：ML Kit（中日韩英）/ PaddleOCR / 日漫 OCR——图不上传，无网也能用；PaddleOCR 支持 v5/v6 多档模型 - 本地 HTTP OCR ：可接入局域网里的 Umi-OCR / LunaTranslator OCR 服务，适合把 PC 端 OCR 能力接到手机截屏流里 - 云端识别 ：PP-OCRv6 在线（PaddleOCR AI Studio）/ 百度 / 腾讯 / 有道——本机识不准时兜底；PP-OCRv6 在线需填写 AI Studio Access Token - 切源语言时会自动检查"当前 OCR 能不能认这门语言"，认不了会推荐换引擎，不用自己排查 - 可自动判别横排 / 竖排 / 旋转文本方向，必要时重跑更合适的 OCR 路径；也可以手动锁定方向 - PaddleOCR、日漫 OCR 和方向模型会按设备可用核心数动态选择 1 / 2 / 4 / 6
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: android, android-app, game-translation, gguf, kotlin, llama-cpp
+
+---
+
+### 🌟 [keras-hub](https://github.com/keras-team/keras-hub)
+- **项目语言**: Python
+- **星标数量**: ⭐ 986
+- **核心概述**: Keras 3 的预训练模型中心。
+- **大概是做什么的**: KerasHub：多框架预训练模型📢 KerasNLP 现在是 KerasHub！ 📢 阅读 KerasHub 是一个预训练的建模库，旨在简单、灵活、快速。该库提供了流行模型架构的 Keras 3 实现，并与 Kaggle 模型上可用的预训练检查点集合配对。模型可与文本、图像和音频数据一起使用，以进行生成、分类和许多其他内置任务。 KerasHub 是核心 Keras API 的扩展； KerasHub 组件作为层和模型实现提供。如果您熟悉 Keras，那么恭喜您！您已经了解了 KerasHub 的大部分内容。所有模型都通过单一模型定义支持 JAX、TensorFlow 和 PyTorch，并且可以在开箱即用的 GPU 和 TPU 上进行微调。模型可以在具有内置 PEFT 技术的单个加速器上进行训练，或者通过模型和数据并行训练进行大规模微调。请参阅我们的入门指南以开始学习我们的 API。 - 预训练模型 - 征集贡献 - 贡献指南 导入 KerasHub 和其他库：��载 resnet 模式
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cv, deep-learning, jax, keras, llm, machine-learning
+
+---
+
+### 🌟 [r2ai](https://github.com/radareorg/r2ai)
+- **项目语言**: C
+- **星标数量**: ⭐ 460
+- **核心概述**: 基于 LLM 的雷达倒车2
+- **大概是做什么的**: R2AI - Radare2 的 LLM 增强逆向 此存储库包含 Radare2 的两个插件： r2ai - Radare2 的本机 AI 插件 decai - r2js 插件，特别关注反编译 如果您希望通过 MCP 将 Radare2 与其他代理一起使用： r2mcp - 官方的 Radare2 mcp r2copilot - 专注于 CTF 的 mcp r2copilot 如果您正在寻找专注于radare2 的自主代理： r2agent - 通过自主代理自动化radare2工作流程。 r2agent 配置不同的角色并自定义提示 通过 r2ai 命令通过 r2pipe 编写脚本 从 cli 或 r2 提示使用 repl 和批处理模式 支持自动 (ReAct) 模式以使用函数调用解决任务 使用本地和远程语言模型（ollama、openai、grok、anthropic 等） 使用其本机矢量数据库的 RAG markdown、代码或文本文件 嵌入 r2 命令的输出并解决给定数据的问题 用户定义的提示 ��荐的安装方式任何 r2ai 组件都是通过 r2pm 实现的： - 将 r2ai 命令添加到radare2 shell： r2 -qc r2ai - 您还可以在 $PATH 中运行包装器： r2pm -r r2ai Drop yo
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, radare2, radare2-plugin
+
+---
+
 ## 🕔 2026-07-22 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
