@@ -1,3 +1,67 @@
+## 🕔 2026-07-22 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,083
+- **核心概述**: 使用 TinyFish Web 代理构建的示例应用程序和配方的集合。开源示例供您学习和构建！
+- **大概是做什么的**: TinyFish Cookbook 搜索和获取现在免费 TinyFish 搜索和获取端点现在对所有人免费，具有慷慨的费率限制，无需信用卡。相同的密钥、相同的仪表板、相同的端点为生产工作负载提供支持。获取密钥 → 关于此存储库 欢迎来到 TinyFish 食谱！基于 TinyFish（AI 代理的 Web 层）构建的越来越多的食谱、演示和自动化集合。如果您的代理需要搜索实时网络、清晰地阅读页面、运行多步骤浏览器流程或访问任何不公开 API 的网站，那么可以从这里开始。 TinyFish 为您提供了四个端点，从闪电般的快速检索到完全托管的浏览器自动化。搜索和获取都是免费的。端点 它的作用 最适合速度定价 ---------- ------------- ---------- ------- --------- 搜索 api.search.tinyfish.ai 为客服人员构建的快速、结构化 Web 搜索 — JSON 结果，跨调用排名稳定。适用于任何代理的嵌入式检索层。专为法学硕士消费而设计，而不是蓝色链接浏览。每周都有新食谱推出。请参阅 CONTRIBUTING.md 添加您的。预建
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, cookbook, examples, tinyfish
+
+---
+
+### 🌟 [yzma](https://github.com/hybridgroup/yzma)
+- **项目语言**: Go
+- **星标数量**: ⭐ 525
+- **核心概述**: 随心所欲 - Go 应用程序直接集成 llama.cpp，使用硬件加速进行本地推理。
+- **大概是做什么的**: yzma - 使用您自己的智能进行 Go yzma 允许您编写直接集成 llama.cpp 的 Go 应用程序，以使用硬件加速进行完全本地推理。 - 在 Linux、macOS 或 Windows 上运行最新的视觉语言模型 (VLM) 和大/小/微型语言模型 (LLM)。 - 使用任何可用的硬件加速（例如 CUDA、Metal）或 Vulkan 以获得最佳性能。 - yzma 使用 purego 和 ffi 软件包，因此不需要 CGo。 - 适用于最新的 llama.cpp 版本，以便您可以使用最新的功能、性能改进和错误修复。此示例使用 SmolLM2-135M-GGUF 模型： 安装 yzma ，然后使用 yzma 命令行工具下载模型： 并运行 Go 程序： 您可以使用方便的 yzma 命令行工具下载适合您平台的 llama.cpp 预构建库。您还可以让应用程序在安装时自动下载它们，包括自动检测 CUDA 和 ROCm。有关 macOS、Linux 和 Windows 的安装说明，请参阅 INSTALL.md。我们还有有关在 Raspberry Pi、NVIDI 上运行 yzma 的具体信息
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: arduino-uno-q, cuda, gguf, golang, jetson-orin-nano, llama
+
+---
+
+### 🌟 [Detto](https://github.com/Gremble-io/Detto)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 510
+- **核心概述**: 适用于 macOS 的设备上会议捕获、听写和库本机知识层。一切都不会离开你的 Mac。
+- **大概是做什么的**: 按住某个键，说话，松开，文本出现。会议。语音备忘录。全系统听写。一切都不会离开你的 Mac。 Detto 是一款适用于 Apple Silicon 的 macOS 应用程序。它捕获会议、记录语音备忘录，并为您提供系统范围的听写，所有这些都在本地运行。神经引擎上的 ASR、GPU 上的文本细化。初始模型下载后，您的 Mac 上什么也没有留下。成绩单以带有 YAML frontmatter 的纯降价形式登陆，为 Obsidian、代理、反向链接以及您接下来构建的任何内容做好准备。我是一名顾问。我构建了一个黑曜石金库作为第二个大脑：带有 YAML frontmatter、反向链接、标签和自动处理所有内容的 AI 代理层的结构化笔记。客户文件、会议记录、行动项目、每日简报，所有这些都在保险库中流动。问题是捕获。我整天打电话，不做笔记。我需要一些能够监听、转录并将结构化降价放入金库的东西，以便我的代理可以取走它。拿出行动项目，更新客户文件，将各个点联系起来。我看着水獭、格兰诺拉麦片、萤火虫。他们都将你的数据锁定在他们的云端，
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apple-silicon, detto, dictation, llm, local-first, macos
+
+---
+
+### 🌟 [wisp-science](https://github.com/xuzhougeng/wisp-science)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 301
+- **核心概述**: 开源、本地优先的桌面 AI 研究工作台，用于使用 Python/R、MCP 生物信息学工具、SSH/WSL/GPU 运行时和 OpenAI/Anthropic 模型进行科学计算。
+- **大概是做什么的**: Wisp Science — 本地优先的人工智能研究工作台 Wisp Science 是一个开源、本地优先的桌面人工智能研究助手和科学计算工作台。它连接到 OpenAI 兼容和 Anthropic 模型，在本地、SSH、WSL 和 GPU 计算上运行持久的 Python 和 R 环境，加载可重用的代理技能 (SKILL.md)，并通过捆绑的模型上下文协议 (MCP) 服务器访问 80 个生物信息学和计算生物学数据库。 Wisp Science 采用 Rust、Tauri v2 和 Leptos 构建，作为跨平台桌面应用程序或无头 CLI 运行。我们的宣言：Wisp Science 开源且无国界。我们正在构建一个科学工作台，任何人在任何地方都可以使用、研究、改进，状态：MVP 垂直切片。代理循环、流媒体提供程序、工具、Python/R REPL、SQLite 存储、MCP 客户端和 Leptos UI 全部构建并运行。请参阅路线图了解推迟的内容。 - Rust（稳定，1.88+），带有 wasm32-unknown-unknown ：rustup 目标添加 wasm32-unknown-unknown - uv（Python 环境管理器）： - 可选：路径上带有 Rscript 的 R 以及用于持久化的 jsonlite 包
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agent, ai-assistant, ai-for-science, ai4science, bioinformatics
+
+---
+
+### 🌟 [framework](https://github.com/ai-driven-dev/framework)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 255
+- **核心概述**: 市场框架人工智能驱动的开发：上下文工程、插件、代理、技能、挂钩、模板、SDLC
+- **大概是做什么的**: AI 驱动的开发框架🇫🇷 软件工程师的代理框架，可以通过 IA 生成 100% 质量的代码。 7 个插件 · 40 种技能 · 2 个代理 · MIT AI 驱动的开发框架将一个有效的 SDLC（软件开发生命周期）安装到您的 AI 编码工具中——技能、代理、命令、规则——将一个粗略的想法变成经过审查、发布的拉取请求：为什么不直接编写自己的命令呢？ → 常见问题解答。 - AI 编码工具 — Claude Code（本机）或 Cursor / Copilot / Codex / OpenCode（请参阅兼容性）。 - 路径上的节点 - 用于发布钩子的插件（它们的作用）。工具状态发布 dist Claude Code ✅ 本机 · 推荐的 Marketplace Cursor ✅ 支持的 Marketplace · Flat GitHub Copilot ✅ 支持的 Marketplace · Flat Codex ✅ 支持的 Marketplace · Flat OpenCode ✅ 支持的 Flat Gemini · Mistral 🚧 进行中 — Marketplace = 通过工具的插件管理器安装和更新。 Flat = 文件直接复制到您的项目中，不涉及插件管理器。每个工具的安装步骤 → 其他工具。安装 6 个稳定插件（ aidd-ui 是 🚧 alpha，单独安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai, ai-driven-dev, ai-driven-development, commands
+
+---
+
+### 🌟 [software-agent-sdk](https://github.com/OpenHands/software-agent-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 923
+- **核心概述**: 一个干净的模块化 SDK，用于使用 OpenHands V1 构建 AI 代理。
+- **大概是做什么的**: OpenHands 软件代理 SDK OpenHands 软件代理 SDK 是一组 Python 和 REST API，用于构建使用代码的代理。您可以将 OpenHands Software Agent SDK 用于： 一次性任务，例如为存储库构建自述文件 日常维护任务，例如更新依赖项 涉及多个代理的主要任务，例如重构和重写 重要的是，代理可以使用本地计算机作为其工作区，也可以使用代理服务器在临时工作区（例如在 Docker 或 Kubernetes 中）内运行。您甚至可以使用 SDK 构建新的开发人员体验：它是 OpenHands CLI 和 OpenHands Cloud 背后的引擎。开始使用一些示例或查看文档以了解更多信息。使用 SDK 进行构建的情况如下： 有关安装说明和详细设置，请参阅入门指南。对于从此存储库进行本地开发，请运行 make build 以安装工作区依赖项和预提交挂钩。有关详细文档、教程和 API 参考，请访问：https://docs.openhands.dev/sdk 文档包括： - Getting Sta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, sdk
+
+---
+
 ## 🕔 2026-07-22 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 213 个候选项目中筛选出 6 个未推荐过的新项目。
