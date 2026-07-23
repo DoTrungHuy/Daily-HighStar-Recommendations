@@ -1,3 +1,67 @@
+## 🕔 2026-07-23 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 209 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Halfrost-Field](https://github.com/halfrost/Halfrost-Field)
+- **项目语言**: Go
+- **星标数量**: ⭐ 13,209
+- **核心概述**: ✍🏻 Source Code Deep Dives, System Design & Engineering Blogs | Halfrost-Field 冰霜之地：源码解析、系统设计与工程实践笔记
+- **大概是做什么的**: English       中文 ⭐️ 为什么创建这个仓库 人们常说阅读开源框架源码可以显着提高自己的技术，所以我也尝试过阅读开源框架源码并对其进行详细的分析和理解。在此记录一下我在阅读开源框架源码中的思考和感悟，希望对其他开发者有所帮助。我会不断更新这个存储库中的文章；如果您想跟随，请给它一颗星。 📖 目录 项目版本文章 :-------: :-------: :-------- vLLM v1 @ 6cf7b26bd vLLM 源代码演练：从generate()到第一个代币项目版本文章 :--------: :-------: :--------- Go 1.16 darwin/amd64 Go 初学者之旅 初步了解 Go 编译命令如何执行深入分析Go Slice 内部原理 如何设计和实现线程安全的 Map？ （第1部分）如何设计和实现线程安全的Map？ （二）访谈中的LRU/LFU：Bronze vs. King 深入研究Go接口内部 Go反射三定律
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: algorithms, blog, cryptography, go, golang, http2
+
+---
+
+### 🌟 [guardrails](https://github.com/guardrails-ai/guardrails)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,194
+- **核心概述**: 为大型语言模型添加护栏。
+- **大概是做什么的**: - [2025 年 2 月 12 日] 我们刚刚推出了 Guardrails Index，这是第一个同类基准测试，比较 6 个最常见类别的 24 个 Guardrails 的性能和延迟！查看 index.guardrailsai.com 上的索引 Guardrails 是一个 Python 框架，它通过执行两个关键功能来帮助构建可靠的 AI 应用程序： 1. Guardrails 在应用程序中运行输入/输出防护，以检测、量化和减轻特定类型风险的存在。要了解全套风险，请查看 Guardrails Hub。 2. Guardrails 帮助您从法学硕士生成结构化数据。 Guardrails Hub 是特定类型风险的预构建措施（称为“验证器”）的集合。多个验证器可以组合在一起形成输入和输出防护，拦截 LLM 的输入和输出。访问 Guardrails Hub 查看验证器的完整列表及其文档。为 LLM 验证创建输入和输出防护 1. 下载并配置 Guardrails Hub CLI。 2. 从 Guardrails Hub 安装护栏。 3. 从已安装的护栏创建一个防护装置。 4. 运行多个gua
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, foundation-model, gpt-3, llm, openai
+
+---
+
+### 🌟 [gigatoken](https://github.com/marcelroed/gigatoken)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,019
+- **核心概述**: GB/s 的语言模型标记化
+- **大概是做什么的**: 比 HuggingFace 的分词器快 1000 倍，直接替换。以 GB/s 的速度标记您的文本数据！请注意，HF tokenizer 和 tiktoken 都已经在运行多线程 Rust！ Gigatoken 是最快的语言建模标记器。它支持多种 CPU 硬件，以及几乎所有常用的分词器。请参阅基准部分，了解分词器和 CPU 之间的详细吞吐量数据。 Gigatoken 可以与其自己的 API 一起使用，也可以与 HuggingFace Tokenizers 或 Tiktoken 兼容模式使用。兼容模式（最简单） 我们付出了大量的努力来确保输出与在此设置中使用 HuggingFace Tokenizer 获得的输出完全匹配，但这对性能造成了不可忽视的成本。您仍然可以期待全面更快的性能，但不会达到 Gigatoken API 的 1000 倍。 Gigatoken API（最快） 使用 Gigatoken API 可以让 Rust 实现直接读取数据，并在允许最大并行性的同时跳过尽可能多的开销。请记住，传递 Python 数据结构
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llm, nlp, tokenization, tokenizer
+
+---
+
+### 🌟 [vendo](https://github.com/runvendo/vendo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 您的客户使用嵌入式代理来自动化工作、构建视图并连接他们的工具。
+- **大概是做什么的**: 开源定制层。您的用户在您的产品之上构建自己的功能和微应用程序。 Vendo 在您的产品中放置了一个代理：客户在您的品牌和护栏内构建视图、通过您的 API 进行操作并自动化工作。 60 秒内安装或使用编码代理安装将其粘贴到应用程序的存储库中：vendo init 扫描您的应用程序并建议将连接作为权限门控差异； vendo doctor --json gateways 已完成，每个错误代码都链接到其确切的修复。完整的剧本：docs.vendo.run/install。已经有代理（AI SDK 或 Mastra）？请使用现有代理上的提示 — 它将 Vendo 的受保护工具添加到您的循环中，而无需替换它。下面的每个捕获都是在演示主机应用程序中运行的真实代理，而不是模型。重新混合用户界面。将鼠标悬停在组件上，描述更改并将其应用到位。跨工具自动化。采用简单语言，突出自动化，每个工具都经过批准。和它说话。现场语音会话：大声询问，代理进行回复并呈现视图。 Vendo 使用任何 AI SDK LanguageModel 运行流代理。 1·摘录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, automation, devtools, embedded-ai
+
+---
+
+### 🌟 [ai-memory-vault](https://github.com/jaredrhod/ai-memory-vault)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 366
+- **核心概述**: Give your AI a real, persistent memory.开源系统加上模板，可将黑曜石金库转变为人工智能的工作记忆。 No vector database, just markdown.
+- **大概是做什么的**: Never used Claude Code?从 jaredrhod.com 开始：选择您的情况，它会将您引向正确的道路。为您的人工智能提供真实、持久的记忆。这是一种开源系统，可将黑曜石金库转变为人工智能的工作记忆，因此它可以记住会话中的所有内容，存在于模型之外，没有大小上限，并且可以一步准确地提取所需的内容。免费使用、共享和构建，但不得转售（请参阅许可证）。 - ai-memory-vault.md：构建脚本。在克劳德内部运行它，它会采访你，然后构建一个完整的、自我维护的系统：启动配置、围绕你的真实项目的文件夹结构、自己写的每日笔记、随着人工智能了解你而更新的配置文件，以及教它按照你的方式完成重复任务的“工作”。你的金库成为人工智能的内存，因此它存在于模型之外，没有大小上限，并且人工智能仅保存当前任务所需的内容，同时一步即可完成其他任务。观看演练：https://www.youtube.com/watch?v=0VEisejtRJY AI Priming 是让你的 AI 在之前阅读你的一组特定笔记
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, ai-agents, ai-memory, anthropic, claude
+
+---
+
+### 🌟 [paxml](https://github.com/google/paxml)
+- **项目语言**: Python
+- **星标数量**: ⭐ 555
+- **核心概述**: Pax 是一个基于 Jax 的机器学习框架，用于训练大规模模型。 Pax 允许进行先进且完全可配置的实验和并行化，并展示了业界领先的模型触发器利用率。
+- **大概是做什么的**: Pax 是一个在 Jax 之上配置和运行机器学习实验的框架。设置 Cloud TPU VM 以获取有关启动 Cloud TPU 项目的更详尽文档。以下命令足以从 a 中创建具有 8 个核心的 Cloud TPU VM。如果您使用的是 TPU Pod 切片，请参阅本指南。使用 gcloud 和 --worker=all 选项从本地计算机运行所有命令：以下快速入门部分假设您在单主机 TPU 上运行，因此您可以 ssh 到虚拟机并在那里运行命令。通过 ssh 连接虚拟机后，您可以从 PyPI 安装 paxml 稳定版本，或从 github 安装开��版本。要从 PyPI (https://pypi.org/project/paxml/) 安装稳定版本：如果您遇到传递依赖项问题并且您使用的是本机 Cloud TPU VM 环境，请导航到相应的版本分支 rX.Y.Z 并下载 paxml/pip package/requirements.txt 。该文件包含本机 Cloud TPU VM 环境中所需的所有传递依赖项的确切版本，我们在其中构建/测试相应的版本。 F
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: c4, gpt, jax, large-language-models, llm, model-flops
+
+---
+
 ## 🕔 2026-07-23 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 185 个候选项目中筛选出 6 个未推荐过的新项目。
