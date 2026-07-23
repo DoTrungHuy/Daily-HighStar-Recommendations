@@ -1,3 +1,67 @@
+## 🕔 2026-07-23 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,936
+- **核心概述**: AutoRAG：现在您的代理可以在您的计算机中找到任何内容。如果你经常使用它，它会变得更聪明。
+- **大概是做什么的**: 用于文档收藏的自我进化图书馆员代理。正在寻找原始的 AutoRAG（RAG AutoML/管道优化工具）？该存储库现在托管 AutoRAG 2.0 ，这是将 AutoRAG 完全重新构想为自我进化的图书馆员代理。最初基于 Python 的 AutoRAG（用于自动为数据查找最佳 RAG 管道的 RAG AutoML 工具）现在位于此存储库的 Legacy/ 目录中。旧版 AutoRAG 并未被放弃。它继续在维护模式下进行维护（错误修复、依赖项更新和通过 pip install AutoRAG 发布 PyPI）。现有用户可以像以前一样继续使用它 - 请参阅旧版自述文件以获取其文档，并像往常一样在此存储库中提交问题。新功能开发主要集中在 AutoRAG 2.0 上。 AutoRAG 搜索您的 PDF、wiki、笔记、研究论文和知识库，然后将结果整理成干净、编号的知识单元。没有原始的 grep 转储。只是回答。 AutoRAG 是一个定制的 Pi 代理 - 配置到图书馆员中的 Pi 代理循环。搜索使用两层工作流程：父协调器委托
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: analysis, automl, benchmarking, document-parser, embeddings, evaluation
+
+---
+
+### 🌟 [CodeIsland](https://github.com/wxtsky/CodeIsland)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 2,194
+- **核心概述**: MacBook 缺口中的实时 AI 编码代理状态面板 — 13 种 AI 工具的实时状态、批准和回复，以及 iPhone 和 Apple Watch 配套
+- **大概是做什么的**: 适用于 macOS Dynamic Island (Notch) 的实时 AI 编码代理状态面板 CodeIsland 位于 MacBook 的刘海区域，实时向您显示 AI 编码代理正在做什么。不再需要切换窗口来检查 Claude 是否正在等待批准或 Codex 是否完成其任务。它通过 Unix 套接字 IPC 连接到 13 个人工智能编码工具，显示会话状态、工具调用、权限请求等——所有这些都在一个紧凑的像素艺术风格的面板中。 - Notch 原生 UI — 从 MacBook 刘海展开，闲置时折叠 - 支持 13 种 AI 工具 — Claude Code、Codex、Gemini CLI、Cursor、Copilot、Trae/Traecli、Qoder、Factory、CodeBuddy、OpenCode、Kimi Code CLI、Cline、Pi / Oh My Pi - 实时状态跟踪 — 实时查看活动会话、工具调用和 AI 响应 - 权限管理 — 直接从面板批准/拒绝工具权限- 问答 — 无需离开当前应用程序即可回答客服人员的问题 - 像素艺术吉祥物 — 每个 AI 工具都有自己的动画角色 - 一键跳转 — 单击会话即可跳转到其终端选项卡或 IDE 窗口 - 智能抑制 —
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, developer-tools, dynamic-island, macos, notch
+
+---
+
+### 🌟 [pi-mcp-adapter](https://github.com/nicobailon/pi-mcp-adapter)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,045
+- **核心概述**: 适用于 Pi 编码代理的令牌高效 MCP 适配器
+- **大概是做什么的**: 将 MCP 服务器与 Pi 一起使用，无需烧毁上下文窗口。 https://github.com/user-attachments/assets/4b7c66ff-e27e-4639-b195-22c3db406a5a Mario 写了关于为什么你可能不需要 MCP 的文章。问题：工具定义很冗长。单个 MCP 服务器可以燃烧 10k+ 代币，无论您是否使用这些工具，您都需要支付这笔费用。连接几台服务器，在对话开始之前您就已经烧毁了一半的上下文窗口。他的看法是：完全跳过 MCP，编写简单的 CLI 工具。但 MCP 生态系统拥有有用的东西——数据库、浏览器、API。该适配器让您可以轻松访问。一种代理工具（200 个代币）而不是数百个。代理按需发现其需要的内容。服务器仅在您实际使用时启动。安装后重新启动 Pi。首次运行时会发生什么 适配器自动读取标准 MCP 文件。如果您已经拥有它们，则无需额外设���。你已经有了...会发生什么 --------------------- -------------- .mcp.json 或 /.config/mcp/mcp.json Pi 立即使用它。第一次打开 /mcp 时，您会看到一个简短的提示信息
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, coding-agent, extension, llm, mcp
+
+---
+
+### 🌟 [eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 448
+- **核心概述**: AI 代理的电子商务技能——针对 Amazon、Shopify、Etsy、TikTok Shop 和所有平台的在线卖家的产品研究、营销自动化、供应链优化和业务分析。
+- **大概是做什么的**: Nexscope 的电子商务技能 为 Amazon、Shopify、eBay、Etsy、TikTok Shop 和 Walmart 卖家提供 157 种免费人工智能代理技能。可与 OpenClaw · Claude Code · Cursor · Windsurf · Codex · 任何与技能兼容的代理一起使用 一次安装所有 142 个技能： 或安装特定技能： 示例 - 安装增长策略技能： 然后自然地问你的 AI 助手：“我在 Shopify 上卖宠物衣服，每月 8,000 美元。我如何在 6 个月内达到 20,000 美元？”什么是电子商务技能？电子商务技能是纯文本指令文件，可为人工智能代理提供在线销售的专业知识。没有二进制文件，没有 API 密钥，没有设置摩擦 - 只是任何法学硕士都可以读取的标记。安装一项技能，向您的人工智能助手询问有关您商店的问题，并获得专家级分析 - 定价策略、列表优化、市场扩张、PPC 活动 - 由经过验证的电子商务框架提供支持。 🏆 电子商务增长战略 使用单位经济学（CAC、LTV、AOV）诊断您的业务健康状况，确定第一个增长杠杆，并构建 90 天路线图。 📦跨境电商打进15+国际市场，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, ai-agent-skills, ai-agents, amazon-seller-tools, claude-code-skills
+
+---
+
+### 🌟 [optim-agent](https://github.com/Optim-Agent/optim-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 375
+- **核心概述**: LLM 代理作为您的超参数优化器。
+- **大概是做什么的**: 使用编码代理进行代理系统优化。自动执行算法工程师的迭代参数调整工作。 optim-agent 允许 Claude Code / Codex / OpenCode 通过读取代码、提出试验和记录测量的客观结果来调整真实的系统参数。当您的系统公开可配置参数和可测量目标时使用它。它将每个参数的含义与试验历史显示的内容相结合，然后提出下一个要评估的配置。客观评估仍然具有权威性：optim-agent 提出值，根据声明的空间对其进行验证，记录结果���并在代理回复时退回到安全采样。 模型 系统 研究 训练、架构和 RL 实验 推理、延迟、成本、控制和决策规则 定量信号、模拟和科学工作流程 - 语义建议 - 编码代理对参数含义、研究背景和观察到的结果进行推理，而不是将每个维度视为匿名坐标。 - 小预算杠杆 - 当评估成本昂贵且经典的问题时很有用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, automl, claude-code, codex-cli, developer-tools
+
+---
+
+### 🌟 [Awesome-RAG-Reasoning](https://github.com/DavidZWZ/Awesome-RAG-Reasoning)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 449
+- **核心概述**: [EMNLP 2025] 很棒的 RAG 推理资源
+- **大概是做什么的**: Awesome-RAG-Reasoning 资源、论文、工具和实现的精选集合，弥合了检索增强生成 (RAG) 与大型语言模型和代理中的推理之间的差距。该存储库汇集了传统上独立的研究领域，以实现更强大的代理人工智能系统。 📖 相关调查：该存储库基于“Towards Agentic RAG with Deep Reasoning：LLM 中 RAG 推理系统的调查”中提出的分类法和框架，在 Hugging Face Daily Papers 中进行了🏆 专题报道。 🔍 深入研究：对于对 Agentic Deep Research 最新发展（包括尖端论文和行业领先的深度研究产品）感兴趣的研究人员，我们建议在 Awesome-Deep-Research 🔥🔥🔥 中探索我们的综合收藏。如果您觉得这个存储库有用，请引用我们的论文：🔍 检索增强生成（RAG）已经成为一种强大的范式，它将大型语言模型的优势与外部知识检索相结合。通过使用外部来源的相关信息增强语言模型，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agentic-rag, llm, llms, multi-agent-systems
+
+---
+
 ## 🕔 2026-07-22 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
