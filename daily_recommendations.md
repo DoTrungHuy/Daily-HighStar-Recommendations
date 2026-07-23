@@ -1,3 +1,67 @@
+## 🕔 2026-07-23 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PandaWiki](https://github.com/chaitin/PandaWiki)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 10,002
+- **核心概述**: PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。
+- **大概是做什么的**: 📖 官方网站     PandaWiki 是一款 AI 大模型驱动的 开源知识库搭建系统 ，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统 ，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索 等能力。 PandaWiki 控制台 Wiki 网站前台 ------------------------------------------------ ------------------------------------------------ - AI 驱动智能化：AI 辅助创作、AI 辅助问答、AI 辅助搜索。 - 强大的富文本编辑能力：兼容 Markdown 和 HTML，支持导出为 word、pdf、markdown 等多种格式。 - 轻松与第三方应用进行集成：支持做成网页挂件挂在其他网站上，支持做成钉钉、飞书、企业微信等聊天机器人。 - 通过第三方来源导入内容：根据网页 URL 导入、通过网站 Sitemap 导入、通过 RSS 订阅、通过离线文件导入等。 你需要一台支持 Docker 20.x 以上版本的 Linux 系统来安装 PandaWiki。 使用 root 权限登录你的服务器，然后执行以下命令。 根据命令提示的选项进行安装，命令执行过程将会持续几分钟，请耐心等待。 关于安装与部署的更多细节请参考 安装 PandaWiki。 在上一步中，安装命令执行结束后，你的终端会输出以下内容。 使用浏览器打开上述内容中的 “访问地址”，你将看到 PandaWiki 的控制台登录入口，使用上述内容中的 “用户名” 和 “密码” 登录即可。 PandaWiki 是由 AI 大模型驱动的 Wiki 系统，在未配置大模型的情况下 AI 创作、AI 问答、AI 搜索 等功能无法正常使用。 首次登录时会提示需要先配置 AI 模型，可自行选择一键配置或手动配置。 推荐使用 百智云模型广场 快速接入 AI 模型，注册即可获赠 5 元的模型使用额度。 关于大模型的更多配置细节请参考 接入 AI 模型。 “知识库” 是一组文档的集合，PandaWiki 将会根据知识库中的文档，为不同的知识库分别创建 “Wiki 网站”。 如果你顺利完成了以上步骤，那么恭喜你，属于你的 PandaWiki 搭建成功，你可以： - 访问 控制台 来管理你的知识库并上传文档等待学习成功 - 访问 Wiki 网站 使用知识库并测试AI问答效果 如在使用产品过程中遇到问题，可通过以下方式获取帮助： - 📘查阅官方文档：常见问题，更多内容请参考文档目录。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, docs, document, documentation, kb, knownledge
+
+---
+
+### 🌟 [lime](https://github.com/limecloud/lime)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,461
+- **核心概述**: 面向中国创作者的人工智能内容工作区：桌面写作、研究、提示库、知识库和多模型工作流程。
+- **大概是做什么的**: AI content workspace for Chinese creators: desktop writing, research, prompt management, knowledge base, and multi-model workflows. 简体中文 · English · 文档 · 发布记录 · 问题反馈 把资料、灵感、生成、修改和复盘放在一个地方，让一次创作不是一次性聊天，而是一条能继续推进的工作流。 Lime 是一个开源的 Electron 桌面端 AI 内容工作台，面向中文创作者、品牌运营、研究型写作者和小团队，覆盖 AI 写作、选题研究、素材管理、提示词沉淀、知识库和多模型创作流程。 English summary: Lime is an open-source desktop AI workspace for Chinese creators to write, research, manage prompts, organize knowledge, and reuse multi-model workflows. 你可以把它理解成一个更适合长期创作的 AI 工作台： - 不是只问一句、答一句，而是围绕一个项目持续推进 - 不是每次都重新找资料、重新写提示词，而是把参考、风格和做法沉淀下来 - 不是生成完就散落在聊天记录里，而是把结果保存起来，下一次还能继续用 - 不是绑定某一家 AI 服务，而是让你使用自己已经配置好的模型能力 如果你经常在收藏夹、文档、聊天工具、图片工具和模型后台之间来回切换，Lime 想帮你把这些动作收回到同一个创作空间里。 - AI 写作与内容创作 ：写公众号文章、小红书笔记、视频脚本、播客提纲和直播话术 - 资料研究与知��整理 ：整理网页、笔记、截图、访谈和历史材料，生成报告或简报 - 选题分析与内容复盘 ：拆解爆款案例、竞品内容、发布节奏和表达风格 - 提示词管理与风格复用 ：保存常用写法、品牌语气、选题方法和团队模板 - 多模态创作准备 ：生成图片提示词、封面方向、演示稿结构或网页草稿 - 多模型工作流 ：使用自己配置的 AI 服务商和模型，在同一个任务里持续修改、扩写、压缩或换平台发布 1. 公众号作者：收藏夹很多，但迟迟写不出来 你想写一篇热点观点文。浏览器里开着十几个参考链接，微信收藏里还有几段灵感，脑子里有判断，但一落笔就散。 用 Lime 时，你可以先把参考和零散想法放进同一个任务里，让 AI 帮你整理角度、拆出论证顺序，再继续追问：哪里不够锋利？哪一段像套话？标题能不能更有点击欲但不标
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-collaboration, agent-harness, agentic-ai, ai, claw
+
+---
+
+### 🌟 [openclacky](https://github.com/clacky-ai/openclacky)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 1,131
+- **核心概述**: 最Token高效的开源AI Agent
+- **大概是做什么的**: English · 简体中文 · 日本语 有贡献吗？在打开 PR 之前阅读 CONTRIBUTING.md。最高效的开源人工智能代理。 OpenClacky 在功能上与 Claude Code 相当，成本相当，并且比其他开源代理显着节省（与 OpenClaw 相比节省 50%，比 Hermes 便宜 3 倍）。 100% 开源 (MIT)，BYOK 与任何 OpenAI 兼容模型，基于两年的 Agentic 研发和利用工程。网址：https://www.openclacky.com/ · 由MiraclePlus · 真格基金 · 红杉中国 · 高瓴资本支持 同样的任务，你付多少钱？在相当的代理工作负载下，与主流替代方案相比，OpenClacky 节省了大量的 Token 支出。代理相对成本 注释 OpenClacky 0.8 16 个工具 · 100% 缓存命中 · 子代理路由 Claude Code 1.0×（基准） 世界一流的工具，闭源订阅 OpenClaw 1.5× 类似的工具代理 Hermes 3× 52 个内置工具 — 模式膨胀 3–4× 数字是使用 Claude Code 作为基准对内部常见代理任务测量的平均值。完整的基准测试报告将发布在 GitHub 上。核心代理能力大致为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, openclaw, skills
+
+---
+
+### 🌟 [xagent](https://github.com/xorbitsai/xagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 271
+- **核心概述**: 建立能够规划、委派、使用工具并交付实际工作的个人代理和企业 AI 员工队伍，而无需脆弱的工作流程。
+- **大概是做什么的**: 从个人经纪人开始。扩展到人工智能劳动力队伍。 Xagent 帮助个人完成实际任务，团队发布可重用代理，企业使用自己的工具、模型、知识和基础设施运行代理系统，而无需脆弱的工作流程。描述结果。不是工作流程。适用于个人工作、团队自动化和企业人工智能系统。加入 Telegram Discord ❤️ 喜欢 Xagent？给个star支持一下发展吧��已发布的包捆绑了 Web UI — 不需要 Docker 或 Node (Python 3.11+)：在 /setup 创建您的管理员帐户；然后，Xagent 将引导您进入“模型”页面以连接提供商。来自 OpenClaw 还是 Hermes？ xagent migrate 导入您的代理、技能和计划（请参阅 xagent migrate --help ）。使用 Docker 运行（团队/自托管） 首次启动时，Xagent 重定向到 /setup 以创建第一个管理员帐户。忘记管理员密��？重置：一个平台，三种使用方式 将 Xagent 用作... 用于... 您将获得什么 个人代理 一次性任务、研究、写作、文件和数据探索 使用工具、文件进行聊天式执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, claude, gemini, llm, no-code
+
+---
+
+### 🌟 [MicrosoftAgentFrameworkSamples](https://github.com/rwjdk/MicrosoftAgentFrameworkSamples)
+- **项目语言**: C#
+- **星标数量**: ⭐ 304
+- **核心概述**: 使用 C# 演示 Microsoft 代理框架的示例
+- **大概是做什么的**: Microsoft Agent Framework 示例 用 C 语言演示 Microsoft Agent Framework 的示例 什么是 Microsoft Agent Framework (AF)？ AF是Semantic Kernel和AutoGen的继承者； Microsoft 的两个生成式 AI 框架，用于构建多代理应用程序。该框架是开源的，可以在 C 和 Python 中使用（此存储库仅探讨 C）如果您想学习 Microsoft Agent 框架，最好的方法是遵循此 Udemy 课程 YouTube 视频系列 此存储库中的所有示例都是此 YouTube 视频系列的一部分 漫画书 E2E 示例在哪里？它���被移至自己的存储库以使其更易于维护
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, framwork, microsoft
+
+---
+
+### 🌟 [flocks](https://github.com/AgentFlocks/flocks)
+- **项目语言**: Python
+- **星标数量**: ⭐ 424
+- **核心概述**: Flocks 是一个代理 SecOps 平台。
+- **大概是做什么的**: AI-Native SecOps Platform Flocks 是一个使用 Python 构建的人工智能驱动的 SecOps 平台，具有多代理协作、HTTP API 服务器和现代终端用户界面，旨在帮助您完成 SecOps 任务。 - 🤖 AI Agent 系统 - 多智能体协作（构建、计划、通用） - 🔧 丰富的工具集 - bash、文件操作、代码搜索、LSP 集成等 - 🌐 HTTP API Server - 基于 FastAPI 的高性能 API 服务 - 💬 会话管理 - 会话和上下文管理 - 🎯 多模型支持 - 支持 Anthropic、OpenAI、Google 等 AI 模型 - 📝 LSP 集成 - 语言服务器协议support - 🔌 MCP 支持 - 模型上下文协议 - 🖼️ WebUI - 基于���览器的 Web 用户界面 - 🎨 TUI 界面 - 现代终端用户界面 3. 安装和使用 Flocks 支持两种部署方法 - 选择一种： 方法说明 3.1 PC 安装 推荐用于本地开发和生产部署 3.2 Docker 安装 开箱即用，但代理浏览器主导模式目前不可用 3.1 选项 1：PC 安装3.1.1 系统要求
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, flocks, secops
+
+---
+
 ## 🕔 2026-07-23 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
