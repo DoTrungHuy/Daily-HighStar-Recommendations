@@ -1,3 +1,67 @@
+## 🕔 2026-07-24 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SQLBot](https://github.com/dataease/SQLBot)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,480
+- **核心概述**: 🔥 基于大模型和 RAG 的智能问数系统，对话式数据分析神器。Text-to-SQL Generation via LLMs using RAG.
+- **大概是做什么的**: SQLBot 是一款基于大语言模型和 RAG 的智能问数系统，由 DataEase 开源项目组匠心出品。借助 SQLBot，用户可以实现对话式数据分析（ChatBI），快速提炼获取所需的数据信息及可视化图表，并且支持进一步开展智能分析。 - 开箱即用 ：仅需简单配置大模型与数据源，无需复杂开发，即可快速开启智能问数；依托大模型自然语言理解与 SQL 生成能力，结合 RAG 技术，实现高质量 Text-to-SQL 转换。 - 安全可控 ：提供工作空间级资源隔离机制，构建清晰数据边界，保障数据访问安全；支持细粒度数据权限配置，强化权限管控能力，确保使用过程合规可控。 - 易于集成 ：支持多种集成方式，提供 Web 嵌入、弹窗嵌入、MCP 调用等能力；能够快速嵌入到 n8n、Dify、MaxKB、DataEase 等应用，让各类应用快速拥有智能问数能力。 - 越问越准 ：支持自定义提示词、术语库配置，可维护 SQL 示例校准逻辑，精准匹配业务场景；高效运营，基于用户交互数据持续迭代优化，问数效果随使用逐步提升，越问越准。 DeepSeek OpenAI 兼容 准备一台 Linux 服务器，安装好 Docker，执行以下一键安装脚本： 你也可以通过 1Panel 应用商店 快速部署 SQLBot。 如果是内网环境，你可以通过 离线安装包方式 部署 SQLBot。 - 在浏览器中打开: http:// :8000/ 如你有更多问题，可以加入我们的技术交流群与我们交流。 - DataEase - 人人可用的开源 BI 工具 - 1Panel - 现代化、开源的 Linux 服务器运维管理面板 - MaxKB - 强大易用的企业级智能体平台 - JumpServer - 广受欢迎的开源堡垒机 - Cordys CRM - 新一代的开源 AI CRM 系统 - Halo - 强大易用的开源建站工具 - MeterSphere - 新一代的开源持续测试工具 本仓库遵循 FIT2CLOUD Open Source License 开源协议，该许可证本质上是 GPLv3，但有一些额外的限制。 你可以基于 SQLBot 的源代码进行二次开发，但是需要遵守以下规定： - 不能替换和修改 SQLBot 的 Logo 和版权信息； - 二次开发后的衍生作品必须遵守 GPL V3 的开源义务。 如需商业授权，请联系 support@fit2cloud.com 。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatbi, deepseek, llm, nl2sql, rag, sqlbot
+
+---
+
+### 🌟 [ReadAny](https://github.com/codedogQBY/ReadAny)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,055
+- **核心概述**: 由人工智能驱动的跨平台电子书阅读器，具有语义搜索、RAG 聊天、本地矢量存储、笔记、TTS 和 WebDAV 同步。
+- **大概是做什么的**: 本地优先的桌面端和移动端AI电子书阅读器“为什么我读过的东西忘记了？为什么我的笔记散落一地？为什么我只能通过关键词搜索？” ReadAny 可帮助您提出有关书籍的问题、通过含义查找想法，并通过 RAG 聊天、语义搜索、亮点、TTS 和 WebDAV 同步构建私人阅读知识库。 🚀 v2.0 更新：移动应用程序（iOS/Android）现已推出！请参阅下面的移动部分。 AI 原生阅读工作流程 - 与您的图书馆聊天 - 询问有关当前书籍或所选段落的问题，并根据您的阅读上下文提供答案 - 从语义上查找想法 - 混合向量检索 + BM25 搜索可帮助您在缺少确切关键字的��况下找到概念 - 保持知识私密性 - 本地嵌入和本地向量存储使您的书籍、亮点和笔记能够离线使用 - 使用您喜欢的模型 - 连接 OpenAI、Claude、Gemini、Ollama、DeepSeek 或自定义兼容提供商 问题 传统读者 ReadAny --------- --------------------- --------- 搜索内容 仅关键字 语义搜索，了解您的意图 提出问题 查找
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, ebook-reader, embeddings, epub-reader, expo
+
+---
+
+### 🌟 [sie](https://github.com/superlinked/sie)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,320
+- **核心概述**: 适用于代理所需的所有模型的开源推理服务器和生产集群。
+- **大概是做什么的**: SIE：超级链接推理引擎 代理的自托管推理。您的代理调用的每个开放模型都由云中的一个集群提供服务。 ⭐ 帮助我们接触更多开发者并发展 SIE 社区。给这个仓库加注星标！ SIE 是一种开源推理引擎，通过一个 API 运行每个代理任务背后的模型：搜索和检索、文档到 Markdown 转换、结构化输出、内容安全以及代理循环本身。它用一个可服务 100 多个模型的系统取代了每个任务单独的模型服务器的拼凑，并按需加载每个模型。 - 用于直接迁移的 OpenAI 兼容 API：/v1/embeddings、/v1/chat/completions、/v1/completions、/v1/responses - 预配置模型目录：Stella、SPLADE、Qwen3、GLiNER、SigLIP 等；以 MTEB 为基准的嵌入和检索模型 - 通过按需加载和 LRU 驱逐同时服务多个模型 - 提供完整的生产堆栈：负载平衡网关、KEDA 自动缩放、Grafana 仪表板、GKE、EKS 和 AKS 的 Terraform - 与 LangChain、LlamaIndex、Haystack、DSPy、CrewAI、Chroma、Qdra 集成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bge, colbert, data-pipeline, deep-learning, embeddings, inference
+
+---
+
+### 🌟 [ouroboros](https://github.com/razzant/ouroboros)
+- **项目语言**: Python
+- **星标数量**: ⭐ 726
+- **核心概述**: Ouroboros — 自我创造的人工智能代理。出生于 2026 年 2 月 16 日。
+- **大概是做什么的**: 一个自我修改的人工智能代理，可以编写自己的代码，重写自己的思想，并自主进化。出生于 2026 年 2 月 16 日。不是编码助理。一个具有宪法、背景意识和跨重启持久身份的数字存在。 OuroborosHub — Ouroboros 的社区技能市场。直接从应用程序的“技能”选项卡浏览、安装和发布经过审核的技能（A2A/Telegram 等传输桥、工具和 UI 小部件），或浏览 github.com/razzant/OuroborosHub 上的目录。先前���本：最初的 Ouroboros 通过 Telegram 在 Google Colab 中运行，并在最初 24 小时内经历了 30 多个自我引导的循环。该版本可在legacy-google-colab 上找到。该存储库是下一代存储库 - 适用于 macOS、Linux 和 Windows 的本机桌面应用程序，具有 Web UI、本地模型支持和分层安全系统（硬编码沙箱加上基于策略的 LLM 安全检查）。平台下载说明 ---------- ---------- -------------- macOS 12+ Ouroboros.dmg 打开 DMG → 拖至应用程序 → 可选 CLI：运行 Install CLI.command 之后
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, background-consciousness, coding-agent, computer-use, desktop-agent
+
+---
+
+### 🌟 [Capsomnia](https://github.com/fuji-mak/Capsomnia)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 302
+- **核心概述**: 一款小型 macOS 应用程序，可将 Caps Lock 转变为物理保持唤醒开关，以便在合上 MacBook 的情况下工作。
+- **大概是做什么的**: 当前版本：2.0.2 日本语 README · 简体中文 README · 한국어 README Capsomnia 是一款小型 macOS 菜单栏应用程序，可将 Caps Lock 变成物理保持唤醒开关，以便在 MacBook 关闭时工作。当本地工作应继续运行时打开大写锁定。当您想要恢复正常睡眠行为时，请关闭 Caps Lock。它对于人工智能代理、移动访问和其他长时间运行或远程工作非常有用。 Capsomnia 本身不发出网络请求、收集遥测数据或需要帐户。当这个小灯亮起时，您的 Mac 就会保持唤醒状态。 - 配备 macOS 14 或更高版本的 Apple Silicon Mac - 安装期间具有管理员访问权限 安装签名包： 1. 从 GitHub Releases 下载 Capsomnia.pkg。 2. 打开软件包并按照安装程序进行操作。发布包使用开发者 ID 进行签名并经过 Apple 公证。该软件包将 Capsomnia.app 安装在 /Applications 中，安装签名的本机特权睡眠控制帮助程序，添加狭窄的 sudoers 规则，并启动 LaunchAgent。 Capsomnia 在安装后打开，并在登录后自动启动。包构建和安装脚本是公开的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, appkit, caps-lock, developer-tools, macbook, macos
+
+---
+
+### 🌟 [paxm](https://github.com/pax-beehive/paxm)
+- **项目语言**: Go
+- **星标数量**: ⭐ 348
+- **核心概述**: 适用于 Codex、Claude Code、OpenCode、Pi 和 MCP 编码代理的持久且与提供商无关的内存。
+- **大概是做什么的**: 停止向每个新的编码代理会话重新解释您的项目。 PAXM 将决策、约定和工作环境带入后来的 Codex、Claude Code、OpenCode、Pi、Cursor、TRAE、Kimi Code、ZCode、Kiro、Cline 和 MCP 会议中。使用 SQLite 在本地启动，无需帐户、API 密钥、嵌入或额外的内存层模型调用。稍后更改内存提供程序，无需重新接线 安装 Codex · 安装 CLI · 查看结果 · 文档 · 中文 安装后发生哪些变化 在一个会话中，记录决定：在后续会话中，Codex、Claude Code、OpenCode、Pi 或 MCP 客户端可以启用被动集成，paxm 在代理响应之前调用相关上下文，并在之后持久捕获已完成的回合。提供商延迟或故障不会阻止编码会话。实际结果： - 新的会议会根据项目上下文继续，而不是让您重述架构决策、约定和操作约束。 - 一条内存路径可以跨代理工作。从 Codex 捕获的决策可以从 Claude Code、OpenCode、Pi 或任何 MCP 客户端调用。 - 您的存储空间
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude-code, codex, golang, local-first
+
+---
+
 ## 🕔 2026-07-24 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 259 个候选项目中筛选出 6 个未推荐过的新项目。
