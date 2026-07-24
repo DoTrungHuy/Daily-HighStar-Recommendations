@@ -1,3 +1,67 @@
+## 🕔 2026-07-24 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 183 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [TradingAgents-astock](https://github.com/simonlin1212/TradingAgents-astock)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,591
+- **核心概述**: A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。
+- **大概是做什么的**: TradingAgents-Astock 基于 TauricResearch/TradingAgents （65K ⭐）的 A 股深度特化 fork 全 Apache 2.0 开源 · pip install 即跑 · 零外部服务依赖 ⚠️ 本项目是 TradingAgents 论文 框架的工程实现与研究复现，面向研究与教学。 不构成任何投资建议，也不提供任何投资服务。 原版 TradingAgents 是一个出色的多 Agent 投研框架，但它针对美股设计：数据走 Yahoo Finance / Alpha Vantage，分析师不懂 A 股制度，辩论和决策完全面向美股市场。 本 Fork 的目标 ：把 TradingAgents 的多 Agent 辩论架构真正落地到 A 股，不是简单翻译，而是从数据层、Agent 角色、交易规则三个维度做深度特化。 ------ ------ --------- 数据源 Yahoo Finance / Alpha Vantage mootdx + 东财 + 新浪 + 同花顺（全免费直连） Analyst 角色 4 个（市场/情绪/新闻/基本面） 7 个 （+政策分析师/游资追踪/解禁监控） 交易规则 美股（T+0、无涨跌停） A 股（T+1、涨跌停、最小手数、交易时段） 输出语言 英文 中文报告（内部辩论保持英文以保证推理质量） Alpha 基准 SPY 沪深 300（CSI 300） 特性 原版 TradingAgents 本 Fork ------ ------------------- ------------- 许可证 Apache 2.0 全 Apache 2.0 部署依赖 pip install 开箱即用 A 股数据 ❌ mootdx + 东财 + 新浪 + 同花顺（直连 HTTP） A 股特化角色 ❌ 政策/游资/解禁 3 个深度角色 A 股交易约束 ❌ T+1/涨跌停/手数/ST 全覆盖 - quick think llm ：所有 Analyst、Researcher、Trader、Risk Debater - deep think llm ：Research Manager 和 Portfolio Manager（需要综合全局信息做决策） ------ ------ --------- 🏪 市场分析师 K 线形态、技术指标、量价分析 get stock data , get indicators 💬 舆情分析师 社交媒体情绪、散户讨论热度 get news 📰 新闻分析师 行业新闻、公告、宏观事件 g
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, china-stocks, claude, fintech, investment-research
+
+---
+
+### 🌟 [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,288
+- **核心概述**: Claude Code & Codex 的 AI 视频技能 — 使用 Remotion 的电影产品视频：106 个镜头配方卡、161 个动作预览、一个可立即投入生产的模板
+- **大概是做什么的**: 用于制作电影产品视频的代理技能：106 个镜头配方卡·162 个样式·161 个动作预览·可立即生产的模板 video-shotcraft 是一种 AI 代理技能，可将 Claude Code 或 Codex 转变为动作设计工作室：将其指向您的产品，然后使用 Remotion 进行故事板、动画和声音设计电影宣传片、营销、发布或演示视频 — 真实页面捕获、2.5D 摄像机移动、包括节拍同步剪辑和电影级 SFX。下面的 38 秒图库介绍本身就是用这种技能制作的 - 故事板、镜头实现和声音设计都是由代理按照工具包的方法完成的：https://github.com/user-attachments/assets/cba2df8a-4b2e-4247-bace-d0b1dea9c2bd ▶️ 在 YouTube 上观看高清视频 在线浏览每个镜头卡和动作预览：图库 - 搜索、过滤、在变体之间切换和复制选定的拍摄卡名称。最直接的方法：将存储库链接交给您的代理。在 Claude Code / Codex 或类似的代理中，只需说：代理将克隆存储库并将其链接到您的技能目录中。或者用技能CL安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-video, claude-code, claude-code-skills, claude-skills
+
+---
+
+### 🌟 [text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 4,956
+- **核心概述**: 文本嵌入模型的超快推理解决方案
+- **大概是做什么的**: 文本嵌入推理 用于文本嵌入模型的超快推理解决方案。 NVIDIA A10 上的 BAAI/bge-base-en-v1.5 基准测试，序列长度为 512 个令牌： - 使用私有或门控模型 - 气隙部署 - 使用重新排序模型 - 使用序列分类模型 - 使用 SPLADE 池 - 分布式跟踪 - Apple Silicon（自制软件） - AMD Instinct GPU (ROCm) 文本嵌入推理 (TEI) 是用于部署的工具包并提供开源文本嵌入和序列分类模型。 TEI 可为最流行的模型提供高性能提取，包括 FlagEmbedding、Ember、GTE 和 E5。 TEI 实现了许多功能，例如： 无模型图编译步骤 Metal 支持在 Mac 上本地执行 小 docker 映像和快速启动时间。为真正的无服务器做好准备！基于令牌的动态批处理 使用 Flash Attention、Safetensors 权重加载进行推理的优化转换器代码 生产就绪（使用 Open Telemetry、Prometheus 指标进行分布式跟踪） 文本嵌入 推理目前支持 Nomic、BERT、CamemBERT、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, embeddings, huggingface, llm, ml
+
+---
+
+### 🌟 [duckle](https://github.com/slothflowlabs/duckle)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 860
+- **核心概述**: DuckDB 上的开源 ETL/ELT。编写、连线或绘制一条管道：350 多个组件、160 多个连接器、dbt、CDC、数据质量、Python API 和用于 AI 代理的 MCP。随时随地运行，无锁定。
+- **大概是做什么的**: 一根管道。写下来、连线或画出来。 Duckle 是开放式单引擎 ELT 堆栈。一种管道格式，在 DuckDB 上编译为 SQL：用 Python 编写，从 350 多个连接器和组件连接它，或者在画布上绘制它 - 或者向设备上的 AI 助手 Duckie 描述它，并验证它构建的内容。管道内转换、数据质量和沿袭使用相同的工件。可在任何地方运行 - 笔记本电脑、CI、无头或浏览器 - 并且在需要时完全离线。没有每行税，没有锁定。 Duckle 是 SlothFlowLabs 的一个独立开源项目。它基于 DuckDB 引擎构建，但不属于 DuckDB Labs 或 MotherDuck，也不隶属于 DuckDB Labs 或 MotherDuck，也不受其认可。 - v0.5.6 中的新增功能 - 下载/安装 - 运行您的第一个管道 - 食谱/示例 - 应用内 Git (GitHub/GitLab) - 工作区 + Git 流程 - MCP 服务器：连接 Claude、Cursor 或任何代理 - 连接管理 - 功能矩阵 在笔记本电脑上运行的可视化数据管道工作室。将源、转换、验证器和接收器拖到画布上。将它们连接在一起。按运行。 Duckle 编译图 t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cdc, connectors, data-engineering, data-integration, data-pipeline
+
+---
+
+### 🌟 [tools](https://github.com/strands-agents/tools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,136
+- **核心概述**: 为代理提供强大功能的一组工具。
+- **大概是做什么的**: Strands Agents 工具一种模型驱动的方法，只需几行代码即可构建 AI 代理。 Strands Agents Tools 是一个社区驱动的项目，为您的代理提供了一组功能强大的工具。它通过提供用于文件操作、系统执行、API 交互、数学运算等的现成工具，弥合了大型语言模型和实际应用程序之间的差距。 - 📁 文件操作 - 通过语法突出显示和智能修改来读取、写入和编辑文件 - 🖥️ Shell 集成 - 安全地执行 shell 命令并与之交互 - 🧠 内存 - 跨代理运行存储用户和代理内存，以通过 Mem0、Amazon Bedrock 知识库、Elasticsearch 和 MongoDB Atlas 提供个性化体验 - 🕸️ Web 基础设施 - 使用 Tavily 和 Exa 支持的工具执行 Web 搜索、提取页面内容以及抓取��站 - 🌐 HTTP 客户端 - 通过全面的身份验证支持发出 API 请求 - 💬 Slack 客户端 - 实时 Slack 事件、消息处理和 Slack API 访问 - 🐍 Python 执行 - 运行 Python 代码
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agents, ai, anthropic, autonomous-agents
+
+---
+
+### 🌟 [solo](https://github.com/solo-agent/solo)
+- **项目语言**: Go
+- **星标数量**: ⭐ 325
+- **核心概述**: 让人类和人工智能代理通过渠道、任务和持久工作空间进行协作。
+- **大概是做什么的**: 人类和人工智能编码代理的本地优先工作空间。通过渠道、线程对话、任务板和渠道范围的团队协调多个代理。 :---: :---: :---: :---: :---: :---: 与 Claude Code Codex CLI OpenCode Hermes OpenClaw 配合使用 如果它可以接收心跳，则它已被雇用。 Solo 是为人工智能代理不再感觉像命令行工具而开始像人类队友一样工作的那一刻而构建的。如果您有 Claude Code、Codex、OpenCode、Hermes 或 OpenClaw 会话并排运行，Solo 将为它们提供一个共享工作空间，用于协调、内存、任务和可审阅的输出。没有 Solo 使用 Solo Agent 工作分散在终端选项卡和聊天记录中。不同的代理在一个 Solo 工作区中协同工作：渠道、DM、线程、渠道团队和任务板。每次运行都从重新解释上下文开始。代理保留长期记忆、自己的环境和固定的工作空间。 “你能做到吗？”成为未跟踪的对话。消息成为客服人员可以领取、提交、审查和关闭的任务。较大的工作必须手动拆分和处理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workspace, ai-agents, ai-workspace, claude-code, codex, multi-agent
+
+---
+
 ## 🕔 2026-07-24 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 211 个候选项目中筛选出 6 个未推荐过的新项目。
