@@ -1,3 +1,67 @@
+## 🕔 2026-09-09 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PawWork_ZhuaZhua](https://github.com/Player-YN/PawWork_ZhuaZhua)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,277
+- **核心概述**: Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.
+- **大概是做什么的**: Treat the already-logged-in Chrome as a programmable computer . 爪爪 is the agent on that machine. sidepanel → service worker → offscreen agent · tools: action · run + sys · sheet / doc / web What you get · Run it · Limits · Use cases · Mechanism · Next 爪爪 · 完全解放版 ( PawWork ZhuaZhua ) is a Chrome MV3 unpacked extension. Not a selection widget. Not a Chrome Web Store app. An unpacked side-panel agent that can operate the current tab, run guest JS against the browser ( sys inside run ), and keep sheet / Univer doc / site HTML in the session. Anything a Tampermonkey userscript could do is in scope. There is no userscript store. One packaged playbook ships: page-restyle . You should see a side-panel agent named 爪爪 · 完全解放版 . There is no Chrome Web Store listing. 1. Download the Release zip or clone this repo and use the extension/ folder 2. Chrome → chrome://extensions → Developer mode → Load unpacked → select that folder ( manifest.json is at its root) 3. Open the side panel → paste a BYOK key ( pagewand providers ) → send a task on a normal http(s) page After you edit files in the load fo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-agent, byok, chrome-extension, llm, pptx
+
+---
+
+### 🌟 [reagent](https://github.com/Dryxio/reagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,516
+- **核心概述**: Reconstruct and validate C/C++ code from compiled programs with AI.
+- **大概是做什么的**: ReAgent is an open-source AI reverse-engineering agent that uses Ghidra and LLMs—including Claude, Codex, and OpenAI-compatible models—to reconstruct and validate C/C++ functions from compiled binaries. It combines independent reverser/checker models, agentic evidence gathering, candidate build and test gates, structural verification, and parity analysis in one autonomous workflow. Original pre-0.2 demo: YouTube Get started with your AI Give your AI this repo and tell it what you want to do. It can check your setup, install the tools it needs, and walk you through anything that needs your help. Use an AI coding agent that can access files and run commands on your computer. Copy this into your agent: Help me set up https://github.com/Dryxio/reagent. Read the README, check my installed tools and AI provider setup, and help me install and configure what's missing. Ask which program or project to work on. Start with one small function. Run the setup check (re-agent doctor), explain which AI provider will be used and any API costs, and set a small model-call limit. Then try to recreate th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, binary-analysis, c-plus-plus, claude, codex
+
+---
+
+### 🌟 [envkit-releases](https://github.com/Env-Kit/envkit-releases)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 508
+- **核心概述**: EnvKit — free local development environment for Windows & macOS: nginx/Apache, multiple PHP versions, MySQL/MariaDB, PostgreSQL, Redis, MongoDB, Mailpit, Node.js, trusted .test HTTPS, and a built-in MCP server for AI-assistant control. A Laragon/XAMPP/Herd alternative.
+- **大概是做什么的**: EnvKit — local development environment for Windows & macOS Your local stack, one place. A free Laragon / XAMPP / Herd alternative. EnvKit is a desktop app that runs your entire local web-development stack — nginx or Apache, multiple PHP versions, MySQL/MariaDB, PostgreSQL, Redis, MongoDB, Mailpit, Node.js, Python, phpMyAdmin, trusted .test HTTPS, and PATH sync — from one modern tray app. Build Laravel, WordPress, PHP, and Node/React/Next.js/Angular sites locally with one-click services and trusted local SSL. It can even be driven by an AI assistant (Claude Code / Desktop, Cursor, Windsurf, VS Code, Zed, OpenCode, Gemini CLI, PhpStorm/JetBrains) through a built-in MCP server. This repository is the public home for EnvKit releases & documentation. Visit the website for features, screenshots, and comparisons, or grab the installer from the Releases page. The application source is maintained privately. - A wave of community-reported fixes (0.32.0-beta.8) — removed sites stay removed, EnvKit never stops a PostgreSQL/MySQL you installed yourself, "Move data directory" works across drives w
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: apache, development-environment, herd-alternative, laragon-alternative, laravel, local-development
+
+---
+
+### 🌟 [openclip](https://github.com/ganeshmshetty/openclip)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 312
+- **核心概述**: Fast, open-source macOS floating text actions. Transform text, run scripts, and integrate AI seamlessly.
+- **大概是做什么的**: OpenClip — The open-source macOS text utility Official repository: github.com/ganeshmshetty/openclip Select any text in any app, and OpenClip appears with contextual actions — copy, transform, calculate, AI writing, or custom extensions. Press ⌥⌘C to open a fuzzy search palette over your entire action library. Action Search Palette ( ⌥⌘C ) Inline AI Writing & Tools Reach any action across your catalog instantly Summarize, translate, or rewrite natively inline Instant Math Evaluation In-App Extension Store Calculate math expressions on highlighted text One-click install custom JS/Shell/AppleScript tools - Instant contextual popup — select text anywhere and a floating bar appears with the actions that make sense for it. Actions with no live selection (like Copy/Cut) drop out automatically, and a selection-free popup falls back to the current clipboard contents. - Action-search palette — press ⌥⌘C to turn the bar into a fuzzy search field over the entire action catalog, including disabled actions. Results are ranked by recency, then bar order, so your most-used actions float to the top.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: app-kit, apple-intelligence, applescript, clipboard, developer-tools, javascriptcore
+
+---
+
+### 🌟 [dsh-ios](https://github.com/ZSeven-W/dsh-ios)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 284
+- **核心概述**: DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on.
+- **大概是做什么的**: A live, interactive iOS Simulator inside a DeepSeek Harness conversation — plus your real iPhone over USB. 22 agent tools &bull; live MJPEG sidebar panel &bull; simulator &amp; real iPhone over USB &bull; list/feed row actions &bull; SwiftUI preview hot reload npm: @zseven-w/dsh-ios &middot; Current plugin release: 0.1.0-rc.3 &middot; Tested with DSH 0.1.1-rc.1 English &middot; 简体中文 &middot; 繁體中文 &middot; 日本語 &middot; 한국어 &middot; Français &middot; Español &middot; Deutsch &middot; Português &middot; Русский &middot; हिन्दी &middot; Türkçe &middot; ไทย &middot; Tiếng Việt &middot; Bahasa Indonesia npm: @zseven-w/dsh-ios &middot; Current plugin release: 0.1.0-rc.3 &middot; Tested with DSH 0.1.1-rc.1 A real iPhone driven from inside a DSH conversation — the agent's tool calls on the left, the live device panel on the right Why DSH iOS Simulator DSH iOS Simulator gives the agent a real iOS Simulator inside the conversation — and gives you the pixels. The agent can boot a device, build and run an Xcode project or Swift package, drive the UI by accessibility identity or by OCR text, read
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, coding-agent, deepseek-harness, dsh, dsh-plugin
+
+---
+
+### 🌟 [LeanKG](https://github.com/FreePeak/LeanKG)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 217
+- **核心概述**: LeanKG: Stop Burning Tokens. Start Coding Lean.
+- **大概是做什么的**: Enterprise-ready code knowledge graph for AI coding agents Multi-repo · env governance · incidents &amp; services · req↔code · −65% tokens / −85% tool calls None — sqlite is the default storage engine . No Postgres, no Docker. Postgres remains available as an explicit opt-in ( LEANKG DB ENGINE=postgres + LEANKG PG URL ) for server-scale deployments, but nothing in the default flow touches it. Self-check any deployment: leankg doctor --deep — index freshness, migrations, embedding coverage, orphan edges, duplicate names (exit 0 pass / 1 warn / 2 fail). Measured timings ( scripts/quickstart smoke.sh , run weekly in CI): full e2e smoke 88 s vs a 300 s budget; indexing a small repo takes well under 2 minutes. MCP HTTP: pass the project checkout directory as project= . Server-side setup pipeline (clone - index - embed) leankg setup with no flags keeps the legacy client-side behavior (register MCP + hooks). Pass pipeline flags to instead clone a list of repos and index each one server-side: - LEANKG REPOS — comma-separated host/namespace paths to clone. - LEANKG PROJECT DIRS — comma-separa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-memory, codebase-memory, codebase-memory-mcp, concise-context, context-engineer, graph-database
+
+---
+
 ## 🕔 2026-09-09 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
