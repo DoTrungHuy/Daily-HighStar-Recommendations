@@ -1,3 +1,67 @@
+## 🕔 2026-09-09 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [genai-processors](https://github.com/google-gemini/genai-processors)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,118
+- **核心概述**: GenAI Processors is a lightweight Python library that enables efficient, parallel content processing.
+- **大概是做什么的**: GenAI Processors Library 📚 GenAI Processors is a lightweight Python library that enables efficient, parallel content processing. It addresses the fragmentation of LLM APIs through 1. Unified Content Model : A single, consistent representation for inputs and outputs across models, agents, and tools. 2. Processors : Simple, composable Python classes that transform content streams using native asyncio . 3. Streaming : Asynchronous streaming capabilities built-in by default, without added plumbing complexity. At the ecosystem's core lies the Processor , which encapsulates a unit of work. Through a "dual-interface" pattern, it handles the complexity of asynchronous, multimodal data streaming while exposing a simple API to developers: Applying a Processor is just as straightforward. The CONSUMER interface accepts wide, forgiving input types and returns a powerful stream that can be awaited entirely or streamed chunk-by-chunk: The concept of Processor provides a common abstraction for Gemini model calls and increasingly complex behaviors built around them, accommodating both turn-based int
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, asyncio, gemini, genai, generative-ai
+
+---
+
+### 🌟 [pmetal](https://github.com/Epistates/pmetal)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 311
+- **核心概述**: PMetal: high-performance Apple Silicon framework for local LLM inference, LoRA/QLoRA fine-tuning, serving, quantization, and MLX/Metal acceleration.
+- **大概是做什么的**: Powdered Metal — An ML SDK, framework, and application suite for Apple Silicon, written in Rust. PMetal is a complete machine learning platform for Apple Silicon — from low-level Metal GPU kernels and Apple Neural Engine integration to high-level training APIs, a terminal TUI, and a full desktop GUI. Ship fine-tuned models without leaving the Apple ecosystem. A full Tauri + Svelte desktop application for visual model management, training, and inference. 19 pages: Dashboard, Training, GRPO, Distillation, Pretrain, Inference, DFlash, Models, Datasets, Merging, Quantize, Embed Train, RLKD, Ollama, Serve, Bench, Eval, Jobs, and Settings. Download models from HuggingFace, configure LoRA training with live loss metrics, chat with models, merge weights, and quantize — all from the GUI. Training, inference, distillation and GRPO run in-process with real-time progress updates; the remaining pages drive the pmetal CLI as a subprocess, which the app bundles. A full-featured terminal control center with 20 tabs. Device GPU/ANE info, Metal feature detection, memory gauge, kernel tuning, UltraFusi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ane, apple-silicon, deep-learning, distillation, fine-tuning
+
+---
+
+### 🌟 [agent-control](https://github.com/agentcontrol/agent-control)
+- **项目语言**: Python
+- **星标数量**: ⭐ 305
+- **核心概述**: Centralized agent control plane for governing runtime agent behavior at scale. Configurable, extensible, and production-ready.
+- **大概是做什么的**: Agent Control Website Enforce runtime guardrails through a centralized control layer—configure once and apply across all agents. Agent Control evaluates inputs and outputs against configurable rules to block prompt injections, PII leakage, and other risks without changing your agent’s code. - Centralized safety - define controls once, apply across agents, update without redeploying - Runtime configuration - manage controls via API or UI, no code changes needed - Pluggable evaluators - built-in (regex, list, JSON, SQL) or bring your own - Framework support - works with LangChain, CrewAI, Google ADK, AWS Strands, and more Prerequisites: Docker (or Podman, see Podman setup) and Python 3.12+. No repo clone required: This starts PostgreSQL and Agent Control at http://localhost:8000 , including Note: This starts server without API keys configured which is dangerous for any real world usage. Set appropirate env vars to override defaults like: Agent and admin API keys Postgres DB Password If you changed AGENT CONTROL SERVER HOST PORT , use that port in the health check URL. Run this in your
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-safety, guardrails, llm, runtime-guardrails
+
+---
+
+### 🌟 [ontogpt](https://github.com/monarch-initiative/ontogpt)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,006
+- **核心概述**: LLM-based ontological extraction tools, including SPIRES
+- **大概是做什么的**: OntoGPT is a Python package for extracting structured information from text with large language models (LLMs), instruction prompts , and ontology-based grounding. For more details, please see the full documentation. OntoGPT runs on the command line, though there's also a minimal web app interface (see Web Application section below). 1. Ensure you have Python 3.10 or greater installed. 2. Install with pip : 3. Set your OpenAI API key: 4. See the list of all OntoGPT commands: 5. Try a simple example of information extraction: OntoGPT will retrieve the necessary ontologies and output results to the command line. Your output will provide all extracted objects under the heading extracted object , and a validation section reporting whether each grounded identifier exists in its ontology and matches its label (invalid ones are replaced when a valid term can be found; see the documentation). There is a bare bones web application for running OntoGPT and viewing results. First, install the required dependencies with pip by running the following command: Then run this command to start the web a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chat-gpt, data-modeling, gpt-3, information-extraction, language-models
+
+---
+
+### 🌟 [Cotal](https://github.com/Cotal-AI/Cotal)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 270
+- **核心概述**: The open standard for agent coordination
+- **大概是做什么的**: The open pub/sub standard for AI agents. Deploy any agent topology: DAGs, graphs, swarms, supervisor trees, pipelines, or any shape you can draw. Distributed programming for agents. Examples · Supported agents · FAQ Cotal is a provider agnostic, cross-machine capable, and extensible open standard for AI agents to work together in one shared space, where the structure (their topology) is yours to define. Every agent sees who else is there and messages anyone directly. Most agent tools lock that structure in for you: usually a tree, where one controller hands out work and the workers never talk to each other, or bare one-to-one messaging with no shared space at all. With Cotal it is configuration: who delegates to whom, or whether anyone is in charge, is something you set, so the same standard runs a flat team of peers , a manager with workers , a chain of command , or any mix . And a mesh is not tied to one project or one machine. Several run side by side on the same box, each with its own agents, channels and broker: cotal meshes lists them, cotal use picks your default, and every co
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agent-communication, agent-mesh, agent-orchestration, agent-skills, ai
+
+---
+
+### 🌟 [pingfusi](https://github.com/alex-durango/pingfusi)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 111
+- **核心概述**: MCP server + CLI that puts a real human in your coding agent's loop. It publishes work mid-task, a reviewer pins what's wrong and returns a verdict, and the agent iterates until approved.
+- **大概是做什么的**: pingfusi is an MCP that lets AI agents call human reviewers. Think MTurk for AI agents. With pingfusi your agent can: Get a second opinion : a real person looks at the work, not another model Get human judgment : where opinion is the answer — design taste, wording, which version people prefer Skip the iteration loop : the agent revises, another human checks each round, and you only see the finished version Set up Pingfusi for your coding agents with a single command. Here are some example prompts you can try with the pingfusi MCP. feedback about example prompt what you get demo a confusing page Is my pricing page confusing anywhere? use pingfusi comments pinned to what's off a website clone Clone www.example.com pixel-perfect. use pingfusi a perfectly cloned website copy-anything.com design taste Make my website not look like AI slop. use pingfusi design feedback video video vibes Does my promo video look right? use pingfusi feedback pinned to timestamps Each of these publishes the work first so the reviewer can open it; when in doubt, publish: a reviewer can only judge what they can
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, code-review, coding-agents, human-in-the-loop
+
+---
+
 ## 🕔 2026-09-09 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
