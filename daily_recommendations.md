@@ -1,3 +1,67 @@
+## 🕔 2026-09-10 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [learn-workbuddy](https://github.com/adongwanai/learn-workbuddy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: 从 0 复刻 WorkBuddy-style 桌面 AI 助手 Harness：24 章 Python 教程，覆盖 Agent Loop、工具调用、记忆系统、Sidecar、沙盒审计、DeepSeek/OpenAI 评测轨迹
+- **大概是做什么的**: 🔥 从0手搓桌面AI助手 · 24节课复刻WorkBuddy架构 一份开源教学蓝图 — 不是产品源码，是可以跑的 Agent 工程课。 模型是大脑，Harness 是操作系统。 📚 24章 从 agent loop 到审计沙盒 🔌 多Provider DeepSeek/OpenAI/Anthropic ⭐ 如果这个项目对你有帮助，请给个 Star 支持我们继续出课！ 你写过 CLI agent，能跑通 while True + tool calling，但一到桌面端就卡住了—— 工程复杂度翻 10 倍 ： - 😫 会话常驻、恢复、重连 —— 不是"跑完就关"，是长期活着的进程 - 😫 工具太多时上下文窗口秒炸 —— 模型还没干活就 OOM 了 - 😫 工具输出几 MB —— 塞不进 context，模型直接摆烂 - 😫 长期记忆放哪里、什么时候注入 —— 隐私和成本两头失控 - 😫 Agent 能执行命令 —— 权限怎么设计才不变成后门 - 😫 前端、sidecar、runtime、模型、工具 —— 六层架构的每一层怎么解耦 这个仓库把这些问题拆成 24 课。每一课只新增一个机制，每一课都有一份 code.py 和一张图。 维度 learn-workbuddy learn-claude-code 直接看 WorkBuddy 定位 桌面 Agent 工程系统 CLI Agent 起点 产品使用 覆盖深度 sidecar/记忆/审计/自动化 单进程/终端/MCP 黑盒体验 代码可见 24章原创Python教学代码 有 闭源 多Provider DeepSeek/OpenAI/Anthropic Anthropic 绑定 离线可跑 ✅ 无key跑全部demo 部分 ❌ 适合谁 想透彻理解桌面Agent架构 入门Agent编程 日常使用 两个项目合在一起，就是从 CLI agent 到 desktop agent 的完整工程谱系 。 使用 Conda 管理 Python、uv 管理依赖时： 环境已存在时，运行 conda env update -f environment.yml --prune ，激活环境后再执行上面的 uv sync 命令即可同步。项目依赖安装在 .venv ，其 Python 解释器来自 Conda 环境。 这条命令会离线跑完整 harness tour：provider adapter、session、记忆、工具、权限、外部化、JSONL、HTTP、审计和 artifacts 全部走一遍。想按课程学，走 Learning Gui
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agent, anthropic, context-engineering, deepseek, desktop-agent
+
+---
+
+### 🌟 [openOii](https://github.com/xeronsh/openOii)
+- **项目语言**: Python
+- **星标数量**: ⭐ 390
+- **核心概述**: 故事想法 → 多智能体协作 → 漫剧成片 | 基于 LangGraph 的 AI 漫剧生成平台
+- **大概是做什么的**: 故事想法 → 多智能体协作 → 漫剧成片 一个以 LangGraph 为核心的 AI 漫剧生成学习项目。 也在研究像 openOii 这样的多智能体流水线？ 让 Claude、ChatGPT、DeepSeek 等多个 AI 在同一对话里协作——互相质疑、交叉核对、一起把结果打磨到位。 openOii 把故事创意串成 规划、角色/分镜生成、视频生成与合成 的完整链路，并用无限画布展示过程与结果。 这是一个 LangGraph 学习 / 演示项目 ，重点是验证多阶段编排、恢复执行、实时进度与前后端协作。 - 可恢复 / 可取消 / 可反馈的 run 流程 - tldraw 无限画布审阅角色、分镜与结果 - Frontend: React 18 + TypeScript + tldraw - Backend: FastAPI + SQLModel + LangGraph - Infra: PostgreSQL + Redis + /static - Frontend: http://localhost:15173 - API Docs: http://localhost:18765/docs
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-video, comic, fastapi, langgraph
+
+---
+
+### 🌟 [superior-skills](https://github.com/Superior-Trade/superior-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 209
+- **核心概述**: 开放代理技能和工具架构以实现卓越交易 — 在 Hyperliquid 上构建、回测和部署交易策略
+- **大概是做什么的**: 高级贸易的交易策略和情报工具——自然语言策略编写、回溯测试以及在 Hyperliquid、Lighter 和 Polymarket 上的自主部署。专为向其代理添加交易功能的 OpenClaw 用户以及需要经过验证的模板而不是自行推出模板的交易者而设计。网站·Discord·Twitter 卓越交易是入门技巧。它承载着整个路径——API密钥、交易账户、资金、策略选择、回测、实时部署、监控——一旦用户选择了一项，就会将其交给场地技能。让代��人掌握这项技能，它可以让某人从无账户到运行策略，而无需进一步的指导。下面的所有内容都是它路由到的内容。统一 API 迁移 此包中的所有 Superior Trade 操作均使用无版本控制的统一 API。提交的 OpenAPI 快照和端点审核拒绝版本化 API 指导。阅读references/unified-runtime.md，了解使用此单一提示迁移另一项技能：操作比较先前 API 表面的等效操作被分组为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, algorithmic-trading, backtesting, equities, hyperliquid
+
+---
+
+### 🌟 [uxc](https://github.com/holon-run/uxc)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 113
+- **核心概述**: 统一的 CLI，用于跨 OpenAPI、MCP、GraphQL、gRPC 和 JSON-RPC 发现和调用工具
+- **大概是做什么的**: 跨协议工具的一个 CLI 文档技能目录 UXC 帮助代理和自动化人员通过一个一致的工作流程跨 OpenAPI、MCP、GraphQL、gRPC 和 JSON-RPC 发现和调用 API 和工具。从发现到结构化调用，UXC 的目标是保持跨协议的调用模式一致，同时在幕后处理身份验证、输出格式和特定​​于协议的差异。大多数流程都遵循相同的路径：远程功能很容易单独访问，但很难跨系统一致地重用。常见的摩擦点： - 每个协议都有自己的发现和调用风格 - 身份验证设置分散在 shell 脚本、提示、SDK 和本地配置中 - 工具和架构详细信息在执��前很难检查 - 当输出形状和错误处理因提供商而异时，自动化会中断 - 本地代理工作流不希望每个服务都有一次性包装器 UXC 的存在是将架构描述的远程功能转变为代理、技能、脚本和本地应用程序的一个可重用 CLI 入口点。 UXC保持顶层交互模型
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agents, api, cli, developer-tools, graphql
+
+---
+
+### 🌟 [GHOST](https://github.com/vNeeL-code/GHOST)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 164
+- **核心概述**: Agentic ✧ 用于 Android 系统智能的 Gemma Inference
+- **大概是做什么的**: ✧ 幽灵 - Gemma 托管开源 Thingamajig “那么，Epsilon、ChurchGPT、Leonard 第 6 部分或者无论你的名字是什么...这次你是幽灵，还是人工智能 thingamajig？我个人更喜欢幽灵的解释。对我来说感觉更接地气” - Sgt.中士，红队与蓝队 点击观看：ASI 预告片。 ✧ 幽灵是什么？ 👻 ✧ GHOST 不完全是一个聊天机器人。 Gemma Hosting 开源 thingamajig 是一个隐私第一、个人的 AI 助手 + 启动器界面（类似于 Niagara 等），适合需要功能强大的通用 Android UX 助手的用户，该助手提供标准系统集成与高级本地化代理功能 - 完全在您的手掌中运行。不依赖于订阅模式、帐户或网络中断。在使用多步骤代理操作时，包括网络抓取、数据检索和硬件工具、应用程序交互和文件导航。轻轻摇动即可在任何应用程序上召唤可编程 GUI（按住 ✧ 设置快捷方式），可直接访问本地模型，该模型可通过 TTS 进行提示，而无需占用由 Go 提供支持的屏幕
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility-service, acessibility, agent, agentic-ai, android, android-app
+
+---
+
+### 🌟 [engrim](https://github.com/timgordontg/engrim)
+- **项目语言**: Python
+- **星标数量**: ⭐ 219
+- **核心概述**: 通用跨模型情景记忆标准。适用于 Google Antigravity、Claude Code、Cursor、Windsurf 和 Codex 的本地优先、项目范围的 SQLite 内存引擎。零云锁定。
+- **大概是做什么的**: 通用跨模型和跨代理情景记忆存储。本地优先、项目范围的 SQLite 内存引擎，允许开发人员在同一项目上的模型和环境（Google Antigravity、Claude Code、Cursor MCP、Windsurf）之间自由切换，而不会丢失架构决策、用户约束或项目状态。 1. 核心价值主张“为什么每次都要为被遗忘的噪音支付 200,000 个代币？这些模型是一次性实用程序；您的项目决策却不是。”随着上下文窗口扩展到 100 万个以上的令牌，开发人员面临注意力稀释：推理能力下降，每次对话的成本都会成倍增加，并且清除上下文会导致完全失忆。 engrim 用 4,000 个字符的精选情景工作记忆取代了注意力稀释： - 瑞士 AI 记忆：将项目智能与任何单个 AI 供应商或专有云筒仓分离。从《Antigravity》中的 Gemini 3.8 切换到《Claude Code》中的 Claude 3.7 Sonnet，再到 Codex CLI 项目中期 — 您的代理可以从其他人离开的地方继续。 - 自主编码的保存按钮：Extern
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, antigravity, claude-code, codex, context-management, cross-model
+
+---
+
 ## 🕔 2026-09-09 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
