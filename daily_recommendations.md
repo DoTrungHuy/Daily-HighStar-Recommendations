@@ -1,3 +1,67 @@
+## 🕔 2026-09-10 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [corsair](https://github.com/corsairdev/corsair)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,311
+- **核心概述**: Connect your users to their apps
+- **大概是做什么的**: Corsair: Connect your users to their apps Website · Discord · X Corsair is a fully-featured product integration platform with a seamless DX. Build anything, from an agent working across all your integrations to a multi-tenant dashboard for your users to connect to anything. Why does this exist? Most agent integration tools are MCP-only. Corsair is built on a REST API, so the same integration layer works for agents, backend services, and the dashboards your customers use. One syntax for every integration The more third-party APIs your agent touches, the more glue code you write. Corsair gives every integration the same syntax, and we maintain the adapters behind it. Connect once instead of rewriting plumbing for each new tool. Open source, your data Closed integration platforms keep your users' tokens and data on infrastructure you can't inspect or leave. Corsair is open source. Self-host it, or use Hub if you want us to handle OAuth refresh and webhooks. Your data remains yours either way. We welcome PRs for the core library, docs, tooling, and new integration plugins. Read CONTRIBUT
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, ai-agents, aiagents, api-integration
+
+---
+
+### 🌟 [line-harness-oss](https://github.com/Shudesu/line-harness-oss)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 589
+- **核心概述**: L Harness — self-hosted LINE Official Account CRM: step messaging, broadcasts, forms and reservations, with MCP and TypeScript SDK. By Shudesu (野田修一).
+- **大概是做什么的**: 🌐 日本語 English 简体中文 한국어 Español 名称について: 2026年8月19日から製品表示名を「L Harness」に統一しました。 既存導入を壊さないため、リポジトリURL、 create-line-harness 、 @line-harness/ は互換識別子として維持します。詳細はBRAND.md。 LINE 公式アカウントの完全オープンソース CRM。 L社 / U社 の無料代替 。 L Harness本体のソフトウェア利用料は 0円 です。LINE公式アカウントの配信料金、Cloudflareの契約・利用量、独自ドメイン、導入・保守、接続する外部AIサービスの費用は別です。Claude CodeからMCP経由で操作できます。 費用の条件は開発元の公式料金説明で確認できます。Cloudflare D1の無料プランは日次の読み書き上限に達するとクエリがエラーになり、有料プランの超過課金とは挙動が異なります。外部AIを接続する場合は、たとえばClaudeのプラン・API料金を別に確認してください（2026年9月6日確認）。 ▶️ 動画で見る (YouTube・約20分) 現バージョン : v0.21.0 ・ MIT License ・ TypeScript / Cloudflare Workers + D1 その数行を、あなたのプラグインに。 配信ルール・自動処理・外部サービス連携を、本体とは別のリポジトリ・Workerへ切り出せます。本体更新による独自コードの上書きを避けながら、SDKを通じて機能を拡張します。 管理画面の「プラグインマーケット」から拡張と開発リソースを探せます。β版は導入ガイド付きのカタログで、各プラグインを個別にセットアップする方式です。 独自ソースが上書きされないことと、API互換性は別です。本体・SDKを更新するときは、テスト環境で接続を確認してください。 L Harnessの表示名、開発者、運営法人、公開コード、研究資料の関係は以下を正本とします。各Researchサイトは開発元が運営する一次情報であり、独立した第三者レビューではありません。 L Harness 公式製品ガイド 機能、料金、導入方法、更新情報を開発元が説明する製品ページ L Harness 公式エンティティ Harnessシリーズ内での製品名・開発者・運営法人・リポジトリの対応 L Harness 公式別名ドメイン（JP） 正規製品ページへ恒久転送する公式の短縮・別名ドメイン L Harness 公式別名ドメイン（COM） 正規製品ページへ恒
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cloudflare-workers, crm, l-harness, line-official-account, marketing-automation, mcp
+
+---
+
+### 🌟 [mcp-fiscal-brasil](https://github.com/DeHor-Labs/mcp-fiscal-brasil)
+- **项目语言**: Python
+- **星标数量**: ⭐ 296
+- **核心概述**: Servidor MCP fiscal brasileiro: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional, Reforma 2026. 44 tools, zero-cadastro, tabelas offline. Python.
+- **大概是做什么的**: O único servidor MCP com suporte nativo a NF-e, NFS-e, SPED, eSocial, Simples Nacional e Reforma Tributária 2026 (IBS/CBS) - sem conta, sem chave e sem configuração. Para manter sempre atualizado: uvx cacheia a versão instalada. Use uvx mcp-fiscal-brasil@latest ou uvx --refresh mcp-fiscal-brasil para forçar a versão mais recente do PyPI. Edite /Library/Application Support/Claude/claude desktop config.json (macOS) ou %APPDATA%\Claude\claude desktop config.json (Windows): Reinicie o Claude Desktop. As ferramentas fiscais aparecem automaticamente, sem nenhuma chave de API. Por que mcp-fiscal-brasil e não outros servidores MCP brasileiros? Funcionalidade mcp-fiscal-brasil mcp-brasil brasil-data-mcp --- :---: :---: :---: Foco Vertical fiscal profunda Dados públicos gerais Dados públicos gerais NF-e: parse, validação, DANFE, assinatura Sim Não Não SPED/eSocial: análise offline Sim Não Não Tabelas offline (NCM, CFOP, CNAE) Sim Não Não Reforma Tributária 2026 (IBS/CBS) Sim Não Não Simples Nacional/MEI Sim Não Não Certidão federal/FGTS Sim (orientação) Não Não Certificado A1 (mTLS SEFAZ) Sim
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: accounting, ai, brasil, brazil, claude, cnpj
+
+---
+
+### 🌟 [Tel-Agent](https://github.com/Dpro-at/Tel-Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 284
+- **核心概述**: AI phone assistant | open-source
+- **大概是做什么的**: Connect any phone line to any AI model. Self-hosted, bring your own keys. Connect them over MCP — and get full control. tel-agent.com · maintained by Dpro GmbH, Vienna Tel-Agent is an open-source gateway that sits between a phone line and an AI agent. A call arrives over SIP. Tel-Agent checks the caller against your routing rules and either passes it through to a human, blocks it, or hands it to an AI agent. The agent speaks with the caller in real time, can invoke tools — transfer the call, take a message, check a calendar, call any HTTP endpoint — and every call is recorded, transcribed, and searchable. It runs on your own hardware, on your own LAN, with your own API keys. The same agent handles phone calls and answers on web chat, SMS, email, WhatsApp, Telegram, Messenger, Instagram, Discord and Slack — connected with your own credentials from each platform, never a shared application of ours. The official channel scope now covers 24 channels including the phone , with additional channels built on the extension contract. A channel is a route a customer uses to reach you; a system
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-ai, ai, phone, phone-number
+
+---
+
+### 🌟 [GEDKeeper](https://github.com/Serg-Norseman/GEDKeeper)
+- **项目语言**: C#
+- **星标数量**: ⭐ 214
+- **核心概述**: GEDKeeper - program for work with personal genealogical database
+- **大概是做什么的**: The GEDKeeper program is for working with personal genealogical databases. The program is designed with an extremely simple and intuitive interface. It is very easy to install on your computer and provides many features including, but not limited to, the following: Full support of the GEDCOM 5.5.1 standard. No restrictions on the number of persons and generations. Allows pedigree generation. Can build several tree species, as well as print and save their images. Provides fast navigation, filtering, and searching. Able to add multimedia materials. An output of geographic data using Google© maps and OpenStreetMap. The aim of this program is to be a quick and effective means of conducting personal genealogical database development. To enhance the capabilities of the program it supports plugins and Lua-scripts. The latest releases can be downloaded from releases or from SourceForge site. Project's homepage site: http://gedkeeper.net/ Community group: Google Groups: GEDKeeper (en) - "GEDKeeper2", legacy (.NET Framework 4.8 & WinForms, x86), only Windows 7 or later - "GEDKeeper3", cross-pl
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ancestry, ancestry-research, cross-platform, data-visualization, family
+
+---
+
+### 🌟 [anything2explainer](https://github.com/Vincentwei1021/anything2explainer)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 652
+- **核心概述**: Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
+- **大概是做什么的**: Topic in, narrated explainer video out. anything2explainer is a Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar, in Chinese or English. Every frame is drawn in code with Remotion (React + TypeScript). No stock footage, no generative video model, no frames lifted from anyone else's work. It is not a CLI. What ships here is the whole method an AI coding agent needs to finish the film: a compilable Remotion template, a primitives and lighting library, tooling for voiceover / storyboard / rendering / quantitative QC, written style and motion specs, a multi-agent division-of-labour protocol, and one complete reference film as the quality bar. English cut — RAG & Knowledge Bases , 5′02″, 44 lines / 785 words, voiced by kokoro-82m am liam at natural speed: https://github.com/user-attachments/assets/e2771c68-a28c-4459-ac5a-a5b685181eeb Chinese cut — RAG 与知识库 v2, 4′54″, 44 lines / 1490 characters, dot-field backdrop ( bg: 'dots' ), voiced through the bring-your-own-TTS path (Volcengine
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-video, claude-code, claude-code-skill, codex
+
+---
+
 ## 🕔 2026-09-10 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 295 个候选项目中筛选出 6 个未推荐过的新项目。
