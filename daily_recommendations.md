@@ -1,3 +1,67 @@
+## 🕔 2026-09-10 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 295 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sandbox](https://github.com/agent-infra/sandbox)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,884
+- **核心概述**: All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.
+- **大概是做什么的**: AIO Sandbox - All-in-One Agent Sandbox Environment 🌐 Browser 💻 Terminal 📁 File 🔧 VSCode 📊 Jupyter 🤖 MCP 🌐 Website &nbsp&nbsp &nbsp&nbsp🔌 API &nbsp&nbsp &nbsp&nbsp📑 Paper &nbsp&nbsp &nbsp&nbsp🌟 Examples &nbsp&nbsp &nbsp&nbsp📊 Evaluation &nbsp&nbsp Get up and running in 30 seconds: For users in mainland China: For reproducible deployments, pin a release tag. Replace 1.11.0 with the release you want: These examples intentionally bind the host side to 127.0.0.1 because the sandbox listens on 0.0.0.0 inside the container. For cloud deployment, keep port 8080 private and publish it through a reverse proxy or Ingress: Cloud Deployment Guide. Once running, access the environment at: - 📖 Documentation : http://localhost:8080/v1/docs - 🌐 VNC Browser : http://localhost:8080/vnc/index.html?autoconnect=true - 💻 VSCode Server : http://localhost:8080/code-server/ - 🤖 MCP Services : http://localhost:8080/mcp 🎯 What is AIO Sandbox? AIO Sandbox is an all-in-one agent sandbox environment that combines Browser, Shell, File, MCP operations, and VSCode Server in a single Docker container.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, all-in-one, browser, filesystem, mcp, sandbox
+
+---
+
+### 🌟 [pinloop-cli](https://github.com/pinloop-ai/pinloop-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 329
+- **核心概述**: Command-line job search tool for coding agents. Searches and judges 10,000+ postings from 4,000+ employers, refreshed hourly.
+- **大概是做什么的**: Pinloop is a job search tool built for your coding agent to run from a terminal. It holds a large collection of frequently updated job postings, can hold your resume and any other preferences, and calls AI models to evaluate postings against what it knows about you. https://github.com/user-attachments/assets/3657dcdc-4cac-4778-8cc6-5ca3b40e5fed You don't run anything yourself. Paste this sentence into your coding agent (Claude Code, Codex, Cursor, or similar) and it installs Pinloop and walks you Needs Node 22 or newer. Run on its own, pinloop prints instructions written for a coding agent. pinloop welcome gets your coding agent to walk you through a more structured onboarding flow, and pinloop guide gives it the full usage instructions. Accounts and payments Run pinloop login to make an account. The commands talk to Pinloop's servers, so everything except the guide needs an account. Login goes through a browser, with no password. A free account gets a limited number of judged postings and semantic searches per month. You can use your own coding agent subscription of choice to instea
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, coding-agents, internships, job-search
+
+---
+
+### 🌟 [agent](https://github.com/1mcp-app/agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 501
+- **核心概述**: A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
+- **大概是做什么的**: 1MCP is the unified MCP runtime. 1mcp serve aggregates your MCP servers, and CLI mode adds a thinner agent-facing workflow for Codex, Claude, Cursor, and similar tool-using agents. Most MCP setups eventually hit two kinds of sprawl: - Configuration sprawl: every client needs its own MCP wiring, auth choices, and filtering rules. - Agent sprawl: autonomous sessions carry too many tools and schemas into context up front. 1MCP addresses both: - 1mcp serve gives you one aggregated runtime in front of many MCP servers. - CLI mode lets agents discover tools progressively with instructions , inspect , and run . - Static servers can load at startup, while template servers are created from per-client or per-session context. - Presets, filters, and instruction aggregation keep the same runtime adaptable across clients and projects. Approach Best for Tradeoff ---------------------- ------------------------------------ -------------------------------------------------------------------------------- 1MCP CLI mode Codex, Claude, agent loops Requires a running 1mcp serve instance 1MCP stdio proxy M
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-client, mcp-gateway, mcp-proxy, mcp-server, unified-mcp-server
+
+---
+
+### 🌟 [peri](https://github.com/KonghaYao/peri)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 164
+- **核心概述**: 14MB ACP-Rust Agent, Claude Code Plugin compatible, Dynamic Workflow, Goal, Artifacts, Free Web Search, full feature and better support!
+- **大概是做什么的**: A Rust-built coding agent — fast, lean, Claude Code compatible, any LLM. One 13 MB binary , 50 MB of RAM , 98% cache hits — bring any API key (DeepSeek, GLM, Qwen, Anthropic) and switch on the fly. Your Claude Code config works today: skills, hooks, MCP, plugins, sub-agents. Zero migration, zero lock-in. We believe the agent pattern is proven — planning, tool use, context management, delegation. What's missing is a harness that makes this complexity feel simple: fast startup, any provider, every surface. So we rebuilt it from scratch in Rust, with ACP at the core. We are the best like Claude Code. The foundation every agent deserves. Three things we bet on: The agent that respects your machine — not the one that borrows it. - 🦀 Rust, not Node.js — 13 MB binary, 50 MB RAM. Starts instantly, stays out of your way - ⚡ 95–99% cache hit rate — Frozen system prompt never recomputes. Tokens you don't pay for - 🗜️ Auto Compact — Hours-long sessions stay lean automatically. Micro at 70%, full at 85% budget Built for agents that plan, delegate, and finish — not just reply. - 🤖 7 Sub-agents
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, claude-code, coding-agent, deepseek, glm, mcp
+
+---
+
+### 🌟 [awesome-skills](https://github.com/apify/awesome-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 251
+- **核心概述**: Community collection of Apify agent skills for AI coding assistants
+- **大概是做什么的**: Awesome Apify Skills Community-driven agent skills for AI coding assistants For AI agents &bull; Companion to apify/agent-skills, the home of official Apify-maintained skills. This repo collects community contributions that follow the same agentskills.io open standard. A skill is a SKILL.md file with YAML frontmatter that teaches an AI agent how to do a specific task with Apify Actors — which Actors to use, how to build inputs, how to handle errors. Works with Claude Code, Codex, Cursor, Gemini CLI, Windsurf, OpenCode, and 50+ other agents. Pass --list to preview, -s to install one specific skill. Name Description Author ------ ------------- -------- apify-ads-intelligence Research, spy on, and analyze ads across Meta (Facebook & Instagram), Google (Ads Transparency Center + paid search results), TikTok (Ads Library + Creative Center), LinkedIn Ad Library, and X (Twitter — promoted tweets, best-effort) using Apify Actors. Use when user asks about competitor ads, ad library research, winning creatives, ad copy analysis, landing page audits from ads, cross-platform ad audits, brand tra
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: actor, agent-skills, ai-agents, apify, awesome-list, mcp
+
+---
+
+### 🌟 [llm](https://github.com/r-uby-dev/llm)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 139
+- **核心概述**: Ruby's capable AI runtime
+- **大概是做什么的**: Welcome to the canonical llm.rb repository. llm.rb is an advanced runtime for building agentic AI applications on CRuby. It has zero runtime dependencies by default, supports concurrent and parallel tool execution and has a single coherent API that spans 14+ providers. The easiest way to learn about llm.rb is to ask the r.uby.dev chatbot a question. It is connected to the llm.rb GitHub repository, backed by ActiveRecord and uses the builtin MCP feature to connect to GitHub. All answers are grounded in the llm.rb source code. class is the default high-level interface, and it is recommended for most use-cases. It manages tool execution automatically and guards against infinite loops, manages conversation state, and much more. Streams can be simple IO objects or subclasses of with structured callbacks for content, reasoning, tool calls, tool returns, and compaction. Streams can also observe message transformers, which rewrite outgoing messages before they reach the provider. are plain Ruby classes with an optional set of typed parameters. The model can choose to call them on your behalf
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-client, agent, agent2agent, agents, ai
+
+---
+
 ## 🕔 2026-09-10 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
