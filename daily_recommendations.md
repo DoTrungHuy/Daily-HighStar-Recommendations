@@ -1,3 +1,67 @@
+## 🕔 2026-09-10 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [runtime](https://github.com/e2b-dev/runtime)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,380
+- **核心概述**: Infrastructure that's powering E2B Cloud.
+- **大概是做什么的**: E2B is an open-source infrastructure for AI code interpreting. In our main repository e2b-dev/e2b we are giving you SDKs and CLI to customize and manage environments and run your AI agents in the cloud. This repository contains the infrastructure that powers the E2B platform. See CONTRIBUTING.md for ways you can contribute to E2B Infrastructure. Read the self-hosting guide to learn how to set up the infrastructure on your own. The infrastructure is deployed using Terraform. Supported cloud providers: - [ ] General linux machine
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, code-interpreter, consul, devtools, firecracker, gcp
+
+---
+
+### 🌟 [mosoo](https://github.com/langgenius/mosoo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 134
+- **核心概述**: The open-source Agent Gallery and Gateway for Codex, Claude Agent SDK, and OpenCode. Developers publish an Agent once behind one HTTP API; users run it in an isolated cloud sandbox—no local harness setup, compute, or runtime infrastructure.
+- **大概是做什么的**: An open-source managed agent runtime for application backends. Run OpenAI Codex, Claude Agent SDK, and OpenCode behind API endpoints in isolated AI agent sandboxes. API Documentation · mosoo-agent-driver · mosoo provides a Cloudflare-native control plane to stream tool activity, inspect Run history, and keep Threads and files across executions. It is self-hostable in your own account. Your application remains yours. Its backend owns product behavior and end-user access. mosoo focuses on Agent execution and lifecycle. mosoo v1 targets research, data analysis, file processing, and report generation through Project key + Agent + Input + optional files - durable Session . Agent configuration is optional and publishing is removed from first use. Acceptance covers a single-turn ghFind repository evaluation and CSV analysis with durable follow-up, including recovery after runtime reclamation. Both use the same Session API and checkpoint gate. Project keys have shipped; the Session transition is not complete. See SPEC and remaining execution slices. What works today across the Agent runtime
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-api, agent-control-plane, agent-gallery, agent-gateway, agent-observability, agent-runtime
+
+---
+
+### 🌟 [noobot](https://github.com/xiayu1987/noobot)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 146
+- **核心概述**: Cheapest Money-Saving Self-hosted AI agent workspace with tool calling, MCP, multi-model routing, sandboxed execution, multi-agent workflows, and LLM-authored 3D character animation rendered with Three.js.
+- **大概是做什么的**: Say goodbye to the 1-dollar hello-world era. Cheapest Money-Saving Self-hosted AI agent workspace for tool calling, multi-model routing, MCP, and multi-agent workflows. Windows installer (choose Noobot.Setup. .exe ) · macOS package (choose Noobot- -mac.zip ) · Configuration · Discussions Noobot is an open-source Web and desktop AI agent application built with Node.js, Vue 3, and Electron. It provides isolated user workspaces, durable sessions, extensible tools, semantic workflows, and model-family routing across OpenAI-compatible providers from one self-hosted deployment. Co-creators: Hyler · Epicur · gonglei · Z · Y · C See Noobot in Action An English demo of a fictional portfolio analysis: Noobot verifies source data, chains four file tools, surfaces the live analysis flow, and publishes reusable report attachments. Create 3D character animation with one prompt Import a 3D character with basic motions and tell Noobot what you want it to do. You can create solo or multi-character scenes, make characters wave, walk, jump, and interact, then refine their movement, timing, and position
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, ai-agent, ai3d, animation, character-animation, cheapest
+
+---
+
+### 🌟 [d365fo-mcp-server](https://github.com/dynamics365ninja/d365fo-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 138
+- **核心概述**: Exposes MCP tools that prove every method, field, label and form pattern against your real metadata before the AI writes code.
+- **大概是做什么的**: 20 AI tools that know every X++ class, table, form, and EDT in your D365FO codebase Grounded AI development for Dynamics 365 Finance & Operations — works with GitHub Copilot and Claude Code %22%7D%5D&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22%24%7Binput%3Ad365fo server url%7D%22%7D) %22%7D%5D&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22%24%7Binput%3Ad365fo server url%7D%22%7D) These connect an editor to a server that is already deployed — see Quick Start if you still need to set one up. AI assistants excel at C , Python, and JavaScript. X++ is different: your D365FO codebase is private, deeply customized, and invisible to every model — so AI confidently generates code that doesn't compile. This server pre-indexes your entire D365FO installation (580 000+ symbols across standard, ISV, and custom models) and exposes it as 20 specialized MCP tools. Every signature, every CoC wrapper, every label, every form pattern — verified against your real metadata before the AI writes a single line. Task Without this server With this server ------ -------------------- --------------
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: azure, claude-code, code-completion, d365fo, dynamics-365, dynamics-365-finance-operations
+
+---
+
+### 🌟 [papergraph-mcp](https://github.com/lotchuazzz-crypto/papergraph-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 123
+- **核心概述**: PaperGraph MCP turns math papers into evidence-grounded reading maps for AI agents: extract results, trace proof evidence, plan reading order, and review external dependencies without guessing.
+- **大概是做什么的**: Read math papers with evidence, not guesses. PaperGraph helps AI agents turn arXiv papers, local LaTeX projects, and born-digital PDFs into a theorem-centered reading workspace. It extracts Paper Maps, results, proof evidence, citation stops, source slices, reading queues, reading sessions, and reviewable import plans so a researcher can inspect where every claim came from. What PaperGraph Helps You Do Start with a Paper Map Trace proof evidence Plan the next reading step Identify main-result candidates, result structure, proof-path evidence, and external reading risks before choosing where to read. Inspect proof-local references, cited stops, source slices, and dependency diagnostics with explicit evidence. Build reading queues, resume reading sessions, and review external arXiv import candidates before downloading anything. PaperGraph v0.10.0 adds Paper Map, an evidence-first first-load overview for a paper. It highlights likely main-result candidates, local structure, proof-path evidence, and external reading risks without verifying proofs or guessing hidden dependencies. Why Rese
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, arxiv, knowledge-graph, latex, mathematics, mcp
+
+---
+
+### 🌟 [Kokoro-Engine](https://github.com/chyinan/Kokoro-Engine)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 144
+- **核心概述**: Cross-platform virtual character immersive interaction engine
+- **大概是做什么的**: 简体中文 繁體中文 English 日本語 한국어 Русский 在桌面上运行有形象、有声音、有长期记忆的 AI 角色。 选择或导入角色，连接自己的模型服务，然后开始一段会延续下去的对话。 - 让桌面角色根据当前屏幕内容作出反应。 - 导入 SillyTavern 角色卡，用不同人格延续各自的对话与记忆。 - 连接本地或云端 LLM，并按需开启语音、视觉、MCP、MOD 和 Bot 能力。 三个内置角色、主界面角色选择和首次回复引导正在按角色生态设计实施，当前发布版请先使用设置中的角色管理与导入功能。 Kokoro Engine 不是“聊天壳子 + 桌宠皮肤”。它是一个完整的桌面角色运行时： - All-in-one ：Live2D、LLM、TTS、STT等技术集成在一个运行时闭环。 - Built for extensibility ：高自由度 MOD 系统 + MCP 协议，天然面向扩展。 - Local-first ：本地存储记忆、离线优先、数据链路可控。 - Developer-friendly & Zero-waste ：告别 Rust/Tauri 项目常见的 target 目录数十 GB 暴涨与磁盘写满痛点，内置全链路自动闭环存储看门狗（KSS），支持分支切换孤儿消解、测试产物时效收敛与低空间紧急熔断，保障日常开发极速轻快。 面向用户 虚拟角色创作者、开发者、普通用户 交互能力 文本、语音、图片、视觉输入、多模态对话 扩展方式 MOD（HTML/CSS/JS + QuickJS）、MCP Servers 技术栈 React + TypeScript + Rust + Tauri v2 + SQLite 语言支持 简体中文 / 繁體中文 / English / 日本語 / 한국어 / Русский 前往 Releases 页面 下载对应平台安装包后直接运行。 💡 开发者友好说明（全自动存储看门狗与编译优化） ： 频繁调试与测试 Rust 项目常导致 target 目录占用突破数十 GB。Kokoro Engine 内置了 全生命周期闭环存储看门狗 （开发期自动控水在 12GB 内、Git 分支切换感知并定向消解孤儿代际、测试二进制自动收敛、宿主驱动器可用空间 开发者可随时运行 npm run storage:doctor 进行一键存储体检，详见 开发者存储占用与极速编译优化指南。 路径三：Nix / Flakes（仅 Linux） 更多 Nix 用法见 docs/nix.md。 - Live2D 渲染、视线追踪、动作触发、桌面浮窗 - 支持 Ol
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-vtuber, chatbot, custom, desktop-pet, engine
+
+---
+
 ## 🕔 2026-09-10 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
