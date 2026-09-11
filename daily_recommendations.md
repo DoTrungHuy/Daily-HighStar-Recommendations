@@ -1,3 +1,67 @@
+## 🕔 2026-09-11 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ontobricks](https://github.com/databrickslabs/ontobricks)
+- **项目语言**: Python
+- **星标数量**: ⭐ 314
+- **核心概述**: Transforms Databricks Unity Catalog tables into a materialized knowledge graph, with ontology design and reasoning exposed as tools via MCP.
+- **大概是做什么的**: Turn your Databricks tables into a living knowledge graph — in four clicks. Demos &amp; Screenshots Every enterprise has the data. Almost none have the meaning . Your Lakehouse stores billions of rows, but nothing captures what they represent — that a Customer holds Contracts , which contain Invoices , governed by rules only your senior engineers remember. OntoBricks closes that gap. It is a Databricks-native app that turns Unity Catalog tables into an explorable, queryable knowledge graph — design the meaning, let AI map it to your data, and navigate the result visually or expose it to your favorite LLM. No separate graph platform, no RDF expertise, no months-long integration project. - From schema to graph in minutes, not months. LLM-powered automation drives the whole pipeline — import metadata, generate the ontology, map the data, materialize the graph. - Lives inside Databricks. Deploys as a Databricks App and reuses what you already have: Unity Catalog, SQL Warehouse, Model Serving, Lakebase. Your triples stay in your Lakehouse. - Standards under the hood, simplicity on top. OW
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, ai-agents, context-graph, context-graphs, graph
+
+---
+
+### 🌟 [codflow](https://github.com/bighadj22/codflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 187
+- **核心概述**: The open-source, COD-first e-commerce + delivery platform for Algeria built agentic-ready.
+- **大概是做什么的**: The open-source, COD-first e-commerce platform for Algeria — built agentic-ready. Cash on Delivery meets serverless infrastructure. Self-host your entire commerce stack on Cloudflare with zero transaction fees, connect to Algeria's delivery carriers, and optimize Meta ads for real deliveries instead of door refusals. 🚀 I want to run CodFlow See it in action and deploy your own store. → Production deployment 💻 I want to contribute → Contributing guide → Architecture overview → AI agent instructions Watch the step-by-step setup guide: ▶️ Watch: CodFlow Setup & Deployment Guide 🎯 The Problem CodFlow Solves E-commerce in Algeria is 95%+ Cash on Delivery (الدفع عند الاستلام) . Western platforms like Shopify and local tools charge per-transaction fees, require expensive VPS hosting, and lock your data in their databases. CodFlow is the first and only open-source COD e-commerce platform built for Algeria. The Reality Western/Local Platforms CodFlow Transaction fees eat margins 2–5% per order + monthly SaaS fees $0 transaction fees — pay only Cloudflare hosting ($0–$5/mo) Your data locked
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: algeria, algerian-developpers, astro, cashondelivery, cloudflare, cloudflare-workers
+
+---
+
+### 🌟 [opentakeoff](https://github.com/Kentucky-ai/opentakeoff)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 123
+- **核心概述**: Open-source (Apache-2.0) PDF takeoff for construction & flooring — the first engine an AI agent drives natively over MCP, not bolted on. Rooms measured on the wall faces, symbol sweeps, materials + quantities with full provenance, built for preconstruction. Runs entirely in your browser.
+- **大概是做什么的**: The measurement engine for building plans—built so an AI agent can drive it, and so an estimator wants to. A takeoff is the act of measuring quantities off a construction drawing. OpenTakeoff does it two ways over one engine: 53 MCP tools for an agent, and a browser canvas for a person. Agents and people share the takeoff document and quantity calculations. Each sheet carries its calibration; measurements carry geometry, method and authorship. Recalibration updates quantities together, incompatible imports report scale conflicts, and agent measurements carry an explicit review status. See the Phase 1 test guide. For agents · Try the canvas · The engine's contract · For the person at the canvas · The data layer · Research · Fork it · Contribute The two manuals: agent manual · user manual Protocol work: Takeoff Protocol draft and compatibility status—formalizing existing records; current takeoff behavior is unchanged. Read this in: 日本語 · 한국어 · 简体中文 Watch it: an autonomous agent runs a takeoff, live, no cuts (2:47) · hospital finish plan → report in about a minute (1:14) · canvas walkth
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aec, ai-agent, blueprint, construction, construction-estimating, construction-tech
+
+---
+
+### 🌟 [opik-mcp](https://github.com/comet-ml/opik-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 217
+- **核心概述**: Model Context Protocol (MCP) server for Opik, the open-source LLM observability and evaluation platform, built by Comet. Read traces, log scores, and manage prompts from Claude Code, Cursor, or VS Code.
+- **大概是做什么的**: The official Model Context Protocol (MCP) server for Opik, the open-source LLM observability and evaluation platform, built by Comet. Plug your AI host (Claude Code, Cursor, VS Code Copilot, Codex, opencode, or any MCP client) directly into your Opik workspace: read traces, log scores, and save prompt versions, all from the chat. Built for LLM engineers who already run Opik and want to drive it from the same AI assistant they code with. Migrating from the old npx opik-mcp ? The TypeScript server is deprecated and sunsets on 2026-11-15 . Swap npx -y opik-mcp for uvx opik-mcp@latest in your MCP client config. Full guide: legacy/typescript/MIGRATION.md . One command registers the server with the AI clients on your machine, installs the Opik skill pack, and verifies the connection. It needs uv It detects Claude Code, Cursor, VS Code Copilot, Codex and opencode, and uses the hosted server on Opik Cloud (browser sign-in, no API key stored) or this local server elsewhere. Any other MCP client can take the hosted URL directly: Setup guide, troubleshooting and FAQ: comet.com/docs/opik/mcp-ser
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-code, generative-ai, llm-observability, mcp, mcp-server, model-context-protocol
+
+---
+
+### 🌟 [bld](https://github.com/rife2/bld)
+- **项目语言**: Java
+- **星标数量**: ⭐ 316
+- **核心概述**: Pure java build tool for developers who don't like dealing with build tools
+- **大概是做什么的**: bld is a build tool that lets you write your build logic in pure Java. bld was created because we're not really interested in build tools. We use them because we have to, but we'd rather just get on with coding the real stuff. bld is designed with the following principles in mind: tasks don't happen without you telling them to happen no auto-magical behavior, task behavior is explicit and API-defined managing libs yourself is fine, automating that is fine too, or mix and match standard collection of Java-centric tasks for common operations bld is distributed as a single jar, if you have the jar, you have the build system Designed for modern Java bld requires Java 17 or later and supports the latest JDK releases. Your get auto-completion and javadoc documentation, and you can split your build logic into multiple files and classes when you outgrow a single file. Here is a complete bld file for a Java application using JUnit 5 for its tests. Nothing else is needed to be able to run it, test it and distribute it: NOTE: bld supports different ways to describe dependencies, dependency("org
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bld, build, build-system, build-tool, buildtool, compile
+
+---
+
+### 🌟 [sidemantic](https://github.com/sidequery/sidemantic)
+- **项目语言**: Python
+- **星标数量**: ⭐ 118
+- **核心概述**: The universal metrics layer. Compatible with 15+ formats: Cube, MetricFlow, LookML, Omni, BSL, LDM, Cortex, Malloy, OSI, SML, TML, Hex, Rill, Superset
+- **大概是做什么的**: Sidemantic is an open-source semantic runtime. Define governed metrics once—or import the semantic models you already have—and query them consistently from SQL, the CLI, Python, HTTP, PostgreSQL clients, notebooks, BI tools, and AI agents. - Bring existing models: Power BI TMDL/DAX, Cube, dbt MetricFlow, LookML, Hex, Rill, Superset, Omni, BSL, GoodData LDM, Snowflake Cortex, Malloy, OSI, AtScale SML, and ThoughtSpot TML - Or author natively: concise YAML, semantic SQL DDL, or Python - Run on your warehouse: DuckDB, MotherDuck, PostgreSQL, BigQuery, Snowflake, ClickHouse, Databricks, Spark SQL, and ADBC sources - Consume metrics anywhere: semantic SQL, CLI, Python, HTTP/Arrow, PostgreSQL wire protocol, MCP, notebooks, TypeScript/WASM, and embedded analytics Documentation GitHub Docker Hub Discord Demo (50+ MB data download, runs in your browser with Pyodide + DuckDB) Sidemantic ships Claude Code and Codex plugin metadata for two skills ( modeler and webapp-builder ). See Agent Plugin below to install. Contributors working on browser surfaces should read the UI architecture and canonic
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, analytics, analytics-engineering, bigquery, clickhouse, data-engineering
+
+---
+
 ## 🕔 2026-09-11 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
