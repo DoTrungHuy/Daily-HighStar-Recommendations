@@ -1,3 +1,67 @@
+## 🕔 2026-09-11 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [helicone](https://github.com/Helicone/helicone)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,148
+- **核心概述**: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
+- **大概是做什么的**: 🔍 Observability 🕸️ Agent Tracing 🚂 LLM Routing :--------------: :--------------: :------------------: 💰 Cost & Latency Tracking 📚 Datasets & Fine-tuning 🎛️ Automatic Fallbacks Docs • Changelog • Bug reports • See Helicone in Action! (Free) Helicone is an AI Gateway & LLM Observability Platform for AI Engineers - 🌐 AI Gateway : Access 100+ AI models with 1 API key through the OpenAI API with intelligent routing and automatic fallbacks. Get started in 2 minutes. - 🔌 Quick integration : One-line of code to log all your requests from OpenAI, Anthropic, LangChain, Gemini, Vercel AI SDK, and more. - 📊 Observe : Inspect and debug traces & sessions for agents, chatbots, document processing pipelines, and more - 📈 Analyze : Track metrics like cost, latency, quality, and more. Export to PostHog in one-line for custom dashboards - 🎮 Playground : Rapidly test and iterate on prompts, sessions and traces in our UI. - 🧠 Prompt Management : Version prompts using production data. Deploy prompts through the AI Gateway without code changes. Your prompts remain under your control, always acc
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-monitoring, analytics, evaluation, gpt, langchain, large-language-models
+
+---
+
+### 🌟 [oh-story-dsh](https://github.com/zenstory-ai/oh-story-dsh)
+- **项目语言**: Python
+- **星标数量**: ⭐ 336
+- **核心概述**: A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama Skills.
+- **大概是做什么的**: 项目页： · ZenStory AI 全部项目： 小说、短剧、互动游戏与视频解说创作工作台 DeepSeek Harness · Oh Story · Drama Skills · NovelToGame · video-recap-skills · MIT oh-story-dsh 是基于 DeepSeek Harness（DSH）构建的社区插件，把小说、短剧、互动游戏与视频解说四条创作流水线带进 DSH。DSH 管理 Agent、会话、模型、权限和 Chat；插件提供创作 Skills、专业 Roles、项目协议与对应工作台。 本项目与 DeepSeek 官方无隶属、合作或背书关系；DeepSeek Harness 名称与品牌素材归其权利人所有。 文件树、编辑器、Chat 三栏。覆盖长篇、短篇、选题、扫榜、拆文、导入、审稿、去 AI 味与封面流程，13 个 Oh Story Skills 与 7 个专业 Roles 按固定上游版本随插件交付。 每集按请求维护最多五份可读 Markdown： 剧本.md 、 视觉设定.md 、 分镜.md 、 图片提示词.md 、 视频提示词.md 。「生产」视图把这些文档投影为镜头板、素材板、任务/版本、成片顺序和关系画布，并就地提示重复 ID、悬空引用与格式错误。成片装配交给 /short-drama-edit ：它把排定的镜序写成《剪辑单.md》，再渲染到 剧集/ /制作成果/成片/ 。生产交付走 DSH 原生会话、当前 Preset 工具与权限确认。 左侧实时试玩、右侧 DSH Chat 的两列布局。 /novel-to-game quick 的生成物写入 game-adaptations/ / ， build/app/index.html 就绪后自动进入项目列表，可刷新、全屏、切换项目。内置《金瓶梅 · 风月总账》完整可玩构建，开箱即可验证输入、核心循环、结局与重开。 同样是预览左、Chat 右。项目放在 video-recaps/ / ：原片在 sources/ ，上游工作产物在 work/ ，交付在 outputs/ 。工作台提供原片/剪后片/成片切换、阶段提示、运行清单与质检产物查看，视频经 HTTP Range 流式预览。在 Chat 里直接描述目标即可： - 实时文件跟随 ：Agent 调用官方文件工具时，目标文件自动定位，编辑器同步呈现生成中的内容。 - Chat 文件导航 ：点击官方 Chat 中的作品文件名，文件树会定位并在编辑器打开对应文件。 - 创作文档预览 ：Markdown 支持标题、表格、任
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, creative-writing, deepseek-harness, drama-skills
+
+---
+
+### 🌟 [agent-interview-hub](https://github.com/Zchary1106/agent-interview-hub)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 431
+- **核心概述**: AI Agent 工程师面试资料库 - 国内大厂面经、岗位要求、高频面试题
+- **大概是做什么的**: 🤖 Agent Interview Hub 国内最全的 AI Agent 工程师面试知识库 300+ 面试题（全部带答案）· 14 家公司岗位要求与面经（含 Anthropic 等海外顶级 AI 公司）· 6 道实操考题 · 16 周完整学习路线图 📖 经典版 · ✨ 新版 · ⭐ Star 支持 · 🐛 提交面经 专为 国内大厂 AI Agent 工程师 跳槽/求职打造的一站式面试知识库。 - 🎯 面向谁 — 准备跳槽阿里、字节、腾讯、百度等大厂 Agent 岗位的工程师 - 📚 包含什么 — 300+ 高频面试题（全部附答案）、9 家大厂岗位要求与真实面经、6 道限时实操考题、20 篇深度技术文档 - 🗺️ 学习路线 — 从零到 Offer 的 16 周完整学习计划 - ✨ 特色亮点 — 题目全带答案、面经来自牛客真实分享、支持 GitHub Pages 在线浏览 16 周从基础到 Offer，每周有明确目标和推荐资料 ➡️ Agent工程师学习路线图.md 1 12 周 Agent 工程师进阶路线 以周为单位交付 RAG、Agent、MCP、生产化作品集 2 Agent 核心概念与设计模式 ReAct、Plan-and-Execute、Multi-Agent 等核心范式 3 Agent 框架全景 LangChain、AutoGen、CrewAI 等主流框架横评 4 LangChain 与 LangGraph 深度解析 链式调用到图编排的演进与实战 5 RAG 核心知识与面试题 检索增强生成全链路：分块、检索、重排、生成 6 Agentic RAG 与 GraphRAG 深度解析 从朴素 RAG 到 Agent 驱动的智能检索 7 Context Engineering 上下文工程 上下文窗口管理、压缩与优化策略（含 Anthropic 最新实践）🔄 8 Agent 安全与评估体系 Prompt 注入防御、幻觉检测、评估框架 9 大模型推理优化与部署 量化、蒸馏、KV Cache、vLLM 等推理加速 10 Function Calling 与 Tool Use 专题 三大厂商实现对比、调用模式、安全防御 🆕 11 MCP 与工具生态 Model Context Protocol 架构、开发实战、企业应用 🆕 12 Agentic Coding 与 AI 编程工具 Claude Code / Cursor / Copilot 对比、Hooks、人机协作 🆕 13 Agent Harness 与编码代理测评 Codex CLI / Clau
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, claude, interview, langchain, llm
+
+---
+
+### 🌟 [doodle-note](https://github.com/Onyx-Dev-Labs/doodle-note)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 163
+- **核心概述**: Privacy-first, local-first meeting capture and AI notes.
+- **大概是做什么的**: Privacy-first, local-first meeting capture and AI notes. No meeting bot required. DoodleNote captures your microphone and the other side of a call on your computer, transcribes the conversation on-device, and combines the transcript with your rough notes into a useful meeting record. Audio stays on your device. Optional Sync uploads the meeting content you choose, but not the recording audio. See DoodleNote in action Start private and local The Mac app introduces the local-first workflow before you record your first meeting. No bot joins the call, and cloud sync stays optional. Find every meeting and note The home screen keeps recent meetings, quick notes, folders, search, and upcoming calendar events in one place. Review exactly what was said DoodleNote transcribes both sides locally, keeps speaker labels editable, and preserves timestamps for quick review. Turn the conversation into useful notes Generate a polished summary with decisions, action items, owners, and the next meeting while keeping the original notes available. Ask a follow-up question Ask about the open meeting and ge
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, electron, local-first, macos, mcp, meeting-notes
+
+---
+
+### 🌟 [humanizer-ru](https://github.com/Vladimir-Human/humanizer-ru)
+- **项目语言**: Python
+- **星标数量**: ⭐ 123
+- **核心概述**: Проверяемая гигиена вставки из чата для русского текста
+- **大概是做什么的**: Проверяемая гигиена вставки из чата для русского текста 40 regex-маркеров артефактов вставки из чат-интерфейсов, у 38 из них полная запись доказательств. Ложных срабатываний класса A на 12314 текстах-неносителях ноль, класса B — 8, то есть 0.00065 (Wilson 95% CI от 0.0003 до 0.0013; замер 04.09.2026 по замороженной предрегистрации). Каждое число с датой и командой воспроизведения — в разделе «Цифры проекта». Очистка артефактов вставки и сверка фактов доступны и для английского текста: добавьте --language en к humanizer-clean , humanizer-polish , humanizer-facts или humanizer-report (либо --language auto ). Это не включает русские стилевые эвристики и не даёт вердиктов об авторстве; профиль сохраняет код, URL, Markdown и проверяемые факты. Русский профиль остаётся значением по умолчанию для совместимости. - Редактору и преподавателю: проверить текст перед публикацией: humanizer-markers --scan файл.md . - Разработчику и CI: гейт вставки из чат-интерфейсов: action и контракт. - Пользователю ИИ-ассистента: та же проверка внутри агентной среды: MCP одной конфигурацией или демо. Попробоват
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai, claude, claude-code, claude-skill, cli
+
+---
+
+### 🌟 [ask-expert-consult-mcp](https://github.com/pakgik01/ask-expert-consult-mcp)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 116
+- **核心概述**: Open Source AI Expert Agent Bridge for Cursor 2026
+- **大概是做什么的**: Wisdom Cascade Platform 🌉 Connecting Junior Developers with Experienced Mentors Through a Guided Knowledge Exchange Network — a revolutionary peer-to-peer guidance system that transforms transient coding assistance into lasting wisdom. In the modern development landscape, junior engineers often find themselves stuck in a cycle of surface-level solutions, while senior developers possess deep contextual knowledge that rarely gets effectively transferred. The Wisdom Cascade Platform breaks this pattern by creating structured, asynchronous mentorship loops where every question answered becomes a searchable, annotated artifact for future learners — essentially a living textbook generated by real engineering challenges. 📚 Table of Contents - Multilingual & Accessibility Support - Security & Privacy Framework - Contribution Guidelines To begin your journey with the Wisdom Cascade Platform, you will need to set up your environment with the following minimal dependencies. The system operates on a decentralized relay model, meaning no single server holds all the traffic — wisdom flows peer-t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, claude-opus, coding-agent, mcp, model-context-protocol
+
+---
+
 ## 🕔 2026-09-11 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
