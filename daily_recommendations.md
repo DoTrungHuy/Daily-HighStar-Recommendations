@@ -1,3 +1,67 @@
+## 🕔 2026-09-11 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [semble](https://github.com/MinishLab/semble)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,050
+- **核心概述**: Fast and Accurate Code Search for Agents. Uses 99% fewer tokens than grep+read
+- **大概是做什么的**: Fast and Accurate Code Search for Agents Uses 99% fewer tokens than grep+read Semble is a code search library built for agents. It returns the exact code snippets they need instantly, using 99% fewer tokens than grep+read. Indexing and searching a full codebase end-to-end takes under a second for most repos, matching the retrieval quality of a code-specialized transformer while indexing 340x faster and querying 17x faster (see benchmarks). Everything runs on CPU with no API keys, GPU, or external services. Use it as an MCP server, a CLI tool via AGENTS.md, or a dedicated sub-agent, and any coding agent (Claude Code, Cursor, Codex, OpenCode, etc.) gets instant access to any repo. Your agent queries Semble in natural language (e.g. "How is authentication handled?" ) and gets back only the relevant code snippets, without grepping or reading full files. The fastest way to get started is the interactive installer. Install uv, then run: semble install detects installed coding agents such as Claude Code, Codex, and OpenCode, and then lets you choose which integrations to enable: - MCP serve
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, code-search, embeddings, mcp, mcp-server, model-context-protocol
+
+---
+
+### 🌟 [papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,635
+- **核心概述**: A powerful Zotero AI and MCP plugin with ChatGPT, Gemini 3.7, Claude Fable 5, Claude Opus 5, DeepSeek V4, Grok, OpenRouter, Kimi k3, GLM 5.3, SiliconFlow, GPT-oss, Gemma 4, Qwen 3.8
+- **大概是做什么的**: Industrial-Scale Multi-Document Intelligence for Zotero. 100% Local. Zero Hallucinations. PapersGPT is a professional-grade Zotero extension engineered in Native C++ to transform thousands of isolated PDFs into a single, high-precision knowledge engine. While standard tools struggle with single-file chat or slow, "fuzzy" embeddings, PapersGPT delivers instant, cross-document synthesis and global library search with absolute data sovereignty. ⚡ Extreme Performance: Built for "Big Data" Researchers Stop waiting for embedding progress bars. Most AI tools use Python/JS scripts that lag or crash as your library grows. PapersGPT is built to handle professional-scale research. It turns massive document silos into instant knowledge bases. Whether you have 100 or 10,000+ PDFs, the experience remains lightning-fast. PapersGPT’s Enterprise-Grade Performance: Massive Throughput: 10,000 PDFs (170k pages) totaling 42GB indexed in just 7 minutes . Instant Retrieval: Average query response time of 19.5ms , even at 10k scale (42GB of knowledge). Smart Resource Management: Automatic memory offloading
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, chat, chatgpt, claude, claude-fable-5, deepresearch
+
+---
+
+### 🌟 [ANOLISA](https://github.com/agentic-os-org/ANOLISA)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 604
+- **核心概述**: ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) | Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost.
+- **大概是做什么的**: A gentic N exus O perating L ayer & I nterface S ystem A rchitecture The operating system layer for Agent workloads. Let Agents drive the system straight from your terminal, and strip the tool responses that reach the model before they cost you — while keeping the Shell, Agent framework, and sandbox you already run. ANOLISA is a server-side operating layer for AI Agent workloads. It addresses three practical constraints of Agent execution: terminal entry, Token cost, and execution environments. Keep the Shell, Agent framework, and sandbox you already use. ANOLISA CLI provides a single installation entry point, while each capability can be enabled independently. Choose your first outcome in the Quick Start → Runtime &amp; security cosh-ng Shell copilot Token-less Tool-output compression ws-ckpt Checkpoint and rollback OS Skills System and DevOps expertise AgentSight Trace and Token visibility SkillFS Focused Skill views ktuner Kernel tuning Agent Memory Cross-session memory Agent Sec Core Sandbox and verification Blaze Sandbox lifecycle 01 · AGENT INTERFACE Let the Agent work directly
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, agent-memory, agent-runtime, agent-security, agentic-ai, agentic-os
+
+---
+
+### 🌟 [read-aware](https://github.com/ahpxex/read-aware)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 334
+- **核心概述**: An ebook reader with a self-evolving agent: it remembers your reading across books, and plugins extend the reader and the agent alike.
+- **大概是做什么的**: An ebook reader with a self-evolving agent. It remembers your reading across books, and plugins extend the reader and the agent alike. Underneath is a quiet, carefully made reader for EPUB, MOBI, AZW3, FB2, PDF, and more that works fully offline, with or without AI. English · 简体中文 · 日本語 ReadAware is free and built in the open. If it makes your reading better, give it a star — stars are how new readers find the project. One reader. One agent. Open-ended plugins. ReadAware is a free and open-source reader for macOS, Windows, Linux, Android, and iOS. At its center is a single agent that can use tools, answer questions in context, and build an evolving memory from the books, passages, notes, and conversations that matter to you. Around it is a sandboxed plugin system that extends the reader — and the agent — from the inside. - Stay with the sentence. Sentence-by-sentence reading keeps the page calm, focused, and ADHD-friendly. - Mark things your way. Underline, highlight, and write notes without breaking your reading flow. - Ask from the page. Chat with AI about an unfamiliar passage, fo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, android, annotations, azw3, cross-platform
+
+---
+
+### 🌟 [WrongStack](https://github.com/WrongStack/WrongStack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: An AI coding agent that reads your code, edits files, runs commands, and reasons through bugs — across a terminal REPL, a full-screen TUI, and a browser UI, while you keep your hand on every permission.
+- **大概是做什么的**: Ships with a Brain, a Memory, and 67 tools. Yours to run anywhere. A free, open-source AI coding agent that gets better at your codebase over time. It reads code, runs tools, and coordinates specialist agents — with durable memory, visible permission boundaries, and no subscription required. WrongStack is free, open source, and MIT licensed . It drives autonomous goal loops, parallel subagent fan-out, and Brain-governed policy decisions — with a project-wide SAGE memory that persists knowledge across sessions, active Kanban boards with atomic verification, an inter-agent mailbox that links every client, and Chimera auto-review agents that critique your diffs. It ships with 67 built-in tools , 29 bundled skills , 73 managed first-party plugins , and 140 providers pulled live from models.dev — all on top of a compact, swappable kernel that boots fully offline with --no-features . Built from scratch, stands on its own. WrongStack is not a plugin layer or an orchestration kit bolted onto another coding tool — it's a complete agent written top to bottom: its own compact kernel, its own pr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, ai-tools, code, code-generation, coding
+
+---
+
+### 🌟 [agent-sandbox](https://github.com/agent-sandbox/agent-sandbox)
+- **项目语言**: Go
+- **星标数量**: ⭐ 214
+- **核心概述**: Agent-Sandbox is an easy-to-use, enterprise-grade sandbox platform for AI Agents — letting them securely run untrusted LLM-generated code, Browser use, Computer use, and deploy websites, among other tasks.
+- **大概是做什么的**: One Deployment. Every sandbox your agent needs. Self-hosted, lightweight, and easy-to-use sandbox runtime for AI Agents When you're building AI Agents, one of the hardest infra problems is running untrusted, LLM-generated code and actions safely — with multi-session and multi-tenant isolation, so one agent's runaway task never touches another's. Each sandbox needs to be isolated on a per-agent, or even per-user basis, and needs to persist state across turns so an agent can keep context across multiple interactions. kubernetes-sigs/agent-sandbox solves this with AIO Sandbox and Kubernetes, but it talks to Kubernetes directly — great if you're a platform team, painful if you're an agent or a developer who just wants a sandbox. So we built Agent-Sandbox : it wraps that same Kubernetes foundation behind a RESTful API and an MCP server, so agents and humans can create, use, and delete sandboxes without ever touching kubectl . The API and lifecycle model borrow ideas from Blaxel Sandbox and E2B — but this one is open-source and self-hosted. 🪶 Lightweight, easy to run - One component, one
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-sandbox, ai-infra, ai-sandbox, browser-use, code-executor
+
+---
+
 ## 🕔 2026-09-11 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 250 个候选项目中筛选出 6 个未推荐过的新项目。
