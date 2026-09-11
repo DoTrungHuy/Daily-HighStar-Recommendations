@@ -1,3 +1,67 @@
+## 🕔 2026-09-11 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 250 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ComfyUI-Copilot](https://github.com/ATH-MaaS/ComfyUI-Copilot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,511
+- **核心概述**: An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance
+- **大概是做什么的**: 🎯 ComfyUI-Copilot: Your Intelligent Assistant for ComfyUI 👾 Alibaba International Digital Commerce 👾 https://github.com/user-attachments/assets/4b5806b8-dd34-4219-ac9f-6896115c5600 ⚠️ Service Update & Adjustment Notice Kindly be informed: Due to an internal service review and update, the following features will no longer be available soon: - Node information query - Job recommendations - Workflow generation The API service has been suspended. To continue using Agent-related capabilities, please go to the Settings page and enter your own API Key and Base URL . All Agent-related capabilities remain fully available and are not affected by this change. We apologize for any inconvenience this may cause. Thank you for your understanding. ComfyUI-Copilot is an AIGC intelligent assistant built on ComfyUI that provides comprehensive support for tedious workflow building, ComfyUI-related questions, parameter optimization and iteration processes! It streamlines the debugging and deployment of AI algorithms, making creative workflows more efficient and effortless. 🎉 Major Update on 2025.08.1
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, comfy-ui, comfyui, comfyui-nodes, copilot
+
+---
+
+### 🌟 [airecon](https://github.com/pikpikcu/airecon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,010
+- **核心概述**: AIRecon is an autonomous cybersecurity agent that combines a self-hosted Large Language Model (Ollama) with a Kali Linux Docker sandbox and a Textual TUI. It is designed to automate security assessments, penetration testing, and bug bounty reconnaissance — without any API keys or cloud dependency.
+- **大概是做什么的**: AI-Powered Autonomous Penetration Testing Agent AIRecon is an autonomous penetration testing agent that drives any OpenAI-compatible LLM gateway (LiteLLM / vLLM / a hosted endpoint — or a local gateway proxying a local Ollama) with a Kali Linux Docker sandbox , native Caido proxy integration , a structured RECON → ANALYSIS → EXPLOIT → REPORT pipeline , and a real-time Textual TUI . Backend-agnostic by design. Point AIRecon at a local gateway (LiteLLM / vLLM, or a gateway proxying a local Ollama) for fully offline / private operation, or at a hosted OpenAI/Anthropic/Gemini-compatible endpoint for maximum reasoning quality. Reasoning support is auto-detected at runtime — no per-model hardcoding. Swiftproxy – Reliable Residential Proxies for AI-Powered Web Research Swiftproxy provides 90M+ clean residential IPs across 220+ locations , supporting HTTP(S)/SOCKS5, IP rotation, Sticky Sessions, and precise geo-targeting. It helps AI-powered research and reconnaissance workflows access websites reliably from different locations, making it suitable for web research, data collection, scraping,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, automation, bugbounty, cli, ollama, penetration-testing
+
+---
+
+### 🌟 [weread-omni](https://github.com/teng-lin/weread-omni)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 540
+- **核心概述**: 集成 Agent、SDK 与 CLI 的微信读书增强工具包，内置 40 项操作。在覆盖官方功能的基础上，重磅支持阅读微信公众号，并全面解锁书架笔记读写、书籍导入与 AI 权限。
+- **大概是做什么的**: weread-omni 是微信读书的全能智能体技能和非官方 SDK。微信扫码即可用，支持 40 项读写操作，远超官方支持的 6 项只读技能。 40 项操作只有一套实现，三个入口共用： weread-omni 命令行，每条命令都能输出 JSON；一套类型完整的 TypeScript SDK；还有仓库自带的 agent skill。 这是一个非官方项目，与腾讯及微信读书没有隶属关系，也未获得其认可或支持。 微信读书官方在 2026 年 5 月开放了 Agent Skill，用 API Key 提供六项能力：查阅书架、搜索书籍、阅读统计、书籍详情、笔记划线、推荐好书。这些 weread-omni 都有，另外还多做了几件官方没开放的事。 官方 Skill weread-omni 书架、搜索、阅读统计、书籍详情、笔记划线、推荐 ✅ ✅ 新增、修改、删除自己的划线和点评 ❌ ✅ 导入 EPUB、PDF、MOBI、TXT、AZW3 ❌ ✅ 需要 Node.js =22.13.0 ，以及一个已开通微信读书的微信账号。 命令名是 weread-omni 。 0.1.0 装的是 weread ，和官方 Skill 的命令重名，所以从 0.1.1 起改掉了；升级不会删掉旧的 weread ，装过 0.1.0 的话重装一次即可。 weread-omni login 显示一个二维码，用微信读书账号扫一次即可。 登录成功后的 JSON 只包含账号别名、客户端 ID、 vid 和设备 ID，不包含任何令牌。 weread-omni doctor 会核对当前安装和登录状态，并发起一次只读请求确认连接正常。 第一次不带 --account 登录时，账号别名为 default 。要添加其他账号，可以自己指定别名： 账号别名的首字符必须是小写字母或数字，后面可以使用小写字母、数字、 - 和 ，总长不超过 64 个字符。命令没有指定 --account 时，只有一个账号就直接使用它；有多个账号时，先读取 WEREAD ACCOUNT ，再读取 weread-omni accounts use 保存的默认账号。两者都没有设置时，交互式终端会列出所有账号，支持按编号或别名选择；非交互式命令必须传入 --account 或设置默认账号。 登录信息默认保存在 /.config/weread/accounts/ / 。目录权限为 0700 ，文件权限为 0600 。设置 WEREAD CONFIG DIR 可以更改配置目录。项目读取的 WEREAD 变量都列在 .env.example 中。 仓库附带的 wer
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, sdk, skills, typescript, weread
+
+---
+
+### 🌟 [ultracontext](https://github.com/ultracontext/ultracontext)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 353
+- **核心概述**: Open Source Context infrastructure for AI agents. Auto-capture and share your agents' context everywhere.
+- **大概是做什么的**: Same context. Everywhere. Start on Claude Code. Continue on Codex. Open source, realtime and invisible context infrastructure for the ones shipping at inference speed. What Claude Code knows, Codex doesn't. What your teammate is shipping right now? Your agent has no idea. UltraContext captures every agent's context in realtime and makes it available to all of them. It's like having a personal context engineer everywhere. Continue a session in a different agent, or just ask what's happeming. - "Codex, grab the last plan Claude Code made and implement it." - "What's the team building today?" - "What is Alex working on in Codex right now?" Open source. Framework-agnostic. Customizable via the git-like Context API. CLI Auto-ingest Claude Code, Codex, and OpenClaw sessions with a terminal dashboard. MCP Server Share context everywhere. Built into the API, or run standalone via stdio. Context API Git-like context engineering API. Store, version, and retrieve agent context with zero complexity. 1. Start sync. It captures all your agents' context in realtime. 2. Add the MCP server. Any agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, ai-agents, api, context
+
+---
+
+### 🌟 [openai-python](https://github.com/qntx/openai-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 262
+- **核心概述**: Drop-in OpenAI Python client with transparent x402 payment support.
+- **大概是做什么的**: Drop-in OpenAI Python client with transparent x402 payment support. Licensed under the MIT License (LICENSE or ). Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in this project shall be licensed as above, without any additional terms or conditions. A QuantX open-source project. Code is law. We write both.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ethereum, llm, openai, python, solana
+
+---
+
+### 🌟 [openabcode](https://github.com/matrixmapai/openabcode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 379
+- **核心概述**: OpenABCode is an LLM-routing coding agent that dynamically routes tasks to the best-suited models
+- **大概是做什么的**: OpenABCode is an LLM-routing coding agent that dynamically routes development tasks to the best-suited models: - Google ecosystem development tasks are routed to Gemini. - Code review and testing are routed to ChatGPT. - All other development tasks are routed to Claude. To learn more about OpenABCode: Visit openabcode.com, the project website Read the documentation Install with the hosted installer: Or use a package manager: Then start OpenABCode: Inside the interactive CLI: When Route is on, the footer shows the configured execution models. Every completed routing decision is also stored in the session JSONL for audit. Customizing Route Rules Route rules, heuristic keywords, file extension mappings, project markers, and the default provider can all be customized in /.openabcode/agent/settings.json (global) or .openabcode/settings.json (project-level). When a field is set, it fully replaces the corresponding built-in default. Each field is optional and independent — only configure what you want to override. Package Description --------- ------------- @openabcode/coding-agent Route-fi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-agents, ai-tools, developer-tools, devtools
+
+---
+
 ## 🕔 2026-09-10 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
