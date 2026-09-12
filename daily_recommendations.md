@@ -1,3 +1,67 @@
+## 🕔 2026-09-11 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mergekit](https://github.com/arcee-ai/mergekit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,346
+- **核心概述**: Tools for merging pretrained large language models.
+- **大概是做什么的**: mergekit is a toolkit for merging pre-trained language models. mergekit uses an out-of-core approach to perform unreasonably elaborate merges in resource-constrained situations. Merges can be run entirely on CPU or accelerated with as little as 8 GB of VRAM. Many merging algorithms are supported, with more coming as they catch my attention. - Community & Support - Merge Configuration - Parameter Specification - Tokenizer Configuration - Chat Template Configuration - Mixture of Experts Merging - Evolutionary Merge Methods - Multi-Stage Merging ( mergekit-multi ) - Raw PyTorch Model Merging ( mergekit-pytorch ) - Tokenizer Transplantation ( mergekit-tokensurgeon ) Model merging is a powerful technique that allows combining the strengths of different models without the computational overhead of ensembling or the need for additional training. By operating directly in the weight space of models, merging can: - Combine multiple specialized models into a single versatile model - Transfer capabilities between models without access to training data - Find optimal trade-offs between different
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llama, llm, model-merging
+
+---
+
+### 🌟 [codex-seo](https://github.com/AgriciDaniel/codex-seo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 707
+- **核心概述**: Codex-first SEO skill suite. 26 workflows, 24 TOML agents, DataForSEO/Gemini/Google/Firecrawl integrations, GEO/AEO, CWV, schema, backlinks, local/maps, and deterministic reports.
+- **大概是做什么的**: Codex SEO - SEO Audit Skill Suite for Codex Codex-first SEO analysis suite with 1 orchestrator skill, 26 specialist workflows, 24 TOML agent profiles, MCP/API extensions, deterministic headless runners, and premium audit report generation. Codex SEO is a Codex-native port of AgriciDaniel/claude-seo , synchronized to upstream main at a9cf338 and adapted for Codex skills, Codex plugins, TOML agents, shared cache artifacts, and repeatable local/API execution. It covers technical SEO, on-page analysis, content quality, E-E-A-T, schema markup, image optimization, sitemap architecture, Core Web Vitals, GEO/AEO for AI search, backlinks, local SEO, maps intelligence, Google APIs, semantic clustering, SXO, drift monitoring, e-commerce SEO, hreflang, FLOW prompts, DataForSEO, Firecrawl, and Gemini/nanobanana image workflows. - Headless/API Usage - Credentials And Cache - Repository visibility: public. - Current release: v1.9.6-codex.5 . - Installer default ref: v1.9.6-codex.5 . - Latest local validation: 52 tests passing, full installed smoke suite passing, demo readiness passing. - Runtime cr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-search, ai-seo, automation, codex, codex-cli, codex-skills
+
+---
+
+### 🌟 [open-steps](https://github.com/kharmanskyi/open-steps)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 371
+- **核心概述**: Skills that translate your coding agent's output into plain language: honest reports, straight verdicts, steps you can follow. MIT.
+- **大概是做什么的**: English · Español · Русский · Українська · 한국어 · 中文 Skills that keep development open to the person running it: the sessions, the decisions, the next steps, the whole picture, all in plain language. By Pavlo Kharmanskyi. I'm not an engineer. I'm a market-led builder: I look for where demand already exists and the infrastructure doesn't, then build the missing piece. Twenty years of building web and software products, always from the product side, and more than 50 developers at my company today. Apart from the company, I started building a product on my own, just vibecoding. Partly to stay ahead of where all this is going, partly because I think the moment has arrived for people like me: you can now imagine a serious product and build it yourself, with no engineers or very few of them. Then I ran straight into a wall. The agent does excellent work, then tells me about it in commit hashes and jargon, and I genuinely cannot tell whether we are done. Not because the work is unclear. Because nobody taught the agent to talk to someone who doesn't speak engineering. So I built this pack. I'
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, ai-agents, claude-code, claude-code-plugin, claude-code-skills
+
+---
+
+### 🌟 [pstack-claude](https://github.com/michael-denyer/pstack-claude)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 340
+- **核心概述**: Claude Code, Codex, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated to other agents.
+- **大概是做什么的**: pstack for Claude Code, Codex, Prime Agent, opencode, and Gemini CLI Claude Code port of poteto's pstack plugin. The skill tree is synced against upstream e8d856f , pstack v0.14.8 plus the September density pass. See What's deliberately not ported. The same skills/ tree ships as a Codex plugin and is discovered natively by Prime Agent, opencode, and Gemini CLI. Original by Lauren Tan; ships MIT. Imports seven skills from cursor-team-kit (also MIT): deslop , thermo-nuclear-code-quality-review , make-pr-easy-to-review , fix-ci , fix-merge-conflicts , get-pr-comments , what-did-i-get-done . if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence. This is not a verbatim copy. Skill bodies have been edited so every Cursor-specific primitive resolves to its Claude Code equivalent — see Differences from upstream for the full list. The exhaustive per-skill audit lives in CHANGES.md; license attribution and the upstream pins live in NOTICE.md and tools/upstream.json . This repo ships as a Claude
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-ai, ai-agents, anthropic, claude, claude-code
+
+---
+
+### 🌟 [bagidea-office](https://github.com/bagidea/bagidea-office)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 216
+- **核心概述**: A living AI-agent office on your desktop wallpaper — Claude Code agents that walk, work, delegate, learn & hold meetings. Per-agent swappable models (Claude/GLM/DeepSeek/Qwen/Kimi/OpenAI/Gemini/Groq/Ollama…), workflows, plugins, voice & Telegram/Discord/LINE. Open source.
+- **大概是做什么的**: A living, 2.5D Claude Office that runs as your desktop wallpaper — a team of AI agents with real presence that work, learn and grow alongside you. Every agent walks to its desk when real work starts, asks permission at the Security desk, holds meetings, learns new skills, and the lights follow your 🌐 Website · 🎤 Pitch deck · 📖 Docs Install in one line — run the one-shot installer (Windows · macOS/Linux beta). Prefer npm? npx bagidea works too. Not a dashboard. Not a chat window. A world that renders the true state of your Claude agents — Claude Code sessions, headless runs, custom scripts — as living pixel-art employees behind your desktop icons, and gives them a society . learn how to work together, and learn about you . Many of their meetings happen without you asking — small talk that can turn serious enough to start a project, complete with a written proposal they bring to you to approve or reject (with your reasons) . They learn and grow from how you use them — many times their ideas feel like they really do have a soul. Where it comes from: BagIdea Office takes inspiration f
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai, ai-agents, anthropic, automation, autonomous-agents
+
+---
+
+### 🌟 [bug-bounties](https://github.com/lissy93/bug-bounties)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 424
+- **核心概述**: ⚔️ Community maintained directory, MCP and API of 3,000+ active bug bounty programs and VDPs
+- **大概是做什么的**: A compiled list of companies who accept responsible disclosure 🔎 Browse All Programs ➕ Submit New Program Key: 💰 = bounty. 🏅 = shout-out. 🎁 = swag. View full list and details at bug-bounties.as93.net - Abercrombie & Fitch Management Co. 💰 - Accxia Marketplace Bug Bounty 💰 - Acorns Grow, Inc. 💰 - Across Protocol 💰 - ActiveProspect 🏅 - Aelbox Marketplace Bug Bounty 💰 - Afterpay Bug Bounty Program 💰 - AgilePulse Marketplace Bug Bounty Progra... 💰 - Agilis LT Bug Bounty 💰 - Ahold Delhaize 💰 🎁 - Aikido Security: Bug Bounty Program 💰 - Aikido Security: Zen by Aikido 💰 - Air Miles Shop 🏅 🎁 - Aiven Managed Bug Bounty 💰 - Akeles Marketplace Bug Bounty 💰 - Alasco GmbH - Bug Bounty Program 💰 - Algemeen Dagblad 💰 - Aliexpress 💰 🏅 - Aliter Technologies 🏅 - Alpha Venture DAO 💰 - Amazon Web Services 💰 🎁 - AMD Product Security Bug Bounty Program 💰 - AMERICAN SYSTEMS 💰 - Anduril Industries 💰 🎁 - Ant Group Security Response Center - Bug... 💰 - Antavo Loyalty Management Platform 💰 - Anthropic (VDP) 💰 - AnyTask: Freelancer Platform 💰 - Apache Log4j - Bug Bounty Progr
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-security, bugbounty, free-api, mcp, responsible-disclosure, security
+
+---
+
 ## 🕔 2026-09-11 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
