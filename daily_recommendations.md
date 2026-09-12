@@ -1,3 +1,67 @@
+## 🕔 2026-09-12 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [k8m](https://github.com/weibaohui/k8m)
+- **项目语言**: Go
+- **星标数量**: ⭐ 880
+- **核心概述**: 一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。
+- **大概是做什么的**: k8m 是一款AI驱动的 Mini Kubernetes AI Dashboard 轻量级控制台工具，专为简化集群管理设计。它基于 AMIS 构建，并通过 kom 作为 Kubernetes API 客户端， k8m 内置了 Qwen2.5-Coder-7B，支持deepseek-ai/DeepSeek-R1-Distill-Qwen-7B模型 模型交互能力，同时支持接入您自己的私有化大模型（包括ollama）。 1. 点击 仓库右上角 🛫起飞 按钮， 1. 输入cd letsfly/justforfun/k8m && docker-compose up -d && docker-compose ps 1. 进入端口 （在终端 tab页面右边） 1. 点击生成的转发地址，打开k8m 登录页面 1. 输入用户名密码：k8m k8m 。 - 迷你化设计 ：所有功能整合在一个单一的可执行文件中，部署便捷，使用简单。 - 简便易用 ：友好的用户界面和直观的操作流程，让 Kubernetes 管理更加轻松。支持标准k8s、aws eks、k3s、kind、k0s等集群类型。 - 高效性能 ：后端采用 Golang 构建，前端基于百度 AMIS，保证资源利用率高、响应速度快。 ：基于ChatGPT实现划词解释、资源指南、YAML属性自动翻译、Describe信息解读、日志AI问诊、运行命令推荐,并集成了k8s-gpt 功能，实现中文展现，为管理k8s提供智能化支持。 - 功能插件化 ：特性功能插件化，按需开启，不开启不占资源。 - MCP集成 :可视化管理MCP，实现大模型调用Tools，内置k8s多集群MCP工具49种，可组合实现超百种集群操作，可作为MCP Server 供其他大模型软件使用。轻松实现大模型管理k8s。可详细记录每一次MCP调用。支持mcp.so主流服务。 - MCP权限打通 :多集群管理权限与MCP大模型调用权限打通，一句话概述：谁使用大模型，就用谁的权限执行MCP。安全使用，无后顾之忧，避免操作越权。 - 多集群管理 ：自动识别集群内部使用InCluster模式，配置kubeconfig路径后自动扫描同级目录下的配置文件，同时注册管理多个集群，支持心跳检测与自动重连。 - 多集群权限管理 ：支持对用户、用户组进行授权，可按集群授权，包括集群只读、Exec命令、集群管理员三种权限。对用户组授权后，组内用户均获得相应授权。支持设置命名空间黑白名单。 - 支持k8s最新特性 :支持APIGateway、OpenKruise等功能特性。 - Pod文件管理
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 2fa, ai, apigateway, chatgpt, dashboard, k8s
+
+---
+
+### 🌟 [augur](https://github.com/BruceLanLan/augur)
+- **项目语言**: Python
+- **星标数量**: ⭐ 578
+- **核心概述**: 🦉 Augur — 多智能体投资分析系统。13位虚拟投资大师独立分析，加权共识机制，Bloomberg风格Web仪表盘。
+- **大概是做什么的**: 🇨🇳 中文 🇺🇸 English 18 位传奇投资人，同时分析同一支股票，给出一个共识裁决。 把 Warren Buffett、Ray Dalio、段永平、Cathie Wood 放在同一个房间——他们不会同意对方的观点。这正是重点。 /settings 页面现在是一个完整的终端配置系统： - 4 套布局预设 ：analyst / trader / committee / minimal，一键切换首页和工具栏 - 多套命名 Profile ：保存"白天看盘"和"周末研究"两套配置，互不影响 - 启用大师子集 ：只让你信任的几位大师参与共识，权重自动重归一化 - 配置保存在 /.augur/workspace.yaml ，换机器也能带走 不只是"聊天"——你的 Claude / Hermes Agent 现在可以直接 读取并修改 你的 Augur 工作区： fetch → analyze → consensus → committee → debate → sentiment 六步流水线，单步失败不中断，步骤跟随你的 Profile 自动调整。 输入任意股票代码（A股 / 美股 / 港股），18位大师同时给出： - Augur 评分 （0–10）+ BUY / NEUTRAL / SELL 信号 - Kelly 仓位建议 （基于加权共识置信度） - The Oracle of Augur ：一句话裁决 - 多空分布： 13 Bullish / 5 Neutral / 0 Bearish - 经典价值 ：Buffett · Graham · Munger · Fisher - 中国价值 ：段永平 · 张磊 · 李录 · 但斌 - 宏观全天候 ：Dalio · Soros · Marks · ARPS - 创新成长 ：Cathie Wood · Thiel · Aschenbrenner · Lynch 选 2–4 位大师就同一标的展开多轮辩论，自动生成完整的多头和空头论据。 每次分析自动存档，GitHub 风格 52 周热力图，按信号 / 评分 / 日期筛选。 选 2–5 位大师同台对比同一标的，5 维度（估值 / 成长 / 质量 / 动量 / 安全）雷达图一眼看出分歧所在，展开明细表可看到每位大师用了哪些具体因子（PE、护城河、动量等）打出这个分数。 一步步配置指南：安装 MCP 服务、注册 Claude Desktop / Hermes，把 18 位大师和委员会都接进你的 AI Agent 工作流。 4 大流派，覆盖价值 / 成长 / 宏观 / 中国市场
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, investment-analysis, multi-agent, stock-analysis, value-investing
+
+---
+
+### 🌟 [useagent](https://github.com/useagenthq/useagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.
+- **大概是做什么的**: The open-source AI coworker for your team. Your agents. Their own computer. Finished work you can use. useAgent gives Claude Code, Codex, OpenCode, and Pi a shared workspace with repositories, a terminal, a browser, and your team's tools and context. Ask for research, a website, a spreadsheet, or a code change. Follow the work in the thread, step in when needed, and open the files it produces. Watch the 63-second product tour → Real product footage. No sign-in required. The recorded UI may differ from your release. Alpha software. useAgent is under active development: expect rough edges, and APIs/schemas may change between releases. It already runs real daily workloads, but pin a tag if you need stability. A computer for every thread Watch an agent research in a real browser, run commands, and work with your repositories. Open its desktop or terminal and take control when you need to. Daytona and CubeSandbox provide isolated Linux workstations with screen recording. Computer use and sandboxes → Teach it how your team works Import skills from GitHub, pin a playbook to a task, and reus
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-coworker, automation, autonomous-agents
+
+---
+
+### 🌟 [forge](https://github.com/initializ/forge)
+- **项目语言**: Go
+- **星标数量**: ⭐ 226
+- **核心概述**: Forge is the open-source runtime for Anthropic's Agent Skills standard — built for the agent that runs next to a service, in your environment, on infrastructure you already operate. Write a SKILL.md. Compile to a portable, hardened agent. Deploy it anywhere containers run: Kubernetes, on-prem, air-gapped, embedded in CI, or as an A2A endpoint.
+- **大概是做什么的**: Forge — An Open, Secure, Portable AI Agent Runtime for the Enterprise Forge is the open-source runtime for Anthropic's Agent Skills standard — built for the agent that runs next to a service, in your environment, on infrastructure you already operate. Write a SKILL.md . Compile to a portable, hardened agent. Deploy it anywhere containers run: Kubernetes, on-prem, air-gapped, embedded in CI, or as an A2A endpoint. - 60-second setup — forge init wizard configures provider, keys, channels, and skills - Secure by default — outbound-only connections, egress allowlists, encrypted secrets, no public listeners - Portable — same agent runs locally, in Docker, Kubernetes, or inside Initializ Command - Observable — structured NDJSON audit logs with correlation IDs for every action - Extensible — add skills, tools, channels, and LLM providers without changing core code Talk to a working agent, and watch it use a tool, in under 60 seconds: forge try scaffolds a keyless demo agent, finds whatever model credential you already have, and drops you into a chat whose every tool call and egress check Th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, a2a-protocol, agent-cli, ai-agents, ai-agents-cli, ai-workforce
+
+---
+
+### 🌟 [evil-winrm-py](https://github.com/adityatelange/evil-winrm-py)
+- **项目语言**: Python
+- **星标数量**: ⭐ 396
+- **核心概述**: Execute commands interactively on remote Windows machines using the WinRM protocol (just faster)
+- **大概是做什么的**: evil-winrm-py is a python-based tool for executing commands on remote Windows machines using the WinRM (Windows Remote Management) protocol. It provides an interactive shell with enhanced features like file upload/download, command history, and colorized output. It supports various authentication methods including NTLM, Pass-the-Hash, Certificate, and Kerberos. This tool is designed strictly for educational, ethical use, and authorized penetration testing. Always ensure you have explicit authorization before accessing any system. Unauthorized access or misuse of this tool is both illegal and unethical. The original evil-winrm is written in Ruby, which can be a hurdle for some users. Rewriting it in Python makes it more accessible and easier to use, while also allowing us to leverage Python’s rich ecosystem for added features and flexibility. I also wanted to learn more about winrm and its internals, so this project will also serve as a learning experience for me. - Execute commands on remote Windows machines via an interactive shell. - Download files from the remote host to the local
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: active-directory, cli, hackthebox, infosectools, jea, kerberos
+
+---
+
+### 🌟 [Spark-X2.5](https://github.com/XHToken/Spark-X2.5)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 223
+- **核心概述**: Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models
+- **大概是做什么的**: Welcome to the GitHub repository of Spark-X2.5 open model series. You can find official information about Spark-X2.5, and post your questions here(Issues). Today, we are introducing Spark-X2.5-4B and Spark-X2.5-1.7B, two compact, general-purpose language models designed to make capable AI more practical, efficient, and accessible. The models deliver strong performance across a broad range of everyday tasks—including conversation, writing, translation, reasoning, coding, tool use, and agentic workflows—achieving leading results among open-source models of comparable size. Spark-X2.5 combines an efficiency-oriented architecture with native context windows of up to 1M tokens, and support for more than 200 languages. Technical Highlights : - Efficient Architecture and Native 1M-token Context : The models use a hybrid attention architecture that combines one full-attention layer with three sliding-window attention layers. This design substantially reduces the computational overhead typically associated with long-context models while natively supporting a context window of up to 1M tokens.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agent, ai-coding, ai-model, huggingface
+
+---
+
 ## 🕔 2026-09-12 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
