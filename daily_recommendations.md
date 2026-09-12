@@ -1,3 +1,67 @@
+## 🕔 2026-09-12 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cross-code-organizer](https://github.com/mcpware/cross-code-organizer)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 375
+- **核心概述**: Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups.
+- **大概是做什么的**: Cross-Code Organizer (CCO) Formerly Claude Code Organizer — a local control panel for AI coding harnesses. AI agents: read AI INDEX.md first. It is the navigation manifest for this codebase — where to find every module, how they connect, and where to look before making any claim about the code. English 简体中文 繁體中文 廣東話 日本語 한국어 Español Bahasa Indonesia Italiano Português Türkçe Tiếng Việt ไทย New: Activation Scanner research preview. CCO is adding a paper-backed local activation probe for MCP, skill, plugin, hook, and tool-description poisoning. Source-verified scanner paths we inspected rely on text, rules, or classifiers; this preview adds a different signal by freezing a small local sensor model, reading its hidden activations, and training a probe before an untrusted capability runs. See research/README.md, research/SCANNER PIPELINE.md, and research/LIVING PLAN.md. Cross-Code Organizer (CCO) is a cross-harness config organizer for AI coding tools. One dashboard for Claude Code, Codex CLI, OpenCode, and future adapters. Switch harnesses from the sidebar, inspect what each tool loads,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-coding-tools, ai-config-dashboard, ai-tools, claude, claude-code, claude-code-organizer
+
+---
+
+### 🌟 [ai-avatar-system](https://github.com/PunithVT/ai-avatar-system)
+- **项目语言**: Python
+- **星标数量**: ⭐ 484
+- **核心概述**: 🎭 AI Avatar / digital human platform — upload a photo, clone a voice, talk to any face in real time with lip-sync video. Open-source, self-hosted. Claude · Whisper · Chatterbox · MuseTalk.
+- **大概是做什么的**: 🎭 AvatarAI — Real-Time AI Avatar Platform Upload a photo · Clone a voice · Talk to any face in real time The most complete open-source AI avatar / digital human system. Real-time talking-head lip-sync · Zero-shot voice cloning · Multi-LLM · Runs 100% locally or on AWS. 🎬 What is AvatarAI? AvatarAI is an open-source, production-ready platform for building photorealistic AI avatar conversations . Upload any face photo, clone a voice from a 5-second audio clip, and have a real-time conversation — with lip-sync video generated on every single response . What makes AvatarAI different: - 🎤 Zero-shot voice cloning — 10 seconds of audio is all you need (Chatterbox Multilingual) - 🎭 Any face, any language — upload a JPEG, pick from 23 languages, start talking - ⚡ Token-streaming pipeline — the LLM streams live tokens while TTS + lip-sync run per sentence; the first video chunk plays before the model finishes its reply - ✋ Barge-in — speak (or hit stop) mid-reply and the avatar yields instantly, like a real conversation - 🔒 100% local mode — local storage, local Whisper, local LLM via Oll
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-avatar, avatar-ai, chatterbox-tts, claude-ai, digital-human, fastapi
+
+---
+
+### 🌟 [anythingmcp](https://github.com/HelpCode-ai/anythingmcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 199
+- **核心概述**: Self-hosted, open-source AI-empowered MCP gateway: turn any API, database or MCP server into custom connectors for Claude, ChatGPT, Gemini, Copilot & Cursor — no code. Convert REST, SOAP, WSDL, GraphQL & SQL to MCP, with OAuth2, RBAC & audit log. 175+ pre-built adapters (Deutsche Bahn, weclapp, Etsy, DHL, Shopware…)
+- **大概是做什么的**: Turn any API, database or MCP server into custom connectors for Claude, ChatGPT and more — no code. The self-hosted, AI-empowered MCP gateway that converts REST, SOAP/WSDL, GraphQL, SQL/NoSQL databases and other MCP servers into AI tools — then learns how their data connects and teaches your agents to use them, with auth and full audit. Try on Cloud → &nbsp;·&nbsp; Watch 90-sec demo → &nbsp;·&nbsp; AnythingMCP is a self-hosted, open-source smart, AI-empowered MCP gateway and MCP server that turns the systems you already run into Model Context Protocol tools — REST and SOAP APIs, GraphQL, SQL & NoSQL databases, and even other MCP servers . Import a spec or point it at a database, and expose it as a custom connector to Claude , ChatGPT , Gemini , Copilot , Cursor and any MCP-compatible client. No SDK, no code changes — point, configure, connect. It ships with 188 ready-to-use adapters — including Deutsche Bahn , weclapp ERP , Etsy , Shopware , DHL and Sendcloud — so the most common integrations work in one click, while the visual editor and import tools (OpenAPI/Swagger, Postman, cURL,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, api-gateway, chatgpt, chatgpt-apps, claude, claude-connectors
+
+---
+
+### 🌟 [unisondb](https://github.com/ankur-anand/unisondb)
+- **项目语言**: Go
+- **星标数量**: ⭐ 424
+- **核心概述**: A streaming multimodal database for Edge AI, and Edge Computing.
+- **大概是做什么的**: Store, stream, and sync instantly — UnisonDB is a log-native, real-time database that replicates like a message bus for AI and Edge Computing . UnisonDB is an open-source database designed specifically for Edge AI and Edge Computing . It is a reactive , log-native and multi-model database built for real-time and edge-scale applications. UnisonDB combines a B+Tree storage engine with WAL-based ( Write-Ahead Logging ) replication over gRPC or object-store backed replication , enabling fan-out replication across many readers while preserving strong consistency and durability. Writes are committed by a Raft quorum on the write servers (if enabled); read-only edge replicas and relayers can consume WAL through either a live gRPC stream or blob-backed replication using object storage. Blob-backed replication changes the fan-out model: - The writer publishes WAL as immutable segment files plus bounded catalog metadata - Any number of readers can poll and catch up directly from object storage - Teams already running S3, MinIO, GCS, or Azure Blob do not need an always-on gRPC replication path
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, database, edge-computing, go, golang, golang-database
+
+---
+
+### 🌟 [public-apis-live](https://github.com/Manavarya09/public-apis-live)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 144
+- **核心概述**: Every public API in one place — aggregated, deduped, and auto-checked for reachability. Refreshed daily. npm + Claude plugin + live search.
+- **大概是做什么的**: 3057 working public APIs · verified 2026-09-12 · refreshed daily — 🔎 Search · 📊 Benchmark Aggregated from the top public-API lists, deduped, and reachability-checked every day. Only working APIs are listed below; dead/unverified ones are collapsed at the bottom. Try it: npx public-apis-live weather (search) · npx public-apis-live endpoints stripe-com (real endpoints from the OpenAPI spec) · npm i public-apis-live Use it in Claude (plugin) Then ask the agent to pick a working API for any task. How verification works (reachability only) We check reachability daily (no API keys). A working API means its URL returned a success response (2xx/3xx) today; 📦 marks the 46 no-auth APIs that also returned real data. We do not test auth-gated endpoints. 366 unreachable and 1085 unverified entries are listed at the bottom. APILayer APIs (11) · Advertising (6) · Analytics (265) · Animals (23) · Anime (17) · Anti-Malware (16) · Art & Design (20) · Augmented Reality (1) · Authentication & Authorization (5) · Backend (2) · BarCode (5) · Big Data and Analytics (3) · Blockchain (10) · Books (19) · B
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, api-list, apis, claude, developer-tools, free-apis
+
+---
+
+### 🌟 [qzcli_tool](https://github.com/tianyilt/qzcli_tool)
+- **项目语言**: Python
+- **星标数量**: ⭐ 130
+- **核心概述**: 启智平台任务管理 CLI：资源查询、任务提交、日志查看和 MCP/agent workflow
+- **大概是做什么的**: qzcli - 启智平台任务管理 CLI 一个类似 kubectl / docker 风格的启智平台命令行工具，把资源查询、任务提交、任务管理、日志查看和 MCP/agent 工作流收敛到 CLI 里完成。 - Changelog: CHANGELOG.md - 一键登录 : qzcli login 通过 CAS 认证自动获取 cookie，无需手动复制 - 资源发现 : qzcli res -u 调 cluster info / task dimension 聚合工作空间、计算组、项目并本地缓存（默认 quick 模式秒级返回；需要更新 specs 时加 --full 走全量历史任务扫描） - 节点查询 : qzcli avail 查询各计算组空余节点，支持低优任务统计和 cookie 失效自动刷新 - 可视化看板 : qzcli dashboard 用 treemap 按「计算组→优先级→项目→用户→任务」逐层下钻 GPU 占用（需 pip install 'qzcli[dashboard]' ） - 交互式提交 : qzcli create -i 提供层级式选择界面，缺少快照时按需预加载 - 任务列表 : 美观的卡片式显示，完整 URL 方便点击 - 日志查看 : qzcli logs 直连平台日志接口，支持 tail、follow、raw/json 输出 - 机器健康 : qzcli events --node 查这台机器自己的病历（GPU XID 硬件错误、共享盘挂载坏、掉线），并给出能直接粘用的 --exclude-node 串 —— 以前有 --exclude-node 却没有判断该排除谁的依据 - 排队诊断 : qzcli events 给出平台侧的 真实排队原因 ，不用自己猜。训练任务和开发机都支持（两者走不同接口，命令会自动分流）。开发机还会把 K8s 原文翻成能直接行动的结论 —— 比如「计算组挑错了：594 台机器不属于你选的组，换个组，等再久也没用」 - 状态监控 : watch 模式实时跟踪任务进度 如果没有显式设置 QZCLI ENV FILE ， qzcli 会默认尝试从 /.qzcli/.env 读取 CAS 凭据；如果你的凭据文件在别处，先导出 QZCLI ENV FILE=/path/to/.env ： - 首次使用建议执行 qzcli res -u ，会发现并缓存所有你有权限访问的工作空间，非交互式 create / 按名称解析资源时会更稳定 - 如果遇到 未找到名称为 'xxx' 的工作空间 错误，说明缓存需要更新，请重
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-infrastructure, cli, inspire, mcp, qzcli
+
+---
+
 ## 🕔 2026-09-12 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
