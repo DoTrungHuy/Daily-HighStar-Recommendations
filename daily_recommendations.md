@@ -1,3 +1,67 @@
+## 🕔 2026-09-12 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [DSH-Desktop-EAC](https://github.com/DSH-EAC/DSH-Desktop-EAC)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,640
+- **核心概述**: DeepSeek Harness Desktop (dsh-desktop)。 EAC：拥抱尽万象。捆绑 Node.js 运行时，具有完整的 dsh-CLI 内核、一键启动、10 个内置 UI 主题。
+- **大概是做什么的**: DSH-Desktop-EAC — 揽尽万象 EAC = Embracing All Creation（揽尽万象） 🚀 全新产品： Deepseek Harness EAC IDE —— 内置 EAC 的独立 IDE（VS Code 底座 · 鲸鱼品牌 · 开箱即用）， 前往下载 → 把官方 deepseek-ai/deepseek-harness （ @deepseek-ai/dsh ，一切皆插件的 agent harness） 封装为 开箱即用的 Windows 桌面客户端 ，并在其上拥抱社区万象：皮肤、插件、工具、记忆——你所能想到的，一键皆可装。 📦 v5.4 起：唯一的桌面发行版，安装时选「完整版 / 精简版」 同一个安装包、同一套 5.x 内核： 完整版 带全部内置插件； 精简版 只默认停用外围插件（桌宠 / 手机桥 / 多智能体等），设置里可随时一键启用，无需重装。 原 Lite（Electron 精简版）退役 、 AIO 整合版收编为精简版形态 、 EAC-IDE 进入维护模式 ——数据统一 /.dsh 。迁移说明见 docs/SINGLE-EDITION-MIGRATION.md。你可以用任意Harness软件让其以此规则迁移。 🚀 官方配套启动器：DSH EAC Launcher 多实例隔离 · 本地实例导入 · 版本一键升级/回退 · 插件安全体系 （崩溃守卫 crash-guard · 插件快照回滚 · 隔离区 · 健康体检） 为本项目的多实例与插件玩法而生：每个实例独立程序目录与 DSH HOME ，从上游 Release 一键安装任意版本，装插件崩了也能一键回滚。 👉 zouyuxuan122/DSH-EAC-Launcher ｜ ⬇ 下载最新版 v1.1.0 维度 官方 DeepSeek Harness 默认体验 DSH-Desktop-EAC 增强 安装与启动 需自行准备 Node.js，并通过 CLI 启动 内置 Node.js、npm CLI 和 dsh，提供安装版与便携版，双击即用 桌面体验 主要在终端或浏览器中使用 原生桌面窗口、系统托盘、快捷方式维护、进程清理和任务通知 CLI 共存 CLI 与 Web 通常使用同一插件环境 桌面端使用独立 web-desktop profile，与 CLI 共享会话和 API Key，插件互不干扰 插件可靠性 主要通过包管理器安装并手动排查问题 安装和启动前自动快照，异常时支持体检、修复、重试、回滚和事故报告 界面定制 默认使用官方界面 内置 10 款皮肤，支持字体、字号、颜色
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, deepseek-harness, desktop, desktop-app, dsh
+
+---
+
+### 🌟 [ultracite](https://github.com/haydenbleasel/ultracite)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,262
+- **核心概述**: 一个高度固执的、零配置的 linter 和格式化程序。
+- **大概是做什么的**: 适用于 ESLint、Biome 和 Oxlint 的生产级、零配置预设。 Ultracite 可帮助您和您的 AI 模型编写一致、类型安全的代码，而无需进行配置的麻烦。选择您喜欢的工具链，运行一个命令，并在几秒钟内连接数百条经过实战考验的规则——跨单个存储库和单一存储库。交互式设置将引导您选择格式化程序/linter、框架、编辑器和 AI 代理，然后为您安装和配置所有内容。随时重新运行它以调整您的设置。更喜欢不同的包管理器？ Ultracite 会自动检测您的，或者您可以使用 pnpm dlx 、yarn dlx 或 Bunx 运行它。命令 说明 ultracite init 在当前目录中初始化 Ultracite（默认为交互式）。 ultracite 检查 [文件...] Lint，无需写入更改。未知标志将传递到底层 linter。 ultracite fix [文件...] Lint 和自动修复。未知标志将传递到底层 linter。 ultracite doctor 验证您的 Ultracite 设置并诊断配置问题，包括 linter 版本 Misma
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: biome, cursor, formatter, linter, mcp, vscode
+
+---
+
+### 🌟 [Heeler](https://github.com/ZingerLittleBee/Heeler)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 311
+- **核心概述**: 适用于 herdr 的本机 iOS 代理控制台 — 通过 SSH 监视并驱动计算机上的编码代理，使用真正的 libghostty 终端、二维码配对，并在代理需要时推送通知
+- **大概是做什么的**: herdr 的原生 iOS 配套应用程序 — 代理优先的终端运行时。 Heeler 是一个代理控制台：您机器上运行的每个编码代理的本机仪表板，按需要您的人员排序。打开代理来读取和操纵其实时终端，在本机 Composer 中使用完整的 iOS 键盘进行起草，并通过普通 SSH 发送一次完整的消息。代理控制台 实时终端 Composer + 工具键盘 终端技能 实时活动 - 控制台 — 每台计算机上的每个代理都在一个状态排序列表中（首先被阻止），可按主机过滤，实时更新。 - 附加 — 由 libghostty 呈现的代理真实终端：本机回滚、动量触摸滚动（也可驱动全屏 TUI）、长按选择、接管过时的终端所有者，以及悄悄收集稍后打开的 Web 链接。 - Composer — 使用完整的 iOS 键盘（自动更正、IME、听写）在本地起草，然后发送一次；工具键盘添加了代理控制键、代理技能、可重复使用的片段和终端外观。 - 终端 — 在代理目录中打开一个普通 shell，具有文本和按键模式以及一个 reu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, apns, coding-agents, herdr, herdr-plugin, ios
+
+---
+
+### 🌟 [Artemis](https://github.com/momori777/Artemis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 325
+- **核心概述**: 破限本地AI女友后宫，openclaw/claude code+画图语音向量数据库+live2D+桌宠+酒馆角色卡导入+前端，QQ+Telegram双通道，8G显存可跑🩵uncensored Fully offline AI girlfriends harem Openclaw/Claude code+Local LLM+GPT-SoVITS+ComfyUI image+Live2D+desktop pet+SilllyTavern Character card import+frontend | Dual channels for QQ & Telegram | Dynamic 8G VRAM scheduling+mem0 qdrant, can run offline
+- **大概是做什么的**: 第四位女朋友投票正在进行中 - 请就问题投票。配置教程 BV16XTV6fEoH ⚠️ 默认脚本适用于 NVIDIA GPU。 AMD GPU 用户：请参阅 AMD GPU/ 文件夹。语言 / 语言 / 言语 ： 🇨🇳 中文 · 🇬🇧 英语 · 🇯🇵 日本语 100% 本地化 · 完全私密 · 零 API 依赖 所有对话、语音、图像和角色动画均在您自己的机器上生成。无云服务器，无第三方API，无数据泄露风险。你的人工智能女友属于你，而且只属于你。一个未经审查的 AI 女友后宫项目，由 OpenClaw + QQ Bot + Telegram Bot + llama.cpp + GPT-SoVITS + ComfyUI + Sakura Desktop Pet + Live2D 提供支持 - 完全在您自己的机器上运行。角色：支持热插拔AI女友，每个角色都有独立的记忆。 Shiki Natsume (四季夏目) 来自星空月光咖啡馆和死亡之蝴蝶。高大、冷漠、冷酷的外表下，隐藏着一股温暖。天生的安静主导型——她带头，温柔地戏弄你，又猛烈地守护你。话不多，但每一个字都很中肯。来自 ATRI -我亲爱的时刻-。娇小、天真、好奇心无穷——眼睛明亮的g
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-girlfriend, comfyui, desktop-pet, gpt-sovits, image-generation, live2d
+
+---
+
+### 🌟 [pdf-mcp](https://github.com/jztan/pdf-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 134
+- **核心概述**: 一款 MCP 服务器，可为您的 AI 代理提供针对 PDF、一个文件或整个文件夹的代理 RAG：混合语义 + 关键字搜索、选择性页面读取、表格、图像、OCR、图表数据和多列/CJK 布局。代理人决定何时进行搜索； pdf-mcp 进行检索。
+- **大概是做什么的**: 作为单个 MCP 工具，对 PDF、一个文件或整个文件夹进行代理 RAG。代理人决定何时进行搜索； pdf-mcp 进行检索并返回摘录。它是一个 MCP 服务器，可让 Claude Code 和其他 AI 代理按含义或关键字搜索一个 PDF 或整个文件夹，仅读取重要的页面，并干净地提取表格、图像和扫描文本，甚至可以从多列和日文布局中提取表格、图像和扫描文本，并具有可选的 CUDA 加速功能以加热大型语料库。 mcp-name: io.github.jztan/pdf-mcp 在浏览器中尝试一下 查看 AI 代理看到的内容 → 放入任何 PDF 或整个文件夹，然后���察代理对语料库进行分类，一次搜索每个文档，并使用一小部分标记仅读取重要的页面。 100% 客户端，无需安装。不使用 pdf-mcp 使用 pdf-mcp 大型 PDF 上下文溢出 只读取您需要的页面 查找内容 加载所有内容 混合搜索：BM25 关键字 + 语义 PDF 文件夹 一次一个文档 预热、分类和搜索整个文件夹 预热一个大文件夹 CPU 嵌入分钟数 长度排序小批量 CPU
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-rag, ai, cjk, claude, claude-code, codex-cli
+
+---
+
+### 🌟 [ai-agent](https://github.com/OWWZO/ai-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 118
+- **核心概述**: 一个面向全网研究与复杂数据分析的云端智能体，能在公开网络、YouTube、BiliBili、X、小红书、Hacker News上研究任何主题 。项目wiki：https://zread.ai/OWWZO/ai-agent
+- **大概是做什么的**: 一个面向全网研究与复杂数据分析的云端智能体，能在公开网络、YouTube、BiliBili、X、小红书、Hacker News上研究任何主题 Reactor 是一款突破信息围墙的全域情报产品，实现从原始信息到可落地结论的全链路自动化。 - 全域采集 ：调度多个智能体并行采集网页信息、Reddit 社区讨论、X 平台动态、YouTube 字幕内容、小红书互动数据，以及由真实资金与内幕信息定价的 Polymarket 预测赔率。 - 私有文档证据链 ：通过多模态 RAG 解析用户私有的 PDF、Word、PPT 与图片，把公域情报与内部知识放进同一条证据链。 - 长期记忆 ：沉淀偏好、关键事实与可复用流程，让下一次任务不必从头开始。 - 分析与交付 ：结合 E2B 沙箱的代码执行能力与专属数据分析 Agent，完成数据清洗、交叉验证与深度分析，最终以 GenUI 交互画布和 PDF、Word、PPT、HTML 等多格式报告自动交付。 当前主流搜索引擎与大模型均存在天然的信息边界，各大平台各自形成封闭的信息围墙，拥有独立的接口体系、鉴权机制与数据生态，没有任何一款 AI 产品能原生覆盖全部渠道： 谷歌搜索 无法穿透 Reddit 评论与 X 平台原生内容 ChatGPT 仅接入 Reddit 生态，缺失 X、TikTok 等平台数据 Gemini 可访问 YouTube 资源，却无法获取 Reddit 社区内容 Claude 原生不支持上述任一平台的实时检索 Grok ��生深度打通 X 平台实时数据，却无法原生覆盖 Reddit 等更多平台生态 而 Reactor 支持导入用户自定义密钥与浏览器会话凭证，打通全部平台数据源。它不止于跨平台全域检索，更能对多源信息进行交叉权重评分，过滤噪音与重复信息，精准提炼真正有价值的核心情报。 Reactor 最初诞生于程序员群体的信息焦虑：在技术迭代日新月异的当下，Reddit、X 平台的极客社区始终站在行业最前沿，第一时间涌现最新的技术实践、工具拆解与方向讨论。但各大平台彼此割裂、各自形成封闭的围墙花园，零散的一手经验与技术动态散落在一座座信息孤岛上，没有单一入口可以高效聚合全域信息，我们很难及时、完整地捕捉全社区的原生技术情报，同步跟进最前沿的技术方向。 从解决自身的技术信息痛点出发，Reactor 逐步进化为一款通用全域情报工具，覆盖更多高价值决策场景： 一键梳理发言嘉宾的近期观点、公开言论与项目动态，一键聚合目标人物全平台真实动态： Peter Steinberger加入OpenAI Codex团队、推动对抗Anthrop
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agentic, agentic-workflow, ai, ai-agents
+
+---
+
 ## 🕔 2026-09-11 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
