@@ -1,3 +1,67 @@
+## 🕔 2026-09-12 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 255 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ASC](https://github.com/MG1937/ASC)
+- **项目语言**: Python
+- **星标数量**: ⭐ 640
+- **核心概述**: ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.
+- **大概是做什么的**: Droid ASC: R8 Compiler Optimization as a DeCompiler Primitive https://blackhat.com/europe/arsenal/schedule/index.html droid-asc-r8-compiler-optimization-as-a-decompiler-primitive-54834 When decompiling massive Android APKs, the standard procedure is to wait. We wait for tools to eat gigabytes of RAM, fully inflate the artifacts, and spend tens of minutes building heavy global indexes and cross references... All of this is just to guarantee fast code searches later, but here is the contradiction. A compiled artifact is already highly structured, modern decompilers never utilize this, they waste massive amounts of time and memory reconstructing a bloated database of code relationships over already structured data. This engineering approach defies common sense. When I can directly extract any code relationship from the APK in milliseconds, does this preprocessing still hold any value? Instead of forcing decompilers into heavy preprocessing, we choose to query the compiled artifact directly as a database. We built a stateless, zero-overhead engine that extracts and searches code on deman
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, android, decompilation, decompile, decompiler
+
+---
+
+### 🌟 [awesome-agent-native-services](https://github.com/haoruilee/awesome-agent-native-services)
+- **项目语言**: Python
+- **星标数量**: ⭐ 439
+- **核心概述**: A curated list of agent-native services and infrastructure for AI agents: email, browsers, memory, sandboxes, payments, and MCP tools. Includes selection criteria and onboarding guides.
+- **大概是做什么的**: Awesome Agent-Native Services A curated list of agent-native services and infrastructure for AI agents : email, browsers, memory, sandboxes, payments, MCP tools, and more. Browse services by capability, compare their agent-native design against the selection criteria, and follow each service’s onboarding guide to connect your agent. Each service is either infrastructure an AI agent consumes directly or a narrowly qualified, purpose-built surface for operating concrete agent sessions — not a generic platform for humans to build agents with . Also on the web: Awesome Agent-Native Services — The Agent-Native Index — the same catalog with structured metadata and machine-readable discovery endpoints. - Browse by category - 1. Communication services (agent-native email & identity) - 2. Browser & web execution (remote browsers for agents) - 3. Tool access & integration (MCP servers & agent tools) - 4. Oversight & approval (human-in-the-loop for agents) - 5. Commerce & payments (agent wallets & protocols) - 6. Agent runtime & infrastructure (sandboxes, gateways, identity) - 7. Agent harnesse
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-infrastructure, agent-native, ai-agents, awesome, awesome-list, mcp
+
+---
+
+### 🌟 [fuji-web](https://github.com/normal-computing/fuji-web)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 599
+- **核心概述**: Fuji is an AI agent that lives in your browser's sidepanel. You can now get tasks done online with a single command!
+- **大概是做什么的**: Fuji-Web: AI based Full Browser Automation 🗻 Fuji-Web is an intelligent AI partner that understands the user’s intent, navigates websites autonomously, and executes tasks on the user’s behalf while explaining each action step. https://github.com/normal-computing/fuji-web/assets/1001890/88a2fa12-31d9-4856-be67-27dcf9f1e634 Please read our blog post for a demo video, benchmarks and deep-dive technical overview! Installing and Running 1. Go to the releases page, find the latest version of the extension and download "fuji-extension.zip". 3. Load your extension on Chrome by doing the following: 1. Navigate to chrome://extensions/ 2. Toggle Developer mode 3. Click on Load unpacked extension 4. Select the unzipped folder Please note that you may need to refresh the page for the extension to work. 1. Find the Fuji icon in the top right corner of your browser and click on it to open the sidepanel. 2. Create or access an existing OpenAI API Key or Anthropic API key and paste it in the provided box. This key will be stored in your browser, and will not be uploaded to a third party. 3. Finally,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, browser-extension, gpt, llm, react
+
+---
+
+### 🌟 [Liyuan](https://github.com/weidu12123/Liyuan)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 218
+- **核心概述**: 梨园 Liyuan — 以 rp agent为主体的ai角色扮演应用
+- **大概是做什么的**: Liyuan is an RP Agent built on pi, designed to bring coding agent capabilities into role-playing. 梨园是基于 pi 构建的 RP Agent，将 coding agent 的诸多能力 RP 化。目标是以 agent 架构解决传统 rp 项目的诸多问题，为用户带来更好的角色扮演体验。 梨园的整个创作思路可以被概括为 agent 的 RP 化，通过类比 coding agent 的诸多能力并将其 RP 化。 Coding Agent 梨园 RP 化 项目文件夹（Workspace / cwd） 角色卡独立空间（一卡一目录） 代码局部修改（Edit / Patch） 局部定点改稿 代码匹配工具（Grep / Search） 文本匹配工具 代码版本回退（Rewind / Checkpoint） 稿件回滚与上一拍修订 上下文压缩（Compact） 剧情向压缩（前情提要） 跨会话记忆（Codex Memories） 卡级记忆（复盘、合并与遗忘） 关键操作确认（Permission Gate） 剧情分岔决策卡 规则分层（SYSTEM.md / AGENTS.md） 引擎协议与卡片世界法则 - 纯净上下文与剧情压缩 ：harness 确定性过滤过程数据，长篇对话按叙事逻辑汇总为前情提要。 - 即时状态与登场名录 ：旁路自动记账时间、地点、物品与人物在场状态，每拍锚定防止设定漂移。 - 设定集按需检索 ：世界书与知识库不占常驻窗口，模型在需要时主动按需检索设定原文。 - 卡级跨会话记忆与遗忘 ：局复盘自动合并沉淀为卡级记忆，删除对话同步触发事实的物理遗忘。 - 提示词分层自定义 ：开放 SYSTEM.md （引擎底层协议）与 AGENTS.md （角色世界法则），支持完全透明的文件化编辑与条目级开关。 - 角色卡协同制作平台 ：内置角色卡工坊与工作模式，支持用户与 Agent 在沙箱内协同编写、修改与测试卡片资源与前端脚本。 - 卡空间物理独立迁移 ：每张卡作为一个完整工作空间，会话、状态与记忆物理聚合，单卡目录支持跨设备直接拷贝即用。 - 通用数据资产导入导出 ：支持标准角色卡、世界书与历史会话直接导入续玩，知识资产可自由导出为通用格式，无数据锁定。 - 纯透明本地文件存储 ：全量数据以明文 JSON 与 Markdown 落地，不依赖数据库黑盒，支持随时归档、备份与手动管理。 - 关键岔口停笔共创 ：关键剧情转折处主动调用 ask 工具征询，提供分支选项与自由输入，由用户决定故事
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, ai-roleplay, character-card, llm
+
+---
+
+### 🌟 [home-generative-agent](https://github.com/goruck/home-generative-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: AI agent for Home Assistant — talk to your home, create automations in plain language, analyze cameras with face recognition, and get proactive anomaly alerts. Cloud LLMs or fully local via Ollama.
+- **大概是做什么的**: Home Generative Agent ![Project Maintenance][maintenance-shield] A Home Assistant integration that brings a generative AI agent into your smart home. Talk to your home, create automations in plain English, analyze camera footage, and get proactive alerts — all powered by your choice of cloud or local LLMs. HGA is a single integration that gives you conversational control over every HA entity, camera understanding with face recognition, long-term semantic memory, and the Sentinel anomaly engine. Creating an automation in plain English — the agent writes the YAML, registers it, and it shows up in the HA automation editor. Most AI conversation integrations are prompt passthroughs: they forward your words to an LLM and read back the answer. HGA is a full agent built on LangGraph — it uses tools to control entities, query history, watch cameras, and write real HA automations; it keeps long-term semantic memory in pgvector so it remembers your preferences across conversations; and its Sentinel anomaly engine keeps safety decisions deterministic, with the LLM advising but never actuating. E
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: ai-agent, anomaly-detection, anthropic, computer-vision, gemini, generative-ai
+
+---
+
+### 🌟 [cubeplex](https://github.com/cubeplexai/cubeplex)
+- **项目语言**: Python
+- **星标数量**: ⭐ 331
+- **核心概述**: AI agent workspace for teams
+- **大概是做什么的**: Cloud-native platform for managed agents in team workspaces CubePlex is a cloud-native platform for managed agents in team workspaces — skills, shared memory, MCP tools, persistent sandboxes, governed access, and self-hosted deploy on Docker Compose or Kubernetes. The diagram reflects the current application architecture. CubePlex's agent runtime is built on CubeLoop, an async-native agent framework for multi-provider model access, tool execution, streaming, middleware, and durable checkpoints. Workspace sandboxes are isolated execution environments with persistent working state; external model providers, MCP servers, and IM platforms remain outside CubePlex's trust Skills Workflow — find a skill, install it and use it to build agentic frontend, end to end. Data Analysis — transform raw tabular data into a formatted spreadsheet. One-Page PDF — turn a one-page PDF into a polished, navigable page. Browser Control — an agent drives the browser to complete a task autonomously. Multi-model chat Hosted and custom providers (Anthropic, OpenAI, and more). Attach files, stream replies, switch
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, enterprise-agents, managed-agents, managed-ai, selfhosted, workspace-agents
+
+---
+
 ## 🕔 2026-09-12 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
