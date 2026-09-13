@@ -1,3 +1,67 @@
+## 🕔 2026-09-13 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [graph-fraud-detection-papers](https://github.com/safe-graph/graph-fraud-detection-papers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,891
+- **核心概述**: A curated list of Graph/Transformer-based fraud, anomaly, and outlier detection papers & resources
+- **大概是做什么的**: Awesome Graph/Transformer Fraud Detection A curated list of Graph/Transformer-based papers and resources for fraud, anomaly, and outlier detection. We have an interactive dashboard to view/filter/search the papers listed in this repo. To facilitate deep research, we developed a local RAG-based LLM chatbot with 250 publicly accessible papers. Please refer to the project README on how to deploy this chatbot for personal use. - LLM and Transformer Papers - Deep Learning Graph Papers: 2026 2025 2024 2023 2022 2021 2020 Before 2020 - Non-Deep-Learning Graph Papers since 2014 LLM and Transformer Papers Year Title Venue Paper Code ------- -------- -------- -------- ----------- 2026 TransactionGPT KDD 2026 Link Link 2026 SAGE: An LLM-driven Self Reflective Agentic Framework for Fraud Detection arXiv 2026 Link Link 2026 Plan First, Judge Later, Run Better: A DMAIC-Inspired Agentic System for Industrial Anomaly Detection arXiv 2026 Link Link 2026 Let Relations Speak: An End-to-End LLM-GNN Soft Prompt Framework for Fraud Detection arXiv 2026 Link Link 2026 UniDetect: LLM-Driven Universal Fraud
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: academic-publications, anomaly-detection, awsome-list, data-mining, data-science, dataset
+
+---
+
+### 🌟 [science-superpowers](https://github.com/K-Dense-AI/science-superpowers)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 331
+- **核心概述**: Composable computational-science methodology skills for AI research agents — pre-registration over TDD. A science-domain reimplementation of Superpowers.
+- **大概是做什么的**: Science Superpowers is a complete computational-science methodology for your research agents, built on a set of composable skills plus initial instructions that make sure your agent actually uses them. It has zero third-party dependencies — it runs with only your agent harness and a POSIX shell. ⭐ If Science Superpowers helps your research, please star this repository. A star helps other scientists and engineers find the project and tells us the methodology is worth expanding. Learn more: Introducing Science Superpowers — why we built it, the Iron Law, and the full workflow. Related essays are collected under From the blog. Stay up to date: Follow K-Dense on X, LinkedIn, and YouTube for new skills, release announcements, and research workflow demos. 🎬 Prefer to watch first? Getting Started with Scientific Agent Skills covers how skills plug into your agent, and Skills 101 walks through writing one yourself. It is a reimplementation of Superpowers (a software-development methodology) for a different domain: doing science with data. The architecture is the same — skills that auto-trig
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, computational-science, preregistration, reproducible-research
+
+---
+
+### 🌟 [predikit](https://github.com/Tejas-TA/predikit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 400
+- **核心概述**: The missing bridge between your ML models and your AI agents.
+- **大概是做什么的**: The bridge between your ML models and LLM agents. Wrap any trained scikit-learn or XGBoost model as an LLM-callable tool — auto-generated JSON schemas, typed I/O, zero boilerplate. Most ML pipelines stop at .predict() . Getting that prediction callable by an LLM agent — with validated inputs, correct types, and a schema the model can reason about — requires glue code that's tedious to write and easy to get wrong. predikit handles that layer for you: Without predikit With predikit -- ------------------ --------------- Schema Hand-write JSON Schema for every model Auto-generated from your Pydantic BaseModel Type safety Manual casting, silent failures Pydantic v2 validation with clear error messages LLM integration OpenAI / LangChain boilerplate per model .to openai() / .to langchain() in one line Ensemble routing Custom aggregation logic per project ModelEnsemble with 5 built-in strategies Confidence handling Write your own threshold checks confidence threshold + on low confidence Model registries Manual MLflow / Snowflake registry calls from mlflow() / from snowflake() loaders Async a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, langchain, llm, machine-learning, model-serving, openai
+
+---
+
+### 🌟 [halogen-flash-server](https://github.com/peonist-ai/halogen-flash-server)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 339
+- **核心概述**: The fastest way to run Qwen3.8-Flash-Next on Strix Halo (gfx1151)
+- **大概是做什么的**: halogen-flash-server The fastest way to run Qwen3.8-Flash-Next on AMD Strix Halo, and it does not get there by spending fewer bits. Every kernel is written for this one GPU and this one model family. No general-purpose runtime, no portability layer, no fallback path. That is why it can do things a general engine cannot, and why it runs on exactly one piece of On a 32K prompt with a 256-token answer, against the fastest numbers anyone else has published for this model on this hardware: precision prefill decode total halogen-flash 0.5.3 5.53 bpw 23.0 s 6.1 s 29.1 s EngramHalo.cpp 3.71 bpw 103.7 s 14.3 s 118.0 s ROCmFP4 5.51 bpw 104.7 s 13.2 s 117.9 s CIRU-IU4 5.96 bpw 143.7 s 11.0 s 154.7 s Roughly 4x faster end to end than the best of them. Prefill is where that is won, and on any prompt with real context prefill is most of the wall clock. The one runtime carrying more bits than we do is the slowest of the three, and the fastest of them runs at 3.71 bpw, two thirds of our precision. Our two cells are the rows published under Measured, which is also where the conditions are: 32,768 tok
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: amd, gfx1151, gpu-inference, hip, inference-engine, llm
+
+---
+
+### 🌟 [EVA-CLIENT](https://github.com/Noietch/EVA-CLIENT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 204
+- **核心概述**: EVA-Client: A Unified Framework for Deployment, Evaluation, and Data Collection on Real Robots
+- **大概是做什么的**: EVA-Client: A Unified Framework for Deployment, Evaluation, and Data Collection on Real Robots One policy, any robot — the smooth all-in-one real-robot stack. Debug, record, evaluate, visualize, all in the browser. EVA-Client driving an AgileX bimanual arm end-to-end from the browser — teleop → record → π₀ checkpoint → smooth async deploy. Real hardware, not a rendering. [2026-08-28] EVA-Client 0.2.0. EVA-Client now supports WebXR-based VR controller teleoperation, ARX X5 hardware, dual-YAM leader-follower data collection, export to LeRobot v3.0, MCAP, and HDF5, and multiple coding-agent skills for adding robots, calibrating cameras, and debugging robot SDKs. [2026-08-28] EVA-MHS Preview. Inspired by Anthropic's Model Hardware Standard (MHS) research preview, EVA-MHS explores an MHS-style agent-to-hardware interface for robotics. Its MCP service allows coding agents to inspect runtime state, call policy models, and directly control robots. EVA-MHS is available on the dev/mcp preview branch and will be formally released in a future update. [2026-07-22] New RL Workspace. EVA-Client now
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agilex-piper, deployment, embodied-ai, franka, infernece
+
+---
+
+### 🌟 [UnityMCP](https://github.com/isuzu-shiranui/UnityMCP)
+- **项目语言**: C#
+- **星标数量**: ⭐ 302
+- **核心概述**: Drive the Unity Editor from an AI agent or the terminal. The Editor serves MCP itself over HTTP, so there is no second process to run, and the isuzu-unity-cli command needs no Node or .NET runtime.
+- **大概是做什么的**: English Version Tiếng Việt Unity Editor を AI エージェントに開放するフレームワークです。人が手で実行しても、スクリプトから呼んでも、同じ経路を通ります。 - MCP クライアントは、Editor 自身が公開する Streamable HTTP エンドポイント http://127.0.0.1: /mcp に直接接続します。別プロセスの MCP サーバーはありません。Claude Code、Cursor、Codex、Gemini CLI、VS Code、Claude Desktop で動作を確認しています。 - コマンドラインの isuzu-unity-cli からも同じツールを呼べます。配布している実行ファイルはネイティブなので、Node も .NET ランタイムも要りません。 - ツールは C の static メソッドに [McpTool] を付けるだけで定義できます。 はじめて使う方は、図つきの導入ガイド Unity MCP のはじめかた から始めてください。 - Unity Editor 2022.3 以降。EditMode テストスイートは Unity 6000.0.35f1 で実行しています - Git クライアント 2.14.0 以降を PATH に通しておいてください。Unity の Package Manager が git URL のパッケージを取得するのに使います（Unity のマニュアル）。下の VPM リポジトリから入れる場合は要りません - com.unity.nuget.newtonsoft-json 3.2.1。依存として自動で解決されます Unity の Package Manager で Add package from git URL を選び、次の URL を入力します。 VCC（VRChat Creator Companion）と ALCOM では、VPM リポジトリ https://unity-mcp.shiranui-isuzu.dev/vpm.json を追加してください。どちらもパッケージを zip でダウンロードするので、この経路に Git は要りません。ワンクリックで追加するリンクと、追加する場所の画面は、導入ガイドの VCC・ALCOM をお使いの場合 にあります。 GitHub Releases から実行ファイルを直接ダウンロードして、 SHA256SUMS で検証することもできます。.NET 10 SDK があれば dotnet tool install -g
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, automation, claude, cli, csharp, mcp
+
+---
+
 ## 🕔 2026-09-13 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
