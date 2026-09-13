@@ -1,3 +1,67 @@
+## 🕔 2026-09-13 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openpets](https://github.com/OpenPetsHQ/openpets)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,187
+- **核心概述**: Local first, desktop companion platform with animated pets, plugin SDK and coding-agent integrations.
+- **大概是做什么的**: A desktop companion platform with pets, plugins, and optional local agent integrations. OpenPets puts an animated companion on your desktop, then lets plugins turn it into a focus buddy, reminder system, tiny game, launcher, or coding-agent sidekick. by Boring Dystopia Development Read this in: English 日本語 한국어 简体中文 繁體中文 Português (Brasil) Español (LatAm) - Desktop pets : animated companions that idle, wander, react, and keep your workspace from feeling empty. - Official plugins : focus timers, reminders, mood check-ins, mini games, launch shortcuts, hydration nudges, and virtual-pet stats. - Plugin SDK v3 : a sandboxed JavaScript/TypeScript runtime for building new pet abilities with permissions, quotas, storage, schedules, commands, panels, events, audio, notifications, and more. - Optional agent layer : Claude Code, OpenCode, Cursor, Pi, and MCP clients can drive local pet reactions without exposing prompts, code, paths, logs, or secrets in speech bubbles. If OpenPets makes your coding setup or desktop workspace a little more fun, please give the repo a star. For Users: Getting Sta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, coding-agents, desktop-companion, desktop-pet, dsh-plugin
+
+---
+
+### 🌟 [obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 678
+- **核心概述**: Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP.
+- **大概是做什么的**: Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP. 14 Tools • 3 Resources Read, write, search, and surgically edit Obsidian vault notes — sections, frontmatter, tags — over the Local REST API plugin, with folder-scoped read/write permissions built in. Runs as a stdio process or a local Streamable HTTP server. obsidian get note Read a note as raw content, full structured form (content + frontmatter + tags + stat, with optional outgoing links), structural document map, or a single section. obsidian list notes List notes and subdirectories under a vault path. Recursive walk (default depth 2, max depth 20; 1000-entry cap) with optional extension and nameRegex filters. obsidian list tags List vault tags with usage counts, including hierarchical parents. Ordered by count descending and capped at limit (default 200, max 10000), with the withheld remainder disclosed. Optional nameRegex and minCount narrow the set first. obsidian list commands List Obsidian command-palette commands, optionally filtered by nameRegex on displa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, cyanheads, knowledge-base, mcp, model-context-protocol, note-taking
+
+---
+
+### 🌟 [kasetto](https://github.com/pivoshenko/kasetto)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 172
+- **核心概述**: 📼 A declarative AI agent environment manager, written in Rust
+- **大概是做什么的**: A declarative AI agent environment manager, written in Rust. Name comes from the Japanese word カセット ( kasetto ) - cassette. Think of Skills, MCPs, commands, and instructions as cassettes you plug in, swap out, and share across machines. There are good tools in this space already. Vercel Skills installs skills from a curated catalog, and Claude Plugins offer runtime integrations. Both work well for one-off installs, but neither gives you a declarative, version-controlled config. See Kasetto vs the alternatives for the full comparison. Kasetto is a community-first project that solves a different problem: declarative, reproducible AI environment management across projects, machines, and agents. - Declarative : skills, commands, MCPs, instructions, and agents in one YAML file. Apply globally or scope to a project; configs compose with extends , so org, team, and project stay in sync - Enterprise & private repositories : pull from GitHub, GitLab, Bitbucket, Codeberg, Gitea, and self-hosted instances, public or private. Onboard a new engineer with one command; everyone gets the same enviro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-commands, ai-skills-manager, antigravity, claude
+
+---
+
+### 🌟 [Gearcoleco](https://github.com/drhelius/Gearcoleco)
+- **项目语言**: C++
+- **星标数量**: ⭐ 139
+- **核心概述**: ColecoVision emulator, debugger and embedded MCP server for macOS, Windows, Linux, BSD and RetroArch.
+- **大概是做什么的**: Gearcoleco is a very accurate, cross-platform ColecoVision and Coleco ADAM emulator written in C++ that runs on Windows, macOS, Linux, BSD and RetroArch, with an embedded MCP server for AI debugging and development. This is an open source project with its ongoing development made possible thanks to the support by these awesome backers. If you find it useful, please consider sponsoring. Don't hesitate to report bugs or ask for new features by opening an issue. Gearcoleco-1.7.0-desktop-windows-x64.zip Gearcoleco-1.7.0-desktop-windows-arm64.zip brew install --cask drhelius/geardome/gearcoleco Desktop Apple Silicon Gearcoleco-1.7.0-desktop-macos-arm64.zip Gearcoleco-1.7.0-desktop-macos-intel.zip drhelius/ppa-geardome drhelius/rpm-geardome Desktop Ubuntu 24.04 x64 Gearcoleco-1.7.0-desktop-ubuntu24.04-x64.zip Desktop Ubuntu 22.04 x64 Gearcoleco-1.7.0-desktop-ubuntu22.04-x64.zip Desktop Ubuntu 24.04 ARM64 Gearcoleco-1.7.0-desktop-ubuntu24.04-arm64.zip Libretro core documentation - Windows : May need Visual C++ Redistributable and OpenGL Compatibility Pack - Homebrew : If Homebrew asks you t
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bsd, coleco, coleco-vision, colecovision, emulation, emulator
+
+---
+
+### 🌟 [pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 148
+- **核心概述**: Search PubMed/Europe PMC, fetch articles and full text (PMC/EPMC/Unpaywall), citations, MeSH terms via MCP. STDIO or Streamable HTTP.
+- **大概是做什么的**: @cyanheads/pubmed-mcp-server Search PubMed/Europe PMC, fetch articles and full text (PMC/EPMC/Unpaywall), citations, MeSH terms via MCP. STDIO or Streamable HTTP. 11 Tools • 1 Resource • 1 Prompt Public Hosted Server: https://pubmed.caseyjhand.com/mcp The biomedical literature via NCBI's E-utilities, PubMed Central, and Europe PMC. Search it, fetch metadata and full text, resolve identifiers and partial citations, format references, and ground queries in MeSH vocabulary. Runs as a stdio process, a local Streamable HTTP server, or the public hosted endpoint above. pubmed search articles Search PubMed with full query syntax, field-specific filters, date ranges, pagination, and optional brief summaries pubmed europepmc search Search Europe PMC for preprints, patents, Agricola, and EPMC-only OA records that don't surface in PubMed. Cursor-based pagination. pubmed europepmc fetch Fetch complete Europe PMC records — including the untruncated abstract — by source + epmcId , the only identifier many preprint, patent, and Agricola records carry pubmed fetch articles Fetch full article metadat
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-tools, bioinformatics, biomedical, citations, cyanheads
+
+---
+
+### 🌟 [copperhead](https://github.com/copperheadhq/copperhead)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 254
+- **核心概述**: Hardware as fast as software.
+- **大概是做什么的**: Cursor for circuit boards. An AI agent that designs, documents, and validates real PCBs from a prompt, working directly on existing KiCad repositories. Status: early. Phase 1 is implemented and the CLI runs. The technical specification is the source of truth; expect the surface to move before 1.0. Full documentation lives at docs.copperhead.sh. An AI product-development agent for hardware: from a product brief to manufacturable files, firmware, and a build plan. - copperhead create : full pipeline from a natural-language brief: spec, architecture, part selection, schematic, first-draft layout, then gerbers, firmware scaffold, and dev plan. - copperhead do " " : operates on an existing KiCad repo the way a coding agent operates on a codebase. It reads and edits real .kicad sch / .kicad pcb files (s-expression text), maintains markdown design docs as memory, propagates every change across all artifacts that reference it, and verifies its own work by running kicad-cli ERC/DRC until the checks pass. Most users should not install copperhead by hand. If you are working inside an AI coding
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, cli, coding-agent, developer-tools, eda
+
+---
+
 ## 🕔 2026-09-13 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
