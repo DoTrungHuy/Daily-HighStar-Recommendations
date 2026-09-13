@@ -1,3 +1,67 @@
+## 🕔 2026-09-13 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 814
+- **核心概述**: Enterprise AI bastion host for secure AI API and MCP access, with unified proxying, RBAC, audit logs, rate limiting, and cost tracking across OpenAI, Anthropic, Gemini, and self-hosted LLMs.
+- **大概是做什么的**: The enterprise-grade secure gateway for AI. Secure, audit, and govern every AI API call and MCP tool invocation across your organization — from a single control plane. Just as an SSH secure gateway is the single gateway through which all server access must flow, ThinkWatch is the single gateway through which all AI access must flow. Every model request. Every tool call. Every token. Authenticated, authorized, rate-limited, logged, and accounted for. As AI agents proliferate across engineering teams, organizations face a growing governance challenge: - API keys scattered everywhere — hardcoded in .env files, shared in Slack, rotated never - Zero visibility — who used which model, how many tokens, at what cost? - No access control — every developer has direct access to every model and every MCP tool - Compliance gaps — no audit trail for AI-assisted code generation or data access - Cost surprises — monthly AI bills that nobody can explain or attribute ThinkWatch solves all of this with a single deployment. - Multi-format API proxy — natively serves OpenAI Chat Completions ( /v1/chat/co
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-gateway, ai-security, ai-tools, mcp, mcp-gateway
+
+---
+
+### 🌟 [capcut-cli](https://github.com/renezander030/capcut-cli)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 459
+- **核心概述**: Independent, unofficial CLI to edit CapCut and JianYing (剪映) projects — subtitles, timing, speed, volume, templates, cut long-form to shorts. No API needed, reads draft_content.json and draft_info.json (剪映草稿) directly. Not affiliated with ByteDance.
+- **大概是做什么的**: Create and edit real CapCut / JianYing projects from the terminal — or any LLM agent. Open the result in CapCut with every track still editable. capcut-cli works directly on the local draft store: JSON in, JSON out, with no upload, API, MCP server, or HTTP daemon. Also from the maintainer: 500 Years Frozen in Time: The Inca Children Mystery, a 14:49 documentary from Bronze Age Banter. raw recording → silence-aware cuts + styled captions → editable CapCut / JianYing draft ▶ Captioned output example (60 seconds) https://github.com/user-attachments/assets/4e6ee99c-0745-4cfb-8e9b-ad873fb1259b Install and open your first editable draft Prerequisites: Node ≥ 18 (built-ins only — no native modules). Optional tools unlock specific commands: Whisper for caption , FFmpeg for render , ffprobe for automatic media metadata, and ANTHROPIC API KEY for translate . Result: a real local project with video and captions on editable tracks — not a flattened export. Open it in CapCut or JianYing to review, adjust, and render. The publish click stays human. Useful? Star capcut-cli to help other editors and
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, automation, capcut, capcut-api, capcut-automation
+
+---
+
+### 🌟 [pisper](https://github.com/ling-kong-ran/pisper)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 302
+- **核心概述**: Multi-agent app for parallel sessions, tools, memory, workflows, desktop, terminal, and mobile.
+- **大概是做什么的**: 跨桌面、终端与手机的多 Agent 应用：像管理代码分支一样管理 Agent 的思路，从任意已完成 Turn 长出分支，并行推进。 - 对话也能开分支。 在任意已完成 Turn 衍生新会话，继承上下文，源会话一字不改；稳定 Turn 标签把关键节点钉成可检索的锚点 —— 像 Git，但给 Agent 用。 - 多 Agent 真并行。 每个会话独享模型、上下文、工作目录与权限；拖动标签四面分屏，进度同屏可见。 - 工具冷热分明。 核心工具常驻上下文；插件、MCP 与技能经 discover/call 网关按需激活、用完即退 —— 能力再丰富，也不把上下文塞成杂物间。 - 前缀稳，缓存才热。 工具定义稳定化排序、提示词形态哈希诊断，尽量吃满 Provider 的 prompt cache —— 长会话更快、更省。 - 缺什么能力，直接说。 Pisper 会自己编写、校验并安装本地插件，下一轮对话就能调用。 - 手机能独立，也能接桌面。 Android / iOS App 内置与桌面同源的 Node/Pisper Runtime、标准会话和 React 界面，并按设备实际能力关闭不可用入口；也可扫码连接桌面，优先 LAN、离开局域网后自动回退 Iroh P2P。远程链路继续使用 TLS 指纹与设备 Bearer 令牌。 - 数据默认不出机。 Runtime 默认只听 127.0.0.1，敏感格式自动脱敏，记忆先审后用 —— 你的上下文，你说了算。 并行会话分屏 · 追忆分支树 · 稳定 Turn 标签 · Ctrl+K 跨会话直达 · 会话级模型/目录/权限 本地插件自动生成 · MCP 服务 · 技能中心 · 多 Provider 模型配置 ⚡ 自动化与通知 🖥️ 终端与桌面一体 可视化工作流 · 定时任务 · 飞书 / 个人微信双向渠道 · 星忆项目记忆 · Git 与 SVN 工作区 Ratatui TUI 与桌面共用 Runtime · Android / iOS 同源本机 Runtime 或桌面连接 · 桌面宠物（Petdex）· Desktop / TUI / Runtime / App 独立更新 🧠 基于 Pi Coding Agent 深度构建 Pisper 以 Pi Coding Agent 作为底层 Agent Runtime。在 Pi 提供的模型接入与工具执行基础上，Pisper 围绕真实的多 Agent 工作持续做深度产品化与优化： - 运行时与会话编排 ：把独立会话、并行执行、Turn 分支、工作目录与权限策略组织成可持续运行的多 Ag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, developer-tools, mobile-app, pi, rust, tauri
+
+---
+
+### 🌟 [redcell](https://github.com/martian56/redcell)
+- **项目语言**: Python
+- **星标数量**: ⭐ 367
+- **核心概述**: AI red-team platform. Autonomous LLM agents run a penetration test end to end inside a Kali container and write the report. LangGraph plan/act engine, provider-agnostic models via LiteLLM, PDF/JSON/SARIF output. FastAPI + React.
+- **大概是做什么的**: AI agents that run a penetration test end to end and write the report. REDCELL is provided for education, research, and legal, authorized security testing only. Use it only to test systems you own or have explicit written permission to test, and only within an agreed scope. Unauthorized access to or interference with computer systems is a crime in Azerbaijan (Criminal Code articles 271 to 273) and under the laws of most other countries. How you use it, and staying within the law, is entirely your responsibility. REDCELL runs a team of LLM agents through a pentest. An orchestrator plans the engagement and hands objectives to executor agents, which run real tools inside a Kali container and report back. You watch and steer the run from an operator console: a chat that drives the orchestrator, a live agent graph and activity feed, a live view of the browser the agent drives, a terminal on any reverse shell the agent catches, and a report to hand over when the work is done. Models are pluggable through LiteLLM, so you can point it at OpenAI, Anthropic, Google, GLM, DeepSeek, Kimi, a loca
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, autonomous-agents, cybersecurity, fastapi, langgraph, litellm
+
+---
+
+### 🌟 [hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,238
+- **核心概述**: Helping Ethical Hackers use LLMs in 50 Lines of Code or less..
+- **大概是做什么的**: Helping Ethical Hackers use LLMs in 50 Lines of Code or less… hackingBuddyGPT is an open-source framework for building LLM-driven security-testing agents. It gives you the boring-but-essential groundwork — LLM connectivity, target connectors (SSH / local shell / WinRM-style psexec), capability/tool wiring, run limits, and structured logging — so you can express a new experiment (a "use-case") in a few dozen lines of code. We aim to be THE go-to framework for security researchers and pen-testers who want to use LLMs (or LLM-based autonomous agents) for security testing. To support reproducible research we also maintain a re-usable Linux privilege-escalation benchmark and publish our findings as open-access reports. If you need help choosing an LLM for a task, we have a paper comparing multiple LLMs. ⚠️ This software executes real commands on live systems. In local-shell mode it runs them on your machine; in SSH/psexec mode on the target you point it at. Only ever run it against systems you own or are explicitly authorized to test, and prefer isolated VMs or containers. See the disclai
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: large-language-models, llm, penetration-testing, pentesting
+
+---
+
+### 🌟 [open-codebase-index](https://github.com/Helweg/open-codebase-index)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 191
+- **核心概述**: Semantic codebase indexing and search for OpenCode, Claude, Codex, Pi, Jcode, and MCP hosts. Powered by Rust and tree-sitter.
+- **大概是做什么的**: Search a codebase by meaning, then follow the result into definitions, callers, and dependency paths. open-codebase-index is a local semantic code index for OpenCode, Jcode, Pi, Codex, Claude Code, and other MCP clients. It combines embeddings, BM25 keyword search, branch-aware filtering, symbol lookup, and a call graph behind agent-friendly tools. New installs should use open-codebase-index and open-codebase-index-mcp . The legacy package opencode-codebase-index and opencode-codebase-index-mcp remain supported aliases. For terminal use outside an MCP client, install the package globally and use the concise cbi command: cbi provides status, indexing, search, definition lookup, and direct caller or callee inspection. See Installation and host setup for the full command reference. - Semantic and hybrid retrieval for questions where you do not know the identifier. - Low-token discovery through codebase context and codebase peek . - Definition and graph navigation through implementation lookup , call graph , and call graph path . - Incremental, branch-aware indexing with file watching an
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-code, code-search, codebase-indexing, codex, embeddings, mcp
+
+---
+
 ## 🕔 2026-09-13 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
