@@ -1,3 +1,67 @@
+## 🕔 2026-09-13 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [yn](https://github.com/purocean/yn)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,750
+- **核心概述**: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
+- **大概是做什么的**: A highly extensible Markdown editor, designed for productivity. Download Try it Online English 中文说明 Русский - AI Assistant: Supports AI Copilot for text completion, generation, and image generation (compatible with OpenAI, Ollama, Gemini, Kimi, Tongyi Qianwen, Flux.1, etc.); supports OpenCode AI Agent for intelligent coding assistance. - Easy to use: Use Monaco kernel, optimize for Markdown editing, and have the same editing experience as VSCode. - Powerful: Support version control; Applets, runnable code blocks, tables, PlantUML, Drawio, macro replacements, etc., can be embedded in the document. - High compatibility: Data is saved as local Markdown files, and the extension functions are implemented in the original syntax of Markdown as far as possible. - Plug-in extension: Support users to write their own plug-ins to expand the functionality of the editor. - Encryption supported: Use encryption to save private files such as account number, and the password can be set separately for each file. - For more extendable, Yank Note sacrifices security protection (command execution, arbitra
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, chatgpt, deepseek, drawio, editor, electron
+
+---
+
+### 🌟 [mini-verl](https://github.com/DaoyuanLi2816/mini-verl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 304
+- **核心概述**: Run common resolved verl PPO/GRPO configs directly on one NVIDIA GPU, with typed semantic lowering, exact recovery and portable artifacts.
+- **大概是做什么的**: Run common verl PPO/GRPO configs directly on one NVIDIA GPU. Hand miniVERL your upstream config tree, config name and Hydra overrides; bind local data or reward code. Its versioned compiler preserves the experiment while scheduling actor, critic, reference and reward roles in phases. No second configuration language to maintain. The current development line covers PPO/GAE, GRPO, Dr.GRPO, RLOO and REINFORCE++ against official verl v0.9.0 ( 483b8a00 ). PPO uses an independent trainable critic with its own optimizer and checkpoint state; actor KL, entropy regularization, grouped rollouts, task rewards and a pinned sequence-classifier reward role share the same provenance model. The established verl v0.8.0 OPD profiles remain available for direct GKD and sampled-k1 distillation. PyPI v0.16.0 is stable; main is development. Your first local experiment Install the CUDA-enabled PyTorch build that matches your machine, then: The packaged Hydra examples compose official verl defaults plus bounded Qwen3-0.6B launch overrides. The binding selects a length-reward exercise. Bring your own config
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-rl, alignment, consumer-gpu, grpo, knowledge-distillation, llm
+
+---
+
+### 🌟 [Reversecore_MCP](https://github.com/sjkim1127/Reversecore_MCP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 201
+- **核心概述**: A security-first MCP server that empowers AI agents to perform automated reverse engineering, malware analysis, forensics, vulnerability research, and SAST — powered by Radare2, YARA, LIEF, Capstone, and more.
+- **大概是做什么的**: AI-Powered Reverse Engineering & Security Analysis via Model Context Protocol An MCP server that gives AI assistants like Claude and Cursor the ability to perform reverse engineering, malware analysis, vulnerability research, digital forensics, and source code auditing through natural language. - What is Reversecore MCP? - Tool Catalog (120 Tools) - Guided Analysis Prompts (22 Modes) - MCP Resources (11 URIs) - Connect to Your AI Client - Docker Build Architecture - System Requirements What is Reversecore MCP? Reversecore MCP is a Model Context Protocol server that wraps 120 analysis tools into a single interface that AI assistants can call through natural language. Instead of learning the command-line syntax for a dozen different tools, you describe what you want: The AI assistant breaks this into tool calls: Each tool returns a structured ToolResult (either ToolSuccess or ToolError ) with typed data that the AI can reason about, chain into follow-up queries, or render for the user. Domain What you can do Static analysis Disassembly, decompilation (r2ghidra), binary parsing (LIEF),
+- **有什么用**: 适合学习 AIGC 图像检测、Deepfake 检测、图像取证和伪造痕迹分析，也可以作为你做 AI 生成图像检测算法的参考。
+- **技术标签**: ghidra, mcp, mcp-security, mcp-server, radare2, reverse-engineering
+
+---
+
+### 🌟 [AiCode](https://github.com/jieapi/AiCode)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 127
+- **核心概述**: 在 Android 上运行的 AI 代码编辑器，内置 Linux 终端、AI Agent 与 MCP 协议。
+- **大概是做什么的**: Android 端 AI 编程工具 · 内置 Linux 终端 · AI Agent 与子代理 · 代码编辑器 · MCP 协议 · Git 集成 AiCode 是一款在 Android 手机上运行的 AI 编程工具，让你不依赖电脑，直接用手边的手机完成编程开发。它内置 Alpine Linux 容器与终端，把一套完整的 Linux 开发环境装进手机：AI Agent 能读写文件、执行 Shell 命令、运行构建工具，从写代码、调试到跑构建都在手机本地完成。 终端、AI Agent、文件树与代码编辑器、可视化 Git、后台并行干活的子代理一应俱全，手机上也能跑通一套完整的开发工作流。需要时还可把远程 SSH 服务器作为执行后端，把手机变成远程项目的移动工作站；大屏下自动切换为并排双栏工作台。 OpenCode Go — 低价订阅，提供最强大开源模型的慷慨额度与可靠访问 雨云 — 国产云服务商，主营云服务器与游戏云（Minecraft 等预装服务端一键开服），兼有裸金属物理机与对象存储，新用户优惠 - AI Agent — 兼容 OpenAI / Anthropic / Gemini 三类协议，多提供商切换、同一提供商多 Key 自动轮换、思考强度可调；内置文件读写与编辑、Shell 执行、后台终端、代码与网页搜索、图片识别、待办清单、向用户提问等工具；流式输出并实时渲染 Markdown，长对话自动压缩上下文 - 子代理并行 — 主会话可派生拥有独立上下文的子代理在后台并行调研、审查或对比方案，不阻塞当前对话；内置只读的 Explore 子代理，也可自定义模型、工具集与专属提示词，侧边栏按父子关系展开查看与管理 - 三种运行模式 — BUILD 正常开发、PLAN 在工具层拦截全部写操作只做只读规划、AUTO 全部放行免授权，按信任程度切换 AI 的权限范围 - 检查点与撤销 — Agent 修改代码前自动记录文件快照，对话中可一键回滚，支持仅恢复代码、仅恢复对话或两者同时恢复 - 技能与自动记忆 — 支持全局/项目级技能（Skills）与长期记忆，AI 可跨会话复用经验与项目约定 - MCP 协议 — 支持连接本地（stdio）与远程（HTTP）MCP 服务器，动态扩展 AI 工具能力 - 工具授权与自定义提示词 — 逐工具配置授权规则，系统提示词支持用户覆盖且 App 升级不丢失 - 内置终端与容器 — 基于 Termux 组件与 PRoot 的本地 Linux 容器，内置 Alpine 镜像，支持导入自定义 rootfs、挂载宿主目录；终端多标签且可后台常
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-code-editor, aicode, alpine-linux, android, android-app
+
+---
+
+### 🌟 [mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 167
+- **核心概述**: Salesforce MCP Server
+- **大概是做什么的**: Salesforce MCP Server An MCP (Model Context Protocol) server implementation that integrates Claude with Salesforce, enabling natural language interactions with your Salesforce data and metadata. This server allows Claude to query, modify, and manage your Salesforce objects and records using everyday language. Object and Field Management : Create and modify custom objects and fields using natural language Smart Object Search : Find Salesforce objects using partial name matches Detailed Schema Information : Get comprehensive field and relationship details for any object Flexible Data Queries : Query records with relationship support and complex filters Data Manipulation : Insert, update, delete, and upsert records with ease Cross-Object Search : Search across multiple objects using SOSL Apex Code Management : Read, create, and update Apex classes and triggers Intuitive Error Handling : Clear feedback with Salesforce-specific error details Switchable Authentication : Supports multiple orgs. Easily switch your active Salesforce org based on the default org configured in your VS Code work
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, mcp, modelcontextprotocol, salesforce, server
+
+---
+
+### 🌟 [EvoFlow](https://github.com/EvovexAI/EvoFlow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 202
+- **核心概述**: 原生 Agent Runtime / 智能体员工 / 智能体编排 / 知识库 / 长任务。官网 www.evovexai.com
+- **大概是做什么的**: 面向长任务的原生 Agent Runtime 与控制平面。 由 EvovexAI 打造：规划、拆解、执行、恢复与交付，多 Agent 协作全程可观测、可干预。 下载 · 快速开始 · 文档 · 贡献 · English 许可：源码可见（PolyForm Noncommercial）· 个人/研究/非商业可用 · 商用须书面授权 · 不是 OSI「开源」许可证。详见下方授权。 EvoFlow 把长任务交给可协作的 Agent Teams：先澄清与规划，再在隔离上下文中执行工具与沙箱作业，失败可恢复，过程可验收。控制平面覆盖对话、Plan、Goal、任务中心、工作流与可观测性。 延伸阅读：为什么用 EvoFlow · 生态对照（DF / 爱马仕 / Codex / 小龙虾） · Agent 体系 - 对话 / Plan / Goal — 日常协作；先出可修订计划再执行；长任务后台挂起 - Agent Teams · 智能体员工 — 多 Agent 分工；岗位值班与关键审批、汇报 - 应用中心 / 自动化 — 多节点固定业务工作流产品化；定时与 IM 派发 - 工作空间 · 代码索引 — 项目目录边界；符号/引用图谱供 Agent 检索 - 自我进化 — 资产中心：经验沉淀、反思过程、画像与记忆 - 治理套件 — 多账号/SSO、费用统计、运维观测、安全中心 - 资源市场 — 资源包与扩展应用安装；技能与 MCP 扩展能力 - 沙箱与可观测 — 隔离执行；任务、工具调用与用量可见 1. 从 Releases 下载并安装。 2. 打开应用，在 设置 → 模型 添加服务商与 API Key，测试后设为主模型。 3. 开始对话；复杂任务用 Plan ，长任务用 Goal 。 macOS 提示「已损坏」/ 无法验证？ 或在 系统设置 → 隐私与安全性 → 仍要打开 。 依赖：Git、Python 3.12+、Node.js 22+、uv、pnpm 9+。 Windows： .\scripts\windows\dev-stack-isolated.bat 启动后打开入口地址，在界面完成模型配置，再验证对话。步骤说明见 配置模型；开发环境见 CONTRIBUTING.md。 本地预览： pip install -r requirements-docs.txt && mkdocs serve 欢迎缺陷报告、文档修正与 PR。请先阅读 CONTRIBUTING.md，提交前同意 CLA.md，并遵守 CODE OF CONDUCT.md。安全问题请按 SECURITY.md 私密报告
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, desktop, multi-agent, source-available, tauri, workflow
+
+---
+
 ## 🕔 2026-09-12 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
