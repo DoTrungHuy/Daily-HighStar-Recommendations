@@ -1,3 +1,67 @@
+## 🕔 2026-09-14 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 304 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,084
+- **核心概述**: Model Context Protocol (MCP) server for Kubernetes and OpenShift
+- **大概是做什么的**: Kubernetes MCP Server ✨ Features 🚀 Getting Started 🎥 Demos ⚙️ Configuration 🛠️ Tools 💬 Community 🧑‍💻 Development https://github.com/user-attachments/assets/be2b67b3-fc1c-4d11-ae46-93deba8ed98e A powerful and flexible Kubernetes Model Context Protocol (MCP) server implementation with support for Kubernetes and OpenShift . - ✅ Configuration : - Automatically detect changes in the Kubernetes configuration and update the MCP server. - View and manage the current Kubernetes .kube/config or in-cluster configuration. - ✅ Generic Kubernetes Resources : Perform operations on any Kubernetes or OpenShift resource. - Any CRUD operation (Create or Update, Get, List, Delete). - ✅ Pods : Perform Pod-specific operations. - List pods in all namespaces or in a specific namespace. - Get a pod by name from the specified namespace. - Delete a pod by name from the specified namespace. - Show logs for a pod by name from the specified namespace. - Top gets resource usage metrics for all pods or a specific pod in the specified namespace. - Exec into a pod and run a command. - Run a container image in a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: containers, context, kubernetes, kubernetes-mcp, mcp, model
+
+---
+
+### 🌟 [rulego](https://github.com/rulego/rulego)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,601
+- **核心概述**: ⛓️RuleGo is a lightweight, high-performance, embedded, next-generation component orchestration rule engine framework for Go.
+- **大概是做什么的**: Official Website Docs Contribution Guide RuleGo is a lightweight, high-performance, embedded, orchestrable component-based rule engine built on the Go language. It can help you quickly build loosely coupled and flexible systems that can respond and adjust to changes in business requirements in real time. RuleGo also provides a large number of reusable components that support the aggregation, filtering, distribution, transformation, enrichment, and execution of various actions on data, and can also interact and integrate with various protocols and systems. It has a wide range of application potential in low-code, business code orchestration, data integration, workflows, large model intelligent agents, edge computing, automation, IoT, and other scenarios. Lightweight: No external middleware dependencies, efficient data processing and linkage on low-cost devices, suitable for IoT edge computing. High Performance: Thanks to Go's high-performance characteristics, RuleGo also employs technologies such as coroutine pools and object pools. Dual Mode: Embedded and Standalone Deployment modes.
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, automation, data-flow, edge-computing, go, intergrations
+
+---
+
+### 🌟 [node9-proxy](https://github.com/node9-ai/node9-proxy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 212
+- **核心概述**: The Execution Security Layer for the Agentic Era. Providing deterministic "Sudo" governance and audit logs for autonomous AI agents.
+- **大概是做什么的**: What did your AI agent actually do? Find out. Node9 sits between your AI agent and the tools it can use — discover what it's already been doing, protect against risky actions in real time, and review what happened over any time window. Works with Claude Code · Codex CLI · Antigravity (agy) · GitHub Copilot CLI · Gemini CLI · Cursor · Windsurf · VSCode · Claude Desktop · Opencode · Pi · Hermes Agent · any MCP server . - 🔍 Discover — scan every past AI session for credential leaks, agent loops, blocked operations, and every secret on disk an agent could reach right now - 🛡 Protect — review or block risky commands before they run — rm -rf , git push --force , DROP TABLE , credential reads, curl bash , AWS/GitHub/Stripe key leaks - 📊 Review — period-windowed report (today / week / month / 90 days) — cost per agent, top tools, shields fired, blast radius This is my own machine — 90 days while building Node9. Score 25/100, 5 credential files an AI agent could reach right now. Security posture scorecard node9 posture grades how exposed this machine is to a compromised agent — isolation,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, agentic-ai, ai-agent, ai-agents, ai-safety, ai-security
+
+---
+
+### 🌟 [dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 308
+- **核心概述**: Open-source CLI, schemas, resolver, and DSH agent tools for DSH Plugin Hub
+- **大概是做什么的**: Share your entire DeepSeek Harness setup as one versioned, reproducible Preset. Capture the plugins, order, runtime, and config you have running locally. Publish it as an immutable Release. Anyone can apply it with a single command, review every change before it lands, and roll back if they don't like it. 🌐 dshpluginhub.ai &nbsp;·&nbsp; Browse Plugins &nbsp;·&nbsp; Explore Presets &nbsp;·&nbsp; Docs This repository is the open-source client for the Hub. The website, API, and registry live at dshpluginhub.ai . Quick start · Why Presets · Commands · Support · Contributing · Governance · Security That one command installs the exact plugin versions, in the exact order, with the exact patch the author published. Not "whatever is latest today." What they had. Why shareable Presets A DeepSeek Harness (DSH) setup is more than a list of plugins. It is a specific runtime version, a set of plugins at specific versions, the order they load in, a cordis.patch.yml that wires them together, and a handful of environment variables that hold your keys. Getting that onto a colleague's machine usually
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cli, deepseek-harness, developer-tools, dsh-plugin, plugin-manager
+
+---
+
+### 🌟 [yantrikdb-server](https://github.com/yantrikos/yantrikdb-server)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 172
+- **核心概述**: Cognitive memory database for AI agents — consolidates duplicates, detects contradictions, fades stale memories via temporal decay. Rust, Apache-2.0, ships as library / MCP server / HTTP cluster.
+- **大概是做什么的**: ⚠ Correction notice (2026-04-19): Phase 3 benchmark writeups committed earlier today ( docs/phase3a/ , docs/phase3b/ , docs/phase3c/ , docs/phase3d/ ) used a Python simulator for the "structured memory" condition — NOT the actual yantrikdb engine. Rerun with real yantrikdb is in docs/phase3e/ . Full audit trail, preliminary corrected numbers, and the exact publication gate for a findings post are in CORRECTIONS.md . A memory database that forgets, consolidates, and detects contradictions. Vector databases store memories. They don't manage them. After 10,000 memories, recall quality degrades because there's no consolidation, no forgetting, no conflict resolution. Your AI agent just gets noisier. YantrikDB is different. It's a cognitive memory engine — embed it, run it as a server, or connect via MCP. It thinks about what it stores. Shortest path to try it: MCP setup for Claude Code / Cursor / Windsurf → (one pip install , one config block). The bigger picture: YantrikDB is the memory layer being built on the road to YantrikOS — an AI-native operating system where agents are first-clas
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, anthropic, claude-code, clustering, cognitive-memory
+
+---
+
+### 🌟 [llm4free](https://github.com/OEvortex/llm4free)
+- **项目语言**: Python
+- **星标数量**: ⭐ 365
+- **核心概述**: LLM4Free — All-in-one Python toolkit for web search, AI interaction (40+ free providers), digital utilities, and more. Formerly WebScout.
+- **大概是做什么的**: One Python toolkit for 40+ free &amp; paid AI models, web search, image &amp; voice generation, and a drop-in OpenAI-compatible server — all behind a single, consistent interface. Most AI libraries lock you into one provider and one way of doing things . LLM4Free gives you everything behind the interface you already know — the OpenAI SDK: - 🔌 One interface, 40+ providers. Every chat provider implements client.chat.completions.create(...) — identical to the OpenAI Python SDK. Switch providers by changing one line. - 💸 Free tier built in. Use HeckAI, Pollinations, and more with zero API key — then graduate to Groq, DeepInfra, or your own key when you need scale. - 🔄 Auto-failover client. The unified Client retries across providers and resolves models for you. No more 3am outages from a dead endpoint. - 🔍 Multi-engine search. DuckDuckGo, Bing, Brave, Yahoo, Mojeek, Wikipedia — one API. - 🖼️🗣️ Images & voice. Text-to-image (Pollinations, Together, Stable Horde…) and text-to-speech (ElevenLabs, OpenAI FM, Qwen, Murf…) out of the box. - 🚀 OpenAI-compatible server. Serve any provider
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, chatgpt, chatgpt-free, deepseek-r1, freeai
+
+---
+
 ## 🕔 2026-09-14 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
