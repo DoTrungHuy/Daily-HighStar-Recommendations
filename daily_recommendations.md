@@ -1,3 +1,67 @@
+## 🕔 2026-09-14 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vllm-metal](https://github.com/vllm-project/vllm-metal)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,734
+- **核心概述**: Apple Silicon 上的 vLLM 社区维护硬件插件
+- **大概是做什么的**: 使用 MLX 和 vLLM 在 Apple Silicon 上进行高性能 LLM 推理 vLLM Metal 是一个插件，使 vLLM 能够在使用 MLX 作为主要计算后端的 Apple Silicon Mac 上运行。它将 MLX 和 PyTorch 统一在一个单一的降低路径下。文档：https://docs.vllm.ai/projects/vllm-metal/en/latest/ - [2026/08] vLLM Metal 现在使用 M5 NAX 张量单元来加速 MHA、GQA 和 MQA 预填充。 - [2026/08] Qwen3.8 现在在 Metal 上运行！ mlx-community/Qwen3.8-27B-8bit 在单个 Apple Silicon Mac 上提供 27B 混合 SDPA + GDN 线性模型。 - [2026/04] 我们发布了新版本v0.2.0！统一分页 varlen Metal 内核现在是默认的关注后端。与 v0.1.0 相比，TTFT 为 83 倍，吞吐量为 3.6 倍。上游 vLLM 提供 API 服务器、调度程序和分页块管理器； mlx lm 提供 token-wise 模型层； vllm-metal 拥有请求感知的注意力路径——分页 varlen 内核、M5 NAX 预填充和推测解码。 - Apple Silicon 上的 macOS 15 (Sequoia) 或更高版本 - 本机 arm64 Python 3.12。不支持 Rosetta/x86 64 Python。 vllm-metal 支持越来越多的 m
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: apple-silicon, llm, macos, metal, mlx, vllm
+
+---
+
+### 🌟 [vet](https://github.com/imbue-ai/vet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 534
+- **核心概述**: 找到值得您关注的问题。
+- **大概是做什么的**: Vet 是一个独立的代码更改和编码代理行为验证工具。 - 审查意图和代码：检查代理对话的目标遵守情况和代码更改的正确性。 - 在任何地方运行：从终端、作为代理技能或在 CI 中。 - 自带模型：使用您自己的 API 密钥与任何提供商合作。 - 与现有订阅一起使用：使用 --agentic 支持 Anthropic 和 OpenAI 订阅。 - 免费和开源：无帐户、费用或数据收集。请求直接发送至您的推理提供商。根据 AGPL-3.0 许可。将 Vet 与编码代理结合使用 Vet 包含代理技能。安装后，代理将在代码更改后主动运行 vet，以发现新代码的问题以及用户请求与代理操作之间的不匹配。系统将提示您选择： - 项目级别：安装到存储库根目录下的 .agents/skills/vet/ 、 .opencode/skills/vet/ 、 .claude/skills/vet/ 和 .codex/skills/vet/ （从存储库目录运行） - 用户级别：安装到 /.agents/ 、 /.opencode/ 、 /.claude/ 和/.codex/ 技能直接
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-code-review, ai-coding-tools, code-quality, code-review
+
+---
+
+### 🌟 [create-llm](https://github.com/theaniketgiri/create-llm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 362
+- **核心概述**: 建立并开始培训自己的法学硕士的最快方法。 CLI 工具可在几秒钟内构建可用于生产的 PyTorch 培训项目。类似于 create-next-app 但用于语言模型。
+- **大概是做什么的**: 用于搭建 LLM 创建和培训的 CLI 工具 在几秒钟内创建可用于生产的 LLM 培训项目。与 create-next-app 类似，但用于训练自定义语言模型。 npm 包 • 文档 • 报告错误 • 请求功能 从头开始​​训练语言模型需要： - 模型架构（GPT、BERT、T5...） - 数据预处理管道 - 分词器训练 - 带回调的训练循环 - 检查点管理 - 评估指标 create-llm 通过一个命令提供所有这些功能。大小合适的模板 从针对不同用例优化的 4 个模板中进行选择： - NANO（1M 参数） - 在任何笔记本电脑上 2 分钟内学习 - TINY（6M 参数） - 在 CPU 上 15 分钟内完成原型 - SMALL（100M 参��） - 几小时内的生产模型 - BASE（1B 参数） - 几天内的研究级 开箱即用所需的一切： - PyTorch 培训基础设施 - 数据预处理管道 - Tokenizer 培训（BPE、WordPiece、Unigram） - 带自动保存功能的检查点管理 - TensorBoard 集成用于实时监控 - 交互式聊天界面 - 模型比较工具 - 部署脚本 Intell
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, cli, deep-learning, gpt, language-model, llm
+
+---
+
+### 🌟 [code-index-mcp](https://github.com/Regsorm/code-index-mcp)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 109
+- **核心概述**: 通过代码搜索 AI 代理：32 个 MCP 工具、SQLite 索引、一个无依赖关系的二进制文件。 Parses 1C:Enterprise - 配置器和 EDT 下载； 88000个文件的配置在6分钟内建立索引，响应请求为10毫秒。代码索引 MCP 服务器：适用于 14 种语言的 Tree-sitter AST，20 个通用工具 + 12 个适用于 1C/BSL。
+- **大概是做什么的**: 通过代码搜索 AI 代理。一个二进制文件，SQLite 中的索引，以毫秒为单位的响应。解析 1C:Enterprise 8.3 的下载 - 来自配置器和 1C:EDT。完整指南 · 英语 · 文档 · Windows 更改日志 - 使用一个命令 将最新版本下载到 C:\tools\code-index ，记住环境变量中的文件夹，创建模板设置文件并打印完成的块 带参数 - 安装文件夹、包含源的文件夹、进入时自动运行 自动运行会遍历用户的启动文件夹：不需要管理员权限，不显示窗口。其余参数是 -Flavor core（适用于不带 1C 的构建）、-Version 1.0.0（适用于特定版本）、-Port 和 -DaemonPort（如果默认端口繁忙）。完整列表为 Get-Help .\install.ps1 -Detailed 。 Windows - 手动，从版本中现成的存档下载最新版本，将其解压到 C:\tools\code-index 并将此文件夹存储在环境变量中：bsl-indexer - 具有 1C 支持的程序集（32 个工具）。需要无需 1C 的工作 - 使用 code-index-windows-x64.zip（20 个工具）。对于同一版本中的 Linux 和 macOS
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 1c-enterprise, ast, bsl, code-index, code-search, developer-tools
+
+---
+
+### 🌟 [mcp-devtools](https://github.com/sammcj/mcp-devtools)
+- **项目语言**: Go
+- **星标数量**: ⭐ 159
+- **核心概述**: 模块化MCP服务器，为AI编码代理提供常用的开发工具
+- **大概是做什么的**: 一个单一的高性能 MCP 服务器，用一个高效的 Go 二进制文件取代了许多 Node.js 和基于 Python 的 MCP 服务器，通过统一的模块化接口提供对基本开发人员工具的访问，该接口可以使用新工具轻松扩展。其他工具（默认禁用） 为什么我构建 MCP DevTools 🚀 单一二进制解决方案 - 替换多个可能占用大量资源的 Node.js/Python MCP 服务器，每个服务器都会为您使用的每个客户端工具生成 - 一个二进制文件，一种配置，一致的性能 - 内置 Go 来提高速度和效率，因为我不够聪明，无法编写 Rust - 与多个单独的服务器相比，内存占用最小 - 快速启动和响应时间 - 下载一个二进制文件，配置一次 - 或从源代码编译 - 开箱即用大多数工具 - OpenTelemetry 支持跟踪和指标 🛠 用于代理编码的综合工具套件 - 一个包中包含 20 多个基本开发人员代理工具 - 无需管理多个 MCP 服务器安装 - 所有工具的 API 一致 - 带有工具注册表的模块化设计，可轻松添加工具
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai, cline, coding, devtools, llm
+
+---
+
+### 🌟 [mcp-ts-core](https://github.com/cyanheads/mcp-ts-core)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 151
+- **核心概述**: 适用于 MCP 服务器的代理本机 TypeScript 框架。
+- **大概是做什么的**: @cyanheads/mcp-ts-core 用于 MCP 服务器的代理本机 TypeScript 框架。为您的代理提供构建和交付服务器的基础设施、模式和技能。快速入门 · 功能 · API 参考 · 示例 通过模型上下文协议 (MCP) 将 API、数据集或工作流连接到 AI 代理。您的项目拥有域代码； @cyanheads/mcp-ts-core 提供其下的身份验证、存储、日志记录和部署。代理原生意味着您的代理知道该做什么。每个脚手架都包含框架文档和代理技能：用于设计工具、编写测试、审查安全性和发布版本的可重用工作流程。您决定服务器应该做什么；您的代理拥有帮助实施它的模式和检查。该框架仍然是一个依赖项。基础设施修复通过包升级实现 - 运行维护技能和代理更新核心、提取最新技能并将其集成到您的项目中。服务器可以在 Bun、Node.js 24 或更高版本或 Cloudflare Workers 上运行。在 Claude Code、Codex 或您首选的代理中打开项目并给出
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-native, ai, cloudflare-workers, cyanheads, framework, mcp
+
+---
+
 ## 🕔 2026-09-13 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
