@@ -1,3 +1,67 @@
+## 🕔 2026-09-14 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [intellagent](https://github.com/plurai-ai/intellagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,257
+- **核心概述**: A framework for comprehensive diagnosis and optimization of agents using simulated, realistic synthetic interactions
+- **大概是做什么的**: Uncover Your Agent's Blind Spots Simulate interactions, analyze performance, and gain actionable insights for conversational agents. Test, evaluate, and optimize your agent to ensure reliable real-world deployment. IntellAgent is an advanced multi-agent framework that transforms the evaluation and optimization of conversational agents. By simulating thousands of realistic, challenging interactions, IntellAgent stress-tests agents to uncover hidden failure points. These insights enhance agent performance, reliability, and user experience. - 🔬 Generate Thousands of Edge-Case Scenarios: Automatically generate highly realistic edge-case scenarios tailored specifically to your agent. - 🤖 Simulate Diverse User Interactions: Evaluate your agent across a wide spectrum of scenarios with varying complexity levels. - 📊 Comprehensive Performance Evaluations: Access detailed analysis to identify performance gaps, prioritize improvements, and compare outcomes across experiments. - 💪 Simple integration: Simple integration to your conversational agent. IntellAgent framework consists of three ste
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, evaluation, llmops, simulator, synthetic-data
+
+---
+
+### 🌟 [hypit](https://github.com/hypit-ai/hypit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 406
+- **核心概述**: Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
+- **大概是做什么的**: Clone any viral video with AI agents 1 command, 100 variants, 100M views. ⭐ Help more people find Hypit and grow the community. Star this repo! Hypit gives AI agents (Claude Code, Codex...) a language and system to create video. Drop in a video, and your agent clones it as a complete workflow: footage, captions, B-roll and effects, all anchored to words instead of seconds. To be clear: cloning a video is the fastest way in, not the only one. You can start from our templates, or just describe the video you want and your agent writes the workflow from scratch. Generation models are optional too: a workflow can compile captions, motion graphics and code-rendered visuals into a finished video without calling a single model, so a video can cost exactly $0. SVML source on the left, with the corresponding video rendered live on the right. This installs the Skill. On first use, your agent checks for the Hypit executable and helps prepare it if needed. Your video project can live anywhere. Generation source · Run and production notes "GOAT DEBATE" — a 20-second football tier list that puts Ro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agents, ai-video, compiler, dsl
+
+---
+
+### 🌟 [taskdog](https://github.com/Kohei-Wada/taskdog)
+- **项目语言**: Python
+- **星标数量**: ⭐ 351
+- **核心概述**: Terminal task manager with intelligent schedule optimization.Keyboard-only. No dragging, no micromanagement.
+- **大概是做什么的**: A task management system with CLI/TUI interfaces and REST API server, featuring time tracking, schedule optimization, and beautiful terminal output. Designed for individual use. Stores tasks locally in an SQLite database. https://github.com/user-attachments/assets/2c0de3ec-fa3d-4f41-ae01-acbff04931e3 Try taskdog with 50 sample tasks. No installation required — just Docker: The TUI works inside the container, but some keybindings (e.g., Ctrl+P for command palette) may conflict with Docker's key sequences. For the best experience, run the server in a container and connect from your host: uvx comes with uv. It runs the command in a temporary environment without installing anything. Requirements : Python 3.12+, uv Supported Platforms : Linux, macOS Experimental : Windows (WSL2 recommended; native support is still being hardened) Recommended (with systemd/launchd service) This installs the CLI/TUI and server, and sets up a systemd (Linux) or launchd (macOS) service so the server starts automatically. Installs the CLI/TUI, server, and MCP binaries plus the systemd user service (enable per-
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-code, cli, click, fastapi, makefile, mcp
+
+---
+
+### 🌟 [pgedge-postgres-mcp](https://github.com/pgEdge/pgedge-postgres-mcp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 225
+- **核心概述**: pgEdge MCP Server. A PostgreSQL MCP server with a Natural Language Agent CLI and Web UI.
+- **大概是做什么的**: pgEdge Postgres MCP Server and Natural Language Agent - About the pgEdge Postgres MCP Server - pgEdge Postgres MCP Server - Choosing the Right Solution - Best Practices - Querying the Server - Installing the MCP Server - Quickstart Demo with Northwind - Deploying on Docker - Deploying from Source - Testing the MCP Server Deployment - Configuring the MCP Server - Specifying Configuration Preferences - Using Environment Variables to Specify Options - Including Provider Embeddings in a Configuration File - Configuring the Agent for Multiple Databases - Configuring Supporting Services; HTTP, systemd, and nginx - Using an Encryption Secret File - Enabling or Disabling Features - Configuring and Using a Client Application - Connecting with the Web Client - Using the Go Chat Client - Configuring the Server for use with Claude Desktop - Configuring the Server for use with Cursor - Reviewing Server Logs - Authentication and Security - Authentication - Overview - Authentication - User Management - Authentication - Token Management - Security Checklist - Security Management - Using MCP Resource
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, llm, mcp, postgres, postgresql, server
+
+---
+
+### 🌟 [cyber-harness](https://github.com/chainreactors/cyber-harness)
+- **项目语言**: Go
+- **星标数量**: ⭐ 291
+- **核心概述**: AI-driven pi-like agent for cyber security — single binary for pentest, red team, bug bounty
+- **大概是做什么的**: AI-driven single-binary pentest agent with a built-in multi-engine arsenal, ready to go aiscan combines LLM agents with traditional security scanning engines. Three modes: Scan (deterministic pipeline, optional AI assist), Agent (natural-language autonomous assessment), IOA (multi-agent distributed collaboration). Use only on explicitly authorized targets. Unauthorized use is illegal. From GitHub Releases: Edition Description aiscan Standard — scan/agent/gogo/spray/zombie/neutron/proton/arsenal aiscan-full Full — adds Web, playwright, passive recon, and katana OS Arch Standard Full --- --- --- --- Linux amd64 / arm64 aiscan linux .zip aiscan-full linux .zip macOS Intel / Apple Silicon aiscan darwin .zip aiscan-full darwin .zip Windows amd64 / arm64 aiscan windows .zip aiscan-full windows amd64.zip Web Console (Full Edition) The Web console is included in aiscan-full . It starts the browser UI and an embedded local agent by default. Open http://127.0.0.1:8080 and enter the access key printed at startup: To listen on the network with a fixed access key: Run the Web console as a hub wit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-pentesting, pentesting, redteam
+
+---
+
+### 🌟 [octomind](https://github.com/Muvon/octomind)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 136
+- **核心概述**: Open-source AI coding agent and agent runtime: one binary, any model, MCP-native. Runs in terminal, CI, or as a daemon.
+- **大概是做什么的**: The CLI-first AI coding agent runtime. Pipe it, schedule it, embed it. One binary, multiple model providers, MCP-native — built for autonomous work, not just chat. Documentation · Tap Registry · Website Octomind is an open-source AI agent client: the model calls MCP tools to do real work — read and write files, run shells, search code, delegate to sub-agents. The same runtime supports several entry points: the same session runs interactively , piped through stdin , as a background daemon , over WebSocket , or as an ACP sub-agent inside another agent's stack. Models, tools, roles, guardrails, budgets — all of it is TOML, no framework code. - Benchmarks — Real PRs, Held-Out Tests - One Binary, Five Surfaces - Guardrails — Policy as Code - Cost as a Control Plane - Sessions That Stay Sharp at Hour 4 - Intent-Driven Context - Specialists & Taps - Built-in MCP Tools - Power Users — Roles, Workflows, Layers You're in a session with an agent that can read your code, run commands, edit files, and grow capabilities as needed. Plain-line interface with markdown rendering and shell completions
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agents, ai-assistant, ai-developer, autonomous-agents
+
+---
+
 ## 🕔 2026-09-14 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 304 个候选项目中筛选出 6 个未推荐过的新项目。
