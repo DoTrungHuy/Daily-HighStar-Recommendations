@@ -1,3 +1,67 @@
+## 🕔 2026-09-14 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vigil](https://github.com/Vigil-SOC/vigil)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: Vigil: The leading open source AI SOC. Apache 2.0. Runs against your own LLM, local or remote.
+- **大概是做什么的**: Vigil is the leading open source AI SOC: an agentic SOC with 13 specialized AI agents, 30+ MCP integrations, and 7,200+ community detection rules, released under Apache 2.0. Your playbooks are plain-text files, your agent logic is readable Python, and your integrations use an open standard (MCP). Every proprietary AI SOC on the market is a black box you rent. Vigil is a capability you own. Vigil pairs with LogLM, a cybersecurity foundation model for behavioral anomaly detection, to form the Intelligent Defense Platform from DeepTempo. Measured in the open by SOCBench. Docs and community: vigilsoc.org. The inspiration for the project is in part StackStorm and the experience of some of the founders of this project had in building the Linux Foundation project StackStorm and in supporting Netflix and others who used StackStorm to achieve, carefully, very high levels of automation. You'll sometimes hear us talking about the journey towards full autonomy and lessons learned. One lesson - the system can only demote itself and only humans can promote additional autonomy. You'll find this pla
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, ai-soc, cybersecurity-tools, detection-engineering, incident-response
+
+---
+
+### 🌟 [agent-skills-vrc-udon](https://github.com/niaka3dayo/agent-skills-vrc-udon)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 313
+- **核心概述**: Skills, rules, and validation hooks that teach AI coding agents to generate correct UdonSharp code
+- **大概是做什么的**: English 日本語 简体中文 繁體中文 한국어 Agent Skills for VRChat UdonSharp Skills, rules, and validation hooks that teach AI coding agents to generate correct UdonSharp code Contributing &bull; VRChat world development with UdonSharp (C &rarr; Udon Assembly) has strict compile constraints that differ significantly from standard C . In Udon runtime code, features like List , async/await , try/catch , LINQ, and lambdas cause compile errors . Editor-evaluated field initializers are a separate C context and may use some of these features to generate a final field value that Udon supports. This repository provides AI coding agents with the knowledge to generate correct UdonSharp code from the start. --------- ---------- AI generates Udon-incompatible List , async/await , etc. in runtime code Rules + hooks auto-detect and warn Sync variable bloat Decision tree + data budget Incorrect networking patterns Pattern library + anti-patterns SDK version feature differences Version table with feature mapping Late Joiner state inconsistency Sync pattern selection framework - A VRChat SDK or UdonSharp distribution
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, codex-cli, gemini-cli, udonsharp, vrc-sdk
+
+---
+
+### 🌟 [bankmcp](https://github.com/noskillish/bankmcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 215
+- **核心概述**: BankMCP™: your AI can now read your bank. Self-hosted, read-only MCP server for your own bank accounts via open banking (Enable Banking). Standard MCP; tested with Claude and Ollama.
+- **大概是做什么的**: Your AI now reads your bank. Ask it anything about your accounts. Read-only, self-hosted, one user. Standard MCP; tested with Claude and Ollama. BankMCP™ is not a bank. It is a small open-source server you host yourself (npm package bankmcp ). It connects to your banks through Enable Banking, which wraps 2,700+ European banks in one PSD2 API, and exposes them to any MCP client as a connector. Read-only, no payments, no third party holding your data. "Has the invoice from Acme been paid?" · "What did we spend on groceries in August?" · "Which subscriptions am I paying for, and what do they cost per year?" · "Tell me when my balance drops below 5,000." - Your assistant (Claude, ChatGPT, Cursor, or any MCP client) talks to your server as a connector. You sign in once with a password; tokens handle - Your server holds the Enable Banking application key, the bank consents and your account ids. It does not store balances or transactions and sends no - Enable Banking is the licensed provider between your server and your bank. Every balance and transaction you ask for passes through their se
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: chatgpt, claude, enable-banking, mcp, mcp-server, ollama
+
+---
+
+### 🌟 [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 312
+- **核心概述**: Autonomous AI-powered security scanning platform — CLI scanner, web dashboard, and one-command Docker deployment
+- **大概是做什么的**: Autonomous, self-hosted security testing for authorized bug bounty and pentesting - Proven in the Security Community - What is BugTraceAI? - CI/CD Integration Proposal - Community & Support Proven in the Security Community Product CVE CVSS ------- --- ---- Wallos CVE-2026-27479 7.7 High ZoneMinder CVE-2026-27470 8.8 High Piwigo CVE-2026-27834 7.2 High - RootedCON 2026, Madrid, Spain - HKOSCon 2026, Hong Kong BugTraceAI combines AI-guided investigation with deterministic security tools. The AI prioritizes and reasons about hypotheses; tools and evidence validate what is real. This platform is provided for educational and authorized security testing purposes only . - Only test applications for which you have explicit, written authorization - AI output may contain inaccuracies, false positives, or false negatives - It is not a substitute for professional security auditing - The creators assume no liability for misuse or damage Always verify findings manually. BugTraceAI is an opensource, self-hosted framework for bug bounty hunting and penetration testing . It combines autonomous AI age
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-hacking, ai-penetration-testing, ai-pentesting, ai-security
+
+---
+
+### 🌟 [tda](https://github.com/irockel/tda)
+- **项目语言**: Java
+- **星标数量**: ⭐ 551
+- **核心概述**: TDA - Thread Dump Analyzer (for Java). Analyze your Thread Dumps with a GUI or use it as MCP Server.
+- **大概是做什么的**: TDA - Thread Dump Analyzer 2026-05-11 - TDA 3.2 available. VisualVM Plugin : proper integration in VisualVM working again. UI : Updated jsvg version to 2.1.0. 2026-04-18 - TDA 3.1 available. VisualVM Plugin : proper integration in VisualVM working again. Logfile Parsing : Support for UTF16 files. UI : some small fixes. 2026-01-30 - TDA 3.0 is now available! 🚀 This major release brings significant enhancements: Extended MCP Server : Now with Carrier Thread Pinning detection and support for SMR (Safe Memory Relocation) parsing. Modernized UI : Completely refreshed look and feel using FlatLaf . Usability Improvements : Fixed several long-standing issues, including improved split-pane management and faster parsing. Native macOS Support : Now providing a dedicated macOS binary. Logging : Especially for troubleshooting in MCP Mode. TDA (Thread Dump Analyzer) for Java is a powerful yet lightweight Swing GUI and MCP Server for analyzing Thread Dumps and Heap Information generated by the Java VM. It is designed to assist in diagnosing performance issues, deadlocks, and memory problems in Jav
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: java, jvm, jvm-monitor, mcp, mcp-server, performance-tuning
+
+---
+
+### 🌟 [grasp](https://github.com/cocofhu/grasp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 237
+- **核心概述**: Grasp helps you manage multiple projects and parallel coding agents in one visual workflow, so humans can understand faster and ship more.
+- **大概是做什么的**: Over the past two years, as large models got stronger, I explored widely and shipped 150+ personal projects. Two problems kept getting in the way: 1. Multi-project switching is expensive — bouncing between IDEs, with run state and context hard to keep straight; 2. Parallel agent work is hard to read — models dump long walls of text, burying what actually matters, so understanding costs a lot of time. So I built Grasp: one platform for all your projects, and visual requirement clarification that turns agent verbosity into something you can grasp at a glance — raising human throughput. It also plugs into multiple agent backends, such as Cursor, CodeBuddy, and Claude Code. Website · Quick start · Contributing · Configuration · Gateway https://github.com/user-attachments/assets/47728d1f-54a1-485e-967e-28d8c716ed36 Orchestrate multi-project, multi-agent development on one canvas. Turn agent output into structured artifacts that are quick to review. Manage projects, agent backends, and run configuration in one platform. Track token usage and cost distribution across projects and models. Ca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, browser-automation, harness, harness-ai, harness-ci
+
+---
+
 ## 🕔 2026-09-14 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
