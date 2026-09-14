@@ -1,3 +1,67 @@
+## 🕔 2026-09-14 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [affiliate-skills](https://github.com/Affitor/affiliate-skills)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 661
+- **核心概述**: 50 个用于联盟营销的 AI 代理技能。研究趋势内容，撰写有数据支持的帖子，生成信息图表，构建登陆页面，部署具有社交智能的完整飞轮。适用于 Claude Code、Pi、ChatGPT、Gemini、Cursor、Windsurf、任何 AI。
+- **大概是做什么的**: 将任何人工智能转变为您的联属营销团队。 8 个阶段的 52 种人工智能技能，带有闭环飞轮。使用任何人工智能代理进行研究计划、侦察趋势内容、撰写数据支持的帖子、生成信息图表、构建页面、部署、跟踪、优化、扩展。适用于：Claude Code · Pi · ChatGPT · Gemini CLI · 光标 · Windsurf · OpenClaw · 任何读取文本的 AI - Skills/{stage}/{skill-name}/SKILL.md — 主要技能定义 - 共享/引用/ — 共享条令、合规性和飞轮参考 - tools/src/ — 附属检查 CLI 源 -registry.json — 机器可读的技能目录 - evals/ — 评估案例和结果 立即尝试 — 无需安装 将其粘贴到任何人工智能：没有联属技能 - 你在谷歌上搜索“最佳联属计划”，得到的 SEO 垃圾邮件是为了排名，而不是为了帮助 - 你凭直觉编写内容，不知道实际执行的是什么格式 - 你没有关于什么是趋势、什么挂钩有效或存在什么差距的数据 - 你在一个转化率为 0.2% 的登陆页面上花费 4 个小时 - 你通过共鸣而不是数据来选择程序 使用联属技能技能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: affiliate-marketing, agent-skills, ai, ai-agents, chatgpt, claude
+
+---
+
+### 🌟 [ai-sdlc](https://github.com/ai-sdlc-framework/ai-sdlc)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 339
+- **核心概述**: 人工智能增强软件开发生命周期的声明式治理框架
+- **大概是做什么的**: 规范驱动的 AI 工作流程的决策引擎 网站 · 文档 · 规范 · 入门 · 愿景 · 贡献 AI-SDLC 是规范驱动的 AI 工作流程的决策引擎 - 规范驱动的开发堆栈的执行和治理部分。操作员通过就绪定义门预先加载承载决策；自主协调器通过依赖关系图调度开发人员子代理；交叉利用评审员（Claude × Codex × ...）并行验证工作； DSSE 认证密封每一个更改；拉取请求会自行打��。杠杆举措是成本不对称：运营商预先做出的决策——在充分的背景、思考时间和接触利益相关者的情况下——成本低廉且（大部分）是正确的。在不确定的情况下执行过程中做出的人工智能决策成本高昂，而且常常是错误的。框架的价值不在于“AI写代码”；它是“人工智能确定性地执行明确指定的合同。”这些是具有不同可靠性特征的不同产品。操作员的角���转变为决策管理员——提出开放性问题、解决问题、签署决议
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding-agents, ai-governance, developer-tools, devops, golang
+
+---
+
+### 🌟 [opencode-mcp](https://github.com/AlaeddineMessadi/opencode-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 130
+- **核心概述**: OpenCode AI 的 MCP 服务器 — 70 个工具、10 个资源、5 个提示。将 npx opencode-mcp 与 Claude Desktop、Claude Code、Cursor、Windsurf 或任何 MCP 客户端结合使用。
+- **大概是做什么的**: 为任何 MCP 客户端提供 OpenCode 的强大功能。 opencode-mcp 是一个 MCP 服务器，可将您的 AI 工具（Claude、Cursor、Windsurf、VS Code 等）桥接到 OpenCode 的无头 API。它让您的 AI 能够将真正的编码工作（构建功能、调试、重构、运行测试）委托给 OpenCode 会话，以便在您的项目中自主读取、写入和执行代码。 80 个工具 10 个资源 6 个提示 多项目 可选自动启动 - 委派编码任务：告诉 Claude“为我构建一个 REST API”，它会委派给 OpenCode，后者创建文件、安装包、编写测试并返回报告。 - 并行工作：将多个任务发送给 OpenCode，同时您的主要 AI 继续处理其他事情。 - 任何 MCP 客户端：可与 Claude Desktop、Claude Code、Cursor、Windsurf、VS Code Copilot、Cline、Continue、Zed、Amazon Q 和任何其他 MCP 兼容工具配合使用。 - 显式服务器控制：连接到现有的 OpenCode 服务器或选择使用 OPENCODE AUTO SERVE=true 启动本地服务器。先决条件：必须安装 OpenCode。 curl -fsSL https://opencode.ai/install bash 或 npm i -g opencode-a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-coding, ai-tools, claude, claude-desktop, coding-assistant
+
+---
+
+### 🌟 [langserver](https://github.com/nim-lang/langserver)
+- **项目语言**: Nim
+- **星标数量**: ⭐ 312
+- **核心概述**: Nim语言服务器实现（基于nimsuggest）
+- **大概是做什么的**: nimlangserver 是 Nim 的语言服务器。它可以作为编辑器和 IDE 的 LSP 服务器运行，也可以作为 AI 编码代理（如 GitHub Copilot、Claude Code 和 Gemini）的 MCP 服务器运行。需要 nimble = 0.16.1 和支持 --v3（Nim 1.6+ 或 devel）的 nimsuggest。 - nimlsp — 替代 Nim 语言服务器，nimsuggest 直接嵌入二进制文件中。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: language-server, lsp, mcp, nim
+
+---
+
+### 🌟 [awesome-fintech](https://github.com/moov-io/awesome-fintech)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 372
+- **核心概述**: 针对支付、银行和金融基础设施的开源金融科技库的精选集合。
+- **大概是做什么的**: 为金融科技工程师精选的流行、维护良好的开源库和开发人员工具的集合。重点是银行、支付公司和金融平台使用的具有现实世界吸引力的生产级项目。项目必须展示有意义的采用（明星、分叉、贡献者或行业使用）、主动维护、明确的开源许可（Apache、MIT、AGPL、BSD 等）以及构建支付、银行、合规性、数据和金融系统的实用性。没有周末项目、人工智能代理实验、个人理财应用程序或加密货币/区块链工具。此列表不用于交易或市场分析。请勿提交技术指标、烛台/OHLC 或其他市场图表、回溯测试框架、股票/报价 API、季度报告、SEC 文件抓取工具、基本面或类似的投资者研究工具。这些属于量化/交易列表，而不是这里。 - 支付和集成 - 银行基础设施 - 合规与制裁 - 财务数据和 API - 金钱、货币和格式 - 图表和可视化 - 计费和订阅 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, banking, fintech, mcp, payment-gateway, payments
+
+---
+
+### 🌟 [OpenTrade](https://github.com/OpenTradeOSS/OpenTrade)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 204
+- **核心概述**: Claude Code / Codex 代理的开源交易工具。
+- **大概是做什么的**: Claude Code / Codex 代理的开源交易工具。 OpenTrade 是一款 macOS 应用程序，使代理商能够自主交易并对市场做出反应。代理通过官方 MCP 在您的 Robinhood Agentic 交易账户中执行交易。设置护栏、监视器和时间表，以便代理可以 24/7 进行交易 - 一切都在您的机器上。监控实时事件代理可以定期或通过后台脚本对任意事件进行调度。协调多个代理将策略和您的投资组合委托给任意数量的代理。手动/自动订单审批、代理商后台轮流限制以及每个代理商的订单核算。即使应用程序已关闭，代理也会继续收到通知并在后台工作。 — 该链接始终解析为最新版本；较旧的版本位于“发布”页面上。打开它并将 OpenTrade 拖至应用程序。需要 Apple Silicon Mac。该应用程序会从 GitHub Releases 自动更新。 OpenTrade 支持 Claude Code 和 Codex 代理，因此请安装并登录 claude 和/或 codex CLI。通过您的 ag 与 Robinhood 建立经过身份验证的 MCP 连接
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, background-jobs, claude-code, codex, guardrails, investing
+
+---
+
 ## 🕔 2026-09-14 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
