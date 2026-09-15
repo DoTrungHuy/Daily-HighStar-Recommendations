@@ -1,3 +1,67 @@
+## 🕔 2026-09-15 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [next-devtools-mcp](https://github.com/vercel/next-devtools-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 820
+- **核心概述**: Next.js Development for Coding Agent
+- **大概是做什么的**: Next.js DevTools MCP next-devtools-mcp is a Model Context Protocol (MCP) server that connects coding agents like Claude and Cursor to your running Next.js dev server. It is a thin connector . It discovers running Next.js 16+ dev servers and proxies their built-in MCP endpoint ( / next/mcp ) so agents get live runtime errors, routes, and logs. It also ships two gateways that point agents at tools they run directly: version-accurate docs and the agent-browser CLI. Docs and migration workflows no longer live in this server. Next.js bundles its own docs at node modules/next/dist/docs/ , and upgrade / Cache Components workflows are distributed as agent skills. See Migrating from 0.3.x. - Node.js v20.19 or a newer LTS version - Next.js 16+ with a running dev server (for nextjs index / nextjs call ) Install for all your coding agents with add-mcp : Add -y to skip the prompt and install to all detected agents. Add -g to install globally across all projects. Or add the config to your MCP client manually: next-devtools-mcp@latest keeps your client on the latest version. Client-specific setup O
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coding-agents, mcp, mcp-server, next-devtools, nextjs
+
+---
+
+### 🌟 [kition](https://github.com/KitionAI/kition)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 294
+- **核心概述**: Kition brings Markdown, DataTable, WhiteBoard, a tool-using AI agent, browser research, and visual workflows into one desktop workspace.
+- **大概是做什么的**: Documents, Tables, Whiteboards, Agents, and Workflows in one desktop workspace. Write connected knowledge, think visually, build data tools, research in the browser, and automate repeatable work. Kition brings Markdown documents, structured table files, an infinite Whiteboard, a tool-using AI agent, browser research, and visual workflows into one desktop workspace. Instead of making every task begin in a blank chat, Kition gives the Agent editable project files, typed records, attachments, and visible processes to work with. This makes powerful AI operations easier to inspect, correct, and repeat without handing context between disconnected tools. Kition is currently in beta. Back up important workspaces and review agent changes before relying on them in production workflows. - Connected documents. Write Markdown with live preview, links, backlinks, callouts, code, math, diagrams, daily notes, search, and export. - Structured data beside the knowledge. Turn research and content into typed records, formulas, filters, groups, views, attachments, and AI fields. - Visual thinking with re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, desktop-app, electron, kition
+
+---
+
+### 🌟 [AgentMeasure](https://github.com/roy-tong/AgentMeasure)
+- **项目语言**: Python
+- **星标数量**: ⭐ 189
+- **核心概述**: Open measurement infrastructure for agent-facing software. Separate operations from attempts, evidence from inference, and usage from value. Reach → Choice → Use → Utility → Value.
+- **大概是做什么的**: Find repeated failures and retries in your Codex sessions, with local evidence. Healthcheck reads existing Codex Desktop rollout logs and produces a terminal summary and a local HTML report. It checks duplicate records, retry chains, and consecutive tool failures. Missing evidence is UNPROVABLE , never silently zero. Analysis runs locally with no runtime network calls. Engineering preview : Codex CLI is not yet independently verified; Claude Code is not supported yet. The Git install above is available now; PyPI publishing is being prepared. Quick start and supported formats · Try it and share feedback safely · What our contributions changed · The Token-Accounting Bug Report — 110 tools audited, 45+ verified bugs, 17 merged fixes · Maintain a usage tool? Audit it in 10 minutes · Found a useful result? Keep a snapshot and compare your next run. Feedback is optional: you can use the tool without opening an issue or uploading logs. Measurement infrastructure The open yardstick for agent usage and AI outcomes. Test whether your agent metrics mean what their labels claim. Conformance chec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-economy, agent-evaluation, agent-observability, agentic-ai, ai-agents, ai-metrics
+
+---
+
+### 🌟 [tonghuasun-agent](https://github.com/zhuyifang/tonghuasun-agent)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 199
+- **核心概述**: 同花顺免费开源AI插件FQGate（原插件名 tonghuasun-agent）：为 Codex、Claude Code、DeepSeek 等 AI 工具提供本机 A 股实时行情、K 线、Level-2、资讯、账户查询与可选交易能力。
+- **大概是做什么的**: 同花顺免费开源AI插件FQGate (QQ群-14546787) 面向 Codex、Claude Code、WorkBuddy、ZCode、OpenClaw、DeepSeek Harness、豆包和千问的本机 A 股行情与量化数据插件 1.0.0 升级提醒： 配套的 FQGate 1.0.0 主程序只提供行情，不再提供交易 API 和交易 MCP 工具。下文的账户查询、交易技能和交易示例仅适用于仍提供这些接口的旧版主程序；连接 1.0.0 时请以实际工具列表为准。插件只设主程序最低版本，不限制更高版本。 🚀🚀🚀 一句话安装｜复制后发给 AI 🚀🚀🚀 ⭐⭐⭐ 复制下面这句话，发送给你正在使用的 AI 助手 ⭐⭐⭐ 👆👆👆 复制上面这句话即可开始安装 👆👆👆 ✅ 自动选择对应安装方式 ✅ 安装 FQGate 正式版 ✅ 安装 AI 插件 ✅ 检查连接 通过这个插件，你可以在常用 AI 助手中直接查询 A 股实时行情、分时、K 线、Level-2 逐笔数据、资讯公告、证券资料、账户资产、持仓、委托和成交数据，也可以在明确确认后执行交易操作。 更名说明： 本项目原插件名为 tonghuasun-agent ，现已更名为 fqgate-agent 。GitHub 和 Gitee 仓库地址继续沿用原名称，方便旧用户、已有收藏和外部链接继续访问。当前展示名称为“同花顺免费开源AI插件FQGate”。 所有 AI 插件入口、安装适配、技能和界面组件均免费开源，不设订阅、会员、套餐、试用额度或付费解锁。FQGate 作为本机量化网关单独提供编译包，并适用其随包许可。 这是一个由独立开发者维护的非官方项目，与同花顺及其关联公司不存在授权、合作或背书关系。插件不会增加任何行情、账户或交易权限，你能看到的数据和能使用的功能仍以当前账户及相应服务权限为准。 当前插件版本为 1.0.0 ，要求 FQGate 0.1.0 或更高版本。 AI 插件安装包可以从 GitHub 或 Gitee 下载；FQGate 主程序请从下方的官方下载页获取。 如果你是 AI 助手，请先识别当前使用的 AI 工具，再打开下方对应的安装说明，完成主程序、插件和连接配置。 - 当前版本、文件名、大小和 SHA-256：FQGate 稳定版清单 让 AI 帮你安装时，AI 应先查看稳定版清单，再下载适合当前电脑的文件。直接下载地址是 https://github.com/zhuyifang/fqgate-releases/releases/download/fqgate-v / ，下载后核对文
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, ai-plugin, china-stock, claude-code, codex
+
+---
+
+### 🌟 [coder_eval](https://github.com/UiPath/coder_eval)
+- **项目语言**: Python
+- **星标数量**: ⭐ 129
+- **核心概述**: Playwright for coding agents. Test that your skills, MCP servers, and CLIs actually work when an agent uses them — sandboxed YAML suites, A/B experiments, CI gates.
+- **大概是做什么的**: Coder Eval — evaluate and benchmark AI coding agents and their skills Playwright for coding agents — one declarative test file, any agent runtime, a real sandbox, and a pass/fail gate in CI. Coder Eval ( pip install coder-eval / uv tool install coder-eval ) is an open-source, agent-agnostic framework for evaluating and benchmarking AI coding agents and their skills — built for benchmark authors, CLI builders, and skill builders — with sandboxing, reproducibility, and data-driven analysis. It runs a real agent — Claude Code , OpenAI Codex , Google Antigravity (Gemini) , OpenCode , or Pi — in a sandbox against declarative YAML tasks, then scores the files and commands it actually produced. Changing harness is one field ( agent.type ); the tasks, criteria, scoring, telemetry, and reports stay the same. Reach for it when you want to benchmark agents on your own domain tasks , test whether a skill triggers in the agent you ship for, A/B-test Claude Code vs. Codex vs. Gemini vs. OpenCode vs. Pi (or model vs. model, prompt vs. prompt), or gate CI on coding-agent quality . It is not a fixed
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evaluation, agent-skills, agent-testing, anthropic, claude, claude-code
+
+---
+
+### 🌟 [chimp](https://github.com/softwaremill/chimp)
+- **项目语言**: Scala
+- **星标数量**: ⭐ 102
+- **核心概述**: Build type-safe, boilerplate-less MCP servers and clients in Scala
+- **大概是做什么的**: An SDK for building MCP (Model Context Protocol) servers and clients in Scala 3 using boilerplate-less, type-safe APIs based on Tapir and sttp, supporting the variety of the Scala ecosystem. Chimp implements both streamable HTTP and stdio transports. Additional integration modules unlock streaming features of the MCP protocol with bidirectional communication between server and client. Currently supporting Ox, ZIO and Pekko. Run a basic MCP server with Netty exposing a simple adder tool: Connect and invoke the tool as an MCP client: Run a basic MCP server using stdio transport: Start the server as a subprocess and invoke the tool as an MCP client: Bidirectional streaming With the integration modules (like chimp-server-ox and chimp-client-ox for ox) bidirectional communication becomes possible. For example, run a basic streaming MCP server using Netty and ox: Connect and invoke the tool as an MCP client, receiving server's notifications while the tool call is in flight: Full documentation is available at chimp.softwaremill.com . Contributions are welcome! Please open issues or pull req
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, client, mcp, pekko, scala, server
+
+---
+
 ## 🕔 2026-09-14 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
