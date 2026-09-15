@@ -1,3 +1,67 @@
+## 🕔 2026-09-15 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [TorchLeet](https://github.com/Exorust/TorchLeet)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 2,486
+- **核心概述**: LeetCode for PyTorch — 65 ML/AI interview problems from real interviews at Google, Meta, Anthropic. Jupyter notebooks, an auto-grader, and an MCP AI tutor.
+- **大概是做什么的**: 68 PyTorch problems from real ML/AI interviews at Google, Meta, Anthropic, and more. Follow me on Twitter Try the Terminal AI Tutor Send Feedback I struggled to grind for ML/AI interviews so I went back to the basics and created a list after careful research. These are real problems from first person reports from real engineer interviews. Don't use GPT. The whole point is to struggle through these yourself. If you paste these into ChatGPT you're wasting your time. The goal is to deeply understand PyTorch, not to get an answer. I used GPT to help write some of the initial code, but I tested and solved every problem myself. That's where the learning happens. Turn any AI assistant into your PyTorch interview coach. The TorchLeet MCP server gives your AI access to all 68 problems, progressive hints, company prep plans, and learning paths, while enforcing a no-spoilers teaching style. Claude Desktop / Cursor / VS Code Add this to your MCP config: Four learning guides: Guide What it does ------- ------------- torchleet-tutor Guides you through problems with progressive hints torchleet-inte
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: coding-interviews, deep-learning, from-scratch, interview-preparation, interview-questions, leetcode
+
+---
+
+### 🌟 [okou](https://github.com/vm0-ai/okou)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,152
+- **核心概述**: Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control.
+- **大概是做什么的**: More done. Same team. Give it a job, not a prompt. Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control. Get started free · ⭐ Star us on GitHub — it motivates us a lot! ⭐ Hire it into a role, not a task You @mention Okou the way you would ask a colleague — without spelling out the steps. @Okou build the Litoral one-pager — hero, the story, three room tiles. Brand kit is in Drive. Read the brand brief. Publishing as soon as it reads right. → Litoral Coastal Hotel Site — published Reads well. Can you send the launch note to the list? Drafted in Gmail — unsent, yours to send. It works out the angle, picks its own tools, and does the job in the open where the team can see it. Every workflow your team builds is an asset it keeps One person works out how a job should get done. That becomes something the whole team can run. 1. Run Someone asks for a piece of work the way they would ask a colleague. Okou figures out the steps. 2. Save When it sees the job repeat, Okou offers to keep the run — the instru
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agent, ai-runtime, ai-sandbox, dev-tools, sandbox
+
+---
+
+### 🌟 [gentle-shell](https://github.com/Gentleman-Programming/gentle-shell)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 818
+- **核心概述**: Turn Pi into el Gentleman: a senior-architect development harness with SDD/OpenSpec, subagents, strict TDD evidence, review guardrails, and skill discovery.
+- **大概是做什么的**: Your coding agent for controlled development in the workspace you lead. Your terminal can run an agent. Your workspace should help you lead it. gentle-shell is your coding agent, bringing your changes, tasks, and engineering workflow together—built for Pi. One workspace. A coding agent you direct. A workflow you can inspect. BUILT FOR PI &nbsp;·&nbsp; Coding-agent workspace &nbsp;·&nbsp; Focused agents &nbsp;·&nbsp; Optional SDD ★ Star gentle-shell on GitHub Built for Pi. Shaped by Gentle-AI. gentle-shell — Your coding agent, in the workspace you lead A complete workspace for the agent you direct. gentle-shell is your coding agent, built for Pi, with native workspace features for agent orchestration, usage monitoring for supported provider accounts, and built-in diff views—all in one integrated layout. See active tasks, session changes, and runtime status without leaving the work you are leading. gentle-shell in action. Screenshot from Gentle-AI . → Read the gentle-shell reference el Gentleman — Think before you build Say what you need once, then keep moving. el Gentleman helps turn
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, ai-agents, ai-coding, ai-coding-agent, code-review
+
+---
+
+### 🌟 [DATAGEN](https://github.com/zi-yue-1129/DATAGEN)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,800
+- **核心概述**: DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing.
+- **大概是做什么的**: DATAGEN (Previously AI-Data-Analysis-MultiAgent) DATAGEN is a powerful brand name that represents our vision of leveraging artificial intelligence technology for data generation and analysis. The name combines "DATA" and "GEN"(generation), perfectly embodying the core functionality of this project - automated data analysis and research through a multi-agent system. DATAGEN is an advanced AI-powered data analysis and research platform that utilizes multiple specialized agents to streamline tasks such as data analysis, visualization, and report generation. Our platform leverages cutting-edge technologies including LangChain, OpenAI's GPT models, and LangGraph to handle complex research processes, integrating diverse AI architectures for optimal performance. Intelligent Analysis Core - Advanced Hypothesis Engine - AI-driven hypothesis generation and validation - Automated research direction optimization - Real-time hypothesis refinement - Enterprise Data Processing - Robust data cleaning and transformation - Scalable analysis pipelines - Automated quality assurance - Dynamic Visualizati
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-data-analysis, artificial-intelligence, code-generation, data-analysis
+
+---
+
+### 🌟 [9remote](https://github.com/decolua/9remote)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 568
+- **核心概述**: 📱 Terminal in Your Pocket — Control Claude Code, Codex, Gemini CLI & your Mac/Linux/Windows from any phone or browser. Vibe coding from anywhere. Alternative to MobileCLI, Claude Remote, vibe-remote, MuxAgent.
+- **大概是做什么的**: 9Remote — Terminal in Your Pocket Want to code from bed? Fix bugs while having coffee? Deploy while on vacation? Your Mac/Linux/Windows terminal, remote desktop, and file explorer — accessible from any phone or browser, anywhere, instantly. 🚀 Quick Start • 📊 Comparison • 💡 Features • 🌐 Website • 📖 Docs • 💬 Facebook 🇺🇸 English • 🇻🇳 Tiếng Việt 🚧 Development Status 9Remote is currently in active development. The source code is not open-source yet . If this project gets enough ⭐ support from the community, we will fully open-source it so everyone can contribute and self-host. ⭐ Star this repo to help us reach the open-source milestone! Remote access today is painful: - ❌ SSH is a hassle — firewall rules, port forwarding, SSH keys, IP whitelisting - ❌ VPN is overkill — complex setup just to check a terminal - ❌ ngrok / tunnels expire — lose connection, restart everything - ❌ TeamViewer is slow — high latency, desktop-only, paid for commercial use - ❌ Chrome Remote Desktop — no terminal, no file explorer, no mobile - ❌ Termius — SSH-only, no remote desktop, no browser access 9Re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agent, claude-code, claude-remote, codex, coding-agent
+
+---
+
+### 🌟 [linggen-memory](https://github.com/linggen/linggen-memory)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 109
+- **核心概述**: Local-first semantic memory for AI assistants — one store your preferences, decisions and gotchas follow you into, across Claude Code, Codex, Cursor and Zed.
+- **大概是做什么的**: Not just remember and recall. Everything a brain does. The most important thing in a memory system is not storing a fact, and it is not finding it again. A good one does what a brain does — holds some things for a day and others for years, brings back what matters, lets go of what does not, collapses duplicates, merges what belongs together, checks its own work, and settles contradictions when it finds them. That is what ling-mem does. One local daemon. No SaaS, no API key, no signup. The same store in Claude Code, Codex, OpenClaw, and Linggen. Status: v1.7.2 — stable. Store schema and the CLI/HTTP/MCP contract are frozen. Prebuilt binaries for macOS Apple Silicon and Linux x86 64. The pre-refactor code-indexing tool is preserved at the v0-legacy git tag. Both halves of the loop meet at the same store. The day half runs anywhere the plugin is installed. The night half needs Linggen, which ships the mission scheduler — install it alongside Claude Code or Codex to close the loop. stage when what it does capture live Signal is saved in the turn it appears. What you state outright goes t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai, ai-memory, claude-code, context-window, developer-tools
+
+---
+
 ## 🕔 2026-09-15 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
