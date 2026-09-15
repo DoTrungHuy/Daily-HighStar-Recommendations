@@ -1,3 +1,67 @@
+## 🕔 2026-09-15 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [truecourse](https://github.com/truecourse-ai/truecourse)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 531
+- **核心概述**: Turns the documentation you already write into tests that run. A failing test means your product and your docs disagree, and names the section.
+- **大概是做什么的**: Tests that prove your product does what your documentation promises. TrueCourse reads the documentation a team already writes (PRDs, ADRs, READMEs, a documentation site) and turns it into tests that run. It curates those documents into a corpus of claims , works out the flows a user takes through the product, writes a test for each one against the real interfaces, and runs them. A failing test means the product and the documentation disagree, and it names which section. docs.truecourse.dev has the guides: connecting documentation and a repository, how flows and claims fit together, the drivers, TRUECOURSE MODE=local is one machine: no sign-in, one implicit person in one implicit workspace, and folders on this machine can be connected as repositories. It needs DATABASE URL and TRUECOURSE SECRET KEY ; the compose defaults are in Run it on Claude Code To run on your own Claude Code login instead of an API key: This needs the claude binary on your PATH and signed in. Every run then uses that login and the Models page is read-only; leave the variable out to save a provider and key on that
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, developer-tools, documentation, end-to-end-testing, llm
+
+---
+
+### 🌟 [agent-me](https://github.com/jzjzzzzzzz/agent-me)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 369
+- **核心概述**: Distill your knowledge, memories, and decisions into an open-source, inspectable AI Agent Twin.
+- **大概是做什么的**: Distill yourself into an AI Agent Twin. Feed it your knowledge, memories, projects, preferences, experiences, and decisions. Agent-Me turns them into an AI Agent Twin that keeps learning how you think and work. It is not just a chatbot that knows facts about you. It is an open-source, inspectable architecture for building a second digital version of you—one that can retrieve, reason, verify, and eventually act with your context. An AI agent that is learning to become me. Quick start · Roadmap · Architecture · Learn · Contribute English · 简体中文 · All languages A conventional chatbot starts over with a prompt and returns an answer: Agent-Me treats a personal AI as a system: The aim is not merely to answer questions about a person. It is to build an increasingly useful AI representation of: - how I make decisions; - what evidence supports those beliefs; and - how certain the system should be about them. Today, the repository provides a runnable FastAPI + React implementation over reviewable Markdown knowledge, with deterministic retrieval and sequential agent roles. The public repository
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agent, ai-agents, digital-twin, knowledge-graph
+
+---
+
+### 🌟 [gtm-mcp-server](https://github.com/paolobietolini/gtm-mcp-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 163
+- **核心概述**: An MCP server for Google Tag Manager. Connect it to your LLM, authenticate once, and start managing GTM through natural language.
+- **大概是做什么的**: GTM MCP Server connects MCP clients to the Google Tag Manager API. It can inspect containers, create and update workspace entities, create versions, and publish a selected version after explicit confirmation. Use the hosted server at: The server supports browser-based Google OAuth for individual users and service-account authentication for self-hosted automation. Item Current state Version in server.json 1.10.1 Transport MCP Streamable HTTP Runtime tools 64 GTM tools by default; 94 with GTM TOOL GROUPS=all , plus 2 utility tools MCP resources 8 resource definitions MCP prompts 6 prompts Official GTM API coverage 101 of 106 methods Product parity target 101 of 106 methods, reached Hosted endpoint https://mcp.gtmeditor.com The agreed API parity scope is complete. The project implements 101 methods from Google's 106-method GTM v2 discovery surface. The five accounts.user permissions methods are intentionally excluded because granting and revoking GTM access needs a separate privilege-management design. Tool count and API-method count are different. Some tools provide local guidance, whi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, chatgpt, claude, golang, google-api, google-tag-manager
+
+---
+
+### 🌟 [isaac_mission_dispatch](https://github.com/nvidia-isaac/isaac_mission_dispatch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 105
+- **核心概述**: VDA5050-compatible cloud service for fleet mission dispatch
+- **大概是做什么的**: Isaac Mission Dispatch Isaac Mission Dispatch is a cloud service that enables the communication between edge robots and other cloud services responsible for managing a fleet of robots. The communication between Mission Dispatch and robots is designed per VDA5050 protocol and uses MQTT, as MQTT is the industry standard for a highly efficient, scalable protocol for connecting devices over the internet. VDA 5050 is an open standard for communication between fleets of AGVs/AMRs and a central fleet service. Diagram highlighting this package. Mission Dispatch and Client in green. This simplified diagram of a fleet management system on the left is connected to a robot running ROS 2 on the right. References are provided to database and MQTT services. Mission Dispatch needs to be integrated with the fleet management system of preference. A matching ROS 2 Mission Client is available for ROS 2 Humble; or use the VDA5050 connector from OTTO Motors & InOrbit AI on ROS 2 Galactic with Mission Dispatch. The Mission Dispatch system is composed of two main components: 1. The mission database microser
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: docker, fleet-management, mcp, nvidia, robot, robotics
+
+---
+
+### 🌟 [docx-editor](https://github.com/superdoc/docx-editor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,041
+- **核心概述**: SuperDoc - Build AI agents that work with DOCX (DOCX Editor, DOCX Agent SDK)
+- **大概是做什么的**: The document engine for DOCX files. Render and edit DOCX files in the browser. Use the same Document API for server-side automation and agent workflows. Built directly on OOXML. Edits write back to the XML without an HTML conversion step. SuperDoc mounts into elements you provide, so the page needs both before it document accepts a URL, a File , or a Blob . Omit it to start with a blank DOCX. See the documentation or the React quick start for next - DOCX-native. Pagination, sections, headers, footers, and tables stay document structures. Edits write back to the XML without an HTML conversion - Browser editing. View, edit, suggest, comment, track changes, and collaborate with Yjs. The editor needs no server of its own. - One Document API. Query, target, change, and inspect receipts in the browser or through the - Agent-ready operations. Agents use supported document operations instead of manipulating raw XML. The engine handles the underlying OOXML parts and Why V2 is DOCX-native SuperDoc V1 used ProseMirror as its authoritative browser editing model. A DOCX is a package of related XM
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, collaborative, docx, docx-agent, docx-editor
+
+---
+
+### 🌟 [claude-prompts-mcp](https://github.com/minipuft/claude-prompts-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 186
+- **核心概述**: MCP server for reusable prompt templates, multi-step workflow chains, and quality gates. Compose agentic workflows with an operator syntax; export as native skills to Claude Code, Cursor, OpenCode, and Gemini CLI.
+- **大概是做什么的**: The portable workflow layer beside your AI coding harness. Your client executes with its own tools, agents, and context. Claude Prompts adds reusable prompt resources, composable chains, validation gates, and client-native skill export. Quick Start · What You Get · Compose Workflows · Run Anywhere · Docs What your AI client gives you — and what this server adds Your client already does This server adds -------------------------- ------------------------------------------------------------------------------------- Run a prompt Compose prompts with validation, reasoning guidance, and formatting in one expression Single-shot skills Multi-step workflows that thread context between steps Execute subagents Hand off mid-chain steps to agents with full workflow context Client-native skill format Author once as YAML, export to any client with skills:export Manual prompt writing Versioned templates with hot-reload, rollback, and history Trust the output Validate output between steps: self-evaluation and shell commands - Use this if you write the same prompts repeatedly, run multi-step workflow
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflows, ai-automation, ai-development, ai-workflows, claude, claude-code
+
+---
+
 ## 🕔 2026-09-15 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
