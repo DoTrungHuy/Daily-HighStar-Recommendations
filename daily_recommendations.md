@@ -1,3 +1,67 @@
+## 🕔 2026-09-15 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [telegram-mcp](https://github.com/chigwell/telegram-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,614
+- **核心概述**: Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.
+- **大概是做什么的**: A Telegram integration for Claude, Cursor, and other MCP-compatible clients. It exposes Telegram account, chat, message, contact, media, folder, and admin operations through the Model Context Protocol using Telethon. Basic Telegram MCP usage in Claude: Asking Claude to analyze chat history and send a response: Message sent successfully: - MCP Client Configuration - Multi-Account Setup - File Path Security The server currently includes 80+ MCP tools grouped into these areas: - Accounts: list configured accounts and route tool calls by account label. - Chats and groups: list chats, inspect metadata, create groups/channels, join or leave chats, invite or remove users, manage admins, bans, default permissions, slow mode, topics, invite links, common chats, read receipts, and message links. - Messages: send, schedule, edit, delete, forward, pin, unpin, mark read, reply, search, inspect context, create polls, manage reactions, inspect inline buttons, and press inline callbacks. send message , reply to message , and edit message support classic formatting ( parse mode='md' / 'html' ) and se
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: admin, api, chat-management, contacts, groups, mcp
+
+---
+
+### 🌟 [Chisle](https://github.com/JayPokale/Chisle)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 339
+- **核心概述**: Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 4 more. Zero deps, published benchmarks including the runs it loses.
+- **大概是做什么的**: Your AI talks less, builds less, reads less, and says more. Like a senior dev who bills by the syllable. The only tool in this class that publishes the runs where it lost. 44% of a bare model's output tokens on coding prompts &middot; 11 agents &middot; zero dependencies &middot; one command chisle.jaypokale.me is the site version of this README, with fewer words "Add debounce to a search input that currently fires an API call on every keystroke." Same model, same prompt, one difference: the injected ruleset. Both answers below are the verbatim committed output from benchmarks/results/raw/ : bare agent: 142 lines, 1506 tokens Chisle: 35 lines, 602 tokens Opens with "Let me show you the most common approaches" , then ships a reusable generic useDebounce hook in its own file… …then Option 2 and Option 3 , a comparison table, and a caveats section. Asks which framework, then answers the question that was actually asked: setTimeout in the effect you already have, no new file, no generic: Then two lines on why it works, and "use lodash.debounce if already installed." Not golfed, boring .
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding-assistant, anthropic, claude-code, claude-code-plugin, cli
+
+---
+
+### 🌟 [lemmalog](https://github.com/JordyZomer/lemmalog)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 309
+- **核心概述**: A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental derivation, and an MCP server that lets your harness use it as a shared brain.
+- **大概是做什么的**: A Datalog engine for LLM agent memory. This repo contains the engine (Rust crate, MCP server, REPL, agent skill) plus the design document ( datalog-context-engine-design.md , with an honest status log of what shipped). The thesis: an agent's memory should be a deductive database — the agent builds a verifiable model of what it knows and mechanically reasons over how that knowledge changes, rather than "remembering better" than a vector store. Base facts are asserted at the ingestion boundary (LLM extraction); rules derive closures, temporal projections, contradiction candidates, and relevance diffusion; every fact carries provenance back to its source episodes; and each conversation turn updates derived views incrementally instead of re-deriving them (or worse, re-reasoning them in-context). Design element Status Runtime-parsed, stratified Datalog (interpreter, not proc-macro) ✅ Negation-as-absence with negative-cycle rejection ✅ Seminaive fixpoint with per-epoch delta maintenance ✅ Bi-temporal facts via valid from / valid to / asserted at columns + now() ✅ Semiring annotations: conf
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, datalog, knowledge-graph, llm, llm-agents, mcp
+
+---
+
+### 🌟 [RedNb.Nacos](https://github.com/yinghongzhen/RedNb.Nacos)
+- **项目语言**: C#
+- **星标数量**: ⭐ 105
+- **核心概述**: 面向 Nacos 3.2.4 的 .NET 8/10 SDK，提供配置中心、服务注册与发现、ASP.NET Core 集成及 AI Registry（MCP、A2A、Prompt、Skill、AgentSpec）。
+- **大概是做什么的**: 面向 Nacos 3.2.4 的 .NET 8 / .NET 10 SDK。配置和服务发现默认使用 gRPC；AI 与管理操作按服务器实际能力选择 HTTP Client、Admin 或 Console 通道。 当前稳定版 2.0.0 已发布到 NuGet.org 和 GitHub Release。SDK 版本为 2.0.0，服务端验收版本为 Nacos 3.2.4。 master 正在准备 2.1.0 ：修复 JSON 数值/容器与 YAML 合并行为，新增用户序列化 Context 注入和 NativeAOT 验收应用。2.1.0 尚未发布；使用方法与当前验证边界见 NativeAOT 指南。 从 1.x 升级包含命名空间和默认实现的破坏性调整，请先阅读迁移说明。 不支持 Nacos 2.x ；其他 3.x 小版本的支持范围见能力矩阵。 普通 .NET 应用推荐安装依赖注入包： ASP.NET Core 应用需要配置热更新、健康检查和服务注册时，安装： 上述包会自动引入所需依赖，无需把六个包全部手动添加。 RedNb.Nacos 2.0.0 接口、模型、选项和公共功能 RedNb.Nacos.Http 2.0.0 显式 HTTP 客户端和 v3 管理接口 RedNb.Nacos.Grpc 2.0.0 配置、服务发现、原生锁和 AI 组合客户端 RedNb.Nacos.DependencyInjection 2.0.0 推荐的 DI 注册入口、命名客户端 RedNb.Nacos.AspNetCore 2.0.0 IConfiguration 热更新、健康检查、服务注册 RedNb.Nacos.All 2.0.0 纯依赖聚合包，方便体验全部组件 只需配置或服务发现时，可使用 AddNacosConfig / AddNacosNaming 。AI 通过 AddNacosAi 单独启用，命名空间管理通过 AddNacosAdministration 单独启用。各模块延迟创建，不会因为注册基础服务就连接 AI 或锁模块。 多个 Nacos 环境使用 services.AddNacos("environment-name", configure) ，再通过 GetRequiredKeyedService ("environment-name") 获取。不同名称的客户端和缓存相互隔离。 不使用 DI 时可用 NacosGrpcFactory.CreateConfigServiceAsync(options) 、 CreateNamingServiceAsync(optio
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, ai-registry, aspnetcore, configuration, csharp, dotnet
+
+---
+
+### 🌟 [toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 187
+- **核心概述**: MCPSDK.dev(ToolSDK.ai)'s Awesome MCP Servers and Packages Registry and Database with Structured JSON configurations. Supports OAuth2.1, DCR...
+- **大概是做什么的**: ToolSDK MCP Registry The Enterprise MCP Registry & Gateway. A unified infrastructure to discover, secure, and execute Model Context Protocol (MCP) tools. Exposes local processes (STDIO) and remote servers (StreamableHTTP) via a unified HTTP API with built-in Sandbox and OAuth 2.1 support. 🔍 Browse 4547+ Tools &nbsp;&nbsp;•&nbsp;&nbsp; &nbsp;&nbsp;•&nbsp;&nbsp; &nbsp;&nbsp;•&nbsp;&nbsp; &nbsp;&nbsp;•&nbsp;&nbsp; - 🔍 I want to find an MCP Server → Browse Directory - 🔌 I want to integrate MCP tools into my AI app → Integration Guide - 🚀 I want to deploy an MCP Gateway → Deployment Guide - ➕ I want to submit my MCP Server → Contribution Guide Pro Tip : If a server is marked as validated: true , you can use it instantly with Vercel AI SDK : Want validation? Ask AI: "Analyze the make build target in the Makefile and the scripts it invokes, and determine how an MCP server gets marked as validated: true ." Deploy Enterprise Gateway (Recommended) Deploy your own private MCP Gateway & Registry in minutes. This provides the full feature set: Federated Search, Remote Execution, Sandbox, and
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-tools, awesome, awesome-list, awesome-lists
+
+---
+
+### 🌟 [toolhive-studio](https://github.com/stacklok/toolhive-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 165
+- **核心概述**: ToolHive is an application that allows you to install, manage and run MCP servers and connect them to AI agents
+- **大概是做什么的**: Run any Model Context Protocol (MCP) server — securely, instantly, anywhere. ToolHive is the easiest way to discover, deploy, and manage MCP servers. Launch any MCP server in a locked-down container with just a few clicks. No manual setup, no security headaches, no runtime hassles. install ToolHive and run your first MCP server - 📚 Documentation - learn more about - 💬 Discord community - connect with the ToolHive community, ask questions, and share your experiences - 🛠️ Developer guide - build, test, and contribute to the - Instant deployment: Start any MCP server with a simple graphical workflow. - Secure by default: Every server runs in an isolated container with only the permissions it needs. Secrets are managed securely, never in plaintext. - Works everywhere: Runs on Windows, macOS, or Linux. - Seamless integration: ToolHive auto-configures popular clients like GitHub Copilot, Cursor, Claude Code, and more. To get started with ToolHive, download the latest release from the website and follow the Under the hood, ToolHive runs each MCP server in its own secure container and exp
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-security, claude, continue, copilot
+
+---
+
 ## 🕔 2026-09-15 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
