@@ -1,3 +1,67 @@
+## 🕔 2026-09-15 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [alpaca-mcp-server](https://github.com/alpacahq/alpaca-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 960
+- **核心概述**: Alpaca’s official MCP Server lets you trade stocks, ETFs, crypto, and options, run data analysis, and build strategies in plain English directly from your favorite LLM tools and IDEs
+- **大概是做什么的**: A comprehensive Model Context Protocol (MCP) server for Alpaca's Trading API. Enable natural language trading operations through AI assistants like Claude, Cursor, and VS Code. Supports stocks, options, crypto, portfolio management, and real-time market data. Alpaca MCP Server v2 is here. This version is a complete rewrite built with FastMCP and OpenAPI. If you're upgrading from v1, please read the Upgrade Guide — tool names, parameters, and configuration have changed. - Getting Your API Keys V2 is a complete rewrite built with FastMCP and OpenAPI. None of the V1 tools exist in V2 — tool names, parameters, and schemas have changed. You cannot use V2 as a drop-in replacement if your setup depends on specific V1 tool names or parameters. Aspect V1 V2 ------------------ -------------------------------------- -------------------------------------------------------------------------------------------- Tool names Hand-crafted (e.g. get account info ) Spec-derived with overrides (e.g. get account info — names may overlap but schemas differ) Parameters Custom schemas Aligned with Alpaca API
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-trading, algorithmic-trading, crypto, etfs, mcp, mcp-server
+
+---
+
+### 🌟 [agentao](https://github.com/jin-bo/agentao)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: Local-first, governed AI agent runtime for Python — embed it in your app, or run it as a CLI or ACP server. Permissions, MCP, memory and audit replay built in.
+- **大概是做什么的**: Agentao (Agent + Tao) "Order in Chaos, Path in Intelligence." Agentao is a Governed Agent Runtime — a local-first, private-first, embeddable agent harness for Python hosts. Permissions, protocols, memory, plugins, and multi-session control are all first-class. 📚 Documentation — read this first The full handbook lives in developer-guide/ (VitePress, bilingual). Production site: agentao.cn . Audience Read Site Coding agents — Claude Code / Codex / … embedding Agentao into another project docs/guides/embed-for-agents.md (distilled, copy-paste playbook) — CLI users — driving agentao in the terminal developer-guide/en/cli/ (12 chapters: slash commands · plan mode · memory · replay · …) agentao.cn/en/cli/ Embedding developers — building Agentao into your app developer-guide/en/ (Parts 1–7 + Appendix) agentao.cn 中文 developer-guide/zh/cli/ · developer-guide/zh/ agentao.cn/zh/cli/ · agentao.cn/zh/ For schema-level reference (every config file, every env var, every public API), the canonical doc is docs/reference/configuration.md . Everything else is in the Developer Guide. This constructs an
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: acp, agent-framework, ai-agent, cli, llm, local-first
+
+---
+
+### 🌟 [EDA](https://github.com/jortilles/EDA)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 206
+- **核心概述**: Edalitics is an open-source business intelligence platform that lets you build interactive dashboards, analyze data from multiple sources, and connect AI assistants to your business data in minutes.
+- **大概是做什么的**: Edalitics (previously Enterprise Data Analytics) is an open-source analytics and dashboarding platform created by Jortilles. Its purpose is to make data exploration and visualization extremely easy — even for non-technical users — while still offering powerful features for advanced analysts. Edalitics is a metadata-driven analytical tool: 1. Create a data model 2. Create nice reports Edalitics was built with a clear mission: To be the simplest analytics system to use, even for users without technical skills. To be the faster analytital tool for advanced users. To allow the creation of rich dashboards without writing code and in a matter of minutes. If you want to try edalitics you always can check the free.edalitics service or run the docker: docker run -p 80:80 jortilles/eda:latest No-code dashboard creation. Advanced SQL query mode for power users. Tree mode to explore logical data models. KPI definitions and automatic e-mail alerts. Public dashboards shareable via url. Row Level Security (RLS) for controlled data access. Clean, modern, responsive UI. Edalitics is built using moder
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: analytics, business-analytics, business-intelligence, data-visualization, mcp
+
+---
+
+### 🌟 [quantified-self](https://github.com/jimmykane/quantified-self)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 228
+- **核心概述**: Analyze your data from Garmin, Suunto, Coros to one centralized app
+- **大概是做什么的**: Quantified Self is an open-source platform for collecting, analyzing, and visualizing fitness and health data. It combines activity imports and connected fitness services with dashboards, training insights, route tools, sleep trends, and detailed workout analysis. Try the hosted app at quantified-self.io. - Import activity files in FIT, GPX, TCX, JSON, and SML formats. - Connect Garmin, Suunto, COROS, and Wahoo for supported activity, route, sleep, and history workflows. - Explore configurable dashboards, training readiness, load trends, power curves, intensity zones, laps, and durability metrics. - View activities and saved routes with Mapbox-powered maps and route tools. - Compare recordings from multiple devices, share selected activities, and export your data. - Ask grounded fitness-data questions through the built-in Assistant. Technology and repository layout Frontend Angular 20, Angular Material, RxJS Backend Firebase Auth, Firestore, Functions, Storage, Hosting, App Check, and Remote Config Visualization ECharts and Mapbox GL JS Activity parsing @sports-alliance/sports-lib Te
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: coros, fit-file, fitness-dashboard, fitness-data, fitness-tracker, garmin
+
+---
+
+### 🌟 [mcp-server](https://github.com/cap-js/mcp-server)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 112
+- **核心概述**: MCP server for AI-assisted development of CAP applications
+- **大概是做什么的**: Welcome to @cap-js/mcp-server A Model Context Protocol (MCP) server for the SAP Cloud Application Programming Model (CAP). Use it for AI-assisted development of CAP applications ( agentic coding ). The server helps AI models answer questions such as: - Which CDS services are in this project, and where are they served? - What are the entities about and how do they relate? - How do I add columns to a select statement in CAP Node.js? - About This Project - Usage in Claude Code - Usage in OpenAI Codex - Support, Feedback, Contributing - Security / Disclosure See Getting Started on how to jumpstart your development and grow as you go with SAP Cloud Application Programming Model. Configure your MCP client (Cline, opencode, Claude Code, GitHub Copilot, etc.) to start the server using the command npx -y @cap-js/mcp-server as in the following examples. Example for VS Code extension Cline: Example for VS Code global mcp.json: Note: GitHub Copilot uses the mcp.json file as source for it's Agent mode. See VS Code Marketplace for more agent extensions. Usage in Claude Code Register the server wit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai, cap, cds, mcp, mcp-server
+
+---
+
+### 🌟 [genaiops-promptflow-template](https://github.com/microsoft/genaiops-promptflow-template)
+- **项目语言**: Python
+- **星标数量**: ⭐ 367
+- **核心概述**: GenAIOps with Prompt Flow is a "GenAIOps template and guidance" to help you build LLM-infused apps using Prompt Flow. It offers a range of features including Centralized Code Hosting, Lifecycle Management, Variant and Hyperparameter Experimentation, A/B Deployment, reporting for all runs and experiments and so on.
+- **大概是做什么的**: LLMOps with Prompt flow (Supports both AI Studio and Azure Machine Learning) - This template can be used for both Azure AI Studio and Azure Machine Learning. - It can be used for both AZURE and LOCAL execution. - It supports all types of flow - python Class flows, Function flows and YAML flows. - It supports Github, Azure DevOps and Jenkins CI/CD orchestration. - It supports pure python based Evaluation as well using promptflow-evals package. - It should be used for INNER-LOOP Experimentation and Evaluation. - It should be used for OUTER-LOOP Deployment and Inferencing. NOTE: A new FAQ section is added to help Engineers, Data Scientist and developers find answers to general questions on configuring and using this template. Large Language Model Operations, or LLMOps, has become the cornerstone of efficient prompt engineering and LLM induced application development and deployment. As the demand for LLM induced applications continues to soar, organizations find themselves in need of a cohesive and streamlined process to manage their end-to-end lifecycle. The rise of AI and large languag
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aistudio, azure, azuremachinelearning, cloud, docker, evaluation
+
+---
+
 ## 🕔 2026-09-15 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
