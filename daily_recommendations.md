@@ -1,3 +1,67 @@
+## 🕔 2026-09-16 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [playwriter](https://github.com/remorses/playwriter)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,897
+- **核心概述**: Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP
+- **大概是做什么的**: Let your agents control your own Chrome, via CLI or MCP. Your logins, extensions, cookies — already there. Other browser MCPs spawn a fresh Chrome — no logins, no extensions, instantly flagged by bot detectors, double the memory. Playwriter connects to your running browser instead. One Chrome extension, full Playwright API, everything you're already logged into. 1. Install Extension from Chrome Web Store 2. Click extension icon on a tab → turns green when connected 3. Install the CLI and start automating the browser: 4. Install the skill so your agent knows how to use Playwriter: Tip: Always use single quotes for -e to prevent bash from interpreting $ , backticks, and \ in your JS code. Use double quotes for strings inside the JS. Each session has isolated state . Browser tabs are shared across sessions. Create your own page to avoid interference from other agents: Local extension sessions use a Chrome tab group named playwriter by default. Remote-control sessions move the shared tab into remote . Use the shortest clear single-word name with no spaces, such as docs , shop , test , or
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: mcp, playwright
+
+---
+
+### 🌟 [openvidu](https://github.com/OpenVidu/openvidu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,130
+- **核心概述**: OpenVidu Platform: self-hosted real-time video and audio for your apps, built on LiveKit and mediasoup
+- **大概是做什么的**: OpenVidu is a platform for building real-time video conferencing applications. It's built on top of LiveKit and mediasoup, and is developed by a team with over a decade of experience building WebRTC systems. - Self-hosted : deploy it on your own infrastructure (AWS, GCP, Azure, Oracle, DigitalOcean, on-premises) or use it as a managed service. - API-compatible with LiveKit : use any LiveKit client/server SDK unchanged. - OpenVidu Meet : a fully-featured video conferencing app that ships on top of this platform, ready to use or embed. - Advanced media features: recording, RTMP/streaming egress, AI agents (transcription, translation), virtual backgrounds, and more. - 🎥 OpenVidu Meet — the reference app Visit OpenVidu Community Forum [OpenViduLogo]: https://secure.gravatar.com/avatar/5daba1d43042f2e4e85849733c8e5702?s=120 This project exists thanks to all the people who contribute. Thank you to all our backers! 🙏 Become a backer] OpenVidu has been supported under project "CPP2021-008720 NewGenVidu: An elastic, user-friendly and privacy-friendly videoconferencing platform", funded by M
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: active, ai-agents, chat, e-learning, meet, openvidu
+
+---
+
+### 🌟 [data-api-builder](https://github.com/Azure/data-api-builder)
+- **项目语言**: C#
+- **星标数量**: ⭐ 1,513
+- **核心概述**: Data API builder provides modern REST, GraphQL endpoints and MCP tools to your Azure Databases and on-prem stores.
+- **大概是做什么的**: Data API builder for Azure Databases Want to be part of our priorities and roadmap? Sign up here. About Data API builder Data API builder (DAB) is an open-source, no-code tool that creates secure, full-featured REST and GraphQL endpoints for your database. It’s a CRUD data API engine that runs in a container—on Azure, any other cloud, or on-premises. DAB is built for developers with integrated tooling, telemetry, and other productivity features. Data API builder (DAB) is open source and always free. Which databases does Data API builder support? Azure SQL SQL Server SQLDW Cosmos DB PostgreSQL MySQL :-----------: :-------: :--------: :---: :-------: :--------: :---: Supported Yes Yes Yes Yes Yes Yes Which environments does Data API builder support? On-Prem Azure AWS GCP Other :-----------: :-----: :---: :--: :--: :---: Supported Yes Yes Yes Yes Yes Which endpoints does Data API builder support? REST GraphQL MCP :-----------: :--: :-----: :---------: Supported Yes Yes Yes Use the Getting Started tutorial to quickly explore the core tools and concepts. 1. Install the dotnet command line
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, azure, database, graphql, hacktoberfest, mcp
+
+---
+
+### 🌟 [polymarket-mcp-server](https://github.com/caiovicentino/polymarket-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 673
+- **核心概述**: 🤖 AI-Powered MCP Server for Polymarket - Enable Claude to trade prediction markets with 45 tools, real-time monitoring, and enterprise-grade safety features
+- **大概是做什么的**: 🤖 Polymarket MCP Server Complete AI-Powered Trading Platform for Polymarket Prediction Markets Enable Claude to autonomously trade, analyze, and manage positions on Polymarket with 45 comprehensive tools, real-time WebSocket monitoring, and enterprise-grade safety features. Developed in collaboration with: - 🌾 Yield Hacker - DeFi Innovation Community - 💰 Renda Cripto - Crypto Trading Community - 🏗️ Cultura Builder - Builder Culture Community Powered by Claude Code from Anthropic 🎯 45 Comprehensive Tools Across 5 Categories 🔍 Market Discovery 8 tools 📊 Market Analysis 10 tools 💼 Trading 12 tools 📈 Portfolio 8 tools ⚡ Real-time 7 tools 🔍 Market Discovery (8 tools) - Search and filter markets by keywords, categories, events - Trending markets by volume (24h, 7d, 30d) - Category-specific markets (Politics, Sports, Crypto) - Markets closing soon alerts - Featured and promoted markets - Sports markets (NBA, NFL, etc.) - Crypto prediction markets 📊 Market Analysis (10 tools) - Real-time prices and spreads - Complete orderbook depth analysis - Liquidity and volume metrics - Histor
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-trading, anthropic, autonomous-trading, blockchain, claude, defi
+
+---
+
+### 🌟 [adloop](https://github.com/kLOsk/adloop)
+- **项目语言**: Python
+- **星标数量**: ⭐ 264
+- **核心概述**: The AI command center for Google Ads, Analytics and Search Console.
+- **大概是做什么的**: The AI command center for Google Ads, Reddit Ads, GA4, and tracking code. An MCP server that gives your AI assistant read + write access to Google Ads, Reddit Ads and GA4 — with safety guardrails that prevent accidental spend. ☁️ Skip the setup — use AdLoop Cloud (free plan, no card) &nbsp;·&nbsp; or self-host: pip install adloop AdLoop Cloud is the hosted version of this project, with a free plan that needs no credit card. Connect Google in two clicks and use the full toolset from claude.ai, ChatGPT, Claude Code, Cursor, or Gemini. No Google Cloud project, no API access application, no OAuth verification wait. EU-hosted, GDPR-first, DPA included. 📚 Documentation: docs.getadloop.com — setup guides per AI client, toolsets, the safety model, and troubleshooting for both editions. Cloud or Self-Hosted? Both versions run the same tools with the same safety model. The difference is who handles the plumbing: ☁️ AdLoop Cloud 🛠️ Self-hosted (this repo) Setup Connect Google in two clicks 5 min: own Google Cloud project + adloop init Google Cloud project Not needed Required (free) Ads API ac
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, cursor, ga4, google-ads, google-analytics, marketing
+
+---
+
+### 🌟 [crawlberg](https://github.com/xberg-io/crawlberg)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 174
+- **核心概述**: High-performance web crawling engine with bindings for 11 languages
+- **大概是做什么的**: Turn any website into clean, structured data. Point Crawlberg at a URL and get back Markdown, metadata, and links — from a single page or a whole site — in the language you already use. You need data that lives on the web, and raw HTML is not it. Crawlberg does the crawling, scraping, and cleanup end-to-end: it fetches pages, follows links, converts each one to Markdown, and hands you structured metadata (titles, links, images, social-card and JSON-LD data) — so you skip the parsing and go straight to the content. It runs from a single Rust core with identical results across 14 language bindings, and it handles the awkward parts for you: JavaScript-heavy pages fall back to a real headless browser, bot filters are detected and worked around, robots and sitemaps are respected, requests are throttled per domain, and requests to private or internal addresses are refused by default. Drive it from your code, an AI agent, a REST service, or the CLI. Every part of the pipeline is a trait you can swap — the crawl frontier, rate limiter, storage, event stream, and content filters — so you can
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: crawling, csharp, elixir, ffi, golang, java
+
+---
+
 ## 🕔 2026-09-16 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
