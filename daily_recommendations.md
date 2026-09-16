@@ -1,3 +1,67 @@
+## 🕔 2026-09-16 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [go-sdk](https://github.com/modelcontextprotocol/go-sdk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5,106
+- **核心概述**: The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.
+- **大概是做什么的**: This repository contains an implementation of the official Go software development kit (SDK) for the Model Context Protocol (MCP). Package / Feature documentation The SDK consists of several importable packages: github.com/modelcontextprotocol/go-sdk/mcp package defines the primary APIs for constructing and using MCP clients and github.com/modelcontextprotocol/go-sdk/jsonrpc package is for users implementing their own transports. github.com/modelcontextprotocol/go-sdk/auth package provides some primitives for supporting OAuth. github.com/modelcontextprotocol/go-sdk/oauthex package provides extensions to the OAuth protocol, such as ProtectedResourceMetadata. The SDK endeavors to implement the full MCP spec. The docs/ directory contains feature documentation, mapping the MCP spec to the packages above. Version Compatibility The following table shows which versions of the Go SDK support which versions of the MCP specification: SDK Version Latest MCP Spec All Supported MCP Specs ----------------- ------------------- ------------------------------------------------------------------ v1.7.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: go, mcp
+
+---
+
+### 🌟 [momo-code](https://github.com/momozi1996/momo-code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 629
+- **核心概述**: MOMO CODE — AI coding agent that evolves with you
+- **大概是做什么的**: AI-powered coding agent that evolves with you. Built on opencode with a unique dual-speed self-evolution system based on Pioneer Agent. Two-Speed Evolution Algorithm System Technical Architecture - Experience Fast Loop ( /evolve ) - Self-Evolution Training ( /fine-tune ) - Migrating from Claude Code - Environment Variables - 25+ LLM Providers — Deepseek, Zhipu (GLM), Moonshot (Kimi), Claude, GPT-4, Gemini, Doubao, OpenRouter, Groq, Mistral, and more. The \chat command uses OpenAI-compatible protocol only - Custom Provider — Plug in any OpenAI-compatible API with MOMO CUSTOM env vars - Model Tiers — Zero-config selection: ultra / standard / lite - Experience Fast Loop ( /evolve ) — Second-level prompt injection via KEP protocol. Tactics distilled from success are auto-selected via Thompson sampling - Self-Evolution Training ( /fine-tune ) — Hour-level weight improvement via Monte Carlo Graph Search (MCGS) + LoRA - Self-Refinement ( /refine ) — Reviews session trajectories and proposes small, evidence-based improvements (tactics/prompt patches) that only take effect after human approva
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cli, code-agent, coding, coding-agent
+
+---
+
+### 🌟 [mulmoclaude](https://github.com/receptron/mulmoclaude)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 348
+- **核心概述**: Nurture your own AI assistant on your own computer. Local-first and MIT: memories, data and apps stay as plain files in your workspace. Chat summons the right GUI — wiki, spreadsheet, chart, form, 3D. Build small apps for an audience of one, no programming required.
+- **大概是做什么的**: English · 日本語 · 简体中文 · 한국어 · Español · Português (BR) · Français · Deutsch An AI assistant that knows everything about you and supports you around the clock is not sold anywhere. You cannot buy one — you can only nurture one. MulmoClaude is a tool for nurturing your own AI assistant, on your own computer. The substance of an assistant is not the AI model — the model is just the engine. What makes an assistant valuable is how much it knows about you: your conversations, your calendar, your notes, your data, and the apps you use. Something that important should not be entrusted to any single service provider — the longer you use it, the harder it becomes to leave. MulmoClaude is open source and runs locally, so everything your assistant accumulates — memories, data, apps — stays in your own hands, as plain files in your workspace. Nurturing takes an environment, and MulmoClaude provides one: a place to accumulate memories (a personal wiki that Claude builds and maintains itself), a place to keep your data (schema-driven collections, feeds, plain files), and a place to build apps just f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-assistant, ai-native, chat-ui, claude, claude-code
+
+---
+
+### 🌟 [movie-narrator](https://github.com/zcbacxc/movie-narrator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 401
+- **核心概述**: 🎬 Generate narrated movie recap videos from a single prompt.
+- **大概是做什么的**: One Prompt → One Narrated Movie Video Movie Narrator is an open-source toolkit that automatically generates movie recap videos with narration, subtitles, and rendered output from a simple command. - 🎬 LLM-powered movie recap script generation - 🔊 Text-to-Speech narration (Edge-TTS by default) - 💬 Automatic SRT subtitle generation - 🌐 Multi-language subtitles with LLM translation - 🏁 Multi-candidate horse race — run N variations, auto-pick the best - 🎯 Reference video imitation — extract style from viral narration - 👁️ VLM scene captioning via cloud VLM API - 🎭 Narrator perspective (omniscient / character / detective) - 🎨 Render template system (title cards, watermarks, slogans) - 🔍 TMDB fact verification with source attribution - 🖥️ Web UI (separate movie-narrator-web package) - 🎞️ Video rendering (1080p/4K output) - 📝 Script markdown export - 🎵 Background music integration - 🔌 Extensible plugin architecture (custom TTS / LLM backends) - ☁️ Async task processing (submit and go, notified on completion) - 🌐 Remote inference via REST API - ✅ Final-video QA — black-frame
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: automation, ffmpeg, llm, movie-recap, narration, python
+
+---
+
+### 🌟 [omega-memory](https://github.com/omega-memory/omega-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 219
+- **核心概述**: Persistent memory for AI coding agents
+- **大概是做什么的**: Cross-model memory for AI agents. Local-first. Works with Claude, GPT, Gemini, Cursor, Claw Code, and any MCP client. Your agent's brain shouldn't live on someone else's server, or be locked to one provider. AI coding agents are stateless. Every new session starts from zero. The "solutions" either lock you into one model provider or send your codebase context to their cloud. - Context loss. Agents forget every decision, preference, and architectural choice between sessions. Developers spend 10-30 minutes per session re-explaining context that was already established. - Repeated mistakes. Without learning from past sessions, agents make the same errors over and over. They don't remember what worked, what failed, or why a particular approach was chosen. - Cloud memory = someone else's database. Services like Mem0 require API keys and send your data to their servers. When they change pricing, get acquired, or go down, your agent's accumulated intelligence disappears. - Vendor lock-in. Anthropic's Memory Tool only works with Claude. OpenAI's memory only works with GPT. Switch models, los
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-memory, claude, claude-code, coding-agent, context-engineering
+
+---
+
+### 🌟 [do-agent](https://github.com/digitalocean/do-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 617
+- **核心概述**: Collects system metrics from DigitalOcean Droplets
+- **大概是做什么的**: do-agent enables droplet metrics to be gathered and sent to DigitalOcean to provide resource usage graphs and alerting. DO Agent currently supports: - Ubuntu (oldest End Of Standard Support LTS release and later) - Debian (oldest supported LTS release and later) - Docker (see below) Not officially supported Although, we only officially support these distros and versions, do-agent works on most Linux distributions. Feel free to run it wherever you are successful, but any issues you encounter will not have official support from DigitalOcean Special Note For SELinux Users The do-agent install script sets the nis enabled flag to 1. Without this setting the do-agent cannot reach the network to perform authentication or send metrics to DigitalOcean backend servers. If you reverse this action, or install the do-agent on a machine manually you will need to run setsebool -P nis enabled 1 && systemctl daemon-reexec otherwise the do-agent will not operate. To install the do-agent on new Droplets simply select the Monitoring checkbox on the Droplet create screen to get the latest stable version
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, digitalocean, hacktoberfest
+
+---
+
 ## 🕔 2026-09-15 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
