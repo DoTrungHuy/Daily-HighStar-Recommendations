@@ -1,3 +1,67 @@
+## 🕔 2026-09-16 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [serenity-skill](https://github.com/muxuuu/serenity-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,995
+- **核心概述**: Serenity-inspired Agent Skill for supply-chain bottleneck stock research
+- **大概是做什么的**: 让 Agent 用 Serenity 式投研方法，筛出上涨逻辑更清楚的股票和基金方向 看到 AI 半导体、机器人、CPO、算力、电力设备、创新药这些热点，很多人能感受到热度，却很难判断该看哪条产业链、哪类公司、哪只股票、哪个基金方向。 Serenity.skill 把 Serenity / @aleabitoreddit 公开内容中可观察到的投研路径做成 Agent Skill。它会从热点出发，拆产业链，找供应链瓶颈，筛候选公司和基金方向，再检查公告、财报、客户、产能和风险，最后整理成一份优先研究清单。 它的工作方式很简单：先把热点拆开，看真实需求在哪里，再看哪个环节更难扩产、更难替代，最后回到股票和基金方向，判断哪些线索更值得继续深挖。 它适合面对热点信息流、希望建立系统筛选流程的投资者：让 AI 先完成第一轮深度研究，把模糊热度变成有逻辑、有证据、有风险边界的研究方向。 Research support only. Serenity.skill 负责研究、排序和推理；最终买卖决策由你自己决定。 Serenity / @aleabitoreddit 在公开内容中长期围绕 AI、半导体、光通信、机器人等科技主题做供应链研究。他的核心思路很清楚：大行情里真正有价值的机会，常常藏在系统扩张时最难绕开的关键环节。 Serenity.skill 复用的是这套公开方法论中的研究路径： - 从大热点开始，先看真实需求来自哪里。 - 把主题拆成下游需求、系统集成、芯片/器件、设备、材料、封测、基础设施。 - 找低供应商数量、长验证周期、扩产困难、客户认证严格、材料纯度要求高的环节。 - 再回到股票和基金方向，判断谁更靠近真实瓶颈，谁主要只是蹭主题。 - 最后检查公告、财报、问询函、订单、产能、客户和风险，给出优先研究排序。 这个仓库做的是公开资料研究工具。它吸收 Serenity 式研究的结构化思路，同时要求所有公司判断回到公告、交易所文件、财报、电话会、监管/项目文件、专利、标准、可信媒体和专业分析。 你现在遇到的问题 可以这样问 AI Serenity.skill 会帮你看什么 刷到一个热点，感觉全网都在说，自己不知道从哪下手 最近 AI 半导体很火，普通人应该先研究哪些方向？ 先拆产业链，再把更接近真实需求和扩产瓶颈的方向排出来 想买机器人方向，分不清整机、零部件、减速器、传感器谁更关键 机器人产业链里，哪些环节更可能先出机会？ 比较不同环节的供需紧张度、竞争格局和证据强弱 看到别人推荐一只股票，担心它只是蹭热点 帮我挑战这家公司是不是 CPO 核心供应商 查它在产业链
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, investment-research, stock-research
+
+---
+
+### 🌟 [ExtractThinker](https://github.com/enoch3712/ExtractThinker)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,597
+- **核心概述**: ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful document workflows.
+- **大概是做什么的**: ExtractThinker is a flexible document intelligence tool that leverages Large Language Models (LLMs) to extract and classify structured data from documents, functioning like an ORM for seamless document processing workflows. TL;DR Document Intelligence for LLMs - Flexible Document Loaders : Support for multiple document loaders, including Tesseract OCR, Azure Form Recognizer, AWS Textract, Google Document AI, and more. - Customizable Contracts : Define custom extraction contracts using Pydantic models for precise data extraction. - Advanced Classification : Classify documents or document sections using custom classifications and strategies. - Asynchronous Processing : Utilize asynchronous processing for efficient handling of large documents. - Multi-format Support : Seamlessly work with various document formats like PDFs, images, spreadsheets, and more. - ORM-style Interaction : Interact with documents and LLMs in an ORM-like fashion for intuitive development. - Splitting Strategies : Implement lazy or eager splitting strategies to process documents page by page or as a whole. - Integ
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, document-image-analysis, document-intelligence, document-parsing, document-processing, langchain
+
+---
+
+### 🌟 [ULogViewer](https://github.com/carina-studio/ULogViewer)
+- **项目语言**: C#
+- **星标数量**: ⭐ 598
+- **核心概述**: Cross-Platform, Agent-Native Universal Log Viewer.
+- **大概是做什么的**: A cross-platform, agent-native log viewer for reading, parsing, and analyzing various types of logs. Please visit the Website for more details. 跨平台且支援 AI 代理的日誌檢視器，提供多種形式之日誌讀取、解析與分析。請參閱 網站 以取得更多資訊。 If you encounter failure of upgrading from 2026.1.0 Preview , 2026.1.1 RC , or 2026.1.2 on Windows, please manually close all mcp.exe processes and try again. 📥 Download 2026.2 RC -blueviolet?style=for-the-badge) -blueviolet?style=for-the-badge) 📣 What's Change in 2026.2 RC - Added support for Japanese language. - Added automatic log profile selection when dropping log files into the window. - Added support for opening log files by dropping a directory into the window. 📣 What's Change in 2026.1 - Added Sensitive Data Protection (SDP). - Added Model Context Protocol (MCP) support for AI clients. - Improved user experience of phrase input assistance in text filter. - Avalonia XAML Behaviors - System.Data.SQLite
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-native, android-development, cross-platform, customizable, dotnet, filter
+
+---
+
+### 🌟 [deliberation](https://github.com/antonbabenko/deliberation)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 151
+- **核心概述**: Ask Codex, Gemini, Grok, and 400+ OpenRouter models (Qwen, Kimi, DeepSeek) for second opinions or arbiter-mediated consensus. One MCP server for Claude Code, Codex, Cursor, Kiro, OpenCode. Measures which models earn their seat.
+- **大概是做什么的**: Get a second opinion in Claude Code from GPT, Gemini, and Grok - plus 400+ more models through OpenRouter, including Qwen, Kimi, and DeepSeek. Seven domain experts (Architect, Code Reviewer, Security Analyst, and four more) review your plans, find bugs, and debate edge cases until they agree. Recent blog post: Meet Deliberation: 400+ models is easy, knowing which ones earn a place is hard. 📸 See a full /consensus run: round 1 disagreement to round 5 convergence ... a few moments later ... 📸 See /ask-all stage a 2-round architect debate: three models, three verdicts, then each critiques the others - disagreement matrix included When three models argue, the real bug reveals itself. Round 1 = independent top findings. Round 2 = each model dunks on the others' picks. The disagreement matrix shows where they diverge; the conclusion shows what to actually fix first. What is Deliberation? Claude can ask GPT, Gemini, Grok, or any OpenAI-compatible model (via OpenRouter) for help through MCP. The plugin handles the wiring for each provider so you just write the prompt. Each expert has a dis
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-coding, claude, claude-code, claude-code-plugin, code-review
+
+---
+
+### 🌟 [lunar](https://github.com/TheLunarCompany/lunar)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 496
+- **核心概述**: lunar.dev: Agent native MCP Gateway for governance and security
+- **大概是做什么的**: Welcome to Lunar.dev Lunar.dev is an open-source platform for managing, governing and optimizing third-party API consumption across applications and AI agent workloads at scale. Consumption Management for the AI Era As AI agents and autonomous workflows increasingly rely on external APIs, there's a growing need for a mediation layer that acts as a central aggregation point between applications, agents, and the services they depend on. Lunar.dev provides that layer—serving as a unified API Gateway for AI, delivering: - Live API Traffic Visibility: Get real-time metrics on latency, errors, cost, and token usage across all outbound traffic, including LLM and agent calls. - AI-Aware Policy Enforcement: Control tool access, throttle agent actions, and govern agentic traffic with fine-grained rules. - Advanced Traffic Shaping: Apply rate limits, retries, priority queues, and circuit breakers to manage load and ensure reliability. - Cost & Performance Optimization: Identify waste, smooth traffic peaks, and reduce overuse of costly APIs through smart gateway policies. - Centralized MCP Aggre
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, api-proxy, mcp, mcp-client, mcp-gateway, mcp-security
+
+---
+
+### 🌟 [finding-unknowns-skills](https://github.com/Neeeophytee/finding-unknowns-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 335
+- **核心概述**: 13 installable skills for Claude Code, OpenAI Codex, and Hermes, for finding your unknowns before they get expensive: blindspot pass, brainstorms, interviews, references, plans, notes, pitches, a merge quiz, plus a context audit, agent interface design, and progressive disclosure.
+- **大概是做什么的**: Finding-Unknowns Skills 13 installable skills that help your coding agent find what you don't know — before it gets expensive to fix. The map is not the territory. Your prompt is a map; the codebase and the real world are the territory. The gap between them is your unknowns , and with strong models the quality of the work is bottlenecked by how well you clarify them. The original eight task-level skills turn that idea, from Thariq Shihipar's essay A Field Guide to Fable: Finding Your Unknowns , into commands you can run in Claude Code, OpenAI Codex, Kimi Code CLI (Kimi K3), or any agent that reads the agentskills.io SKILL.md format. Another three come from his follow-up, The new rules of context engineering for Claude 5 generation models , which works one layer up: not the unknowns in a single prompt, but the ones baked into the context every prompt inherits. Community project. Eleven skills distilled, with attribution, from public essays by Thariq Shihipar (Anthropic, Claude Code team), plus two maintainer-designed extensions. Not an official Anthropic repository. The contribution h
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, codex, cursor
+
+---
+
 ## 🕔 2026-09-16 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
