@@ -1,3 +1,67 @@
+## 🕔 2026-09-17 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Filtmall-Shopping-Skill](https://github.com/filtalgo/Filtmall-Shopping-Skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 353
+- **核心概述**: Agent-native shopping for extreme value: verifiable same-product price evidence, checkout, orders, delivery, and after-sales.
+- **大概是做什么的**: Filtmall Shopping 筛电购物 中文说明 · Official website Agent-native shopping, built for extreme value. Filtmall Shopping is the official shopping skill from 筛电 (Filtmall/Filtalgo). It gives AI agents live products, same-product and same-specification price evidence, checkout, orders, delivery, and after-sales in one shopping flow. A user can start with one sentence; the agent can find a better-fit product, show where the price advantage comes from, and continue through the transaction when asked. The current catalog focuses on beauty and personal care. Account authorization, order confirmation, and payment stay with the buyer. Price advantages with clear boundaries Filtmall products are often the lowest-priced option online. For some verified products, Filtmall prices can be as low as about one-third of a public price for the same product and specification on a major marketplace. Actual prices vary with account, region, membership, and promotions. The skill shows a price advantage only when the live result includes the matching specification, source platform, and recorded time. Node.js 18 or
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude-skills, ecommerce, filtalgo, filtmall
+
+---
+
+### 🌟 [OneBox](https://github.com/wangzhishou/OneBox)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 305
+- **核心概述**: A free AI-agent toolbox for Android, 一站式安卓AI Agent工具箱
+- **大概是做什么的**: A free AI-agent toolbox for Android: say what you need and the built-in agent drives 90+ in-app tools to get it done — plus image & document tools, productivity and daily utilities. Built on ImageToolbox. OneBox started as a fork of T8RIN's image engine and grew into a full app: the image-processing core deliberately stays close to upstream so the diff stays reviewable, while the agent runtime, the 90+ tool screens and the app shell are new work. Upstream Apache-2.0 notices are preserved in the files they came from. - International : Google Play · Official site - 中国 : 万宝盒官网 · 小米 / 应用宝 / OPPO / vivo / 华为应用商店搜索「万宝盒」 AI Assistant: More Than Just Feature Count Plenty of toolbox apps are long on features. OneBox's built-in AI assistant saves you from hunting for tools and memorizing steps — just say what you want: "Turn these images into a PDF." "Log this bill screenshot into my ledger." "Make me a to-do list." "Look up today's stock prices online." It understands, acts, and reports back — in one flow. - Bounded by its own permissions : everything the agent does stays inside the app's own
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-assistants, ai-tools, android
+
+---
+
+### 🌟 [shumai](https://github.com/shumaiOne/shumai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 208
+- **核心概述**: Open-source Frame.io alternative
+- **大概是做什么的**: The best open-source Frame.io alternative for all your creative work. Website Docs Demo Discord 中文 Shumai is an open-source Frame.io alternative built for creative teams to collaborate and share media with ease: S3-Compatible & Local Storage : Store and serve creative assets securely using the local filesystem or any S3-compatible storage service, including AWS S3, Cloudflare R2, and MinIO. Frame-by-Frame Annotations & Comments : Leave precise feedback with frame-specific drawing tools and timestamped comments on both video and image assets. Secure Sharing & Collections : Create private share links and curated media collections for clients, stakeholders, and collaborators. Granular Access Control : Manage workspace permissions with team-level and project-level role-based access control. Distributed Transcoding via Temporal : Offload resource-intensive video transcoding to a background worker pool orchestrated by Temporal. Custom Asset Metadata : Define dynamic metadata fields tailored to your production pipeline. Share Link Watermarking : Protect shared media with customizable text a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic, ai-native, bun, frame-io-alternative, frameio
+
+---
+
+### 🌟 [openworkbuddy](https://github.com/CatCatUncle/openworkbuddy)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 128
+- **核心概述**: openworkbuddy — local-first AI office agent: turn requests into real files. Self-hosted, BYOK, MCP, Codex/Claude Code, executable short-drama canvas.
+- **大概是做什么的**: 交代一句话，它自己规划、动手、验收，把 PPT / Word / Excel / 网页落到你硬盘上。 给你的是能打开的文件，不是一段聊天记录。 A local-first AI office agent that hands you files, not chat logs. · English &nbsp;·&nbsp; 三分钟跑起来 自己用、学习用、非营利用 免费 ；公司里用要授权， 一句话讲清 ↓ 帮我出一份 Q3 复盘 PPT，数据用这个 Excel 读表 → 算 → 一个能直接放的 .pptx 调研国内 AI 陪伴产品，出一份报告 联网搜 → 逐个打开读 → Markdown / Word 把这份材料做成手机上能看的网页 写 HTML → 起本机服务 → 扫码就能看（成品） 每天 9 点抓行业新闻，做成晨报发我飞书 定时任务 + IM 推送，错过了会补跑 多任务并行、目标验收、👍👎 进自进化、双层记忆、权限档位、IM 远程指挥、桌面宠物…… 全部能力见 功能清单 。 PPT / Word / Excel / 网页都真生成，成果面板里点开就能验收。说写了文件却不在磁盘上，当场拦下重做。 DeepSeek / 通义 / 智谱 / Kimi / OpenRouter / Ollama 界面点一下就切；本机装了 Claude Code / Codex 的，一键拿它当发动机，不用另买 token。会话、文件、Key 全在本机，默认只听 127.0.0.1 。 🧩 加个能力 = 丢一个 Markdown 文件。 存成 skills/&lt;名字&gt;/skill.md ，存盘后下一条任务就生效——不改代码、不重启、不打包。 模型路由、工具调用、文件验收、记忆、权限、本地 Trace 全在同一个仓库里：一条真实任务，从它为什么这么做到最后交了什么，你都看得见。 「同一个人，换四个场景，手里举块写着字的牌子——要像随手拍的，别像 AI 图」 难的不是画人，是 四张里得是同一个人 、牌子上的中文不能糊。它先出一张，再用看图工具真去读自己刚生的那张（不是凭记忆吹），确认了才照这个方向铺开其余三张。 「做个湖南旅游攻略网站，14 个市州一个都不能少」 上面是首屏和全省索引两屏。往下还有 14 张城市卡，每张写清门票多少钱、几点开门、玩多久、吃哪口、避哪个坑，外加 3 / 5 / 7 天三条排好的路线。 —— 点开就能逛。一个 HTML 文件加一个图片文件夹，排版、动效、配色全在那一个文件里，不挂任何外部 CDN，扔到静态托管上就是一个站。这不是截图拼的示意图，是它交
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent-framework, ai-office-agent, automation, byok, chinese
+
+---
+
+### 🌟 [json-repair](https://github.com/RealAlexandreAI/json-repair)
+- **项目语言**: Go
+- **星标数量**: ⭐ 383
+- **核心概述**: 🔧 Repair JSON！Solution for JSON Anomalies from LLMs.
+- **大概是做什么的**: JSON Repair: Solution for JSON Anomalies from LLMs. 🔧 Repair JSON! Solution for JSON Anomalies from LLMs Welcome to the json-repair, your go-to solution for fixing those pesky JSON anomalies that can sidetrack your Large Language Model (LLM) processes. Our toolkit is designed to be the Swiss Army knife for all your JSON repair needs. 🎯 Why Choose JSON Repair? - 🏎️ GO Compatibility: Our library ensures a seamless experience for Go developers with its excellent compatibility. - 🔗 Zero Dependencies: We've crafted a tool with zero external dependencies, keeping it lean and mean. - 📚 Rich Test Cases: Benefit from a comprehensive suite of test cases that ensure reliability and accuracy. - 🤖 Auto-Detection & Repair: Intelligently identifies and corrects a wide range of JSON errors, from syntax to - 📐 Terminal CLI Support: The feature can also be used in the command-line and can be chained with command pipes. - ⚙️ No Anxiety About Error: json-repair always gives the string result. - 🌐 Open Source: Join a vibrant community of developers contributing to the ongoing evolution of the too
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, context, embedding, function-call, json, multi-agents
+
+---
+
+### 🌟 [camel-spring-boot](https://github.com/apache/camel-spring-boot)
+- **项目语言**: Java
+- **星标数量**: ⭐ 189
+- **核心概述**: Runs Camel on Spring Boot and provides starters for Camel components
+- **大概是做什么的**: Apache Camel Spring Boot Support Apache Camel is a powerful open source integration framework based on known Enterprise Integration Patterns with powerful bean integration. This project provides Spring Boot support for Apache Camel. Creating / deleting starters To create a starter for the zoot component, run the following command: Similarly, to delete the starter for the zoot component, run the following command: More information can be found on the Camel website
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: camel, cloud-native, data-transformation, enterprise-integration-patterns, integration, integration-framework
+
+---
+
 ## 🕔 2026-09-16 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
