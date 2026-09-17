@@ -1,3 +1,67 @@
+## 🕔 2026-09-17 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [parchi](https://github.com/0xSero/parchi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 545
+- **核心概述**: Your AI friend right in your browser
+- **大概是做什么的**: AI-powered browser copilot (Chrome/Firefox extension). Chat-driven browser automation in a side panel: navigate, read, click, type, extract, and summarize. Browser automation can perform sensitive actions on your behalf. Use this tool only if you understand and accept the risks: - automation may violate site terms of service - prompt-injection can cause unsafe actions - sensitive information can be exposed if you run untrusted prompts/pages Always review model output and keep strict tool/domain controls enabled when needed. Chrome (recommended) 1. Open chrome://extensions 2. Enable Developer mode 3. Click Load unpacked Then load the generated extension from dist-firefox/ in about:debugging . 🔧 Configure a Model Open the extension settings and configure an OpenAI-compatible provider: - OpenAI https://api.openai.com/v1 - Anthropic-compatible - OpenRouter https://openrouter.ai/api/v1 - Local (Ollama/LM Studio) http://localhost:11434/v1 - any other OpenAI-compatible endpoint - optional custom headers - streaming chat + tool execution timeline - browser tools (navigate, read, interact, t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, browser-automation, browser-extension, model-agnostic, workflow
+
+---
+
+### 🌟 [mira](https://github.com/miracodeai/mira)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: Self-hosted AI code reviewer with indexed PR reviews, walkthroughs, vulnerability scanning, dependency graphs, custom rules, and a learning loop.
+- **大概是做什么的**: Self-hosted AI code review. Your code, your dashboard, your LLM key. Self-Host Guide » · Self-host every feature: full review engine, codebase indexing, vulnerability scanning, custom rules, org-wide package search, dashboard, learning loop. No paid tier, no license key, no SaaS upsell. Mira reviews your pull requests using your choice of LLM (via OpenRouter, which fronts Anthropic, OpenAI, Google, DeepSeek, and more) and posts concise, actionable feedback. The noise filter, confidence clamping, and learning loop ensure you only see comments that matter. See FEATURES.md for the full surface. Why Teams Choose Mira - Model agnostic — Run Claude, GPT, Gemini, DeepSeek, Llama, or any OpenAI-compatible endpoint: OpenRouter, vLLM, Ollama, Together, Groq, Fireworks, or AWS Bedrock direct. Per-provider quirks are config, not code, so adding a provider is a one-line entry. - Zero markup on LLM costs — Bring your own key. You pay the model provider directly; Mira never proxies your spend or adds a multiplier. The dashboard shows real per-repo, per-model cost — not estimates. - Learns from your
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-code-review, ai-coding-tools, ai-reviewer
+
+---
+
+### 🌟 [cartcut](https://github.com/cartesiancs/cartcut)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 729
+- **核心概述**: Video Editor for AI agents, built on the belief that open source can beat commercial tools
+- **大概是做什么的**: The finest AI video editor View Demo · Report Bugs · Download · Suggest Features Video editing software designed for motion effects and versatility. In addition to essential features like basic cut editing, animation, sound mixing, external library extensions, project management, and text editing, our software offers a wide range of powerful tools. It also supports layer-based editing, which differs from traditional track-based editing. This approach makes it easier to apply multiple effects to individual assets, providing greater flexibility and creative control. You can check out a limited demo of the website at the following link. - Support for all standard formats (mp4, mov, mp3, wav...) - Fast rendering with FFmpeg - Re-position, Scale, Opacity, Rotation animation, Keyframe - External Extension - Save&Load Project as File - Multilingual Support - 8k Edit & 4k Edit & more resolution - Screen Record & Audio Record - AI Auto Caption (whisper) - Blur Effect (WebGL) - Effects and Transitions First, install dependencies. and, Download ffmpeg and ffprobe into ./bin , in a folder named
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: electron, ffmpeg, lit, macos-app, mcp, typescript
+
+---
+
+### 🌟 [dsh-cost-meter](https://github.com/Han-1413141/dsh-cost-meter)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 306
+- **核心概述**: DeepSeek Harness session cost meter plugin: session/daily cost, budget, history, OpenCode Go quota, official & custom-provider balance, Codex-like token heatmap, peak/off-peak pricing with pre-switch popup & system-notification alerts, official price sync, 90+ model pricing catalog, Coding Plan quota queries (7 vendors), bilingual zh/en UI
+- **大概是做什么的**: DeepSeek Harness 会话费用统计插件(界面中英双语) 本会话费用 · 当日费用 · OpenCode Go 订阅额度显示 · 预算与已用百分比 · 官方账户余额 · 自定义 Provider 余额查询(可配任意 HTTP 端点) · 余额三段进度条 · 历史记录 · 峰谷计价时段显示(UTC 01:00–04:00、06:00–10:00 为峰时段;2026-08-23 起周末全天按谷价,显示「周末时段——全谷价」) · 峰/谷切换前弹窗与系统通知提醒(位置/提前量/提醒类型可配) · 官方价格一键同步 · 类 Codex Token 用量热图 · 多厂商多模型价格计费(内置 90+ 模型价格目录与自动匹配) · 主流 Coding Plan 额度查询与显示(Anthropic / Z.ai / MiniMax / Kimi / OpenRouter / SiliconFlow / CommandCode / SCNet / 火山方舟 九家,含 Volcano Ark AK/SK 签名) · Plan/API 双轨计费(订阅额度与按量金额分离统计,每 1% 额度与满窗的 token/等值金额估算及日/周/月曲线) · 输入框上方额度横条(预算/Go/Coding Plan 用量一条横排显示,可开关) v1.7.29 ：修复插件市场热安装后“账本不可用”、必须重启才恢复的问题；首屏读取失败会自动重试，并显示错误与刷新按钮。详见热安装说明。 按模型花费卡片 侧栏 / 右下角 dock（可配） 默认关闭；就地展开 Top-N、其它汇总、占比和可选 Token；支持今日 / 近 90 天、展开记忆及 Top-1 角标，见使用说明 本会话费用 输入区下方 / 会话标题栏 实时累计费用 + 输入/缓存/输出 token,位置可配 官方余额 侧边栏顶部 / 设置页(可配) 总余额 / 赠送 / 充值,自动刷新 + 手动刷新;可选三段进度条(蓝/橙/灰),当日段只统计官方渠道费用(不含 Coding Plan / 自定义 Provider) 自定义 Provider 余额 侧边栏 / 设置页(可配) 可配置 HTTP 查询任意 Provider 余额(LiteLLM 等);中/英名称、币种、extract 规则(点路径 / 数字常量 / add / subtract / divide,divide 适配 NewApi 等 quota 端点,见下方示例);与 Coding Plan 同区可折叠配置 OpenCode Go 额度 侧边栏 / 设置页 / 右下角(doc
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cost-tracking, deepseek, deepseek-api, deepseek-harness, dsh, dsh-plugin
+
+---
+
+### 🌟 [CELERITY-panel](https://github.com/ClickDevTech/CELERITY-panel)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 208
+- **核心概述**: Self-hosted web panel for Hysteria 2 & Xray VLESS proxy servers. Features cascade network topology (Forward/Reverse Chain), SSH auto-setup, server groups, load balancing, ACL traffic filtering, API with scopes, webhooks, S3 backups, MCP integration, and subscriptions for Clash/Sing-box/Hiddify.
+- **大概是做什么的**: ⚡ Fast. Simple. Long-lasting. C³ CELERITY by Click Connect — modern web panel for managing Hysteria 2 and Xray VLESS proxy servers with centralized authentication, one-click node setup, and flexible user-to-server group mapping. Built for performance: Lightweight architecture designed for speed at any scale. Dashboard — real-time server monitoring and statistics Updating an existing installation? See Safe Production Updates. 1. Install Docker (if not installed): 2. Deploy panel (Docker Hub - recommended): Alternative: Build from source (for development or customization) 3. Open https://your-domain/panel Planning to manage the panel from AI assistants? See MCP Setup Guide. Local development (HTTP only, no domain/SSL): Want to try the panel on your laptop without a public domain or certificate? Use the local compose file — it sets USE CADDY=true (plain HTTP, no Greenlock/ACME) and publishes port 3000 directly, with dev defaults so it boots without a .env : Local mode has no TLS and is not for production. Subscription/share links assume HTTPS, so use it only for UI/API testing. Required
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-integration, censorship-resistant, docker, hiddify, hysteria, hysteria2
+
+---
+
+### 🌟 [Miffan](https://github.com/Ayuilos/Miffan)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 115
+- **核心概述**: RikkaHub fork，Android AI 客户端。支持 ChatGPT 订阅登录使用、跨应用划词悬浮翻译、助手工作区文件隔离、工作区 Skills 自动发现、文档与 HTML 预览、可定制动态角色。
+- **大概是做什么的**: A native Android AI client that brings models, assistants, tools, and local workspaces together. English · 简体中文 · 繁體中文 Miffan is an open-source AI workspace designed for Android. Connect the model services you already use, give different assistants their own prompts, memories, tools, and personalities, and keep conversations and files organized in one native app. Use an API key with OpenAI-compatible, Gemini, or Claude services, or sign in with an eligible ChatGPT subscription for Codex access. Miffan does not bundle a model or replace a provider account; availability and charges depend on the services you configure. What makes Miffan different - One home for different models. Mix official APIs, compatible gateways, self-hosted endpoints, and a Codex subscription without rebuilding your workflow around one provider. - Assistants are real workspaces. Each assistant can have isolated prompts, model parameters, memory, tools, MCP servers, Skills, visual identity, and conversation history. - The phone can do more than display chat. Miffan can search the web, work with files, run a local
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, ai-chat, android, chatbot, claude, dsh-plugin
+
+---
+
 ## 🕔 2026-09-17 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
