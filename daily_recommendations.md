@@ -1,3 +1,67 @@
+## 🕔 2026-09-16 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [capa](https://github.com/infragate/capa)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 737
+- **核心概述**: One capabilities.yaml wires skills, tools, rules, sub-agents, MCP servers, and plugins into Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, and 30+ other AI coding agents
+- **大概是做什么的**: The package manager and MCP gateway for AI coding agents Declare skills, tools, rules, sub-agents, MCP servers, hooks, and plugins once in capabilities.yaml . Run capa install . CAPA writes them into Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, and 35+ other agents — native formats, pinned SHAs, zero manual sync. At runtime it is also the MCP gateway : every agent talks to one local endpoint; CAPA proxies upstream servers, lazy-loads tools, and scopes what each sub-agent can call. https://github.com/user-attachments/assets/98442d19-44c9-43e6-b2c2-88156b189d5e Agent config today is scattered across CLAUDE.md , .cursor/rules/ , AGENTS.md , MCP JSON, hooks, and skill folders. No two teammates match. Nothing is pinned. Cloning the repo does not clone the agent setup. CAPA collapses that into one version-controlled file next to your code — and a local MCP gateway in front of every tool: - capabilities.yaml — source of truth for every capability - capabilities.lock — SHA pins so tomorrow's clone gets the same bytes - Marker blocks — surgical writes that leave hand-edited content a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, capabilities, mcp, mcp-gateway, mcp-server, package-manager
+
+---
+
+### 🌟 [xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,350
+- **核心概述**: 小智ESP32的Java企业级管理平台，提供设备监控、音色定制、角色切换和对话记录管理的前后端及服务端一体化解决方案
+- **大概是做什么的**: Xiaozhi ESP32 Server Java 基于 Xiaozhi ESP32 项目开发的 Java 版本服务端，包含完整前后端管理平台 为智能硬件设备提供强大的后端支持和直观的管理界面 如果这个项目对您有帮助，请考虑给它一个 ⭐ Star！ Xiaozhi ESP32 Server Java 是基于 Xiaozhi ESP32 项目开发的 Java 企业级服务端 ，采用多模块 + 双进程架构设计，为 ESP32 智能硬件提供完整的后端支撑和可视化管理平台。 - 多模块 + 双进程架构 — 管理后台与对话服务独立运行，互不影响，支持分别扩容 - 多 AI 平台集成 — OpenAI / 智谱 / 讯飞 / Ollama / Dify / Coze，MCP 工具协议扩展 - 语音全链路 — 本地 & 云端 STT/TTS，音色克隆，实时打断，双向流式交互 - WebSocket + MQTT — 实时双向通信，服务端主动唤醒，OTA 远程升级 - IoT 智能家居 — 语音指令控制设备，多设备协同，Function Call 智能决策 - RAG 知识库 — 文档上传，智能检索增强生成，长期记忆管理 - 全链路监控 — Token / 时延 / 设备活跃度等多维度数据可视化 - 一键部署 — bin 脚本 / Docker Compose，Flyway 自动建表，模型自动下载 后端 Spring Boot、Spring MVC、MyBatis-Plus、Flyway、WebSocket 前端 Vue.js、Ant Design、响应式布局 数据层 MySQL 8.0、Redis 7 语音识别 Vosk、FunASR、阿里云、腾讯云、讯飞 语音合成 sherpa-onnx（本地）、火山引擎、阿里云、Edge TTS 大语言模型 OpenAI、智谱 AI、讯飞星火、Ollama、Dify、Coze 扩展能力 MCP 工具协议、Function Call、RAG 知识库、音色克隆 📐 架构图源文件： docs/architecture.drawio （可用 draw.io 打开编辑） 双进程架构 ：两个独立进程共享 MySQL 和 Redis，可分别部署与扩容。 - xiaozhi-server :8091 — 管理后台，提供 REST API、用户/设备/角色管理、OTA 升级 - xiaozhi-dialogue :8092 — 对话服务，处理 WebSocket/MQTT 实时音频流、AI 对话管道 dialogue 支持横向扩展，新实例自动注册至 ser
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: esp32, java, mcp, mcp-client, mcp-server, spring-ai
+
+---
+
+### 🌟 [foremerge](https://github.com/naw103/foremerge)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 304
+- **核心概述**: Catch intent conflicts before code conflicts. The open-source coordination protocol for coding agents, built above Git.
+- **大概是做什么的**: Foremerge is the open-source coordination protocol for coding agents, built above Git. Agents keep isolated worktrees while sharing intent, semantic claims, dependencies, provisional ChangeSets, decisions, validation, and Tell your agent to install → Done → See collisions before they land :---: :---: :---: :---: :---: Paste one line into Claude Code, Codex, or Cursor It installs Foremerge and wires itself up Every agent sees what the others are about to change, even in separate worktrees Status: Foremerge 0.4.2 is a pre-1.0, local-first MVP. The CLI, JSON API, MCP server, SQLite store, deterministic conflict detector, and verification-gated lifecycle are implemented. Public schemas may still change. Shared multi-machine mode and published benchmark results do not yet Say you have two AI agents working on the same project at the same time. Each one gets its own copy of the code, so they never fight over files. Both finish. Both look correct. Then you find they undid each other's work. Git cannot warn you about that, because Git compares text and not intent. It will stop you when two a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cli, coding-agents, developer-tools, git, mcp
+
+---
+
+### 🌟 [oya-browser](https://github.com/OyadotAI/oya-browser)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 109
+- **核心概述**: The browser control plane for AI agents. One API over Oya Cloud, Browserbase, Steel, Anchor, Browser Use and your own Chrome, with persistent personas, CAPTCHA and MFA handling, and live human takeover.
+- **大概是做什么的**: OpenRouter for browsers. One API over Oya Cloud, Browserbase, Steel, Anchor, Browser Use and your own Chrome. Turn a portal task into a reusable playbook. Replay with new inputs, review agent repairs, and bring in a person when a run needs help. Three real browsers on a self-hosted stack: live view, a human takeover, numbered elements, and the hand-back. Nothing mocked ( scripts/record-walkthrough.mjs ). Set OYA API KEY from browser.getoya.ai. The SDK supports Node.js 18+; this example uses ES modules. Choose the provider in your key settings or pass provider to start() . On Node.js 24+, await using browser = await oya.browser.start() handles cleanup automatically. Portal automation: record once, replay with new inputs Adapted from the portal-automation project, with a fictional request and environment-based credentials. Set PORTAL URL , PORTAL USERNAME , and PORTAL PASSWORD to your test portal and adapt the instructions to its pages. Save this as portal.mjs and run node portal.mjs . - Reusable inputs: data is readable by the agent; secrets provides credentials for typing. Refer to b
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-browser, anti-detect, browser-automation, browser-infrastructure, browser-use
+
+---
+
+### 🌟 [hud-python](https://github.com/hud-evals/hud-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: RL environments + evals for AI agents. Define once, train anything.
+- **大概是做什么的**: HUD is a platform for building RL environments for AI agents, across coding, browser, computer-use, and robotics. Define an environment, write tasks, and run them as evals and training across any model, at any scale. To learn more, see the documentation and environment reference. Previously published as hud-python . The import and CLI names are unchanged. If you have hud-python installed, migrate with pip uninstall -y hud-python hud && pip install hud (uninstalling both first avoids the two packages clobbering each other's files), and replace hud-python with hud in requirements files and CI configs. Get your API key at hud.ai/project/api-keys and set it: Then start from the coding environment, or choose another example environment: HUD is protocol-first . An agent and an environment exchange just three things: a manifest (the environment's capabilities and tasks), tasks.start that returns the prompt, and tasks.grade that returns the reward. In between, the agent just works , driving the capabilities itself. HUD owns only that thin envelope, so any model or harness plugs into any envi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, evals, grpo, llm, qwen, qwen3
+
+---
+
+### 🌟 [dsh-memory](https://github.com/FuRongJun-1999/dsh-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 210
+- **核心概述**: 白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。
+- **大概是做什么的**: 让 AI Agent 拥有不可遗忘的记忆 灵枢（Lingshu） —— 高性能 · 无幻觉 · 多智能体适用的长期记忆系统（v0.4.5） 一句话 ：让 AI Agent 拥有跨会话的长期记忆——对话自动沉淀为纯文本 md 认知图， 规则化检索引擎决定「记什么、取什么」，全过程可审计、结果可复现。 定位 ：为追求高性能、无幻觉、多智能体适用、轻松使用的开发者打造——三步接入，装完即用，无需理解任何理论。 形态 ：跨 harness 的记忆基础设施——大脑（ md cg/ ）即标准 stdio MCP server，任何支持 MCP 的 AI Agent 可直接接入，不与任何单一 Agent 框架绑定。 - 🧠 不失忆 ——记忆一旦落盘即长期留存：写入须过三道闸门并以 committed 字段确认（ 绝不假装成功 ），遗忘只能由显式 cg(op=forget) 发起、不做静默淘汰；检索索引只是派生物、随时可重建—— 原文即真源 （见工具面） - ⚡ 高性能 ——Rust 检索内核（零第三方依赖）：库内嵌多线程大批量检索， --serve 进程实例支撑多智能体并发（语言无关）；中文检索 hit@1 99.0%，六家横评同口径登顶（见六家横评） - 🛡️ 无幻觉 ——记什么、取什么、能不能写入，全部由确定性规则裁决，不依赖 LLM 黑箱判断；条件层弱证据的检索干扰由四层证据防火墙白箱剔除（见弱证据实证）；写没写成功看 committed 字段，绝不假装通过；全链路审计留痕、结果可复现 - 🔌 多智能体适用 ——同一份大脑（ md cg/ ）+ 同一份纪律，接入 DSH · CodeBuddy · ZCode · Codex CLI · Claude Code，任何 MCP 宿主可直接挂载（见多 harness 接入） - 😊 轻松使用 ——三步接入，装完像往常一样对话即可；记忆本体是纯 md 文档，任何编辑器可直接打开审阅 - 🔧 工程能力 ——平台不只有记忆，四类工程能力可直接使用： 任务调度 （spec 进 / result 出，文件协议即接口）· 上下文管理 （重要性评分 · 预算装包 · 分层注入 · 记忆自净）· 蜂巢并发 （worker 池原子领取，多智能体真并行）· 双实例验证 （互验机制——改动须过对端断言才可入主线）；四类能力各自落在哪一层见平台全景 - 📊 可复现评测 —— locomo-zh-500 （500 题）与 bench6-100-zh-en （六家横评 · 中英双查）数据集随仓公开，一条命令复现我方成绩（见公开评测数据集）；
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-safety, agentic-ai, agi, ai-agent-framework, deepseek, dsh-plugin
+
+---
+
 ## 🕔 2026-09-16 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
