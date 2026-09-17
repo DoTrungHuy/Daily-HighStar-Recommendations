@@ -1,3 +1,67 @@
+## 🕔 2026-09-17 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ru-marketplace-mcp](https://github.com/Vladimir-Human/ru-marketplace-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 104
+- **核心概述**: Одиннадцать маркетплейсов и недвижимость Циан как MCP-серверы: Wildberries, Ozon, Яндекс Маркет, Детский мир, Авито, AliExpress, Taobao, Мегамаркет, Lamoda, DNS, Ситилинк, Циан. Плюс сравнение цен по всем товарным источникам одним вызовом. Только чтение, ключи не нужны.
+- **大概是做什么的**: MCP-серверы для российских и китайских маркетплейсов. Цены, наличие, рейтинги, отзывы и реквизиты продавцов с Wildberries, Ozon, Яндекс Маркета, Детского мира, Авито, AliExpress, Taobao, Мегамаркета, Lamoda, DNS и Ситилинка. Плюс недвижимость с Циана и сравнение цен по всем товарным источникам одним вызовом. Только чтение. Ключи API, токены и регистрация не нужны — площадки с жёстким анти-ботом читаются через ваш собственный Chrome. Одно исключение по желанию: опциональный MPStats берёт платный токен ( MPSTATS MP AUTH ) — без него всё остальное работает как прежде. English version below · Архитектура · Как добавить источник · Про анти-бот Для проверок в браузере добавлен опциональный режим сохранения вкладки: CHROME CHALLENGE HANDOFF S=120 . После завершения проверки повтор того же запроса в той же MCP-сессии продолжает чтение этой вкладки. Поддержка и ограничения описаны в настройке Chrome. Сервер Инструментов Что нужно, чтобы читалось Что умеет ----------------- ------------ -------------------------------------------------------------------------- ---------------------------------
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aliexpress, avito, cian, citilink, detsky-mir, dns
+
+---
+
+### 🌟 [P-ai](https://github.com/kawayiYokami/P-ai)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 100
+- **核心概述**: A ready-to-use self-growing desktop AI assistant for long-running tasks, memory, agents, tool reviews, MCP, and high-concurrency workspace automation. / 开箱即用的自我成长型桌面 AI 助理，面向长期任务、记忆、部门协作、工具审查、MCP 与高并发工作区自动化。
+- **大概是做什么的**: 简体中文 繁體中文 English 日本語 A self-growing desktop AI work system — ready-to-use, with agent delegation, long-term memory, tool review, MCP, and high-concurrency workspace automation. PAI is an actively evolving desktop AI work system. It is not a chat client — it is a complete desktop system organized around conversations, tasks, memory, persona organization, tools, review, and remote messaging. The backend uses Rust async concurrency and streaming architecture to guarantee response speed; the frontend uses Vue 3 + DaisyUI for a clean interface. All data is stored locally, with no intermediate servers. Global hotkey summon, voice wakeup, background voice input, quick screenshot — PAI brings desktop AI access to "summon anytime, handle anything, continue anywhere." Supports local sessions, remote sessions, and multiple parallel sessions; quick commands can trigger common operations in one keystroke. Organization & Personas Multiple personas can be independently configured, each with its own avatar and private memory, and they form an organization through parent-child relationships. Tasks a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-agents, ai-assistant, desktop-ai-assistant, desktop-app
+
+---
+
+### 🌟 [metronix-memory](https://github.com/mtrnix/metronix-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 102
+- **核心概述**: Self-hosted AI agent memory — MCP memory server with durable recall for agents
+- **大概是做什么的**: Self-hosted AI agent memory — an MCP memory server with durable recall, hybrid RAG, and Neo4j graph context. Metronix is self-hosted memory infrastructure for AI agents: ingest files and SaaS knowledge, retrieve with dense + sparse + graph context, store durable facts and preferences per agent, and keep long-lived knowledge fresh as projects change. - Durable memory for every agent — facts, preferences, and pinned context with workspace and agent scoping - Hybrid knowledge retrieval — dense + SPLADE sparse + Neo4j graph context, with source citations - Self-hosted control — Docker Compose stack, bundled local models, optional external answer generation - One integration surface — MCP memory server today; REST and OpenAI-compatible APIs when you need them Requirements: Docker with ≥6 GB RAM (8 GB recommended) and 15 GB free disk. Then connect an agent: Connecting to an agent . Full install (prerequisites, .env , ports, troubleshooting): install.md . ⭐ Star us if you build agents that remember. Option What it gives you What Metronix adds Vector DB Similarity search Ingestion, MCP tools
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, llm, mcp, neo4j, qdrant
+
+---
+
+### 🌟 [dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 132
+- **核心概述**: DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）
+- **大概是做什么的**: DSH 插件，在 Web 设置页同时提供「技能」与「MCP」两个管理面板，并随包提供统一终端命令 dsh-panel （ skill / mcp 两个子命令族）。 注意：本项目提供的参考命令默认指定profile为默认的--profile web，需要更改profile的请自行注意。 1. 安装本包（bundle 层自动挂载，无需编辑配置文件），二选一： 方式一：GitHub Release tarball 方式二：npm（预构建，插件市场同款通道） 两种方式都安装预构建产物，无需本地构建。也可以从 Git 安装（Git 来源的依赖默认禁止运行 prepare 构建脚本；若报 "git-hosted plugins build on install..."，把 pnpm 在上面打印的 key 加到 profile 目录 pnpm-workspace.yaml 的 allowBuilds 下再重跑）： 重启后刷新页面：设置 → “插件”下方为“技能”，其下方为“MCP”。 - skill 卡片列表：预览已注册安装的 skill，点击卡片可展开查看完整内容 - skill 状态：启用、停用状态标签，与内置插件列表同款样式 - skill 管理：开关热启用/停用、删除；按名称搜索；进入页面自动刷新 - skill 添加（0.7.0 统一入口）：点“+”直接选文件（ .md / .zip ），或把文件、压缩包、 技能文件夹直接拖进页面——自动识别目录束/单文件/压缩包结构，不合规内容会被拒绝并提示原因 - 工作区分栏 （0.3.0）：技能实体直接存放在其所属位置里——全局在 /.dsh/skills ，限定工作区在该工作区的 .dsh/skills 。页面“技能列表”下方 有一条工作区选择器（折叠式下拉，全局 + 各工作区，最多显示 11 项、其余滚动），选中即只显示该工作区下的技能。 - 批量迁移 ：“+”号左侧的迁移按钮：源工作区、目标工作区（ 可多选 ）与技能都在 对话框内手动选择，批量 复制 或 移动 （默认不勾选任何技能；逐个迁移、失败不影响 其余；移动模式限单个目标）。源工作区有分组时，可在技能列表上方按分组筛选（0.7.0）。 - 技能分组 （0.5.0）：工作区选择器下方新增分组横栏（全部 + 分组名，放不下时换行）， 点击只显示该分组下的技能。“分组”按钮（迁移按钮左侧）打开分组编辑器：新建/重命名/ 删除分组、选择工作区、命名并批量勾选成员。分组只写入插件自己的显示配置 （ /.dsh/skills/.system/skill-viewer/grou
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: deepseek, dsh, dsh-plugin, mcp, plugin, skills
+
+---
+
+### 🌟 [wanaku](https://github.com/wanaku-ai/wanaku)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 133
+- **核心概述**: Wanaku Governed Action Proxy for AI Agents
+- **大概是做什么的**: Wanaku — A Governed Action Proxy for AI Agents Wanaku is a governed action proxy for AI agents. It sits between agents and the systems they act on, intercepting tool calls, agent-to-agent messages, and inference traffic. Integration developers build Apache Camel routes and publish them as tools; agents call those tools with parameters, but Wanaku runs the actual work — the agent never touches backend systems directly. Policy, identity, data controls, and audit happen in the proxy, not in the agent. The project name comes from the origins of the word Guanaco, a camelid native to - Agent Isolation — Agents call tools through Wanaku; they never reach backend systems directly - Policy Enforcement — LLM-powered evaluators + WASM action scripts classify, filter, and block tool calls in the proxy layer - Identity & Auth — Authentication and authorization via oauth2-proxy and Keycloak, enforced before actions reach backends - Tool Discovery — Auto-discover tools from upstream MCP servers; integration developers publish Camel routes as tools - Namespace Isolation — Organize tools and resource
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agents, artificial-intelligence, mcp, mcp-server
+
+---
+
+### 🌟 [eclipse-chatgpt-plugin](https://github.com/gradusnikov/eclipse-chatgpt-plugin)
+- **项目语言**: Java
+- **星标数量**: ⭐ 168
+- **核心概述**: Eclipse IDE as an MCP Server for AI Agents
+- **大概是做什么的**: AssistAI - Eclipse IDE as an MCP Server for AI Agents AssistAI is an Eclipse IDE plugin that exposes your entire development environment as an MCP (Model Context Protocol) server . External AI agents -- Claude Code, OpenAI Codex, Claude Desktop, or any MCP-compatible client -- can read, navigate, edit, build, test, run, and debug your Java projects directly through Eclipse, preserving workspace sync, local history, and incremental compilation. AssistAI also includes a built-in LLM chat view for quick inline interactions with any supported model. Why MCP through Eclipse? When AI agents edit files through the filesystem directly, Eclipse doesn't know anything changed. Editors show stale content, incremental compilation misses updates, and local history gaps appear. AssistAI solves this by routing all operations through Eclipse APIs: - Edits go through JDT -- incremental compilation fires immediately, errors update in real time - Refactorings use Eclipse's refactoring engine -- renames, moves, and package restructures update all references across the workspace - File reads reflect the e
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: eclipse, eclipse-plugin, mcp, mcp-client, mcp-server, plugin
+
+---
+
 ## 🕔 2026-09-17 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
