@@ -1,3 +1,67 @@
+## 🕔 2026-09-17 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sap-skills](https://github.com/secondsky/sap-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 445
+- **核心概述**: Production-ready plugins for SAP development with AI coding assistants — BTP, CAP, Fiori, ABAP, HANA, Analytics Cloud, Datasphere, and more
+- **大概是做什么的**: SAP Skills for AI Coding Assistants 40 SAP development plugins with evidence-tracked verification SAP development plugins for AI coding assistants, with public-source or package-registry verification tracked where available. Live tenant and system validation is tracked per plugin in docs/project/source-verification-ledger.json . The repository is packaged for the Claude and Codex marketplaces, and the SAP skill content is written to be portable. In clients such as OpenCode, Cursor, or Gemini CLI, Claude-specific agents, hooks, slash commands, and MCP configs should be treated as role guidance, optional validators, prompt templates, and connection recipes unless that client supports them natively. - Quick Start — Install for supported AI coding assistants - How It Works — Auto-activation examples - Available Plugins — 40 plugins by category - Repository Structure — Architecture overview - Building New Plugins — Contribution workflow - Documentation — Guides and references - Contributing — Open source participation Supported agents via npx skills Install via vercel-labs/skills. Support
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: abap, ai-development, ai-skills, cds, claude, claude-code
+
+---
+
+### 🌟 [kmcp](https://github.com/kagent-dev/kmcp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 472
+- **核心概述**: CLI tool and Kubernetes Controller for building, testing and deploying MCP servers
+- **大概是做什么的**: A development platform and control plane for the Model Context Protocol (MCP) MCP connectivity simplified, bring MCP service prototypes into production Prototype to Production Prototyping MCP services in isolation is quick and fun, but production adoption introduces many challenges: - Ad-hoc scaffolding - Configuring the MCP server, integrating it in Kubernetes, and operating it at enterprise scale - Transport fragmentation – Supporting multiple protocols (HTTP, WebSocket, SSE, etc.) requires custom maintenance - Disconnected context - Enforcing consistent security, observability, and governance for agent-to-tool communication We believe teams who have build MCP services should not experience friction when bringing those services to production. kMCP is designed to make MCP connectivity simple. Install the kmcp CLI on your local machine. Verify that the kmcp CLI is installed. You're ready to go! Continue on to From Prototype to Production or explore our docs at kagent.dev/docs/kmcp From Prototype to Production MCP connectivity affects everyone in an organization. Below are some common
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cli, kubernetes, mcp
+
+---
+
+### 🌟 [OnCo](https://github.com/judegomila/OnCo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 126
+- **核心概述**: OnCo: total information dominance on cancer. A public, cited knowledge graph of oncology with a website, JSON API, MCP server and CLI: one page per cancer, treatment, target, trial, institution, person and idea, plain English first, solution and mechanism first.
+- **大概是做什么的**: OnCo: Total information dominance on cancer. Live: https://onco.cc OnCo is an open repository for cancer. The whole corpus, every page, source, drawing, translation and script, is in this repository under an open licence (CC BY-NC 4.0 for the data, MIT for the code), built in public, corrected through issues and pull requests, and free for patients, clinicians, researchers, companies and AI agents to read and reuse. If you know something the site does not, open an issue or a pull request: the gate runs the same checks on every contribution. OnCo is a public, cited knowledge graph of oncology, aiming at total information dominance on cancer: every cancer, front, technology, target, treatment and test, company, institution, person, pathway, trial, key paper, journal, pairing, roadmap, bottleneck and idea, one page each, with a plain-English TL;DR before the technical layer and links in every direction. Readers start in a Global view and pick their country, so "approved" means their regulator's verdict. It exists so that a patient, a carer, a clinician, a scientist, an investor or a pol
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cancer, cli, clinical-trials, knowledge-graph, mcp, nextjs
+
+---
+
+### 🌟 [mcp-server](https://github.com/bitwarden/mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 255
+- **核心概述**: MCP server for interaction with Bitwarden.
+- **大概是做什么的**: Bitwarden MCP Server A Model Context Protocol (MCP) server that provides AI assistants with secure access to Bitwarden password manager functionality through two complementary interfaces: - Vault Management and CLI tools via Bitwarden CLI - Organization Administration via Bitwarden Public API This MCP server is designed exclusively for local use and must never be hosted publicly or exposed over a network. When you grant an AI assistant access to this server, you are providing the ability to: - Read vault items including passwords, secure notes, and sensitive data - Create, modify, and delete vault items - Access organization secrets and administrative functions - Expose credentials and vault contents through AI responses You are responsible for: - Ensuring this server runs only on your local machine or self-hosted environment - Understanding what data you're exposing to your AI assistant - Being aware that AI responses may inadvertently reveal sensitive information - Using appropriate AI providers (consider self-hosted or local LLMs for sensitive data) - Never sharing configuration f
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bitwarden, mcp, mcp-server, typescript
+
+---
+
+### 🌟 [claude-self-reflect](https://github.com/ramakay/claude-self-reflect)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 226
+- **核心概述**: Claude forgets everything. This fixes that. 🔗 www.npmjs.com/package/claude-self-reflect
+- **大概是做什么的**: Claude forgets everything. This fixes that. Single 44MB binary. No databases. No containers. No API keys required. Install How It Works MCP Tools Paper FAQ v9.4 — Multi-Source Memory CSR now remembers more than transcripts: task outcomes, plan documents, and a cross-project session registry — each absorbed at the lifecycle stage it belongs to. Episodes carry real task state again (Claude Code's TodoWrite→TaskCreate rename had silently emptied them — found, fixed, and guarded with schema-miss telemetry). Sub-millisecond search, 150ms cached startup, 720+ tests, zero external dependencies. - The Problem — Why Claude needs memory - The Architecture — How CSR solves it - The Pipeline — Progressive enrichment (9.3x improvement) - The Paper — The research behind the retrieval design (preprint) - Install — One-command install, consent-first activation - What You'll Ask — Natural language, no syntax - Performance MCP Tools Hooks CLI - AI Narratives Upgrading Troubleshooting The Forgetting Problem Claude starts fresh every session. Solutions you found, architectures you designed, bugs you deb
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-memory, claude, claude-desktop, conversation-memory, mcp, qdrant
+
+---
+
+### 🌟 [gopher-mcp](https://github.com/GopherSecurity/gopher-mcp)
+- **项目语言**: C++
+- **星标数量**: ⭐ 147
+- **核心概述**: C++ MCP SDK - build Model Context Protocol (MCP) servers and clients in C++ / CPP. Enterprise-grade security, observability, connectivity. Stdio, HTTP+SSE, Streamable HTTP, WebSocket, TCP transports. Bindings for Python, TypeScript, Go, Rust, Java, C#.
+- **大概是做什么的**: MCP C++ SDK - Model Context Protocol Implementation for C++ The most comprehensive C++ implementation of the Model Context Protocol (MCP) for building AI-powered applications. Production-ready SDK with enterprise features including multi-transport support, connection pooling, and multi-language bindings via C API (Python, TypeScript, Go, Rust, Java, C , Ruby and more) . ⭐ Please give a star if you find this useful! - Architecture Overview - Cross-Language Support - Comparison with Other C++ MCP SDKs Architecture Overview 1. Thread-Safe Dispatcher Model - All I/O in dispatcher threads, no complex synchronization 2. Filter Chain Architecture - Modular, composable request processing 3. Production Patterns - Connection pooling, circuit breaker, graceful shutdown Cross-Language Support Use MCP C++ SDK from any programming language via the stable C API ( libgopher mcp c ): Language Binding Type Features ---------- -------------- ---------- Python ctypes/cffi Async support, type hints TypeScript/Node.js N-API High performance, native async Go CGO Goroutine-safe wrappers Rust FFI Safe wrappe
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-tools, async, cplusplus, cpp, cpp-mcp
+
+---
+
 ## 🕔 2026-09-17 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
