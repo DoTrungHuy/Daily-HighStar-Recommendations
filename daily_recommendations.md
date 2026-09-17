@@ -1,3 +1,67 @@
+## 🕔 2026-09-17 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass)
+- **项目语言**: Python
+- **星标数量**: ⭐ 207
+- **核心概述**: Reliability layer for multi-agent setups — keep agents coordinating without an orchestrator. Cross-dialog contracts + drift detection + black-box memory (no LLM extraction).
+- **大概是做什么的**: Open-source memory & reliability layer for AI agents. Long-term memory that now beats mem0 on all three LongMemEval-S metrics while staying fully local & 14× cheaper — plus drift detection and cross-agent contracts that no other memory layer ships. Plugin for Claude Code / Desktop · Cline · Cursor · Continue.dev · Zed · Built by Nautilus Platform · open agent ecosystem · join as agent → 🇬🇧 English (this file) · 🇨🇳 中文 What this is (2026-08 state) Three pillars, one plugin: 1 · Black-box long-term memory — now with SOTA retrieval. Raw text embedded locally with BGE-m3. No extraction LLM at ingest, no graph, no data leaving your machine. In Aug 2026 we added utterance-routed chunk retrieval : single-session and knowledge-update questions route to turn-window chunks (the answer usually lives in ONE user turn; whole-session embedding dilutes it), everything else uses session-level hybrid (BM25 + dense RRF). Result on LongMemEval-S full 500 questions, same-question head-to-head vs mem0 2.0.19 (both sides infer=False , each on its own default embedder — bge-m3 vs vertexai text-embedding
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent-memory, agentic-ai, claude-code, cross-agent, llm
+
+---
+
+### 🌟 [jdocmunch-mcp](https://github.com/jgravelle/jdocmunch-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 203
+- **核心概述**: The leading, most token-efficient MCP server for documentation exploration and retrieval via structured section indexing
+- **大概是做什么的**: jDocMunch is an MCP server for coding agents that retrieves the exact documentation section a task needs, without loading whole files into the context window. Index a documentation set once by heading hierarchy, then fetch a single section, a heading subtree, or a ranked search result — extracted byte-precisely from the original file. Install · Quickstart · Benchmarks · Commercial licensing Free for personal use. Commercial use requires a paid license — terms below. The problem. An agent asked "how do I configure authentication?" opens a documentation file, skims hundreds of paragraphs it does not need, opens another, and repeats. Large context windows do not fix this. They just make the waste affordable enough to ignore until the bill arrives, and they crowd out the context the model actually needed. The mechanism. jDocMunch parses a documentation set into a section tree keyed by heading hierarchy, stores each section's byte offsets into the original file, and exposes retrieval over MCP. Sections keep durable identities across re-indexing as long as path, heading text, and heading l
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, claude-code, codex, copilot, cursor, docs
+
+---
+
+### 🌟 [emperorclaw](https://github.com/emperorclaw/emperorclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 315
+- **核心概述**: Introduce AI to your company workspace.
+- **大概是做什么的**: The control center for companies that run on AI agents. When one AI assistant becomes a team of agents doing real work — sales, support, research, content, operations — you stop needing another chatbot and start needing a system to run them. EmperorClaw is that system. It gives your AI workforce the same thing your human workforce has always had: an org chart, a task board, a shared knowledge base, and a paper trail. emperorclaw.com · Docs · Discussions The problem: agents work, but they don't manage themselves AI agents are great at doing . They write, they research, they code, they answer. But the moment you have more than one agent — or one agent running for more than a day — you hit questions no agent runtime answers: - Who's doing what? Which agents are active, and what is each one responsible for right now? - Who owns this task? What happens if an agent crashes mid-task, or never finishes? - What fell through the cracks? Which tasks failed silently and are waiting for a human? - Where's the output? Where are the reports, files, and deliverables stored — and can I find them late
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, hermes-agent, jose-zuma, mission-control, openclaw
+
+---
+
+### 🌟 [tableau-mcp](https://github.com/tableau/tableau-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 340
+- **核心概述**: Tableau's official MCP Server. Helping agents see and understand data.
+- **大概是做什么的**: Tableau MCP is a suite of developer primitives, including tools, resources and prompts, that will make it easier for developers to build AI applications that integrate with Tableau. Official Documentation https://tableau.github.io/tableau-mcp/ Hosted Tableau MCP (Recommended for Tableau Cloud) Tableau MCP is available as a managed service at https://mcp.tableau.com . It uses OAuth 2.1 so every user signs in with their own Tableau Cloud identity, and all existing per-user permissions are enforced automatically. Point any MCP-compatible client at https://mcp.tableau.com and complete the OAuth sign-in flow when prompted. See Popular Client Integrations for step-by-step setup instructions for Slack, Claude, ChatGPT, and other common AI clients. Tableau Server customers and Cloud customers who require self-hosted infrastructure should see the Enterprise Deployment and Self-Hosted Getting Started guides. Self-Hosted / Local (npx) The quickest way to run Tableau MCP locally. Requires Node.js 22.7.5 or later — no cloning or building needed. Configure your AI tool (MCP client) with: For Docke
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, modelcontextprotocol, tableau
+
+---
+
+### 🌟 [tiger-cli](https://github.com/timescale/tiger-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 119
+- **核心概述**: Tiger CLI is the command-line interface for Tiger Cloud. It includes an MCP server for helping coding agents write production-level Postgres code.
+- **大概是做什么的**: Tiger CLI is the command-line interface for Tiger Cloud. It provides commands for managing and querying database services, as well as an integrated Model Context Protocol (MCP) server for use with AI assistants. Multiple installation methods are provided. Choose your preferred method from the options below. If you aren't sure, use the first one! Install Script (macOS/Linux/WSL) Install Script (Windows) Homebrew (macOS/Linux) For manual repository installation instructions, see here. For manual repository installation instructions, see here. To upgrade an existing installation to the latest release: This downloads the latest published binary, verifies its checksum, and replaces the currently running binary in place. If Tiger CLI was installed via a package manager (Homebrew, apt, yum/dnf), tiger upgrade will instead point you at the matching package-manager command. After installing Tiger CLI, authenticate with your Tiger Cloud account: Tiger CLI provides the following commands: - tiger auth - Authentication management - login - Log in to your Tiger account (use --headless to authoriz
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, context-engineering, database, mcp, mcp-server
+
+---
+
+### 🌟 [apollo-mcp-server](https://github.com/apollographql/apollo-mcp-server)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 308
+- **核心概述**: Apollo MCP Server
+- **大概是做什么的**: Apollo MCP Server is a Model Context Protocol server that exposes GraphQL operations as MCP tools. It provides a standard way for AI models to access and orchestrate your APIs running with Apollo. See the documentation for full details. This README shows the basics of getting this MCP server running. More details are available on the documentation site. You can either build this server from source, if you have Rust installed on your workstation, or you can follow the installation guide. To build from source, run cargo build from the root of this repository and the server will be built in the target/debug directory. Follow the quickstart tutorial to get started with this server. Full usage of Apollo MCP Server is documented on the user guide. There are a few items that are necessary for this server to function. Specifically, the following things must be configured: 1. A graph for the MCP server to sit in front of. 2. Definitions for the GraphQL operations that should be exposed as MCP tools. 3. A configuration file describing how the MCP server should run. 4. A connection to an MCP cl
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: graphql, mcp
+
+---
+
 ## 🕔 2026-09-17 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
