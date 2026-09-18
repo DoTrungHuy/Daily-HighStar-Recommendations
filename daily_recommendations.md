@@ -1,3 +1,67 @@
+## 🕔 2026-09-18 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-infra-book](https://github.com/bojieli/ai-infra-book)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,208
+- **核心概述**: 《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验
+- **大概是做什么的**: 深入理解 AI Infra：量化分析与系统设计 推荐下载 PDF 阅读。 书中有大量公式、表格、脚注和交叉引用，GitHub 直接显示 Markdown 时，LaTeX 公式和部分排版常常渲染不全或错位。PDF 由 XeLaTeX 排版，每次更新 main 后自动构建并发布到 Releases，上面的链接始终指向最新版。下方目录链接到各章 Markdown 源文件，便于查找原文和提交勘误；通读全书，仍建议下载 PDF。 《深入理解 AI Infra》是 GitHub 上获得 45k+ Star 的《深入理解 AI Agent：设计原理与工程实践》的姊妹篇。 写完《深入理解 AI Agent》后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。 更深层的变化是 编程抽象的上移：从操作系统到模型上下文 。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说， 模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构 。《计算机体系结构：量化研究方法》是我在体系结构领域的入门书，而 AI Infra 领域还缺少一本从硬件约束和模型架构出发、量化推导系统设计的书，这是我写作本书的动机。 贯穿全书的方法是 从约束推导设计 ：先明确任务与质量要求，列出计算、存储、通信和依赖关系，对照硬件的容量、带宽和算力做数量级估算。这类估算人容易出错，AI 也一样：只算权重读取而忘了 KV 缓存，按峰值算力推算速度而不查带宽能否供给，把工作平分给多张卡却遗漏卡间通信，漏掉任何一项，结论都可能偏离几倍甚至几个数量级。估算还有另一层用意：读博时导师张霖涛博士反复叮嘱，优化一定要做到物理所允许的极限。本书贯彻这一习惯，先按第一性原理算出硬件允许的上限，再看实测离上限还有多远；差距不是模型漏了项，就是系统有可以去掉的开销。从 FPGA 加速 Bing 搜索排序、昇腾 AKG 算子生成到 UB 万卡互联，
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: accelerator, ai-infra, ai-infrastructure, book, datacenter-network, deepseek
+
+---
+
+### 🌟 [coco](https://github.com/coco-research/coco)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 291
+- **核心概述**: CoCo Super Intelligence is the orchestration layer that turns Claude Code, Cursor, or Codex into an engineering department: a routed advisory board, 226 skills, 386 commands, persistent state. Local. Open-core — MIT core; Super Intelligence is proprietary, own-use.
+- **大概是做什么的**: CoCo Super Intelligence Summon an advisory board of 495 world-class minds — right inside your AI coding session. CoCo Super Intelligence is the orchestration layer that turns Claude Code, Cursor, or Codex into an entire engineering department: routed expert panels that deliberate and decide, then 226 skills , 386 commands , and disk-persistent state that ship what they decided. Open-core (MIT core · proprietary Super Intelligence) · installs in 90 seconds · 100% local · no telemetry &nbsp;&nbsp; &nbsp; Install &nbsp; &nbsp;&nbsp; &nbsp; The Board &nbsp; &nbsp;&nbsp; &nbsp; Framework &nbsp; &nbsp;&nbsp; &nbsp; Skills &nbsp; &nbsp;&nbsp; &nbsp; Systems &nbsp; &nbsp;&nbsp; A real /SI-Decide --debate run — CoCo routes an expert panel, deliberates in reacting rounds, and returns an attributed verdict with named dissent. One developer writing single prompts? That was last year. CoCo Super Intelligence convenes a cross-team board of 495 named experts to pressure-test your hardest calls — then puts an orchestrated team of agents to work executing the verdict: parallel build waves, determinis
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents-md, ai, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [mcp-local-rag](https://github.com/shinpr/mcp-local-rag)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 398
+- **核心概述**: Local-first RAG server for developers. Semantic + keyword search for code and technical docs. Works with MCP or CLI. Fully private, zero setup.
+- **大概是做什么的**: Search private documents from an MCP client or the terminal without sending them to an mcp-local-rag indexes PDF, DOCX, Markdown, and text files on your machine. Search combines semantic similarity with keyword matching, so queries can match both intent and exact technical terms such as API names, class names, and error codes. - Runs locally: Document parsing, embeddings, storage, and search run on your machine. After the initial model download, text ingestion and search work offline. - Hybrid search: Semantic retrieval finds related concepts, while keyword matching boosts exact technical terms. - Configurable embeddings: Choose a Hugging Face embedding model that fits the language and domain of your documents. - Semantic chunking: Documents are split at topic boundaries instead of fixed character counts. Markdown code blocks stay intact. - MCP and CLI: Use the same index from an AI coding tool or directly from the terminal. No API key, Docker, Python, or external database is required. - Node.js 22 or later - Internet access on first use to download the npm package and embedding mode
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, cli-tool, developer-tools, hybrid-search, local-first, local-rag
+
+---
+
+### 🌟 [airbyte-agent-sdk](https://github.com/airbytehq/airbyte-agent-sdk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 131
+- **核心概述**: 🐙 Drop-in tools that give AI agents reliable, permission-aware access to external systems.
+- **大概是做什么的**: Type-safe connector execution framework with blessed connectors and full IDE autocomplete. The Airbyte Agent SDK gives AI agents access to 50+ third-party APIs through strongly typed, well-documented tools. Connectors can run through the Airbyte platform (which manages credentials, rate limiting, and execution) or locally in OSS mode. Full documentation is available at docs.airbyte.com/ai-agents/about/. - SDK guides — authentication, adding connectors, executing operations. - SDK API reference — generated from the SDK's docstrings. - pdoc site — the same reference rendered by pdoc; requires access to the airbytehq/sonar repo. The SDK ships a tool builder and two connector-tool decorators for turning connector calls into LLM tools with retry-aware exception translation, output-size guards, and framework-specific error signalling, plus translate exceptions for callables that are not connector tools. Pick from these in this order: - build connector tools(connector, framework="...") — the simplest, preferred default on supported frameworks (PydanticAI, LangChain, OpenAI Agents, FastMCP)
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, airbyte, anthropic, connectors, data
+
+---
+
+### 🌟 [open-vetta](https://github.com/openvetta/open-vetta)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 127
+- **核心概述**: Open-source, local-first AI agent for coding and real work. BYOK models, MCP, skills, plugins, workflows, and private knowledge bases.
+- **大概是做什么的**: An open-source desktop AI agent for real work — local-first, extensible, and under your control. Open Vetta brings models, project files, local tools, and reusable capabilities into one desktop workspace. Use it for coding, documents, data, research, creative work, and repeatable workflows without giving up control of the environment where the work happens. It is more than a chat interface: Vetta can inspect a workspace, use tools with visible permission boundaries, produce real files, and keep the execution trail available for review. Local-first workspace Projects, sessions, files, and execution live in the environment you choose. Bring your own models Connect supported providers, OpenAI-compatible endpoints, or local inference through BYOK. Real tools and artifacts Work with code, documents, spreadsheets, media, commands, and generated files in one task flow. Reviewable execution Tool calls, plans, permissions, progress, results, and recovery paths remain visible. Reusable workflows Extend the agent with skills, MCP servers, plugins, themes, knowledge, batch tasks, and automation.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agent, byok, coding-agent, cross-platform, desktop-app
+
+---
+
+### 🌟 [aikito](https://github.com/lsaint/aikito)
+- **项目语言**: Python
+- **星标数量**: ⭐ 131
+- **核心概述**: Your durable workspace across AI agents.
+- **大概是做什么的**: Multi-Agent · Multi-Project · Multi-OS · Multi-Machine 简体中文 · Homepage · Documentation Aikito gives you one place to govern the context your coding agents share. Manage instructions, skills, MCPs, subagents, and durable memory across agents, projects, and machines. With uv (recommended cross-platform) or Homebrew (macOS / Linux): 2. Set Up Your Workspace Bring your existing Agent setup under Aikito in 30 seconds: adopt and sync preflight their complete plans before writing. Starting from scratch? Simply skip aikito adopt . On Windows, enable Developer Mode and see the Windows installation guide. Prefer your coding agent set it up? (Click to expand prompt) Paste this prompt into your coding agent: Install and configure Aikito from https://github.com/lsaint/aikito. Read the README, src/aikito/templates/skills/aikito/SKILL.md , and any linked documentation relevant to the setup. Inspect the Agent configuration I already use, initialize the Aikito workspace, adopt supported existing resources, synchronize them through Aikito, and verify the result with aikito status . adopt and sync pref
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-governance, agent-memory, agent-skills, agentic-workflow, agy, ai-agents
+
+---
+
 ## 🕔 2026-09-17 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
