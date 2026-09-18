@@ -1,3 +1,67 @@
+## 🕔 2026-09-18 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [docker-android](https://github.com/budtmo/docker-android)
+- **项目语言**: Python
+- **星标数量**: ⭐ 15,866
+- **核心概述**: Android in docker solution with noVNC supported, video recording, mcp server and AI-agent
+- **大概是做什么的**: Docker-Android is a docker image built to be used for everything related to Android. It can be used for Application development and testing (native, web and hybrid-app). Advantages of using this project 1. Emulator with different device profile and skins, such as Samsung Galaxy S6, LG Nexus 4, HTC Nexus One and more. 2. Support vnc to be able to see what happen inside docker container 3. Support log sharing feature where all logs can be accessed from web-UI 4. Ability to control emulator from outside container by using adb connect 5. Integrated with other cloud solutions, e.g. Genymotion Cloud 6. It can be used to build Android project 7. It can be used to run unit and UI-Test with different test-frameworks, e.g. Appium, Espresso, etc. 8. It support mcp server (beta-version) 9. It support ai-agent (beta-version) List of Docker-Images Android API Image with latest release version Image with specific release version 9.0 28 budtmo/docker-android:emulator 9.0 budtmo/docker-android:emulator 9.0 10.0 29 budtmo/docker-android:emulator 10.0 budtmo/docker-android:emulator 10.0 11.0 30 budtmo/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, android-emulator, aws, azure, cloud
+
+---
+
+### 🌟 [blitzstrike](https://github.com/shinthink/blitzstrike)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 634
+- **核心概述**: ⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.
+- **大概是做什么的**: Reconnaissance at speed. Analysis in depth. Validation before report. Blitz Strike is a structured penetration-testing methodology — reconnaissance, source analysis, and validation — delivered as a universal MCP server. It enumerates the attack surface (BLITZ), traces source-to-sink reachability (EAGLE-EYE), and verifies each finding live before it is reported (STRIKE). One server, every agent: scope enforcement to submission-ready findings in a single run engagement call, with the relevant exploit-tool manual attached to A scan hit is a hypothesis . A live test is the verdict . Blitz Strike exists to eliminate the two most common failure modes in automated security assessment: false positives from surface-level pattern matching, and unverified findings reported without live confirmation. Blitz Strike is a Model Context Protocol (MCP) server (TypeScript / Bun) that packages a 3-tier security-audit methodology as callable tools — and runs the whole engagement server-side , so a single run engagement call works from Claude Code, Cursor, Hermes, OpenCode, Claude Desktop, Gemini, or any
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: active-directory, blue-team, bug-bounty, cve, defensive-security, exploit
+
+---
+
+### 🌟 [ReArk](https://github.com/lkimuk/ReArk)
+- **项目语言**: C++
+- **星标数量**: ⭐ 403
+- **核心概述**: An intelligent reverse engineering analysis tool designed for multiple target platforms, currently supporting HarmonyOS (HAP/APP/ABC) and Android (APK/AAB).
+- **大概是做什么的**: ReArk is a desktop reverse engineering and AI-assisted analysis tool for HarmonyOS and Android applications. Open HarmonyOS .hap , .app , and .abc files or Android .apk and .aab packages to inspect code, resources, metadata, and application behavior in one workspace. Combine static analysis with connected-device inspection and ReArk Agent to investigate application logic, review security, and work through CTF challenges. Installation and platforms OS Requirements Direct links Windows Windows 10+ x64 macOS macOS 14.0+ Apple Silicon Linux x64 System requirements to be announced Coming in the next release Package and static analysis - Analyze HarmonyOS HAP/APP/ABC and Android APK/AAB files - Browse package structure, modules, source output, resources, and application metadata - Disassemble and decompile ABC bytecode; explore strings, literals, cross-references, and call argument flows - Inspect Android manifests, permissions, components, entry points, resources, and application icons - Read Android disassembly and Java-like decompiled output - View hex data, formatted JSON, XML, text, i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aab, abc, agentic-workflow, ai-agent, ai-analysis, android
+
+---
+
+### 🌟 [ai-gateway](https://github.com/ferro-labs/ai-gateway)
+- **项目语言**: Go
+- **星标数量**: ⭐ 256
+- **核心概述**: Unified AI Gateway for 30+ LLMs (OpenAI, Anthropic, Bedrock, Azure etc) with Caching, Guardrails, A/B test & cost controls. Go-native Fastest & Scalable AI Gateway LiteLLM & Kong AI Gateway alternative.
+- **大概是做什么的**: Ferro Labs AI Gateway Open-Source, OpenAI-Compatible LLM Gateway High-performance AI gateway in Go. Route LLM requests across 30 providers via a single OpenAI-compatible API. 📖 Documentation: docs.ferrolabs.ai 🔀 30 providers, 2,500+ models — one API ⚡ 13,925 RPS at 1,000 concurrent users (v1.0.0 benchmark) 📦 Single static binary, no external services required, 32 MB base memory Under two minutes from install to first response. Platform / tool Install macOS, Linux curl -fsSL https://get.ferrolabs.ai \ sh Windows irm https://get.ferrolabs.ai/install.ps1 \ iex Homebrew brew install ferro-labs/tap/ferrogw Scoop scoop bucket add ferrolabs https://github.com/ferro-labs/homebrew-tap then scoop install ferrogw npm npm install -g ferrogw Python uv tool install ferrogw Docker docker run -p 8080:8080 ghcr.io/ferro-labs/ai-gateway:latest Go go install github.com/ferro-labs/ai-gateway/cmd/ferrogw@latest — builds from source, without the dashboard Debian, RPM, Alpine .deb , .rpm and .apk packages on the releases page Then go from nothing to a served request: ferrogw init prints the master key o
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-gateway, ai-infrastructure, guardrails, litellm, llm, llm-cost
+
+---
+
+### 🌟 [proxy](https://github.com/RelayPlane/proxy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 202
+- **核心概述**: Local-first LLM proxy that meters what every agent run costs and kills runaways before they drain your budget. Free, MIT.
+- **大概是做什么的**: Know what every agent run costs. Kill the runaway before it drains your budget. A local proxy that sits between your AI agents and their model providers, prices every request as it happens, rolls the cost up per run and per agent, and lets you cap or kill spend before a loop turns into a bill. RelayPlane runs on your machine and is a drop-in replacement for the Anthropic and OpenAI base URLs: no Docker, no Python, no account, and nothing leaves your machine unless you turn it on. It is for people running multi-agent or fan-out workloads who cannot tell which run ate the bill. MIT licensed, no paid tiers, the whole product is in this repo. Quick start (30 seconds) Point Claude Code (or any tool that speaks the Anthropic or OpenAI API) at it: That is the whole setup. Open http://localhost:4100 for the live dashboard, or run relayplane watch for a cost ticker in your terminal. Using API keys instead of a Claude subscription? relayplane init walks you through it. Full walkthrough: relayplane.com/docs/quickstart. - Live cost intelligence. Every request priced as it happens and rolled up p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-cost, claude-code, cost-attribution, llm-gateway, llm-proxy, local-first
+
+---
+
+### 🌟 [GitWand](https://github.com/devlint/GitWand)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 175
+- **核心概述**: The Git client that actually resolves conflicts: 8 deterministic patterns auto-resolve the ones that were never decisions, full trace on the rest. Native (Tauri 2 + Rust), free, MIT.
+- **大概是做什么的**: A fast, native Git client with built-in smart conflict resolution Conflict engine &bull; Architecture &bull; GitWand is a lightweight, native Git client built with Tauri 2 and Vue 3. It covers the full daily workflow — changes, history, branches, push/pull — and goes further with automatic resolution of trivial merge conflicts , integrated PR code review with inline comments, and a Git Tree as the primary history view. Since v1.3, AI assists every step of the workflow — branch naming, PR writing, hunk-level review, semantic squash, and natural-language commit search. v2.7+ adds multi-repo Workspaces and Worktrees; v2.8 adds Agent Sessions (MCP); v2.9 adds a cross-repo Launchpad; v2.10 brings multi-forge pull requests across GitHub, GitLab, Bitbucket and Azure DevOps ; v2.13 adds inline AI code review; v2.18 overlays CI check annotations directly on the diff; v2.19 adds OAuth device-flow sign-in for GitHub and Azure DevOps (no gh CLI required) plus cross-fork pull requests . The 3.x line makes GitWand a daily driver for AI-assisted work: v3.0 turns the cross-repo dashboard into Today
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, app, claude, cli, codex, conflict-resolution
+
+---
+
 ## 🕔 2026-09-18 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
