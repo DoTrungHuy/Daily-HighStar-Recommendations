@@ -1,3 +1,67 @@
+## 🕔 2026-09-18 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [figma-console-mcp](https://github.com/southleft/figma-console-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,330
+- **核心概述**: Your design system as an API. Connect AI to Figma for extraction, creation, and debugging.
+- **大概是做什么的**: Figma Console MCP Server Your design system as an API. Model Context Protocol server that bridges design and development—giving AI assistants complete access to Figma for extraction , creation , debugging , and bidirectional token sync . 🆕 Design System Extraction (v1.40.0, patched v1.40.2): Turn a production codebase into a design system. Seven new figma ds tools (Local Mode) scan one or more app codebases — framework, styling-method, and vendor-layer detection; a usage-ranked component inventory classified vendored / wrapped / pure-vendor / bespoke; variant inference from real call sites; duplicate detection; and an architecture pass that separates a UI kit from a design system ( FollowButton is really a Button — and here are the missing generic primitives). Then they mine the app's de-facto styling into DTCG tokens with per-token provenance — multi-mode CSS custom properties ( .dark , [data-theme] , and friends), SCSS variables, Tailwind config values, shadcn HSL triples, Tailwind utility-class frequency mining valued from the app's own theme, and frequency-promoted raw values —
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, design-systems, figma, figma-api, figma-plugins, mcp
+
+---
+
+### 🌟 [ghidra-mcp](https://github.com/bethington/ghidra-mcp)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,887
+- **核心概述**: Ghidra MCP Server — 200+ MCP tools for AI-powered reverse engineering. GUI plugin + headless server, lazy tool loading, convention enforcement, batch operations, Ghidra Server integration, and Docker deployment.
+- **大概是做什么的**: If you find this useful, please ⭐ star the repo — it helps others discover it! If Ghidra MCP saves you time, consider sponsoring the project. One-time and recurring support both help fund compatibility updates, production hardening, docs, and new tooling. A production-ready Model Context Protocol (MCP) server that bridges Ghidra's powerful reverse engineering capabilities with modern AI tools and automation frameworks. 253 MCP tools , battle-tested AI workflows, and the most comprehensive Ghidra-MCP integration available — now including P-code emulation, live debugger integration, and PCode-graph data flow analysis. Most Ghidra MCP implementations give you a handful of read-only tools and call it a day. This project is different — it was built by a reverse engineer who uses it daily on real binaries, not as a demo. - 253 MCP tools — 3x more than any competing implementation. Not just read operations — full write access for renaming, typing, commenting, structure creation, script execution, P-code emulation, and live debugging. - Battle-tested AI workflows — Proven documentation workf
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, binary-analysis, ghidra, ghidra-extension, java, mcp
+
+---
+
+### 🌟 [Ava-Pro](https://github.com/knoop7/Ava-Pro)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 524
+- **核心概述**: Ava turns any Android 5+ device into a voice-first Home Assistant kiosk. Native C++ under the hood, so a 10-year-old tablet still listens, talks, and runs the house - with AirPlay-grade audio in every room, all in sync.
+- **大概是做什么的**: Ava Pro · Home Assistant's Android Companion For more practical guides, visit the Wiki. native Android platform built specifically for Home Assistant. A single, lightweight installation on existing devices replaces standalone ESP32 Bluetooth proxy, dedicated satellite voice receiver, intercom hardware. It connects via the standard ESPHome API Officially certified secure millisecond-level protocol. No MQTT, no HACS, and no custom integration required. dominate screen: Ava Pro runs as a background service. Voice feedback, clock, weather, media controls, and quick switches appear as floating overlays above any app you're currently using. They're disposable, and you retain control of your device. overheat device: The core engine is written in native C++, not wrapped in a browser container. Even on a wall-mounted tablet, idle CPU usage is near zero. Multiple devices that have been running on the wall for years have shown no overheating issues. compatible with virtually any device: Supports Android 5.0 to 16. It runs on old Fire tablets, retired phones, car infotainment systems, smart mirr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, android, bluetooth, bluetooth-low-energy, bluetooth-proxy
+
+---
+
+### 🌟 [claude-code-karma](https://github.com/JayantDevkar/claude-code-karma)
+- **项目语言**: Python
+- **星标数量**: ⭐ 328
+- **核心概述**: Dashboard for monitoring claude code sessions.
+- **大概是做什么的**: Your Claude Code sessions deserve more than a terminal. A local-first, open-source dashboard that turns your /.claude/ data into a visual story — sessions, timelines, costs, and live activity, all on your machine. Why Claude Code Karma? If you use Claude Code, you already have a goldmine of data sitting in /.claude/ — every session, every tool call, every token. But it's all buried in JSONL files you'll never read. Warning: Claude Code only keeps session data for about 30 days. Older JSONL files in /.claude/projects/ are automatically cleaned up. Since Karma reads directly from those files, deleted sessions will disappear from the dashboard too. Claude Code Karma reads that local data and gives you a proper dashboard. No cloud. No accounts. No telemetry. Just your data, on your machine. It works with both Claude Code CLI and Claude Desktop (Claude Code mode) sessions — any session that writes to /.claude/ shows up automatically. Browse all your Claude Code sessions in one place. Search by title, prompt, or slug. Filter by project. See live sessions at the top with real-time status ba
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, agentskills, claude-code, claude-code-plugin, claude-code-skills, dashboard
+
+---
+
+### 🌟 [my-pi](https://github.com/spences10/my-pi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 127
+- **核心概述**: Composable Pi coding agent with MCP, LSP, agent chains, prompt presets, and local eval telemetry
+- **大概是做什么的**: My curated Pi distribution: a ready-to-run coding-agent CLI with MCP, LSP, skills, recall, redaction, telemetry, team mode, prompt presets, and other handy extensions prewired. @earendil-works/pi-coding-agent SDK. Use the full distribution directly, or install individual @spences10/pi- packages into your own Pi setup. Two ways to use my-pi 1. Run the full distribution Use my-pi if you want the complete, opinionated setup: This is its own CLI wrapper around Pi. Do not install the root package with pi install npm:my-pi . 2. Install individual Pi packages Most extensions in this repo are also published as normal Pi packages: Use this path if you already have your own Pi setup and only want selected features. Package READMEs are the source of truth for install instructions, commands, configuration, and runtime behavior. For a project-local install, let Pi write the repo-owned package entry and resource overrides: Upstream Pi stores those choices in .pi/settings.json ; project resource deltas may use autoload: false . Keep @spences10/pi- extension state and resource-specific trust in the
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, coding-agent, evals, llm, lsp, mcp
+
+---
+
+### 🌟 [taskuary](https://github.com/ldbumble/taskuary)
+- **项目语言**: Python
+- **星标数量**: ⭐ 103
+- **核心概述**: Automate your job: local-first AI task hub. Email, Teams, Slack & reports -> one timeline -> AI triage -> your coding agents (Claude Code, Codex, Gemini) do the work, you approve.
+- **大概是做什么的**: ⭐ Please star Taskuary if you find it helpful — it is how other people find it. Your inbox, staffed by AI agents Taskuary turns incoming messages into organized work. It sorts what matters, hands tasks to your agents, and brings decisions back to you. Nothing sends or ships without your approval. Taskuary is early—currently v0.3.5.7 —so breaking changes are still possible before 1.0. The real app with invented data. Nothing connects, sends, or runs. What Taskuary can do One request, from arrival to your approval. Follow Ruth's request for the latest vendor spend numbers through the real app, using fictional demo data. 1. Connect every system. Keep control. Mail, chats, issue trackers, alerts, and reports land on one Timeline. See what arrived, what became a task, and what needs you without opening every system in turn. 2. Turn incoming work into tasks Ruth asks for the August total, the change from July, and a breakdown by category. Taskuary creates a task with the original request and assigns it to an agent. 3. Watch the agent work Open the task to follow the analysis. Here, the gen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai, ai-agents, automation, claude, claude-code
+
+---
+
 ## 🕔 2026-09-18 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
