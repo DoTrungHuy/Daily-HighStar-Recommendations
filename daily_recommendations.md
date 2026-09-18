@@ -1,3 +1,67 @@
+## 🕔 2026-09-18 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [puppyone-cloud](https://github.com/puppyone-ai/puppyone-cloud)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,300
+- **核心概述**: Context drive for your AI agents
+- **大概是做什么的**: Git-native Context Drive for AI agents. Puppyone provides context hosting for AI agents, with Git version control and file-level scoped permissions for every agent. Puppyone provides context hosting for AI agents, with Git version control and file-level scoped permissions for every agent. It supports CLI, MCP, Git, bash/SSH, and web app interactions through Access Points for different AI agents. One shared Context Drive, multiple scoped Access Points for different agents and tools. Option A: Cloud (Hosted) The fastest way — no infrastructure to manage. Create an account at puppyone.ai. Option B: Self-Hosted (Docker) Run the full stack locally with Docker. The only prerequisite is Docker. This starts everything — PostgreSQL, Auth, API gateway, Redis, MinIO, backend, and frontend — in a single command. The database schema is applied automatically on first run. The Docker defaults already separate browser-facing URLs ( localhost ) from container-internal service URLs ( api , kong ), so the same setup works for both client-side and Next.js server-side requests. The backend container also
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, ai-agents, context, context-engineering
+
+---
+
+### 🌟 [Unreal_mcp](https://github.com/ChiR24/Unreal_mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 875
+- **核心概述**: A comprehensive Model Context Protocol (MCP) server that enables AI assistants to control Unreal Engine through the native C++ Automation Bridge plugin. Built with TypeScript and C++.
+- **大概是做什么的**: Unreal Engine MCP Server A comprehensive Model Context Protocol (MCP) server that enables AI assistants to control Unreal Engine through a native C++ Automation Bridge plugin. Built with TypeScript and C++. Category Capabilities ---------- ------------- Asset Management Browse, import, duplicate, rename, delete assets; create materials Actor Control Spawn, delete, transform, physics, tags, components Editor Control PIE sessions, camera, viewport, screenshots, bookmarks Level Management Load/save levels, streaming, lighting Animation & Physics Animation BPs, state machines, ragdolls, vehicles, constraints Visual Effects Niagara particles, GPU simulations, procedural effects, debug shapes Sequencer Cinematics, timeline control, Movie Render Queue, media, Take Recorder, replay Graph Editing Blueprint, Niagara, Material, and Behavior Tree graph manipulation Audio Sound cues, audio components, sound mixes, ambient sounds System Console commands, UBT, tests, logs, project settings, CVars - Native C++ Automation — All operations route through the MCP Automation Bridge plugin - Dual Transpor
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, unreal-engine, unreal-engine-5
+
+---
+
+### 🌟 [ms-cookbook](https://github.com/modelscope/ms-cookbook)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 310
+- **核心概述**: 魔搭紫皮书｜ModelScope Cookbook：面向开发者的开源模型应用实战指南，覆盖模型选型、推理、微调、评测、RAG、Agent 与 AIGC，从跑通第一个模型到构建实际应用。
+- **大概是做什么的**: From open-source models to practical AI applications. 魔搭紫皮书 · Choose a model. Run it. Adapt it. Build with it. ModelScope Cookbook is a hands-on, open-source guide to using open-source AI models in real applications. It brings model selection, inference, data preparation, fine-tuning, evaluation, and application development into one structured learning resource. A useful model application starts with practical decisions: which model fits the task, what hardware it needs, how to adapt it to your data, and how to judge the result. The cookbook connects these decisions to runnable examples, using tools such as EvalScope, ms-swift, DiffSynth, and Ollama , alongside RAG and Agent workflows. The goal is to help developers move from a first successful inference to applications they can reproduce, evaluate, and improve. Examples cover enterprise knowledge Q&A, speech assistants, customer-service quality analysis, fitness coaching, and product-image creation. 8 parts · 34 chapters · 33 available to read Read online on ModelScope → No installation is needed for online reading. The website incl
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cookbook, diffusion-models, fine-tuning, generative-ai, llm
+
+---
+
+### 🌟 [swiftide](https://github.com/bosun-ai/swiftide)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 782
+- **核心概述**: Fast, streaming indexing, query, and agentic LLM applications in Rust
+- **大概是做什么的**: Composable LLM agents and harness, typed task graphs, and streaming RAG pipelines in Rust. Swiftide is an opinionated framework for building LLM applications. It gives you an agent harness, typed task graphs for orchestration, and streaming, composable indexing/query - Build agents that loop over LLM calls, tool calls, lifecycle hooks, and stop conditions. - Compose prompt steps, agents, command executors, and domain-specific Rust code in typed task - Fan out work into parallel branches and join typed results back into one task output. - Pause and resume agents or tasks for human approval, external callbacks, or persisted state. - Bring tools from local Rust functions, custom Tool implementations, or MCP servers. - Stream large indexing and retrieval workloads through loaders, transformers, embedders, caches, and storage backends. - Trace agent, task, and pipeline execution with tracing , metrics, and Langfuse support. The core primitives provide the shared interaction model. Around them, use pipelines for data flows, agents for tool loops, and tasks for graphs of typed hand-offs. Sw
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, data, genai, indexing, llm
+
+---
+
+### 🌟 [XRAG](https://github.com/DocAILab/XRAG)
+- **项目语言**: Python
+- **星标数量**: ⭐ 347
+- **核心概述**: XRAG: eXamining the Core - Benchmarking Foundational Component Modules in Advanced Retrieval-Augmented Generation
+- **大概是做什么的**: XRAG: eXamining the Core - Benchmarking Foundational Component Modules in Advanced Retrieval-Augmented Generation 📑 Table of Contents - :book: Introduction - :sparkles: Features - :globe with meridians: WebUI Demo - :hammer and wrench: Installation - :rocket: Quick Start - :gear: Configuration - :warning: Troubleshooting - :clipboard: Changelog - :speech balloon: Feedback and Support - :round pushpin: Acknowledgement - 2026-02.24: Paper accepted by ICDE 2026. 🎉🎉🎉🎉🎉 - 2025-11.18: Add orchestrators: SIM-rag. - 2025-11.05: Add orchestrators: self-rag, adaptive-rag. - 2025-07.18: Add Text Splitters, including SemanticSplitterNodeParser, SentenceSplitterNodeParser, and SentenceWindowNodeParser. - 2025-06.23: Update configuration file，parameters appear clearer. - 2025-01.09: Add API support. Now you can use XRAG as a backend service. - 2025-01.06: Add ollama LLM support. - 2025-01.05: Add generate command. Now you can generate your own QA pairs from a folder which contains your documents. - 2024-12.23: XRAG Documentation is released 🌈. - 2024-12.20: XRAG is released 🎉. Welcome deve
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: evaluation, llamaindex, llm, rag
+
+---
+
+### 🌟 [agentic-chatops](https://github.com/papadopouloskyriakos/agentic-chatops)
+- **项目语言**: Python
+- **星标数量**: ⭐ 107
+- **核心概述**: 3-tier agentic ChatOps (n8n + GPT-4o + Claude Code) implementing all 21 patterns from "Agentic Design Patterns" — solo operator managing 137 devices
+- **大概是做什么的**: AI agents that triage infrastructure alerts, investigate root causes, and propose fixes — while a solo operator sleeps. For the complete technical reference, see README.extensive.md. One person. 310+ infrastructure objects across 6 sites. 3 firewalls, 12 Kubernetes nodes, self-hosted everything. When an alert fires at 3am, there's no team to call. There never is. Three agentic subsystems that handle the detective work — ChatOps (infrastructure), ChatSecOps (security), ChatDevOps (CI/CD) — built on n8n orchestration, Matrix as the human interface, and a tiered agent architecture (deterministic triage scripts → Claude Code → human). The human stays in the loop for every infrastructure change: the system never acts without a thumbs-up or poll vote, and since 2026-06-09 a remediation proposal cannot even reach the approval poll without a machine-computed consequence prediction attached (see Infragraph below). What Makes This Different Self-Improving Prompts — now with A/B trials (nobody else does this) The system evaluates its own performance and auto-patches its prompts. Every session i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, chatops, claude-code, devops, infrastructure-automation, matrix
+
+---
+
 ## 🕔 2026-09-18 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
