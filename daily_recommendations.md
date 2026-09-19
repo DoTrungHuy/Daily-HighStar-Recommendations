@@ -1,3 +1,67 @@
+## 🕔 2026-09-19 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-scanner](https://github.com/cisco-ai-defense/mcp-scanner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,074
+- **核心概述**: Scan MCP servers for potential threats & security findings.
+- **大概是做什么的**: A Python tool for scanning MCP (Model Context Protocol) servers and tools for potential security findings. The MCP Scanner combines Cisco AI Defense inspect API, YARA rules and LLM-based analysis to detect malicious MCP tools. The MCP Scanner provides a comprehensive solution for scanning MCP servers and tools for security findings. It leverages three powerful scanning engines (Yara, LLM-based analysis, Cisco AI Defense) that can be used together or independently. The SDK is designed to be easy to use while providing powerful scanning capabilities, flexible authentication options, and customization. - Multiple Modes: Run scanner as a stand-alone CLI tool or REST API server - Multi-Engine Security Analysis : Use all three scanning engines together or independently based on your needs. - Vulnerable Packages Scanning : Scan Python dependencies for known vulnerabilities (CVE/PYSEC/GHSA) using pip-audit integration. - Readiness Scanning : Zero-dependency static analysis for production readiness issues (timeouts, retries, error handling). - Comprehensive Scanning : Scan MCP tools, prompts,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, mcp, security
+
+---
+
+### 🌟 [hermes-war-room](https://github.com/Naroh091/hermes-war-room)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 356
+- **核心概述**: UI layer for the native Hermes orchestration features
+- **大概是做什么的**: Orchestration War Room A multilingual visual UI for Hermes agentic orchestration/delegation system. 🇪🇸 Leer en español ↓ A browser dashboard on top of Hermes Agent's multi-profile delegation and kanban systems. Hermes already gives you everything you need to run a fleet of specialised agents that hand work to each other — the Orchestration War Room just makes that fleet visible , legible , and directable from a single screen instead of a forest of terminal sessions and hermes kanban tail invocations. TL;DR — Hire a leader and a team, brief the leader, watch the team work. The War Room handles all the wiring (kanban delegation, status tracking, notifications) underneath. You need Hermes installed on the host (the war-room shells out to the hermes CLI, so they share a process namespace) and Node 22+. Open The Team first to give each operative a callsign and a tailored SOUL.md, then head to the War Room and brief the orchestrator with a real mission. For development setup ( pnpm dev ), tmux recipes and production tuning, see Quick start and Production Why does this exist? Hermes has p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, hermes, orchestration
+
+---
+
+### 🌟 [askgrokwallet](https://github.com/richard7463/askgrokwallet)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 136
+- **核心概述**: Rules-and-receipts layer for AI agents that spend money: plain-English policy → human approval → signed receipts anyone can verify.
+- **大概是做什么的**: The rules-and-receipts layer for AI agents that spend money. Small things run · big things ask · everything leaves a receipt Unaudited developer preview. The guarded end-to-end path has been exercised on Ethereum Sepolia with mock assets. Contracts are deployed on Base mainnet, but no mainnet-value settlement has been demonstrated. Do not use this project to protect production funds yet. Giving an agent a wallet is easy. Giving it a wallet with rules is not. AskGrokWallet sits between the agent and the money. Three things are load-bearing, and each one is checkable from outside this repository: 1. The policy is enforced, not suggested. In guarded mode the agent's funds live in a vault and an out-of-policy action reverts at the contract , before any value moves. The bound is a revert, not a setting. 2. A human is in the loop for exactly the actions that need one. "Payments under $50 run, over $50 ask me" compiles to allow / ask / deny ; only the ask cases reach the approval inbox. 3. Every outcome leaves a receipt a stranger can verify — four lines from one dependency-free file: the s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-governance, agentic-commerce, ai-agents, askgrokwallet, base, ed25519
+
+---
+
+### 🌟 [VenusFactory2](https://github.com/ai4protein/VenusFactory2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 249
+- **核心概述**: 🏭 AI agent platform with skills for protein engineering, the noob-friendly AI tutorial tool for life science professionals. (ACL Demo2025, arXiv 2026)
+- **大概是做什么的**: Agent-driven protein engineering platform Web UI · REST API · CLI · 40+ models · 11+ databases 📨 WeChat / feedback VenusFactory2 puts protein language models, biological databases, and an Agent orchestrator in one place: upload a sequence/structure to predict, drive multi-step analysis in natural language, or fine-tune your own models. Try online: venusfactory.bio Prerequisite Notes :------------- :------ Python ≥3.12 (installer creates a 3.12 .venv by default) Node.js 25.x + npm (WebUI v2 build) Disk Reserve several–15+ GB (PyTorch wheels dominate) GPU Optional; NVIDIA → CUDA wheels, else CPU Slow Hugging Face access: export HF ENDPOINT=https://hf-mirror.com The installer detects older setups ( .venv / frontend / weights) and can reuse or wipe them. Press Enter for the recommended path. 1. Open the UI → Quick Tools work without an LLM key 2. Agent / Science Expert LLM: copy the endpoint config, pick a provider, then set the key The yaml is re-read on every page load and chat request — change active , model , or base url and refresh. See model-config.yaml.example . 3. Optional check
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, database, fine-tuning, language-model, life-science, noob-friendly
+
+---
+
+### 🌟 [spring-plugin](https://github.com/explyt/spring-plugin)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 161
+- **核心概述**: Spring Explyt — free, open-source (Apache-2.0) Spring & Spring Boot plugin that brings Ultimate-grade tooling to IntelliJ IDEA Community Edition (works in Ultimate too): runtime-accurate bean navigation, inspections & quick fixes, endpoints, Spring debugger, HTTP client, MCP tools for AI agents.
+- **大概是做什么的**: Explyt Spring Plugin for IntelliJ IDEA Community Edition Runtime-accurate Spring tooling for IntelliJ IDEA Community — free. Explyt Spring brings real Spring understanding to IntelliJ IDEA Community Edition : bean navigation and inspections backed by your app's actual context, a Spring debugger, an in-IDE Swagger/HTTP client, Quarkus support, Kotlin-first checks, and Spring-aware MCP tools for AI agents. Free for commercial and non-commercial use. Love it? ⭐ Star us on GitHub · 🗳️ Rate on the Marketplace — it takes 10 seconds and genuinely helps other developers find the plugin. ▶ See it in action: Native Context Mode (30s) · Endpoints tool window A free way to get Spring-focused tooling in IDEA Community. Explyt is not a full IDEA Ultimate replacement — it is strongest when runtime bean accuracy, Kotlin Spring support, HTTP testing, and AI-agent/MCP workflows matter. Legend: ✅ first-class · ◐ partial / setup-dependent · ❌ not available Capability Explyt (CE) IDEA Ultimate VS Code + STS4 IDEA CE alone --- :---: :---: :---: :---: Native context mode — real bean metadata via javaagent
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ide, intellij, intellij-idea, intellij-plugin, java, jetbrains
+
+---
+
+### 🌟 [ntoseye](https://github.com/dmaivel/ntoseye)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 196
+- **核心概述**: WinDbg-like kernel debugger for Windows, from Linux and macOS
+- **大概是做什么的**: A WinDbg-like Windows debugger for Linux and macOS, with support for kernel-mode and user-mode debugging in virtual machines and offline crash-dump analysis. Debugging via REPL Debugging via VSCode + DAP - WinDbg-style commands and expressions - Public and private PDB symbols, source lines, and local variables - Conditional and deferred breakpoints, hardware watchpoints, and breakpoint commands - KD/KDNET, QEMU GDB, and passive memory backends - Host-served driver images for driver development - Python SDK and custom commands - Editor integration over DAP - Agent integration over MCP ntoseye supports 64-bit AMD64 and ARM64 Windows 10 and 11 targets. Supported hypervisors ntoseye supports any hypervisor, cloud VM, or physical machine reachable over KDNET. KVM/QEMU, VMware Workstation, and UTM guests additionally get KDCOM, GDB, and memory-only backends. ntoseye downloads symbols and images from Microsoft's official symbol server when required. Config, cache, and REPL state live under /.ntoseye : - /.ntoseye/commands/ for custom scripted commands - /.ntoseye/symbols/ for PDBs and image
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: binary-analysis, debugger, kdnet, kernel-debugger, kvm, malware-analysis
+
+---
+
 ## 🕔 2026-09-18 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
