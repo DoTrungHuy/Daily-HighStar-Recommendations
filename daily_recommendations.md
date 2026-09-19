@@ -1,3 +1,67 @@
+## 🕔 2026-09-19 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 844
+- **核心概述**: Open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit — audit, optimize & track whether ChatGPT, Perplexity, Gemini & Google AI Overviews cite your site. AI SEO / LLM SEO. CLI, Python, MCP, Astro.
+- **大概是做什么的**: The open-source Answer Engine Optimization (AEO) & Generative Engine Optimization (GEO) toolkit. Audit, optimize, and track whether ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews can crawl, understand, and cite your website. One command scores your site 0–100 on AI-search readiness, tells you exactly what to fix, and checks whether AI engines actually cite you. Quick Start · Live Demo · Pricing · Sign Up · Documentation · Changelog 16 CLI commands · 8 scoring categories · 47 research-backed methods · 7 output formats · 1,900+ tests · academic foundation (KDD 2024, ICLR 2026) · runs in CI/CD, as a Python library, an MCP server, or an Astro integration What is GEO Optimizer? GEO Optimizer measures how visible your website is to AI answer engines — ChatGPT, Perplexity, Google AI Overviews, Gemini, and Claude — scores it 0–100, and tells you exactly what to fix to get cited. It is free and open source, and runs as a command-line tool, a Python library, an MCP server, or an Astro integration. This practice goes by several names — Answer Engine Optimization (AEO) , Generative
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aeo, ai-search-optimization, ai-seo, ai-visibility, answer-engine-optimization, astro
+
+---
+
+### 🌟 [codex-mobile](https://github.com/friuns2/codex-mobile)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 928
+- **核心概述**: 🚀 Run Codex Mobile Anywhere: Linux, Windows, or Termux on Android 🚀
+- **大概是做什么的**: 🚀 Run Codex App UI Anywhere: Linux, Windows, or Termux on Android 🚀 Codex UI in your browser. No drama. One command. Yes, that is your Codex desktop app experience exposed over web UI. Yes, it runs cross-platform. codexapp is a lightweight bridge that gives you a browser-accessible UI for Codex app-server workflows. You run one command. It starts a local web server. You open it from your machine, your LAN, or wherever your setup allows. TL;DR 🧠: Codex app UI, unlocked for Linux, Windows, and Termux-powered Android setups. By default, codexapp now also starts: It prints the tunnel URL, terminal QR code, and password together in startup output. Use --no-tunnel to disable this behavior. If you are using a provider or AI gateway that is already authenticated and do not want codexapp to force codex login during startup, use: Maintainers: follow the npm publishing procedure to release @brutalstrikedevs/codexapp . Windows 🪟 (PowerShell) Android background requirements: 1. Keep codexapp running in the current Termux session (do not close it). 2. In Android settings, disable battery optim
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, ai-assistant, ai-coding-agent, claude, codex
+
+---
+
+### 🌟 [pizza-bot](https://github.com/pizza-bot-app/pizza-bot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 319
+- **核心概述**: A local-first inbox for long-running AI agents, built with DeepAgents and LangGraph.
+- **大概是做什么的**: Pizza Bot is an inbox for long-running AI work. Start or schedule a task, return to your day, and let completed work collect in Unread while runs waiting for your decision collect in Action . Agents keep working when you navigate away or disconnect; the api-server process must remain running. Pizza Bot uses a stateful DeepAgents/LangGraph runtime with the same React experience in Electron and the browser. The desktop app, web app, and terminal CLI all communicate with the api-server over HTTP/SSE. Pizza Bot was developed at Amazon and is released under the Apache 2.0 license. - Work asynchronously. Switch conversations without stopping their runs. - Return to the right queue. Completed work lands in Unread; durable approval requests land in Action. - Organize conversations. Group threads into folders without hiding matching work from the global Unread and Action queues. - Resume real work. Checkpointed runs survive client disconnects, and cron or webhook triggers can start work without an open conversation. - Delegate to specialists. Skills become tool-scoped subagents whose progress
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, amazon-bedrock, deepagents, electron, human-in-the-loop
+
+---
+
+### 🌟 [VibeGame](https://github.com/tettethu/VibeGame)
+- **项目语言**: Python
+- **星标数量**: ⭐ 247
+- **核心概述**: VibeGame: Vibe Your Dream Game -- An open-source self-evolving multi-agent framework with an AI-Native game engine that turns your natural language into a fully playable 2D web game and edit it any way you want, built on Claude Code & Codex.
+- **大概是做什么的**: VibeGame: Vibe Your Dream Game - [2026.08] 🚀 We release VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team! Check our Project Page and Technical Report Watch the demos and explore more project details on the Project Page. Civilization prototype Hollow Knight boss slice AI Werewolf party game - Python 3.12 or newer. - At least one supported agent CLI: Claude Code or Codex. Node.js and npm are not required for the standard VibeGame setup. First-time Claude Code users : VibeGame launches agents with claude --dangerously-skip-permissions . If you have never used this flag before, run it once in a terminal and accept the confirmation prompt — the first-run consent screen cannot be completed inside VibeGame's managed session, and agent startup will fail without it. Codex users : after setup.sh , run vibegame setup codex-hooks once, then open Codex, enter /hooks , and trust the newly added VibeGame hooks. The command writes /.codex/hooks.json ; the trust step is what actually enables them. Until both are done Codex agents still run, but they
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, codex, creative-coding, game-development, game-engine
+
+---
+
+### 🌟 [self-hosted-ai-stack](https://github.com/hwdsl2/self-hosted-ai-stack)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 151
+- **核心概述**: Deploy a complete self-hosted AI stack with Docker Compose: Ollama, LiteLLM, AnythingLLM, Whisper, WhisperLive, Kokoro, Embeddings, Docling and MCP Gateway. Local-first, private by default, with lightweight stacks, optional HTTPS and NVIDIA CUDA acceleration. Multi-arch: amd64, arm64.
+- **大概是做什么的**: English 简体中文 繁體中文 Русский Self-Hosted AI Stack Includes Ollama, LiteLLM, AnythingLLM, Whisper, MCP Gateway, Embeddings, Docling, and Kokoro — fully configured and ready to run with Docker Compose. 📘 The Self-Hosted AI Builder’s Guide: $0.99/£0.99 ebook through Sept. 20 (US/UK). The hands-on companion to this stack, covering deployment, security, backups, and upgrades. - Zero-config: all services auto-configure on first start - Secure by default: AnythingLLM password protection is enabled, and bundled API services auto-generate keys - HTTPS-ready: optional Caddy overlay provides automatic TLS and binds direct HTTP ports to localhost - Private: runs locally by default with optional external provider support via LiteLLM - Flexible: customize models, ports, providers, and API keys with simple env files - Lightweight stacks for lower memory requirements (as low as 4.5 GB) - GPU acceleration via NVIDIA CUDA - Multi-arch: linux/amd64 , linux/arm64 Service Role Default port Ollama (LLM) Runs local LLM models (llama3, qwen, mistral, etc.) 11434 AnythingLLM Web-based chat UI — password-protec
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-stack, cuda, docker, docker-compose, docling
+
+---
+
+### 🌟 [Aegis](https://github.com/antropos17/Aegis)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 151
+- **核心概述**: Desktop monitoring and local security reviews for AI agents, with opt-in policy-controlled execution and MCP action tools. Windows primary; macOS/Linux experimental.
+- **大概是做什么的**: Local monitoring and action review for AI agents AEGIS helps you see what local AI agents are doing, review agent files before use, and check policies for selected actions. Monitoring records processes, file activity, TCP endpoints and attribution evidence without requiring an agent plugin. Current source also includes opt-in policy-controlled execution and MCP tools for operator-selected actions. These routes require explicit setup; ordinary agent monitoring does not automatically intercept or block commands. Open-source, monitor-first, no telemetry. Monitoring data is stored locally. Endpoint naming uses DNS queries. Optional AI analysis sends activity metadata to Anthropic on request; update checks contact GitHub. See privacy and key handling. What you want to do Where to start See running agents and review their activity Monitoring , then an agent's processes, files or connections Check a project, skill or agent profile before use Local security : static review, inventory, comparison and offline report import Check how a selected action matches a policy Action control : choose fi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-monitoring, ai-agents, ai-security, claude-code, edr, electron
+
+---
+
 ## 🕔 2026-09-19 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
