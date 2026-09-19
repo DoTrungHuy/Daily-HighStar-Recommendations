@@ -1,3 +1,67 @@
+## 🕔 2026-09-19 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [omniget](https://github.com/tonhowtf/omniget)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 13,900
+- **核心概述**: Udemy & Hotmart course downloader, YouTube downloader (yt-dlp GUI, 1,800+ sites) + desktop app for AI agents: Claude Code, Codex, Gemini CLI, Ollama. Permissions, undo, jobs, loops until tests pass, MCP server, 156 tools, course player. Free and open source for Windows, macOS and Linux. No terminal. Your files stay on your computer.
+- **大概是做什么的**: A yt-dlp GUI, a Udemy and Hotmart course downloader, and a desktop app for AI coding agents. Free and open source for Windows, macOS and Linux. No terminal. Free. Open source under GPL-3.0. No account, no ads, no telemetry on what you download. Your files stay on your computer. 13,800+ GitHub stars. The most starred repository in the udemy-downloader , hotmart-downloader , course-downloader , yt-dlp-gui , media-downloader and instagram-downloader topics. - AI agents and the World : Claude Code, Codex, Gemini CLI, Ollama, jobs, loops, MCP, the house and visits - Download and install - Your first download in one minute - What OmniGet downloads: Udemy, Hotmart, YouTube, Instagram, TikTok, X and 1,800+ sites - The browser extension, step by step - The Tools section: 156 tools in 24 categories - MCP server for Claude Code, Cursor and VS Code, and a Claude Code plugin - Plugins: Courses, Study, Telegram, Convert - For League of Legends players - Everything else in the box - Privacy and what OmniGet refuses to do - Frequently asked questions - Contributing and translations - Standing on ope
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-client-protocol, ai-agents, claude-code, codex-cli, coding-agent, course-downloader
+
+---
+
+### 🌟 [loopx](https://github.com/loopx-project/loopx)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,900
+- **核心概述**: Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.
+- **大概是做什么的**: The open, provider-neutral, stateful control plane for long-horizon agents. Runs on top of Codex, Claude Code, Cursor, and other agent harnesses. LoopX preserves objectives, gates, todos, evidence, quota, and handoffs across turns; the harness executes bounded work. Public website · Blog · Docs · Developer Book · Try LoopX · See real loops · How it works · 简体中文 Open and provider-neutral, LoopX is a lightweight state kernel and local-first control plane for loop engineering. It runs on top of different agent harnesses rather than replacing them, providing the long-horizon state, semantic decisions about what happens next, governance, recovery, and human-agent collaboration that keep long-running work reviewable, restartable, and easier to hand off across turns, tools, and agents. Loop engineering for long-horizon AI agents and peer agent teams. Keep the loop moving. Keep the judgment human. - Developer Book - the curated bilingual path from control-plane foundations to project onboarding and developer contributions. 中文版 · English - Getting started - install, connect a project, and run
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-control-plane, agent-harness, agent-ops, ai-agents, codex, dsh-plugin
+
+---
+
+### 🌟 [mediary-scout](https://github.com/fancydirty/mediary-scout)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,415
+- **核心概述**: Agent-driven media library for your cloud drives (Quark 夸克 / 115 / 光鸭 GuangYa / 123网盘 / 天翼 Tianyi)
+- **大概是做什么的**: An agent-driven media library for your cloud drives. You ask for a movie, show, or anime; an LLM agent scouts resources across your indexers, transfers the best match into your own 115 / Quark / 光鸭 drive, verifies what landed, and keeps tracking what's still missing. Above: the read-only live demo — search → 获取 → the agent works through search, transfer, and verification. Desktop app (recommended — easiest) Platform Download Notes macOS (Apple Silicon) DMG → Releases Signed + notarized, no Gatekeeper warning Windows (x64) EXE installer → Releases Unsigned — SmartScreen will prompt, click "run anyway" 1. Download and install 3. Go to Settings — connect a drive, add an LLM endpoint 4. Search a title, hit 获取 — that's it No Docker, no Postgres, no terminal. The app bundles its own SQLite data layer and runs the full engine inside an Electron shell. Every release is machine-verified before it ships: CI installs the freshly-built Windows package on a clean runner, boots the real app, and requires an HTTP 200 health response, while the macOS build must pass native-ABI verification, signing,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, docker, media-automation, self-hosted, typescript
+
+---
+
+### 🌟 [Cyrene-Agent](https://github.com/Playa-Cyrene/Cyrene-Agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 606
+- **核心概述**: An open-source desktop AI agent built around Cyrene’s persona and powered by the self-developed Cyrene_Harness framework. It combines immersive character chat with practical Agent capabilities for daily tasks, coding assistance, learning, and tools like music and weather.
+- **大概是做什么的**: Cyrene-Agent 是一个以《崩坏：星穹铁道》昔涟为核心角色的 Windows Live2D AI 桌面伴侣。 基于 Electron + TypeScript 开发的桌面端 Live2D 智能对话 Agent。 项目围绕昔涟（Cyrene）的角色设定，结合自研Cyrene Harness+DMAE 记忆引擎， 将角色化聊天、个性化记忆、语音交互、工具调用与多平台接入整合在同一个桌面 Agent 中， 支持日常聊天（Chat）、辅助工作（Work）、代码协作（Code）、学习陪伴（Learn）四种对话模式。 - 🌸 趣味桌面陪伴 — Live2D 角色常驻桌面，支持表情、动作、状态、心情、气泡互动与智能表情包 - 💬 日常聊天（Chat） — 专注角色化交流，结合会话历史、用户风格与长期记忆自然回应 - 🛠️ 辅助工作（Work） — 通用任务会话，支持联网搜索、文件处理、文档生成、生活服务等工具的串联调用，由 CyreneHarness 主循环统一调度 - 💻 代码协作（Code） — 绑定可信代码目录，提供 LSP 语义查询（定义/引用/悬停/符号/诊断）与受限的读写改命令执行，安全边界由 Harness 的权限审批（Permission Policy）与 Execution Policy 统一把关 - 📚 学习陪伴（Learn） — 绑定 Obsidian Vault，陪伴用户理解材料、整理笔记、生成练习与维护进 - 🧠 个性化记忆 — L0 / L1 / L2 分层记忆，结合自研记忆头像+Worldbook+沉淀长期互动 - 🌱 条目生命周期 — 自研DMAE算法（v4.0未实现最新v5.1）负责管理prompt在上下文中的生命周期 - 🔊 语音交互 — 集成 TTS、ASR 与语音通话，让昔涟能够听见并回应用户 - 🧰 丰富工具生态 — 覆盖联网搜索、文件处理、文档生成、生活服务、音乐与 MCP 扩展 - 🧩 插件系统 — 本地插件包扩展 AI 工具、聊天渠道、自有窗口与语音输入，配套 npm SDK 与开发指南 - 🔌 多模型厂商适配 — 针对不同厂商提供分级 Structured Output 与 Function Calling 兼容方案 - 🎨 个性化外观 — 支持多套界面风格、主题外观与聊天字体选择 - 📱 多平台接入 — 支持桌面端、飞书、微信 iLink 与 QQ（NapCat / OneBot 11），共享角色能力与对话体验 - 🌙 主动聊天 — 根据时间、状态与用户偏好主动发起交流，并支持多渠道定向投
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, ai-assistants, ai-companion, ai-memory, cyrene
+
+---
+
+### 🌟 [openharness](https://github.com/autonomous-ai/openharness)
+- **项目语言**: C
+- **星标数量**: ⭐ 458
+- **核心概述**: The open-source software and hardware platform for domain-specific harnesses. Run Claude Code, Codex and every coding agent across your machines, make them specialists in CAD, PCBs, robotics and games, and keep them on your desk with the open-hardware Harness device.
+- **大概是做什么的**: The open-source software and hardware platform for domain-specific harnesses. Run Claude Code, Codex, and every other coding agent in persistent terminals on all your machines. Give them a domain-specific harness (DSH) and they design circuit boards, model 3D parts, simulate robots, and build games in a live viewer. Keep them on your desk with the open-hardware Run it · Domain-specific harnesses · Harness device · Architecture · Contribute Coding agents, on every machine The coding agent is still the heart of the work, and OpenHarness is built around it. - Real terminals that outlive the window. Every agent runs in a persistent tmux session. Close the app and the agents keep working; if tmux goes down with a reboot, the daemon brings the panes back and resumes the sessions. - Every engine, no wrappers. Claude Code, Codex, Cursor, OpenCode, Pi, Hermes, Command Code, Devin, Muse Code, Amp, Kilo, Grok Build, Antigravity and GitHub Copilot. OpenHarness reads the transcript each agent already writes and installs the vendor's own hooks. Your credentials stay in /.claude , /.codex and so on
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, agent-framework, agent-harness, ai-agents, cad, claude-code
+
+---
+
+### 🌟 [awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)
+- **项目语言**: CSS
+- **星标数量**: ⭐ 317
+- **核心概述**: A curated list of official resources and community projects for TypeSafe, System One models, and Jev.
+- **大概是做什么的**: A curated list of official resources and community projects for TypeSafe, System One models, and Jev. TypeSafe's Jev returns typed, probabilistic decisions instead of generated text. This list focuses on the things you can use to understand that model shape, build with it, test its limits, and reproduce community experiments. Independent community project. This repository is not affiliated with or endorsed by TypeSafe AI. Community entries are labeled by section; inclusion is not a claim that TypeSafe has reviewed or approved them. Last reviewed: 2026-09-17. Jev and its ecosystem are moving quickly; please open a pull request when something changes. - Official resources - Product and documentation - SDKs and developer tools - Concepts, patterns, and cookbooks - Research and writing - Community and updates - Community projects - Client libraries and integrations - Agent and developer tooling - Finance and trading - Games, robotics, and interactive demos - Evaluations and independent research - Showcases and field notes - Introduction — What Jev is, how System One models differ from te
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, awesome-list, jev, llm, machine-learning, structured-output
+
+---
+
 ## 🕔 2026-09-19 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
