@@ -1,3 +1,67 @@
+## 🕔 2026-09-19 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-master](https://github.com/youngyangyang04/llm-master)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 784
+- **核心概述**: 大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。
+- **大概是做什么的**: 从第一次调用模型 API，到构建可评估的 RAG、可靠的 Agent 与可上线的 AI 系统。 开始学习 · 全部教程 · 专题索引 · 面试题库 网上从来不缺大模型资料，缺的是一条真正适合程序员的学习路径。 LLM Master 不是零散文章的合集，而是一套从 基础认知 → 应用开发 → RAG → Agent → 微调与部署 → Transformer → 项目与面试 逐级展开的完整知识体系。它关心的不只是“这个概念是什么”，更关心：为什么这样设计、工程上如何落地、出了问题怎么排查、面试时如何讲清楚。 如果你有 Java、C++、Go、Python 或前端开发基础，希望进入大模型应用开发、Agent 工程或 AI 后端，这个仓库就是为你准备的。 🧭 完整路线 从入门到生产与面试，按知识依赖组织，不再面对一堆文章无从下手 🧱 工程视角 聚焦 API、数据、检索、工具、状态、评估、性能、成本和可靠性 🔬 原理与代码 从 Q/K/V、Attention 到手写 Tiny Transformer，把黑盒逐层拆开 🛠️ 项目导向 每个阶段都有可交付项目和完成标准，学完能做、能讲、能写进简历 🎯 面试闭环 覆盖 RAG、Agent、微调、Transformer、AI 编程及真实大厂面经 🔄 持续更新 跟进 Agent Harness、Context Engineering、MCP、多 Agent 等前沿工程实践 AI使用 ChatGPT、GPT-6 Astra、Claude Opus 5、Fable 5.1 会员充值、API调用 基础认知 LLM 关键词、训练流程、岗位选择、Token 与 API 成本 开发者入门 模型应用 Prompt、结构化输出、流式响应、Function Calling、上下文工程 应用开发路线 RAG Chunk、Embedding、向量数据库、混合检索、Rerank、评估 RAG 专题 Agent ReAct、工具设计、规划、记忆、状态、失败恢复、评估 Agent 路线 Multi-Agent Planner/Worker/Reviewer、DAG、任务包、通信与上下文治理 Agent 专题 微调 SFT、RLHF、DPO、LoRA、QLoRA、蒸馏与 RAG 选型 微调专题 推理与部署 vLLM、SGLang、KV Cache、PagedAttention、量化、压测 部署专题 Transformer Q/K/V、Attention、位置编码、FFN、LayerNorm、完整实现 Transformer 专题 AI 编程 Cla
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, large-language-models, llm, llm-learning, llm-tutorial, rag
+
+---
+
+### 🌟 [xyne-spaces](https://github.com/juspay/xyne-spaces)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 310
+- **核心概述**: The AI Org-OS — a collaborative platform for humans and agents. Explore: https://spaces.xyne.ai
+- **大概是做什么的**: The org OS — your organization's context layer, with collaborative apps built around it. Real-time, permission-aware and built for agents. At the center: your org's context. Connectors bring in what your organization already knows — Slack, Google Workspace, Microsoft 365 and more — normalised into a store built for records and retrieval, and served back to your people and your agents through permission-aware org-context APIs, so every caller gets exactly the slice they're allowed to see. Around that core sit the org apps — Call · Claw · Agentic Search · Automations · Customer Support Desk · Chat · Canvas · Tickets — adopted as you choose, where your team can do the work directly. Work done in them lands straight in the same context store — with each read and write filtered through the same permission model. Quickstart · Community · Architecture · Agents · MCP tools · Documentation · Contributing · License · PRs welcome 📁 Table of Contents - What can I do with Xyne Spaces? - Agents and the sandbox - Feature requests and bugs Context is the foundation. Every conversation, decision, ti
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, automation, collaboration
+
+---
+
+### 🌟 [aft](https://github.com/cortexkit/aft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: Give your agent a proper IDE and OS. The sensorimotor cortex for coding agents (OpenCode + Pi), part of CortexKit: symbol-aware edits, semantic search, code health, fast grep/glob, bash compression, background tasks, PTY.
+- **大概是做什么的**: Give your agent a proper IDE and OS. The sensorimotor cortex for coding agents. You give yourself the best tools for the job: an IDE that shows you the whole codebase at a glance, the fastest terminal you can find, an operating system that runs a dozen things at once so you never wait on a single task to finish. Then you hand your agent read , edit , and raw bash , and wonder why it burns tokens on whole-file reads and breaks edits the moment a line moves. AFT gives it the real thing. It sits between an agent's reasoning and your codebase as a sensorimotor cortex , the part of the brain wired to perception and action: - Sensory cortex: perceive. Outline a file, zoom into one symbol, search by meaning, follow a call graph. The agent sees structure instead of scrolling text. - Motor cortex: act. Edit a function by name, refactor across the workspace, organize imports. Every change is parsed, validated, formatted, and backed up by the binary. - Brainstem: stay alive. Background bash tasks, PTY sessions, and compressed output keep the agent's environment running without it having to thin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, ai, ai-agents, ai-agents-framework, opencode, pi
+
+---
+
+### 🌟 [anytype-mcp](https://github.com/anyproto/anytype-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 525
+- **核心概述**: An MCP server enabling AI assistants to interact with Anytype - your encrypted, local and collaborative wiki - to organize objects, lists, and more through natural language.
+- **大概是做什么的**: The Anytype MCP Server is a Model Context Protocol (MCP) server enabling AI assistants to seamlessly interact with Anytype's API through natural language. It bridges the gap between AI and Anytype's powerful features by converting Anytype's OpenAPI specification into MCP tools, allowing you to manage your knowledge base through conversation. - Global & Space Search 2. Go to App Settings 3. Navigate to API Keys section 4. Click on Create new button Alternative: Get API key via CLI You can also get your API key using the command line: 2. Configure Your MCP Client Claude Desktop, Cursor, Windsurf, Raycast, etc. Add the following configuration to your MCP client settings after replacing with your actual API key: Tip: After creating an API key in Anytype, you can copy that ready-to-use configuration snippet with your API key already filled in from the API Keys section. Run this command to add the Anytype MCP server after replacing with your actual API key: Alternative: Global Installation If you prefer to install the package globally: 1. Install the package: 2. Update your MCP client conf
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anytype, api, mcp, mcp-server, modelcontextprotocol
+
+---
+
+### 🌟 [backlot](https://github.com/brekkylab/backlot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 203
+- **核心概述**: A local emulator for enterprise SaaS APIs — Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3 and more — with the real response shapes, pagination, auth and per-document ACLs, over a corpus you supply.
+- **大概是做什么的**: Run enterprise SaaS APIs locally. Backlot is a local emulator for Slack, Gmail, Google Drive, GitHub, Jira, Notion, S3 and other enterprise APIs. It reproduces the response shapes, pagination, authentication, errors and per-document access controls an integration has to handle, over a deterministic corpus you control — so you build and test against the official vendor SDKs with no vendor account , no OAuth approval , no secrets in CI and no network . Try it in 60 seconds Point an official SDK at it by changing one base URL: The same call targets Slack in production and Backlot in development. Backlot supplies the data and the credentials; your code keeps the vendor's request and response contract. A test can run its own server instead, on a free port, with nothing to start or clean up: Let your coding agent run Backlot instantly This repo is its own plugin marketplace, so the agent skill installs with no clone and no pip install first. Or hand the agent every source as MCP tools: backlot mcp starts a server if none is running and serves them all over stdio, with --user answering as t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amazon-s3, api-mock, enterprise, fastapi, github
+
+---
+
+### 🌟 [agentcad](https://github.com/jdilla1277/agentcad)
+- **项目语言**: Python
+- **星标数量**: ⭐ 129
+- **核心概述**: CAD CLI and MCP server for AI agents
+- **大概是做什么的**: CAD tool for AI agents. Give your coding agent the ability to design 3D models. Your agent writes build123d Python scripts by default. agentcad handles execution, STEP export, PNG rendering, mesh export (STL/GLB/OBJ), geometric metrics, validation, diffing, and browser preview. CadQuery remains available as an explicit compatibility mode. Each command's final response is structured JSON on stdout. Reading the output: the JSON response is written to stdout ; human-readable progress and diagnostics go to stderr . Parse stdout as JSON and treat stderr as plain text — don't merge the streams with 2 &1 before a JSON parser, or the progress lines will break parsing. If you need both, capture them separately. agentcad is open source under the Apache License 2.0. It runs locally and requires no signup. A coding agent designing in agentcad, live. See more at agentcad.dev. Parts let an agent build CAD as named, color-coded pieces and groups, then hand back a viewer a human can inspect. Watch the demo on YouTube or read the story at agentcad.dev/parts. Install agentcad, then paste this into Cla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, build123d, cad, cadquery, mcp
+
+---
+
 ## 🕔 2026-09-19 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
