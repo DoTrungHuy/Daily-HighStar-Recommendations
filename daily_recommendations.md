@@ -1,3 +1,67 @@
+## 🕔 2026-09-19 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Decepticon](https://github.com/BitterSecurity/Decepticon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,556
+- **核心概述**: Autonomous Hacking Agent for Red Team
+- **大概是做什么的**: Decepticon — Autonomous Red Team Agent "Another AI hacker? Let us guess — it runs nmap and writes a report." ☁️ Don't want to self-host? Decepticon is live in the cloud. Skip the Docker setup — run autonomous red-team engagements right from your browser. Prerequisites : Docker and Docker Compose v2. Supported on macOS (Apple Silicon + Intel), Linux (amd64 + arm64), and Windows (amd64 + arm64) — native via PowerShell or via WSL2 (Ubuntu / Kali). macOS / Linux / WSL2 The default start brings up the core management plane (LiteLLM, PostgreSQL, Neo4j, Skillogy, LangGraph, sandbox) and launches the terminal CLI. Specialist workloads (BloodHound CE, Sliver C2, Ghidra MCP, …) and the web dashboard come up on demand — the orchestrator spawns specialists via ops start("ad") etc., and you bring up the dashboard from inside the CLI with /web (see Web Dashboard). Windows (PowerShell, native) → Quick start · Full setup walkthrough Use as a library (pip) Building on top of the agents — a product, a research integration, or a custom orchestrator? Install the SDK from PyPI: decepticon is a client SDK
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cybersecurity, generative-ai, hacking, langchain
+
+---
+
+### 🌟 [jarvis](https://github.com/isair/jarvis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,802
+- **核心概述**: A 100% private AI voice assistant that lives on your computer (works offline). Talk naturally as if Jarvis is a third person in the room, and get conversational responses. It remembers everything, knows location and time, can check the web, control Chrome, track nutrition, and more with support for unlimited MCPs / tools without context rot.
+- **大概是做什么的**: A 100% private AI voice assistant that lives on your computer (works offline). Talk naturally as if Jarvis is a third person in the room — say its name anywhere in your sentence and get conversational, context-aware responses. It remembers everything, always knows the current location and time, can search the web, read your screen, control Chrome, track nutrition, and much more with support for unlimited MCPs and tools without context rot. Sensitive info is automatically redacted before anything is saved to disk. 🔒 100% local processing. No subscriptions. No data harvesting. Automatic redaction of sensitive info. Free offline dictation included. 🔒 Your data stays yours - 100% local AI processing. No cloud, no subscriptions, no data harvesting. Automatic redaction of sensitive info. This is non-negotiable. 🗣️ A third person in the room - Unlike voice assistants that only respond to rigid commands, Jarvis understands conversations. It maintains a short temporary rolling context of what's being discussed, so when you ask "Jarvis, what do you think?" it knows exactly what you're talki
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, assistant, health, machine-learning, mcp, nutrition
+
+---
+
+### 🌟 [aoci-code](https://github.com/aoci-spec/aoci-code)
+- **项目语言**: Go
+- **星标数量**: ⭐ 443
+- **核心概述**: A persistent, Git-versioned map of your whole codebase and database schema that coding agents read before they touch anything. Local-first MCP server + CLI in Go: a governed repository index of code knowledge that gives Claude Code, Codex, Cursor, and opencode long-term context, memory, and code intelligence.
+- **大概是做什么的**: A persistent, Git-versioned map of your entire codebase — written by your coding agent, governed by a local MCP server. Agents read it once and know the system, instead of re-reading the repo on every task. 🇺🇸 English 🇨🇳 简体中文 Take over an existing system in one step. Point the agent at an existing codebase of up to about 500,000 lines and ask it to build the index. It reports how well it knows each area, then picks up development from there. The practical limit is the size of the index, not the line count: a 700,000-line commercial system is developed this way today, with an index of about 300K tokens. Change people, agents, or conversations without starting over. The index lives in the repository next to the code and is versioned by Git. When a project changes hands, switches agents, or opens a new conversation, one read of the index picks up where things left off. After the first index, maintenance is automatic. The MCP server detects code changes and issues the entries that need updating. The agent fills them in as it finishes each task, so the index matches the current code a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agents-md, ai-coding, ai-context, claude-code, code-indexing
+
+---
+
+### 🌟 [intelligo](https://github.com/intelligo-dev/intelligo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 429
+- **核心概述**: The application framework for vertical AI SaaS — auth, workspaces, billing, credits, execution boundary, page registry. You build the agent.
+- **大概是做什么的**: The application framework for vertical AI SaaS. You build the agent, with the AI framework you already use. Intelligo is everything around it — and it is tested, typed, and yours. Website · Docs · Blocks · Components · Architecture · Why The first twelve seconds. Watch the whole minute — pages as source, the execution boundary, usage, and the config that makes it yours. Status: 1.0 beta. On npm under the beta dist-tag ( @intelligo-dev/ @beta ); APIs are settling until 1.0. Everything on this page exists and runs today. Ignite is a career advisor for Mongolian students, in beta with its first users — and an ordinary consumer of these packages from npm. 1. Its team wrote the advisor: the prompts, the tools over their career data, their own tables. 2. create and the registry gave it sign-up, workspaces, the shell, chat, billing and usage, as source in its repository. 3. Plans, credits, metering and audit are @intelligo-dev/ versions it bumps. 4. The two meet in config files — the agent's identity, its tools, the navigation, the plans. No installed page is edited. 5. Every advisor turn i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, chat-ui, saas, saas-application
+
+---
+
+### 🌟 [Deft](https://github.com/Maneek21/Deft)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: Self-hostable AGPL workspace where humans and AI agents share chat, tasks, knowledge, approvals, and MCP context.
+- **大概是做什么的**: Where humans and agents work together. Website Self-hosting guide Contributing Deft is a self-hostable, open-source workspace where people and AI agents share chat, tasks, knowledge, calendar context, approvals, and action history. Capture a team discussion into knowledge, ask Defty to propose a task using that context, review and approve the proposal, and keep the agreed details in the resulting task. Alpha: for technical evaluation and controlled pilots. The walkthrough uses seeded demo data ; it is not evidence of a live customer workspace or an active external agent runtime. Watch the full walkthrough — 5:09. Quick start with Docker Use the prebuilt v0.3.0-preview.15 release for evaluation. It targets Linux amd64 and needs Docker Desktop or Docker Engine with Compose v2. An AI provider is optional. No source build, Node.js, or pnpm is needed for this path. Paste each independently generated secret into its corresponding .env variable. All four are required for Docker, including local evaluation. Keep the encryption key with your backups. Leave AI keys empty and OLLAMA URL comment
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-platform, agpl, ai-agents, ai-workspace, byoa, chat
+
+---
+
+### 🌟 [easyeda-copilot](https://github.com/biosshot/easyeda-copilot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 147
+- **核心概述**: AI-powered assistant for EasyEDA — generate schematics from natural language, browse LCSC components, design PCBs with custom DRC configurations, and get interactive circuit design help.
+- **大概是做什么的**: English 简体中文 Русский Extension sources, UI, resources and build configuration live in extension/ ; mcp/ and shared/ are sibling workspaces. Root build/dev commands remain the entry point. The .eext output remains in build/dist/ . See extension development. MCP-based engineering automation for native EasyEDA Pro and JLCEDA documents. EasyEDA Copilot connects MCP-capable AI agents to real schematic and PCB data. It supports schematic generation and reorganization, component resolution, constraint-driven PCB placement, checkpoint-backed routing transactions, structured design inspection, recovery, and native EasyEDA DRC. Creating and assembling an LDO schematic from a text specification. Featured demonstration: BGA2869 2 GHz RF amplifier A complete RF design workflow inside EasyEDA Pro: schematic organization, pin-level signal-path constraints, compact component placement, PCB routing, ground planes, and via stitching. The RF ports are positioned on opposite board edges, the amplifier chain is kept ordered, and the bias network is placed close to the MMIC. The resulting components, trac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-assistant, circuit, easyeda, easyeda-extension
+
+---
+
 ## 🕔 2026-09-19 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
