@@ -1,3 +1,67 @@
+## 🕔 2026-09-20 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [localgpt](https://github.com/localgpt-app/localgpt)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,121
+- **核心概述**: Local AI assistant, dreaming explorable worlds.
+- **大概是做什么的**: From crates.io (for users) If you just want to run LocalGPT — no source checkout needed: From source (for developers) If you've cloned the repository and want to hack on the code, use cargo run to iterate without installing: Full options (feature flags, headless builds, Docker): see Installation. Gen Mode (World Building) localgpt-gen is a standalone binary for AI-driven 3D world creation with the Bevy game engine. - Parametric shapes — box, sphere, cylinder, capsule, plane, torus, pyramid, tetrahedron, icosahedron, wedge - PBR materials — color, metalness, roughness, emissive, alpha, double-sided - Lighting — point, spot, directional lights with color and intensity - Behaviors — orbit, spin, bob, look at, pulse, path follow, bounce - Audio — ambient sounds (wind, rain, forest, ocean, cave) and spatial emitters - Export — glTF/GLB, HTML (browser-viewable), screenshots - World skills — save/load complete worlds as reusable skills Headless Mode & Experiment Queue Queue world experiments and generate without a window — overnight batch runs, CI pipelines, or scripted variations: The memo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, bevy, rust, world
+
+---
+
+### 🌟 [learn-from-materials](https://github.com/dmoshehun-prog/learn-from-materials)
+- **项目语言**: Python
+- **星标数量**: ⭐ 417
+- **核心概述**: Turn PDFs, books and papers into interactive learning webpages｜将复杂材料转化为可追溯、可测验、可做笔记的学习网页
+- **大概是做什么的**: learn-from-materials Turn books, PDFs, slides, Word documents, web pages, and multi-file material sets into traceable knowledge bases, interactive learning pages, and synced Markdown. learn-from-materials is a cross-agent learning skill built on the open Agent Skills specification. It emphasizes complete reading, verifiable sources, a strict separation between material facts and model-added content, offline-first operation, and least privilege. It works in agent environments that can read files, run local commands, and recognize SKILL.md — such as WorkBuddy, Codex, Claude Code, and GitHub Copilot CLI. Pure chat environments without file-system access or Python execution can only use parts of the prompting workflow; they cannot perform material extraction, coverage validation, or HTML rendering. A Methodology That Spans the Whole Material It starts by extracting the material's central question and its goal, then organizes the argument, frameworks and action rules into one complete structure. It supports the main flow, decision branches, causal and hierarchical relations, and evidence-
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude-code, codex, education, knowledge-base
+
+---
+
+### 🌟 [Paxeer-X-Network](https://github.com/Sidiora-Labs/Paxeer-X-Network)
+- **项目语言**: Go
+- **星标数量**: ⭐ 371
+- **核心概述**: Paxeer X is a Distributed HyperState Machine for payments, code execution and intent routing. Designed for Machines and the Users operating them.
+- **大概是做什么的**: Paxeer X Network — one network: the Paxeer EVM chain and the LayerX agent-native domain behind one interface. English · Español · 日本語 · Русский · 简体中文 · Português · Deutsch · Français What Paxeer X Network is Paxeer X Network is a deterministic execution and accounting network for autonomous agents. Every state-changing operation enters as a signed, canonically encoded Activity . The protocol verifies the actor and its authority, consumes the account sequence, orders the activity on one global sequence, applies a deterministic state transition, and returns a signed receipt tied to the resulting state root. The append-only activity log is the authority. Database indexes are disposable projections and can be rebuilt by replaying that log. Consensus-critical execution excludes floating point, local clock decisions, database iteration order, and other sources of nondeterminism. 402LXP is the only component allowed to write balances. Protocol modules emit validated transfer sets rather than mutating funds themselves. Ordinary agent activity is executed and ordered inside LayerX. Periodic
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, ai-agents, blockchain, model-context-protocol, monorepo
+
+---
+
+### 🌟 [daiso-mcp](https://github.com/hmmhmmhm/daiso-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 333
+- **核心概述**: 다이소를 MCP로! 뿐만 아니라 한국 로컬 리테일과 영화관 조회를 MCP, CLI, Codex Skill로 가능하게 해줍니다.
+- **大概是做什么的**: 다이소(제품/매장/재고), 상품 가격 비교, 주변 음식점/카페, 주유소/유가, 개발자 요청 제출, 롯데마트(매장/상품), GS25(매장/상품/재고), 세븐일레븐(상품/매장/재고/인기검색어/카탈로그), CU(매장/재고), 이마트24(매장/상품/재고), 올리브영(매장/재고), 메가박스(지점/영화/시간표/좌석), 롯데시네마(지점/영화/좌석), CGV(극장/영화/시간표), 디트릭스(독립·예술영화관/상영작/잔여 좌석) 조회 기능을 MCP, CLI, Codex Skill로 AI에 연결합니다. 디트릭스의 지원 범위와 CLI 예시는 독립·예술영화관 조회 가이드를 참고하세요. MCP: https://mcp.aka.page · CLI: npx daiso · Skill: clawhub install daiso-cli ClawHub: clawhub.ai/hmmhmmhm/daiso-cli 한국 로컬 리테일, 생활 정보, 영화관 조회를 MCP, CLI, Codex Skill로 연결하는 도구입니다. 사용자는 별도 API 키를 준비하지 않고 바로 사용할 수 있습니다. 전국 평균 유가, 최저가 주유소, 위치 기반 주유소, 주유소 상세정보 다이소, GS25, 세븐일레븐, 이마트24 같은 상품의 판매처별 가격 후보 비교 MCP 오류, 개선 요청, 신규 기능 요청 저장 GS25, 세븐일레븐, CU, 이마트24 상품, 매장, 재고, 인기검색어, 카탈로그 Cloudflare 요청 수 (2026-08-22 2026-09-20, 30일) 기준 워커: daiso-mcp · 마지막 갱신: 2026-09-21 03:13 KST 집계: Worker 실행 + 루트 GET 리디렉션 요청 · 사용자 수와 다릅니다. 최근 공개 서버 사용량이 크게 증가하여 2026년 7월 18일부터 올리브영·CGV·CU·GS25·롯데마트의 검색을 포함한 공개 GET API에 IP당 하루 합산 3,000회(KST 기준)의 호출 제한을 적용합니다. 한도를 초과하는 사용이 필요하다면 Daiso MCP는 오픈 소스이므로 이 저장소를 직접 배포해 이용해 주세요. ChatGPT, Claude, Home Assistant, Grok 같은 AI 앱에서 바로 연결해 사용할 수 있습니다. 아래 앱별 가이드에서 먼저 연동한 뒤
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cgv, clawhub, cli, codex-skill, daiso, gs25
+
+---
+
+### 🌟 [mcpfusion](https://github.com/vinkius-labs/mcpfusion)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 256
+- **核心概述**: MCP Fusion - The TypeScript framework for secure MCP servers.
+- **大概是做什么的**: The TypeScript framework for secure, MCP 2.0-native servers. MCP Fusion is a TypeScript framework that enforces security at the architectural level of every MCP server. Raw data never reaches the LLM without passing through a typed egress firewall. Tools are physically removed from the agent's namespace when the workflow state forbids them. Every behavioral surface is hashed, locked, and auditable in version control. The framework ships with a SKILL.md — a machine-readable architectural contract. AI coding agents read the Skill and produce correct, governed servers on the first pass. MCP 2.0 ( 2026-07-28 ) — Full Compliance MCP Fusion is 100% compatible with MCP 2.0 (protocol revision 2026-07-28 ). Every feature the spec defines is implemented or handled via the MCP SDK v2. Every feature the spec deprecates is deprecated in MCP Fusion. Implemented MCP 2.0 Features Feature Status How Stateless protocol ✅ transport: 'stateless' — per-request serving, no sessions, no initialize handshake, Mcp-Method / Mcp-Name header routing Multi Round-Trip Requests (MRTR) ✅ requireInput() + readInput(
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: chatgpt, claude, mcp, mcp-framework, mcp-server, mcp-tools
+
+---
+
+### 🌟 [EvoOntology](https://github.com/ruc-datalab/EvoOntology)
+- **项目语言**: Python
+- **星标数量**: ⭐ 208
+- **核心概述**: EvoOntology: A Self-Evolving Ontology Layer for Data Agents ⚙️ EvoOntology插件为Claude Code/Codex 建立&进化本体层
+- **大概是做什么的**: EvoOntology: A Self-Evolving Ontology Layer for Data Agents Demo · Quick start · Community · Star history Authors: Meiduo Chong, Shaolei Zhang , Ju Fan, Xiaoyong Du Renmin University of China EvoOntology bridges the agent-data gap over heterogeneous tables, files, and databases. It exposes a versioned Ontology Layer through MCP tools, grounds that layer in real workload evidence, and continuously adapts it from execution trajectories. - Raw data leaves semantics implicit. Table names, columns, file paths, and isolated observations rarely explain metric definitions, entity relationships, or business constraints. Agents must infer them repeatedly and are prone to semantic errors. - Static semantic layers do not scale with use. Hand-authored layers require sustained expert maintenance, become stale as data and workloads change, and consume increasing context when injected in full. - Agents need semantics that can adapt. EvoOntology provides a workload-grounded Ontology Layer that agents query on demand and that evolves from observed execution behavior under controlled evaluation. An age
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, claude-code, codex, data-analysis, data-science
+
+---
+
 ## 🕔 2026-09-20 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
