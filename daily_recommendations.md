@@ -1,3 +1,67 @@
+## 🕔 2026-09-20 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [okou](https://github.com/okou-ai/okou)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,154
+- **核心概述**: Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control.
+- **大概是做什么的**: More done. Same team. Give it a job, not a prompt. Okou connects to the tools your team already uses and does the work — across marketing, sales, engineering, and operations, under your control. Get started free · ⭐ Star us on GitHub — it motivates us a lot! ⭐ Hire it into a role, not a task You @mention Okou the way you would ask a colleague — without spelling out the steps. @Okou build the Litoral one-pager — hero, the story, three room tiles. Brand kit is in Drive. Read the brand brief. Publishing as soon as it reads right. → Litoral Coastal Hotel Site — published Reads well. Can you send the launch note to the list? Drafted in Gmail — unsent, yours to send. It works out the angle, picks its own tools, and does the job in the open where the team can see it. Every workflow your team builds is an asset it keeps One person works out how a job should get done. That becomes something the whole team can run. 1. Run Someone asks for a piece of work the way they would ask a colleague. Okou figures out the steps. 2. Save When it sees the job repeat, Okou offers to keep the run — the instru
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflow, ai-agent, ai-runtime, ai-sandbox, dev-tools, sandbox
+
+---
+
+### 🌟 [fli](https://github.com/punitarani/fli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,174
+- **核心概述**: Google Flights MCP, CLI and Python Library
+- **大概是做什么的**: 🛫 Fli - Flight Search MCP Server and Library A powerful Python library that provides programmatic access to Google Flights data with an elegant CLI interface. Search flights, find the best deals, and filter results with ease. 🚀 What makes fli special? Unlike other flight search libraries that rely on web scraping, Fli directly interacts with Google Flights' API through reverse engineering. Fast : Direct API access means faster, more reliable results Zero Scraping : No HTML parsing, no browser automation, just pure API interaction Reliable : Less prone to breaking from UI changes Modular : Extensible architecture for easy customization and integration Connecting to Claude Desktop Note : Replace with your actual username. You can also find the path to the MCP server by running which fli-mcp in your terminal. The MCP server provides two main tools: Tool Description ---------------------- ------------------------------------------------------------- search flights Search for flights on a specific date with detailed filters search dates Find the cheapest travel dates across a flexible d
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, flights-api, google-flights, google-flights-api, mcp, mcp-server
+
+---
+
+### 🌟 [awesome-jev](https://github.com/yibie/awesome-jev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 481
+- **核心概述**: A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.
+- **大概是做什么的**: A curated awesome list of public projects and practices built on Jev, TypeSafe AI's System One model for typed decisions. This README is the homepage aggregate of the current category files, so the latest accepted entries are visible here without drilling into subpages. Jev is not a chat model. It takes unstructured state plus a typed question and returns a typed decision — a choice, a score, or a boolean, each with a confidence. That makes it a drop-in decision layer for software: classification, routing, rubric scoring, verification, and agent guardrails. This list tracks who is actually building with it, and which patterns transfer across industries. The repository treats all categories equally — each entry lives in exactly one category, chosen by its direct Jev application domain. A dedicated Related Practices / Discussions category captures credible public practice signals — X threads, Reddit discussions, and interviews — that describe real Jev usage even when no strong standalone case page exists yet. A listing is not an endorsement. This project applies inclusion rules only —
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: awesome, awesome-list, jev, llm
+
+---
+
+### 🌟 [aghub](https://github.com/AkaraChen/aghub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 268
+- **核心概述**: One hub for every AI coding agent. Unified configuration management for 22+ assistants.
+- **大概是做什么的**: One hub for every AI coding agent. Platform Download ---------------------- ------------------------------------------------------------------------------------------------ Windows (experimental) setup.exe macOS (Intel) dmg macOS (Apple Silicon) dmg Linux AppImage Or visit Releases for all available downloads. - Windows: Windows 10 and above - macOS: macOS 12 (Monterey) and above - Linux: Ubuntu 22.04+ / Debian 11+ / Fedora 34+ and other mainstream distributions Unified MCP Management - Configure once, deploy to any of 22+ supported agents - Stdio, SSE, and StreamableHttp transports - Enable or disable servers without removing them - View and audit servers across all agents in one command - Import .skill packages or author skills with SKILL.md frontmatter - Share skills across agents via the universal skills directory - SHA-256 content verification and source provenance tracking - Browse and install from the skills.sh marketplace - Install plugins from anywhere — the official registry, third-party Git URLs, or a local path - Marketplace built in — discover, browse, and install Claude
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, assistant, claude-code, configuration-management, cursor, developer-tools
+
+---
+
+### 🌟 [camel-quarkus](https://github.com/apache/camel-quarkus)
+- **项目语言**: Java
+- **星标数量**: ⭐ 302
+- **核心概述**: Apache Camel Quarkus
+- **大概是做什么的**: = Apache Camel extensions for Quarkus image:https://img.shields.io/maven-central/v/org.apache.camel.quarkus/camel-quarkus-bom.svg["Maven Central", link="http://search.maven.org/ search%7Cga%7C1%7Corg.apache.camel.quarkus"] image:https://img.shields.io/github/license/openshift/origin.svg?maxAge=2592000["Licensed under Apache License version 2.0", link="https://www.apache.org/licenses/LICENSE-2.0"] image:https://img.shields.io/badge/zulip-join chat-brightgreen.svg["Chat on Zulip", link="https://camel.zulipchat.com"] ==== CI Branch Status main image:https://github.com/apache/camel-quarkus/actions/workflows/ci-build.yaml/badge.svg?branch=main["Main Branch Build", link="https://github.com/apache/camel-quarkus/actions?query=workflow%3A%22Camel+Quarkus+CI%22"] camel-main image:https://github.com/apache/camel-quarkus/actions/workflows/ci-build.yaml/badge.svg?branch=camel-main["Camel Main Branch Build", link="https://github.com/apache/camel-quarkus/actions?query=workflow%3A%22Camel+Quarkus+CI%22+branch%3Acamel-main"] quarkus-main image:https://github.com/apache/camel-quarkus/actions/workflows
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: camel, cloud-native, data-transformation, enterprise-integration-patterns, integration, integration-framework
+
+---
+
+### 🌟 [operational-ontology](https://github.com/gura105/operational-ontology)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 105
+- **核心概述**: A minimal, readable reference implementation of the Operational Ontology pattern. Palantir Foundry is one implementation; this is the concept, minimized.
+- **大概是做什么的**: Operational Ontology An operational ontology is a shared domain model over other systems' data: objects and links for reading the business, and actions that enforce business rules, audit attempts, and write changes back to the systems of record. A semantic layer lets you read your business. An operational ontology lets you run it. This repository makes that definition runnable in a small TypeScript reference implementation. Palantir Foundry's Ontology is the pattern's starting point; this example isolates the ideas so you can read, fork, and adapt them. It is a learning resource, not a framework or an npm dependency. Requires Node.js 24 or later and pnpm. The demo follows the accompanying article: a company acquires a competitor and inherits two legacy order systems with different schemas and status encodings . SQL and a small mapping integrate their data into one model. Run it to see: - links and aggregates answer questions across both systems; - cancelOrder refuse a shipped order and write an allowed cancellation back to the original ERP; - assignOrder and addOrderNote store state
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, domain-modeling, mcp, ontology, operational-ontology, palantir-foundry
+
+---
+
 ## 🕔 2026-09-20 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
