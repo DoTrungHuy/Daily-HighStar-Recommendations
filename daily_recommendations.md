@@ -1,3 +1,67 @@
+## 🕔 2026-09-20 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [wslmanager](https://github.com/bostrot/wslmanager)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 4,004
+- **核心概述**: GUI for the Windows Subsystem for Linux — and native Linux/macOS VMs on Mac. Install, back up, move and configure distros without CLI flags; AI assistant with tools, MCP server for agents, remote WSL over SSH.
+- **大概是做什么的**: Welcome to WSL Manager 👋 English 简体中文 繁體中文 Deutsch Español 日本語 Magyar Português Türkçe Shown on Windows &middot; the same app runs native VMs on macOS &mdash; expand See it on macOS below Preview with light theme (Windows) 🍎 See it on macOS &mdash; native Linux and macOS virtual machines through Apple's Virtualization framework (beta) WSL Distro Manager is a free, open source GUI for the Windows Subsystem for Linux — and, on macOS, for native Linux VMs. Install, copy, rename, move, back up and delete WSL distros without memorising a single wsl.exe flag — plus templates, saved command snippets, disk mounting, .wslconfig editing, remote WSL over SSH, and an MCP server that lets AI agents drive your WSL environment. On a Mac the very same app manages virtual machines through Apple's Virtualization framework instead. - [x] Install from a built-in catalogue, or bring your own rootfs - [x] Copy, rename, move to another drive, back up and delete instances - [x] Back every instance up to one folder — with a list of what is in it — and restore them all on another PC - [x] Compact virtual di
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, developer-tools, docker, flutter, gui, llm
+
+---
+
+### 🌟 [Foam-Agent](https://github.com/csml-rpi/Foam-Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 323
+- **核心概述**: Foam-Agent: A large language model-based multi-agent framework for automating computational fluid dynamics workflows. Published in Computer Methods in Applied Mechanics and Engineering (CMAME).
+- **大概是做什么的**: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM Foam-Agent automates the OpenFOAM -based CFD simulation workflow from a natural language prompt or an existing case. It manages meshing, case setup, execution, error correction, and optional post-processing. The project's reported FoamBench evaluation covers 110 simulation tasks and records a 100% success rate with Claude Opus 4.6; this is a benchmark result, not a guarantee for arbitrary cases. Visit deepwiki.com/csml-rpi/Foam-Agent for a comprehensive introduction and to ask questions interactively. - End-to-End Workflow : Meshing (including external Gmsh .msh files), case generation, local execution or Slurm submission, and optional PyVista visualization. Execution requires the corresponding runtime and infrastructure. - Multi-Agent Workflow : Architect, Input Writer, Runner, and Reviewer agents collaborate through a LangGraph pipeline with automatic error correction (up to 25 iterations). - RAG-Enhanced Generation : Hierarchical FAISS indices built from OpenFOAM tutorials provide context-spec
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, cfd, computational-fluid-dynamics, foam-agent, multi-agent-systems, openfoam
+
+---
+
+### 🌟 [openfate-mcp](https://github.com/openfate-ai/openfate-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 154
+- **核心概述**: OpenFate Bazi MCP server with deterministic Four Pillars calculation, True Solar Time, branch interactions, and reverse Bazi lookup.
+- **大概是做什么的**: OpenFate Bazi MCP is a Model Context Protocol server for accurate Bazi / Four Pillars calculation inside AI agents such as Claude Desktop, Cursor, Cline, and Continue. Powered by OpenFate.ai, an AI-native Bazi, Ziwei, and astrology platform. You can also try the free Bazi Chart Calculator, generate an AI Bazi Reading, compare relationships with Bazi Compatibility, or read the True Solar Time guide. AI crawlers can read OpenFate llms.txt. This MCP wraps the deterministic OpenFate calculation packages: - @openfate/bazi-engine - @openfate/true-solar-time The purpose is simple: let the language model call a reliable calculation engine instead of hallucinating calendrical math. LLMs should not manually calculate Bazi charts. The difficult parts are deterministic: - 24 solar-term boundaries - longitude and timezone correction - Zi-hour day-boundary rules - lunar-to-solar conversion - branch interactions This server gives the AI agent stable JSON, then lets the model focus on explanation and interpretation. For MCPB-compatible clients and Smithery, build the self-contained local bundle: The
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-skills, four-pillars, mcp, openfate, true-solar-time
+
+---
+
+### 🌟 [fxhoudinimcp](https://github.com/healkeiser/fxhoudinimcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 243
+- **核心概述**: The most comprehensive MCP server for SideFX Houdini.
+- **大概是做什么的**: &nbsp;&nbsp;&nbsp;&nbsp; The most comprehensive MCP server for SideFX Houdini. 206 tools across 23 categories, covering every major Houdini context. - Environment Variables A comprehensive MCP (Model Context Protocol) server for SideFX Houdini. Connects AI assistants like Claude directly to Houdini's Python API, enabling natural language control over scene building, simulation setup, rendering, and more. 206 tools , 8 resources , and 9 prompts serving 31 written workflow guides out of the box. Category Tools Description ---------- ------- ------------- Graph Intelligence 6 Atomic validated network building, network verification, node doc cards, cook profiling, frame-range cooking with per-frame evidence, cook status Documentation 2 Full-text search + page retrieval over Houdini's own shipped manual (version-exact) Scene Management 10 Open, save, import/export, scene info, connection status, undo/redo Node Operations 22 Create, delete, copy, connect, layout, flags, network boxes, sticky notes, object transforms Parameters 12 Get/set values in bulk, expressions, keyframes, spare parame
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, houdini, mcp
+
+---
+
+### 🌟 [pixiv-cli](https://github.com/FlanChanXwO/pixiv-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 132
+- **核心概述**: Pixiv, in your terminal — a CLI, MCP server, and Go SDK for discovery, accounts, creators, collections, and downloads.
+- **大概是做什么的**: Pixiv CLI · MCP stdio server · Go SDK Install · Quick start · Interfaces · Documentation · Contributing pixiv-cli brings the Pixiv ecosystem to the terminal: discover works and creators, manage accounts and collections, follow artists, bookmark artworks, and download visual works. It is an independent, unofficial third-party CLI, MCP server, and public Go SDK; it is not affiliated with or endorsed by Pixiv Inc. The CLI and MCP server both call the same public Go SDK, with the Pixiv App API as the authenticated source of truth. Use it in accordance with Pixiv's terms and applicable law. - One capability surface — keyword search, details, rankings, recommendations, users, bookmarks, follows, downloads, and ugoira across CLI, MCP, and SDK; reverse-image search is integrated into the CLI/MCP surface. - Read-only FANBOX access — authenticate with FANBOXSESSID , inspect creators, posts, home/supporting feeds, tags, and first-party file resources through the CLI, MCP, or sdk/fanbox . - Composable visual pipelines — visual lists automatically emit canonical NDJSON when piped; use --filter fo
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api-client, cli, cli-tool, command-line, golang, homebrew
+
+---
+
+### 🌟 [moira](https://github.com/moira-mcp/moira)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: Agent Workflow Engine for AI agents over MCP — per-step directives, completion conditions, and JSON-Schema validation. Self-hostable (Apache-2.0).
+- **大概是做什么的**: Agent Workflow Engine for AI agents. Primary users: AI agents via MCP protocol. Web UI is supplementary for workflow management. See docs/VISION.md for product vision and design principles. Two ways to run Moira - Self-host (this repository, Apache-2.0) — run the full engine + Web UI + MCP server in a single Docker container on your own infrastructure. Free and open source; your data stays with you. Start in the Quick Start - Moira Cloud (managed) — a hosted instance with nothing to operate, at Both run the same engine and MCP tools . Self-host is a single-tenant private-team deployment with administrator-approved accounts. Cloud adds managed hosting and SaaS-only policy and administration, including social login, legal consent, email verification, and the broader multi-user administration surface. Monorepo : Clean separation of concerns with npm workspaces Workflow Engine : Node-graph execution over a set of node types (@mcp-moira/workflow-engine) MCP Server : HTTP protocol server exposing the MCP tools (@mcp-moira/mcp-server) Web Backend : Express API server (@mcp-moira/web-backend
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-workflow, ai-agents, docker, mcp, model-context-protocol, self-hosted
+
+---
+
 ## 🕔 2026-09-20 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
