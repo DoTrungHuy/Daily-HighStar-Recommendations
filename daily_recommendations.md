@@ -1,3 +1,67 @@
+## 🕔 2026-09-20 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [C2C](https://github.com/thu-nics/C2C)
+- **项目语言**: Python
+- **星标数量**: ⭐ 638
+- **核心概述**: [ICLR'26] The official code implementation for "Cache-to-Cache: Direct Semantic Communication Between Large Language Models"
+- **大概是做什么的**: Direct Semantic Communication Between Large Language Models 🌐 Project Page • Cache-to-Cache (C2C) enables Large Language Models to communicate directly through their KV-Caches, bypassing text generation. By projecting and fusing KV-Caches between models, C2C achieves 8.5–10.5% higher accuracy than individual models and 3.0–5.0% better performance than text-based communication, with 2.0× speedup in latency. Feel free to star the repo or cite the paper if you find it interesting. Why "Rosetta"? The Python package is named after the Rosetta Stone , the ancient artefact that unlocked the translation of Egyptian hieroglyphs by presenting the same text in multiple scripts. Likewise, C2C translates KV-cache representations between otherwise independent LLMs, allowing them to speak a common language in a richer and more direct way. [2026/09] 🤔 We will soon be releasing agent-managed KV-Cache in this repo, along with the corresponding serving system, as our next step forward. Stay tuned! [2026/01] 🎉 Our paper is accepted by the ICLR'26 conference. Welcome to discuss more about it in Brazil
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: kv-cache, llm, multi-agent
+
+---
+
+### 🌟 [bkit-claude-code](https://github.com/ww-w-ai/bkit-claude-code)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 601
+- **核心概述**: bkit Vibecoding Kit - PDCA methodology + Claude Code mastery for AI-native development
+- **大概是做什么的**: bkit — AI Native Development OS A Claude Code plugin that verifies AI-generated code against its own design specs. Three commands. Anyone — even someone vibe-coding for the first time — can ship robust, production-quality software. bkit turns Claude Code into a Context Engineering system : 44 skills, 34 specialist agents, 11 quality gates, and a memory that survives across sessions deliver the right context to the AI at the right moment, so you don't have to know prompts, commands, or PDCA to get high-quality results. Requirement : bkit requires Claude Code v2.1.143 or later (the strict plugin-manifest path recognizes the official displayName field only from v2.1.143). On older Claude Code you will see Validation errors: Unrecognized key: "displayName" during claude plugin install . Run npm install -g @anthropic-ai/claude-code@latest to upgrade, or see docs/06-guide/cc-compatibility.guide.md . You are… bkit gives you 🌱 First-time vibe coder — you describe what you want and AI codes for you, but you don't yet know how to tell if the result is correct A safety net. AI proposes, bkit m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-driven-work, ai-native-development, bkit, claude-code, multi-language
+
+---
+
+### 🌟 [distill](https://github.com/samuelfaj/distill)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 678
+- **核心概述**: Distill is a lightweight coding agent harness and TUI built to get more done with FAR FEWER tokens 🔥
+- **大概是做什么的**: Distill is a terminal coding harness by Samuel Fajreldines. It reads your codebase, edits files, runs commands, and keeps the conversation in your terminal. Version 2.0.0 supports Grok, ChatGPT, OpenRouter, and local OpenAI-compatible model servers. You can open Distill without signing in to any provider. To generate an answer, you need a reachable model, whether it runs on your machine or through a or run the installer on macOS or Linux: Add the export PATH line to your shell configuration, such as /.zshrc or /.bashrc , to use distill in new terminals. The installer selects the binary for your OS and CPU, checks its SHA-256 checksum, and runs --version before activating it. It does not require Rust, a GitHub account, or provider login. Release binaries target Apple Silicon and Intel Macs, and Linux on x86 64 and ARM64. Linux builds use glibc; use a source build for other environments. To install a specific release: Set DISTILL INSTALL DIR to choose another installation directory. Its bin subdirectory must be on your PATH . For an installation made with the release installer: You can
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, codex, grok, jev, llm, tokens
+
+---
+
+### 🌟 [awesome-meta-muse-agent](https://github.com/Anil-matcha/awesome-meta-muse-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,014
+- **核心概述**: Copy-paste Muse agent briefs for practical workflows, connected apps, approvals, and evidence-backed automation.
+- **大概是做什么的**: Awesome Meta Muse Agent A curated collection of practical, copy-paste Muse agent briefs for research, productivity, operations, content, engineering, and personal workflows. Muse is Meta's personal AI agent. Its official product page describes an agent that can browse the web, use connected apps, create documents and images, set reminders, track goals, monitor information in the background, and ask for approval before sensitive actions. This repository turns those capabilities into focused, reusable bot briefs. This is an independent community collection. It is not affiliated with, endorsed by, or operated by Meta. - Awesome Jev by TypeSafe — typed, confidence-aware decision workflows. - Awesome Grok Bot — copy-paste bot briefs for persistent AI teammates. - Awesome GPT-6 Astra — evidence-backed model use cases, prompts, and evaluations. - Open Grok Bot — local-first bot-persona workspace with approvals and audit trails. - Awesome OpenClaw — self-hosted agent resources, skills, and integrations. - Awesome Hermes Agent — agent workflows and creator-focused automation resources. - Muse
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, ai-bots, ai-tools, automation, awesome
+
+---
+
+### 🌟 [rbg](https://github.com/sgl-project/rbg)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: A workload for deploying LLM inference services on Kubernetes
+- **大概是做什么的**: RoleBasedGroup (RBG) 🚀 🎯 A Kubernetes API for orchestrating distributed, stateful AI inference workloads with multi-role collaboration and built-in service discovery . 🌐 Official Website : rolebasedgroup.github.io Date Release Highlights :----: :-------: :----------- 2026-06-11 v0.7.0 v1alpha2 API stable release, conversion webhooks, CLI multi-node LLM serving, pod port allocator, coordinated policies, gang scheduling 2026-02-18 v0.6.0 Coordinated scaling, stateful InstanceSet 2025-12-03 v0.5.0 Native InstanceSet, in-place updates, Mooncake integration 2025-09-23 v0.4.0 RBGS scaling, Volcano podgroup support Traditional Kubernetes primitives (StatefulSets / Deployments) struggle with LLM inference services that: Challenge Description :---------: :------------ Multi-role topologies gateway → router → prefill → decode Performance-sensitive GPU/network topology matters Atomic operations deploy, upgrade, scale, failover across roles RBG treats an inference service as a role-based group — a topologized, stateful, coordinated multi-role organism managed as a single unit. Concept Descrip
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: k8s, llm, pd-disagg, sglang
+
+---
+
+### 🌟 [ultimate_bug_scanner](https://github.com/Dicklesworthstone/ultimate_bug_scanner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 303
+- **核心概述**: Static analysis tool that catches 1000+ bug patterns across all popular programming languages, with auto-wiring into AI coding agent quality guardrails
+- **大概是做什么的**: 🔬 Ultimate Bug Scanner The AI Coding Agent's Secret Weapon: Flagging Likely Bugs for Fixing Early On Or via Homebrew (macOS/Linux): Just want it to do everything without confirmations? Live life on the edge with easy-mode to auto-install every dependency, accept all prompts, detect local coding agents, and wire their quality guardrails with zero extra questions: Note: Windows users must run the installer one-liner from within Git Bash, or use WSL for Windows. 🤖 Agent Quickstart (JSON/TOON) Use machine-readable output in agent contexts. stdout = data, stderr = diagnostics, exit 0 = success. Every machine format prints exactly one document (or one JSONL stream) on stdout and validates against ubs --schema ; status is ok (every requested scanner completed), partial (the scan is incomplete but something usable came back) or error (a module could not run at all and no other scanner produced a result), and pre-scan refusals are an error envelope with exit 2 (see "Machine-readable failures" below). The status field, the human status line and the exit code always agree: anything other than
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-tools, ai-agents, bash, bugs, cli, code-quality
+
+---
+
 ## 🕔 2026-09-19 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
