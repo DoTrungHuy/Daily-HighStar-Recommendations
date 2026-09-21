@@ -1,3 +1,67 @@
+## 🕔 2026-09-21 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [docsagent](https://github.com/docsagent/docsagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 616
+- **核心概述**: ⚡ DocsAgent — give your AI agents instant, private access to your personal knowledge base (Zotero now; Obsidian, Apple Notes & local docs on the road). Native C++ search core: BM25 + passage ranking in ~15 ms. MCP server for Claude, Cursor, Cline & any MCP client.
+- **大概是做什么的**: DocsAgent MCP — Zotero MCP Server 📚⚡ DocsAgent gives AI agents instant, private access to your personal knowledge base. @docsagent/mcp-zotero is the spec-driven MCP (Model Context Protocol) server (Zotero is the first supported source) that lets any AI agent — Claude Desktop, Cursor, Cline, Qwen Code, or any MCP client — search, read, and write your Zotero library through a resident C++ search engine . BM25 full-text search + query-ranked passage retrieval over 1,000+ PDFs at 15 ms , fully local (RAG-ready knowledge base). - 🔒 Local-first & private — the engine reads your Zotero library directly on your machine. Your PDFs never leave it. - ⚡ Native C++ search core — inverted-index BM25 + passage ranking, millisecond lookup, low memory footprint (160–227 MB for a 1,500-paper library). - 🧩 8 MCP tools — 5 read + 3 write, with JSON-schema validated arguments, token budgets, result dedup, and a three-layer write safety gate. - 🌐 Two transports — stdio for local MCP clients, Streamable HTTP for remote deployment (origin checks, API-key / OAuth 2.0 token introspection, per-request RBAC
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, bm25, claude, claude-code, cursor, full-text-search
+
+---
+
+### 🌟 [excalidraw-cli](https://github.com/swiftlysingh/excalidraw-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 305
+- **核心概述**: Generate editable Excalidraw diagrams from text or JSON for agents and developer workflows
+- **大概是做什么的**: Create Excalidraw flowcharts and diagrams from text-based DSL, JSON, or Graphviz DOT. - Text-based DSL for quick flowchart creation - JSON API for programmatic use - Auto-layout using ELK.js (Eclipse Layout Kernel) - Multiple flow directions : TB (top-bottom), BT, LR, RL - Export to PNG & SVG with dark mode, custom backgrounds, scale, and padding - Programmable API for integration into other tools Requires Node =20.19.0 . Node 18 is no longer supported. Styling and extended arrow syntax require version 1.3.0 or later. See the releases for published versions. Install from the tap: Homebrew installs Node.js automatically. See the tap README for upgrades and switching from an existing npm installation. From Source (Local Development) Run without a global install DOT subgraphs are flattened. See man excalidraw-cli for supported attributes Syntax Element Description -------- --------- ------------- [Label] Rectangle Process steps, actions {Label} Diamond Decisions, conditionals (Label) Ellipse Start/End points [[Label]] Database Data storage ![path] Image Local image node, default size 10
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, cli, developer-tools, diagramming, excalidraw
+
+---
+
+### 🌟 [dscode](https://github.com/qiz029/dscode)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 201
+- **核心概述**: A DeepSeek coding agent harness: persistent shell, Ultra subagents, auto approval, Chrome MCP and session telemetry
+- **大概是做什么的**: Write code in your terminal. Plug scripts into a live session. Hand tasks between agents. Core features · What's new · Quick start · Commands · Changelog · Docs DSCODE is a terminal coding agent for macOS, built on DeepSeek Harness. A persistent shell reads and writes code and runs tests; the TUI, the CLI and your scripts all share one session runtime instead of each starting their own. It installs as a pinned, reproducible harness—DSH dependencies, TUI and plugins are versioned and verified together. Most coding agents work alone. DSCODE is built on the opposite assumption: sessions on your machine are visible to each other , so one can hand a task over, another can review the diff, and an independent reviewer decides approvals from your instruction rather than from a rule table. See it in 60 seconds. Three things most coding agents cannot do, and where to look: In one terminal What it shows /btw why is the cache cold on the first turn? A side question runs in its own read-only child session and answers in a panel; the exchange never enters the main conversation. dscode send --steer
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agent, cli, code-review, coding-agent, deepseek
+
+---
+
+### 🌟 [FQGate-agent](https://github.com/fqgate/FQGate-agent)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 215
+- **核心概述**: 同花顺免费开源AI插件FQGate-agent（原插件名 tonghuasun-agent）：为 Codex、Claude Code、DeepSeek 等 AI 工具提供本机 A 股实时行情、K 线、Level-2、资讯、账户查询与可选交易能力。
+- **大概是做什么的**: 同花顺免费开源AI插件FQGate (QQ群-14546787) 面向 Codex、Claude Code、WorkBuddy、ZCode、OpenClaw、DeepSeek Harness、豆包和千问的本机 A 股行情与量化数据插件 1.0.0 升级提醒： 配套的 FQGate 1.0.0 主程序只提供行情，不再提供交易 API 和交易 MCP 工具。下文的账户查询、交易技能和交易示例仅适用于仍提供这些接口的旧版主程序；连接 1.0.0 时请以实际工具列表为准。 🚀🚀🚀 一句话安装｜复制后发给 AI 🚀🚀🚀 ⭐⭐⭐ 复制下面这句话，发送给你正在使用的 AI 助手 ⭐⭐⭐ 👆👆👆 复制上面这句话即可开始安装 👆👆👆 ✅ 读取仓库和对应工具说明 ✅ 选择正确的主程序下载源 ✅ 安装 FQGate 正式版 ✅ 安装 AI 插件 ✅ 创建桌面快捷方式 ✅ 启动并检查连接 通过本插件，你可以在常用 AI 助手中直接查询 A 股实时行情、分时、K 线、Level-2 逐笔数据、资讯公告、证券资料、账户资产、持仓、委托和成交数据，为您的股票交易提供决策依据。 更名说明： 本项目原插件名为 tonghuasun-agent ，现已更名为 fqgate-agent 。GitHub 的规范地址已迁移为 fqgate/FQGate-agent ，原 GitHub 地址继续重定向；Gitee 镜像仍沿用原仓库名，兼容旧用户、已有收藏和外部链接。 所有 AI 插件入口、安装适配、技能和界面组件均免费开源，不设订阅、会员、套餐、试用额度或付费解锁。FQGate 作为本机量化网关单独提供编译包，并适用其随包许可。 这是一个由独立开发者维护的非官方项目，与同花顺及其关联公司不存在授权、合作或背书关系。插件不会增加任何行情、账户或交易权限，你能看到的数据和能使用的功能仍以当前账户及相应服务权限为准。 当前插件版本为 1.0.0 ，要求 FQGate 0.1.0 或更高版本。 AI 插件安装包可以从 GitHub 或 Gitee 下载；FQGate 主程序请从下方的官方下载页获取。 如果你是 AI 助手，用户要求“安装”“配置”或“一句话安装”时，必须按下面的顺序执行，不要只回复安装命令： 1. 先确认用户的操作系统和当前使用的 AI 工具，再阅读本 README 与下方对应的工具安装说明。 2. 根据用户网络环境选择 FQGate 主程序下载源：国内网络优先使用 Gitee，国外网络优先使用 GitHub；下载失败时可以切换到另一个官方源,如果下载源使用的时Github
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, ai-plugin, china-stock, claude-code, codex
+
+---
+
+### 🌟 [Heisenberg](https://github.com/tedydonel/Heisenberg)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 107
+- **核心概述**: A block-based content engine and bilingual blog backend for Laravel Gutenberg-style editor, media library, post templates, roles, and an AI writing assistant, with zero host coupling.
+- **大概是做什么的**: An embeddable content + email engine for Laravel, with AI and MCP built in. Embed a Gutenberg-style editor, media library, taxonomy, post templates, a shared email builder, an AI writing assistant, and bidirectional MCP directly into any Laravel application — no build step, no theme system, no new user model. The post editor, the email editor (same block engine), and a published post in a host app. Run it yourself: docs/demo.md . Heisenberg has no users, no theme lock-in, and no frontend framework requirements . Your application keeps its existing user models, routes, and page layouts. Heisenberg brings the rich editor at /editor , structured content models, and clean service contracts to integrate seamlessly into your stack. Open /editor (for posts) or /editor/email (for emails) in your browser. The service provider is auto-discovered, migrations run automatically, and sensible defaults are provided out of the box. In local development ( APP ENV=local ), the editor is immediately accessible without extra configuration. Production environments authenticate through your own applicatio
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, blog-engine, laravel-cms, laravel-cms-builder, mcp
+
+---
+
+### 🌟 [datamimic](https://github.com/rapiddweller/datamimic)
+- **项目语言**: Python
+- **星标数量**: ⭐ 114
+- **核心概述**: Model-driven synthetic test data for CI/CD and analytics - deterministic, privacy-preserving, and domain-aware. Includes Python APIs, XML pipelines, and MCP/IDE integration to orchestrate realistic datasets for finance, healthcare, and other regulated environments.
+- **大概是做什么的**: DATAMIMIC — Governed Test Data for Regulated Enterprises This repository contains the DATAMIMIC Community Edition (CE). MIT-licensed, Python-native, MCP-ready. CE is fully usable standalone for deterministic synthetic data generation and PII-aware pseudonymization. The Enterprise Platform adds governed workflows, PII scanning, role-based access, audit logging, scheduling, multi-system execution, and the full operational layer that regulated enterprises require. 👉 Enterprise Platform: datamimic.io &nbsp; &nbsp; 📘 Docs: docs.datamimic.io &nbsp; &nbsp; 📅 Book a strategy call: datamimic.io/contact 🤖 AI agent? Start at AGENTS.md and use the project CLI: preserve new intent as model.dm.json , submit an early best attempt via datamimic scaffold ... --format json , repair from the structured issues, declare an expectation per stated requirement, and stop on verified=true . Existing raw XML uses lint plus bounded dry-run. DATAMIMIC CE is the open-source deterministic data engine at the core of the DATAMIMIC Enterprise Platform. It is usable standalone for synthetic data generation and PII
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: data-anonymization, data-generation, data-masking, data-privacy, data-simulation, deterministic
+
+---
+
 ## 🕔 2026-09-20 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
