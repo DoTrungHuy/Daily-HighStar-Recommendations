@@ -1,3 +1,67 @@
+## 🕔 2026-09-21 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 271 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [crw](https://github.com/fastcrw/crw)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,061
+- **核心概述**: Fast, lightweight Firecrawl/Tavily alternative in Rust. Web scraper, crawler & search API with MCP server for AI agents. Drop-in Firecrawl-compatible API (/scrape, /crawl, /search). 2.3x faster than Tavily, 1.5x faster than Firecrawl in 1K-URL benchmarks. 6 MB RAM, single binary. Self-host or use managed cloud.
+- **大概是做什么的**: Turn URLs into clean markdown or structured JSON with one engine for search, scrape, map, crawl, and extract. Run it locally as a small Rust binary or use the managed API. Get 1000 free credits → · No credit card. Continue with GitHub. Runs local and free, no account needed. To use the Cloud, paste your key into the same command and it installs the binary, connects the key, and registers the MCP server with the AI coding tools you already have: Claude Code, Cursor, Codex, Gemini CLI, OpenCode and Windsurf are picked up automatically when they are already set up; nothing else is touched, and your key stays in /.config/crw/config.toml rather than being copied into each tool. Add CRW NO AGENTS=1 to skip that step, or run crw setup on its own to choose interactively. 1000 free credits, no credit card. Managed proxies, JS rendering and search, with nothing to run or keep up to date. macOS and Linux, Intel and ARM. More install options → Scrape One URL to markdown, HTML, links, screenshots, or schema JSON Crawl Follow a bounded site crawl and collect its pages Map Discover URLs without scr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, crawler, data-extraction, docker, firecrawl-alternative
+
+---
+
+### 🌟 [Bert-VITS2](https://github.com/fishaudio/Bert-VITS2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 8,802
+- **核心概述**: vits2 backbone with multilingual-bert
+- **大概是做什么的**: VITS2 Backbone with multilingual bert For quick guide, please refer to webui preprocess.py . 简易教程请参见 webui preprocess.py 。 FishAudio下的全新自回归TTS Fish-Speech现已可用，效果为目前开源SOTA水准，且在持续维护，推荐使用该项目作为BV2/GSV的替代。本项目短期内不再进行维护。 Demo Video: https://www.bilibili.com/video/BV18E421371Q Tech slides Video: https://www.bilibili.com/video/BV1zJ4m1K7cj 请注意，本项目核心思路来源于anyvoiceai/MassTTS 一个非常好的tts项目 MassTTS的演示demo为ai版峰哥锐评峰哥本人,并找回了在金三角失落的腰子 [//]: ( 本项目与[PlayVoice/vits chinese]& 40;https://github.com/PlayVoice/vits chinese& 41; 没有任何关系) [//]: (本仓库来源于之前朋友分享了ai峰哥的视频，本人被其中的效果惊艳，在自己尝试MassTTS以后发现fs在音质方面与vits有一定差距，并且training的pipeline比vits更复杂，因此按照其思路将bert) 成熟的旅行者/开拓者/舰长/博士/sensei/猎魔人/喵喵露/V应当参阅代码自己学习如何训练。 严禁将此项目用于一切违反《中华人民共和国宪法》，《中华人民共和国刑法》，《中华人民共和国治安管理处罚法》和《中华人民共和国民法典》之用途。 Video:https://www.bilibili.com/video/BV1hp4y1K78E Demo:https://www.bilibili.com/video/BV1TF411k78w + anyvoiceai/MassTTS + p0p4k/vits2 pytorch + svc-develop-team/so-vits-svc + PaddlePaddle/PaddleSpeech [//]: ( 本项目所有代码引用均已写明，bert部分代码思路来源于[AI峰哥]& 40;https://www.bilibili.com/video/BV1w24y1c7z9& 41;，与[vits chinese]& 40;https://github.com/PlayVoice/vits c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, bert, bert-vits, bert-vits2, fish, fish-speech
+
+---
+
+### 🌟 [RPA](https://github.com/A9T9/RPA)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,026
+- **核心概述**: Browser and desktop automation with an MCP server for AI assistants. Record macros or write JavaScript to automate websites, extract data, and control desktop apps with OCR and image recognition.
+- **大概是做什么的**: Ui.Vision - Browser and Desktop Automation Automate websites and desktop applications with macros, JavaScript, or an AI assistant. Ui.Vision combines browser automation, OCR and image recognition, with an MCP server that lets AI agents create, edit and run reusable macros in your browser. Install the extension · Connect an AI assistant with MCP · API reference · User forum What can you automate? - Browser tasks: fill forms, extract web data, download reports and repeat workflows in your existing browser session. - Website testing: record and replay interactions, use Selenium IDE commands, and run checks with different input data. - Visual tasks: find on-screen text with OCR and locate controls by image when HTML selectors are unavailable. - Desktop workflows: automate applications and remote desktop interfaces using visual recognition and mouse and keyboard input. Desktop automation requires the additional Ui.Vision desktop components (XModules). - AI-assisted automation: ask the built-in AI assistant or an external MCP client to write and run macros, then inspect the resulting scrip
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, browser-automation-ai-api, browser-extension, computer-use, desktop-automation
+
+---
+
+### 🌟 [HermesOffice](https://github.com/criptogus/HermesOffice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 588
+- **核心概述**: AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain — open standards, byte-preserving round-trip, 100% local.
+- **大概是做什么的**: The world's first full-featured open-source AI Office suite. Website · Download · Privacy · Demo HermesOffice is a free, open-source alternative to Microsoft Office for macOS, Windows, and Linux, built around AI editing as a first-class workflow rather than a bolted-on chat box. It opens and saves the real Microsoft Office formats — Word ( .docx ), Excel ( .xlsx ), PowerPoint ( .pptx ) — and edits PDF and Markdown too: a word processor, spreadsheet, presentation editor, PDF editor, and Markdown editor as six Electron apps sharing one engine Watch the demo video on YouTube - Real PDF editing — retype text and edit images in the page itself, original fonts preserved. - Local PDF → Word / PowerPoint / Excel conversion — turn a PDF into an editable .docx , .pptx , or .xlsx entirely on your machine: no cloud, no upload. - Scanned PDFs too — on macOS and Windows scanned pages are read with the system OCR, so they convert to editable text. - Microsoft Word–compatible, byte-preserving .docx editing — only what you touched changes; Word never notices. - Word-faithful pagination — page breaks
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-native, docx, electron, hermes, local-first
+
+---
+
+### 🌟 [halo](https://github.com/whitecircle/halo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 264
+- **核心概述**: Halo is an open-source framework built by White Circle for training large language and multimodal models
+- **大概是做什么的**: Frontier-Lab Training for Everyone Halo is an open-source framework built by White Circle for training large language and multimodal models. It supports pre-training, SFT, preference optimization, fully asynchronous multi-turn RL, and much more. The same codebase runs on one GPU or across multiple nodes, with EP, CP, TP, ETP, FSDP2, fused kernels, BF16 training, and distributed rollouts. Halo trains Hugging Face models directly. Checkpoints still load with from pretrained , and supporting a new model family typically takes under 140 lines of integration code. On 8× B300, Halo delivers up to 2.8× the training throughput of stock TRL (2.7× at 25% less peak memory when both sides shard ZeRO-3), with larger margins over the other frameworks benchmarked. Pre- & Post-Training · EP / CP / TP / ETP · Multi-Node · Verifiable & Multi-Turn RL · FA4 + Liger + Grouped GEMM · Full BF16 - Halo trains Hugging Face models directly. Trainers subclass Hugging Face or TRL trainers, checkpoints remain standard SafeTensors, and from pretrained continues to work. - Parallelism is added to the existing mode
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, async-rl, distributed-training, fine-tuning, grpo, large-language-models
+
+---
+
+### 🌟 [forgetful](https://github.com/ScottRBK/forgetful)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: Opensource Memory for Agents
+- **大概是做什么的**: Forgetful is a storage and retrieval tool for AI Agents. Designed as a Model Context Protocol (MCP) server built using the FastMCP framework. Once connected to this service, MCP clients such as Coding Agents, Chat Bots or your own custom built Agents can store and retrieve information from the same knowledge base. A lot of us are using AI Agents now, especially in the realm of software development. The pace at which work and decisions are made can make it difficult for you to keep up from a notes and context persistence perspective. So if you are following something like the BMAD Method for example and you want to take your brain storming session you've just had with Claude on your desktop/mobile and use it for the basis of your next Claude Code session, then having a shared knowledge base across the two agents can help with this. This is just one example use case to illustrate the point, more and more agentic applications are going to surface and the use cases for sharing data across them is going to increase. Knowledge bases are going to become a key infrastructure component for yo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-memory, claude-code, long-term-memo, mcp, memory
+
+---
+
 ## 🕔 2026-09-21 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
