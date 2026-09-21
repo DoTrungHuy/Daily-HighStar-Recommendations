@@ -1,3 +1,67 @@
+## 🕔 2026-09-21 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hippo-memory](https://github.com/kitfunso/hippo-memory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 750
+- **核心概述**: Biologically-inspired memory for AI agents. Decay, retrieval strengthening, consolidation. Zero runtime deps, SQLite, MCP. Benchmarked retrieval with an opt-in TypeSafe Jev reranker.
+- **大概是做什么的**: The secret to good memory isn't remembering more. It's knowing what to forget. A memory layer for AI agents. Modeled on the hippocampus. Decay by default, strength through use, provenance on every memory. SQLite under the hood, zero runtime deps, works with every CLI agent you have. One command. Every git repo on your machine gets memory. Most "AI memory" systems save everything and search later. That's storage with semantic search bolted on. It's why your agent kept hitting the same deploy bug last week. And the week before. The system saw the failure four times. It had no way to know it should remember. Hippo applies the thing brains have been getting right for 500 million years. Memories decay over time. Retrieval makes them stronger. Three biological layers (buffer, episodic, semantic) consolidate during sleep. Hard lessons stick because you used them. Trivia fades because you didn't. It also fixes the portability problem. Your ChatGPT memories don't travel to Claude. Your .cursorrules don't travel to Codex. Hippo is one process behind every agent. CLAUDE.md, Cursor rules, ChatGP
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agents, ai, ai-agents, claude-code, cli
+
+---
+
+### 🌟 [awesome-typesafe-jev](https://github.com/AbdelStark/awesome-typesafe-jev)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 417
+- **核心概述**: Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.
+- **大概是做什么的**: Awesome Jev / TypeSafe The field guide to typed decisions. Official docs, working integrations, independent experiments, and the builders pushing Jev into new territory. Jev turns context into a probability, a choice, or a score; your code owns the threshold and the action. One call, three typed answers. In TypeSafe's documented support-ticket example, Jev chooses the technical team (0.85 probability), scores frustration at level 1 on a 0–2 rubric, and gives urgency a 1.0 Noul probability. The example response is from jev-1.13.0 ; application code still decides when to route or escalate. I want to… Go here Understand the idea in 2 minutes Try the policy threshold, then read the introduction and the three primitives Make my first typed call Quick start and official SDKs See it work live Typewriter's 16 judgments or Jevtown's simulated audience; then browse all community projects Test the claims Independent evaluations and TypeSafe's own evals Explore the searchable web directory → · Download the JSON directory · Suggest a resource · Join the builder community Independent community pro
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, awesome-jev, awesome-list, jev, llm, machine-learning
+
+---
+
+### 🌟 [classifier-dev](https://github.com/mrmps/classifier-dev)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 399
+- **核心概述**: Zero-shot text classification over plain HTTP — no API key, no account. One Cloudflare Worker, a CLI, and an MCP server. https://classifier.dev
+- **大概是做什么的**: Zero-shot text classification. Plain text in, a label and a calibrated confidence out. No key, no signup. Up to a thousand texts per request. curl https://classifier.dev/spam,not+spam/Win+a+free+iPhone curl "https://classifier.dev/?labels=spam,not+spam&text=Win+a+free+iPhone" same call, query form Single Cloudflare Worker. No database, no framework, no build step beyond esbuild. npm i -g classifier-dev classify bug,feature,praise and lets .github/workflows/publish-cli.yml publish (needs an NPM TOKEN repo secret). It talks to the API exactly like curl does. src/index.ts routing, validation, tiers, LLM fallback chain, analytics src/query.ts the GET query form, read and written with nuqs; the URL an error suggests src/jev.ts TypeSafe's Jev: packs inputs into requests, reads probabilities src/limiter.ts Durable Object: per-IP rate limiting src/report.ts digest — Analytics Engine SQL - Resend, flags model fallbacks src/alerts.ts every 15 minutes; emails only when something is wrong src/feedback.ts agent feedback, feedback.now protocol - email src/privacy.ts keyed pseudonyms: nothing kept
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, classification, cli, cloudflare-workers, llm, mcp
+
+---
+
+### 🌟 [rosclaw](https://github.com/ros-claw/rosclaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 202
+- **核心概述**: Self-evolving runtime infrastructure for Physical AI and embodied agents. Ground AI agents into robot bodies with e-URDF, sandbox safety, capability routing, praxis capture, physical memory, runtime intervention, and skill evolution.
+- **大概是做什么的**: Trustworthy Physical Execution Runtime and Control Plane for Embodied Agents Ground actions to a body, fail closed, execute with evidence, and return an auditable receipt. Website · Quick Start · Architecture · Docs · Contact Install forms (Alpha). The offline tar bundle is fully self-contained (Node runtime, npm production deps, Python wheels). The PyPI wheel ( pip install rosclaw ) ships the prebuilt agent JS and Python runtime but requires Node.js ≥ 22.19 on the host — it does not bundle a Node runtime, and nothing is downloaded at chat time. Rendering additionally needs a GL backend (OSMesa/EGL/Xvfb); rosclaw doctor reports the exact OS packages for your platform. We do not claim "zero system dependencies after pip install" for this release form. ROSClaw is not another agent framework, a replacement for ROS 2, or a thin ROSClaw is a trustworthy physical execution runtime and control plane for embodied agents . Codex, Claude Code, OpenClaw, VLA services, and other agents are northbound clients. ROS 2, MCP, vendor SDKs, simulators, and robot controllers are southbound systems. Its
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, agent-runtimes, automation, autonomous-robotics, digital-twin
+
+---
+
+### 🌟 [google-analytics-mcp](https://github.com/surendranb/google-analytics-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 242
+- **核心概述**: Google Analytics 4 data to AI agents, agentic workflows, and MCP clients. Give agents analysis-ready access to website traffic, user behavior, and performance data with schema discovery, server-side aggregation, and safe defaults that reduce data wrangling.
+- **大概是做什么的**: Google Analytics 4 (GA4) MCP Server 📊 Model Context Protocol (MCP) server for Google Analytics 4: real-time query exploration, schema discovery, metric aggregation, and audience insights for AI agents. 🌐 Live Documentation & Web Portal : https://ga4.builditwithai.xyz A. Claude Code (CLI) B. Cursor & Google Antigravity ( mcp.json ) C. Claude Desktop ( claude desktop config.json ) D. VS Code (Cline / Roo Code / Continue) 🛠️ Tools & Capabilities Tool Name Parameters Description Return Type get ga4 data dimensions (list), metrics (list), date ranges (list), limit (int) Runs multi-dimensional GA4 reports with automated metric totals and server-side aggregation. JSON / Markdown list accounts (none) Lists all accessible Google Analytics accounts and permission levels. JSON list properties account id (optional) Lists all GA4 properties associated with an account. JSON get property metadata property id (optional) Fetches complete dimension and metric schemas, custom definitions, and compatibility rules. JSON run realtime report metrics (list), dimensions (list) Queries real-time active use
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-agents, analytics, claude, claude-mcp, cursor
+
+---
+
+### 🌟 [gori](https://github.com/hahwul/gori)
+- **项目语言**: Crystal
+- **星标数量**: ⭐ 102
+- **核心概述**: A fast, keyboard-driven HTTP intercepting proxy and hacking & pentesting toolkit for the terminal.
+- **大概是做什么的**: Hack from the terminal. gori (고리 — Korean for ring, link, loop ) sits in the loop between your client and its target, capturing every request and response as a flow you can replay, fuzz, and scan across HTTP/1.1, HTTP/2, WebSocket, gRPC, and SSE, and intercept in flight on HTTP/1.1 and HTTP/2. Core assessment actions that cross surfaces use the same engines, and those workflows are also available through gori run and MCP, so scripts and AI agents can drive the same engagement. The capability matrix names the protocol and surface limits explicitly. - Capturing proxy for HTTP/1.1, HTTP/2, WebSocket, gRPC, and SSE - Intercept on HTTP/1.1 and HTTP/2, gRPC included: hold, edit, forward, or drop in flight — and per-message on an HTTP/1.1 WebSocket, opt in with proto:ws - Searchable History of every flow, with a query language for filtering - Scope rules, hostname overrides, and match & replace Replay, Fuzz & Decode - Repeater workbench for crafting and re-sending requests (incl. WebSocket & gRPC) - Intruder-style Fuzzer with four attack modes - Decoder pipeline for chained encode / decode
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bugbounty, cli, crystal, gori, mcp, mcp-server
+
+---
+
 ## 🕔 2026-09-21 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
