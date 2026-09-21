@@ -1,3 +1,67 @@
+## 🕔 2026-09-21 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentglass](https://github.com/SirAllap/agentglass)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 312
+- **核心概述**: 🛰 Every AI coding agent on your machine, on one screen — live cost, tokens and tool calls across every provider, and a hold on anything dangerous until you say go. From your desk or your phone.
+- **大概是做什么的**: agentglass doesn't replace your agents. It attaches to the tmux sessions and repos already open on your machine, and puts every tool call, dollar and dangerous command on one screen — at your desk or in your pocket. Every agent on one screen. Claude Code, Codex, Gemini CLI and OpenCode, in the tmux sessions and repositories already open on your machine. Every tool call as it happens, what each is costing, where the time goes, which session is stuck in a loop, what files it touched. agentglass does not launch them and does not replace them — it attaches to what is already running. It tells you who needs you. The Lantern leads with one question and answers it: red for an agent stopped on a permission gate, amber for one that finished a turn and is waiting for you to type. Every agent is a card — model, branch, what it is doing this second, cost, turns, errors, and how long before its prompt cache goes cold. A watch re-reads it every few minutes and sends one notification when somebody has been left hanging. Nothing dangerous runs unwatched. A tool call you decided to gate is held until
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, bun, claude-code, cost-tracking, dashboard
+
+---
+
+### 🌟 [awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 300
+- **核心概述**: Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync
+- **大概是做什么的**: Awesome Jev — System-1 Agent Architecture Radar 简体中文 &nbsp;•&nbsp; English &nbsp;•&nbsp; 日本語 &nbsp;•&nbsp; 한국어 🌐 Search and filter ↗ &nbsp;｜&nbsp; 🤖 Install the Agent Skill &nbsp;｜&nbsp; 📂 Categories &nbsp;｜&nbsp; 🚀 Submit a project (Issue only) Project Submissions : We welcome your Jev projects! All project submissions and updates are handled exclusively via GitHub Issues . This repository does not accept Pull Requests . Simply fill out the issue template with your repository URL. 💡 Why Jev & System-1 Decision Architecture? When building autonomous agents, routing every small branching decision to a heavy reasoning model (System 2) incurs seconds of latency, runaway token costs, and context drift. TypeSafe Jev (System 1) is purpose-built for fast, typed discrete decisions: - ⚡ Sub-100ms Latency : Delivers decisions in 50–100ms to keep agent loops snappy. - 🎯 Native Typed Outputs : Built-in primitives for Choice , Score , and Noul without fragile JSON regex parsing. - 🛡️ Zero Vaporware : 420+ projects rigorously anchored to verifiable, commit-pinned public open source across 1
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, awesome, awesome-list, decision-model, developer-tools, jev
+
+---
+
+### 🌟 [ZotSeek](https://github.com/introfini/ZotSeek)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 211
+- **核心概述**: AI semantic search for Zotero, with a built-in MCP server for AI agents (Claude Code, Codex). Find papers by meaning. 100% local and private.
+- **大概是做什么的**: ZotSeek AI-Powered Semantic Search & MCP Server for Zotero Find similar papers by meaning , not just keywords. 100% local, no data leaves your machine. Now with a built-in MCP server for AI agents. Status: ✅ Stable release · Zotero 8, 9 & 10 · Transformers.js running locally New: 🤖 MCP server built in — Claude Code, Codex, and any MCP client can search your library and cite papers with links that open straight to the matched PDF page. Fully local, read-only, opt-in. Set it up in one line → New from the same author: 🔎 citefact — audit your manuscript against your Zotero library: citations exist, quotes are verbatim, claims are supported. - 🔒 100% Local - No data sent to cloud, works completely offline - 🧠 True Semantic Search - Find papers by meaning, not just keywords - 🤖 AI Agent Access (MCP) - Let Claude Code and other MCP clients search your library, fully local and opt-in (docs) - 🔍 Find Similar Documents - Right-click any paper → discover related research - 📖 Search from PDF Selection - Select text while reading → right-click → find documents about that concept - 🔎 Natur
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: academic, academic-research, ai, ai-agents, claude-code, embeddings
+
+---
+
+### 🌟 [blend-ai](https://github.com/HoldMyBeer-gg/blend-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 142
+- **核心概述**: MCP server for Blender. 175 tools for modelling, materials, rendering and more, driven by Claude or any MCP client.
+- **大概是做什么的**: The most intuitive and efficient MCP Server for Blender. Control Blender entirely through AI assistants like Claude — create 3D models, set up scenes, animate, render, and more, all through natural language. blend-ai goes beyond tool exposure: it guides the LLM to produce professional 3D results through expert prompts, proven workflows, visual feedback, and mesh quality analysis. This was created via Claude Code using the Haiku model and 20 random reference images. It took 5 minutes: Fifteen procedural materials, each built by a single create procedural material call. The selected ball's node graph below was generated entirely by that one call — coordinates, mapping, noise, height mask, colour ramp, and Principled BSDF, laid out and wired: - 175 tools across 24 modules covering every major Blender domain: modeling, mesh editing, materials, shader nodes, lighting, camera, animation, rendering, sculpting, UV mapping, physics, geometry nodes, rigging, curves, annotations, collections, file I/O, Bool Tool, viewport control, mesh quality analysis, and extension suggestions - 12 expert pro
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, 3d-modeling, ai, blender, blender-addon, blender-mcp
+
+---
+
+### 🌟 [OpenART](https://github.com/AI45Lab/OpenART)
+- **项目语言**: Python
+- **星标数量**: ⭐ 200
+- **核心概述**: OpenART is an open-source framework designed to evaluate the safety and robustness of autonomous AI agents in dynamic, long-horizon, and stateful environments. It stress-tests agent runtimes against multi-step state poisoning, privilege escalation, and tool-use vulnerabilities across 10,000+ benchmark scenarios.
+- **大概是做什么的**: OpenART is an executable benchmark for evaluating the safety of tool-using code agents in long-running, evolving environments. This repository contains its Docker-based runtime, three runnable high-complexity tasks, and the managed tools required by those tasks. OpenART is the agent version of OpenRT. [09/22/2026] ⭐ OpenART reached the 200-star milestone on GitHub. OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution 🥈 2 Paper of the Day on Hugging Face Papers Yunhao Chen, Xin Wang, Yixu Wang, Yi Liu, Jie Li, Yan Teng, Xingjun Ma, Xia Hu, OpenART evaluates the executable environment rather than treating a single prompt as the entire test. The benign task and hidden safety contract remain fixed while target-visible state changes during execution. Paper setting Value Validated stateful scenarios 10K+ Capability corpus 500K+ tools and skills Median task horizon 97 tool calls Evaluation matrix 15 agents × 5 models (75 settings) Target-visible attack surfaces 8 Reference attacker Evolutionary Markov Hypergraph Attack (EMHA) Pooled strict attack success rate 85.0% The p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-environment, agent-redteam
+
+---
+
+### 🌟 [awesome-jev](https://github.com/cobanov/awesome-jev)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 305
+- **核心概述**: A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.
+- **大概是做什么的**: A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for fast, typed, probabilistic decisions. Jev takes program state plus typed questions and returns constrained answers with probabilities. It is designed for software decisions such as classification, routing, scoring, ranking, verification, and guardrails, rather than free-form text generation. This list favors public source code, concrete Jev usage, clear limitations, and reproducible evidence. The latest review added 20 source-reviewed integrations, projects, and studies , bringing the community catalog to 155 , alongside official resources, provider integrations, and related lists. See the September 20 research notes for pinned source evidence and review boundaries. Review completed September 20, 2026 (Europe/Istanbul); upstream event dates below are UTC. - Recent developments - Official resources - Provider integrations - Framework integrations - SDKs and developer tools - Agents, coding, and guardrails - Context and compaction - Browser and computer use - Routing, data, and workflows - Game
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, awesome, awesome-list, confidence-aware-ai, decision-intelligence, jev
+
+---
+
 ## 🕔 2026-09-21 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
