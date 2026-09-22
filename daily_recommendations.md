@@ -1,3 +1,67 @@
+## 🕔 2026-09-22 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ekko-studio](https://github.com/EKKOLearnAI/ekko-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 11,177
+- **核心概述**: Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.
+- **大概是做什么的**: A local-first AI workspace for multi-agent chat, coding, and visual workflows. Available as a desktop app and self-hosted web console, with support for Hermes Agent , Ekko Agent, Claude Code, Codex, Pi, Grok, OpenCode, and DeepSeek Harness (DSH). Bring conversations, group collaboration, voice, files, and devices together in one place. npm install -g ekko-studio && ekko-studio-web start Ekko Studio was previously named Hermes Studio / Hermes Web UI. The GitHub repository is EKKOLearnAI/ekko-studio . The primary npm package is ekko-studio , with the ekko-studio-web command. The legacy hermes-web-ui package and command remain supported and receive the same releases. Captured in Ekko Studio v0.7.18 on 2026-09-10. Chat and workflow screens use demo data. Visual workflows Agent Manager Connect agent steps and add a human approval gate. Manage agent installations, settings, and updates in one place. Explore the Skills interface Browse installed skills, read their instructions, and enable them as needed. Area What Ekko Studio does Multi-agent runtime Runs Hermes, Ekko, Claude Code, Codex, P
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, chat-ui, coding-agents, dashboard, ekko-studio
+
+---
+
+### 🌟 [open-slide](https://github.com/open-slide/open-slide)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,635
+- **核心概述**: A slide framework built for agents.
+- **大概是做什么的**: The slide framework built for agents. Describe your deck in natural language — your coding agent writes the React. open-slide handles the canvas, scaling, navigation, hot reload, and present mode so the agent can focus on content. Every slide renders into a fixed 1920 × 1080 canvas. Pages are arbitrary React components, not a constrained DSL. Slides are visual code. Agents are great at writing code. open-slide is the missing runtime that turns "make slides about X" into a polished, presentable deck — without you ever leaving the chat. 🤖 Agent-native authoring Works with any coding agent (Claude Code, Codex, Cursor, …). The scaffolder ships with built-in skills: - /create-slide — drafts a deck end-to-end. Asks four scoping questions (topic & aesthetic, page count, text density, motion vs. static), picks an id, plans the structure, and writes the pages. - /slide-authoring — the technical reference for the 1920 × 1080 canvas, type scale, palette, and layout rules. The agent reads this before writing. From a one-line prompt to a polished deck, no boilerplate. 🎯 In-browser inspector Cli
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, react, slides
+
+---
+
+### 🌟 [torch-rechub](https://github.com/datawhalechina/torch-rechub)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,220
+- **核心概述**: A Lighting Pytorch Framework for Recommendation Models, Easy-to-use and Easy-to-extend.
+- **大概是做什么的**: Torch-RecHub: A Lightweight, Efficient, and Easy-to-use PyTorch Recommender Framework Online Documentation: https://datawhalechina.github.io/torch-rechub/ Torch-RecHub —— Build production-grade recommender systems in 10 lines of code . 30+ mainstream models out-of-the-box, one-click ONNX deployment, letting you focus on business instead of engineering. Modular Design: Easy to add new models, datasets, and evaluation metrics. Based on PyTorch: Leverages PyTorch's dynamic graph and hardware acceleration capabilities. Supports CPU, NVIDIA CUDA GPU, AMD ROCm GPU, and Huawei Ascend NPU. Rich Model Library: Covers 30+ classic and cutting-edge recommendation algorithms (Matching, Ranking, Multi-task, Generative Recommendation, etc.). Standardized Pipeline: Provides unified data loading, training, and evaluation workflows. Easy Configuration: Adjust experiment settings via config files or command-line arguments. Reproducibility: Designed to ensure reproducible experimental results. ONNX Export: Export trained models to ONNX format for seamless production deployment. Cross-engine Data Process
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ascend, ctr-prediction, deep-learning, generative-recommendation, hstu, llm
+
+---
+
+### 🌟 [omnicoreagent](https://github.com/omnirexflora-labs/omnicoreagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 245
+- **核心概述**: Open Python agent harness for production AI apps: tools, MCP, memory, workspace, telemetry, subagents, background tasks, and OmniServe APIs.
+- **大概是做什么的**: The open Python runtime for AI agents that have to hold up in production. Governed, sandboxed, durable, budgeted, and recorded — every run, end to end. A model is not an agent. The runtime around it is what makes it usable in an application: the loop, the tools, memory, the files it works on, and — once the agent can do real things — the policy that says what it may do, the sandbox its code runs in, the record that survives a crash, the budget that stops it spending, and the trace a person can read afterwards. OmniCoreAgent is that runtime. One agent object, from a first script to a governed background worker on a server. That is the whole loop: the model calls tools (independent calls run in one batch), results come back as structured observations, the session remembers, files land in a workspace, the injection guardrail watches, and the run is recorded. Everything below is opt-in. Works with OpenAI, Anthropic, Gemini, Groq, DeepSeek, Mistral, Azure, OpenRouter and Ollama through one model config What production needs, and where it is Need What the runtime does Read Tools Your Pytho
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, ai-agents, background-tasks, fastapi, harness
+
+---
+
+### 🌟 [inference-gateway](https://github.com/inference-gateway/inference-gateway)
+- **项目语言**: Go
+- **星标数量**: ⭐ 209
+- **核心概述**: An open-source, cloud-native, high-performance gateway unifying multiple LLM providers, from local solutions like Ollama to major cloud providers such as OpenAI, Groq, Cohere, Anthropic, Cloudflare and DeepSeek.
+- **大概是做什么的**: An open-source, cloud-native, high-performance gateway unifying multiple LLM providers behind one OpenAI-compatible API 🚀 Getting Started · The Inference Gateway is a proxy server designed to facilitate access to various language model APIs. It allows users to interact with different language models through a unified interface, simplifying the configuration and the process of sending requests and receiving responses from multiple LLMs, enabling an easy use of Mixture of Experts. - Middleware Control and Bypass Mechanisms - Model Context Protocol (MCP) Integration - Metrics and Observability Feature Description -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 🔀 Unified API One OpenAI-compatible endpoint for OpenAI, Anthropic, Groq, Cohere, Ollama, Ollama Cloud, llama.cpp, Cloudflare, DeepSeek, ElevenLabs, Google, Mistral, MiniMax, Moonshot, Nvidia, and Z.ai 🔧 Tool-use Support Function calling capabi
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: agnostic, anthropic, api, deepseek-v4-pro, gateway, gateway-api
+
+---
+
+### 🌟 [PDF-Tools](https://github.com/Open-Document-Alliance/PDF-Tools)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 157
+- **核心概述**: Fill, sign, merge, split, and extract PDFs from Claude Desktop and other MCP hosts. Maintained by the Open Document Alliance.
+- **大概是做什么的**: PDF Tools for Claude Desktop and Local MCP Hosts The local PDF workflow for Claude Desktop and MCP hosts: fill, sign, merge, split, extract, render, and analyze PDFs with local file operations. Instead of just opening a PDF, PDF Tools lets Claude fetch PDF URLs to your machine, inspect documents visually, fill forms, save reusable profiles, add signature/date zones, merge and split files, reorganize pages visually, extract structured data, and return document content to your chosen MCP host for analysis. This package targets Claude Desktop and other local MCP hosts today. It does not yet include a remote connector for Claude Cowork / web-hosted Claude. 1. Download the latest .mcpb from Releases 2. Double-click the .mcpb file to install it in Claude Desktop The extension is also available in the Claude Extensions directory. Claude Desktop settings include an Allowed PDF Directories field. By default, PDF Tools can access /Documents , /Downloads , and /Desktop . Add any other folder you want Claude to use before asking it to read, fill, sign, merge, or save PDFs there. Saved profiles a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, claude-desktop, electronic-signature, mcp, mcpb, model-context-protocol
+
+---
+
 ## 🕔 2026-09-22 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
