@@ -1,3 +1,67 @@
+## 🕔 2026-09-22 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 312 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 5,040
+- **核心概述**: Exa MCP for web search and web crawling!
+- **大概是做什么的**: Connect AI agents to Exa for web search, content fetching, and multi-step research. Connect to Exa's hosted MCP server: Or use a plugin when your client supports one. This repository is an Agent Plugin. Install it with any compatible client. Install from the Claude Plugin Marketplace, or run: Install via Plugins in ChatGPT, or run: Most clients can be configured manually with the standard mcpServers shape: Client-specific configs Exa MCP works with most other clients, point them at https://mcp.exa.ai/mcp . Client Where to add it Kiro Use the Kiro power, or add manually to /.kiro/settings/mcp.json LM Studio Add to LM Studio, or add manually to mcp.json Replit Add to Replit Grok Build /marketplace → install Exa , then /mcp to sign in Gemini CLI Add manually to /.gemini/settings.json OpenCode Add manually to opencode.json Windsurf Add manually to /.codeium/windsurf/mcp config.json Google Antigravity Add manually to mcp config.json Zed Add manually to settings.json under context servers Warp Settings → Agents → MCP servers v0 by Vercel Settings → MCP connections web search exa Search the
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: code-search, codesearch, crawling, mcp, mcp-server, model-context-protocol
+
+---
+
+### 🌟 [accounted](https://github.com/erp-mafia/accounted)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 374
+- **核心概述**: Open-source Swedish accounting, built for you and your AI agents.
+- **大概是做什么的**: Open-source Swedish accounting software for sole traders (enskild firma) and limited companies (aktiebolag). Double-entry bookkeeping that complies with Swedish accounting law, built to be operated by you or by your AI agent. Use Accounted · Self-host · Documentation · Contribute Compliant by construction. Accounted implements double-entry bookkeeping under Swedish accounting law (Bokföringslagen). Voucher immutability, sequential voucher numbering, period locks, and 7-year document retention are enforced by database triggers, not by convention. See the architecture guide for the engine, enforcement, and audited correction paths. Agent-native. The full bookkeeping engine is exposed as 150+ MCP (Model Context Protocol) tools with scoped API keys or OAuth, so an AI agent can do the books in Accounted: categorize transactions, draft vouchers, reconcile periods, and prepare declarations. Posting is staged for human approval, so the agent proposes and you decide. Yours to run. AGPL-3.0 licensed and fully self-hostable with Docker and Supabase. Use the hosted version at app.accounted.se or
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accounting, bookkeeping, mcp, nextjs, open-source, self-hosted
+
+---
+
+### 🌟 [free-ai-coding](https://github.com/inmve/free-ai-coding)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 770
+- **核心概述**: AI coding limit resets and extra usage, with original sources.
+- **大概是做什么的**: For reset notifications: Watch → Custom → Releases . Reset expected 2026-09-22 · announcement Last confirmed reset 2026-09-05 · Grok Bot only · announcement Check out website — Next Reset.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-tools, awesome-list, code-generation, coding-assistant, llm
+
+---
+
+### 🌟 [Dataverse-skills](https://github.com/microsoft/Dataverse-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 230
+- **核心概述**: Microsoft Dataverse skills for AI coding agents. Wraps the Dataverse MCP server, Dataverse CLI, Python SDK, and PAC CLI behind specialist skills for building, querying, deploying, and administering Dataverse environments.
+- **大概是做什么的**: Build, query, and manage Microsoft Dataverse and linked Dynamics 365 Finance and Operations environments through natural language. The plugin teaches AI coding agents to drive the Dataverse MCP server, Dataverse CLI, Python SDK, and PAC CLI — from designing data models and answering CRM questions to deploying Dataverse solutions and Finance and Operations deployable packages. Skill What it does dv-connect One-time setup that installs the Dataverse CLI, Python SDK, and PAC CLI; authenticates against your Dataverse environment; and registers the Dataverse MCP server with your agent. dv-query Reads, filters, paginates, and aggregates Dataverse records. Handles natural-language questions like "show me my open deals" , multi-page result sets, and pandas DataFrame loading for notebook analysis. dv-data Single-record CRUD plus bulk import — CSV loads, multi-table imports with foreign-key dependencies, upsert by alternate key, and AI-generated sample data. dv-metadata Authors and edits the Dataverse data model: tables, columns, relationships, forms, and views. dv-solution Manages solution li
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, dataverse, dynamics-365, dynamics-crm, mcp, mcp-server
+
+---
+
+### 🌟 [mcp-server-synology](https://github.com/atom2ueki/mcp-server-synology)
+- **项目语言**: Python
+- **星标数量**: ⭐ 207
+- **核心概述**: 💾 Model Context Protocol (MCP) server for Synology NAS - Enables AI assistants (Claude, Cursor, Continue) to manage files, downloads, and system operations through secure API integration. Features Docker deployment, auto-authentication, and comprehensive file system tools.
+- **大概是做什么的**: 💾 Synology MCP Server A Model Context Protocol (MCP) server for Synology NAS devices. Enables AI assistants to manage files and downloads through secure authentication and session management. 🌟 NEW: Unified server supports both Claude/Cursor (stdio) and Xiaozhi (WebSocket) simultaneously! 📦 Install from PyPI No need to clone the repository — install the package directly from PyPI: This installs two equivalent commands: synology-mcp and mcp-server-synology . For MCP clients, uvx is the simplest option — it downloads and caches the package automatically, no manual install or local clone required: Configuration lives outside the package, so it works the same as a source checkout: create /.config/synology-mcp/settings.json as described in Configuration Options. 🚀 Quick Start with Docker 1️⃣ Setup Environment 2️⃣ Configure .env File Basic Configuration (Claude/Cursor only): Extended Configuration (Both Claude/Cursor + Xiaozhi): One simple command supports both modes: 4️⃣ Alternative: Local Python The examples below use Docker with a local clone of this repository. If you installed fro
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, synology
+
+---
+
+### 🌟 [vi-sql](https://github.com/kopecmaciej/vi-sql)
+- **项目语言**: Go
+- **星标数量**: ⭐ 198
+- **核心概述**: Terminal UI for SQL databases
+- **大概是做什么的**: A terminal UI for SQL databases built with passion. Browse schemas, run queries, edit rows, inspect query plans, and expose your session to AI tools via a built-in MCP server. - Multi-tab SQL editor — syntax highlighting, autocomplete, query history, and $EDITOR integration - Table data view — filter, sort, inline and batch edit, add/delete rows, copy rows as JSON/CSV, follow foreign keys, find references - Vim mode — hjkl navigation and multi-key sequences ( gg , dd , yy , yrj , yrc , gd , gr ) across the entire UI - Schema browser — tables, structure, indexes, DDL; create, rename, and drop objects via keybindings - EXPLAIN / EXPLAIN ANALYZE — query plan viewer with cost and timing breakdown - Import / Export — CSV, JSON, SQL INSERT, and Markdown - MCP server — AI assistants (Claude, Cursor, etc.) can browse your schema and draft queries in the editor; query - Auto-update — update to the latest release from inside the app via the actions palette - Encrypted connections — AES-256-GCM encryption; supports OS keyring, master password, or env var - Themes — multiple built-in themes, ful
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: go, golang, mcp, neovim, sql, tui
+
+---
+
 ## 🕔 2026-09-22 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
