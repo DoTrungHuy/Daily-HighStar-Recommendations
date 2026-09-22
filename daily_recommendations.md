@@ -1,3 +1,67 @@
+## 🕔 2026-09-22 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [53AIHub](https://github.com/53AI/53AIHub)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,658
+- **核心概述**: 53AI Hub is an open-source AI portal and knowledge base for managing enterprise knowledge, AI agents, prompts, and AI tools, seamlessly integrating with Coze, Dify, FastGPT, RAGFlow. 一个AI知识库与Agent门户
+- **大概是做什么的**: 53AI Hub is an open-source AI portal , which enables you to quickly build a operational-level AI portal to launch and operate AI agents, prompts, and AI tools. It supports seamless integration with development platforms like Coze, Dify, FastGPT, RAGFlow, and 53AI Studio , and cloud platforms such as Aliyun , Tencent Cloud , and Baidu Cloud , helping developers and enterprises build production-grade AI portals without complex integrations. Even users with no technical background can participate easily, significantly lowering the barrier to AI inplementation. Key features are as follows: 1. Platform Integration : Supports integration with mainstream agent development platforms, cloud services, and large language model platforms. Users can choose from site templates and styles, and customize the interface as needed. 2. Application Management : Provides full lifecycle management for AI agents, prompts, and AI tools, including publishing, grouping, sorting, and user permission configuration. 3. User Operations : Supports the operation of both registered users and internal users, with the
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coze, dify, fastgpt, go, knowledge, maxkb
+
+---
+
+### 🌟 [tyk](https://github.com/TykTechnologies/tyk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 10,828
+- **核心概述**: Open Source API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context Protocol)
+- **大概是做什么的**: Documentation MCP Gateway AI Gateway Forum Blog About Tyk Gateway is the cloud-native, open source, enterprise-ready API and AI Gateway supporting REST, GraphQL, TCP, gRPC and MCP (Model Context Protocol). Built from the ground up, as the fastest API Gateway on the planet since 2014. Tyk Gateway is provided ‘Batteries-included’, with no feature lockout. Enabling your organization to rate limit, auth, gather analytics, apply microservice patterns and more with ease. There are three different ways you can try Tyk: Everything you need to manage APIs using Tyk Open Source. Follow the simple Get Started guide below 👇 The Enterprise API Management platform: Management Control Plane with GUI & Developer Portal. The Enterprise API Management SaaS platform: hosted Management Control Plane with GUI & Developer Portal. We’ll install Tyk, add auth, analytics, quotas and rate limiting to your API in under 5 minutes. We recommend Tyk Gateway Docker as the quickest way to get started now. Later, you can move to one of our other supported distributions if you prefer. Step 1 - Clone the docker-compo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-gateway, api, api-gateway, api-management, cloudnative
+
+---
+
+### 🌟 [asc-cli](https://github.com/tddworks/asc-cli)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 367
+- **核心概述**: App Store Connect from your terminal & Agents. A Swift CLI for managing your iOS and macOS apps on App Store Connect. Submit versions, manage screenshots, track builds — with full AI-agent support via CAEOAS affordances.
+- **大概是做什么的**: App Store Command Center — inspired by the Terran Command Center from StarCraft. A CLI for App Store Connect — automate builds, releases, TestFlight, subscriptions, and screenshots from your terminal or CI pipeline. Outputs structured JSON so AI agents can drive the full release workflow. Optional: sign in to iris (unlocks first-time IAP submissions, web UI parity) The public ASC API (above) covers most workflows but can't submit the first IAP for an app — Apple requires that to ride along with a new App Store version, and the only path that accepts the flag is the iris private API. Sign in once with your Apple ID and asc iap list will auto-route the right command for each IAP: Now asc iap list --app-id enriches each IAP with the right submission affordance — addToNextVersion for queue-via-iris, removeFromNextVersion to dequeue, submit for established-app standalone review. The agent reads one affordance and runs it; no need to learn iris-vs-sdk. asc iris auth logout to clear the session. CI scripts using the API key alone keep working unchanged — iris is purely additive. Category Wh
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, appstore-connect, appstoreconnect, asccli, iap, screenshot-generator
+
+---
+
+### 🌟 [AI-Can-Learn-Scientific-Taste](https://github.com/tongjingqi/AI-Can-Learn-Scientific-Taste)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 432
+- **核心概述**: We propose Reinforcement Learning from Community Feedback (RLCF), a training paradigm that uses large-scale community signals as supervision, and formulate scientific taste learning as a preference modeling and alignment problem.
+- **大概是做什么的**: AI Can Learn Scientific Taste - [2026.07] 📊 The 2025 Future-Year benchmark and evaluation results have been refreshed (904 pairs). - [2026.07] 🤗 The SciJudge-2506 series has been updated on Hugging Face. Collection] - [2026.03] 🎮 Online Demo is now available! Demo] - [2026.03] 📄 Paper available on arXiv. arXiv] - [2026.03] 🤗 Models released on Hugging Face. Collection] 📌 Table of Contents Scientific discovery depends on expert judgement and foresight, which we call scientific taste: the ability to judge and propose research ideas with potential for long-term scientific impact. Whether AI can learn this ability remains an open question. Here we provide evidence that artificial intelligence can learn judgement and ideation. We introduce Reinforcement Learning from Community Feedback (RLCF), a training paradigm that uses large-scale signals from the scientific community as supervision. We first train Scientific Judge on field- and time-matched pairs of high- vs. low-citation papers to judge ideas. We then train a Scientific Thinker to propose research ideas with high potential imp
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-innovator, ai-scientists, rl
+
+---
+
+### 🌟 [skrun](https://github.com/skrun-dev/skrun)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 209
+- **核心概述**: Deploy any Agent Skill as an API via POST /run. The open-source multi-model alternative to Claude Managed Agents, Microsoft Foundry & Mistral/Koyeb — works with any LLM.
+- **大概是做什么的**: Deploy any Agent as an API via POST /run . The open, multi-model runtime for AI agents — works with any LLM, on any infrastructure. The open-source alternative to Claude Managed Agents (CMA) and Google's Gemini Enterprise Agent Platform (GEAP) — multi-model, self-hostable, MIT. 4 steps: (1) skrun deploy -m "initial release" from your terminal → (2) the agent appears in the dashboard → (3) open the Playground, fill the input → (4) click Run, watch SSE events stream in real time, see the result. You shipped an AI capability. It works on your machine. But every user, every customer, every new model brings new plumbing. Skrun is the open agent runtime. Turn your skill — declared as SKILL.md , AGENTS.md , or your own format — into a POST /run endpoint. Without building your own agent loop. Without picking a vendor. Without locking your users behind a wall. Any model. Any cloud. BYOK. MIT. Your skill stays portable. - ✅ Your skill stays in your repo, in the format you choose. Skrun is a deployment target — your repo stays the source of truth. - ✅ Compatible with the Agent Skills open stand
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, agent-skills, ai-agents, anthropic, api, claude
+
+---
+
+### 🌟 [cortex](https://github.com/cortex-docs/cortex)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 164
+- **核心概述**: Generate typed SDKs from OpenAPI, AsyncAPI, GraphQL, gRPC, and OpenRPC—plus interactive docs and MCP servers enriched with custom Markdown.
+- **大概是做什么的**: Every developer. Every agent. Cortex turns API specifications and Markdown into typed SDKs, interactive documentation, and an MCP server from one project configuration. OpenAPI · AsyncAPI · GraphQL · gRPC · OpenRPC · Markdown Cortex combines OpenAPI, AsyncAPI, GraphQL, Protocol Buffer, OpenRPC, and Markdown sources. Developers get interactive documentation, applications get typed SDKs, and AI agents get an MCP server with project context. If Cortex helps your team, star this repository to support its development. Try Cortex in 60 seconds Create a sample project and inspect the generation plan: Cortex validates each source and shows every planned output: The generated MCP server gives AI agents typed tools, specifications, SDK guides, and project documentation. Generate the files. Then start the local documentation preview: Open http://localhost:3012 . Press Ctrl+C to stop the server. - Generate SDKs for TypeScript, Python, Go, Java, Kotlin, Ruby, PHP, C , Rust, C++, and C. - Combine multiple specification files in one generated SDK. - Generate HTTP, WebSocket, GraphQL, gRPC, and JSON
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: api-client, api-documentation, api-reference, asyncapi, code-generation, developer-experience
+
+---
+
 ## 🕔 2026-09-22 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
