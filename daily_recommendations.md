@@ -1,3 +1,67 @@
+## 🕔 2026-09-22 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [waha](https://github.com/devlikeapro/waha)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,434
+- **核心概述**: WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! Multiple engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go), WPP (browser)
+- **大概是做什么的**: WAHA - W hats A pp H TTP A PI (REST API) that you can install on your own server and run in less than 5 minutes! - Documentation: https://waha.devlike.pro/ - Dashboard Example: https://waha.devlike.pro/dashboard - Swagger Example: https://waha.devlike.pro/swagger Send your first message + 2. Run WhatsApp HTTP API + 3. Start a new session + 4. Get and scan QR + 5. Get the screenshot + 6. Send a text message Only thing that you must have - installed docker. Please follow the original instruction how to install docker - . When you are ready - come back and follows the below steps to send the first text message to WhatsApp via HTTP API! Send your first message Let's go over steps that allow you to send your first text message via WhatsApp HTTP API! Assuming you have installed Docker, let's download the image. Read more about how to get PASSWORD for ➕ WAHA Plus 2. Run WhatsApp HTTP API Run WhatsApp HTTP API: Open the link in your browser http://localhost:3000/ and you'll see API documentation 3. Start a new session To start a new session you should have your mobile phone with installed Wh
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-bot, bot, http-api, mcp, mcp-server, mcp-whatsapp
+
+---
+
+### 🌟 [awesome-langchain](https://github.com/kyrolabs/awesome-langchain)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 9,540
+- **核心概述**: 😎 Awesome list of tools and projects with the awesome LangChain framework
+- **大概是做什么的**: 🦜🔗 Awesome LangChain Curated list of tools and projects using LangChain. LangChain is an amazing framework to get LLM projects done in a matter of no time, and the ecosystem is growing fast. Here is an attempt to keep track of the initiatives around LangChain. Subscribe to the newsletter to stay informed about the Awesome LangChain. We send a couple of emails per month about the articles, videos, projects, and tools that grabbed our attention Contributions welcome. Add links through pull requests or create an issue to start a discussion. Please read the contribution guidelines before contributing. - 🦜🔗 Awesome LangChain - LangChain Framework - Ports to other languages - Open Source Projects - Knowledge Management - Other LLM Frameworks - Complement to this list - LangChain: the original 🐍 - LangChain.js: the js brother ✨ - Concepts: Langchain concepts doc - Twitter account: follow to get fresh updates - Langchain Blog: The Official Langchain blog Ports to other languages List of non-official ports of LangChain to other languages. - Langchain Go: Golang Langchain - LangchainRb: R
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, awesome, awesome-list, langchain, llm
+
+---
+
+### 🌟 [jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,617
+- **核心概述**: 装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。
+- **大概是做什么的**: Jev 聊天助手 (Jev Chat Assistant) 装在手机上的「对话副驾」：你在任何聊天 App 里聊天，它在旁边读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。 已在 微信、QQ、X（Twitter 私信） 三个平台真机跑通，飞书采集已接入。一套内核，一个 App 一个几十行的适配器。 联系 / 反馈 / 合作：请公众号私信 （二维码见文末）。 官网：chatjevs.com 左：悬浮窗——危险等级、对方真实意图、Jev 排好序的 3 条候选回复，复制或填入。右：设置页。 - 一套内核，多平台。 微信 8.0.78、QQ 9.3.50、X 12.25 真机验证，读消息 → 判断 → 候选 → 填入整条链全通。新增一个 App 只需实现一个 ChatAppAdapter ，其余全部复用。 - 非侵入。 不 hook、不改包、不走任何 App 的接口或账号、不读数据库，只用系统无障碍服务读「屏幕上正在显示的对话」。微信这种混淆节点的也能读到。 - 看得懂，不止会写。 用 TypeSafe Jev 判断模型一次给出：对方真实意图、危险等级（1–9）、对方要什么、该不该马上回、最佳动作。约 1 秒，带把握度。 - 3 条候选，Jev 排序。 生成模型（默认 DeepSeek）起草 3 条口语化回复，Jev 按「最合适」排序并给出占比。 - 发送永远由你点。 程序只把回复填进输入框，从不自动发送，不碰转账 / 红包 / 收款。 - 知识库 + 关联上下文。 本地维护笔记和联系人档案（关系、别名、备注），分析时自动带上命中的知识和这个人的历史聊天，候选回复与知识库一致；联系人可跨 App 关联（同一个人在微信和 QQ 用别名对上）。历史记录默认关闭，开了也只存本机。 - 读不到就 OCR。 树里没有正文时自动截屏、用 ML Kit 中文离线识别（不上传图片、不需要 Google 服务），飞书正文靠它；任何 App 都可以在悬浮窗菜单里手动「截屏识别一次」。 - 接口全可配。 判断 / 回复 / 视觉三路接口的地址、密钥、模型分别可填，内置 OpenRouter、TypeSafe 直连、DeepSeek 官方、通义兼容预设，各自一键连通测试；只有一把密钥也能用（回复、视觉留空自动继承）。 - 隐私在本机。 密钥只存 App 私有空间，聊天内容只在分析那一刻发给模型接口，不落盘、不进日志。 微信 Android ✅ 全链路 伪装系统无障碍服务读气泡节点 8.0.52+ 混淆节点，伪装后 8.0.78 实测可读 QQ Android ✅ 全链路 无障碍读节点 9
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: accessibility-service, android, chat-assistant, llm, qq, wechat
+
+---
+
+### 🌟 [citra](https://github.com/SylphxAI/citra)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 935
+- **核心概述**: Give your AI agent eyes for PDFs — structured text, tables, OCR, visual evidence, and page-level citations via MCP. Native Rust, local-first.
+- **大概是做什么的**: Give your AI agent eyes for PDFs — with proof. Local-first PDF evidence for agents. Structured text, tables, OCR, visual crops, and page-level citations your agent can defend — not invent. Canonical package @sylphx/citra · bin citra · MCP io.github.SylphxAI/citra · live 5.0.0 Zero-config in one line No Docker. No API key. No global install. Spawns a stdio MCP server agents can use immediately. Any agent / CLI npx -y @sylphx/citra Claude Code claude mcp add citra -- npx -y @sylphx/citra Claude Desktop / Cursor / VS Code / Codex "command": "npx", "args": ["-y", "@sylphx/citra"] Global CLI npm i -g @sylphx/citra → citra Why Citra feels unfairly good Plain-text PDF tools make agents guess . Citra returns an Agent Document Twin they can cite . Pain today With Citra Page numbers invented or missing Page + geometry + provenance Tables flattened into soup Rows · columns · cells · bounding boxes Scanned PDFs become noise OCR path linked to evidence Install / config / “hope it works” npx -y — done Silent engine fallbacks Fail closed if the native binary is missing Five reasons teams pick Citra
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-document-twin, ai-agent, ai-tools, citations, document-intelligence, document-processing
+
+---
+
+### 🌟 [deep_research_bench](https://github.com/Ayanami0730/deep_research_bench)
+- **项目语言**: Python
+- **星标数量**: ⭐ 832
+- **核心概述**: DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents
+- **大概是做什么的**: DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents If you like our project, please give us a star ⭐ on GitHub for the latest update. + [11 May 2026] 🎯 Official Evaluator Switched to GPT-5.5 : Following Google's announced June 17, 2026 deprecation of Gemini-2.5-Pro, we benchmarked three frontier reasoning models as candidate replacements on the human-annotated subset (50 tasks × 4 target DRAs = 200 articles), measuring each candidate's alignment with human judgments (human inter-annotator agreement baseline = 68.78% ). All three candidates exceed this baseline by 1.3–3 points; GPT-5.5 wins on Overall, PAR, and FAS . We are adopting it as the new RACE evaluator (with GPT-5.4-mini for the FACT pipeline). Scores: Candidate evaluator Overall ↑ PAR OPC FAP FAS --- --- --- --- --- --- GPT-5.5 🥇 71.82 73.00 89.70 65.35 59.23 Gemini-3.1-Pro 70.58 71.33 90.14 65.39 55.45 Claude-Opus-4-7 70.11 71.00 86.76 66.70 55.99 + [11 May 2026] 📢 Leaderboard Migration Plan : - Now – 31 May 2026 (dual-acceptance window) : We accept submissions evaluated under both the legacy evaluator
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, benchmark, deepresearch, nlp
+
+---
+
+### 🌟 [reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant)
+- **项目语言**: Java
+- **星标数量**: ⭐ 837
+- **核心概述**: MCP server for reverse engineering tasks in Ghidra 👩‍💻
+- **大概是做什么的**: ReVa - Ghidra MCP Server for AI-Powered Reverse Engineering A Ghidra extension that provides a Model Context Protocol (MCP) server for AI-assisted reverse engineering ReVa (Reverse Engineering Assistant) is a Ghidra MCP server that enables AI language models to interact with Ghidra's powerful reverse engineering capabilities. ReVa uses state of the art techniques to limit context rot and enable long form reverse engineering tasks. ReVa is different from other efforts at building AI assistants for RE tasks because it uses a tool driven approach with a focus on designing tools for effective LLM use. ReVa aims to provide a variety of small tools to the LLM, just as your RE environment provides a set of small tools Each of the tools given to the LLM are constructed to be easy for the LLM to use and to tolerate a variety of inputs and to reduce hallucination by the LLM. We do this by providing the LLM with a schema but tolerating other input, including descriptions that guide the LLM,and redirecting correctable mistakes back to the LLM, and including extra output to guide the next decisio
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: assistant, binaryninja, ghidra, llm, mcp, mcp-server
+
+---
+
 ## 🕔 2026-09-21 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 271 个候选项目中筛选出 6 个未推荐过的新项目。
