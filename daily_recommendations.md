@@ -1,3 +1,67 @@
+## 🕔 2026-09-22 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use)
+- **项目语言**: Python
+- **星标数量**: ⭐ 828
+- **核心概述**: Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.
+- **大概是做什么的**: typesafe-computer-use drives a Mac toward a goal you type in plain English, for about a fiftieth of a cent per step. It reads the screen deterministically, asks a small classifier which action comes next, and only calls a writing model when a text field genuinely needs free text or the classifier has stopped and the screen needs reading. Beta. This is under heavy development. Expect rough edges, and expect settings and behavior to change between 0.x releases. It drives your real mouse and keyboard, so start with a dry run. Frontier-model computer use is capable and expensive: every step ships a screenshot and waits several seconds for a plan. Most steps do not need a plan. They need one choice from a short list, made quickly and cheaply, with a confidence number you can gate on. TypeSafe sells exactly that: a decision model that answers a Choice over up to 255 options with a full probability distribution and a calibrated confidence, in a few hundred milliseconds, with free output tokens. This project is a computer-use loop built around it. Measured on the same screenshot and goal, on
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, computer-use, macos, ocr, typesafe
+
+---
+
+### 🌟 [line-bot-mcp-server](https://github.com/line/line-bot-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 782
+- **核心概述**: MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.
+- **大概是做什么的**: Model Context Protocol (MCP) server implementation that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account. This repository is provided as a preview version. While we offer it for experimental purposes, please be aware that it may not include complete functionality or comprehensive support. 1. push text message - Push a simple text message to a user via LINE. - userId (string?): The user ID to receive a message. Defaults to DESTINATION USER ID. Either userId or DESTINATION USER ID must be set. - message.text (string): The plain text content to send to the user. 2. push flex message - Push a highly customizable flex message to a user via LINE. - userId (string?): The user ID to receive a message. Defaults to DESTINATION USER ID. Either userId or DESTINATION USER ID must be set. - message.altText (string): Alternative text shown when flex message cannot be displayed. - message.contents (any): The contents of the flex message. This is a JSON object that defines the layout and components of the message. - message.contents.type (enum): Type of the contai
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: line, linebot, mcp, mcp-server
+
+---
+
+### 🌟 [AI-Product-Development-Toolkit](https://github.com/TechNomadCode/AI-Product-Development-Toolkit)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 972
+- **核心概述**: User-Centered Product Development Prompt Templates & Agent Configurations
+- **大概是做什么的**: AI Product Development Toolkit Free, copy-paste prompts and coding-assistant rules for building software with AI. Everything here is a plain Markdown file. You don't need to install anything or clone this repository. 1. Pick a prompt from the table below and open its file. 2. Copy the contents and fill in the bracketed placeholders with your project details. 3. Paste it into your AI chat, answer its questions, and review the draft it produces. New here? Start with the PRD prompt (guide). It turns a rough app idea into a clear requirements document. Listed in the order you would normally use them. You can start at any step; each folder's guide explains what to bring. Step Prompt What you get 1. Research users User research questionnaire A questionnaire, then a research summary for your PRD 2. Define the product PRD generation Goals, users, requirements, and constraints 3. Map the experience UX and user flow User journeys and interface requirements 4. Scope the first release MVP concept Core problem, hypothesis, and a short feature list 5. Plan the build MVP development plan or ultra-l
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, agentic-ai, agentic-workflow, agents, ai
+
+---
+
+### 🌟 [pktvisor](https://github.com/netboxlabs/pktvisor)
+- **项目语言**: C++
+- **星标数量**: ⭐ 524
+- **核心概述**: pktvisor is a dynamic network observability agent that smartly analyzes network traffic and generates opentelemetry metrics
+- **大概是做什么的**: Introduction &nbsp;&nbsp;&bull;&nbsp;&nbsp; Get Started &nbsp;&nbsp;&bull;&nbsp;&nbsp; Docs &nbsp;&nbsp;&bull;&nbsp;&nbsp; Contribute &nbsp;&nbsp;&bull;&nbsp;&nbsp; pktvisor (pronounced "packet visor") is an observability agent for analyzing high volume, information dense network data streams and extracting actionable insights directly from the edge while integrating tightly with modern observability stacks. It is resource efficient and built from the ground up to be modular and dynamically controlled in real time via API and YAML policies. Input and analyzer modules may be dynamically loaded at runtime. Metric output can be used and visualized both on-node via command line UI (for localized, hyper real-time actions) as well as centrally collected into industry standard observability stacks like Prometheus and Grafana.. The input stream system is designed to tap into data streams. It currently supports packet capture, dnstap, sFlow and Netflow/IPFIX and will soon support additional taps such as envoy taps, and eBPF. The stream analyzer system includes full application layer analysis,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, api-first, collector-agent, dnstap, grafana, monitoring
+
+---
+
+### 🌟 [movo](https://github.com/himovo/movo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 154
+- **核心概述**: Turn DeepSeek Harness into a self-hosted enterprise Agent platform with knowledge, deep research, content generation, vibe coding, browser automation, governance, and admin controls.
+- **大概是做什么的**: MOVO Community Edition A self-hosted enterprise Agent platform built on DeepSeek Harness (DSH). 📘 Documentation · If MOVO is useful to you, click Star in the upper-right corner to support the project. MOVO brings DSH Agents from development experiments into enterprise production. It combines the DSH Runtime, Skills, Tools and MCP ecosystem with a deployable user workspace, enterprise knowledge, identity and access control, administration, governance and file delivery. In one sentence: DSH runs the Agent; MOVO brings the Agent into enterprise production. This repository contains the self-hosted MOVO Community Edition. With Git and Docker Desktop (or Docker Engine with Docker Compose v2) installed: The launcher pulls the official prebuilt images, waits for the services to become healthy and prints the setup address. No .env file or local image build is required. Windows users should run MOVO inside an Ubuntu WSL 2 distribution; see the Windows installation guide. Got MOVO running? Please click Star in the upper-right corner. It helps more developers discover the project. See MOVO in a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, brower-automation, dsh-plugin, enterprise-agents, mcp
+
+---
+
+### 🌟 [agent-lsp](https://github.com/blackwell-systems/agent-lsp)
+- **项目语言**: Go
+- **星标数量**: ⭐ 134
+- **核心概述**: MCP server that orchestrates language servers into agent-native workflows. 65 tools, 30 CI-verified languages.
+- **大概是做什么的**: Code intelligence infrastructure for AI agents. 65 tools, 32 CI-verified languages, 24 agent workflows. Single Go binary. agent-lsp is an MCP server that orchestrates existing LSP servers (gopls, rust-analyzer, jdtls, etc.) into agent-native workflows. Not an LSP server — it's an orchestration layer that manages language servers and exposes batch operations, speculative editing, and multi-step workflows via MCP tools. - Language servers (gopls, rust-analyzer, etc.) → provide code intelligence - agent-lsp (MCP server) → orchestrates workflows, maintains warm runtime - AI agents → consume via MCP protocol Persistent warm runtime Language servers stay indexed across agent sessions. First session: indexes workspace ( 10s for typical projects). Subsequent sessions: instant. No cold-start penalty on each request. blast radius → one call returns all exports + all callers (test vs non-test partitioned). Without orchestration: 20+ sequential LSP calls. simulate edit → preview changes in memory, check diagnostic delta, apply or discard. Test edits before touching disk. Workflow orchestration 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentskills, ai-agents, ai-tooling, claude, claude-code, code-intelligence
+
+---
+
 ## 🕔 2026-09-22 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 312 个候选项目中筛选出 6 个未推荐过的新项目。
