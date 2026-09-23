@@ -1,3 +1,67 @@
+## 🕔 2026-09-23 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [anti-slop](https://github.com/miqdadbadjuber/anti-slop)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 3,586
+- **核心概述**: Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.
+- **大概是做什么的**: Anti Slop: Rules for AI Coding Agents. It stops them from generating generic "AI slop" UI and copy, without letting the result turn sterile. It is a filter, not a style guide : no prescribed colors, fonts, or layouts. It is not only for building pages: it also writes and audits copy, so AI text stops reading like AI. And it never beautifies on its own; DESIGN.md (yours) is where beauty and direction come from. New here? Start with the GUIDE.md. It explains what antislop is and how to install it, from zero. - 38 mandatory rules (R-01 to R-38) in three tiers: Hard Gate (absolute), Purpose-Gate (technique allowed, reason required), Quality Locks (consistency) - A Liveliness Toolkit with three dials (ENERGY / RHYTHM / MOTION) and a Design Read, so the result is alive and specific, not just "clean" - A Delivery Gate : a mandatory PASS/FAIL report in four blocks, run before anything ships - Additive skills , one per concern, so an agent only loads what a task needs The core prevents slop but cannot invent direction. DESIGN.md (yours) supplies it; a sterile result means the direction was mi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-skills, ai-agents, ai-coding-agent, ai-slop, anti-slop
+
+---
+
+### 🌟 [twinny](https://github.com/twinnydotdev/twinny)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,650
+- **核心概述**: Open-source AI coding assistant for VS Code. Code completion, chat, edits and reviews with local or hosted models. Your models, your infrastructure.
+- **大概是做什么的**: The AI coding assistant for Visual Studio Code that stays inside your network. Code completion, inline edits, chat, code review and more, on a model server you choose: on your machine, on another of your devices, on a hosted API, or on one gateway your whole team shares. Free, open source, MIT licensed, no telemetry, no sign-in. Install from the Marketplace · Documentation · What's new · Changelog · Teams · 中文 · Português (BR) For teams: one gateway on your network serves every developer's VS Code, with a key per person, usage, policy and an admin page. npx twinny-server quickstart sets it up. Free for five developers, $6 a seat a month after that, and a 30-day trial with no card. Details, prices and a live admin page at twinny.dev. 1. Install twinny from the Marketplace (VS Code 1.93 or newer). 2. Run a model server. Ollama, LM Studio and llama.cpp are found on their usual ports at first start; twinny asks which models to use. 3. Type. Completions appear as ghost text; the sidebar has chat. The quick start covers picking a server and models for your hardware, and troubleshooting exp
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-coding-assistant, artificial-intelligence, code-chat, code-completion, code-generation, code-review
+
+---
+
+### 🌟 [Agnes-help-skill](https://github.com/lj1270998580-crypto/Agnes-help-skill)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 298
+- **核心概述**: Agnes AI 全模态 API 非官方帮助中心：完整 API 文档 + 通用支持 Skill。已同步 Agnes 3.0 Flash（512K 上下文 / 65,536 输出 / 三端点 / Thinking）与 Image 2.5 Flash，覆盖文本、图像、视频模型接入，适配 Claude Code、Codex、OpenClaw、Hermes、WorkBuddy 等工具，所有信息基于最新官方文档。
+- **大概是做什么的**: Agnes AI，让世界级 AI 属于每一个人。 当前 Skill 版本：v1.3.2 （2026-09-23 更新） 本仓库是 Agnes AI API 的 非官方帮助资源集合 ，包含完整 API 文档与通用支持 Skill，帮助开发者快速接入 Agnes AI 全模态 API（文本、图像、视频）。 Agnes 3.0 Flash 已上线：面向 Agent 编程与工具驱动任务的新一代文本模型，当前免费！ - ✅ 所有 Flash 系列模型（文本 / 图像 / 视频）目前全部免费 ，仅 Pro 推理系列与 agnes-video-2.5 为付费模型 - ✅ 最新文本模型 agnes-3.0-flash ：512K 上下文、65,536 最大输出、三端点（Chat Completions / Responses / Anthropic 兼容 Messages）、支持 Thinking 模式 - ✅ 最新图像模型 agnes-image-2.5-flash ：整体能力全面超过 2.1 Flash，参数与尺寸完全一致，直接换模型名即可升级 - ✅ 注册官网 → 生成 KEY → 直接调用 - ✅ 文本、图像、视频全能适配，模型持续升级 ------ ---------- ------ 文本 / Agent 编程 agnes-3.0-flash ✅ 免费 图像生成 / 编辑 agnes-image-2.5-flash ✅ 免费 视频生成 agnes-video-2.5-flash ✅ 免费（限时） 视频生成（高清付费） agnes-video-2.5 💰 付费 - ⏱️ 文本模型 RPM 调整（2026-09-23） ：免费/默认额度由 20 RPM 下调至 10 RPM ，企业认证由 40 下调至 20 RPM ，Token Plan 1000 不变；图片、视频 RPM 维持不变 官方平台： https://platform.agnes-ai.com ------ ------ ------ agnes-ai-api-documentation.md 完整 API 文档 整合官方全部接口信息，供 Agent 读取（ 带版本号 ） SKILL.md 通用支持 Skill 兼容 OpenClaw / Claude Code / Claude Desktop / Hermes / Codex / WorkBuddy / Cherry Studio / Opencode / Kimi Work（ 加载时检查更新 ） 方式一：Skill（⭐ 推荐，AI 工具链集成） 将 SK
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agnes, agnes-ai, api-skill, claude-code, codex
+
+---
+
+### 🌟 [ai-employees](https://github.com/markfulton/ai-employees)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 398
+- **核心概述**: Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other harnesses. They drive your browser the way you do and improve every run. You own the files.
+- **大概是做什么的**: Eight open source AI Employees. Each one runs a whole business role. 60 scheduled routines. Your own machine. The AI agent you already use. The eight AI Employees ⭐ Found something useful? Star the repo. It takes a second and helps the next person find it. An AI Employee is a folder of scheduled routines that covers one business role. It runs on your own machine, on the AI agent you already use, and briefs you every morning. They drive your browser and your PC the way you do, and every run makes the next one better. Eight roles, every routine and schedule in this repo, nothing held back. Created by Mark Fulton of Reinventing.AI, founder of Vibe Coding is Life (340,000+ members). Running my own business every weekday since August 27, 2026. The eight AI Employees Employee What it owns Routines GTM Engineer Your launch: positioning, the launch board, outbound drafts, directory and press forms, the weekly scoreboard 8 SEO/AEO Employee Keyword research, one article a weekday, publishing, indexing, rank review and your visibility in AI answers 8 Web Dev Employee Site health, error triage,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-employee, ai-employees, antigravity, automation, claude-code
+
+---
+
+### 🌟 [iFly-Skills](https://github.com/iflytek/iFly-Skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 220
+- **核心概述**: Official collection of iFLYTEK skills for speech, OCR, translation, proofreading, and multimodal AI capabilities.
+- **大概是做什么的**: Official collection of iFLYTEK skills for agent ecosystems and developer workflows. This repository serves as a centralized skill collection built on top of iFLYTEK AI capabilities. It currently includes reusable skills based on atomic model abilities such as speech, OCR, translation, proofreading, and multimodal understanding. Beyond atomic skills, this repository is designed to continuously expand toward more scenario-oriented skill packages. In the future, it will include not only single-capability skills, but also workflow-level and solution-level skills for real business scenarios, such as document processing, content production, intelligent review, multimodal analysis, and other integrated task chains. The goal of this repository is to provide a unified place for skill packaging, versioning, maintenance, and external distribution, making iFLYTEK capabilities easier to understand, install, combine, and evolve in agent-based ecosystems. ⚠️ Beta — This project is under active development. Skills, APIs, and configuration formats may change without notice. We welcome feedback and co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, iflytek-astron, skill, skill-md, skills
+
+---
+
+### 🌟 [XHS_Business_Idea_Validator](https://github.com/liangdabiao/XHS_Business_Idea_Validator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 262
+- **核心概述**: 小红书收集和分析数据来解析市场需求用户痛点及竞争格局 - 📊 **小红书数据抓取**: 自动抓取相关笔记和评论数据 - 🤖 **AI 内容分析**: 使用 LLM 分析用户痛点和市场需求 - 📄 **自动化报告生成**: 生成专业的市场验证报告
+- **大概是做什么的**: XHS Business Idea Validator 小红书解析市场机会智能体 小红书收集和分析数据来解析市场需求用户痛点及竞争格局 都在说这些，但是感觉都没有人开源，那么我开源一个： 小红书这里汇聚着包罗万象的生活问题和经验分享，“遇事不决小红书”成为年轻人常用的决策路径，他们相信能在这里找到答案。 对商家而言，要想深入了解今年的消费者在苦恼些什么、真正需要些什么，小红书是必经之路。 skill版本：https://github.com/liangdabiao/xhs-business-validator-skill agent线上版本：https://xhs-business.liangdabiao.com/ - 📊 小红书数据抓取 : 自动抓取相关笔记和评论数据（使用用户输入作为搜索关键词，已移除关键词生成功能） - 🤖 AI 内容分析 : 使用 LLM 分析用户痛点和市场需求 - 📄 自动化报告生成 : 生成专业的市场验证报告 👉 详细使用指南 : USER GUIDE.md 1. liked count (点赞数) ✅ 已利用 - 用途 ：计算互动评分、热门帖子排序 - 计算公式 ： total engagement = liked + collected 2 + shared 3 + comments - 位置 ：analyzer skills.py:1784, analyzer agent.py:591 2. collected count (收藏数) ✅ 已利用（加权 2 倍） - 用途 ：计算互动评分，权重更高（×2） - 计算公式 ： collected 2 - 位置 ：analyzer agent.py:592 - 理由 ：收藏代表更强的用户认可度 3. shared count (分享数) ✅ 已利用（加权 3 倍） - 用途 ：计算互动评分，权重最高（×3） - 计算公式 ： shared 3 - 位置 ：analyzer agent.py:593 4. comments count (评论数) ✅ 已利用 - 用途 ：计算互动评分、分析评论数量 - 计算公式 ： comments 3 (在 analyzer skills.py 中) - 位置 ：analyzer skills.py:1784, analyzer agent.py:594 5. publish time (发布时间) ✅ 已利用 - 用途 ：分析最近 30 天活跃度 - 计算逻辑 ：统计 30 天内发布的帖子数量 - 位置 ：analyzer agent.py
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai
+
+---
+
 ## 🕔 2026-09-23 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
