@@ -1,3 +1,67 @@
+## 🕔 2026-09-23 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Auto-Company](https://github.com/MaxMiksa/Auto-Company)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,093
+- **核心概述**: An auto-company works for 24/7 on your own PC - Windows/Linux/macOS.
+- **大概是做什么的**: An AI company framework for continuous autonomous work Powered by Agentic Workflows , this project provides 14 AI agent role definitions , each drawing on an expert's approach to its domain. The team can research products, make decisions, and write code autonomously within human-configured goals, permissions, and budgets. Deployment, publication, and marketing depend on the tools and authorization available; continuous operation depends on services and model availability. Powered by Claude Code (default) and Codex CLI on macOS + Windows/WSL, with a local dashboard on both hosts. Optional Cursor and OpenAI-compatible adapters require explicit configuration. See the adapter guide for their capabilities and limits. Four real ScopeFence product cycles: 04 is expanded; 03, 02 and 01 remain individually collapsed and visible. Pre-product exploration is kept separately. The journal connects reports, checks, documents, real previews, usage and logs. Titles and summaries remain model-authored reports; runtime facts and supported check results are collected by the program. Missing, failed, sta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflows, ai-agents, autonomous-agents, claude-code, codex, dashboard
+
+---
+
+### 🌟 [leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 14,938
+- **核心概述**: Collection of leaked system prompts
+- **大概是做什么的**: leaked-system-prompts This repository is a collection of leaked system prompts from widely used LLM based services. 1. If you would like to submit a PR, please match the format of other documents. You must include sources that I can verify or reproducible prompts. 2. If the above process is too cumbersome, you can simply post a link in the Issues section. If there are verifiable sources or reproducible prompts, I will verify them and then proceed with the merge. 3. This repository is cited in many papers. To prevent repository takedown due to DMCA warnings, please do not include sensitive commercial source code.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, document, llm, prompt
+
+---
+
+### 🌟 [WeChatBridge](https://github.com/freestylefly/WeChatBridge)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 362
+- **核心概述**: 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
+- **大概是做什么的**: 从微信转发菜单，把聊天记录送进 AI Agent 与本地知识库。 原生、轻量、完全本地的 macOS 微信聊天记录转发与归档工具。 官网 · render.qmuse.pub 已发布经过 Developer ID 签名和 Apple 公证的 WeChatBridge 0.1.14 DMG。 macOS 微信 4.1.13 起，多选聊天记录后可以“合并转发”给第三方应用。微信会生成一份包含 TXT、图片和视频的 ZIP，天然适合交给 AI Agent 处理，也适合沉淀进本地知识库。 系统的“转发到其他应用”列表只展示带有 Share Extension 的 App。微信流补齐这层入口，让一次转发直接抵达 Codex、Claude、豆包、千问办公、WorkBuddy、WeSight、Obsidian、剪贴板或你指定的其他应用。 九个原生入口 在微信转发菜单直接选择目标，无需打开微信流主窗口 AI Agent 转发 激活目标 App，附加场景指令并自动粘贴聊天归档 Obsidian 沉淀 生成 Markdown 笔记，保存原始 ZIP，并按聊天名组织内容 自定义目标 添加任意 macOS 应用，终端类应用可只接收文件路径 场景与技能 为不同群聊保留场景提示词，并管理兼容 Agent 的 SKILL.md 本地记录 查看批次状态、重新发送、复制、定位文件和清理历史 失败兜底 目标未安装或权限不足时，文件仍会保留在剪贴板 双语界面 完整支持简体中文与 English 发给 Codex 激活 ChatGPT/Codex 并粘贴聊天归档 发给 Claude 激活 Claude 并粘贴聊天归档 发给千问办公 激活千问办公并粘贴聊天归档 发给 WorkBuddy 激活 WorkBuddy 并粘贴聊天归档 发给 WeSight 激活 WeSight 并粘贴聊天归档 沉淀到 Obsidian 创建 Markdown 笔记并保存原始附件 复制到剪贴板 保留文件，交给用户手动粘贴 发送到自定义 转发到用户维护的应用列表 在微信「转发到其他应用」里直接选择目标，不需要先打开微信流主窗口： 场景保存提示词与适用 Agent，转发时挑一个 给 Agent 装上能力包，群里的链接和视频都能读 完整操作步骤、权限说明和常见问题见 使用指南。 - 不读取微信数据库，不解密、不注入、不修改微信进程。 - Share Extension 在 macOS 沙盒中运行且没有网络权限。 - 屏幕录制权限只用于识别微信标题栏中的聊天名，图像仅在内存中处理。 - 辅助功能权限只用于激活目标应用和执行粘贴。 - 自
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chat-history, macos, obsidian, share-extension, swift
+
+---
+
+### 🌟 [martin-loop](https://github.com/Keesan12/martin-loop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 190
+- **核心概述**: Make AI coding agents safe to scale autonomously: assign work, cap spend, enforce policy, verify output, roll back failures, learn from loops, and prove ROI across every repo.
+- **大概是做什么的**: Your coding agent says it's done. MartinLoop makes it prove it. One system to control, verify and understand coding-agent work. MartinLoop gives AI coding agents budgets, stop conditions, rollback rules, and receipts. Built from thousands of agent runs where the problem was not intelligence -- it was uncontrolled execution. Get started: npx -y martin-loop@latest start Try the demo: npx -y martin-loop@latest demo MartinLoop is part of the NVIDIA Inception program. Install — run npx -y martin-loop@latest start , or install it globally with npm install -g martin-loop@latest . Governed run — define an objective, verifier, budget, and iteration cap with martin run . Verifier — completion requires fresh verifier evidence bound to the active run and workspace. A configured verifier proves only the checks it runs; VERIFIED is not a claim that the code is bug-free or automatically safe to merge. Budget — set a hard spend ceiling with --budget-usd and an attempt ceiling with --max-iterations . Receipts — inspect the latest result with martin dossier --latest and validate stored integrity with
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, ai-agent-runtime, ai-coding-agents, ai-control-plane, ai-governance, ai-safety
+
+---
+
+### 🌟 [ebay-mcp](https://github.com/YosefHayim/ebay-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 161
+- **核心概述**: Local MCP server that exposes eBay Sell APIs to AI assistants with OAuth, tool gating, and stdio/HTTP transports.
+- **大概是做什么的**: The eBay MCP server — give Claude, Cursor, and any AI assistant full access to eBay's Sell APIs. 313 tools for inventory, orders, marketing, and analytics, running locally with your own keys. Unofficial, open-source project — not affiliated with, authorized, or endorsed by eBay Inc. eBay MCP is a local Model Context Protocol server that connects AI assistants — Claude Desktop, Claude Code, Cursor, Cline, Windsurf, Zed, Continue.dev, Roo Code, and Amazon Q Developer — directly to eBay's Sell APIs . It exposes 313 tools spanning 100% of eBay's Sell API surface (283 unique endpoints) for inventory management, order fulfillment, promoted-listings marketing, analytics, and developer tooling. Everything runs on your machine over STDIO or local HTTP — no cloud relay , and your eBay credentials never leave your computer. Disclaimer: Unofficial, third-party project — not affiliated with or endorsed by eBay Inc. Provided "as is" without warranty. You are responsible for complying with eBay's API License Agreement and data-handling requirements, keeping your credentials secure, and staying with
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, api-wrapper, chatgpt, claude, cursor, ebay
+
+---
+
+### 🌟 [bladebro](https://github.com/dondai44423/bladebro)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 200
+- **核心概述**: A Fully free agentic browser driver for AI , few tools, full control, real stealth, top-tier token efficiency.
+- **大概是做什么的**: Give your AI agent a browser. Few tools. Full control. Real stealth. Zero runtime deps. Re-render-immune refs · batch actions · auto-extract · self-improving · 6-layer stealth One MCP server · one persistent page model · zero Node.js · one binary · Linux · macOS · Windows Install · Stealth Bench V1 · The 5 tools · Architecture · Re-render immunity · Self-improvement · Stealth · Comparison · Gotchas · Limits Bladebro is an agentic browser driver built from the agent's perspective. Instead of 20+ tools that each do one thing, Bladebro gives you 5 tools that together provide full control. It drives stock Chromium over CDP, holds a persistent Live Page Model across tool calls, and returns diff-first results: the agent sees what changed , not the whole world, every single time. 🏆 Stealth Bench V1: 85% (68 / 80) Bladebro was run against browser-use's Stealth Bench V1: 80 real, anti-bot-protected production sites across 11 vendors. It walked through 68 of 80 (85%) , above every provider on browser-use's published leaderboard (browser-use-cloud 81%). - Out of the box : one IP, no proxy, no
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anti-detection, browser-automation, cdp, chrome, headless-browser
+
+---
+
 ## 🕔 2026-09-22 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
