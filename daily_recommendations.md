@@ -1,3 +1,67 @@
+## 🕔 2026-09-23 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AnyJev](https://github.com/nokia-applied-research/AnyJev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 333
+- **核心概述**: Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)
+- **大概是做什么的**: English · 简体中文 · 🚀 Usage · 📊 Results · 🧭 Roadmap · 📖 Levels contract Jiamu Zhang 1 &nbsp;&nbsp;&nbsp; Tianze Yang 1 &nbsp;&nbsp;&nbsp; Yucheng Shi 2 &nbsp;&nbsp;&nbsp; Liang Wu 1 1 &nbsp;Nokia, Sunnyvale, CA &nbsp;&nbsp;&nbsp;&nbsp; 2 &nbsp;Tencent Hunyuan Qwen3-8B on a real BANKING77 item. Every number is a model output. 🆕 L2 has landed. A closed-form head per question, solved on 100–300 labels in seconds, served from one prompt stopped at two thirds of the model's depth . It follows its question across rewordings without new labels. Jump to it ↓ Ask any open LLM a typed question and get back a decision with a probability you can threshold , read from one prefill of its next-token distribution. No generation, no parsing, no fine-tuning. Raw logits change their answer when you reorder the options, and their confidence cannot be trusted; AnyJev fixes the first with zero labels and the second with a few hundred. ⚪&nbsp;raw&nbsp;logits one prompt 🔵&nbsp; AnyJev&nbsp;L0 zero labels 🟢&nbsp; AnyJev&nbsp;L1 + temperature Labels required none none 100–500 Answer flips when options are
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: calibration, decision-model, jev, jev-model, llm, system-one
+
+---
+
+### 🌟 [jev-chat-jarvis-mac](https://github.com/jev-chat/jev-chat-jarvis-mac)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: 微信消息意图识别悬浮窗（macOS）：看屏 + 本地小模型判断意图和风险，再按话术生成回复候选。纯只读、不注入微信。
+- **大概是做什么的**: jev-chat-jarvis（macOS） 微信或 QQ 弹出一条消息 → 悬浮窗立刻告诉你 这句话的真实意图 、 风险几级 、 该怎么回 。 纯只读、零封号风险 ——不注入、不 hook、不解密数据库，只是「看屏幕 + 本地模型判断」。 先自查：常见问题解答（FAQ）——配置文件、日志、模型路径、安装报错、旧版空白面板速查。 交流群、公众号等联系方式见文末「交流反馈」；数据流向与隐私见 PRIVACY.md。 平台 状态 采集方式 需要的权限 备注 微信 macOS 4.x ✅ 窗口截图 + Vision OCR 屏幕录制（读）+ 辅助功能（填入） 布局常量按微信 4.1 校准 QQ macOS 6.9.x（QQNT） ✅ 系统无障碍树直接读结构化节点 辅助功能（读 + 填入） 不截图、不 OCR；我方 / 对方按节点 class 判定 两者共用同一套判断、生成与悬浮窗；悬浮窗跟随当前在前台的那个应用。 - 意图 + 风险 ：8 类意图零样本 86.4% （22 条回归口径），风险 0–9 分级 + 行动建议，本地模型一次前向出全分布 - 候选回复 ：内置 11 种话术并发生成（每条一稳一放各出 2 条）→ 先上屏 → 本地模型排序后原位重排；换话术立刻按当前消息重新生成 - 快 ：消息一出现判断 + 生成同时起跑，M1 Pro 出意图 1.5 s、出候选 1.5–2 s（端到端为机制推算口径，以日志实测为准） - YOLO 检测框 （可选， JEV BOXES=1 启动即开、菜单栏可切）：OCR 命中的消息实时框在微信窗口上，对方/我分色 + 置信度 面板使用 macOS 原生浅色磨砂材质：顶部是当前聊天、分析状态、正在处理的消息与上下文；中间依次显示意图、识别率、风险等级和行动建议；底部按话术分组展示候选回复。当前风险圆点会轻微呼吸提示。每条候选左侧是本地排序概率，右侧仍只有「复制」和「填入」；候选行会随完整文字自动增高，不截断内容，发送始终由用户在微信里手动完成。 面板默认开三组话术： 高情商话术、贴吧老哥 v1.0、阴阳怪气 ，每个下拉可换成其余语气或「不用」；「不用」的话术槽只保留一行下拉选择，不生成也不占候选行；开启或关闭话术只改变面板高度，不改变判断与轮询流程。黄色窗口按钮收起到聊天名与状态，红色窗口按钮退出。 聊天标题支持单字和较短的联系人名称；识别到聊天标题变化时，即使最后一条消息相同，也会重新分析。 联系人列表可拖动时，固定比例的自动区域可能漏消息或读到列表摘要。本分支提供可选手动模式： 1. 调整好微信窗口、联系人分栏和输入区，点击悬浮
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, local-first, macos, ocr, privacy, pyobjc
+
+---
+
+### 🌟 [Claude-code-ChatInWindows](https://github.com/LKbaba/Claude-code-ChatInWindows)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 223
+- **核心概述**: Full-featured GUI for Claude Code CLI in VS Code — Windows (no WSL) & macOS. Third-party API, MCP plugins, Skills, Hooks, real-time token tracking. Actively maintained.
+- **大概是做什么的**: Claude Code GUI / ChatUI for VS Code Claude Code ChatUI is a full-featured GUI extension for Claude Code CLI in VS Code and Cursor. Works natively on Windows (no WSL required) and macOS . Supports both official Anthropic accounts and third-party API providers with GUI configuration. Key features: MCP plugin management , Skills system , Hooks system , real-time token & cost tracking , AI Assistant integration (Gemini + Grok), and multi-language UI (English, 简体中文, 繁體中文). Actively maintained with 236+ commits. 🌐 Languages: English 简体中文 繁體中文 Feature Official Claude Code Claude Code GUI (MaheshKok) Claude Code UI (AuraTech) This Project --------- --------------------- --------------------------- -------------------------- ----------------- Windows No WSL ❌ Requires setup ❌ Requires CLI config WSL path mapping ✅ Native Third-party API GUI Config ❌ ❌ ❌ ✅ Exclusive MCP Plugin GUI Management CLI-level only ✅ MCP Hub ✅ MCP commands ✅ GUI config (Global + Workspace) Skills System GUI CLI-level only ❌ ❌ ✅ Exclusive Hooks System GUI CLI-level only ❌ ❌ ✅ Exclusive AI Assistant Integration ❌ ❌ ❌ ✅
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-coding, anthropic, chatui, claude-code, claude-code-gui, cursor
+
+---
+
+### 🌟 [task-orchestrator](https://github.com/jpicklyk/task-orchestrator)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 206
+- **核心概述**: Server-enforced workflow discipline for AI agents. An MCP server providing persistent work items, dependency graphs, quality gates, and actor attribution. Schemas define what agents must produce — the server blocks the call if they don't. Works with any MCP-compatible client.
+- **大概是做什么的**: MCP Task Orchestrator Server-enforced workflow discipline for AI agents. Prompt-based frameworks hope the LLM follows instructions. This one blocks the call if it doesn't. Task Orchestrator is an MCP server that gives AI coding agents a persistent work item graph with quality gates enforced by the server, not the prompt. It is built for developers running multi-agent or multi-session coding workflows: an orchestrator dispatching sub-agents, a fresh session picking up yesterday's work, or an autonomous loop draining a backlog. It ships as a Docker image, works with any MCP client, and has an optional Claude Code plugin that adds skills and hooks on top. Multi-agent workflows need infrastructure the model doesn't provide. When an orchestrator dispatches sub-agents across sessions, there's no built-in way to enforce what documentation must exist before work starts, track which agent made which change, or guarantee dependency ordering across a work breakdown. These are structural concerns — they belong in the server, not in prompts. Task Orchestrator puts them in the server. If a require
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-coding-assistant, ai-development, ai-harness, ai-memory, ai-tools, claude
+
+---
+
+### 🌟 [shell.online](https://github.com/TeoSlayer/shell.online)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 100
+- **核心概述**: Your terminal, anywhere. Run an agent or command on your computer and use it from any browser. Developed by Pilot Protocol.
+- **大概是做什么的**: Leave your desk. Keep your terminal moving. Start an agent or terminal command on your computer. Open the same session on your phone, tablet, or another computer. Watch its output, reply to prompts, or invite a teammate. Free, open source, and no account needed to try it. Get started · Read the docs · Open the app · Latest release 1. Install on the computer doing the work macOS, Linux, BSD or Solaris — run in a terminal: Windows — run in PowerShell: The installers check release checksums. Prefer another method? Use Homebrew or build from source. 2. Start your agent—or any terminal command Choose one agent you already have installed: Claude Code shell claude Codex shell codex OpenCode shell opencode Other terminal programs work too: shell -- npm run dev , shell -- python script.py , or just shell for a fresh shell. This starts a new process. It does not attach to a process that is already running. If your agent has a resume command, you can start that through shell . 3. Open the link anywhere Your terminal prints a link, password and QR code. Scan the QR code or open the link in a bro
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, cloudflare-workers, collaboration, mcp, pilot-protocol, remote-access
+
+---
+
+### 🌟 [apple-notes-mcp](https://github.com/sweetrb/apple-notes-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 132
+- **核心概述**: MCP server for Apple Notes - create, search, update, and manage notes via Claude and other AI assistants
+- **大概是做什么的**: Apple Notes MCP Server A Model Context Protocol (MCP) server that enables AI assistants like Claude to read, create, search, and manage notes in Apple Notes on macOS. This server acts as a bridge between AI assistants and Apple Notes. Once configured, you can ask Claude (or any MCP-compatible AI) to: - "Save this conversation as a note called 'Meeting Summary'" - "Find all my notes about the project deadline" - "Read my shopping list note" - "Move my draft notes to the Archive folder" - "What notes do I have in my Work folder?" The AI assistant communicates with this server, which then uses AppleScript to interact with the Notes app on your Mac. All data stays local on your machine. Using Claude Code (Easiest) If you're using Claude Code (in Terminal or VS Code), just ask Claude to install it: Claude will handle the installation and configuration automatically. Or register it yourself with one deterministic command: Using the Plugin Marketplace Install as a Claude Code plugin for automatic configuration and enhanced AI behavior: This method also installs a skill that teaches Claude w
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, apple, apple-notes, applescript, claude, codex
+
+---
+
 ## 🕔 2026-09-23 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
