@@ -1,3 +1,67 @@
+## 🕔 2026-09-23 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MobileBuildMCP](https://github.com/getsentry/MobileBuildMCP)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 6,416
+- **核心概述**: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
+- **大概是做什么的**: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects. MobileBuildMCP ships as a single package with two modes: a CLI for direct terminal use and an MCP server for AI coding agents. Either install method gives you both. Option B — npm (Node.js 18+) Verify either install: Connect your MCP client Drop-in config snippets for Cursor, Claude Code, Codex, can be found in the official docs page MCP Clients. Most clients can also run the MCP server on demand via npx -y mobilebuildmcp@latest mcp without a global install. - macOS 14.5 or later - Xcode 16.x or later - Node.js 18.x or later (not required for Homebrew installation) MobileBuildMCP now includes two optional agent skills: - MCP Skill : Primes the agent with instructions on how to use the MCP server's tools (optional when using the MCP server). - CLI Skill : Primes the agent with instructions on how to navigate the CLI (recommended when using the CLI). To install with a global binary: Or install directly via npx without a global install: For further information on insta
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, model-context-protocol, model-context-protocol-servers, tag-non-production, xcode
+
+---
+
+### 🌟 [Wazuh-MCP-Server](https://github.com/gensecaihq/Wazuh-MCP-Server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 238
+- **核心概述**: Production-grade MCP server for Wazuh SIEM — 55 security tools for alert triage, threat hunting, vulnerability management, compliance (PCI DSS, GDPR, HIPAA, NIST CSF, ISO 27001) and active response. Connect Claude or any LLM to your SOC. OAuth 2.1, RBAC, multi-cluster, air-gap ready.
+- **大概是做什么的**: A Model Context Protocol (MCP) server for the Wazuh SIEM. Lets an MCP client — Claude, Open WebUI backed by a local model, or any client that speaks Streamable HTTP — query alerts, agents, vulnerabilities and compliance data, and dispatch active responses, with scope-based access control and audit logging. Quick Start · Clients · Tools · Security · Configuration · Docs · Changelog · Upgrading - 55 tools in 8 toolsets: alerts, agents, vulnerabilities, threat analysis, compliance (PCI-DSS, HIPAA, SOX, GDPR, NIST, ISO 27001:2022), manager/cluster health, and active response with verification and rollback. Also 5 guided prompts, 6 resources and 3 resource templates. - Read-only by default. The 14 state-changing tools require the wazuh:write scope, which is never granted implicitly. - MCP transport: Streamable HTTP at /mcp . Serves protocol revision 2026-07-28 (stateless requests) and the initialize handshake for 2025-11-25, 2025-06-18, 2025-03-26 and 2024-11-05. The legacy HTTP+SSE endpoint /sse returns 410 Gone . - Authentication: bearer tokens minted from an API key, OAuth 2.0 (authori
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: active-response, ai, claude, compliance, cybersecurity, devsecops
+
+---
+
+### 🌟 [socai](https://github.com/socai-io/socai)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 211
+- **核心概述**: A Browser Use Agent that actually reads social media. Fast. Precise. Deep.
+- **大概是做什么的**: English · 简体中文 · 日本語 · 한국어 A local agent that actually reads social media. Not a scraper. Not a reverse-engineered API. socai lives in the Chrome you already use, opens the real page, and comes back with results you want. Xiaohongshu · TikTok / Douyin · Instagram · LinkedIn Website · Download · Discord · Quick start · Development Social platforms are where the real conversations happen. Public APIs hide them. Scrapers get you banned. socai takes the third path: it drives your signed-in Chrome the way a researcher would — search, open posts, expand comments, read profiles, OCR images, transcribe video — then keeps the artifacts. Read-only by design. It does not publish, like, follow, or comment. https://github.com/user-attachments/assets/8aebcded-f365-4f12-b9c4-102cc1fa964d Use the desktop app to enter research tasks without setting up a command-line environment. It is available for macOS and Windows: - Download for macOS - Download for Windows After installation, follow the in-app steps to connect Chrome and enter a task such as: Compare how people discuss sugar-free tea on RedNote,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, browser-use, claude, codex, compute, compute-use
+
+---
+
+### 🌟 [football-docs](https://github.com/withqwerty/football-docs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 179
+- **核心概述**: Searchable football data provider documentation for AI coding agents. Like Context7 for football data.
+- **大概是做什么的**: Searchable football data provider and tooling documentation for AI coding agents. Like Context7 for football data. Who it's for: Developers and analysts who use AI coding tools (Claude Code, Cursor, VS Code Copilot) to work with football data. Works with any tool that supports MCP. What it does: Gives your AI agent a searchable index of documentation for 24 football data providers and tools — event types, qualifier IDs, coordinate systems, API endpoints, data models, identity surfaces, and cross-provider comparisons for the data providers (StatsBomb, Opta, Wyscout, Impect, SkillCorner, Sportradar, TheSportsDB, FMDB Pro, TransferRoom, and more), plus the open-source libraries people build with (kloppy, mplsoccer, socceraction, soccerdata, floodlight, fast-forward, unravelsports, and more). Your agent looks up the real docs instead of guessing from training data. Why not just let the AI figure it out? LLMs get football data specifics wrong constantly — Opta qualifier IDs, StatsBomb coordinate ranges, API endpoint URLs, library method signatures. These are mutable facts that change acro
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, claude-code, football-analytics, football-data, mcp, mcp-server
+
+---
+
+### 🌟 [gaia](https://github.com/theexperiencecompany/gaia)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: Your proactive personal AI assistant & companion for daily productivity 🌎
+- **大概是做什么的**: The open-source AI assistant that handles your whole day. GAIA is a personal AI assistant that can automate your whole day. Connect Gmail and it triages your inbox every morning, drafts your replies and turns emails into todos. Connect your calendar and it briefs you before every meeting. You set none of that up. It's running the moment you connect. And when something needs you, it comes to you — on iMessage, WhatsApp, Telegram, Slack or Discord. Gmail, Calendar, Slack, Notion, Linear — different tools, same problem: your day fills with work that isn't your job. Triaging mail, prepping for meetings, chasing updates, copying tasks between apps. Each one costs two minutes. Together they cost your afternoon. GAIA does that layer for you. It does the work, then tells you when it's done. - Proactive — connect a tool and jobs start running on their own, no setup - Workflows — automations on a schedule or an event, written for you from plain English - Memory — learns people, projects and preferences as you talk; edit, export or delete any of it - Voice — real-time calls, plus a "Hey GAIA" w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, artificial-intelligence, assistant-chat-bots, automation, calendar, chatbots
+
+---
+
+### 🌟 [agents-can-communicate](https://github.com/automatis-tools/agents-can-communicate)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 104
+- **核心概述**: Let your AI coding sessions talk to each other. Coordinate parallel work, exchange reviews, and hand off unfinished work between Claude Code, Codex, and other supported clients. Local-first. Independent sessions.
+- **大概是做什么的**: Agents Can Communicate (ACC) Let your AI coding sessions talk to each other. ACC connects independent AI coding sessions in the clients you already use. They can ask each other questions, exchange reviews, and leave handoffs for another session to continue. You open each client normally and choose its work. Every session keeps its own model, conversation, and permissions. Coordination runs locally, with no lead agent managing the - Switch models mid-feature. When a limit approaches or you want another model’s approach, leave a handoff with decisions and unfinished work for the next session. - Get a second opinion. Ask another session to review a specific change and send its findings directly to the implementing agent. - Bring parallel features together. Let sessions working on frontend and backend ask each other about a shared API before building around different assumptions. You’ll need macOS or Linux, Node.js 24 or newer , and supported coding clients on the same machine and operating-system user. The installer connects supported clients it finds. Follow its activation instructions
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, agent-coordination, ai-agents, claude-code, codex, developer-tools
+
+---
+
 ## 🕔 2026-09-23 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
