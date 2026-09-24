@@ -1,3 +1,67 @@
+## 🕔 2026-09-24 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vicoa](https://github.com/vicoa-ai/vicoa)
+- **项目语言**: Python
+- **星标数量**: ⭐ 311
+- **核心概述**: Vicoa is the agentic IDE for running a team of coding agents from any device. Desktop, mobile, VPS, open-source, self-hostable.
+- **大概是做什么的**: Vicoa is an open-source AI orchestrator for running a team of coding agents from any device. Start at your desk. Steer from your pocket. Run a team of coding agents Claude Code, Codex, Cursor, Pi, Kimi, and more - Supported Agents: 40+ coding agents. Claude Code, Codex, OpenCode, Gemini, Cursor, GitHub Copilot, Kimi, Hermes, Pi, Oh My Pi, and Antigravity are built in; 30+ more (Cline, goose, Kiro, Qwen Code, TRAE, …) are supported via ACP. Run them side by side in one workspace - Parallel worktrees: each agent on its own git worktree and branch, so several can work the same repo at once without stepping on each other. - One command center: every session's status in a single list, so you steer the whole fleet from one place instead of hunting terminal tabs. - Any machine: your Mac, a Windows laptop, a Linux machine, a VPS, a remote server: connect them all and pick where each session runs. - Bring your own key: your existing subscription or API keys Steer from any device. The session you started on your laptop, in your pocket. - iOS and Android apps: the same session on a native mobil
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, ai-agents, ai-orchestrator, android, claude-code, codex
+
+---
+
+### 🌟 [Lexora](https://github.com/useLexora/Lexora)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 233
+- **核心概述**: A self-evolved, sovereign desktop AI agent built for real-world action — beyond model wrappers and coding copilots. / 真实实践中自我演化的独立桌面 AI Agent。
+- **大概是做什么的**: Lexora 是在真实桌面实践中自我演化的个人 AI Agent。不依附单一模型，不局限于代码助手；依托独立的本地执行运行时与安全沙箱，在你授权的范围内调度工具、处理文件与自动化任务，让文字成为工作、创作与生活的起点。 Lexora 将任务对话、本地上下文、沙箱工具执行与产物交付整合在同一套桌面工作流中。从读取资料、运行命令到直接修改代码与生成成果，任务的执行过程与产物都清晰可见。 模型自由接入，文件与工具的访问由你严格授权。无论是推进复杂的日常项目，还是验证一个突发奇想，它都能替你把对话中的想法落为现实。 - 不止给答案，也动手做。 读取资料、编写文件、修改代码，把对话继续成看得见的结果。 - 模型和工具，按你习惯来。 连接自己的模型，用 Skills 带上熟悉的做事方法，通过 MCP 接入更多工具。 - 琐事排进日程，脑子留给灵感。 让定时任务整理工作记录、生成周报，把重复的步骤交给自动化。 - 桌面上，还有一点可爱。 小小的桌宠，陪你开工，也带来任务反馈。 1. 下载安装包：支持 Windows、Ubuntu / Debian 的 x64 与 ARM64，Arch Linux x64，以及 macOS 15+ 的 Apple Silicon。 2. 在设置中连接模型服务，按服务商要求配置 API Key 或账号授权。 3. 新建任务，给 Lexora 一个目标；需要处理文件时，再选择工作目录。 无需注册 Lexora 账号。模型服务的使用条件与费用以服务商为准；自动化需要应用在本机保持运行。重要文件记得备份，AI 生成的结果也请核对。 详细步骤见使用指南。macOS 首次安装需要按指南执行一次 xattr 命令。 Vue + Electron 承载桌面体验，独立的 TypeScript Runtime 承载本地 Agent。Lexora 管理任务、上下文、授权与产物；Pi 提供 Agent Loop，Rust 处理原生能力。 模型可以换，工具可以扩展，文件与工具的访问权限由你决定。产品数据保存在本机；使用在线模型或外部工具时，相关内容会发送给你选择的服务。 需要 Node.js 26+、pnpm 11.5+ 与 Rust 工具链；平台依赖见构建说明。在仓库根目录运行： 遇到问题，或有个值得一试的点子？欢迎提个 Issue，也欢迎通过 PR 一起把 Lexora 打磨得更顺手。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-loop, ai-agent, archlinux, autonomous-agents, desktop-agent, desktop-pet
+
+---
+
+### 🌟 [open-xiaoai-bridge](https://github.com/coderzc/open-xiaoai-bridge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 368
+- **核心概述**: 小爱音箱与外部 AI 服务（OpenClaw、小智 AI 等）的桥接器
+- **大概是做什么的**: 小爱音箱与外部 AI 服务（小智 AI、OpenClaw、OpenAI 兼容服务、QwenPaw）的桥接器 打破小爱音箱的封闭生态，灵活接入多种 AI 服务，提供 HTTP API 实现远程控制。 📖 快速开始 · 🔊 TTS 配置 · 🔌 OpenAI 兼容服务 · 🐾 QwenPaw 集成 · 🦞 OpenClaw 集成 · 🔧 API 文档 · 🐛 常见问题 本项目受 Open-XiaoAI 启发，并参考其 examples/xiaozhi/ 示例演进而来，现已作为独立项目持续维护。 功能 说明 ------------------ ------------------------------------------------------------------------------ 🔌 OpenAI 兼容服务 接入 Hermes Agent API Server、OpenAI、Ollama、LM Studio 等 /v1/chat/completions 服务 🐾 QwenPaw 集成 接入 QwenPaw HTTP Console 任务接口，支持指定 Agent 和会话 🦞 OpenClaw 集成 接入 OpenClaw，支持连续对话，可选豆包 TTS 或小爱原生 TTS 🤖 小智 AI 集成 接入 xiaozhi-esp32-server 实时音频流 🎙️ 自定义唤醒词 支持中英文，不同唤醒词可路由到不同 AI 服务或不同 OpenClaw Agent 🧠 多 Agent 路由 一台音箱，多个唤醒词，每个唤醒词对应不同的 OpenClaw Agent Session，动态切换零开销 💬 连续对话 多轮对话无需反复唤醒，喊"小爱同学"可随时打断 ⚡ VAD + KWS 语音活动检测前置，减少无效识别，更省电 🌐 HTTP API 远程播放文字/音频、控制音箱 🧩 模块化 各功能独立开关，按需启用 ⚠️ 本项目仅包含服务端 ，需要先在小爱音箱上安装 Client 端。 1. 🔧 刷机 — 更新小爱音箱固件，开启 SSH 2. 🛠️ 音箱补丁程序安装 Client — 在音箱上运行 Rust Client 端 如果你启用小智 AI，或 OpenClaw / OpenAI 兼容服务 / QwenPaw 连续对话使用 local asr ，需要下载 VAD + KWS + ASR 模型文件。 如果 OpenClaw / OpenAI 兼容服务 / QwenPaw 连续对话使用 xiaoai asr ，只需要 VAD +
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, openclaw, xiaoai
+
+---
+
+### 🌟 [MemWhale](https://github.com/wuisabel-gif/MemWhale)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 120
+- **核心概述**: Persistent, local memory for developers and their coding agents. Records commands, output, errors, and the fixes that worked into SQLite and serves them over MCP.
+- **大概是做什么的**: Persistent local debugging memory for developers and coding agents. English README · العربية · Deutsch · README français · 简体中文 README · 繁體中文 README · 한국어 README · 日本語 README MemoryWhale records what actually happened while you debug: commands, output, failures, and the fixes that worked. It stores that evidence in local SQLite so you and your coding agents can find it after the terminal, SSH connection, or agent session is gone. MemoryWhale 0.11.0 — Explainable Debugging Evidence · September 20, 2026. The CLI, web UI, and desktop app share product version 0.11.0; the reusable Rust core is version 0.5.0. See the release notes for the upgrade guide. Schema remains 10. Want to contribute? Start with the Start here issue. Many tasks need no Rust, including translation reviews and documentation fixes. - Remember what actually happened. Preserve the command, environment, output, failure, and lesson—not only a shell-history line. - Use one memory across coding agents. Any compatible stdio MCP client can read and write the same local memory through mw-mcp . - Keep development history local.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, claude-code, cli, command-line, debugging
+
+---
+
+### 🌟 [keyline-icons](https://github.com/keyline-icons/keyline-icons)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 113
+- **核心概述**: 1,000 free MIT icons in stroke, two-tone, duotone and fill, rounded or sharp: 8,000 SVGs on one 24×24 grid. Built for shadcn/ui.
+- **大概是做什么的**: 1,114 icons, drawn on one 24×24 grid, in four styles and two corner treatments. Built for shadcn/ui, free under MIT. keylineicons.com to browse and copy. Style Icons What it is stroke 1,114 The full set. 2px keylines on a 24 grid. two-tone 1,114 The stroke drawing over a flat plate at reduced opacity. duotone 1,114 No outline: a grey body with the detail in full strength. fill 1,114 Solid, with the detail knocked back out of the shape. stroke is the drawing every other style starts from, and since 1.0.0 every name comes in all four. two-tone is what duotone meant until 0.9.0: the outline kept, a 40% plate under it. duotone now drops the outline and decides per icon which part is grey and which is black, so the thing that matters reads first: the check on a badge, the liquid in a flask, the data rather than the chart's axes. A glyph with nothing to fill, like bar-chart , carries its stroke drawing in the filled styles, so no import ever comes up empty. Every drawing in the table comes twice: rounded, with round caps and filleted corners, and sharp, with butt caps and square corners. S
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: design-system, figma, icon-set, icons, mcp, react
+
+---
+
+### 🌟 [chat-gun](https://github.com/HsienW/chat-gun)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 122
+- **核心概述**: 🤖 A full-stack Agent Chat Runtime for pre-production validation, built with act, TypeScript, and LangGraph JS combining streaming, multimodal, HITL, and tools with durable Task/Step execution, retry budgets, idempotency, compensation, distributed locks, context governance, OpenTelemetry tracing, model fallback, cost tracking, and Opik evaluation.
+- **大概是做什么的**: Chat Gun 是一套以 React、TypeScript 與 LangGraph JS 建構的全端 Agent Chat 應用。它支援多 Agent 對話、串流回覆、Tool Calling、圖片輸入與 Human-in-the-Loop，並透過 BFF 統一處理瀏覽器與 LangGraph Runtime 之間的 API 流量。 - Agent-workflows ： - Deep Researcher 負責多步驟研究與引用驗證。 - Chat Assistant 處理一般對話。 - Math Solver 執行算式與數值運算。 - MCP Agent 則透過 Tool Calling 使用 native 與 MCP tools。 - Streaming ：即時串流回答與執行活動，並支援 Cancellation 與 Exception handling，讓使用者能中止進行中的請求並看見明確的錯誤狀態。 - HITL ：天氣地點不明確時，Agent 會列出候選地點向使用者確認，再接續原本的 thread 執行。 - Multimodal input ：接受 PNG、JPEG 與 WebP 圖片，透過 vision model 分析內容並納入回答或研究流程。 - Native Tools ：內建計算、由 Tavily Search API 提供的網路搜尋、網頁擷取、目前天氣與天氣預報工具，Agent 可依問題選擇合適工具。 - MCP integration ：可選擇載入 Filesystem 與 Brave Search MCP Server；Brave Search 以選配 MCP Tool 的形式擴充搜尋能力。 - Model providers ：支援 Qwen、OpenAI-compatible 與 CCR-compatible endpoints，統一由 LLM Gateway 處理模型能力與呼叫介面。 - API Gateway ：BFF 集中處理 API key authentication、將已驗證 API key 映射為 Trusted Principal context、CORS、request size validation、Timeout、Cancellation propagation 與 Rate limiting；啟用驗證時，client 提供的 identity／tenant headers 不會被當成可信身分來源。 - Observability & Evaluation ：提供 Metrics 與 OpenTelemet
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, chatbot, langgraph, mcp, multi-agent
+
+---
+
 ## 🕔 2026-09-23 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
