@@ -1,3 +1,67 @@
+## 🕔 2026-09-24 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tuios](https://github.com/Gaurav-Gosain/tuios)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,716
+- **核心概述**: A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.
+- **大概是做什么的**: TUIOS: Terminal UI Operating System TUIOS is a modern terminal multiplexer and window manager built with Go. It provides a vim-like modal interface with multiple terminal panes, workspaces, BSP tiling, kitty graphics protocol support, and a command palette, all running inside your existing terminal. A daemon keeps sessions alive, reaches sessions on your other machines, and lets the coding agents in your panes report their state and message each other. Built on the Charm stack (Bubble Tea v2, Lipgloss v2), TUIOS features event-driven rendering for near-zero idle CPU usage, flicker-free kitty image passthrough, and comprehensive keyboard/mouse interaction. Full documentation is available at tuios.dev (hosted) or in the docs/ folder. - Getting Started : Install and first session - Keybindings : Default keys and how to rebind them - BSP Tiling : Tiling with preselection and split control - Layout Modes : BSP, master-stack and scrolling layouts, aggregate view, multifocus - Configuration : Customize keybindings, themes, and behavior - Hooks : Run shell commands on window, session and age
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bubbletea, charm, claude-code, cli, codex
+
+---
+
+### 🌟 [magpie](https://github.com/yetone/magpie)
+- **项目语言**: Go
+- **星标数量**: ⭐ 430
+- **核心概述**: Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+- **大概是做什么的**: One place to pick every agent's model: Codex on DeepSeek, Claude Code on Kimi, Gemini CLI on GLM, from the menu bar. usemagpie.ai magpie is a single screen that lists each AI agent on your machine and the model it is set to. Click a value, pick a model. That is the whole app. It lives in the menu bar: click the icon and a panel drops down; the same screen also opens as a normal window ( magpie , or Open magpie in the tray menu), and there is a terminal version ( magpie tui ) and a plain CLI. - One small binary. Under 15 MB with the desktop app (it uses the system webview through Wails, nothing bundled), 7 MB for the terminal-only build. macOS, Linux and Windows. - Edits config files surgically. Only the one key you change is touched; comments, ordering and indentation in your settings.json , config.toml , opencode.jsonc or config.yaml survive intact. Writes are atomic. - One endpoint for every agent. magpie runs a local gateway that speaks OpenAI chat completions, OpenAI Responses and the Anthropic Messages API, and forwards to whichever vendor serves the model. Codex, Claude Code, O
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-code, codex, deepseek, gemini-cli, llm, macos
+
+---
+
+### 🌟 [cohub](https://github.com/netaart/cohub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 579
+- **核心概述**: A living space where people and agents create, play, and build together.
+- **大概是做什么的**: Homepage · Neta Studio · quick start · docs · 简体中文 We burn 100 billion tokens per week inside our company within Cohub Spaces. A living space where people and agents create, play, and build together. - Fun to start — Open a Space and play with ideas, prompts, files, and agents. - Build together — People and agents in one Space. Create together, save, and share. - Open everywhere — Web, mobile, CLI, Discord, WeChat. The Space follows you. - Powerful for real work — Games, apps, media, automations, custom homes — from playful to production. - Never start blank — Fork a checkpoint into a new Space, or reference any Space with @space as context. Cohub is developed inside Cohub. The core dev workflow — specs, agent runs, reviews, and shipping — happens in a public Space. Watch how the product is built, by the product. → cohub.live/tzwm/cohub Web — open cohub.live and sign in. Self-host — see docs/self-hosting.md. Product docs: cohub.live/docs · 中文 Source of truth: docs/product/en/ · docs/product/zh/ Engineering notes: self-hosting · agent-sandbox-runtime · generations · space-hooks Change
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cloud-agent
+
+---
+
+### 🌟 [awesome-muse-connectors](https://github.com/Anil-matcha/awesome-muse-connectors)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,030
+- **核心概述**: A source-backed catalog of Meta Muse integrations and community connector skills, with capability, authentication, and permission notes.
+- **大概是做什么的**: Awesome Muse Connectors A community-maintained catalog of integrations and connector skills for Meta Muse. This repository includes Meta-named integrations and 150 community connector skills copied from an MIT-licensed project. The copied skills retain their source license and are listed in the connector catalog. Community skills are distinct from Meta's built-in connectors. Review their permissions and maturity status before use; availability and provider APIs can change. This is an independent community collection. It is not affiliated with, endorsed by, or operated by Meta. - Awesome Jev by TypeSafe — typed, confidence-aware decision workflows. - Awesome Grok Bot — copy-paste bot briefs for persistent AI teammates. - Awesome GPT-6 Astra — evidence-backed model use cases, prompts, and evaluations. - Open Grok Bot — local-first bot-persona workspace with approvals and audit trails. - Awesome OpenClaw — self-hosted agent resources, skills, and integrations. - Awesome Hermes Agent — agent workflows and creator-focused automation resources. - MuseBot — a separate open-source, multi-pla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-ai, ai-agents, ai-tools, api, api-integration
+
+---
+
+### 🌟 [eGEOagents](https://github.com/mverab/eGEOagents)
+- **项目语言**: Python
+- **星标数量**: ⭐ 194
+- **核心概述**: Open-source Generative Engine Optimization (GEO) & Answer Engine Optimization (AEO) toolkit — optimize content to rank in ChatGPT, Perplexity, Gemini & Claude. AI SEO / LLM SEO. CLI, Claude Code, MCP.
+- **大概是做什么的**: Generative Engine Optimization (GEO) & Answer Engine Optimization (AEO) for AI-Powered Search 🚀 One command. Premium results. Rank higher in ChatGPT , Perplexity , Claude , and Gemini . 📖 Docs • 🐛 Issues • 💬 Discussions • 📝 Research Paper 🤖 AI-Assisted Development — See what's AI-generated vs human-authored E-GEO is an open-source Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO) toolkit that transforms your website content to rank higher in AI-powered search engines — including ChatGPT , Perplexity , Google AI Overviews , Claude , and Gemini . Also known as AI SEO or LLM SEO , GEO is the practice of optimizing content so that generative AI engines can crawl, understand, cite, and recommend it. E-GEO automates this entire process. Based on the E-GEO research preprint (arXiv:2511.20867), it applies 10 research-derived features — including competitive framing, citation optimization, structured data, and semantic density improvements — as documented in the paper's experiments. - ✅ No learning curve — One command to optimize - ✅ Research-backed — Based on pu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aeo, ai-search-optimization, ai-seo, ai-visibility, answer-engine-optimization, chatgpt
+
+---
+
+### 🌟 [FTShare-MCP](https://github.com/FTShare-Lab/FTShare-MCP)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 248
+- **核心概述**: FTShare financial data MCP for AI Agents｜通过标准 MCP 接入基础金融数据与 FTShare 特色因子，返回结构化、可核对的结果。
+- **大概是做什么的**: FTShare MCP 让支持 MCP 的 AI 客户端，通过自然语言调用基础金融数据与 FTShare 特色因子。 本仓库提供 MCP 工具文档、参数说明和接入示例，不包含 MCP Server 源码。公共 MCP 服务由 FTShare 托管，使用前需要配置 FTSHARE API KEY 。 FTShare MCP 是面向 AI Agent 的只读金融数据 MCP 服务。Claude Code、Codex 及其他支持 Streamable HTTP MCP 的客户端，可以把自然语言问题转换为标准工具调用，并获得结构化、可核对的结果。 FTShare 正式版公开页面。点击图片进入产品与套餐页面。 登录 FTShare 账号中心，获取当前账号的 API Key。 请求 FTShare MCP 时使用以下 HTTP Header： 请勿将真实 API Key 提交到 Git 仓库、Issue、日志或公开截图。 进入 Claude Code 后输入 /mcp ，确认 ftshare 已连接。 在 /.codex/config.toml 中加入： 配置变更后新开一个 Codex 任务，使工具定义重新加载。配置文件包含密钥，请勿公开提交。 - Transport： Streamable HTTP - URL： https://market.ft.tech/gateway/mcp - Header： FTSHARE API KEY: YOUR FTSHARE API KEY 不同客户端的字段名称可能不同，请以对应客户端的自定义 HTTP Header 文档为准。 该工具的 symbol 使用纯 6 位代码，例如 600519 ，不要传入 600519.SH 。特色因子属于研究数据，具体可用范围取决于账号套餐，不构成股票推荐或未来收益判断。 成功结果位于 result.structuredContent ： 应用和 Agent 不应只读取文本摘要，还要检查 metadata.truncated 、分页状态和 warnings 。业务错误会设置 isError=true ，并返回结构化错误码。 接入方式 适合场景 调用形态 仓库 Python SDK Python 程序、数据分析、量化研究 pandas DataFrame 、Python rows、原始 JSON FTShare-python-sdk MCP 支持 MCP 的 AI 客户端与 Agent 标准 MCP 工具、结构化结果 当前仓库 Skill Claude Code、Codex、OpenClaw 等 Agen
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-finance, financial-data, ftshare, investment-research, market-data
+
+---
+
 ## 🕔 2026-09-24 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
