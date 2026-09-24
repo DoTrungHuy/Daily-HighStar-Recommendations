@@ -1,3 +1,67 @@
+## 🕔 2026-09-24 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [tiny-vllm](https://github.com/jmaczan/tiny-vllm)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,130
+- **核心概述**: Build your own high performance LLM inference engine in C++ and CUDA - a smaller version of vLLM
+- **大概是做什么的**: You're going to build a high performance LLM inference engine with C++ and CUDA - tiny-vllm, a younger and smaller sibling of vLLM We will learn a lot along the way, make mistakes and derive the ideas and maths from scratch This repository consists of two things: 1. a full source code of the inference server and 2. a course where I lead you through the process of implementing the engine. Feel invited to use it as a learning tool on your learning path or if you are a lecturer, feel welcome to use it as a teaching resource at your university The inference engine consists of: - [x] load a real LLM model from Safetensors (Llama 3.2 1B Instruct) - [x] full LLM forward pass (prefill + decode) - [x] all computation with CUDA kernels - [x] static batching - [x] continuous batching - [x] online softmax, FlashAttention-like - [x] PagedAttention Make yourself a hot beverage and let's begin - Intro: LLM, vLLM, models, inference servers - Technical prerequisities - Safetensors and your model - How floating-point numbers work and why we use bfloat16 - GPU and CPU memory - Single token inference -
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, attention, batching, course, cpp, cuda
+
+---
+
+### 🌟 [NeoHorse](https://github.com/TokenRhythm/NeoHorse)
+- **项目语言**: Python
+- **星标数量**: ⭐ 909
+- **核心概述**: NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness.
+- **大概是做什么的**: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness. NeoHorse-Jev · NeoHorse-1 NeoHorse is TokenRhythm's family of open-weight models for agent workflows. NeoHorse-1 provides 4B and 9B language models for tool use, coding, and instruction following. NeoHorse-Jev builds on NeoHorse-1-4B to make structured decisions through prefill-only inference. - [2026-09-24] 🚀 NeoHorse-Jev-4B is here! Our new decision model brings Choice , Noul , and Score to the NeoHorse family. Explore the release. - [2026-09-09] 📄 Technical report on arXiv! Our technical report is now available, covering the routing harness, agentic post-training, and evaluation of NeoHorse-1. - [2026-09-08] 📦 GGUF and quantized models on Hugging Face! We release NeoHorse-1-4B-GGUF and NeoHorse-1-9B-GGUF. Both include 16-bit (BF16) weights and smaller 8-bit, 5-bit, and 4-bit quantized versions that use less disk space and memory, making it easier to run NeoHorse on your own hardware. MLX versions for Apple silicon are also available. - [2026-09-08] 🚀 Now on ModelScope! NeoHorse-1-4B and NeoHorse
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, large-language-models, llm, post-training, recursive-self-improvement, rsi
+
+---
+
+### 🌟 [open-managed-agents](https://github.com/openma-ai/open-managed-agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 304
+- **核心概述**: Open Managed Agents — an open-source alternative to Claude Managed Agents and OpenAI Agents API. Deploy with Node.js or Docker, run on Cloudflare, or use hosted OpenMA. Choose your models, harnesses and sandboxes.
+- **大概是做什么的**: Open-source, self-hosted alternative to Claude Managed Agents and OpenAI Agents API. 🌐 openma.ai · 📖 docs.openma.ai · 💬 Discord · GitHub OpenMA runs agents with durable sessions, sandboxed tools, memory, encrypted credentials, and crash recovery. Use the Claude Managed Agents API on Cloudflare or Node, or the official OpenAI SDK with either host's /openai/v1 endpoint. Bring your own model keys and deploy on your own infrastructure. Use Open Managed Agents when you want: - A self-hosted Claude Managed Agents API implementation. - OpenAI Agents API support with durable sessions, function continuation, and subagent controls on Node. - An open-source, self-hosted Claude Tag-style workflow with BYOK model credentials. - MCP, private tools, encrypted vaults, and durable sessions under your own deployment boundary. Compare: Claude Tag alternative · Open-source Claude Tag · Self-hosted Claude Tag The same harness, business logic, and event-log model run on both. Pick the one that matches your hosting story: Self-host (Node) Cloudflare Where it lives Your VPS / Mac / Docker host / fly.io /
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-client-protocol, agent-platform, ai-agents, anthropic-managed-agents, byok, claude-code
+
+---
+
+### 🌟 [jev-chat-windows](https://github.com/jev-chat/jev-chat-windows)
+- **项目语言**: Python
+- **星标数量**: ⭐ 516
+- **核心概述**: 微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动
+- **大概是做什么的**: 反馈和合作走公众号「恸码奇点」。微信扫左边的码，或者搜一搜这个名字。 微信（Windows 4.x）旁挂的回复辅助：本地 OCR 读屏上的对话 → Jev 判断意图/情绪 → 给出 3 条候选回复 → 一键填入微信输入框。 发送永远手动，程序不替你按发送。 判断内核来自安卓版 Finderchangchang/jev-chat-JARVIS， 这里把采集换成了 Windows 端的窗口截图 + 离线 OCR。 普通使用直接下载，不用装 Python、不用碰源码。 后面的「源码运行」是给开发者的。 1. 在 Releases 页下载 jev-chat-windows-vX.Y.Z.zip （约 146 MB） 2. 解压到一个固定目录（整个文件夹一起，exe 要用旁边那堆文件） 3. 双击 jev-chat-windows.exe 要求：Windows 10 1903+ / 11，微信 Windows 4.x，两个 API key（判断一个、起草一个，见下）。 首次启动会弹设置页填这两个 key。key 写进 Windows 用户环境变量（注册表 HKCU\Environment ）—— 全程只有 JEV API KEY 和 LLM API KEY 这两个，不落任何文件；其余设置写在 exe 旁边的 config.json ，整个文件夹拷走设置也跟着走。 exe 没签名，SmartScreen 会拦一下：「更多信息」→「仍要运行」。介意就往下看「自己打包」，自己打的更踏实。 设置页的「模型」卡片分两节，各填一把 key： 1. 判断 · Jev —— 判断意图、紧张度，并给三条候选排序。来源选 OpenRouter （默认，key 在 openrouter.ai 申请）或 TypeSafe 直连 （key 在 console.typesafe.ai 申请）。填的是哪家的 key 看你上面选了哪家。 2. 起草 · 语言模型 —— 写那三条候选。默认 DeepSeek 官网 直连，key 在 platform.deepseek.com 申请（很便宜，起草一次几厘钱）。 换别家见下面的表，OpenAI / Anthropic / Gemini 三种接口都支持。 3. 选「你们的关系」（恋人 / 朋友 / 同事 / 家人 / 自定义），保存。可以用了。 两把 key 各管一节，互不相干；同一节里换来源要重填一次 key（只存这一把）。 为什么起草默认 DeepSeek 官网直连 起草是两次网络调用里重的那次。OpenRouter 在国外，从国内过去要等好几秒、还时不时抽
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chat-assistant, jev, llm, local-first, ocr, privacy
+
+---
+
+### 🌟 [reshapr](https://github.com/reshaprio/reshapr)
+- **项目语言**: Java
+- **星标数量**: ⭐ 127
+- **核心概述**: The open source, no-code MCP Server for AI-Native API Access
+- **大概是做什么的**: Welcome to reShapr 🚀 Website About Docs Blog Community reShapr is the open source, no-code MCP Server for AI-Native API Access. It bridges the gap between traditional REST/GraphQL/gRPC services and LLMs by transforming complex services into discoverable, optimized MCP tools. ✨ Transform any API into lean LLM contexts in seconds. To get involved with our community, please familiarize yourself with the project's Code of Conduct. 🧠 Solving the "Context Window" Problem One of the biggest hurdles in building AI agents is Context Overload . Sending massive JSON responses to an LLM wastes tokens and degrades performance. reShapr introduces Context Control AI-Native Transformation: Auto-transform API services into LLM-friendly tools. Context Control: Filter and slim down payloads before they reach the LLM. Multi-Protocol: REST, GraphQL, and gRPC support. No-Code: Configure and deploy in minutes. 📖 Full Documentation Discord Community Choose your platform You have two simple options: 1. Use the https://try.reshapr.io/ to try out the platform. Follow our detailed Try reShapr online guide. 2
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-tools, ai-agents, ai-gateway, ai-infrastructure, ai-integration, ai-native
+
+---
+
+### 🌟 [logdeck](https://github.com/AmoabaKelvin/logdeck)
+- **项目语言**: Go
+- **星标数量**: ⭐ 111
+- **核心概述**: logs viewing and container management shouldn't be that hard. shipping 🚢
+- **大概是做什么的**: Self-hosted logs, alerting and container management for Docker and Podman, in one Go binary. Logs are stored on disk so they survive restarts, rebuilds and removal. An MCP server and a CLI let scripts and AI agents read logs and act on containers. Website · Live demo · Docs Open http://localhost:8123. Keep the logdeck-data volume: it holds the config, the stored logs and the alert history. LogDeck starts without a login. Turn on authentication in Settings before exposing it beyond your machine. For Compose, multiple hosts, SSH and Podman, see the installation guide. - Streams logs live and keeps them on disk, so docker compose up --build and removed containers no longer lose history - Searches by text, regex and level across everything stored, with time ranges and pinned lines - Starts, stops, restarts and removes containers or whole Compose stacks, with an interactive terminal - Edits environment variables, memory and CPU limits and restart policies without recreating the container - Alerts on container death, OOM kills and log patterns, to Slack, Discord, ntfy, Gotify, Telegram or
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: containers, docker, mcp, observability, podman, self-hosted
+
+---
+
 ## 🕔 2026-09-24 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
