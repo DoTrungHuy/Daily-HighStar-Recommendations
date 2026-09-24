@@ -1,3 +1,67 @@
+## 🕔 2026-09-24 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 308 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-webui-plugins](https://github.com/Classic298/open-webui-plugins)
+- **项目语言**: Python
+- **星标数量**: ⭐ 560
+- **核心概述**: A curated collection of Open WebUI plugins - tools, skills, filters, pipes, actions and events that extend your AI chat experience.
+- **大概是做什么的**: 🧩 Open WebUI Plugins A curated collection of plugins for Open WebUI: tools, skills, filters, pipes, actions and events that extend your AI chat experience. Each plugin lives in its own folder with a README explaining what it does, what components it includes, and how to set it up. Plugin Description Components --- -------- ------------- ------------ Inline Visualizer v2 🔹 LIVE RENDERED 🔹 Your model draws interactive charts, dashboards, diagrams and mini-apps right in the chat , appearing live while the answer streams. Everything matches your light/dark theme automatically, and you can click a bar or a node and ask the model about it. Works with hand-written SVG/HTML and with Chart.js, D3, Vega-Lite, ECharts, Plotly, vis-network and Tone.js. Tool + Skill Prune ⭐ NEW ⭐ Old chats, inactive users and orphaned files are cleaned out automatically in the background , so slowly that a live instance never notices. Dry-run by default, with an admin page at /prune to preview and run cleanups manually. Safe across replicas. Event Interface Defaults Open WebUI's Default Interface Settings page
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: action, anthropic-skills, cusomization, event, events, filter
+
+---
+
+### 🌟 [nac](https://github.com/arcee-ai/nac)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 277
+- **核心概述**: Give AI agents ambitious work without losing the plot. nac is an open-source harness for long-running tasks, using a central orchestrator, threads, and structured episodes to stay aligned with your intent.
+- **大概是做什么的**: Documentation &bull; Arcee Open Model API nac is an open-source agent harness for longer, ambitious tasks — experiments, training runs, infrastructure, and prototyping that has to stay aligned with the original intent. It uses a thread-and-episode architecture inspired by slate: a central orchestrator plans and decomposes work but cannot execute commands or edit files; it only launches threads, which return episodes — structured summaries of what they accomplished. Also takes inspiration from nanocode and pi. For the technical write-up, see the nac blog post. By Hand. Install the latest stable release: The installer puts nac-web in $HOME/.local/bin . Add that directory to your PATH if needed, then start the dashboard from your project, and navigate to the interface in your browser (default: http://127.0.0.1:3210). By Agent. Nac provides a portable onboarding skill and MCP integration; paste this into your chosen agent harness to install nac, configure it, and connect the MCP: Install the nac onboarding skill with curl -fsSL https://raw.githubusercontent.com/arcee-ai/nac/main/scripts/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-harness, agent-orchestration, agent-skills, agentic-workflows, ai-agents, developer-tools
+
+---
+
+### 🌟 [dsh-noema](https://github.com/ZSeven-W/dsh-noema)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 128
+- **核心概述**: Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools and a settings page.
+- **大概是做什么的**: Long-term memory for DeepSeek Harness — durable, inspectable agent memory backed by Noema. Recall Before Work &bull; Import From 9 Agent Tools &bull; Settings-Page Memory Management &bull; Crash Keep-Alive &bull; Hot Reload npm: @zseven-w/dsh-noema · Current plugin release: 0.1.0-rc.4 · Tested with DSH 0.1.5-rc.1 English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Français · Español · Deutsch · Português · Русский · हिन्दी · Türkçe · ไทย · Tiếng Việt · Bahasa Indonesia The Noema Memory settings page — import sources, memory management, and live server status DSH Noema connects DeepSeek Harness with Noema — a local-first, non-vector memory system for coding agents — so an Agent keeps durable knowledge across sessions instead of starting every conversation from zero. Memories persist as inspectable Markdown files under NOEMA ROOT (default /.agent-memory/ ). noema recall loads relevant context at the start of a session; noema search , noema browse , noema catalog , and noema recall graph cover lookup, exploration, and auditing. 📥 Import From Other Tools noema import reads the memory files of ten other
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, coding-agent, deepseek-harness, dsh, dsh-plugin
+
+---
+
+### 🌟 [doska](https://github.com/romenkova/doska)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 100
+- **核心概述**: A local-first Kanban board that syncs across devices. Clean, lightweight, markdown-first.
+- **大概是做什么的**: Doska is in active development. Report bugs and request features. I wanted a kanban app that is quick, Markdown-first, minimal, and still feature-rich. I couldn't find all of that in one app, so I made Doska. Doska keeps everything in IndexedDB first, because it's fast and persistent. Then it syncs to a destination of your choice, a folder or a server, shortly after every change. When the destination is a server, you also get multiple users with live updates, public boards, SSO, and MCP. Doska never makes you wait on the server, doesn't keep features behind a paywall, and aims to have everything necessary without looking bloated. - [x] Offline-first , local-first - [x] Markdown editor : syntax highlighting, tasks with a counter, slash menu - [x] Server to sync boards across devices - [x] Accounts: members, shared boards, public boards - [x] Local folder sync: boards and columns as folders, cards as Markdown files - [x] Attachments: files, images - [x] SSO: OIDC-compatible auth provider - [x] Deadlines, priorities and sorting for cards on the board - [x] MCP server - [x] Cross-board d
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: kanban, kanban-board, local-first, markdown, mcp, offline-first
+
+---
+
+### 🌟 [Autocad-MCP](https://github.com/U-C4N/Autocad-MCP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 102
+- **核心概述**: Production-grade AutoCAD MCP server for AI agents — 122 tools, dual COM (live AutoCAD) + headless ezdxf engines, ISO GD&T and dimension-tolerance validation for CAD automation.
+- **大概是做什么的**: Production-grade AutoCAD automation for AI agents. Live through COM on Windows, or headless through ezdxf anywhere — one typed contract, two engines. Install · What's new · Tools · Engines · Evidence · Limits · Config · Changelog Not a mockup. Every line on this sheet was drawn by the tools this server exposes — ISO layers, involute gear geometry, DIN 6885 keyway, section A-A, ISO 129 dimensions, an ISO 286 H7 bore fit, ISO 7200 title block — then rendered headlessly by view screenshot . drawing critique returns 0 issues on it. Rebuild it with python scripts/render readme showcase.py . v1.6 release snapshot: 247 tools · 8 resources · 5 prompt templates · 4992 collected tests. 247 is the registered count; a default install advertises 242 over tools/list , because ENABLE 3D is unset. system about is the runtime authority. Five tracks of one roadmap, 154 → 247 registered tools. Each track has its own design spec, correctness checks that can fail, and a live AutoCAD 2026 run of its COM paths recorded in the changelog. Track What it adds Pack P&ID — drafter and reader 43 ISO 10628-2 / ISA
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent-tools, ai-agents, autocad, automation, cad, cad-automation
+
+---
+
+### 🌟 [dsh-android](https://github.com/ZSeven-W/dsh-android)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 162
+- **核心概述**: DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.
+- **大概是做什么的**: A live Android device inside a DeepSeek Harness conversation — emulator or USB phone, driven entirely through adb. 20 agent tools &bull; in-process live stream, no external helper &bull; three-button navigation panel &bull; Gradle build &amp; run &bull; Vision OCR npm: @zseven-w/dsh-android &middot; Current plugin release: 0.1.0-rc.8 &middot; Tested with DSH 0.1.5-rc.1 English &middot; 简体中文 &middot; 繁體中文 &middot; 日本語 &middot; 한국어 &middot; Français &middot; Español &middot; Deutsch &middot; Português &middot; Русский &middot; हिन्दी &middot; Türkçe &middot; ไทย &middot; Tiếng Việt &middot; Bahasa Indonesia An Android device streamed and controlled from inside a DSH conversation — the agent's tool call in the center, the live device panel on the right DSH Android gives the agent a real Android device inside the conversation — and gives you the pixels. The agent can start a stream on an emulator or a USB-connected phone, build and install a Gradle project, drive the UI by resource-id /text or by OCR, read logcat, and inspect processes and memory, while a live stream of the device render
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, adb, ai-agents, android, coding-agent, deepseek-harness
+
+---
+
 ## 🕔 2026-09-24 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
