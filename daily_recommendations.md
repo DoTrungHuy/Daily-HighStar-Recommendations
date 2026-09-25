@@ -1,3 +1,67 @@
+## 🕔 2026-09-25 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [qa-agent](https://github.com/bug0inc/qa-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,273
+- **核心概述**: 用于 AI 浏览器回归测试的开源 Playwright 库，具有智能缓存、自动修复和多模型验证功能。
+- **大概是做什么的**: Bug0 AI 用于 AI 回归测试的开源 Playwright 库。 Bug0 AI 涵盖端到端的浏览器回归测试，并帮助您尽早发现回归。快速地。它使用人工智能模型通过 Playwright 执行自然语言浏览器步骤，并具有智能缓存、自动修复和多模型断言验证。您的测试保持稳定，无需更新 AI 提示或重新训练模型。 Bug0 AI 由 Bug0 构建，该团队还构建了 AI 软件工厂 FactoryKit。我们至少需要一个来自 Anthropic 的模型和一个来自 Google 的模型才能使用 Bug0 AI 的多模型共识功能。在 .env 中设置所需的环境变量：或者，您可以使用 Vercel AI Gateway、OpenRouter 或 OpenCode Zen 等 AI 网关将请求路由到多个提供商，而无需管理单独的 API 密钥。如果选择此选项，请设置 AI GATEWAY API KEY（对于 Vercel）、OPENROUTER API KEY（对于 OpenRouter）或 OPENCODEZEN API KEY（对于 OpenCode Zen）。您还可以通过 Cloudflare AI Gateway 路由请求，以实现可观察性、缓存和速率限制。与 Vercel/Open 不同
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-testing, aigateway, aisdk, browser-testing
+
+---
+
+### 🌟 [data-prep-kit](https://github.com/data-prep-kit/data-prep-kit)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 965
+- **核心概述**: 用于 GenAI 应用程序数据准备的开源项目
+- **大概是做什么的**: Data-Prep-Kit 可加速 LLM 应用程序开发人员的非结构化数据准备。开发人员可以使用 Data-Prep-Kit 来清理、转换和丰富特定用例的非结构化数据，以预训练 LLM、微调 LLM、指导调整 LLM，或为 LLM 构建检索增强生成 (RAG) 应用程序。 Data-Prep-Kit 可以轻松地从商用笔记本电脑一直扩展到数据中心规模。 - 该套件提供了一组不断增长的模块/转换，针对笔记本电脑规模到数据中心规模的处理。 - 目前支持的数据模式有：自然语言、代码和图像。 - 这些模块基于 Python 和 Ray 运行时的通用框架构建，用于扩展数据处理。 - 该套件提供了一个框架，用于开发用于处理 Parquet 文件以及 ZIP、NDJSON 和 JSONL 文件格式的自定义转换。 - 该套件提供了如何将单个转换作为 Python 或 Ray 作业部署在 Kubernetes 集群上的示例。此外，当按顺序部署多个转换时，该套件将使用 Tekton 管道。最新版本的数据准备套件现已推出
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: code-quality, data, data-prep, data-preparation, data-preprocessing, data-preprocessing-pipelines
+
+---
+
+### 🌟 [system-one-connector](https://github.com/itsmostafa/system-one-connector)
+- **项目语言**: Go
+- **星标数量**: ⭐ 303
+- **核心概述**: System One MCP 连接器可快速且廉价地评估任何事物。让您的 AI 代理直接访问模型，例如：Typesafe AI 的 Jev 模型和 Laya
+- **大概是做什么的**: System One 连接器 为您的 AI 代理提供它可以采取行动的答案：具有真实概率的键入判断，而不是它必须解析的散文。评估将Claude Code、Claude Desktop、Codex、Hermes 和pi 连接到TypeSafe 的Jev 模型。您的代理人会问“这件事紧急吗？”之类的问题。或者“哪个团队拥有这个？”并返回一个可以在 if 语句中使用的数字或选项。问题：需要快速判断的代理人通常会询问法学硕士，读回一段话，然后猜测其含义。 “这看起来相当紧急”并没有给代理提供任何分支，并且它无法从抛硬币中得出自信的答案。解决办法：Jev 是一个为判断而不是文本生成而构建的模型。您命名问题和可能的答案，Jev 以固定格式返回每个答案的概率。您的代理获取可以与阈值进行比较的数据，而无需解析散文。 1. 安装（macOS 和 Linux）： 2. 连接您的代理（获取密钥）：这会找到 Claude Code、Claude Desktop、Codex 和 Hermes，并注册对每个代理进行评估。如果您已有 OpenRouter 帐户，则
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-tools
+
+---
+
+### 🌟 [chmonitor](https://github.com/chmonitor/chmonitor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 297
+- **核心概述**: ClickHouse 的开源运营顾问 — 实时监控加上 AI 驱动的索引/分区/物化视图建议。
+- **大概是做什么的**: ClickHouse 的运营顾问观看 v0.3 发布影片 chmonitor 是 ClickHouse 的仪表板和顾问。它读取系统。表格并显示集群正在执行的操作（查询、合并、复制、存储、运行状况），然后建议下一步要更改的内容。它不会为您应用 DDL。建议保留建议。在 Docker、Kubernetes、裸机或 ClickHouse Cloud 上以相同的方式运行。免费自行托管 (GPL-3.0)，或使用托管演示。当前版本： v0.3.0 。从 v0.2 升级？请参阅迁移到 v0.3。您需要 chmonitor 查看集群概述、拓扑、运行状况检查、30 多个图表 捕获昂贵的工作 运行、缓慢、失败和历史查询 了解数据资源管理器、表大小、部分、压缩、TTL 保持副本健康 合并、突变、复制队列、Keeper 获得第二意见 AI 顾问：投影、跳过索引、PREWHERE、MV 用英语询问 内置 AI 代理 + Claude / Cursor 的 MCP 从终端工作 chm CLI — 实时 TUI 和chm doctor 从一个仪��板 ( ?host=0 ) 与多个 ClickHouse 主机一起使用。更多详细信息：文档·AI代理·编辑
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chmonitor, clickhouse, cloudflare-workers, database-monitoring, duyet
+
+---
+
+### 🌟 [awesome-claude-connectors](https://github.com/rdmgator12/awesome-claude-connectors)
+- **项目语言**: Python
+- **星标数量**: ⭐ 124
+- **核心概述**: Anthropic 的 Claude 连接器目录的综合目录：跨两个目录界面（精选的 Web 目录 + 应用内目录，包括社区和桌面扩展连接器）的 2,982 个 MCP 集成，加上 39 个待定的供应商验证，以及每个条目的描述和用例。
+- **大概是做什么的**: Claude 连接器很棒的列表 Anthropic 的 Claude 连接器目录中连接器的综合目录 — 跨两个目录表面（精选的 Web 目录和应用内目录，另外还显示社区构建和桌面扩展连接器）的 3,044 个 MCP 集成，以及 26 个待定的供应商验证，按类别组织，并附有描述和用例。最后更新时间：2026 年 9 月 25 日 跟踪的连接器：3,044 个列出 + 26 个保留 类别：30 个 Claude 连接器是 MCP（模型上下文协议）服务器，可通过实时访问外部工具、数据源和服务来扩展 Claude。他们在 Claude.ai、Claude Desktop、Claude Mobile、Claude Code 和 Claude Cowork 上工���。策划的 Web 目录中的连接器经过 Anthropic 的安全性、可靠性和兼容性审查；应用程序内目录还提供了社区构建的和本地桌面扩展连接器，Anthropic 提供这些连接器，但其本身并不构建或审查。此列表跟踪两个表面的并集 - 请参阅 CONTRIBUTING.md 了解双表面方法。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: anthropic, awesome, awesome-list, claude, connectors, mcp
+
+---
+
+### 🌟 [ETOS-LLM-Studio](https://github.com/Eric-Terminal/ETOS-LLM-Studio)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 205
+- **核心概述**: 适用于 iOS 和 Apple Watch 的本机 LLM 客户端。通过 llama.cpp 离线运行本地 GGUF 模型，或连接到 OpenAI/Claude/Gemini。具有本地 RAG、模型上下文协议 (MCP) 工具、Siri 快捷方式和跨设备同步。使用 Swift 构建。
+- **大概是做什么的**: 一个运行在 iOS 和 Apple Watch 上的原生 AI / Agent 客户端。支持 OpenAI、Anthropic Claude、Google Gemini 与本机 GGUF / llama.cpp 模型，并提供会话级 Chat / Agent 模式、本地 Linux、Browser Agent、64 个 Apple 原生能力工具、MCP、Agent Skills、跨会话协作、本地 RAG 记忆、实时活动与双端同步。 English 繁体中文 日本语 Русский 在学校的日子挺无聊的，平时又总会冒出很多想问 AI 的问题。当时我嫌 App Store 上的 AI 应用要么贵得离谱，要么功能太残废（尤其是手表端），索性就自己动手搓了一个。 从最初那个只有 1,800 行代码、API Key 还要硬编码的简陋版本，到现在 971 个 Swift 源文件、362,394 行 Swift 代码 （仅计算项目内 Swift，不把 llama.cpp、iSH 子模块和 VitePress 文档站依赖算进来）的工程，它确实已经长大了不少。虽然名字叫 "ETOS LLM Studio" 听着有点唬人，但它本质上还是我拿来探索大模型应用边界的试验场。 现在它已经不只是一个手表端 App 了：iOS 和 watchOS 都能管理云端模型、本地 GGUF 权重、工具、记忆、世界书和每日脉冲；Agent 还可以操作受控浏览器、调用 Apple 原生能力，或在 App 内置的本地 Linux 中运行命令与 Skill 脚本。两端数据通过内置同步引擎互通。 因为我平时主要还是用 Mac 和 Watch，iPhone 端偶尔会有一些还在继续打磨的边角，不过我会继续慢慢补齐。 双端原生体验 ：iOS 和 Apple Watch 原生适配，两端界面风格统一，但会针对不同屏幕尺寸分别优化交互；iOS 会话列表采用卡片样式，文件夹与会话分组分明，横屏自动切换为固定双栏侧栏布局。 会话管理增强 ：支持会话全文检索、命中上下文预览、消息序号定位、文件夹分类、Finder 式彩色标签、快捷筛选、嵌套移动、批量操作、全屏会话管理入口与单会话跨端发送，会话历史改为无限滚动加载。 多模型支持 ：原生适配 OpenAI Chat、OpenAI Responses、Anthropic（Claude）和 Google（Gemini）等接口格式，支持在 App 内动态管理提供商与模型，拉取模型列表，并可长按拖动调整提供商顺序。 端侧本地模型 ：支持导入 GGUF 权重并作为“本地模型”提供商使用，底层通
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, apple-watch, daily-pulse, gguf, ios, llama-cpp
+
+---
+
 ## 🕔 2026-09-25 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
