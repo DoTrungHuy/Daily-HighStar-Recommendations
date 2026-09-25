@@ -1,3 +1,67 @@
+## 🕔 2026-09-25 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 12,064
+- **核心概述**: 中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill
+- **大概是做什么的**: Ian Xiaohei Illustrations 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。 16:9 横版 小黑 IP 纯白手绘 少量红橙蓝中文批注 Codex Skill Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。 它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。 默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。 一句话： 让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。 - 写中文文章，需要正文配图和文章插图的人 - 做知识型内容、方法论内容、AI 工作流内容的人 - 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人 - 用 Codex 做内容生产，希望稳定复用一套视觉语言的人 - 想要商业插画、品牌 KV 或精致扁平插画的人 - 想要传统 PPT 信息图、复杂架构图或流程图的人 - 想要儿童卡通、可爱 IP、表情包风格的人 - 想把大量正文、长段解释或完整课程页塞进一张图里的人 - 一篇文章的 4-8 张 shot list - 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议 - 最终 PNG 图片，保存到 workspace 的 assets/ -illustrations/ - PPTX / PDF / Keynote - SVG / HTML / Canvas 可编辑图 这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格： - 纯白背景，不要纸纹、米色、阴影、渐变 - 大量留白，主体只占画面约 40%-60% - 一张图只表达一个核心动作、结构、状态或隐喻 - 怪诞、有创意、清爽，但不幼稚、不卖萌 这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。 复制 skill 到 Codex skills 目录： 更多示例见 examples/prompts.md。 1. 读取文章、Markdown、Notion 内容、截图或用户给的主题 2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落 3. 先输出 shot list：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, codex-skill, handdrawn, illustration, image-generation
+
+---
+
+### 🌟 [golive-skill](https://github.com/mikehasa/golive-skill)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 878
+- **核心概述**: Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.
+- **大概是做什么的**: Take your agent-built product live: hosting, database, auth, domain, email, payments — on your own accounts. Then hand it over, or tear it all down. Your coding agent can build an app in minutes. Getting it to real users still means accounts, hosting, databases, domains, secrets and connected services. GoLive is the open-source Agent Skill for that work: it detects what your app needs, plans the exact changes, asks for your approval, applies them with your own logins, and verifies what actually works — then records what it created, re-checks it for drift on demand, and can remove it again. Automate the parts providers expose. Guide you through the parts that need a human. Verify what can be observed, and make unfinished work clear. No GoLive account, hosted backend or product telemetry. Early alpha · 0.1.0-alpha.3 Disposable live tests now cover six journeys: hosting (Vercel, Netlify), database (Supabase, Neon), custom-domain DNS (Porkbun, GoDaddy), transactional email (Resend), test-mode payments (Stripe) and Supabase authentication , plus the teardown uninstall path. The ownership
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, ai-agents, claude-code, cloudflare, codex
+
+---
+
+### 🌟 [registry-broker-skills](https://github.com/hashgraph-online/registry-broker-skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 429
+- **核心概述**: AI agent skills for the Universal Registry - search, chat, and register 72,000+ agents across 14+ protocols. Works with Claude, Codex, Cursor, OpenClaw, and any AI assistant.
+- **大概是做什么的**: AI agent skills for the Universal Agentic Registry. Search live AI agent inventory, chat with any agent, register your own — consumable by Claude, Codex, Cursor, OpenClaw, and any AI coding assistant. Live Registry & 124; API Docs & 124; SDK Docs :-------------------------------------------- :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- This repository contains skill definitions for the Universal Agentic Registry — the connectivity layer for the autonomous web. Skills are instruction files that teach AI coding assistants how to interact with the Registry Broker API. It is designed for developer-intent discovery around: - MCP server registry and MCP serve
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, ai-agents, clawhub, hashgraph, hedera, mcp
+
+---
+
+### 🌟 [site-for-developers](https://github.com/currenjin/site-for-developers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,177
+- **核心概述**: 🌎💎 개발자들의 첫 번째 북마크
+- **大概是做什么的**: ⭐ 유용하다면 Star로 응원해주세요 개발을 시작하는 모든 사람의 첫 번째 북마크 입니다. AI 도구부터 공식 문서, 커뮤니티까지 - 개발자가 필요한 모든 리소스를 한 곳에서 확인할 수 있습니다. - 백엔드 문서 바로가기: Backend Framework, Database, API - AI 개발 도구 바로가기: 개발 도구, 대화형 AI, AI API - 학습/코테 바로가기: Study, Coding Test - 💰 유료/부분유료 : $ 기여해주신 모든 분들께 감사드립니다! 🙏 🎯 추천 - 가장 많이 사용되는 필수 도구들 - 추천 사이트 - 개발자라면 꼭 알아야 할 사이트들 🤖 AI & 개발 도구 - AI 시대 필수 도구들 - AI 개발 도구 - Cursor, Claude Code, bolt.new 등 - AI 디자인 도구 - Figma AI, Galileo 등 - 대화형 AI - ChatGPT, Claude, Gemini, DeepSeek 등 - API & 모델 - OpenAI, Anthropic, Groq, Hugging Face 등 - 에이전트 & 프레임워크 - LangChain, CrewAI, n8n 등 - 빌드 & 배포 - Vercel, Supabase, Stripe, Railway 등 - 로컬 AI 도구 - Ollama, LM Studio, Jan 등 📚 문서 & 레퍼런스 - 공식 문서와 학습 자료 - Web - HTML, CSS, JavaScript 관련 - Design - UI/UX 디자인 도구와 프레임워크 - Programming Language - 각 언어별 공식 문서 - JavaScript Framework - React, Vue, Angular 등 - Backend Framework - Spring, Django, Express 등 - Public Cloud - AWS, Azure, GCP 문서 - Mobile - Android, iOS, React Native 등 - Database - MySQL, MongoDB, PostgreSQL 등 - Search - Elasticsearch, Algolia 등 - Linux - 각 배포판별 문서 - Infrastructure - Docker, Kubernetes 등
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-developer-tools, ai-tools, artificial-intelligence, awesome-list, bookmark
+
+---
+
+### 🌟 [ian-handdrawn-ppt](https://github.com/helloianneo/ian-handdrawn-ppt)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,442
+- **核心概述**: 中文手绘技术 PPT 整页图像生成 Skill | 21:9 封面 + 16:9 正文配图 | PNG 输出
+- **大概是做什么的**: 把文章、课程笔记、提纲或已有材料，变成一套中文手绘技术解释风格的 PPT-style 页面图。 21:9 封面 16:9 正文配图 PNG 输出 适合文章配图、课程课件、知识卡片和技术概念解释 Ian Handdrawn PPT 是一个 Codex Skill，用来指导 AI Agent 把内容整理成 中文手绘技术解释图 。 它不是传统 PPT 模板，也不是可编辑 PPTX 生成器。它的目标是产出可以直接用于文章、课程、分享稿里的 整页 PNG 视觉图 ： - 每页生成一张完整 raster image - 多页时生成 contact sheet 方便快速检查 一句话： 让 AI 不只是“做几页 PPT”，而是先想清楚内容，再生成一组有统一风格的中文技术解释图。 推荐生图模型： 最好使用 ChatGPT Image 2.0 。如果当前环境没有这个模型，就使用可用的最高质量图像模型，并尽量让整套图保持同一个模型、同一套 style lock。 - 写中文技术文章，需要封面图和正文配图的人 - 做课程、训练营、工作坊，需要解释复杂概念的人 - 想把长文、提纲、讲稿变成视觉化页面的人 - 用 Codex 做内容生产，希望减少“模板 PPT 味”的人 - 想让 AI 先规划页面叙事，再生成图像的人 - 想要自动导出 PDF / PPTX 文件的人 - 想要复杂动效、交互式网页或矢量图的人 - 简短 slide blueprint summary - HTML / SVG / canvas 版本 这个 skill 默认使用 Ian 的中文手绘技术解释风格： - 人物很少，最多一个小读者/工程师角色 下面是一组用 Ian Handdrawn PPT 生成的示例图：1 张超宽封面 + 3 张正文解释页。 复制 skill 到 Codex skills 目录： 更多示例见 examples/prompts.md。 1. 读取材料：文章、Markdown、PDF、DOCX、PPTX、课程大纲、讲稿或粗略想法 2. 做 intake：判断主题、受众、场景、目标、核心论点和素材充分度 3. 规划叙事：选择教学、说服、报告、产品解释或知识卡片结构 4. 选择页面 archetype：封面隐喻、左右对比、流程、循环、分类、矩阵、总结等 5. 锁定视觉 DNA：统一纸底、标题、页码、线条、色彩、图形尺度 6. 每页单独写图像 prompt：包含页面角色、主旨、构图和 Required text only 7. 生图并检查：中文文字、画幅、风格一致性、是否漂黄、是否过度模板化 8. 多页生成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, codex-skill, handdrawn, image-generation, ppt
+
+---
+
+### 🌟 [monid](https://github.com/monid-ai/monid)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 366
+- **核心概述**: Monid - OpenRouter for agent tools. Join our community at https://discord.gg/rQzztcgJV8
+- **大概是做什么的**: monid.ai &nbsp;&middot;&nbsp; Docs &nbsp;&middot;&nbsp; Tool catalog &nbsp;&middot;&nbsp; Quickstart &nbsp;&middot;&nbsp; Monid (OpenRouter for agent tools) OpenRouter, but for agent tools. One base URL, one key, and an agent can reach 2,000+ tools across 72+ providers : web search and scraping, people and company enrichment, social platforms, reviews and market data, and video, image and voice generation. Are you an AI agent? Fetch https://monid.ai/SKILL.md and save it to your skill directory. It does the rest. This repo is the connector layer , the one generic framework every endpoint above is described in: how it is called, what it accepts, what it returns, how its usage is counted. A connector is declarative, so a coding agent can write one. Point it at your API docs and at this repo, and adding your API to Monid becomes a pull request. Usage is metered per call. Every connector declares its own usage model in the definition: a flat charge per call, a charge per returned result, or a rate per unit such as a thousand characters or a second of video. The engine settles that model o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, developer-tools
+
+---
+
 ## 🕔 2026-09-24 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 308 个候选项目中筛选出 6 个未推荐过的新项目。
