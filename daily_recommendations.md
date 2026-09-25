@@ -1,3 +1,67 @@
+## 🕔 2026-09-25 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [arbor](https://github.com/Anandb71/arbor)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 158
+- **核心概述**: 图本机代码智能，用确定性程序理解取代基于嵌入的 RAG。
+- **大概是做什么的**: 人员和代理的代码上下文。查找函数的调用者。跟踪代码中的路径。在破坏之前先知道什么会破坏它。模拟重播 — arbor 命令及其输出是真实的 (tokio @ 178k LOC)。方法：BENCHMARKS.md v3.0.0 — 正确的节点 · v2.6.0 停止丢弃冲突符号。但这并没有阻止他们做出错误的决定。当一个裸名称与多个模块匹配时，解析会转到“同一目录”，并自信地将边缘附加到调用者���边的任何定义。在分级固定装置中，三个最大的枢纽对下游影响为零，而无关的兄弟姐妹则继承了它们的中心地位。文件自己的导入现在解决了这个问题。自己复制：getArbor-dev/arbor-torture 大多数人工智能编码工具将代码视为文本。 Arbor 构建了一个语义依赖图——函数、类和模块作为节点；调用、导入和继承作为边 — 然后以确定性精度回答执行感知问题： Question Arbor 答案 ---------- -------------- 如果我更改此符号，会发生什么问题？爆炸半径
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, ast, code-analysis, code-analysis-tool, developer-tools, flutter
+
+---
+
+### 🌟 [txcript](https://github.com/skillsynchq/txcript)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 137
+- **核心概述**: 用于 AI 聊天的 Pandoc。跨工具移动人工智能聊天：Claude Code、Codex、OpenCode、Cursor 等。 Rust 库、CLI 和 WASM。
+- **大概是做什么的**: 在另一个编码代理中继续您的对话。 English 日本语 简体中文 繁体中文 한국어 Deutsch Español Français Italiano Português (巴西) Русский मराठी தமிழ் txcript 是一个用于转换代理会话的库。在 Claude Code 中开始对话，并在 Codex 中继续对话，在目标支持的地方传递消息、推理和工具历史记录。尝试 CLI · 使用库 · 支持的代理 · 文档 查找 Claude Code 会话并在 Codex 中继续：使用列表中的 ID；明确的前缀也可以。 txcript 编写一个新的本机会话并在记录的工作目录中启动 Codex。保留源会话。在继续之前安装并登录目标代理。使用会话的其他方法：将 run.json 移至另一台计算机并使用 txcript continue ./run.json --with claude code 继续运行。单独带来项目文件。运行 txcript mcp 让 MCP 客户端列出、搜索和读取过去的会话。它的工具是���读的。请参阅 CLI 参考以了解过滤器、消息范围和 shell 集成。将 Claude Code 成绩单转换为 Co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, cli, codex, coding-agents, cursor, mcp
+
+---
+
+### 🌟 [gno](https://github.com/gmickel/gno)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: 本地 AI 支持的文档搜索和编辑，为 AI 客户端提供一流的混合检索、LLM 答案、WebUI、REST API 和 MCP 支持。
+- **大概是做什么的**: 搜索发现。 GNO 证明了。适用于您的笔记、代码、PDF 和 Office 文档的本地知识引擎。混合搜索，一个可浏览的工作区，包含图形和编辑器、CLI、SDK、REST API 和适用于 10 个 AI 客户端的 MCP，以及可以显示其工作的检索。项目、批准状态和数字置信度等自定义字段可以限制跨 CLI、MCP、SDK、REST 和 Web UI 的类型化元数据过滤器的检索。一个涵盖您拥有的所有内容的本地索引。 Markdown、PDF、Office 文档、纯文本、源代码以及便携式邮件、日历和成绩单导出。将其指向混合所有这些内容的文件夹，它就会处理混合。三种搜索方式。关键字 (BM25)、语义（向量）和混合 — 融合、重新排名和可解释，具有结构化意图控制和元数据过滤器。询问“我们如何处理重试”，并找到有关指数退避的段落，该段落从未使用过该词。工作区，而不是搜索框。跨集合文件夹树、每个选项卡浏览上下文、Markdown 编辑器、带有来源的快速捕获和可导航的知识图。答案带有引用。一个
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, bun, cli, code-search, document-search, embeddings
+
+---
+
+### 🌟 [sample-strands-agent-with-agentcore](https://github.com/aws-samples/sample-strands-agent-with-agentcore)
+- **项目语言**: Python
+- **星标数量**: ⭐ 191
+- **核心概述**: 使用 Strands Agents 和 Amazon Bedrock AgentCore 的代理 AI 聊天机器人的参考架构
+- **大概是做什么的**: Strands Agent 聊天机器人与 Amazon Bedrock AgentCore 用于使用 Strands Agents 和 Amazon Bedrock AgentCore 构建代理工作流程的端到端参考架构。该存储库演示了如何设计和部署结合了工具执行、内存、浏览器自动化和代理间协作的多代理聊天机器人。它旨在为探索 AWS 上的高级代理架构的团队提供一个现实的、可扩展的示例。更新了基岩模型。模型选择器包括通过 Bedrock Responses API 的 OpenAI GPT-6 系列（Astra、Sol 和 Luna）（Sol/Luna 通过 us-east-1 中的 Mantle；Astra 通过 Runtime）以及通过 Bedrock Runtime Converse 的 xAI Grok 4.6。 Claude Opus 5.5 使用 us-east-1 中的 Mantle 消息； Google Gemma 4 仍可通过 us-east-2 中的 Mantle 获取。该存储库演示的内容 - 使用 Strands Agent 进行多代理编排 - 与 Amazon Bedrock AgentCore 集成 - 支持工具的代理（搜索、金融、天气、浏览器、代码解释器） - 自主浏览器、文档和分析工作流程 - 适应实际情况的模块化架构
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a-protocol, agent-to-agent, agentcore, ai-agents, amazon-bedrock, browser-automation
+
+---
+
+### 🌟 [ollama-mcp-bridge](https://github.com/jonigl/ollama-mcp-bridge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 102
+- **核心概述**: 通过来自多个 MCP（模型上下文协议）服务器的动态 AI 工具集成来扩展 Ollama API。完全兼容、透明且对开发人员友好，非常适合构建强大的本地 LLM 应用程序、AI 代理和自定义聊天机器人
+- **大概是做什么的**: 在 Ollama API 前面提供 API 层，无缝添加来自多个 MCP 服务器的工具，以便每个 Ollama 请求都可以透明地访问所有连接的工具。 📖 完整文档：安装、配置参考、架构注释和代码参考，全部可搜索。 - 或者，使用 pip 从 PyPI 安装 - 或者，使用 Docker Compose 运行 - ✨NEW 或者，仅使用 Docker 运行 - 或者，从源安装 - MCP 服务器配置 - 变量扩展 - CORS 配置 - 环境变量 - 灵感和积分 - 🚀 预加载服务器：所有 MCP 服务器在启动时从 JSON 配置连接 - 📝 JSON 配置：使用复杂的命令和环境配置多个服务器 - 🌐 多种传输类型：连接到通过 stdio（本地进程）、HTTP (StreamableHTTP) 或 SSE 的 MCP 服务器 - 🎯 工具过滤：使用包含/排除模式过滤每个服务器的工具，以实现细粒度控制 - 🧩 配置变量扩展：支持配置字符串中的 ${env:VAR NAME} 和 ${workspaceFolder} - 🔗 工具集成：自动工具调用处理和响应集成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, api, bridge, fastapi, local-ai
+
+---
+
+### 🌟 [MediaWiki-MCP-Server](https://github.com/ProfessionalWiki/MediaWiki-MCP-Server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 134
+- **核心概述**: 模型上下文协议 (MCP) 服务器可将您的 AI 与任何 MediaWiki 连接起来
+- **大概是做什么的**: MediaWiki MCP 服务器 MCP（模型上下文协议）服务器使大型语言模型 (LLM) 客户端能够与任何 MediaWiki wiki 进行交互。每个在 wiki 上运行的工具都接受一个可选的 wiki 参数，命名要操作的 wiki（wiki 管理和 OAuth 工具则不然）——传递 wiki 密钥（例如 en.wikipedia.org ）或完整的 mcp://wikis/{wikiKey} URI。省略它以使用配置的默认 wiki（请参阅配置）。每个工具响应都会报告调用所针对的 wiki。每个成功的响应都将其有效负载作为内容中的散文和结构化内容中的 JSON 进行携带；请参阅响应渠道。比较页面 通过修订、标题或提供的 wiki 文本来区分 wiki 页面的两个版本。 get-category-members 列出类别的成员（每次调用最多 500 个，通过 continueFrom 分页）。 get-file 获取文件页面。 get-file-data 获取文件的内联图像字节 (base64) 以进行可视化分析 — 适用于无法访问 wiki 主机的客户端。返回缩放的再现（设置宽度）；不可渲染类型（音频、视频、二进制文件）错误。对于元数据或下载 URL，请使用 get-file 。获取链接
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-agent-tools, gemini-cli-extension, llms, mcp
+
+---
+
 ## 🕔 2026-09-25 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
