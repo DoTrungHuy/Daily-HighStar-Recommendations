@@ -1,3 +1,67 @@
+## 🕔 2026-09-25 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [feynman](https://github.com/Companion-Inc/feynman)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,781
+- **核心概述**: The open source AI research agent.
+- **大概是做什么的**: The open source AI research agent. Windows (PowerShell): The one-line installer fetches the latest tagged release as a standalone bundle with its own Node.js runtime and verifies its SHA-256 before installing. To pin a version, pass it explicitly, for example curl -fsSL https://feynman.is/install bash -s -- 0.5.3 . Rerun the installer to upgrade; feynman update only updates optional Pi packages you installed. npm alternative (uses your local Node.js =22.22.0 ): If you installed the interim @advaitpaliwal/feynman package, migrate once: Then run feynman setup to sign in to a model provider. To use Feynman in an ACP editor such as Zed, run it through pi-acp: "agent servers": { "Feynman": { "command": "npx", "args": ["-y", "pi-acp"], "env": { "PI ACP PI COMMAND": "feynman" } } } . See the installation guide for uninstalling and the setup guide for local models (LM Studio, LiteLLM, Ollama, vLLM) and Amazon Bedrock. If you want just the research skills without the full terminal app: Windows (PowerShell): That installs the skill library into /.codex/skills/feynman for Codex. For other targe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, arxiv, cli, literature-review, pi-coding-agent, research
+
+---
+
+### 🌟 [web-ui](https://github.com/browser-use/web-ui)
+- **项目语言**: Python
+- **星标数量**: ⭐ 16,586
+- **核心概述**: 🖥️ Run AI Agent in your browser.
+- **大概是做什么的**: This project builds upon the foundation of the browser-use, which is designed to make websites accessible for AI agents. We would like to officially thank WarmShao for his contribution to this project. WebUI: is built on Gradio and supports most of browser-use functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent. Expanded LLM Support: We've integrated support for various Large Language Models (LLMs), including: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek, Ollama etc. And we plan to add support for even more models in the future. Custom Browser Support: You can use your own browser with our tool, eliminating the need to re-login to sites or deal with other authentication challenges. This feature also supports high-definition screen recording. Persistent Browser Sessions: You can choose to keep the browser window open between AI tasks, allowing you to see the complete history and state of AI interactions. Your browser does not support playing this video! Option 1: Local Installation Read the quickstart guide or follow the st
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-automation, browser-use-box, cloud-browser
+
+---
+
+### 🌟 [cascadeflow](https://github.com/lemony-ai/cascadeflow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,961
+- **核心概述**: Cascading runtime for AI agents. Optimize cost, latency, quality, and policy decisions inside the agent loop.
+- **大概是做什么的**: Agent Runtime Intelligence Layer Cost Savings: 69% (MT-Bench), 93% (GSM8K), 52% (MMLU), 80% (TruthfulQA) savings, retaining 96% GPT-5 quality. Python • TypeScript • LangChain • OpenAI Agents • CrewAI • PydanticAI • Google ADK • n8n • Vercel AI • OpenClaw • Hermes Agent • 📖&nbsp;Docs • 💡&nbsp;Examples The in-process intelligence layer for AI agents. Optimize cost, latency, quality, budget, compliance, and energy — inside the execution loop, not at the HTTP boundary. cascadeflow works where external proxies can't: per-step model decisions based on agent state, per-tool-call budget gating, runtime stop/continue/escalate actions, and business KPI injection during agent loops. It accumulates insight from every model call, tool result, and quality score — the agent gets smarter the more it runs. Sub-5ms overhead. Works with LangChain, OpenAI Agents SDK, CrewAI, PydanticAI, Google ADK, n8n, Vercel AI SDK, and Hermes Agent. Hermes Agent delegation cascading CascadeFlow now provides a Hermes Agent integration for per-skill model cascading, task-complexity cascading, topic-aware subagent cas
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai, anthropic, api, budgets, claude
+
+---
+
+### 🌟 [ima2-gen](https://github.com/lidge-ai/ima2-gen)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 784
+- **核心概述**: Local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers.
+- **大概是做什么的**: Generate, branch and clean up images and video on your own machine. One local studio for GPT, Grok, Gemini, NovelAI and ComfyUI. Use it from the browser, the Mac app, the CLI, or hand it to your coding agent. Write a prompt, attach references, pick a lane and model. Every result keeps its prompt, timing and settings, so you can copy it, continue from it, or animate it. Branch in Node graph Keep a good image and push it in several directions at once. Each branch remembers its parent, so nothing gets overwritten. Clean up in Canvas Mode Annotate, erase, cut backgrounds and export with real alpha. One-click GPT transparency is checked on the server before the app calls it transparent. See which lanes are ready, type a prompt, and pick up recent work without digging through folders. English · 한국어 · 日本語 · 简体中文 · 正體中文 · Website · Docs → ima2-gen is a local-first visual generation runtime and studio for people and coding agents, with reproducible image and video workflows across multiple providers. It runs a small server on your machine, keeps every image in /.ima2/generated , and talks to
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, gemini, grok, image-generation, local-first, mcp
+
+---
+
+### 🌟 [chat-quality-agent](https://github.com/tanviet12/chat-quality-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 300
+- **核心概述**: Chat Quality Agent - Agent phân tích chất lượng CSKH bằng AI
+- **大概是做什么的**: Chat Quality Agent (CQA) Hệ thống phân tích chất lượng chăm sóc khách hàng bằng AI. Tự động đồng bộ tin nhắn từ Zalo OA, Facebook Messenger, Pancake, dùng AI (Claude, Gemini, ChatGPT, Grok) đánh giá chất lượng CSKH và gửi cảnh báo qua Telegram/Email. 📖 Hướng dẫn sử dụng chi tiết: https://tanviet12.github.io/chat-quality-agent/ - Đồng bộ tin nhắn từ Zalo OA, Facebook Messenger và Pancake - Đánh giá chất lượng CSKH bằng AI (Claude, Gemini, ChatGPT hoặc Grok) — Đạt/Không đạt, điểm 0-100, nhận xét chi tiết - Phân loại chat theo chủ đề tùy chỉnh (khiếu nại, góp ý, hỏi giá...) - Cảnh báo tự động qua Telegram và Email - Batch AI mode — gom nhiều cuộc chat/lần gọi AI, tiết kiệm chi phí - Dashboard với biểu đồ, thống kê, cảnh báo gần đây - Multi-tenant — nhiều công ty trên 1 hệ thống, phân quyền Owner Admin Member - Tích hợp MCP cho Claude Web/Desktop - SSL tự động qua Let's Encrypt (tùy chọn) Cách 1: Cài tự động (khuyến nghị) Script tự cài Docker, tạo secrets ngẫu nhiên, pull images và khởi chạy. Cách 2: Build từ source Truy cập: http://your-server-ip (hoặc http://localhost nếu cài trên máy
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, facebook-messenger, zalo
+
+---
+
+### 🌟 [anymd](https://github.com/SylphxAI/anymd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 934
+- **核心概述**: Any file → clean Markdown for AI agents: PDF, Word, PowerPoint, Excel, EPUB, HTML, images. Fast Rust MCP server + CLI. Local, no API key.
+- **大概是做什么的**: Any file → clean Markdown for AI agents. PDF, Word, PowerPoint, Excel, EPUB, HTML, images, audio/video. A fast Rust engine running on your machine, available as an MCP server and a CLI. No API key. Install · Benchmarks · Tools · CLI · Formats · Docs Formerly pdf-reader-mcp / Citra . @sylphx/pdf-reader-mcp and @sylphx/citra still install and run anymd. - Fast. Native Rust converts in parallel, page by page. A 15-page paper converts in about 0.1 s . That is 20× faster than MarkItDown and 500× faster than docling, with every table intact. - Accurate. A layout engine rebuilds words from glyph gaps, puts two-column papers in reading order, and recovers tables, including borderless ones. The text stays exactly as printed, with no glued words and no scrambled columns. - Lean on tokens. Pages come back as Markdown with citation anchors, a small front-matter header, and compact tables. A token budget and a cursor keep large documents within your agent's context. - Every format, one call. One tool reads every format listed below. It also accepts web URLs and whole directories, and search looks
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, cli, document-parser, docx, epub
+
+---
+
 ## 🕔 2026-09-25 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
