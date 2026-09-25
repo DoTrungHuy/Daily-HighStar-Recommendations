@@ -1,3 +1,67 @@
+## 🕔 2026-09-25 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [geo-score](https://github.com/jianruntech/geo-score)
+- **项目语言**: Python
+- **星标数量**: ⭐ 361
+- **核心概述**: Will ChatGPT cite your site? Score it in 20 seconds against an open, versioned GEO rubric. Python, zero dependencies.
+- **大概是做什么的**: Will ChatGPT cite your site? Score it in 20 seconds. One command. About twenty seconds. Every check, and what the next tier needs. Full output — every check, its evidence, and what the next tier asks for Python 3.8+, standard library only, nothing to install. It reads public URLs and prints a score against a published, versioned rubric — not a black box. See how 314 well-known sites score → · a quarter of them cannot be cited at all. GEO means Generative Engine Optimization — getting cited by ChatGPT, Perplexity, Google AI Overviews, Gemini and Copilot. Nothing to do with geography or maps. Why this is a different question from SEO Classic SEO asks where do I rank . Answer engines don't rank — they retrieve passages, decide whether a source is worth quoting, and cite it. Different question, different failure modes: a site can sit at position 3 on Google and never be quoted, while a page nobody links to gets cited daily because its passages are clean. Most of what determines this is mechanical and cheap to fix — a robots.txt line, a JSON-LD block, a date in a template, a paragraph rew
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: aeo, ai-search, ai-visibility, answer-engine-optimization, chatgpt, claude-code
+
+---
+
+### 🌟 [cezar](https://github.com/open-mercato/cezar)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 248
+- **核心概述**: Cezar is a parallel coding agents orchestrator. Type a task, pick a workflow and an agent — Claude Code, Codex or OpenCode, or a mix of them per step — and watch it work live: steps, tool calls ... or: fire and forget, PR will land and issue will be fixed. Run ot locally (Linux, Mac, WSL2) or on VPS!
+- **大概是做什么的**: Run coding agents in parallel, right in your repo. Local, zero config, no accounts. ▶ Watch the video: Meet cezar, your new parallel coding tool. - 💯&nbsp;Free and open source. - 🖥️&nbsp;Uses your own claude , codex , opencode or pi login. No API key needed. - ☁️&nbsp;Easy to set up on a VPS, so your agents keep working when your laptop is closed. - 📱&nbsp;Fully responsive. Start and review tasks from your phone. - 🔀&nbsp;Every task gets its own git worktree, so several agents can work at the same time. Extra tasks wait in a queue. - 🤖&nbsp;Turn on Autonomous and a run never stops to ask. It just finishes. - 📡&nbsp;Watch it work live: agent text, tool calls, tokens and cost. - 🏁&nbsp;Run the same task ×2 or ×3, compare the diffs and keep the best one. - 🧩&nbsp;Skills are Markdown files and workflows are short YAML files. Mix agents per step. - 🐙&nbsp;Run the agent straight on a GitHub issue. Nothing merges on its own. - 📂&nbsp;One cockpit for all your projects. - 💾&nbsp;No database. Everything is saved as plain files in .ai/cezar/ . Parallel tasks — Run and queue many task
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, agent, claude-code, codex-cli, coding-agent, coding-agents
+
+---
+
+### 🌟 [coreply](https://github.com/coreply/coreply)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 471
+- **核心概述**: Finishes your sentences while typing in a messaging app.
+- **大概是做什么的**: Coreply is an open-source Android app providing texting suggestions while you type. It enhances your typing experience with intelligent, context-aware suggestions. SHA-256 hash of the signing certificate: 87:95:62:D0:13:BD:E2:44:8E:D9:B2:F3:78:F0:DB:96:02:BF:BB:CF:70:E8:65:A0:25:F4:D2:52:D0:EB:AA:94 Supported Texting Apps Notification Replies 1,2 Facebook Messenger 1 1 Performance issues: Coreply may not follow smoothly the animations and transitions. 2 Limited role detection: Coreply cannot detect whether the message is sent or 3 Including Direct Download version, Play Store version, and Nekogram. DISCLAIMER: Coreply is not affiliated with or endorsed by the above-mentioned apps or their parent - Real-time AI Suggestions : Get accurate, context-aware suggestions as you type. - Customizable LLM Settings : Supports any inference service having an OpenAI compatible API. - No Data Collection : All traffic goes directly to the inference API. No data passes through intermediate servers (except for the hosted version). - Android 8 or higher (Android 13 or higher recommended) Installation &
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, android, android-app, android-application, groq, llm
+
+---
+
+### 🌟 [jacobian](https://github.com/morluto/jacobian)
+- **项目语言**: Python
+- **星标数量**: ⭐ 193
+- **核心概述**: Composable mathematics tools for agents
+- **大概是做什么的**: An executable mathematical vocabulary for agents: discover one typed operation, run it, and compose its result. Jacobian is an MCP server that gives AI agents a searchable vocabulary of typed mathematical operations. math.find matches a mathematical need or inspects one exact contract, and math.run executes it and returns its typed result. The same mathematical library is also available through a CLI and native Python API. Each operation establishes one stable, reusable mathematical postcondition rather than prescribing a workflow or proof strategy. Results are exact where claimed and make approximation, incompleteness, or uncertainty explicit. Jacobian's hypothesis is that mathematical reasoning benefits from an executable vocabulary of semantically scoped, bounded operations. Rather than exposing large domain solvers or precomposed workflows, Jacobian exposes mathematical primitives that agents can search for and compose into solutions beyond what any individual operation was designed to solve. The library supplies trustworthy mathematical moves; the reasoning model decides which m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, automated-theorem-proving, computer-algebra, cordis, dsh, dsh-plugin
+
+---
+
+### 🌟 [quarkus-workshop-langchain4j](https://github.com/quarkusio/quarkus-workshop-langchain4j)
+- **项目语言**: Java
+- **星标数量**: ⭐ 107
+- **核心概述**: Quarkus LangChain4J Workshop that demonstrates both single AI service capabilities and Agentic AI orchestration
+- **大概是做什么的**: quarkus-workshop-langchain4j A workshop to learn how to build AI-Infused applications with Quarkus and LangChain4j. The workshop is divided into several steps. You can follow the instructions available in the workshop website. Alternatively, you may serve the instructions locally by following the docs/README The final state of each step is available in the step-XX directory. You can quickly jump to the final state of a step by navigating to the corresponding directory, and then running the following command: The application runs on http://localhost:8080. Section 3 progresses from section-3/step-00 through the implemented Step 04. See section-3/README.md for how steps build on each other and how tests are scoped per lesson.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, chatbot, langchain, llm, mcp, mcp-server
+
+---
+
+### 🌟 [frontmcp](https://github.com/agentfront/frontmcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 146
+- **核心概述**: TypeScript-first framework for the Model Context Protocol (MCP). You write clean, typed code; FrontMCP handles the protocol, transport, DI, session/auth, and execution flow.
+- **大概是做什么的**: The production-grade, TypeScript-first framework for building MCP servers — decorators, DI, auth, and Streamable HTTP, batteries included. [Docs][docs-home] &bull; [Quickstart][docs-quickstart] &bull; [API Reference][docs-sdk-ref] &bull; Discord FrontMCP turns the Model Context Protocol into a typed, declarative framework. You write clean @Tool , @Resource , and @App classes; FrontMCP handles the protocol, transport, dependency injection, sessions, auth, and execution flow — and the same server runs locally and ships to production unchanged . - Typed by default — decorators + Zod schemas give end-to-end types from input to output, with editor autocomplete and compile-time checks. - Batteries included — auth (OAuth/JWKS/DCR), sessions, transport, discovery, and DI are built in, not bolted on. - Ship anywhere — one codebase deploys to Node, Vercel, AWS Lambda, Cloudflare Workers, or a serverless bundle. - Production-minded — stateful/stateless sessions, high-availability transport, structured observability, and a 95%+ tested core. - Extensible — plugins, lifecycle hooks, OpenAPI adapte
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, framework, javascript, mcp, mcp-server, typescript
+
+---
+
 ## 🕔 2026-09-25 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
