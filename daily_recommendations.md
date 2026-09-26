@@ -1,3 +1,67 @@
+## 🕔 2026-09-26 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-devtools](https://github.com/matt1398/claude-devtools)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,950
+- **核心概述**: The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.
+- **大概是做什么的**: Your Claude is coding blind. See everything it did. The debugging tool for Claude Code. Read session transcripts, inspect tool calls, track token usage — directly from the Claude Code logs on your machine. Your browser does not support the video tag. Claude Code started hiding what it does. Since v2.1.20, Claude Code replaced detailed output with opaque summaries. Read 3 files . Searched for 1 pattern . Edited 2 files . No file paths. No content. No line numbers. The community backlash was immediate. But the problem goes deeper than collapsed file paths: - Thinking steps — Claude's chain-of-thought reasoning is completely invisible in the terminal - Tool call details — you see a one-line summary, not the actual input/output - Subagent activity — agents spawn agents, but you only see the final result - Context window — a three-segment progress bar with no breakdown of what's consuming your tokens - Team coordination — teammate messages, task delegation, shutdown requests — all buried The only workaround is --verbose , which dumps raw JSON, internal system prompts, and thousands of lin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-debugging, ai-tools, anthropic, claude
+
+---
+
+### 🌟 [brainapi2](https://github.com/Lumen-Labs/brainapi2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 506
+- **核心概述**: BrainAPI is a knowledge graph–powered AI memory layer that transforms unstructured data into structured knowledge, enabling intelligent search, recommendations, and contextual memory for AI agents and applications.
+- **大概是做什么的**: Turn raw text into a living knowledge graph — automatically. You send text. A swarm of agents reads it, takes notes, and draws the graph for you. Then you ask questions and get answers backed by a traceable path — not a similarity guess. 📖 What is BrainAPI? BrainAPI reads your text and builds a knowledge graph out of it — by itself. You feed it documents, notes, messages or events. Behind the scenes a group of AI agents reads everything, understands what happened, writes down the facts, and connects them into a queryable graph. You then ask questions in plain language and get answers grounded in the actual connections it found. The trick is that BrainAPI is event-centric . Instead of just storing "A is related to B," it captures who did what, to whom, when, and in what context . That's what lets it answer multi-step questions and always show you the path it used to get there. Feed it one sentence: Ask something it was never explicitly told: That trace is the difference. Not a nearest-neighbour guess — a reasoned, walkable path through a graph it built for you. ▶ Watch the full demo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-memory, knowledge-graph, knowledge-management, knowledge-representation, reccomendation-system
+
+---
+
+### 🌟 [langchat](https://github.com/LangChat/langchat)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 1,284
+- **核心概述**: LangChat 是由 LangChat Team 开发的开源 AI Agent 应用平台，支持多模型、Agent、知识库 RAG、Skills、MCP 与智能问数。
+- **大概是做什么的**: 由 LangChat Team 开发的开源 AI Agent 应用平台 LangChat Agentic 企业商业版 LangChat Agentic 是 LangChat Team 面向企业采购、交付与长期运营推出的商业产品。商业版拥有比当前开源版本更丰富、完整的产品能力，适合需要将 AI 应用规模化部署到真实业务流程中的组织。 - 标准智能体、工作流智能体与 Agentic 智能体三种应用构建范式； - 长期记忆、记忆压缩、独立会话工作空间与容器化沙箱执行； - Supervisor、顺序、并行和循环等多 Agent 协同编排； - 企业知识库、混合检索、索引版本切换、融合排序与可选重排； - 受控 Text2SQL 智能问数、企业数据源接入与可解释图表； - Function Call、MCP、A2A、Skill、OpenAPI 与 HTTP 扩展通道； - 模型治理、权限安全、内容安全、用量与成本控制、运行审计； - 私有化部署、信创适配、实施交付、培训与持续版本服务。 如果你正在进行企业级 AI 平台选型或采购，建议优先了解 LangChat Agentic： 查看商业版完整能力 · 阅读商业白皮书 · 查看价格与交付方案 · 了解团队 LangChat 是一个模块化、可扩展的开源 AI Agent 应用平台。它将模型接入、Agent 构建、知识库 RAG、Skills、MCP、数据分析和权限管理整合到同一套 Java 与 Vue 技术体系中，帮助开发者快速搭建可运行、可集成的 AI 应用。 开源版本适合技术验证、二次开发和团队内部场景建设。项目采用模块化单体架构，在保持部署简单的同时，为后续按领域拆分和能力扩展保留清晰边界。 多模型接入 统一管理 OpenAI、Azure OpenAI、Anthropic、Gemini、DeepSeek、通义千问、智谱、Ollama 及 OpenAI 兼容服务 Agent 构建 配置模型、系统提示词、知识库、Skills 与 MCP，提供构建、调试和运行界面 对话运行时 支持会话与消息管理、SSE 流式响应，并提供 OpenAI 兼容的 Chat Completions 接口 知识库 RAG 管理知识库、文档上传、解析预览、分段、索引状态和向量存储配置 Skills 扩展 支持技能包或文件夹上传、文件浏览、下载和运行时工具注册 MCP 集成 管理外部 MCP 服务配置，并在 Agent 运行时复用客户端会话 智能问数 接入数据源、读取结构目录，以自然语言生成分析结果与图表 图像能力 提供图像生成与图像识别接口，复用统
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, java, knowledge-base, langchain4j, llm
+
+---
+
+### 🌟 [Skill-Anything](https://github.com/SYuan03/Skill-Anything)
+- **项目语言**: Python
+- **星标数量**: ⭐ 330
+- **核心概述**: Any source (PDF, video, web, audio, text) to interactive learning package with quizzes, flashcards and spaced repetition. One command, 12-section study guide.
+- **大概是做什么的**: v0.4.1 — Trust & Coverage v0.4.1 hardens the generated material so a successful command means more than valid JSON: - Every LLM-generated quiz question, flashcard, and exercise must include a verbatim source quote. Skill-Anything verifies the quote against the supplied text and rejects unsupported - Citations survive YAML round-trips and appear in Markdown, offline sites, Anki cards, and exported Skill assets. - Oversized chapters are split into ordered prompt windows instead of silently discarding everything after the first 5–6K characters. - sa audit pack.yaml --strict provides a deterministic CI gate for citation coverage, duplicates, malformed options, and missing answers or solutions. - GitHub Actions now tests Python 3.10–3.13, runs Ruff, and builds a wheel on every push and PR. - Inline source text is no longer copied into source ref , and cache writes are atomic. Read the complete v0.4.1 release notes. 📣 What's New in v0.4 — Share & Learn 🌈 Turn any study pack into something you can actually hand to another person. v0.4 adds portable outputs that work outside the Skill-Anyt
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: active-recall, ai-learning, cli-tool, education, flashcard-generator, knowledge-extraction
+
+---
+
+### 🌟 [logic-pro-mcp](https://github.com/MongLong0214/logic-pro-mcp)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 103
+- **核心概述**: Local MCP server for stateful, fail-closed Logic Pro control and live project readback.
+- **大概是做什么的**: Logic Pro MCP Server for Claude, Cursor, and AI Agents A local Model Context Protocol (MCP) server that lets Claude Code, Claude Desktop, Cursor, VS Code, and custom AI agents control Logic Pro for AI music production: create tracks, write MIDI, operate transport and mixer state, inspect live project data, and verify results. Install · Watch demo · What it controls 🏆 Selected for Anthropic's Claude for Open Source program Logic Pro MCP has been officially selected for Anthropic's Claude for Open Source program — recognition from the makers of Claude that this project is open-source work worth supporting. This server is built with Claude, for Claude-powered agents — and is now officially supported by the program. An 82 BPM D-minor lofi loop composed live in Logic Pro 12.3 by the MCP — tempo, three MIDI parts, a Drummer, and playback, all from prompts. ▶ Watch the 36-sec demo (with sound) Logic Pro MCP Server gives Claude, Cursor, and custom AI agents a structured way to control Logic Pro without brittle keyboard macros. Logic Pro does not ship a first-party API for agentic compositio
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, app-automation, automation, daw, desktop-automation, logic-pro
+
+---
+
+### 🌟 [hypequery](https://github.com/hypequery/hypequery)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 102
+- **核心概述**: hypequery - The TypeScript analytics layer for ClickHouse
+- **大概是做什么的**: The type-safe analytics backend for ClickHouse. hypequery is an open-source TypeScript semantic layer and type-safe query builder for ClickHouse. Define analytics once, then use the same trusted contract in backend code, multi-tenant APIs, React hooks, and MCP tools for AI agents. It fits the stack you already have. Generate types from your live ClickHouse schema, model metrics in normal TypeScript, and catch broken tables, columns, filters, and result shapes before production—without another BI server or YAML project. One definition, every surface That dataset can run in a worker, become a validated HTTP endpoint, power a typed React dashboard, or appear as a bounded MCP tool. Tenant scope and metric meaning stay in one place. Or add only the ClickHouse query builder: No hand-written result interface. No any[] . The result is inferred from your real schema and the query itself. Built for product analytics - ClickHouse-native: generated types plus FINAL , LIMIT BY , percentiles, argMax , arrays, CTEs, streaming, and window expressions. - Governed in code: dimensions, measures, metric
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: analytics, apis, clickhouse, clickhouse-client, dashboard, mcp
+
+---
+
 ## 🕔 2026-09-26 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
