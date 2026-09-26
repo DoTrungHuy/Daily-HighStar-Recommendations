@@ -1,3 +1,67 @@
+## 🕔 2026-09-26 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [harlequin](https://github.com/tconbeer/harlequin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,420
+- **核心概述**: The SQL IDE for Your Terminal.
+- **大概是做什么的**: The SQL IDE for Your Terminal. This README contains a small subset of the docs available at Installing Harlequin Harlequin is a Python program, and there are many ways to install and run it. We strongly recommend using uv: 1. Install uv. From a POSIX shell, run: Or using Windows Powershell: 2. Install Harlequin as a tool using uv : This command will install Harlequin into an isolated environment and add it to your PATH so you can easily run the executable. Other Installation Methods Alternatively, if you know what you're doing, after installing Python 3.9 or above, install Harlequin using pip , pipx , poetry , or any other program that can install Python packages from PyPI: There is also a Homebrew formula for Harlequin, although this is maintained by the community and is not as rigorously tested as the Python installations. Note that the formula includes several Harlequin adapter packages (Postgres, MySQL/MariaDB, and ODBC) and their dependencies, which is convenient but increases the application size. Installing Database Adapters Harlequin can connect to dozens of databases using a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, client, database, db, db-cli
+
+---
+
+### 🌟 [skills](https://github.com/dzhng/skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 932
+- **核心概述**: Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Claude Code, Codex, and other skill-compatible agents.
+- **大概是做什么的**: AI skills for building software factories. My personal library of domain-agnostic agent skills, reused across every project. Small, composable, and hackable — works with any harness that supports skills: Claude Code, Codex, opencode, Cursor, duet, and Add --list to pick individual skills, or copy any skills/ / / folder into your harness's skills directory (e.g. .claude/skills/ ). From a clone, npm run install-skills does the same without the registry: .agents/skills/ / holds the real files (flat, category-free, with cross-category links rewritten to match); .claude/skills/ is a relative symlink into it, so both harnesses read one copy. Re-running overwrites the installed copies — a .claude/skills/ you keep as a real directory is left alone, and a .claude/skills that is already a symlink is left as is. Add --dry-run to see the plan first. Software is moving from tasks to factories : agents that pursue a goal autonomously until the output can be trusted. The hard part isn't breaking the goal into tasks — it's breaking it into independently verifiable pieces , and knowing where the piec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, autonomous-agents, autoresearch, claude-code, code-review
+
+---
+
+### 🌟 [swarmllm](https://github.com/Nehanth/swarmllm)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 455
+- **核心概述**: Every device brings a slice. Together they run the whole model. Peer-to-peer LLM inference across browser tabs: a from-scratch WebGPU engine and a WebRTC runtime that split a 27B model over the devices in a room.
+- **大概是做什么的**: Every device brings a slice. Together they run the whole model. This project is being renamed by October 11. The name overlaps with existing projects, so we're moving to a new name and repo to avoid confusion. Name ideas welcome in the brainstorm discussion. Other projects that share the name are listed in the Name section. https://github.com/user-attachments/assets/4f349e4b-c699-45da-abe8-e9162689293e Demo, recorded September 7, 2026: Qwen 3.8 27B across a MacBook and an iPhone in browser tabs, same Wi‑Fi, 400 tokens at 10.7 tok/s. Download . SwarmLLM runs large language models across the devices in a room, in their browser tabs. Each device holds a slice of the model; a 10 KB activation vector passes between them over direct WebRTC connections. Nothing to install, no accounts, no server does any thinking. - 27B in browser tabs. Qwen 3.8 27B (15 GB of Q4 0 weights) across laptops, phones and PCs that individually can't hold it. - Native-competitive decode. A from-scratch WebGPU engine ( 50 WGSL kernels) at the memory roofline: 9.0 tok/s plain and 16 tok/s with speculative decoding o
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: browser, distributed-inference, inference, llm, local-llm, peer-to-peer
+
+---
+
+### 🌟 [laya](https://github.com/aayushch/laya)
+- **项目语言**: Python
+- **星标数量**: ⭐ 336
+- **核心概述**: Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook, Calendar (and more) notifications using local LLMs via Ollama and LM Studio. Supports cloud models via BYOK.
+- **大概是做什么的**: Laya: Your AI Command Center A cadence for professional orchestration. Laya is an open-source, local-first AI notification command center that aggregates Slack, Gmail, GitHub, Jira, Notion, Outlook, and Calendar notifications — powered by local LLMs via Ollama and LM Studio, or cloud models like Claude and GPT with your own API keys. It intercepts events from your professional tools, performs autonomous research and action-staging using LLM-powered agents, and presents you with ready-to-approve Action Cards -- so the answer is ready before you open the notification. - Ollama and LM Studio (local LLMs) - Claude models (Anthropic) - GPT models (OpenAI) - Gemini models (Google) - Llama models and any OpenAI-compatible endpoint — via LiteLLM - Outlook (email and calendar) - Multi-persona brain: Routes events to specialized AI personas (Engineer, Comms, Ops, Sales, HR, Finance) with domain-specific tools and prompts, with AI prioritization of every notification - Card Workspaces: Agent workflows for complex tasks (bug fixes, code reviews) — interactive workspaces where you collaborate wit
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, automation, byok, lmstudio, local-first
+
+---
+
+### 🌟 [DeepSeekGUI](https://github.com/See-Sol-Lab/DeepSeekGUI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 233
+- **核心概述**: 基于 DeepSeek Harness（DSH）的稳定桌面端，集成Git、内置浏览器与记忆功能 | DeepSeek Harness desktop GUI with local workspaces, Git, browser and memory.
+- **大概是做什么的**: 稳定不炸的 DeepSeek 本地工作台。 基于 DeepSeek Harness ，面向 Windows 与 Linux 的本地桌面工作台。 DeepSeekGUI 是基于 DeepSeek Harness 的本地 AI 工作台，配置模型 API key 后即可开始。选择项目文件夹，在会话中让助手读取代码、修改文件、运行命令和浏览网页；通过「改动」「Git」视图随时检查项目状态，用专用工具完成提交、推送与 Pull Request，并通过全局记忆和项目记忆延续协作。 非官方产品： 基于 DeepSeek Harness 构建，由第三方独立开发，与 DeepSeek 无隶属关系，未获官方背书。 当前版本：v1.1.2。 内嵌 Harness 升级到 0.1.7-rc.1；界面改为半透明玻璃风格，新增中英双语启动页和官网更新通道；助手要改动 Windows 系统、已安装程序或 DeepSeekGUI 自身代码时先弹出红色确认，项目的 Git 元数据默认只读。工作台通过插件扩展官方 Harness 客户端，继续使用 Harness 的会话、工具与权限机制。 Windows 下载安装包 Windows 10/11，x64 Linux 下载 AppImage x64，AppImage；实验性支持 Windows 安装包安装到当前用户目录，自带运行时。Linux 使用独立的 AppImage 发行文件，下载与校验信息见 v1.1.2-linux.1 发布页。 Windows 安装提示： 安装包尚未进行代码签名，SmartScreen 可能提示发布者未知。核对下载来源和 SHA256 后，可通过 “更多信息” → “仍要运行” 继续安装。 下载安装包后，在 PowerShell 中计算 SHA256： 与 SHA256SUMS.txt 核对后再安装。遇到问题看故障排查指南。 Git、文件栏、模型设置、浏览器及归档页面截图来自 v1.1.1；深浅主题总览与两张记忆截图沿用 v1.1.0。 同一个本地工作台，两种主题。点击图片可查看原始尺寸。 在会话旁边打开网页，查看助手的浏览操作和结果，让对话与页面内容保持并列。 更新后兼容官方右侧文件栏，可与助手同时浏览工作区文件。 在统一设置中配置模型，支持最新v4.1并做好视觉提示词注入，设置面板内置自研插件与功能调试。 查看当前分支、远端配置、最近提交，以及本会话的 Git 操作记录。 在设置中集中查看归档会话，恢复并打开，或确认删除。 以 Markdown 阅读、可修改、也可让助手整理的项目级记忆 跨项目的个人偏好与全局记忆由用户编
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-workbench, ai, ai-agent, ai-agents, deepseek
+
+---
+
+### 🌟 [cli-jaw](https://github.com/lidge-ai/cli-jaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 208
+- **核心概述**: 🦈 2-line install personal AI assistant. 11 AI runtime surfaces (Claude, Codex, Cursor, Gemini, Grok, Antigravity, OpenCode, Copilot), 200+ skills, zero ban risk.
+- **大概是做什么的**: One assistant, one memory, one dashboard for the AI coding CLIs you already pay for. Claude, Codex, Cursor, Grok, Copilot, OpenCode, Kiro, Antigravity and Pi — working together as a team. Every agent in one place Start, stop and preview every running instance from the manager dashboard. A board for the work Kanban lanes, a priority matrix and reminders track what each session is doing. Notes that agents can read A built-in Markdown workspace with WYSIWYG editing, math and Mermaid diagrams. English · 한국어 · 中文 · 日本語 · 📖 Website · Docs CLI-JAW unifies the AI coding CLIs you already use into one assistant with one memory and one dashboard . Your main CLI (the "Boss") calls the others as "employees", so you stop copy-pasting between apps and give orders from a single place. - No API keys needed — routes through subscriptions you already pay for - No per-token billing — flat monthly cost, same as what you already have - Runs locally — your code never leaves your machine - Reach it anywhere — Web, desktop app, terminal, Telegram, Discord or Slack The native Code API ( /api/code ) provides
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, assistant, automation, claude, cli, codex
+
+---
+
 ## 🕔 2026-09-25 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
