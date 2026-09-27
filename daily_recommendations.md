@@ -1,3 +1,67 @@
+## 🕔 2026-09-27 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [envd](https://github.com/tensorchord/envd)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,236
+- **核心概述**: 🏕️ Reproducible development environment for humans and agents
+- **大概是做什么的**: Development environment for AI/ML envd ( ɪnˈvdɪ ) is a command-line tool that helps you create the container-based development environment for AI/ML. Creating development environments is not easy, especially with today's complex systems and dependencies. With everything from Python to CUDA, BASH scripts, and Dockerfiles constantly breaking, it can feel like a nightmare - until now! Instantly get your environment running exactly as you need with a simple declaration of the packages you seek in build.envd and just one command: envd up ! Environments built with envd provide the following features out-of-the-box: Simple CLI and language envd enables you to quickly and seamlessly integrate powerful CLI tools into your existing Python workflow to provision your programming environment without learning a new language or DSL. Isolation, compatible with OCI image With envd , users can create an isolated space to train, fine-tune, or serve. By utilizing sophisticated virtualization technology as well as other features like buildkit, it's an ideal solution for environment setup. envd environmen
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, buildkit, code-agent, codex, developer-tools, development-environment
+
+---
+
+### 🌟 [qq-bridge](https://github.com/Derpyu520/qq-bridge)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 463
+- **核心概述**: Bridge between QQ (SnowLuma OneBot v11) and DeepSeek Harness agents: social simulation, safe MCP tools, slang learning and more.
+- **大概是做什么的**: QQ ↔ DeepSeek Harness 桥接 English : README.en.md 中文 : README.md 📘 详细内外核说明书见 docs/guides/PROJECT GUIDE.md （架构、数据流、配置全解、调试与改进指南）。 🗂️ 文档索引（全部文档一句话说明 + 是否仍然有效）见 docs/README.md ；仓库目录/脚本命名约定见 docs/FOLDER MAP.md 。 🔒 QQ 会话的权限边界与安全承诺见 RULES.md 。 🎤 独立的「发语音」工具已拆到仓库上一级的 ../voice-tool/ （命令行 voice-cli.mjs / 图形界面 voice-gui.mjs ），不再依赖 qq-bridge 运行。 把 QQ 消息接入 DSH agent：QQ 好友/群发来的消息会变成 DSH 会话里的用户消息，agent 的回复（含提问、工具审批）会发回 QQ。 ⚠️ 当前版本 v0.1.5 ，适配 DSH 0.1.5-rc.1 （在该版本上逐项实测）。使用 Cookie 鉴权、斜杠 RPC 和 /api/remote.mux 事件流；这一代协议自 DSH 0.1.2-alpha.1 起引入，与更早的点号 endpoint 协议不兼容—— DSH 0.1.1-rc.2 及更早 请改用 tag v0.1.0 。 默认分支 main 就是 本版本， git clone 直接拿到，无需切换分支。 📽️ AI 仿真群友 - 项目介绍视频（约 11 MB） 视频改由 Release 附件 托管，不在仓库里——只想安装桥接的人不必再下载这 11 MB（它此前占整个仓库体积的 88%）。 - QQ 侧 ： @snowluma/sdk 的 SnowLumaWebSocketClient （OneBot v11 WebSocket 客户端，自动重连） - DSH 侧 ：适配 DSH 0.1.2 起、0.1.5 复核通过的协议——launch token 换 Cookie 鉴权、 /api/ / 斜杠 RPC、 /api/remote.mux + session/follow 事件流；复用 AbstractApiClient 传输层但不再依赖旧版 zod value schema。会话模型由桥接按 config.json 的 dsh.model 逐会话 session.selectModel 固定（默认 deepseek-flash = DeepSeek-V41-Flash，多模态） - agent 自主收发 QQ ：DSH
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chatbot, deepseek-harness, dsh, onebot, qq-bot
+
+---
+
+### 🌟 [hevy-mcp](https://github.com/chrisdoc/hevy-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 485
+- **核心概述**: Manage your Hevy workouts, routines, folders, and exercise templates. Create and update sessions faster, organize plans, and search exercises to build workouts quickly. Stay synced with changes so your training log is always up to date.
+- **大概是做什么的**: Talk to your Hevy workout data from Claude, Cursor, Codex, and other MCP clients. Connect to the hosted MCP · Use the Hevy CLI · Watch the 18-second demo · Explore all 22 tools Prefer the terminal? The separate package reads workouts, routines, exercises, and body measurements directly from the Hevy API, and can create or update those resources with explicit confirmation. Deletion is not supported. Add --json to any command for scripts and pipelines. The CLI is a standalone Hevy API client, not an MCP wrapper. See packages/cli/README.md for the full command reference, pagination behavior, and exit codes. hevy-mcp is an open-source Model Context Protocol (MCP) server for the Hevy fitness and workout tracking app. It lets AI assistants read, analyze, create, and update your Hevy workouts, routines, exercise templates, and body measurements through authenticated Hevy The repository is organized as a private workspace with explicit runtime boundaries: @hevy-mcp/hevy-client owns the web-safe Hevy client, @hevy-mcp/operations owns reusable Hevy domain operations, @hevy-mcp/core owns MCP to
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, codex, fitness, hevy, mcp, mcp-server
+
+---
+
+### 🌟 [NLP-Knowledge-Graph](https://github.com/lihanghang/NLP-Knowledge-Graph)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,769
+- **核心概述**: 自然语言处理、知识图谱、对话系统，大模型等技术研究与应用。
+- **大概是做什么的**: 有需要为该开源项目贡献的小伙伴可以联系我哟。 - Deep learning for Knowledge-Graph - 关于NLP/对话/KG的商业化相关（仅供交流学习） Deep learning for Knowledge-Graph create time 2019-08-24 探索认知智能系列---趋势：1. 数据融合知识；2. All in LLM。 包括知识获取、知识库构建、基于知识库的问答系统系列技术研究与应用。涉及到NLP领域的前沿技术和论文。 Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks. :--: :---------------------------------------------------------------------------------------- 1 为什么要将「知识图谱」追溯到 1956 年? 4. CN-DBpedia: A Never-Ending Chinese Knowledge Extraction System 6. 赵汀阳：人工智能的自我意识何以可能？1-3 7. NLP University 开张大吉--李维老师，Simon Fraser University，博士 8. ACL 2019 知识图谱的全方位总结 1. The Illustrated Transformer 2. An Attentive Survey of Attention Models 3. BERT:Bidirectional Encoder Representations from Transformers 4. ERNIE:Enhanced Representation through Knowledge Integration 5. ERNIE: Enhanced Language Representation with Informative Entities 6. Google T5: Text-To-Text Transfer Transformer 编号 名称 等级 类型 领域 :--: :----- :--- :------- :------------------------- 1 ACL A类 学术会议 人工智能 2 CVPR A类 学术会
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, bert, deep-learning, ernie, event-driven
+
+---
+
+### 🌟 [ansvisor](https://github.com/ansvisor/ansvisor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 124
+- **核心概述**: Open-source AI Search Intelligence Platform — track, analyze, and improve AI visibility, citations, prompts, competitors, and content opportunities across ChatGPT, Claude, Gemini, Google AI Overviews, Google AI Mode, Perplexity, Grok, and Microsoft Copilot.
+- **大概是做什么的**: Ansvisor — Open-Source AI Search Intelligence Platform Official Website · Documentation Business Data + AI Behavior → Intelligence → Opportunities → Actions Ansvisor is an open-source AI Search Intelligence Platform that helps brands understand, measure, and improve their visibility across AI Search. Connect business data and traditional search signals with AI Search behavior across ChatGPT, Google AI Overviews, Google AI Mode, Gemini, Claude, Perplexity, Microsoft Copilot, Grok, and other AI platforms to discover opportunities, prioritize what matters, and improve brand visibility. Track prompts, mentions, citations, competitors, AI traffic, and the sources AI systems rely on — all in one platform. Self-host Ansvisor for free or use the managed Ansvisor Cloud. We're building Ansvisor in the open because we believe companies shouldn't need another black box to understand a black box. Our goal is to make AI Search intelligence more transparent, measurable, actionable, and accessible. ⭐ If you believe AI Visibility should be open and community-driven, star the repo — it's how the next
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aeo, ai-agent, ai-search, answer-engine-optimization, brand-monitoring, chatgpt
+
+---
+
+### 🌟 [hookdeck-cli](https://github.com/hookdeck/hookdeck-cli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 363
+- **核心概述**: CLI for Hookdeck: forward webhooks to localhost (ngrok alternative), manage and query Event Gateway resources (sources, connections, destinations, events), run the MCP server for AI agents. Free for dev.
+- **大概是做什么的**: [slack-badge]: https://img.shields.io/badge/Slack-Hookdeck%20Developers-blue?logo=slack Using the Hookdeck CLI, you can forward your events (e.g. webhooks) to your local web server with unlimited free and permanent event URLs. Your event history is preserved between sessions and can be viewed, replayed, or used for testing by you and your teammates. Hookdeck CLI is compatible with most of Hookdeck's features, such as filtering and fan-out delivery. You can use Hookdeck CLI to develop or test your event (e.g. webhook) integration code locally. You can also manage Hookdeck Event Gateway resources—sources, destinations, connections, events, transformations—from the CLI. For AI and agent workflows, the Event Gateway MCP server ( hookdeck gateway mcp ) exposes these capabilities as tools in MCP-compatible clients (e.g. Cursor, Claude). Although it uses a different approach and philosophy, it's a replacement for ngrok and alternative HTTP tunnel solutions. Hookdeck for development is completely free, and we monetize the platform with our production offering. For a complete reference of all
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, hookdeck, localtunnel, mcp, mcp-server, ngrok-alternative
+
+---
+
 ## 🕔 2026-09-27 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
