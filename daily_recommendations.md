@@ -1,3 +1,67 @@
+## 🕔 2026-09-27 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [TensorFold](https://github.com/ashhart/TensorFold)
+- **项目语言**: Python
+- **星标数量**: ⭐ 492
+- **核心概述**: 在 OpenAI 兼容端点后面的 Apple Silicon (MLX) 上进行快速、准确的 LLM 解码
+- **大概是做什么的**: TensorFold 通过兼容 OpenAI 的 API 在 Apple Silicon 和 NVIDIA GPU 上提供文本模型。每个模型系列都提供自己的内核和草案验证。使用 http://127.0.0.1:8080/v1 作为客户端基本 URL 和 /v1/models 中的模型 ID。需要 Python 3.11 或更高版本。请参阅运行手册了解安装和第一个请求。模型检查点后端绘图 --- --- --- --- Nemotron 3.5 Lightning Vontra/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-MLX-4bit MLX，CUDA 包含 MTP 头； MLX Qwen3.8-27B Vontra/Qwen3.8-27B-MLX-4bit MLX、CUDA z-lab/Qwen3.8-27B-DFlash2 上的上下文副本和上下文副本； DFlash2 在 MLX Qwen3.8 Flash Next Vontra/Qwen3.8-Flash-Next-MLX-4bit-MTP MLX、CUDA 上是可选的 包含 MTP 头和上下文副本 GLM-5.3-Flash Vontra/GLM-5.3-Flash-MLX-4bit-MTP CUDA，具有两级 MTP；可选的 DFlash2 张量折叠模型列出了系列和检查点。 tensorfold info MODEL 检查配置而不获取权重。服务下载缺少的检查点； pull 提前下载它。 Qwen3.8-27B 的 M5 张量单元路径读取 MLX 仿射 2-、3-、4-、5-、6- 和 8
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-tools, llm, llm-inference, llm-tools
+
+---
+
+### 🌟 [spacy-llm](https://github.com/explosion/spacy-llm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,393
+- **核心概述**: 🦙 将法学硕士集成到结构化 NLP 流程中
+- **大概是做什么的**: 具有 LLM 的结构化 NLP 该软件包将大型语言模型 (LLM) 集成到 spaCy 中，具有用于快速原型设计和提示的模块化系统，并将非结构化响应转化为各种 NLP 任务的稳健输出，无需训练数据。 - 可序列化的 llm 组件，用于将提示集成到 spaCy 管道中 - 定义任务（提示和解析）和模型的模块化函数 - 与 Microsoft Azure AI 的 API 接口 - 支持 Hugging Face 上托管的开源 LLM 🤗： - 与 LangChain 集成 🦜️🔗 - 所有 langchain 模型和功能都可以在 spacy-llm 中使用 - 开箱即用的任务： - 命名实体识别 - 文本分类 - 关系提�� - 情感分析 - 跨度分类 - 原始提示执行以实现最大灵活性 - 语义角色标签 - 通过 spaCy 的注册表轻松实现您自己的功能，以进行自定义提示、解析和模型集成。有关示例，请参见此处。 - Map-reduce 方法用于分割对于 LLM 上下文窗口来说太长的提示并将结果重新融合在一起 Large L
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, claude, cohere, dolly, falcon, gpt-3
+
+---
+
+### 🌟 [gufo](https://github.com/gufo-org/gufo)
+- **项目语言**: C++
+- **星标数量**: ⭐ 301
+- **核心概述**: Strix Halo 推理引擎。 Qwen Flash Next Q4_K_XL：1,628.52pp，59.41tg单用户，157.22 tok/s 8用户； Qwen27B Q4_K_XL：656.33pp，70.56tg tok/s 单用户，带 DFlash2
+- **大概是做什么的**: Gufo：Strix Halo 推理引擎 Gufo 是一款垂直本地推理引擎，专为 AMD Strix Halo 硬件构建和优化：配备 Radeon 8060S ( gfx1151 ) 的 Ryzen AI MAX+ 395 系统，高达 128 GiB 的统一内存。欢迎大家踊跃投稿！模型和基准 所有模型文档都位于文档/模型下： 模型推理模式 Hugging Face 权重 基准质量 --- --- --- --- --- Qwen3.8 27B Q4/Q8、图像、AR、DFlash2 Unsloth Q4 K XL / Q8 K XL · DFlash2 Q4 K M Q4：656.33 tok/s pp ；使用 DFlash2 在 8 个并发请求上高达 70.56 tok/s tg 和 123.00 聚合 tok/s · 基准质量 Qwen3.8 Flash-Next Q4、图像、AR、MTP Unsloth Q4 K XL · MTP Q8 0 1,628.52 tok/s pp ；单用户 tg 高达 59.41 tok/s，MTP 8 个并发请求上的聚合 tok/s 高达 157.22 tok/s · 基准质量 DeepSeek V4 Flash AR、DSpark antirez Flash 0731 IQ2XXS · DSpark 484.62 tok/s pp ； DSpark 在 8 个并发请求上高达 26.62 tok/s tg 和 54.74 聚合 tok/s · 基准质量 Qwen3-ASR 1.7B 语音识别 BF16 15.27× 实时 · B
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: amd, llm, strix-halo
+
+---
+
+### 🌟 [buoy](https://github.com/Buoy-gg/buoy)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 692
+- **核心概述**: 位于 React Native 应用程序中的开发工具。并回答你的代理人。 15 个工具 · 桌面仪表板 · 用于 AI 代理的 MCP 服务器
+- **大概是做什么的**: React Native 应用程序内的开发人员工具。文档 · 快速入门 · 桌面 · MCP · 定价 检查设备上捕获的请求、应用程序状态、存储和性能。将支持的工具连接到桌面或人工智能助手。从开发版本和免费或专业浮标帐户开始。 Flutter 设置可单独用于调试构建。有编码代理吗？将其粘贴到 Claude Code、Cursor 或 Codex 中。它读取您的 lockfile 和 package.json ，安装核心以及仅与您的应用程序匹配的工具，将菜单安装在您的提供商下方，连接您的商店，并告诉您要在设备上检查哪些内容。它遵循 buoy.gg/install.md — 如果您愿意，请先阅读它。从应用程序的目录安装，然后登录：在 Expo Router 项目中，保留现有的导航器和提供程序。例如：登录命令将 Expo 密钥写入 .env.local 。将导航器和菜单保留在现有提供商内。如果没有 Expo Router，请将应用程序的根内容放在 Stack 的位置。对于 React Native CLI，通过应用程序的环境配置加载密钥并将其传递给 Buoy.init ； .env。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: android, debugging, developer-tools, devtools, expo, ios
+
+---
+
+### 🌟 [lightspeed](https://github.com/smartcomputer-ai/lightspeed)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 200
+- **核心概述**: 用于 Temporal 的确定性代理工具（Rust）
+- **大概是做什么的**: 运行数千个代理。高效、耐用、可审计。 Lightspeed 是开源基础设施，用于将托管代理队列作为持久工作流程运行。 “托管代理”是一种新兴模式，它将核心代理循环与其使用的虚拟机或沙箱分开。代理可以在重新启动后继续存在，可以运行数月，并且在闲置时保持便宜。当他们需要操作系统时，只要 Lightspeed 的 Rust 核心任务今天在 Temporal 上运行，并使用可选的 S3 将生产数据存储在 Postgres 中，他们就会借用一台真实的机器。前端是 TypeScript，Lightspeed 旨在实现 Claude Code、Codex 和 OpenClaw 的功能，而不需要每个代理使用一个操作系统。大多数前沿工具都位于客户操作系统内，这使得它们难以扩展和安全。因此，出现了“将线束与计算分离”或大脑和双手分开的模式。这对于监管和规模要求更严格的企业尤其有用。因此，在 Lightspeed 中，工具（代理循环、上下文和会话状态）作为轻量级持久工作流程运行。 shell，代码执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, ai, autonomous-agents, event-sourcing, rust-lang
+
+---
+
+### 🌟 [ENZO](https://github.com/theguysudo/ENZO)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 109
+- **核心概述**: 自托管 AI 工作区，包含代理、技能和工具（Gmail、日历），完全在您自己的提供商 API 密钥 (BYOK) 上运行。带上您自己的密钥 — Groq、OpenRouter、NVIDIA、Hugging Face、Google AI。
+- **大概是做什么的**: 与 300 多个模特聊天。建立自己编写操作手册的代理。研究、生成代码、运行这一切——在您的密钥上、在您的基础设施上。当您发送消息时，请求从您的浏览器通过 ENZO 发送至您选择的提供商，然后您向该提供商支付正常价格。在削减之间没有任何中间因素。没有 ENZO 帐户，没有使用量表，没有订阅。内部 ENZO 计数 它为您提供的内容 一个目录中的模型 跨 9 个提供商的 300 多个模型，实时健康检查 可注���代理技能 代理循环每次运行时引入的 74 个捆绑域剧本 自起草代理 2 遍构建器简单英语任务输入，操作手册输出 CI 管道阶段 7 个，包括每次推送时的黑盒安全渗透测试 渗透测试断言 44 个身份验证绕过、IDOR、恶意有效负载、流完整性 单元 + 安全测试298 个代理、Vault、加密和模型套件 TypeScript（严格） 44,000 行一种语言，贯穿整个版本的严格模式 5 v1.0.0 → v1.4.0，变更日志中的所有内容 没有克隆？一个命令（安装相同的命名卷，因此您的数据和声明的实例仍然存在）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-workspace, byok, chatbot, chatgpt-alternative
+
+---
+
 ## 🕔 2026-09-27 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
