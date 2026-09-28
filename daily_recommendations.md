@@ -1,3 +1,67 @@
+## 🕔 2026-09-28 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp](https://github.com/cloudflare/mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 892
+- **核心概述**: MCP server for the Cloudflare API
+- **大概是做什么的**: Cloudflare MCP Server A token-efficient MCP server for the entire Cloudflare API. 2500 endpoints in 1k tokens, powered by Code Mode. Approach Tools Token cost Context used (200K) ------------------------------------------- ----- ---------- ------------------- Raw OpenAPI spec in prompt — 2,000,000 977% Native MCP (full schemas) 2,594 1,170,523 585% Native MCP (minimal — required params only) 2,594 244,047 122% Code mode 3 1,100 0.5% MCP URL: https://mcp.cloudflare.com/mcp Option 1: OAuth (Recommended) Just connect to the MCP server URL - you'll be redirected to Cloudflare to authorize and select permissions. Example JSON Configuration For CI/CD, automation, or if you prefer managing tokens yourself. Create a Cloudflare API token with the permissions you need. Both user tokens and account tokens are supported. For account tokens, include the Account Resources : Read permission so the server can auto-detect your account ID. Note: API tokens with Client IP Address Filtering enabled are not currently supported. Setting Value ------------ --------------------------------------------------
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cloudflare, cloudflare-workers, mcp, mcp-server
+
+---
+
+### 🌟 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 488
+- **核心概述**: 39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南
+- **大概是做什么的**: 39 film styles, each with a short film made entirely in code. 39 种影片风格，每种都配一支完全用代码做出来的短片。 Pick a style, bring your own story, and let your coding agent direct the film. 选一个风格，带上你自己的故事，让你的编程 agent 来当导演。 ▶ Watch the gallery · 看图鉴 🎬 Feature presentation · 特别放映：OPUSCAR 98 98 Years of Best Picture · 1927 – 2025 · 6:25 98 年最佳影片 · 1927 – 2025 · 6 分 25 秒 One Clawd walks through all 98 Best Picture winners, each one redrawn in a style that fits the film. Every frame, every note and every cut was written in code by Claude Opus 5.5. 一个 Clawd 走过 98 部最佳影片，每一部都换成贴合那部电影的画风。 每一帧画面、每一个音符、每一刀剪辑，都是 Claude Opus 5.5 写代码做出来的。 ▶ Watch · 观看 · Download 1080p · 下载 I'm Lemomo (@lemomo-ai). More about me on my profile. 我是 Lemomo ，更多信息见我的 GitHub 主页。 Not an awesome list. Every film here was made by me, with Claude Opus 5.5. The styles are tuned for Opus 5.5; other models may not reproduce them. 这不是一个 awesome 合集。 这里所有的片子都是我自己用 Claude Opus 5.5 做的。风格是按 Opus 5.5 调出来的，换成其他模型不保证能做出同样的效果。 Every film was directed, drawn, scored and mixed by an AI agent writing code: canvas and WebGL pages rendered frame by frame, origin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-video, animation, canvas, claude, claude-code
+
+---
+
+### 🌟 [Awesome-KV-Cache-Optimization](https://github.com/jjiantong/Awesome-KV-Cache-Optimization)
+- **项目语言**: Python
+- **星标数量**: ⭐ 413
+- **核心概述**: [ACL 2026] Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization
+- **大概是做什么的**: Awesome KV Cache Optimization This repository accompanies our survey paper ( ACL 2026 Findings ): Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization Jiantong Jiang 1 , Peiyu Yang 1\ , Rui Zhang 2 , Feng Liu 1 1 The University of Melbourne, 2 Huazhong University of Science and Technology This repository maintains a continuously updated collection of system-aware, serving-time, KV-centric optimization methods that improve system metrics without retraining or architecture modification, a scope we call sKis . We organize the literature using the system behavior-oriented taxonomy introduced in our survey:\ 🔷 Temporal — when is KV cache accessed or computed?\ 🔷 Spatial — where is KV cache placed and migrated?\ 🔷 Structural — how is KV cache represented and managed? 📚 The taxonomy serves as a stable organizing framework, while the paper collection below is continuously updated as new work appears.\ 🧠 Grounded in this taxonomy, we analyze cross-behavior co-design affinity and behavior–objective effects , revealing overlooked regions and concre
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, computer-architecture, kv-cache, llm, llm-inference, llm-serving
+
+---
+
+### 🌟 [AI-Reader-V2](https://github.com/mouseart2025/AI-Reader-V2)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: AI 小说分析可视化工具 — 角色关系图谱 · 地理地图 · 时间线 · 百科全书 | 支持 Ollama 本地 + 10 大云端 LLM | React + FastAPI + SQLite
+- **大概是做什么的**: AI Reader V2 — AI 小说分析可视化工具 声明： 本项目正处于数据分析质量提升的密集迭代期，版本变化较快，尚未达到可实用阶段。当前提供的 Web 开发版和桌面端安装包 仅供尝鲜体验 ，分析结果可能包含较多错误。欢迎试用并反馈，但请勿用于正式的学术研究或文学分析。 开源 AI 小说分析工具 — 上传任意 TXT/Markdown 小说，AI 自动提取人物关系、地点层级、事件时间线，生成交互式知识图谱、世界地图、时间线等多维可视化。支持本地 Ollama 和云端 LLM，数据 100% 本地存储，无需联网。 适用于：网文分析、小说世界观整理、文学研究、创作辅助、角色关系梳理、剧情梳理、同人创作参考。 力导向关系网络图，自动识别 70+ 种关系类型（血亲、师徒、同盟、敌对...），六大分类着色。实体别名智能合并（孙悟空 = 美猴王 = 行者 = 齐天大圣），支持路径查找、分类过滤、边权重调节。 从文本全自动构建多层级交互式地图。天界/冥界/海底/秘境多空间层、传送门连接、程序化地形（生物群落 + 河流 + 道路 + 大陆架）、人物轨迹动画回放、rough.js 手绘风格渲染。 v0.59 新增：LLM 宏观方位锚定 + 三重水域检测 + 海岸线覆盖保证 + 道路跨海过滤。 多源事件聚合（角色登场、物品流转、关系变迁、组织变动），智能降噪过滤，情绪基调标签，章节自动折叠。故事线泳道视图追踪多角色并行叙事线。 五类实体分类浏览（人物/地点/物品/组织/概念），地点层级树与空间关系面板，场景索引定位原文，世界观总览。 - 🖥️ 桌面应用 — Tauri 2 原生桌面客户端，下载即用，全功能离线运行 - 📚 书架管理 — 拖拽上传 .txt/.md，智能章节切分（50+ 格式），搜索排序，导入/导出/全量备份 - 🔍 实体预扫描 — jieba 中文分词 + LLM 分类，生成高频实体词典提升提取质量 - 📖 智能阅读 — 实体高亮（5 类着色），别名解析，书签系统，场景/剧本面板 - ⚔️ 势力图 — 组织架构与势力关系网络 - 💬 RAG 智能问答 — 基于原文的检索增强问答，流式对话，答案来源溯源 - 📤 设定集导出 — Markdown / Word / Excel / PDF 四种格式，可选模板 - 🤖 多 LLM 支持 — 本地 Ollama（qwen3:8b 等）+ 10 大云端供应商（DeepSeek、MiniMax、Claude、OpenAI、Gemini 等） - 📊 全链路分析管线 — 实体预扫描 → 逐章提取 → 聚合 →
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chinese-literature, chinese-nlp, fastapi, information-extraction, knowledge-graph, literature
+
+---
+
+### 🌟 [termide](https://github.com/termide/termide)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 167
+- **核心概述**: All-in-one terminal workspace for desktops and servers: editor with LSP, file manager with SFTP/FTP, terminal, git, database viewer and a coding agent in one zero-config static Rust binary.
+- **大概是做什么的**: English 中文 Русский An all-in-one terminal workspace for your workstation and your servers: code editor with LSP, dual-pane file manager with SFTP/FTP, terminal, git, database viewer and a coding agent — one zero-config static binary written in Rust. Website Documentation Releases Screenshots Terminal editors cover the code; everything around it — files on remote hosts, databases, git, long-running shells, a coding agent — usually takes plugins or separate tools. TermIDE ships all of it in one binary that works out of the box on a laptop, a server, or a phone: Feature TermIDE Fresh Vim/Neovim Helix Micro --------- :-------: :-----: :----------: :-----: :-----: LSP Support ✓ ✓ ✓ ✓ plugin Zero Config ✓ ✓ ✗ ✓ ✓ Script Automation ✓ ✓ ✓ ✗ plugin Built-in Coding Agent (local or hosted models) ✓ ✗ plugin ✗ ✗ External Agents (Claude Code, Codex, Gemini CLI) ✓ ✓ plugin ✗ ✗ MCP Servers ✓ ✗ plugin ✗ ✗ Remote Filesystems (SFTP/FTP) ✓ SSH ✓ ✗ ✗ Hex / Binary Viewer ✓ ✗ plugin ✗ plugin Database Viewer ✓ ✗ plugin ✗ ✗ Markdown Preview ✓ ✓ plugin ✗ ✗ Diagram Viewer (Mermaid) ✓ ✗ plugin ✗ ✗ Image Viewer
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: cli, coding-agent, devops, file-manager, git, hex-editor
+
+---
+
+### 🌟 [claude-code-studio](https://github.com/Lexus2016/claude-code-studio)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 139
+- **核心概述**: A fully functional web workspace for Claude Code CLI—chat, Kanban task board, task scheduling, multi-agent orchestration, MCP servers, skills, remote access (Web, SSH, Telegram), projects, and real-time data streaming.
+- **大概是做什么的**: The browser interface for Claude Code CLI. Chat with AI, run tasks on autopilot, and manage your projects — all from one tab. English Українська Русский 📖 From Terminal to Dashboard Remote Access Revolution Works on Windows, macOS, and Linux — zero platform-specific setup. v7.17.0 — Add a project from a Git URL — no terminal detour first. The "Add project" modal now takes a repository URL and an optional branch: point it at an empty parent folder you browse to, and the studio clones the repo there itself and registers it — no more running git clone in a terminal and then hunting for the folder. The endpoint had a security pass before shipping: only http(s), ssh and git URLs are accepted ( ext:: and file:// are refused), a host string shaped like the 2017 ssh-option-injection bug is refused too, a symlink swapped into the target folder is caught after resolving the real path, a dangling symlink is caught before git can populate it, a stuck clone is killed by its whole process group after 10 minutes, and no more than 2 clones run at once. Also in this release: the Subscription engine
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude, claude-code, kanban, mcp
+
+---
+
 ## 🕔 2026-09-28 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
