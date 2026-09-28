@@ -1,3 +1,67 @@
+## 🕔 2026-09-28 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Concat](https://github.com/jub0t/Concat)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,843
+- **核心概述**: The truly free, and open-source cross-platform CapCut replacement (supports MCPs).
+- **大概是做什么的**: The truly free, and open-source cross-platform CapCut replacement. Pay-as-you-go proxies for developers Use code JUB0T for 20% off Sponsor Concat and your name, logo and link take this slot Concat is a free, open-source video editor and a CapCut alternative for macOS, Windows, Linux and Android. It covers what people actually open CapCut for: auto-captions, text-to-speech, background removal, keyframe animation, effects and titles, multi-track cutting, 4K export. With none of the catches: no watermark, no account, no subscription, no upload. Everything runs locally on a native Rust engine with a GPU compositor. Install it, drop in footage, cut. The AI models for captions, voices and cutout download once from Settings and work offline after that. Your footage never leaves your disk. Good for: TikTok, Reels and Shorts, YouTube videos, tutorials and screen recordings, podcast clips, memes. Also for machines: a JSON-RPC, gRPC and MCP API, so scripts and AI agents can cut video with it too. - 🚫 No watermarks. No account. No paywall. Ever. - 🔒 100% local. Nothing uploads. Works offline.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, auto-captions, capcut-alternative, content-creator, desktop-app
+
+---
+
+### 🌟 [skills](https://github.com/docker/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 406
+- **核心概述**: A collection of Docker skills for AI coding agents to help them build, test, debug, and optimize containerized apps with consistent, reusable workflows.
+- **大概是做什么的**: Docker Skills for AI Coding Agents Docker-authored knowledge skills that improve AI coding agent output for Docker-related tasks. Skills are authored once as portable SKILL.md directories and discovered automatically by any compliant agent through standard skill paths. The installation steps below are self-contained; the catalog-generated inventory also records Docker Docs guidance for each distribution surface. Skills are grouped by the Docker product they cover. The table is generated from catalog.yaml by task catalog ; edit the catalog, not the table. Product Description Skills --------- ------------- -------- Dockerfile & Build source Containerize a project and write, optimize, and harden Dockerfiles and images. docker-project-foundations — Guidance for initializing and structuring a Dockerized project. docker-build-strategies — Strategies for efficient, secure, and optimized Docker image builds. Docker Compose source Wire multi-container stacks with robust, maintainable Compose configurations. docker-compose-patterns — Patterns for robust, maintainable Docker Compose configurati
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, antigravity, claude-code, codex, copilot
+
+---
+
+### 🌟 [OpenLore](https://github.com/aakarim/OpenLore)
+- **项目语言**: Go
+- **星标数量**: ⭐ 315
+- **核心概述**: A minimal, extensible, agent-native knowledge base that keeps shared context current and inspectable
+- **大概是做什么的**: Serve your docs to AI agents over SSH and MCP. OpenLore is a minimal, customisable, agent-native knowledge base that keeps your context current and inspectable. AI agents can already read Markdown. The problem starts when multiple agents, repositories or people need to rely on the same knowledge. Keeping docs inside each repo works until that knowledge gets copied, duplicated or goes stale. Different agents end up working from different versions of the truth, and there is no consistent way to control who can read, update or publish what. OpenLore gives your agents one shared place for documentation, runbooks, skills and project knowledge. Connect every agent to the same source, update it once, and make the latest version immediately available wherever it is needed. Your knowledge stays as ordinary Markdown. OpenLore serves it as an agent-native virtual filesystem with identity-scoped access, controlled writes and validation when you need them. There is no ingestion pipeline, vector database or LLM required. Agents can access the same knowledge through MCP or use familiar commands suc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, agents, knowledge, knowledge-base, knowledge-management
+
+---
+
+### 🌟 [knowledge-rag](https://github.com/lyonzin/knowledge-rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 288
+- **核心概述**: Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools, 20 format parsers. Zero external servers, zero API keys.
+- **大概是做什么的**: The MCP-first local RAG server for Claude Code, Cursor, and every AI agent. Hybrid search · Cross-encoder reranking · 35 file formats · 100% local · Zero cloud · Enterprise-grade plumbing built-in. Enterprise Features · Chart updated daily by GitHub Action 🎯 Why knowledge-rag Most RAG frameworks fall into one of three traps: (1) they require you to ship your data to a cloud API, (2) they hand you 300 building blocks and 0 opinionated defaults, or (3) they bundle RAG as a 5% feature of a much bigger platform you didn't ask for. knowledge-rag does one thing well: it is the MCP-native local RAG server that Claude Code, Cursor, Windsurf, VS Code, Cline, Gemini CLI and Zed can search out of the box — with enterprise plumbing (bearer auth, Prometheus metrics, rate limiting, health probes, structured JSON logging, zero-downtime reindex) that no other RAG-focused OSS ships built-in. 🔒 100% local, 0% cloud Your files never leave the machine. No vendor lock-in, no data-residency headache, no forced cloud dependency. LGPD / GDPR / HIPAA compliant by architecture — because there is nothing to
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: antigravity, claude, claude-code, claude-code-cli, codex, cursor-ai
+
+---
+
+### 🌟 [coderix](https://github.com/AgenticMatrix/coderix)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 217
+- **核心概述**: A pure open-source coding agent developed solely by DeepSeek.
+- **大概是做什么的**: A fully open-source (Apache 2.0) terminal AI programming assistant — the free alternative to Claude Code. Coderix is a powerful AI coding agent that runs in your terminal or as a desktop app. It can read, write, edit files, execute shell commands, search code, and more — all through natural language conversation. Built with Ink/React for a beautiful TUI experience, plus an Electron desktop app (React DOM + Monaco + xterm) that shares the same core engine. Claude Code Coderix Source Closed Fully open Provider Anthropic only Anthropic / DeepSeek / OpenAI Pricing Per-token billing Bring your own key Extensibility Limited Full plugin architecture - An API key from DeepSeek, Anthropic, or OpenAI Coderix ships two interfaces backed by the same core engine: npm run dev:cli TUI — the terminal interface (Ink/React) npm run dev:desk Desktop — the Electron app (React DOM) - Beautiful TUI — Built with Ink + React 19, full terminal rendering - Multi-Provider — Anthropic (Claude), DeepSeek, OpenAI-compatible endpoints - 15+ Tools — read, write, edit, bash, grep, glob, web-fetch, web-search, task m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, claude-code, codeagent, deepseek, react
+
+---
+
+### 🌟 [nx-plugin-for-aws](https://github.com/awslabs/nx-plugin-for-aws)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 150
+- **核心概述**: The @aws/nx-plugin is a collection of code generators that automate the creation and configuration of cloud-native applications using AWS, TypeScript, Python and React within the Nx development ecosystem.
+- **大概是做什么的**: @aws/nx-plugin is a collection of code generators that scaffold full-stack AWS applications inside an Nx monorepo. Every generator produces best-practice application code and the infrastructure to deploy it — type-safe, locally runnable, and deployable from the start, getting you closer to production. 1. Create a workspace 2. Open your AI assistant in the created workspace and prompt it "Use the Nx Plugin for AWS to build a full-stack application consisting of a React website with shadcn and Cognito authentication, connected to a TypeScript Strands agent via the AG-UI protocol, and infrastructure to deploy it." Your AI assistant will use the Nx Plugin for AWS MCP server, which is preconfigured in every workspace you create with the command above, to scaffold, connect, and configure everything. See the Building with AI guide for more details. Create a workspace and start adding components — zero configuration required: See the full Quick Start guide and Dungeon Adventure tutorial for a deeper walkthrough. Available Generators Generator Description -------------------- ----------------
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aws, aws-cdk, cloudfront, cloudscape, fastapi, lambda
+
+---
+
 ## 🕔 2026-09-28 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
