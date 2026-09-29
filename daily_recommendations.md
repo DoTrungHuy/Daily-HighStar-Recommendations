@@ -1,3 +1,67 @@
+## 🕔 2026-09-29 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [open-dots](https://github.com/Anil-matcha/open-dots)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,347
+- **核心概述**: Open-source alternative to OpenAI Dots: self-hosted AI chat, tools, approvals, connectors, and computer tasks.
+- **大概是做什么的**: Open Dots: Open-Source Alternative to OpenAI Dots ▶ Watch: OpenAI Dots Alternative: Free, Open Source & Any Model Open Dots is an open-source alternative to OpenAI Dots: a self-hosted AI workspace for chat, tool use, approvals, connectors, and computer tasks. It brings model conversations, a governed action gateway, approval prompts, and an optional isolated browser runtime into one local-first app. Open Dots is independently built and is not affiliated with or endorsed by OpenAI, xAI, or any model provider. It offers a self-hostable, inspectable alternative for people looking for an open-source OpenAI Dots alternative, with local data and explicit approval for higher-risk actions. Status: Prototype / active development. Intended for local experimentation; multi-user hosting and hostile-web isolation are not production ready. - Create assistant personas with separate instructions, model IDs, and visual identities. - Stream chat responses, persist conversations locally, render Markdown, attach images, and dictate messages where the browser supports speech input. - Connect to models th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-assistant, ai-workspace, approval-workflows, browser-automation
+
+---
+
+### 🌟 [Repo2RLEnv](https://github.com/huggingface/Repo2RLEnv)
+- **项目语言**: Python
+- **星标数量**: ⭐ 681
+- **核心概述**: Turn any repository into verifiable RL environments for coding agents - Harbor tasks you can train on, evaluate and share on the Hugging Face Hub
+- **大概是做什么的**: Turn any repository into verifiable RL environments for coding agents. Coding agents get better by doing: attempting a real task, and being told by a program, not a person, whether they succeeded. Reinforcement learning needs thousands of those tasks, each with a working environment, an instruction that doesn't give the answer away, and a verifier you can trust. Building them by hand takes hours apiece. Repo2RLEnv builds them from material that already exists: merged pull requests, commit history, security advisories, a library's own functions, terminal recordings and problem families. Each one becomes a standard Harbor task you can train on, evaluate with any agent, and share on the Hugging Face Hub. 23 generators · 21 published datasets · 1,930 tasks on the Hub · runs with any Harbor agent Sep 29, 2026 📚 A new documentation site , with guides for every pipeline, a full CLI reference, and live explainer films that follow your light or dark theme. Read the docs → Sep 29, 2026 · v0.9.3 🧮 FrontierSmith turns closed-ended programming problems into optimization tasks with continuous, d
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coding-agents, datasets, harbor, huggingface, llm, reinforcement-learning
+
+---
+
+### 🌟 [ajean](https://github.com/nathaninline/ajean)
+- **项目语言**: Go
+- **星标数量**: ⭐ 116
+- **核心概述**: Run your AI models at home in one binary: chat, persistent memory, web access, browser control, MCP tools, encryption at rest and end-to-end encrypted remote access. Linux, macOS, Windows. FR/EN docs.
+- **大概是做什么的**: English · Français Your AI models run at home, in a single binary: chat, persistent memory, web access, tools, encryption at rest, and remote access encrypted end to end. AJEAN provides everything around the model: the chat interface, the assistant's tools, service management, and hardware management. The inference engine is llama.cpp, which AJEAN compiles itself for the machine it runs on. No runtime dependency, no CMake flag to remember, no container. You get a full chat interface and an OpenAI-compatible endpoint for your third-party tools. An assistant, not just a model. The web interface offers chat with visible reasoning, persistent memory, automatic context compaction as the conversation grows, multiple saved sessions, an editable system prompt, and appearance settings synced across devices. Real tools. ajean agent on turns on, in one move, all of the model's capabilities on the machine: terminal runs a command (bash on Unix, cmd.exe on Windows) write / edit writes a file, or edits it by exact replacement see image analyzes an image attached to the conversation mem persistent
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, chatbot, cuda, gguf, golang, inference
+
+---
+
+### 🌟 [swarm-orchestrator](https://github.com/moonrunnerkc/swarm-orchestrator)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 113
+- **核心概述**: Source for Swarm Verify: run project checks, record verifiable evidence, and expose verification gaps in AI-written changes. Includes an optional beta coding agent.
+- **大概是做什么的**: Swarm Verify runs a project's checks and records evidence showing what passed, what failed, and what remains unverified. This is the main source repository for Swarm Verify, maintained under the swarm-orchestrator repository name. It also contains the optional beta coding agent. The separate moonrunnerkc/swarm-verify repository distributes The recording is a real run of the published package over a committed evidence bundle: it verifies, one byte of one record is changed, and the altered bundle is refused with the broken link named. That is integrity. Who signed a bundle, and whether the tests it records measured the right thing, are separate questions the verifier answers separately Run it in a git repository whose dependencies are installed ( npm ci , pnpm install --frozen-lockfile or uv sync ; it names the missing step and exits 4 when they are not). It reads the checks the project declares, runs them unattended the way a CI job would, and reports apart: whether the command ran, what each check found, how the commands were contained, and what it did not judge. By default it does n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, code-review, continuous-integration, developer-tools, github-actions
+
+---
+
+### 🌟 [memory-bridge](https://github.com/jiabaobei/memory-bridge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 223
+- **核心概述**: 记忆桥 MemoryBridge — 跨设备、跨平台的 AI 共享记忆层 | Cross-device and cross-platform shared memory for AI (CDSMP implementation)
+- **大概是做什么的**: 🌉 给 AI 一个跟着你走的记忆 —— 跨设备 × 跨平台的共享记忆层 CDSMP（大模型跨设备语义记忆连续性架构）的官方工程实现。 English · 设计 RFC · 容器一致性 RFC · 路线图 · 移动端接入 · 隐私威胁模型 · 版本历程 早上通勤时你在手机上和 AI 讨论到一半的推理，回到办公室想在 PC 上继续—— 今天的做法是：翻聊天记录、复制粘贴、重新解释一遍背景。 云全量同步很重也未必安全；RAG 是"到了新设备再被动检索"；主流记忆系统 （Mem0、MemGPT/Letta 等）本质上是 单机的 。记忆桥的答案是三个差异化主张： 1. 跨设备连续性 ：记忆跟着人走，而不是跟着 App 走。手机、PC、平板共享同一份语义记忆，通过增量差分同步。 2. 边缘预加载 ：在你打开新设备之前，高热度的记忆已经被推送到位——切换即连续，而不是切换后等待检索。 3. 内容冻结原则 ：记忆桥只提取语义关联、只调节结构参数， 永不改写你的原始记忆内容 。这正是论文所依据的 Faulty Memory 研究的结论：让 LLM 自动改写/摘要记忆，必然引入幻觉式失真。 同时，记忆桥是 跨平台 的：通过 MCP 协议，同一个记忆库可以被 Claude Code、Cursor、Cline 等任意 MCP 客户端共享使用（平台覆盖详情见下文矩阵）。 时间窗检索（Hindsight 借鉴·只取结构层） scope 新增 at: 时间窗：相对量 at:7d / at:12h / at:30m / at:2w 、月 at:2026-09 、日 at:2026-09-20 、区间 at:2026-09-01..2026-09-20 （任一端可省， 右端点含当日整天 ）——对齐 Hindsight recall 的第 4 路 temporal，先过滤再融合；纯标准库解析、写法非法一律＝不过滤， tag: / scene: / kind: 老用法逐字节不变 ✅ v0.30 证据计数（proof count，Hindsight 借鉴） 按边表统计「这条记忆被多少条 不同 记忆引用」（入边出边去重）： search 结果行尾只读尾注 · 被 N 条记忆引用 ，RRF 同分时作次级排序键 ； 注入块刻意不加 （每轮常驻 token 优先省）。v0.14 起就落库、却一直只在内部可见的边关系数，第一次对外可见 ✅ v0.30 容器一致性（各端 schema 可声明可对账） 容器清单 schema.py 实读库结构生成本端身份证（schema 版本 / 节点边字段 / 边类型枚举 /
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cdsmp, cross-device, cross-platform, llm
+
+---
+
+### 🌟 [HIGAgentSkills](https://github.com/justinwetch/HIGAgentSkills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 335
+- **核心概述**: Apple Human Interface Guidelines for Agents
+- **大概是做什么的**: 157 source-reviewed Apple Human Interface Guidelines references, updated for iPhone Duo and OS 27 , with a guided /duo workflow that adapts an existing iOS app to the folding iPhone. Covers iOS, iPadOS, macOS, tvOS, visionOS and watchOS. Release 2026-09-27 · Apple source snapshot 2026-09-12 . Copy-paste install prompt Copy and paste this message to your agent to have it install the skill and its /duo command for you. 2026-09-27 release: iPhone Duo and OS 27 Apple's September guideline update added a whole new page for the folding iPhone Duo and brought the rest of the HIG up to OS 27. This release brings the skill up to that snapshot (captured September 12) and adds help for the job most iOS teams will actually have this fall: taking an app they already ship and making it work on a phone that opens. - Duo mode. /duo takes an existing iOS app through assessing its screens, matching them to Apple's Duo guidance, recommending changes for you to approve, and building them in SwiftUI or UIKit. It works in your app's own code and never draws web mockups (see "Redesign for iPhone Duo" below
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, apple, design, designsystem, skills
+
+---
+
 ## 🕔 2026-09-29 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
