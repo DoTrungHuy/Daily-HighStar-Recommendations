@@ -1,3 +1,67 @@
+## 🕔 2026-09-29 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 330 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 4,455
+- **核心概述**: Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI
+- **大概是做什么的**: 🧠 memory-lancedb-pro · 🦞OpenClaw Plugin AI Memory Assistant for OpenClaw Agents Give your AI agent a brain that actually remembers — across sessions, across agents, across time. A LanceDB-backed OpenClaw memory plugin that stores preferences, decisions, and project context, then auto-recalls them in future sessions. ⚡ v1.1.0-beta.10 — OpenClaw 2026.3+ Hook Adaptation ✅ Fully adapted for OpenClaw 2026.3+ new plugin architecture 🔄 Uses before prompt build hooks (replacing deprecated before agent start ) 🩺 Run openclaw doctor --fix after upgrading English 简体中文 繁體中文 日本語 한국어 Français Español Deutsch Italiano Русский Português (Brasil) Why memory-lancedb-pro? Most AI agents have amnesia. They forget everything the moment you start a new chat. memory-lancedb-pro is a production-grade long-term memory plugin for OpenClaw that turns your agent into an AI Memory Assistant — it automatically captures what matters, lets noise naturally fade, and retrieves the right memory at the right time. No manual tagging, no configuration headaches. Your AI Memory Assistant in Action Without memory — eve
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: lancedb, memory, openclaw, openclaw-agent, openclaw-plugin, rag
+
+---
+
+### 🌟 [edgequake](https://github.com/raphaelmansuy/edgequake)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,096
+- **核心概述**: EdegQuake 🌋 High-performance GraphRAG inspired from LightRag written in Rust; Transform documents into intelligent knowledge graphs for superior retrieval and generation
+- **大概是做什么的**: High-Performance Graph-RAG Framework in Rust Transform documents into intelligent knowledge graphs for superior retrieval and generation No Rust, no Node.js, no build. Just Docker. The wizard guides you through provider selection (OpenAI / Ollama), model choice, and starts the full stack. Open http://localhost:3000 and you're in — no login required (quickstart runs with open API via EDGEQUAKE DEV MODE=true ). Ports: Docker quickstart maps the Web UI to http://localhost:3000 . Local make dev defaults to http://localhost:3010 (avoids collisions with other stacks). Alternative: docker compose directly Headless / CI (no interactive terminal): Service URL (Docker quickstart) URL ( make dev ) --------- ------------------------- ------------------ Web UI http://localhost:3000 http://localhost:3010 REST API http://localhost:8080 http://localhost:8090 Swagger http://localhost:8080/swagger-ui http://localhost:8090/swagger-ui Health http://localhost:8080/health http://localhost:8090/health \ Local make dev picks free ports starting at 8090 (API) / 3010 (UI); see make status for the bound ports.
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: graphrag, knowledge-graph, lightrag, rag
+
+---
+
+### 🌟 [AI-Novel-Writer](https://github.com/EthanYoQ/AI-Novel-Writer)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,177
+- **核心概述**: AI 小说创作软件：把灵感、角色、世界观、大纲、章节写作、审稿和修稿组织成可控流程；提供 Windows/macOS 桌面版，支持本地和在线模型。AI Novel Writing Software: Organizes inspirations, characters, worldbuilding, outlines, chapter drafting, review, and revision into a controllable workflow. Features desktop apps for Windows/macOS, Ollama integration, and a DeepSeek Harness (DSH) plugin preview.
+- **大概是做什么的**: AI 小说作家 / AI Novel Writer 面向AI长篇小说创作的桌面工作台。它把“前提 → 角色 → 世界观 → 章节蓝图 → 草稿 → 审稿 → 修稿 → 定稿”组织为一条可追溯的创作流程；模型由你自行配置，项目资料留在你的电脑上。 下载桌面版（Windows / macOS） · 安装 DeepSeek Harness Web 插件 DeepSeek Harness 插件提示： 0.1.0 预览版目前冻结维护，短期不扩展功能；它的能力不足桌面软件版的 10%，不能替代桌面版。需要完整项目树、批量工作流、成熟编辑器或自动审校时，请使用上方的桌面版。 - 来源明确的连续性材料 ：作者填写的角色资料、模型提炼的动态状态与旧项目未知来源信息不再混作同一种事实；后续写作优先使用带来源的定稿原文。 - 分层的章节材料 ：本章任务、尚未发生的计划、定稿历史和候选稿会分别呈现；相关原文保留相邻段落，帮助承接伤因、否定和物品转交等跨句信息。 - 可靠的候选稿上下文 ：连续草稿沿用本批次实际保存的草稿版本和正文，并明确标注尚未定稿。 - 逐项目标审稿 ：本章关键事件会逐项显示“已完成、未完成、待核实”和对应正文证据，避免把准备或承诺直接当作完成。 - 由作者决定目标修稿 ：待核实不算检查通过，目标类未完成或待核实均须作者明确选择后才交给修稿流程，减少模型误判带来的返工。 - 更新、导出与通知修复 ：避免下载期间的重复更新检查，拆分 Markdown 导出使用独立目录，工作流完成通知保留完整标题。 这些改进减少错误摘要或过期状态影响后续章节的风险，但不能替代作者审阅，也不保证模型输出完全没有漂移或每章字数都达到目标。 - 写作 Skill 可独立安装，并按规划、正文、审稿或润色阶段分别使用。 - 故事线视图展示主线和支线进度，并可跳到对应章节依据。 - 规划资料可导入项目，让蓝图和后续写作使用同一套设定。 - 角色表接收蓝图中明确确认的新角色，并持续记录角色状态。 - 中文长篇工作流串联蓝图、草稿、审稿、修订和定稿。 - Windows 和 macOS 均可查看并启动适合本机的更新。 1.0.0 的多草稿保存、旧请求覆盖、来源恢复、导出与安装检查修复继续保留；逐项说明见 1.1.0 双语更新内容。正式安装包以 GitHub Release 为准。 DeepSeek Harness 插件（早期 MVP） 除了 Windows 与 macOS 桌面版，本仓库还保留 @ethanyoq/dsh-ai-novel-writer 0.1.0 开发预览。该插件目前冻结维护，短期不扩
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-writing, creative-writing, deepseek-harness, dsh-plugin, electron, fiction-writing
+
+---
+
+### 🌟 [second-brain-os](https://github.com/undefined-ui/second-brain-os)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 796
+- **核心概述**: An AI second brain that maintains itself. Full guide, starter vault, agent skills and scripts for a self-organizing knowledge base in Claude Code and Obsidian.
+- **大概是做什么的**: A knowledge base that an AI agent builds and maintains for you, in plain markdown files you own. Everything you read, watch and save gets turned into linked wiki pages, connected to everything already there, and you can ask it This repo is the full version of the guide: the concepts, the setup, the vault template, the agent skills, the scripts, and the resources. Free, no signup, nothing to install beyond Obsidian and an agent. Read it on the web: undefined-ui.github.io/second-brain-os — the full guide with search and navigation, plus every vetted link in one filterable page. The problem it solves You save things with the intention of coming back. You never do. Bookmarks, screenshots, read-later queues and half-filled Notion pages accumulate without compounding, because filing and linking them is boring work that humans stop doing after two weeks. Hand that work to an agent and the system stays alive. That is the whole idea. One evening. Nine steps, each with a full page behind it. The scripts/ copy is what lets /metrics , /health and /graph-export run scripts/vault stats.py and frie
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, claude-skills, knowledge-graph
+
+---
+
+### 🌟 [awesome-jev](https://github.com/kydlikebtc/awesome-jev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 582
+- **核心概述**: 1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.
+- **大概是做什么的**: &nbsp; Explore&nbsp;the&nbsp;catalogue&nbsp;↗ &nbsp; &nbsp;First&nbsp;call&nbsp; &nbsp;Adapt&nbsp;a&nbsp;project&nbsp; &nbsp;Independent&nbsp;reports&nbsp; Counts describe saved link and evidence records, not current CI passes or runtime tests. About these counts On this page · full reading map Patterns · Compatibility · Vetting - 02 What Jev returns - 05 Measured, not claimed - 06 By decision pattern - 07 By resource kind - 08 Also in this repo - 09 What is verified, and what is not - 10 Machine-readable data - 11 Contributing and licence - Jev is a decision model from TypeSafe AI. It does not write text — you hand it state plus typed questions and it returns typed answers with calibrated confidence, fast and cheap enough to sit in an agent's inner loop. - This repo indexes public examples of using it, organised by the decision being made. The resource you read this week is disposable; the decision pattern is not. - How to assess it: every row names its source. Call-site citations, primitive claims and caveats are recorded where available, so you can inspect what was read and what r
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agents, awesome, awesome-list, calibration, catalog
+
+---
+
+### 🌟 [ai-security-tool](https://github.com/ZeroDayEvil/ai-security-tool)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 413
+- **核心概述**: 🛡️ Free open-source AI-powered security terminal & vulnerability scanner (CVE, SBOM). Supports SSH, SFTP, RDP, VNC, Serial, and 12+ autonomous AI agents (DeepSeek, OpenAI) for automated security workflows, CTF & DevSecOps. Cross-platform & Web UI.
+- **大概是做什么的**: Cross-Platform AI-Native Terminal & Supply Chain Scanner Next-Gen AI Security Ecosystem, Multi-Protocol Terminal & Autonomous Agent Suite 📚 Project Website • 🧠 Conceptual Overview AI Security Tool is an open-source, cross-platform ecosystem designed at the intersection of traditional system administration and modern cybersecurity. It combines a multi-protocol connectivity suite (SSH, RDP, VNC), deep Supply Chain Security analysis (CVE & SBOM auditing), and an autonomous ecosystem powered by 12+ AI Agents . The tool eliminates the need to switch between dozens of utilities during security audits, Red Team operations, penetration testing, or CTF challenges. Available both as a desktop application ( Linux, macOS, Windows, Android, iOS, HarmonyOS ) and a fully featured Web Interface . "Bridge the gap between execution, intelligence, and supply chain audit." We built AI Security Tool to replace tedious manual workflows with a unified AI-Native platform that automatically correlates vulnerability contexts, tunes parameters, and automates auditing pipelines. 🔍 Security Audit Modules & Po
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ctf, cve, cve-scanner, cybersecurity, deepseek
+
+---
+
 ## 🕔 2026-09-28 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
