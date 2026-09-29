@@ -1,3 +1,67 @@
+## 🕔 2026-09-29 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 733
+- **核心概述**: A curated list of tools built for Jev — TypeSafe AI's System One model for typed decisions.
+- **大概是做什么的**: A curated awesome list of public projects and practices built on Jev, TypeSafe AI's System One model for typed decisions. This README is the homepage aggregate of the current category files, so the latest accepted entries are visible here without drilling into subpages. A curated list of public projects and developer patterns built on Jev, TypeSafe AI's System One model for typed decisions. Jev is not a chat model. It does not write text or hold conversations. Instead, it takes unstructured state alongside a typed question and returns a typed decision—such as a choice, a score, or a boolean—accompanied by a confidence rating.By eliminating token-by token decoding, Jev acts as a fast, low-latency decision layer directly inside software. Developers use it to handle classification, infrastructure routing, rubric scoring, verification gates, and autonomous agent guardrails.Goal of this ListMost discussions about Jev are scattered across launch threads, social media, and one-off prototypes. This repository centralizes those pieces to answer two practical questions for developers: - Produc
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: awesome, awesome-list, awesome-lists, awesome-readme, awesome-resources, jev
+
+---
+
+### 🌟 [oto-dock](https://github.com/OtoDock/oto-dock)
+- **项目语言**: Python
+- **星标数量**: ⭐ 187
+- **核心概述**: The agentic company OS. The brains of your company, built on Claude Code and Codex, working on your Anthropic and OpenAI subscriptions.
+- **大概是做什么的**: OtoDock — Collaborative Agents The agentic company OS. The brains of your company, built on Claude Code &amp; Codex, working on your Anthropic and OpenAI subscriptions. Self-hosted · Multi-tenant by design · Fair source Runs on&nbsp; Claude Code · Codex · your API keys · local models Dashboard highlights. The two-minute video tells the whole story. If OtoDock is useful to you, a star on this repository helps other people find it. OtoDock acts as the brain of your company. You create powerful agents that connect to the tools your company runs on, work in departments, delegate to each other, and keep working on their own when no one is watching. Your agents can build and deploy internal apps for your team, or even public ones you share with your customers. OtoDock is multi-tenant by design. Many people work with the same agents, and four modes decide how an agent is shared and where its work lands. You work with your agents on your self-hosted dashboard, or you can even give them a phone line and talk to them. All of it runs on your own Anthropic and OpenAI subscriptions, and on local
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-platform, ai-agents, claude-code, codex, docker, llm
+
+---
+
+### 🌟 [UniEmployee](https://github.com/zj-unicom-ai/UniEmployee)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: 面向企业的数字员工构建与运行平台：把专业员工的经验、流程与判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。
+- **大概是做什么的**: UniEmployee 是一套面向企业的 数字员工构建与运行平台 ：把专业员工的工作经验、业务流程和判断标准，固化为可随时上岗、可配置、可审批、可观测的 AI 数字员工。通过 Employee → Workflow/SOP → Skill → Connector → Tool 五层能力模型，把大模型编排成能独立承担客服、销售、数据分析、HR、经营分析和网络运营等岗位工作的组织生产力，而不是零散的个人效率工具。 - 🧑‍💼 数字员工构建与管理 ：人设、模型、技能、工具、知识库、SOP、连接器全部页面化配置，运行时以 catalog 目录库为准；内置 8 个示例员工，支持员工分配、软删除与恢复。注意： backend/employees/ .yaml 是种子源，已有 catalog 库不会因修改 YAML 自动全量重播种。 - 🧩 流程型技能与 SOP ：技能以 SKILL.md 规程沉淀（含触发条件与执行步骤），播种进 Store 供模型按需查阅，不凭记忆跳过；关键业务流程可用 StateGraph 状态机固化（含人工审批节点），保证多步流程准确执行。 - 📊 数据分析与报告工作台 ：小数（ xiaoshu ）拥有独立的 /app/analyst 工作台，支持数据库、附件表格、知识库和连接器数据源；SQL 查询采用 AST 级只读校验、表白名单、行数上限和服务端超时。分析报告与市场简报可通过 REPORT HTML START/END 通道渲染为可下载、可新窗口打开的 HTML 看板。 - 📚 企业知识与业务本体 ：已接入 FAQ、产品 Wiki、RAGFlow 多源知识与结构化企业本体；本体支持实体/关系管理、多跳路径、客户 360、故障影响分析以及经授权的对话写回，并保留来源和审计信息。 - 🔌 连接器与工具生态 ：通过 MCP 标准接入 CRM、新闻和 Playwright 浏览器自动化等外部系统（stdio 与 npx 两种形态），内置工单、搜索、知识库、文档生成、数据分析、本体查询等原子工具。 - 🧠 跨会话长期记忆 ：按 (user id, employee id) 隔离，落盘 Store 数据库，重启不丢；数字员工记住客户偏好并持续迭代。 - 📏 超长对话自动压缩 ：基于 deepagents 内置 SummarizationMiddleware ，对话到达阈值（有模型上下文画像按 85% 窗口比例 触发，否则按 17 万 token ）时自动把旧消息折叠为摘要，完整历史落盘 /conversation history/{thread
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agent, ai-employee, ai-platform, business-process, digital-employee
+
+---
+
+### 🌟 [OGAD](https://github.com/off-grid-ai/OGAD)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 115
+- **核心概述**: Your private, on-device personal AI assistant for macOS and Windows. Chat, create, search files, and connect tools with local models. Includes an OpenAI-compatible API. Opt-in Pro sees, remembers, reflects, and acts with your approval. No cloud or account.
+- **大概是做什么的**: Private, on-device AI. Your models, your data — no cloud, no accounts, no API keys. A local-first AI runtime + studio — run open models ( text, vision, image, voice, speech ) entirely on your machine, behind one OpenAI-compatible gateway. Plus an always-on layer that sees, remembers, reflects, and acts — all on-device. Off Grid AI Mobile — the same on-device AI, on your phone &nbsp;·&nbsp; &nbsp;·&nbsp; 100k+ downloads Off Grid AI is a local-first AI runtime for your desktop. Download open models from the built-in catalog (or any GGUF from Hugging Face) and use them across every modality — all inference runs on your hardware via bundled llama.cpp , stable-diffusion.cpp , whisper.cpp , and Kokoro. Nothing routes through a server we own; your conversations, files, and models never leave your device. Three things in one app: 1. A studio — chat (text + vision + reasoning), on-device image generation, voice in/out, live artifacts/canvas, projects with RAG, and in-chat tools — a local Claude/LM-Studio/Ollama with everything on-device. 2. A gateway — one local OpenAI-compatible API ( http:/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, ai-memory, ai-second-brain, ambient-ai, image-generation, llm
+
+---
+
+### 🌟 [growth-engineer](https://github.com/GetBrew/growth-engineer)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: Open-source catalog of go-to-market tools and workflows, written as markdown files any agent can run. Includes a read-only MCP server.
+- **大概是做什么的**: Go-to-market tools and workflows, written as files any agent can run. An open-source catalog of go-to-market companies, the functions an agent can call on each one, and workflows that chain those functions into a result. Every entry is a markdown file in this repository. growth.engineer &nbsp;·&nbsp; Connect your agent &nbsp;·&nbsp; Contribute &nbsp;·&nbsp; Handing a go-to-market tool to an agent means digging through docs written for people: which key to create, which endpoint to call, whether there is an MCP server, what a call costs. And a growth play that works usually lives in someone's notes, where no agent can run it. growth.engineer writes both down as markdown files an agent can follow: Entry Example key What the file holds Company apollo Who the company is and how an agent reaches it: MCP server, CLI or API, and the credential each one needs. Tool apollo/enrich-person One function an agent can call: the exact MCP tool, CLI command or API endpoint, and the docs page that names it. Workflow funding-signal-outbound Up to ten steps across tools that reach a result: the inputs t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, go-to-market, growth-engineering, gtm, llms-txt, markdown
+
+---
+
+### 🌟 [mcp-toolbox-sdk-python](https://github.com/googleapis/mcp-toolbox-sdk-python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 192
+- **核心概述**: Python SDK for interacting with the MCP Toolbox for Databases.
+- **大概是做什么的**: MCP Toolbox SDKs for Python This repository contains Python SDKs designed to seamlessly integrate the functionalities of the MCP Toolbox into your Gen AI applications. These SDKs allow you to load tools defined in Toolbox and use them as standard Python functions or objects within popular orchestration frameworks or your custom code. For comprehensive guides and advanced configuration, visit the Main Documentation Site. - Available Packages This repository hosts the following Python packages. See the package-specific READMEs or the docsite for detailed usage: Package Target Use Case Path Documentation :------ :---------- :--- :---------- toolbox-core Framework-agnostic / Custom apps packages/toolbox-core/ Python Core Guide toolbox-adk Google ADK Integration packages/toolbox-adk/ ADK Package Guide toolbox-langchain LangChain / LangGraph Integration packages/toolbox-langchain/ LangChain Guide toolbox-llamaindex LlamaIndex Integration packages/toolbox-llamaindex/ LlamaIndex Guide 1. Set up the Toolbox Service : Ensure you have a running MCP Toolbox server. Follow the MCP Toolbox Server
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: databases, genai, langchain, langchain-python, llamaindex, llms
+
+---
+
 ## 🕔 2026-09-29 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
