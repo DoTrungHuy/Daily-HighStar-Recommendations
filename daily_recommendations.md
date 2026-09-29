@@ -1,3 +1,67 @@
+## 🕔 2026-09-29 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AIHOT](https://github.com/KKKKhazix/AIHOT)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,001
+- **核心概述**: 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+- **大概是做什么的**: 把信源换成你的，把精选标准换成你的 KnowHow，它就是你的行业热点站。 AIHOT 是我做的一个 AI 热点网站。它每天从一批信源里收资料，用大模型先筛一遍、再独立打两次分，挑出真正值得看的，写成中文标题和摘要；把不同来源说的同一件事聚成一个事件，按有多少人在说排出热点；每天早上出一份日报。 这个仓库是它的完整框架：网站、后台、精选流程、聚簇和热度算法， 所有提示词的原文和入选门槛 ，都在这里。 这半年，很多做法律、做 HR、做金融、做贵金属的朋友问我，能不能也给他们的行业做一个。 我做不了。我不懂你们的行业，不知道哪些信源有用，也不知道什么样的消息，对你们来说才叫热点。 既然我没办法满足所有人，那就把火种交到大家自己手上。 - 我不是专业的开发者。 我是设计师出身，半年前还看不太懂代码。这套代码是我和 AI 一起重写的，比以前干净了很多，但一定还有写得不好的地方。发现问题欢迎提 Issue，我不一定能很快回复，先说声抱歉。 - 这是一份快照。 它来自 AIHOT 正在线上跑的代码，不是精心打磨的通用框架。以后 AIHOT 的更新，我会尽量同步过来，但没法保证每一次都同步。 - 里面没有 AIHOT 的信源名单和运营数据。 仓库带了 18 个公开的海外 AI 资讯源做示范，够你跑起来看效果；真正的信源，要换成你自己行业的。 - 请不要用 AIHOT 的名字和 Logo。 换上你自己的名字，它就是你的站。 一条资料从信源进来，先判重，再预筛；可能重要的独立打两次分，过了门槛才进精选；然后写中文标题和摘要，和别的报道聚成事件，算进热度，最后进日报。每一步的提示词都在 industry/prompts/ ，改标准不用改代码。详见 精选与校准。 同一件事，官网发一篇、媒体转十篇、X 上吵一天，读者只需要看到一次。AIHOT 把它们聚成一个 事件 ：先用标题摘要的向量在最近两周里找候选，再让模型判断是同一件事、后续进展，还是两件事；拿不准的合并，换一家模型再确认一遍。 热度 按事件算，不按文章算：48 小时内，每个独立来源只算一次，24 小时减半。重复抓取不会多算，一家媒体发十篇也只算一次，所以排在前面的，是真正有很多人在说的事。 六种信源 RSS、网页列表、JSON 接口、X 账号、微信公众号，以及你自己脚本推送进来的内容。信源分级（官方一手 / 媒体个人），抓取频率按产出自动调整 精选 预筛，同一份评分标准独立打两次分，再按信源分级的门槛决定入选。提示词和门槛全部公开，全部可以改；用你自己标注的样本在 SelectBench 里校准 写作 中文标题、答案先行的摘要
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, llm, mcp, news-aggregator, rss, self-hosted
+
+---
+
+### 🌟 [app-platform](https://github.com/ModelEngine-Group/app-platform)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,456
+- **核心概述**: AppPlatform 是一个前沿的大模型应用工程，旨在通过集成的声明式编程和低代码配置工具，简化和优化大模型的训练与推理应用的开发过程。本工程为软件工程师和产品经理提供一个强大的、可扩展的环境，以支持从概念到部署的全流程 AI 应用开发。
+- **大概是做什么的**: AppPlatform 是一个前沿的大模型应用工程，旨在通过集成的声明式编程和低代码配置工具，简化 AI 应用的开发过程。本工程为软件工程师和产品经理提供一个强大的、可扩展的环境，以支持从概念到部署的全流程 AI 应用开发。 1. AppPlatform 后端模块 AppPlatform 后端基于 FIT 框架，采用插件化式开发，包含应用管理模块和功能扩展模块。其中应用管理模块为 AppPlatform 的核心模块，用于提供创建、管理、调试、运行和维护 AI 应用，该提供一个高效快捷的方式来开发具有复杂交互功能的 AI 应用。功能扩展模块通过组件节点的方式，丰富流程编排的能力，用户可根据需求自由组合，构建出符合业务逻辑的 AI 应用，该模块为组件节点的底层逻辑实现。应用流程运行基于 Waterflow 框架，方便高效地对流程和数据进行组织和处理。 2. AppPlatform 前端模块 AppPlatform 前端采用 React 框架进行开发，基于函数式组件构建，通过模块化设计实现了应用开发，应用市场，智能表单和插件管理等核心功能模块。其中应用开发模块为核心模块，提供可视化界面支持AI应用的完整生命周期管理，包含了应用创建，编排，调试，运行，和发布全流程；智能表单模块可通过 Json Schema 自动渲染可交互表单，与 AI 模型服务集成，实现表单填写与实时推理；插件模块支持开发者上传自定义插件扩展应用工程能力，并提供了插件安装和卸载等功能。此外，前端流程编排还基于 Elsa 图形引擎，Elsa 图形引擎是一款基于原生 JS 打造而成的先进图形处理工具。通过统一的数据格式，可以让图形跨平台跨应用进行展示和协作，为用户提供灵活、高性能的图形渲染与交互能力，适用于复杂可视化场景的开发需求。 1. 低代码图形化界面 ：产品人员可以通过直观的图形界面创建 AI 应用，而无需深入了解底层代码即可进行高效的编辑和调试。同时支持多模型协同运作，使用户能够根据特定的业务需求，将不同的 AI 模型通过编排整合到同一个应用流程中。 2. 强大的算子与调度平台 ：通过 FIT 与 Waterflow 框架，AppPlatform 提供了一个高效、可扩展的后端架构，支持 Java、Python 等多种主流编程语言的算子开发，并通过智能调度实现优化的执行效率。 3. 共享与协作 ： AppPlatform 的底层包含 Store 模版，用于将所有开发的 AI 应用统一存储，以此支持跨项目的复用和协作。开发者可以根据需要组合这些应用，打造更大的解决方案，或者利用社区提供的工具和模型。在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-workflow, ai, java, low-code
+
+---
+
+### 🌟 [python-toon](https://github.com/xaviviro/python-toon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 340
+- **核心概述**: 🐍 TOON for Python (Token-Oriented Object Notation) Encoder/Decoder - Reduce LLM token costs by 30-60% with structured data.
+- **大概是做什么的**: python-toon encoder/decoder Note : This is an unofficial community implementation. The official TOON projects live in the toon-format organization, including the specification and the official Python implementation toon-format/toon-python. Token-Oriented Object Notation for Python A compact data format optimized for transmitting structured information to Large Language Models (LLMs) with 30-60% fewer tokens than JSON. TOON (Token-Oriented Object Notation) combines YAML's indentation-based structure for nested objects and CSV's tabular format for uniform data rows, optimized specifically for token efficiency in LLM contexts. Spec compliance: toon-spec: 4.1 . The encoder and decoder pass the full language-agnostic fixture suite of the official TOON specification (vendored in tests/fixtures/ ). - 30-60% token reduction compared to standard JSON on uniform data - Minimal syntax : Eliminates redundant punctuation (braces, brackets, most quotes) - Tabular arrays : CSV-like rows for uniform object collections, including nested uniform objects - Keyed tables : Objects whose values share one
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: inference, json, llm, python, speed, token
+
+---
+
+### 🌟 [herdr-gpui](https://github.com/penso/herdr-gpui)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 311
+- **核心概述**: Native macOS client for Herdr, built with Rust and GPUI. View terminal sessions, workspaces, Git worktrees, and agent activity through your local Herdr daemon.
+- **大概是做什么的**: GUI scope &amp; configuration · Performance report · A native Rust/GPUI client for a Herdr daemon you installed yourself. It paints the daemon's terminal cells, split panes included, without running another terminal emulator or wrapping the TUI. Unaffiliated project. Not affiliated with, endorsed by, or supported by Requires Homebrew and macOS 15 Sequoia or newer, on Apple Silicon or Intel. The cask installs the signed, notarized universal app. brew install resolves casks directly, so --cask is not required. To update it later, or to install by its short name, tap once first: The cask is published from the tap by the release workflow. A cask install updates itself through Homebrew: the in-app updater detects that Homebrew owns the bundle and runs brew upgrade --cask herdr-gpui for you, so Homebrew's records stay correct. If its metadata is stale, the updater runs brew update and retries once. The update panel shows progress throughout. macOS .dmg , experimental Linux packages, and experimental Windows .zip s are also published on Releases. Each release publishes x86 64 and ARM64 buil
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, desktop-app, developer-tools, git-worktrees, gpui, herdr
+
+---
+
+### 🌟 [bambu-printer-mcp](https://github.com/DMontgomery40/bambu-printer-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 160
+- **核心概述**: MCP server for Bambu Lab 3D printers — STL manipulation, BambuStudio or FULU/orca slicing, Blender MCP integration, and direct printer control
+- **大概是做什么的**: Thank you, FULU Foundation, Louis Rossmann, and the OrcaSlicer-bambulab contributors. We stand with open-source developers, the right to repair, and your right to control hardware you own. You should be able to choose your software and print without a vendor cloud standing in the way. Want to skip Bambu's software and cloud? Use FULU OrcaSlicer-bambulab to slice and export, then this MCP's direct LAN path on supported printers and firmware. That workflow does not require Bambu Studio, Bambu Connect, or Bambu Cloud. Start with the FULU setup guide. The optional BambuNetwork bridge is a separate path that still uses Bambu's networking runtime; cloud jobs still use Bambu's services. A Bambu Lab-focused MCP server for controlling Bambu printers, manipulating STL files, and managing end-to-end 3MF print workflows from Claude Desktop, Claude Code, or any MCP-compatible client. Browse the documentation site for searchable setup guides, slicing and AMS guidance, and the full tool reference. It is generated from this README and the docs folder. Built with help from our contributors. Huge than
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-printing, 3js, 3mf, bambu-cli, bambu-js, bambu-lab-cli
+
+---
+
+### 🌟 [SztuCode](https://github.com/rojim666/SztuCode)
+- **项目语言**: Python
+- **星标数量**: ⭐ 100
+- **核心概述**: An experimental playground for open-source, all-in-one office AI for universities: code, docs, spreadsheets, slides, browser – all are the AI's workspace. Local-first, event-driven, auditable, with both TypeScript and Python implementations.
+- **大概是做什么的**: 面向高校的开源全场景办公智能体实验性场地：代码、文档、表格、幻灯片、浏览器，都是智能体的工作台。 本地优先、事件驱动、可审计，提供 TypeScript 与 Python 双实现。 桌面工作台（TypeScript daemon） SztuCode 不只面向代码仓库。作为 全场景办公智能体 ，它的工作台覆盖高校学习与日常办公的完整链路：撰写与审阅 Word 文档、处理 Excel 表格与公式、生成汇报 PPT、解析 PDF 资料、操控浏览器检索信息、生成图片，以及软件工程任务本身。桌面工作台连接 TypeScript daemon；命令行可选择 TypeScript 或 Python runtime。后台 daemon 负责运行 Agent Loop、调用工具、管理权限和保存会话，并通过 JSON-RPC 事件流持续反馈执行状态。 但它首先是一个 面向高校的实验性场地 。Agent 岗位层出不穷，Agent harness 的设计直接决定智能体的能力上限；可无论是 codex、Claude Code 这类产品，还是 opencode 等开源实现，上手难、理解慢，学生很难真正通过 issue → PR 参与进去。所以我们搭了这么一个校园里触手可及的开源项目，并内置了免费模型——clone 下来就能用 deepseek-v4-flash 和 mimo-v2.5 跑起你的第一个智能体任务。欢迎大家尝试并点个 star。 并不是说要重复造轮子，做一个超越 codex 和 claude code 的产品，而是理解与学习——带着批判的目光去看清现有 agent 真正的运作方式，知己知彼方能百战不殆。 我们坚信 技术民主化 ——前沿技术不应该只存在于大厂的闭源仓库里，它应该属于每一个愿意学习、愿意动手、愿意参与的人。 - 访问的民主 ：降低门槛，让高校学生和初学者不需要昂贵的资源、复杂的配置就能接触到前沿技术。我们内置免费模型、提供零配置启动，就是为此。 - 理解的民主 ：真正的民主不是让人"用魔法"，而是让人"理解魔法如何运作"。我们把 Agent Loop、工具调用、权限系统、上下文压缩这些工程细节全部摊开，用双语言实现、详尽的架构文档，让你不仅能用，还能读懂、能修改、能批判。 - 创造的民主 ：从使用者到创造者。我们降低参与开源的门槛，让学生和初学者能通过 Issue → PR → Review 完整参与真实的工程协作，而不是永远停留在"调用 API"的层面。 当前 AI Agent 赛道呈现"大厂闭源竞速"的格局，办公智能体正在成为下一代生产力工具，但这不应该是唯一的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, ai-coding-agent, campus, coding-agent, developer-tools
+
+---
+
 ## 🕔 2026-09-29 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 330 个候选项目中筛选出 6 个未推荐过的新项目。
