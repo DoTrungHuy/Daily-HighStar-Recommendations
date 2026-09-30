@@ -1,3 +1,67 @@
+## 🕔 2026-09-30 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [commands](https://github.com/wshobson/commands)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 2,645
+- **核心概述**: Archived. The original Claude Code slash commands, replaced by the plugin marketplace at wshobson/agents.
+- **大概是做什么的**: Claude Code Slash Commands This repository is archived and no longer maintained. Claude Code now ships commands as part of plugins, so new work happens in the Agentic Plugin Marketplace, which packages agents, skills, and commands as plugins you can install one at a time. To get started with the marketplace in Claude Code, run /plugin marketplace add wshobson/agents , and then install the plugins you need with /plugin install . A comprehensive collection of production-ready slash commands for Claude Code that provides intelligent automation and multi-agent orchestration capabilities for modern software development. This repository provides 57 production-ready slash commands (15 workflows, 42 tools) that extend Claude Code's capabilities through: - Workflows : Multi-agent orchestration systems that coordinate complex, multi-step operations across different domains - Tools : Specialized single-purpose utilities for focused development tasks - Claude Code installed and configured - Git for repository management Note : This repository uses the slash commands pattern. For a more modern ap
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anthropic, automation, claude, claude-code
+
+---
+
+### 🌟 [carbon](https://github.com/crbnos/carbon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,655
+- **核心概述**: Open-source manufacturing ERP, MES and QMS. Quoting, MRP, inventory, shop floor, quality and lot/serial traceability on one Postgres schema, with a REST API and MCP server. Self-host or use Carbon Cloud.
+- **大概是做什么的**: The open-source manufacturing ERP, MES &amp; QMS Quote, plan, buy, build, inspect and ship on one live model of your factory, from a ten-person prototype shop to a rate-production line. Quote to cash. Quotes, orders, jobs and invoices on one record. Unfork your BOM. Multi-level BOMs, revisions and configuration. Traceability by default. Lot and serial genealogy, forwards and back. Legacy ERPs were built for accountants in the 1990s. We built Carbon after years of running manufacturing on off-the-shelf systems and finding that: - Modern, API-first tooling didn't exist - Vendor lock-in bordered on extortion - There is no "perfect ERP", because every manufacturer is unique So Carbon puts ERP, MRP, MES and QMS on one Postgres schema you can read, own and extend . Every stage, from CAD to cash, writes to the same record: no handoffs, no re-keying, no reconciliation. Carbon is an open-source alternative to NetSuite, Epicor, SAP Business One, Plex, Odoo and ERPNext, built for discrete manufacturing: complex assembly, contract manufacturing, configure-to-order and high-mix, low-volume produc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bill-of-materials, erp, inventory-management, lean, manufacturing
+
+---
+
+### 🌟 [openclaw-android](https://github.com/aidanpark/openclaw-android)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,763
+- **核心概述**: Run OpenClaw on Android with a single command — no proot, no Linux
+- **大概是做什么的**: Because Android deserves a shell. No Linux install required The standard approach to running OpenClaw on Android requires installing proot-distro with Linux, adding 700MB-1GB of overhead. OpenClaw on Android eliminates this by installing just the glibc dynamic linker (ld.so), letting you run OpenClaw without a full Linux distribution. Standard approach : Install a full Linux distribution in Termux via proot-distro. This project : No proot-distro — just the glibc dynamic linker. Standard (proot-distro) This project Storage overhead 1-2GB (Linux + packages) 200MB Setup time 20-30 min 3-10 min Performance Slower (proot layer) Native speed Setup steps Install distro, configure Linux, install Node.js, fix paths... Run one command A standalone Android app is also available. It bundles a terminal emulator and a WebView-based UI into a single APK — no Termux required. - One-tap setup: bootstrap, Node.js, and OpenClaw installed from within the app - Built-in dashboard for gateway control, runtime info, and tool management - Works independently of Termux — installing the app does not affect an
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, android, homelab, low-power, nodejs
+
+---
+
+### 🌟 [Pulse](https://github.com/qunqin24/Pulse)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 492
+- **核心概述**: Know how much Claude Code, Codex, Cursor, Copilot and 70+ other AI coding tools you have left — a free, open-source macOS monitor on the edge of your screen.
+- **大概是做什么的**: Know how much Claude Code, Codex and Cursor you have left — without opening a single usage page. A free, open-source macOS monitor that sits on the edge of your screen and shows every AI coding limit at a glance. macOS 14 Sonoma or newer · Apple Silicon & Intel · English · 简体中文 · 繁體中文 · 日本語 · 한국어 - Seventy-seven services at a glance — Claude Code, Codex, Cursor, GitHub Copilot, Antigravity, Kiro, Grok, DeepSeek, Kimi Code and many more, each as its own ring. - No Pulse account, no Pulse server — it uses the logins you already have, and nothing is sent back. - Real numbers only — every usage percentage is the one the service itself reported. The few estimates are marked as such, and where a service reports nothing, Pulse says so instead of guessing. - Native and quiet — Swift and SwiftUI, Liquid Glass on macOS 26. Dock it left, right or along the top, let it fold to a sliver when idle, or keep it in the menu bar. Recently added: usage in the menu bar with a dashboard for each account, starting usage windows after a reset, and animated bot marks. What's new. If Pulse has saved you from
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, antigravity, claude, claude-code, codex, cursor
+
+---
+
+### 🌟 [openbot](https://github.com/nightly-labs/openbot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+- **大概是做什么的**: OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local Codex App Server and Claude Code, plus Grok CLI, OpenCode, Gemini, and Cursor CLI through ACP. It gives every agent its own workspace and conversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent messaging in one desktop app. OpenBot is a development preview. Agents currently run with danger-full-access and approvalPolicy: never . They can read and modify files, run commands, use the network, and control the embedded browser without per-action confirmations after the explicit first-launch consent. Run only agents and tasks you trust, keep backups, and review Security before use. - Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving. - Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, or Cursor sessions and local workspaces. - Custom OpenAI-compatible endpoints and custom ACP agents, with detection of local model servers (Ollama, LM Studio) and i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bun, codex, electron, local-first, macos
+
+---
+
+### 🌟 [agent-storyboard](https://github.com/Yuuhann1999/agent-storyboard)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 348
+- **核心概述**: 本地优先的 Agent 视频分镜工作台：让 Codex、Claude Code 通过 MCP 写分镜、生成图片/视频素材和配音，并自动回填。Local-first storyboard workbench for AI agents (Codex, Claude Code).
+- **大概是做什么的**: Agent 分镜台 · Agent Storyboard 让 Codex、Claude Code 帮你把视频从想法做到分镜、素材和配音。 一个本地优先的分镜工作台：Agent 负责写和生成，你在一张表里检查、调整、验收。 做一条短视频，脚本在文档里，分镜在表格里，图片在生图网页里，配音在另一个工具里，素材散落在文件夹里。每换一个窗口，上下文就丢一次。 Agent 分镜台把这些收进同一张 本地分镜表 ： - Agent 直接写入 ：一句话让 Agent 建好完整项目，不需要控制浏览器。 - 结果自动回填 ：Agent 生成的图片、视频和配音，落进对应镜头，不用手动对文件名。 - 你只做验收 ：所有自动化结果都在表格里，能一眼看到、直接改。 - 数据都在本机 ：项目、脚本和素材保存在你的电脑上。 Agent 生成素材，结果自动回填到对应镜头 需要 Node.js 18 或更高版本，以及 Codex 或 Claude Code 之一。 安装后新开一个对话，让 MCP 工具重新加载（Claude Code 里可以用 /mcp 确认 agent-storyboard 已连接）。 插件会自动启动内置的本地工作台，并给出链接（默认 http://127.0.0.1:43218 ），在侧边栏或浏览器里打开即可。 在分镜台里点镜头的「生成素材」，或点顶栏的「批量生成」，然后对 Agent 说： 分镜台是一个本地网页服务，Agent 通过 MCP 工具和它对话。三种生成方式按镜头选择： AI 生图 按画面描述生成图片 Codex 用自带的 image gen；Claude Code 通过 generate storyboard image 调用本机 Codex 出图 HyperFrames / Remotion 动效 用代码渲染字幕、信息图、转场等视频 Agent 在本地渲染（需要对应插件和渲染工具链） 手动素材 自己拍的、自己剪的 你上传图片或视频 镜头类型、媒体、时长、台词、画面描述、生成方式、素材预览和备注都在同一行。长项目切到「紧凑」，一屏看更多镜头；节奏有问题的镜头会直接标出提示。 - 拖拽或 Alt + ↑/↓ 调整顺序，复制镜头、在下方插入，误删可以撤销。 - 素材文件名带镜头序号，调整顺序后会自动同步，不会互相覆盖。 - 按台词、画面、备注搜索；顶栏实时显示「生成中 / 排队 / 失败」数量，点一下定位。 在脚本页生成配音，可以描述声音风格，也可以上传参考音频克隆音色。生成后用本地 Whisper 识别，把配音对齐到每个镜头的台词，再一键应用镜头时长。 只列做出来的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-video, claude-code, codex, mcp, openai
+
+---
+
 ## 🕔 2026-09-30 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 222 个候选项目中筛选出 6 个未推荐过的新项目。
