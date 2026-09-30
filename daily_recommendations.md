@@ -1,3 +1,67 @@
+## 🕔 2026-09-30 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-windbg](https://github.com/svnscha/mcp-windbg)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,597
+- **核心概述**: Model Context Protocol for WinDbg.
+- **大概是做什么的**: MCP Server for WinDbg Crash Analysis A Model Context Protocol server that bridges AI models with WinDbg for crash dump analysis, user-mode remote debugging, and kernel debugging. This server drives the Windows debuggers - CDB for user mode (dumps and -remote ) and KD for kernel targets ( -k ) - so you can debug in natural language: "Show me the call stack and explain this access violation" or "Open a kernel session and tell me which driver bugchecked." It is not a magical auto-fix. It is a Python wrapper around cdb.exe / kd.exe that lets an LLM run real debugger commands and reason about the output. - Crash dump analysis - open a .dmp / .mdmp / .hdmp and get automated triage ( !analyze -v , stacks, modules, threads) in a single call. - User-mode remote debugging - attach to a live cdb /WinDbg debug server ( -remote ) over TCP, a named pipe, or COM, and break in on demand. - Kernel debugging - attach to a kernel target ( -k , driven by kd.exe ) over KDNET, a named pipe, or serial; the server waits for the target and breaks in for you. - Run any WinDbg/KD command - drive an open sessio
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: copilot, copilot-chat, crash-dump, crash-reports, mcp, mcp-server
+
+---
+
+### 🌟 [0](https://github.com/0sec-labs/0)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 394
+- **核心概述**: 🥷🏻 0 is the open-source AI security agent that finds, exploits, and fixes vulnerabilities across your stack. [Research Preview - by the Swiss Applied AI & Cybersecurity Research Lab]
+- **大概是做什么的**: The open-source, self-evolving, multi-model harness for security research. Backed by Y Combinator · The Swiss Applied AI &amp; Cybersecurity Research Lab Security research, in your workspace 0 is an open-source, multi-model harness for investigating software security: read code, run tools, investigate findings and review proposed fixes. Built by the Swiss Applied AI & Cybersecurity Research Lab, it supports our public disclosures and upstream fixes. Install on Apple Silicon macOS or x64/ARM64 Linux, then open 0: Local web app development From a source checkout with dependencies installed, run: Open the local browser address printed by the launcher. The web app connects to the local engine and supports onboarding, provider connections, conversations, and approvals in the browser. Frontend changes reload automatically. The terminal console remains available separately through 0 . Work locally, extend deliberately - Describe an authorized repository and investigation goal in chat, or use 0 review ./authorized-repo for a source review. - Review findings and proposed changes. Follow the r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-security, application-security, autonomous-agents, binary-analysis, cve, cybersecurity
+
+---
+
+### 🌟 [base-llm](https://github.com/datawhalechina/base-llm)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,060
+- **核心概述**: 从 NLP 到 LLM 的算法全栈教程，在线阅读地址：https://datawhalechina.github.io/base-llm/
+- **大概是做什么的**: Base LLM 从 NLP 到 LLM 的算法全栈教程 Base LLM is all you need - 关于 Pull Request ：本项目目前主要接受 Extra-chapter 的共建，提交 PR 前请参阅 Extra-chapter/README.md。 - 问题反馈 ：如果您对主教程有任何建议或发现任何问题，欢迎通过 Issue 进行反馈。 本项目是一个 从传统自然语言处理（NLP）到大语言模型（LLM）的全栈式学习教程 ，旨在为开发者提供一条从理论入门到工程实战的清晰路径。 在 LLM 爆发的今天，许多开发者直接上手调用 API 或微调大模型，却往往忽视了底层的自然语言处理（NLP）基础。本项目主张 “Base LLM is all you need” ，通过系统性地回顾 NLP 发展历程中的核心技术——从早期的词向量、循环神经网络（RNN），到变革性的 Transformer 架构，再到如今的 BERT、GPT 及 Llama 系列大模型——帮助读者构建坚实的技术护城河。 1. NLP 理论基石 ：深入浅出地讲解分词、词向量（Word2Vec）、RNN/LSTM 等经典算法。 2. Transformer 架构 ：剖析 Attention 机制，详解 Encoder-Decoder 架构，奠定大模型认知基础。 3. 预训练语言模型 ：全面覆盖 BERT、GPT、T5 等里程碑式模型的设计与应用。 4. 大模型进阶实战 ：从零手搓 Llama2 模型，掌握参数高效微调（PEFT/LoRA）、RLHF 等前沿技术。 5. 工程化落地 ：涵盖模型量化、推理加速、Docker 容器化及服务部署的全流程实战。 6. 大模型安全与多模态 ：探索模型安全挑战、伦理问题，以及图文多模态模型的前沿技术。 随着人工智能技术的飞速发展，掌握大语言模型已成为 AI 工程师的必备技能。然而，市面上的教程往往存在断层。要么过于偏重学术理论，晦涩难懂；要么仅停留在 API 调用的应用层，缺乏底层原理的支撑。 本项目致力于填补这一空白，通过 理论与代码并重 的方式，帮助开发者： 打通知识脉络 ：理解技术演进的内在逻辑（如：为什么从 RNN 发展到 Transformer？）。 掌握核心原理 ：不仅会用，更懂其“所以然”，具备排查复杂问题和优化模型结构的能力。 学习代码演进 ：采用“提出问题-迭代重构”的教学模式，展示从简易脚本到工业级框架的演变过程，培养真正的工程化思维。 提升工程能力 ：通过 NER、文本分类及 LLM 微调部署等实战项目，积累生产环境下的开发经验。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bert, deeplearning, docker, fine-tuning, linux, llama
+
+---
+
+### 🌟 [reelmimic](https://github.com/edenfunf/reelmimic)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 329
+- **核心概述**: Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.
+- **大概是做什么的**: Show it a video you love. Get a new video in the same style. English · 繁體中文 · 简体中文 Sugar Rush music video · hand-painted · 58 s Sunshine Boy music video · hand-painted · 63 s Bath Time narrated comic · 30 s Each one made with ReelMimic from a reference video and a one-line brief. Previews are silent, with the lyrics cropped out. Ever watched a video and thought "I want one in that style, but completely my own"? Just drop it into ReelMimic. A file, a phone recording or a YouTube link all work. Then tell it what you want to make. First it takes the reference apart: editing rhythm, shot lengths, transitions, framing, colors and camera moves. Then it puts together a plan for you to check. You can chat right next to it, change settings or add assets, and start Once production starts, the work is split across several AI agents. Different parts of the video are made at the same time, and every shot is handed to a different agent to check. If something's wrong it goes back to be fixed, so it's not a one-shot generate-and-done. ReelMimic learns how the reference was made. It doesn't carry ove
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 2d-animation, ai-agents, ai-video, animation, claude-code, codex
+
+---
+
+### 🌟 [UltraGameStudio](https://github.com/wellingfeng/UltraGameStudio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 309
+- **核心概述**: UltraGameStudio - AI coding agent for game development: engine workflows, gameplay code, and asset generation.
+- **大概是做什么的**: The AI coding agent built for game development. In a game engine, code is only a small part of the work. The rest is assets and pipeline — materials, blueprints, terrain, sky, UI, skeletal animation, packaging, performance. UltraGameStudio is a Claude Code / Codex / Gemini style agent rebuilt around that reality: it understands game-engine concepts, generates the full range of game assets (images, 3D models, 2D sprite animation, atlases, audio, rigging, video), and routes routine work through free or low-cost channels so premium quota goes where it matters. Thanks to API NODE for sponsoring this project! API NODE is an AI API gateway that provides stable, cost-effective relay access to Claude Code, Codex, Gemini, and other leading models through a single endpoint — a great fit for routing UltraGameStudio requests through one reliable provider. Register via this link . One-click Unreal Engine UMG interface One-click 3D model generation Image, sprite, mesh, audio, rigging, and video — all managed through one coding agent Game-asset generation in the same session as your code Community
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding, asset-generation, claude-code, codex, coding-assistant
+
+---
+
+### 🌟 [rsigma](https://github.com/timescale/rsigma)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 150
+- **核心概述**: A complete Sigma detection engineering toolkit: parser, linter, evaluator, correlation engine, conversion framework, streaming daemon, MCP and LSP servers :crab:
+- **大概是做什么的**: A complete Sigma detection engineering toolkit RSigma is a complete detection engineering toolkit for the Sigma detection standard, including a parser, evaluation engine, rule conversion, streaming runtime, linter, CLI, MCP, and LSP. RSigma parses Sigma YAML rules into a strongly-typed AST, compiles them into optimized matchers, and evaluates them against log events in real time. It handles stateful correlation logic in-process with memory-efficient compressed event storage. Or as Zack Allen put it in DEW 149, "RSigma is essentially a SIEM." You can send events in many formats, including JSON, syslog (RFC 3164/5424), logfmt, CEF, EVTX (Windows Event Log), plain text, and OTLP (OpenTelemetry Protocol), with auto-detection by default. pySigma-compatible processing pipelines handle field mapping and backend configuration. OTLP support lets any OpenTelemetry-compatible agent (Grafana Alloy, Vector, Fluent Bit, OTel Collector) forward logs to RSigma via HTTP or gRPC for detection. For rule quality and editor integration, a built-in linter validates rules against 85 checks derived from the
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: backend, converter, correlation, detection, fibratus, linter
+
+---
+
 ## 🕔 2026-09-30 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
