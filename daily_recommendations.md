@@ -1,3 +1,67 @@
+## 🕔 2026-09-30 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 222 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ANUS](https://github.com/anus-dev/ANUS)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,546
+- **核心概述**: A free coding agent in your terminal. It runs on the smartest free model that is up today.
+- **大概是做什么的**: A free coding agent in your terminal. It reads your code, edits files and runs commands, like the paid ones. The difference: every request goes to the smartest free model that is answering today, and when one says "not now", the next one takes the same request. You pay nothing. Watch it with sound on X (22 s) · download the video Needs Node.js 22.19 or newer. ANUS asks for at least one free key. Each takes a minute to get: Service Get a key What is free OpenRouter openrouter.ai/keys about fifteen free models; 50 requests a day, 1000 after a one-time $10 top-up Google Gemini aistudio.google.com/apikey free tier while billing is off on the project Groq console.groq.com/keys free tier Cerebras cloud.cerebras.ai free tier Mistral console.mistral.ai/api-keys free Experiment plan Start with OpenRouter. More keys mean more free requests a day and more models to fall back on. Change keys any time with anus setup . - ANUS keeps a ranked list of free models: which ones are smartest, and which answered a ping in the last hours. The list refreshes from anus.dev/free-models.json twice a day. - Ea
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude-code-alternative, cli, coding-agent, free-models, llm
+
+---
+
+### 🌟 [fauxnix](https://github.com/20000419/fauxnix)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 591
+- **核心概述**: Run Linux-style commands on Windows via deterministic bash→PowerShell translation. No VM, no WSL. MCP server + CLI built for AI agents (Claude Code, Codex, OpenCode...). GNU-style output, bash-style errors, UTF-8/GBK handled.
+- **大概是做什么的**: Run Linux-style commands on Windows — natively, deterministically, no VM, no WSL. fauxnix is a bash→PowerShell translation layer built for AI agents. Your agent keeps writing the bash it already knows ( ls -la grep foo , find . -name ' .ts' wc -l , kill -9 1234 ), and fauxnix deterministically translates each command into PowerShell, executes it natively, and hands back output that looks like GNU/Linux: ls -l columns, bash-style error messages, coreutils exit codes, UTF-8/GBK handled automatically. One-command install for Claude Code · Codex · OpenCode · Kimi Code · Qwen Code , plus any MCP client. 109 translated commands · 400+ automated tests · 253-case differential corpus verified against real GNU coreutils · zero LLM calls at runtime. Try it now — no install Connect your agent — one command Idempotent; prints exactly what changed. Manual configurations below if you prefer to edit config files yourself. npm package name is fauxnix-cli (the fauxnix name on npm belongs to an unrelated 2015 websocket library); the installed command is fauxnix . Requires Windows with PowerShell 5.1+ (
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bash, claude-code, cli, codex, coreutils
+
+---
+
+### 🌟 [agentgg](https://github.com/agentgg-dev/agentgg)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 379
+- **核心概述**: Open source agentic SAST. The engine behind hundreds of disclosed zero-days. 100+ AI security agents, any repo or PR diff, bring your own model.
+- **大概是做什么的**: Agentic SAST. White box. CI ready. agentgg is an agentic SAST scanner. Its agents read your code and reason about it — they follow imports, check the call graph, and confirm a finding before they report it, instead of pattern-matching the way traditional SAST does. Run it over a whole repository, or over a git diff for pull request review. Every scan opens with a fast recon pass that briefs the agents on what the project is, and an interrupted scan resumes on re-run. Documentation · agentgg.dev · Platform · Agents catalog · Report a bug · Report a security issue Help us grow and star us on GitHub! ⭐️ agentgg is in beta. Things will move and edges will be rough. Bug reports and feedback are very welcome. Open an issue. Don't want to run it locally? app.agentgg.dev runs the same scanner as a hosted service: upload a repo, no install, no provider key of your own. Requires Node.js 20+. You also need an account with one model provider — Anthropic, OpenAI, AWS Bedrock, Google Vertex AI, OpenRouter, or a local Ollama. See Providers for setup, and CONTRIBUTING.md to build from source. A scan
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-hacking, ai-penetration-testing, appsec, cli, code-quality
+
+---
+
+### 🌟 [dots](https://github.com/feder-cr/dots)
+- **项目语言**: Python
+- **星标数量**: ⭐ 403
+- **核心概述**: Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.
+- **大概是做什么的**: Every AI agent is a model and a browser. You can swap the model with one flag. The browser is what the website sees. Windows, in PowerShell: Then open http://127.0.0.1:8765 . The conversation on the left, the browser on the right, live. It all comes down to the browser When a web agent fails, the model is rarely why. The page never loaded, a challenge appeared, the login expired, the click did not land. All of that happens in the browser, before the model gets to think. So dots is built around one: - A real Firefox engine, patched in C++. The fingerprint is decided inside the engine, not painted over with JavaScript that a page can inspect. - One identity per seed. Screen, fonts, GPU, timezone and language agree with each other, and --seed gives back the same person on every run. - Nothing for a page to find. No WebDriver flag, no DevTools protocol, no automation globals in the page. - A person's hands. The pointer travels to what it clicks and keys are pressed one at a time, so every event the page receives is a trusted one. - A browser that remembers. --profile-dir keeps logins and
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-browser, anti-detect-browser, browser-agent, browser-automation, dots
+
+---
+
+### 🌟 [pinpoint-c-agent](https://github.com/pinpoint-apm/pinpoint-c-agent)
+- **项目语言**: C++
+- **星标数量**: ⭐ 273
+- **核心概述**: Pinpoint C Agent helps your monitor your PHP/PYTHON applications into [pinpoint-apm](https://github.com/pinpoint-apm/pinpoint).
+- **大概是做什么的**: pinpoint php ext: \ Visit our official website for more information and the Latest updates on Pinpoint v0.7 async api version ⚠️ SECURITY NOTICE : collector-agent v0.7.8 (and earlier) contains a remote denial-of-service vulnerability — an unauthenticated attacker can crash the collector-agent with a single TCP packet, affecting all traced applications. Please upgrade the collector-agent to v0.7.9 as soon as possible. 1. Use C/Cpp common API 2. C ross-platform: windows/ nux/macOS 3. C ollector-agent: a bridge to pinpoint-collector Pinpoint C Agent helps your monitor your PHP/PYTHON applications into pinpoint-apm.\ 1. Continuous maintenance and optimization. (Since Jul 31,2018) 2. Auto-injection, that means less aggression against your code. - python: leverage PEP 318 Decorator - php: leverage CG( table) in php kernel and AST parser(nikic/PHP-Parser) 3. Cross-platform: windows/ nux/macOS. It helps address the problems even when you are developing. pip install pinpointPy Full guide for python 1. Install extension pecl install pinpoint php 2. Import pinpoint aspect plugin composer requir
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, apm, c, distributed-tracing, monitoring, performance
+
+---
+
+### 🌟 [pragma](https://github.com/pqpo/pragma)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 202
+- **核心概述**: Build portable agent teams across models and harnesses, with shared memory, skills, tools, and workflows — then bring them into Codex, Claude Code, or any AI system you build. 构建跨 harness 和模型的可移植 Agent Team，共享记忆、技能、工具和工作流，一次构建，接入 Codex、Claude Code 或任何 AI 系统。
+- **大概是做什么的**: Pragma is a cross-harness platform for turning AI-native working methods into runnable, reusable agent teams. A team can combine Experts, ExpertTeams, Flows, tools, Skills, shared context, memory, permissions, and human checkpoints—not just a prompt. Unlike a single chat product or Coding Agent, Pragma treats the Agent Team and its working method as the portable unit. Define it as YAML DSL and build it in Desktop, run it from the terminal through the CLI, or embed the same team in your own application with the SDK. During a Mission, work can move between specialists without losing decisions, artifacts, or accumulated experience. The same team can coordinate different models and harnesses for different steps while keeping context, permissions, handoffs, and execution under one governance model. Pragma is currently a preview. The latest Desktop release provides builds for macOS Apple Silicon and Intel. Verify that a package comes from the official release before installing it. 1. Open Settings and connect a model provider or an installed local runtime. 2. Choose the workspace Pragma is
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-framework, agent-memory, agent-orchestration, ai, ai-agents
+
+---
+
 ## 🕔 2026-09-29 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
