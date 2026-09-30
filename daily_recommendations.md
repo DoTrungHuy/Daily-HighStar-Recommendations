@@ -1,3 +1,67 @@
+## 🕔 2026-09-30 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fallow](https://github.com/fallow-rs/fallow)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 4,963
+- **核心概述**: Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries, circular dependencies, design-system drift, and unused code, from one graph. CLI, GitHub Action, LSP, MCP, and VS Code. Rust, MIT licensed.
+- **大概是做什么的**: Codebase intelligence for TypeScript and JavaScript. Health, complexity, duplication, architecture, styling, and unused code, from one graph of your repository. One Rust binary. It needs no TypeScript compiler and no configuration to start. Run it in the root of any JS or TS project: A pull request gate on the vitest monorepo looks like this: Excerpt from fallow 3.30.0 on vitest, over its last 15 commits, with timings removed. The gate failed (exit code 1) on findings in the changed files. It did not count the 98 findings that existed before the change. fallow reads your whole repository as one graph: modules, exports, dependencies, functions, and styling tokens. Every analysis uses that graph. It shows where the code is hard to change, where the architecture drifts, what is copied, what nothing uses, and what a pull request puts at risk. fallow runs in four places. All four read the same config file and use the same analysis engine. Your terminal npx fallow Pull requests uses: fallow-rs/fallow@v3 Your editor The VS Code extension or fallow-lsp Coding agents npx fallow agent install
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: architecture, circular-dependencies, cli, code-duplication, code-health, code-quality
+
+---
+
+### 🌟 [llmware](https://github.com/llmware-ai/llmware)
+- **项目语言**: Python
+- **星标数量**: ⭐ 14,827
+- **核心概述**: Unified framework for building enterprise RAG pipelines with small, specialized models
+- **大概是做什么的**: 🧰🛠️ Unified framework for building knowledge-based local, private, secure LLM-based applications llmware is optimized for AI PC and local laptop, edge and self-hosted deployment across a wide range of Windows, Mac and Linux platforms, with support for GGUF, OpenVINO, ONNXRuntime, ONNXRuntime-QNN (Qualcomm), WindowsLocalFoundry, and Pytorch, providing a high-level interface that makes it easy to leverage the right inferencing technology optimized for the target platform. llmware has two main components: 1. Model catalog with 300+ models - models prepackaged in quantized, optimized formats, to leverage on device GPU and NPU capabilities, with support for major open source model families and 50+ llmware finetuned SLIM, Bling, Dragon and Industry-Bert models specialized for key tasks in enterprise process automation. Also supports leading cloud models from OpenAI, Anthropic and Google. 2. RAG Pipeline - integrated components for the full lifecycle of connecting knowledge sources to generative AI models with wide range of document parsing and ingestion capabilities, and the ability to c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, generative-ai-tools, llamacpp, llm, onnx, openvino
+
+---
+
+### 🌟 [coucou](https://github.com/Louis-CFM/coucou)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 675
+- **核心概述**: A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.
+- **大概是做什么的**: A tiny friend that lives in your MacBook's notch — or at the top of your screen on Windows — and keeps an eye on your Claude Code sessions. Approve permissions, watch your agents work, drop a file, chat with Claude — all without leaving what you're doing. Some studios showed off gorgeous notch companions… and never let anyone use them. Coucou is the open version. Every line of code, every animation, every sound — free to use, read, fork and remix. Meet Mochi : a soft little squircle with big eyes that pops out of your notch, waves hello, follows your cursor with its eyes, gets annoyed when you poke it (and dizzy if you insist), and tells you the moment Claude Code needs you. - 🤖 Claude Code, live — see every session in your notch: what it reads, edits and runs, step by step. Finished? Mochi does a happy little jump. - ✅ Approve from the notch — Claude Code permission requests show up with Allow / Deny . One click, back to work. - 🧑‍💻 Jump to the right terminal — open the exact terminal window of a session (macOS) . - 💬 Ask Claude anything — built-in chat, straight from the notch.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude, claude-code, dynamic-island, macos
+
+---
+
+### 🌟 [boardui](https://github.com/BoardUI/boardui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 551
+- **核心概述**: React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.
+- **大概是做什么的**: BoardUI is a React design system for agentic interfaces: the parts an AI product needs and the parts every dashboard needs, in one visual language, as source files in your project. This repository is the whole free tier, and its homepage is a working AI chat on your own model key. Click the button, paste one API key when Vercel asks for it, and the first deploy already answers. This repository is generated from BoardUI's source and takes no pull requests. See CONTRIBUTING.md. - Built for agent products. Chat, thinking indicator, agent log, composer and sidebar, next to the tables, cards and forms around them. - Source, not a dependency. npx boardui add copies the files into your project. Change anything. - One visual language. Figma first, 400+ semantic tokens, light and dark from the same classes. - Accessible by default. React Aria Components underneath, Tailwind CSS v4 on top, no runtime CSS. - RTL Support. Direction-aware layouts, keyboard navigation, and overlays for Arabic, Hebrew, and other right-to-left languages. - Agent-native. MCP server, agent skill, AGENTS.md rules and l
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agent, ai-chat, boardui, design-system, nextjs
+
+---
+
+### 🌟 [oracle3-prediction-market-agent](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 258
+- **核心概述**: Oracle3: open-source trading engine and MCP server for prediction markets. Finds fee-adjusted no-arbitrage violations across related event contracts and trades them live on Kalshi, Polymarket and Solana, or on paper, under pre-trade risk limits. 13 MCP tools, JSON CLI, agent skills, 600+ tests.
+- **大概是做什么的**: Oracle3 is an open-source trading engine and MCP server for prediction markets. It maps the logical relations between event contracts, finds prices that break the axioms of probability after each venue's fees, and trades them live on Kalshi, Polymarket and Solana, or on paper, under pre-trade risk limits. Trades live on Kalshi, Polymarket and Solana. oracle3 live run executes with the same engine that runs paper trading, behind pre-trade risk limits and a kill switch. AI agents plug in through a 13-tool MCP server. Venues Kalshi, Polymarket and Solana (DFlow) Execution Live and paper on one engine, with pre-trade risk limits, a kill switch and Jito bundle submission on Solana Relations checked implication, exclusivity, complement, same event across venues, event sum Costs Each market's own fee schedule from the venue API (Kalshi taker 0.07·M·C·P·(1−P); Polymarket taker rate·C·p·(1−p)) Strategies 6 constraint-based, 2 statistical-arbitrage, 2 model-driven Agent interfaces MCP server with 13 tools, JSON CLI, 6 agent skills, Python API Tests 600+, with ruff, mypy and codespell in CI Ins
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, algorithmic-trading, arbitrage, backtesting, event-contracts
+
+---
+
+### 🌟 [jev](https://github.com/feder-cr/jev)
+- **项目语言**: C++
+- **星标数量**: ⭐ 1,132
+- **核心概述**: jevos is an open-source alternative to Jev for yes/no decisions that runs on your laptop.
+- **大概是做什么的**: Yes/no decisions on a laptop CPU in 25–110 ms. Send a text and a yes/no question, get back jevos-v2 answers 80.3% of 999 hand-written yes/no questions correctly, against 75.8% for the first jevos, with the same size and speed. Latency is the median of 10 requests through the HTTP API, after 3 warm-up requests, on an Intel Core Ultra 7 255H laptop with 16 threads, each request reading its text from scratch ( --state-cache 0 ). By default the server keeps the texts it has read, so asking about the same text again takes 22 ms for jevos-v2 Jev Laya --- :---: :---: :---: Yes/no questions ✓ ✓ ✓ Multiple choice ✓ ✓ ✓ Scores ✓ (early) ✓ ✓ Runs on your machine cloud your machine Cost free per token free Context 8,192 tokens not stated 512 tokens From the release, download the archive for your system ( jev-windows-x64.zip , jev-linux-x64.tar.gz or jev-macos-arm64.tar.gz ) and the model, jevos-v2-openvino-int8.zip . Unpack the model into the jev folder, so that it sits in jev/model : jev runs on the CPU: jevos-v2 with 8-bit weights through OpenVINO, in one binary with no Python and no GPU. The
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: binary-classification, classification, cpu-inference, decision-model, edge-ai, fastapi
+
+---
+
 ## 🕔 2026-09-30 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 225 个候选项目中筛选出 6 个未推荐过的新项目。
