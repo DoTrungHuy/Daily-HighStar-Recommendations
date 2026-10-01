@@ -1,3 +1,67 @@
+## 🕔 2026-10-01 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 549
+- **核心概述**: Automatic memory consolidation for OpenClaw agents — like sleep for your AI. Powered by MyClaw.ai
+- **大概是做什么的**: 🌀 OpenClaw Auto-Dream Your AI doesn't just remember. It dreams. A cognitive memory architecture that gives OpenClaw agents the ability to sleep, dream, and wake up smarter. Five memory layers. Importance scoring. Forgetting curves. Knowledge graphs. Health dashboards. Not file management — neuroscience. MyClaw.ai · ClawHub · OpenClaw 🌐 中文 · Français · Deutsch · Русский · 日本語 · Italiano · Español 🦞 Part of the MyClaw.ai Ecosystem MyClaw.ai is the AI personal assistant platform everyone's obsessed with — a fully-featured OpenClaw Agent running 24/7 on your own dedicated server. Not a chatbot. Not a wrapper. A real agent with full code control, internet access, cron jobs, file systems, databases, and tool integrations. Think of it as hiring a brilliant assistant who never sleeps, never forgets , and can actually do things . With Auto-Dream installed, they literally never forget. Why MyClaw Changes Everything Most AI tools give you a chat window. MyClaw gives you a server . Every MyClaw instance runs OpenClaw — the open-source AI agent runtime — on dedicated infrastructure. Your agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, auto-dream, llm, memory, memory-management, myclaw
+
+---
+
+### 🌟 [PerformanceMonitor](https://github.com/erikdarlingdata/PerformanceMonitor)
+- **项目语言**: C#
+- **星标数量**: ⭐ 508
+- **核心概述**: Free, open-source SQL Server and Postgres performance monitoring. Collectors, real-time alerts, graphical plan viewer, MCP server for AI analysis. Supports SQL 2016-2025, Azure SQL, AWS RDS, Postgres, Aurora Postgres.
+- **大概是做什么的**: SQL Server Performance Monitor Free, open-source monitoring that replaces the tools charging you thousands per server per year. Specialized collectors, real-time alerts, and a built-in MCP server for AI analysis. Nothing phones home. Your data stays on your server and your machine. Supported: SQL Server 2016–2025 Azure SQL Managed Instance AWS RDS for SQL Server Azure SQL Database (Lite and Darling) Pick by how you want collection to run — the monitoring brain (collectors, alert engine, plan analysis, MCP tools) is shared across all three at the library level. Lite — flagship Darling — headless Dashboard — deprecated How it runs Single desktop app monitors remotely, on demand Windows service collects 24/7 into a central store; detached viewer reads it from any seat SQL-Server-installed database + Agent collectors, separate viewer app Installs on your server? No No Yes (a PerformanceMonitor database) Stores data Local DuckDB + Parquet Bundled PostgreSQL + TimescaleDB In the target SQL Server Best for Quick triage, Azure SQL DB, locked-down servers, consultants, firefighting Always-on
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aws-rds, azure-sql, database-monitoring, dba-tools, deadlock, deadlocks
+
+---
+
+### 🌟 [dsh-our-free-model](https://github.com/zouyuxuan122/dsh-our-free-model)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 532
+- **核心概述**: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.
+- **大概是做什么的**: 你只需在 dsh 里装上这个插件，无需登录、注册、填 API Key 或任何其它操作， 就能用上包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key, nothing else. The frontier models are just there — Muse Spark 1.3, MiMo V2.6 and the rest. Free, with no usage cap. 模型清单跟随上游刷新，可用性由 你自己这台机器的网络出口 实测得出， 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。 纯插件挂载：不改内核、无构建步骤、零依赖。 - 装完即用，没有配置环节 ——不需要账号、不需要 Key、不需要去哪个后台开配额。 - 上游写在明面上 ——只有一个来源：OpenCode 的 Zen 网关（ https://opencode.ai ），不经任何第三方中转。谁在服务你的请求、你的数据发到哪儿，见上游是哪些源。 - 清单跟随上游 ——模型集合、上下文长度与能力每次刷新重新拉取，不是写死在插件里的一份快照。 - 选择器只给真能用的模型 ——上游清单点名、但网关明确拒绝路由的模型（回 Model is unavailable 、404 找不到这个 id）会从下拉框里移除，只在设置页留痕并写清拒因；网关自己的毛病（5xx）、配额（429）、超时断网这些 不是对模型的判定 ，一律保持可达；地区门拦截的单独归到 region-limited 分组。整轮全部被拒时一律保留，绝不让选择器变空。 - 公告中心 + 实时推送 ——仓库主人在仓库里编辑一份 JSON 并推送，所有安装最迟在一个轮询周期内收到；内容是白名单约束下的 HTML，支持图文排版； urgent 级别直接全屏弹窗；可选系统级通知。 - 应用内升级 ——设置页一键升级：下载 → SHA-256 校验 → 备份 → 原子替换 → 校验回读 → 热重载，任一步失败自动回滚到上一个版本。 - 热重载 ——升级与代码更新即时生效，不需要重启应用；也可在设置页手动触发，或开启文件监视自动重载。 - 流式响应认出 body 而不是认出 header ——网关在高负载下会用 application/json 的 content-type 回一整套 SSE 帧，插件按 body 的形状判定并把已嗅探的字
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, deepseek, deepseek-harness, developer-tools, dsh, dsh-plugin
+
+---
+
+### 🌟 [yomiyasu](https://github.com/nanaism/yomiyasu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 553
+- **核心概述**: AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill
+- **大概是做什么的**: 『yomiyasu（よみやす）』は、AIが生成した日本語の不自然さを解消し、人間が読みやすく情報密度の高い日本語へ推敲するためのスキルです。 Codex、Claude Code、CursorをはじめとするAIコーディング環境に読み込ませて使用してください。 開発背景や言語学的病理の分析、複数のコーパスによる検証結果については、以下の解説記事で詳しく紹介しています。 - 解説記事 : AI臭い日本語を脱臭するAgent Skill『yomiyasu』を作った話（Zenn） Built with curiosity at ALGO ARTIS 株式会社 ALGO ARTIS は、私たちが社会基盤の最適化に取り組んでいるスタートアップです。 電力・海運・鉄道・化学プラントといった現場では、膨大な制約が絡み合う複雑な運用計画を、今なお熟練者が手作業で組み立てています。 弊社では、そうした高度な現場業務を数理モデル化し、実用的なヒューリスティック最適化アルゴリズムと業務システムを一貫して自社開発しています。 最適化技術を用いた社会インフラの変革に興味がある方は、公式ウェブサイトや採用情報をご覧ください。 AIによる文章生成は日常的な道具となりました。一方で、生成された文章には独特のクセが残りやすく、そのままでは実務や技術発信に使いにくい場面が多くあります。 これまでに様々な文体調整プロンプトやスキルが試みられてきました。しかし、依然として「AI特有の読みにくさ」が残るケースが見られます。 従来のアプローチが抱えていた限界は、主に次の4点でした。 手触り や 解像度 、 泥臭い といった表層の単語を禁止しても、別の曖昧な語へ置き換わるだけで、不自然な文構造そのものは解消されませんでした。 修辞規範を過度に与えると、モデルが指示を過剰に解釈し、かえって不自然な造語や大げさな文体を招いていました。 誰が何をどうするのかが省略されたまま、概念や道具が比喩的な動詞（ 壊れる 、 倒す 、 効く など）と結びつき、読み手側で過剰な文脈補完が必要でした。 太字や箇条書きが増加する一方で、手順やコードの仕組みといった核心部分が抽象化され、文章量に対して実質的な情報が希薄化していました。 本スキルは、文章の骨格である統語構造を7つの変換原則として体系化し、主要なLLM環境で自然な日本語へ推敲できるように設計しています。 動作主（開発者、運用者、システムなど）を明確にし、曖昧な指示代名詞（ これ 、 両者 、 片方 など）を具体的な名詞へ復元しています。文単体で意味が通じる構造を維持していま
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-writing, claude-code, codex, cursor, japanese
+
+---
+
+### 🌟 [awesome-lifelong-llm-agent](https://github.com/qianlima-lab/awesome-lifelong-llm-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 333
+- **核心概述**: TPAMI 2026 | This repository collects awesome survey, resource, and paper for lifelong learning LLM agents
+- **大概是做什么的**: TPAMI 2026 Lifelong Learning of Large Language Model based Agents: A Roadmap Welcome to the repository accompanying our survey paper on Lifelong Learning of Large Language Model based Agents: A Roadmap . This repository collects awesome paper for lifelong learning (also known as, continual learning and incremental learning) of LLM agent. We identify three key modules-Perception, Memory, and Action-that are integral to agent's ability to perform lifelong learning. Please refer to this survey for detailed introduction. Additionally, for other papers, surveys, and resources on lifelong learning (continual learning, incremental learning) of LLMs, you can refer to this repository. A chinese version of this README is provided in this file. - 2026.01 : Our survey paper has been accepted for publication in IEEE TPAMI. An updated version, which includes additional experimental results and more references, will be released soon. - 2025.06 : We are excited to release the first benchmark LifelongAgentBench for lifelong learning of LLM Agents. The paper, source code, datasets are all available! -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, continual-learning, incremental-learning, lifelong-learning, llm, llm-based-agent
+
+---
+
+### 🌟 [mneme](https://github.com/slow-stack/mneme)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 137
+- **核心概述**: 🧠 The memory that dreams — cross-session memory for DeepSeek Harness. Offline & private, auto-consolidates in its sleep (autoDream), visualized in a memory panel.
+- **大概是做什么的**: 🌏 简体中文 · English dsh-mneme 是 DeepSeek Harness (DSH) 的跨会话记忆插件。它不只「存得下」，更「管得好」：后台自动去重合并、矛盾先冻结等你裁决、全程可回放审计、默认全离线，还支持导出成人可读的 Markdown。 Mneme （Μνήμη）源自希腊记忆女神 Mnemosyne 。她掌管记忆与梦境——正如 autoDream 在后台默默巩固你的记忆库。 dsh-mneme 给 DeepSeek Harness 装上跨会话记忆。 你聊过的项目、提过的偏好、做过的决定，AI 都记得——即使关掉了窗口，下次打开还在。 ------ --------- --------- 周一聊完项目需求，周三继续 "能再描述一下你的项目吗？" "你指的是上周提到的博客重构吗？当时你说想用 Astro。" 告诉 AI 你的编码习惯 每轮都要重复交代 一次设定，长期生效 整理大量资料后关窗口 资料丢了 自动归档，随时检索找回 但 dsh-mneme 的可信之处，恰恰在你 看不见 的后台。下面这些，才是它和「一个会存东西的插件」的本质区别。 - 🧾 可回放、可追责 — 每次自动整理都留一张「决策凭证」：输入快照 + 决策明细 + 结果哈希，同样的整理可复现回放， 不默默吞错、不留无法追溯的改动 。 - ⚖️ 矛盾先冻结，等你裁决 （可关）— 两条记忆打架时，不擅自替你做主。可疑冲突会 挂起待审 ，状态页冲突队列里并排对比、一键裁决（保留 A / 保留 B / 仅标记），确认后才生效。复杂判断，人永远在线。 - 🔐 记忆按 agent 与工作区隔离 （可关）— scopeEnabled 开启后，每条记忆标注由哪个 agent、在哪个工作区写入；检索时本会话作用域优先（命中加权，他 scope 降权仍可见）； strictScope 再进一步—— 显式声明 收窄到他者作用域的记忆在检索/注入里完全不可见（载体自动标注只降权，不硬挡）。多 Agent、多项目互不串台。 - 🌙 夜深人静才动手 （可关）— 空闲时自动分层归档：常看的留在热区、久不用的压成摘要、陈旧的彻底归档。记忆库 越用越精炼，不膨胀 。 - 🧠 本地语义检索，默认离线 — 自带本地 Embedding 与精排，不强求 API Key，网络断了也能检索。 - 📝 Markdown 双向同步 — 记忆就是本地 .md 文件，随时打开编辑； 人工改动会被优先尊重 ，不会被机器覆盖。 - 💾 删对话 ≠ 删记忆 — 清空聊天窗口，已保存的记忆仍在（可配置）。 装完即可用。想在
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agent-memory-system, autodream, claude, codex, deepseek-harness
+
+---
+
 ## 🕔 2026-09-30 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
