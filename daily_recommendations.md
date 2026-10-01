@@ -1,3 +1,67 @@
+## 🕔 2026-10-01 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [talewell](https://github.com/LeoYeAI/talewell)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 549
+- **核心概述**: Plugin-first long-term memory for agent platforms — reference implementation of AMP (Agent Memory Protocol).
+- **大概是做什么的**: Every story has its well. Plugin-first long-term memory for every agent platform. Git-backed. Auditable. Portable. No vector database required. Two systems shaped this design: - A $2.5B AI assistant whose memory layer is nothing but git-tracked Markdown plus grep — crude, but inspectable, auditable, and rollback-able. - OpenClaw's memory architecture — proven on the hard half: provenance tainting, recall-driven promotion, deterministic gates around bounded model consolidation. Talewell keeps both rigours and adds the thing neither had: one memory layer that every agent platform can speak. It is plugin-first by design. Every major agent platform is plugin-shaped now; Talewell meets them there instead of asking them to change. - Plain Markdown, real git history. One memory record = one file. Every write is a commit. Every fact is diff-able, rollback-able, and readable with cat . - Deterministic recall. Relevance × recency decay × importance, computed locally. No model call, no network, no API key required to search your own memory. - Provenance enforced. Content the user stated ( owner
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, auto-dream, llm, memory, memory-management, myclaw
+
+---
+
+### 🌟 [she-love-me](https://github.com/863401402/she-love-me)
+- **项目语言**: Python
+- **星标数量**: ⭐ 896
+- **核心概述**: 她不一样 恋情分析室 — 微信聊天记录恋爱分析 Agent Skill （曾用名：她爱我吗？）
+- **大概是做什么的**: 快速开始 · 功能特性 · 工作原理 · 致谢 她不一样 是一个 通用 Agent Skill ，支持 Claude Code、Codex、Cursor、GitHub Copilot、Gemini CLI 等主流 AI 编程工具。 只需要一句调用指令（例如 Claude 里输入 /she-love-me ，Codex 里输入 $she-love-me ），它就能引导你导入微信或 QQ 聊天记录、分析你和某个联系人的全部聊天记录，帮你看清： 她是不是真的不一样——这段感情里，你们到底是什么关系？ 融入专业心理学框架（依恋类型 · Gottman · Sternberg 三角），支持 危险信号预警 、 军师建议 、 👴 祖师爷寄语 ，全程本地运行，数据不上传任何服务器。 可以直接使用传统脚本方案，先导出 messages.json ，再生成 analysis prompt.txt 交给任意聊天模型： traditional-deployment/README.md 如果你是第一次用这个项目，或者你要把这个项目交给没有编程基础的人，建议直接走传统脚本方案。 - analysis prompt.txt - traditional-deployment/README.md - 终端一定要在项目根目录 she-love-me 里打开 - 开始前先执行依赖安装命令： py -m pip install -r requirements.txt 扫码加入恋爱分析交流群，遇到问题、分享分析结果、更新优化方向都可以聊 (首次运行后，在 reports/ 目录用浏览器打开 HTML 报告) 📥 多来源导入 支持 weflow-cli、CipherTalk、QQ Chat Exporter、旧 WeFlow JSON 和带时间戳 Markdown 👥 联系人选择 按消息数量排列，选你想分析的那个人 📊 主动指数 主动发起占比 · 连续轰炸次数 · 回复速度差 · 消息长度比 💜 被爱指数 对方主动次数 · 晚安/早安分析 · 关心频率 🧊 冷淡检测 "嗯""哦""好" 占比 · 长时间已读不回统计 📊 话语权分析 谁在主导对话，谁在迎合；权力动态量化 📈 趋势图表 每日消息量 · 活跃时段 · 双方占比（Chart.js） 🧠 依恋类型诊断 安全型 / 焦虑型 / 回避型 / 恐惧型，双方都分析 🔄 追逃循环复盘 还原完整"案发现场"：触发→撤退→升级→恶化 💘 Sternberg 三角 激情 · 亲密 · 承诺三维评分，判断爱情类型 🩹 修复尝试分析 冷战后谁低
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, she-love-me, skill, wechat
+
+---
+
+### 🌟 [sno-station](https://github.com/sno-ai/sno-station)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 355
+- **核心概述**: Sno Station — your Claude Code and Codex working as one squad on your own machine. Shared encrypted memory, agent-to-agent messaging (Reach), squad skills for handoff and cross-vendor review, and a nightly loop that rewrites the agents' own skills with your approval. Open source, no daemon, no cloud required. Assembled in public.
+- **大概是做什么的**: Sno Station 🧊 — Agents, assemble. Two heads are better than one, and smarter by morning. Read in other languages: English · 中文 · Deutsch · Español · Français · Русский · 한국어 · 日本語 · 繁體中文 Sno Station is your agents' workstation: open-source software that turns the AI agents you already run, coding agents and general-purpose working agents alike, into one squad on your own machine. When one of them hits its rate limit, the other picks up with the context intact. They review each other's work, so fewer mistakes reach you. And the workspace they share gets smarter every night: it reads their sessions, proposes changes to their own skills, and waits for you to say yes. Yours, and it stays yours. Memory, messages and skills live in one workspace on your laptop. No daemon, no server, no cloud required; the cloud side, when it comes, is optional and the product is complete without it. Apache-2.0, edge to edge. The memory store is encrypted on your machine from first use, with a key that is provisioned once and never leaves it; Sno never receives your database or your key. The full boundary,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, agent-memory, agentic-ai, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [MotionClone](https://github.com/blixvip/MotionClone)
+- **项目语言**: Python
+- **星标数量**: ⭐ 349
+- **核心概述**: AI motion graphics from a reference video. Rebuild it as an editable HyperFrames project with Codex and ChatGPT, compare the match, and export an MP4. Local Windows app and online studio.
+- **大概是做什么的**: From reference video to editable motion. Rebuild text, shapes, and animation with Codex + ChatGPT. Compare the result. Export a video. Keep the project and make it yours. Try the online studio ↗ &nbsp; · &nbsp; Run&nbsp;on&nbsp;Windows &nbsp; · &nbsp; Full&nbsp;walkthrough Actual saved reconstruction. Visual differences remain. Watch the examples with playback controls · View a still - Learn from the ads you admire. Turn any motion-graphics clip into code you can read, tweak, and re-render instead of guessing keyframes by hand. - Editable, not a screen recording. The output is a HyperFrames project (HTML, assets, fonts, timing), so you can change copy, colors, and pacing, or hand it to a coding agent. - Honest comparison built in. Original and rebuild play in sync, so you see exactly where they match and where they don't. - No API key. It uses your own Codex / ChatGPT sign-in; nothing to paste into a config file. A reference is the starting point Paste a public video link or upload a clip. MotionClone reconstructs it as an editable HyperFrames project : text, shapes, artwork, and ani
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-video, animation, chatgpt, codex, demo-videos
+
+---
+
+### 🌟 [Alife](https://github.com/BDFFZI/Alife)
+- **项目语言**: C#
+- **星标数量**: ⭐ 200
+- **核心概述**: 一款专注于桌宠方向的AIAgent。特点是一键安装、功能齐全、极低开销、完全暴露上下文、全功能插件化、AI自主插件开发、永久唯一会话、类游戏引擎交互策略。具有极高的扩展性和拟人程度上限，非常适合想长期培养和自定义需求高的用户。
+- **大概是做什么的**: 有时一个人待着，特别是遇到烦心事时，我很想找人说说话。但可惜，我没啥朋友。 交友需要精力维护，而且人和人的关系，没那么单纯。 所以很多人会养宠物。但现实的宠物很麻烦，虚拟的宠物又很假。 现在 LLM 发展到这个程度，AI 对话已经可以做到非常接近真人。市面上确实有很多类似的聊天 App，但那种商业味十足、数据还不安全的东西，我完全不感兴趣。 前段时间，有群友自己搭了一个基于 LLM 的群机器人。让我没想到的是，效果出乎意料的好。我很早就接触 LLM 了，但跟它直接对话的时候，总感觉很空洞，聊不下去，功能也有限。可加上 Agent，特别调优的提示词，再放进群聊环境里，LLM 就像的真活了一样。 那时候我就想，我也要做一个。但我不想只做一个群机器人。我想做一个赛博生命——一个真正活在我电脑桌面上的伙伴。 LLM 火了几年了，类似的框架网上也有，但我试过之后，发现都没有能让我完全满意的。但幸运的是，现在 AI 编程效率很高，一个人从零开始做一套 Alife 是一款主打桌宠陪伴方向的 AIAgent，目的是为了创造或逼近一个真实赛博生命的效果，它不是功能特化，不是角色扮演，而是一切为了 正因如此，它是款风格独特的 AIAgent。相比市面上的主流陪伴向 AI 产品，它在功能体验上有很大的不同： - 极低词元开销：人工高度优化的提示词，专门设计过的上下文管理、注入系统、调用优化，非常省钱。 - 深度自由扩展：强大且模块化的全插件框架，功能自由搭配，配有专用插件开发工具和在线插件市场。 - 高度信息公开：明文存储数据，完全暴露上下文和AI执行过程，支持外部程序通过MCP全量控制。 - 基础功能齐全：自主玩耍陪伴、多模态能力、远程通讯、设备网页操作，MCP扩展等，一样不少。 - 永久唯一会话：无论何时，对话工作都是同一个AI，不会割裂。无需初始人设，可完全靠成长形成。 毫不夸张的说，这是目前所有陪伴Agent中： - 开销最低：缓存命中高达95%，官方Deepseek日均不到2块钱；各种功能都配有本地精选模型，仅2G显存就能跑。 - 陪伴最真：类游戏引擎交互策略，交互极快，坚持AI亲历亲为，不偷用子代理，配合永久上下文，人设稳定成长。 - 本体最简：充分发挥MVVM、模块化等设计理念，本体为纯框架，功能全可插拔，轻松实现自己的定制化Agent。 - 🎭 桌宠交互：通用桌宠交互框架，默认使用live2D，可完全自定义，具备丰富交互，告别枯燥的对话框。 - 👁️ 深度视觉：拍照不怕没人分享，还会没事偷偷看主人，在你游戏工作的时候，陪你一起吐槽。 - 🎙️ 语音对话：放下键盘
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, deskpet, dotnet
+
+---
+
+### 🌟 [mirascope](https://github.com/Mirascope/mirascope)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,530
+- **核心概述**: The LLM Anti-Framework
+- **大概是做什么的**: Welcome to Mirascope, which allows you to use any frontier LLM with one unified interface. Call LLMs with a Decorator Get Structured Output For streaming, async, multi-turn conversations, and more, see the full documentation. This project is structured as a monorepo, that conceptually divides into four parts: - python/ contains the Python implementation, and examples (in python/examples ) - typescript/ contains the Typescript implementation, and examples (in typescript/examples ) - website/ contains the marketing website (docs, blog, landing page) - docs/ contains the unified cross-language documentation (in docs/content ), as well as configuration needed to build the docs For detailed information about the codebase structure, architecture, and design decisions, see STRUCTURE.md . Use bun run website:dev to launch the dev server. Note that Bun must be installed. CI and local testing We currently have four CI jobs: - codespell: Checks for common misspellings including python, typescript, and docs repos - python-lint: Linting and typechecking for Python code - typescript-lint: Linting
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: artificial-intelligence, developer-tools, llm, llm-agent, llm-tools, python
+
+---
+
 ## 🕔 2026-10-01 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
