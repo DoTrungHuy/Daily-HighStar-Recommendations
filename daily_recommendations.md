@@ -1,3 +1,67 @@
+## 🕔 2026-10-01 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pi-app](https://github.com/justhil/pi-app)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 361
+- **核心概述**: Desktop app for the pi coding agent: streaming timeline, Git review with hunk staging, session tree, native UI for pi extensions. Windows · macOS · Linux. pi 编程 Agent 桌面客户端
+- **大概是做什么的**: A desktop app for the pi coding agent. The same agent and the same /.pi/agent you use in the terminal — with a timeline, Git review and a clickable session tree. English · 简体中文 · Download · Getting started · Adapters pi Desktop is not another agent. It runs the pi SDK in a background worker and reads the same files as the CLI — sessions, model logins, settings.json , installed extensions. Open a project and the sessions you started in the terminal are already in the sidebar; continue any of them, or start a new one. One turn, start to finish Recorded from the app itself. The model replies come from a scripted local endpoint so the demo is reproducible; the bash , read and edit tools ran for real on the sample repo. Tool calls stream in as flat steps — thinking, commands, reads, edits — and fold into one summary line once the answer starts. Each edit shows +N −M ; the turn ends with a Files changed card that opens the file in Files or Review. Markdown, code blocks, KaTeX and long outputs render in place. Hover a message to copy it, rewind to it, or fork a new session from it. Panel Wh
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agent, ai-coding, ai-coding-assistant, claude, code-review
+
+---
+
+### 🌟 [runjam](https://github.com/peintune/runjam)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 228
+- **核心概述**: One desktop for all your AI coding Agent — Claude Code, Codex CLI & Gemini CLI. Auto-detect, one-click install, unified chat, file explorer, terminal & editor. Local-first. Built with Tauri + Rust + Vue 3.
+- **大概是做什么的**: One Desktop. All Your AI Agents. Zero Lock-in. A local-first desktop manager for Claude Code, Codex CLI, and Gemini CLI — install once, run any model on any agent, and manage every project in a single window. No ACP rewrites, no per-agent config, no cloud lock-in. Features · Quick Start · Architecture · Roadmap · FAQ Works with: Claude Code · Codex CLI · Gemini CLI 🌐 Visit Website · 中文文档 Understand RunJam at a glance: Agents → RunJam (auto protocol conversion) → Models (cloud + local) . Reading order (left → right): - 01 · AGENTS — Any Agent CLI (Claude Code / Codex CLI / Gemini CLI / …) connects via stdin/stdout — no agent modification required - 02 · RUNJAM CORE — Three core capabilities: 🔀 Protocol conversion (Anthropic ↔ OpenAI ↔ Gemini), 🗂️ Session management (parallel sessions, persistent state), ⚡ Cache optimization (prompt cache + response cache); plus four capabilities below: 🔌 Install / 💬 Chat / 📁 Workspace / 📊 Dashboard - 03 · MODELS — Plug in any model: ☁️ Cloud (Anthropic, OpenAI, Google, DeepSeek, Qwen, custom API) and 💻 Local (llama.cpp + GGUF, OpenAI-compatibl
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-manager, ai-agent, ai-coding, claude-code, codex-cli
+
+---
+
+### 🌟 [ksor](https://github.com/panaversity/ksor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 223
+- **核心概述**: KSoR (Knowledge System of Record) is an open-source SDK for building governed, authoritative knowledge systems for humans and AI agents. It is a foundation of an AI-native knowledge platform.
+- **大概是做什么的**: Watch the video: KSoR Introduction Open, vendor-neutral knowledge infrastructure for predictable enterprise and education agentic systems. A company cannot expect predictable AI-agent behavior if its agents operate from scattered, conflicting, or outdated knowledge. An education institution cannot deliver an organized AI-assisted course if its tutors, teaching assistants, and assessment agents operate from different curricula, sources, or rules. You cannot build predictable AI systems on an undefined source of truth. A Knowledge System of Record (KSoR) solves that problem by giving an organization one governed, authoritative knowledge record that humans and AI agents operate from. For an enterprise, that record can contain approved: - decision criteria, - and institutional knowledge. For an education institution, it can contain approved: - learning objectives, - concepts and definitions, - and the current course version. The AI can still reason, explain, personalize, and adapt. What it should not have to invent is which institutional or academic knowledge is authoritative . Enterpris
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-data, ai-governance, claude-mcp-server, connector-mcp
+
+---
+
+### 🌟 [runner](https://github.com/yicheng47/runner)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 183
+- **核心概述**: Where terminal agents work together. Claude Code, Codex, Copilot CLI and pi on the same task, in one mission, each keeping its own TUI in a real terminal.
+- **大概是做什么的**: Where terminal agents work together. Claude Code, Codex, Antigravity CLI, Copilot CLI and pi on the same task, in one mission. Each agent keeps its own TUI in a real terminal; Runner is what sits between them. Status: alpha, actively shipping. Native macOS (Apple Silicon) and Windows (x64), with Windows support starting in 0.8.0. Runner is a native desktop app for running CLI coding agents together . Running several at once is already easy — give each one a terminal and they work in parallel, isolated from one another. Runner is for the other thing: one task, different roles, a shared feed, and one lead who pulls you in when the decision is yours. It is opinionated about the workflow and neutral about the provider, so your coder can be Claude Code and your reviewer Codex. - Role — a reusable agent configuration: runtime, system prompt, working directory. - Crew — roles composed into named slots with one lead, plus the team conventions every mission inherits. - Mission — a crew working one goal: one live terminal per slot, coordinating over an event feed that persists and replays, wit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-coding, ai-agents, claude-code, cli, codex
+
+---
+
+### 🌟 [mcp-servers-nix](https://github.com/natsukium/mcp-servers-nix)
+- **项目语言**: Nix
+- **星标数量**: ⭐ 307
+- **核心概述**: A Nix-based configuration framework for Model Control Protocol (MCP) servers with ready-to-use packages.
+- **大概是做什么的**: A Nix-based configuration framework for Model Control Protocol (MCP) servers with ready-to-use packages. This repository provides both MCP server packages and a Nix framework for configuring and deploying MCP servers. It offers a modular approach to configuring various MCP servers with a consistent interface. - Modular Configuration : Define and combine multiple MCP server configurations - Reproducible Builds : Leverage Nix for reproducible and declarative server setups - Pre-configured Modules : Ready-to-use configurations for popular MCP server types - Security-focused : Better handling credentials and sensitive information through envFile and passwordCommand , with pinned server versions - Framework Support : Integrates with Flakes, flake-parts, devenv, and Home Manager Run an MCP server directly: Generate a configuration file with mkConfig : The output format adapts to the flavor option — see Supported Flavors below. Flavor Key Typical File Client -------- ----- ------------- -------- claude mcpServers claude desktop config.json Claude Desktop claude-code mcpServers .mcp.json Cla
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, nix
+
+---
+
+### 🌟 [eplan-rag-mcp](https://github.com/covagashi/eplan-rag-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 106
+- **核心概述**: EPLAN Electric P8 2026 2027 + AI: MCP servers, docs RAG, and a Claude Code skill for EPLAN scripting/API development. EEC PRO RAG
+- **大概是做什么的**: EPLAN AI Automation Toolkit English · Español · 한국어 · Deutsch · 中文 · Русский AI-assisted automation for EPLAN Electric P8 and EPLAN EEC Pro 2026 , built on the Model Context Protocol (MCP). This repository contains the local MCP server that drives a running EPLAN instance. The three remote documentation RAGs live in the separate eplan-cloudflare-rags repository. Working with an LLM here? Read llm.md — it describes, in LLM-facing terms, everything the toolkit can do and configure. Component Type Purpose EPLAN product eplan-p8-mcp-server/ Local Python MCP Drive a running EPLAN instance from Claude: open/close projects, exports, reports, scripts EPLAN Electric P8 eplan-cloudflare-rags Remote Cloudflare Workers, separate repository Serve the P8 2026, P8 2027 and EEC Pro documentation over MCP and REST EPLAN Electric P8 and EEC Pro eplan-development-skill Claude Code skill, separate repository Teach Claude to write correct EPLAN scripts, API code and Remote Client apps EPLAN Electric P8 Each repository carries its own README with installation and usage details. MCP (Model Context Protocol
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-code, claude-code-plugin, claude-skills, codex, cursor, eec
+
+---
+
 ## 🕔 2026-10-01 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
