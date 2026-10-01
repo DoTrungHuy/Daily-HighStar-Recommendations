@@ -1,3 +1,67 @@
+## 🕔 2026-10-01 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [korean-law-mcp](https://github.com/chrisryugj/korean-law-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,619
+- **核心概述**: 법제처 국가법령정보를 LLM에서 바로 조회하는 MCP 서버. 법령·판례·조례 검색과 인용 검증 | MCP server for Korean law — search statutes, precedents, and ordinances, and verify citations
+- **大概是做什么的**: 법제처 42개 API를 10개 도구로. 법령, 판례, 행정규칙, 자치법규, 조약, 해석례(국세청 포함) + LLM 환각 방지 인용 검증(법령·판례, 실존+내용) + 조문 영향 그래프 + 시점 비교 자동 diff + 이럴 땐 이렇게 — 5단계 안내 + 판례 생사 확인(Citator) + 행위시법 판단 + 조례 정비 레이더 + 폐지 법령 후속 규정 안내 를 AI 어시스턴트나 터미널에서 바로 사용. 법제처 Open API 기반 MCP 서버 + CLI. Claude Desktop, Cursor, Windsurf, Zed, Claude.ai 등에서 바로 사용 가능. Claude에 연결하기 ChatGPT에 연결하기 v4.15.4: 전체 기능 검수·오류 수정 - 판례 사건번호·요약 경계, 법령 조문·별표 선택, 인용조문 3단비교 응답 처리 수정 - 결정문·영문법령·조약의 본문 필드 보존, 인용 검증 상한 초과와 시나리오 조회 실패 표시 - 조례 정비 판단의 날짜·근거 법령 검증, 문서 분석의 조문 뒤쪽 위험 탐지 복구 - HTTP·취소·키 전달, 공정위 리서치 경로, 공식 상세 링크와 CLI 입력 처리 수정 - 기존 99개 내부 도구·10개 노출 도구 검수. 기능 추가·의존성 변경 없는 패치. 변경 내역, 검수 기록 v4.15.3: 조회 정확성·성능 수정 - 판례 사건번호 정확 검색, fallback 관련성 검증, 정밀 스캔 미실행 표시 수정 - 판례 파싱 결과를 20건 전용 캐시에 보관하고 상세 조회·인용 추적에서 공유 - 같은 법령의 동시 조문 요청에서 전문 조회 중복 제거 - 본문 수신까지 전체 시간 한도·취소 적용, 별표 번호·조문·시행일 슬라이스 오선택 수정 - 기능 추가 없이 패치 릴리스. 변경 내역, 검토·검증 기록 v4.15.2: 최근 릴리스 감사·수정 4.14.0 4.15.1 을 다시 감사해 조용히 틀린 답을 내거나 느려지던 곳을 고쳤습니다. 노출 도구와 인자는 그대로입니다. - 도구 출력의 다음 단계 안내가 노출 도구만 가리킵니다(목록에 없는 도구를 가리키던 22곳 수정) - 판례 본문의 제거, 전문 축약 경계 수정 - 연혁 오답 수정: 행정규칙 기준일 버전, 폐지 후 같은 이름으로 재제정된 법령의 옛 연혁, 기준일 보정의 폐지·
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: citation-verification, claude, hallucination-detection, korean-law, law, legal-ai
+
+---
+
+### 🌟 [Clew](https://github.com/miuuyy/Clew)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 187
+- **核心概述**: Clear path from where you are to what you want to learn. AI agent turns goals and topic dumps into graph with visible dependencies (generative roadmap.sh)
+- **大概是做什么的**: Generate a learning map. Click any topic. Follow the thread. Clew is a local, AI-assisted workspace for studying through dependency graphs. Start from a goal, a rough topic dump, or an Obsidian vault; Clew turns it into a map of topics, prerequisites, resources, artifacts, and progress. The graph is the workspace. AI can draft, expand, audit, and reshape it, but changes stay visible, reviewable, and reversible. Try the hosted version at clew.my, or run this repo locally when you want to use your ChatGPT plan, local state, Obsidian import/export, and MCP context. - Core idea : a visible thread through hard subjects - Main move : click a topic and see the path that leads to it - Graph generation : build a map from a goal, notes, topic list, or Obsidian vault - AI boundary : AI proposes structure; you review and apply changes - Local edition : SQLite, Sign in with ChatGPT, import/export, existing read-only MCP Open Settings → ChatGPT → Sign in with ChatGPT and allow Clew to use your plan. AI features run on your ChatGPT Plus or Pro plan; no API key or CLI is needed. Tokens are kept in y
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, generative-ui, graphs, learning, llm, mcp
+
+---
+
+### 🌟 [open](https://github.com/limelit-co/open)
+- **项目语言**: Go
+- **星标数量**: ⭐ 153
+- **核心概述**: Self-hosted AI visibility tracking (AEO / GEO / LLMO). Track how ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews mention and cite your brand. One Go binary, SQLite, MCP-first, bring your own keys.
+- **大概是做什么的**: Self-hosted AI visibility tracking. One binary, your keys, your data. Track how ChatGPT, Claude, Perplexity, Gemini, Google AI Overview and Google AI Mode mention and cite your brand against your competitors. Live: demo.limelit.co runs this repository unmodified. Read-only; the banner names the commit. More screens below: the prompt by engine grid, the ranking, citations by source type, top cited sites, and visibility by question type. Also known as AEO (Answer Engine Optimization), GEO (Generative Engine Optimization), AIO (AI Search Optimization) and LLMO (LLM Optimization). They are four names for the same question: when someone asks an AI assistant about your category, does your brand come up, and which sources does the answer trust? Limelit Open answers that on your own infrastructure. It is the open core of Limelit, and it shares its tool names, engine ids and metric definitions, so moving to the hosted product is one command. - Connect Claude (MCP) - Engines and providers - How the numbers are computed - Compared with other AI visibility tools demo.limelit.co is this repositor
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aeo, ai-search-optimization, ai-seo, ai-visibility, ai-visibility-tracker, answer-engine-optimization
+
+---
+
+### 🌟 [awesome-jev-live](https://github.com/wh000wh000/awesome-jev-live)
+- **项目语言**: Python
+- **星标数量**: ⭐ 102
+- **核心概述**: Awesome Jev — evidence-graded index of TypeSafe System One: SDKs, MCP tools, agents, apps and open models. 20 languages, rebuilt every 2 hours.
+- **大概是做什么的**: The evidence-graded Jev index that rebuilds itself every two hours. English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Français · Deutsch · Português (Brasil) · Русский · Italiano · العربية · हिन्दी · Türkçe · Tiếng Việt · ไทย · Bahasa Indonesia · Polski · Nederlands · Українська Live index · Last sync: 2026-10-02T06:42:18+08:00 (UTC+8) · Entries: 828 · New this tick: 43 · Implementation languages: 24 Every entry below was collected, filtered and re-checked by the pipeline in this repository. Numbers and timestamps come from the sources, not from a hand-written snapshot. 🔥 Picks of the moment — the top of each category One entry per category, ranked by evidence grade and stars, recomputed on every tick. A ranking, not an endorsement; every pick links through to its full card below. Projects that published a screenshot or a recording are preferred, so the strip stays visual. 🏛️ typesafe-ai/skills Agent skills for building with TypeSafe& x27;s System One API 🧰 clouatre-labs/decisions-judge-mcp ⭐4 · JavaScript · 👁️ observed Typed decisions for AI agents as an MCP tool: yes/no probability
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, artificial-intelligence, awesome, awesome-jev, awesome-list, calibration
+
+---
+
+### 🌟 [Awesome-MCP](https://github.com/AlexMili/Awesome-MCP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 147
+- **核心概述**: Awesome ModelContextProtocol resources - A curated list of MCP resources
+- **大概是做什么的**: A curated list of Model Context Protocol (MCP) servers, clients, SDKs and tools. The Model Context Protocol (MCP) is an open protocol published by Anthropic in November 2024. It lets LLM apps connect to external data and tools. This list covers the whole ecosystem around the protocol, organized by use case so you can find what you need fast. Servers are grouped by what they do. Each row shows the real language, repository activity (last push) and stars. ✅ = official / first-party. Activity legend: 🟢 ≤3 mo · 🟡 ≤1 yr · 🔴 1 yr · 🗄️ archived · ❔ unknown. Signals auto-refreshed; last update 2026-09-27. - Dev, Code & Git (18) - Databases & Data (2) - Cloud, DevOps & Monitoring (7) - Web, Search & Browser (12) - Productivity, Docs & Knowledge (6) - Communication & Social (4) - Commerce, Ads & Business (12) - AI, Agents & Memory (9) - Finance & Crypto (2) Standout community servers by traction and activity. Server Description Lang Activity ⭐ --- --- --- :--: --: SocialRouter Unified API to fetch social media data across LinkedIn, Instagram, X, Reddit, TikTok, YouTube, and more, with auto
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, anthropic-claude, awesome, awesome-list, claude, mcp
+
+---
+
+### 🌟 [publisher](https://github.com/malloydata/publisher)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: Publisher is the open-source analytics engine for Malloy. It lets you define data models once — and use them everywhere.
+- **大概是做什么的**: The Analytics Engine for Malloy A post modern data stack — built for the AI era. One data model, served over MCP and REST to AI agents, applications, and BI tools. Created and maintained by Credible , the company behind the AI Analytics Engine. AI agents: read AGENTS.md first (raw: https://raw.githubusercontent.com/malloydata/publisher/main/AGENTS.md ). It covers starting the server, connecting over MCP, the bundled skills, and the package format. Fetch the raw file, not a summary of this page. A 60-second walkthrough — model in your IDE with the Malloy skills, serve with Publisher, build a data app, materialize on a schedule, and analyze. Watch the video for playback controls. Modeling, a query engine, materialization, access control, and an API — the pieces you used to assemble from five projects — ship as one server, built assuming the first builder or consumer is an Write down what your data means, in Malloy: the sources, the joins, the measures, who may see what. The open-source Malloy skills ship alongside, so an agent can do the writing — build the model, then the dashboards,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-governance, ai-tools, analytics, analytics-dashboard, analytics-engineering
+
+---
+
 ## 🕔 2026-10-01 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
