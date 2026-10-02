@@ -1,3 +1,67 @@
+## 🕔 2026-10-02 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [redamon](https://github.com/samugit83/redamon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,901
+- **核心概述**: Open-source, self-hosted AI penetration testing framework: maps your attack surface into a graph, autonomously exploits it from a Kali sandbox with human approval gates, and opens PRs that fix what it finds. MCP both ways: plug in any MCP server as a tool, or drive RedAmon from Claude Code or your own agent.
+- **大概是做什么的**: Unmask the hidden before the world does An autonomous AI framework that chains reconnaissance, exploitation, and post-exploitation into a single pipeline, then goes further by triaging every finding, implementing code fixes, and opening pull requests on your repository. From first packet to merged patch, with human oversight at every critical step. LEGAL DISCLAIMER : This tool is intended for authorized security testing , educational purposes , and research only . Never use this system to scan, probe, or attack any system you do not own or have explicit written permission to test. Unauthorized access is illegal and punishable by law. By using this tool, you accept full responsibility for your actions. Read Full Disclaimer 🏆 Flagship result: RedAmon solves 101 / 104 (97.1%) of the XBOW web-security benchmark fully black-box . Every solve ships a complete, unedited raw agent session and a reproducible, step-by-step walkthrough: open any row and read exactly how the flag fell, tool call by tool call. Auditable, line by line. See the XBOW Validation Benchmark scorecard . 📊 Coverage, me
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-pentesting, attack-surface-management, autonomous-agents, bug-bounty
+
+---
+
+### 🌟 [overtime](https://github.com/ukanwat/overtime)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 387
+- **核心概述**: Give a coding agent a brief, not a chat, and it works on its own across sessions. Includes an example run: an open-world city built in a real game engine with no human help. In early development.
+- **大概是做什么的**: Give an agent a brief, not a chat. Then it works on its own. Built by Utkarsh Kanwat · 𝕏 Formerly AAABench, then SelfStarter. Old links redirect here. Chat is how you manage a junior. A brief is how you manage a senior: the goal, the constraints, what "done" looks like, and a budget. Overtime gives a coding agent a brief and then stays out of the way. The agent plans its own work across many sessions, writes its own status reports, and asks for a decision only when it really needs one. Overtime is in early development. What's here today is an example run: one agent, one brief, a real game engine, and no human help. Example run: Agent City One agent. One Unreal Engine editor, driven live over MCP. A fierce brief, a shelf of production knowledge, and no human help. This is what it built. The agent decides everything — the geography, the districts, the roads, the buildings, the people, the traffic, the weather, the game's own screens, and what to fix when it doesn't work. Nobody points at anything for it. The one rule. Provide conditions, resources and the brief — never diagnosis, neve
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, benchmark, game-development, llm-evaluation, mcp, unreal-engine
+
+---
+
+### 🌟 [lody-ios](https://github.com/Innei/lody-ios)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 421
+- **核心概述**: Independent iOS client for Lody ��� native chat, sessions, and coding-agent collaboration on iPhone
+- **大概是做什么的**: Independent iOS Native Client · AI Collaboration & Session Companion for Mobile https://github.com/user-attachments/assets/0bc0ab48-6f12-44e9-ae13-07af9c6b780d This is a third-party project. Lody iOS is an independent, community-maintained client. It is not affiliated with, endorsed by, or supported by the official Lody team. Report issues in this repository, not upstream. The project is still under development. It iterates quickly, so APIs, sync behavior, and UI may change without notice, and builds can be unstable or break existing sessions. Evaluate the risk yourself before relying on it. 本项目为第三方项目。 Lody iOS 由社区独立维护，与 Lody 官方团队无关，也不代表官方立场；本项目的问题请在本仓库反馈，不要提交给上游。 项目仍在开发中。 迭代速度较快，接口、同步行为与界面可能随时调整，版本可能不稳定甚至破坏已有会话数据，请在评估风险后使用。 Install the current build on your iPhone through TestFlight: Requires iOS 26 or later. Beta builds track main and update automatically; they are pre-release and may be unstable, as described above. Lody iOS is an independent open-source client crafted for iPhone, providing a lightweight and secure bridge between remote Lody services and local workspaces. The proj
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, coding-agent, collaboration, expo, ios, iphone
+
+---
+
+### 🌟 [kiln](https://github.com/matthew-kissinger/kiln)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 225
+- **核心概述**: Build and revise procedural 3D assets with your coding agent. Local MCP server, CLI and TypeScript engine with rendered review, editable source and GLB export.
+- **大概是做什么的**: The agent writes JavaScript using Kiln's geometry and material helpers. Kiln runs the program and returns rendered views and structural checks so the agent can review its work. Export the asset as a GLB and keep the source for later changes. Kiln runs locally. It includes an MCP server, a CLI, a TypeScript library, and skills for authoring, editing, animation review, and scene composition. Your agent supplies the model; Kiln does not require a separate model API key for its tools. Walk the Farm, drive across Golden Gate, or explore the Foundry Floor preview. The scenes put Kiln assets to work with animation, levels of detail and interactive controls. Crops, animals and working farm buildings. Bridge, terrain, water and drivable traffic. Foundry Floor: the campus Inside the fab The Foundry preview pairs a factory campus with a representative floor in its southwest building. AMRs, robot arms and overhead transport move containers through the fab. This scene is still in production. Six reusable vehicles, shown with the gallery's live body-paint controls: Hatchback · yellow Sedan · blue
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, 3d-assets, 3d-modeling, agent-skills, agent-tools, ai-agents
+
+---
+
+### 🌟 [vscode-1c-platform-tools](https://github.com/yellow-hammer/vscode-1c-platform-tools)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 216
+- **核心概述**: Расширение Visual Studio Code (Cursor, Windsurf, VSCodium) для разработки на 1С:Предприятии: проекты конфигуратора, 1С:EDT и OneScript, метаданные, команды vanessa-runner, тесты, отладка и MCP для AI-агентов.
+- **大概是做什么的**: Расширение для Visual Studio Code (а также Cursor, Windsurf и VSCodium), которое собирает повседневные инструменты разработки 1С в одном интерфейсе: команды vanessa-runner, навигацию по проектам и артефактам, дерево метаданных, TODO-панель, отладку и интеграцию с AI-агентами. Работает с проектами в формате конфигуратора, 1С:EDT и OneScript. - Руководства по функциям — на сайте yellow-hammer.github.io/vscode-1c-platform-tools. - Знакомство с панелями по шагам — прямо в редакторе: Help → Welcome → Начало работы с 1C: Platform Tools . - 1С: Инструменты — дерево команд: информационная база, конфигурация, расширения, внешние файлы, поставка, запуск, тестовое окружение, зависимости, выбор установки OneScript. - 1С: Проекты — проекты окна, их вид и текущий проект; поиск проектов, избранное, теги, переключение через статус-бар и палитру команд. - 1С: Администрирование — список информационных баз платформы и запуск Предприятия или Конфигуратора; консоль кластера через rac : подключения к ras , сеансы, соединения, блокировки. - 1С: Артефакты — дерево .cf / .cfe / .epf / .erf с действиями сборк
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 1c, 1c-edt, 1c-enterprise, bsl, cursor, mcp
+
+---
+
+### 🌟 [zabbix-mcp-server](https://github.com/initMAX/zabbix-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 212
+- **核心概述**: MCP server for the complete Zabbix API - 237 tools, multi-server, OAuth 2.1 + bearer auth, PDF reports, systemd ready. Works with ChatGPT, Claude, VS Code, Codex, JetBrains and any MCP client.
+- **大概是做什么的**: developed and maintained by Full Zabbix API access from Claude, Codex, VS Code, JetBrains, and other MCP clients. Overview: What is this? · Features Install: Quick Start · Installation · Upgrade · First-time admin access Configure: Reference · OAuth 2.1 · Public URL · TLS / HTTPS · Token Budget Use: Client Wizard · AI Clients · Prompts · Tools · Parameters · PDF Reports Operate: Installer CLI · Update notifications · Compatibility · Development · Related Projects · License MCP (Model Context Protocol) is an open standard that lets AI assistants (ChatGPT, Claude, VS Code Copilot, JetBrains AI, Codex, and others) use external tools. This server exposes the entire Zabbix API as MCP tools — allowing any compatible AI assistant to query hosts, check problems, manage templates, acknowledge events, and perform any other Zabbix operation. The server runs as a standalone HTTP service. AI clients connect to it over the network. - Complete API coverage - All 58 Zabbix API groups (223 tools): hosts, problems, triggers, templates, users, dashboards, and more - Extension tools (14) - Pre-correlate
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-tools, automation, chatgpt, claude, codex
+
+---
+
 ## 🕔 2026-10-02 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 306 个候选项目中筛选出 6 个未推荐过的新项目。
