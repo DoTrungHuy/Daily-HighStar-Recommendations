@@ -1,3 +1,67 @@
+## 🕔 2026-10-02 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5,857
+- **核心概述**: A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.
+- **大概是做什么的**: 🧠 Build Your Own Coding Agent via a Step-by-Step Workshop Welcome! 👋 This workshop will guide you through building your own AI-powered coding assistant — starting from a basic chatbot, and adding powerful tools like file reading, shell command execution, and code searching. You don’t need to be an AI expert. Just follow along and build step-by-step! 🌐 Want a detailed overview? Check out the blog post: ghuntley.com/agent 🎯 What You'll Learn By the end of this workshop, you’ll understand how to: - ✅ Connect to the Anthropic Claude API - ✅ Build a simple AI chatbot - ✅ Add tools like reading files, editing code, and running commands - ✅ Handle tool requests and errors - ✅ Build an agent that gets smarter with each step 🛠️ What We're Building You’ll build 6 versions of a coding assistant. Each version adds more features: 1. Basic Chat — talk to Claude 2. File Reader — read code files 3. File Explorer — list files in folders 4. Command Runner — run shell commands 5. File Editor — modify files 6. Code Search — search your codebase with patterns At the end, you’ll end up with a powerfu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cursor, tutorial, workshop
+
+---
+
+### 🌟 [data-peek](https://github.com/Rohithgilla12/data-peek)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,676
+- **核心概述**: A minimal, fast, database client desktop application. Built for developers who want to quickly peek at their data without the bloat.
+- **大概是做什么的**: A minimal, fast SQL client desktop application with AI-powered querying. Built for developers who want to quickly peek at their data without the bloat. Supports PostgreSQL, MySQL, Microsoft SQL Server, and SQLite. AI Assistant - Generate charts and insights AI Assistant - Natural language to SQL ER Diagrams - Visualize relationships Command Palette - Quick actions - Fast - Opens in under 2 seconds, low memory footprint - Multi-Database - PostgreSQL, MySQL, Microsoft SQL Server, SQLite - SSH Tunnels - Connect securely through bastion hosts with password or key auth - Default Schema - Pin a PostgreSQL connection's search path and focus the sidebar on one schema - Secure - Connection credentials encrypted locally using OS keychain, no telemetry - Natural Language Queries - Ask questions in plain English, get SQL - Multi-Provider - OpenAI, Anthropic, Google, Groq, and local Ollama models (BYOK) - Charts & Insights - Generate visualizations and metrics from query results - Schema-Aware - AI understands your database structure for accurate queries - MCP server - expose your connections to
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: database-gui, developer-tools, electron, hacktoberfest, mcp, mysql
+
+---
+
+### 🌟 [labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,164
+- **核心概述**: A scalable, agentic-first, and HuggingFace-native RL framework for research (9k lines).
+- **大概是做什么的**: An agentic-first RL framework for research. Ray · vLLM · NVIDIA AutoModel — the smallest PyTorch / HuggingFace-native stack for 1T-class fully-async, multimodal, multi-turn agentic RL. Package SFT RL Runtime molt molt.cli.train sft molt.cli.train rl ray vLLM Molt is agentic-first and PyTorch / HuggingFace-native . The agent is the program; the trainer is a single actor; reward is any Python you write inside an Env or ChatAgent — graders, multi-turn tools, VLM environments, LLM-as-judge. Three components carry the rest — Ray for placement and async queues, vLLM for rollout, NVIDIA AutoModel + FSDP2 for training in pure PyTorch. That is the whole stack: 9.2K lines of RL code that scale to 1T-class MoE on vLLM with TP / EP / CP — think DeepSeek-V3 at --fsdp.ep size 256 , Adam CPU offload for the largest actors. One agent API, one trainable actor, clean enough to read end-to-end. - 2026-09 · Molt now supports FlashREINFORCE, critic-free single-rollout RL with stable training beyond 6,000 steps — see the quick start. Three boxes. One async loop. Ray owns placement and the async queue betw
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-rl, context-parallelism, expert-parallelism, fsdp, huggingface, llm
+
+---
+
+### 🌟 [mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,594
+- **核心概述**: MCP Server for kubernetes management commands
+- **大概是做什么的**: MCP Server Kubernetes MCP Server that can connect to a Kubernetes cluster and manage it. Supports loading kubeconfig from multiple sources in priority order. https://github.com/user-attachments/assets/f25f8f4e-4d04-479b-9ae0-5dac452dd2ed Installation & Usage Before using this MCP server with any tool, make sure you have: 1. kubectl installed and in your PATH 2. A valid kubeconfig file with contexts configured 3. Access to a Kubernetes cluster configured for kubectl (e.g. minikube, Rancher Desktop, GKE, etc.) 4. Helm v3 installed and in your PATH (no Tiller required). Optional if you don't plan to use Helm. You can verify your connection by running kubectl get pods in a terminal to ensure you can connect to your cluster without credential issues. By default, the server loads kubeconfig from /.kube/config . For additional authentication options (environment variables, custom paths, etc.), see ADVANCED README.md. Add the MCP server to Claude Code using the built-in command: This will automatically configure the server in your Claude Code MCP settings. Add the MCP server to Codex CLI usi
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: infrastructure, kubernetes, mcp, server
+
+---
+
+### 🌟 [dbt-charts](https://github.com/dbt-labs/dbt-charts)
+- **项目语言**: Python
+- **星标数量**: ⭐ 545
+- **核心概述**: Declarative YAML around SQL for dbt-native dashboards: easy for agents to write, easy for humans to audit.
+- **大概是做什么的**: A declarative YAML syntax around SQL for making dashboards. dbt Charts, from dbt Labs (package dbt-charts , CLI dct ), compiles YAML board definitions into interactive dashboards and reports in many formats. SQL is still the language for defining WHAT data you want to see, and dbt Charts wraps that with a simple YAML syntax declaring HOW you want to see it. Problem: Vibe coded dashboards create a mess of artifacts, frameworks and data transformations at every layer, making it hard or impossible to audit. Solution: a clear YAML syntax for dashboards that's easy for agents to write and humans Try it without installing anything at play.dbtcharts.com , or start with the docs. The YAML behind this board Open it in the Playground This repository is a read-only mirror of dbt Labs' private upstream. Issues are welcome; pull requests are not accepted. See Beta. dbt Charts is pre-1.0. Requires Python 3.10 to 3.13. Hand your coding agent one sentence. dct skills intro teaches it the tool and which dct talks to your warehouse through dbt adapters and needs the adapter in its own environment, so
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, analytics, analytics-engineering, business-intelligence, charts, dashboards
+
+---
+
+### 🌟 [easyread](https://github.com/Edwardxlai/easyread)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 526
+- **核心概述**: 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.
+- **大概是做什么的**: 导入 PDF，后台逐页翻译；公式、表格照原文排好，随时对照原文，边读边划线、记笔记、提问。 本地运行，论文和笔记只存在你自己的电脑上。 ▶ 在线试读一篇 · 项目主页 · 下载 它和“把 PDF 丢给翻译软件”有什么不一样 - 像读一本排好版的中文书。 宋体正文、舒服的行宽和行距，公式用 KaTeX 按原文重排，表格是三线表，参考文献保留原文。顶栏一键切深色。 - 随时核对原文。 一键切“对照”，每段下面附英文；右侧可以开原页，跟着阅读位置翻页，还会框出当前段落在原页的位置。 - 翻译和解释分开。 正文只放忠实的译文；AI 的解释、回答放在页边，一眼就能分清哪句是论文说的。 - 边读边问 AI。 右侧“问 AI”面板实时对话，回答逐字流出来；可以一次引用好几段（选中文字拖进输入框就行）。问“我标红的那些公式有什么联系”，它会按颜色找出你的划线。可以开多个对话，模型单独选：Claude、GPT（Codex）、DeepSeek、通义、本机 Ollama……好的回答一键放到页边。 - 边读边批注。 选中文字四色荧光笔或下划线、写笔记、提问；问题一键让 AI 回答，笔记可以让 AI 点评。所有笔记按原文顺序汇总，可以勾选导出成 Markdown（放进 Obsidian、Notion）。 - 译文可以改。 双击一段直接改；术语表里改一个译法，全文替换。 - 不只是 arXiv。 拖进任何 PDF；或者填 arXiv 编号、DOI、论文标题、论文网页（OpenReview、ACL、NeurIPS、bioRxiv、PMC、期刊页面），自动找到公开的 PDF 并补全作者、年份、出处。 - 文献库。 侧栏像聊天软件：论文和分类都能置顶；自己建分类（右键改名、删除，把论文拖进去），内置分类可以隐藏；最近阅读、搜索、未读 / 在读 / 已读、星标、阅读进度、复制引用（GB/T 7714、APA、BibTeX）、导出单文件离线 HTML 发给别人。删掉的论文先进回收站，可以恢复。快捷键可以自定义。 - 用了多少心里有数。 每次翻译、每条 AI 回答都记下用了多少 token；用 Claude 订阅时，还能看到 5 小时 / 7 天额度用到多少、什么时候重置。 - 不会丢东西。 每次修改先存在浏览器，本地服务确认写进文件才删；翻译方后来改了你改过的段落，只提示，不覆盖。 Claude Code （推荐） 装好并登录 Claude Code 不用 Key，用你订阅的额度；会自己看原页图核对公式，译文最好 Codex CLI 装好并登录 Codex 不用 Key，用 ChatGPT 账号 A
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: academic, arxiv, chinese, claude-code, codex, electron
+
+---
+
 ## 🕔 2026-10-01 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
