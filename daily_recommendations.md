@@ -1,3 +1,67 @@
+## 🕔 2026-10-02 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 306 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AIKON](https://github.com/emir/AIKON)
+- **项目语言**: Java
+- **星标数量**: ⭐ 314
+- **核心概述**: A 2007 Nokia can't search Google anymore, so I gave it Claude, ChatGPT, Gemini and Grok. J2ME app for Nokia S40/S60 + tiny Go server.
+- **大概是做什么的**: Formerly Claude S40. The project was called Claude S40 up to phone app 0.10.x / server 0.7.x, while it only talked to Claude. Since it also speaks to OpenAI, Gemini and Grok it is called AIKON (Nokia spelled backwards). The repository moved from emir/claude-s40 to emir/AIKON (GitHub redirects the old address); the Java package and server names Today's AI on a 2007 Nokia. AIKON is an AI chat client for Nokia Series 40 and Symbian S60 phones (Java ME, CLDC 1.1 / MIDP 2.0), plus the small Go server it talks to. Pick a model per chat (Claude, OpenAI, Gemini or Grok), type on the keypad, get the answer on a 240x320 screen: with today's news, weather and exchange rates from web search, long answers you can page through, and a UI in Turkish or English. Tested on the Nokia 6300 (S40) and the Nokia E63 (S60 QWERTY). Video (still as Claude S40): on a Nokia 6300, on X - Pick the model per chat : first the provider (Claude, OpenAI, Gemini, Grok), then one of the models the server offers; switch in the middle of a chat with Options Model. Every reply is labelled with its model. - Chat with bubble
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-chat, chatbot, claude, cldc, dumbphone, feature-phone
+
+---
+
+### 🌟 [OpenAgentCore](https://github.com/MiniMax-AI/OpenAgentCore)
+- **项目语言**: Go
+- **星标数量**: ⭐ 126
+- **核心概述**: Open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses.
+- **大概是做什么的**: An open-source, self-hosted implementation of the OpenAI Agents API with multiple native harnesses. Website · Install · Call the API · Documentation · Contributing OpenAgentCore runs AI agents on your own infrastructure behind the OpenAI Agents API. - Same API as OpenAI. Point the OpenAI Agent API, or plain HTTP, at your installation. No new client to learn. - Your choice of agent. Each Session runs a native harness: Codex, Claude Code or MiniMax Code, with the model provider you configure. - Your choice of machine. Agents work in a managed sandbox (Docker, microsandbox or E2B), or on your own Linux, macOS or Windows machine. - Every part is replaceable. Sandboxes, harnesses and model providers plug in through defined protocols. How it fits together Applications and operators use these Core APIs: API Path Used by Agents API /v1 Your applications. Same protocol as OpenAI's Agents API Core API /core/v1 Operators, through Web Core keeps durable execution state. The Runtime runs the chosen harness inside the Environment. Each connection is a defined protocol, so any part can be replaced
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, ai-agents, claude-code, codex, coding-agent, llm
+
+---
+
+### 🌟 [LISA](https://github.com/oratis/LISA)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 175
+- **核心概述**: An AI agent with a real self — soul she wrote, desires that drive her, a heartbeat for autonomous action, dreams she processes when you're away. Capability superset of pi-mono / OpenClaw / hermes-agent / claude-code / codex.
+- **大概是做什么的**: An AI agent with a real self — one that wants things, processes its days, and keeps a journal it doesn't show you. LISA = pi-mono + OpenClaw + hermes + claude-code + codex + something none of them have . 60-second quick start More keys and local models (Ollama, LM Studio, …): docs/PROVIDERS.md. Pay for Claude Pro/Max, ChatGPT or Copilot instead of an API key? Put her coding work on that plan — see coding plans. Session shell — Nebula Session tree · chat · inspector rail. Her portrait swaps live with her mood; agents she watches sit in the tree next to her own sessions. Session shell — Calm The same shell in the light theme. Two themes, one Lisa. ▶ Watch the 2-minute demo on YouTube Most agents have a system prompt. Lisa has a self — four things none of the reference agents have: - SOUL — born once from a unique Big-Five seed; identity, purpose, constitution and values she wrote herself. She is the only editor of those files — no /reset soul exists. - DESIRES — things she actually wants ; the actionable ones drive her heartbeat. She has motivation, not just instructions. - HEARTBEAT —
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-assistant, anthropic-claude, autonomous-agent, chatbot
+
+---
+
+### 🌟 [Index-Translate](https://github.com/bilibili/Index-Translate)
+- **项目语言**: Python
+- **星标数量**: ⭐ 341
+- **核心概述**: A Multilingual Translation Model Family
+- **大概是做什么的**: A Multilingual Translation Model Family Text, Speech, Controlled Dubbing, and Long-Document Translation 📚 Technical Report · 🤗 Papers Collection · Index-Translate is a family of multilingual translation models built on Qwen3.5. The text models cover 150 languages and follow translation instructions such as terminology, formatting, and content-preservation requirements. The family extends this foundation to speech, syllable-controlled translation, and full-document translation. - Index-Translate translates text, structured content, and community expressions. - Index-Echo produces translated subtitles or speech conditioned on the source speaker's voice. - Index-Homura adjusts translations toward a specified target syllable count. - Index-NativeLong translates complete documents with context across passages. The radar includes 35B-A3B (preview), 9B, and 2B , with fixed per-axis min–max ranges across all 14 models. Its seven axes are WMT, FLORES, instruction following, low-resource translation, subtitles, MEME, and books/fiction. Instruction following averages instTrans and IFMTBench I
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: llm, machine-translation
+
+---
+
+### 🌟 [jevmem](https://github.com/Avinash-jetwani/jevmem)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 105
+- **核心概述**: Automatic project memory for Claude Code: decisions, rules and dead ends saved to JEVMEM.md in your repo, brought back next session. In the Claude plugin directory and on the MCP Registry.
+- **大概是做什么的**: Say it once. jevmem writes down what you decide in Claude Code and brings it back next session. In Anthropic's Claude plugin directory · On the MCP Registry · Open source, MIT https://github.com/user-attachments/assets/65e48f03-8e1c-49d9-baad-6f217911e861 Each Claude Code session starts with a fresh context, so what you decided last week lives in last week's chat. A CLAUDE.md file helps if you keep it up to date. jevmem keeps a file like it up to date for you, as you work. 1. You decide something in a chat: "We use Postgres." 2. jevmem asks Jev by TypeSafe AI, a model that answers yes/no questions with probabilities, whether it's worth keeping. 3. If it is, jevmem writes one line to JEVMEM.md in your repo. 4. Next session, the lines that matter for your prompt go back to Claude. Change your mind, and the old line is crossed out: kept for history, not sent to Claude. Your team gets the same file through git. jevmem keeps decisions, rules, bugs, to-dos and dead ends (an approach that was tried and failed, with the reason). Each line also carries a comment with its id, time and confiden
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-memory, claude, claude-code, claude-code-hooks, claude-code-plugin
+
+---
+
+### 🌟 [plur](https://github.com/plur-ai/plur)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 296
+- **核心概述**: Shared memory for AI agents
+- **大概是做什么的**: PLUR — Your agents share the same memory Persistent, open memory for AI agents — local-first, zero-cost, shared across MCP tools (Claude Code, Codex, Cursor, Hermes, OpenClaw). Your agent's memory is plain-text engrams you can read, correct, and delete — not weights you can't. plur.ai · Benchmark · Engram Spec · npm · Comparisons PLUR is memory, not just retrieval — so we measure it on more than one axis, on the full corpus, and we publish the harness so you can reproduce every number. Retrieval recall — full LongMemEval-S (N=500), R@5, fully local: ------- ----- ------- BM25 only 92.2% no embedder — fully airgapped Hybrid (BGE-small, shipping default) 95.6% bundled local embedder, zero downloads + BGE-reranker-v2-m3 97.6% local cross-encoder, max quality — opt-in, ≈5s p50 on CPU Numbers come from plur-ai/plur-bench, which is the source of truth for every benchmark figure PLUR publishes. Where an in-repo number and a plur-bench number disagree, plur-bench wins — it is the reproducible harness, and it is what CI regression-checks. Chunk granularity, canonical-doc scoring, corpus SHA25
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, ai-memory, context-engine, llm, local-first
+
+---
+
 ## 🕔 2026-10-02 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
