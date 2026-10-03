@@ -1,3 +1,67 @@
+## 🕔 2026-10-03 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Apeireth](https://github.com/Apeireth/Apeireth)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 313
+- **核心概述**: Apeireth — A Pure Safe Rust AGI Operating System & Cognitive Microkernel. 18 crates: continuous topological memory, causal world model, cognitive scheduler, Ember HUD, triple-onion security & portable USB agent.
+- **大概是做什么的**: An AGI Operating System & Cognitive Microkernel (Pure Safe Rust) — A Home for an Intelligence that Truly Remembers. It was after his parents passed — months apart — that the silence in the house became something he could hear. He had never been the kind of son who called. He told himself he was busy, that they understood, that there would always be time. Then there wasn't. And what hurt worst, in the months after, was not the loss itself — it was that he couldn't remember what they had loved. What his mother's hands liked to do on Sunday mornings. What his father laughed at. He had never asked. Now there was no one left to ask. One night, packing the old things, he found his mother's recipe notebook — mostly blank pages. He sat on the floor and cried without sound. The tablet glowed softly. "Your mother used to add a little more sugar than the recipe said," Apeireth said. "You mentioned it once, three years ago, in passing — '我妈腌的萝卜干，别人家做不出那个甜味。' You said it like it was nothing. I kept it." "She liked chrysanthemums, not roses. The white ones. Your father's favorite chair faced the w
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agi, ai-agents, autonomous-agents, cognitive-architecture, microkernel, operating-system
+
+---
+
+### 🌟 [astra-quant-agent](https://github.com/0xethanq/astra-quant-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 312
+- **核心概述**: 结合多大模型分析与确定性代码风控的自主量化交易系统 ｜ Autonomous crypto trading system with multi-LLM analysis, deterministic Python risk control & OKX execution.
+- **大概是做什么的**: Autonomous Crypto Trading System with Multi-LLM Analysis & Deterministic Risk Control AstraQuant combines large language models (macro, technical, and microstructure analysis) with deterministic Python risk management and OKX-native conditional order execution. Preview · Quick Start · Referral · Architecture · Market Factors · Risk Control · Deploy · Code Map Quant Trading Workstation Chain-of-Thought (CoT) Decision Drawer Execution Risk Control Center Multi-Model Committee Board Additional Interface Previews (Click to expand: Prompt Studio, Evolution, Admin, Security) Prompt Engineering Studio Closed-Loop Self-Evolution Hub LLM Gateway & Thinking Config System Governance & Admin Overview Security & Credential Plaza Factor Telemetry Table Service Surface Local Access URL Role & Purpose Trading Workstation http://localhost:8080/trading Real-time position HUD & factor telemetry Admin Control Plane http://localhost:8080/admin/login Risk settings, prompt studio, API keys API Documentation http://localhost:8080/docs OpenAPI schema & endpoint specifications Fail-Closed Default : AstraQuant
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-trading, algorithmic-trading, binance, crypto-trading
+
+---
+
+### 🌟 [dev-3.0](https://github.com/h0x91b/dev-3.0)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 303
+- **核心概述**: Mission control for the One Person Studio — run a fleet of AI coding agents in parallel without losing your mind. Kanban + git worktrees + tmux for Claude Code, Codex, Gemini CLI, OpenCode and any shell agent. Not an IDE.
+- **大概是做什么的**: A Kanban board where every card is a live AI coding agent. Each task gets its own git worktree, its own terminal and its own agent — so a dozen of them can run at the same time without ever touching each other's files. ▶ Play in full quality the whole 90 seconds, 1080p, with sound Every card is a real git worktree, a real terminal and a real branch. What using it looks like Write a task → get a worktree → an agent works in it → you watch → you review → it merges Six steps. You write the first one and approve the last; the middle four happen on the board. 1. Write a task, pick who does it You describe the work and choose the agent. Claude Code, Codex, Gemini, Cursor Agent, opencode — or several at once, each in its own pane of the same task. 2. dev-3.0 builds the sandbox A fresh git worktree off your base branch, a tmux session inside it, your per-project setup script, and — if you asked for them — free ports reserved for that task's dev server. Heavy directories like node modules or .venv are copy-on-write cloned, so the sandbox costs near-zero disk and appears instantly. Nothing the
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-coding, bun, claude-code, codex
+
+---
+
+### 🌟 [pi-fabric](https://github.com/fabric-runtime/pi-fabric)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 278
+- **核心概述**: A programmable tool and agent runtime for Pi
+- **大概是做什么的**: A programmable tool and agent runtime for Pi One program for tools, MCP, agents, workflows, actors, mesh, councils, and recursion. 🏆 100% on ARC-AGI-3 . A Fabric-powered agent won all 25 environments in one 22.4-hour session with 4 minutes of human time ($1,349 in model spend). Fabric gives Pi one programmable tool called fabric exec , which composes core tools and MCP servers with captured extension tools. The default kernel runs checked TypeScript in isolated QuickJS; select sandboxed Python (Monty) with executor.kernel: "python" . CPython is an explicit native escape hatch via executor.pythonRuntime: "cpython" . The configured kernel is exclusive: there is no per-call language selector. Trusted TypeScript workloads can also use unsafe Node/Bun processes. Programs call host providers for agents, actors, and durable coordination, then return the result of their branches, loops, fan-out, and data flow. See execution kernels for Python usage, security boundaries, and guest-helper limitations. Capability What it unlocks :-: ---------- --------------- ⚡ Code mode One flat tool schema;
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, coding-agent, mcp, multi-agent, orchestration, pi
+
+---
+
+### 🌟 [TAgent](https://github.com/pengmoubuaixuexi/TAgent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 182
+- **核心概述**: TAgent 是一个基于 Java 17、Spring Boot、Spring AI 和 DDD 分层构建的 AI Agent 工程实践项目。 它不是只封装一次模型调用，而是覆盖了一次 Agent 请求从接入、路由、运行时装配、规划执行、RAG、记忆、MCP 工具治理、人工审批、执行中干预，到 SSE 流式输出和全链路观测的完整过程。
+- **大概是做什么的**: 🚀 面向生产实践的 AI Agent 工程框架 不只是简单的模型封装，而是覆盖 Agent 请求的完整生命周期：接入、路由、运行时装配、规划执行、RAG、记忆、MCP 工具治理、人工审批、交互通知、执行中干预，到 SSE 流式输出和全链路观测。 TAgent 是一个基于 Java 17 、 Spring Boot 、 Spring AI 和 DDD 分层架构 构建的企业级 AI Agent 工程实践项目。 它覆盖了一次 Agent 请求从 接入、路由、运行时装配、规划执行、RAG、记忆、MCP 工具治理、人工审批、交互通知、执行中干预 ，到 SSE 流式输出和全链路观测 的完整过程。 本仓库是脱敏后的公开版本，不包含真实密钥、运行日志、历史对话、临时报告、数据库备份和个人文件。 🌐 在线体验：http://49.232.209.30:8099 当前暂时提供公网 IP 访问，后续将上线正式域名，届时会在此更新访问地址，目前暂未提供自行搭建Agent的能力，主要提供了一些配好的不同方向的测试Agent，主要提供试用，用的是mimo-v2.5以及deepseek-v4-flash。如果测试用户多会尽快上线如何自行配置Agent（包括自己的RAG知识文档，mcp，System prompt等）做用户分离的操作，并需要用户自行配置自己的API接口。 - 想系统学习 Java / Spring AI Agent 工程化落地 的开发者。 - 正在研究 MCP 工具治理、动态工具补挂、Agentic RAG、多层记忆 的同学。 - 需要参考 流式 SSE、人工审批、执行中干预、主动追问 ask user、可观测性 完整链路的团队。 三种策略、动态工具补充、主动追问、计划确认、人工审批、通知收件箱、运行编号重做、长期记忆管理、断线续作、图片理解、后台任务与观测页面均提供了独立录屏，便于按功能查看或替换：查看功能演示录屏。 - 动态工具补充 ：路由可预推断缺失能力，也可由执行期 request tool 主动描述能力缺口 → PgVector 匹配真实 MCP 工具 → 与 Agent 常驻工具合并 - Flow 计划确认 ：仅 Flow 策略在生成并解析计划后可暂停，用户确认或编辑计划后再进入 DAG 执行 - 运行编号快照重做 ：Fixed、Auto、Flow 每次运行都会生成运行编号；前端可通过 /run 查看近期快照，并用 /runId-stepN 从指定步骤修正重跑 - 断线续作与重连 ：浏览器连接只是 run 的订阅者；刷新、网络抖动或切换会话不取消后端执行，重连后
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, java, llm, mcp, rag, springai
+
+---
+
+### 🌟 [public](https://github.com/dbcodeio/public)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 352
+- **核心概述**: The database IDE for VS Code, Cursor, and Windsurf. 80+ databases: Postgres, MySQL, SQL Server, MongoDB, Snowflake, and more. AI queries, ER diagrams, SQL notebooks.
+- **大概是做什么的**: DBCode - SQL & Database Client for VS Code A modern database client for VS Code, Cursor, Windsurf, Antigravity, and Kiro - and the database layer for your AI agent, with built-in MCP and Copilot tools. Write SQL with IntelliSense, edit table data in place, and manage 90+ databases without leaving your editor. SQL Notebooks, auto-generated ER diagrams, charts, and secure report sharing built in. Available on the VS Code Marketplace and OpenVSX (for Cursor, Windsurf, and other VS Code forks). 90+ supported databases, warehouses, lakehouses, and file formats Data Viewing & Editing - Filter, sort, and group data with a few clicks - Edit rows directly: insert, update, delete without writing SQL - Changes verified before execution so you don't have a production horror story AI & Copilot Integration Query your data with natural language. Ask schema questions, generate queries, create tables. Your editor's AI agent gets full database access through DBCode's built-in MCP tools - registered automatically in VS Code (Copilot) and Cursor, one click in Antigravity, Windsurf, and Kiro, and availab
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cursor, database, database-client, database-management, duckdb, github-copilot
+
+---
+
 ## 🕔 2026-10-02 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
