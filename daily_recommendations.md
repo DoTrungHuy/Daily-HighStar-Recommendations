@@ -1,3 +1,67 @@
+## 🕔 2026-10-02 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [munder-difflin](https://github.com/HarnessMD/munder-difflin)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,319
+- **核心概述**: an open-source alternative to the dots, bots and muses of the world, run an office of claude code/codex like agents on your laptop, sandboxes or anywhere, uses your existing subscriptions
+- **大概是做什么的**: Agent harness to run an office of your clones Free, open source and performant. A multi-agent harness that works with the subscriptions you already pay for, on their hourly limits. It turns the terminal coding CLI you already run into a clone of you, one that keeps working while you're away and coordinates a whole office of agents on your own machine. Wraps Claude Code, Antigravity (Gemini), OpenAI Codex, xAI Grok , Kimi Code , Gemini CLI , Qwen , OpenCode , Crush , pi.dev , GitHub Copilot CLI , and Cursor , with bring-your-own keys and local LLMs. Agents that message, route, and remember, coordinated by your clone (Michael) and visualized as avatars at work on a shared office floor. Electron · React · TypeScript · Pixi.js · xterm.js · node-pty ▶ Watch the floor: Munder Difflin running a hive of Claude Code agents ⬇ Download 0.5.3 for macOS, Windows or Linux macOS builds are signed and notarized. You do not need to build from source to use it. The open source build is on the GitHub releases page . Cancel your Granola and Wispr Flow subscriptions. 0.5.3 dictates into any app and trans
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-orchestration, agents, ai-agents, autonomous-agents, claude-code
+
+---
+
+### 🌟 [agent-landing-zone](https://github.com/Azure/agent-landing-zone)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,179
+- **核心概述**: Enterprise-grade accelerator for agentic RAG on Azure. Built on Microsoft Foundry with Foundry IQ as the default retrieval backend, Microsoft Agent Framework orchestration, Zero-Trust architecture and IaC.
+- **大概是做什么的**: GPT-RAG Solution Accelerator This solution accelerator provides architecture templates and deployment assets to help organizations build secure, scalable, and enterprise-ready agentic RAG solutions on Microsoft Foundry . Orchestration runs on the Microsoft Agent Framework , and Foundry IQ is the default retrieval backend, blending Blob, Azure AI Search, Work IQ, Fabric, SharePoint, OneLake, Web and MCP sources with permission trimming. Azure AI Search direct remains fully supported as a rollback path. It applies proven Azure design patterns with Zero-Trust security , Responsible AI , and end-to-end observability . For full documentation, visit the GPT-RAG documentation site . GPT-RAG is built on a Zero-Trust architecture to ensure that all components operate within a controlled, isolated environment. Network access is tightly governed, and communication between services follows least-privilege principles. Head to the documentation site for the complete guides: - Grounding sources overview start here: Foundry IQ (default), Azure AI Search direct, Work IQ, Fabric, SharePoint, OneLake,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-rag, ai-agents, azd-templates, azure, foundry-iq
+
+---
+
+### 🌟 [omnisim](https://github.com/omnilink-tech/omnisim)
+- **项目语言**: Python
+- **星标数量**: ⭐ 186
+- **核心概述**: Open-source robotics simulator for coding agents: HTTP/JSON + MCP control, Newton physics, wgpu rendering, ROS 2, and reproducible benchmarks.
+- **大概是做什么的**: An open-source robotics workshop for agents. If you're learning robotics, building a robot, or have an idea but don't have access to the hardware, OmniSim is built for you. OmniSim is more than a simulator. It's an open-source robotics workshop designed for agentic development — a place where an agent has everything it needs to work on any robotic system. You can simulate complete robotic systems with high-fidelity physics, build digital twins, connect simulation to real robots, and give AI agents a workshop to program, test, and debug your system. You can do all of that simply by talking to it. Give it an instruction. See it move. One Husky. One arena. Live AI instructions, follow-up questions, and a return to base. Watch the full 100-second video · Run this demo. Silent native OmniSim footage; waiting removed and motion time-compressed. The preview shows the opening 32 seconds. OmniSim is the free robotics workshop. OmniLink is the connected AI agent. OmniLink requires an OmniKey and a model connection, including on Free; model usage is billed separately. Connect your account. The
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, autonomous-agents, digital-twin, gpu-physics, humanoid-robotics
+
+---
+
+### 🌟 [cortexdb](https://github.com/liliang-cn/cortexdb)
+- **项目语言**: Go
+- **星标数量**: ⭐ 261
+- **核心概述**: AI memory and a knowledge graph in one SQLite file. Pure Go: vectors, RAG, agent memory, RDF/SPARQL, Cypher, 80+ MCP tools. Works without an embedding model.
+- **大概是做什么的**: AI memory and a knowledge graph in one SQLite file. Pure Go, no service to run, works without an embedding model. Go library go get github.com/liliang-cn/cortexdb/v2 Claude Code /plugin marketplace add liliang-cn/cortexdb , then /plugin install cortexdb@cortexdb Codex codex plugin marketplace add liliang-cn/cortexdb && codex plugin add cortexdb@cortexdb Shared-brain server go install github.com/liliang-cn/cortexdb/v2/cmd/cortexdb-grpc@latest Clients cargo add cortexdb-client · pip install cortexdb-client · npm install cortexdb-client The plugin gives Claude Code and Codex one global brain at /.cortexdb/cortexdb.db , /remember , /recall and an auto-recall hook. Point several agents or machines at one cortexdb-grpc and they share the same memory and graph. - Vectors (HNSW, IVF, flat, binary codes), FTS5 full-text search, hybrid and graph retrieval - RAG knowledge, scoped agent memory, context packs with sources - RDF 1.2 knowledge graph: SPARQL, RDFS + OWL 2 RL inference, SHACL, read-only Cypher - Palantir-style ontology with governed actions - 80+ tools, in-process or over MCP - serve
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-memory, claude-code, codex, embeddings, full-text-search
+
+---
+
+### 🌟 [platypus](https://github.com/willdady/platypus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: Self-hosted AI Agents for your whole team — on your infrastructure, your models, around the clock.
+- **大概是做什么的**: Self-hosted AI Agents for your whole team — on your infrastructure, your models, around the clock. Platypus is an open-source, full-stack application for building AI Agents that reason, use tools, and keep working when you aren't watching. You bring the models — hosted, proxied, or running on your own hardware — and Platypus gives you the Agents, the tools they call, the Triggers that run them, and the multi-tenant boundaries that keep one team's work out of another's. 🌐 Visit the website at platypus.chat. 📚 Full documentation lives at docs.platypus.chat. - Sovereignty. Run against local or in-house models (Ollama, vLLM, Qwen, …) so internal data never leaves your infrastructure. - Always-on. Agents run on triggers and keep working server-side after you close the tab — not on a laptop that has to stay awake. - Under one roof. Agents, Boards, Dashboards, Sandboxes, MCP, Triggers, and Memory in one platform instead of a stack of stitched-together services. - Provider-agnostic. Local or frontier models, chosen per Agent, so you control the cost/capability trade-off. - 🤖 Agents, Skill
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, ai, ai-agents, ai-assistant, dashboard
+
+---
+
+### 🌟 [anubis-mcp](https://github.com/zoedsoupe/anubis-mcp)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 176
+- **核心概述**: Elixir Model Context Protocol (MCP) SDK (hermes-mcp fork)
+- **大概是做什么的**: A high-performance Model Context Protocol (MCP) implementation in Elixir. Anubis MCP is a comprehensive Elixir SDK for the Model Context Protocol, providing complete client and server implementations with Elixir's exceptional concurrency model and fault tolerance. Supported MCP versions anubis mcp MCP spec versions ------------ ------------------- 1.x 2024-11-05, 2025-03-26, 2025-06-18, 2025-11-25 2.x 2025-03-26, 2025-06-18, 2025-11-25 Breaking changes in 2.0: - Support for spec version 2024-11-05 was dropped; 2025-03-26 is the new floor. - The HTTP+SSE transports ( {:sse, ...} on the client, Anubis.Server.Transport.SSE on the server) were removed, following their deprecation upstream. Use Streamable HTTP ( {:streamable http, ...} ) instead. Mirroring the upstream MCP specification: - Deprecated features keep working for at least one minor release cycle and ship with a documented migration path. - Removed features are deleted only in major releases. Dropping a spec version is always a major bump. Now you can achieve your MCP server on http://localhost: /mcp Named after Anubis, the Eg
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: elixir, mcp, mcp-sdk
+
+---
+
 ## 🕔 2026-10-02 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
