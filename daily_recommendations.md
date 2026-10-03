@@ -1,3 +1,67 @@
+## 🕔 2026-10-03 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 319 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [chonkie](https://github.com/feyninc/chonkie)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,782
+- **核心概述**: 🦛 CHONK docs with Chonkie ✨ — The lightweight ingestion library for fast, efficient and robust RAG pipelines
+- **大概是做什么的**: The lightweight ingestion library for fast, efficient and robust RAG pipelines Tired of making your gazillionth chunker? Sick of the overhead of large libraries? Want to chunk your texts quickly and efficiently? Chonkie the mighty hippo is here to help! 🚀 Feature-rich : All the CHONKs you'd ever need 🔄 End-to-end : Fetch, CHONK, refine, embed and ship straight to your vector DB! ✨ Easy to use : Install, Import, CHONK ⚡ Fast : CHONK at the speed of light! zooooom 🪶 Light-weight : No bloat, just CHONK 🔌 32+ integrations : Works with your favorite tools and vector DBs out of the box! 💬 ️Multilingual : Out-of-the-box support for 56 languages ☁️ Cloud-Friendly : CHONK locally or in the Cloud 🦛 Cute CHONK mascot : psst it's a pygmy hippo btw ❤️ Moto Moto's favorite python library Chonkie is a chunking library that " just works " ✨ Or using uv (faster): Chonkie follows the rule of minimum installs. Have a favorite chunker? Read our docs to install only what you need. Don't want to think about it? Simply install all (Not recommended for production environments). Here's a basic example
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chonkie, chunker, chunking-algorithm, llms, rag
+
+---
+
+### 🌟 [oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4,402
+- **核心概述**: Technical resources for AI developers to build applications, agents, and systems using Oracle AI Database and OCI services
+- **大概是做什么的**: Oracle AI Developer Hub This repository contains technical resources to help AI Developers and Engineers build AI applications, agents, and systems using Oracle AI Database and OCI services alongside other key components of the AI/Agent stack. This repository is organized into several key areas: 📱 Apps ( /apps ) Applications and reference implementations demonstrating how to build AI-powered solutions with Oracle technologies. These complete, working examples showcase end-to-end implementations of AI applications, agents, and systems that leverage Oracle AI Database and OCI services. Each application includes source code, deployment configurations, and documentation to help developers understand architectural patterns, integration approaches, and best practices for building production-grade AI solutions. Name Description Link --------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentmemory, agents, ai, ai-developer, artificial-intelligence, generative-ai
+
+---
+
+### 🌟 [ai-hands-on](https://github.com/Ramakm/ai-hands-on)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 1,454
+- **核心概述**: A group of notebooks and other files which can help you learn AI from scratch.
+- **大概是做什么的**: AI Engineering: Hands-on A complete, hands-on guide to becoming an AI Engineer. This repository is designed to help you learn AI from first principles, build real neural networks, and understand modern LLM systems end-to-end. You'll progress through math, PyTorch, deep learning, transformers, RAG, and OCR — with clean, intuitive Jupyter notebooks guiding you at every step. Whether you're a beginner or an engineer levelling up, this repo gives you the clarity, structure, and intuition needed to build real AI systems. If you learn something useful, a star is appreciated. Repository Structure 1. Math Fundamentals - Math functions, derivatives, vectors, and gradients - Matrix operations and linear algebra - Probability and statistics - Creating and manipulating tensors - Matrix multiplication, transposing, and reshaping - Indexing, slicing, and concatenating tensors - Special tensor creation functions 3. Neural-Network(NN) - Building neurons, layers, and networks from scratch - Normalization techniques (RMSNorm) - Activation functions - Optimizers (Adam, Muon) and learning rate decay - A
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, artificial-intelligence, books, chatbot, machine-learning, math
+
+---
+
+### 🌟 [skills](https://github.com/scenario-labs/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 851
+- **核心概述**: Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
+- **大概是做什么的**: Scenario Agent Skills Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server: images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differently: teams of skills that drive DCC (digital content creation) software and game engines installed on your machine (ZBrush, Blender, Maya, Unreal Engine, Unity), distilled from expert tutorials, conference talks, and official documentation. They need the application, not the Scenario MCP server, and each family folder's README records how it was built and how far it was verified. Skills follow the Agent Skills format. Everything for Scenario. All 65 Scenario skills, without the expert tools: the default for working through the Scenario MCP. By role. INSTALL.md groups the skills by job, from 2D artist to producer, with the outcomes each role gets and one command per role. By goal. Each command instal
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-generation, agent-skills, blender, claude-code, claude-skills, codex
+
+---
+
+### 🌟 [html-to-markdown](https://github.com/xberg-io/html-to-markdown)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 883
+- **核心概述**: High performance and CommonMark compliant HTML to Markdown converter. Maintained by the Kreuzberg team. Kreuzberg is a fast, polyglot document intelligence engine with a Rust core. It extracts structured data from 98+ document formats using streaming parsers and built-in OCR.
+- **大概是做什么的**: Turn messy, real-world HTML into clean Markdown — from the language you already work in. Feed html-to-markdown the HTML you actually have — unclosed tags, CDATA, custom elements, broken entities, nested tables, mixed encodings — and get back clean CommonMark (or Djot) without losing content. One convert() call does it, and it returns the same result whether you run it from Python, TypeScript, Go, Ruby, Java, or 11 more languages. You get more than the text: pull page metadata (Open Graph, Twitter, JSON-LD) and structured tables in the same pass, or hook into the conversion to reshape the output. It is fast enough for whole-corpus jobs, and the messy-input handling is automatic — you never choose a parsing strategy or tune anything to get correct output. Feature Description ------- ----------- 16 languages, one Rust core Rust, Python, Node.js, WASM, Java, Go, C , PHP, Ruby, Elixir, R, Dart, Kotlin (Android), Swift, Zig, and a C ABI Tiered dispatch Byte scanner → DOM walker → html5ever repair, with byte-equal output across tiers Real-HTML robust Unclosed tags, CDATA, custom elements, m
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: hocr, html, html-converter, markdown, markdown-converter, rag
+
+---
+
+### 🌟 [figma-mcp-bridge](https://github.com/gethopp/figma-mcp-bridge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 702
+- **核心概述**: Figma Plugin & MCP server to bypass API limits
+- **大概是做什么的**: Requires the Figma desktop app (macOS/Windows). The browser version of Figma does not support importing development plugins. While other amazing Figma MCP servers like Figma-Context-MCP exist, one issues is the API limiting for free users. The limit for free accounts is 6 requests per month, yes per month . Figma MCP Bridge is a solution to this problem. It is a plugin + MCP server that streams live Figma document data to AI tools without hitting Figma API rate limits, so its Figma MCP for the rest of us ✊ It supports multiple Figma files connected simultaneously ; open the plugin in each file and your AI agent can query any of them by fileKey . Single-file setups work exactly as before with no changes required. It also includes a small, opt-in set of write tools for safe agent-driven edits — see Editing Notes below. Watch a demo of building a UI in Cursor with Figma MCP Bridge 1. Add the MCP server to your favourite AI tool Add the following to your AI tool's MCP configuration (e.g. Cursor, Windsurf, Claude Desktop): That's it — no binaries to download or install. 2. Add the Figma p
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: design-to-code, figma, mcp, mcp-server
+
+---
+
 ## 🕔 2026-10-03 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
