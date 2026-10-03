@@ -1,3 +1,67 @@
+## 🕔 2026-10-03 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,988
+- **核心概述**: Open Source Alternative to Grok Bot with a virtual machine that bots can use
+- **大概是做什么的**: ⚠️ No affiliation with any cryptocurrency. OpenMausBot has no token. Any coin using the OpenMausBot, Maus, or SupaMaus name is not created, endorsed, or affiliated with this project or its maintainer. I have received no tokens, payment, or allocation from anyone, and I will not be endorsing any token. Your own team of AI bots, in a chat app. An independent, open-source project inspired by Grok Bot — bring-your-own-agent, local-first, on the models you already have. Not affiliated with xAI. Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud computer, and its own connected apps. Talk to them like contacts. Watch them work. Approve what matters. latest release &nbsp;·&nbsp; macOS: Apple silicon & Intel · signed & notarized .dmg &nbsp;·&nbsp; Windows: x64 installer &nbsp;·&nbsp; Ubuntu 24.04 x64: .deb or AppImage beta &nbsp;·&nbsp; all releases One assistant in one box is the wrong shape for agents. OpenMausBot is an independent, open-source project inspired by Grok Bot — it keeps the idea (AI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, computer-use, docker, electron
+
+---
+
+### 🌟 [agy-staff](https://github.com/keli-wen/agy-staff)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 710
+- **核心概述**: Hire Google's Antigravity CLI (agy) as a fast Gemini staffer for Claude Code and OpenAI Codex.
+- **大概是做什么的**: English Simplified Chinese Hire Google's Antigravity CLI ( agy ) as a staffer for Claude Code , OpenAI Codex , Pi , and OpenCode . Install · Examples · Core design · Upgrade agy-staff lets your senior agents delegate to agy , which ships fast Gemini 3.8 Flash. Five personas: staffer (general-purpose), researcher, reviewer (code and plans/decisions), implementer, and ask — plus a model-facing jobs skill. Claude Code uses /agy: and Codex uses $agy: . If you use Codex you know the feeling: GPT-5.6-Sol is slow even with fast mode on. Claude Code is quicker but still not fast, and Fable quota is scarce enough that you want it orchestrating subagents, not grinding through every survey and review itself. An agy worker gives you a fast lane — second opinions in seconds, research and reviews at Flash speed, scoped implementation handled off to the side while you keep moving. And where speed isn't the point, a second model family looking at the same code buys coverage and robustness your main agent can't give itself. Type /agy: in Claude Code and the five personas are right there: Same plugin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, antigravity, antigravity-cli, chatgpt, claude-code
+
+---
+
+### 🌟 [FineEnvs](https://github.com/adithya-s-k/FineEnvs)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 309
+- **核心概述**: FineEnvs — RL Environments 101: building and scaling RL environments in the age of LLMs
+- **大概是做什么的**: Open source RL environments for LLM agents Build&nbsp; ·&nbsp; Deploy&nbsp; ·&nbsp; Train&nbsp; ·&nbsp; Eval&nbsp; — end to end, reproducible, in the open. The RL environment ecosystem is moving fast . New frameworks land every few weeks, each with its own vocabulary for the same handful of ideas, and most of what's written about them is either a launch post or a spec. Meanwhile the actual bottleneck in RL for LLMs has quietly shifted: the algorithm isn't the hard part any more — the environment is. So we're building the resource we wanted. Open source, end to end, and reproducible: how to design an environment, how to build it, how to deploy it, how to train against it, and how to scale it to thousands of concurrent sessions. Real code you can run, not diagrams of code someone else ran. Every environment here works. Every rollout has been executed. Every training curve came from a job you can launch yourself, in one command, without a GPU of your own. 4 environments&nbsp; · &nbsp; 6 frameworks&nbsp; · &nbsp; 19 implementations&nbsp; · &nbsp; 10 deployed Spaces&nbsp; · &nbsp; 5 agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, grpo, huggingface, llm, openenv, reinforcement-learning
+
+---
+
+### 🌟 [saasmail](https://github.com/choyiny/saasmail)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 257
+- **核心概述**: Self-hosted email server for SaaS teams on Cloudflare Workers with WebMCP support
+- **大概是做什么的**: The centralized inbox for SaaS teams. One unified timeline per customer — marketing, notifications, and support emails collapsed into a single view, per person. Every interaction with a customer matters, and context compounds. saasmail pulls the promo blast, the billing receipt, and the support thread into the same conversation, so anyone on your team can respond with the full history already in hand. Self-hosted on Cloudflare Workers. Receive with Cloudflare Email Workers . Send with Cloudflare Email Sending , Resend , Bavimail , or Postmark . SaaS teams that want a self-hosted email stack on Cloudflare Workers — one shared, per-customer inbox for marketing, transactional, and support mail — without renting a VM or operating a traditional mail server. If you have a domain, a Cloudflare account, and want to own your customer email data for $5/month, this is for you. Prerequisites: a domain on Cloudflare with Email Routing available, the Workers Paid plan, and Node.js v18+. The fastest path is the Claude Code onboarding skill — it provisions every Cloudflare resource, fills out your c
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cloudflare-workers, email, email-mcp, email-mcp-server, mcp, saas
+
+---
+
+### 🌟 [ai-rulez](https://github.com/Goldziher/ai-rulez)
+- **项目语言**: Go
+- **星标数量**: ⭐ 145
+- **核心概述**: One source of truth for AI assistant configs: 14 built-in presets (Claude, Cursor, Copilot, Codex, Gemini, Xum, …), full-parity custom presets, and distributable plugin bundles including the Agent Plugins standard.
+- **大概是做什么的**: A complete development workflow for AI coding tools Documentation &middot; Quick Start &middot; Every AI coding tool wants its own config: Claude needs CLAUDE.md , Cursor wants .cursor/rules/ , Copilot expects .github/copilot-instructions.md . Each has different formats, frontmatter, and directory conventions. If you use more than one tool, you're maintaining duplicate rules that inevitably drift apart. Write your rules, context, skills, agents, and commands once in .ai-rulez/ . Run generate . Get native configs for every tool you use. Prefer the project-level .config/ convention? ai-rulez auto-discovers .config/ai-rulez/ as well, and ai-rulez init --config-dir .config/ai-rulez scaffolds it. ai-rulez generates correct, tool-native output for 14 platforms : Claude, Cursor, Windsurf, Copilot, Gemini, Cline, Continue.dev, Codex, OpenCode, Hermes, Amp, Junie, Antigravity, and Xum. Each preset respects the target tool's conventions — proper frontmatter, directory structure, file extensions, agent formats. For a tool that isn't built in, a custom preset can point at a declarative provider
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-plugins, ai, ai-agents, ai-governance, ai-skills, claude-code
+
+---
+
+### 🌟 [Librechat-Mobile](https://github.com/garfiec/Librechat-Mobile)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 106
+- **核心概述**: Native Android & iOS client for LibreChat, built with Kotlin Multiplatform and Compose Multiplatform
+- **大概是做什么的**: Switchboard: LibreChat Mobile Client A third-party native mobile client for LibreChat (Android & iOS). Not affiliated with the official LibreChat project — this is an independent app that connects to any self-hosted LibreChat server, no backend modifications required. Backend compatibility: Tested against LibreChat v0.8.4 – v0.8.8 . Older releases may work but are not guaranteed; newer releases are supported on a best-effort basis until the next sync. Why use this instead of the web app? - Smoother and faster — a real native app instead of a website in a wrapper, so scrolling, typing, and watching responses stream in all feel snappier. - Feels like a mobile app, not a shrunk-down website — familiar gestures like swipe to switch accounts and swipe back, comfortable tap targets, and a layout that adapts to tablets and foldables. - Plays nicely with your phone — share text, images, and files into the app from anywhere (Android) , pin your favorite models or generated content to your home screen, open chat links straight into the right screen, and save or share images through your phone'
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, ai-chat, android, anthropic, chat-bot, chatgpt
+
+---
+
 ## 🕔 2026-10-03 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 218 个候选项目中筛选出 6 个未推荐过的新项目。
