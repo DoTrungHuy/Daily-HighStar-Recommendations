@@ -1,3 +1,67 @@
+## 🕔 2026-10-03 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 218 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [skillshare](https://github.com/runkids/skillshare)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,711
+- **核心概述**: 📚 Your AI coding setup, everywhere. Manage skills, agents, rules, MCP connections and hooks in one place, with the desktop app or CLI.
+- **大概是做什么的**: English · 日本語 · 한국어 · 简体中文 · 繁體中文 Your AI coding setup, everywhere. Manage skills, agents, rules, MCP connections and hooks in one place. For Claude Code, Codex, Pi, OpenCode and more. Latest : v0.23.0 — manage and sync native hooks in global and project scope; choose which MCP tools reach the model with tools.allow and tools.deny ; and use the dashboard's new Hooks page and MCP tool picker to configure them. All releases → Switching AI tools should not mean rebuilding your setup. skillshare gives your skills and other AI resources a home you control. - Switch tools, keep your skills — edit once, then sync to Claude Code, Codex, Pi and the other tools you use. - Take your setup with you — version your source in Git and pull it onto another machine. - Share with your team — keep project resources with your code and distribute shared skills through tracked repositories. One teammate uses Claude Code, another uses Codex. Keep their shared code-review checklist in .skillshare/ alongside the project. New teammates install the declared skills and sync to the configured tools instead of cop
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude-code, cli, codex, copilot
+
+---
+
+### 🌟 [easy-agent](https://github.com/ConardLi/easy-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,006
+- **核心概述**: Production-ready open source terminal coding agent with readable, layered code: permission rules, OS sandboxing, MCP, skills, sub-agents, and Anthropic, OpenAI-compatible, Gemini, or local models.
+- **大概是做什么的**: A terminal coding agent that reads your code, edits files, and runs commands under permission rules you control. Easy Agent ( eagent ) runs in your terminal next to your repository. Describe a task and it plans the work, reads and changes files, runs tests or shell commands, and reports back. Every action that can change your machine goes through permission rules, workspace trust, and an optional OS-level sandbox. It works with Anthropic, OpenAI-compatible, Gemini, and local models. The code is written to be read as well as run. Model communication, the agentic loop, tools, permissions, context management, and each extension system live in separate layers. The documents linked below explain how the security-relevant parts behave and why, and the learning path walks through the layers in order with code snapshots, which helps if you want to build or customize an agent of your own. 中文文档：README.zh-CN.md What you can use it for - Find your way around an unfamiliar codebase: ask where something is handled, how a flow works, or what a change would touch. - Make multi-file changes, review t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, anthropic, cli, coding-agent, developer-tools
+
+---
+
+### 🌟 [herdr-reviewr](https://github.com/persiyanov/herdr-reviewr)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 823
+- **核心概述**: Review your coding agent's diff in a terminal pane and send line comments back to Claude Code, Codex, OpenCode or Pi. A herdr plugin.
+- **大概是做什么的**: Moshi: Terminals weren’t made for phones. Moshi is. A mobile terminal designed for AI coding agents. install · quick start · controls · scopes · configuration · limitations · changelog A code-review pane for herdr. Your agent writes the code. You read its diff in a pane beside the chat, comment on the lines, and send the notes back. You never leave One persistent pane, pointed at a git worktree: - Diff review — the agent's changed files, syntax-highlighted. - Four diff scopes — uncommitted, branch, last turn, commits. - Last-turn diff — what the worktree's latest turn changed, on its own. - Line comments — comment on a line or a range. Then send it to the agent. - Text selection — drag over any text to copy it, like an editor. - File viewer — any file's current content from the whole worktree. - Search — fuzzy file names and live code grep across the worktree, powered by fff. - Find in file — search the open file and step between every match. - PR view — the branch's pull request in the pane, read-only. - Markdown review — flip a .md file to rendered with m . - Themes — 20 palettes i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, claude-code, cli, code-review, code-review-tool
+
+---
+
+### 🌟 [dsh-tavern](https://github.com/flizzywine/dsh-tavern)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 628
+- **核心概述**: 基于DSH的Agent酒馆。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。
+- **大概是做什么的**: 基于 DSH（DeepSeek Harness）的 Agent 酒馆。兼容 SillyTavern 生态，人物卡直接导入就能玩。 更快 · 更稳 · 更鲜活 · 所有模型都能用（不限于 DeepSeek）· 手机也能玩 下载安装 · 使用文档 · 宣传视频 · 讨论区 · Discord - 兼容 SillyTavern 生态 ：人物卡、世界书、预设、正则美化、MVU、酒馆助手脚本，导入就能用，默认无需外部预设。 - 更快 ：一轮约 10 秒，缓存命中率 95% 以上。 - 更稳 ：状态栏不再掉格式。变量由后台按规则结算，每轮附更新结果，失败可单独重试；更新与重装都保留数据。 - 更鲜活 ：同样的模型、同样的预设，比原版酒馆更有活人感。因为前台模型只管写正文，变量结算等任务性工作交给后台模型。 - 手机也能玩 ：Android 手机直接安装；电脑上运行的酒馆，手机扫码就能远程游玩。 导入小说、剧本或大纲，绑定到人物卡，就能走进原作亲历主线。剧本定方向和关键事件，你决定人物怎么走到那里，随时可以偏离。剧本按片段读取，再长的小说也不用整本塞进上下文。了解更多 → 每轮正文完整保存，Agent 需要时自己回查原文，不靠摘要硬记；配合上下文压缩，玩到几百层仍能记起开局的细节。了解更多 → 不用懂卡片字段，告诉 Agent 哪里不喜欢、想改成什么样，它先给方案，你确认后才写入。也能从小说里提取人物做新卡，或用同样方式修改世界书和预设。了解更多 → 正文里的状态栏老是掉格式？让 Agent 把人物卡转成 MVU 版：前台只写正文，变量由后台按规则结算，状态栏常驻右侧，原卡图片和设定都保留。了解更多 → 想要的写法、节奏或剧情走向写成一条 Guide，比如“多写心理活动，对白不超过三句”“好感度涨得慢一点”。它会注入上下文，之后每轮正文、候选和变量结算都会参考，不用每次重复。了解更多 → 不满意这轮回复，写上哪里要改，比如“保留事件，但减少旁白解释”，只重写这一轮，比反复抽卡更可控。了解更多 → 重要人物登场时，后台为其设计完整档案：动机、性格、外貌、说话方式、与主角的关系，之后反复出场都按同一套设定来，不会前后走样。已有设定直接复用，不重复造人。了解更多 → 把写作教程或喜欢的样文交给 Agent，提炼成场景写作 Skill，比如打斗、悬疑、感情戏各有一套写法；游玩时模型按场景自动选用。了解更多 → MVU 状态栏 ：人物状态随剧情变化，正文下方可查看本轮更新了什么。 小手机 ：边读剧情，边看角色发来的消息。 下载 Windows 安装包 （x64），双击运行，保持联网，按
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, dsh-plugin, role-play, sillytavern
+
+---
+
+### 🌟 [SeaGOAT](https://github.com/kantord/SeaGOAT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,310
+- **核心概述**: local-first semantic code search engine
+- **大概是做什么的**: Check out zeitgrep, another search tool I am working on! A code search engine for the AI age. SeaGOAT is a local search tool that leverages vector embeddings to enable you to search your codebase semantically. In order to install SeaGOAT, you need to have the following dependencies already installed on your computer: - Python 3.11 or newer - bat ( optional , highly recommended) When bat is installed, it is used to display results as long as color is enabled. When SeaGOAT is used as part of a pipeline, a grep-line output format is used. When color is enabled, but bat is not installed, SeaGOAT will highlight the output using pygments. Using bat is recommended. To install SeaGOAT using pipx , use the following command: Should work on any decent laptop. SeaGOAT is designed to work on Linux ( tested ✅), macOS (partly tested, help 🙏) and Windows ( help needed 🙏). Start SeaGOAT server In order to use SeaGOAT in your project, you have to start the SeaGOAT server using the following command: Search your repository If you have the server running, you can simply use the gt or seagoat command
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-project, code-search, code-search-engine, embeddings, grep
+
+---
+
+### 🌟 [Hama.bundle](https://github.com/ZeroQI/Hama.bundle)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,323
+- **核心概述**: Plex HTTP Anidb Metadata Agent (HAMA)
+- **大概是做什么的**: HTTP AniDB Metadata Agent (HAMA) HAMA is a Plex Metadata Agent, initially created By Atomicstrawberry through v0.4 [2015-08-31]. Here are HAMA's features: - Provides both Movies and Series agents - AniDB ID to TVDB/TMDB ID matching (with studio and episode mapping list) via ScudLee's XML mappings - Posters from TVDB (assign a poster to each AniDB ID in the AniDB to TVDB mapping file to avoid poster duplicates) - TVDB episode screenshots - Episode summary (in English only) courtesy of TVDB via ScudLee's XML episode mappings - Prefers studio from mapping file, then AniDB (as is often missing from AniDB) - Search part entirely local through AniDB HTML API database file anime-titles.xml - Separate language order selection for the series name and episode titles in Agent Settings (Supports Kanji characters in folders, filenames, titles) - Warnings in HTML report files (no poster available, episode summary empty, TVDB ID not in mapping file) to allow the community to update more easily the mapping XML or TVDB, or add missing episodes - Collection mapping from ScudLee's movie collection amme
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, anime, metadata, plex
+
+---
+
 ## 🕔 2026-10-03 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
