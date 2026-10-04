@@ -1,3 +1,67 @@
+## 🕔 2026-10-04 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 4,565
+- **核心概述**: OpenClaw 中文教程（4500+ Star · 已出版纸质书）：安装、配置、Skills、飞书接入与避坑｜作者的 GPT-6 / Codex / Claude Code 新项目见 README 顶部
+- **大概是做什么的**: 🦞 Awesome OpenClaw Tutorial 🦞 一本书玩转OpenClaw：超级个体实战指南 从零开始打造你的AI工作助手：最全面的中文教程，涵盖安装、配置、实战案例和避坑指南 🔥 2026 年 10 月 · 作者正在更新的新项目 OpenClaw 教程继续保留在下方 👇。这里先列出作者近期正在维护的新仓库，内容方向相近，欢迎顺手看看、点个 Star。 预览 项目 一句话介绍 Stars awesome-gpt-6-astra · 在线站 GPT-6 Astra 社区案例合集：游戏、3D、网页、Computer Use 等可玩 Demo，每条附作者与原帖 awesome-gpt-image2.5 · 画廊 ChatGPT Images 2.5（Flare · Sunburst · Sketch）好玩用法画廊，可直接抄的 prompt 与评测 awesome-minimax-h3-prompts · 在线浏览 MiniMax H3（海螺 3.0）视频提示词精选，每条配生成片段与作者署名 awesome-gptimage2 · 在线站 GPT Image 2 中文提示词实战手册：电商、海报、产品图等可复制的商业场景 prompt gpt-codex · 教程站 写给小白的 OpenAI Codex 中文教程：从 0 到 1 把 Codex 真正用起来 awesome-codex-tutorial · 在线版 Codex 中文教程库：入门教程、系列图文教程、实战案例库与速查资料 awesome-claudcode-tutorial · 在线阅读 最全面的 Claude Code 中文教程，从零基础到企业级应用 🦞 以下为 OpenClaw 中文教程原有内容，持续保留并按版本校对。 📖 纸质书《OpenClaw超级个体实操手册》已上市！ 清华大学出版社出版，在开源教程基础上全面重写+逐条验证。🛒 京东专属购买链接（¥42，原价¥59.8） 🔄 2026-09-10 更新说明 ：本仓库当前按 OpenClaw v2026.9.3（稳定版，2026-09-08 发布） 校对；第 1/2/5/7/8/10 15 章已同步到 2026.9 主线。跨版本请先读 updates/2026-09-10-v2026.9.3.md ，升级后执行 openclaw doctor --fix 。 📌 本教程与 OpenClaw 最新版差异说明 为了避免你把旧章节当成最新版官方教程，先看这 4 点： - 当前教程基线 ：本仓库目前按 v2026.9.3 稳定版校对
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, ai-assistant, ai-tools, automation, awesome
+
+---
+
+### 🌟 [can-i-finetune-this](https://github.com/DaoyuanLi2816/can-i-finetune-this)
+- **项目语言**: Python
+- **星标数量**: ⭐ 792
+- **核心概述**: Single-GPU LLM fine-tuning preflight: memory estimates, runnable LoRA/QLoRA recipes, and local measurements.
+- **大概是做什么的**: Can I fine-tune this LLM on my GPU? Make a plan before loading the weights. You have one consumer NVIDIA GPU and an open-weight model in mind. How much memory will training need? Which sequence length, batch size and LoRA rank should you start with? What should you change when the budget is tight? canifinetune turns those questions into a memory breakdown, configuration suggestions and a runnable recipe. Then it helps you measure an actual local run and compare the observation with the plan. Core estimation needs no PyTorch and no model-weight download . Start in a virtual environment; you do not need to clone this repository. The estimate is 8.420 GiB , YES against a 16 GiB budget, with heuristic confidence medium . It includes the stock logits/loss allocation and a separate safety allowance. A planning result is not a guarantee that training will fit. demo serves a local interactive entry at 127.0.0.1:8765. Choose a model, training settings and total/currently-free memory; inspect the breakdown and copy matching CLI commands. It uses the same Python estimator. You want to… Start he
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bitsandbytes, fine-tuning, gpu, hugging-face, llm, lora
+
+---
+
+### 🌟 [answer-me-with-html](https://github.com/QingYunA/answer-me-with-html)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 512
+- **核心概述**: Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+- **大概是做什么的**: An agent skill. Ask a hard question, get a page you can actually read instead of a wall of text. The model writes about 1/7 of the tokens it would need to hand-write the HTML. Once installed, ask questions the way you always do: The agent writes a short Markdown draft and hands it to the CLI that ships with the skill. About 50 ms later you have a page: https://github.com/user-attachments/assets/1f13b1fe-70a9-4c39-8530-b12e553e17ea 24-second demo. Turn the sound on for the music. Why not just ask for HTML? You can. Models write decent HTML now. The problem is the bill you pay in output tokens: the model has to type every line of CSS, every wrapper div and every SVG coordinate. Output tokens are also what you sit and wait for. With this skill, the model writes only the content. We asked the same questions with the same model both ways (3 topics × 3 runs, medians, Claude Sonnet 5.5): Ask for HTML directly Answer me with HTML :--- ---: ---: :--- Output tokens 6,873 923 7.4× fewer Time 46 s 13 s 3.6× faster Cost per answer $0.22 $0.26 about the same One run from the benchmark: same prompt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, claude-code, cli, diagram, explainer
+
+---
+
+### 🌟 [vibeframe](https://github.com/vericontext/vibeframe)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 173
+- **核心概述**: Frontier AI video generation for coding agents - Seedance, Runway, Veo, Kling on your own keys, behind a hard cost cap. CLI + MCP.
+- **大概是做什么的**: Let your coding agent generate real video, on your own provider keys, under a spend ceiling it cannot cross. VibeFrame is a CLI and MCP server for Claude Code, Codex, Cursor, or any bash-capable agent. It turns a written brief into a plan, generates the assets from frontier models (Seedance, Runway, Veo, Kling), and renders a finished MP4. Every paid step sits behind a dry run and a hard --max-cost ceiling, and every failure comes back as machine-readable recovery actions instead of a stack trace. One photographer across a single arctic night, 1080p, generated end to end. ▶ Watch the full render Know the price before anything is spent --dry-run prices the whole build without calling a provider or needing a single key. Pair it with --max-cost and the build refuses to start when the estimate is over your ceiling: The envelope goes to stderr and the command exits 1, so an agent loop stops instead of guessing. retryWith gives it the two cheaper ways forward it can take without asking you, and data.plan carries the priced plan the refusal was based on, so it never has to re-run just to le
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude, cli, developer-tools, ffmpeg
+
+---
+
+### 🌟 [browser-debugger-cli](https://github.com/szymdzum/browser-debugger-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 151
+- **核心概述**: CLI tool for agents to quickly access browser telemetry (DOM, network, console) via Chrome DevTools Protocol.
+- **大概是做什么的**: Browser Debugger CLI Chrome DevTools Protocol in your terminal. Opens a persistent connection to Chrome where commands can be executed sequentially via Unix pipes. Designed for AI agents and developers who want direct browser control without framework overhead. - Raw CDP access - Every protocol method available directly - Token efficient - No overhead from MCP tool definitions; progressive discovery loads only what's needed - Self-correcting - Errors clearly exposed with semantic exit codes and suggestions - Composable - Unix philosophy: pipes, jq, shell scripts work naturally When to use alternatives: - Puppeteer/Playwright : Complex multi-step scripts, mature testing ecosystem - Chrome DevTools MCP : Already invested in MCP infrastructure Built for agents: Self-discovery ( --list , --search ), semantic exit codes, structured errors, case-insensitive commands, token-efficient output. Benchmark: CLI vs MCP for AI Agents We benchmarked bdg against Chrome DevTools MCP Server on real developer debugging tasks. Full benchmark analysis → Key findings: CLI provided 33% better token efficie
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, automation, browser-automation, cdp, chrome-devtools-protocol
+
+---
+
+### 🌟 [MovieClaw](https://github.com/movieclaw/MovieClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 133
+- **核心概述**: Next-gen AI media server. One container replaces Sonarr, Radarr, Prowlarr, Bazarr, Jellyseerr and Jellyfin, with a web app, a native iPhone app, and an AI agent that gets things done. Free for personal use.
+- **大概是做什么的**: One server replaces your entire media stack. A web app and a native iPhone app included, with an AI agent that actually gets things done. Everything stays on your own hardware. Free for personal and household use. Want to look around first? Open the live demo : the sign-in page lists four demo accounts, one click each. It's read-only and resets every day. (The interface and logs are currently in Chinese.) One install. That's all you need. It used to take six or seven services, six or seven configs, and a lot of effort to keep them all agreeing about the same library. Now it's just MovieClaw: The job The usual stack MovieClaw Playback, poster wall, watch progress Jellyfin / Emby / Plex Built in Disc rips and 4K HDR on an iPhone A third-party player like Infuse A native app of its own, and Infuse still connects Metadata Whatever the server ships, plus tinyMediaManager for the hard cases Built in, with TMDB and Douban as dual sources Subscriptions and automatic downloads Sonarr + Radarr Built in Indexers and tracker sites Prowlarr / Jackett Built in Subtitles Bazarr Built in, with PGS-t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bazarr, docker, emby, home-media, infuse
+
+---
+
 ## 🕔 2026-10-03 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 319 个候选项目中筛选出 6 个未推荐过的新项目。
