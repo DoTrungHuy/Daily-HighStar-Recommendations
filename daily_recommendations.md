@@ -1,3 +1,67 @@
+## 🕔 2026-10-04 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [oneDNN](https://github.com/uxlfoundation/oneDNN)
+- **项目语言**: C++
+- **星标数量**: ⭐ 4,057
+- **核心概述**: High-performance implementations of AI kernels for CPUs (x64, AArch64, RISC-V) and Intel GPUs. Powers PyTorch, TensorFlow, OpenVINO, and ONNX Runtime.
+- **大概是做什么的**: oneAPI Deep Neural Network Library (oneDNN) oneAPI Deep Neural Network Library (oneDNN) is an open-source cross-platform performance library of basic building blocks for deep learning applications. oneDNN project is part of the [UXL Foundation] and is an implementation of the [oneAPI specification] for oneDNN component. The library is optimized for Intel 64/AMD64 architecture based processors, Arm(R) 64-bit Architecture (AArch64)-based processors, and Intel Graphics. oneDNN has experimental support for the following architectures: NVIDIA\ GPU, AMD\ GPU, OpenPOWER\ Power ISA (PPC64), IBMz\ (s390x), and RISC-V. oneDNN is intended for deep learning applications and framework developers interested in improving application performance on CPUs and GPUs. Deep learning practitioners should use one of the applications enabled with oneDNN: OpenVINO(TM) toolkit [UXL Foundation]: http://www.uxlfoundation.org [oneAPI specification]: https://oneapi-spec.uxlfoundation.org/specifications/oneapi/latest/elements/onednn/source/ - System Requirements - Validated Configurations - Trademark Information [o
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aarch64, ace, amx, arm, avx10, convolution
+
+---
+
+### 🌟 [terravision](https://github.com/patrickchugh/terravision)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,641
+- **核心概述**: Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.
+- **大概是做什么的**: Professional cloud architecture diagrams in official AWS, Azure and GCP style, from a description in Claude or ChatGPT or from your Terraform 📖 Full documentation site → TerraVision is a free, open-source cloud architecture diagram generator for AWS, Azure and Google Cloud that works in both directions: design to code (describe it to your AI assistant, get the diagram, then the Terraform) and code to diagram (draw what your Terraform deploys). Ask your AI assistant for a cloud architecture diagram, in plain words, and get the diagram a cloud architect would draw: the official AWS, Azure and GCP icons, with every resource in its VPC, subnet, zone or resource group. From a description, from your Terraform code, or the other way round, with the Terraform written from the diagram. TerraVision runs on your own computer and needs no cloud access. Watch the 90-Second Intro The same three-tier design on each cloud, then a flagship for each. Every example comes with the prompt and the source file: see the full gallery of 12 → AWS three-tier web app Azure three-tier web app Google Cloud three
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, architecture-diagram, architecture-diagram-generator, aws, azure, chatgpt
+
+---
+
+### 🌟 [blenderwright](https://github.com/HoldMyBeer-gg/blenderwright)
+- **项目语言**: Python
+- **星标数量**: ⭐ 155
+- **核心概述**: MCP server for Blender. 191 tools for modelling, materials, rendering and more, driven by Claude, Cursor, Codex, Ollama, llama.cpp, or any MCP client.
+- **大概是做什么的**: Formerly blend-ai. Same project, new name, nothing else changed. The most intuitive and efficient MCP Server for Blender. Control Blender entirely through AI assistants like Claude: create 3D models, set up scenes, animate, render, and more, all through natural language. blenderwright goes beyond tool exposure: it guides the LLM to produce professional 3D results through expert prompts, proven workflows, visual feedback, and mesh quality analysis. A shuttle launch from two questions: "do you want to have a go at the space shuttle launch?" and then "could you animate the launch?" Claude Code (Fable 5.1) modelled the orbiter, tank, boosters and service tower, lit the plumes as emissive volumes and grew the exhaust cloud from metaballs. Keyframes lift the stack and tilt the camera after it, drivers stream the plumes and boil the smoke, and all 60 Cycles frames come back from a single render animation call, all through blenderwright with no manual modelling: Watch it with sound. Launch audio courtesy of NASA: STS-131, "Sound of Launch." The still it grew from, modelled and rendered in un
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, 3d-modeling, ai, blender, blender-addon, blender-mcp
+
+---
+
+### 🌟 [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 850
+- **核心概述**: Headless IDA Pro MCP Server
+- **大概是做什么的**: Headless IDA Pro MCP server for AI-powered reverse engineering. - Built for Apple targets. Universal Mach-O slice selection, dSYM/DWARF loading, and dyld shared cache module and dylib loading are single tool calls with explicit parameters, not scripts the agent has to write. In a measured Claude Code run, selecting and analyzing the x86 64 slice of a universal binary took one call and about five seconds. - Fast and lean. A native Rust server driving IDA through idalib; a 28-tool --profile=lean measured 25% cheaper than the full set on real tasks with the same correctness, and the full set is there when you need it. - Safe to leave running. Exact-target edits, save idb checkpoints, analysis flushed to disk as soon as it finishes, graceful shutdown on every signal a client sends, and database state discarded rather than trusted - Scriptable when the tools run out. run script returns a trailing expression as JSON and keeps state between calls, so one script can find, filter, and return only what matters. - IDA Pro 9.4 with a valid license - IDA Pro 9.5 beta for the beta release macOS /
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: headless, idalib, idapro, mcp, mcp-server, rust
+
+---
+
+### 🌟 [vellium](https://github.com/tg-prplx/vellium)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 136
+- **核心概述**: Local-first desktop AI workbench for roleplay, multi-character chat, long-form writing, RAG, MCP tools, plugins, and local models.
+- **大概是做什么的**: Vellium is a local-first desktop workbench for AI chat, character roleplay, live voice conversations, and long-form writing. It connects to OpenAI-compatible APIs, OpenRouter, Requesty, LM Studio, Ollama, KoboldCpp, and configurable custom endpoints. Chats, characters, projects, settings, and knowledge collections are stored locally in SQLite. Agents is deprecated. It is disabled by default and is not a primary Vellium workspace. Existing agent threads and the implementation are retained for compatibility under Settings → Legacy → Agents . New workflows should use Chat, Writing, MCP tools, or plugins. See the Legacy and Agents policy. What Vellium includes - Chat and roleplay: branching timelines, message editing, multiple characters, personas, LoreBooks, author notes, scene state, prompt blocks, translation, attachments, export, and controllable automatic turns. - Reasoning-aware context: provider reasoning fields and traces can be displayed, bounded, persisted, and optionally returned to the model as context. RP Reasoning is a separate simulated prompt mode. - Live voice and Inochi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-chat, ai-roleplay, ai-roleplay-chat, ai-writing, anime
+
+---
+
+### 🌟 [Geargrafx](https://github.com/drhelius/Geargrafx)
+- **项目语言**: C++
+- **星标数量**: ⭐ 244
+- **核心概述**: PC Engine / TurboGrafx-16 / SuperGrafx / CD-ROM² / LD-ROM² emulator and debugger with embedded MCP server for macOS, Windows, Linux, BSD and RetroArch.
+- **大概是做什么的**: Geargrafx is a very accurate, cross-platform TurboGrafx-16 / PC Engine / SuperGrafx / CD-ROM² / LD-ROM² emulator written in C++ that runs on Windows, macOS, Linux, BSD and RetroArch, with an embedded MCP server for AI debugging and development. This is an open source project with its ongoing development made possible thanks to the support by these awesome backers. If you find it useful, please consider sponsoring. Don't hesitate to report bugs or ask for new features by opening an issue. Geargrafx-1.8.1-desktop-windows-x64.zip Geargrafx-1.8.1-desktop-windows-arm64.zip brew install --cask drhelius/geardome/geargrafx Desktop Apple Silicon Geargrafx-1.8.1-desktop-macos-arm64.zip Geargrafx-1.8.1-desktop-macos-intel.zip drhelius/ppa-geardome drhelius/rpm-geardome Desktop Ubuntu 26.04 x64 Geargrafx-1.8.1-desktop-ubuntu26.04-x64.zip Desktop Ubuntu 26.04 ARM64 Geargrafx-1.8.1-desktop-ubuntu26.04-arm64.zip Desktop Ubuntu 24.04 x64 Geargrafx-1.8.1-desktop-ubuntu24.04-x64.zip Desktop Ubuntu 24.04 ARM64 Geargrafx-1.8.1-desktop-ubuntu24.04-arm64.zip Libretro core documentation - Windows : May nee
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bsd, emulation, emulator, libretro, linux, macos
+
+---
+
 ## 🕔 2026-10-04 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
