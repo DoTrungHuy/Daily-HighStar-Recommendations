@@ -1,3 +1,67 @@
+## 🕔 2026-10-04 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [merlin](https://github.com/Ne0nd0g/merlin)
+- **项目语言**: Go
+- **星标数量**: ⭐ 5,609
+- **核心概述**: Merlin is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in golang.
+- **大概是做什么的**: Merlin is a cross-platform post-exploitation Command & Control server and agent written in Go. Highlighted features: - merlin-cli command line interface over gRPC to connect to the Merlin Server facilitating multi-user support - Supported Agent C2 Protocols: http/1.1 clear-text, http/1.1 over TLS, HTTP/2, HTTP/2 clear-text (h2c), http/3 (http/2 over QUIC) - Peer-to-peer (P2P) communication between Agents with bind or reverse for SMB, TCP, and UDP - Configurable agent data encoding and encryption transforms: AES, Base64, gob, hex, JWE, RC4, and XOR - JWE transform use PBES2 HS512 A256KW PBES2 (RFC 2898) with HMAC SHA-512 as the PRF and AES Key Wrap (RFC 3394) using 256-bit keys for the encryption scheme - Configurable agent authenticators: - None: No authentication - OPAQUE: Asymmetric Password Authenticated Key Exchange (PAKE) - Encrypted JWT for message authentication - Configurable Agent message data padding to combat beaconing detections based on a fixed message size - Execute .NET assemblies in-process with invoke-assembly or in a sacrificial process with execute-assembly - Execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, c2, command-and-control, golang, http2, post-exploitation
+
+---
+
+### 🌟 [ScienceClaw](https://github.com/beita6969/ScienceClaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 906
+- **核心概述**: 🔬🦞 A self-evolving AI research colleague for scientists. 285 skills, zero hallucination, persistent memory.
+- **大概是做什么的**: A self-evolving AI research colleague for scientists. General-purpose AI assistants are built for everyone. ScienceClaw is built for researchers . The core idea is simple: an AI that does real scientific work — searching literature, querying databases, running analyses — and gets better at it the more you use it . It remembers your research context across sessions, adapts its skills to your field, and never fabricates a citation. ScienceClaw is built on the OpenClaw engine, but redesigned from the ground up for academic research. 🧬 Core 1: Self-Evolving Skills This is ScienceClaw's most important feature. Most AI tools ship with a fixed set of capabilities. ScienceClaw's skills evolve with you . Every time you complete a research task, the system learns: What this means in practice: - Week 1: You study immunology. ScienceClaw learns that PubMed + Semantic Scholar works best for your queries, that you prefer forest plots over tables, and that you always need PMID + DOI in citations. - Week 4: The system has created specialized skills for your subfield — optimized search templates, pr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, bioinformatics, literature-review, llm, mcp
+
+---
+
+### 🌟 [agentic-engineering-handbook](https://github.com/keyuchen21/agentic-engineering-handbook)
+- **项目语言**: Python
+- **星标数量**: ⭐ 501
+- **核心概述**: The definitive OpenAI, Claude, MCP, Harness, Evals, and Production Agent Systems learning roadmap.
+- **大概是做什么的**: Agentic Engineering Handbook The definitive OpenAI, Anthropic, Google, MCP, Harness, Evals, and Production Agent Systems learning roadmap. If this repository helps you, consider giving it a ⭐ Why This Repository? The AI industry has entered the Agentic Era . Building production-grade AI systems now requires mastering agents, tool use, MCP, memory, long-running workflows, coding agents, agent harnesses, evals, and safety — but the knowledge is scattered across OpenAI blogs, Anthropic engineering posts, SDK docs, cookbooks, and research papers. This repository consolidates 202 curated resources into one structured learning roadmap. The goal: Become a world-class Agentic Engineer. How To Use This Handbook Pick the path that matches your starting point: - New to agents: follow the Learning Roadmap through the core Phases 0–6, then continue to Phase 7 for advanced coursework. Treat each Read First , Then Read , and Build Exercise as a checklist. - Already building LLM apps: start at Phase 2 or Phase 3, then fill gaps in agent loop, tool calling, evals, and production engineering. - Trying
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-engineering, agents, ai-agents, anthropic, claude-code, llm
+
+---
+
+### 🌟 [superlocalmemory](https://github.com/qualixar/superlocalmemory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 227
+- **核心概述**: Open-source governed, local-first memory control plane for AI agents and teams. arXiv:2608.08253
+- **大概是做什么的**: SuperLocalMemory: local-first memory for AI agents Claude Code, Codex, Cursor and other MCP clients lose what they learned when a session ends. SuperLocalMemory (SLM) gives them one long-term memory that lives on your machine, and it can tell you when it doesn't have the answer instead of guessing. npm installs SLM into a package-owned virtual environment. The other primary route is pip in a Python virtual environment you activate: python3 -m venv .venv , activate it, then python -m pip install superlocalmemory . Repository clone: ./scripts/install.sh install (macOS, Linux) or .\scripts\install.ps1 -Action Install (Windows); see CONTRIBUTING.md. Runs on Apple Silicon macOS, 64-bit Windows and 64-bit Linux; Intel Mac and 32-bit Windows are not supported (the pinned cryptography has no build for them). No Docker, no required graph database, no API key. Real output from a fresh Mode A install, trimmed. The id comes from slm recall --json . Scores are ranking signals, not probabilities. Right after a start, the embedding model is still loading: recall still answers from keyword and time
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-reliability, ai-agents, claude-code, cursor, knowledge-graph
+
+---
+
+### 🌟 [flutter_edge_ai](https://github.com/DenisovAV/flutter_edge_ai)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 629
+- **核心概述**: On-device AI for Flutter — Gemma and other LLMs, multimodal, function calling, embeddings, RAG and speech on Android, iOS, Web, macOS, Windows and Linux.
+- **大概是做什么的**: README 关键内容暂时读取失败或内容较少，建议点进项目主页查看完整说明。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: dart, edge-ai, embeddings, flutter, function-calling, gemma
+
+---
+
+### 🌟 [awesome-rsi](https://github.com/lobehub/awesome-rsi)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 391
+- **核心概述**: A curated research map of Recursive Self-Improvement (RSI): models, agents, harnesses, embodied systems, automated AI R&D, benchmarks, and safety.
+- **大概是做什么的**: Awesome RSI (Recursive Self-Improvement) Recursive Self-Improvement (RSI) refers to processes in which AI systems improve their own capabilities and can also improve the mechanisms that generate subsequent improvements. Recent progress in self-training, agent memory, harness optimization, embodied self-improvement, automated AI research, self-modifying coding agents, and evolutionary search has made RSI increasingly relevant as an empirical research direction rather than only a theoretical idea. Awesome RSI collects and organizes important work across these areas, including model-level self-improvement, context and memory evolution, harness and scaffold evolution, embodied and physical self-improvement, multi-agent systems, automated AI research, benchmarks, and safety. Not every work listed here demonstrates RSI in the strict sense. Some represent bounded self-improvement or enabling techniques that may contribute to more complete recursive systems. If you are new to the topic, start with Fundamentals & Getting Started. If you already know the basics, explore the sections most relev
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agi, ai, ai-agents, ai-model, ai-safety, artificial-intelligence
+
+---
+
 ## 🕔 2026-10-04 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 293 个候选项目中筛选出 6 个未推荐过的新项目。
