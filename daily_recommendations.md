@@ -1,3 +1,67 @@
+## 🕔 2026-10-04 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [python](https://github.com/flypythoncom/python)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,149
+- **核心概述**: Open-source Python challenge courses — your AI coding agent teaches, verify.py decides when you're done.
+- **大概是做什么的**: FlyPython: Learn to ship Python with AI coding agents English · 中文 · 🌐 Online Portal Real projects; your agent does the typing, verify.py decides when you're Challenge courses with objective verification. Pick a folder from courses/ , solve the contract in TASK.md with your coding agent as the tool, and prove it with verify.py — which prints a claim code per checkpoint. Prefer a guided path? COURSE.md still runs an agent-taught mode, and paths/ sequences courses into badge routes. Continue on flypython.com. FlyPython is a practical, bilingual repository for writing good Python and turning it into products people can rely on. It combines AI-coding methods, task playbooks, runnable examples, reusable templates, and reviewed primary sources for APIs, automation, agents, Skills, and MCP. It is not a beginner link dump. The goal is to help you move from “the agent wrote code” to “a user outcome is verified.” The repository owns the reviewed source content and data; flypython.com turns pinned versions into a browsable learning experience. Current release: v0.1.1 — see CHANGELOG.md; releas
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-coding, claude-code, codex, cursor, learning-python
+
+---
+
+### 🌟 [EAC-Desktop](https://github.com/DSH-EAC/EAC-Desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,840
+- **核心概述**: Embracing All Creation (Desktop) — Dedicated to the Harmonious Coexistence of Hundreds of DSH Plugins / 揽尽万象（桌面版） —— 致力于让数百个DSH插件和谐共存
+- **大概是做什么的**: DSH-Desktop-EAC — 揽尽万象 EAC = Embracing All Creation（揽尽万象） 🚀 全新产品：Deepseek Harness EAC IDE —— 内置 EAC 的独立 IDE · 开箱即用 · 前往下载 → 封装了官方deepseek-ai/deepseek-harness， 开箱即用的桌面客户端 。 在其之上拥抱社区万象：皮肤、插件、工具、记忆—— 你所能想到的，一切皆可装 。 📦 v5.4 起：唯一的桌面发行版，安装时选「完整版 / 精简版」 同一个安装包、同一套 5.x 内核： 完整版 带全部内置插件； 精简版 只默认停用外围插件（桌宠 / 手机桥 / 多智能体等），设置里可随时一键启用，无需重装。 原 Lite（Electron 精简版）退役 、 AIO 整合版收编为精简版形态 、 EAC-IDE 进入维护模式 ——数据统一 /.dsh 。迁移说明见 docs/SINGLE-EDITION-MIGRATION.md。你可以用任意Harness软件让其以此规则迁移。 🚀 官方配套启动器：DSH EAC Launcher 多实例隔离 · 本地实例导入 · 版本一键升级/回退 · 插件安全体系 （崩溃守卫 crash-guard · 插件快照回滚 · 隔离区 · 健康体检） 为本项目的多实例与插件玩法而生：每个实例独立程序目录与 DSH HOME ，从上游 Release 一键安装任意版本，装插件崩了也能一键回滚。 👉 zouyuxuan122/DSH-EAC-Launcher ｜ ⬇ 下载最新版 v1.1.0 维度 官方 DeepSeek Harness 默认体验 DSH-Desktop-EAC 增强 ------- ------------------------ -------------------------------------------------------- 安装与启动 需自行准备 Node.js，并通过 CLI 启动 内置 Node.js、npm CLI 和 dsh，提供安装版与便携版，双击即用 桌面体验 主要在终端或浏览器中使用 原生桌面窗口、系统托盘、快捷方式维护、进程清理和任务通知 CLI 共存 CLI 与 Web 通常使用同一插件环境 桌面端使用独立 web-desktop profile，与 CLI 共享会话和 API Key，插件互不干扰 插件可靠性 主要通过包管理器安装并手动排查问题 安装和启动前自动快照，异常时支持体检、修复、重试、回滚和事故报告 界面定制 默认使用官方界面
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, deepseek-harness, desktop, desktop-app, dsh
+
+---
+
+### 🌟 [agents](https://github.com/rivet-dev/agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,583
+- **核心概述**: A durable process per agent, with memory that survives restarts
+- **大概是做什么的**: Agent infrastructure from Rivet. Join us on Discord. Project Directory Docs Rivet Agents : run agents such as Pi as durable Rivet Actors ( @rivet-dev/pi , @rivet-dev/sandbox-adapter ) packages/ , docs in docs/ rivet.dev/agents/docs Sandbox Agent : run coding agents in sandboxes and control them over HTTP sandbox-agent/ sandboxagent.dev Everything in this repository ships on one version line. just release runs the release script in scripts/release/ , which bumps every package, publishes crates and npm packages, uploads binaries, and tags v .
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: actor-model, agent-sdk, ai-agents, coding-agents, daytona, durable-execution
+
+---
+
+### 🌟 [explainroo](https://github.com/vincentsch/explainroo)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 374
+- **核心概述**: Explainer videos and product demos made by your AI agent. Free and open source: a local voice (Kokoro), word timing (Whisper) and a canvas renderer turn a script into a narrated MP4.
+- **大概是做什么的**: Explainer videos made by your AI agent. Free and open source. The voice, the timing and the rendering run on your computer. Website &nbsp;·&nbsp; Example videos &nbsp;·&nbsp; https://github.com/user-attachments/assets/6dd5dc32-c975-4e0e-8cd4-2ef3ccc11e61 A coding agent made this video with explainroo. You can also watch it on explainroo.com . Give your coding agent this repo and tell it what the video should explain. It works with Claude Code, Codex, Pi and other coding agents. Right now it works best with Claude Code and Opus 5.5. Copy this into your agent and put your topic in place of the brackets: The agent sets up explainroo, makes the video and checks it. You get an MP4 An explainer video is a short video where a voice explains a topic and drawings appear while it speaks. For explainroo, the agent writes two files. script.md has the words the voice says. scenes.js draws the pictures with a bit of JavaScript, and each drawing can appear on a word from the script. explainroo does the rest: - Voice. Kokoro, an open voice model, reads the script aloud. It has 28 voices and needs no
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, animation, canvas, claude-code, codex, explainer-video
+
+---
+
+### 🌟 [navigator](https://github.com/qf-studio/navigator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 304
+- **核心概述**: Finish What You Start — Context engineering for Claude Code. Sessions last 20+ exchanges instead of crashing at 7.
+- **大概是做什么的**: Finish What You Start Sessions that last. AI that learns. Features that ship. Navigator is a Claude Code plugin that implements context engineering for AI-assisted development. Instead of loading all your documentation upfront (and crashing at exchange 7), Navigator loads what you need, when you need it—keeping 94% of your context window available for actual work. For developers using Claude Code who want sessions that finish features instead of crash mid-way. The Loop You're Stuck In You know the pattern: You loaded 150k tokens of documentation "just in case." The rest? Noise drowning out signal. Navigator implements context engineering—load what you need, when you need it. Metric Without Navigator With Navigator -------- ------------------- ---------------- Tokens loaded 150,000 12,000 Session length 5-7 exchanges 20+ exchanges Context at end 95% (crashed) 35% (comfortable) Token savings — 92% Result : Sessions that actually finish what they start. And Your AI Gets Smarter Navigator v5.0 adds Theory of Mind—Claude learns you . nav-profile : Remembers your preferences across session
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assistant, ai-tools, anthropic, claude, claude-code, context-engineering
+
+---
+
+### 🌟 [HuggingFaceModelDownloader](https://github.com/bodaay/HuggingFaceModelDownloader)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,186
+- **核心概述**: Simple go utility to download HuggingFace Models and Datasets
+- **大概是做什么的**: HuggingFace Downloader The fastest, smartest way to download models from HuggingFace Hub Parallel downloads • Smart GGUF analyzer • Python compatible • Full proxy support Maximize your bandwidth with multiple connections per file and concurrent file downloads : - Up to 16 parallel connections per file (chunked download) - Up to 8 files downloading simultaneously - Automatic resume on interruption Real-time progress with per-file status, speed, and ETA. Interactive GGUF Picker Don't guess which quantization to download. Use -i for an interactive picker with quality ratings and RAM estimates: Interactive mode features: - Keyboard navigation - Use ↑↓ to browse, space to toggle selection - Quality ratings - Stars (★★★★☆) show relative quality - RAM estimates - Know if it'll fit in your VRAM - "Recommended" badge - We highlight the best balance (Q4 K M) - Live totals - See combined size as you select - One-click download - Press Enter to start, or c to copy command Without -i , output is text/JSON — perfect for scripts and piping to other tools. Plus, you get human-readable paths at /.cac
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: golang, huggingface, llm, transformers
+
+---
+
 ## 🕔 2026-10-04 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
