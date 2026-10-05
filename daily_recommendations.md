@@ -1,3 +1,67 @@
+## 🕔 2026-10-05 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [smolvm](https://github.com/smol-machines/smolvm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 6,580
+- **核心概述**: An embeddable, portable, branchable virtual machine to safely run Agents locally.
+- **大概是做什么的**: Branchable microVMs for AI agents. Embed lightweight virtual machines into your software, portable dev environments, and local sandboxing. Windows: unzip the windows-x86 64 release and run smolvm.exe (needs the Windows Hypervisor Platform). Coding agents: run smolvm --help after installing to discover every command. Real VMs with their own kernel, free on your laptop or your own servers. They boot in under a second, and memory is elastic, so the host only commits what the guest uses. Machines persist across restarts, and any OCI image works, including ones you build locally. Declare a machine in a Smolfile: image, resources, ports, mounts and network policy in one checked-in file. Drive machines from your own code with one Machine API. The SDKs run in your process with no daemon, locally or on smol cloud. Source and docs: smol-machines/smol · smolmachines.com/docs/sdk Save a running machine mid-execution, rewind it, or branch it into copies that keep running from the same point. Checkpoints capture RAM, CPU state and disks; branches are copy-on-write children of a live machine. Rewin
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sandbox, ai-agents, code-execution, containers, crun, libkrun
+
+---
+
+### 🌟 [universal-modder](https://github.com/rehan-remade/universal-modder)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,374
+- **核心概述**: Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+- **大概是做什么的**: Skills, tools and a shared knowledge base that let any AI coding agent mod almost any PC game you own. Works with Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, or anything that reads AGENTS.md . The agent finds the game, works out the engine and the route, reads the real code, builds the mod, makes art, 3D and sound with fal , tests it in the running game, cuts the video, and writes down what it learned for the next agent. Pick your agent. Each gets the same skills (Agent Skills format), the fal MCP server, and the um CLI. Claude Code /plugin marketplace add rehan-remade/universal-modder , then /plugin install universal-modder@universal-modder Codex codex plugin marketplace add rehan-remade/universal-modder , then codex plugin add universal-modder@universal-modder Gemini CLI gemini extensions install https://github.com/rehan-remade/universal-modder VS Code / Copilot Enable chat.plugins.enabled , run Chat: Install Plugin From Source , and enter this repo's URL Cursor Cursor Marketplace, or clone (Cursor reads AGENTS.md and .cursor/mcp.json ) OpenCode Clone and run
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: age-of-empires, claude-code, claude-code-plugin, fal, game-assets, game-modding
+
+---
+
+### 🌟 [dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,293
+- **核心概述**: 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.
+- **大概是做什么的**: 你只需在 dsh 里装上这个插件，无需登录、注册、填 API Key 或任何其它操作， 就能用上包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key, nothing else. The frontier models are just there — Muse Spark 1.3, MiMo V2.6 and the rest. Free, with no usage cap. 模型清单跟随上游刷新，可用性由 你自己这台机器的网络出口 实测得出， 思考强度下发的是真实预算而不是提示词，另附一个 OpenAI 兼容的本地转发端口。 纯插件挂载：不改内核、无构建步骤、零依赖。 - 装完即用，没有配置环节 ——不需要账号、不需要 Key、不需要去哪个后台开配额。 - 上游写在明面上 ——只有一个来源：OpenCode 的 Zen 网关（ https://opencode.ai ），不经任何第三方中转。谁在服务你的请求、你的数据发到哪儿，见上游是哪些源。 - 清单跟随上游 ——模型集合、上下文长度与能力每次刷新重新拉取，不是写死在插件里的一份快照。 - 选择器只给真能用的模型 ——上游清单点名、但网关明确拒绝路由的模型（回 Model is unavailable 、404 找不到这个 id）会从下拉框里移除，只在设置页留痕并写清拒因；网关自己的毛病（5xx）、配额（429）、超时断网这些 不是对模型的判定 ，一律保持可达；地区门拦截的单独归到 region-limited 分组。整轮全部被拒时一律保留，绝不让选择器变空。 - 公告中心 + 实时推送 ——仓库主人在仓库里编辑一份 JSON 并推送，所有安装最迟在一个轮询周期内收到；内容是白名单约束下的 HTML，支持图文排版； urgent 级别直接全屏弹窗；可选系统级通知。 - 应用内升级 ——设置页一键升级：下载 → SHA-256 校验 → 备份 → 原子替换 → 校验回读 → 热重载，任一步失败自动回滚到上一个版本。 - 热重载 ——升级与代码更新即时生效，不需要重启应用；也可在设置页手动触发，或开启文件监视自动重载。 - 流式响应认出 body 而不是认出 header ——网关在高负载下会用 application/json 的 content-type 回一整套 SSE 帧，插件按 body 的形状判定并把已嗅探的字
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, deepseek, deepseek-harness, developer-tools, dsh, dsh-plugin
+
+---
+
+### 🌟 [ai-system-design](https://github.com/amitshekhariitbhu/ai-system-design)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 632
+- **核心概述**: AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.
+- **大概是做什么的**: AI System Design - A complete guide to learn AI System Design step by step - from LLM inference, GPUs, KV Cache, and caching to RAG, Vector Databases, AI Agents, MCP, Multi-Agent Systems, Voice AI, Guardrails, Evaluation, Observability, Cost Optimization, and a step-by-step framework to crack any AI System Design interview. Everything in one place, explained in simple words, with detailed blogs for every deep dive. This AI System Design guide is helpful for anyone who wants to become: - Agentic AI Engineer - Forward Deployed Engineer - AI Solutions Architect - AI Platform Engineer - Applied AI Engineer - Machine Learning Engineer - Backend Engineer building AI products Prepared and maintained by the Founder of Outcome School: Amit Shekhar Follow Outcome School I teach at Outcome School - AI and Machine Learning Note: AI System Design is moving very fast, so this guide will continue to grow as I write more blogs on new topics. Bookmark it and come back whenever you want a refresher. Keep learning. - About This AI System Design Guide - What is AI System Design? - Who is This AI System
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-engineering, ai-system, ai-system-design, ai-systems
+
+---
+
+### 🌟 [gaia-workflow-engine](https://github.com/boommanpro/gaia-workflow-engine)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 211
+- **核心概述**: 一个现代化的可视化规则引擎平台，用于编排复杂的 AI 工作流。在无限画布上设计、测试和部署 AI 流程——无需编写代码。结合 flowgram.ai 的能力与 Java 服务端，提供生产级工作流管理。在此之上提供AI Agent / Copilot的助手编排能力。
+- **大概是做什么的**: Gaia · 可视化 AI 工作流编辑器 可视化构建 AI 工作流，基于 flowgram.ai 驱动。 一个现代化的可视化规则引擎平台，用于编排复杂的 AI 工作流。在无限画布上设计、测试和部署 AI 流程——无需编写代码。结合 flowgram.ai 的能力与 Java 服务端，提供生产级工作流管理。 - AI Agent 侧栏对话 — 对话式生成工作流：CreatePlan 分步规划、Canvas 自动创建节点/连线、HTTP/Query 查询工作流、实时预览 token 与计划进度；会话可重命名、可审查。 - Agent 配置中心 — 模型参数（Host/Key/Temperature/Max Tokens）、Embedding 向量检索（Jina RAG 知识块）、系统提示词与工具集（navigate/query/manage/canvas/createPlan/executeStep）、工具权限策略（允许/确认/禁止）。 - 调试信息面板 — 每条 LLM 调用独立 DebugEntry：原始请求（含 messages）、原始响应（含 toolCalls）、上下文详情、SSE Event 回放、Raw JSON；点击消息气泡跳转定位到对应条目。 - 可视化画布 — 无限缩放画布，支持拖拽节点。通过循环、分支和条件逻辑设计复杂的工作流。 - AI 节点类型 — 内置 LLM 调用、代码执行、HTTP 请求、字符串格式化和变量管理节点。 - 实时预览 — 测试单个节点或整个工作流，实时查看输入输出和执行历史。 - 版本管理 — 每次保存创建一个版本。在版本间切换、追踪变更、一键回滚。 - 模板系统 — 创建可复用的工作流模板。一键从模板创建新工作流。 - 可扩展插件 — 小地图、自动布局、吸附线、节点面板等。 - 多条件节点 — 同步官方 flowgram.ai，支持复杂分支逻辑。 在线演示 — 可交互工作流画布（可拖拽、可新增节点、不可运行） 文档 — 快速开始、环境准备、部署方案 编辑器 — 可视化工作流编辑器，含版本管理 管理后台 · 工作流 — 工作流管理控制台 管理后台 · 模板 — 模板管理控制台 AI Agent 对话 — 侧边栏对话式生成工作流，CreatePlan 分步规划 + 步骤执行卡片 调试信息面板 — 原始请求/响应、SSE Event、Context 详情、Raw JSON，点击消息跳转定位 Agent 配置中心 · 模型 — API Host/Key、模型参数、Embedding 向量检索（BGE） Agent 配置中心 ·
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-workflow-engine, ai-agent, ai-copilot, flowgram, workflow
+
+---
+
+### 🌟 [tenuo](https://github.com/tenuo-ai/tenuo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 101
+- **核心概述**: Task-scoped authorization for AI agents. Cryptographic warrants constrain tools and arguments, prevent privilege escalation at every delegation hop, and produce signed evidence of what was allowed or denied.
+- **大概是做什么的**: Task-scoped authorization for AI agents. Tenuo gives each task only the authority it needs. That authority travels with the work, can only shrink when handed off, and is checked where the action runs. It works alongside your existing identity and policy systems. A warrant is a signed grant of which tools an agent can call, under what constraints, and for how long. It works like a prepaid card for one task. Sensitive actions can also require a signed human approval. Deploy in-process, in a sidecar, or at a gateway. Status: v0.2 - Production/Stable. Core semantics are stable. See CHANGELOG. Tenuo Cloud: Open Beta. Managed control plane with revocation, observability, and multi-tenant warrant issuance. Sign Up See tenuo-ts/README.md for TypeScript. Rust is below. Install Tenuo's implementation skill so a supported coding agent can place authorization at the effect boundary, use the SDK version in your project, and generate both allow and deny-before-effect tests: The skill distinguishes an in-process guardrail from an independently enforced boundary and reports the guarantee and remaini
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, access-control, agent-security, agents, ai-agents, authorization
+
+---
+
 ## 🕔 2026-10-04 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
