@@ -1,3 +1,67 @@
+## 🕔 2026-10-05 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [superplane](https://github.com/superplanehq/superplane)
+- **项目语言**: Go
+- **星标数量**: ⭐ 7,707
+- **核心概述**: Open source factory for one-shot engineering
+- **大概是做什么的**: Open source factory for one-shot engineering. SuperPlane turns high-confidence backlog issues into verified, review-ready pull requests so engineers can focus on work that needs judgment. SuperPlane lets AI agents fully automate routine development work. It coordinates coding agents, source control, CI, review, approvals and feedback in one visible system so engineers do not have to project-manage every step. The factory continuously evaluates which backlog issues agents can handle with high confidence. It applies the same workflow-level guardrails to every run, checks the result and sends failures back to the agent with actionable context. Ambiguous work and decisions that need human judgment stay with your team. SuperPlane is built on an Apache 2.0 open source engine. Choose your models, run in the cloud or on-prem and build the factory around your stack and cost How the factory works A SuperPlane Factory turns incoming work into a durable operational record. A work order enters through the backlog, moves through one or more automation lines and produces pull requests, notes, branc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-workflows, ai-agents, ai-coding, ai-software-engineering, developer-tools
+
+---
+
+### 🌟 [Silex](https://github.com/silexlabs/Silex)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,996
+- **核心概述**: Silex is an online tool for visually creating static sites with dynamic data. With the free/libre spirit of internet, together.
+- **大概是做什么的**: Silex — the visual builder for static sites The web belongs to everyone. Silex is a free/libre visual website builder — no lock-in, no subscription, no tracking. Design visually, export clean HTML/CSS, host anywhere. Try Silex online Documentation Download the desktop app Manifesto Most no-code tools lock you in: proprietary formats, forced hosting, subscriptions. Silex is different. - Your data is yours — standard HTML/CSS output, export everything, host anywhere, leave anytime - Real web skills — everything you learn in Silex (HTML, CSS, JAMstack) is transferable knowledge - Community-owned — maintained by Silex Labs, a non-profit recognized as being of general interest. No investors, no exit strategy, transparent finances - Free forever — always free software (AGPL), all features included, no premium tier "The only open source alternative to Webflow." — "The most powerful and graphically precise website builder that I have experienced." - Web agencies — visual workflow, static output, scale client work without scaling your team - WordPress developers — visual frontend, content fro
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: composable, design, grapesjs, jamstack, javascript, mcp
+
+---
+
+### 🌟 [solidworks-automation-skill](https://github.com/wzyn20051216/solidworks-automation-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,067
+- **核心概述**: Python automation toolkit for SolidWorks API
+- **大概是做什么的**: SolidWorks Automation Skill 定位 ：AI Skill + MCP toolkit for reliable desktop CAD automation。三个入口（Skill / MCP / CAD Studio）不变；内部可靠执行、自动验证与失败恢复对用户透明，无需额外启动服务。 CAD Studio 桌面端与 Skill/CLI/MCP 是平级入口：这个仓库同时可以作为 Skill 包和 MCP Server 使用。Skill 适合导入支持 skills 的客户端，MCP 适合做本地工具连接；两者共用同一套能力和脚本。实际可执行范围以根目录 capabilities.yaml 为唯一真源；未验证能力不会被包装成已完成的无人值守交付。 可靠性边界：当前真机基线为 SolidWorks 2024、SolidWorks 2026 SP01.1 和 AutoCAD 2024。SolidWorks 2026 仅对能力清单中列出 2026 的能力视为已验证；SolidWorks 2025 及其余未回归能力仍是兼容性目标。配置族、钣金 U 型轮廓法兰/展开 DXF，以及 HSS 矩形焊接框架/切割清单已进入 pilot ；设计表与复杂钣金/焊件仍是兼容目标。C Add-in 宿主已在 SW2026 SP1.1 完成进程内 callback、应用事件、CommandGroup、TaskPane、PropertyManagerPage 和 JSON 诊断回归；正式部署必须使用 64 位 RegAsm /codebase /tlb 。Simulation/FEA、Routing、复杂曲面和模具也处于受控 pilot 门禁，不能冒充原生完整交付。 Skill 已在使用支持 skill 导入的客户端 npx github:wzyn20051216/solidworks-automation-skill ，或 claude skill add https://github.com/wzyn20051216/solidworks-automation-skill MCP 已在使用 Codex、Claude Code、Cursor、Windsurf 或其他 MCP 客户端 推荐通过 Smithery 安装： smithery mcp add wzyn20051216/solidworks-automation-skill --client codex --config '{}' CAD Studio 桌面版 希望用图形界面管理项目、对话、任务、预览和交付 从
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: autocad, automation, cad, claude, codex, dwg
+
+---
+
+### 🌟 [overmind](https://github.com/overmind-core/overmind)
+- **项目语言**: Python
+- **星标数量**: ⭐ 413
+- **核心概述**: The platform for continuously improving AI agents.
+- **大概是做什么的**: The Training Platform for Specialized Agents Console Site Self-host Overmind continuously trains & improves your agents, with data from your production traces The SDK and CLI you install ( pip install overmind ) are MIT. The platform behind them is AGPL-3.0 and you can self-host it. Details in Licence. Point it at your agent's codebase and it turns production traces (or any dataset) into a fine-tuned model, benchmarked against the eval metrics you define and served via 1 unified API, with no ML infrastructure to build. The weights are yours to download, retrain or roll back. Available from the Console, the overmind CLI, the REST API, and an MCP server for Cursor, Claude Code, OpenCode and Codex. Hosted at console.overmindlab.ai or run it yourself. Agent & Capabilities A graph of your agent — capabilities, prompts, tools, and tasks — scanned from the repo. Observability OpenTelemetry traces, scored as they arrive and matched to the capability that produced them. Datasets Production traces or uploaded files become versioned eval and training datasets. Eval What "good" means per capabil
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, evals, fine-tuning, llm, llm-evaluation, llmops
+
+---
+
+### 🌟 [lowfat](https://github.com/zdk/lowfat)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 575
+- **核心概述**: lowfat - slim your command output. strips noise, saves tokens.
+- **大概是做什么的**: lowfat is a lightweight CLI tool that reduces AI token costs by filtering CLI output and file content before it reaches your agent. - Lightweight — Small single binary, small core; but extensible. - Local-first — No telemetry; you own your data. - Composable — UNIX-style pipes, mix built-ins and your own filters; not magic. - User-owned — lowfat history shows what you run most; allow you to customize for your usecase. git status at the full level — same signal, less noise. Before — raw git status : After — lowfat git status : Reduction of raw command output , measured on the bundled samples ( crates/lowfat-plugin/embedded/ /samples/ ). Reproduce with cat lowfat filter /filter.lf --sub= --level= : command lite full ultra --------------- -----: -----: ------: git diff -16% -38% -96% git log -53% -80% -91% git status -62% -62% -74% docker ps -38% -38% -85% docker images -48% -58% -86% ls -la -2% -75% -87% These percentages are the reduction of a single command's output, not your end-to-end agent token usage. savings depend on how much of your context is command output and how lossy a le
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding-tool, cli, cost-reduction, developer-tools, llm, open-source
+
+---
+
+### 🌟 [hermes-relay](https://github.com/Codename-11/hermes-relay)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 300
+- **核心概述**: Hermes-Relay — Your Hermes AI agent, in your pocket — chat, voice, and control.
+- **大概是做什么的**: Runs on your machine. Lives on your devices. A native Android companion for your Hermes agent — streaming chat, hands-free voice, and full agent management. Plus a single-binary CLI that gives the agent hands on any machine you pair. Português (Brasil) · Hermes-Relay puts your Hermes agent on the devices you actually carry. The brain stays on your own machine — Hermes-Relay is how you reach it. - 📱 Android app — streaming chat, hands-free voice, native plugin pages, and the full Hermes dashboard (models, keys, skills, profiles), rebuilt native. Add a floating Petdex companion or optionally make Hermes your Android assistant; sideload builds can also let the agent read and act on your screen. - ⌨️ Hermes-Relay CLI (beta) — a single binary that gives the agent hands on any machine you pair : files, terminal, search, screenshots — consent-gated. A vanilla hermes-agent install is enough for the upstream standard path: chat, management, voice, inbound files, Petdex, and ordinary installed-plugin pages. The Hermes-Relay plugin is optional for that base but encouraged for the complete curr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, developer-tools, device-control, hermes-agent, jetpack-compose
+
+---
+
 ## 🕔 2026-10-05 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
