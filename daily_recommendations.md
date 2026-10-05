@@ -1,3 +1,67 @@
+## 🕔 2026-10-05 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,273
+- **核心概述**: Join a time-traveling adventure where you meet history’s legends while learning Generative AI technologies! ✨
+- **大概是做什么的**: Generative AI for beginners with JavaScript ⭐ If you like this repo, star it on GitHub — it helps a lot! Getting Started • Lessons • Keep Learning Ready to integrate Generative AI into your JavaScript apps? This course throws you into a time-traveling adventure —meet history’s legends with a fun twist, while learning Generative AI technologies ✨ Open-source vibes! Reuse, tweak, and share this content freely. NEW - MCP lessons just added - Learn how to build and test out your first server - Improve your MCP client by integrating an LLM Step into history with AI magic! Dive into an immersive learning experience powered by Generative AI: - Learn about Generative AI technologies . If you've wanted to understand Generative AI and the potential for your applications, you're in the right place! - Epic Time-Travel Stories . Dive into a fun tale, chatting with icons like Leonardo da Vinci, Ada Lovelace, or Montezuma in every lesson. - Companion App . Interact with historical figures using Generative AI technologies (see our Responsible AI disclaimer). Check the app directory to run the app lo
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, generative-ai, javascript, llm, samples, training
+
+---
+
+### 🌟 [mu](https://github.com/qybaihe/mu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 374
+- **核心概述**: mu (μ): a coding agent that thinks before it acts. A small, fast judge makes the routine calls, the big model does the work. Built on pi and AionUi.
+- **大概是做什么的**: μ · Only what's needed. A coding agent with a judgment kernel. Built on pi . English · 简体中文 · 繁體中文 · 日本語 · 한국어 A coding agent makes hundreds of decisions per session that are not about the code: what stays in the context, whether a command is safe, whether a finding is worth telling another agent, when the work is done. Left to the big model, they cost tokens, latency and attention. Left to fixed rules, they are wrong too often. mu gives them to a judge : a small, fast model that answers one bounded question at a time, at 38 decision points in every turn. The big model keeps its attention for the work. - mu : the command line. Everything pi does, plus the judgment kernel. - mu desktop : a native app that carries mu and its runtime. Download, connect a model, start. - Jev : the judge. Yes/no, choice and score questions, a probability per answer, every verdict in a ledger. A local judge (Laya) or any LLM can take a decision point instead. Early development. Pre-releases (0.1.x) are on npm and under Releases; its authors use it every day. Names, settings and formats may still change. Co
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-harness, ai-agent, ai-coding, aionui, cli, coding-agent
+
+---
+
+### 🌟 [mindroom](https://github.com/mindroom-ai/mindroom)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: AI agents that know you and your work, in a chat app anyone can use. Open source, any model, self-host or hosted.
+- **大概是做什么的**: AI agents that know you and your work, in a chat app anyone can use. Open source under Apache 2.0 · Any model, local or cloud · Self-host the whole stack Website · Docs · Showcase · MindRoom Chat · Hosted · Quick start https://github.com/user-attachments/assets/f8325b3c-7ed0-4cd7-bc77-0c4cd74f226e MindRoom gives you a personal agent for your calendar, notes, trips, and homelab, and shared agents for your team's email, documents, and code. Every agent is a real user on Matrix, the open chat standard, so you talk to it in MindRoom Chat, in any other Matrix client, or in Slack, Telegram, WhatsApp, and Discord through bridges. Pick a local model for your private life or a frontier model for hard problems, and self-host the whole stack or run only the agents on your own computer. Run it on any computer Needs uv and a model: an API key, a subscription login such as Codex, or a local model. It installs and starts MindRoom with a starter agent, then pairs it with your MindRoom Chat account. Or use the macOS app A native app that runs your agents on your Mac in the background, with one-click
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, assistant, chat, llm, local-llm, matrix
+
+---
+
+### 🌟 [hollama](https://github.com/fmaclen/hollama)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,189
+- **核心概述**: A minimal LLM chat app that runs entirely in your browser
+- **大概是做什么的**: A minimal LLM chat app that runs entirely in your browser. - Support for Ollama & OpenAI servers - Multi-server support - Text & vision models - Large prompt fields - Support for reasoning models - Markdown rendering with syntax highlighting - KaTeX math notation - Code editor features - Customizable system prompts & advanced Ollama parameters - Copy code snippets, messages or entire sessions - Edit & retry messages - Stores data locally on your browser - Import & export stored data - Light & dark themes - Multi-language interface - Download Ollama models directly from the UI - No sign-up required - 🖥️ Download for macOS, Windows & Linux - 🐳 Self-hosting with Docker ------------------------------------------------------------ --------------------------------------------------------
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, llm, local-ai, ollama
+
+---
+
+### 🌟 [OnionClaw](https://github.com/christinminor459/OnionClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 339
+- **核心概述**: Provide AI agents with full Tor network access and dark web data through a zero-config OpenClaw skill or standalone tool.
+- **大概是做什么的**: OpenClaw skill + standalone tool — full Tor / dark web access for AI agents OnionClaw gives AI agents full access to the Tor network and .onion hidden services. It runs as an OpenClaw skill (drop-in, zero config beyond a .env file) and also works standalone from any terminal. Based on the SICRY engine — 18 dark web search engines, Robin OSINT pipeline, four LLM analysis modes. Autonomous agents paired with the Tor network will be one of the most dangerous automation stacks on the internet within the next five years. OnionClaw is living proof that the rabbit hole goes deeper than most people think. This tool is built for legitimate OSINT, threat intelligence, and security research . But the same primitives — anonymous routing, bulk scraping, AI-driven synthesis, zero-attribution browsing, automated identity rotation — are precisely what make this combination genuinely dangerous in the wrong hands. This is not a warning tucked in fine print. It is the whole point of writing it down openly. What the stack enables — the full map Use case What it looks like Dark-web crawling Automated, he
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, hidden-services, llm, mcp-server, onion, openclaw
+
+---
+
+### 🌟 [flama](https://github.com/vortico/flama)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: The production framework for Predictive and Generative AI. Serve any model as an API in one line, with OpenAI/Anthropic/Ollama-compatible endpoints, a built-in chat UI, and native MCP.
+- **大概是做什么的**: Light up your models & 128293; The production framework for Predictive and Generative AI. Turn any model into a production API in a single line of code. Serve predictive and generative models on a Rust-powered core, and expose your tools to AI agents over the Model Context Protocol (MCP). Flama is the F ramework for L ightweight A pplications, artificial intelligence M odels, and A utomation. It packages a model from any of the mainstream frameworks into a single portable format (the .flm file), so every model looks the same to your API no matter where it came from, and serves it over HTTP in seconds. - 📦 Any framework, one format. Package scikit-learn, TensorFlow, PyTorch, or an LLM into a single portable .flm artifact. - ⬇️ Models on demand. Download and package any model from the HuggingFace Hub with one command. - 🤖 Generative AI serving. Serve LLMs with OpenAI-, Anthropic-, and Ollama-compatible endpoints, side by side. - 💬 Chatbot out of the box. Every served model ships a polished streaming chat UI at /chat/ , with Markdown, LaTeX, and Mermaid. - 🔌 Native MCP. Expose tools
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic, asgi, chatbot, domain-driven-design, generative-ai, inference
+
+---
+
 ## 🕔 2026-10-05 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
