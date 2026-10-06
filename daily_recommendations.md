@@ -1,3 +1,67 @@
+## 🕔 2026-10-06 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 252 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [oumi](https://github.com/oumi-ai/oumi)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,392
+- **核心概述**: Easily fine-tune (SFT/RL), evaluate, and deploy Qwen, Gemma, or any open agentic LLM/VLM!
+- **大概是做什么的**: Everything you need to build state-of-the-art foundation models, end-to-end - [2026/09] Oumi v0.9 released: an end-to-end stack for agentic, tool-using models, with tool-calling SFT/DPO, executable tool environments, GRPO over any Oumi environment with verl, and a multi-criteria RubricJudge . - [2026/08] Extended GRPO reinforcement learning to support tool use - [2026/07] Added support for tools, environments (simulated, lookup, database), and agentic data synthesis - [2026/06] Added support for the Gemma 4 model family - [2026/06] Added partial-failure support across inference, judging, and data synthesis - [2026/05] Oumi v0.8 released with oumi deploy CLI for dedicated inference endpoints, an oumi-mcp MCP server for Claude/Cursor integration, batch API support across Anthropic/Fireworks/Together, and Transformers v5 / TRL / vLLM dependency upgrades - [2026/03] Upgraded to Transformers v5, TRL v0.30, vLLM v0.19, and veRL v0.7 compatibility - [2026/03] New oumi deploy command for deploying Oumi models to dedicated inference endpoints on Fireworks and Parasail - [2026/03] Added suppor
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, dpo, fine-tuning, gemma, gpt-oss, grpo
+
+---
+
+### 🌟 [openclaw-nerve](https://github.com/daggerhashimoto/openclaw-nerve)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 868
+- **核心概述**: Real-time web cockpit for OpenClaw: voice conversations, agent automated kanban board, workspace/file control, sub-agent sessions, inline charts, and usage visibility.
+- **大概是做什么的**: The cockpit OpenClaw deserves. OpenClaw is powerful. Nerve is the interface that makes people say “oh, now I get it." Run the installer, live in 60 seconds Chat is great for talking to agents. It is not enough for operating them. The moment you care about visibility, control and coordination over your agents, the thread gets too small. You want the workspace, sessions, taskboard, editor, usage, and agent context in one place. Nerve is that place. Why it feels different ✨ Fleet control, not just chat Run multiple agents from one place. Each agent can have its own workspace, subagents, memory, identity, soul, and skills, while Nerve gives you a single control plane to switch context, inspect state, and operate the whole fleet. ✨ Voice that feels built in Push-to-talk, wake word flows, explicit language selection, local Whisper transcription, multilingual stop and cancel phrases, and multiple TTS providers. Voice is part of the product, not an afterthought. ✨ Full agent operating context Each agent can have its own workspace, memory, identity, soul, and skills. Nerve lets you inspect, e
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude, clawbot, dashboard, mission-control, open-source
+
+---
+
+### 🌟 [codegraph-rust](https://github.com/Jakedismo/codegraph-rust)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 888
+- **核心概述**: 100% Rust implementation of code graphRAG with blazing fast AST+FastML parsing, surrealDB backend and advanced agentic code analysis tools through MCP for efficient code agent context management
+- **大概是做什么的**: CodeGraph (with updates) Your codebase, understood. CodeGraph transforms your entire codebase into a semantically searchable knowledge graph that AI agents can actually reason about—not just grep through. Ready to get started? Jump to the Installation Guide for step-by-step setup instructions. Already set up? See the Usage Guide for tips on getting the most out of CodeGraph with your AI assistant. Prefer shell commands? Run codegraph agent context "your question" . The same four agentic tools are available through the CLI, with project-local Claude Code/Codex hooks. codegraph init offers hook setup and adds agent instructions before indexing. AI coding assistants are powerful, but they're flying blind. They see files one at a time, grep for patterns, and burn tokens trying to understand your architecture. Every conversation starts from zero. What if your AI assistant already knew your codebase? What CodeGraph Does Differently 1. Graph + Embeddings = True Understanding Most semantic search tools create embeddings and call it a day. CodeGraph builds a real knowledge graph : When you se
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ai-coding, claude-code, code-search, codex
+
+---
+
+### 🌟 [cashclaw](https://github.com/ertugrulakben/cashclaw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 302
+- **核心概述**: The Agent Economy Layer — agents earn, agents spend, Guard protects. 13 skills, runtime cost cap, recursive kill, tool firewall. 50+ HYRVE API endpoints, job polling daemon, MPP stablecoin. v1.7.0
+- **大概是做什么的**: The Agent Economy Layer — agents earn, agents spend, Guard protects. What is CashClaw? &middot; Quick Start &middot; How It Works &middot; "I deployed CashClaw on Friday. By Monday, my agent had completed 12 missions and earned $847." -- Early beta tester "Guard caught a recursion at call 27. Telegram pinged me on the way home. The damage was $0.42 instead of $4,700." -- v1.7.0 beta tester CashClaw is a set of OpenClaw skills that turn your AI agent into a freelance business operator -- now connected to the live HYRVE AI marketplace . Your agent wakes up. Checks the pipeline. Picks up a client request. Runs an SEO audit. Writes a blog post. Generates 50 qualified leads. Creates a Stripe invoice. Sends a payment link. Follows up three days later. Collects the money. You sleep. CashClaw works. It is not a framework. It is not a SaaS dashboard. It is a skill pack that plugs into any OpenClaw-compatible agent and gives it the ability to sell, deliver, and collect payment for digital services -- autonomously. That is it. CashClaw will: 1. Create your /.cashclaw/ workspace 2. Set up the mi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, cashclaw, cli, freelance, hyrve
+
+---
+
+### 🌟 [cargo-crap](https://github.com/minikin/cargo-crap)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 414
+- **核心概述**: Change Risk Anti-Patterns (CRAP) metric for Rust projects
+- **大概是做什么的**: cargo-crap finds the Rust functions that are both complex and untested: the ones where a change is most likely to break something without a test failing. It parses your source with syn , reads the LCOV file your coverage tool already writes, and gives every function a CRAP score. Run it locally to see where tests are missing, or in CI to fail a build when a score crosses the threshold or goes up. comp is the function's cyclomatic complexity (CC) and cov its line coverage in percent. A function with CC 12 and no tests scores 156. Cover every line and it scores 12, its complexity. Savoia and Evans introduced the metric in 2007. The CRAP metric covers the formula's properties and history. On Arch Linux, paru -S cargo-crap . Install has the cargo-crap does not run your tests. It reads the LCOV file a coverage tool writes, usually cargo-llvm-cov ( cargo tarpaulin works too): In a workspace, add --workspace to the cargo llvm-cov and cargo crap commands. Getting started has more, including --summary and -p . Rows are sorted worst first. ✗ marks a score above --threshold , ▲ a score above a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, anti-patterns, cargo-plugin, code-coverage, code-quality, complexity
+
+---
+
+### 🌟 [humanize](https://github.com/humanfia/humanize)
+- **项目语言**: Python
+- **星标数量**: ⭐ 200
+- **核心概述**: The agent flow system for token maxxing.
+- **大概是做什么的**: The agent flow system for token maxxing. Needs Python 3.12 or newer, uv, and a coding agent CLI you are signed in to, such as Claude Code or Codex. Three backends need a package of their own: [dsh] for DeepSeek Harness, [kimi] for Kimi Code, [litellm] for a model called directly, [all] for all three. Open the terminal interface in a repository: Or run a flow from your shell: Agents run with approvals bypassed, so start in a scratch repository. The documentation opens with a quickstart. Pull requests are welcome: CONTRIBUTING.md says how to propose one. Report a bug or request a feature through the issue forms, and report a vulnerability privately, as SECURITY.md says. Everyone taking part follows the Apache-2.0 &copy; Humanfia
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, claude-code, codex, coding-agents, flow
+
+---
+
 ## 🕔 2026-10-06 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
