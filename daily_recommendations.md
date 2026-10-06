@@ -1,3 +1,67 @@
+## 🕔 2026-10-06 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-decision-models](https://github.com/AnotiaWang/awesome-decision-models)
+- **项目语言**: Python
+- **星标数量**: ⭐ 613
+- **核心概述**: A curated list of decision models (System One / typed decision models): hosted APIs, open-weight models, runtimes, SDKs, applications, benchmarks, and papers.
+- **大概是做什么的**: Awesome Decision Models A curated list of decision models (also called System One models or typed decision models) and the APIs, runtimes, tools, applications, benchmarks, and research around them. English 简体中文 · Website A decision model reads a state (text, JSON, and for some models images) plus questions whose answers you declare up front, and returns a probability for every answer instead of generated text. Questions come in three shapes: Noul (the probability that a statement is true), Choice (one of your options), and Score (a level on an ordered rubric). TypeSafe AI introduced the category in September 2026 with Jev and its /v1/systemone API, and many of the models and runtimes below accept the same request shape. Community-maintained and not affiliated with any model provider. Pull requests welcome. - Inference Techniques - Runtimes & Platforms - Benchmarks & Evaluations API-only models, oldest first. Open-weight models that their publishers also host, such as Clef and pplx-decider, are under Open Models. - Jev - TypeSafe AI's first System One model and the origin of the /v1/s
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, awesome, awesome-list, decision-models, jev, llm
+
+---
+
+### 🌟 [Qwen3.6-27B-AEON-Ultimate-Uncensored-DFlash](https://github.com/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-DFlash)
+- **项目语言**: Python
+- **星标数量**: ⭐ 473
+- **核心概述**: Fully uncensored, capability-enhanced abliteration of Qwen3.6-27B. NVFP4 + z-lab DFlash speculative decoding (n=12) on the unified ghcr.io/aeon-7/aeon-vllm-ultimate:latest container, tuned for long-context draft acceptance on DGX Spark. 6 HF variants (BF16/NVFP4/MTP/MTP-XS), docker-compose, and QuickStart.
+- **大概是做什么的**: Prefer Qwen3.8 for new deploys: HF NVFP4-MIXED · GitHub recipe card (Spark Dynamic DFlash lattice, TP=2, RTX). This Qwen3.6 card remains for existing deployments and history. Qwen3.6-27B-AEON-Ultimate-Uncensored Lossless abliteration · Capability-enhanced · NVFP4 hardware-quantized for Blackwell -yellow?logo=huggingface) -yellow?logo=huggingface) Refusals: 0 / 100 &nbsp;·&nbsp; KL vs base: 0.000492 &nbsp;·&nbsp; Compression: 49 % &nbsp;·&nbsp; Capability: enhanced A fully uncensored, capability-enhanced abliteration of Qwen/Qwen3.6-27B, produced over 72 hours of continuous research drawing on hundreds of parallel AI research agents, the industry's best published methodologies, custom in-house techniques, and yet-unreleased pre-public branches of next-generation abliteration software. Quickstart (DGX Spark / GB10) — copy-paste ⚠️ This container is DGX Spark / GB10 only — it is not portable. aeon-vllm-ultimate is built for the Spark's ARM64 CPU and GB10's sm 121a NVFP4 kernels . On an x86 / amd64 host it will not start ( /usr/bin/bash: cannot execute binary file — wrong CPU arch); on a
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: abliteration, blackwell, dflash, dgx-spark, llm, nvfp4
+
+---
+
+### 🌟 [cc-sessions-viewer](https://github.com/jerrywu001/cc-sessions-viewer)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 393
+- **核心概述**: support cc/codex/grok build/kimicode/pi/antigravity cli/opencode sessions viewer, skills manage, token usage statistics, global search, resume, and export to html
+- **大概是做什么的**: English · 中文 · 日本語 · Documentation · CHANGELOG A native desktop browser for Claude Code , Codex , Grok Build , Kimi Code , Pi , Antigravity CLI , and opencode . Read, search, and manage local session transcripts from all seven in one place. Plus a tool management page — round up the skills scattered across your agents (duplicates, dead links, the same one stored three times), and take over MCP servers, hooks, and instruction files. Guide → https://github.com/user-attachments/assets/9bcb92a8-e5b8-40e5-b492-af252162309b Sessions Viewer turns local agent transcripts into a searchable workspace. Open a project, inspect exactly what happened, then continue the work from the same place without manually hunting through JSONL files. New — Tool management. Skills, MCP servers, hooks, and instruction files for all seven agents in one place. Find the duplicate skills and broken links on your machine and repair them, see what your MCP servers cost in context before you type, and dry-run a hook before you trust it. Every change previews the exact file edits first. → Read the tool management guide
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding, claude-code, codex, coding-agent, mcp, opencode
+
+---
+
+### 🌟 [dsh-commandcode-provider](https://github.com/Mars-Sea/dsh-commandcode-provider)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 369
+- **核心概述**: Command Code provider plugin for DeepSeek Harness (dsh). Adds Command Code model access, live model catalog, plan-aware model selection, reasoning effort, image input, web search, and multi-account support.
+- **大概是做什么的**: dsh-commandcode-provider Unofficial DeepSeek Harness LLM provider plugin for Command Code , ported from pi-commandcode-provider (MIT). This is a community integration. You need your own Command Code account and API key or subscription, and Command Code's terms apply. This project is not affiliated with Command Code, Inc. - Plugin bundle — install into any dsh profile with dsh plugin add ; registers a commandcode provider route with a live model catalog. - Dedicated settings page — one account list (keys, sign-in, live quota, dedicated models), model visibility, privacy switches, and connection options. - Works in the terminal too — the same install serves a dsh-TUI profile, with its own /settings → Command Code page for the API key and the model controls. - Models-page key card — the Settings → Models → Command Code card carries the key status, a paste field, and the sign-in button inline. - In-browser sign-in for keys — start the official authorization flow (the same one cmd login runs) from the settings page; the approved key lands in the local credential service automatically. Man
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: command-code, commandcode, deepseek-harness, dsh, dsh-plugin, llm
+
+---
+
+### 🌟 [mcp-image](https://github.com/shinpr/mcp-image)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 169
+- **核心概述**: MCP server for AI image generation and editing with automatic prompt optimization and quality presets. Supports Nano Banana (Gemini), OpenAI GPT Image, and BytePlus Seedream.
+- **大概是做什么的**: MCP Image Generator 🍌 Generate and edit images from Codex, Cursor, Claude Code, or any MCP client. mcp-image adds visual direction to your request before sending it to Gemini, OpenAI, or BytePlus Seedream. Tell it what image to create or what to change in an existing image, and what it is for. The result is saved to disk and returned to your assistant. Before generating an image, mcp-image rewrites short requests into more specific prompts. It keeps what you asked for and fills in details such as composition, lighting, and camera angle. The more detail you provide, the less it changes. "A photo of a roast chicken dinner for a recipe site. It should look like it was actually cooked, and it should be partway through being carved so you can tell how juicy it is." mcp-image sends to the image model: "... a beautifully roasted whole chicken, golden-brown and glistening , resting on a rustic wooden cutting board. One leg is partially carved, revealing tender, succulent white meat and rich, glistening juices pooling around the carving knife ... shallow depth of field focused on the carved
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-tools, claude-code, codex, gemini, generative-ai
+
+---
+
+### 🌟 [AgentLab](https://github.com/ServiceNow/AgentLab)
+- **项目语言**: Python
+- **星标数量**: ⭐ 644
+- **核心概述**: AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.
+- **大概是做什么的**: 🛠️ Setup &nbsp; &nbsp; 🤖 Assistant &nbsp; &nbsp; 🚀 Launch Experiments &nbsp; &nbsp; 🔍 Analyse Results &nbsp; &nbsp; 🏆 Leaderboard &nbsp; &nbsp; 🤖 Build Your Agent &nbsp; &nbsp; ↻ Reproducibility &nbsp; &nbsp; AgentLab is meant to provide an open, easy-to-use and extensible framework to accelerate the field of web agent research. It is not meant to be a consumer product. Use with caution! AgentLab is a framework for developing and evaluating agents on a variety of benchmarks supported by BrowserGym. It is presented in more details in our BrowserGym ecosystem paper Easy large scale parallel agent experiments using ray Building blocks for making agents over BrowserGym Unified LLM API for OpenRouter, OpenAI, Azure, or self-hosted using TGI. Preferred way for running benchmarks like WebArena Various reproducibility features 🎯 Supported Benchmarks Benchmark Setup Link Task Template Seed Diversity Max Step Multi-tab Hosted Method BrowserGym Leaderboard ----------- ------------ --------- ---------------- ----------- ----------- --------------- ---------------------- WebArena setup 812
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, benchmark, evaluation-framework, lab, llm
+
+---
+
 ## 🕔 2026-10-05 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
