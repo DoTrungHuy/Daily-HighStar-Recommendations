@@ -1,3 +1,67 @@
+## 🕔 2026-10-06 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [registry](https://github.com/modelcontextprotocol/registry)
+- **项目语言**: Go
+- **星标数量**: ⭐ 7,321
+- **核心概述**: A community driven registry service for Model Context Protocol (MCP) servers.
+- **大概是做什么的**: The MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers. 📤 Publish my MCP server ⚡️ Live API docs 👀 Ecosystem vision 📖 Full documentation 2025-10-24 update : The Registry API has entered an API freeze (v0.1) 🎉. For the next month or more, the API will remain stable with no breaking changes, allowing integrators to confidently implement support. This freeze applies to v0.1 while development continues on v0. We'll use this period to validate the API in real-world integrations and gather feedback to shape v1 for general availability. Thank you to everyone for your contributions and patience—your involvement has been key to getting us here! 2025-09-08 update : The registry has launched in preview 🎉 (announcement blog post). While the system is now more stable, this is still a preview release and breaking changes or data resets may occur. A general availability (GA) release will follow later. We'd love your feedback in GitHub discussions or in the registry-dev Discord (joining details here). Registry Working Group: - Radoslav (Rado) Dimitro
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-servers
+
+---
+
+### 🌟 [kiln](https://github.com/instruktlabs/kiln)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 236
+- **核心概述**: Build and revise procedural 3D assets with your coding agent. Local MCP server, CLI and TypeScript engine with rendered review, editable source and GLB export.
+- **大概是做什么的**: The package name is @instruktlabs/kiln . This checkout targets version 1.0.0. Stable releases use npm's latest tag; release candidates use next . Until 1.0.0 is available in the npm registry, install the public RC with npm install @instruktlabs/kiln@next , or pin @instruktlabs/kiln@1.0.0-rc.1 . Do not use the unqualified name while latest still points to the temporary 0.0.0-stage holding version. Package publication and the hosted service have separate release gates. The SDK guide describes the compiled ESM library; use the local package build to test this checkout. The 0.10.0 release described below remains a historical release. The agent writes JavaScript using Kiln's geometry and material helpers. Kiln runs the program and returns rendered views and structural checks so the agent can review its work. Export the asset as a GLB and keep the source for later changes. Kiln runs locally. It includes an MCP server, a CLI, a TypeScript library, and skills for authoring, editing, animation review, and scene composition. Your agent supplies the model; Kiln does not require a separate model
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, 3d-assets, 3d-modeling, agent-skills, agent-tools, ai-agents
+
+---
+
+### 🌟 [guardana](https://github.com/guardana/guardana)
+- **项目语言**: Python
+- **星标数量**: ⭐ 150
+- **核心概述**: Open-source AI security verification for model artifacts, live endpoints, MCP servers, and recorded agent traces. Reproducible evidence for release decisions.
+- **大概是做什么的**: Guardana is an open-source AI security verification tool for security and platform engineers. It checks code and model artifacts, live AI systems, and recorded runs. It reports what it found, what it could not verify, and what it could not check. It verifies outside the request path; it is not an inline guardrail, a general SAST or CVE scanner, or a compliance certification. Quickstart · Features · Rule catalog · Docs · Status & limits · Roadmap · Changelog · Partner with us 58 built-in security checks; add checks for your application. The count comes from the generated rule summary. Built-in artifact checks need no network. scan --reporter server:// sends results to a collector; active checks contact the target you choose. Guardana needs no account and has no automatic telemetry or phone-home. The command is guardana ; the distribution is guardana-cli . An uncached uvx run or an install downloads the distribution. For a source checkout, clone and run uv sync as described in docs/install.md . Start with an offline result: Its README walks through a failing scan, the fix, a saved run,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-security, ai-agents, ai-red-teaming, ai-safety, ai-security, devsecops
+
+---
+
+### 🌟 [Benzi](https://github.com/oooscoos/Benzi)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 140
+- **核心概述**: Compiler-backed coding agent that compiles your codebase into a resolved, queryable map of calls, data flow, and control flow first; then it explains, runs, edits and verifies your code using it. Includes a runtime tracer that settles what static analysis can't. The Benzi compiler also works as an MCP server.
+- **大概是做什么的**: Language Agnostic · Model Agnostic · Compiles Locally · BYOK · MCP Compatible &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; What is Benzi — how it works in one paragraph Live demos — StallionSwipe, VS Code's own source, or any repo you paste What people say — what people wrote about it SWE-bench Verified — 391/500 (78.2%) for $37.33 How it works — compile, query, edit, verify Tools — 16 of the 35+ the index makes possible What the index actually changes — lines read vs three other harnesses Features · Language support · Getting started FAQ & comparisons — privacy, pricing, limits, and how Benzi compares Most AI coding agents dump a repo into a context window and hope the model finds what matters. Benzi parses every file first — a real compiler, built on tree-sitter — into a precise, queryable map. Every symbol, every call edge, every reference, every class in its inheritance chain. One pass, done. Every file parsed, imports resolved, class ancestry built, every identifier traced to its definition — before a single question is answered. Call flow and data flow join at every call s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, cli, code-generation, code-intelligence
+
+---
+
+### 🌟 [Paper-Replications](https://github.com/YuvrajSingh-mist/Paper-Replications)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 428
+- **核心概述**: From-scratch PyTorch replications of classic and SOTA AI/ML papers: transformers, attention, GANs, diffusion, CLIP, LoRA, MoE and more, with reproducible training code.
+- **大概是做什么的**: This repository contains a collection of code implementations and experiments replicating results from a wide range of influential machine learning and deep learning research papers. Each subfolder corresponds to a specific paper, model, or technique, with code, notes, and sometimes pretrained weights or results. Visit smolhub to view the deployed models. - Attention Mechanisms/ : Implementations and experiments with various attention mechanisms. - BERT/ : Replication and exploration of the BERT model. - CGANs/ : Conditional Generative Adversarial Networks. - CLAP/ : Contrastive Language-Audio Pretraining. - CLiP/ : CLIP and related vision-language models. - CycleGANs/ : Cycle-consistent GANs for image translation. - DCGANs/ : Deep Convolutional GANs. - DDP/ : Distributed Data Parallel training experiments. - DeepSeekV3/ : DeepSeek model replications and experiments. - Differential Transformer/ : Differential Transformer architectures. - DPO/ : Direct Preference Optimization and related RLHF methods. - Encoder-Decoder/ : Encoder-decoder architectures for sequence modeling. - Fine Tun
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: artificial-intelligence, attention-mechanism, computer-vision, deep-learning, diffusion-models, educational
+
+---
+
+### 🌟 [zero2Leetcode](https://github.com/ranxi2001/zero2Leetcode)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 204
+- **核心概述**: 从零基础 Python 到企业笔试机试的系统性LeetCode100刷题指南-配置免费AI刷题助手
+- **大概是做什么的**: 从零基础 Python 到企业笔试机试的系统性刷题指南 视频介绍 • 开始学习 • 题目列表 • 在线练习场 • ACM 模拟 • AI 教练 本项目专为 计算机专业求职者 设计，帮助你从 Python 零基础到能够独立解决 LeetCode 中等难度题目，系统准备企业笔试、机试与技术面试。 - 📚 系统学习路线 — 6 阶段覆盖 Python 基础、算法刷题、ACM 笔试真题、面试手撕与八股文 - 🖥️ 在线练习场 — 116 道题接入本地测试，支持 Python / Java 17 / Go 核心代码模式 - 🎯 ACM 模拟 IDE — 支持 Python / Go / Java 17（Preview）、stdin/stdout、输出对比和 Python 断点调试 - 🤖 AI 编程教练 — 在练习场诊断题目与代码，也能读取 ACM 代码和样例，把 Python 解法快速转换为 Java 17 / Go - 📝 完整题解 — LeetCode Hot 100 全部题解 - ✅ Python 语言零基础或仅掌握基础语法 - ✅ 目标通过 LeetCode Medium 难度 建议 12-18 周 ，每天投入 2-3 小时 想先看演示再开刷，可以直接看这条 B 站视频。 零门槛刷力扣 Hot100！免费在线 OJ + AI 教练，不用登录直接开刷 视频地址：https://www.bilibili.com/video/BV129QmBGE3Q/ 这条视频会快速带你了解项目的核心使用方式： - 浏览器内直接刷 LeetCode Hot 100，不用本地搭环境 - 内置免费在线 OJ，打开页面就能写代码、运行和调试 - AI 教练自动读取当前题目和代码，给出提示、诊断和讲解 - 不用登录，打开即用，适合零基础和面试前集中训练 如果你想先看完整演示，再按仓库里的学习路线系统刷题，建议先看视频，再进入下方的 AI 助手和题单部分。 🖥️ LeetCode 核心代码练习场 在线练习场使用 LeetCode 核心代码模式：只实现题目函数或类，不需要处理标准输入输出。切换语言或题目时，Python、Java 和 Go 草稿会分别自动保存。 ------ ---------- ---------- Python 3 题目顶层函数 Pyodide 浏览器内执行 Java 17 class Solution 或题目指定类 自动附加 Main 测试驱动，通过 Java 17 浏览器运行时编译执行 Go 题目函数或题目指定类型 自动附加 package main 与测试驱
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acm, agent, gpt, leetcode, llm, python
+
+---
+
 ## 🕔 2026-10-06 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 252 个候选项目中筛选出 6 个未推荐过的新项目。
