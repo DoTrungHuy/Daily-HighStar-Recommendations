@@ -1,3 +1,67 @@
+## 🕔 2026-10-06 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Databuddy](https://github.com/databuddy-analytics/Databuddy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,174
+- **核心概述**: Open-source product analytics for startups: track visitors, events, funnels, and goals without cookies, and ask Databunny, the built-in AI analyst. Uptime, feature flags, and short links in the same dashboard.
+- **大概是做什么的**: Understand how people use your product: where they come from, what they do, and where they drop off. Use that insight to decide what to build or improve next. Databuddy is open-source product analytics for startups. One cookieless script tracks visitors, custom events, funnels, and goals, with opt-in error and web vitals tracking. Databunny, the built-in AI analyst, answers questions about your data and shows the query behind each answer. Feature flags, short links, and uptime monitoring run in the same dashboard. - Building a product? Try hosted Databuddy or follow the tracker setup guide. - Running your own stack? Read self-hosting below. A packaged release is still pending. - Want to help build Databuddy? Read the contributor guide. Bug reports and docs fixes count too. Run Databuddy on your server with Docker Compose. It sets SELFHOST=true , so events go straight to ClickHouse, while hosted billing and Databuddy's own telemetry are disabled. Email and AI are optional; see optional services. These steps need a release with the databuddy-init image. None is published yet; check rel
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-analytics, alternative, analytics, cookieless, europe, feature-flags
+
+---
+
+### 🌟 [lcu](https://github.com/amontlabs/lcu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 576
+- **核心概述**: Codex computer use, decoupled from the app, for usage inside any harness.
+- **大概是做什么的**: Codex computer use, decoupled from the Codex app. https://github.com/user-attachments/assets/bd9d0809-8a6c-4931-a51c-b98daf05cb5f LCU exposes Codex's original computer-use runtime to your harness without requiring Codex authentication. The official ChatGPT desktop app must still be installed locally: it supplies the runtime and instructions, while LCU handles setup and harness integration. Copy this into your agent: In Claude Code on an Apple Silicon Mac, two commands do the same through its plugin manager; see Claude Code plugin: - Desktop apps: read windows, click, type, and take screenshots. - Chrome, when enabled: read and control tabs through the official extension, with site approval. - In your harness: adapters are available for Pi, Codex CLI, and Claude Code, with experimental Oh My Pi and Hermes integrations. See setup and verification limits. Approve apps from Claude, natively The first time an agent controls an app (Zed, Notes, Safari), the computer-use runtime asks you to allow it. The Claude app's Code tab used to fail that request with "Computer Use was not approved". l
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-skills, browser-automation, claude-code, codex-cli, computer-use
+
+---
+
+### 🌟 [receipt-ocr](https://github.com/bhimrazy/receipt-ocr)
+- **项目语言**: Python
+- **星标数量**: ⭐ 730
+- **核心概述**: An efficient OCR engine for receipt image processing.
+- **大概是做什么的**: An efficient OCR engine for receipt image processing. This repository provides a comprehensive solution for Optical Character Recognition (OCR) on receipt images, featuring both a dedicated Tesseract OCR module and a general receipt processing package using LLMs. - Receipt OCR Engine - How to Use Receipt OCR - Receipt OCR Module (Structured Data Extraction) - Tesseract OCR Module (Raw Text Extraction) Extract structured data from a receipt in 3 steps: 1. Install the package: 2. Set up your API key: 3. Process a receipt: For Docker or advanced usage, see How to Use Receipt OCR below. The project is organized into two main modules: - src/receipt ocr/ : A new package for abstracting general receipt processing logic, including CLI, programmatic API, and a production FastAPI web service for LLM-powered structured data extraction from receipts. - src/tesseract ocr/ : Contains the Tesseract OCR FastAPI application, CLI, utility functions, and Docker setup for performing raw OCR text extraction from images. - Docker & Docker-compose(for running as a service) - Tesseract OCR (for local Tesser
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: hacktoberfest, invoice-ocr, invoice-ocr-python, llm, llm-ocr, ocr
+
+---
+
+### 🌟 [jevcore](https://github.com/PerryLink/jevcore)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 103
+- **核心概述**: TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments instead of prose, offline by default.
+- **大概是做什么的**: TypeSafe Jev for DeepSeek Harness and any other MCP host. Jev is not a chat model. It answers typed questions — noul (yes/no), choice , score — and returns calibrated probabilities. It does not write prose, and asking it to is a category error. This project gives an agent exactly that surface, and nothing more. Offline by default. Egress disclosed. Nothing default-on. 📖 Ecosystem knowledge base — measured data, not marketing: plugin development guide · plugin-selection data · maintenance criteria. 这个插件是 DSH 插件家族的一员（40+ 个，全部 Apache-2.0）。如果你在用， 给个 star —— 它不会解锁任何功能，但会让下一个人在搜索里更容易找到它。 English: part of a 40+ plugin family for DeepSeek Harness. If it is useful, a star helps the next person find it — nothing is gated behind it. Three packages, one decision layer Package What it is Use it when jevcore The decisions. Imports nothing from DeepSeek Harness or Cordis. You want Jev in a plain script, a service, or your own harness jevcore-dsh The DSH plugin: one service, three tools, two opt-in gates You are running DeepSeek Harness jevcore-mcp The same three tools over MCP, with a stdio binary
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cordis, decision-model, deepseek, deepseek-harness, dsh
+
+---
+
+### 🌟 [scribe.js](https://github.com/scribeocr/scribe.js)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 322
+- **核心概述**: JavaScript OCR and text extraction for images and PDFs.
+- **大概是做什么的**: Scribe.js is a JavaScript library that performs OCR and extracts text from images and PDFs. 1. Recognize text from images. 2. Extract text from user-uploaded .pdf files. 1. If the .pdf file is already text-native, scribe.js can extract the existing text. 2. If the .pdf file is image-native, scribe.js can recognize text using OCR. 3. Write .pdf files that include a high-quality invisible text layer. 1. scribe.js can insert text into an existing .pdf file, making it searchable. Scribe.js is a library intended for developers. End users who want to scan documents should see the officially-supported GUI at scribeocr.com (repo here). Install from npm by running the following: Scribe.js is written in JavaScript using ESM, so can be imported directly from browser or Node.js JavaScript code without a build step. The scribe.extractText function is a simple function that extracts text from images and PDFs with reasonable default settings. This function makes it easy for new users to test Scribe.js, but is generally not ideal for production use. For full control, create a new document object usi
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: javascript, mcp, ocr, tesseract, webassembly
+
+---
+
+### 🌟 [fora](https://github.com/ImFeH2/fora)
+- **项目语言**: Python
+- **星标数量**: ⭐ 264
+- **核心概述**: Run your own organization of agents
+- **大概是做什么的**: Run your own organization of agents.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, agentic-workflows, ai, ai-agent, ai-workspace
+
+---
+
 ## 🕔 2026-10-06 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
