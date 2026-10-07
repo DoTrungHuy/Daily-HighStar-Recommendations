@@ -1,3 +1,67 @@
+## 🕔 2026-10-07 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [orb](https://github.com/Th0rgal/orb)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 515
+- **核心概述**: All your AI providers, machines, and agent harnesses in one place. Formerly sandboxed.sh (now the backend to the Orb clients).
+- **大概是做什么的**: All your AI providers, machines, and agent harnesses in one place. Connect your subscriptions, API keys, and local hardware to your machines, and orchestrate every agent harness from macOS and iOS. Formerly sandboxed.sh — sandboxed.sh is now the backend to the Orb clients. Choose where your agent works Mode Where it runs How you use it Your computer A local coding agent on your desktop Choose New Agent → This computer , then a harness and model. Work with your local files and tools. Your private cloud Your own servers and remote machines Add machines to sandboxed.sh, then select one in Orb. Run agents in the configured host or isolated container workspace. Cloud agents A coordinator or provider-managed assistant Choose Cloud agent , then Hermes, ChatGPT, Grok Bot or Cursor Cloud. Continue durable or provider conversations from Orb. Use Claude Code , Codex , Antigravity , OpenCode or Grok for local and remote work, with live model, effort and cyber-access controls where supported. Cloud agents have their own connections: Hermes binds to durable coordinator conversations and router cha
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, autonomous-agents, claude, claude-code, coding-assistant, containerization
+
+---
+
+### 🌟 [Autoloom](https://github.com/GanyuanRan/Autoloom)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 337
+- **核心概述**: AI coding with Aegis governance built into execution: baseline-aware changes, evidence-backed delivery. Free desktop client, your choice of model. 将哲科思维融入 AI 开发执行，让变更有依据、交付有证据。用创意编织现实。
+- **大概是做什么的**: Governance Engineering for Coding Agents Free desktop client · Your choice of model · Windows x64 Alpha Website · Download Alpha · Documentation · Feedback &amp; ideas · 中文 40-second real-task demo https://github.com/user-attachments/assets/7a5f00f4-2761-452f-a122-0ee6ef01c3f0 Watch on the website → Conversation Settings AI coding with engineering judgment built into execution. Autoloom brings Aegis’s core governance methods into the coding runtime: question whether a change is needed, challenge assumptions before editing, and review delivery against requirements and execution evidence. Spend less time reminding your agent to investigate first, avoid unnecessary complexity, and show what it actually verified. Reasoning at the points where decisions matter Method Its role in the development workflow First principles and change necessity At task initiation, examine goals, facts, existing capabilities, and constraints to establish why a change is needed and whether an adequate solution already exists. Anti-entropy and structural complexity checks Before changes, examine duplicated respo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aegis, agentic-coding, ai-agent, ai-coding, coding-agent, deepseek-harness
+
+---
+
+### 🌟 [fennara-godot-ai](https://github.com/fennaraOfficial/fennara-godot-ai)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 301
+- **核心概述**: AI chat and agent tooling for Godot, with both MCP support and in-built native chat window.
+- **大概是做什么的**: English · 简体中文 · Español · Português do Brasil · 日本語 · 한국어 · Русский · Français · Deutsch · Türkçe Used by Godot developers and teams, including Somni Game Studios. Fennara gives AI assistants a live connection to Godot. Use it from MCP-capable apps like Codex, Claude, Cursor, Gemini, and Antigravity, or from the optional in-editor chat dock. Agents can inspect scenes, check scripts, capture screenshots, read runtime errors, and validate changes inside the editor instead of guessing from project files alone. Watch the featured demo Comparing Fennara with other Godot MCPs. Browse all demo videos - exposes Godot-aware tools to external AI apps through MCP - adds an optional local chat dock inside the Godot editor - returns real Godot feedback: scene trees, diagnostics, screenshots, runtime logs, and validation results - keeps the agent accountable to the open editor instead of only the filesystem External MCP apps and the built-in chat use separate model settings. See MCP Apps And Built-In Chat and Built-In Chat Providers. - Godot 4.5 or newer. - A supported desktop OS: Windows x86 64,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-coding, ai-game-development, claude-code, codex, cursor
+
+---
+
+### 🌟 [Langchain1.0-Langgraph1.0-Learning](https://github.com/BrandPeng/Langchain1.0-Langgraph1.0-Learning)
+- **项目语言**: Python
+- **星标数量**: ⭐ 673
+- **核心概述**: 这是一个 LangChain 1.0 和 LangGraph 1.0 的学习仓库，学习如何进行agent开发，涵盖从基础概念到实战项目的完整学习路径。
+- **大概是做什么的**: 🦜🔗 LangChain 1.0 & LangGraph 1.0 完整学习指南 这是一个系统学习 LangChain 1.0 和 LangGraph 1.0 的实践仓库，涵盖从基础概念到实战项目的完整学习路径。 LangChain 1.0 是用于构建 LLM 驱动应用程序的框架的最新主要版本（2025年10月正式发布）。主要特性： - ✅ 构建在 LangGraph 运行时之上 - 提供持久化、流式处理、人在回路等能力 - ✅ 新的 create agent API - 简化 Agent 创建流程（LangChain 1.0 API） - ✅ 中间件架构 - 提供细粒度的执行控制（before model、after model、wrap model call 等） - ✅ 多模态支持 - 处理文本、图像、视频、文件 - ✅ 结构化输出 - 使用 Pydantic 模型定义输出格式 - ✅ 语义化版本控制 - 1.x 系列保证 API 稳定 1. 基于Langchain 1.0 的完整RAG前后端项目，并包含RAG的各种优化 ⚫ 技术栈：Agentic RAG、Agent、LangChain、ChromaDB、SQLite、FastAPI、Vue。 2. 基于LangGrah 1.0的完整多智能体前后端项目。 ⚫ 技术栈：：Python、LangGraph、LangChain、FastAPI、MCP、Vue、SQLite - Python 3.10 或更高版本 （不支持 Python 3.9） --------- ------ ---------- GROQ API KEY Groq API（免费） https://console.groq.com/keys OPENAI API KEY OpenAI API（可选） https://platform.openai.com/api-keys PINECONE API KEY Pinecone 向量数据库（免费） https://www.pinecone.io/ LANGSMITH API KEY LangSmith 监控（可选） https://smith.langchain.com/ 本仓库采用 四阶段渐进式学习 ，共 22 个模块 + 3 个综合项目： ------ ------ ---------- 01 Hello LangChain init chat model 、 invoke 方法、环境配置 02 Prompt Templates 文本模板、对话模板、变量替换、LCEL 03 Messages
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, langchain, langgraph
+
+---
+
+### 🌟 [CodeAF](https://github.com/Agent-Field/CodeAF)
+- **项目语言**: Go
+- **星标数量**: ⭐ 304
+- **核心概述**: Open-Source Software factory for Open Models
+- **大概是做什么的**: What a factory is · Frontier-grade coding on open models, at a fraction of the cost. CodeAF is a coding harness built for open models, to get the most out of every dollar. It is also a different way to work once more than one thing is going on: instead of three terminals of agents with you in the middle, one window where you hand work off, see what is moving across every project, and step in only where your judgment is needed. A factory, on your own machine, and the more you hand it 1 on DeepSWE of ten coding harnesses on the same model, ahead of Claude Code, Codex, OpenCode, Kilo and DeepSeek's own harness, at the lowest cost per solved Written in Go as one small binary, with nothing else to install or run. Apache 2.0. By AgentField AI. Early preview. CodeAF is young and moving fast. Expect rough edges, and tell us where you hit them on Discord or in an issue. https://github.com/user-attachments/assets/bc87e460-17b1-4d7a-8c69-284b524ea194 Real speed, with sound. The three tasks run live on DeepSeek V4.1 Flash; the other projects and the large task tree are a seeded demo machine. Pin
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-fleet, agent-harness, agentfield, agentic-coding, ai, ai-coding
+
+---
+
+### 🌟 [operator-memory](https://github.com/aerovato/operator-memory)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 375
+- **核心概述**: The self-improving context engine for coding agents.
+- **大概是做什么的**: Operator Memory: The self-improving context engine for coding agents. Operator Memory gives your agent a brain for documenting all their work. As the agent works, it automatically documents within this brain — specs, decisions, standards, research, lessons. Every new session starts knowing everything the last one learned. - Complete Context Engine — Documentation, memory, indexes, and skills within a single integrated system. - Automatic Documentation — Specs, decisions, research, and more are automatically documented by the agent. - Transparent Memory — Memory is stored as Markdown documents you can read, update, and delete. - Sharable Knowledge — Track documents with Git and share knowledge with your team. - Zero Infrastructure — No background agents, no embeddings, no vector database, no model configuration. Operator is managed via the Operator Helper, which also provides setup and agent instructions. Install the Helper with npm: Then install the Operator adapter for your harness. Click each link for harness-specific information. Harness Status Install Claude Code (CLI + Desktop)
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, agent-skill, agentic-workflow, ai, chatgpt
+
+---
+
 ## 🕔 2026-10-07 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
