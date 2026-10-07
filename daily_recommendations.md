@@ -1,3 +1,67 @@
+## 🕔 2026-10-07 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [codeg](https://github.com/spacering-net/codeg)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,834
+- **核心概述**: Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.
+- **大概是做什么的**: English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Deutsch · Français · Português · العربية The multi-agent coding workspace. Run every AI coding agent in one place — and let them work together. 🧩 One interface for every agent Fifteen agents built in, and any ACP agent can join — all rendered as the same structured conversation, not a terminal. 🔎 Sessions that travel Import, search, and resume the history every agent keeps on disk, then hand it to a different agent. 🤝 Agents that work together Delegate across agents with an @ , or queue to-dos that run unattended in their own worktrees. 🌍 Wherever you work Desktop app, self-hosted server or Docker, iPhone, iPad, and Android — and Telegram, Lark, or WeChat. Thanks to Compshare for sponsoring this project! Compshare is UCloud's AI cloud platform, offering cost-effective monthly and pay-as-you-go agent Plan subscriptions for Chinese models, starting at just ¥49/month. It also provides stable officially-proxied access to overseas models. Supports Claude Code, Codex, and API integrations. Enterprise-ready with high concurrency, 24/7 techni
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, ade, agent, claude-code, code-generation, codex
+
+---
+
+### 🌟 [codify](https://github.com/Sidiora-Labs/codify)
+- **项目语言**: C
+- **星标数量**: ⭐ 340
+- **核心概述**: The ai agent workflow tool that scales from small, simple projects to large, complex codebases.
+- **大概是做什么的**: The agent workflow tool that scales from small, simple projects to large, complex codebases. Pure C11. One binary. One SQLite database. Nothing leaves your machine. English 简体中文 · Español · हिन्दी · العربية · Français · Português (BR) Codify (invoked as cg ) is an agent workflow engine in a single binary. It maintains the four things a project needs beyond the code itself — what the code is , how it got here , what happens next , and what was learned along the way — and serves all four to humans and AI agents alike. Version 1.1.0 (v11) turns the fleet into something you hand a spec to and leave running: cg fleet up starts a durable, crash-resumable supervisor that runs the main agent, a manager per feature, and workers per task at the same time, and manages every Codex or Claude Code process until its work is qualified and merged. Agents are briefed from the graph, drift is caught across branches before it merges, every state change lands in an event log, and cg serve pushes it all to the editor over one connection. It builds on the fleet foundations: one coalescing indexer instead o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, agent-orchestration, agentic-workflow, ai, codify
+
+---
+
+### 🌟 [Physical-AI-Operating-System](https://github.com/autonomous-ai/Physical-AI-Operating-System)
+- **项目语言**: Python
+- **星标数量**: ⭐ 381
+- **核心概述**: The open-source operating system for physical AI.
+- **大概是做什么的**: Physical AI Operating System We're building the "Android" for physical AI agents. Give Hermes, Claude Code, Codex, and other AI agents eyes, ears, a voice, and a body they can control. Bring your AI agents into the physical world. Start with Lamp · Bring your own robot · Build a physical skill https://github.com/user-attachments/assets/c80f1255-4355-4f59-9114-6d3b8d4007a2 Run Hermes, Claude Code, Codex, OpenClaw, OpenCode, or PicoClaw. Choose a compatible model and configure its voice, personality, and tools. The OS runs on the robot and coordinates hardware and agent tasks. Model inference may use remote services, depending on your configuration. Start with Lamp, Intern, or Reachy Mini—or add support for your own robot. Physical AI Operating System connects the agent to the hardware that body provides: cameras, microphones, speakers, motors, lights, and sensors. Give your agent new ways to sense and interact with its surroundings. - Follow an object with its camera and movement. - Respond to touch with a gesture. - Turn a sensor reading into light, movement, or speech. Start with an
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, claude-code, embedded, llm, open-source-robotics
+
+---
+
+### 🌟 [Awesome-Jailbreak-on-LLMs](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,667
+- **核心概述**: Awesome-Jailbreak-on-LLMs is a collection of state-of-the-art, novel, exciting jailbreak methods on LLMs. It contains papers, codes, datasets, evaluations, and analyses.
+- **大概是做什么的**: Awesome-Jailbreak-on-LLMs Awesome-Jailbreak-on-LLMs is a collection of state-of-the-art, novel, exciting jailbreak methods on LLMs. It contains papers, codes, datasets, evaluations, and analyses. Any additional things regarding jailbreak, PRs, issues are welcome and we are glad to add you to the contributor list here. Any problems, please contact yliu@u.nus.edu. If you find this repository useful to your research or work, it is really appreciated to star this repository and cite our papers here. :sparkles: If you find this repository helpful for your research, we would greatly appreciate it if you could cite our papers. :sparkles: - Attack on RAG-based LLM - Multi-modal Attack - Learning-based Defense - Strategy-based Defense - Evaluation & Analysis Time Title Venue Paper Code ------- ------------------------------------------------------------ :---: :--------------------------------------: :----------------------------------------------------------: 2026.05 Reasoning as an Attack Surface: Adaptive Evolutionary CoT Jailbreaks for LLMs arXiv link - 2025.11 BadThink: Triggered Overthin
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, jailbreak, llm, llms, privacy, safety
+
+---
+
+### 🌟 [boot-ui](https://github.com/jdubois/boot-ui)
+- **项目语言**: Java
+- **星标数量**: ⭐ 301
+- **核心概述**: The missing developer UI for Spring Boot and Quarkus!
+- **大概是做什么的**: BootUI adds an embedded, local-only developer console to your application. It runs on Spring Boot 4 (servlet or WebFlux) and Quarkus , serving the same Vue UI and REST contract ( /bootui and /bootui/api/ by default, configurable with bootui.path / bootui.api-path ) from a shared, framework-neutral engine — add the matching Spring Boot starter or the Quarkus extension and BootUI activates only in Read the documentation at . MySQL operational view Feature guide BootUI exposes a local, opt-in Model Context Protocol server so AI coding agents (GitHub Copilot, Claude Code, …) can run its advisors and read runtime diagnostics while fixing your code. Install the agent skill with gh skill install jdubois/boot-ui bootui , or, in Claude Code, add this repository as a plugin marketplace with /plugin marketplace add jdubois/boot-ui to get the skill and the MCP server in one step. It also pairs with Coffilot, a GitHub Copilot canvas extension that builds, runs, and scans your app from the GitHub Copilot App's side panel. See the AI agents guide. The bootui CLI asks a running application one quest
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, developer-tools, java, mcp, mcp-server, quarkus
+
+---
+
+### 🌟 [knowl](https://github.com/dat999zx/knowl)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 122
+- **核心概述**: Persistent memory for Claude Code, Cursor and Codex. Facts are typed, sourced, and retired when they change. Local SQLite, no API keys.
+- **大概是做什么的**: Your CLAUDE.md only grows. Knowl retires facts when they change. Your agent starts every session blank, so you keep a CLAUDE.md . It only grows. Six months in it still names the database you migrated off last spring, and now the agent gets both answers. Knowl is persistent memory for Claude Code, Cursor and Codex, over MCP or the CLI. When a fact is replaced, the old one is retired instead of competing with the new one. No API key needed. When Knowl isn't sure the new fact replaces the old, it leaves both active and hands you the knowl supersede command to say so. Turn that off and retrieval drops from 98% to 47%. End to end, 90 to 73. How it was measured ↓ Forty seconds, one decision, three agents: Requires Node.js 22 or later. macOS, Linux and Windows. Other package managers The published package is the same one in every case; each of these installs it and puts knowl Or run it without installing: Knowl runs on Node.js in all of these — Bun installs it, Node executes it. It bundles native addons (SQLite, tree-sitter, the embedding runtime), so running the CLI under the Bun or Deno r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agents, ai, ai-tools, claude, claude-code
+
+---
+
 ## 🕔 2026-10-06 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 301 个候选项目中筛选出 6 个未推荐过的新项目。
