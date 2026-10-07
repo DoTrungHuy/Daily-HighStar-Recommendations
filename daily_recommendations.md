@@ -1,3 +1,67 @@
+## 🕔 2026-10-06 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 301 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-vla-for-ad](https://github.com/worldbench/awesome-vla-for-ad)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 486
+- **核心概述**: 🌐 Vision-Language-Action Models for Autonomous Driving: Past, Present, and Future
+- **大概是做什么的**: :sunglasses: Awesome VLA for Autonomous Driving Autonomous driving has long relied on modular "Perception-Decision-Action" pipelines, whose hand-crafted interfaces and rule-based components often struggle in complex, dynamic, or long-tailed scenarios. Their cascaded structure also amplifies upstream perception errors, undermining downstream planning and control. This survey reviews vision-action (VA) models and vision-language-action (VLA) models for autonomous driving. We trace the evolution from early VA approaches to modern VLA frameworks, and organize existing methods into two principal paradigms: - End-to-End VLA , which integrates perception, reasoning, and planning within a single model. - Dual-System VLA , which separates slow deliberation (via VLMs) from fast, safety-critical execution (via planners). For more details, kindly refer to our :books: Paper, :globe with meridians: Project Page, and :hugs: HuggingFace Leaderboard. If you find this work helpful for your research, please kindly consider citing our paper: - 1. Vision-Action Models - Action-Only Models - Perception-Ac
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, autonomous-driving, awesome-list, embodied-ai, large-language-models, llm
+
+---
+
+### 🌟 [IncarnaMind](https://github.com/junruxiong/IncarnaMind)
+- **项目语言**: Python
+- **星标数量**: ⭐ 802
+- **核心概述**: Connect and chat with your multiple documents (pdf and txt) through GPT 3.5, GPT-4 Turbo, Claude and Local Open-Source LLMs
+- **大概是做什么的**: IncarnaMind enables you to chat with your personal documents 📁 (PDF, TXT) using Large Language Models (LLMs) like GPT (architecture overview). While OpenAI has recently launched a fine-tuning API for GPT models, it doesn't enable the base pretrained models to learn new data, and the responses can be prone to factual hallucinations. Utilize our Sliding Window Chunking mechanism and Ensemble Retriever enables efficient querying of both fine-grained and coarse-grained information within your ground truth documents to augment the LLMs. Feel free to use it and we welcome any feedback and new feature suggestions 🙌. Open-Source and Local LLMs Support - Recommended Model: We've primarily tested with the Llama2 series models and recommend using llama2-70b-chat (either full or GGUF version) for optimal performance. Feel free to experiment with other LLMs. - System Requirements: It requires more than 35GB of GPU RAM to run the GGUF quantized version. Alternative Open-Source LLMs Options - Insufficient RAM: If you're limited by GPU RAM, consider using the Together.ai API. It supports llama2-70
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, generative-ai, gpt, langchain, llm
+
+---
+
+### 🌟 [whoop-mcp](https://github.com/shashankswe2020-ux/whoop-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 166
+- **核心概述**: Read-only WHOOP MCP server for recovery, sleep, HRV, strain, workouts, and personal health analytics in Claude, Codex, and GitHub Copilot.
+- **大概是做什么的**: Your WHOOP data. A conversation away. Recovery, sleep, HRV and training trends in the AI assistant you already use. Watch the walkthrough · whoop-ai-mcp is a read-only WHOOP MCP server for Claude Desktop, Claude Code, Codex and GitHub Copilot. Ask about your recovery, compare weeks of sleep, or explore your personal baseline without exporting and assembling the data yourself. Earlier Claude Desktop demo. The assistant creates the presentation; this server supplies the data. Results and layout vary. 16 read-only tools · 4 resources · 5 prompt templates Standard mode. Client support for resources, prompts and remote connections varies. Ask More of Your WHOOP Data Start with a question Explore ----------------------- --------- "How am I doing today?" Recovery, primary sleep, strain and your latest workout, with missing-data flags. "Is my HRV unusual for me?" Personal baseline distributions, percentiles and sample counts. "How did my sleep change this month?" Trends, period comparisons, observed sleep deficits and consistency. "Give me my weekly health review." Recovery, sleep and traini
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, codex, fitness, fitness-tracker, github-copilot, health
+
+---
+
+### 🌟 [awesome-jev](https://github.com/Amal-David/awesome-jev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 230
+- **核心概述**: Jev demos, projects, SDKs and skills, with source links and a curated X gallery.
+- **大概是做什么的**: Jev is TypeSafe's System One model for probability-based yes/no judgments, choices, and scores rather than generated text. Check permissions and data handling before running a project. Source review is not a runtime test or a security audit. - Browser and Desktop Tools - Apps and Integrations - Games and Creative Projects - Independent Models - Reading and Research - Supporting Drivers Start with the quick-start example, then build a typed classifier, use Jev in an agent, or explore a local alternative. The source notes record setup, privacy, and evidence limits for the selections below. A few examples to watch before digging into the code. These are creator recordings and publisher previews, not independent benchmarks. Linked previews open the original recording or post. - Jev Ultrafast - A flight-search recording where Jev chooses browser actions and elements; a separate model writes field text. Browser Use · @gregpr07. - Jev Voice Browser - Partial speech becomes action and target choices, then Playwright operates the page. Moritz Kremb · @moritzkremb. - jev-align - Label uncertai
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, awesome-ai, awesome-list, browser-use, claude-code, codex
+
+---
+
+### 🌟 [aseprite-ai-artist](https://github.com/with-pebbly/aseprite-ai-artist)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 148
+- **核心概述**: Your coding agent paints pixel art in the Aseprite window you already have open. MCP server + skills for Claude Code, omp, Codex, Gemini CLI and Cursor — draws, looks at its work, animates and exports. Gallery and benchmark: pixeli.pebbly.space
+- **大概是做什么的**: Your coding agent, painting in the Aseprite window you already have open. Not a generated PNG. Not a file changed behind your back. The document on your screen, one pixel at a time — and every step is one Ctrl+Z. ☔ 500×400 · 72 frames · 20 layers — drawn by Claude Opus 5.5 through this server. Install · How it draws · Skills · Gallery ✨ What it feels like "Draw me a 32×32 knight in the PICO-8 palette, then give him a 4-frame idle." You type that, and watch it happen in Aseprite: a palette, a silhouette, shading, layers, a breathing idle, a tagged cycle. The agent looks at its own work after every step, and at the end tells you what it compromised on. You stay in charge. Don't like the helmet? Ctrl+Z, or just say so. Works with Claude Code, omp, Codex CLI, Gemini CLI, Cursor, VS Code and Windsurf . Best results so far: Claude Opus 5.5 . You need Aseprite 1.3+ and Node 22.6+ (macOS, Linux 1. The Aseprite extension — then quit and reopen Aseprite: Codex, Gemini, Cursor, VS Code, Windsurf Your config is backed up first; --dry-run shows the change. 3. Check it — restart your agent, then:
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, aseprite, benchmark, claude-code, gamedev, lua
+
+---
+
+### 🌟 [aweb](https://github.com/awebai/aweb)
+- **项目语言**: Go
+- **星标数量**: ⭐ 115
+- **核心概述**: Communication for AI agents: stable identity, durable mail and chat, and wake-up events across sessions, runtimes, machines, and organizations. MIT, self-hostable.
+- **大概是做什么的**: Communication for AI agents. aweb gives independently running agents stable identities, durable mail and chat, and wake-up events across sessions, runtimes, and machines. Agents can use it through the aw CLI, HTTP API, MCP tools, or event stream. Independently operated aweb servers can federate with one another. MIT licensed. Self-hostable. Runtime-independent. Self-hosting guide · Agents on one machine usually start with a shared file, a git branch, or an issue tracker. That carries content, and nothing else. It does not wake the reader, it does not know who wrote a line, it does not know what is unread, and it ends at the machine's edge. aweb adds those four things, and they work the same whether the other agent is in the next directory or at another - The recipient wakes up. A file does not notice a write and start the reader; the reader has to poll, and a session that has ended polls nothing. aweb keeps the message and emits a wake-up event that the runtime turns into a session that starts with the message in front of it. - It is known who said it. When a message carries authorit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agents, ai-agents, beads, claude-code, federation
+
+---
+
 ## 🕔 2026-10-06 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 302 个候选项目中筛选出 6 个未推荐过的新项目。
