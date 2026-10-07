@@ -1,3 +1,67 @@
+## 🕔 2026-10-07 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 326 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xberg](https://github.com/xberg-io/xberg)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 9,384
+- **核心概述**: Polyglot document intelligence with a Rust core: extract text, metadata, images, tables, and structured data from 106 formats across 140 file extensions, plus code intelligence for 371 languages. Fifteen bindings, with CLI, REST API, and MCP server.
+- **大概是做什么的**: The fast, precise document-intelligence engine — for every language. Point Xberg at anything — a PDF, a scanned image, a spreadsheet, an audio file, a URL, a whole archive, or a source tree — and get back clean text, tables, metadata, and structured data. One engine handles format detection, reading, OCR, and extraction, so you never stitch a pipeline together from a dozen libraries. 107 formats · 141 file extensions · 371 code languages · 15 language bindings · 6 output formats · OCR · transcription · embeddings The fastest, most precise open-source document and PDF-to-Markdown engine — see the benchmarks. Install · What you get · Capabilities · CLI · Docs Xberg is the next iteration of Kreuzberg. Same document-intelligence engine, rebuilt and rebranded under a fresh v1 line. Point Xberg at anything — a PDF, a spreadsheet, a scanned image, an audio file, a URL, an archive, a source tree — and get back clean, structured content you can use right away. One core does the format detection, reading, and extraction, so you don't assemble a pipeline yourself. Call it from Rust, Python, Nod
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bun, csharp, document-intelligence, elixir, ffi, golang
+
+---
+
+### 🌟 [vespa](https://github.com/vespa-engine/vespa)
+- **项目语言**: Java
+- **星标数量**: ⭐ 7,118
+- **核心概述**: The AI search platform
+- **大概是做什么的**: Search, make inferences in and organize vectors, tensors, text and structured data, at serving time and any scale. This repository contains all the code required to build and run all of Vespa yourself, and where you can see all development as it happens. All the content in this repository is licensed under the Apache 2.0 license. A new release of Vespa is made from this repository's master branch every morning CET Monday through Thursday. - Home page: https://vespa.ai - Documentation: https://docs.vespa.ai - Continuous build: https://factory.vespa.ai - Run applications in the cloud for free: vespa.ai/free-trial Use cases such as search, recommendation and personalization need to select a subset of data in a large corpus, evaluate machine-learned models over the selected data, organize and aggregate it and return it, typically in less than 100 milliseconds, all while the data corpus is continuously changing. This is hard to do, especially with large data sets that need to be distributed over multiple nodes and evaluated in parallel. Vespa is a platform that performs these operations f
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, big-data, java, machine-learning, rag, search
+
+---
+
+### 🌟 [nanoMuse](https://github.com/nano-muse/nanoMuse)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 215
+- **核心概述**: nanoMuse: an open-source personal agent for every device you own — one agent with a name and a face that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.
+- **大概是做什么的**: nanoMuse is an open-source personal agent for every device you own. One agent with a name and a look of its own, in the style of Meta's Muse: it does things instead of answering questions, keeps working while the app is closed, remembers you, and stops to ask before anything you could not undo. nano means the whole set, small enough to run and deploy yourself: the phone app, the desktop app, the web console and the relay that joins them are all in this repository, under GPL-3.0-or-later. Free, open source, non-profit — let's build it together. Sign in and you get a free allowance of model use on the community relay — the developer pays for it; when it is gone, use your own key. The same relay runs on a server of yours, so nothing has to leave your house. Latest: 0.1.41 Choice — release notes · try it in the browser. https://github.com/user-attachments/assets/c7694d5a-9450-4f99-9254-5d70560d7565 English · 中文 · nanomuse.cn - 2026-10-07 📄 Our paper is available on arXiv. - 2026-10-07 🚀 Latest version: 0.1.41 Choice. - 2026-09-25 🎉 nanoMuse is released. Every version: releases. Browse
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, android, computer-use, cross-device, desktop-app
+
+---
+
+### 🌟 [OfficeIMO](https://github.com/EvotecIT/OfficeIMO)
+- **项目语言**: C#
+- **星标数量**: ⭐ 570
+- **核心概述**: MIT-licensed, COM-free .NET libraries for creating, reading, editing, converting, rendering, and extracting Office, PDF, email, OneNote, and text formats.
+- **大概是做什么的**: OfficeIMO — Office and document libraries for .NET OfficeIMO is a family of COM-free .NET libraries for creating, reading, editing, converting, and exporting Office and document formats. It runs in services, desktop applications, build agents, containers, and automation hosts without Microsoft Office, Excel, PowerPoint, Visio, or LibreOffice automation. This is not one facade over a collection of unrelated document libraries. OfficeIMO owns its OneNote, PDF, Markdown, RTF, OpenDocument, AsciiDoc, LaTeX, OPML, DocBook, CSV, EPUB, ZIP, drawing, Apple iWork source, legacy Word .doc , legacy Excel .xls , and legacy PowerPoint .ppt / .pot / .pps implementations. Word, Excel, and PowerPoint use the Open XML SDK for package mechanics; HTML exposes owned document and provider contracts while retaining AngleSharp for parsing and CSS execution. Converters compose the same first-party object models used by the native packages and return diagnostics when a target format cannot carry everything from the source. Applications should keep OfficeIMO packages on the same coordinated version. Converter
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: aspose-alternative, c-sharp, document-automation, document-conversion, document-generation, docx
+
+---
+
+### 🌟 [agentenv-framework](https://github.com/scaleapi/agentenv-framework)
+- **项目语言**: Python
+- **星标数量**: ⭐ 172
+- **核心概述**: Creating realistic RL environments requires collaboration between researchers, engineers, and domain experts across many dimensions: artifacts, environments tools, dynamism of the environment, reproducibility, and more. There is no open source framework for building these environments effectively. Until now.
+- **大概是做什么的**: AgentEnv Framework is a Python SDK and CLI for building, deploying and running agentic environments and the tasks that grade agents inside them. Environments are containerized servers that speak the open agentenv-framework-protocol ; AgentEnv Framework builds them into versioned images, deploys them behind a gateway, points an agent at them, and scores what the agent did. Documentation: www.agentenvframework.com/docs covers environments, artifacts, agents, tasks, the registry and plugins. Both packages are on PyPI. You need Python 3.11 or newer and, to run environments locally, a running Docker daemon. With uv, install the agent-env command as a tool: agent-env run hello runs the built-in hello task, which needs no Docker, model or configuration. To try it without installing anything, run it with uvx: Or install it with pip, into a virtualenv: To use the SDK in your own project, add it as a dependency with uv add agentenv-framework . The explorer, agent-env up , needs the explorer extra ( uv tool install 'agentenv-framework[explorer]' , or the same extra with uvx or pip) and an .agen
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: a2a, agent-evaluation, agentic-ai, ai-agents, llm-agents, llm-evaluation
+
+---
+
+### 🌟 [codex-bridge](https://github.com/Fanch-hui/codex-bridge)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 229
+- **核心概述**: ChatGPT的MCP 桥接工具，赋予网页版ChatGPT本地读写能力，并将ChatGPT连接至本机codex、agy、dsh、opencode，作为大脑调用本机agent。Connect ChatGPT to local projects and coding agents via MCP. Run Codex, OpenCode, DeepSeek Harness & Antigravity with approvals, live output and session control.
+- **大概是做什么的**: Published on the official MCP Registry. Codex Bridge 是面向个人自托管场景的桌面 App 与后台服务，将 ChatGPT 网页版、OpenAI Dot、Qwen Studio 和本机工作台接入已授权的本地项目，并统一管理 Codex、OpenCode、DeepSeek Harness、Antigravity、Pi 与 Qoder 的任务、审批和会话。 macOS、Windows 与 Linux 共用 Swift 核心和桌面界面。项目目录授权、任务记录与配置保存在本机；调用 ChatGPT 或模型服务时，请求会发送给你选择的服务。 从 GitHub Releases 下载最新版本。 平台 v1.4.4 安装包 安装方式 macOS 14+，Apple Silicon CodexBridge-1.4.4-macos-arm64.dmg 打开 DMG，将 App 拖入 Applications macOS 14+，Intel CodexBridge-1.4.4-macos-x86 64.dmg 打开 DMG，将 App 拖入 Applications Windows x64 CodexBridge-Windows-x64-1.4.4-Setup.exe 运行安装器，选择安装位置 Windows ARM64 CodexBridge-Windows-arm64-1.4.4-Setup.exe 运行安装器，选择安装位置 Windows x64 / ARM64，便携运行 codex-bridge-windows-x64.zip / codex-bridge-windows-arm64.zip 完整解压后运行 codex-bridge-windows-app.exe Ubuntu 24.04 LTS x64 CodexBridge-Linux-x64-1.4.4.deb 使用 APT 安装，详见 Linux 指南 Ubuntu 24.04 LTS ARM64 CodexBridge-Linux-arm64-1.4.4.deb 使用 APT 安装，详见 Linux 指南 Ubuntu 24.04 LTS x64 / ARM64，便携运行 codex-bridge-linux-x64-1.4.4.tar.gz / codex-bridge-linux-arm64-1.4.4.tar.gz 完整解压后运行 ./codex-bridge macOS 安装包使用 ad-hoc 签名，尚未经过 Apple 公证。若系统阻止打开，请在系统设
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: antigravity, chatgpt, codex, deepseek, deepseek-harness, deepseek-harness-plugin
+
+---
+
 ## 🕔 2026-10-07 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
