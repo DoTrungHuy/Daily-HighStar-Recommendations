@@ -1,3 +1,67 @@
+## 🕔 2026-10-08 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 206 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,215
+- **核心概述**: 用于 Excel 文件操作的模型上下文协议服务器
+- **大概是做什么的**: 模型上下文协议服务器，可让 AI 助手创建、读取和编辑 Excel 工作簿。它不需要安装 Microsoft Excel。 - 读取和写入单元格、公式（为您计算结果）和日期，对大工作表进行分页和流式读取以及搜索 - 设置字体、填充、边框、数字格式、列宽和冻结窗格的格式；隐藏或分组行、列和表格；设置打印；保护工作表 - 结构工作表、行和列、合并单元格、表格、图表（柱形图、条形图、折线图、面积图、饼图、圆环图、雷达图、散点图和气泡图，带有组合、辅助轴、趋势线���误差线）、图像和数据透视表 - 数据工具：特殊粘贴、填充系列、删除重复项、文本到列、查找和替换、带条件的工作表和表格过滤器 - 规则：条件格式（比例、图标集、顶部/底部、重复项、文本、日期和更多）和数据验证（单元格下拉菜单、限制、输入消息、警报样式） - 宏：逐个模块读取 .xlsm 文件中的 VBA 代码（从不运行）。除非您使用 --allow-vba-wri 启动服务器，否则将关闭写入 VBA
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, automation, excel, llm, mcp, mcp-server
+
+---
+
+### 🌟 [openqodex](https://github.com/openqodex/openqodex)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 392
+- **核心概述**: 在推送之前，先对 Claude Code 和 Codex 进行开源 AI 代码审查。扫描器（SAST、秘密、依赖项、lint）扫描您更改的行，然后是一个单独的审阅者进程，检查每个扫描器发现并给出每个更改的行。没有其他 API 密钥。
+- **大概是做什么的**: OpenQodex 是 Claude Code 和 Codex 的开源 AI 代码审查。它在您从编码代理或终端推送之前运行。 openqodex review 是一个命令，可以计算出您的更改：尚未推送的提交以及所有未提交的内容。它运行适合已更改文件的扫描程序，并仅保留您更改的行上的结果。然后它启动自己的审阅者，一个单独的 Claude Code 或 Codex 进程，用于读取更改的冻结副本。审阅者检查每个扫描仪结果并给出每条更改的行。 OpenQodex 使用脚本检查其答案并打印一份报告。它需要安装并登录 Claude Code 或 Codex，并且不需要其他密钥、帐户或服务器。对于人类来说，在你的终端中：init 在你的机器上找到 Claude Code、Cursor、Codex CLI 和 Cline。它打印它将写入的每个文件并询问一次。然后它会审核您的更改，或者在没有审核时询问要审核哪些内容。之后，对您的代理说“使用 openqodex 检查我的更改”，或者自行运行 openqodex 检查。或者将此提示粘贴到您的代理中：OpenQodex 需要 Node 22 或更新版本以及 git。它在 Mac 上运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-code-review, claude-code, claude-code-plugin, claude-skills
+
+---
+
+### 🌟 [mortiflix-oss](https://github.com/GTKottman/mortiflix-oss)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 438
+- **核心概述**: 在您自己的机器上的动作设计工作室：克劳德一步步制作视频，您批准每个阶段。带上您自己的 Claude 代码或 API 密钥。
+- **大概是做什么的**: 您自己的机器上的运动设计工作室。克劳德一步步制作视频。您批准每个阶段。 ▶ 观看：如何使用 Mortiflix (3:07)。该视频是与 Mortiflix 制作的。大多数“AI视频”工具都是一个提示和一台老虎机。 Mortiflix 的工作方式就像一个真正的动作设计工作室：简介、脚本、风格框架、过渡板、动画、决赛，您在下一个阶段开始之前回顾每个阶段。您可以将注释固定在帧的确切位置或视频的确切时刻。下一个版本将逐一回答每一个注释，并向您展示发生了什么变化。它是为一个人构建的：您编写摘要，检查每个阶段，然后工作室在您的机器上运行。这项工作由 Claude 通过您自己的 Claude 代码登录或您自己的 Anthropic API 密钥来完成。 Mortiflix 是围绕它的线束：管道、大门、审查室以及承载项目的内存。 为什么它是这样构建的 - 会议在大门处结束。 Claude 会话会一直工作，直到有东西供您审阅、提交、编写交接文件并停止为止。当您做出回应时，将开始一个新的会话
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, harness, motion-design, remotion
+
+---
+
+### 🌟 [harness-terminal](https://github.com/robzilla1738/harness-terminal)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 303
+- **核心概述**: 本机 macOS 终端可让您的会话保持运行，并在编码代理需要您时通知您。 GPU 渲染、可编写脚本、代理感知。
+- **大概是做什么的**: 本机 macOS 终端可让您的会话保持运行，并在编码代理需要您时通知您。每个窗格都在 Harness 自己的 GPU 引擎上渲染。您的分割和会话存在于后台守护进程中，因此它们在退出应用程序后仍然存在，并且它们的回滚在守护进程重新启动后仍然存在。您可以从命令行驱动或连接它们，包括通过 SSH 的无头或远程守护进程。 Harness 会监视您在其中运行的代理（Claude Code、Codex、Cursor 等），因此批准提示永远不会隐藏在另一个选项卡后面。一个独立的应用程序。终端引擎、守护程序和 CLI 是第一方 Swift。 Sparkle 是唯一的 Swift 包依赖项，并且只有 GUI 链接它。 Lua 5.1 仅由 CLI 提供和链接。守护进程不链接Lua。打开 DMG，将 Harness.app 拖至“应用程序”，然后正常启动。该版本是针对运行 macOS 15 或更高版本的 Apple 芯片 Mac 进行签名、公证和构建的。根据 GitHub 发布页面上发布的值验证 SHA-256 校验和。更喜欢自己构建？从源代码跳转到构建。 - 这是一个重新
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coding-agents, developer-tools, gpu, macos, metal
+
+---
+
+### 🌟 [eva](https://github.com/usepr/eva)
+- **项目语言**: Python
+- **星标数量**: ⭐ 426
+- **核心概述**: 单文件智能体，Single-file zero-dependency AI agent for Linux/Windows ops
+- **大概是做什么的**: 如果一个智能体的执行层小到只是一个脚本，那它具有病毒传播一样的潜力。 EVA 是一个极致轻量、可接本地模型、带安全审查与目录级 Session 的单文件 Agent。 EVA是个麻雀虽小、五脏俱全的Agent智能体，相当于低配版Claude Code，能帮你写脚本、写测试案例、执行shell、分析数据等。我自己就是EVA的重度用户，日常处理各种任务。 各种好玩案例见当前仓库的 showcase 🦖🦖🦖 - 本地化：可以接入本地部署的OpenAI接口模型，如vLLM，或者是外网模型 - 极致轻量化：单文件，仅一个 eva.py ，有python就能运行 - 目录级Session：下次同样目录启动会延续之前对话 - 安全审查：默认只执行读命令，其他命令需要安全确认 - 移植性：很容易将EVA接入你现有的自动化流程，例如： eva -au '计算100w以内所有素数和并写到/tmp/result.txt' 。当前就借助 -asu 选项将EVA接入了微信Bot 0. 直接创建一个eva.py并复制本仓库的eva.py文本内容粘贴进去（docker环境、运维环境等也很容易粘贴代码，无需复杂安装，Just Paste and Go ）。当然，你也可以git clone本仓库。 1. 在终端执行 export EVA API KEY=你的deepseek API key （Windows系统则是 set 命令） EVA支持OpenAI接口形式的LLM，可以是Ollma、vLLM拉起的本地模型，也可以是DeepSeek、OpenAI等官网API。切换方法是设置 EVA BASE URL , EVA MODEL NAME , EVA API KEY 这三个环境变量： macOS 设置方法（zsh，如需在 macOS 上长期生效，可以将上述 export 配置写入 /.zshrc ）： Windows PowerShell设置方法： 不想每次设置环境变量？ 也可以直接把配置写入 eva.py ：打开文件顶部「LLM配置区」，将 EVA BASE URL 、 EVA MODEL NAME 、 EVA API KEY 三行引号内的值改成你的配置即可，无需在终端执行export。默认使用 DeepSeek 官方接口，通常你只需要填写 EVA API KEY 一行，例如： 若已通过上方环境变量方式配置，则以环境变量为准（文件内配置仅作兜底）。 2. 运行 python3 eva.py 。首次运行会生成 eva 脚本，Linux 下执行 source /.bashrc 让脚本生效；ma
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agent, automation, cli, local-ai
+
+---
+
+### 🌟 [chainloop](https://github.com/chainloop-dev/chainloop)
+- **项目语言**: Go
+- **星标数量**: ⭐ 583
+- **核心概述**: 代理 SDLC 基础设施。定义护栏。收集信号。持续执行。对您的 AI 编码代理和 CI/CD 管道所做的事情进行签名记录，根据策略作为代码进行检查，并在 CI/CD 中关闭循环。 AI 会话、SBOM、VEX、SARIF 和 SLSA 来源，基于 Sigstore 和 in-toto 构建。阿帕奇2.0。
+- **大概是做什么的**: AI 会议快速入门 · Chainloop 平台 · Chainloop 将软件交付过程中发生的情况（从第一次提示到发布）收集到一个可信图表中。您只需以代码的形式定义好意味着什么，Chainloop 就会在任何地方强制执行它：每个代理、每个管道、每个版本。每个 AI 编码会话、拉取请求、构建、SBOM、扫描和测试报告都会成为您自己的注册表或存储桶中的签名、带时间戳的记录。每条记录都链接到它所属的提交和发布。规则存在于 git 中。破坏其中之一，管道就会出现故障。该作业会在代理读取时打印每条失败的策略及其原因。代理修复工作并再次推送，直到 Chainloop 满意为止。开源、Apache 2.0、可自托管。自 2024 年起在严格监管企业的关键基础设施上进行生产。60 秒内尝试喜欢吗？明星帮助其他团队找到它 Slack 每个团队都已经运行自己的工具：SBOM 生成器、扫描器、测试套​​件、注册表，现在还有编码代理。每个都以自己的格式保存其结果，并且它们都不能强制执行跨越其他的规则
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-sdlc, ai-agents, ai-governance, ai-sessions, attestation, autonomous-agents
+
+---
+
 ## 🕔 2026-10-08 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
