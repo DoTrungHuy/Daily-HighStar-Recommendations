@@ -1,3 +1,67 @@
+## 🕔 2026-10-07 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Adnify](https://github.com/ad-naan/Adnify)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 304
+- **核心概述**: A local‑first AI Agent IDE that plans, edits, debugs and ships projects. Your clever otter‑flavored coding teammate.🦦
+- **大概是做什么的**: 中文 English 日本語 한국어 Español Français Deutsch Português (Brasil) Русский Connect AI to Your Code. An AI-native engineering workspace for direct execution and governed multi-agent planning. Adnify brings code editing, AI execution, asset generation, and browser verification into one desktop workspace. Use Agent Mode for direct implementation or Plan Mode for requirement clarification, reviewed task graphs, dependency-aware execution, and result validation. Manage commands and background services across windows, and receive task results through system notifications or your own webhook receiver. 🏆 Hall of Fame: Supporters Wall "Behind every line of code in Adnify, there's a spark of energy from our community!" ⚡️ A huge thank you to our generous supporters. Your coffee, milk tea, and energy drinks are what keep Adnify evolving! Names are in no particular order. If there are any errors or omissions, please contact the author. Supporter Method Honorary Title Date Message :--- :--- :--- :--- :--- okay. 🧋 Milk Tea Joy Source Injector 2026-03-07 A cup of joy for bug-free code! ✨ Mr. Tang ☕ C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, cursor-ide, gemini, gpt
+
+---
+
+### 🌟 [Amadeus](https://github.com/Code-Amadeus/Amadeus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: Real-time multimodal desktop agent evolving toward a persistent AI OS interface (0.15 α).
+- **大概是做什么的**: Local models: NVIDIA CUDA cu124 &nbsp;·&nbsp; AMD ROCm / Windows (experimental) &nbsp;·&nbsp; Apple MPS Quick start &nbsp;·&nbsp; Website &amp; resources &nbsp;·&nbsp; Installation profiles &nbsp;·&nbsp; Contribute Amadeus is a real-time multimodal desktop agent that brings voice, character presence, and Agent work into one interface. Speak or type naturally, delegate tasks to specialized Providers, and stay involved through visible progress, permission requests, and controls to resume or take over. The desktop app and Host run locally, with remote services or local inference selected through model configuration. Character packs are optional: Chat and Work remain available without them. What Amadeus is trying to solve Voice assistants, desktop characters, and execution agents usually live in separate windows: one chats, one performs, and another works in a terminal or browser. Once a long task starts, it is difficult to see what is happening, which permission is needed, or whether the work can recover after a failure. Amadeus connects those experiences into one loop: 1. Talk — commun
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, auip, cuda, desktop-agent, desktop-companion, electron
+
+---
+
+### 🌟 [agent-harness-kit](https://github.com/enmanuelmag/agent-harness-kit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 182
+- **核心概述**: A provider-agnostic scaffolding kit for running structured multi-agent workflows in your codebase.
+- **大概是做什么的**: @cardor/agent-harness-kit A provider-agnostic scaffolding kit for running structured multi-agent workflows in your codebase. Instead of letting AI agents roam freely through your project with no memory, no coordination, and no audit trail, agent-harness-kit gives them a shared structure: a task backlog, a defined workflow, a persistent log of every action taken, and a health gate that must be green before any work begins. You stay in control. The agents stay on track. Visit the website to view a full explanation, examples, and other tools! - @cardor/agent-harness-kit - MCP command per package manager - Files created by ahk init - What each file does - What you can customize - agent-harness-kit.config.{json ts mjs cjs} - Native health checks - Agent definition files - MCP tools (for agents) - MCP tool permissions by role - Runtime compatibility - Contributing \& local development - Testing the local build in another project If you don't know what is Agent Harness, you can check this blog post: Introducing Agent Harness. Most AI coding tools give you a single agent with a chat window.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-harness, claude-code, llm, mcp, open-source
+
+---
+
+### 🌟 [digikala-mcp](https://github.com/mmdju/digikala-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 136
+- **核心概述**: MCP server for Digikala: search, compare and price-check products on Iran's largest marketplace. Read-only, no API key. 16 tools, hosted on Cloudflare Workers.
+- **大概是做什么的**: Digikala MCP - shop intelligence for AI agents A public MCP server that gives AI agents real data from Digikala - Iran's largest online marketplace: search, prices in Toman , discounts, ratings, sellers, reviews, deals and bestsellers. Read-only, no key needed. Live endpoint: https://digikala-mcp.mmdju.workers.dev/mcp (Streamable HTTP) نسخه فارسی · Examples · Tool reference · Changelog Connect in 30 seconds Any Streamable HTTP MCP client, one URL . Cline / Cursor / Claude Desktop ( mcp.json style): Then just talk: "best Samsung phone under 100 million Toman" , "is this laptop any good?" , "what is on deal today?" , "what is popular in Iran right now?" . No client at hand? The whole protocol is one POST - a real call: And a real answer, trimmed to its bones (Toman, as JSON numbers): 19 tools, grouped by the question Tool What it answers digikala suggest Vague wording to real search terms, category ids, trends search digikala "Show me X" - filters, sorting, paging browse category Browse a category and drill into sub-categories browse tag Digikala's own tag shelves - resolve a tag name,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cloudflare-workers, digikala, iran, mcp, model-context-protocol, persian
+
+---
+
+### 🌟 [iphone-use](https://github.com/leeguooooo/iphone-use)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 100
+- **核心概述**: Open-source real iPhone control for AI agents: screen text, tap/type/swipe, custom XCTest runner, CLI + HTTP API + MCP, browser takeover and replayable flows. Rust, self-hosted on macOS.
+- **大概是做什么的**: Computer-use, but for the iPhone — let AI agents (and your browser) see and drive a real phone. Current device backend: our own XCTest runner, replacing WebDriverAgent since v0.14.0. Its API is WDA-compatible; current control does not depend on iPhone Mirroring. Let an AI agent use your real iPhone: it reads the screen as text, taps, swipes and types, and is told plainly when an action did not land. https://github.com/user-attachments/assets/f1e6574d-3134-4c23-9092-4b51bc79af2c - A Mac (macOS 15+) with Xcode, signed in to an Apple ID — a free one works. - An iPhone with Developer Mode on (Settings → Privacy & Security → Developer Mode). - A USB cable. Plug the iPhone in and unlock it before you install. The installer then sets the phone up, shows an agent opening Settings and reading it, registers the MCP server with Claude Code, and opens the control page in your browser with a one-time sign-in — there is no password to copy. If anything is missing it says what and how to fix it. Product guide: installation, MCP setup, flows and comparison iphone-use works on apps that have no API,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, automation, claude-code, codex, computer-use, h264
+
+---
+
+### 🌟 [AI-Canvas-tauri](https://github.com/Tenney95/AI-Canvas-tauri)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 205
+- **核心概述**: Local-first AI canvas for visual workflows, AI short drama, image/video generation, storyboarding and asset management. ComfyUI, AI agents, MCP & Blender. 本地优先 AI 画布：AI短剧、AI资产管理、图像/视频生成、分镜制作与视频剪辑。
+- **大概是做什么的**: AI Canvas Tauri — AI 画布、AI短剧与AI资产管理 简体中文 · English · 日本語 · 한국어 面向 AI短剧创作、AI资产管理、图像/视频生成与分镜制作 的本地优先 AI 多模态画布与可视化工作流桌面应用，集成 ComfyUI、对话 AI Agent 与 MCP ，基于 Tauri 2 + React 19 + React Flow 12 构建。 AI Canvas Tauri 将文本、图像、视频、音频、逐帧动画、Markdown、分镜、360° 全景和手绘笔记组织成可连接的画布节点。你可以在同一个项目中编排生成链路、统一管理角色库、人物/场景/道具与本地素材、执行 ComfyUI 工作流、安装 JavaScript 或可信 Python 用户插件，也可以通过对话助手查询或修改画布、生成媒体、派出只读子智能体、读取授权文件并沉淀项目记忆。项目还能拆成剧集与分集，一部 AI短剧的每一集各占一张画布，角色库与素材整部剧共用。 在线体验： （首屏可直接试用，内置演示画布） 在线体验 · 下载 · 核心能力 · 快速开始 · 项目文档 · License 在线版适合体验画布与界面。用户插件、文件系统、凭据存储、独立窗口、3D 导演台、本地模型等能力依赖 Tauri 桌面环境；完整体验请按下方步骤启动桌面应用。 多模态节点画布 文本、图像、视频、音频、逐帧动画、Markdown、分镜、全景、3D 导演台、源文件和画布笔记统一连接。支持小地图分类统计、远景轻节点与渐进显示；原图与画布数据保留。 AI 与工作流 云端模型、自定义模型执行协议、ComfyUI 多服务器、RunningHub 云工作流/AI 应用、通用工作流 API（含 AutoDL H3 模板）、Dreamina 和本地 ONNX 推理。工作流参数、上传、进度和任务恢复按平台处理。 用户插件 从本地、市场或 GitHub Release 安装 JavaScript / 可信 Python 插件，扩展工具、节点与宿主管理的界面。JavaScript 使用 QuickJS 沙箱；Python 拥有当前用户权限。入口摘要与完整 revision 摘要共同校验，停用或换版本后旧调用不能继续写回。 剧本与分镜制作 原著章节浏览、分集创作工作台、剧本快照、镜头改稿与补图，准备配音/视频/导演节点，并把对白字幕与已就绪配音推送时间轴。角色动作素材可通过 @ 引用。 内置视频剪辑 独立编辑器支持多轨编排、裁剪与分割、画面变换、转场、文字、贴纸和音量调整，可无损直通或合成导出。MCP 另有创建/修
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-asset-management, ai-canvas, ai-short-drama, ai-workflow, asset-management
+
+---
+
 ## 🕔 2026-10-07 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 326 个候选项目中筛选出 6 个未推荐过的新项目。
