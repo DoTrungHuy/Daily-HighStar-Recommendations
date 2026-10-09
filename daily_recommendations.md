@@ -1,3 +1,67 @@
+## 🕔 2026-10-09 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cayu](https://github.com/cayu-dev/cayu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 762
+- **核心概述**: Cayu 是一个开源 Python 框架，用于构建和运行特定于域的长视野代理，内置持久的运行时。
+- **大概是做什么的**: 查找公共概念 · Cayu 是一个开源 Python 框架，用于构建和运行特定于域的长期代理，具有内置的持久运行时。上下文、工具、集成、知识、内存、策略、域逻辑和验证。选择您的工作所需的功能，然后在您的基础设施或可选的 Cayu Cloud 上评估和操作生成的代理。集成的运行时通过模型和工具调用、持久会话、任务分派、租用的工作人员、可恢复的工作流程步骤、批准和恢复来承载该工作。应用程序可以直接使用这些执行功能，无需单独的工作流引擎。框架、工具、运行时和代理 框架 Cayu 的 Python API、组件和默认值，用于构建和运行代理 工具 您组装的特定于域的系统：上下文、工具、内存、策略、域逻辑和验证 运行时 会话、状态、权限、工作人员、预算和恢复的框架执行机制 代理 执行已定义作业的最终应用程序 云 可选部署和共享操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, autonomous-agents, harness, long-horizon-agents, long-running-agents, runtime
+
+---
+
+### 🌟 [intent](https://github.com/intent-hq/intent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 300
+- **核心概述**: 用于 Intent 平台的 Monorepo — 将intentd、cloudlands-fe 和 ios 作为子模块进行跟踪；文档、CI 和发布编排
+- **大概是做什么的**: Intent 是一个用于大规模协调编码代理的桌面应用程序。在一处管理工作区、笔记、任务、编码代理、git 和终端。该应用程序为您捆绑并管理其 Rust 后端守护进程 (intentd)。这是推荐使用Intent的方式；无需单独安装 Intentd 对于所有其他版本，请访问 cloudlands-releases 发布页面。独立守护进程（高级） 仅当您想要独立于桌面应用程序（例如在远程主机上）运行和管理守护进程时，才单独安装 Intentd。安装intentd会安装sitter——一个小型的自我更新垫片，本身名为intentd，它从公共intent-hq/intentd-releases镜像下载最新的真实守护进程（回落到intentd存储库自己的版本），为其提供参数，并在崩溃时重新生成它。仅针对 Intentd 服务运行更新检查（启动时以及每 12-24 小时一次）；一次性子命令（例如intentd doctor）按原样运行已安装的守护进程，如果尚未安装，则在指导下快速失败。保姆默认跟踪稳定频道；意图保姆频道 beta durab
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, developer-tools, monorepo
+
+---
+
+### 🌟 [big-arrow-on-the-screen](https://github.com/franzenzenhofer/big-arrow-on-the-screen)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 410
+- **核心概述**: 让您的 AI 代理在您的 Mac 屏幕上绘制大箭头、方框和文本。一个 CLI，点击即可自行消失。克劳德代码和法典的技能。麻省理工学院。
+- **大概是做什么的**: 让您的 AI 代理在屏幕上绘制大箭头、方框和文本 big-arrow-on-the-screen ( bigarrow ) 是一个 macOS 命令行工具，加上 Claude Code 和 Codex 的一项技能，可以在每个窗口顶部绘制一个箭头和一个标志。点击后，键盘焦点保持不变，箭头自行移除。麻省理工学院许可。真正的应用程序 · 它的用途是什么？ · 安装 · 命令 · 外观 · 创意箭头 · 明星 · 常见问题解答 · 我们如何知道它的工作原理 · 对于代理 · 计划 · 现有技术 · 许可 您的 AI 代理可以重构 monorepo、编写迁移并解释 monad，但当它需要您单击一个按钮时，它会在您未查看的终端中打印“请在对话框中单击允许”。大箭头对它竖起一根手指。每个显示器和每个空间上的所有东西上方都有一个透明的窗口。绘图根本不需要 macOS 权限。一个 Swift 二进制文件：没有守护进程，没有菜单栏图标，没有帐户，没有遥测，而且，我们检查了两次，里面没有人工智能。这是一个箭头。真实的应用程序，真实的用例真正的Mac（macOS 27）上的真实应用程序，真正的bigarrow，由scripts/real-scenes.sh上演。 macOS 桌面和 Dock：sto
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, claude-code, cli, codex, macos
+
+---
+
+### 🌟 [pi-pocket](https://github.com/TannerMidd/pi-pocket)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 309
+- **核心概述**: 一款适用于 Pi 代理的耐用、多人、移动优先的 Web 应用程序，基于 Pi Durable 构建
+- **大概是做什么的**: 您的 Pi 编码代理就在您的口袋里。一款适用于 Pi 代理的耐用、多人、移动优先的 Web 应用程序，基于 Pi Durable 构建。在您自己的计算机上或直接在您的手机上运行。没有云虚拟机。网站 · 快速入门 · 功能 · 远程访问 需要 Node.js 22.19 或更高版本。可在 Linux、macOS、Windows 和 Android (Termux) 上运行； Linux 是最经受考验的。首先使用 Pi 登录提供程序（ pi ，然后 /login ），或者稍后从应用程序的提供程序表中登录。启动器会询问您的设备应如何连接，然后打印地址、登录链接和二维码。每个浏览器打开一次链接； cookie 的有效期为一年。该链接是所有者的密钥，因此请保密。 --rotate-token 替换它并注销所有使用旧链接的设备；您邀请的人将保持登录状态，直到您在“菜单”→“人员”下将其删除。运行时： q 退出 · r 重新启动服务器 · 更改访问权限 · o 在浏览器中打开 · s 显示二维码。 - 耐用的。每个模型调用、工具调用和子代理都会在发生时进行存储。运行中途重新启动服务器，工作继续；仅当安全时，切断工具调用才会重新运行。 - 多人游戏
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, mobile, multiplayer, omarchy, pi
+
+---
+
+### 🌟 [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 446
+- **核心概述**: 用于构建图形增强 GenAI 应用程序的 Python 工具包
+- **大概是做什么的**: 查看此处找到的 graphrag-toolkit 文档：从这里开始！ graphrag-toolkit 是用于构建图形增强的生成式 AI 应用程序的 Python 工具的集合。词汇图提供了一个框架，用于从非结构化数据自动构建分层词汇图，并编写在回答用户问题时查询该图的问答策略。其他资源 - GraphRAG 工具包简介 [博客文章] GraphRAG 工具包发布博客文章。 - AWS re:Invent 2025 - 深入了解 Deloitte 的 Amazon Neptune GenAI 安全情报中心 [视频] 讨论 GraphRAG Toolkit 的设计并展示 Deloitte 如何在其安全情报中心使用词汇图。 - Gen AI 代理的 VectorDB 与 GraphDB [视频] 讨论矢量搜索和图搜索之间的差异、它们的工作原理以及如何将它们一起使用以提高 GenAI 应用程序的准确性等。包括使用 GraphRAG 工具包的示例。 - 利用 VectorDB 和 GraphDB：通过混合查询增强 Gen AI 应用程序 [博客文章] Compan
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: amazon-neptune, amazon-opensearch-serverless, graph-database, graphrag, llama-index, mcp
+
+---
+
+### 🌟 [MARS](https://github.com/andrea-magni/MARS)
+- **项目语言**: Pascal
+- **星标数量**: ⭐ 398
+- **核心概述**: Delphi 的 REST 框架：JAX-RS 风格的资源和路由、服务器和客户端、JWT、OpenAPI 3、FireDAC 和 Devart UniDAC/MyDAC/IBDAC、SSE、用于 AI 代理的 MCP 服务器。 Windows、Linux、Docker。
+- **大概是做什么的**: MARS-Curiosity：Delphi 的 REST 库 MARS-Curiosity 是一个开源 (MPL 2.0) 库，用于使用 Embarcadero Delphi 构建 REST 服务器和 REST 客户端。端点是带有属性的普通 Delphi 类（JAX-RS 样式）：MARS 在 Windows 和 Linux 上执行路由、参数绑定、JSON 序列化、JWT 身份验证、OpenAPI 3 和托管。 📖 文档：andrea-magni.github.io/MARS · 为什么选择 MARS？ · 常见问题 · 发行说明 - 声明式 REST 资源： [Path] 、 [GET] / [POST] / [PUT] / [PATCH] / [DELETE] / [QUERY] 、 [Produces] 、 [Consumes] 、 path/query/header/cookie/form/body 参数、使用 [Context] 进行依赖注入。 - 或代码中的路由（Express 样式）： R.Get ('people/{id:int}', ...) ，在资源旁边具有路径约束、组、中间件和 OpenAPI。 - 记录、对象、数组和数据集之间的 JSON，每个应用程序都有选项； YAML 和 XML 编写器也是如此。 - 安全性：JWT 身份验证（承载标头或 cookie、密钥轮换、令牌更新）、基于角色的授权（ [RolesAllowed] 、 [PermitAll] 、 [DenyAll] ）。 - 从您的代码生成 OpenAPI 3，Swagger
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: delphi, devart, docker, firedac, http-server, ibdac
+
+---
+
 ## 🕔 2026-10-09 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
