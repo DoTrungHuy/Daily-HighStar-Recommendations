@@ -1,3 +1,67 @@
+## 🕔 2026-10-09 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [geo-sleuth](https://github.com/Oldcircle/geo-sleuth)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,533
+- **核心概述**: An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.
+- **大概是做什么的**: An agent skill that finds where a photo was taken — and shows its work. …and any other agent that reads SKILL.md and runs shell commands. No text. No plates. No landmarks. One bridge, one mountain. Located to within 2 m. Pick your agents when prompted. Then hand your agent a photo and say: find where this photo was taken On first use, ask the agent to run doctor.py from the installed skill’s scripts/ folder and address any failed checks (see Requirements and setup). That is the whole interface. The agent reads SKILL.md , runs the scripts, and comes back with the camera position, the direction it was facing and a satellite evidence image. Prefer to copy the folder yourself? See Installation. - One photo, one sentence. Give your agent a photo and say find where this photo was taken . You get back the camera position, the direction it was facing, and a satellite evidence image. - It works when there is nothing to read. No sign, no plate, no landmark: OpenStreetMap geometry, elevation data, satellite tiles and street view carry the search on their own. - Geometry instead of guesswork. Pi
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, computer-vision, cursor
+
+---
+
+### 🌟 [OpenIntelligentUI](https://github.com/CopilotKit/OpenIntelligentUI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,678
+- **核心概述**: Open-Source Generative UI Framework
+- **大概是做什么的**: Answers you can interact with. An open-source chat interface that turns questions into explanations, comparisons, and working tools. Built with CopilotKit and AG-UI. · Get started · Overview · Demos · Architecture · Contributing Clone the project, connect your model and visualization router, and adapt the interface and agent to your own workflows. Building with Open Intelligent UI? Talk to an engineer → https://github.com/user-attachments/assets/eb1666c1-e177-410b-96eb-9eb5c5534d95 The 54-second launch film: ask, explore a 3D explanation, compare options, use a calculator, and follow a coastal itinerary. These are rendered launch scenes; the app runs the agent for each request. Ask a question, explore an idea, compare your options, or make a tool for the moment. The agent chooses a direct text answer, a native component, or a custom interactive UI based on what helps you accomplish the task. - Understand — explore a mechanism, step through an explanation, or change a variable. - Compare — examine criteria, assumptions, and tradeoffs side by side. - Make a tool — use a calculator, pla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-native, agentic-ai, agentic-visualization, agents, ai-agents, ai-copilot
+
+---
+
+### 🌟 [Sentient](https://github.com/existence-master/Sentient)
+- **项目语言**: Python
+- **星标数量**: ⭐ 693
+- **核心概述**: Your personal AI assistant, running on your own computer. Long-running tasks, real memory, proactive help, voice, phones and smart glasses. Any model, local or cloud. No account.
+- **大概是做什么的**: Your personal assistant, running on your own computer. It runs long tasks for you, remembers what matters, notices things before you ask, and talks with you by voice. Any model, local or cloud. No account, no servers, no setup files. Sentient v3 is in alpha. It runs from source, its tests run on Windows and Linux on every change, and a Windows installer builds from this repository. Here is exactly what has been tested. Everything lives in one folder on your computer. Keys stay in your system keychain. Run it on a free local model and nothing leaves your machine. No account, no telemetry. ⏱️ Works while you're away Describe a job in plain words. Sentient plans it, asks you once, then runs it now, on a schedule, when an email arrives, or whenever a watched price drops. It remembers what you tell it, builds a picture of your preferences and goals that you can correct, and tidies its memory every night. 📱 Goes where you are Talk to it with "Hey Sentient", message it on Telegram, and pair your phone or smart glasses so it can see, speak and reach you anywhere. One-off, recurring, trigger
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-assistant, artificial-general-intelligence, artificial-intelligence, automation, context
+
+---
+
+### 🌟 [oksskolten](https://github.com/babarot/oksskolten)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 488
+- **核心概述**: 🏔️ The AI-native RSS reader
+- **大概是做什么的**: Oksskolten (pronounced "ooks-SKOL-ten") — every article, full text, by default. Most RSS readers show what the feed gives you — a title and maybe a summary. Some (like Miniflux and FreshRSS) can fetch full article text, but it's opt-in per feed and requires configuration. Oksskolten does it for every article automatically: it fetches the original article, extracts the full text using Mozilla's Readability + 500 noise-removal patterns, converts it to clean Markdown, and stores it locally. No per-feed toggles, no manual CSS selectors — it just works. Because Oksskolten always has the complete text, AI summarization and translation produce meaningful results, full-text search actually covers everything, and you never need to leave the app to read an article. 🕺 Live Demo → demo.oksskolten.com - Full-Text Extraction — Every article is fetched from its source and processed through Readability + 500 noise-removal patterns. You read complete articles inside Oksskolten, never needing to click through to the original site - AI Summarization & Translation — On-demand article processing via Ant
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, news-reader, react, rss, rss-feed
+
+---
+
+### 🌟 [fcp-mcp-server](https://github.com/DareDev256/fcp-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 121
+- **核心概述**: MCP server for Final Cut Pro XML. Lets Claude read, edit and generate real timelines: cut detection, markers, roles, transcript-based editing. Published on PyPI as fcp-mcp-server.
+- **大概是做什么的**: Edit Final Cut Pro by talking to Claude, and watch the cut change. One prompt, seven tool calls, and the timeline re-rendered inline after each write. Every frame is the real ui://fcp/timeline app drawing a real view timeline result; the B-roll provider is mocked and the recording says so on screen. Full-size mp4, re-recorded with demo/hero/build.py . See it. view returns the timeline as exact rational-time JSON, and a host with MCP Apps draws it inline: lanes, thumbnails, markers, transcript words, a playhead, buttons that call the other tools. Cut it. 15 grouped tools, 102 operations: trims, splits, silence removal, markers from transcripts and beats, rough cuts, keyframes and speed ramps, transcript edits, cross-NLE export, and a push into a running Final Cut Pro. Trust it. Every write is journaled with its sha256 and can be undone. deliver refuses an unreviewed cut, expected sha256 refuses a file that changed under the model, and generation is quote-then-confirm under a per-call cap. 182 adversarial-input security tests, defusedxml everywhere, sandboxed writes, no private APIs, a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anthropic, claude, cli, developer-tools, fcpxml
+
+---
+
+### 🌟 [abacusai-bot](https://github.com/abacusai/abacusai-bot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: 100% free, open-source personal agents for your messaging apps, tools, and services
+- **大概是做什么的**: macOS (Apple silicon) · Free forever. Signed and notarized installers. Create a bot for a job you want to hand off. Give it a name, instructions, and a model. Each bot keeps its own chat and memory and uses the tools you enable. Message it from the desktop, WhatsApp, Telegram, or Discord. It can work in Gmail, Google Drive, Slack, GitHub, Notion, and other connected services, then check in or run again on a schedule. Coding is one of the jobs a bot can do. AbacusAI Bot is built for personal assistance, research, communication, recurring work, and tasks that cross several apps. Bot chats and routines run with full tool permissions. They can edit files, run commands, send messages, and act through connected accounts without the approval mode used by supervised sessions. Remote messaging has separate sender and tool controls. Review permissions and the security model before creating recurring or remote work. The desktop app is free and MIT-licensed. You do not need an existing paid model subscription. A free Abacus.AI account starts with 2,000 credits, includes a selection of free model
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, android, cli, coding-agent
+
+---
+
 ## 🕔 2026-10-09 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
