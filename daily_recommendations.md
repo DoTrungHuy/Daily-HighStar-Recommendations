@@ -1,3 +1,67 @@
+## 🕔 2026-10-09 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 118 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [trading-terminal](https://github.com/Superior-Trade/trading-terminal)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 499
+- **核心概述**: Self-hosted AI trading terminal for Hyperliquid: chart read in, validated Freqtrade/Nautilus-Trader strategy out, deployed live.
+- **大概是做什么的**: Literally draw where you think the market is going. Get a fully managed trade back. An AI trading terminal for Hyperliquid. Sketch your read straight onto the chart; the agent turns it into a real setup with entry, stop and target, ranks more setups beside it, and writes the Freqtrade strategy that trades the one you pick — refusing the unsafe Run it yourself, or use the hosted build at terminal.superior.trade. You draw the path. It comes back with a plan, a rating, and a deploy button. Have an agent instead of a mouse? The terminal is for humans. If you want your agent trading directly — no UI, no clone — hand it one line: Read https://superior.trade/SKILL.md and register. Works from Claude Code, OpenClaw, Codex and Cursor. Pointing a coding agent at this repository instead? AGENTS.md. - 2026-08-21 — A fresh clone now runs without TradingView: the bundled Lightweight Charts preview boots first, Advanced Charts drops in later ( npm run setup:charts ). - 2026-08 — The validator's rule set and repair loop are written up in docs/strategy-pipeline.md. Every rule exists because a strategy
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, freqtrade, hyperliquid, nautilus-trader, self-hosted, tradingview
+
+---
+
+### 🌟 [jianhao-travel-planner](https://github.com/awangwang123/jianhao-travel-planner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 353
+- **核心概述**: 出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。
+- **大概是做什么的**: 联网实查、可核验的出行路书工作流 —— 一句话需求，产出断网可开的单文件 HTML 路书 桌面 / 手机 / 打印三好看 · 实拍配图 + 手绘导览图 · 行程 / 路程 / 门票 / 提示 / 住宿 / 预算 / 应急 / 美食 / 特产 十大板块 这是什么 · 能得到什么 · 路书板块 · 触发词 · 安装 · 版本 · 📖 零基础教程 · 📍 城市许愿池 一套「出行路书」工作流：你说"想出去玩"，它按固定流程采集需求 → 联网实查 → 产出 路书 （md 事实源 + 单文件 HTML 双版本：本地完整版断网可开 + 瘦身在线版一键部署）+ 美食情报卡 （按城市持续追加的数据资产）。 SKILL.md 的版本史是精华 ——每条规矩背后都是一次真实翻车（图注落位对 ≠ 图内容对、数指标不算对比、价钱是挂牌价不是实付价……），建议通读，比规矩本身更值钱。 - 📄 单文件路书 ：本地完整版断网可开，手机、电脑、打印纸都好看 - 🌐 一键部署在线版 （需自有服务器，可选）：瘦身网页版一键部署，点开链接即看 - 🔍 信息可信 ：关键信息联网实查带来源，出发前按当日预报终判 - 🖼 每天有实拍图 ：真实景点照片 + 手绘行程导览图，不堆网图 - 🍜 吃饭有章法 ：推荐店各归各位，照抄照选两相宜 - 🚫 隐私干净 ：对外内容零敏感残留 - 🍱 美食情报卡 ：按城市持续追加的数据资产，越用越厚 - ✅ 交付可验收 ：内置 tools/checklist.py 机械检查（11 项），AI 交稿前必跑——你也能一键验收 AI 有没有偷懒 开源次日的抖音介绍视频：12.6 万播放 · 2889 收藏（数据截至 2026-09-30） 总览 一句话行程 + 天气 + 出发前倒计时（勾选式）+ 装备清单 + 总览导览图 路程 交通方式怎么选 + 路程总表（里程/时长）+ 支付提示 每日行程 半小时级时段卡 + 实拍图 + 当日导览图 + 交通/机位/雨天方案 门票预约 多档价格 + 预约与放票口径 温馨提示 真实场景 + 应对，不写正确的废话 住宿 选点逻辑 + 退房时间 + 订房三问 预算 三档概览 + 逐项明细 + 隐藏成本 应急 全局兜底 + 紧急电话与领事保护 美食清单 按天按顿给店 + 必点 + 人均 海岛型目的地的路程板块——租车 / 公交 / 打车分层给方案，行程要素按目的地自动换挡 安装后，跟 AI 说这些话会自动触发本 Skill： 去哪玩 / 旅行攻略 / 周末去哪 / 做攻略 / 行程规划 / 自驾方案 / 当日行程 / 今天去哪 / 特产推荐
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, claude, claude-code, commons, itinerary
+
+---
+
+### 🌟 [goofish-cli](https://github.com/fancyboi999/goofish-cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: 闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 | Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents
+- **大概是做什么的**: 闲鱼 CLI · 原生支持 MCP · 为 AI Agent 而生 Goofish (Xianyu) automation CLI · MCP-ready · Built for AI Agents ▶️ 点击查看带终端音效 + 配乐的高清 MP4（46s） goofish-cli 把闲鱼（Xianyu/Goofish）的核心运营能力抽成一套结构化命令， - 👨‍💻 人类 ： goofish item get 12345 --format table - 🤖 AI Agent（Claude Code / Cursor / Codex） ： uvx goofish-cli → 自动注册成 MCP tool - 🧩 Claude Skills （v0.3）：5 个内置 skill， goofish skills install 一行装到 /.claude/skills/ - OpenClaw ：ClawHub bundle 一次安装 MCP server + 5 个 skills 架构思想来自 opencli 的 single-registry 设计。 IPWO 拥有 9000 万+ 活跃住宅 IP 资源，覆盖 195+ 个国家和地区。 提供动态住宅代理、静态住宅代理及不限量住宅代理。 适用于网页抓取、数据采集、浏览器自动化、跨境业务等场景。 我们订阅使用 Claude / Claude Code 时采用住宅 IP，长期使用稳定。 支持 免费测试 ， 9 折优惠码： 0203 - 🔐 17 个命令覆盖核心链路 ：发布、下架、查询、图片上传、AI 类目识别、默认地址、IM 收发 + 会话列表、skills 安装 - 📡 真·实时 IM ：WebSocket 长连 + 自动重连 + 三类事件分类输出 - event=message （收到消息）· event=read （已读回执）· event=new msg （轻量通知） - 🛡 内置风控护栏 ：令牌桶限流（1 写/分钟）+ RGV587 自动熔断 - 🧠 AI-first I/O ： --format json/yaml/table/md/csv ，给 LLM 喂 JSON、给人看表格 - ⚡ 一次定义，三种入口 ：CLI / MCP / Skill 共享同一 registry - ✅ 真实端到端验证 ：每个命令都跑过真实账号 🧩 Claude Skills（v0.3 新增） v0.3 起内置 5 个 Claude Skill，装完之后 Claude Code / Cursor 里的 Agent
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, claude, cli, goofish, mcp
+
+---
+
+### 🌟 [Herald-OS](https://github.com/iamlukethedev/Herald-OS)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 303
+- **核心概述**: An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.
+- **大概是做什么的**: An agent-native operating system, with Hermes Agent as the interface. Herald OS is an operating system built around an AI agent. Instead of working through menus and folders yourself, you talk or type to Hermes, and it works across the whole machine: it opens apps, finds and organises files, watches what is running, remembers what matters to you, runs routines on a schedule, and builds software while you watch. Every action that changes something goes through a permission system you control. Herald OS is an independent project by Luke The Dev. It is not an official Hermes or Nous Research product, and it is not affiliated with, sponsored by or endorsed by Nous Research. Herald OS runs on Hermes Agent, the open-source agent Nous Research publishes, which is installed alongside it. Status: alpha (0.1). Expect rough edges, and keep backups of anything you let an agent Every download is on the releases page. Pick the way that matches your machine: Your machine What to install A Mac with Apple Silicon Herald OS for macOS An Intel Mac Herald OS Linux in a virtual machine, or the Mac app fr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, desktop-environment, fedora, hermes-agent, hyprland, linux
+
+---
+
+### 🌟 [metis](https://github.com/Wholiver/metis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 325
+- **核心概述**: Metis is a coding agent that boosts AI/LLM coding performance by 50%
+- **大概是做什么的**: The self-adaptive coding agent with evidence-backed verification gates. From terminal TUI to React desktop workspace — eliminating AI hallucinations with a 5-role recursive team and physical verification receipts. Flagship Capabilities · Community & Feedback · Most AI coding assistants operate in a fragile loop: single-thread chat → untested code edits → prematurely claiming "it is fixed" → forgetting everything next session . Metis replaces this with engineering-grade rigor: 1. No False Completion ( FALSE COMPLETION BLOCKED ) : Built-in G0–G7 verification state machine. Agents cannot declare victory without actual test outputs and exit-code-0 receipts. 2. Autonomous Self-Learning : Silently distills your code diffs, recurring pitfalls, and domain skills in the background. Transparent, revisable, and roll-backable. 3. True Multi-Role Agent Team : Dedicated roles ( coordinator , planner , implementer , reviewer , verifier ) isolated in clean Git Worktrees. 4. Dual Interfaces, Zero Setup : Lightweight terminal TUI and standalone React/Vite Desktop application with bundled runtimes (no
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agent-skills, agentic-workflow, ai-agents, ai-coding, automated-testing
+
+---
+
+### 🌟 [AgenticX](https://github.com/DemonDamon/AgenticX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: AgenticX is a unified, production-ready multi-agent platform — Python SDK + CLI (agx) + Studio server + Machi desktop app. Features Meta-Agent orchestration, 15+ LLM providers, MCP Hub, hierarchical memory, avatar & group chat, skill ecosystem, safety sandbox, and IM gateway (Feishu/WeChat).
+- **大概是做什么的**: A unified agent technology stack spanning the Python Agent Runtime, Near Desktop, and Enterprise Product Architecture • Core Capabilities • Quick Start • Examples • Progress Language / 语言 : English 中文 LiteLLM (PyPI): Malicious releases litellm 1.82.7 and 1.82.8 were removed from PyPI after reports that they could exfiltrate API keys . If you ever installed either version, uninstall them, rotate any credentials that may have been exposed, and upgrade to a release the upstream project and PyPI list as safe (for example 1.82.9+ , per current upstream guidance). Check your environment with pip show litellm . AgenticX provides a unified, scalable, production-ready agent technology stack. Developers can build directly with the Python SDK and agx CLI, use Near Desktop as a local-first multi-agent workspace, or deploy AgenticX Enterprise for enterprise access, governance, compliance gateway, and audit capabilities. The architecture consists of one shared capability core and two product forms: - AgenticX Core / Runtime : Python SDK, Studio Server, and Agent Runtime for orchestration, tools, M
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-workflows, ai-agent, ai-orchestration, chatbot, desktop-app
+
+---
+
 ## 🕔 2026-10-09 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 331 个候选项目中筛选出 6 个未推荐过的新项目。
