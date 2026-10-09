@@ -1,3 +1,67 @@
+## 🕔 2026-10-09 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 331 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [interview-guide](https://github.com/Snailclimb/interview-guide)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,319
+- **核心概述**: 基于 Spring Boot 4.1、Java 25、Spring AI 2.0、React、PostgreSQL/pgvector、Redis 和 RustFS 构建的开源 AI 面��平台，支持简历智能分析、模拟面试、语音面试和知识库 RAG。
+- **大概是做什么的**: 智能 AI 面试官平台 - 基于大语言模型的简历分析、模拟面试和 RAG 知识库系统 InterviewGuide 是一个集成了简历分析、模拟面试（文字 + 语音）、面试安排、知识库管理、知识库题库面试和多模型配置的智能面试辅助平台。系统利用大语言模型（LLM）、向量数据库、Redis Stream 异步任务和实时语音技术，为求职者、HR 和培训机构提供智能化的简历评估、面试练习、知识库问答和面试日程管理能力。 本项目承诺 完整功能免费开源 ，也不会做所谓的 Pro 版或“付费解锁核心功能”之类的设计。 如果你想学习这个项目，或者希望把它作为个人项目经历 / 毕设选题，我也整理了一套相对细致的教程：从基础设施搭建、核心业务实现，到最后如何在面试中讲清楚思路与亮点，尽量把容易卡住的地方讲透。 如果你确实需要更系统的辅导，可以点这里了解详情（ 教程为付费内容 ，主要是想覆盖一些时间成本，望理解，感谢支持）：《SpringAI 智能面试平台+RAG 知识库》。 技术 版本 说明 --------------------- ----- ----------------------------- Spring Boot 4.1.0 应用框架 Java 25 开发语言（虚拟线程） Spring AI 2.0.0 AI 集成框架、OpenAI 兼容模型接入 Spring AI Agent Utils 0.10.0 Skill 资源加载、Advisor 能力扩展 PostgreSQL + pgvector 14+ 关系数据库 + 向量存储（Compose 默认 PG16） Redis + Redisson 6+ / 4.0.0 缓存 + 消息队列（Stream） Apache Tika 2.9.2 文档解析 iText 8 8.0.5 PDF 导出 MapStruct 1.6.3 对象映射 SpringDoc OpenAPI 3.0.2 API 接口文档 DashScope SDK 2.22.7 语音识别/合成（Qwen3 ASR/TTS） AWS S3 SDK 2.29.51 S3 兼容对象存储（MinIO/RustFS） WebSocket - 语音面试实时双向通信 Gradle 9.6.1 构建工具 1. 数据存储为什么选择 PostgreSQL + pgvector？PG 的向量数据存储功能够用了，精简架构，不想引入太多组件。 - Redis 替代 ConcurrentHashMap 实现面试会话的缓存。 - 基于 Redis Stream 实现简历分析、知识库向量化等
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: gradle, itext7, mapstruct, pgvector, postgresql, rag
+
+---
+
+### 🌟 [ai_learn_project](https://github.com/Earth-OL-Player/ai_learn_project)
+- **项目语言**: Java
+- **星标数量**: ⭐ 446
+- **核心概述**: 一站式Agent开发学习平台: Agent开发学习路线资料、智能刷题、面经题库
+- **大概是做什么的**: 面向 AI 应用开发者的一站式学习平台：把学习路线、面试题库、AI 智能刷题、成长体系和建议社区放在同一个可运行的全栈项目里。 - 在线站点：https://ai-studyhub.cn - 本地部署文档：QUICK START.md 如果你正在学习 AI Agent、AI 应用开发、RAG、工具调用、结构化输出或大模型工程化，这个项目可以作为一套可运行、可拆解、可二次开发的学习。 学习路线沉淀 将 AI 应用开发资料、学习顺序、技术背景和路线图整理成可浏览的知识页面。 AI 智能刷题 支持题目分类、下一题、重答、AI 评分、AI 追问讨论和历史最高分展示。 热门面试题库 覆盖 AI 通识、Agent 基础、RAG 全链路、向量检索、多智能体、安全评测等方向。 成长体系 通过经验、等级、段位、勋章和刷题记录，让学习过程更有反馈感。 建议评论社区 内置建议区和评论区，方便收集功能建议、体验反馈和内容补充。 全栈闭环 Vue 3 前端、Spring Boot 后端、FastAPI AI 服务、MySQL 数据库组合成完整业务链路。 前端 Vue 3、Vite、TypeScript、Pinia、Vue Router、Element Plus、Markdown-It、DOMPurify 后端 Java 17、Spring Boot、Maven、Spring Security、JWT、Flyway AI 服务 Python 3.11+、FastAPI、Uvicorn、流式响应、模型服务配置 文档 Markdown、迭代文档、中间件说明、验收文档模板 AI 技术迭代很快，很多开发者面对的问题不是“有没有资料”，而是资料太散、路线太乱、练习反馈太少。 这个项目希望把 AI 应用开发的学习路径、面试题、刷题反馈和成长记录集中起来，让普通开发者可以更系统地学习 AI Agent、RAG、工具调用、结构化输出和大模型工程化。 如果这个项目对你学习 AI 应用开发、准备面试或搭建全栈学习平台有帮助，欢迎点一个 Star。你的 Star 会直接影响这个项目继续完善学习路线、刷题内容和工程化能力的优先级。 项目采用清新、简约、留白充足的学习产品风格，核心页面包括： 题目卡片、模型权益、AI 回答、评分结果和追问讨论在同一工作台中完成。 用产品化页面承载项目背景、功能介绍和学习方向，适合作为学习平台入口。 支持 Markdown 学习路线渲染、目录导航、路线图和资料版本说明。 按方向聚合高频面试题，展示重要性分数和真实面试次数。 支持建议发布、分类筛选、热门/最新排序和空状态展示。 展示经
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-learning, ai, ai-learning, fastapi, learning-platform
+
+---
+
+### 🌟 [nodedb](https://github.com/NodeDB-Lab/nodedb)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 223
+- **核心概述**: AI 代理的内存和存储引擎。多模型、边缘到云、兼容 PostgreSQL。
+- **大概是做什么的**: 人工智能代理的内存和存储引擎——从边缘到云端。持久的、可查询的、受访问保护的内存，用于在代理运行的地方运行的 AI 代理 - 嵌入设备上，支持离线，并在连接时同步到分布式服务器。语义、关系、情景和时间序列记忆位于一个引擎、一个进程中，它们之间没有网络跳跃。人工智能代理需要记忆：他们被告知了什么、事实如何关联、何时发生了什么以及现在重要的事情。通常的答案是将云矢量存储缝合到图形数据库到文档存储，或者将所有内容转储到 Markdown 文件中并希望���此。 NodeDB 将所有这些都放在一个引擎中，该引擎在代理运行的地方运行：同一引擎嵌入笔记本电脑、手机或浏览器 (NodeDB-Lite) 并扩展到分布式集群 (NodeDB Origin)，它们之间具有 CRDT 同步。它已经为 ma8e 提供了支持，ma8e 是一种正在开发的内存和知识层，用于完全基于嵌入式 NodeDB 构建的编码代理 — 在一个进程中实现确定性捕获、混合检索和访问防护，无需网络跃点。 - 代理运行的内存。时间
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, columnar, crdt, database, distributed
+
+---
+
+### 🌟 [daydreams](https://github.com/daydreamsai/daydreams)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 619
+- **核心概述**: Daydreams 是一套用于构建商业代理的工具
+- **大概是做什么的**: Daydreams - AI 代理框架 注意：该代理框架不再是核心焦点，因为功能已经过时。 Daydreams 的核心重点是代理商务，而不是代理工具。查看 lucid-agents 存储库：https://github.com/daydreamsai/lucid-agents 我们推荐使用 Pi 代理工具来构建代理并将 lucid-agents 合并到其中。最后，可扩展和组成的 TypeScript 代理 🌐 网站 • ⚡ 快速入门 • 📖 🎯 每个 AI 开发人员面临的问题 您构建了一个 AI 代理。它在测试中效果很好。然后您需要添加更多 ❌ 上下文切换会破坏现有功能 ❌ 状态管理变成一场噩梦 ❌ 内存不会跨会话持续存在 ❌ 代码变成一团混乱的提示和逻辑 听起来很熟悉吗？你并不孤单。这就是为什么大多数 AI 代理从未成功实现 ⚡ 解决方案：可组合上下文架构 Daydreams 是第一个具有可组合上下文的 AI 框架 - 结合复杂行为的独立工作空间。通过真实记忆、MCP 集成和 TypeScript 优先设计构建能够记忆、学习和扩展的代理。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 8004, agent-framework, agent-frameworks, agents, ai, cdp
+
+---
+
+### 🌟 [SourceWeft](https://github.com/SourceWeft/SourceWeft)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 170
+- **核心概述**: ChatGPT 和 NotebookLM 的开源、自托管替代方案 — 一个 AI 工作站中的代理、技能、MCP 和引用知识。您的模型，您的基础设施。免费使用 GPT 6：https://SourceWeft.com/
+- **大概是做什么的**: 您的人工智能工作站。专为完成工作而打造。研究。计划。创造。执行。将您的模型、代理、知识和工具整合到一个开源工作站中。让代理和专门的子代理发挥作用。通过丰富的技能库、MCP 集成和沙盒执行来扩展他们的能力。跨设备继续工作，或为整个团队部署共享工作站。你的模型。你的工具。您的基础设施。多代理和子代理 · 技能和 MCP · 沙箱 · 跨平台 · 自托管 SourceWeft 是 ChatGPT 和 NotebookLM 的开源替代方案，您可以使用自己的模型和密钥在自己的计算机或团队的服务器上进行自托管。它将对话、知识、工作文件和任务执行连接到一个工作站中。描述工作，让代理分解它并使用正确的工具，然后审查和完善他们的工作成果。您的对话和文件保持在一起，因此每个结果都成为下一个任务的起点。 - 多代理协作和子代理。将研究、探索、规划和执行委托给fo
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-rag, agents, ai, ai-agents, chatbot
+
+---
+
+### 🌟 [rag-interview-system](https://github.com/ather-techie/rag-interview-system)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 164
+- **核心概述**: RAG 面试问题、答案（1309 个问题和 52 个 RAG 类型）、系统设计场景、架构模式和生产就绪概念的完整集合。
+- **大概是做什么的**: RAG 面试问题与解答 (2026) — 检索增强一代面试准备！[最后一次提交][commits-shield] ![问题][问题-shield] 1309 个面向 AI 工程师、ML 工程师和 GenAI/LLM 开发人员的 RAG（检索增强一代）面试问题和答案。涵盖所有 52 个 RAG 架构、系统设计场景、向量数据库、嵌入、分块、重新排序、评估以及真实 LLM 工程面试中出现的生产故障模式。 ⭐ 如果此存储库有助于您准备面试，请为其加注星标 - 它可以使项目不断发展。 🧾 备忘单 在一张表中比较所有 52 种 RAG 类型 — 最适合当天在手机屏幕上进��🕹️ [互动测验网站][quiz-url] 以抽认卡的形式翻阅每个问答，可按难度、部分和“仅场景”切换进行过滤，以及自动评分的多项选择题，就在浏览器中 🗺️ 学习路径 结构化课程（如果您有几天以上的准备时间） ▶️ 运行实验室Colab 中的 01 在浏览器中构建工作 RAG 管道，无需本地设置快速入门（本地运行实验室）更喜欢零设置？每个实验室都没有
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-rag, ai, deep-learning, generative-ai, graph-rag, interview-preparation
+
+---
+
 ## 🕔 2026-10-08 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
