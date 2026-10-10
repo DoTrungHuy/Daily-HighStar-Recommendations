@@ -1,3 +1,67 @@
+## 🕔 2026-10-10 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [dataagent](https://github.com/datagallery-ai/dataagent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 786
+- **核心概述**: DataFoundry is an open-source AI workbench for data analysis, unifying data sources, knowledge, tools, and agent runtime into a governed workspace for interactive analytics.
+- **大概是做什么的**: An enterprise-grade Data Agent workbench — it reads business definitions through unified semantics, runs complex multi-table, multi-step analysis inside read-only boundaries, and keeps every step auditable and replayable, turning one question into a trustworthy analysis. 28 datasource types out of the box · Enterprise semantics & context · Self-hosted · Multi-model · Fully auditable Supported Data Sources 🤔 What Is DataFoundry When teams let AI query enterprise databases, the real worry is never "can the model write SQL." It is: does it understand business definitions? Could it mutate production data? Could credentials leak into context? Can a conclusion be verified after the fact? Most tools reduce the problem to prompt → SQL → answer — impressive in a demo, dead on arrival in the enterprise. DataFoundry takes a different path: it puts the agent inside a semantic, policy-aware, evidence-preserving data task system , upgrading natural-language analytics into controllable, trustworthy, verifiable data work. - 🗄️ 28 datasource types, ready out of the box — From PostgreSQL, MySQL, Sno
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag-ui, agent-runtime, ai, ai-agents, data-analysis, data-sources
+
+---
+
+### 🌟 [Godot-MCP](https://github.com/IvanMurzak/Godot-MCP)
+- **项目语言**: C#
+- **星标数量**: ⭐ 276
+- **核心概述**: Godot-MCP — Model Context Protocol (MCP) integration for the Godot Engine. AI tools for the Godot Editor in C#, with cloud connection to ai-game.dev. Apache-2.0.
+- **大概是做什么的**: ✨ AI Game Developer — Godot MCP Godot MCP is an AI-powered game development assistant for the Godot Editor . Connect Claude , Cursor , Copilot , or any MCP-aware agent to Godot and let it inspect and drive your project — create nodes, edit scenes, manage resources and scripts, capture screenshots, and more. Godot-MCP is the Godot counterpart of Unity-MCP: a C editor addon that exposes Godot Editor operations as AI Tools and connects them to an MCP server through the same hosted cloud backend (ai-game.dev) that powers Unity-MCP — or your own self-hosted server. The MCP / reflection stack is not forked : it is shared with Unity-MCP and consumed from nuget.org as PackageReference s. 💬 Join our Discord Server — Ask questions, showcase your work, and connect with other developers! - ✔️ AI agents — Use the best agents from Anthropic , OpenAI , Google , or any other provider with no vendor lock-in - ✔️ 42 built-in Tools — A wide range of MCP Tools across 12 families for operating the Godot Editor - ✔️ C & GDScript — Read, create, and update both .cs and .gd scripts, and attach them to node
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-integration, ai-tools, anthropic, claude, claude-code
+
+---
+
+### 🌟 [PersonalJarvis](https://github.com/PersonalJarvis/PersonalJarvis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 159
+- **核心概述**: Your AI assistant, built for the agentic era. Open source and local: talk to it, and it runs your agents, your coding CLIs, your browser and your apps. Windows, macOS, Linux.
+- **大概是做什么的**: The open-source AI agent super-app for your desktop. Run every coding agent side by side, talk to your computer, and keep a team of AI agents working while you are away. https://github.com/user-attachments/assets/42afcb9f-323b-4a57-9b6d-17aa7a2585b2 A real, unedited recording of the app with sound: talking to Jarvis by voice, handing work to agents, and following them in the coding workspace. Personal Jarvis is one desktop app for everything AI can do on a computer. It has a workspace where several coding agents run side by side, AI agents that keep their own memory, a voice assistant with a wake word, control of your desktop and browser, and a plugin marketplace. It works with the models you already pay for, whether hosted, local or through a subscription you have. You say what you want. Jarvis answers you, does the task on your computer, or hands it to the agent that fits, and you can watch every step. It is free and open source, and it runs on your own machine. You do not need an account, and there is no cloud of ours between you and your models. It runs on Windows, macOS and Linu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agent, ai-coding-assistant, claude-code, coding-agent, computer-use
+
+---
+
+### 🌟 [Deepseek-Harness-Local-Android](https://github.com/Soodok/Deepseek-Harness-Local-Android)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 198
+- **核心概述**: Run the DeepSeek Harness AI agent natively on Android — no root, no Termux, extension center included | 手机本地运行 DeepSeek Agent，免 Root 免 Termux
+- **大概是做什么的**: DSH Mobile （Deepseek-harness-Mobile) DeepSeek Harness 的 Android 完整移植 —— 官方 dsh 引擎原样跑在手机沙箱里，无需 Root、无需 Termux、无需电脑。 🌐 English · Deutsch DSH Mobile 是 DeepSeek Harness（DeepSeek 开源的 Agent 框架）的 Android 完整移植 。完整的 Node.js Agent 引擎运行在应用沙箱内，监听 127.0.0.1 回环——会话、凭证、工作区 全部留在手机上 ，装完即用，数据不出设备。 这是 ：官方 dsh 引擎（锁定 0.2.0-rc.2 ）+ 自建 Android 运行环境。插件体系、WebUI、工具调用链全部来自上游，本项目负责运行层：bionic 版 Node.js 运行时、前台服务保活、三级权限、扩展中心。 桌面上 dsh 能做的事，这里都能做。 这不是 ：不是自研 Agent 框架，不是端侧大模型 App（模型走你配置的 API），不是手机自动化 Agent（读屏点击是交给 AI 的工具之一）。 冷启动到引擎就绪 ⚠️ dsh 的 WebUI 本身不支持局域网访问 —— 这是上游的安全设计：dsh 源码里明确拒绝绑定 0.0.0.0 （"would expose remote code execution to the network"），且前端在非 localhost 环境会因 crypto.randomUUID 不可用、 isLoopbackHostname 判定为假而失去设置类功能。 电脑浏览器无法直接打开手机上的 WebUI ；需要图形界面请在手机上看，或用 SSH 做终端操作。 点悬浮球麦克风弹出底部输入面板，识别结果实时上屏、可手改后一键发送直达当前对话。发送链路全部由 Android 侧时序驱动， App 退到后台照样即时发出 ；对 WebUI 富文本输入框的写入走编辑器原生 paste 管线并回读校验，不会内容重复。 设备没有识别服务时，可安装我们的开源离线识别插件 dsh-asr-service（模型走国内镜像，下载源跟随系统语言）。 - 悬浮窗 ：可拖动状态球随引擎状态变色，展开显示 AI 最近一次动作与时间 - 保活 ：无障碍服务看门狗自动拉起被系统回收的引擎；WebView 后台保持定时器，语音消息即时得到响应 - 操作手机屏幕（非盲） ：读屏（文本 + 坐标）并按文本/坐标精准点击，支持断点断言与重试、目标丢失找回、歧义告警、滚动定位，每步自动截图 Ag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-runtime, ai-agent, ai-agents, android, android-app
+
+---
+
+### 🌟 [fora](https://github.com/imfeh2/fora)
+- **项目语言**: Python
+- **星标数量**: ⭐ 264
+- **核心概述**: Run your own organization of agents
+- **大概是做什么的**: Run your own organization of agents.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-runtime, agentic-workflows, ai, ai-agent, ai-workspace
+
+---
+
+### 🌟 [sub2sub](https://github.com/mekoand/sub2sub)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 114
+- **核心概述**: Share AI resources and collaborate across your devices and authorized teammates. Delegate tasks through Codex or Claude Code, collect files and responses, and continue the same task.
+- **大概是做什么的**: Share Codex and Claude Code subscriptions across devices, task by task, without sharing account credentials. English · 简体中文 · Install · Usage · Contribute · Security sub2sub is a task proxy for sharing existing AI subscriptions across your devices and team. Delegate from your current conversation. An authorized device runs the task and returns responses and files; follow up in the same conversation. Each owner controls who can connect and which tools and models they share. Install the plugin, connect two devices, and try your first task. - Choose shared resources. Select tools and models from connected devices and query remaining Codex quota. Optional automatic host selection follows your candidate order for new tasks; submitted tasks stay on their original device. - Set sharing rules. Choose authorized clients, models, concurrency limits, access expiry and optional Token budgets. Stop accepting new tasks at any time. Sharing rules - Collect results and request revisions. Send selected files, receive a complete work copy, and continue the same task. Decide when to apply changes to yo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, collaboration, mcp
+
+---
+
 ## 🕔 2026-10-09 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
