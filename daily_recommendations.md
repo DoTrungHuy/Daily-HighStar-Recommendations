@@ -1,3 +1,67 @@
+## 🕔 2026-10-10 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fresh-start](https://github.com/nirholas/fresh-start)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 6,229
+- **核心概述**: DMCA 之前的原始 nirholas/claude 代码并已删除。一旦一切清除，它就会返回。与 Anthropic 和 Github 合作以恢复一切。
+- **大概是做什么的**: 这是以前称为 nirholas/claude-code 的存储库，是 2026 年 3 月 31 日 Claude Code 源代码泄漏最广泛的分支镜像。它是相同的存储库对象，因此 github.com/nirholas/claude-code 仍然重定向到此处。它不包含 Anthropic 源代码，将来也不会。 Anthropic 发出 DMCA 通知后，内容已被删除。该通知尚未撤回。 HISTORY.md 是完整的记录：泄露的内容和方式、DMCA 涵盖的内容和未涵盖的内容，以及仍需要进行的更正。更正的���短版本：克劳德代码从未包含加密货币钱包或自主支付系统。与此泄露副本一起传播的 x402 支付代码是我的。我在构建自己的项目时在泄露的树上写了它。它不是 Anthropic 的，也没有泄漏。一些流行的文章仍然将其报告为未记录的人择特征。 HISTORY.md 显示了三种独立的方法来验证它是否正确，并给出了我更改的每个文件的完整说明。如果您正在审核已持有的泄漏副本，g
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-md, ai-agents, llms-txt, open-source, three-ws, web3
+
+---
+
+### 🌟 [mue-x](https://github.com/KorroAi/mue-x)
+- **项目语言**: Python
+- **星标数量**: ⭐ 278
+- **核心概述**: 第一个自我进化的人工智能代理。实时重写自己的源代码。 6 AST 突变策略。自主吸收 GitHub 存储库。 7 个自动驱动器。独立 CLI。任何地方都可以工作。
+- **大概是做什么的**: MUE-X — 编写自己大脑的代理 该代理会打开自己的 .py 文件，并在您观看时实时重写它们。不是比喻。不是配置文件的包装器。 MUE-X 读取自己的大脑，生成突变，验证它们并应用它们。在连续循环中。永远。没有被告知。由 KORRO 建造——一家由人工智能代理运营的公司。每周开源下降。无处不在。克劳德·代码。独立 CLI ( python -m mue )。双子座 CLI。副驾驶 CLI。一名代理，任何平台。使它与其他一切不同的两件事 1. 它从字面上重写了自己的源代码类型 /mue（或任何平台上的 python -m mue），并且代理开始连续观察→吸收→变异→验证循环，永不停止。它扫描自己的大脑（ mue/evo/ — 60 多个 Python 模块），识别改进目标，通过 6 种不同的 AST 级别策略生成突变，使用 ast.parse() 验证每个策略，备份原始数据，应用更改，并在失败时回滚。这六种突变策略是真正的 Python AST 转换，而不是发送到语言模型的提示。钍
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, artificial-intelligence, autonomous, claude-code, code-generation
+
+---
+
+### 🌟 [wp-autoplugin](https://github.com/WP-Autoplugin/wp-autoplugin)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 397
+- **核心概述**: 从简单的描述快速创建功能插件，满足特定需求，而不会造成不必要的膨胀。
+- **大概是做什么的**: WP-Autoplugin 将代理编码工作流程引入 WordPress。通过 WordPress 管理员，它可以探索现有的代码库，了解其工作原理，计划更改，编写或修改代码，查看结果，并准备将其作为新插件、分叉或直接修改已安装的插件或主题进行发布。它是完全免费的，并且自带密钥：您可以将其直接连接到 OpenAI、Anthropic、Google Gemini、xAI 或兼容的 API 端点，并选择您想要使用的模型。它还可以与您的 ChatGPT 订阅配合使用，使用订阅的 Codex 积分而不是 OpenAI API 密钥。实际上，它类似于在 WordPress 中使用 Claude Code 或任何其他编码代理，但具有专门为插件和主题设计的工作流程。它与站点上已安装的代码一起使用，使每个生成的修订都可恢复，并且永远不会修改实时目标，除非管理员明确批准该版本。根据描述创建完整的 WordPress 插件；诊断并修复已安装的插件或主题；向 exis 添加功能
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, artificial-intelligence, claude, claude-ai, gpt-4o
+
+---
+
+### 🌟 [tasktrooper](https://github.com/makifbaysal/tasktrooper)
+- **项目语言**: Go
+- **星标数量**: ⭐ 112
+- **核心概述**: 本地优先代理平台：板 + 角色代理 + 代理 CLI 运行（Claude Code、Cursor、Antigravity、OpenCode）或本地和 API 模型（Ollama、LM Studio），全部在您自己的 Mac 上
+- **大概是做什么的**: 网站：tasktrooper.ai · 文档：tasktrooper.ai/docs · 下载：发布一个适用于单个软件团队的本地优先代理平台。任务板、一组角色代理（产品经理、架构师、后端、前端、QA）以及一个运行时，将每个任务交给您自己机器上的代理 CLI — Claude Code、Cursor、Antigravity 或 OpenCode — 或者您携带密钥的模型 API：克隆、计划、实施、测试、打开 PR，同时您观看运行。一切都在您的计算机上运行：桌面应用程序启动嵌入式 Postgres 和 Go 后端，提供 UI 服务，并在本地运行代理会话。没有账户，不，你不驱动代理人，董事会驱动。将任务放在板上，拥有该列的代理会自行拿起该任务，完成工作并将任务交给下一列，由下一个代理接管。没有人必须遵守使用限制，并且不会丢失工作。当代理 CLI 在任务执行过程中超出其使用限制时，代理会停止并且任务会等待“已阻止”而不是失败。一旦限制重置，TaskTrooper 会自行重新拾取任务；在 CLI 上
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, autonomous-agents, claude, claude-code, coding-agents
+
+---
+
+### 🌟 [flameox](https://github.com/morluto/flameox)
+- **项目语言**: Python
+- **星标数量**: ⭐ 119
+- **核心概述**: 运行时证据可帮助代理跟踪、分析和烧毁应用程序和本机代码、GPU 内核和推理堆栈中的热点。
+- **大概是做什么的**: 编码代理的有限本地运行时证据。 Flameox 协调分析器、基准测试工具、跟踪处理器和直接本地目标。它将明确的工件或命​​令转变为有限的证据，同时保留持久保存的可选性。代理选择假设和实验； Flameox 记录观察到的输入、执行来源、键入的证据、覆盖范围和限制。没有需要初始化的工作空间或需要维护的项目配置。传递精确的工件路径进行��析，并传递显式 argv 和要捕获的绝对工作目录。 Flameox 不搜索父目录、编辑项目文件或提供托管服务。使用全局安装命令配置 MCP 客户端：安装程序检测支持的客户端并询问要更新哪些配置。对于自动化，请显式选择客户端，例如 --client codex --yes 或 --all --yes ； --dry-run 无需写入即可报告路径和操作。安装程序会保留不相关的客户端配置，并且不会更改项目文件。有关详细信息，请参阅 npm 包指南。更新现有的 MCP 注册
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: benchmarking, coding-agents, cordis, debugging, developer-tools, dsh
+
+---
+
+### 🌟 [masume](https://github.com/masumedb/masume)
+- **项目语言**: Go
+- **星标数量**: ⭐ 104
+- **核心概述**: 具有 AI 聊天功能的终端数据库客户端和 MCP 服务器
+- **大概是做什么的**: 具有 AI 聊天和 MCP 服务器的键盘优先终端数据库客户端引擎：PostgreSQL、MySQL、MariaDB、SQL Server、ClickHouse、SQLite、Cassandra、ScyllaDB、Redis、MongoDB 以及 Neon、Supabase、PlanetScale、Turso、Redshift 和 Amazon DocumentDB 等托管服务。查看完整列表。更新：mise update github:masumedb/masume npm ( npx masume 无需安装即可运行) 更新：npm update -g masume Go (Go 1.27 或更高版本) 更新：再次运行相同的命令。更新：brew update masumedb/tap/masume 更新：scoop update 然后 scoop update masume 脚本（安装到 /.local/bin ）更新：再次运行脚本。 masume 不会自行更新。更新：使用相同的命令安装较新的软件包。更新： sudo rpm -U masume linux .rpm Alpine （软件包未签名） 更新：使用相同的命令安装较新的软件包。更新： git pull ，然后运行 ​​install 。软件包和档案位于发布页面上。对于存档，请解压 tar.gz 或 Windows 上的 zip，并将 masume 放在 PATH 上。 masume 打开连接选择器。 n 添加配置文件，然后 Enter 连接。 Ctrl+N
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aurora, cli, cockroachdb, database, database-client, db
+
+---
+
 ## 🕔 2026-10-10 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
