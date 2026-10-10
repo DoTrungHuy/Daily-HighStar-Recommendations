@@ -1,3 +1,67 @@
+## 🕔 2026-10-10 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Open-WebUI-Functions](https://github.com/owndev/Open-WebUI-Functions)
+- **项目语言**: Python
+- **星标数量**: ⭐ 389
+- **核心概述**: Open-WebUI-Functions 是旨在增强 Open WebUI 的自定义管道、过滤器和集成的集合。这些功能可实现与 Azure AI、N8N、Google Gemini 和其他 AI 模型的无缝交互，提供动态请求处理、预处理和自动化。
+- **大概是做什么的**: Open-WebUI-Functions Open-WebUI-Functions 是基于 Python 的函数的集合，它通过附加管道、过滤器和集成来扩展 Open WebUI。这些功能使连接外部 AI 提供商、处理数据以及根据实际工作流程定制 Open WebUI 体验变得更加容易。 - 🏗️ 项目结构 - 🛡️ 安全功能 该存储库重点关注 Open WebUI 的可重用 Python 函数。它包括特定于提供商的管道、请求和响应过滤器、可选的分析助手、安全秘密处理以及流式和非流式集成。这些徽章由所有 GitFlow 分支类型的 GitVersion Badge 工作流程自动生成和更新。 - 🧩 自定义管道：使用 AI 处理管道扩展 Open WebUI，包括模型推理和数据转换。 - 🔍数据处理过滤器：应用自定义过滤逻辑来细化、操作或预处理输入和输出数据。 - 🤝 Azure AI 支持：将 Open WebUI 与 Azure OpenAI 和其他 Azure AI 模型无缝连接。 - 🤝 N8N 工作流程集成：启用
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, azure-ai, azure-ai-foundry, gemini, google-ai, infomaniak
+
+---
+
+### 🌟 [aser](https://github.com/AmeNetwork/aser)
+- **项目语言**: Python
+- **星标数量**: ⭐ 468
+- **核心概述**: Aser 是一个轻量级、自组装的 AI Agent 框架。
+- **大概是做什么的**: Aser 是一个极简、模块化、多功能的 AI 代理框架。您只需几行代码就可以组装一个代理。 Twitter 文档 获取支持 English 或克隆存储库： 设置环境变量 请参阅 .env.example 文件，并使用您自己的设置创建 .env 文件。您不需要配置所有环境变量，只需选择您使用的环境变量即可。如果您克隆项目源代码，在运行示例之前，请运行 pip install -e 。位于根目录中，这允许Python从本地源代码中查找并导入aser模块。如果您通过 pip install aser 安装，则可以直接运行示例。 - Aser Agent：您的第一个 AI 代理 - 模型配置：自定义 LLM 配置 - 角色：使用角色构建代理 - 内存：使用内存存储构建代理 - RAG：使用知识检索构建代理 - 工具：使用工具构建代理 - 工具包：使用内置工具包 - 跟踪：使用跟踪构建代理 - API：使用 API 服务器构建代理 - CLI：使用 CLI 与代理交互 - Discord：使用 Discor 构建代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a-protocol, agent, agents, ai, ai-agent, ai-memory
+
+---
+
+### 🌟 [solvecraft](https://github.com/bherbruck/solvecraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 112
+- **核心概述**: 使用纯 Rust 开源、干净地重新实现 Autodesk Fusion 360。通过 MCP 适用于桌面、浏览器和 AI 代理的参数化 3D CAD。
+- **大概是做什么的**: 参数化 3D CAD； Autodesk Fusion 360 的开源、洁净室重新实现，采用纯 Rust 构建。使用参数化特征时间线绘制草图、约束和构建实体。更改尺寸并观察模型重建。在桌面、浏览器中运行它，或者让 AI 代理通过内置的 MCP 服务器进行建模。属于讲故事的“工艺”家族的一部分。一名特工在 MCP 上构建了一个电子外壳：在面、外壳、端口切割、一个螺丝凸台上绘制草图，将其图案化为四个，然后在“参数”对话框中将宽度设置为 80 → 100 ��米，然后重建时间线。 3×速度；完整视频，示例/演示中的脚本。文档：SolveCraft 书籍（用户指南、开发人员指南和命令参考；文档/书籍中的源代码）以及用于在浏览器中尝试的 Web 应用程序。状态：早期但可用于简单零件。 Fusion 中构建的 76 个参考零件中的 76 个在 SolveCraft 中重建，具有相同的体积、面积和拓扑 (docs/oracle.md)；在 docs/parity.md 中跟踪 Fusion 设计工作区的命令奇偶性。开放工作和已知错误位于 GitHub 问题中，欢迎提供帮助：请参阅 CONTRIBUTING.md。 - 草图
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, brep, cad, egui, mcp, parametric-cad
+
+---
+
+### 🌟 [claude-code-docs](https://github.com/thevibeworks/claude-code-docs)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 119
+- **核心概述**: Anthropic 为构建者提供的所有内容，每天存档和更新 4 次。 3,900 多个文件。 12 个来源。 API、Claude Code、MCP、文档、食谱、技能、插件。
+- **大概是做什么的**: 自动更新 Anthropic 构建器文档的存档：每个发布 Markdown 的来源，每天都会获取 4 次。来自 6 个实时来源的 4,100 个文件，以及工程博客的冻结存档。克隆此存储库并将 Claude Code 指向它。每个文档、教程、烹饪书、技能和工程帖子 Anthropic 都在 Markdown 表面上发布——可搜索、版本控制和离线。然后向 Claude Code 询问任何问题：计数是截至 2026 年 9 月 9 日磁盘上的文件； uv run script/fetcher.py --tree 源部分文件 内容 -------- --------- ------: ------ code.claude.com --section claude-code 198 Claude Code + Agent SDK 文档 platform.claude.com --section api 2,228 API 参考、构建指南 claude.com/docs --section products 226 Claude 标签、Cowork、office 代理、连接器 modelcontextprotocol.io --section mcp 347 MCP 规范、SDK、治理 github.com/anthropics --section github 764 食谱、技能、插件、课程、SDK 文档 support.claude.com --section 支持 372 帮助文章 anthropic.com 冻结 2026-07-08 158 工程、研究、新闻帖子 -- 参见下文 anthropic.com 没有
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sdk, agent-skills, ai-agents, anthropic, anthropic-api, claude
+
+---
+
+### 🌟 [Dodaios](https://github.com/Dodaios/Dodaios)
+- **项目语言**: Python
+- **星标数量**: ⭐ 163
+- **核心概述**: 您的人工智能助手，专为代理时代打造。开源和本地：与它交谈，它会运行您的代理、编码 CLI、浏览器和应用程序。 Windows、macOS、Linux。
+- **大概是做什么的**: 适用于桌面的开源 AI 代理超级应用程序。并排运行每个编码代理，与您的计算机对话，并在您离开时让人工智能代理团队保持工作。 https://github.com/user-attachments/assets/42afcb9f-323b-4a57-9b6d-17aa7a2585b2 应用程序的真实、未经编辑的录音：通过语音与 Jarvis 交谈，将工作交给代理，并在编码工作区中跟踪他们。 Personal Jarvis 是一款桌面应用程序，可实现人工智能在计算机上执行的所有操作。它有一个工作区，其中多个编码代理并排运行，人工智能代理保留自己的记忆，一个带有唤醒词的语音助手，��制您的桌面和浏览器，以及一个插件市场。它适用于您已经付费的模型，无论是托管、本地还是通过订阅。你说你想要什么。贾维斯回答您，在您的计算机上完成任务，或者将其交给适合的代理，您可以观看每一步。它是免费且开源的，并且可以在您自己的计算机上运行。您不需要帐户，并且您和您的模型之间没有我们的云。它可以在 Windows、macOS 和 Linu 上运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agent, ai-coding-assistant, claude-code, coding-agent, computer-use
+
+---
+
+### 🌟 [mcp-server-odoo](https://github.com/ivnvxd/mcp-server-odoo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 402
+- **核心概述**: 模型上下文协议 (MCP) 服务器使 AI 助手能够通过用于数据检索和操作的标准化资源和工具安全地与 Odoo ERP 系统交互。
+- **大概是做什么的**: MCP 服务器使 Claude 等 AI 助手能够与 Odoo ERP 系统进行交互。通过自然语言访问业务数据、搜索记录、创建新条目、更新现有数据以及管理您的 Odoo 实例。适用于任何 Odoo 实例！使用 YOLO 模式对任何标准 Odoo 安装进行快速测试和演示。对于企业安全、访问控制和生产使用，请安装 Odoo MCP 模块。 - 🔍 搜索和检索任何 Odoo 记录（客户、产品、发票等） - ✨ 通过字段验证和权限检查创建新记录 - ✏️ 通过智能字段处理更新现有数据 - 🗑️ 删除尊重模型级权限��记录 - 🔢 计算符合特定条件的记录 - 📋 检查模型字段以了解数据结构 - 📊 服务器端聚合 — 分组、求和和计数，无需提取原始行 - ⚡ 工作流程操作 — 通过选择加入逃生舱口调用公共业务方法（发布发票、确认 SO 等） - 📎 二进制和附件资源 — 通过资源 URI 获取图像、文档和 ir.attachment 文件 - 👤 个性化会话
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, erp, llm, mcp, mcp-server, mcp-servers
+
+---
+
 ## 🕔 2026-10-10 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
