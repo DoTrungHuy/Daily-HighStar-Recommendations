@@ -1,3 +1,67 @@
+## 🕔 2026-10-11 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [EAC-Desktop](https://github.com/Ebony-Vinyl/EAC-Desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,976
+- **核心概述**: Embracing All Creation (Desktop) — Dedicated to the Harmonious Coexistence of Hundreds of DSH Plugins / 揽尽万象（桌面版） —— 致力于让数百个DSH插件和谐共存
+- **大概是做什么的**: EAC = Embracing All Creation（揽尽万象） 下载 · 快速开始 · 架构设计 · 社区支持 把 Agent 的能力，组织成一张真正能工作的桌面。 Deepseek Harness EAC 是基于 DeepSeek Harness 的开源桌面工作台。它将对话、项目文件、工具执行与插件生态连接起来，配合原生窗口、独立运行环境和随包运行时，让你从安装直接进入工作。 EAC · Embracing All Creation · 揽尽万象。 开放的是能力，清晰的是边界：桌面壳负责体验，服务层负责运行，Harness 内核负责 Agent，扩展包负责更多可能。 皮肤效果展示 · 界面外观随所安装的皮肤而变化。 开始使用 架构与扩展 开发与社区 核心能力 快速开始 下载与启动 数据与环境 架构设计 从双击到执行 让复杂性留在明确的边界里 插件与外观 桌面配套能力 扩展分发 皮肤契约 开发指南 工程导航 文档与社区 社区与支持 贡献者与致谢 许可与致谢 Star 趋势 打开就能工作 随包准备 Node.js、npm 与 dsh 运行资源，启动本地 Web UI；普通使用无需单独安装 Node.js 围绕项目协作 在工作目录中发起任务，查看会话文件变更，并通过文件视图检查与还原修改 长任务保持上下文 请求路径上的上下文压缩与有界溢出恢复，为持续对话管理上下文空间 配置自己的工作方式 通过快速配置入口管理视觉模型与人设相关设置，按任务需求组织工具能力 扩展保持可管理 聚合插件目录、安装与启停入口，配合保护中心的快照、体检和回滚能力 环境各自独立 通过 DPX 管理环境身份、默认数据路径与运行时变量，按发布通道分离环境 桌面融入日常 Tauri 原生窗口、托盘、单实例与退出策略，配合进程编排管理服务生命周期 外观按需组合 用户皮肤通过市场包接入；桌面宿主与皮肤资源以明确契约协作 模型调用由配置的提供商完成。插件的启用状态、兼容范围与附加依赖由具体发行包和插件配置决定。 Windows 最新稳定版： v6.0.0 。其余平台按包格式列出最近发布的下载文件，版本分别标注。 平台 版本 直接下载 更新时间（北京时间） --- --- --- --- Windows x64 v6.0.0 Full Setup 2026-10-05 Windows x64 v6.0.0 Lite Setup 2026-10-05 Linux x64 v5.3.6 AppImage 2026-09-03 Linux x64 v5.3.6 deb 2026-09-03 macOS arm
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, deepseek-harness, desktop, desktop-app, dsh
+
+---
+
+### 🌟 [JourniOne-Planning-Skills](https://github.com/JourniOne-ai/JourniOne-Planning-Skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 778
+- **核心概述**: JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。
+- **大概是做什么的**: JourniOne · 旅行日记创建者 英语 · 简体中文 · 日本语 · 西班牙语 · 한국어 · Français · 巴里埃 把你梦想的地方变成你可以真正去的旅行。网站·安装·示例·常见问题解答从一个旅行想法开始。 JourniOne 帮助您计划每一天，找到适合您的路线和预算的酒店，并将所有内容整合到精美的旅行日记中，这是一本交互式旅行指南，您可以像活页簿一样探索和分享。花更少的时间拼凑建议，更多地了解您的目的地，并让您的旅行预算更进一步。从想法到计划，您可以按照 Tell JourniOne 告诉 JourniOne 您想去哪里、喜欢什么以及谁会来，或者分享现有的行程、照片和笔记。它根据您的兴趣和步调规划每日路线，检查重点地点和交通，并为观光、用餐、出行和休息留出空间。一旦您确认了计划，它就会成为您可以像旅行手册一样探索的视觉指南。使用日志视图查看图像、故事和每日计划，使用地图视图查看地点和路线。开设一个地方以了解更多信息。了解您的目的地
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, itinerary, journione, travel-journal, travel-planning
+
+---
+
+### 🌟 [pi-bluebook](https://github.com/xiaomoBoy/pi-bluebook)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 313
+- **核心概述**: Pi Coding Agent 中文学习蓝皮书：从安装与第一个可验收任务开始，逐步掌握 Session、Context、Skill、Extension、Subagent 与长期 Agent 工作流。
+- **大概是做什么的**: Pi 学习蓝皮书｜Pi Coding Agent 中文学习路线 一本面向中文初学者的非官方 Pi Coding Agent（极简终端 Coding Harness）学习手册。从安装、登录和第一个可验收任务开始，逐步掌握 Session、Context、Skill、Extension、Subagent 与长期 Agent 工作流。 在线阅读 · 直接开始操作 · 系统阅读 · 反馈问题 · 繁体中文版 - 真实学习路线 ：不从功能清单开始，而是先完成一件可以亲自检查结果的小任务，再逐步进入会话、上下文、扩展和长期工作流。 - 面向中文初学者 ：同时提供 macOS 与 Windows Git Bash 路径，命令、Pi 内部操作和任务文字分开说明。 - 强调独立验收 ：每一课按“场景 → 概念 → 实操 → 验收”展开，不把 Agent 自述“完成了”当作完成。 - 持续核验更新 ：版本、认证、模型和命令等易变化信息会标注核验日期，并以 Pi 官方文档 和 官方源码 为准。 2026 开放学习版的读者对象、阅读顺序、基本主张和内容边界已经确定；网站仍会持续校订错字、失效命令、链接和核验日期。当前导论、序章、五个模块、14 课、1 篇原理串联和 8 个配套案例，已经形成从理解 Pi、完成第一次任务、管理会话与上下文，到扩展、分工、长任务和安全验收的完整学习路径。需要真实系统界面的进阶效果��明确标出，不用文字或伪图代替实测。 导论 为什么要读这本 Pi 蓝皮书 理解 Pi 的位置、中文初学者的真实门槛和本版主张 长期判断 从 98 条推文留下的十条判断 区分原始学习档案与截至本版仍然成立的判断 凡例 2026 开放学习版说明 明确平台路径、核验截止、维护规则和版权边界 序章 Pi 作者 Mario Zechner 沿完整时间线理解 libGDX、RoboVM、Pi 与 Earendil 之间的联系 模块一 · 1 安装前检查 打开终端，准备练习目录，检查 Node.js 和 npm 模块一 · 2 安装并启动 Pi 安装 Pi，确认可用，并学会启动与退出 Windows 路径 Windows 中文安装路径 用 Git Bash 准备环境、安装 Pi，并接入第 3 课 模块一 · 3 登录与模型设置 连接可用服务，选择模型，收到一次真实回复 模块一 · 4 从练习目录开始 确认当前目录和基础设置，完成进入任务前的检查 安装后维护 更新、退出登录与卸载 管理 Pi 版本、认证、Package 和本地数据 版本档案 Pi 版本更新记录 按版本号、年份、变更类型和主题检索完整
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-skills, ai-agent, chinese, coding-agent, context-engineering
+
+---
+
+### 🌟 [LLM2Jev](https://github.com/Yinsongxu/LLM2Jev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 430
+- **核心概述**: 将本地语言模型转变为 Jev 式的结构化决策模型。仅通过预填充即可从文本和图像中获取结果，无需逐个令牌解码。
+- **大概是做什么的**: 🧠 LLM2Jev：为您的LLM / MLLM 提供一个决策引擎项目网站 · 简体中文 将您的LLM / MLLM 转变为Jev 风格的决策模型。零培训需求。将现有模型权重用于文本和图像的分类、评分和动作选择。仅通过预填充即可跨 SGLang、Transformers 和 MLX 后端获取决策概率。通过基于 OpenAI Python SDK 构建的同一个客户端进行呼叫决策和聊天，只要服务后端支持两者即可。 LLM2Jev 是一个独立的开源项目。它不隶属于 Jev 或 TypeSafe，也不受其认可。 - 10 月 11 日 - v0.1.0：零培训即可为您提供 LLM / MLLM Jev 式的决策能力。支持 SGLang、Transformers 和 MLX，并带有扩展 OpenAI SDK 的 Python 客户端。 - 10 月 8 日 - Valen 推箱子评估：在 Valen 的基础上添加了视觉推箱子演示和单步动作评估。 - 9月26日 - JevBench评估：LLM2Jev在231个公共项目上的准确性和延迟； P50 延迟低于 Jev 官方结果的十分之一。 - 9 月 23 日 - MLX 后端：添加文本和图像评分，ca
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: jev, llm, mllm
+
+---
+
+### 🌟 [compose-skill](https://github.com/Meet-Miyani/compose-skill)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 302
+- **核心概述**: Compose Skill（Compose Kit）：Jetpack Compose 和 Compose Multiplatform 的代理技能。使 Claude Code、Codex、Cursor、Copilot、Gemini CLI 和 OpenCode 编写得更好 Compose：MVI、Koin、Navigation 3、Ktor、Room。在 120 次代理运行中对 5 个模型进行了盲测。
+- **大概是做什么的**: Compose Skill（Compose Kit） 用于 AI 编码代理的 Compose 技能：七种代理技能，使 Claude Code、Codex、Cursor、Copilot 和 Gemini 编写更好的 Jetpack Compose 和 Compose 多平台代码。一种一致的房屋风格，在真实代理 CLI 中的七个模型上进行测量。适用于 Claude Code · Codex · Cursor · OpenCode · Copilot · Gemini CLI · Antigravity 网站：compose.avinya.dev · 每个代理安装指南 · 结果 对于使用 v6.1 套件的 Gemini 3.8 Flash +30.8 分（v6 测试） 对于使用 v6.1 套件的 GPT-6-Luna（v6 测试）+23.1 分 DeepSeek V4.1 的评分项目占 97.4% Flash v6.1（廉价附加模型）90 + 36 次代理运行（面板 + 附加组件）； 2 位盲人评分者必须在每一项上达成一致 - Held-out v5（120 次代理运行）：该套件将 Gemini 3.8 Flash 提高了 +25.6 分，将 Sonnet 5.5 提高了 +18.6 分，测试发现了一个真正的缺陷：在“符合我们的惯例”任务中，使用该套件对模型进行了太多重组 - v6.0.0-preview.1 (2026-10-01)：七项技能、一棵入门树、四项技能安装频道。 - 网站上线 (2026-10-02)：compose.avinya.dev，带有每个代理的安装指南和 - v6 A/B
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-coding-assistant, android, claude-code, claude-skills, codex
+
+---
+
+### 🌟 [MiniAgent](https://github.com/ZhuLinsen/MiniAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 210
+- **核心概述**: 一个微型的、插件优先的 Python Agent Harness。多法学硕士、MCP、技能和可恢复课程。
+- **大概是做什么的**: 🚀 5分钟手搓一个 AI Coding 助手 + 命令行版 Manus！ English 一个 agent.py 核心文件，复刻 Claude Code 的编程能力 + Manus 的系统操控能力！ MiniAgent 是一个 极简、透明、强大的 CLI Agent 框架 ，拒绝臃肿的依赖和复杂的架构： - 🧠 Code Agent : 像 Claude Code 一样写代码、修 Bug、跑测试 - 🦾 OS Agent : 像 Manus 一样操控浏览器、编辑文档、管理应用 - ⚡ 极简实现 : 核心引擎 agent.py 完全透明可控，适合学习和魔改 - 🤖 全模型支持 : DeepSeek、OpenAI、Gemini、Claude 等所有兼容 OpenAI 接口的模型 - 🔌 高扩展性 : 极简装饰器模式，3行代码即可挂载自定义工具 - 🔄 双模式工具调用 : 文本解析模式（透明可学习）+ 原生 Function Calling 模式（更可靠） - 🎯 Skill 系统 : 可复用的 Agent 配置，内置 coder/researcher/reviewer/tester 四个角色 - 🛡️ 安全防护 : 危险命令自动拦截确认，防止 LLM 幻觉导致破坏性操作 - 💬 流式输出 : 打字机效果实时输出，长对话自动压缩上下文 - 🔗 MCP 协议 : 支持连接 MCP 工具服务器，接入社区生态 - 🤝 Agent 编排 : 内置编排器，支持任务分解 + 多角色协同 MiniAgent smolagents pydantic-ai LangChain 核心定位 CLI Agent 教科书 HuggingFace 生态 企业级类型安全 万能框架 核心代码 单文件可读 1,000行 182MB 10万+行 工具调用 文本解析 + 原生FC Code Agent 原生FC 多层抽象 学习曲线 ⭐ 30分钟上手 ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐⭐ 依赖 7个 20个 15个 50+ OS 控制 bash 万能 需扩展 需扩展 需插件 MiniAgent 的独特价值：最好的 AI Agent 教科书。 没有魔法、没有抽象，初学者可以完全理解 Agent 是如何工作的。 MiniAgent 不内置 100 个工具，而是用 6 个代码工具 + bash 实现无限可能。 - 要截图？LLM 会 bash: python -c "from mss import mss; mss().shot()" - 要控制鼠标？LLM 会 bash: python -c "imp
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude, claudecode, llm, llms, manus
+
+---
+
 ## 🕔 2026-10-11 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 312 个候选项目中筛选出 6 个未推荐过的新项目。
