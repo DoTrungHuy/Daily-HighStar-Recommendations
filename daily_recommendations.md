@@ -1,3 +1,67 @@
+## 🕔 2026-10-11 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 312 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-unity](https://github.com/CoderGamester/mcp-unity)
+- **项目语言**: C#
+- **星标数量**: ⭐ 1,926
+- **核心概述**: 用于与 Unity 编辑器连接的模型上下文协议 (MCP) 插件 — 专为 Cursor、Claude Code、Codex、Windsurf 和其他 IDE 设计
+- **大概是做什么的**: MCP Unity 编辑器（游戏引擎） 🇺🇸English 🇨🇳简体中文 🇯🇵日本语 ---------------------------------- --------------------------------- ---------------------- MCP Unity 是 Unity 编辑器的模型上下文协议的实现，允许 AI 助手与您的 Unity 项目进行交互。该软件包提供了 Unity 和实现 MCP 协议的 Node.js 服务器之间的桥梁，使 Cursor、Windsurf、Claude Code、Codex CLI、GitHub Copilot、Google Antigravity 和 OpenCode 等 AI 代理能够在 Unity 编辑器中执行操作。 IDE 集成 - 包缓存访问 MCP Unity 通过将 Unity Library/PackedCache 文件夹添加到工作区，提供与类似 VSCode 的 IDE（Visual Studio Code、Cursor、Windsurf、Google Antigravity）的自动集成。此功能： - 改进 Unity 包的代码智能 - 为 Unity 包提供更好的自动完成和类型信息 - 帮助 AI 编码助手了解项目的依赖关系 以下工具可用于通过 MCP 操作和查询 Unity 场景和游戏对象： - 执行菜单项：Execu
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claudecode, codex-cli, copilot, cursor, game-development, mcp
+
+---
+
+### 🌟 [DeLive](https://github.com/XimilalaXiang/DeLive)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 270
+- **核心概述**: 系统音频捕获+多提供商ASR+本地优先的AI审阅工作区。浮动实时字幕、12 个 ASR 后端、60 多种语言、AI 摘要/聊天/思维导图、开放 API、MCP 服务器和代理技能。
+- **大概是做什么的**: 系统音频捕获 14 ASR 提供​​商 本地优先 AI 审阅工作区 English 简体中文 繁体中文 日本语 🌐 官方网站 · 📖 文档 · 📋 入门 · ⬇️ 下载 DeLive 是系统音频的桌面转录工作区。它捕获您的计算机正在播放的任何内容，通过 14 个 ASR 后端中的任何一个路由音频，将所有内容保留在您的计算机上，并通过完整的 AI Review Desk 将完整的记录转换为可搜索的历史记录 - AI 记录校正、丰富的 Markdown 渲染聊天、问答线程、结构化简报和思维导图。它还支持上传音频/视频文件进行离线转录，每个提供商，无论是云端还是本地，都可以转录文件。实时转录 字幕覆盖 MCP 集成 与 14 个 ASR 提供​​商进行实时转录 可拖动的始终位于顶部的浮动字幕窗口 外部 AI 工具通过 MCP 协议访问 DeLive AI 概览 AI 校正 AI 聊天摘要、操作项、关键词和章节 带差异视图的快速修复和审阅和修复模式 带有引用参考的多线程对话 - 系统音频捕获 - 浏览器视频、实时视频
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai, asr, captions, desktop-app, electron
+
+---
+
+### 🌟 [qanat](https://github.com/fidetolabs/qanat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 304
+- **核心概述**: 用于量化因子处理和回测的 MCP 服务器。将其连接到您的代理并询问。
+- **大概是做什么的**: 用于量化因子处理和回测的 MCP 服务器。 Qanat 是一个量化因素的数据平台。给它任何有时间戳的来源。它处理数据、存储数据并通过 MCP 将其提供给您的代理。您编写一个 YAML 文件，说明数据来自何处以及如何处理它。 Qanat 运行该程序，一次重播一个日期的历史记录，并对扣除费用后的投资组合所持有的内容进行定价。将其连接到您的代理并询问。它是为每天或每周重新平衡的人而设计的。你无法在速度上击败对冲基金，而且在这个范围内你也不需要这样做。 Python 3.10 或更高版本。 --demo 构建了四种策略并在大约十五秒内对它们进行定价，因此有一些真实的东西值得一看。数据是合成的，因此不需要密钥，也不需要网络。将其关闭，因为坎儿井不会进行自己的网络调用。唯一的就是你的消息来源所做的事情。将其连接到代理任何 MCP 客户端都可以工作：然后询问一些事情：-“这个项目中有什么，以及什么可以促进动量策略？”它从表中追溯到其来源并从行中找到答案。 -“添加动量策略和测试
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: alpha-research, backtesting, duckdb, mcp, mcp-server, model-context-protocol
+
+---
+
+### 🌟 [folkbench](https://github.com/Folkbench/folkbench)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 306
+- **核心概述**: Folkbench 是一个可信的 AI 中转站评测与服务目录，按模型比较可用率、响应速度、价格、隐私与运营证据
+- **大概是做什么的**: AI API 线路评测与对比 · 站点推荐 · 开源工具配置管理 主站帮助你选服务，Switch 帮助你把服务接入编程工具。 主站 ：多节点探针持续测试，展示各家真实的可用率、P95 延迟与价格，帮你挑出稳定好用的线路。 Switch ：开源桌面客户端，保存各中转站与官方的 Base URL 和 Key，为各类编程工具一键切换配置。 比较站点的综合表现 总榜 综合可用率、延迟与价格指标 优先保证稳定性 稳定性榜 适合长任务与自动化场景 比较使用成本 性价比榜 比较各线路的实际调用单价 管理并一键切换本地配置 Folkbench Switch 支持 Claude Code、Codex 等工具一键换源 了解评测方法与接入指南 文章与指南 评测逻辑与使用文档 Switch 是 Folkbench 的开源桌面客户端，核心功能就是 让你在不同的中转站和官方线路之间，一键切换 Base URL 和 API Key，不再需要手动改配置文件。 - 一键切换 Base URL 和 Key ：集中保存你拥有的各个中转站凭据，点一下就能直接应用到目标工具，随时切换或还原。 - 支持主流编程工具 ：开箱支持 Claude Code、Codex、Gemini CLI、Aider、OpenCode 等，自动写入对应工具所需的配置文件或环境变量。 - 安全无损切换 ：切换前可预览配置变动，支持一键还原；切换 Codex 时会自动暂存官方 ChatGPT 登录态，切回时不丢 Session。 - 结合主站评测数据 ��客户端内置同步公开线路数据，切换前可直接查看站点的实时可用率与延迟，避开刚好在抽风的线路。 - 配置本地保存 ：模型 API Key 和工具配置保存在本机，不同步到 Folkbench 服务器；查询模型、余额或调用服务时，Key 会发送到你配置的 API 地址。 Folkbench Switch · 0.1.0-beta.1 macOS · Apple Silicon（M 系列） 下载 DMG macOS · Intel 下载 DMG Windows · x64 下载 EXE macOS 安装包已通过 Developer ID 签名与 Apple 公证；打开 DMG 后，将 Folkbench Switch 拖入 Applications。Windows 安装包尚未数字签名，系统可能显示安全提示。此版本为 Beta，尚非 Stable。 先选模型，再比较提供它的中转站。Folkbench 将模型、渠道与评测窗口放在一起，让你查看可用率、24 小时状态、P95 完整响应耗时和价格，再
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, api-relay, api-relay-pricing, benchmark, benchmarks, folkbench
+
+---
+
+### 🌟 [open-agent-connector](https://github.com/Anil-matcha/open-agent-connector)
+- **项目语言**: Python
+- **星标数量**: ⭐ 838
+- **核心概述**: 用于 AI 代理集成的 Composio、Nango、Merge.dev 和 Arcade.dev 的开源、自托管替代方案。通过 MCP 或 REST 运行 GitHub、Slack、Hacker News 和自定义 HTTP 操作。
+- **大概是做什么的**: 开放代理连接器 用于 AI 代理的开源、自托管集成网关。将帐户连接到应用程序 API，在您自己的运行时中保留凭据，并让代理通过模型上下文协议 (MCP) 或 REST API 发现并运行操作。该项目适用于想要检查、运行和扩展自己的代理集成层的开发人员。它是一个开源选项，可与 Composio、Nango、Merge.dev 和 Arcade.dev 一起评估。这些平台提供更广泛的目录和托管功能； Open Agent Connector 目前优先考虑您��以修改的紧凑型自托管实现。 Open Agent Connector 为代理提供了一种一致的方式来发现连接的服务、查找操作、读取其输入架构并执行它。 FastAPI 后端管理提供程序定义、连接、出站请求和运行记录。 Next.js 控制台提供用于浏览提供程序和操作、管理连接和运行时令牌以及查看活动的屏幕。 SQLite 默认情况下在本地存储应用程序数据。当前内置的提供程序有 GitHub 、 Slack 、 Hacker News 、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-tools, ai-agents, api-gateway, api-integrations, arcade-dev, composio
+
+---
+
+### 🌟 [kaletacms](https://github.com/phprs-cms/kaletacms)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 111
+- **核心概述**: Kaleta – 一个针对商业网站的开源 CMS，具有可视化页面构建器、令牌设计系统和 Claude over MCP
+- **大概是做什么的**: 适用于商业网站的开源 CMS – 服务、推荐、团队、职业、联系方式和新闻。一个可视化页面构建器，其输出读起来像手写的 HTML，一个 AI 助手，Claude over MCP，以及一个 WordPress 导入器。项目网站：kaletacms.com · 指南：kaletacms.com/guide · 最新版本：GitHub Releases · 下一步：路线图 · 发布政策 - 页面构建器 - 画布是真实的页面。将元素和现成的部分拖动到位，为桌面、平板电脑、移动设备和悬停分别设置它们的样式。草稿会持续保存，只有在发布时才会���效；可以恢复旧版本。 - 包含 40 个现成部分的库（英雄、服务、定价、感言、团队、画廊、表格联系方式……）和三个安装时的入门网站。文本遵循页面语言。 - 设计系统 - 一键样式、具有可读性 (WCAG) 检查的颜色、深色模式、字体、流体大小和间距 - 所有标记，因此更改颜色会重新设计整个网站。 - 网站部分 – 构建器中新闻项目、新闻列表和 404 页面的页眉、页脚和包装，包括 f 的变体
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cms, mcp, page-builder, php
+
+---
+
 ## 🕔 2026-10-11 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
