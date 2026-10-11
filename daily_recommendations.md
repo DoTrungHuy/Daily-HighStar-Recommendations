@@ -1,3 +1,67 @@
+## 🕔 2026-10-11 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [garden-skills](https://github.com/ConardLi/garden-skills)
+- **项目语言**: CSS
+- **星标数量**: ⭐ 12,816
+- **核心概述**: ConardLi 的开源技能集合，包括网页设计、知识检索、图像生成等。
+- **大概是做什么的**: 适用于 Claude Code、Cursor、Codex 和其他 AI 编码代理的精选生产就绪代理技能集合。 web-video-presentation 网络视频/演示 图像生成/提示 任何来源 → 精美文章 代码渲染短视频 本地知识检索 英语 · 中文文档 · 日本语 安装 使用 Contribute 安装技能 CLI (npx) Claude 代码插件市场 来自版本的固定 .zip 手动复制 Git 子模块 兼容性 什么是技能？贡献致谢 许可证 web-video-presentation 类别：Web 视频/演示工程 最适合：将脚本、文章、课程、产品演示和演讲转换为点击驱动的 16:9 Web 演示文稿，并可以屏幕录制为电影视频。 web-video-presentation 构建可记录的 Vite + React + TypeScript 演示，其行为类似于视频制作界面。该工作流程将原始文章转换为旁白脚本，将脚本节拍映射到全屏场景，在所需的检查点暂停，并且可以在视觉轮廓获得批准后选择性地合成旁白音频。 - 修复了可缩放的 1920×1080 舞台
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude, gpt-image-2, rag, skills, web-design
+
+---
+
+### 🌟 [boss-zhipin-scraper](https://github.com/eatmoreduck/boss-zhipin-scraper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,540
+- **核心概述**: Boss直聘爬虫 / BOSS直聘职位数据抓取工具，基于 Chrome CDP 协议复用真实登录态，绕过字体反爬，输出明文薪资 JSON/CSV + 薪资技能分析。A Chrome-CDP-based BOSS Zhipin job scraper/crawler.
+- **大概是做什么的**: BOSS直聘爬虫 · 职位抓取工具 v2.3（Chrome/Edge CDP / 明文薪资） 🌐 English documentation: README.en.md 一个轻量的 BOSS直聘爬虫（spider / crawler / scraper） ：通过 Chrome DevTools Protocol 连接本地已登录的 Chrome 或 Microsoft Edge，复用真实登录态调用 zhipin.com 搜索 API，绕过前端字体反爬，输出含 明文薪资 的职位数据（JSON / CSV），并生成薪资分布、技能词频和求职材料优化提示词。同时作为 Hermes Agent Skill 提供。 📌 一句话介绍 ：不用 Selenium/Playwright，直接通过 Chrome DevTools Protocol 连接本地已登录的 Chrome，复用真实登录态调搜索 API，输出含明文薪资的 JSON/CSV，并生成薪资分布、技能词频和求职材料优化提示词。 本项目仅供学习和技术研究参考，旨在探讨 Chrome DevTools Protocol、前端反爬机制与数据采集技术。请勿用于任何违反 BOSS直聘用户协议 或相关法律法规的用途，不得用于商业转售、恶意爬取或对目标网站造成负担的行为。使用本项目所产生的一切后果由使用者自行承担，作者不对任何滥用行为负责。 抓完直接拿到：薪资分布、经验要求、高频技能词、求职材料优化提示词。提示词只基于岗位数据，不读取本地简历文件，也不给岗位算个人匹配分。 - 明文薪资（API 模式，绕过字体反爬） - Boss 活跃状态独立字段（ boss active status ）：��表兼容 bossOnline →「在线」，详情可得到「刚刚活跃」等更细状态 - 跨轮新增标记（ is new ）：每条岗位带布尔字段标识「是否为本次新增」（终端同步以 🆕 显示），基准自动取同关键词同城市、日期早于本轮的最近一份结果；同一天多轮抓取折叠为一轮， --diff-base 可显式指定 - 一键环境检查 + 持久隔离 Chrome/Chromium CDP profile - 多维筛选（规模、融资、薪资、经验、学历、行业） - macOS + Linux + Windows 支持；macOS 会自动探测 Google Chrome 或 Chromium；Windows 已通过单元测试与基础 CLI 验证（GBK 控制台崩溃已修复），并支持 Chrome 或 Microsoft Edge CDP；真实抓取链路仍欢迎反馈 🔍 为什么不
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, boss-zhipin, boss-zhipin-scraper, boss-zhipin-spider, bosszp
+
+---
+
+### 🌟 [hello-claw](https://github.com/datawhalechina/hello-claw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,213
+- **核心概述**: 哈喽！龙虾 🙋‍♀️ Adopt from scratch and build your first claw 🦞 来领养你的第一只龙虾！
+- **大概是做什么的**: 一个不起眼的仓库里，龙虾诞生了。 选一只，送它上学堂；或动手写一只不被定义的龙虾。 它的梦想，从第一天起就很大。 Hello Claw：领养你的 AI 龙虾助理，上龙虾大学学 Skills，从零构建属于你的智能助理 📌 在线阅读 还想学 Vibe Coding https://datawhalechina.github.io/hello-claw 本项目是一个面向 OpenClaw 的完整学习教程，帮助你从零开始掌握这个强大的命令行 AI 助理系统。无论你是想快速上手使用 OpenClaw 提升效率，还是想深入理解其原理并构建自己的版本，本教程都能为你提供清晰的学习路径。 1. 领养龙虾（使用篇） ：11 章 + 7 个附录，安装（Ch1-3）+ 核心配置（Ch4-6）+ 扩展运维（Ch7-9）+ 安全与客户端（Ch10-11），按需选读 2. 龙虾大学（场景实战篇） ：围绕 Skills 选型与典型工作流，给出可直接复用的实战案例 3. 构建龙虾（开发篇） ：11 章，先拆解 OpenClaw 源码与替代方案，再进入 Skills、渠道和完整定制 - 零基础用户：想要一个随时待命的 AI 助手，不需要任何编程经验 - 效率达人：希望通过 QQ / 飞书 / Telegram 远程控制 AI - 技术爱好者：对 OpenClaw 的技能系统和自动化能力感兴趣 - 开发者：想深入理解 Agent 架构并构建自己的版本 - 零基础用户：从第一部分“领养龙虾”开始，先把安装与基础自动化跑通 - 想做场景闭环：直���进入“龙虾大学”，按场景挑 5 10 个 Skills 快速落地 - 开发者：进入“构建龙虾”，拆解底层实现原理并定制自己的 Claw - [2026-03-25] ✅ 龙虾大学完成一轮场景扩充与新手化重写，新增个人效率、编程开发、内容创作、商务销售、多智能体协作和更多场景共 11 篇可直接上手的实战案例，并同步按 README 分类整理 - [2026-03-25] 🔥 OpenClaw v2026.3.24：Gateway OpenAI 兼容端点（ /v1/models 、 /v1/embeddings ）、Microsoft Teams 官方 SDK 集成（流式回复/欢迎卡片/消息编辑删除）、Skills 一键安装配方与 Control UI 状态过滤、Slack 富回复恢复、CLI --container 容器内执行、Discord LLM 自动线程命名、 before dispatch 插件钩子、沙箱媒体安全修复，教程全章节同步 - [2026-
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, assistant, clawuhub, llm, openclaw, own-your-data
+
+---
+
+### 🌟 [maestro-orchestrate](https://github.com/josstei/maestro-orchestrate)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 465
+- **核心概述**: 适用于 Gemini CLI、Claude Code、Codex 和 Qwen Code 的多代理编排平台 — 39 位专家、并行子代理、持久会话以及内置代码审查、调试、安全性、SEO、可访问性和合规性工具
+- **大概是做什么的**: Maestro 是一个多代理开发编排平台，拥有 39 名专家、用于简单工作的 Express 路径、用于中等和复杂工作的 4 阶段标准工作流程、持久会话状态以及独立审查/调试/安全/性能/搜索引擎优化/可访问性/合规性入口点。它从跨 Gemini CLI、Claude Code、Codex 和 Qwen Code 的一棵规范 src/ 树运行。运行时位置公共表面注释 --------- ---------- ---------------- ---------- Gemini CLI repo root /maestro：蛇形代理、TOML 命令、钩子、TOML shell 策略 Claude Code claude/ /orchestrate 、 /review-code 、 ... 带 maestro 的 Kebab-case 代理：子代理名称 Codex plugins/maestro/ $maestro：插件技能、生成代理、无运行时钩子 Qwen Code qwen/ /maestro：Gemini-CLI 兼容扩展、QWEN.md 上下文文件、SubagentStart / SubagentStop 挂钩 - 一种受支持的运行时：Gemini CLI、Claude Code、Codex 或 Qwen Code - 用于 MCP 服务器和帮助程序脚本的 Node.js 20+ - 仅 Gemini CLI 和 Qwen Code：在 /.gemini/settings.json (Gemini) 或 /.qwen/settings.json (Qwen) 中启用实验性子代理 M
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai-agents, anthropic, claude, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [talorys](https://github.com/rociiu/talorys)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 460
+- **核心概述**: 您自己的 Cloudflare 帐户中的个人 AI 代理。聊天、记忆、任务、笔记和计划提醒，通过一个命令进行部署：npx create-talorys@latest。免费套餐友好、单用户、无遥测。
+- **大概是做什么的**: 您的私人人工智能代理。你自己的云。 Talorys 是一款免费、开源的个人 AI 助手，完全在您自己的 Cloudflare 帐户内运行。它可以与您聊天，记住重要的事情，管理任务、笔记和项目，并按计划运行提醒和例程——无需由 Talorys One 人员操作的任何服务器、数据库或帐户。一个 Cloudflare 帐户。一声令下。一名个人人工智能代理。 - 私人助理 — 使用流式响应、Markdown 和工具活动指示器进行聊天。 - 记忆——您可以查看、编辑和删除持久的个人事实和偏好。每轮仅将最相关的记忆发送到模型。 - 任务、笔记和项目 — UI 中以及聊天中的完整 CRUD（“添加任务以明天查看我的项目”）。 - 自动化——一次性和重复提醒、每日任务摘要和可选的人工智能例程，发送到应用内通知中心。它们依靠耐用对象警报运行，因此无需任何东西保���在线状态。 - 单用户设计——无需注册、无需帐户、无需团队。安装程序设置所有者密码。 - 无需人工智能即可工作——任务，而不是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cloudflare, cloudflare-workers, durable-objects, personal-assistant, react
+
+---
+
+### 🌟 [LazyOwn](https://github.com/grisuno/LazyOwn)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 294
+- **核心概述**: LazyOwn RedTeam/APT 框架是第一个具有 AI 支持的 C&C 的 RedTeam 框架，具有隐藏活动的 rootkit、与 Windows/Linux/Mac OSX 兼容的不可检测的可延展植入程序以及自配置后门。凭借其 Web 界面和强大的控制台客户端，它是您的自治 RedTeam/APT 活动的最佳组合。
+- **大概是做什么的**: LazyOwn — RedTeam 框架，带有 AI 代理、Linux BOF 信标、YARA+Nuclei 市场 749 CLI 命令。多操作员 C2. 153 个用于 AI 代理的 MCP 工具。唯一支持 Linux BOF + 内置 YARA/Nuclei 市场的 OSS C2。用一个命令安装 60 秒内尝试（无需安装） 黄金路径（每次参与） 单命令 auto-pwn docker run -it ghcr.io/grisuno/lazyown:latest ping lazynmap 自动填充事实显示推荐下一个参与 10.10.11.5 前 7 个命令 Recon 循环 C2 从 CLI 向信标发出命令 完整演练：QUICKSTART.md（5 分钟） · 80/20 指南： ESSENTIALS.md · HTB 端到端：docs/examples/htb-lame-walkthrough.md · 诚实比较：COMPARISON.md 为什么 LazyOwn 与 Sliver / Havoc / Mythic / Caldera / Metasploit 功能 LazyOwn Sliver Havoc Mythic Caldera Metasploit --- :-: :-: :-: :-: :-: :-: Linux BOF 支持 yes no no no no no YARA + Nuclei 市场内置 yes no no no no no 用于 AI 代理的 MCP 服务器（153 个工具）是 no no no no no LLM 操作员 + 多代理配置单元是 no no no no no 多操作员 C2 + 网络钓鱼引擎 是 部分 部分 部分 部分
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: assistant-cli, autonomous-agents, botnet, c2-ai-powered, hive, honeypot
+
+---
+
 ## 🕔 2026-10-10 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
