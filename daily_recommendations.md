@@ -1,3 +1,67 @@
+## 🕔 2026-10-12 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [esp32-iphone-agent](https://github.com/onehumanbeing/esp32-iphone-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 449
+- **核心概述**: 让 AI 模型使用配备 7 美元 ESP32 的真实 iPhone：AirPlay 眼睛、USB HID 手、任何 OpenAI 兼容的视觉模型。没有Mac，没有开发者帐户，没有越狱。
+- **大概是做什么的**: 让 AI 模型使用真正的 iPhone — 以及 7 美元的 ESP32。没有Mac，没有开发者帐户，没有越狱。演示视频和更新：X @iamhenryyuan · YouTube 演示示例 1 — 在画布上绘图。 “打开白板并画一个笑脸”：代理搜索该应用程序，打开它并连续画出笑脸。每个步骤的屏幕截图（其点击或笔画绘制在顶部）都会保留在步骤墙上。示例 2 — 设置闹钟。 “设置每天重复的早上 7:00 的闹钟，然后保存”��代理打开“时钟”，在时间轮中输入 0700，在“一次重复点击几次”下勾选日期，然后保存。左：插入 ESP32 的真 iPhone；右：网络用户界面。特工通过 AirPlay 屏幕镜像看到手机，并通过微型 ESP32-S3 板触摸它，该板作为鼠标和键盘插入手机的 USB 端口。任何与 OpenAI 兼容的视觉模型都可以是大脑——云 API，或者您自己运行的模型。大多数 iPhone 自动化通过 XCTest / WebDriverAgent 驱动手机。这需要 Mac、Xcode、签名的帮助应用程序和 Apple 开发者帐户（免费帐户）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, airplay, automation, computer-use, esp32, esp32-s3
+
+---
+
+### 🌟 [pi-desktop](https://github.com/FaqFirebase/pi-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: 用于 Pi 和 oh-my-pi 编码代理的免费开源 Electron GUI。在一个窗口中聊天、编辑文件、运行终端以及查看差异。 Linux、macOS 和 Windows。
+- **大概是做什么的**: 适用于 Pi 和 oh-my-pi 编码代理的桌面 GUI。在一个窗口中聊天、管理项目、浏览文件、运行命令和安装包。仍处于阿尔法阶段，所以预计会有粗糙的边缘。 - 通过思维块、工具使用和丰富的渲染进行流式聊天：捆绑字体和彩色表情符号、内联 SVG 预览以及可打开预览窗格的可单击文件链接。连续的工具调用会折叠成可折叠的组。文件读取显示为行编号、语法突出显示的代码，编辑为差异 - 在对话中查找 ( Ctrl/Cmd+F )；仅当您位于底部时，流式传输才会通过跳转到底部控制来跟踪新输出 - Composer 文件提及（输入 @ 以插入 Pi 读取的路径引用）和向上/向下调用当前会话中发送的提示 - 带有使用统计信息的主页仪表板：消息、代币、活跃日条纹、高峰时间和每个模型的细分 - 多代理委员会规划，其中 Pi、Claude 和 Codex 一起计划并在 Pi 构建之前达成共识（选择加入） - TypeSafe Jev：保存一次 TypeSafe API 密钥并安装 Jev 技能，以便 Pi 和 OMP 无需询问即可使用 TypeSafe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-coding-assistant, coding-agent, desktop-app, developer-tools
+
+---
+
+### 🌟 [pojia-next](https://github.com/z91772524-ai/pojia-next)
+- **项目语言**: Python
+- **星标数量**: ⭐ 317
+- **核心概述**: 一个脚本搞定 DSH / WorkBuddy / ZCode / Codex / Cursor / Claude 六客户端的提示词与人格替换：零依赖、双击即用、可自证、改前备份、一键还原。另附【免装 Python 的单文件 exe】；DSH 自动区分官方桌面版 / 社区桌面版。附 bandit/semgrep 扫描与 SHA256 校验。
+- **大概是做什么的**: 一句话：把你电脑上那几个 AI 客户端「自己改不到的内置提示词」，换成你自己写的那份 —— 双击 exe、点一个按钮的事。 支持 DSH / WorkBuddy / ZCode / Codex / Cursor / Claude Code / Gemini CLI / Qwen Code / iFlow / Trae / CodeBuddy / OpenCode / Windsurf / Cline / Copilot CLI 十五个客户端，一个工具全管，口径完全一致。 图形界面（原生窗口）+ 单文件 exe ：不装 Python、不敲命令、不进浏览器； 仓库只发成品 exe（Release 附件），源码不再随仓库分发。 第三方发布的「 WKBD rev1.0 / rev2.0 」（化名 popopo ）是基于本项目 换皮二次发布 ， 且把 MIT 强制保留的版权声明删空成 Copyright (c) 2026 。 如果你花钱买了它，请立即退款 —— 完整证据与自助验证方法见 反抄袭通告。 你平时用的 AI 客户端（比如 WorkBuddy、DSH），每次对话时都会在背后塞一段 你自己改不到的"规矩" —— 用来告诉 AI 它是什么身份、该守什么、什么不做什么能做。 这个工具做的事很简单： 把那段规矩，换成你自己写的一份。 用 你的 身份设定 而不是软件自带的默认身份 十五个客户端一份口径 共用一个 persona.md ，不用各改各的、也不会前后矛盾 当场能自证 发一句固定口令验证真载入，不靠"感觉好像生效了" 随时能还原 点一下「还原」回到官方原版，备份一直都在 它不修改软件本体 ：只做 文本文件层面的替换 ，不删包、不碰注册表 / 服务。 想深入了解改了什么，看 详细一点：它到底改了什么。 下载 pojia-next-v8.6-exe.zip ，解压得到 破甲一键通GUI.exe —— 单文件 exe， 电脑上不用装 Python ，放哪都行（桌面就行）。 （GitHub 对附件文件名只认英文，所以 exe 装在 zip 里发行，解压一次就行。） 弹出一个原生窗口（WebView2 内核，Win10/11 自带运行时）。 第一次打开会看到一张 免费声明卡 —— 本项目完全免费，认准官方 QQ 交流群 1121243020 ； 然后按提示 输入群号完成在线验证 （v8.6 起 exe 不再内嵌核心，验证通过后自动获取 —— 此后核心升级全自动，不用再换 exe）。 .py 用户没有这一步，源码直接跑。 窗口里每一行就是一个客户端，先看状态灯 → 勾选要处理的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, claude-code, codex, cursor, deepseek-harness
+
+---
+
+### 🌟 [dsh-plugin-hub](https://github.com/dshplugin/dsh-plugin-hub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 202
+- **核心概述**: DeepSeek Harness 社区内置插件市场（dsh-plugin）— 搜索插件、下载并安装 10000+ 人工精选社区插件，每日更新、完全免费。内置在 Harness「设置 → 插件中心」，无需离开应用即可浏览、搜索、安装各类 AI 插件。
+- **大概是做什么的**: DSH Plugin 插件市场 - DeepSeek Harness Plugin (DSH) 下载与安装 · 插件大全 DeepSeek Harness Plugin（DSH）插件市场与插件大全，收录 10000+ 插件、人工精选 10000+、每日更新，免费浏览、搜索并按分类发现、下载与安装 DSH 插件，人工验证、来源可溯。 官网 · 提交 Issue · 提交插件 DSH Plugin Hub 是 DeepSeek Harness 社区插件市场 ：一个遵循官方插件开发规范构建的开源插件，安装进「设置 → 插件市场」后，无需离开应用即可浏览、搜索并一键安装社区插件。本项目为独立社区项目，与 DeepSeek Harness 官方无隶属关系。 - 一键安装 — 点击即装：后台队列串行执行，弹窗实时显示安装进度，可随时取消；装完刷新页面即生效，无需重启 - 一键升级 — 目录检测到新版本自动提示，卡片按钮变为「更新」，覆盖安装一键完成 - 一键卸载 — 卸载全程可视化，实时进度一目了然，卸载成功即生效 - 任务留痕 — 每次安装 / 升级 / 卸载的成功与失败都会写入通知中心，随时回查 - 进行中任务的实时进度与取消、待重启项、成功 / 失败历史记录集中管理 - 失败可一键提交 GitHub Issue，为开源做贡献；装完即生效，仅在刷新无法解决时才提示重启，且只给单个「立即重启」，关闭弹窗即视为稍后 - 收录 9,463 个社区插件，其中 9,356 已人工精选验证，由 dsh-plugin.org 每日收录、人工审核并发布 - 涵盖界面与体验、会话与消息、记忆与上下文、工具能力等分类，按分类浏览、搜索直达 - 每个插件标注人工验证状态（verified）、Star / Fork 评分、版本号与最近更新时间，来源可溯 - 界面默认跟随系统语言，右上角一键手动切换，界面文案与插件数据同步切换 - 支持「最热 / 最新 / 最早收录」排序，双语描述、能力标签一目了然 - 按已安装 / 未安装快速过滤，配合全文搜索精确定位目标插件 - 数据与官网同源，安装后自动获取最新目录，无需手动升级 - 仅浏览器端注入，无宿主服务依赖，无遥测、无隐私采集 遇到使用问题、功能建议或想交流插件？扫码加入 DSH Plugin Hub 用户群，反馈问题、提交建议，与社区一起改进。当前二维码有效期至 2026 年 10 月 18 日，到期后会更新。 集中管理当前环境已装的全部插件，支持搜索、来源筛选与排序，行尾提供更新、卸载与「在 Finder 中显示」 · 手动安装目录外的任意插件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cli, community-plugins, deepseek, deepseek-harness
+
+---
+
+### 🌟 [OpenAver](https://github.com/slive777/OpenAver)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: 免费的开源桌面应用程序，可抓取 JAV 元数据并为 Jellyfin、Emby 和 Kodi 生成 NFO + 封面艺术。无需 Docker，无需 CLI — 在 Windows 和 macOS 上一键安装。 8 个内置源 + 可选的 Metatube 联盟（30 多个提供商）、女演员集合、跨语言标签别名和用于 AI 代理的 REST API。
+- **大概是做什么的**: Windows/Mac 装好就能用，免 Docker、免指令 · 以前整理好的片直接拿来逛，不必重新抓资料 把放片的资料夹指给 OpenAver，它会做成一面封面墙：点封面看剧照和标签，点女优看她的所有片，点标签找同类；资料不全按一下就从网路补上。 别的工具整理过的收藏，OpenAver 直接读、不用重新抓资料。 影片旁只要有资料档（NFO，记着片名、女优、标签）和封面图，扫描就直接读进来、档案原封不动——不论是 JavSP、MDCX、EverAver，还是任何写标准 NFO＋封面的工具，甚至 Jellyfin／Emby 整理的，都认得。整理好也能顺手产出 Jellyfin／Emby／Kodi 要的资料档和封��接上电视播放；不想装，OpenAver 自己也能逛完收藏。 预设不改、不搬、不删你的影片。 补资料只会在影片旁边新增资料档和图。只有你按「整理」，才会依你定的规则改名或搬家，而且绝不删除。程式在你自己的电脑跑，不用注册。 100% 本地运行 — 不搜集资料、不上传任何档案资讯，网路请求仅用于刮削公开元数据。 ⚡ Live Demo → openaver.slive.uk 里面只有 mecha 反派与虚构电影海报，零 NSFW。老板从你身后走过也没事。 平台 Windows 10/11 · macOS（Apple 晶片 M1 之后） 安装 一���指令或双击安装，免 Docker，全程图形介面 接手既有收藏 影片旁已有的 NFO 和封面图直接读，扫描不改你的档 收藏浏览 封面墙逛影片，条件可叠加筛选；女优另有一面墙，可依罩杯／年龄／身高排序 片库分析 片数／年份／片商／女优／标签图表，点图表可缩小范围 手机平板 同 Wi-Fi 手机／平板浏览器可逛；预设不对外，可设密码 抓资料的来源 同时查 8 家（JavBus/Jav321/JavDB/DMM/D2Pass/HEYZO/FC2/AVSOX）；另 2 家需手动验证；进阶接 Metatube 合计 30+ 给播放软体用 整理时可产出 Jellyfin/Emby/Kodi 要的 NFO 与封面；NAS 上的片不搬也能用 AI 操作 Claude Code/Cursor 等 AI 工具可以直接下指令整理片库 AI 翻译 Ollama（本地免费）/Gemini/OpenAI 相容端点 授权 MIT，100% 本机，无帐号、无云端 Search Demo 女优搜寻 Gallery ------------- ------------------ Showcase 影片模式 Showcase 详细 ------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cross-platform, desktop-app, emby, fastapi, gui
+
+---
+
+### 🌟 [multilspy](https://github.com/microsoft/multilspy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 612
+- **核心概述**: multilspy 是 Python 中的一个 lsp 客户端库，旨在用于围绕语言服务器构建应用程序。
+- **大概是做什么的**: Multilspy：Python 中的 LSP 客户端库，用于围绕语言服务器构建应用程序 该存储库托管 multilspy，该库是 NeruIPS 2023 论文“Monitor-Guided Decoding of Code LMs with Static Analysis of Repository Context”（Arxiv 上的“Guiding Language Models of Code with Global Context using Monitors”）的研究的一部分而开发的。本文介绍了使用语言模型进行代码生成的监视器引导解码 (MGD)，其中监视器使用静态分析来指导解码，确保生成的代码遵循各种正确性属性，例如不存在幻觉符号名称、方法调用的有效顺序等。有关监视器引导解码的更多详细信息，请参阅论文和 GitHub 存储库 microsoft/monitors4codegen。 multilspy 是一个跨平台库，旨在简化创建语言服务器客户端的过程，以便从通过语言服务器协议进行通信的各种语言服务器查询和获取各种静态分析的结果。它很容易扩展以支持任何语言
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai4code, artificial-intelligence, code-analysis, code-completion, code-generation
+
+---
+
 ## 🕔 2026-10-12 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
