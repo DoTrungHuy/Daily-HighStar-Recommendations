@@ -1,3 +1,67 @@
+## 🕔 2026-10-12 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 288 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [zero](https://github.com/Twigpine/zero)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,701
+- **核心概述**: 编码代理可以回答您、您的模型、您的机器、您的规则。
+- **大概是做什么的**: 您拥有的终端编码代理。 Zero是您本地终端的人工智能编码代理。它可以检查存储库、编辑文件、运行命令、使用浏览器/终端助手，并在您选择模型和权限级别时保持持久的本地会话。 - 使用您想要的模型。带上 OpenAI、Anthropic、Gemini、Groq、OpenRouter、DeepSeek、Mistral、xAI、Qwen、Kimi、GitHub Models、Ollama、LM Studio、Atomic Chat 或任何 OpenAI/Anthropic 兼容端点。 - 保持控制。文件写入、shell 命令、网络访问和工作空间外写入都经过 Zero 的权限和沙箱策略。 - 在终端中工作。 TUI 具有模型/提供商选择器、图像输入、斜杠命令、实时计划/工具渲染、回滚、主题和简历/分叉 - 无需 TUI 即可工作。 Zero exec 可编写脚本，支持文本/JSON/流 JSON I/O、隔离工作树、规范优先运行和有意义的退出 - 保持上下文本地化。会话存储在磁盘上，可搜索、可恢复，并且永远不会由 Zero 作为遥测数据上传。 - 当您需要时可扩展。使用 MCP 服务器、技能、插件、挂钩和专家
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, anthropic, cli, code-assistant, coding-agent
+
+---
+
+### 🌟 [AntOmniEvo](https://github.com/ant-research/AntOmniEvo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 979
+- **核心概述**: 一个可以优化任何东西的自动进化框架——您的 7×24 算法工程师团队。
+- **大概是做什么的**: 一个可以优化任何东西的自动进化框架——您的 7×24 算法工程师团队。 AntOmniEvo 是一个具有严格分工的自动进化框架：您定义系统的可调工件以及“好”的含义 - 框架控制循环，AI 代理完成工作 - 并且它提供优化的可调工件。您的系统的可调部分被抽象为可调工件 - 一个真实的文件目录：代理的 SKILL.md + 引用 + 脚本、工作流程的 pipeline.json + 节点脚本、单文件算法 + 其描述。 AntOmniEvo 可以优化任何具有代表性且可重复评估的内容——优化变成了普通的文件编辑。优化中的系统不需要包含法学硕士；提案人必须是代理人。 AntOmniEvo 是一个人工智能代理系统的自动进化框架。它将系统的可调工件（技能、提示、工作流程配置、管道代码）视为基因组，并运行并发进化循环，其中编码代理提议者读取故障轨迹并重写这些工件 - 就像人类编辑代码的方式一样。它w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-evolution, agentic, auto-optimization, automation, evolutionary-algorithms
+
+---
+
+### 🌟 [cuga-agent](https://github.com/cuga-project/cuga-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 896
+- **核心概述**: CUGA 是一款面向企业的开源通用代理工具，支持 Web 和 API 上的复杂任务执行、OpenAPI/MCP 集成、可组合架构、推理模式和策略感知功能。
+- **大概是做什么的**: CUGA：可配置的多面手代理 - 企业代理工具从多面手开始。针对您的域进行定制。部署更快！从头开始构建特定于领域的企业代理非常复杂，需要付出巨大的努力：代理和工具编排、规划逻辑、安全和对齐策略、性能/成本权衡评估以及持续改进。 CUGA 是一款最先进的多面手代理，专为企业需求而设计，因此您可以专注于配置域工具、策略和工作流程。 %20on-AppWorld-gold?style=for-the-badge) %20on-WebArena-gold?style=for-the-badge) 为什么选择 CUGA？ — 适用于企业的多面手代理工具：连接 API 和 MCP 服务器，调整推理和任务模式，并使用策略管理行为，而无需从头开始重建编排。 MCP、OpenAPI 和 LangChain 工具 mcpservers.yaml · CugaAgent(tools=[...]) 代码生成配置文件（快速/平衡/准确） [功能] settings.toml 中的 cuga 模式 · 配置/模式/ 混合 API + 浏览器任务 [高级功能] mode = 'hybrid' · Playwright + 浏览
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coding-agent, computer-use, enterprise, generalist-agent, guardrails, harness
+
+---
+
+### 🌟 [pixtuoid](https://github.com/pixtuoid/pixtuoid)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 491
+- **核心概述**: AI编码代理的终端像素艺术办公室
+- **大概是做什么的**: 您的人工智能编码代理，可视化为终端办公室中的像素艺术同事。 pix el + tu i + (agent-) oid  ·  架构  ·  配置  ·  贡献 运行多个编码代理意味着在终端之间按 alt-tab 键来找出谁被卡住、谁正在等待权限提示以及谁在十分钟前完成。 pixtuoid 将它们全部放在一个微型像素艺术办公室中，您可以从上面观看 - 每个会话都是办公桌上的一个角色：在工作时打字，举起？当它需要你的时候，当它完成的时候就打瞌睡。有点像《黑镜》，有点像《模拟��生》——以及您将使用过的最一目了然的多代理仪表板。 Homebrew（Linux、macOS 或 WSL2）：2. 按 s 并连接代理 CLI — pixtuoid 连接集成，无需单独的安装步骤； pixtuoid 医生诊断出一个损坏的部件。 3. 在另一个航站楼启动该代理 — 一位同事在一秒钟内从电梯走进来。选项卡代理仪表板·t 主题·m 声音·单击同事将其终端置于前面·？每隔一个键 更多安装方式 — Cargo、预建二进制文件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, cli, codex, pixel-art
+
+---
+
+### 🌟 [bailinghub](https://github.com/bailinghub/bailinghub)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 162
+- **核心概述**: 让 Agent 通过对话直接操作你的商城、SaaS、CRM 或 ERP 后台，同时保留原有权限、审批与审计。Self-hosted hub for agents operating existing business systems safely.
+- **大概是做什么的**: BailingHub：让 Agent 通过对话操作你的业务后台 BailingHub（百灵中枢） 是一个面向现有商城、SaaS、CRM、ERP 和内部管理系统的开源 Agent 业务执行中枢。 把“查订单、改资料、创建工单、发起审批”等你主动开放的后台能力接进来，用户就能从网页聊天窗、本地智能体或 Dify / n8n / MCP 等入口，用自然语言完成真实业务操作。BailingHub 负责身份绑定、能力范围、风险控制和全程审计；业务系统继续按原有权限做最终裁决。 接管操作，不接管权限。 BailingHub 不是模拟点击任意网页，也不会绕过你的后台权限；Agent 只能调用业务系统明确开放的接口，每次操作仍由业务系统检查身份和权限。 在线体验环境只用于了解产品和配置方式。请勿上传生产凭据、敏感数据或接入真实业务；正式使用请自行部署开源版。 v0.9.1：异步工作关闭与公开能力证据 关闭 Core 时，在原时限内等待模型完成、结算及相关 usage 后台工作；usage 排空超时保留原实例供重试，不重派原请求。本版同时提供公开能力与证据索引，纳入通用安全治理。 配套为 Core 0.9.1 + MCP / Agent Client SDK 0.7.0 + DSH 0.7.0 ，独立客户端包不因本补丁升版。已有共享 USD 额度、统一倍率、周期售价/额度与业务权限保持；没有新增 API、SQL 或套餐规则。升级时核对版本、Tag 与制品摘要。 版本说明 · 升级指南 · 模型计费 · 上一版本 - 已有商城、SaaS、CRM、ERP 或内部后台，希望增加能查数据、办业务的 AI 助手。 - 已经在使用本地 Agent、MCP、Dify 或 n8n，希望复用一套业务身份、能力配置和审计记录。 - 需要自托管，并且不愿把业务密码、超级权限或全部接口直接交给模型。 如果业务系统没有可调用接口，也不准备增加薄适配层，BailingHub 不会把任意网站自动变成可操作系统。 已有系统 用户可以这样说 实际发生的事 商城 / SaaS 后台 “查一下 SO-1001 的订单状态” Agent 调用已授权的订单查询接口并返回实时结果 CRM / ERP / 门店系统 “把这位员工的联系电话改成新号码” 中枢校验能力范围，业务系统再按当前用户权限决定是否修改 客服 / 运维后台 “为这个订单创建一个售后工单” Agent 生成参数、调用业务动作，结果写入对话与审计总账 退款 / 删除等高风险场景 “为 SO-1001 申请退款 199 元” 调用暂停并进入审批，批准后只执行获批
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2b, agent-capability-contract, agent-tools, ai-agent, ai-assistant, audit-trail
+
+---
+
+### 🌟 [LLM-TPU](https://github.com/sophgo/LLM-TPU)
+- **项目语言**: C++
+- **星标数量**: ⭐ 313
+- **核心概述**: 在 sophgo BM1684X/BM1688 中运行生成式 AI 模型
+- **大概是做什么的**: 在 SOPHGO TPU 上一键部署主流 LLM 和多模态模型 通过一条命令在 SOPHGO BM1684X / BM1688 / CV186X 上部署 LLM 和 VLM 🔥 2026.10.08 bge-reranker-v2-m3 现在支持 BM1684X / BM1688 / CV84X6 — 跨语言重排序的 Python 演示（XLM-RoBERTa 编码器，查询文档对评分）→ 详细信息 2026.09.17 Qwen3-Embedding-0.6B 现在支持 BM1684X — 非生成文本嵌入的 Python 演示（最后令牌池 + L2 标准化、MRL 截断、检索）→ 详细信息 2026.09.16 Qwen3-TTS 现在支持 BM1684X / BM1688 — 用于文本到语音的 Python 演示，可在 3 秒内克隆 10 种语言（ECAPA 扬声器编码器 + 28 层 Talker LM + CodePredictor + Mimi 编解码器） → 详细信息 2026.09.01 Mage-VL 现在支�� BM1684X — 支持图像、视频和流媒体的 Python 演示 (Mage-ViT + Qwen3-4B + StreamMind Gate) → 详细信息2026.08.03 Step3 VL 现在支持 BM1684X — 用于图像理解的 Python 演示 → 详细信息 2026.07.16 Falcon-Perception 现在支持 BM1684X — 用于参考分割（box + mask）的 Python 演示 → 详细信息 2026.07.09 LocateAnything-3B 现在支持
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bm1684x, bm1688, generative-ai, internvl3, large-language-models, llama3
+
+---
+
 ## 🕔 2026-10-11 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
