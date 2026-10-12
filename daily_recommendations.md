@@ -1,3 +1,67 @@
+## 🕔 2026-10-11 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [solidcraft](https://github.com/bherbruck/solidcraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 584
+- **核心概述**: SolidCraft：一个用纯 Rust 构建的开源参数化 3D CAD 应用程序。通过 MCP 实现桌面、Web 和自动化。
+- **大概是做什么的**: 一个用纯 Rust 构建的开源参数化 3D CAD 应用程序。使用参数化特征时间线绘制草图、约束和构建实体。更改尺寸并观察模型重建。在桌面、浏览器中运行它，或者让 AI 代理通过内置的 MCP 服务器进行建模。属于讲故事的“工艺”家族的一部分。从一个空的设计开始，在英文桌面 UI 中绘制原始的参数化电子设备外壳：圆角、外壳、直接在墙上绘制的 USB 端口和四凸台图案。在参数中将宽度从 80 → 100 毫米更改，壁厚从 2 → 3 毫米更改，然后观察其重建。原创动画指针和点击提示； 4倍播放。完整视频，使用演示脚本生成。文档：SolidCraft 书籍（用户指南、开发人员指南和命令参考；文档/书籍中的源代码）以及用于在浏览器中尝试的 Web 应用程序。 Linux Flatpak 安装需要 Flathub 的 Freedesktop 运行时以及 SolidCraft 应用程序源。请参阅安装和启动命令。状态：早期但可用于简单零件。历史基准报告记录
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, brep, cad, egui, mcp, parametric-cad
+
+---
+
+### 🌟 [mcp-linker](https://github.com/milisp/mcp-linker)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 340
+- **核心概述**: MCP商店。跨客户端发现、添加和同步配置管理器，例如 Claude code、Codex、Cursor💡mcphub
+- **大概是做什么的**: 英语 · 简体中文 · 繁体中文 · 日本语 · 德语 · 法语 · 西班牙语 一键添加并跨 AI 客户端同步 MCP 服务器 — 无需 LLM 调用，内置市场 ⭐ 为存储库加注星标，并在 Twitter 和 GitHub 上关注 milisp 了解更多！ - ⚡ 即时 — 在几秒钟内添加 MCP 服务器 - 🧠 多客户端支持 — 适用于所有主要 AI 客户端 - 本地同步 — 在多个客户端之间同步 MCP 服务器配置 - 官方 MCP 注册表 — 直接从registry.modelcontextprotocol.io 浏览和安装服务器 - 多客户端支持 — Claude Desktop/Code、Codex、Cursor、VS Code、Cline。请参阅详细信息 - 跨平台 - macOS、Windows、Linux - 智能���测 - 自动检测 Python、Node.js、uv 环境 GitHub 版本（预构建的二进制文件） 如果您已订阅，请在首次登录后重新启动应用程序。 1. 浏览内置市场中的 MCP 服务器 2. 单击“获取”以显示配置 3. 单击“添加”以安装到您选择的客户端 4. 完成！立即开始使用新的AI功能服务器发现添加配置--------------------------------模型上下文协议就像USB-
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, awesome, claude, dxt, llm, macos
+
+---
+
+### 🌟 [cli](https://github.com/sandbaseai/cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 188
+- **核心概述**: 开源 AI CLI 和本地 MCP 服务器将 25 个客户端（Claude Code、Cursor、Codex、ChatGPT、Hermes 和 OpenClaw）连接到 2,000 多个模型/API，并具有 OAuth 和回滚功能。
+- **大概是做什么的**: 赋予您的人工智能代理超能力。一声令下。 2,000 多个 AI 模型和 API。 English 中文 日本语 한국어 Español Français Deutsch Português 您的人工智能编码助手很聪明，但它被困在一个盒子里。它无法搜索网络、检查社交媒体、生成图像或访问实时数据 - 除非您自己连接每个 API。 SandBase 改变了这一点。一条命令即可通过模型上下文协议将您的代理连接到 2,000 多个 AI 模型和 API。无需管理 API 密钥。没有配置问题。直接通过 HTTP 而不是 MCP 构建？从 SandBase API 快速入门开始，或者将统一的 LLM、图像和视频 API 与专用模型网关进行比较。或者在 macOS 或 Linux 上安装官方 Homebrew 公式：请参阅 Homebrew 发布公告和 macOS/Linux CI 证据。对于可重现的安装，请在运行之前验证不可变的版本存档。 sandbaseai-cli-0.1.17.tgz 的 SHA-256 为 1ad535b2899ca460b57b3c268aef278fee28fd28e649a89b92951514fd71fffa 。批准浏览器授权一次；然后，每个受支持的客户端都可以发现、检查和运行可用的 SandBase 模型，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, ai-coding, ai-gateway, chatgpt, claude-code
+
+---
+
+### 🌟 [affine-mcp-server](https://github.com/DAWNCR0W/affine-mcp-server)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 299
+- **核心概述**: AFFiNE 的模型上下文协议服务器。通过 stdio 或 HTTP 将 AI 助手连接到 AFFiNE 工作区、文档、数据库和协作 API。
+- **大概是做什么的**: AFFiNE 的模型上下文协议 (MCP) 服务器。它通过 stdio（默认）或 HTTP ( /mcp ) 向 AI 助手公开 AFFiNE 工作区和文档，并支持 AFFiNE 云和自托管部署。 - 兼容性矩阵 - 安全性和范围 AFFiNE MCP Server 专为三种常见场景而设计： - 为 Claude Code、Codex CLI、Cursor 或 Claude Desktop 运行本地 stdio MCP 服务器 - 为托管或浏览器连接的客户端公开远程 HTTP MCP 端点 - 通过稳定的 MCP 工具界面自动化 AFFiNE 工作区、文档、数据库、组织和评论工作流程 - 支持 AFFiNE Cloud 和自托管 AFFiNE 实例 - 支持stdio 和 HTTP 传输 - 通过一台共享 MCP 服务器协调每个工作区的并发写入；可选文档修订拒绝过时的编辑 - 支持会话 cookie 和电子邮件/密码身份验证，以及用于旧部署的兼容承载令牌 - 公开由 AFFiNE GraphQL 和 WebSocket API 支持的 107 个规范 MCP 工具 - 通过设置文档日志设置和清除本机 AFFiNE 日志日期 - 包括语义页面合成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: affine, ai-assistants, claude, codex, cursor, knowledge-base
+
+---
+
+### 🌟 [WinShun](https://github.com/LingCore/WinShun)
+- **项目语言**: C++
+- **星标数量**: ⭐ 187
+- **核心概述**: Win顺：免费开源的 Windows 快速搜索启动器。双击 Ctrl，拼音秒搜文件、全文搜索 Word/Excel/PDF、剪贴板历史（代替 Win+V）��对话框搜索、任务栏搜索、插件、AI 助手 MCP。Free Windows search launcher: pinyin file search, full-text search, clipboard history, MCP server. Everything/Listary alternative.
+- **大概是做什么的**: 双击 Ctrl，搜遍整台电脑 —— 免费开源的 Windows 文件搜索、快速启动器 Press Ctrl twice, search your whole PC — a free, open-source file search and launcher for Windows 中文 · English · 截图 Screenshots 拼音秒搜文件 · 文件内容全文搜索（Word / Excel / PPT / PDF） · 应用和系统设置 · 网页搜索 · 收藏夹 · 插件 “打开 / 另存为”对话框搜索 · 剪贴板历史（代替 Win+V，图片文字也能搜） · 任务栏搜索框（代替 Win+S） · AI 助手 MCP Pinyin file search · full-text search in documents · apps and settings · web search · favorites · plugins · file dialog search · clipboard history with OCR · taskbar search box · MCP server for AI assistants Win顺 是 Windows 上免费开源的快速搜索启动器：连按两下 Ctrl 弹出搜索框，边打字边出结果。按文件名或拼音秒找文件，搜 Word、Excel、PDF 里的文字，打开应用和系统设置，还有剪贴板历史、对话框搜索、任务栏搜索框、插件和给 AI 用的 MCP 搜索。 它直接读 NTFS 主文件表（MFT）建索引，三百多万个文件几秒建好，增删改名实时跟上， 不用装 Everything 。不需要账号，不上传数据。界面有简体中文和英文。 - 双击 Ctrl 打开，再按一次或 Esc 关闭；三百多万个文件里搜一次只要几毫秒。 - 拼音和首字母 ： ndbg → 年度报告， baog → 报告；多音字按常用读音。打错了同���字（年度报高）找不到时，自动按读音再找一遍。 - 搜整台电脑 ：所有本地磁盘，U 盘可选（没收录的 U 盘插着时，列表末尾会提示你顺手搜一下它）； NAS、内网共享文件夹（SMB） 也能加进来一起搜，服务器关机时收录过的照样能搜到。 - 排序懂你 ：自己的文件在前，系统目录、 node modules 在后，名字完全一样的最前。每行显示修改日期， Ctrl+S 在最匹配、最新、最早之间切换。不输入时列出最近打开或最近修改的文件。 - 数字键直达 ：结果的图标上标着序号， Ctrl+1 ～ Ctrl+9 打开第几行（也可
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: chinese, clipboard-history, clipboard-manager, cpp, everything, file-search
+
+---
+
+### 🌟 [blave-agent](https://github.com/Blave-TW/blave-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 102
+- **核心概述**: AI 代理的量化基础设施 - 适用于 macOS 和 Windows 的免费开源桌面工作区，您的 Claude Code 或 Codex 将交易想法转化为经过回溯测试的策略并实时运行。
+- **大概是做什么的**: AI 代理的量化工作区使用 Claude Code 或 Codex 构建、回溯测试和交易策略。免费且开源。 English 繁体中文 English 日本语 Español Português Tiếng Việt https://github.com/user-attachments/assets/7b33edb7-9c65-4e19-854a-40295c6e8b74 有何不同 检查过度拟合和使用实际费用的回测 过度拟合：恰好适合过去数据的参数。 - 每个 A 型回测默认运行蒙特卡罗排列测试（MCPT，lib/validation.py）并记录 p 值：打乱的数据也能做到这一点吗？ - 参数扫描 ( lib/param scan.py ) 寻找所有有效的参数平台，而不是单个最佳单元。 - 滚动向前（lib/walkforward.py）测量样本外性能。 - 费用应与实际市场相符。 lib/quality check.py 警告费用为 0，但不强制更改。 - 默认情况下，一个想法会进行一次回测。不良结果按原样报告；代理不会悄悄地重新调整参数，直到数字看起来不错（请参阅 AGENTS.md 中的 Iteration Brakes ）。查看 Live 是否运行您回测的代码
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, algorithmic-trading, backtesting, claude-code, codex, crypto
+
+---
+
 ## 🕔 2026-10-11 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
