@@ -1,3 +1,67 @@
+## 🕔 2026-10-13 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Trail-Code](https://github.com/trailhq/Trail-Code)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,962
+- **核心概述**: Turbocharge Claude Code、Cursor、Codex、Gemini 和每个编码代理：更快、更便宜，并且具有针对您的代码库的上下文理解。
+- **大概是做什么的**: Turbocharge Claude Code、Cursor、Codex、Gemini 和每个编码代理：更快、更便宜，并且具有针对您的代码库的上下文理解。成本降低 4 倍，速度提高 3 倍，并且正确性更好或没有损失。公制冷克劳德代码 带移植的克劳德代码 工具调用减少 基线 +46% 令牌节省 基线 +42% 时间节省 基线 +60% 正确性 54% 66% (+12 分) 停止向您的编码代理重复自己。你纠正它，到下一次训练时它就忘记了。 Trail 管理您的 CLAUDE.md 和 AGENTS.md，因此它不会。 • 您所做的每一次更正都将成为您的代理人必须遵守的规则。 • 无法打破的人会得到一个阻止它的钩子，而不是它忽略的音符。 - 跟踪快速启动：了解您的代理离开下一个会话以及您的团队的 - SWE-bench 验证 - 如何构建图形 - 支持的语言 - 代理集成 — MCP 服务器 · Claude 代码（深度集成） - 搜索和定向（移植 grep / 移植映射） - Monorepos 和多存储库文件夹 - 可视化（移植 viz） - 在您的流行存储库上测试 安装一次。 Trail init 询问哪个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anthropic, claude-code, cli, code-graph, codex
+
+---
+
+### 🌟 [lemma-platform](https://github.com/lemma-work/lemma-platform)
+- **项目语言**: Python
+- **星标数量**: ⭐ 553
+- **核心概述**: 适合您工作的多人游戏安全带。您的团队共享的代理、应用程序和工作流程，可通过 Slack、Telegram、WhatsApp、Teams、电子邮件、Web 或您自己的 AI 代理使用。
+- **大概是做什么的**: 雇用一名人工智能队友。与您的人分享。它向你们所有人学习，并围绕你们的工作方式构建自身。开源 · 点 + 空格 + Lovable，适用于团队 在您已付费的 Claude Code 或 Codex 订阅上运行。是什么让它成为队友 · 快速入门 · 面向开发人员 · pod 内部 · 示例 · Docs Kit，运行产品团队反馈循环的 AI 队友。是什么让它成为队友 每个人都会问，每个人都看到自己的角色。它会在每个人的角色允许的范围内回答每个人的问题，并在采取行动之前与合适的人进行核实。无论您在何处工作，都可以使用 Slack、Teams、WhatsApp、Telegram 或电子邮件。无论何时要求，相同的队友、相同的权限、相同的记录。 ＆9993；共享和个人记忆它向你们所有人学习。共享笔记的空间中的每个人都可以阅读，个人笔记只有您可以阅读。纠正一次，从此以后就这样了。在聊天中提问，它就会构建出工作所需的屏幕。您的员工像任何内部工具一样打开它，它在队友工作的相同记录上运行。使用 AI 的原生方式：你们一起编写文档。从任何地方询问
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agentic-ai, ai-agents, claude-code, codex, internal-tools
+
+---
+
+### 🌟 [prism](https://github.com/prism-php/prism)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 2,428
+- **核心概述**: 在 Laravel 中与 LLM 合作的统一界面
+- **大概是做什么的**: Prism 是一个功能强大的 Laravel 包，用于将大型语言模型 (LLM) 集成到您的应用程序中。它提供了一个流畅的界面，用于生成文本、处理多步骤对话以及利用各种人工智能提供商的工具。这样，您就可以专注于为用户开发出色的人工智能应用程序，而不会迷失在复杂的技术中。官方文档 官方文档可以在 Prism 网站上找到。虽然我们不隶属于 Laravel，但我们遵循 Laravel 行为准则。��们希望您也遵守这些准则。该库由 TJ Miller 在开源社区的贡献下创建。麻省理工学院许可证 (MIT)。请参阅许可证文件以获取更多信息。
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, claude, hacktoberfest, laravel, llm
+
+---
+
+### 🌟 [story-skills](https://github.com/danjdewhurst/story-skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 306
+- **核心概述**: 用于以 Markdown 方式编写端到端故事的代理技能，打包为 Codex 和 Claude Code 插件。
+- **大概是做什么的**: 使用 Markdown 格式计划、跟踪和起草小说，并使用连续性检查器在读者之前发现错误。故事技能为特工提供了小说的共享项目格式：故事圣经、人物、世界构建、情节弧线、场景、连续性状态、承诺和回报以及章节草稿。一切都是带有 YAML frontmatter 的简单 markdown，打包为 Agent Skills 以及 Codex 和 Claude Code 插件。配套故事 CLI 将故事圣经视为可检查的合同。它的连续性引擎可以在读者之前找到重新出现的死亡角色、在他们设置之前降落的回报以及过时的故事状态。阅读为什么它会这样工作。每个角色、地点、场景和章节都是带有 YAML frontmatter 的 Markdown 文件。区分它、分支它并在任何编辑器中打开它。 24 种技能，打印的前提从测试一个想法的火花到查询信和打印内部，在 Claude Code、Codex 或任何读取 SKILL.md 的代理中。连续性编译器 死亡、承诺、开放问题以及对象和知识状态都存在于 frontmatter 中，因此矛盾会像类型错误一样出现。瓦
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code-plugin, claude-skills, codex, codex-plugin
+
+---
+
+### 🌟 [harvey](https://github.com/ethanplusai/harvey)
+- **项目语言**: Python
+- **星标数量**: ⭐ 348
+- **核心概述**: 由 Claude Code 或 Codex 提供支持的自主 AI 销售代理。寻找潜在客户、撰写冷冰冰的电子邮件、发送营销活动、处理回复、预订会议。无需 API 密钥 — 在您的 Claude 或 Codex 订阅上运行。
+- **大概是做什么的**: 在您的 Claude Code 或 Codex 订阅上运行的自主销售代理。哈维找到值得出售的企业，了解每家企业的具体情况，撰写引用该企业的冷酷电子邮件，发送出去，阅读回复，并将对话推向会议。它在您的计算机上自行循环运行。不寻常的部分是：没有模型 API 法案。 Harvey 通过 Claude Code 使用您的 Claude Pro 或 Max 订阅，或者通过 Codex 使用您的 ChatGPT 订阅。模型调用使用您已付费的计划，无需 API 密钥或按令牌 API 计费。克劳德是默认的； Codex 是 macOS 和 Linux 上的选择性加入提供商。它保留在 localhost:5555 的仪表板 — 确认信号，从已确认的信号中建立一个队列，在花费任何东西之前为发现运行定价，并一次批准一封邮件： - 为什么订阅很重要 - Harvey 实际上做了什么 - 你确认它在寻找什么 - 勘探管道 - 技能库 - 没有你就没有任何发送 - 数据如何存储 - 使用 ChatGPT 计划（Codex） - 法律和法律
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, claude, cold-email, prospecting, python
+
+---
+
+### 🌟 [janas](https://github.com/prabanta-dev/janas)
+- **项目语言**: C
+- **星标数量**: ⭐ 317
+- **核心概述**: 32 GB 笔记本电脑上的 Qwen3-Next-80B (48 GB) 为 37 tok/s，无草稿时为 24 tok/s，而 llama.cpp 为 2.8 tok/s；读数 62 与 16 tok/s。与 Q4_K_M 相比，所有 13 个模型都比 llama.cpp 更快。法学硕士比您的 RAM、纯 C、CPU 或 GPU 更大。
+- **大概是做什么的**: 在具有 32 GB 内存的笔记本电脑上，Qwen3-Next-80B（48 GB 型号）为 37 tok/s，无草稿时为 24，其中 llama.cpp 管理 2.8；读取提示，62 tok/s vs 16。在同一笔记本电脑上（Debian 13 Linux、Intel Core Ultra 9 185H、其集成 Arc GPU、32 GB、NVMe SSD；2026 年 10 月 9 日至 12 日；下面的整台机器），Janas-LLM 在每个型号上都比 llama.cpp 更快：模型读取 1,024 个令牌：Janas-LLM llama.cpp 写入： Janas-LLM llama.cpp --- ---: ---: ---: ---: Qwen3-Next-80B-A3B (48.4 GB，超过内存) 62 tok/s 16 tok/s 24 tok/s 2.8 tok/s Qwen3-Coder-Next (48.4 GB，超过内存) 66 tok/s 14 tok/s 22 tok/s 2.2 tok/s Qwen3.6-35B-A3B 104 tok/s 79 tok/s 19 tok/s 12 tok/s Qwen3-30B-A3B 135 tok/s 122 tok/s 32 tok/s 15 tok/s Gemma-4-26B-A4B-it 84 tok/s 76 tok/s 18 tok/s 12 tok/s Qwen3.8-27B（密集，17.6 GB） 30.6 tok/s 25.6 tok/s 4.4 tok/s 2.1 tok/s Gemma-4-12B-it 65 tok/s 46 tok/s 9.9 tok/s 7.1 tok/s Qwen3.5-9B 111 tok/s 78 tok/s 14 tok/s 8.7 tok/s Gemma-4-E4B-it 122 tok/s 109 tok/s 20 tok/s 15 tok/s Qwen3-4B 193 tok/s 164 tok/s 27 tok/s 18 tok/s Gemma-4-E2B-it
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: avx2, c, cpu-inference, gguf, inference-engine, linux
+
+---
+
 ## 🕔 2026-10-13 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
