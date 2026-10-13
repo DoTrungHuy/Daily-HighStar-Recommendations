@@ -1,3 +1,67 @@
+## 🕔 2026-10-13 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [comark](https://github.com/comarkdown/comark)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,057
+- **核心概述**: Comark is an open-source Markdown parser and renderer with components, attributes and plugins. It streams AI output to React, Vue, Svelte, Angular, HTML and the terminal.
+- **大概是做什么的**: Comark is an open-source Markdown parser and renderer with components, attributes and plugins. It streams AI output to React, Vue, Svelte, Angular, HTML and the terminal. Comark supports CommonMark and GFM, then parses them into a compact, serializable document at build time, runtime, or during a stream. Use the same document across renderers, or extend the syntax with readable components and attributes when you need richer content. - Runtime parsing : parseMarkdown(markdown) is a pure function returning a compact, serializable Markdown document. Content from a database, CMS, or LLM is live the moment it is saved. No rebuild, no redeploy. (Comark vs MDX) - Streaming built in : auto-close completes unterminated syntax ( bold , open code fences, half-open components) so AI output renders correctly at every frame. - One parser, every renderer : the same source renders to HTML, ANSI, Vue, React, Svelte, and Angular. Your content outlasts your framework. - Still just Markdown : CommonMark + GFM (with a few differences), frontmatter, and {.class} attributes on native elements. Components a
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, angular, ansi, commonmark, generative-ui, gfm
+
+---
+
+### 🌟 [shopkeeper-agent](https://github.com/didilili/shopkeeper-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 453
+- **核心概述**: 📊 电商数仓智能问数 AI Agent，最适合用于系统学习 LangGraph 的实战项目：基于 LangGraph、FastAPI、Qdrant、Elasticsearch、MySQL 与 React，完整实现元数据知识库、混合检索、自然语言生成 NL2SQL 生成校验、SQL 执行与流式查询展示。前后端完整代码全栈可跑，Docker 环境一键部署，配套 ai-agents-from-zero 免费教程与章节代码分支。适合系统学习大模型应用、数据分析 Agent 和企业级 AI 工程落地。
+- **大概是做什么的**: 可能是全网最适合用于系统学习 LangGraph 的智能问数实战项目，配套系统性文字教程与对应章节分支，带你打通混合检索、多阶段推理、SQL 生成与执行全链路 📢 说明 ：本套实战项目已更新完成，配套教程、章节分支和前后端代码均可对照学习。 如果你正在找一个适合学习 LangGraph 、 Qdrant 、 MySQL 、 FastAPI 和 AI Agent 工程开发的实战项目，「电商问数」很可能是最适合你的项目。 它不是只调用一次大模型接口，也不是写几个 Prompt 演示 SQL 生成结果。这个项目围绕电商数仓问数场景，先构建元数据知识库，再做字段、指标、字段取值的混合检索，随后用 LangGraph 编排多阶段问数流程，完成 SQL 生成、校验、修正、执行和前端流式展示。换句话说，你学到的不是某一个框架 API，而是一条 AI 应用从数据准备、检索增强、智能体编排、接口交付到前端联调的完整项目主线。 本套仓库是 ai-agents-from-zero 教程体系中的 实战项目-电商问数 配套源码仓库，除了可直接运行和二次开发的项目代码之外，也提供了与教程章节对应的 Git 分支演进过程，以及完整的在线图文讲义入口。 如果你想系统学习「AI智能体 大模型应用开发」，也可直接从系统教程 AI 智能体实战速成指南-大模型入门 开始。 在真实问数场景里，业务同学通常不会写 SQL，数据分析同学也很难随时记住所有表结构、字段含义、指标口径和字段取值。单纯把自然语言问题直接交给大模型，很容易出现表选错、字段选错、指标理解错和 SQL 幻觉等问题。 - 系统自动召回相关字段、指标和字段取值 - 检索 + 推理 + 生成，而不是模型直出 SQL - 先围绕问题召回相关字段、指标和值域，再组织上下文生成 SQL，整体链路更稳、更可控。 - Qdrant 负责字段和指标的语义召回。 - Elasticsearch 负责字段取值的全文检索。 - MySQL 负责保存完整、权威的结构化元数据。 - 支持字段、指标、取值三类信息协同召回 - 比单纯做表级或字段级检索更贴近真实企业分析流程。 - 不停留在 Prompt 设计，而是会真实生成 SQL、执行查询，并以流式方式返回结果。 - 基于 FastAPI + LangGraph + Repository + Client Manager 组织配置、客户端、仓储层、服务层与智能体流程，便于维护和扩展。 - 不仅有实战代码，还有完整配套教程文档 - 项目配有一套系统化、持续更新、完全免费的教程讲义，适合按章节从数仓基础、元数据知识库
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflow, ai-agent, elasticsearch, fastapi, langchain, langgraph
+
+---
+
+### 🌟 [mcp-redis](https://github.com/redis/mcp-redis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 634
+- **核心概述**: The official Redis MCP Server is a natural language interface designed for agentic applications to manage and search data in Redis efficiently
+- **大概是做什么的**: The Redis MCP Server is a natural language interface designed for agentic applications to efficiently manage and search data in Redis. It integrates seamlessly with MCP (Model Content Protocol) clients , enabling AI-driven workflows to interact with structured and unstructured data in Redis. Using this MCP Server, you can ask questions like: - "Store the entire conversation in a stream" - "Store the session with an expiration time" - "Index and search this vector" - From PyPI (recommended) - Testing the PyPI package - Development Installation - Configuration via command line arguments - Configuration via Environment Variables - EntraID Authentication for Azure Managed Redis - VS Code with GitHub Copilot - Natural Language Queries : Enables AI agents to query and update Redis using natural language. - Seamless MCP Integration : Works with any MCP client for smooth communication. - Full Redis Support : Handles hashes, lists, sets, sorted sets, streams , and more. - Search & Filtering : Supports efficient data retrieval and searching in Redis. - Scalable & Lightweight : Designed for hig
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: database, genai, llm, mcp, mcp-server, redis
+
+---
+
+### 🌟 [DSH-taskboard](https://github.com/shengsheng90/DSH-taskboard)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 334
+- **核心概述**: Native local Taskboard plugin for DeepSeek Harness. SQLite-backed projects, Agent claim/review, and a native Web UI — no iframe, no second chat runtime.
+- **大概是做什么的**: Native, local project task management for DeepSeek Harness. SQLite is the sole task authority. Harness Agent Sessions, Goals, Workspaces, tools, permissions, and the Web Client remain the execution and conversation owners. This README is written so a human or another coding agent can install the plugin into a live Harness profile, verify it, and start using it without guessing. Package: @shengsheng/dsh-taskboard Repository: https://github.com/shengsheng90/DSH-taskboard Host version policy: DSH runtime peers use (no version gate). Installation/loading is tested against 0.1.6-alpha.1 , 0.1.7-rc.1/rc.2 , and 0.2.0-rc.1/rc.2 . This verifies installation and module loading; GUI operations and model execution still need checking after a Host upgrade. If you are an installing agent, jump to Install into DeepSeek Harness and follow every step in order. Git, npm, and release tarballs carry prebuilt Host/Client artifacts. Installation requires neither a TypeScript build nor a Harness source checkout. After a successful install, Harness gains: - A Taskboard sidebar button and a native overlay p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cordis, deepseek-harness, dsh, dsh-plugin, task-management
+
+---
+
+### 🌟 [agent-jev](https://github.com/malevrigns/agent-jev)
+- **项目语言**: Python
+- **星标数量**: ⭐ 382
+- **核心概述**: AgentJev-0.6B - a fast 'System One' decision model for AI Agents: feed it any unstructured state (diffs, traces, logs) and structured questions, get calibrated probability distributions back in one ~50ms forward pass. Zero output-token decoding.
+- **大概是做什么的**: Weights: https://huggingface.co/aimeigaoshou/agent-jev &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; &nbsp;&nbsp;·&nbsp;&nbsp; AgentJev-0.6B does not write. You hand it a state and questions you have already phrased. One forward pass returns a probability for every option. The number of decoded tokens is zero. Put it where an agent loop needs a gate, a route, or a score. Leave the prose to a larger model. A coding agent, a triage bot, or a workflow spends most of its steps on questions that are not writing problems. Did the tests pass. Which tool is next. Is this command safe to run. The usual answer is to ask a 27B–70B model to talk its way to a boolean, then parse the talk. A writer, used as a switch AgentJev Output Text you hope is JSON A distribution over options you supplied Decode One token at a time None Failure A malformed object, or a confident sentence A probability you can threshold Place in the loop The whole turn The reflex under the turn The state stays unstruct
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-tools, jev, jev-model
+
+---
+
+### 🌟 [chatless](https://github.com/kamjin3086/chatless)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: 💻一款简洁实用轻量级的本地AI对话客户端，采用Tauri2.0和Next.js编写 A simple, practical, and lightweight local AI chat client, written in Tauri 2.0 & Next.js.
+- **大概是做什么的**: 基于 Tauri 2.0 与 Next.js 的本地优先 AI 聊天客户端 chatless 是一个桌面 AI 聊天客户端，支持接入多种云端 AI 服务（OpenAI、Anthropic、DeepSeek 等）或本地模型（Ollama、LM Studio）。数据完全存储在本地，支持文档解析与向量检索（RAG）。 - 多 AI 提供商支持 - 云端服务与本地模型 - 文档解析 - 支持 PDF、Word、Markdown 格式 - 图片分析 - 支持 Vision 模型进行图像理解 - 本地 RAG 知识库 - 向量检索提升回答准确性 - MCP 协议集成 - 扩展第三方工具能力 - Prompt 管理 - 快速复用常用提示词 - WebDAV 同步（Prompts）- 多设备同步提示词（JSON-Chunk） 从 GitHub Releases 下载适合您系统的安装包： - Windows - .exe 或 .msi 安装包 - macOS - 根据处理器选择 aarch64 （Apple Silicon）或 x64 （Intel）版本 - Linux - .deb 、 .rpm 或 .AppImage 格式 2. 添加 AI 提供商的 API 密钥 3. （可选）配置 Ollama 使用本地模型 在 设置 → 同步 中配置 WebDAV： - 远端目录结构： {basePath}/prompts/data/{id}.json 与 .../metadata.json - 删除策略：不直接删除远端文件，使用 deleted at tombstone 同步 技术栈： Tauri 2.0、Next.js 15、TypeScript、Rust、SQLite Q: Windows 下启动后立即退出/闪退？ 部分 Windows 环境需要安装 Microsoft Visual C++ 运行库。请下载并安装： - VC++ 2015-2022 Redistributable (x64) - 问题反馈 - GitHub Issues - 功能讨论 - GitHub Discussions - 应用内反馈 - 设置 → 反馈 欢迎提交 Issue 和 Pull Request。请在贡献前阅读 贡献指南。 MIT License © 2025 chatless - Next.js - React 全栈框架 - Ollama - 本地大语言模型运行时 - ort - ONNX Runtime Rust 绑定 感谢社区贡献者 @ukhack、@duokebei 等提供的测试与反馈。 如
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatbot, desktop-app, knowledge-base, llm, local-llm
+
+---
+
 ## 🕔 2026-10-12 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 316 个候选项目中筛选出 6 个未推荐过的新项目。
