@@ -1,3 +1,67 @@
+## 🕔 2026-10-13 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 180 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [artex-global](https://github.com/jiwoochris/artex-global)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,431
+- **核心概述**: ARTEX韩版AI自主渗透测试框架（上游：Autumn-27/ARTEX、AGPL-3.0）
+- **大概是做什么的**: ARTEX — 全球版 由 LLM 多代理驱动的自主渗透测试系统（Go 后端 + Next.js 前端） UI 和生成的输出默认为英语，可以在设置中切换为韩语、中文或西班牙语（系统 → 设置 → 显示语言）。更改语言也会更改代理生成的报告、摘要和聊天回复的语言。 🚨 安全和误用警告 - 请先阅读此存储库发布仅在授权环境中使用，并且仅用于构建防御和检测功能。 ARTEX是一种自主攻击工具，功能强大，可以在几乎不需要人为参与的情况下进行从侦察到入侵再到数据泄露的攻击，因此误用的危害也相应很大。 2026 年 10 月，多家韩国新闻媒体报道称，调查人员发现有迹象表明上游 ARTEX 被用于针对韩国金融机构的个人数据泄露；相关调查正在进行中。此全球版本的发布并不是为了帮助攻击者。其目的是帮助防御者了解如何
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agents, blue-team, cybersecurity, detection-engineering, i18n
+
+---
+
+### 🌟 [termish](https://github.com/farlume/termish)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 442
+- **核心概述**: 适用于 Android 和 iOS 的开源移动 SSH/Mosh 终端和本机 AI 工作区。
+- **大概是做什么的**: 您的远程工作空间就在您的口袋里。适合您实际工作方式的终端优先移动工作空间：Termish → Herdr → Codex。平台 获取 Termish Android 8.0+ 下载签名的 APK。出现提示时允许从此源安装。使用 iOS 指南使用 macOS 和 Xcode 进行 iOS 构建。尚未提供公共 App Store 下载。发行说明和所有资产 · SHA-256 校验和 Herdr + 终端 · 主工作区 · 主机 · 本机代理聊天 · SFTP 文件。终端捕获包括浮动远程屏幕窗口。所有四个都使用与 termish.dev 相同的 iOS 设备演示。 1. 从主机开始。打开 Hosts → + ，输入 SSH 地址、用户名和密码或私钥。首次连接时验证服务器的主机密钥指纹。每个主机菜单都会打开终端、Herdr、文件、远程屏幕或代理聊天。 2. 打开牧羊人。使用��机的 Herdr 条目。如果尚未在远程上，Termish 会提供指导安装，然后在 SSH 或 Mosh 终端中打开工作区。 3. 保持终端工作流程中的编码。从 Herdr 启动 Codex，给它一个任务，跟踪它的输出，u
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, claude-code, codex, compose-multiplatform, ios
+
+---
+
+### 🌟 [BANDORI-PET-REV](https://github.com/HELPMEEADICE/BANDORI-PET-REV)
+- **项目语言**: Python
+- **星标数量**: ⭐ 474
+- **核心概述**: BandoriPet 是一个基于 Live2D 和 PySide6 的开源桌面宠物项目，支持 50+ 位 BanG Dream! 角色、300+ 套服装，让你的桌面一秒变成 CiRCLE 排练室
+- **大概是做什么的**: 🎸 BandoriPet — 把バンドリ角色养在桌面上！ ⚠️ 免责声明：本项目仅供学习交流使用。角色模型版权归原作者及版权方所有，请勿用于商业用途。详情见 DISCLAIMER.md。 你是否曾幻想过香澄每天早上对你喊「キラキラドキドキ！」？你是否想在工作摸鱼的时候让友希那在一旁冷冷地盯着你（然后偷偷露出猫耳）？你是否想让爱音在你桌面上炫耀她刚学会的吉他 riff？你是否想把祥子和灯放在同一张桌面上上演属于你的 MyGO×AveMujica 小剧场…… BandoriPet 是一个基于 Live2D Cubism SDK 和 PySide6 的开源桌面宠物项目，支持 51+ 位 BanG Dream! 角色、 305+ 套 服装，让你的桌面一秒变成 CiRCLE 排练室！ - ⚡ 自研 LuaJIT 渲染核心 — 基于 Live2D-v2-Lua（作者 @HELPMEEADICE），纯 LuaJIT 实现，性能相较原 live2d-py 提升 6 倍+ （30fps → 180fps+），支持头部追踪、拖拽移动、点击互动，老婆会跟着你的鼠标转头！ - 💬 LLM 角色扮演 + 好感度记忆系统 — 接入大语言模型，每个角色都有专属 System Prompt，支持中日英多语言 + 动作标签。交互越多角色越了解你，好感度影响情绪和回复风格，支持人设方案保存/切换。 - 🎨 像素风桌面宠物 — 也可以切成像素小人的形态，CPU 友好，可爱不减！ - 🌓 Fluent Design 设置面板 — 暗色/亮色主题切换，图形化选角选装界���。支持简中、繁中、英文、日文、葡萄牙语、西班牙语、法语、德语、俄语 i18n 国际化。 - 📌 始终置顶 + 无边框 — 趴在你的窗口上方，赶都赶不走（误）。 - 🔔 系统托盘 — 右键一键切角色 / 开设置 / 优雅退场。 - 🔊 TTS 语音合成 — 接入 Qwen3TTS 后端，角色说话时自动语音播放 + Live2D 口型同步，支持中日英多语言。 - 🎙️ ASR 语音输入 — 支持一键安装本地 faster-whisper 后端，也可接入 OpenAI-compatible 语音识别服务，把麦克风录音转成聊天输入文本，详见 ASR VOICE INPUT GUIDE.md。 - 🔗 聊天软件接入 — 本地 Webhook 端口可接收 QQ/微信/Telegram/Discord 等机器人转发消息，设置页支持复制地址、生成 Token 和一键测试。 - 👥 多角色同时显示 — 不止一个！你想放几个就放几个（只要
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-emotion, anime, bandori, bang-dream, bangdream
+
+---
+
+### 🌟 [adrafinil](https://github.com/kageroumado/adrafinil)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 508
+- **核心概述**: 仅在 AI 编码代理工作时让您的 Mac 保持唤醒状态
+- **大概是做什么的**: 接收号006 ・ a·draf·i·nil /əˈdræfɪnɪl/ ・ 机器的福音 ♡ 签名、公证的磁盘映像 · 免费开源 (MIT) 清醒 · 代理正在空闲工作 · 没有代理，正常睡眠保持 · 自己保持清醒 — 15m 到 ∞ 采取注意 · 对于在你入睡后保持监视的机器。凌晨三点了，你已经睡着了。代理不是——在你几个小时前开始的会议中，它仍然处于思考之中，你已经把它盖上了，就像眼睑无法完全合上一样。咖啡因和安非他明是兴奋剂：它们使机器永远保持连接状态，无论是否有人在家。 Adrafinil 是优香药。在代理获取它之前，它不会执行任何操作，仅在工作有效期间通过关闭的盖子使您的 Mac 保持唤醒状态，并在最后一个会话释放时清除。它只会在工作时醒来——然后你们就睡觉了。 ♡ 仅在 AI 代理工作时让您的 Mac 保持唤醒状态。 Adrafinil 是一款 macOS 菜单栏应用程序，专门在 AI 编码代理处于活动会话时阻止系统休眠（包括翻盖式（盖子关闭）休眠）。当没有代理工作时，睡觉吧
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amphetamine, caffeinate, caffeine, clamshell, claude-code
+
+---
+
+### 🌟 [IncarnaMind](https://github.com/IncarnaMind/IncarnaMind)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 808
+- **核心概述**: IncarnaMind 是一款适用于 macOS、Windows 和 Linux 的免费开源桌面应用程序，您可以在其中提出有关您自己的文档（PDF、Word、PowerPoint、Excel 等）的问题并使用 AI 进行写作。每个答案都引用了确切的页面，IncarnaMind 会检查每个引用的段落是否确实存在。
+- **大概是做什么的**: 检查自己引用的人工智能笔记本。在一个地方编写和询问，答案来自您自己的文件和您选择的 AI 模型。免费且开源，在您的计算机上。助理会改变主意让您接受或拒绝，接下来会出现实时会议记录的答案；其余的内容今天就在应用程序中。 IncarnaMind 是一款适用于 macOS、Windows 和 Linux 的免费开源桌面应用程序，您可以在其中提出有关您自己的文档（PDF、Word、PowerPoint、Excel 等）的问题并使用 AI 进行写作。每个答案都引用了确切的页面，IncarnaMind 会检查每个引用的段落是否确实存在。它可与您的 ChatGPT 计划、您自己的 API 密钥或通过 Ollama 的本地模型配合使用。 IncarnaMind 尚未发布。一旦发布，发布页面将包含 macOS（苹果芯片和英特尔）、Windows 和 Linux 的安装程序。要了解具体时间，请留下您的电子邮件或单击本页顶部的“观看”→“自定义”→“发布”。要立即尝试，请使用 Node.js 24 或更高版本从源代码运行它：Windows 版本是通过 SignPath Foundation 的开源项目免费签名进行签名的：请参阅代码
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, citations, deepseek, desktop-app, document-qa, electron
+
+---
+
+### 🌟 [ecologits](https://github.com/mlco2/ecologits)
+- **项目语言**: Python
+- **星标数量**: ⭐ 345
+- **核心概述**: 🌱 EcoLogits 通过 API 跟踪使用生成式 AI 模型的能源消耗和环境足迹。
+- **大概是做什么的**: 🌱 EcoLogits 通过 API 跟踪使用生成式 AI 模型的能源消耗和环境影响。阅读 ecologits.ai 上的完整文档。 EcoLogits 是 Code Carbon 非营利组织的一部分 — 由志愿者建立并得到赞助商的支持。在 Discord 上与我们聊天。本地计算？使用 CodeCarbon 。另请参阅其他 ecologits 项目： Calculator 和 EcoLogits API 。何时使用 which → 要与特定提供商集成，请使用 pip install ecologits[openai] 。我们目前支持以下提供商： anthropic 、 cohere 、 google-genai 、 Huggingface-hub 、 Mistralai 和 openai 。查看提供商的完整列表。请参阅 EcoLogits 上的软件包文档 EcoLogits API github.com/mlco2/ecologits-api · api.ecologits.ai/docs Calculator Calculator.ecologits.ai CodeCarbon github.com/mlco2/codecarbon — 本地计算排放 所有 mlco2 项目 github.com/mlco2 基于 EcoLogits 构建的社区集成（独立项目）： - ecologits-statusline — Claude 代码状态行 (Vincent Duarte) - ecologits-vscode — VS Code 状态栏 (marmelab) 开始设置 u
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: genai, generative-ai, green-ai, green-software, llm, llm-inference
+
+---
+
 ## 🕔 2026-10-13 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
