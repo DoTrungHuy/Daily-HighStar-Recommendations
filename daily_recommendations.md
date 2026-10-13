@@ -1,3 +1,67 @@
+## 🕔 2026-10-12 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 316 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Insomnia](https://github.com/krishhgg/Insomnia)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,182
+- **核心概述**: A macOS menu bar app that safely keeps your MacBook awake with the lid closed, for timed agent sessions.
+- **大概是做什么的**: Keep your Mac awake. Give the session an end time. A macOS menu bar app for timed awake sessions. Insomnia is an eye icon that lives in your MacBook menu bar. It has no Dock icon and no main window. Set how long your Mac stays awake, choose what happens when the lid closes, and see when something could not be undone. Use a stable, well-ventilated surface, not a closed bag. Insomnia is experimental. Recovery can fail, and a running timer is not a safety Validation status · Apple's ventilation guidance Requires macOS 26 or later on an Apple Silicon Mac. Paste this into your coding agent: For the newest nightly, write "the newest Insomnia nightly prerelease" in place of "the latest stable Insomnia release". Nightlies are built from main on each day it has new commits. They have the newest code and may be broken. To install a release yourself, follow docs/install.md. It covers both channels, how to check the download, and v0.1.0 , which installs Needs Xcode with Swift 6.2 or later. Replace v with the latest stable tag, or a nightly tag for the newest code: What the installer changes on y
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amphetamine-alternative, caffeinate, clamshell-mode, claude-code, codex
+
+---
+
+### 🌟 [mcp-email-server](https://github.com/Wh1isper/mcp-email-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 355
+- **核心概述**: Full-featured, multi-account MCP email server for Windows, macOS, and Linux—read, search, organize, and send email via IMAP and SMTP.
+- **大概是做什么的**: An MCP server for reading, searching, organizing, and sending email through Version 1.0.0 introduces Local Email App V2. Updating the package does not automatically import existing settings created with PyPI 0.16.0 and earlier: they remain active in backward-compatible legacy mode, so there is no required would like to use the new managed storage, you can review and import those settings whenever it is convenient. mcp-email-server supports Windows, macOS, and Linux. See Security for platform-specific filesystem and credential Optional migration for existing installations An @latest release that includes Local Email App V2 offers a preview-first The apply step displays the plan again and asks for IMPORT confirmation. A complete import selects managed mode; otherwise the existing legacy settings remain selected. The source TOML file and its legacy keyring entries are left untouched. You can also run uvx mcp-email-server@latest ui and choose Import existing settings . After a successful import, restart running MCP clients. See the detailed upgrade guidance and import troubleshooting. 1.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: email, email-server, fastmcp, imap, mcp, mcp-server
+
+---
+
+### 🌟 [aiwg](https://github.com/jmagly/aiwg)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 223
+- **核心概述**: Reusable project context and specialist workflows for the AI tools you already use. Agents, skills, rules and MCP tools for Claude Code, Codex, Copilot, Cursor and more, plus SDLC workflows, session memory, and Jev decision support that offloads bounded LLM decisions to save tokens.
+- **大概是做什么的**: Reusable project context and specialist workflows for the AI tools you already use. Plan software, coordinate specialist reviews, prepare campaigns, investigate incidents, organize research, curate media, and maintain operational knowledge. AIWG combines agents, skills, rules, templates, and workflow utilities around these tasks, adapting them to your existing AI provider. Project artifacts carry decisions from one session to the next. Domain frameworks supply the procedures; addons extend them with writing profiles, task loops, memory, testing tools, decision support, and other capabilities. The sections below show what you can do, how the pieces work together, and how to use them. The simplest setup is to paste this into a supported AI provider: The installer detects old, broken, duplicate, and development-mode installs, then guides you through repair or update. It deploys the preferred complete system with one self-verifying aiwg use all command. That command refreshes the indices, regenerates project context, verifies the resulting deployment, and reports whether a provider reloa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-ai, ai-agents, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [DecryptPrompt](https://github.com/DSXiangLi/DecryptPrompt)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 3,443
+- **核心概述**: 总结Prompt&LLM论文，开源数据&模型，AIGC应用
+- **大概是做什么的**: 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics 持续更新以下内容，Star to keep updated - 开源推理，微调，Agent，RAG，propmt 框架 - 开源SFT，RLHF，Pretrain 数据集 - Prompt教程，经典博客和AI会议访谈 - 解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt - 解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF - 解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning - 解密Prompt系列4. 升级Instruction Tuning：Flan/T0/InstructGPT/TKInstruct - 解密prompt系列5. APE+SELF=自动化指令集构建代码实现 - 解密Prompt系列6. lora指令微调扣细节-请冷静,1个小时真不够 - 解密Prompt系列7. 偏好对齐RLHF-OpenAI·DeepMind·Anthropic对比分析 - 解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE - 解密Prompt系列9. COT：模型复杂推理-思维链基础和进阶玩法 - 解密Prompt系列10. COT：思维链COT原理探究 - 解密Prompt系列11. COT：小模型也能COT，先天不足后天补 - 解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask - 解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla - 解密Prompt系列14. LLM Agent之搜索应用设计：WebGPT & WebGLM & WebCPM - 解密Prompt系列15. LLM Agent之数据库应用设计：DIN & C3 & SQL-Palm & BIRD - 解密Prompt系列16. LLM对齐经验之数据越少越好？LTD & LIMA & AlpaGasus - 解密Prompt系列17. LLM对齐方案再升级 WizardLM & BackTranslation & SELF-ALIGN - 解密Prompt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aigc, chain-of-thought, chatgpt, demonstration, few-shot-learning, in-context-learning
+
+---
+
+### 🌟 [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 104
+- **核心概述**: Claude Code WhatsApp channel plugin — run AI directly from WhatsApp, voice transcription, remote tool approval, access control. No API keys, no Docker, just a linked device.
+- **大概是做什么的**: WhatsApp Channel for Claude Code Drive your Claude Code session from WhatsApp. Choose a linked device for a personal account or the official WhatsApp Cloud API for business DMs. The default Baileys provider connects like WhatsApp Web: pair your phone, then Claude replies from your own number. Existing installations keep this provider. The optional Cloud API provider uses Meta's business API and a public HTTPS webhook, with its own credentials, messaging policies and applicable fees. Both providers feed the same MCP channel and access gate. Community project. This plugin is not made or endorsed by Anthropic or Meta. Its Baileys provider uses an unofficial linked-device protocol, which may conflict with WhatsApp's terms and put the number at risk. The optional Cloud provider uses official API transport; confirm your use is permitted under Meta's business and AI-provider rules before enabling it. The --dangerously-load-development-channels flag matters: it registers the plugin as a channel , so an inbound WhatsApp message wakes your session immediately. Without it the tools still load,
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-assistant, ai-automation, anthropic, baileys, channel, chatbot
+
+---
+
+### 🌟 [awesome-codex-cli](https://github.com/milisp/awesome-codex-cli)
+- **项目语言**: Python
+- **星标数量**: ⭐ 120
+- **核心概述**: A curated list of awesome resources, tools, plugins, skills, mcps, and tutorials for OpenAI Codex CLI
+- **大概是做什么的**: A curated list of tools, plugins, skills, resources, and tutorials for OpenAI Codex CLI — hand-picked and reviewed, not auto-collected. The Codex CLI Ticker - A Sample of Codex CLI Projects Around GitHub - What is OpenAI Codex CLI - Mobile & Remote Access - Agent Runtimes & Orchestration - Account Switchers & Proxies - Usage & Monitoring - Setup & Config Management - Forks & Patched Builds - Code Quality & Review - Claude Code Interop - Prompts & Templates - Testing & Evaluation - Directories & Registries - Workflows & Knowledge Guides 🧠 - Official References - Blog Posts & Tutorials - Web Interface Extensions - Official Web Interface - Related OpenAI Products - Learning Resources - Community Projects What is OpenAI Codex CLI OpenAI Codex CLI is a lightweight coding agent that runs in your terminal. - Codex CLI Getting Started - Official setup and first-run guide. - Slash Commands - Official reference for built-in Codex CLI slash commands. - Official References - Hooks, configuration, project instructions, skills, and MCP setup. See the official Codex model guide for availability an
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: awesome, awesome-list, chatgpt, codex, codex-cli, gpt-5
+
+---
+
 ## 🕔 2026-10-12 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 264 个候选项目中筛选出 6 个未推荐过的新项目。
