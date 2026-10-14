@@ -1,3 +1,67 @@
+## 🕔 2026-10-14 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [trypost](https://github.com/trypostit/trypost)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 704
+- **核心概述**: Open-source social media scheduler built for AI agents and the teams behind them. Create, schedule and publish posts to every network through MCP or the REST API, or write them yourself in a composer your team will love.
+- **大概是做什么的**: Run your whole social presence from one calendar An open-source social media scheduler with an AI copilot, native publishing to 12 networks, and an MCP server so your AI assistant can post for you. Self-host it, or skip the setup on cloud. Try on Cloud &nbsp;&bull;&nbsp; Documentation &nbsp;&bull;&nbsp; 📅&nbsp; One calendar, every network Plan a month at a glance, drag any post to a new slot, and publish natively to 12 platforms. No redirects, no "finish in the mobile app." ✨&nbsp; An AI assistant for your captions Generate, rephrase, shorten or expand a caption, tuned to each network's limits, in your language. 🤖&nbsp; Built for AI agents A first-class MCP server and REST API. Claude, Cursor, ChatGPT, or your own scripts can draft, schedule, and publish for you. 🗂️&nbsp; Made for many clients Workspaces, roles, and approval flows so an agency or freelancer can run a roster of brands without the spreadsheets. Visual calendar Month, week, and day views. Drag and drop to reschedule across networks. Multi-platform composer Write once, then tailor the preview per network in parallel.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bluesky, facebook, instagram, laravel, linkedin
+
+---
+
+### 🌟 [mailcheap](https://github.com/marclou/mailcheap)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 925
+- **核心概述**: The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.
+- **大概是做什么的**: MailCheap is a newsletter app: write an issue, send it to your list, publish it on the web. Self-host it free with your own Amazon SES or PostShiba account, or let us run it on MailCheap Cloud. No support. Issues are off, and setup questions go unanswered. Fork it, deploy it, make it yours. Or let us run it: mailcheap.ai. Self-host it free, or let us run it This repository is the whole app: the dashboard, the public archive, the REST API, the MCP server and the docs. MailCheap Cloud runs this same code with MAILCHEAP CLOUD=true , which adds plans and Stripe billing, and our own sending accounts. Its marketing site (the landing, pricing and legal pages) isn't part of the open source. Every change to the app ships to both. Self-hosted MailCheap Cloud Price Free, plus what your provider charges per email From $19 a month Sending Your Amazon SES or PostShiba account Ours, set up for you Who signs in The emails you allow Anyone who signs up Limits None Emails per month and subscribers, per plan Setup About an hour, most of it waiting for DNS and production access A few minutes Newsletter
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, email, mcp, newsletter, nextjs, self-hosted
+
+---
+
+### 🌟 [scout](https://github.com/outcrawlai/scout)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 604
+- **核心概述**: Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.
+- **大概是做什么的**: Tell it the task. It opens a browser and gets it done. Scout is an open-source agent that uses a real browser to finish a task for you. Describe what you need in plain words. Scout reads the page, clicks, types and scrolls until the job is done, then hands back the answer. If it cannot finish, it tells you what is missing and returns what it found. Scout runs best on Outcrawl's cloud. One line gives it a browser that sites treat like anyone at home, with captcha solving and a replay of every run. It also runs on your own machine. A recorded run on Outcrawl's cloud, 13 October 2026, shown at 6x speed with nothing cut. Start in three steps 1. Install Scout. You need Node 22 or later. On the cloud there is no browser to install. 2. Add your keys. An Outcrawl key for the browser (get one free at outcrawl.ai: 1,000 credits every month, no card needed) and a key for your model. Scout works with any AI model service that speaks the standard chat completions API, including a model running on your own computer: 3. Give it a task. Save this as task.ts and run npx tsx task.ts : Scout opens a br
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-agent, browser-automation, cdp, llm, typescript
+
+---
+
+### 🌟 [evolving-agents](https://github.com/EvolvingAgentsLabs/evolving-agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 453
+- **核心概述**: A director agent that learns how your team works: it plans by walking your CLAUDE.md and memory as linked statements, delegates to Claude Code or local models, and keeps each lesson as a gated, versioned patch. Measured: 0.929 vs 0.589.
+- **大概是做什么的**: An open lab for agents that learn how a team works — and can show what they learned. A director keeps the team's way of working as a memory of small, linked, verifiable statements. It plans by walking that memory, hands each step to a frontier model or to small local specialists, and learns from every task — each lesson a gated, versioned patch that can be blamed or bisected. Every number below was measured, including the ones that came back flat. Your CLAUDE.md, actually followed You wrote the rules down. Your agent still breaks them under pressure — on 14 real situations, a Claude Code session with the rules loaded planned by them 0.589 of the time; the director, walking the same rules compiled into linked statements, 0.929. If you keep a CLAUDE.md , an AGENTS.md or Claude Code's memory, this is for you: - it recalls the rule at the moment it applies — and cites the statement it followed in every step of its plan; - it learns from your corrections — each lesson proposed, checked against what it already knew, and kept only if you accept it, as a reversible, versioned patch; - it lea
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, agents, ai, ai-agents, aiagents, claude
+
+---
+
+### 🌟 [forge-orchestrator](https://github.com/nxtg-ai/forge-orchestrator)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 162
+- **核心概述**: NXTG-Forge orchestrator: multi-AI task orchestration with file locking, knowledge capture and drift detection. Rust. Public preview (source-available, FSL-1.1-ALv2).
+- **大概是做什么的**: Stage: Public preview. Forge is public: anyone may install and use it. Its maturity is below alpha (pre-alpha): no SLA, and interfaces may change without notice. Orchestration for Claude Code, with Codex CLI as a task runner, on shared repos — single Rust binary, zero deps. Gemini CLI support is in development (build B1, target 2026-10-27). Multi-agent inside a single tool works fine. Claude Code runs 20 subagents and they stay aligned because the tool manages that orchestration internally. The problem is multi-tool: several AI coding tools on the same repo with no shared state. That's what the orchestrator solves: today for Claude Code, with Codex CLI as a task runner. Gemini CLI support is in development (build B1, target 2026-10-27). It adds file locking, knowledge capture, task planning, drift detection, and multi-tool orchestration to your development workflow. The tools read from and write to a single state directory. An 11-tool MCP server exposes the full orchestration state to any connected AI client. The orchestrator exists because I ran two AI tools on the same codebase and
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, ai, ai-agents, ai-coding, ai-governance, claude
+
+---
+
+### 🌟 [sortie](https://github.com/sortie-ai/sortie)
+- **项目语言**: Go
+- **星标数量**: ⭐ 201
+- **核心概述**: Turn tracker tickets into autonomous agent sessions
+- **大概是做什么的**: Your next sprint isn't capped by headcount. The open-source coding agent orchestrator. Run the coding agents you already use on tasks from your issue tracker - in parallel, on your own machine or server. Website · Documentation · Discord · Contributing Coding agents can fix bugs, update dependencies, add tests, and build features. But running agents you trust across a backlog takes more than launching sessions: isolated workspaces, retries, tracker integration, and cost tracking all need to work together. Building and maintaining that infrastructure becomes another engineering project. Sortie is that infrastructure. Issue trackers: GitHub Issues, GitLab Issues, Gitea Issues, Linear and Jira. Coding agents: Claude Code, Copilot, OpenCode, Codex, Kiro and Gemini. Or via Homebrew: brew install --cask sortie-ai/tap/sortie Try the local demo with a simulated agent and no external services, or connect your tracker and coding agent. You describe the work in one WORKFLOW.md file: which issues to pick up, which agent to run, and what to tell it. Sortie polls your tracker for matching issues a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-fleet, agent-swarm, agentic-ai, ai-agents, ai-orchestration
+
+---
+
 ## 🕔 2026-10-14 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
