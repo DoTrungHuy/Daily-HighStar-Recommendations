@@ -1,3 +1,67 @@
+## 🕔 2026-10-14 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [aurelio-finance](https://github.com/LosaLosSantos/aurelio-finance)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,369
+- **核心概述**: Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.
+- **大概是做什么的**: Aurelio is a wealth-management and financial-planning app that runs on your own computer, with an AI advisor you can talk to. Your records are kept on your machine. The AI part is optional: it goes through OpenRouter with your own key. Try it on invented data You need Git, Node.js 22 or later If PowerShell says that running scripts is disabled, use powershell -ExecutionPolicy Bypass -File .\start.ps1 -Demo . The first start installs what it needs inside the folder and opens on an invented household, kept in a file of its own. Start without the flag to use your own data. Run it on your own data Your records live in backend/data.db . Before an update changes its format, the app saves a copy next to it. - Wealth : your banks and brokers, their cash, and dated situations of what - Portfolio : every position priced from the market, with its cost, gain and - Look-through : what your funds really hold, by country, sector, company - Plans, homes and debts : recurring investments, real assets and the loans - Cash flow and goals : income, expenses, savings rate, and the return each - Ask Aurel
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, dividends, etf, finance, financial-planning, fintech
+
+---
+
+### 🌟 [enferno](https://github.com/level09/enferno)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 568
+- **核心概述**: Lean Flask framework built for coding agents: Vue 3 + Vuetify with no build step, production-ready auth (2FA, passkeys, OAuth), AGENTS.md, an agent skill and a read-only MCP server. No webpack, no node_modules, just Python.
+- **大概是做什么的**: Live Demo · Docs · Tutorials A Flask framework built for coding agents. You describe the app; your agent builds it on a stack it already understands, and a test suite tells it when it got something wrong. Plain Python, Vue 3 and Vuetify with no build step, production auth out of the box. No webpack, no node modules, nothing for the agent to configure. Paste this into Claude Code, Codex, Cursor or any coding agent: setup.sh never prompts when there is no terminal, so agents and CI run it with flags: --full adds Redis and Celery, --docker configures the Compose stack. https://github.com/user-attachments/assets/a87bfad2-45dc-4d94-bdf1-0448dfea8084 How your agent knows Enferno What it gives the agent When AGENTS.md Stack, layout, commands, routes and hard rules, in about 100 lines Every session, read automatically enferno-dev skill Full patterns for models, APIs, Vue pages, dialogs, migrations and upgrades Loaded only when a task needs it flask mcp Live routes, schema with row counts, migration revision and audit log, read-only When the agent needs the real state, not the docs /llms.txt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-md, ai-agents, celery, claude-code, docker, flask
+
+---
+
+### 🌟 [Sibyl-Memory](https://github.com/Sibyl-Labs/Sibyl-Memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 173
+- **核心概述**: Durable, file-based long-term memory for AI agents. Five-package plugin family: SDK, CLI, MCP server, Hermes adapter, and a LangGraph BaseStore. No vector database, no embeddings.
+- **大概是做什么的**: agentic memory infrastructure · file-based · zero embeddings built by an autonomous agent · sibyl labs llc Five PyPI packages, one schema family, one architecture. Runs on Linux, macOS (Apple Silicon and Intel), and Windows through WSL2. Native Windows is not supported. sibyl-memory-client is a local-first agentic memory SDK. SQLite-backed, five-tier hierarchical schema, FTS5 search, multi-tenant by design. No vector database. No embedding model. No external retrieval service. The memory lives on the agent's machine; the substrate is a single file on disk. Privacy disclosure. Your memory content never leaves the machine. The plugin talks to api.sibyllabs.org for these things only: activation ( sibyl init ); a daily account check-in that renews this computer's access (account id, this computer's sign-in token, plugin version, OS family; no memory content); a size check when a free account nears its cap (account id, sign-in token, the database's byte size and the proposed delta); and, unless you opt out with SIBYL MEMORY TELEMETRY=0 , an aggregate count of memory operations. The size c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, claude, langgraph, llm, long-term-memory
+
+---
+
+### 🌟 [axiomcodegraph](https://github.com/AxiomCodeAI/axiomcodegraph)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 130
+- **核心概述**: Turn any codebase into a knowledge graph grounded in formal methods. Your AI agents get exact answers for any code-related task, ensure correctness, and optimize time and token usage.
+- **大概是做什么的**: A god's-eye view of your codebase for AI agents. Stop grepping. Ensure correctness and completeness for any task your AI agent performs. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cross-file coverage · Be first to see what we build. &nbsp; Stay in touch ↗ Give it a repository. It builds a knowledge graph of your code using formal methods: for every function, exactly who calls it and what it calls, derived by logical rules rather than guessed. Your AI agents, and you, then understand, explore, search and edit the code from that map instead of grepping. Grep cannot see calls through an interface, a subclass or a callback, and its output gets truncated, so agents silently miss what was cut. The map prunes 99.9% of the codebase, so agents keep their context for the task, not the search. On real bugs. On 748 held-out Defects4J bugs, scored once after the rules were frozen, the tests AxiomCode picks from source include every bug-revealing test for 94.9% of bugs (best tree-sitter builder: 61.5%), at an F1 of 72.4 against what Defects4J observes by running the suite. Why: types make a better graph
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-skills, antigravity, ast, change-impact-analysis, claude-code
+
+---
+
+### 🌟 [kagan](https://github.com/kagan-sh/kagan)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 106
+- **核心概述**: A desktop app for coding with agents. Each thread is a real terminal running the agent you already use.
+- **大概是做什么的**: kagan is a desktop app for coding with agents. Each thread is a real terminal that runs the agent you already use. Install · Use · Plugins · Tests kagan is early. It is not ready for daily use. The version starts at 0.1.0. kagan is one window for your agents. A thread is one piece of work in one folder. In the thread, your agent runs in a real terminal: Claude Code, Codex, or another agent program. kagan does not replace the agent. kagan keeps the threads, the folders, and the changes in one place. kagan is built in Rust. It runs on macOS, Windows, and Linux. The data stays on your computer. There is no account. The terminal threads are in progress. This version still shows a chat for each thread. The plan is in Direction. Releases has an installer for each system: a .dmg for macOS, an .exe for Windows, and a .deb and an AppImage for Linux. Each release has a SHA256SUMS file. Check the file you downloaded: To build from source, you need Rust. rust-toolchain.toml sets the compiler version. The data is in /.makerspace . On Windows, it is in %USERPROFILE%\.makerspace . Set KG DATA DIR t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, antrophic, claude, claude-code, cli
+
+---
+
+### 🌟 [orionbelt-semantic-layer](https://github.com/ralforion/orionbelt-semantic-layer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 100
+- **核心概述**: Source-available semantic and context layer, rule engine, and semantic sidecar for agentic AI and governed analytics. Compiles declarative YAML models into optimized SQL, KPIs, and semantic context across 8 SQL dialects.
+- **大概是做什么的**: OrionBelt&reg; Semantic and Context Layer, Rule Engine, and Semantic Sidecar Define shared metrics or model a set of questions in YAML. Let agents and BI tools query through one semantic compiler. A semantic sidecar : it rides alongside the systems you already run instead of replacing them. Ask an LLM to write SQL against a raw star schema and sooner or later it joins two fact tables and hands you a revenue number inflated by a factor of eight. It looks right. Nobody catches it. OrionBelt is a semantic and context layer with a rule engine , and it runs as a semantic sidecar . You or an agent declare dimensions, measures, metrics, and joins in YAML, scoped to one task or maintained as a shared model. OrionBelt compiles them into dialect-specific SQL through a real AST, and routes multi-fact queries through a Composite Fact Layer planner that blocks the join paths that produce fan traps. Queries ask for "Total Revenue" by "Country" ; physical table and column mappings live in the model. No BI tool in the middle. No runtime lock-in. Point it at what you already have. An agent can model
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, analytics-as-code, bigquery, business-intelligence, clickhouse, data-analytics
+
+---
+
 ## 🕔 2026-10-14 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
