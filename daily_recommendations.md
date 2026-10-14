@@ -1,3 +1,67 @@
+## 🕔 2026-10-14 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [StartLux-Decision](https://github.com/StartLuxLabs/StartLux-Decision)
+- **项目语言**: Python
+- **星标数量**: ⭐ 403
+- **核心概述**: Open decision models from 0.8B to 27B: a calibrated probability for every option in one pass, and a short thought only when unsure. Engine for vLLM, llama.cpp and MLX.
+- **大概是做什么的**: Hugging Face &nbsp;&nbsp; &nbsp;&nbsp; Technical report &nbsp;&nbsp; &nbsp;&nbsp; Blog &nbsp;&nbsp; &nbsp;&nbsp; Documentation &nbsp;&nbsp; &nbsp;&nbsp; API reference &nbsp;&nbsp; &nbsp;&nbsp; StartLux-Decision is a family of open decision models. Given a state (text, JSON or images) and a set of typed questions, a model returns a probability for every option of every question: a choice among listed options ( choice ), a yes or no judgement ( noul ), or a level on a scale ( score ). Instant models answer in a single forward pass with bidirectional attention over the prompt. AutoThink models answer in one pass when the top probability reaches a gate, 0.6 by default, and otherwise generate a short reasoning trace and read the answer again. This repository contains the inference engine and HTTP server for both variants. The API is compatible with System One /v1/systemone . Computer use: finds the cheapest AA 8-pack with free delivery and orders it to the right address Chess: with White, checkmates Jev 1.13 on move 19 of a Scotch Game, and neither side searches Super Mario Bros.: clears
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, calibration, classification, decision-making, gguf, inference
+
+---
+
+### 🌟 [Pi-Bolt](https://github.com/opensec-git/Pi-Bolt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 325
+- **核心概述**: Pi, the coding agent, compiled ahead of time to native code. Starts 3× sooner than Pi on Bun and uses about a third of its CPU.
+- **大概是做什么的**: The Pi coding agent, compiled ahead of time to native code. One executable for Linux x86-64, macOS on Apple silicon and Windows x64. No JIT, no Node.js or Bun required. Pi-Bolt is the Pi you already use, with the same commands, sessions, settings, providers and extensions. Every function is compiled to machine code when the executable is built, so nothing is parsed or JIT-compiled at launch. It starts two to three times sooner than Pi on Bun, uses a quarter to a third of its CPU over a session, and handles long answers and large files six to seventy-five times more cheaply. AMD EPYC 7B13, Linux. Pi-Bolt 0.8.5 against Pi 1.1.0 as released on stock Bun 1.4.2 and Node 24; medians of interleaved runs, lower is better. See Benchmarks. Pi-Bolt is an independent fork of Pi, not affiliated with Pi's authors or with Oven. On Windows, in PowerShell: or in Command Prompt: or npm install -g --allow-scripts=pi-bolt pi-bolt , or bun add -g --trust pi-bolt . Then run pi-bolt in your project. Your Pi configuration in /.pi/agent is used as is; new to Pi? Run /login to connect a provider. pi-bolt upda
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ahead-of-time, ai-agent, ai-coding-assistant, aot-compiler, bun, cli
+
+---
+
+### 🌟 [lampOS](https://github.com/autonomous-ai/lampOS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 440
+- **核心概述**: The open-source operating system for physical AI.
+- **大概是做什么的**: Physical AI Operating System We're building the "Android" for physical AI agents. Give Hermes, Claude Code, Codex, and other AI agents eyes, ears, a voice, and a body they can control. Bring your AI agents into the physical world. Start with Lamp · Bring your own robot · Build a physical skill https://github.com/user-attachments/assets/c80f1255-4355-4f59-9114-6d3b8d4007a2 Run Hermes, Claude Code, Codex, OpenClaw, OpenCode, or PicoClaw. Choose a compatible model and configure its voice, personality, and tools. The OS runs on the robot and coordinates hardware and agent tasks. Model inference may use remote services, depending on your configuration. Start with Lamp, Intern, or Reachy Mini—or add support for your own robot. Physical AI Operating System connects the agent to the hardware that body provides: cameras, microphones, speakers, motors, lights, and sensors. Give your agent new ways to sense and interact with its surroundings. - Follow an object with its camera and movement. - Respond to touch with a gesture. - Turn a sensor reading into light, movement, or speech. Start with an
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, claude-code, embedded, llm, open-source-robotics
+
+---
+
+### 🌟 [AfterFrame](https://github.com/YIWANG3/AfterFrame)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 241
+- **核心概述**: Local-first photo library for Mac and Windows. Browse, cull and search thousands of photos and RAWs, find people and places on-device, and edit with LUTs, text, stickers, camera frames and collages. Agent-ready over MCP.
+- **大概是做什么的**: A local-first photo workspace for browsing, editing, and managing large photography libraries. AfterFrame is built for photographers who work with thousands of exported images and want a fast, visual tool to browse, organize, crop, add text overlays, and experiment with AI-powered style transfer — all without leaving one app. Project site · Download - Mac: on macOS 14 or later, -arm64.dmg for Apple Silicon or -Intel.dmg for an Intel Mac. On macOS 12 or 13, take -macOS12-arm64.dmg (Apple Silicon) or -macOS12-Intel.dmg (Intel): the same app without People, Scene Depth and Stickers, which need macOS 14. Signed with an Apple Developer ID. If a build isn't notarized yet, macOS may warn on first launch — right-click the app and choose Open , or allow it under System Settings → Privacy & Security. - Windows: the -setup.exe . Windows 10 or 11, 64-bit. The installer isn't signed yet: when Windows says "Windows protected your PC", click More info , then Run anyway . Stickers, People, Scene Depth and LUTs are in the macOS app only for now. - Library Management - AI Auto-Annotation (BYOK) - Agen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: electron, exif, local-first, lut, macos, mcp
+
+---
+
+### 🌟 [catbus](https://github.com/cv-cat/catbus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 378
+- **核心概述**: 一个命令操作小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X：统一的命令与 JSON 输出，给人和 AI Agent 用
+- **大概是做什么的**: 小红书 · 抖音 · TikTok · B 站 · 快手 · 微博 · 闲鱼 · 淘宝 · 京东 · X · 12306 即将上车：Instagram · YouTube · Facebook · 知乎 · 微信公众号 · 今日头条 · 得物 · 拼多多 · 美团 · 大众点评 简体中文 · English · 繁體中文 · 日本語 · 한국어 快速上手 · 能力矩阵 · 各平台 · 示例 · 给 Agent 用 每个平台都有自己的一套接口、签名、登录方式和数据格式。 catbus 把它们装进同一辆车 ：同一套命令、同一种 JSON、同一个登录态目录。换平台，只需要换一个词。 Sponsored by Vectrust @ OpenDev Org & NextRouter Alliance catbus（猫巴士）是一个命令行工具，用 统一的语法 调用 11 个中外主流平台的 web 端能力：搜索、详情、评论、用户、推荐流、下载、发布、私信、直播弹幕、列车余票票价…… 四个平台，四条几乎一样的命令，输出 同一种结构 的 JSON。笔记、作品、稿件、推文一律叫 item ，搜索一律叫 search ，点赞一律叫 like 。学一次，十个平台都会用。 含义相同的能力，在所有平台上用 同一个命令、同一组参数、同一种输出 。用了平台原生叫法（ note 、 aweme 、 tweet ……）也没关系，catbus 会告诉你该用哪个词。 不需要 Python、编译器或任何系统依赖。原生依赖全部带预编译包，覆盖 Windows、macOS、Linux 的 x64 / arm64（含 musl）， 8 个目标系统 在 CI 上逐一冒烟。 stdout 只有 JSON，退出码稳定，错误里带着下一步该执行的命令； catbus platforms 输出完整的能力清单。自带 Agent 技能 与 llms.txt。 扫码、短信、cookie 导入都支持，凭证按 平台 × 端 × 账号 隔离在 /.catbus/ （0700 / 0600），多账号随时切换。不收集、不上传任何数据，没有遥测。 每个请求的 URL、header 顺序、cookie、body 和签名，都在固定的随机数与时钟下和上游实现 逐字节对拍 。560+ 份对拍数据、940+ 个离线测试守住每一次改动。 与真 Chrome 一致的 TLS / HTTP2 指纹，上游签名 JS 原样在沙箱里运行，滑块、点选验证码用本地的 ONNX 与 OpenCV 自动识别。 🚌 平台 ⌨️ 已实现命令 🧪 对拍数据 ✅ 离线测试
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, bilibili, claude-code, cli, crawler, douyin
+
+---
+
+### 🌟 [claude-desktop-fedora](https://github.com/dewzor/claude-desktop-fedora)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 156
+- **核心概述**: Claude Desktop for Fedora 44 — native RPM built from Anthropic's official Linux x86_64 build. Unmodified upstream payload, Chromium sandbox on, Claude Code + Cowork + MCP working.
+- **大概是做什么的**: Claude Desktop for Fedora 44 Install Claude Desktop on Fedora 44 as a native RPM, built from Anthropic's official Linux x86 64 build . Unmodified upstream payload, Chromium sandbox on, Claude Code and Cowork working. Tested on Fedora 44 with KDE Plasma (Wayland) and GNOME (Wayland); should work on Fedora 43 and later. TL;DR: ./build-official.sh && sudo dnf install build/official/claude-desktop- .rpm Unofficial packaging. Anthropic ships the app; this repo only rewraps it for dnf . If you hit a packaging bug, open an issue here, not with Anthropic. Install Claude Desktop on Fedora 44 Launch Claude from your application menu, or run claude-desktop . The launcher also ships two desktop actions: New Chat and New Claude Code Session . The build runs entirely as your own user; root is only needed for the final dnf install . Auto-updates via COPR claude-desktop-builder is a small MIT-licensed package. It does not contain Claude Desktop, and it never will. Claude Desktop is proprietary, so no repository is allowed to ship it. What the package ships is the build itself: build-official.sh , a
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anthropic, claude, claude-ai, claude-code, claude-desktop
+
+---
+
 ## 🕔 2026-10-14 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
