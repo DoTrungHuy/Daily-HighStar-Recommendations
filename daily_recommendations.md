@@ -1,3 +1,67 @@
+## 🕔 2026-10-14 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [new-term-radar](https://github.com/zhuyansen/new-term-radar)
+- **项目语言**: Python
+- **星标数量**: ⭐ 908
+- **核心概述**: Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.
+- **大概是做什么的**: A daily report of the names that are starting to surge in AI: new models, products, tools and repos, caught where they are said first, before they show up in keyword tools. Built for people who make pages, posts or products around new terms: SEO for AI tool sites, newsletters, directories, anyone who wants to know about "Strata" or "Seedance" the day it appears and not two weeks later. A new name leaves a trail, in this order: 1. A lab or a well-followed account says it on X; a model enters Hugging Face's trending list. 2. One GitHub repo takes off on its own. 3. Directories and competitors add pages for it; someone registers a domain for it and the site starts to rank. 4. Your own site gets its first search impressions for it. 5. Google Trends shows the curve, days or weeks later. Keyword tools read step 5. This radar reads steps 1 to 4 every day and uses step 5 only to check itself. One example it was built around: Niko1221/Strata was created on 2026-09-24 and had 7,700 stars nine days later. People were searching "niko strata" from 9/26, while no second repo carried the name and n
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai, aisa, claude-code, claude-skills, google-trends
+
+---
+
+### 🌟 [claude-token-optimizer](https://github.com/nadimtuhin/claude-token-optimizer)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 618
+- **核心概述**: Cut the tokens Claude Code loads at session start. CLI that sets up a small CLAUDE.md with on-demand docs, measures startup tokens, and keeps them small.
+- **大概是做什么的**: Claude Token Optimizer Claude rereads everything. Every session. You pay each time. ★ 600+ npm MIT Node 20+ Mine was 11,000 tokens per session. Open 20 sessions a day and that is 220,000 tokens gone before you type a word. That is money, usage limits, and room Claude could have used for your code. Open a terminal in your project folder and paste each line as is. Inside Claude Code, type ! first, then paste. 0. Keep a copy of your notes, just in case: 1. See what Claude rereads every session: Old session notes and finished task lists move into side files Claude opens only when needed. You get a line like ✓ Saved 3414 tokens . Run step 1 again to see your new total. Says "Nothing to prune"? Use the Claude Code prompt below instead. Rather not type commands? Paste this into Claude Code: Claude reads in tokens. Small pieces of text. Before, every session reread all your project notes, piece by piece. Now it gets a cheat sheet. A short file at the start. Everything else waits in files Claude opens only when it needs them. Nothing about how you use Claude changes. Each session just starts
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-md, ai-assistant, automation, claude, claude-code, claude-md
+
+---
+
+### 🌟 [Codync](https://github.com/leepokai/Codync)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 362
+- **核心概述**: The open-source Grok Bot alternative: message Claude Code, Codex, Cursor, Gemini and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Free. Also a Muse and Dots alternative. Built in Rust.
+- **大概是做什么的**: The open-source Grok Bot alternative. Your coding agents, as teammates you can message. Website · Compare · Launch film Free, open source, no paid tier. A ⭐ is how others find it. macOS: Apple Silicon + Intel (DMG) · Windows: x64 installer · Linux: AppImage · All downloads Codync turns the coding agents on your computer — Claude Code, Codex, Cursor, Pi, OpenCode, Grok Build, Gemini, Copilot and 40 more — into persistent bots you delegate to from your iPhone, Mac, Windows PC, Linux desktop or any terminal, the way you'd message a colleague. Pick who, say what, put the phone away. You get a notification when a bot finishes or needs your approval. Why bots? On a phone, "find the right working session, then pick an environment" is too slow. With bots you already know who to hand the intent to: open the chat, type, done. - Free and open source. No subscription, no paid tier, Apache 2.0 licensed. It runs on your computer with the agents and accounts you already have. - Bring any coding agent. Claude Code, Codex, Cursor, Gemini, Copilot, OpenCode, Pi, Grok Build and 40 more — everything in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-client-protocol, ai-agents, claude, claude-code, codex
+
+---
+
+### 🌟 [pi-harness](https://github.com/wangmiaozero/pi-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 314
+- **核心概述**: The operational superset of Pi Coding Agent — everything Pi, plus observability, governance, recovery, evaluation and multi-agent orchestration. Pi Coding Agent 的运维超集——完整继承 Pi 的核心能力，并进一步扩展可观测性、治理、故障恢复、评估和多 Agent 编排。
+- **大概是做什么的**: The Operational Superset of Pi Coding Agent Everything Pi. More visibility, control, recovery, and orchestration. Native Pi, supercharged. Pi Coding Agent ⊂ Pi-Harness Create a Custom Skin · ⭐ Star Pi-Harness to follow the project. Pi-Harness is an operational superset of Pi Coding Agent. It keeps Native Pi as the execution runtime and preserves Pi-compatible sessions, tools, models, Skills, extensions, context, and compaction, while adding a complete Harness engineering layer around it. - Observe — Runs, Trace, Replay, Diagnostics, Evaluation, Regression, and Artifacts - Control — Policy, Budget, Checkpoints, Recovery, Permissions, and tool control - Orchestrate — Agents, Teams, Tasks, Dependencies, Handoffs, Review Gates, and Worktrees - Work — Workspace, Files, Git, Models, Providers, Skills, and Packages Pi runs the agent. Pi-Harness turns Pi into a visible, controllable, recoverable, and orchestratable engineering system. Pi-Harness does not replace or reimplement Pi's Agent Runtime. What "Superset" Means Native Pi remains inside the real execution path. Layer Capabilities -----
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-observability, agent-orchestration, ai-agent, coding-agent, desktop-app
+
+---
+
+### 🌟 [skillmd](https://github.com/skillmds/skillmd)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 221
+- **核心概述**: Lint, search, and install Agent Skills (SKILL.md) — CLI + MCP server + lint engine
+- **大概是做什么的**: The registry that lints. Search, install, lint and publish Agent Skills ( SKILL.md ) for Claude Code, Cursor, Codex and 60+ other agents. This repo is the open-source toolchain behind skillmd.com : the CLI, the MCP server, the GitHub Action and the SKILL.md engine they share. An Agent Skill is a folder with a SKILL.md file: YAML frontmatter ( name , description ) plus Markdown instructions an agent loads on demand. Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, Windsurf and dozens of other agents read the same format, which is what makes a shared registry worth having. If the format is new to you, start with What is an Agent Skill? and the anatomy of a SKILL.md file. skillmd.com is the open registry of those skills: 1,000,000+ skills from 30,000+ publishers , every one of them linted against the format, security-scanned for what it can do, and pinned to a commit. Verdicts, capability flags and independent scanner results sit on every skill page. Installing writes files and does nothing else. This repository is everything that runs on your machine or in your CI, MIT-licensed:
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, agent-skills-registry, ai-agents, claude, claude-code, cli
+
+---
+
+### 🌟 [mcd-coupon-strategist](https://github.com/Ayzzz123/mcd-coupon-strategist)
+- **项目语言**: Python
+- **星标数量**: ⭐ 303
+- **核心概述**: 麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。
+- **大概是做什么的**: 市面上的省钱工具都在回答「这一单怎么点最省」。 我们多回答一个问题：「你正在白扔多少钱？」 快速体验 · 真实例子 · 核心亮点 · 架构 · 设计原则 基于麦当劳中国 MCP 打造的点餐成本助手，做两件事： - 拉取 当前门店 的实时菜单与价格 - 拉取你 账户里当前门店可用 的优惠券 - 枚举「单品 / 套餐 / 券组合 / 加购凑单」的候选方案 - 用 MCP 的 calculate-price 逐方案 真实计价 （而不是猜） - 输出最省钱的方案，以及 为什么不推荐更便宜但吃不饱的选项 - 券的沉默成本 ：你手里有几张券即将过期？那就是正在流失的钱 - 消费习惯画像 ：近 N 个月花了多少、客单价是否偏高、哪些单品该改成套餐 - 数据来自 order-list 历史订单 + query-my-coupons 券存量 🍟 一次点餐平均省 💸 沉默成本发现 🧮 价格来源 🔑 使用门槛 :---: :---: :---: :---: 3 13 元 一次几十元 MCP 真实计价 无需 Token 即可跑测试 零第三方依赖 （只用标准库）、 不需要 MCP Token 、 不联网 。 demo.py 读取 fixtures/ 里录制的真实 MCP 响应，跑通两条链路： 上面那 3 张全是「价值未知」 不是解析失败 ，是数据事实：这份菜单快照采集于 21:59 ，而脆薯饼、冰美式并不在该时段的菜单里。我们 没有为了让 demo 好看 而往菜单里塞一个能匹配上的商品名 —— 原因与验证方式见 fixtures/README.md 。 上面这段输出为便于阅读做了删减（省略了分隔线、以及「积分还不够」等重复项）， 完整输出请直接跑 python demo.py 。 真实运行时，这些响应由 MCP 实时 返回，业务逻辑一字未改 —— 所以这个 demo 同时也是整套数据流水线的 端到端回归测试 。 数据来源与采集时间见 fixtures/README.md 。 同样吃到「汉堡 + 薯条 + 可乐」：套餐 33.5 元，单点 46.5 元， 差 13 元 —— 而单点那条已经超出 40 元预算，所以它是对照，不是备选。 本月最该做的事：先把 21.1 元的券用掉，这笔钱不用就是纯损失。 第二个问题的价值不在这一次的数字大小，而在于 它是持续性的 ： 第一个问题每单只影响一次；第二个问题每次都会告诉你又有什么在悄悄过期 —— 注意「王牌小食拼」那个 6.6 元：这张券的标题里没有数字，菜单里也没有对应商品， 靠反查原价这条路根本走不通 。它的价值是把券的商品码传给 ca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cost-optimization, coupon, llm, mcd-mcp, mcdonalds
+
+---
+
 ## 🕔 2026-10-14 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
