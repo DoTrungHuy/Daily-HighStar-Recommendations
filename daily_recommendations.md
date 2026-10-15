@@ -1,3 +1,67 @@
+## 🕔 2026-10-15 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openmeld](https://github.com/amplifthq/openmeld)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,358
+- **核心概述**: 面向人员和人工智能代理的开源协作系统。与您的团队、云代理、Codex、Claude Code、Grok、Grok Bot、OpenCode、Antigravity 和 Cursor 共享上下文、协调任务并并行工作。
+- **大概是做什么的**: 开放的人类代理协作系统共享上下文，并行工作，并与您的团队、云代理和每个人的代理（Codex、Claude Code、Grok Build、OpenCode、Antigravity 和 Cursor CLI）继续工作。与人员和代理共享的空间。带有示例内容的网站演示。 1. 打开 OpenMeld 并创建一个工作区或加入您的团队。 2. Open Center Agent，您的托管AI队友。 3. 给它一个小任务。无需本地安装。将这些笔记转化为三项议程：选择发布日期、测试注册并分配公告。也想使用您当地的代理商吗？在保存您工作的计算机上，安装具有受支持的 Node.js 版本的 CLI：按照安装提示进行操作。然后创建本地代理并选择其计算机、代理工具和项目文件夹。您的计算机在工作时必须保持连接。保留您现有的代理帐户和订阅。将���的本地代理带入共享空间。要求中心代理协调工作，保存文件和对话背景，并与您的团队一起审查结果。功能 OpenMeld R
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-client-protocol, agent-orchestration, agent-skills, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [cli](https://github.com/firecrawl/cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 651
+- **核心概述**: Firecrawl CLI 和代理技能：从您的终端或任何编码代理进行网络搜索、抓取、爬行和浏览器交互。 Firecrawl 是适用于 AI 代理的最完整的 Web 数据 API。
+- **大概是做什么的**: Firecrawl 的命令行界面。搜索、抓取、交互、爬行、地图、搜索研究论文、开发人员资源和政府资源，并直接从您的终端运行代理作业。或者在一个命令中设置所有内容（全局安装 CLI，在所有检测到的编码编辑器中进行身份验证和添加技能）： - -y 非交互式运行安装程序 - --browser 自动打开浏览器进行 Firecrawl 身份验证 - 默认情况下，技能全局安装到每个检测到的 AI 编码代理 设置技能、工作流程和 MCP 如果您使用的是 Claude Code 等 AI 编码代理，您还可以手动安装技能组 - 每个系列一个命令：或按名称安装一项技能 - firecrawl- 前缀是可选的：如果之后没有找到 API key，交互式终端提供浏览器登录（通过 --browser 登录，无需提示）；非交互式运行永远不会阻塞——它们会打印提示，并且技能会在首次使用时引导代理完成设置。默认情况下，它们会在所有检测到的编码编辑器中全局安装。使用 --agent 将其中任何一个的范围限定为一个编辑器。范围设置为单一
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, cli, firecrawl, mcp, web-scraping, web-search
+
+---
+
+### 🌟 [alphacode](https://github.com/dragonked2/alphacode)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 305
+- **核心概述**: 免费的 MIT AI 编码代理 — 无需 API 密钥。内置免费模型，或者带Claude、GPT、Gemini、DeepSeek、Ollama +50多个。 Swarm 模式、40 多种工具、浏览器和桌面自动化，采用 Rust 构建。
+- **大概是做什么的**: AlphaCode — 开源 Rust AI 编码代理 一种终端优先的 AI 编码代理，可以理解您的代码库、编辑文件、运行命令和测试、自动化 Firefox、控制桌面应用程序并验证自己的工作。入门 · 文档 · 发布 · 报告错误 · Firefox 浏览器代理 在两分钟内尝试 AlphaCode 快速启动 查看它能做什么 演示 · 功能 使用 Claude、GPT、Gemini 或本地模型 模型和提供商 在 Firefox 中自动化网站 Firefox 浏览器自动化 控制桌面应用程序 桌面自动化 修复安装或设置问题 排除 AlphaCode 卸载问题 排除故障 帮助改进项目 贡献预览 AlphaCode 的实际操作，从安装到第一个任务。单击图像以全尺寸打开原始 SVG。该图像链接到原始 SVG。如果在第三方查看器中无法渲染，请直接打开 SVG。显示或隐藏目录 - 什么是 AlphaCode？ - 编码和存储库工作 - Web 工作流程和质量保证 - Firefox 浏览器自动化 - 桌面自动化 - 会话和内存 - 建模
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agent, ai-agents, ai-coding, ai-coding-assistant
+
+---
+
+### 🌟 [rails-ai-context](https://github.com/crisnahine/rails-ai-context)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 163
+- **核心概述**: 阻止 AI 猜测您的 Rails 应用程序。 35 个 MCP 工具为编码代理提供按需的基本事实：模式、模型、路线、控制器、视图、作业和约定。适用于 Claude Code、Cursor、GitHub Copilot、OpenCode 和 Codex CLI。 MCP 或 CLI，在您的 Gemfile 中或独立的，当应用程序无法启动时它仍然会回答。
+- **大概是做什么的**: 您的 AI 编码助手，阅读您真正的 Rails 应用程序，而不是猜测它。一贴安装 · 为什么 · 您会得到什么 · 工具 · 命令 · 文档 Rails-ai-context 使您的 Rails 应用程序成为 AI 编码助手的真实来源。助手不再根据训练数据猜测您的模式、关联、路线和约定，而是询问您的应用程序：通过 MCP 或命令行的 35 个只读工具，以及为 Claude Code、Cursor、GitHub Copilot、OpenCode 和 Codex CLI 编写的上下文文件。一键安装 在 Rails 应用程序的根目录中打开 AI 工具并粘贴它。它会安装 gem，设置您正在使用的 AI 工具，检查结果并告诉您还剩下一步。还有其他想法吗？有一个提示 没有 Gemfile 更改 gem 存在于您的 Ruby 中，应用程序的捆绑包保持不变，因为它只是 CLI 没有 MCP 服务器。助手仅将工具作为 shell 命令 MCP 服务器运行，仅此而已。您的 CLAUDE.md 和 AGENTS.md 保持不变 整个团队 所有五个 AI 工具，因此每个打开存储库的人都会得到它 一个应用程序文件夹 一个编辑器窗口、多个应用程序、一个 MCP 服务
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-coding, claude, codex, codex-cli, copilot
+
+---
+
+### 🌟 [calnode](https://github.com/Calnode/calnode)
+- **项目语言**: Go
+- **星标数量**: ⭐ 116
+- **核心概述**: 精益、可自托管的 Calendly 和 Cal.com 替代方案 — 单个 Go 二进制文件 + SQLite、API 优先和 MCP 原生。阿帕奇-2.0。
+- **大概是做什么的**: 一个位于您的 AI 堆栈中的精益、自托管调度引擎。 Calnode 是一款 Calendly 风格的预订应用程序，内置第一方视频会议、录音和 AI 笔记功能，作为带有嵌入式 SQLite 数据库的单个 Go 二进制文件提供：没有 Redis、没有 Postgres、没有单独的 API 服务器、没有多 GB 图像。它是 API 优先、原生 webhook，专为代理进行预订的世界而构建。在 5 美元的盒子上自行托管整个内容；没有什么是付费的。 Calnode 在小型 VPS 上运行只需几美分——��是一个服务于 SQLite 文件的静态二进制文件，因此几乎不需要支付任何费用。 Apache-2.0 · Go 1.26 · 单个静态二进制文件 · SQLite + Litestream 踢轮胎 - 一个命令，无需配置：整个应用程序 - 预订页面、管理 UI、SQLite - 在一个容器中，数据位于 ./data 中。如果没有设置加密密钥，它会在临时密钥上运行（看起来不错；存储的凭据将无法在重新启动后保存）。真实部署 — HTTPS、持久加密密钥、备份 — 请参阅下面的真实部署，或完整的 DEPLOY.md 。 - 一个二进制文件，一个文件。 Pure-Go SQLite（无 CGO）编译为完整统计数据
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: booking, calendly-alternative, go, mcp, scheduling, self-hosted
+
+---
+
+### 🌟 [build-world](https://github.com/thrixel/build-world)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 103
+- **核心概述**: 使用 Thrixel 和您选择的 AI 代理的高质量资产构建交互式 3D 世界。
+- **大概是做什么的**: 克劳德·代码（或您首选的代理）负责处理逻辑、交互和场景设置。 Thrixel 生成、组织和管理 3D 资产。使用 Thrixel 比 Claude Code 更快、更高质量地生成 3D 资产，从而节省编码代理令牌和时间。 Gauntlet Loop 内的 Thrixel 步骤 1 和 2 每台机器一次。之后，新游戏只是第 3 步。改为 Gemini CLI？每个人都以自己的方式安装 Thrixel - 安装页面上有这两种方法的步骤。 1.安装 Claude Code 和 uv 两个打印版本？跳至步骤 2。未安装？在这里安装命令⚠️现在打开一个新终端，然后重新运行上面的检查。跳过此操作是导致找不到命令的首要原因。 2. 将 Thrixel 与 Claude 代码插件连接 每个平台上都相同：确认两块都已落地：两条线看起来都正确吗？你完成了。转到步骤 3。打开更新（一次）。默认情况��更新处于关闭状态。在 Claude 代码中： 2. Marketplaces thrixel 3. 启用自动更新（或随时手动更新： /plugin update thrixel@thrixel 。跳过此操作？没问题，代理会在有新版本时告诉您
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-assets, ai-agents, claude-code, claude-skills, game-prototyping, gamedev
+
+---
+
 ## 🕔 2026-10-14 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
