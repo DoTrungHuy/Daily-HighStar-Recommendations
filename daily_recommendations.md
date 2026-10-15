@@ -1,3 +1,67 @@
+## 🕔 2026-10-15 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 310 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [lollms-webui](https://github.com/ParisNeo/lollms-webui)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,793
+- **核心概述**: 大语言和多模式系统 Web 用户界面之主
+- **大概是做什么的**: LoLLMs WEBUI（本地、单用户、多模型/模态完全集成的 webui） 可以在以下位置找到新的 lollms 项目：https://github.com/ParisNeo/lollms 这是一个更高级的版本，具有多用户和 MCP 兼容性。 lollms webui 保持最低限度的支持，最终将被新的 lollms 项目完全取代。这里是关于如何在 lollms 中使用函数调用的教程 LoLLMs 核心库下载统计 LoLLMs webui 下载统计欢迎来到 LoLLMS WebUI（大语言多模态系统之王：统治一切的工具），LLM（大语言模型）和多模态智能系统的中心。该项目旨在提供一个用户友好的界面来访问和利用各种 LLM 和其他人工智能模型来完成广泛的任务。无论您需要写作、编码、组织数据、分析图像、生成图像、生成音乐还是寻求问题答案方面的帮助，LoLLMS WebUI 都能满足您的需求。作为一个包罗万象的工具，可以访问跨不同领域的 500 多个 AI 专家调节以及超过 2500 个微调模型
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, text-generation
+
+---
+
+### 🌟 [bops](https://github.com/OrgoAI/bops)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 317
+- **核心概述**: Bops：运行您的业务运营的人工智能机器人团队，每个机器人都有自己的计算机、电子邮件和电话号码。 bops.bot
+- **大概是做什么的**: 由机器人运行的业务运营。一组在真实计算机上为您工作的人工智能机器人。像队友一样与他们聊天，他们就能完成工作。开放代码，1个限制。在工作中或在家免费使用、自行托管、更改和共享 Bops。该许可证 (FSL) 仅排除将其作为竞争产品或托管服务提供的可能性，每个版本在发布两年后将成为完全开源的 Apache 2.0。由 Nick Vasilescu (@nickvasilescu) 创建的详细信息 使用 Orgo Bops 开发的 Mac 应用程序为您��业务运营提供了一组 AI 机器人：收件箱、管道、发票、报告。他们在云计算机上工作，您可以随时观看直播并接管。通过短信、电话或电子邮件在应用程序、Slack、Telegram 和 Discord 以及 Pro 和 Max 中联系他们。他们记得你是谁以及他们昨天做了什么。观察或接管。观看任何屏幕直播，掌控一切，然后将其交还。在行动之前询问。阅读立即进行。发送、创建和付款等待您的确定。您的应用程序，您的规则。大约 1,400 个应用程序，每个应用程序有多个帐户。每个机器人只能获得您授予的访问权限。你在哪里
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, business-automation, computer-use, electron, mac-app, nextjs
+
+---
+
+### 🌟 [searxNcrawl](https://github.com/DasDigitaleMomentum/searxNcrawl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 167
+- **核心概述**: 开源 MCP 服务器，为 AI 代理提供网页搜索 (SearXNG) 以及页面、整个网站和登录区域的干净 Markdown 爬行。自托管，无 API 密钥。已计划与 Firecrawl 兼容的 API。
+- **大概是做什么的**: A real MCP client session (fastmcp) against uvx searxncrawl 0.31.0 and a local SearXNG: search , then crawl the top hit into Markdown.输出被缩短以供显示。使用 docs/assets/demo/ 复制它。 searxNcrawl is an open-source MCP server and CLI toolkit that gives AI agents web search and clean Markdown crawling, built on Crawl4AI. Search queries the configured providers, SearXNG and/or You.com, in parallel and merges the results. It runs on your own hardware, needs no API key with SearXNG and succeeds searxng-mcp . Web search Your own SearXNG instance and/or the You.com API, queried in parallel; results are merged and attributed to their providers, filtered by language and time range. Page crawl One or many URLs to Markdown or JSON, with repeated blocks removed and links optionally stripped. Site crawl Whole sites with depth and page limits, tuned for documentation. Authenticated crawls Capture a login session once with crawl-capture , then crawl behind the login. STDIO and HTTP Plug into local MCP clients, or expose an HTTP endpoint with host and CORS guards. CLI 和 Pytho
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, crawl4ai, crawler, firecrawl-alternative, llm, llm-tools
+
+---
+
+### 🌟 [1c-ai-connector](https://github.com/andromanpro/1c-ai-connector)
+- **项目语言**: 1C Enterprise
+- **星标数量**: ⭐ 103
+- **核心概述**: IIcona - 适用于 1C:Enterprise 8.3 的 AI 连接器：LLM 提供商、代理循环（函数调用）、RAG、MCP 服务器、带 AI 分析的错误监控、图表生成器
+- **大概是做什么的**: IIcona - 用于 1C:Enterprise Extension 的 AI 连接器，用于在 1C:Enterprise 8.3 配置中集成语言模型 (LLM)：与提供商的单个连接器、带有工具的代理循环、RAG、MCP 服务器、带有 AI 分析的错误监控和图表生成器。 Infostart 上的 IIcon - 描述、文件和讨论。在与专家的聊天中，出现了“使用工具”开关：模型可以澄清当前数据库中用户可用的元数据和数据。专家的历史、投资和知识得到保留；对所有轮次的指标进行总结。发生了什么变化以及如何启用它。修复了缓存和查询重试、知识更新、错误监控和访问权限。为支持的提供者添加了批量发送嵌入。之前的公共呼叫和现有设置将被保留。发生了什么变化以及如何更新。修复了数据库或类别缺失时发送知识的策略以及两次批量请求中处理 NULL 的四种情况。保存公共呼叫和队列设置。在单独的 SQL 平台上完成了 700 个服务器测试，没有崩溃、错误或遗漏
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 1c-edt, 1c-enterprise, ai, anthropic, bsl, claude
+
+---
+
+### 🌟 [altk-evolve](https://github.com/AgentToolkit/altk-evolve)
+- **项目语言**: Python
+- **星标数量**: ⭐ 124
+- **核心概述**: 通过迭代自我改进代理
+- **大概是做什么的**: 进化：人工智能代理的在职学习编码代理会重复同样的错误，因为他们每次会话都是全新的。 Evolve 为代理提供了记忆——他们从有效和无效的内容中学习，因此每次会话都比上一次更好。 Evolve 是一个旨在帮助智能体通过学习其轨迹来不断改进的系统。 Lite 版本旨在轻松插入现有的代理助手，例如 Claude Code 和 Codex。它结合使用用于工具集成的 MCP 服务器、用于内存的向量存储以及基于 LLM 的冲突解决来完善其知识库。在 AppWorld 基准测试中，Evolve 总体将代理可靠性提高了 8.9 个百分点，在多步骤困难任务上相对提高了 74%。 Evolve 是一个旨在帮助智能体通过学习其轨迹来不断改进的系统。它结合使用用于工具集成的 MCP 服务器、用于内存的向量存储以及基于 LLM 的冲突解决来完善其知识库。 ⭐ 对存储库加注星标：它可以帮助其他人发现它。 Evolve 团队的研究、发布和实践发现。 - 2
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-learning, agent-memory, agentic-workflows, ai-agents, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [Valhuntir](https://github.com/AppliedIR/Valhuntir)
+- **项目语言**: Python
+- **星标数量**: ⭐ 114
+- **核心概述**: Valhuntir CLI — AI 增强事件响应平台
+- **大概是做什么的**: Valhuntir 将一名事件响应分析师转变为代理 AI 事件响应团队的经理。许多 MCP 工具允许人工智能快速摄取、处理和分析大量数字取证工件，同时让人类控制调查和决策过程。系统中内置了精心策划的取证知识库、指导和上下文提示以及处理建议，但最终由人工检查员推动响应。平台文档 · 重要提示 — 虽然经过广泛测试，但这是一个新平台。始终验证结果并指导调查过程。如果你只是告诉 Valhuntir“寻找邪恶”，它很可能会产生幻觉，而不是提供有意义的结果。人工智能可以加速，但人类必须指导它并审查所有决策。 Valhuntir — 人工智能辅助取证调查 Valhuntir 通过签署批准（每个检查员自己的密钥，通过其密码解锁）和多层控制来确保问责制并强制对调查结果进行人工审查。 Valhuntir 与 LLM 客户无关——缺点
+- **有什么用**: 适合学习 AIGC 图像检测、Deepfake 检测、图像取证和伪造痕迹分析，也可以作为你做 AI 生成图像检测算法的参考。
+- **技术标签**: ai-forensics, cli, dfir, digital-forensics, forensics, human-in-the-loop
+
+---
+
 ## 🕔 2026-10-15 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
