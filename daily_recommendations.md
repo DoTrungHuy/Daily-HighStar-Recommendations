@@ -1,3 +1,67 @@
+## 🕔 2026-10-15 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Meldwork](https://github.com/Ryder-Sun/Meldwork)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 813
+- **核心概述**: Local-first AI agent workspace for multi-agent collaboration, agent orchestration, scoped permissions, evidence-aware runs, and human-in-the-loop decisions.
+- **大概是做什么的**: Meldwork — Local-first multi-agent orchestration for AI coding agents Coordinate Codex, Claude Code, Gemini CLI, and 9 more agent CLIs from one desktop workspace. Stop manually copying context between terminals — Meldwork freezes one task snapshot, sends it to every selected agent, captures their independent findings as evidence, and gates workspace writes behind your approval. Meldwork is a local-first multi-agent orchestration desktop app for macOS (Apple silicon). It connects the AI coding agent CLIs you already have installed — Codex, Claude Code, Hermes, OpenCode, Gemini CLI, Qwen Code, Kimi Code, MiMo Code, Pi Agent, OpenClaw, OpenCodeReview, and WorkBuddy — into one reviewable workspace where you can run Direct sessions, Concurrent Responses (same task, multiple agents, independent replies), or Auto Discussion V4 (agents propose, challenge, negotiate responsibilities, and verify results across rounds). Unlike terminal multiplexers (tmux, zellij) that show raw output side by side, Meldwork preserves every finding as structured evidence (Finding → Evidence → Decision → Dispositi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-collaboration, agent-coordination, agent-orchestration, agent-workforce, agentic-workflow, ai-agent
+
+---
+
+### 🌟 [obsei](https://github.com/obsei/obsei)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,436
+- **核心概述**: Obsei is a low code AI powered automation tool. It can be used in various business flows like social listening, AI based alerting, brand image analysis, comparative study and more .
+- **大概是做什么的**: Voice of Customer without violating privacy. The self-hosted, open source alternative to Enterpret and Unwrap that strips PII before any LLM sees it. Bring your own sources, models and agents. Teams want to understand what customers say in reviews, tickets, calls and surveys, but often can't send that text to another SaaS or a public LLM. obsei runs entirely inside your own infrastructure: - Private by design. PII is redacted (and optionally names) and authors are pseudonymised at ingest. Encrypted database, air-gapped by default, no telemetry, erasure and an audit log built in. - Bring your own. Your sources, your keys and your model: a zero-shot classifier that runs in process by default, a decision model such as Julia-1, or Ollama, vLLM, Azure OpenAI, OpenAI, Bedrock and Vertex through LiteLLM. - AI-native. An MCP server and a Claude plugin, so agents answer questions about customers with cited, privacy-filtered evidence and propose issues that you approve. - Every language. Feedback is classified and quoted in its own language. With obsei[embeddings] , a local multilingual model
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: customer-feedback, mcp, pii-redaction, privacy, voice-of-customer
+
+---
+
+### 🌟 [schemagate](https://github.com/ashishsinha1602/schemagate)
+- **项目语言**: Python
+- **星标数量**: ⭐ 103
+- **核心概述**: Text-to-SQL access control: schema selection that gives the LLM only the tables the caller is allowed to read. Row-level-security-aware table pruning for LangChain, MCP and any SQL agent. Postgres, Oracle, MySQL, SQL Server. 75% fewer prompt tokens.
+- **大概是做什么的**: schemagate — text-to-SQL access control at schema selection Your text-to-SQL agent picks which tables to show the model before anyone checks what the caller is allowed to read. schemagate does the check first: it filters the schema by the caller's grants, so restricted tables are absent from the prompt rather than ranked low. Works with LangChain, MCP, or any SQL agent, on Postgres, Oracle, MySQL, SQL Server and SQLite. If it keeps a table out of a prompt it should never have reached, a ⭐ helps other people building SQL agents find it. With row-level security alone the failure is quiet: the model writes valid SQL against a table the caller cannot read, RLS strips every row, and the user is told "no records found" — indistinguishable from "this data does not exist." Demo · Install · Benchmarks · Local models · What it costs · Coming from Vanna Same question, two callers, no database and no key: Absent, not ranked low. A table the caller may not read never enters the prompt, so no rewording of the question reaches it and there is nothing to filter out of the answer afterwards. Try it i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: access-control, ai-agents, data-engineering, database, langchain, llm
+
+---
+
+### 🌟 [githits-cli](https://github.com/githits-com/githits-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 115
+- **核心概述**: CLI & MCP for GitHits - The Code Context Layer for AI Coding Agents
+- **大概是做什么的**: The code context layer for AI coding agents. GitHits connects AI coding agents to public open-source evidence across the full software development lifecycle: discovery, planning, research, implementation, debugging, and maintenance. The CLI runs a local MCP server that your coding tool starts on demand. Agents can then search indexed package and repository source, read exact files and documentation pages, inspect package health, compare dependency upgrades, and find source-cited examples from real open-source projects when model knowledge and local repository context are not Want to use GitHits as part of your agent harness or software factory? Check out our public API documentation. init signs you in, detects supported coding tools, and configures GitHits for the tools you select. It uses the local stdio MCP except for Cursor, whose direct setup uses the hosted remote MCP. Automatic setup currently supports Claude Code, Cursor, Windsurf, VS Code / Copilot, Cline, Claude Desktop, Codex CLI, Pi, Gemini CLI, Google Antigravity, OpenCode, Hermes Agent, Zed, Junie, Qwen Code, Kiro, Kilo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding-tools, ai-tools, cli, code-graph, code-search, context-api
+
+---
+
+### 🌟 [server-google-news](https://github.com/ChanMeng666/server-google-news)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 129
+- **核心概述**: 【Star-crossed coders unite!⭐️】Model Context Protocol (MCP) server implementation providing Google News search capabilities via SerpAPI, with automatic news categorization and multi-language support.
+- **大概是做什么的**: Google News MCP Server Live news for your AI assistant. Ask Claude about today's news. It searches Google News and answers with real articles, sorted by topic. https://github.com/user-attachments/assets/1cc71c27-f840-4c94-9ab5-460d84ba4779 Get a key from SerpApi, then add this to claude desktop config.json : Restart Claude and ask: What happened in AI this week? - One tool to learn. google news search takes a query and returns each article's title, source, date, summary and link. - Sorted before it reaches the model. Articles arrive grouped as AI & Technology, Business, Science & Research, Healthcare or General, newest first. - Any country. Set the gl and hl codes to search another country's news or another language. This page is all a person needs. Everything else is written for agents: clone the repo and point yours at llms.txt and docs/overview.md . Full overview · Changelog · Contributing · Security · MIT See also: Google Jobs MCP Server. Built by Chan Meng.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, claude-desktop, google-news-api, mcp, mcp-server
+
+---
+
+### 🌟 [oxylabs-mcp](https://github.com/oxylabs/oxylabs-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 104
+- **核心概述**: Official Oxylabs MCP integration
+- **大概是做什么的**: The missing link between AI models and the real‑world web: one API that delivers clean, structured data from any site. The Oxylabs MCP server provides a bridge between AI models and the web. It enables them to scrape any URL, render JavaScript-heavy pages, extract and format content for AI use, manage CAPTCHA, and access geo-restricted web data from 195+ countries. It is built on the Model Context Protocol (MCP), the open standard for connecting AI assistants to external tools and data. Oxylabs MCP provides two sets of tools that can be used together or independently: Oxylabs Web Scraper API tools 1. universal scraper : scrapes any URL, with optional JavaScript rendering, geo-targeting, and Markdown/HTML/links output; 2. google search scraper : extracts results from Google Search, with optional parsing into structured JSON; 3. amazon search scraper : scrapes Amazon search result pages, with optional parsing into structured JSON; 4. amazon product scraper : extracts data from individual Amazon product pages. Oxylabs AI Studio tools 5. ai scraper : scrapes content from any URL with AI-
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, data-collection, e-comerce-scraping, llm, llm-tools, mcp
+
+---
+
 ## 🕔 2026-10-15 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
