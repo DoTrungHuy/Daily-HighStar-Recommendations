@@ -1,3 +1,67 @@
+## 🕔 2026-10-15 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,957
+- **核心概述**: 用于编码代理的本地视频编辑器：42 个 FFmpeg 工具，带有机器可读合约和 MCP 服务器，用于 Claude Code、Cursor 和 Codex。剪切、字幕、重构、响度、平台导出。没有云，没有 API 密钥。
+- **大概是做什么的**: 为您的编码代理提供视频编辑器。本地 FFmpeg · 无云 · 无 API 密钥 · Python 标准库 Claude Code · Cursor · Codex · MCP title.py --animate pop --karaoke fit.py --aspect 9:16 --fitcropsilence.py --threshold -35loudness.py -I -14 --tp -1 左半部分是输入，右半部分是命令生成的内容。所有 53 个前后演示，每个演示下都有确切的命令 → — 所有这些都由 python3 demos/build.py 的合成素材生成，因此您可以自己重建每一帧。 ffmpeg-skill 是 Claude Code、Cursor、Codex 和任何读取 SKILL.md 的代理的代理技能。它教导代理一个固定的工作流程（探测 → 尽可能无损编辑 → 检查 → 验证），并提供 42 个使用 ffmpeg / ffprobe 进行实际工作的工具：剪切、连接、静音消除、适合持续时间和方面、字幕和卡拉 OK、叠加和动态图形、HDR → SDR 和 LUT、音频清理和键入动态、与漂移校正同步、多机位、响度、交付检查、整体编辑项目渲染、批处理文件夹。每个工具也可以作为 MCP 工具调用（工具/列表
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, audio-processing, captions, claude-code, codex
+
+---
+
+### 🌟 [infinity](https://github.com/michaelfeil/infinity)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,957
+- **核心概述**: Infinity 是一个高吞吐量、低延迟的服务引擎，用于文本嵌入、模型重新排序、剪辑、拍手和 colpali
+- **大概是做什么的**: Infinity 是一种高吞吐量、低延迟的 REST API，用于提供文本嵌入、模型重新排名、剪辑、拍手和 colpali。 Infinity 是在 MIT 许可下开发的。部署 HuggingFace 中的任何模型：部署 HuggingFace 中的任何嵌入、重新排名、剪辑和句子转换器模型 快速推理后端：推理服务器构建在 PyTorch、optimum (ONNX/TensorRT) 和 CTranslate2 之上，使用 FlashAttention 充分利用 NVIDIA CUDA、AMD ROCM、CPU、AWS INF2 或 APPLE MPS 加速器。 Infinity 使用工作线程专用的动态批处理和标记化。多模式和多模型：混合搭配多个模型。 Infinity 精心策划了它们。测试实施：单元和端到端测试。通过无穷大的嵌入被正确嵌入。让 API 用户可以创建无限甚至更远的嵌入。易于使用：基于 FastAPI 构建。 Infinity CLI v2 允许通过环境变量或参数启动所有参数。 OpenAPI 符合 OpenAI 的 API 规范。查看 https://michaelfeil.github.io/infinity 上的文档，了解如何开始。 - [2025/07] 布莱克威尔
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: bert-embeddings, llm, text-embeddings
+
+---
+
+### 🌟 [solid-glass](https://github.com/deeplethe/solid-glass)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 955
+- **核心概述**: 人工智能应用的设计系统。材料、物理、触觉、技术。
+- **大概是做什么的**: 风格 · 安装 · 这里有什么 · 贡献 一种受玻璃启发的精致美学，远看感觉坚固，近看则展现其微妙的物质性。精致的高光、精细的边框和柔和的阴影营造出深度，而内敛的饰面则强调清晰度、稳定性以及超越透明度、折射和流动性的坚固感。这是块之一：由组件组成的整个屏幕，用于查看、阅读和复制。下面是组件本身。它介于平面设计和液体玻璃之间。 Flat 是一块不透明的方块，没有任何饰面可言；液体玻璃几乎是透明的，在有大量文字的页面上，读者总是在背景中寻找文字。实心玻璃只能让轮廓透过：足以知道它是玻璃，但不足以妨碍阅读。触感 感觉有形的界面。每一次互动都带有微妙的触觉和反应。精确 干净的几何形状、精致的细节和克制的灯光营造出精确的技术美感。物理深度来自厚度、阴影和空间层次，赋予
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-ui, ai, ai-agents, chat-ui, design-system, llm
+
+---
+
+### 🌟 [open-agent-email](https://github.com/Anil-matcha/open-agent-email)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,100
+- **核心概述**: 适用于 AI 代理的开源电子邮件基础设施：安全收件箱、REST 和 MCP API、SMTP、人工审批工作流程、签名的 Webhook 以及 Python 和 TypeScript SDK。使用 Docker 和 PostgreSQL 自托管。
+- **大概是做什么的**: AI 代理的电子邮件收件箱。开源，自托管。向您的代理提供真实的电子邮件地址。他们可以接收邮件，在同一线程中回复，发送新消息，并等待人们批准任何有风险的事情，这一切都通过简单的 API、现成的 SDK 或 Claude Code 和 Cursor 等编码代理的 MCP 连接来实现。 - 真实的收件箱。通过标准电子邮件 (SMTP) 接收来自任何人的邮件，并通过您自己的提供商（例如 Amazon SES、Resend、SendGrid、Postmark 或 Gmail）发送邮件。 - 默认情况下安全。可疑邮件会被标记，敏感消息可以等待人工批准，每个收件箱都有自己的 API 密钥，权限有限。 - 你自己的域名。添加域并获取要发布的确切 DNS 记录，并检查它们是否设置正确。 - 与您的代理人合作。 REST API、Python 和 TypeScript SDK、命令行工具、新邮件实时流、Webhook 和 MCP 服务器。 - 用于阅读邮件、批准保留消息以及管理密钥、域和 Webhook 的仪表板。您需要 Python 3.11 或更高版本。这会在 http://127.0.0.1:8000 启动服务器，创建 s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-email, agentic-ai, ai-agents, aws-ses, developer-tools, email-api
+
+---
+
+### 🌟 [decomp.wtf](https://github.com/i12bp8/decomp.wtf)
+- **项目语言**: Python
+- **星标数量**: ⭐ 330
+- **核心概述**: 功能是什么：您的 AI 代理将您拥有的游戏反编译为 C，并编译为完全相同的字节。在本地运行。
+- **大概是做什么的**: 来自 decomp.wtf 的模拟，位于应用程序附带的演示 ROM 上。将您已使用的 AI 代理指向您拥有的游戏。 decomp.wtf 一次将游戏的一个函数交给它，用游戏的原始编译器编译每次尝试，并逐字节检查结果。得0分，否则不算数。有两种方法： - 从头开始​​。放入 N64、PlayStation 1 或 2、GameCube、Wii、Game Boy Advance 或 DS 游戏：ROM、光盘映像或程序文件。 decomp.wtf 找到每个函数，您的代理从那里获取它。结果是一个逐字节重建游戏的项目：端口和模组的基础。推荐平台为GameCube、Wii、N64；其余的都处于测试阶段。 - 继续公开分解。在 decomp.dev 上针对 GameCube、Wii、PlayStation 1 和 2、N64、GBA、DS、Switch、PC、Xbox 360 等的 245 个项目中选择一个，添加您自己的游戏副本，您的代理将在项目的真实源代码中继续社区停止的工作。在 GameCube 和 Wii 上，目标是真正的 decomp 目标：链接的每个文件，因此游戏是从其 C 构建的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, decomp, decompilation, decompiler, matching-decompilation
+
+---
+
+### 🌟 [blender-plugin](https://github.com/scenario-labs/blender-plugin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 172
+- **核心概述**: Blender 的场景：视口中的 AI 图像、视频、3D 和 PBR 材质，以及用于代理的本地 MCP 服务器。 Blender 5.0+ 扩展、GPL-3.0 或更高版本。
+- **大概是做什么的**: Blender 实验场景。将场景图像、视频、3D、PBR 素材、音频和 360 度环境生成引入 Blender。使用场景捕获和选定的网格作为输入，探索相机移动，并使用 Blockout 将书面场景描述转换为灰盒布局。紧凑的作曲家、侧边栏、扩展的 Studio 视图和本地 MCP 服务器提供从场景的访问。这是一个带有固定 SDK 依赖轮的 Python 扩展，已获得 GPL-3.0 或更高版本的许可。在依赖工作流程之前，请阅读已知的限制。 - Blender 5.0 或更高版本，如扩展清单中所声明。 - 具有 API 访问权限、API 密钥及其秘密的场景帐户。有关当前帐户要求，请参阅场景帮助。 - 在联系场景之前，在编辑首选项系统网络下启用互联网连接和 Blender 的允许在线访问设置。 - 场景生成和提示助手消耗创意单位（CU）。在生成之前查看显示的估计；模型、参数和参考会影响成本。请参阅上面的成本和限制。从官方扩展存储库安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3d, agentic-ai, ai, blender, blender-addon, blender-extension
+
+---
+
 ## 🕔 2026-10-15 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
