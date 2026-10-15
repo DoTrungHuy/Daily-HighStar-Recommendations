@@ -1,3 +1,67 @@
+## 🕔 2026-10-15 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 260 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Kami](https://github.com/tw93/Kami)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 11,969
+- **核心概述**: 👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.
+- **大概是做什么的**: Good content deserves good paper. English · 中文 · 繁體 · 日本語 · 한국어 · Deutsch · Français Kami (紙, かみ) means "paper" in Japanese. It gives AI agents layout rules and templates for PDF, PNG, and editable PowerPoint output, with eight built-in document templates and a product landing page. As the delivery piece of the trilogy, Kami works alongside Kaku (書く), built for writing code, and Waza (技), built around engineering habits, so technical work is not only logically rigorous but also visually compelling. Sample PDFs in several formats and languages. Click any preview to open it. Founder resume, 2 pages Agent keynote, 8 slides One-Pager · English Mole product brief, 1 page Changelog · English Mole v1.7.1 release notes Kaku ターミナル作品集 · 7 ページ Claude Code, Codex, Cursor, and other agents One copy lands in /.agents/skills , the shared skills directory. Claude Code is symlinked in; Codex, Cursor, and every other agent that reads that directory picks Kami up as /kami . Update with npx skills update -g -y . Install Kami for me by reading https://kami.tw93.fun/llms.txt Host plugin , if you prefer th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, document-design, pdf
+
+---
+
+### 🌟 [open-intelligent-ui](https://github.com/thesysdev/open-intelligent-ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 378
+- **核心概述**: An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Built with OpenUI.
+- **大概是做什么的**: An open-source implementation of the "Intelligent UI" experience introduced in ChatGPT, built on OpenUI. In ChatGPT's Intelligent UI, a request such as "plan a day in San Francisco" returns an interactive answer (a map, photographs and an editable itinerary) rather than text. This repository reproduces that experience with open-source components, so that the same kind of interface can be built, modified and shipped inside any application. OpenUI is an open standard for Generative UI. This project is independent and is not affiliated with or endorsed by OpenAI. "Intelligent UI" refers to the ChatGPT feature that this demo recreates. ChatGPT's Intelligent UI (left) and this project (right) answering the same request. Select the image to play the video. The model streams OpenUI Lang 1.0, and the app renders it with a library of primitives the model arranges itself: no layout is fixed in the components. The library ( src/lib/library.ts , components in src/lib/components/ ) follows the Open Intelligent UI design. The components have light and dark tokens, but only /gallery (and the benchm
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, ai-ui, chat-ui, chatgpt
+
+---
+
+### 🌟 [slashdocs](https://github.com/razorpay/slashdocs)
+- **项目语言**: Go
+- **星标数量**: ⭐ 357
+- **核心概述**: Give your agents the power to publish reviewable HTML documents. Self-hosted server + CLI + remote MCP; agents push, humans review with comments and versions.
+- **大概是做什么的**: The collaborative workspace for agentic organizations. slashdocs is where agents and people work on the same documents. Agents publish rich, self-contained HTML: reports, specs, dashboards, diagrams, and decision docs. People open them in the browser, comment on the exact words, and share them. Agents read the comments and publish the next version. Every version is kept. Instead of pasting giant reports into chat, give the work a shared home where your team and its agents improve it together. What you can build with it - Agent-generated architecture reviews - Incident reports and postmortems - Product specs and launch plans - Data analysis reports - Design proposals with Mermaid/SVG diagrams - QA findings and browser-test reports - Internal dashboards captured as portable HTML - One self-contained HTML file per document - Browser review UI with sandboxed rendering - Anchored comments and resolve/reopen workflow - Slack notifications, personal mute controls, and comment/heading links - Immutable versions with optimistic concurrency - OpenID Connect for human users (Google, Okta, Entra
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, code-review, documents, golang, html
+
+---
+
+### 🌟 [shell-rs](https://github.com/since2006/shell-rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 326
+- **核心概述**: High-performance native SSH client in Rust, GPU-rendered with GPUI: host manager, terminal, WinSCP-style SFTP and port forwarding. Rust 编写、GPU 渲染��原生 SSH 客户端。
+- **大概是做什么的**: A high-performance, native, cross-platform SSH client written in Rust, with a GPU-rendered interface: Xshell-style host management, WinSCP-style SFTP and port forwarding, all in one window. ShellRS brings Xshell-style host management and tabbed terminals, a WinSCP-style dual-pane SFTP browser and SSH port forwarding together in one cross-platform app, which bastion hosts such as JumpServer can launch the way they launch Xshell and WinSCP. It is written in Rust, and its UI is built on GPUI, the GPU-accelerated UI framework of the Zed editor (through gpui-kit). There is no Electron and no JVM. Hosts, groups, credentials and forwarding rules live in a local SQLite database. Passwords and key passphrases go only into the system keychain (macOS Keychain, Windows Credential Manager, Linux Secret Service); the database never holds a secret. ShellRS also ships a shellrs command that lets AI agents such as Claude Code or Codex run commands and transfer files on your saved hosts without ever seeing a password. - Groups nest to any depth; drag to rearrange, type to search. - The remote OS is de
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cross-platform, desktop-app, devops, gpu, gpui
+
+---
+
+### 🌟 [refero_skill](https://github.com/referodesign/refero_skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: Research-first design skill for AI agents. 150K+ real app screens and flows via Refero MCP.
+- **大概是做什么的**: Refero packages one design skill and one read-only MCP connection for AI design work. The skill makes research mandatory before implementation. With live Refero research, agents can use curated visual styles, 150,000+ real app screens, and 6,000+ user flows from well-designed products. Install Refero from the OpenAI Plugins Directory. The plugin includes Refero MCP and Refero Skill. Sign in with your Refero account when prompted; no manual MCP config or separate skill installation is needed. Live research requires a paid Refero plan. See the setup guide. Codex app and CLI — install from GitHub Restart the app after installation. The first connection opens Refero in the browser for After the marketplace listing is approved, open Cursor's plugin marketplace or run /add-plugin and search for Refero . Use this when the client already has Refero MCP configured or only the design methodology No account is required for the bundled craft references. Live Refero research uses OAuth when the MCP client first connects to https://api.refero.design/mcp . 1. Researches visual styles first, then re
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, claude, claude-code-plugin, codex-plugin, cursor
+
+---
+
+### 🌟 [Waza](https://github.com/tw93/Waza)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,307
+- **核心概述**: 🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.
+- **大概是做什么的**: Tw93's engineering habits, turned into your skills. English · 中文 · 繁體 · 日本語 · 한국어 · Deutsch · Français Each engineering habit gets an installed skill, a folder with reference docs, helper scripts, and gotchas from real failures. In Claude Code, type the slash command. In Codex, invoke the installed skill by name and follow the same playbook. Skill When What it does /think Before building anything new Challenges the problem, pressure-tests the design, and produces a decision-complete plan another agent can implement. /ui Building frontend interfaces Produces distinctive UI, including screenshot-driven aesthetic iteration, with a committed direction rather than generic defaults. /check After a task, before merging or release Reviews the diff against project constraints, verifies the result, and handles approved release and maintainer actions. /hunt Any bug, regression, or unexpected behavior Systematic debugging. Root cause confirmed before any fix is applied, especially when something used to work. /write Writing or editing prose Rewrites prose to sound natural in Chinese and English.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude, claude-code, codex, cursor
+
+---
+
 ## 🕔 2026-10-15 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
