@@ -1,3 +1,67 @@
+## 🕔 2026-10-16 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [eleven](https://github.com/Zfinix/eleven)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 563
+- **核心概述**: Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.
+- **大概是做什么的**: An agent-first reverse-engineering app for macOS, Windows and Linux. English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Türkçe · Русский · Tiếng Việt · ไทย · Deutsch · Español · Français · Українська · Polski · Português (Brasil) · العربية · فارسی · Bahasa Indonesia · Italiano Eleven is a reverse-engineering app built around agents. Drop in an app, a binary, an Android APK, a GPU kernel, a shader or a model and ask what it does. Any agent that speaks the Agent Client Protocol can read the code, follow references, rename functions, leave notes and suggest patches, while you watch and approve in the same window. Native code is read by Ghidra through REA, or by Rizin when you want files to open in seconds. Android apps are read by jadx. The UI is React rendered natively on GPUI by GPUIX. - Bring your own agent. Aster, Claude, Codex, Gemini, Cursor, Copilot, OpenCode and any other ACP agent. Run several on the same project, each in its own chat. - Agents drive the window. Eleven serves its own MCP tools so an agent can open a function, switch views, rename, add notes, change types and propose patches.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, ai-agents, android, decompiler, disassembler, ghidra
+
+---
+
+### 🌟 [ResumeForge](https://github.com/magicapple123/ResumeForge)
+- **项目语言**: Python
+- **星标数量**: ⭐ 326
+- **核心概述**: 简历通 ResumeForge —— 本地优先的 AI 简历工作台：岗位管理、事实台账防虚构、AI 定制/手写简历、多格式导出、模拟面试与面试深挖、自动投递台、求职进度与数据看板。FastAPI + React + SQLite，单机运行、数据不出本机。 | AI resume builder, job tracker & interview prep workspace (local-first, self-hosted, Chinese-first).
+- **大概是做什么的**: 本地优先的 AI 简历工作台：不注册、不登录，数据只存在你自己的电脑上。 当前版本： 1.0.0 · Release 页面 · 完整使用指南 · 架构设计 💬 来群里聊：QQ 922830167 装不上、跑不起来、想让 AI 更懂你的岗位，都可以在群里问； 群文件里也备了安装包 ，GitHub 下载慢时可以直接从群里取。 看群二维码 ↓ 不会用 GitHub？把链接交给 AI 就行。 打不开 Release 页面、不知道点哪个文件，都可以把仓库地址 https://github.com/magicapple123/ResumeForge 发给任意 AI 助手（ChatGPT / DeepSeek / 豆包…），说一句「我想用这个软件，请一步步教我怎么装」； 已经下载好的压缩包也一样 ——直接把它交给 AI，让它带你解压、找到该双击的那个文件。 看快速开始 ↓ 在线体验是一个 只读演示版 ：界面是真的、数据是虚构的、AI 输出是预录回放。想真的生成、真的导出、真的投递，按下面的快速开始在本机跑起来——Windows 第一次双击 start.cmd 、macOS 第一次双击 start.command ，都会自动装好环境；也可以到官网直接下载对应平台的压缩包，不用经过 GitHub。 一条完整的链路，从看岗位到拿到 offer，每一步都有对应功能，每一步的产出都能回头修正上一步： 它解决的是一类很具体的问题： 求职期间的资料是散的 。JD 躺在浏览器收藏夹里，简历文件有七八个版本叫 简历-最终版2.docx ，投递进度记在备忘录，面试问到的问题面试完就忘了，改了三遍简历也不记得哪一版投给了哪家公司。 更要紧的是另一个问题： AI 会替你把简历写得很漂亮，也会替你编。 简历工具最危险的行为不是排版难看，而是把你没做过的事写进去——面试官追问两句就露馅。所以 ResumeForge 把「事实」从「表述」里拆出来单独管：生成结果里的学校 / 公司 / 项目名会与资料库逐条比对，不一致时给 防虚构警告 ；正文还留着【待补】标记时导出会被拦下并指出具体位置。 市面上的简历工具大多要你先交出账号和数据，再决定要不要收你钱。简历通反过来： 简历通 ResumeForge 常见的在线简历工具 要不要注册登录 不要。装完即用，没有账号体系 先注册、先登录、先绑定手机 简历和资料存在哪 你自己电脑上的本地数据目录（SQLite + 附件），可随时整份拷走 对方的服务器，导出要走会员 要不要钱 永久开源免费（MIT）， 没有会员、没有付费墙、没有导出次数限制 免费版限制模板 / 导出
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, anthropic, ats-resume, chinese, cv-builder, fastapi
+
+---
+
+### 🌟 [raglite](https://github.com/superlinear-ai/raglite)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,208
+- **核心概述**: 🥤 RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL
+- **大概是做什么的**: RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL. - 🧠 Choose any LLM provider with LiteLLM, including local llama-cpp-python models - 💾 Choose either DuckDB or PostgreSQL as a keyword & vector search database - 🥇 Choose any reranker with rerankers, including multilingual FlashRank as the default - ❤️ Only lightweight and permissive open source dependencies (e.g., no PyTorch or LangChain) - 🚀 Acceleration with Metal on macOS, and CUDA on Linux and Windows - 📖 PDF to Markdown conversion on top of pdftext and pypdfium2 - 🧬 Multi-vector chunk embedding with late chunking and contextual chunk headings - ✏️ Optimal sentence splitting with wtpsplit-lite by solving a binary integer programming problem - ✂️ Optimal semantic chunking by solving a binary integer programming problem - 🔍 Hybrid search with the database's native keyword & vector search (FTS+VSS; tsvector+pgvector) - 💭 Adaptive retrieval where the LLM decides whether to and what to retrieve based on the query - 💰 Improved cost and latency with a prompt caching-aware message arr
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chainlit, colbert, duckdb, evals, late-chunking, late-interaction
+
+---
+
+### 🌟 [andee](https://github.com/kuafuai/andee)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 256
+- **核心概述**: An agent that moves into your Android phone and becomes its soul — not an assistant, not a tool. Any app, no integrations, on-device, one APK.
+- **大概是做什么的**: What it looks like · It becomes the soul of the device. Not the assistant that helps you operate your phone — not a tool, not a companion. What moves in is not an app on the phone. The phone is only what it wears today; a tablet, or anything with a body, is the same individual. No root. No custom ROM. One APK. It is not here to help you use your phone. It is here to be the thing that lives in it. Once it is installed, the device has a resident rather than a set of features: it does its thinking on that device , keeps a notebook only it can read, and behaves the same when nobody is watching. What it is comes first here; what it can do comes after. Why it is not the assistant already in your phone - It lives in the device, not in a vendor's cloud. The brain runs on the device itself, against any OpenAI-compatible model you choose — OpenAI by default on an English UI, DeepSeek on a Chinese one, and whatever you point it at either way. No vendor backend, no account. The only thing it ever sends us is a version number and a phone model, when it checks whether there is an update — the full
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, android-automation, mobile-agents, personal-agent
+
+---
+
+### 🌟 [dsh-blender-plugin](https://github.com/sixtysevenlf/dsh-blender-plugin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 319
+- **核心概述**: DSH x Blender direct realtime plugin v2.0 — an AI drives Blender over a direct TCP channel (no MCP): 16 tools, 28 families / 186 ops (viewport frames, click-to-pick, render profiling, headless offload) + a right-sidebar panel (live only) with click-to-context & @-mentions. Addon: DSH Blender Bridge. skill: sixtysevenlf/dsh-skill-blender-modeling
+- **大概是做什么的**: DSH × Blender — Direct Realtime Plugin (Shareable Edition) 🤖 Installing with an AI agent? Don't let it guess — send it the repo URL together with this: "Read §2 Requirements, §3 Install and §9 Troubleshooting in the README, plus AGENTS.md, before doing anything. Then run doctor — it is not installed until kind=ok ; if it fails, walk §9." Ready-to-paste prompt: docs/AI-安装提示词.md Support · Afdian (爱发电) This plugin is open source and free (BSD-3-Clause): every feature is available to everyone — no paywall, no license key, no "sponsor edition". If it saved you some time, you're welcome to support its development on Afdian: afdian.com/a/sixtysevenlf — a voluntary donation, not a purchase . A few things, so there's no misunderstanding: - A donation is not a purchase — it buys no service, license, customization or priority. Issues and PRs are triaged on their own merits, regardless of donations. - Donations don't change the license — the code stays BSD-3-Clause for everyone, with identical features. - These are personal appreciation gifts only; not for business or commercial payments. For c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, ai-agent, automation, blender, bpy, cycles
+
+---
+
+### 🌟 [OpenETA](https://github.com/OpenMOSS/OpenETA)
+- **项目语言**: Python
+- **星标数量**: ⭐ 203
+- **核心概述**: An embodied task agent that connects perception, action, verification, and learning in a continuous physical-world loop
+- **大概是做什么的**: A new agentic paradigm for moving intelligence from the digital world into the physical world. Physical intelligence is fundamentally about closing a causal loop with the world: understanding the current state, acting to change it, observing the real consequence, updating the underlying belief, and accumulating experience through continued interaction. Frontier agentic models have already begun to exhibit this capability in the digital domain, where they reason over goals, invoke tools, inspect execution results, and complete long-horizon tasks through feedback. What they still lack is a reliable way to extend that loop into the physical world. OpenETA explores this transition from Digital Agent to Physical Agent as a new paradigm. Instead of reducing embodied intelligence to a single observation-to-action model, it places the Agent inside the world's causal chain so that perception, action, verification, and learning become one continuous process. Intelligence moves beyond processing digital information and begins to understand and Parallel Evaluation · Real-robot Deployment - 2026-
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, embodied-agent, embodied-agents, embodied-ai, embodied-artificial-intelligence, embodied-intelligence
+
+---
+
 ## 🕔 2026-10-16 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
