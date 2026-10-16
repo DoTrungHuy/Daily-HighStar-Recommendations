@@ -1,3 +1,67 @@
+## 🕔 2026-10-16 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [gitlab-mcp](https://github.com/zereight/gitlab-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,047
+- **核心概述**: GitLab 的 MCP 服务器：通过 GitLab REST/GraphQL API 提供 100 多个用于项目、MR、问题、管道、wiki 等的工具
+- **大概是做什么的**: English 한국어 简体中文 Português (巴西) 📖 文档 → 设置指南、环境变量和完整的工具参考位于托管文档站点上。使用推荐的本地个人访问令牌设置安装@zereight/mcp-gitlab。这些命令使用与 Claude Code 和 Codex 指南相同的参数。首先使用 npm install -g @zereight/mcp-gitlab 或 Homebrew brew tap zereight/gitlab-mcp https://github.com/zereight/gitlab-mcp 和 brew install zereight/gitlab-mcp/zereight-mcp-gitlab 安装 zereight-mcp-gitlab 二进制文件。读取不带回显的令牌，然后将其���出。 shell 历史记录保留变量名称。客户端安装 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Claude Code claude mcp add gitlab --transport stdio --scope local --env GITLAB 个人访问令牌 =“$GITLAB 个人访问令牌” --env GITLAB API URL=https://gitlab.com/api/v4 -- zereight-mcp-gitlab Codex codex mcp add gitlab --env GITLAB个人空调
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude, cursor, devtools, gitlab, gitlab-api
+
+---
+
+### 🌟 [crawlseo](https://github.com/crawlseo/crawlseo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 636
+- **核心概述**: 开源 SEO 监控。 GSC + 网站爬虫 + 核心 Web Vitals 位于一个仪表板中。
+- **大概是做什么的**: 为创始人而非 SEO 专家提供开源 SEO 监控 Google Search Console、网站爬虫、Core Web Vitals 和一个自托管仪表板中的 MCP 服务器。永远免费。 crawlseo OpenSEO Ahrefs Semrush Moz --- :---: :---: :---: :---: :---: 价格 免费 $10/月 €119/月 $139/月 $49/月 自托管 ✅ ✅ ❌ ❌ ❌ GSC 集成 ✅ ✅ ✅ ✅ ✅ 网站爬虫 ✅ （2000 页） ✅ ✅ ✅ ✅ 核心网络生命✅ ❌ ❌ ✅ ❌ MCP 服务器 ✅ （10 个工具） ✅ （24 个工具） ❌ ❌ ❌ AI 代理就绪 ✅ ✅ ❌ ❌ ❌ 关键字研究 ✅ (BYOK) ✅ ✅ ✅ 反向链接 ✅ (BYOK) ✅ ✅ ✅ 开源 ✅ MIT ✅ ❌ ❌ ❌ 您的数据归您所有 ✅ ✅ ❌ ❌ ❌ BYOK = 带上您自己的密钥。关键词研究和反向链接数据使用DataForSEO（可选）。谷歌自动完成建议可以作为免费的后备方案。在“域概述”中，输入竞争对手的域或完整网站 URL，然后选择“比较”以查询该域的 DataForSEO。 Search Console 后备数据仅用于您自己的网站；不可用的竞争对手指标显示为不可用。您的数据仍然属于您的crawlseo 在您的服务器上运行。您的网站、关键字、抓取结果和 Google 令牌保留在您的数据库中
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: backlinks, core-web-vitals, core-web-vitalsl, geo, google-search-console, keyword-research
+
+---
+
+### 🌟 [bridle](https://github.com/neiii/bridle)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 440
+- **核心概述**: 用于代理线束的 TUI / CLI 配置管理器（Amp、Claude Code、Opencode、Goose、Copilot CLI、Crush、Droid）
+- **大概是做什么的**: AI 编码助手的统一配置管理器。管理配置文件、安装技能/代理/命令以及跨 Claude Code、OpenCode、Goose、Amp、Copilot CLI 和 Crush 切换配置。立即尝试（无需安装） 无需安装即可运行一次： 包管理器命令 --------------- -------------------- npx npx bridle-ai Bunx Bunx bridle-ai pnpm pnpm dlx bridle-ai 如需重复使用，请安装一次： 节点包管理器： ------- -------------------------- npm npm install -g bridle-ai Bun Bun install -g bridle-ai pnpm pnpm add -g bridle-ai "Package Manager" for your利用 Bridle，您可以从任何 GitHub 存储库安装技能、���理、命令和 MCP，类似于 Claude Code 的做法。然而，有了 Bridle，您就不再局限于只有一根安全带；您还可以使用其他安全带。我们会为您自动翻译所有路径、命名、模式和配置。为什么这很重要：为 Claude Code 编写的技能使用 /.claude/skills/ 。 OpenCode 上的相同技能位于 /.config/opencode/skill/ 。 MCP 遵循不同的 JSON/YAML 架构。 Bridle 会为您处理所有这些差异。成分C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ampcode, claude-code, cli, configuration, copilot-cli
+
+---
+
+### 🌟 [git-ai](https://github.com/feder-cr/git-ai)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,057
+- **核心概述**: Git 专为 AI 代理而设计。
+- **大概是做什么的**: Git 专为 AI 代理而设计。 Anthropic 构建了 Scion，这是一个更快的编码代理版本控制系统，重新设计了源代码控制：一个以服务器为中心的系统，为数百个同时读取、写入和登陆代码的代理构建。 Scion 是 Anthropic 的内部组件，不可用于 因此我构建了 gitai ：该设计的开源版本，任何人都可以运行，并且社区可以共同改进和维护。麻省理工学院许可。供应商中立：服务器从不调用语言模型，每个人工智能功能都可以与任何供应商合作，或者不与任何供应商合作。 gitai 是公开描述的设计的独立实现。它不隶属于 Anthropic，也不受 Anthropic 认可。经典的 Git 托管是为那些克隆存储库、工作数小时并推送一次的人而构建的。编码代理的工作方式不同：数千个短期任务，每个任务都涉及几个文件，每个任务都想在几秒钟内落地，所有任务都在同一个分支上。完整克隆、合并队列和客户端历史记录成为 Scion 的答案，即将工作转移到服务器：客户端保持在线并仅获取他们需要的内容、历史记录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coding-agents, git, golang, scion, version-control
+
+---
+
+### 🌟 [earshot](https://github.com/Leonxlnx/earshot)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: 编码代理的耳朵：让人工智能听到、审查和发出声音。仅 CPU，开源。
+- **大概是做什么的**: 编码剂的耳朵。观看 22 年代的发布影片 - 影片中的每一个声音都是由 Earshot Forge 用代码制作的；没有录音，没有音乐曲目。人工智能编码代理现在可以编写渲染电影、产品演示或游戏的代码。他们仍然听不到自己所做的事情。他们无法区分优质按键和廉价按键，无法注意到热门歌曲在剪辑后 80 毫秒落地，也无法听出音乐在错误的位置增强。听力将声音转化为特工可以推理的证据：文件听起来像什么、它与描述的契合程度、长录音中的最佳时刻（无论是真实录音还是代码合成）、整部电影的逐秒聆听记录、带注释的图片以及针对专业发布电影的记分卡。它作为 CLI、Python API 和 MCP 服务器在 CPU 上本地运行。有了耳朵，智能体还可以在代码中发出自己的声音，并通过聆听来改进它们（earshot forge），并将录音翻译成它可以改变的代码（earshot fit）。两者都在下面。命令代理获取的内容描述���件听起来像什么：校准标签（z）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, audio, claude-code, mcp, sound-design
+
+---
+
+### 🌟 [vitre](https://github.com/ggoggam/vitre)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 105
+- **核心概述**: Kotlin 多平台的 WebView 自动化。从您的应用程序、测试或 MCP 或 Koog 上的 LLM 代理，在 Android、iOS 和桌面上的嵌入式 WebView 中运行页面工作流。
+- **大概是做什么的**: Kotlin 多平台的 WebView 自动化。将您想要对页面执行的操作描述为步骤列表，然后在 Android、iOS 和桌面上的嵌入式 WebView 中运行它：从您的应用程序、从测试或从模型上下文协议或 Koog 上的 LLM 代理。相同的词汇表有四种可用方式：如上面的 Kotlin DSL、作为可放入屏幕的 Compose 可组合项，以及对于从未见过该页面的代理，作为 MCP 工具或 Koog 工具。最后两个是一组语义的两次交付，而不是它们的两种实现。该块是一个构建器而���是脚本。它预先运行一次，以组装 WorkflowEngine 然后遍历的步骤列表，因此普通 Kotlin 如果在其中选择工作流程包含的内容。当决策属于运行时（仅有时存在的元素、先前步骤提取的值），runIf 会附加引擎根据页面评估的步骤。 WorkflowStep 构造函数保持公共且等效；它们是 vitre-mcp 使用的，因为代理的步骤以 JSON 形式而不是 Kotlin 形式到达。移动应用程序
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, automation, client-side-scraping, compose-multiplatform
+
+---
+
 ## 🕔 2026-10-16 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
