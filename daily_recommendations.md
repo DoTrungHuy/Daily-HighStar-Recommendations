@@ -1,3 +1,67 @@
+## 🕔 2026-10-16 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [project-maya](https://github.com/mw00/project-maya)
+- **项目语言**: C++
+- **星标数量**: ⭐ 912
+- **核心概述**: Project Maya - 在您自己的 GPU 上私下运行 GLM-5.3-Flash (321B MoE)，从一张卡到 16 张卡、NVIDIA 或 AMD、Linux 或 Windows。引擎、服务器、仪表板、OpenAI 和 Anthropic 兼容的 API、量化工具。
+- **大概是做什么的**: 您自己的 GPU GLM-5.3-Flash 上的 3210 亿参数 AI 模型，私有且快速 · 一个 NVIDIA GPU 或最多 16 个 · AMD 和 Windows（实验性） · 聊天、图片、OpenAI 和 Anthropic 兼容 API · 一次多个请求 由 Peasant Smith (@mw00) 创建和领导，与 @needmorevram 共同维护 ☕ 支持 Maya 项目 - 给我买杯咖啡 建模这个大小通常需要一个数据中心。 Maya 在您已有的硬件上运行 GLM-5.3-Flash（zai-org，MIT 许可证）：321 B 参数，每个令牌约 18 B 活动，以及最多 1 M 令牌的上下文。它的发动机是专为这一型号打造的。它将您的对话中最常使用的专家保留在 GPU 上，其次保留在 RAM 中，其余的保留在 NVMe SSD 上，并在聊天时移动它们。它会测量您的 GPU、CPU、RAM 和 SSD，并根据它们进行自我调整。没有任何东西离开你的机器。 - 快速：四台 RTX 4090 上高达 118 个令牌/秒，一台 RTX PRO 6000 上高达 81 个令牌/秒，一台 RTX 5090 上高达 30+ 个令牌/秒。实数来自 - 接近原始数据：Maya 自己的量化保持 FP8 模型零样本精度的 97.7-99.2%。 - 插入您的工具：OpenAI 和 Anthropic 兼容的 API
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cuda, glm, glm-5, llm, llm-inference, local-llm
+
+---
+
+### 🌟 [monitor](https://github.com/BetterDB-inc/monitor)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,309
+- **核心概述**: Valkey 和 Redis 的实时监控、慢日志分析和审计跟踪
+- **大概是做什么的**: Valkey值得拥有的监控层。 BetterDB 保留了 Valkey 抛弃的东西——慢日志、命令模式、客户端活动、异常信号——所以你可以调试凌晨 3 点发生的事情，而不仅仅是现在正在发生的事情。专为 Valkey 8.x 构建，原生支持 COMMANDLOG、CLUSTER SLOT-STATS 和每线程 I/O 指标。 Redis 6+ 兼容其他一切。网站 Docker Hub npm 文档博客 BetterDB 由 BetterDB Inc. 构建，BetterDB Inc. 是一家根据 OCV 开放宪章运营的公益公司。快速入门 (Docker) 将浏览器指向 http://localhost:3001 。监视特定实例：连接到主机上的数据库？容器内部的 localhost 是容器本身，而不是您的主机——因此使用 host.docker.internal 作为数据库主机。在 Docker 桌面 (macOS/Windows) 上，它开箱即用；在 Linux 上，将 --add-host=host.docker.internal:host-gateway 添加到 docker run 命令，以便解析名称。仪表板的一键式“连接到本地实例”按钮会自动检测到这一点并为您预先填充正确的主机。发布了两个图像变体，均为多
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: dragonfly, mcp, mcp-server, metrics, monitoring, observability
+
+---
+
+### 🌟 [agent-foundation](https://github.com/converge-ai-labs/agent-foundation)
+- **项目语言**: Python
+- **星标数量**: ⭐ 205
+- **核心概述**: a13n - 一个开源库和自托管平台，用于构建和运行您自己的代理系统 - 具有托管代理、内存、沙箱、计算机使用和持久执行。商业友好。用爱构建💜@converge-ai-labs。
+- **大概是做什么的**: Agent Foundation (a13n) 用于 AI 代理的开源、自托管基金会。 Agent Foundation 是一个开源库和平台，用于构建和运行您自己的代理系统。托管代理、内存、沙箱、计算机使用和持久执行汇集在自托管服务中，随时可以集成到您的应用程序中。 - 用服务构建。配置代理并通过 API 将它们连接到您的产品，并已具备资源管理、权限和执行恢复功能。 - 用线束延伸。直接嵌入运行时并通过插件、自定义工具和提供程序塑造其行为。 - 使用 Harness UI 进行探索。在终端和网络游乐场中尝试模型、工具和代理配置，无需先构建应用程序。这些指南跟踪主要的 .对于已安装的版本，请使用其发行说明和包元数据。使用 Docker Compose 运行服务 您需要使用 Docker Compose 的 Docker 以及模型提供商 API 密钥或符合条件的 ChatGPT 计划。该堆栈启动服务、控制台、PostgreSQL 和 Redis。代理使用您的主机 Docker 引擎进行执行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a13n, agent, harness, managed-agents, sign-in-with-chatgpt
+
+---
+
+### 🌟 [hermes-conduit](https://github.com/kaishi00/hermes-conduit)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 300
+- **核心概述**: Conduit — Hermes Agent 的原生 SwiftUI iOS 客户端
+- **大概是做什么的**: Hermes Agent 的本机 iOS 客户端。免费，无广告，无跟踪。 Conduit 直接连接到您的自托管 Hermes 仪表板。与桌面客户端相同的会话、相同的配置文件、相同的功能。没有中继服务，没有额外的流程，没有中间人。在桌面上开始对话，然后在手机上接听。会话列表是相同的，因为它是相同的数据库。 - 使用完整的 Markdown 流式响应 — 语法突出显示的代码、数学���美人鱼图、任务列表 - 工具调用检查、推理跟踪和委托代理进度 - 附加图像和任何其他文件（PDF、文档、代码），或将图像直接粘贴到编辑器中 - 引导或中断飞行中的活动转弯 - 带有令牌计数和进度环的上下文使用表 - Slash 命令和工作区文件浏览 - 会话分支、固定、存档、刷新和删除 -具有设备上语音识别或服务器端 Whisper 功能的一键通语音模式 - 通过 GPT-Live (OpenAI Realtime) 和 Gemini Live 进行实时语音对话，包括通过 Gemini 工具桥进行网络搜索 - CarPlay 支持 — 与
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, hermes-agent, ios, self-hosted, swiftui
+
+---
+
+### 🌟 [Grandet](https://github.com/hanzohanzhe/Grandet)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 117
+- **核心概述**: 为任何模型找到最便宜的 API，并从您的 AI 代理连接它：Grandet Skill 和匿名 MCP 服务器，由 grandet.ai 上 1,800 多个官方、推理和中继提供商的列出价格提供支持。
+- **大概是做什么的**: 简体中文 · 网站 · 安装 向您的代理商询问某个型号最便宜的 API，然后让它将该 API 连接到您自己的应用程序。将其粘贴到您已经使用的代理中（Codex、Claude Code、Cursor 等）：代理会完成其余的工作。如果它需要您登录或批准某些内容，它会准确地告诉您要单击的内容。然后打开一个新对话并询问：我用 Claude Code 编写代码。给我找最便宜的 Claude Sonnet 4.6 API。无需再次提及葛朗台或附加文件。价格查询不需要帐户或 API 密钥。要手动安装，或者对于网络上的 ChatGPT 或 Claude 等需要上传技能文件的应用程序，请参阅手动安装。 1. 查找最低标价。它针对您的模型和使用类型（聊天、编码、长输出）比较了 grandet.ai 上的中继价格和官方价格，并列出了最便宜的几个：站点、创建代币时选择的组、价格、单位以及观察时间。 - 仅按标价排名。它从不说哪个网站“��”，也从不重复网站自己的主张，例如“实力雄厚”或“稳定”。 - 美元信贷、人民币信贷和现金优惠
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai, ai-agents, api-credits, api-pricing, api-relay
+
+---
+
+### 🌟 [ecommerce-ai-tools](https://github.com/nexscope-ai/ecommerce-ai-tools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 106
+- **核心概述**: 开放电子商务人工智能工具和指南，用于亚马逊评论分析、列表优化、关键词研究、SEO 审核、人工智能图像/视频生成以及人工智能代理的 API。
+- **大概是做什么的**: Nexscope 电子商务 AI 工具 Nexscope 团队提供的实用电子商务研究、SEO、创意 AI 和 API 工作流程。该存储库是一个公共图书馆，为卖家和开发商提供指南、过时的证据、示例和支持资源。托管的 Nexscope 应用程序单独运行；它的源代码不在这个存储库中。产品库：获取产品页面的反馈免费的电子商务产品页面审核从您已有的产品页面的反馈开始。提交公共产品 URL 或亚马逊 ASIN、产品详细信息和图片；视频是可选的。编辑审核后，请在您的私人管理页面上阅读有效的内容和任何基于证据的改进，无论该产品是否被批准发布。我们不会为了达到目标数字而发明改变。如果获得批准并发布，该产品还将获得一个免费的公共图库页面，从而在没有保证流量的情况下创建另一条通往原始列表的发现路线。请求免费的产品页面反馈 · 评论如何运作 · 分享您的产品页面挑战 没有商店连接、卖家令牌或付款权限
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 1688, ai-agents, ai-image-generator, ai-video-generator, amazon-keyword-research, amazon-listing-optimization
+
+---
+
 ## 🕔 2026-10-15 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 310 个候选项目中筛选出 6 个未推荐过的新项目。
