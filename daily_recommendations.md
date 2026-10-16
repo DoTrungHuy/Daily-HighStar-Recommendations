@@ -1,3 +1,67 @@
+## 🕔 2026-10-16 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Proxima](https://github.com/Zen4-bit/Proxima)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,197
+- **核心概述**: Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini & Perplexity to your coding tools without any API
+- **大概是做什么的**: All your AI models, working under one roof. Run frontier LLMs directly inside Cursor, VS Code, Windsurf, or Claude Desktop using free browser login sessions or local offline providers. Ships with a self-healing Python agent, multi-agent delegation, and cross-session memory. 📖 Table of Contents - The Solution: Proxima - 1. Session Routing (Default) - 2. BYOK (Bring Your Own Key) Routing - Meet Proxima Agent - Core Agent Capabilities - A Real-World Agent Scenario - Gated Execution Safety - State, Memory & Prompt Management - Context Tracking & Prompt Routing - Local SQLite Memory Engines - 2. Install & Start - 3. Connect to Your Editor (MCP) - 1. System Topology & Data Flow - 2. Core Subsystems - All MCP Tools (40) - Core Orchestration Tools - Security & Privacy - Frequently Asked Questions In late 2025, I hit a massive roadblock with AI coding tools. Outdated training data caused coding models to frequently hallucinate, guess wrong solutions, and ruin codebases. I tried setting up local agents using Model Context Protocol (MCP) APIs, but the results were disappointing. The API respon
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai-agents, ai-tools, byok, chatgpt
+
+---
+
+### 🌟 [pipelock](https://github.com/pipelab-org/pipelock)
+- **项目语言**: Go
+- **星标数量**: ⭐ 930
+- **核心概述**: Open-source AI agent firewall for MCP security and agent egress. Scans mediated HTTP, MCP, A2A, and WebSocket traffic for exfiltration, SSRF, and prompt injection, and emits mediator-signed action receipts: verifiable audit evidence from outside the agent.
+- **大概是做什么的**: Open-source AI agent firewall for Verifiable Egress Control . Pipelock sits between AI agents and the network. It inspects mediated HTTP, WebSocket, MCP, and A2A traffic, plus CONNECT tunnel contents when TLS interception is enabled, for secret exfiltration, prompt injection, SSRF, tool poisoning, and risky tool-call chains. Plain CONNECT without interception is scanned at the hostname and URL level. Configured MCP upstreams are an exception to private-address SSRF blocking: local/private servers are allowed, but cloud metadata endpoints remain blocked. Pipelock emits mediator-signed action receipts over content-aware boundary decisions, so a reviewer can verify what Pipelock decided outside the agent runtime. The public agent-egress-bench corpus exercises the detections. The Gauntlet workflow is the product's scheduled candidate exam against a pinned corpus commit; it does not auto-publish a public score. Learn more: Open-source AI firewall. Works with: Claude Code · OpenAI Codex · Cline · OpenCode · Pi · Zed · Cursor · VS Code · JetBrains · OpenAI Agents SDK · Google ADK · AutoGen
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agent-security, ai-agents, ai-firewall, ai-security, dlp
+
+---
+
+### 🌟 [OmAgent](https://github.com/om-ai-lab/OmAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,669
+- **核心概述**: [EMNLP-2024] Build multimodal language agents for fast prototype and production
+- **大概是做什么的**: 🌟 Build Multimodal Language Agents with Ease 🌟 OmAgent is python library for building multimodal language agents with ease. We try to keep the library simple without too much overhead like other agent framework. - We wrap the complex engineering (worker orchestration, task queue, node optimization, etc.) behind the scene and only leave you with a super-easy-to-use interface to define your agent. - We further enable useful abstractions for reusable agent components, so you can build complex agents aggregating from those basic components. - We also provides features required for multimodal agents, such as native support for VLM models, video processing, and mobile device connection to make it easy for developers and researchers building agents that can reason over not only text, but image, video and audio inputs. - A flexible agent architecture that provides graph-based workflow orchestration engine and various memory type enabling contextual reasoning. - Native multimodal interaction support include VLM models, real-time API, computer vision models, mobile connection and etc. - A su
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, chatbot, gemini, gpt, gpt4, gradio
+
+---
+
+### 🌟 [open-instinct](https://github.com/mariagorskikh/open-instinct)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 342
+- **核心概述**: Open Instinct: an open-source Instinct. A personal agent you text on iMessage, with its own computer and a trusted network of other agents. Built on Pi, Inkbox, Maritime and Composio.
+- **大概是做什么的**: An open-source personal agent you text. It has its own computer, does real tasks, and coordinates with the agents of the people you trust. A from-scratch, documented clone of Instinct , built so anyone can run one. You text a phone number. Inkbox gives the agent that number, an email address and an agent-to-agent endpoint. A small gateway wakes your agent, which lives in its own microVM on Maritime with a Linux desktop. Inside, a Pi agent loop runs with your apps through Composio, a wallet through Stripe Link, and a policy guard in front of every tool. Default model: Claude Fable 5.1. Any Pi provider works. It makes phone calls, too: say yes to "call the restaurant and book 7pm" and Inkbox Voice AI dials, speaks and hangs up, then you get one text with the outcome and any follow-ups from the transcript (see INKBOX.md). It writes real files, too: ask for a brief "as a PDF" and it creates one in its workspace and sends it to you as an iMessage or email attachment. Any app Composio supports can be connected by name ("connect my Notion"), and the prompt it runs with is a file you can rea
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, composio, imessage, inkbox, instinct
+
+---
+
+### 🌟 [openchatx-mcp](https://github.com/XiaoPuOuO/openchatx-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 287
+- **核心概述**: Turn ChatGPT into a local agent runtime. Operate your computer, use local tools, discover MCP servers, and delegate work to your own models through one MCP connection.
+- **大概是做什么的**: OpenChatX is a batteries-included, fully customizable local agent platform: coding-grade file and shell tools, computer control, MCP aggregation, Skills, Rules, Projects, Tasks, Subagents, cross-session Summaries, and more — all exposed through one official ChatGPT MCP connection, with Toolboxes to customize how your agent works. OpenChatX runs through regular ChatGPT Chat . It does not consume your ChatGPT Work / Codex agentic allowance. If your Work or Codex allowance is exhausted, you can still use OpenChatX as long as your normal Chat usage is available. OpenChatX runs with your local user permissions. A trusted ChatGPT caller can run commands, edit files, use connected MCP servers, and control supported applications. How it works — official MCP, no reverse engineering OpenChatX uses OpenAI's documented MCP integration path . It does not reverse-engineer ChatGPT, call undocumented ChatGPT backend endpoints, reuse browser session cookies, or intercept ChatGPT traffic. The connection works like this: 1. OpenChatX runs a normal MCP server locally on your machine. 2. OpenAI's officia
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, ai-agents, chatgpt, local-agent, macos, mcp
+
+---
+
+### 🌟 [apple-mail-mcp](https://github.com/patrickfreyer/apple-mail-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 230
+- **核心概述**: MCP server giving AI assistants full access to Apple Mail - read, search, compose, organize & analyze emails via natural language
+- **大概是做什么的**: Apple Mail MCP Server An MCP server that gives AI assistants full access to Apple Mail -- read, search, compose, organize, and analyze emails via natural language. Built with FastMCP. Prerequisites: macOS with Apple Mail configured, Python 3.10+ Claude Code Plugin (Recommended) Two commands — gets you the MCP server, /email-management slash command, and the Email Management Expert skill: Then restart Claude Code. Other Install Methods uvx (zero install, MCP server only) Or for Claude Desktop ( /Library/Application Support/Claude/claude desktop config.json ): pip install (MCP server only) npx skills (skill only, for Claude Code, Codex, Cursor and other agents) Installs the Email Management Expert skill via the open skills CLI. The skill does not include the MCP server, so install that too (e.g. with uvx above): Add -g to install the skill globally, or -a to target a specific agent. 1. Download the latest apple-mail-mcp-vX.Y.Z.mcpb from Releases 2. Open Claude Desktop → Settings → Developer → MCP Servers → Install from file 3. Select the .mcpb file and grant Mail.app permissions ------
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, apple-mail, applescript, automation, claude, email
+
+---
+
 ## 🕔 2026-10-16 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 229 个候选项目中筛选出 6 个未推荐过的新项目。
