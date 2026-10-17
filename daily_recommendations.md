@@ -1,3 +1,67 @@
+## 🕔 2026-10-17 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Autonomous-Company](https://github.com/MaxMiksa/Autonomous-Company)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,138
+- **核心概述**: An autonomous company working 24/7 on your own PC - Windows/Linux/macOS.
+- **大概是做什么的**: Autonomous Company was formerly Auto-Company. For existing installations, follow the one-time v3 migration guide before starting. An AI company framework for continuous autonomous work Powered by Agentic Workflows , this project provides 14 AI agent role definitions , each drawing on an expert's approach to its domain. The team can research products, make decisions, and write code autonomously within human-configured goals, permissions, and budgets. Deployment, publication, and marketing depend on the tools and authorization available; continuous operation depends on services and model availability. Powered by Claude Code (default) and Codex CLI on macOS + Windows/WSL, with a local dashboard on both hosts. Optional Cursor and OpenAI-compatible adapters require explicit configuration. See the adapter guide for their capabilities and limits. v2.2.0: A refined Dashboard with continuous work journals, smoother navigation and improved mobile layouts. 🎬 Dashboard and Product Preview Interface demo using recorded work; unavailable runtime fields use sample values. Click an image to view it
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflows, ai-agents, autonomous-agents, claude-code, codex, dashboard
+
+---
+
+### 🌟 [kody](https://github.com/kody-hq/kody)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 806
+- **核心概述**: 🐨 Your agents' cloud — the memory, keys, code, and automations your AI agent keeps, portable across every MCP host.
+- **大概是做什么的**: Your agents' cloud: the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers. Kody is Your agents' cloud: the memory, keys, code, and automations your AI agent keeps, portable across every MCP host. Built on Cloudflare Workers and the Model Context Protocol (MCP), it ships a Remix UI, Worker-based request routing, package runtime plumbing, and OAuth-protected MCP endpoints. The project favors a compact MCP surface with powerful search and Code Mode execute flows over a large static tool catalog. Kody works for individuals and teams (orgs, teams, grants): each account holds isolated packages, jobs, credentials, memories, and related state. Tests and fixtures may seed deterministic local accounts, but no account is privileged at runtime. The repo follows several epicflare starter conventions. The repo is organized as an Nx monorepo, with shared modules in packages/shared ( @kody-internal/shared ), the origin app worker under packages/worker , sibling workers under packages/platform-worker , packages/runtime-worker , and pa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-assistant, cloudflare-workers, code-mode, mcp, personal-assistant
+
+---
+
+### 🌟 [agenticos](https://github.com/vstorm-co/agenticos)
+- **项目语言**: Python
+- **星标数量**: ⭐ 108
+- **核心概述**: Open-source AI teammates for your company. The self-hosted agent layer: build, run and govern AI agents on your own servers, models and rules. RAG, skills, a real browser, 4,700+ MCP servers and an API, with budgets, approvals and an audit trail. Apache-2.0, built on Pydantic AI.
+- **大概是做什么的**: The self-hosted agent layer: build, run and govern AI agents on your own infrastructure. Chat, apps, a real browser, MCP and an API in one place, with budgets, approvals and a recorded run. Apache-2.0 &middot; built on Pydantic AI Highlights &middot; What is it? &middot; Quick start &middot; Integrations &middot; Product tour &middot; Find your path &middot; What ships &middot; Introduction deck &middot; AgenticOS gives every team AI teammates: agents that work with files, run code, browse the web and use your company's tools and knowledge. It is open source (Apache-2.0) and self-hosted, a layer you run on your own infrastructure. Build and publish agents in the browser, share them with colleagues, and manage their access, cost and results in one place. New here? Click through the 14-slide introduction: the problem, the idea, the product on real screens, its controls and limits, and how to start. For every screen in detail, open the 44-slide product tour. Arrow keys step through either deck; O lists every slide. Your day, on one screen Open the console to what your agents did, the ca
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, agentic-os, agents, ai-agents, ai-assistant, ai-governance
+
+---
+
+### 🌟 [mixdog](https://github.com/tribgames/mixdog)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 143
+- **核心概述**: Open-source desktop coding agent where a lead model plans and cheaper models handle search, edits and review.
+- **大概是做什么的**: The open-source coding agent that uses 63% fewer tokens. https://github.com/user-attachments/assets/af515dc9-b0fb-4b6a-aaa1-1d82db792ed0 macOS button is for Apple Silicon (M1 and later). Intel Mac? Download for Intel Mac . Linux button is the x64 AppImage; .deb and ARM64 builds are listed below. - 63% fewer tokens than Codex CLI on the same model, at the - Auto reasoning effort — each message and tool step gets the effort it needs, judged in about 0.1 s by a 150 MB model that runs locally on the CPU. On by default. - Use the Claude, ChatGPT, Grok, or Muse Code subscription you already have, API keys, or local models on your own GPU. - Mix models by role and scale from Solo to Swarm — a strong model leads while cheaper ones search, edit, and review in parallel. - A full workspace: editor, terminals, Git and GitHub, code graph, and - Keeps working on its own with Goals, schedules, and webhooks — and continues from your phone, end-to-end encrypted. - Goes beyond code with browser and desktop control , Office and PDF documents, and image and video generation. - Runs on Windows, macOS, an
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude, codex, coding-agent, desktop-app, electron
+
+---
+
+### 🌟 [joxo](https://github.com/JoxoAI/joxo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 100
+- **核心概述**: One shared project for your team's Claude Code, Codex, Cursor and OpenCode agents: a task board, decisions and handoffs. Everyone keeps their own plan.
+- **大概是做什么的**: Your team’s agents. One project. Claude Code, Codex, Cursor and 25 more coding agents in one chat with your team. An idle session picks up a teammate’s task on its own, hands off with branch and commit, and asks you on your phone. Paste this into your coding agent, opened in your project folder. It reads Joxo's setup document, signs you in with one click in your browser, and sets up the rest. It works in Claude Code, Codex, Cursor, Gemini CLI, OpenCode and the other agents on joxo.ai/agents. There is nothing to install first: your agent downloads Joxo's installer to a file, reads it, then runs it, and the installer brings everything it needs. What it does, step by step. Keep the setup skill in your agent. The same skill installs as a plugin or as a skill, and your agent can then set up or join a project whenever you ask: No terminal, or using Claude.ai or ChatGPT? Add Joxo as a connector instead, with nothing to install: in Claude, Customize Connectors Add custom connector; in ChatGPT, Settings Plugins (or Apps Developer mode) Create. The URL is https://joxo.ai/api/mcp . Exact steps.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-collaboration, ai-agents, ai-coding-agents, anthropic, claude-code, codex
+
+---
+
+### 🌟 [awesome-claude-dxt](https://github.com/milisp/awesome-claude-dxt)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 182
+- **核心概述**: Awesome Claude Desktop Extensions (dxt) (not only Claude) mcpb
+- **大概是做什么的**: A curated list of awesome (not only Claude) Desktop Extensions, tools, and resources dxt is Desktop Extensions: One-click MCP server installation for Claude Desktop and other Desktop apps ⭐ Star the repo and follow milisp on X and github for more . - mcp-linker - mcp manager, add & syncs MCP server configurations across clients like Claude, Cursor - milisp/codexia - The missing GUI for the OpenAI Codex CLI, (FileTree + notepad + git diff) all in a lightweight Tauri desktop app. - Official Resources - Extensions by Category - Packaging & Management Tools - Documentation & Tutorials - Desktop Extensions Announcement - Official blog post - DXT Specification - Open-source toolchain and specs - Submission Form - Submit to official directory - Official examples - Official examples If you find this project helpful, please consider starring! This list is community-maintained. See CONTRIBUTING.md for guidelines. Or translate plan Extensions by Category All extensions are located in the servers folder, each organized by owner/repo, and containing a manifest.json and user config.json . If the m
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: awesome, awesome-list, claude, claude-desktop, dxt, mcp
+
+---
+
 ## 🕔 2026-10-17 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
