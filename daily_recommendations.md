@@ -1,3 +1,67 @@
+## 🕔 2026-10-17 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cloudroom-core](https://github.com/davidondrej/cloudroom-core)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 782
+- **核心概述**: Open-source, self-hostable Rust runtime that runs Claude Code, Codex, and Pi in the cloud.
+- **大概是做什么的**: Website · Desktop app · Changelog · Security Your agents get their own room in the cloud. Cloudroom core runs coding agents on your own Linux machine and saves their chat history. It powers the cloud side of the Cloudroom app, which runs Claude Code, Codex, and Pi on your Mac or in the cloud. - Works with Claude Code, Codex, Pi, OpenCode, Hermes, Cursor, and Devin. - Agents use your own logins to call their models. - One Rust service per machine. No Cloudroom account needed. Don't want to host it yourself? Hosted Cloudroom is invite-only for now. Join the waitlist. - Install on Ubuntu 24.04 with one script, on a VPS, a home server, or a spare laptop. No database needed. - Reach it from your laptop with Tailscale, and upgrade in place. - HTTP API: every endpoint, event, and error code. - Linux builds: tested binaries for each release. - Agents run as a separate Linux user, with no admin rights and no sudo . - Agents can't read the core's token or history files. - Every API request needs a secret token. The API listens only on localhost unless you put it behind HTTPS. - History stays o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, background-agents, claude-code, cloud-agents, codex, coding-agents
+
+---
+
+### 🌟 [mcd-saver-strategist](https://github.com/hujjun/mcd-saver-strategist)
+- **项目语言**: Python
+- **星标数量**: ⭐ 470
+- **核心概述**: 麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省 53%）。McDonalds MCP（麦当劳 MCP）coupon optimizer · McDonalds China MCP Server · Agent Skill for WorkBuddy · 麦当劳程序员创意开发大赛参赛作品
+- **大概是做什么的**: 麦门省钱精算师 · mcd-saver-strategist 基于 麦当劳中国 MCP（McDonald's China MCP） 开发的省钱点餐 Skill / AI 智能体技能： 把「菜单 × 优惠券 × 叠加规则」的组合优化交给确定性算法， 让每一顿麦麦都点得明明白白、省得清清楚楚。 又名：麦门省钱精算师 / 麦当劳省钱点餐助手 / MCD Saver Strategist。 麦当劳程序员创意开发大赛参赛作品 · 非麦当劳官方产品。 用户说"我想吃巨无霸套餐，怎么最便宜"，它拉取门店菜单和所有可用优惠券， 用算法穷举出总价最低的合规组合，并帮你下单。 示例：巨无霸 + 中薯条 + 可乐，直选 ¥47.00 ； 用「1+1 随心配」组合后 ¥21.90 ，省 ¥25.10（53%） 。 它不止会算"最便宜"，还能回答四个衍生问题： 这顿饭我想省钱 / 吃全 / 低卡 / 少排队 多目标优化 ：4 种点餐目标，同一约束给不同最优解 手里这堆券，哪张真便宜哪张是坑？ 券体检 ：名义面额 vs 实际节省 vs 机会成本 差几块钱到下一档满减，加购划不划算？ 凑单建议 ：最小代价补位，算出净变化（可能为负） 便宜和低卡不可兼得，边界在哪？ 帕累托前沿 ：价格 × 热量的不可支配解集 一家人 / 一桌同事怎么点？ 多人拼单 ：按份数计价、人均分摊，优惠只计一次（保守） 🎮 在线试算（无需登录） ： —— 优化算法的前端完整复刻，选好想吃的、切换目标、拖动预算和热量上限，实时算出最优组合； 页面里还有券体检和帕累托前沿图，打开即玩。 🔎 静态示例： docs/demo.html · 🖼️ 原理图： images/how-it-works.png · 🎬 宣传动画： images/promo.mp4 麦当劳的优惠是典型的 组合爆炸 问题： - 菜单几十项、优惠券动辄十几张、叠加规则各不相同； - 用券还要考虑「为凑满减而加购是否划算」； - 用户懒得算，大模型 也容易算错 （价格、折扣、叠加口算不可靠）。 本 Skill 的核心洞察是： 取数交给 MCP，算术交给代码，表达交给 Agent。 麦当劳 MCP 实时菜单、价格、优惠券、营养、门店、下单 scripts/optimizer.py 确定性组合优化，输出总价最低的 Top-N 方案 WorkBuddy Agent 理解需求、归一化数据、讲解方案、确认后下单 （Windows 为 %USERPROFILE%\.workbuddy\skills\ ；MCP Token 配置见下文「安装」。） 前往麦当劳 MCP
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, ai-agent, coupon-optimizer, coupons, deterministic-optimization, fast-food
+
+---
+
+### 🌟 [MxPage](https://github.com/ziguishian/MxPage)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 412
+- **核心概述**: 开源 AI 电商详情页与商品图工作台：V4 确定性工作流、批量图片翻译、小红书图文、费用监控，支持 Windows / macOS 与本地部署。AI e-commerce images, translation & recoverable workflows.
+- **大概是做什么的**: MxPage · AI 电商详情页与商品图工作台 简体中文 · English · 桌面版下载 · 更新说明 · AI 文档索引 MxPage 是由灵矩绘境维护的开源 AI 电商图片工作台。 上传商品参考图，补充商品事实，选择平台、语言与图片数量，即可制作商品主图、完整详情页长图和小红书图文，也可以批量翻译已有商品图片。支持本地部署及 Windows、macOS 桌面运行。 v0.3.0 将详情页执行器重构为 V4 确定性状态机 + 单次结构化模型请求 。任务调度、检查点、排版、停止与恢复由代码负责，不再使用 @openai/agents 或多轮工具调用。旧版本工作流保留查看和导出，新任务使用 V4。 电商详情页 商品识别、购买价值规划、整套分镜、主图与详情图生成、手机样机预览 完整内容策划 需求与痛点、卖点与证据、场景、已知参数、使用说明和购买决策信息；未知事实先确认 多平台视觉 通用电商、淘宝/天猫、拼多多、抖音和小红书提示词，按类目与任务应用 批量处理 文件夹商品批次、全局任务队列、逐张保存、失败查看和继续操作 图片翻译 单张、多张、文件夹、多语言批量，固定提示词，不运行商品规划 Agent 编辑与交付 逐图编辑、历史版本、原图/译图对照、分图 ZIP、完整详情长图 监控 当前阶段、文本及每张图片耗时、API 费用与稳定性图表、人民币费用估算 用户中心 头像与用户名、最近 12 个月消耗热力图、模型配置、外观与关于页面 详情任务支持 3–10 张头图、4–20 张详情图 。平台预设用于内容与视觉制作，不会自动发布到平台，也不导出商城网站。 以下为 2026-10-17 本地运行的 v0.3.0 实际截图，仅展示首页和效果页。效果页使用最新的渐变色杯装蜡烛作品，可查看手机预览、逐图编辑、文本与每张图片耗时。 效果页 · 手机预览、图片编辑与任务耗时（展开截图） 以下图片来自本地已生成的作品，保留原始画面与文案；展示文件只做等比缩放、压缩和按页面顺序拼接。每组均提供 商品原图、全部头图、分屏详情图和完整详情长图 ，点击案例可查看大图。 渐变色杯装蜡烛 香薰炉 木纹外观桌面雾化器 4 张头图 + 6 屏详情 4 张头图 + 6 屏详情 3 张头图 + 4 屏详情 完整长图 · 1080 × 8640 完整长图 · 1080 × 8640 完整长图 · 1080 × 5760 这三组作品使用 gpt-6-luna 与 gpt-image-2.5-flare ，请求画质为 auto 。记录保留 PARTIAL 质检状态；部分规格来自用户选中的模型候选，属于演示输入，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, batch-processing, deterministic-workflow, e-commerce, electron, image-editing
+
+---
+
+### 🌟 [hermes-official-plugins](https://github.com/NousResearch/hermes-official-plugins)
+- **项目语言**: Python
+- **星标数量**: ⭐ 304
+- **核心概述**: ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.
+- **大概是做什么的**: Hermes Official Plugins ☤ The official plugins for Hermes Agent , built and maintained by Nous Research . One repo, every first-party plugin, installed in one line from the Hermes plugin catalog. What is Hermes Agent? Hermes Agent is the self-improving AI agent from Nous Research. It writes skills from experience and keeps improving them as it works, remembers what matters across sessions, and runs where you are: the terminal, the Hermes Desktop app, Telegram, Discord, Slack, WhatsApp, Signal and more, all through one gateway. You can bring any model (Nous Portal, OpenRouter, Anthropic, OpenAI, your own endpoint) and run it on a laptop, a $5 VPS or serverless infrastructure. A lean core, with plugins at the edges The Hermes core keeps the parts every user needs: the agent loop, memory, skills, the gateway, model routing and the tool runtime. Everything specific to one product, one vendor or one hobby belongs in a plugin , which you install when you want it and which ships on its own schedule. - Smaller, faster installs. You don't download a Spotify client to run a coding agent. - Fix
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-plugins, ai-agents, claude, hermes, hermes-agent, home-assistant
+
+---
+
+### 🌟 [VelaTerm](https://github.com/vlinx-io/VelaTerm)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: VelaTerm = Codex + iTerm2, The Best ADE for AI Coding
+- **大概是做什么的**: The best ADE. Not just a terminal. Not just an IDE. Manage agent sessions like Codex. Split terminals like iTerm2. VelaTerm keeps both in one native app, and brings them to your browser and your phone. Watch the intro video (2:55) · Every major coding agent Claude Code, Codex, OpenCode, Copilot, Cursor, Antigravity, Cline, Pi and more. Each one runs as a managed session, with live status, resume and custom launch arguments. A full agent dev environment Follow an agent's plan, edits, commands and test results as a conversation, or switch the same session to the terminal view and work in its TUI. Projects → groups → nested sub-groups → sessions. However many sessions you run, they stay in order. Every session is a real pseudo-terminal that keeps running in the background, and sessions can be Commands and paths, as you type Command and path suggestions appear as you type. Choose with the arrow keys, then press Tab to accept. Know the moment an agent needs you Session states follow the conversation live, in the session tree and the status bar, with a desktop notification when an agent fi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, claude, claude-code, codex, coding
+
+---
+
+### 🌟 [runtm](https://github.com/runtm-ai/runtm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: Open-source sandboxes where coding agents build and deploy. Spin up isolated environments where Claude Code, Cursor, and other agents code and deploy software.
+- **大概是做什么的**: Open-source sandboxes where coding agents build and deploy. Spin up isolated environments where Claude Code, Cursor, Codex, and other agents code and ship software. With live URLs, logs, and previews. Website · Docs · Get Started https://github.com/user-attachments/assets/8d6d5ab8-a5c4-4a3d-8ef1-5d20b67ed3ee - Sandboxes for yolo agents – Let agents code with full permissions in isolated environments. No risk to your machine or cloud. - Run any coding agent – Claude Code, Cursor, Codex, Gemini CLI, and more. Bring your favorite. - Real URLs instantly – Agents deploy to live HTTPS endpoints. Test, share, and iterate. - Logs and observability – See what your agent built, debug issues, fix and redeploy. You get a live HTTPS endpoint on auto-stopping infrastructure. Machines spin down when idle and wake up on traffic. Local Sandbox Sessions Run AI agents in isolated local environments with OS-level sandboxing: - OS-level isolation – Uses bubblewrap (Linux) or seatbelt (macOS) for fast, secure sandboxing - Instant startup – Sandboxes start in Reattach to a sandbox runtm session stop Stop a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime, agentic, ai-agents, anthropic, app-runtime, claude
+
+---
+
 ## 🕔 2026-10-16 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
