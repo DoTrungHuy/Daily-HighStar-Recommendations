@@ -1,3 +1,67 @@
+## 🕔 2026-10-17 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [solidcraft](https://github.com/tangency-labs/solidcraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,176
+- **核心概述**: SolidCraft：一个用纯 Rust 构建的开源参数化 3D CAD 应用程序。通过 MCP 实现桌面、Web 和自动化。
+- **大概是做什么的**: 一个用纯 Rust 构建的开源参数化 3D CAD 应用程序。使用参数化特征时间线绘制草图、约束和构建实体。更改尺寸并观察模型重建。在桌面、浏览器中运行它，或者让 AI 代理通过内置的 MCP 服务器进行建模。在浏览器中尝试一下·空设计中的 Raspberry Pi 4 外壳：草图尺寸与电路板参数、挤压、圆角、外壳、一次性圆形边缘、在 58 × 49 mm 孔矩形上图案化的 M2.5 支座、端口切口、通风槽、用 DejaVu Sans Bold 雕刻的“Pi 4”以及设计中定义的 PETG 材料，其质量在属性中，然后高度 24 →参数为 32 毫米，全部重建。 9倍播放。完整视频，与演示脚本一起录制。 - Windows：下载并运行[安装程序][windows-msi]。也适用于 [ARM64][windows-arm64-msi] 和 [32 位][windows-x86-msi] PC，或作为无需安装即可运行的 [portable zip][windows-portable]。 winget 安装 bherbruck.SolidCraft 。 - macOS：打开[磁盘映像][macos-dmg]并将 SolidCraft 拖入应用程序（Apple 芯片和
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, brep, cad, egui, mcp, parametric-cad
+
+---
+
+### 🌟 [yovoice](https://github.com/leemysw/yovoice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,592
+- **核心概述**: 适用于 macOS 和 Windows 的开源本地 AI 音频和音乐工作室。 TTS、语音克隆、带歌词的歌曲和多轨乐谱 — 100% 离线，零 API 费用。
+- **大概是做什么的**: 让你的话语有声音。将您的想法写成歌曲。网站 · CLI 和代理技能 · API / MCP 部署 · 开发 yovoice 是一个适用于 macOS 和 Windows 的开源、本地优先的音频和音乐创作工作室。在您的机器上将文本转换为富有表现力的语音、自然的克隆声音、完整的声乐歌曲和多轨乐谱。具有零镜头语音克隆、情感表演控制、带有歌词的 AI 音乐生成和通用 MIDI 乐谱编曲 - 所有这些都在本地 100% 运行，零云 API 调用、零每字符费用和零 Python 环境麻烦。 - 🔒 100% 本地隐私：完全在本地 GPU/CPU 上运行。您的手稿、参考声音和创作永远不会离开您的计算机。 - 💸 零经常性费用：告别按字符/每分钟计量和昂贵的云语音/音乐订阅。 - ⚡ 原生 C++ 性能（无 Python Hell）：由 audio.cpp v0.9.1 提供支持。附带捆绑的 Windows CUDA 12.4/13.3 运行时和本机 macOS Metal 支持。双击并创建——没有 Conda 或 PyTorch 冲突。 - 🎛️ 创作者工作站：Multi-ta
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-music, audio, desktop-app, local-ai, macos, mcp
+
+---
+
+### 🌟 [open-computer-use](https://github.com/iFurySt/open-computer-use)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 2,459
+- **核心概述**: 👾 开放计算机使用 – Codex 计算机使用的开源替代方案
+- **大概是做什么的**: 对浏览器的使用感兴趣？查看打开浏览器使用。 open-computer-use 是一个封装为 MCP 的开源计算机使用服务。任何 AI 代理或 MCP 客户端都可以使用它在 macOS、Linux 和 Windows 上运行计算机使用。该项目的灵感来自 OpenAI 的 Codex Computer Use。它表明非侵入式 CUA 可以构建在 Accessibility 之上，因此我决定构建一个开源版本。我用我的工具模板开始了这个存储库，这是一个用于快速启动人工智能优先项目的模板。它是我们最近最有用的工作流程之一，特别是对于近 100% 人工智能生成的项目。我还写了一篇关于其背后的方法论的文章。 Codex App和Codex CLI开放计算机使用-在Codex App和Codex CLI中用作计算机使用，与官方体验一致。 https://github.com/user-attachments/assets/eacb3b15-f939-46c7-b3b3-6f876977a58d Gemini CLI 通过 MCP 连接到开放计算机使用并运行完整的计算机使用操作。 https://github.com/user-attachments/assets/e036b1c8-2200-4896-abd4-19225915cf66 在 Linux 上运行的开放计算机使用。 npm 包还将 ocu 公开为 sh
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: accessibility, ai-agent, ai-agents, claude-code, codex, codex-computer-use
+
+---
+
+### 🌟 [Operant](https://github.com/PinelliaChill/Operant)
+- **项目语言**: Python
+- **星标数量**: ⭐ 403
+- **核心概述**: Operant Beta：以多模型分工、按需通信、分层审批和经验复用为核心设计，在本机组织可追溯的 Agent 协作，并通过模块化架构扩展能力。
+- **大概是做什么的**: 让合适的模型分工协作，让验证过的经验留给下一次任务。 当前处于 Beta 阶段 ，采用 非商业使用许可，商用须另行协商授权 。 v0.1.0-beta.4 当前 Beta：自包含 macOS arm64 DMG；首次连接、默认助手、对话名称、技能发现，以及 ChatGPT（Codex）和 Gemini 连接 Beta 3 2026-10-06 的安装包；不包含 Beta 4 的首次使用流程和 Codex 接入 v0.1.0-beta.2 历史源码、Core/TUI 与桌面包；会话协作、编排、审批、记忆与扩展能力 当前 main 持续开发分支；日常使用建议选择固定标签 下载 macOS DMG · 本次发行说明 · 更新记录 · 安装、升级与回退 Apple Silicon Mac 下载 DMG 后，将 Operant 拖入 Applications。App 已内置 Core、Python 和运行依赖， 首次打开后连接模型即可创建对话；ChatGPT（Codex）连接还需要本机安装官方 Codex CLI。 安装包采用 ad-hoc 签名，尚未通过 Apple 公证，没有自动更新。 开箱即用与界面整理方案的实现与验收范围见本轮记录。 TUI 的部分原生视觉验收仍有缺口；发行不表示原计划全部验收完成，也不会自动替换本机已安装 App 或迁移用户数据。 Operant 是一个自主设计并实现的、面向多模型协作与能力扩展的 AI Agent 工具。 它关注复杂编程任务中的四个问题： 多个 Agent 如何有效协作，安全审批如何减少打断， 历史经验如何继承，以及新工具和新模型如何接入。 项目的核心思路，是把模型选择、角色分工、通信范围、执行权限和记忆复用放进同一套工作方式中。 你可以让不同模型分别负责规划、探索、编码和审查，也可以从一个简单的只读会话开始， Operant 在本机运行，面向单个用户。任务状态与记录保存在本地，模型调用使用你自己的 API 配置。 多 Agent 协同：分工明确，信息按需流动 简单任务直接对话，复杂任务组织协作。 会话模式提供直接的任务入口；协作模式围绕角色、 工作流和消息组织多个 Agent，让不同模型承担适合自己的工作，而不是每个角色都重复理解整个任务。 当前已支持会话内委派子 Agent、父子历史与定向后续消息，也保留角色工作流与团队协作。 子 Agent 默认继承模型、权限、预算和工作区，仅接收任务包；使用前需在角色工具权限中显式开启对应能力。消息按接收人和作用域传递， 配合上下文引用与压缩，控制无关信息进入模型的范围。这样可以减少重复
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, coding-agent, python, self-hosted
+
+---
+
+### 🌟 [openchart](https://github.com/longsurf-ai/openchart)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 238
+- **核心概述**: OSS 交易工作区与您最喜欢的代理
+- **大概是做什么的**: OpenChart 将人工智能代理带入您投资旅程的每一步：使用代码和图表进行统计和技术分析、通过警报实时响应市场事件、通过代理研究发现机会等等。 OpenChart 的构建并不是为了将软件货币化，而是为了探索人类和代理共同管理资产的未来。如果您相信这个未来并希望联合起来，我们想与您交谈。打开磁盘映像并安装 OpenChart。要从源代码运行 Desktop，请安装 Node.js 24、Bun 1.4.2 和 Just，只需安装即可初始化并构建 Tea（一种由同一团队为分析市场而构建的编程语言）。请遵循第一个图表和警报的设置指南，或构建和打包应用程序的开发指南。桌面是免费的。 AI 的使用遵循您的代理提供商的计划；可选的云市场数据单独定价。没有软件配额的图表添加指标和交易量配置文件，然后扩展到 4×4 网格。对图表、指标或价格和指标警报没有软件计划限制。使用您的 Claude、Codex 和 Gemini 模型
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-trader, ai, charting, charts, charts-js
+
+---
+
+### 🌟 [tiramisu](https://github.com/MrRobotoGit/tiramisu)
+- **项目语言**: Go
+- **星标数量**: ⭐ 143
+- **核心概述**: 最先进的 BitTorrent 引擎和 FUSE 虚拟文件系统，用于实时流式传输到您的私人 Plex 或 Jellyfin 库。 MCP 准备就绪。忘记真正的碎片。
+- **大概是做什么的**: Tiramisu 是最先进的 BitTorrent 引擎和 FUSE 虚拟文件系统，用于将直播传输到您的私人 Plex 或 Jellyfin 库。 MCP 已为 Hermes、OpenClaw 和 Claude Code 做好准备。忘记真正的碎片。这个项目以前被称为GoStream。现在是提拉米苏，相同的项目，相同的代码库，只是一个新名称。它的工作原理没有任何改变，本自述文件中的所有内容仍然适用。如果您从较旧的安装升级，请注意二进制名称、配置路径和 systemd 服务名称也都��更改，因此重新运行安装脚本是获取新布局的最简单方法。 Tiramisu 公开了一个自定义的 FUSE 虚拟文件系统，其中每个 .mkv 文件都是一个完美的幻象：它看起来像磁盘上的真实文件，但每个字节都是根据需要从 BitTorrent 群实时提供的。无需下载。没有临时文件。无存储配额。 BitTorrent 引擎与 FUSE 层在同一操作系统进程内运行，并通过内存中的 io.Pipe() 连接。 Plex/Jellyfin 读取一个字节范围时，没有 HTTP 往返，没有序列化，没有代理开销，只有字节，直接流动
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, bittorent, fuse, go-fuse, golang, hermes-agent
+
+---
+
 ## 🕔 2026-10-17 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
