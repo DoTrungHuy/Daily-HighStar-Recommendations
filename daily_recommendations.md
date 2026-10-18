@@ -1,3 +1,67 @@
+## 🕔 2026-10-17 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agentty](https://github.com/agentty-org/agentty)
+- **项目语言**: C++
+- **星标数量**: ⭐ 618
+- **核心概述**: 终端中的 AI 结对编程 — 一个静态二进制文件、亚毫秒级启动、任何模型
+- **大概是做什么的**: 终端中速度极快的开源编码代理。 C++26 中的克劳德代码替代方案 — 一个静态二进制文件、毫秒启动、任何模型。大多数终端编码代理作为 Node 或 Python 应用程序提供，并每次都会将存储库的大块发送到模型。 agentty 采用相反的方法： - 它是一个本机二进制文件。 16.7 MB、3 毫秒冷启动、零运行时依赖 — 无 Node、无 Python、无 npm install、无 Node 模块。下载并运行。 - 它仅发送相关代码。内置检索（混合 BM25 + 密集嵌入、代码感知分块、GraphRAG）仅获取重要的切片 — 与整个存储库转储相比，通常会减少 80% 以上的上下文。 - 它不被锁定到一个供应商。使用您的 Claude Pro/Max 登录，或将其指向 OpenAI、Groq、OpenRouter、Cerebras、DeepSeek、xAI (Grok)、Mistral、Gemini、Fireworks 或完全本地的 Ollama 模型。使用 ^P 切换直播。 - 默认情况下是安全的。 Shell 和构建命令在沙箱中运行；使用一个命令通过 SSH 隔离整个会话。 - 它是开源的 (MIT)，并通过 ACP 在 Zed 内部运行。来自另一个工具？
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-coding, ai-agent, anthropic, claude, claude-code, claude-code-alternative
+
+---
+
+### 🌟 [hyperfide](https://github.com/Sidiora-Labs/hyperfide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 435
+- **核心概述**: 人工智能代理工作流程工具可从小型、简单的项目扩展到大型、复杂的代码库。
+- **大概是做什么的**: 代理工作流程工具可从小型、简单的项目扩展到大型、复杂的代码库。本地 CLI 是纯 C11：一个二进制文件、一个 SQLite 数据库、没有遥测。 English · 简体中文 · Español · हिन्दी · हिन्दी · Français · Português (BR) Hyperfide 是一个单一二进制、hyperfide 中的代理工作流引擎。除了代码本身之外，它还维护项目所需的四件事——代码是什么，它是如何到达这里的，接下来会发生什么，以及一路上学到的东西——并将这四件事服务于人类和人工智能代理。这棵树是正在开发中的 Hyperfide 2.0： hyperfide 版本打印 2.0.0-dev ，其中没有任何内容是生产版本。 Hyperfide 源自 Codify，后者的 1.x 版本、功能 ID（例如 codify-v15 和 codify-v16 ）和提交历史记录保留其原始名称。 2.0 围绕同一个本地 CLI 添加了一个分布式控制平面——监控服务器上的领导者和功能管理器、用于构建和代理的远程沙箱、PostgreSQL 作为权威。兼容性。 hyperfide 是规范命令。 cg 是从同一 exe 安装的已弃用的兼容性别名
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-memory, agent-orchestration, agentic-workflow, ai, codify
+
+---
+
+### 🌟 [SanityHarness](https://github.com/lemon07r/SanityHarness)
+- **项目语言**: Go
+- **星标数量**: ⭐ 243
+- **核心概述**: 一种轻量级的工具，旨在使用简单、高效、与任何编码代理普遍兼容，以通过广泛的编码任务和语言对其进行评估。
+- **大概是做什么的**: 一种用于编码代理的轻量级评估工具，可在隔离的 Docker 容器中运行高信号、紧凑但具有挑战性的问题。通过加权评分、完整性验证和详细报告，以 6 种语言评估 26 项任务的代理。注意：v1.8.x 现已上线，包括版本和排行榜。如果您想将运行数据与旧版排行榜进行比较，请使用带有 --legacy 标志的 v1.6.1。 - 独立执行：每个任务都在专用的 Docker 容器中运行 - 多语言支持：Go、Rust、TypeScript、Kotlin、Dart 和 Zig（26 个任务） - 19 个内置代理：Gemini、Claude、OpenCode、Codex、Goose 等 - 加权评分：根据经验得出的难度系数以进行公平比较 - BLAKE3 验��：提交的加密完整性检查 - 观察模式：自动对文件更改重新运行测试 - 隐藏测试：仅在评估期间应用附加验证 - 并行评估：使用 --parallel 同时运行多个任务 - 代理沙盒：Bubblewrap 隔离将代理限制在其工作区 - 持久缓存：使用 .sa 加速构建
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-coding, benchmark, coding, coding-agent, eval
+
+---
+
+### 🌟 [discord-mcp](https://github.com/SaseQ/discord-mcp)
+- **项目语言**: Java
+- **星标数量**: ⭐ 546
+- **核心概述**: 用于 Discord 集成的 MCP 服务器。让您的 AI 助手能够与 Discord 无缝交互。通过强大的自动化功能增强您的 Discord 体验。
+- **大概是做什么的**: 使用（JDA）的 Discord API 的模型上下文协议（MCP）服务器，旨在将 Discord 机器人与 MCP 兼容的应用程序（例如 Claude、ChatGPT 等）集成。它允许 AI 助手通过管理通道、发送消息和检索服务器信息来与 Discord 进行交互。非常适合构建强大的 Discord 自动化和 AI 驱动的工作流程。 ► 🐳 Docker 安装（推荐） 需要安装 Docker。完整的说明可以在 docker.com 上找到。 1) 设置本地环境变量 有关创建 Discord 机器人并检索其令牌的说明可以在此处找到。 DISCORD GUILD ID 环境变量是可选的。当提供时，它会设置默认的 Discord 服务器 ID，因此任何接受 guildId 参数的工具都可以忽略它。 2) 运行 Docker 容器 默认 MCP 端点 URL（HTTP 配置文件）：http://localhost:8085/mcp 🐋 Docker Compose 安装 1) 克隆存储库 2) 转到项目目录 3) 创建本地运行时环境 4) 启动一个共享 MCP 服务器容器 您无需手动设置 LOGGING PATTERN CONSOLE。日志记录是自动配置的
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, claude, discord, discord-bot, java, mcp
+
+---
+
+### 🌟 [r3bl-open-core](https://github.com/r3bl-org/r3bl-open-core)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 486
+- **核心概述**: 完全异步 Rust TUI 引擎🦀。用于为 AI/LLM 编码代理、云/SSH 工作流程和交互式 CLI 提供支持：非阻塞 readline、内联对话框、React/Elm 风格的全屏 TUI、Markdown 编辑器、PTY 多路复用和 rust-analyzer MCP 服务器。
+- **大概是做什么的**: 终端现代化：从 Web 和桌面应用程序中汲取灵感 尽管 AI/LLM 编码代理和执行工具以及通过 SSH 的云虚拟机管理大量兴起，但终端 UI 创新自 20 世纪 70 年代以来基本上停滞不前。大多数 CLI 工具仍然依赖于阻塞单线程 I/O、[curses] 时代的 API 和脆弱的平台 hack，或者依赖于在控制台上分层 Web 堆栈（如 [Node.js]、[React] 和 [ink]）的繁重且脆弱的解决方法。这会带来不合理的内存膨胀、高延迟、损坏的键盘快捷键以及在长范围代理工作流程和子流程编排期间崩溃的不可预测的不稳定性。 ROC ( r3bl-open-core ) 将终端向前推进（带着爱和尊重）到 2026 年，R3BL 将现代 Web 和桌面应用程序设计模式引入终端，将其变成一个集中生产力的地方，以构建令人愉快的、符合人体工程学的和富文本用户界面。 R3BL 代表了多年来使用 Rust 进行系统编程、性能优化和生产级基础设施设计，为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ansi, async, cli, command-line, editor
+
+---
+
+### 🌟 [matryca-plumber](https://github.com/MarcoPorcellato/matryca-plumber)
+- **项目语言**: Python
+- **星标数量**: ⭐ 100
+- **核心概述**: Logseq OG 的本地优先 AI 守护进程：后台语义索引、链接卫生和代理就绪 CLI/MCP — 在磁盘上编辑 Markdown（无云、无 Logseq API）。 Karpathy LLM-Wiki 的启发。
+- **大概是做什么的**: 我让人工智能代理访问我的笔记。它腐蚀了他们。我建造了 Matryca Plumber，这样就不会再发生这种情况了。我们不是在构建另一个“代理记忆”......我们正在为人类和代理构建受控记忆平面。人类拥有的记忆。代理本机访问。支配进化。 Matryca Plumber 不定义或要求图形数据库、矢量数据库、嵌入模型或检索算法。 v2.0.0 已稳定并可用。 Matryca Plumber 的默认外部 Shadow DB、严格只读保护、Markdown 权限和故障关闭后备合约现已发布在 GitHub 版本发布记录和变更日志上，以了解确切的范围和升级说明。已发布的维护预发布：v2.0.1-rc.1 仍可作为准确的历史工件进行选择评估。它添加了一个有界的、规范的日记日处理程序，可以直接读取 Markdown，无需查询 Shadow 或改变图表，以及无需提供者的证据工具。稳定版 v2.0.0 仍然是默认建议。当前的开发分支已经超出了预发布版本，因此任何后来的候选者
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-memory, ai-agents, andrej-karpathy, autonomous-agents, fastmcp, knowledge-graph
+
+---
+
 ## 🕔 2026-10-17 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
