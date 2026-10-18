@@ -1,3 +1,67 @@
+## 🕔 2026-10-18 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [aidea-server](https://github.com/mylxsw/aidea-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,765
+- **核心概述**: AIdea 是一款支持 GPT 以���国产大语言模型通义千问、文心一言等，支持 Stable Diffusion 文生图、图生图、 SDXL1.0、超分辨率、图片上色的全能型 APP。
+- **大概是做什么的**: AIdea Server - AI聊天、协作和图像生成用Golang构建的完全开源的APP服务器，集成了主流大语言模型和图像生成模型。 https://aidea.aicode.cc 开源存储库： - 客户端：https://github.com/mylxsw/aidea - 服务器：https://github.com/mylxsw/aidea-server - Docker 部署：https://github.com/mylxsw/aidea-docker 如果您不想使用托管云服务，可以自行部署服务器。请参阅此处的部署指南。如果您希望其他人来处理设置，请随时联系我们寻求协助部署。详细信息请参见辅助服务器部署。 - 微信技术讨论群：如果您无法加入，请添加微信ID x-prometheus为好友，您将被邀请加入该群。 - 微信公众号代码评论和技术文档目前有限，将随着时间的推移进行补充。请注意以下几点以避免混淆： - 代码中的 Room 和 Advisory Group 均指 Digital Persona 。由于多次修改，命名不断演变：房间 → 顾问组 → 数字
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, chatgpt, gpt, llm, stable-diffusion
+
+---
+
+### 🌟 [reason-network](https://github.com/reason-machines/reason-network)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 276
+- **核心概述**: Reason Network：您团队的编码代理，相互交谈。 “理性网络”背后的引擎。
+- **大概是做什么的**: 你的特工，正在与你队友的特工交谈。每台计算机一个小守护程序。点对点，无需服务器。消息直接进入打开的会话。每个队友计算机上的每个编码代理会话都会显示（谁、哪个存储库和分支、忙碌或空闲、现在正在做什么），并且其中任何一个都可以向正确的会话发送消息：Claude Code、Codex、Cursor、Gemini CLI、Copilot CLI、opencode、pi 和 Reason。首先它会询问：是否使用 Reason 登录。 - 使用 Reason（默认）：您的 Reason 工作区是团队，没有人传递链接，您的代理也可以联系 Reason 的云代理。 Reason CLI 安装并运行它；从此就是理性网络了。 - 没有帐户：它仅安装此引擎，询问您的姓名和团队名称，并为您提供团队链接（在剪贴板上）。队友打开它，粘贴一个命令，输入他们的名字，然后他们就可以加入。或者他们告诉他们的代理“加入我的 Reason Network 团队：”。在 Windows 上，在 PowerShell 中： irm https://github.com/reason-machines/reason-network/releases/latest/download/install.ps1 iex 就是这样。询问任何经纪人“团队中有谁？
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: coding-agents, iroh, mcp, peer-to-peer, reason
+
+---
+
+### 🌟 [innoshop](https://github.com/innocommerce/innoshop)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 663
+- **核心概述**: InnoShop 是一个基于 Laravel 13 构建的人工智能驱动的开源电子商务系统。它支持多种人工智能模型和原生 MCP（模型上下文协议）以实现智能自动化，具有开箱即用的多语言和多货币功能。模块化的架构和灵活的插件/主题系统使其能够高度适应多样化的业务需求。
+- **大概是做什么的**: InnoShop - 创新的开源电子商务系统。 InnoShop是一个基于Laravel 13的开源电子商务系统，支持多语言、多货币，集成多种AI模型和原生MCP（模型上下文协议）以实现智能自动化，并具有插件机制和主题模板开发，以增强用户体验和系统可扩展性。 - PHP = 8.3，带扩展名：bcmath、cURL、dom、fileinfo、libxml、OpenSSL、PDO、simplexml - Node.js = 18，带 npm 9+ - MySQL 5.7+ / 8.0+（或用于本地试用的 SQLite） 选项 1：Composer（推荐） 自动创建项目命令： 1. 安装 PHP 依赖项 2. 生成应用程序密钥 3. 运行 npm install 和 npm运行 build 来编译前端资源 在浏览器中打开 http://localhost:8000，安装向导将引导您完成数据库设置和管理员帐户创建。选项 2：下载 ZIP（无需 Node.js）从 GitHub Releases 获取最新的 innoshop-vX.Y.Z.zip — 它附带 PHP 依赖项并预先打包编译的前端资源，因此您只需要 PHP
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-commerce, b2c, e-commerce, ecommerce, ecommerce-platform
+
+---
+
+### 🌟 [localmind](https://github.com/abdulmominsakib/localmind)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 282
+- **核心概述**: 一款移动应用程序，旨在为设备上的 LLM 以及本地 LLM 服务器和云提供商提供美观、快速且尊重隐私的界面
+- **大概是做什么的**: 你的人工智能。您的设备。你的规则。 LocalMind 是一款面向法学硕士的开源 Android 和 iOS 聊天应用程序。在手机上完全离线运行 GGUF 和 LiteRT 模型，或连接到 Ollama、LM Studio、OpenRouter 和任何 OpenAI 兼容服务器，并内置 MCP 工具支持。LocalMind 专为重视隐私和性能的用户而设计，可直接在您的设备上运行模型，或直接连接到您自己的推理服务器（如 LM Studio 或 Ollama）以及云提供商（如 OpenRouter 或 Requesty）。��有中间件，没有跟踪，也没有隐藏订阅。只有你和你的模特。后端类型注释 设备上离线 GGUF（通过 llamadart 的 llama.cpp）和 LiteRT（flutter gemma）模型 Ollama Local 还支持 Ollama Cloud LM Studio Local 包括 LM Studio 模型目录 OpenRouter Cloud 带您自己的 API 密钥 Requesty Cloud 带您自己的 API 密钥 OpenAI 兼容 本地或云 llama.cpp 服务器、vLLM、LocalAI、Jan 等 - 设备上 AI 支持（iOS 和 Android）：私密、快速、离线。通过 lla 直接在您的设备上运行强大的 GGUF 和 LiteRT 模型（Gemma、Qwen、DeepSeek R1）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-chat, android, chatgpt-alternative, dart, flutter, gemma
+
+---
+
+### 🌟 [Saki-Panel](https://github.com/EthanChan050430/Saki-Panel)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 198
+- **核心概述**: 带有工作区 SRE 代理的下一代 AI 原生服务器操作面板。崩溃自我修复、安全回滚、Docker/游戏服务器和本地 Ollama 支持。
+- **大概是做什么的**: 工作区中带有 AI 的开源服务器操作面板。从一个 Web 控制台管理 Minecraft、Steam、Docker 和普通进程。 Saki 使用实时日志、文件和节点指标来帮助调查事件，并可以在授权后采取行动。屏幕截图 · 快速入门 · 下载版本 · 简体中文 https://github.com/user-attachments/assets/99a8d410-c079-4368-86c9-f847413d4580 Saki Panel 将实例、节点、终端、文件、数据库和访问控制集成到一个工作区中。当出现故障时，Saki 可以检查当前实例的状态和日志并提出操作建议，而无需您在面板、终端和单独的聊天之间复制上下文。 AI 辅助操作询问状态和日志、检查或编辑工作区文件、管理实例以及运行范围命令。支持技能、MCP 以及图像或日志附件。 Saki Watch 记录意外退出和错误指纹、诊断事件、审查补丁，并在支持的条件下验证失败时回滚更改。实例和节点跨守护程序节点管理九种实例类型，包括 Minec
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, devops, docker, fastify, homelab, incident-response
+
+---
+
+### 🌟 [Tracekit](https://github.com/Cygnux-Labs/Tracekit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 137
+- **核心概述**: AI 代理的防篡改追踪、策略门控和交叉检查：查看代理做了什么以及为什么。
+- **大概是做什么的**: 代理可以编辑日志。他们无法隐藏编辑。 Tracekit 在运行之前检查代理进行的每个工具调用，将每个调用和决策签名到哈希链中，并在每次运行时为您提供一个任何人都可以离线验证的 .tkb 文件。 8 次篡改攻击中的 8 次捕获 480 次试验，有目击者 (E1) 483 个有害调用中的 483 个停止了 11 个类别，685 个中的 1 个误报 (E17) < 1 毫秒每个工具调用添加了 0.91 毫秒在 p99，签名者往返 (E9) 8 个内部攻击中的 8 个捕获了每个 PR 上的合并门 (E8) 类似于证书透明度构建：在独立证人联合签名的仅附加日志 开放文件格式 · Python 和 TypeScript 验证器 · MIT · 在您自己的机器上运行 尝试一下 · 将其添加到您的代理 · 它证明了什么 · 其中包含什么 · 证明 · 它如何工作 · 试点 · 贡献 · 文档 当代理做了不应该做的事情时，您会问三件事：它做了什么，是否被允许，以及您可以信任该记录吗？代理自己的日志无法回答第三个，因为代理可以编辑它。这是一次运行，记录了相同的运行，记录了：数据库、签名者、查看者和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agents, ai-safety, audit-log, audit-trail, certificate-transparency
+
+---
+
 ## 🕔 2026-10-17 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
