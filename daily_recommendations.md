@@ -1,3 +1,67 @@
+## 🕔 2026-10-18 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ARTEX](https://github.com/trhhubsd/ARTEX)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,246
+- **核心概述**: ARTEX · AI autonomous penetration testing system (multi-agent LLM, Go + Next.js) · AI 自主渗透测试系统 · 百度 agent+ 攻防挑战赛冠军
+- **大概是做什么的**: AI autonomous penetration testing system. Multi-agent LLM, Go backend, Next.js frontend. AI 自主渗透测试系统（Go 后端 + Next.js 前端）。 ARTEX is a multi-agent system for autonomous penetration testing in an isolated lab: a planner and workers share an asset graph and an exploration graph, with human-in-the-loop approval and full traffic recording. It ships as one binary or a Docker Compose stack. 中文安装与架构见下文。Fork 后改 skill、agent 或 MCP，见 docs/forking.md。 仪表盘（总览 / Token 消耗 / 活动流） 任务列表 任务 · 执行过程（会话 / 工具调用） 探索链路 资产覆盖图（力导向布局 · 已测高亮 · 节点折叠展开） 全局「审批记录」、任务内「拦截审批」及对话中的审批卡片均支持展开查看详情。展示结构参考 AegisHook 的审批详情组件，沿用 ARTEX 的组件和主题： 支持从 ScopeSentry 直接同步资产数据，免去重复收集： - 在「 资产同步 」页填 ScopeSentry 的地址与 API Key，接入数据源； - 按 项目 或 任务 维度选择要同步的目标与资产类型（域名 / 子域 / IP / 端口 / 站点 / 端点…）； - 一键导入并按公司资产范围归并，直接进入 ARTEX 的资产图供 agent 探索使用。 依赖数据库 PostgreSQL ；探索需配置 LLM （ ANTHROPIC API KEY 或 OPENAI API KEY ，也可在 UI 里配）。 脚本会：检测 / 自动安装 Docker → 让你选 ① 全部 Docker 或 ② 本地编译运行 ： - ① 全部 Docker ：填一个 Postgres 密码（可回车随机）→ 自动写 .env → docker compose up -d 。 - ② 本地运行 ：选数据库（连已有 / 用 Docker 起一个）→ 生成 config.json → go 编译内嵌单二进制 → 启动。 装好后打开 http://localhost:8787 （首次进入 /s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-security, artex, autonomous-agents, cybersecurity, go
+
+---
+
+### 🌟 [blender-ai-mcp-addon](https://github.com/LiCinCan/blender-ai-mcp-addon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 783
+- **核心概述**: Blender 的 AI 助手和 MCP 服务器：视觉聊天、场景工具、多代理工作流程。适用于 OpenAI、ChatGPT、Claude、Gemini、Ollama、OpenCode。 Blender AI 插件和插件、3D 副驾驶、bpy Python 脚本、MCP 集成。
+- **大概是做什么的**: 你的搅拌机场景。你的人工智能模型。一个创意工作空间。 Blender 的 AI 助手，可以通过可视化聊天工作区和内置模型上下文协议 (MCP) 服务器检查场景、构建对象、编辑材质、查找资源并执行多步骤工作流程。将创意简报转化为场景操作 从一个想法开始。请助理检查您的场景、创建产品展示布局、排列对象、分配材料或准备导出。在对话中跟踪其操���并在视口预览中检查结果。整个过程中继续在 Blender 中工作。 mcp-for-blender-pro 将对话、场景工具、模型选择和代理工作流程结合在一起。它专为想要更快迭代的艺术家、自动化重复工作的技术艺术家以及将 AI 工具连接到 Blender 的开发人员而设计。为什么选择 mcp-for-blender-pro？功能 它为您提供什么 Blender 感知帮助 场景和对象检查在助手执行操作之前为其提供上下文。 Visual Studio 工作区聊天、场景对象、视口快照、批准和任务板
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, blender, blender-addon, blender-ai, blender-automation, blender-extension
+
+---
+
+### 🌟 [webperf-snippets](https://github.com/nucliweb/webperf-snippets)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,454
+- **核心概述**: 经过测试的 JavaScript 片段可测量和调试 Web 性能。您的 AI 代理会为您运行它们，或者您自己在 DevTools 中运行它们：每次都使用相同的代码。
+- **大概是做什么的**: 经过测试的 JavaScript 片段可测量和调试 Web 性能。您的 AI 代理会为您运行它们，或者您自己在 DevTools 中运行它们：每次都使用相同的代码。人工智能代理擅长解释性能数据，但在动态编写测量代码时并不可靠。 WebPerf Snippets 将两者分开：测量是固定代码，在 CI 中测试，返回结构化数据，代理对结果进行推理。相同的代码片段在控制台、CLI、DevTools 扩展和代理技能中运行，每个代码片段都返回一个遵循单个契约的对象 (snippets/SCHEMA.md)。 → 为什么 AI 审核需要确定性脚本 使用 AI 代理运行它们 您想要使用 ----------------------------------------------------------------- ---------------------------------------------------------------- 使用任何具有终端的代理审核 URL 每个片段页面上的复制提示按钮 让代理驱动您的 Chrome（登录、交互） 使用 Chrome DevTools MCP 的代理技能 从脚本或 CI 运行片段 CLI 向代理提供整个文档 llms.txt（详细信息） 不包括
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, chrome-devtools, claude-code, cli, cls
+
+---
+
+### 🌟 [SpatialClaw](https://github.com/NVlabs/SpatialClaw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 439
+- **核心概述**: [NeurIPS 2026] SpatialClaw：重新思考代理空间推理的动作接口
+- **大概是做什么的**: 重新思考代理空间推理的操作接口 代码是空间推理代理的正确操作接口。 Seokju Cho 1,2 , Ryo Hachiuma 1 , Abhishek Badki 1 , Hang Su 1 , Byung-Kwan Lee 1 , Chan Hee Song 1 , Sifei Liu 1 , Subhashree Radhakrishnan 1 , Seungryong Kim 2 , Yu-Chiang Frank Wang 1 , Min-Hung Chen 1 1 NVIDIA   ·   2 KAIST AI Seokju Cho 在 NVIDIA 实习期间完成的工作。 - 🚀 2026 年 10 月 15 日 — NVIDIA Nemotron 3.5 Super VL：SpatialClaw 为代理视觉训练贡献了可执行的视频 QA 演示。我们感谢 Nemotron 团队提供的机会和合作！贡献、结果和引用 → TL;DR。 SpatialClaw 是一种免训练的空间推理框架，将代码视为操作接口：VLM 支持的代理将每步将一个 Python 单元写入预加载感知基元（SAM3 分割、Depth-Anything-3 重建、几何实用程序）和科学库（NumPy、SciPy、Matplotlib）的持久 Jupyter 内核中。每个单元都可以组成工具输出、检查中间证据并研究
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 4d-understanding, agent, agentic-ai, mllm-reasoning, spatial-reasoning, spatial-understanding
+
+---
+
+### 🌟 [Textus](https://github.com/CatVinci-Studio/Textus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 308
+- **核心概述**: 下一代 Markdown 编辑器，带有 AI 写作助手。适用于 macOS、Windows 和 Linux 的免费开源软件。
+- **大概是做什么的**: 下一代 Markdown 编辑器。你握着笔。人工智能让你的墨水保持流畅。 https://github.com/user-attachments/assets/f366f282-e3f9-43d9-9a29-edb6d1ace3f5 Hamlet，威廉·莎士比亚 免费开源，根据麻省理工学院许可。平台下载 --------------------------------- ----------------------------------------------------------------------------------------------------------------- macOS · Apple Silicon 下载 .dmg macOS · Intel 下载 .dmg Windows · x64 下载 .exe Linux · x64 下载 .AppImage · 也可作为 .deb · .rpm Arch Linux 通过签名的 [ [catvinci] ](https://github.com/CatVinci-Studio/arch-repo) pacman 存储库（一次；sudo pacman -Syu 然后保持 Textus 运行）迄今为止）：iPhone 和 iPad：即将推出。 GitHub 上的所有版本 想要尽早发布新版本吗？在 设置 › 常规 › 关于 Textus 中，将更新通道设置为 Beta 以获取候选版本；随时将其设置回稳定版本，并且您将保留在您的版本上，直到更新的稳定版本发布为止。每个 Markdown 标记都会在您书写时呈现。指向一行即可查看其 Markdown。数学在您键入时呈现，表格排列，以及几行文本
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, ai-writing, deepseek, editor, linux, llm
+
+---
+
+### 🌟 [Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 186
+- **核心概述**: 免费的开源 MCP 服务器为 AI 编码代理（Claude Code、Codex、Cursor、OpenCode、ZCode…）提供来自获奖网站的设计灵感 - 使用真实屏幕截图进行搜索、提取设计 DNA、捕获和记录实时站点。 Mobbin 的替代品。没有 API 密钥。
+- **大概是做什么的**: 免费、开源的 MCP 服务器，为 AI 代理提供来自 Awwwards 的设计灵感 - Mobbin 风格的视觉参考循环，源自网络上最好的获奖网站。您的代理使用自然语言进行搜索（“深色 3D 作品集网站”、“柔和的电子商务”），看到内联的真实屏幕截图，并且可以提取任何网站的设计 DNA：调色板、技术堆栈、设计元素、获奖历史。除了灵感之外，它还是一个完整的证据循环：对任何页面进行波段映射，对其滚动和悬停运动进行普查，对其框架进行指纹识别，捕获画布/姿势网格，然后根据参考（波段+运动评分）验证您的构建，并根据捕获的运动生成 GSAP 时间线存根。自由文本查询在具有 BM25 排名的 porter-stemmed、前缀匹配的 FTS5 索引上运行 - “杂志”现在可以找到杂志标记的网站（实时索引上有 68 个），首先是最佳匹配，其中旧的子字符串路径返回零。多词查询保留 AND 语义：每个标记必须访问同一站点。 ------ -------------- 搜索网站 按颜色、标签、技术、奖项类型或自由文本查询进行搜索。多字查询
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, awwwards, claude-code, codex, coding-agent, cursor
+
+---
+
 ## 🕔 2026-10-18 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
