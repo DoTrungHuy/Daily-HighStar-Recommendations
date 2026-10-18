@@ -1,3 +1,67 @@
+## 🕔 2026-10-18 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [chinese-novelist-skill](https://github.com/PenglongHuang/chinese-novelist-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,934
+- **核心概述**: 🎭 AI 写小说：从零生成 10-50 章完整中文小说，三层问答 · 创作记忆 · 悬念钩子 · 自动校验，长篇网文连载皆宜｜开源免费，适配主流 coding agent｜🤝 Infistar.cc 赞助 · 注册送 $5｜AI novel writing skill
+- **大概是做什么的**: 🎭 chinese-novelist skill 🎉 v2.0 重构发布 ：引入三层递进式问答、偏好记忆系统、中断续写、三种写作模式和自动校验修复！ 查看 v1.0 → v2.0 升级说明 了解详情。 写小说最难的是 坚持写完 。这个 Skill 专为解决这个痛点而生： - 智能问答 - 三层递进式问答，支持快速跳过和随机生成 - 偏好记忆 - 跨会话学习你的喜好，下次创作更贴心 - 中断续写 - 意外中断？自动检测并从断点继续 - 多种写作模式 - 串行 / 子Agent并行 / Agent Teams，按需选择 - 自动校验 - 完成后自动检查字数和连贯性，不合格自动重写 - 每章必爽 - 开头即高潮，结尾留悬念 安装skill： npx skills add PenglongHuang/chinese-novelist-skill 输入指令： 使用 chinese-novelist 帮我写一部小说 chinese-novelist-skill × Infistar.cc 用这个技能包写长篇的朋友都知道：动辄几十万字的大纲回溯、多代理并行出章，额度往往比灵感先耗尽 💸。 如果想放开手脚写长篇，推荐换上 Infistar： - ⚙️ 零配置接入 ：无需修改代码，Claude Code / 客户端只需换上 Base URL 与 Key 即可开工。 - 🏷️ 超低成本试错 ：多模型价格极具优势。整卷重构、换文风重写、多代理并行爆肝不再肉疼。 - 🧩 全模型任意切 ：Claude、GPT、Gemini、DeepSeek 一个 Key 全搞定，改个模型名就能对比打斗与感情戏表现。 - 💳 国内顺畅使用 ：RMB 直接结算，全模型支持验真防掺水。 - 🎁 专属福利 ：通过专属通道注册即送 $5 体验额度。建议领完拿同一份大纲让两个模型各试跑 3 章，感受文笔差异 ✍️！ 每次创作后，Skill 会自动学习你的偏好：喜欢的题材类型、叙事风格、章节数量倾向、文字密度等。下次使用时，直接应用你的习惯，省去重复问答。 自动加载用户偏好（ user-preferences.json ），检测是否有未完成的项目可续写，展示个性化欢迎。 Layer 1 — 核心定位（必答，3问） ：题材创意、主角设定、核心冲突 Layer 2 — 深度定制（可选，5问） ：世界观、叙事视角、核心主题、读者定位、章节数量 每个问题都支持🎲随机生成，也可以直接说"跳过"或"都用默认"。 AI 自动生成大纲（7列章节规划）、人物档案、写作计划 JSON，展示给你确认： ------ ---
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-fiction, ai-novel, ai-writing, chinese, chinese-novel
+
+---
+
+### 🌟 [roamgate](https://github.com/powerfooI/roamgate)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 302
+- **核心概述**: 适用于任何屏幕的 Herdr 客户端。从桌面或移动设备控制终端、监控编码代理并查看文件和差异。
+- **大概是做什么的**: Herdr 的浏览器和 PWA 客户端，可将您的工作区、编码代理会话、终端、文件和代码审查集中到一个地方。检查代理活动、检查对话、运行命令并查看浏览器中的差异。在任何计算机上工作，然后通过手机继续，同时 Herdr 保持会话运行。需要运行 Herdr 服务器。走开。保持流畅。在任何计算机上启动。让 Herdr 保持运行，然后在同一工作区中继续 真正的 Northstar 演示工作区，包含代码更改并通过测试。适用于桌面和移动设备的实验性工作区管理助手。检查工作区上下文、管理支持的操作并安排背景检查。需要 Herdr 和 Roamgate 桥运行。单击任意屏幕截图即可打开全分辨率图像。 [handoff-demo]：./docs/images/roamgate-handoff.gif 从 Herdr Studio / herdr-gui 迁移？不支持跟随自动升级。 1. 安装并启动 Herdr，或者让 Roamgate 稍后使用 Roamgate herdr setup 来完成。 2. 在 Linux 或 macOS 上安装 Roamgate（要固定版本，请结束命令
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, bun, code-review, developer-tools, git-worktree, herdr
+
+---
+
+### 🌟 [Tulpa](https://github.com/fumingyang2004/Tulpa)
+- **项目语言**: Python
+- **星标数量**: ⭐ 378
+- **核心概述**: 通过 MCP，让几乎所有桌面 Agent 都能访问 QQ / 微信的本地数据、调用相关功能，甚至直接加入 QQ 群聊变成你的群友！
+- **大概是做什么的**: 把 QQ / 微信资料接入几乎所有的桌面版 Agent，也让它在 QQ 里成为群友。 Linux 终端版 · 下载 · 快速开始 · Agent 配置教程 · 使用场景 · 完整文档 Tulpa 在本机整理聊天、图片和文件，让 Agent 按你授权的范围查资料、追溯消息，或带着自定义人格参与 QQ 群聊。已有 Agent 选 MCP 轻量版；想直接在 Tulpa 里提问，选完整版。 桌面发行版：Windows 10 / 11 x64；Linux：x86 64 / ARM64 终端源码版。 微信支持读取、回复草稿与复制，不能发送。QQ 持续群聊需要独立运行的 OneBot 服务、相应授权，以及持续执行的外部 Agent。 在 Linux 安装 Python 3.13 或 uv 后，进入源码目录运行： 首次自动安装依赖、启动后台并打开 TUI；退出界面后后台继续运行。 提供 CLI / TUI、原有业务 API、MCP、Linux 原生读取器、可选 OCR / 语音 / Office 组件、 用户级 systemd 服务，以及 SL 本地托管和 Docker 托管。没有桌面时可用浏览器中的 noVNC 扫码。 多实例各有独立端口、账号数据、SL 容器和 MCP 授权；新增私聊、图片导入、SL 扩展工具及授权编辑。 安装与限制见 Linux 教程、使用说明； 开发分工见 模型贡献记录。下方桌面下载和启动教程继续适用于 Windows。 下面是可以交给 Agent 的请求示例，实际能力取决于资料、授权、模型和客户端。 先列出可用人格和允许的 QQ 群，核对���我的测试群”后，用小鲸鱼持续聊天，直到我停止。接得上话再说，不必每条都回复。 随包提供小鲸鱼（ little whale ）、小鲸鱼2号（ little whale v2 ）和龙娘（ dragon girl ，测试版），也能用 Markdown 写自己的角色。支持按语境接话、原生 @ 与引用；授权后可看图、发送和收藏表情、给消息贴表情回应，保留理解笔记供后续会话选用。 持续聊天会在当前已授权的机器人账号和群里积累群友表达与黑话，潜水时也能学习；同账号同群重开可接续积累。人物卡与学习参考分开，模型可以选择本轮不用。聊天节奏 · 实时学习 人格卡只改变表达，不会替换底层模型；发言和表情使用由 Agent 决定。详见 人格教程与表情链路。 帮我找我的群里的一些我需要的附件，核对时间，并标出消息来源。 按关键词、人物、会话和日期检索，再展开上下文。图片、语音和文件按需读取；轻量版可经 OneBot 下载 QQ 群原文件，交给
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, antigravity, claude-code, codex, deepseek-harness, gpt
+
+---
+
+### 🌟 [RongxinAI](https://github.com/rongxinzy/RongxinAI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 155
+- **核心概述**: Open-source desktop AI agent: built-in free model, local GGUF models via llama.cpp, dispatch tasks from WeChat/Feishu/DingTalk. Files, browser & MCP tools. | 开源桌面 AI 智能体：内置免费模型，llama.cpp 本地 GGUF 模型，微信/飞书/钉钉直接派任务。
+- **大概是做什么的**: 开源、本地优先的桌面人工智能代理——使用内置模型免费启动，在本地运行 GGUF 模型，并从微信、飞书或钉钉分配任务。 - 🆓 免费启动 — 内置致远免费模型，无需第三方 API 密钥（需要网络；限制显示在应用程序中）。随时携带您自己的提供商。 - 💻 运行本地模型 - 浏览模型市场，选择 GGUF 模型和量化，调整上下文/GPU/线程，由 llama.cpp 运行时提供支持。 - 🛠️ 实际上完成工作 — 读取和写入文件、运行命令、操作浏览器；创建 PPT、Word、PDF、Excel 输出。 - 💬 存在于您的聊天应用程序中 - 微信、微信、钉钉、飞书/飞书、QQ、电子邮件。 - 🧩 可扩展——专家、技能和 MCP；计划的重复任务。 - 🔒 本地优先——本地存储的会话、配置和任务元数据；工具执行的批准模式。 1. 从官网或GitHub Releases下载安装程序。 GitHub Releases 目前提供 Windows 安装程序； macOS 和 Linux 软件包尚未确认 - 请检查下载页面。 2. 打开应用程序并使用内置的免费模型聊天 — 无需 API 密钥
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agent, ai-agents, ai-assistant, browser-automation
+
+---
+
+### 🌟 [trezor-agent](https://github.com/romanz/trezor-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 615
+- **核心概述**: 基于硬件的 SSH/GPG/age 代理
+- **大概是做什么的**: 基于硬件的SSH/GPG/age代理 该项目允许您使用各种硬件安全设备来操作GPG、SSH和age。密钥不是将密钥保存在计算机上并在需要使用时使用密码对其进行解密，而是生成密钥并将其存储在设备上，并且永远不会到达您的计算机。在这里阅读有关设计的更多信息。您可以执行诸如签署电子邮件、git 提交和软件包、管理密码（使用通行证和通道等）、验证 Web 隧道和文件传输等操作。请参阅以下有关此工具的博客文章： - TREZOR 固件 1.3.4 支持 SSH 登�� - TREZOR 固件 1.3.6 — GPG 签名、SSH 登录更新和 Segwit 的高级交易功能 - TREZOR 固件 1.4.0 — GPG 解密支持 目前支持 TREZOR One、TREZOR Model T、Blockstream Jade 和 OnlyKey。该存储库包含一个库的源代码以及与多个不同硬件设备交互的代理： libagent ：共享库 trezor-agent ：使用 Trezor 作为基于硬件的 SSH/PGP/age 代理 jade 代理：使用 Blockstr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, crypto, gnupg, hardware, python, ssh
+
+---
+
+### 🌟 [open-affiliate](https://github.com/Affitor/open-affiliate)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 117
+- **核心概述**: 联盟计划的开放注册。专为开发人员和人工智能代理而构建。
+- **大概是做什么的**: 联盟计划的开放注册。专为开发人员和人工智能代理而构建。 OpenAffiliate 是一个社区驱动的、开源的联盟计划注册中心。每个程序都作为 YAML 文件存储在此存储库中，从而可以轻松贡献、审查和集成。 - 对于联属合作伙伴 - 将计划与真实数据进行比较：佣金率、cookie 持续时间、支付条款、审批流程、限制。 - 对于AI代理——MCP服务器+结构化AGENTS.md数据。���诉您的代理人推荐哪些项目以及何时推荐。 - 面向开发人员——CLI、SDK 和 REST API。在注册表之上构建工具。 - 对于 SaaS 公司——在规范注册表中免费列出。接触开发者合作伙伴和人工智能代理。 - 搜索和过滤——跨 349 个以上程序的全文搜索。按类别、佣金类型、最低费率和验证状态进行过滤。 - 排名——联盟分数算法（0-100）根据佣金值、cookie 持续时间���重复潜力、持续时间、验证和数据完整性对计划进行排名。按分数、名称、佣金或 cookie 天数排序。按程序、网络或 c 查看排名
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: affiliate-marketing, ai-agents, api, mcp, open-data, registry
+
+---
+
 ## 🕔 2026-10-18 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
