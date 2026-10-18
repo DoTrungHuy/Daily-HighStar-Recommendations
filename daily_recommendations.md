@@ -1,3 +1,67 @@
+## 🕔 2026-10-18 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [kotlin-footguns](https://github.com/maxrave-dev/kotlin-footguns)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,426
+- **核心概述**: 经过实战考验的代理技能映射了 Kotlin、Compose Multiplatform 和桌面 JVM 的枪法——从生产音乐应用程序中挖掘，而不是从文档中挖掘。
+- **大概是做什么的**: 由 maxrave-dev 开发——SimpMusic 的创建者和维护者，SimpMusic 是一个拥有 10,800 星的跨平台音乐应用程序，此存储库中的每一节课都是从中挖掘出来的。 228 个经过实战检验的陷阱，映射了 Kotlin、Compose 多平台和桌面 JVM 开发的主力，打包为 10 个代理技能以及一个检查它们变化的扫描器。从生产代码库中挖掘，而不是根据文档编写。这些陷阱以开放的代理技能格式分为十个领域技能，克劳德代码和任何理解该格式的编码代理都可以读取 - 并且就像人类一样可读。每个区域技能都是其陷阱的索引；每个陷阱都是一个独立的 Markdown 文件，当前面的工作匹配时，代理会打开该文件。该语料库包含 228 个文件，超过 28,000 行，其中大多数部分最大的部分是 Traps：技术在实践中失败的具体方式，每种方式都配有一种验证失败的方法以及在您自己的树上修复的方法。为什么存在这个存储库 大多数 Kotlin 和 Android 的代理技能集合都是根据官方文档编写的。他们告诉代理 API 应该做什么
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, android, claude-code, compose-multiplatform, jetpack-compose
+
+---
+
+### 🌟 [Baize](https://github.com/Xu123-Bob/Baize)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 581
+- **核心概述**: 中国古代神兽，如今转世为企业级数据分析和VibeCoding助手。
+- **大概是做什么的**: 畅所欲言，保守秘密 Vibe 编码和数据分析的安全助手，灵感来自中国神兽。具有强大隐私保护和多语言交互功能的开源Coding Agent CLI。它支持多种后端（DeepSeek/OpenAI兼容/Zhipu/Tongyi/Kimi/local Ollama），并提供工具调用、技能加载、子代理委托、上下文压缩和安全沙箱等完整功能。 - 双向可逆隐私保护：敏感信息在发送给LLM之前用占位符替换，并在收到响应后自动恢复。整个过程对用户来说是不可见的：你看到的历史记录、工具参数和最终答案总是包含原始文本，而LLM总是看到随机的、不可猜测的占位符，例如“PZ PHONE a3f8b2c1d4e5f6a7”。 - 磁盘上的全面编辑：会话文件、压缩记录和审核日志在写入磁盘之前会自动进行编辑（默认启用）。纯文本 PII 永远不会出现在磁盘上。 - 注射阻力：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-coding
+
+---
+
+### 🌟 [honey-for-devs](https://github.com/Green-PT/honey-for-devs)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 338
+- **核心概述**: GreenPT 的 Honey（我缩小了 AI）：一种跨工具编码技能，可以减少 AI 编码代理令牌的使用和 LLM API 成本 - 编写更少的代码，更少的散文，以及更密集的代理到代理切换（-53％，基准无损），而不会损失质量。适用于 Claude Code、Cursor、GitHub Copilot、Codex、Gemini CLI、Windsurf、Cline 和 Kiro。
+- **大概是做什么的**: 🍯亲爱的（我缩小了人工智能）少写代码，少说。 Honey（我缩小了 AI）通过跨工具编码技能减少了 AI 编码代理花费的输出代币——使它们在不失去正确性的情况下发出更少的代码和散文。它可与 Claude（claude.ai 和 API）、Claude Code、Cursor、GitHub Copilot、Codex、Gemini CLI、Windsurf、Cline、OpenClaw、oh-my-pi、Kiro、Kilo Code、Hermes Agent、Kimi Code、Devin CLI、Grok Build、Qoder、Antigravity 和 CodeBuddy 配合使用。三个独立的杠杆，反射性地应用： 1. 更少的代码——首先是 YAGNI。走一个梯子（它需要存在吗？ → stdlib → 语言本机 → 现有依赖项 → 一行 → 最小块）并停在第一个有效的梯级处。最便宜的一行是你从未写过的一行。 2. 减少散文——放弃那些已经说明一切的结尾、对冲和代码叙述。先回答一下。 3.更密集的代理到代理的交接——当读者是另一个代理而不是人类时，将其无损解析的最有效的令牌格式传递给它（紧凑/柱状 JSON 或 ESON）。较小的切换且没有恢复损失（-49%
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, claude, claude-code, codex, cursor
+
+---
+
+### 🌟 [framefields](https://github.com/gatewai-dev/framefields)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 418
+- **核心概述**: 代码优先的视频，在 WebGPU 上本地渲染。
+- **大概是做什么的**: 用于代码优先视频的合成、动态图形和 3D - AI 代理通过代码驱动的 npm 软件包。文档  ·  网站  ·  Discord  ·  示例 Framefields 是为编码代理构建的。它将通常分为三个桌面创意套件的功能（Photoshop 风格的合成和 VFX、After Effects 风格的排版和动态图形以及 Blender 风格的 3D 场景和相机）打包到一个轻量级的 npm 包中。 - 零无头浏览器开销 - 没有 Chromium，没有 Puppeteer，没有 DOM 回流，也没有屏幕截图管道。���过 Dawn / WebGPU / Metal / Vulkan 直接在本机 GPU 硬件上渲染。 - 确定性和帧精确 — 离散采样点、绝对帧时钟和帧精确音频 BeatGrid。没有浮动计时器，没有漂移。 - 代理优先工作流程 - 您的编码代理编写 TypeScript，检查渲染的帧网格，并无头导出硬件编码的 MP4。使用帧域制作 每个帧都由 example/ 中的 TypeScript 直接由帧域渲染。单击静态图片以在 YouTube 上观看：来自 3d pri 的 26 mac 键盘
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, motion, motion-graphics, typescript
+
+---
+
+### 🌟 [Wireshark-MCP](https://github.com/bx33661/Wireshark-MCP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: Wireshark-MCP，给你的AI助手一个数据包分析器。删除 .pcap 文件，用简单的英语提出问题 — 获得由真实 tshark 数据支持的答案。
+- **大概是做什么的**: 给你的人工智能助手一个数据包分析器。删除 .pcap 文件，用简单的英语提出问题 — 获得由真实 tshark 数据支持的答案。将 tshark（和可选的 Wireshark 套件工具）包装到结构化分析界面中的 MCP 服务器。可与 Claude Desktop、Claude Code、Cursor、VS Code 和 18+ 其他 MCP 客户端配合使用。 Claude Code / Codex 插件路线先决条件：uv 和 Wireshark CLI ( tshark )。该插件包含该项目和两项技能；客户端通过 uv over stdio 运行锁定的 Python 项目。它不安装 Wireshark 或捕获驱动程序。从包含这些插件清单的结帐中，选择您的客户端：查看插件分发以了解本地安装、旧版本刷新、环境设置和发布后的 GitHub 入口点。选择此路线或下面的传统注册路线，而不是同时选择两者。传统 Python 包路由先决条件：Python 3.10+ 和 PATH 上带有 tshark 的 Wireshark。 Wireshark MCP 3.0 使用稳定的 MCP Python SDK 2.x 系列（ mcp =2.1.1���MIT 许可证 · 报告 Bug
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, mcp, network-security, packet-analysis, pcap, tshark
+
+---
+
+### 🌟 [summarizepaper](https://github.com/summarizepaper/summarizepaper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 311
+- **核心概述**: 一个由人工智能驱动的 arXiv 论文摘要网站，带有用于回答问题的虚拟助手。
+- **大概是做什么的**: arXiv 论文摘要网站 :books::robot：这是一个使用 AI 总结 arXiv 学术论文的 Web 应用程序，并提供虚拟助手 :robot：回答有关论文的问题。您可以实时查看：SummarizePaper.com - 使用最先进的自然语言处理技术总结 arXiv 论文 :nerdface: - 提供虚拟助手，根据论文内容和元数据回答有关论文的问题 :robot: - 具有搜索功能和轻松导航的用户友好界面 :computer: - 支持多种语言 :globe with meridians: 安装 :软盘: 要安装 django 应用程序，您需要有 Python 3.6 或更高版本安装在您的系统上。 1. 将存储库克隆到本地计算机。 2. 通过运行 pip3 install -rrequirements.txt 安装所需的 Python 包。 3. 通过运行 python3 manage.py runserver 启动 Web 服务器。 4. 在网络浏览器中访问 http://127.0.0.1:8000/ 来访问该应用程序。要使用该应用程序，只需在主页的搜索栏中输入查询，系统就会
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, arxiv, arxiv-papers, chatgpt, django, gpt3
+
+---
+
 ## 🕔 2026-10-18 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
