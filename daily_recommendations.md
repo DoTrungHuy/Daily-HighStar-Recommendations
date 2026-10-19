@@ -1,3 +1,67 @@
+## 🕔 2026-10-19 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,915
+- **核心概述**: 用于集成 MCP 服务器的 JADX 插件
+- **大概是做什么的**: JADX-AI-MCP（Zin MCP 套件的一部分）⚡ 全自动 MCP 服务器 + JADX 插件，旨在通过 MCP 与 LLM 进行通信，以使用 Claude 等 LLM 来分析 Android APK - 轻松发现漏洞、分析 APK 和逆向工程。感谢这些优秀人士的贡献 ⭐ - 阅读文档现已上线：https://jadx-ai-mcp.readthedocs.io/en/latest/ 🤖 什么是 JADX-AI-MCP？ JADX-AI-MCP 是 JADX 反编译器的插件，直接与模型上下文协议 (MCP) 集成，为 Claude 等法学硕士提供实时逆向工程支持。想想：“反编译→上下文感知代码审查→人工智能建议”——所有这些都是实时的。高级序列图 - 执行快速分析 https://github.com/user-attachments/assets/b65c3041-fde3-4803-8d99-45ca77dbe30a - 快速查找漏洞 https://github.com/user-attachments/assets/c184afae-3713-4bc0-a1d0-546c1f4eb57f - 多个 AI 代理支持https://github.com/user-attachments/assets/6342ea0f-fa8f-44e6-9b3a-4ceb8919a5b0 - 使用您最喜欢的LLM客户端运行https://github.com/user-attachments/assets/b4a6
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, java, llm, mcp, mcp-server, mcp-servers
+
+---
+
+### 🌟 [HomeClaw](https://github.com/omarshahine/HomeClaw)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 180
+- **核心概述**: 通过 MCP 进行 HomeKit 智能家居控制 — 用于 Claude Desktop、Claude Code 和 OpenClaw 的灯光、锁、恒温器和场景
+- **大概是做什么的**: 通过 AI 助手、终端和自动化工具控制您的 Apple HomeKit 智能家居。 HomeClaw 通过命令行工具、stdio MCP 服务器以及 Claude Code 和 OpenClaw 插件公开您的 HomeKit 配件。它作为轻量级 macOS 菜单栏应用程序运行。设置 — 每个首选项集中在一个地方 CLI — 每个配件，一个命令即可终端 UI — 适合高级用户 Apple HomeKit 没有公共 API，没有 CLI，也无法与 AI 助手或自动化管道集成。 HomeClaw 通过 Mac Catalyst 应用程序弥补了这一差距，该应用程序代表您与 HomeKit 进行对话并公开一个干净的 API ���面。 - 要求 Claude 或 OpenClaw“关闭所有灯”或“将恒温器设置为 72” - 从终端编写您的智能家居脚本 - 构建超越家庭应用程序提供的自动化功能 - 按名称、房间、类别或语义类型搜索和控制设备 单进程设计。 Apple 的 HMHomeManager 需要具有 HomeKit 权利的 UIKit/Catalyst 应用程序。通过使整个应用程序成为 Catalyst，HomeKit 访问是直接的（无 IPC），签名是统一的（单个存档），并且 App Store
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude, homekit, macos, mcp, smart-home, swift
+
+---
+
+### 🌟 [Hycli](https://github.com/Hybirdss/Hycli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 143
+- **核心概述**: 网站，为人工智能做好准备。通过本地仪表板和 20 种语言，将网站任务转化为经过验证的 CLI 和 MCP 操作。
+- **大概是做什么的**: 将任何网站转变为 AI 代理的类型化 CLI 和 MCP 服务器。阅读、搜索、创建、编辑和自动化——使用真实的浏览器登录，对法学硕士的 cookie 零泄漏，并具有内置的反机器人恢复能力。 30 秒快速入门 · 你的 AI 可以做什么 · 用你的语言阅读 · 20 种语言 英语 · 한국어 · 日本语 · 简体中文 · 繁体中文 · 西班牙语 · 法语 · 德语 · 葡萄牙语（巴西） · 印度尼西亚语 · 意大利语 · 荷兰语 · 波兰语 · 土耳其语 · Русский · Українська · Tiếng Việt · ไทย · हिन्दी 向 Hycli 提供任何网站 URL 以及您想要执行的操作。三名 AI 工作人员检查其文档、前端包和实时浏览器网络流量，以构建类型化的 CLI 和 MCP 工具集（涵盖读取和写入），而无需在设置过程中更改您的帐户。适用于您的网站、帐户和 AI 代理的本地仪表板和 CLI。 30 秒内尝试一下 或者使用 "command": "hycli", "args": ["mcp"] 将 Hycli 连接到 Claude Code、Cursor、Codex 或 Windsurf 一次，并用简单的语言询问您的代理：“使用 Hycli 准备 https://... ，向我展示可用的操作，并起草新帖子。” Hycli 作为 s 发货
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, cli, developer-tools, local-first, mcp
+
+---
+
+### 🌟 [mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 395
+- **核心概述**: 适用于 Azure DevOps 的 MCP 服务器
+- **大概是做什么的**: Azure DevOps MCP 服务器 Azure DevOps 的模型上下文协议 (MCP) 服务器实现，允许 AI 助手通过标准化协议与 Azure DevOps API 进行交互。正在寻找官方服务器？ Microsoft 在 microsoft/azure-devops-mcp 维护产品支持的 Azure DevOps MCP。如果您使用 Azure DevOps 服务（云），请从这里开始。当您需要 Azure DevOps Server（本地）支持（尤其是可能无法与 Microsoft MCP 配合使用的旧版本）或官方服务器中尚未提供的功能时，此社区服务器仍然是一个不错的选择。有关更多背景信息，请参阅讨论 237。请参阅 ROADMAP.md 了解该服务器的区别和计划。该服务器实现了 Azure DevOps 的模型上下文协议 (MCP)，使 Claude 等 AI 助手能够安全地与 Azure DevOps 资源进行交互。服务器充当 AI 模型和 Azure DevOps API 之间的桥梁，提供标准化方法来： - 访问和管理项目、工作项、存储库等 - 创建和更新工作项、分支和拉取请求 - 执行常见 DevOp
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, azure-devops, claude, copilot, cursor, mcp
+
+---
+
+### 🌟 [ARTEX](https://github.com/RuoJi6/ARTEX)
+- **项目语言**: Go
+- **星标数量**: ⭐ 310
+- **核心概述**: Autumn-27/ARTEX 持续维护开源版本
+- **大概是做什么的**: AI 自主渗透测试系统（Go 后端 + Next.js 前端） 🌐 在线 Demo ： https://artex-demo-ruoji6.vercel.app/ 本仓库为独立维护的 RuoJi6/ARTEX，保留 https://github.com/Autumn-27/ARTEX 的原始提交历史与 AGPL-3.0 许可证。程序发布包从本仓库 Releases 下载，Docker 镜像 ruoji6/artex 由本仓库 GitHub Actions 构建并发布。 仪表盘（总览 / Token 消耗 / 活动流） 任务列表 任务 · 执行过程（会话 / 工具调用） 探索链路 资产覆盖图（力导向布局 · 已测高亮 · 节点折叠展开） 全局「审批记录」、任务内「拦截审批」及对话中的审批卡片均支持展开查看详情。展示结构参考 AegisHook 的审批详情组件，沿用 ARTEX 的组件和主题： 支持从 ScopeSentry 直接同步资产数据，免去重复收集： - 在「 资产同步 」页填 ScopeSentry 的地址与 API Key，接入数据源； - 按 项目 或 任务 维度选择要同步的目标与资产类型（域名 / 子域 / IP / 端口 / 站点 / 端点…）； - 一键导入并按公司资产范围归并，直接进入 ARTEX 的资产图供 agent 探索使用。 部署自己的在线 Demo（随正式 Release 自动更新） Demo 只运行 web/ 前端，构建时启用 NEXT PUBLIC MOCK=1 ，不需要 Go、PostgreSQL 或模型密钥。界面使用模拟数据，不执行真实扫描。 发布链路：正式版本的程序包、 SHA256SUMS 和 Docker 镜像全部成功发布 → release.yml �� demo job 调用 demo.yml → 检出该版本标签的提交 → 构建 Mock 前端 → 部署至 Vercel 的固定生产域名。普通 main 推送、仅创建标签、失败的发布、草稿和预发布版本都不会更新 Demo。新版本功能的演示数据仍需由维护者同步维护 web/src/lib/mock/ 。 1. 在自己的 Vercel 账号创建空项目，设置名称（例如 artex-demo-ruoji6 ）。保持 Git 未连接 ，避免每次提交都自动部署。 web/vercel.json 也禁用了 Git 自动部署。 2. 在 Settings → Build and Deployment 中选择 Next.js 、Node.js 22.x ，安装命令可覆盖为 npm ci
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, artex
+
+---
+
+### 🌟 [jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 805
+- **核心概述**: JADX-AI 插件的 MCP 服务器
+- **大概是做什么的**: JADX-MCP-SERVER（Zin 逆向工程 MCP 套件的一部分）⚡ 全自动 MCP 服务器，旨在与 JADX-AI-MCP 插件通信，使用 Claude 等 LLM 分析 Android APK — 轻松发现漏洞、解析清单和逆向工程。感谢这些出色的人们的贡献 ⭐ - 我们现在正在阅读文档：🤖 什么是 JADX-MCP-SERVER？ JADX MCP 服务器是一个独立的 Python 服务器，它通过 MCP（模型上下文协议）与 jadx-gui 的修改版本（请参阅：jadx-ai-mcp）进行交互。它让法学硕士可以与反编译的 Android 应用程序上下文进行实时通信。 🤖 JADX-AI-MCP 是什么？ JADX-AI-MCP 是 JADX 反编译器的插件，直接与模型上下文协议 (MCP) 集成，为 Claude 等法学硕士提供实时逆向工程支持。想想：“反编译→上下文感知代码审查→人工智能建议”——所有这些都是实时的。高级序列图 - 执行快速分析 https://github.com/user-attachments/assets/b65c3041-fde3-4803-8d99-45ca77dbe30a - 快速查找漏洞 https://github.com/user-attachments/assets/
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, android-hacking, android-reverse-engineering, application-security, llm, mcp
+
+---
+
 ## 🕔 2026-10-18 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
