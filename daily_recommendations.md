@@ -1,3 +1,67 @@
+## 🕔 2026-10-19 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
+- **项目语言**: Go
+- **星标数量**: ⭐ 13,339
+- **核心概述**: 适用于 Claude Code、Codex 和 30 多个编码代理的开源 (Apache-2.0) 编排器。规划、运行和监督代理团队从任务到合并 PR。桌面（macOS、Windows、Linux）+ iPhone 和 Android 应用程序。
+- **大概是做什么的**: 从一处规划、运行和监督编码代理。为每个编码任务提供自己的代理、工作区和反馈循环。与具有项目意识的协调者一起规划和委托更大的成果。跟踪每个工作人员、拉取请求、CI 运行并在实时看板中进行审查。英语 · 简体中文 · 日本语 · 한국어 · 西班牙语 · 法语 · 德语 · 葡萄牙语（巴西） 代理驱动开发的工作区 一个编码代理可以处理一项任务。在一个项目中运行多个代理会创建不同的工作：决定什么是重要的，干净地划分工��，为每个代理提供正确的上下文，防止分支冲突，并通过审查和合并来跟踪每个更改。 Orchestrator.inc 是专为该工作构建的本地桌面工作区。添加存储库并使用适合任务的编码代理、模型和接口创建工作会话。对于 Git 支持的工作，Orchestrator.inc 为工作人员提供了自己的分支和工作树。任务、对话、终端、更改的文件、浏览器预览、拉取请求、CI 和审核状态从开始到结束都始终附加到该会话。在桌面应用程序背后，Orchestrator.inc 的 l
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-fleet, agent-ide, agent-orchestration, agent-swarm, agentic-coding, ai-agents
+
+---
+
+### 🌟 [super-board](https://github.com/EricTechPro/super-board)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 388
+- **核心概述**: 自主 GitHub 项目构建 → QA → Claude 代码的审查循环。一行安装。
+- **大概是做什么的**: 添加任务，离开，将 PR 与证据合并。 8 个技能（5 个由您输入，3 个板运行） · 9 个命令 · 6 个守卫钩子 🌐 实时站点：erictechpro.github.io/super-board 安装 · 快速启动 · 工作原理 · 技能 · 命令 · 守卫 技能图。单击它即可查看实时版本：缩放、平移、打开任何节点。在您的项目文件夹中：或作为克劳德代码插件：该插件仅提供技能。运行 /super-board:super-board onboard 及其 🔍 检查步骤添加了防护钩子、脚本和工作流程。需要 Claude Code、gh、jq、bash 3.2+ 和 Python 3.9+；安装程序检查。可选的运行后学习可以在验证的选定工作完成后委派已安装的校准技能。它仅适用于明确允许的现有规范技能文件；该软件包不包含私人技能。请参阅运行后校准。检查 · GitHub · 董事会 · 分支 · AGENTS.md · 政策 · Bug 来源 · 审查。 Enter 采用推荐答案。将卡片添加到 Ready 中。该板自行排水。 ▶ 在 YouTube 上观看：我建立了一个自我改进的软件工厂 8 项技能（5 项由您输入，3 项由董事会运行）。用途
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai, ai-agents, automation, claude, claude-code
+
+---
+
+### 🌟 [dreamcoder](https://github.com/GoDiao/dreamcoder)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 498
+- **核心概述**: A locally run, multi-provider AI coding workspace · 本地运行、支持多家模型服务商的 AI 编程工作台
+- **大概是做什么的**: 本地运行的多提供商 AI 编码工作区 在桌面上管理 Claude 代码工作流程，并通过同一 LAN 上的手机继续会话。还托管在 AtomGit 上：atomgit.com/GoDiao/DreamCoder（镜像；请在 GitHub 上打开问题并拉取请求）🌱 欢迎贡献！浏览好的第一个问题和所需的帮助，并在开始之前阅读贡献指南。 DreamCoder 在本地运行其桌面应用程序和会话服务，将模型配置、编码会话、终端和工具活动集成到一个工作区中。选择模型提供者：配置 Anthropic 或 OpenAI 兼容端点。预设包括DeepSeek、Qwen、Kimi、Zhipu GLM、LM Studio和Ollama；还支持自定义端点。型号可用性取决于您的提供商和配置。跟踪工作：在桌面上查看会话、文件更改、终端活动和工具调用。在您的手机上继续：启用 H5 Access 以通过同一 LAN 上的手机浏览器访问桌面会话。跨网络访问需要您自己配置的反向代理。了解编码代理如何工作：A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-coding, claude-code, codex, coding-agent, desktop-app, llm
+
+---
+
+### 🌟 [skills](https://github.com/VisActor/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 471
+- **核心概述**: VisActor 可视化生态系统的代理技能。
+- **大概是做什么的**: VisActor Agent Skills VChart, VTable and data storytelling skills for agents that can read files and run commands. Generate charts, tables, HTML data stories and Web-PPT presentations, and diagnose chart configuration problems. vchart-skill 图表生成、诊断、图像复制和 React 集成 vtable-skill 列表、数据透视表/图表、交互和诊断 数据讲故事 数据分析、叙述设计、滚动讲述、HTML 报告和 Web-PPT 每个技能都包括其说明、本地参考、模板和脚本。 No separate VisActor CLI, MCP server, model key or hosted VisActor API is required.主机代理提供模型。 Recommended: use the Skills directly in Codex or Claude Code. Your agent provides model access and tool execution. Other compatible agents may also use these Skills, but do not have dedicated setup instructions here. Run these commands in the project where you want to use the Skills: Follow the installer's prompts to select Codex or Claude Code.您可以独立安装每个技能。更多安装选项见文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: chart, data-visualization, grid, infographics, intelligent-systems, llm
+
+---
+
+### 🌟 [FantasyPremierLeague](https://github.com/joreilly/FantasyPremierLeague)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 604
+- **核心概述**: Fantasy Premier League Kotlin/Compose 多平台示例
+- **大概是做什么的**: Fantasy Premier League Compose 多平台项目运行在使用 Koog 构建的以下 AI 代理上（Gemini + 工具调用，在共享 KMP 代码中运行） 目前还使用以下 Jetpack 库 在 Kotlin 多平台项目中使用 Realm 持久性库 使用新的 Swift 异步算法包来缩小组合使用 Compose 多平台在 iOS、Android 和桌面上显示图表的差距 在 Kotlin 多平台中使用 Jetpack Room 共享代码 使用 Navigation 3 与 Compose 多平台 添加 Koog AI FantasyPremierLeague CMP 示例的助手（带有结构化输出） Android ：在 Android Studio 中打开项目并运行应用程序配置 iOS ：在 Xcode 中打开 ios/FantasyPremierLeague/FantasyPremierLeague.xcodeproj 并运行 Desktop : ./gradlew :compose-desktop:run MCP Server : ./gradlew :mcp-server:shadowJar （请参阅下面的 MCP Server 部分） 注意：使用AI 代理需要 Gemini API 密钥 - 在 FantasyPremierLeagueAgent 中设置 apiKeyGoogle 。 mcp-server 模块使用 Kotlin MCP SDK 公开 MCP 工具端点（在
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, compose-multiplatform, datastore, fantasy-premier-league, ios, jetpack-compose
+
+---
+
+### 🌟 [mcp-server](https://github.com/UI5/mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 103
+- **核心概述**: UI5 MCP 服务器改善了开发人员使用代理 AI 和 UI5 框架时的体验。
+- **大概是做什么的**: 用于 UI5 应用程序开发的模型上下文协议服务器。 UI5 模型上下文协议服务器提供了一些工具来改善开发人员使用代理 AI 工具时的体验。 - 使用代理 AI 工具时帮助创建新的 UI5 项目 - 支持开发人员检测并修复代码中特定于 UI5 的错误 - 为代理 AI 工具提供额外的特定于 UI5 的信息 请务必查看我们在 SAP 社区中的公告博客文章！ - 创建集成卡：搭建新的 UI 集成卡。 - 创建 ui5 应用程序：基于一组模板搭建新的 UI5 应用程序。 - 获取 api 参考：获取并格式化 UI5 API 文档。 - 获取指南：提供对 UI5 开发最佳实践的访问。 - 获取集成卡指南：提供对 UI 集成卡开发最佳实践的访问。 - 获取项目信息：从 UI5 项目中提取元数据和配置。 - 获取 TypeScript 转换指南：提供将 UI5 应用程序和控件从 JavaScript 转换为 TypeScript 的指南。 - 获取版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agenticai, mcp, mcp-server, openui5, ui5
+
+---
+
 ## 🕔 2026-10-19 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
