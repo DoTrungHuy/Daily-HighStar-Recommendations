@@ -1,3 +1,67 @@
+## 🕔 2026-10-19 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Afterglow](https://github.com/kldhsh123/Afterglow)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: 通过将社交媒体的聊天记录与矢量数据库相结合，人工智能可以更有说服力地重建某人的个性，而无需对模型进行微调，从而取得令人惊讶的良好结果。将过去的美好回忆化作未来的陪伴。
+- **大概是做什么的**: English 简体中文 · 中文文档 English docs 让往日的温暖对话延续为陪伴。分享您的经验。欢迎报告错误、部署问题和有关使用 Afterglow 的故事。加入我们的Discord服务器、QQ群330316577或使用讨论。经您同意，您的故事可能会出现在项目网站上，根据您的喜好，可以署名或匿名。余辉生成AI延续，而不是原来的人。获得必要的许可，了解哪些数据到达模型提供者，并将生成��文本与真实的人区分开来。请勿冒充、骚扰、诈骗、发布私人聊天内容或将生成的回复呈现为某人自己的话。如果您正经历严重的悲伤、抑郁或自残风险，请优先考虑您信任的人和专业支持。阅读负责任的使用和隐私。 Afterglow 是本地托管的 AI 伴侣。它对真实的聊天进行清理、分割和矢量化，然后结合角色、昼夜节律模式、生活状态和关系记忆，为聊天模型提供相关的历史证据。它不会微调或修改模型权重、恢复
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: afterglow, ai-companion, digital-companion, lancedb, llm, python
+
+---
+
+### 🌟 [xiaodou-open-platform](https://github.com/xiaodou-official/xiaodou-open-platform)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 313
+- **核心概述**: 个人支付接口｜个人网站/个人开发者/个人用户接入支付宝+微信聚合支付接口 API：个人/小微无需营业执照，卡密/虚拟商品收款，持牌清算、次日中午前到账（含节假日），兼容易支付。Alipay/WeChat Pay API for individual developers in China; Epay-compatible; licensed settlement.
+- **大概是做什么的**: 小豆支付开放平台 · 个人支付接口与虚拟发卡 / 数字商品接入资料（支付宝 + 微信聚合收款 · 持牌机构清算） 直接找 ：接口一览 ｜ 五分钟上手 ｜ 易支付协议兼容接入 ｜ 到账账号与收款分配 ｜ 文档目录 ｜ 常见问题 线上入口（买家浏览与 卖家中心 / 免费开店 都在这里）： 可点击演示 （不用注册、零联网，数据全为演示值；在浏览器里点着走完「申请 → 收款 → 到账」）： 在线文档中心 （14 篇文档逐篇成页，可下载文档包与 Skill 包）： ｜ Skill 页 ｜ 文档与 Skill 下载 你已经有一套卖虚拟商品的系统，只缺「收钱」这一环？ 卡密、激活码、课程、专栏、电子书、软件、素材模板、会员权益、游戏道具—— 凡是线上交付的数字商品 都能用它收款； 当面交易的实物 也可以。 没有营业执照也没关系——个人就能申请。 主体类型选「个人」：一张身份证 + 一张本人银行卡，跟着向导走完入驻，手续极简；个体工商户与企业同样支持。 个人网站、个人开发者、个人用户都是同一套接口 ：网站只需要在服务器端调用接口，页面、商品和发货留在你自己的系统里。 这套接口就是干这个的：帮你把 支付宝和微信 收进来，告诉你「钱到没到」，再把钱结给你。下单、查单、关单、退款，外加一个只读的「查到账账号与��款分配」——一共七个接口。 钱由 有支付牌照的支付公司 收和结， 不经过我们的账户 ——我们只负责把状态讲清楚，货还是你的系统自己发。 系统里已经装着「易支付 / 彩虹支付」类插件？ 不用改代码：把 网关地址 / 商家 ID / 商户密钥 三个值填进插件，就能用同一条收款链——我们提供 易支付 / 彩虹支付协议兼容 接入面， 兼容该协议的多种接口 （ submit.php 表单收单 / mapi.php 程序化收单 / api.php 查询），见易支付协议兼容接入。 费用 全平台统一一档 ：平台服务费 1.5%（商家实收 98.5%），手续费 0.01 元起；每一单的准确金额仍以响应里的 feeProjection 为准。 入驻、开通、接入对接全程免费 ：没有搭建费、入驻费、开通费，也不另收通道费，没有任何一次性收费。 这个仓库就是它的 全部接入资料 ：14 篇文档、四种语言的签名示例、一个能跑起来的本地演示，还有一份可以直接丢给 AI 编码助手（Claude Code、Codex 之类）的 Skill。 跟你在商家后台看到的是同一份内容。 版本看 MANIFEST.json （ skillVersion 、API 版本、签名版本、 contentHash 都在里面）。 这里是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: aggregate-payment, ai-agent, alipay, card-key, claude-skill, epay
+
+---
+
+### 🌟 [design-studio](https://github.com/Tiledesk/design-studio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 471
+- **核心概述**: Tiledesk 的开源可视化、无代码设计器，其中 LLM/GPT AI 满足灵活的“图形”方法。轻松创建对话和自动化 - Voiceflow 和 Botpress 的替代方案。
+- **大概是做什么的**: Tiledesk Design Studio Tiledesk 是一个开源、无代码开发平台，用于创建聊天机器人和对话应用程序。我们的设计工作室在此存储库中提供了一个用户友好的拖放界面，具有预先准备好的操作和集成。该平台将 LLM/GPT AI 的强大功能与灵活的“图形”方法相结合，可轻松创建对话和自动化。该项目是使用 Angular CLI 版本 14.2.6 生成的。 2023 年金猫奖：年度开源产品 - 预先设计的对话和管理任务自动化：自动化客户对话和日常管理任务。 - 原型对话：使用我们的拖放对话构建器来设计聊天机器人的对话流程。 - ChatGPT 集成：了解紧急情况并采取适当的行动，例如主动将客户与人工代理联系起来。 - ChatGPT 支持的聊天机器人：在知识库中查找答案并以类似人类的对话方式回复客户的询问。 - 增强用户体验：在聊天中分享图像、GIF 和视频以提高转化率
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: automation-tool, bot-builder, botpress-alternative, chatbot-development, conversation-designer, conversational-ui
+
+---
+
+### 🌟 [scumble](https://github.com/DenRakEiw/scumble)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 137
+- **核心概述**: 用于 AI 修复的免费开源桌面编辑器：选择、提示、获取颜色匹配的图层。 FLUX 3 Image、FLUX.2、GPT Image、Nano Banana、Seedream 和 Qwen 通过您的 API 密钥或您自己的 ComfyUI。图层、PSD 导出、MCP。
+- **大概是做什么的**: 适用于 ComfyUI 和您已使用的模型的 AI 原生图像编辑器。修复、编辑、升级和生成，每次编辑都会作为自己的一层返回。平台 获取说明 Windows Microsoft Store，或 winget install scumble 由 Microsoft 签名，无 SmartScreen 警告，由 Store 更新 Windows 安装程序：Scumble-Setup- .exe 更新自身；尚未进行代码签名，因此 SmartScreen 会询问一次 Windows，便携式 Zip：Scumble- -portable-win-x64.zip 未安装；将其数据保存在旁边的文件夹中 Linux (x64) AppImage 或 .deb 由 CI 制作的早期版本，尚未由作者运行；报告欢迎 macOS 尚未计划、尚未开始 Scumble 是免费的，不需要自己的帐户。 Scumble 是一个围绕 AI 模型构建的桌面图像编辑器，详细信息及其需要渲染的内容如下。选择图片的一部分，或在空白画布上画框，说出应该在那里的内容，然后答案会作为其自己的图层返回，其颜色与其周围的内容相匹配，您可以像其他图层一样进行遮罩、混合、过滤和导出。它在您自己的 ComfyUI（在您的计算机或远程计算机上）、Comfy Clo 上呈现
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-art, ai-image-editing, ai-inpainting, comfyui, desktop-app, electron
+
+---
+
+### 🌟 [gac](https://github.com/thomwebb/gac)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: 由 LLM 驱动的智能 git 提交消息生成器可以理解您的代码！支持多种语言！
+- **大概是做什么的**: 🚀 Git 自动提交 ( gac ) English 简体中文 繁体中文 日本语 한국어 हिन्दी Tiếng Việt Français Русский Español Português Norsk Svenska Deutsch Nederlands Italiano 由法学硕士提供的提交消息可以理解您的代码！自动化您的提交！将 git commit -m "..." 替换为 uvx gac，以获得大型语言模型生成的上下文、格式良好的提交消息！智能的上下文消息可以解释您的更改背后的原因：就是这样！查看生成的消息并使用 y 确认。 35+ 支持的提供商 - Anthropic • Azure OpenAI • Cerebras • ChatGPT (OAuth) • Chutes.ai • Claude Code (OAuth) - Crof.ai • DeepInfra • DeepSeek • Fireworks • Gemini • GitHub Copilot (OAuth) • Groq - Kimi for Coding • LM Studio • MiniMax.io • Mistral AI • Moonshot AI • Neuralwatt • Ollama - Ollama Cloud • OpenAI • OpenCode Go • OpenRouter • Plexus Gateway • Qwen Cloud（CN 和 INTL） - 复制 • Streamlake/Vanchin • Synthetic.new • Together AI • Wafer.ai • Z.AI（API 和编码计划） - 自定义端点（Anthropic/OpenAI） 🧠 智能 LLM 分析 - 理解意图：分析代码结构、逻辑和模式
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, aitools, genai, generative-ai, generative-ai-tools, git
+
+---
+
+### 🌟 [photon](https://github.com/portel-dev/photon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 100
+- **核心概述**: 定义一次意图。 Photon 将单个 TypeScript 文件转换为 CLI 工具、MCP 服务器和 Web 界面。
+- **大概是做什么的**: 一项 TypeScript 功能成为整个代理堆栈。 Photon 是将经过验证的小型 TypeScript 方法转变为人类可以操作且代理可以信任的方法的最快方法。一次写入能力； Photon 围绕它衍生出接口、合约和运行时行为： - 用于 Claude、ChatGPT、Cursor 和代理的 MCP 服务器 - 用于支持 MCP 应用程序资源的聊天客户端的嵌入式应用程序 UI - 用于脚本、演示和自动化的 CLI 工具 - 用于人类的 Beam Web 界面 - Web 路由、计划、Webhooks、重试、状态和审核历史记录（当功能发展到生产工作流程时） Photon 是根据 MIT 许可证发布的免费开源软件。完整文档位于 photon.portel.dev。相关 Portel 项目：NCP 为代理提供了一个自然的 MCP 界面，用于在整个工具生态系统中发现和运行工具。 Photon 构建可靠的面向代理的功能； NCP 帮助客服人员找到并使用它们以及其他 MCP。两分钟内尝试一下：这将打开 Beam，即生成的人类 UI。当您希望在 Claude 中获得相同的功能时，请添加 photon mcp install my-tool
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-tools, beam, claude-code, claude-desktop, cli-tool, cloudflare-workers
+
+---
+
 ## 🕔 2026-10-19 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
