@@ -1,3 +1,67 @@
+## 🕔 2026-10-19 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [reticle](https://github.com/reticlehq/reticle)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,262
+- **核心概述**: 人工智能代理可以生成代码，但仍然很难理解它们构建的内容。 Reticle 为 Web 和桌面应用程序带来了 Jev 风格的机器原生运行时感知。
+- **大概是做什么的**: 你的人工智能代理说“完成”。标线找出这是否属实。它驱动您真实运行的应用程序并读取发生的情况。然后它返回一个判决，通过 · 失败 · 无法告诉 ，并使用 file:line 进行修复。提出问题，看看我们构建了什么，并帮助决定下一步发布什么。问题 · 演示 · Reticle 的作用 · 安装 · 使用它 · 社区 · 与 Playwright · 基准 · 安全安装 · 文档 ⭐ 给仓库加星标 · 好的第一个问题 · 贡献 您的代理编写代码，假设它有效，然后继续。它永远不会打开应用程序。因此，破坏的模式、沉默的 500 和“部署成功”超过了部署失败的所有船舶。您稍后可以通过单击来找到它们。您现在是您代理的 QA。真相始终存在于正在运行的应用程序中。它没有到达屏幕。你的经纪人没有忘记一个步骤。编码代理是为了产生更改而构建的，因此它的设计是乐观的。验证则执行相反的操作：它会找出答案，并准备好返回 no 。 ▶ 一位代理商表示其修复工作有效。十字线捕捉到了它错过的双倍电荷。单击查看完整演示。 Reticle 放置了一个小型的、仅限开发的 SDK i
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skill, agent-skills, agent-testing, agent-verification, ai-testing-tool, automated-testing
+
+---
+
+### 🌟 [hotpath](https://github.com/hotpath-rs/hotpath)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,895
+- **核心概述**: 用于 CPU、内存、SQL、HTTP 和异步性能的 Rust 分析器，支持 Prometheus 和 Grafana。
+- **大概是做什么的**: hotpath - 用于轻松性能调试的 Rust 分析器 一个简单的 Rust 分析器，可以准确显示代码速度慢的原因。为开发人员和编码代理提供绩效反馈。使用单个 Rust 分析器查找 CPU、内存、异步、SQL、I/O 和争用瓶颈。当您需要生产监控时，将指标导出到 Prometheus 和 Grafana。通过 SSH 尝试 TUI 演示 - 无需安装：或者让您自己的 AI 代理在存储库中配置分析：hotpath-rs 是一个易于配置的 Rust 性能分析工具包，可以准确显示您的代码在何处花费时间、消耗 CPU 和分配内存。它可以帮助您区分因等待 I/O 而缓慢的函数和 CPU 密集型函数。检测函数、通道、future、流、SQL 查询、HTTP 调用和字节级 I/O，以查找瓶颈并将优化重点放在最重要的地方。通过最少的设置获得对时间、内存和异步数据流的可行见解。浏览 hotpath.rs 上的完整文档。请参阅 CONTRIBUTING.md 了解开发设置和指南。您可以使用它来生成其中之一
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: allocations, benchmark, debugging, grafana, mcp, mpsc
+
+---
+
+### 🌟 [cad2data-Revit-IFC-DWG](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 520
+- **核心概述**: 带第一方读卡器的 DDC 转换器：RVT/RFA 至 GLB、IFC4 和 JSONL； IFC 到 Excel； DWG 到 Excel、DXF 和 SVG。离线 CLI 和桌面应用程序、n8n 工作流程和 AI 代理指令。
+- **大概是做什么的**: cad2data — RVT、IFC 和 DWG 文件的 DDC 转换器将 CAD/BIM 文件转换为开放的结构化数据 - 本地、离线，无需 CAD 许可证。 .rvt / .rfa → GLB · glTF · OBJ · IFC4 · JSONL/CSV .ifc → Excel · JSONL · SQLite .dwg → Excel · CSV · JSONL · DXF · SVG 2026 年 10 月发生了什么变化 此存储库中的转换器是在 DataDrivenConstruction 自己的文件阅读器上重建的。它们不再依赖于任何第三方 CAD SDK： 格式读取器实现 .rvt / .rfa DDC RVT 读取器 Rust，第一方代码 .ifc / .ifczip DDC IFC 读取器 Python，第一方代码（运行时无 IfcOpenShell） .dwg DDC DWG 读取器 Python，第一方代码 这对您意味着什么： - 新的二进制文件，新的命令行。旧的 RvtExporter.exe 、 IfcExporter.exe 、 DwgExporter.exe 、 DgnExporter.exe 和 RVT2IFCconverter.exe （第 18.x 代）已停用，不再位于存储库树中。新的转换器位于 DDC WINDOWS Converters/（便携式、可运行）中，并且还作为安装程序和软件包发布在 - DGN 暂时停止使用 - 没有第一方 DGN 读取
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, autocad, autodesk, bim, bimconverter, cad
+
+---
+
+### 🌟 [scrawl](https://github.com/kitlangton/scrawl)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 433
+- **核心概述**: 向客服人员展示问题：标记、记录、发送
+- **大概是做什么的**: 向客服人员展示问题而不是描述问题。按快捷键 ( ⌥⇧S )，Scrawl 开始录制屏幕。说话，点击周围，在上面画画，然后再次按 ⌥⇧S 即可完成。 Scrawl 记录屏幕、你的声音和你的标记，然后将它们打包成一个紧凑的包：带注释的关键帧的联系表 ( contact-sheet.png )、单独的全分辨率关键帧 (frames/frame-XX.png )、时间对齐的转录和交互时间线 (summary.md) 以及结构化清单 (scrawl.json)。 Scrawl 需要运行 macOS 26 或更高版本的 Apple Silicon Mac。从 scrawl.kitlangton.com 下载 DMG，或使用 Homebrew：应用程序会自行更新 (Sparkle)，因此 Homebrew 会将更新保留给它。安装 Claude Code、OpenCode、Codex 和其他代理的代理技能： scrawl 命令是 Scrawl.app 内的二进制文件。 Homebrew cask 将其链接到您的 PATH，或者单击“设置”>“代理”中的命令行工具旁边的“安装”，将其链接到 /opt/homebrew/bin 或 /usr/local/bin（如果您可以在那里写入），否则为 /.local/bin 。该链接始终运行应用程序的当前副本，因此它会随应用程序一起更新。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, coding-agents, developer-tools, gpui, macos
+
+---
+
+### 🌟 [slack-skills-plugin](https://github.com/slackapi/slack-skills-plugin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 150
+- **核心概述**: Claude Code、Codex、Cursor 和 npx 技能插件，使您的 AI 工具具有 Slack MCP 服务器和 Slack 开发人员技能。
+- **大概是做什么的**: Slack MCP 和技能插件 [Claude Code][claude-code]、[Cursor][cursor] 和 [Codex][codex-cli] 插件，可将 Slack 引入您的 AI 工具，并为用户和开发人员提供 [Slack MCP Server][slack-mcp-docs] 和一组 Slack 技能。该插件发布在 Claude 官方市场上。从 Claude Code 内部安装：Slack MCP 服务器会自动配置。首次使用时，系统会提示您通过 OAuth 对 Slack 工作区进行身份验证。该插件发布在官方 Cursor Marketplace 上。从 Cursor 内部安装：这会将技能、命令和 MCP 服务器安装在一起。首次使用时，系统会提示您通过 OAuth 对 Slack 工作区进行身份验证。该插件在此存储库中作为 Codex 市场发布。添加市场，然后安装插件：启动一个新的 Codex 会话来获取插件，然后通过 $ 提及名称调用技能，例如 $block-kit 。 Codex 支持目前仅提供技能； MCP 服务器尚未连接到 Codex 表面。这些技能通过 [ npx 技能安装到其他编码代理中
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-code, codex, cursor, mcp, skills, slack
+
+---
+
+### 🌟 [mcp-apache-spark-history-server](https://github.com/kubeflow/mcp-apache-spark-history-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 205
+- **核心概述**: 用于 Apache Spark 历史服务器的 MCP 服务器和 CLI。从 AI 代理、脚本或终端调试 Spark 应用程序。
+- **大概是做什么的**: Kubeflow Spark AI 工具包 将 AI 代理和工程师连接到 Apache Spark History Server，以进行智能作业分析、性能监控和调查 ✨ 新功能 — Spark History Server CLI 现已可用 独立的 Go 二进制文件可直接从终端查询 Spark History Server — 没有 MCP、没有 AI 框架、没有守护进程。检查作业、比较运行、调查故障并针对 Spark REST API 编写脚本。开始使用 SHS CLI → 该项目为您的 Spark 历史服务器数据提供了两个接口： 🛠️ SHS CLI ( shs ) ⚡ MCP 服务器 用于工程师、shell 脚本、CI/CD、编码代理 AI 代理和 MCP 兼容客户端 心理模型“我知道我要运行的命令” “代理，调查这个 Spark 应用程序” 安装单个静态二进制文件 — 无依赖项 Python 3.12+、uv 入门 CLI 文档 → MCP 文档 → 📺查看实际操作：🛠️ SHS CLI ( shs ) — 适用于工程师和脚本 独立的 Go 二进制文件。直接从终端、shell 脚本或 CI/CD 管道查询 Spark 历史记录服务器。也可作为 Claude Code 和 Kiro 等编码代理的技能。 CLI文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: apache-spark, big-data, data-processing, kubernetes, mcp, mcp-server
+
+---
+
 ## 🕔 2026-10-19 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
