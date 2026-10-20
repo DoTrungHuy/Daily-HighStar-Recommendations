@@ -1,3 +1,67 @@
+## 🕔 2026-10-20 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 326 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fastembed-rs](https://github.com/anush008/fastembed-rs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,042
+- **核心概述**: 用于生成向量嵌入并在本地重新排名的 Rust 库！
+- **大概是做什么的**: 用于生成向量嵌入、本地重新排名的 Rust 库！ - 支持同步使用。不依赖东京。 - 使用 @pykeio/ort 进行高性能 ONNX 推理。 - 使用@huggingface/tokenizers 进行快速编码。不寻找 Rust？ - JavaScript: fastembed-js 点击列出模型 - BAAI/bge-small-en-v1.5 - 默认 - BAAI/bge-base-en-v1.5 - BAAI/bge-large-en-v1.5 - BAAI/bge-small-zh-v1.5 - BAAI/bge-large-zh-v1.5 - Sentence-transformers/all-MiniLM-L6-v2 -句子转换器/all-MiniLM-L12-v2 - 句子转换器/all-mpnet-base-v2 - 句子转换器/释义-MiniLM-L12-v2 - 句子转换器/释义-多语言-mpnet-base-v2 - nomic-ai/nomic-embed-text-v1 - nomic-ai/nomic-embed-text-v1.5 - 与nomic-embed-vision-v1.5 用于图像到文本搜索 - intfloat/multilingual-e5-small - intfloat/multilingual-e5-base - intfloat/multilingual-e5-large - mixbread-ai/mxbai-embed-large-v1 - Obama-NLP/gte-base-en-v1.5 - Obama-NLP/gte-large-en-v1.5 - lightonai/ModernBERT-embed-large - Qdrant/clip-ViT-B-32-text - 与 Clip-ViT-B-32-vision 配对用于图像到文本
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: embeddings, fastembed, rag, reranker, reranking, retrieval
+
+---
+
+### 🌟 [memex](https://github.com/nicosuave/memex)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 271
+- **核心概述**: 搜索 Claude Code、Codex、Pi、OpenCode、Github Copilot 和 Cursor 成绩单。恢复会话。跟踪令牌。
+- **大概是做什么的**: 搜索、浏览并重新访问您本地的代理历史记录。 Memex 对来自编码工具的对话进行索引，以便您和您的代理可以找到以前的工作、阅读原始记录，并在支持的原始工具中恢复会话。关键词搜索使用BM25。可选的本地嵌入添加了语义和混合搜索。您还可以搜索保存的 Claude 和 Codex 记忆、通过 SSH 跨计算机查询历史记录，并从本地日志跟踪令牌使用情况。或者使用安装程序：查看 Arch Linux、Nix、Cargo、源代码构建和升级行为的安装和更新。在 TUI 中，选择一个会话来读取它或使用其恢复操作在原始代理中继续。恢复要求安装该代理并且其会话数据保持可用。有关例外情况，请参阅引擎支持表。索引会自动发现支持的源。选择特定引擎：搜索默认为对话和 JSONL 输出。默认情况下，嵌入、明文推理和标记跟踪处于关闭状态。搜索自动刷新过时的索引；对于后台索引，运行 memex daemon enable --
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: bm25, claude-code, codex-cli, copilot, herdr-plugin, hermes-agent
+
+---
+
+### 🌟 [squadra](https://github.com/dagoSte/squadra)
+- **项目语言**: Python
+- **星标数量**: ⭐ 256
+- **核心概述**: 通过共享任务、确认、预检查、并行测试、源代码绑定证明和独立审查来协调 Claude、Codex 和 Cursor 窗口。内置技能可回忆经验教训、简化代码和预测工作。使用 MCP 插件在双语本地仪表板中跟踪进度、决策和证据。浏览技能并经过验证的安全审核。
+- **大概是做什么的**: 您的编码代理，一个团队 - 以及每一步的证明。 Claude Code、Codex 和 Cursor 最完整的团队技能。免费开源——麻省理工学院许可证，无需帐户，一切都在您的计算机上运行。版本 3.10.3 · 免费 · MIT · 本地工具包 · Python 3.12+ · macOS / POSIX 英语 · 意大利语 · 隐私 新功能 · 入门 · 示例提示 · 第一步 · 仪表板 · 插件 · 决策 · 工作流程 · 检查点 · 命令 · 社区 静态、行为和依赖性检查，不包括测试/ 。通过意味着没有高或严重的发现；报告中保留了严重程度较低的调查结果。单击徽章即可查看结果。一句话就安装好了。将其粘贴到 Claude Code、Codex 或 Cursor 中：代理会检查您已有的内容，显示每个命令及其更改内容以及如何撤消它，等待您的同意，安装并运行一秒钟检查。一项操作会留在您身边：Claude Code 中的 /reload-plugins，或者 Codex 或 Cursor 中的新会话。其他安装方式：安装。观看 80 秒的导览 — 打开播放器中的声音：https://github.com/user-attachments/assets/69f512be
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-orchestration, agent-skills, agentic-coding, ai-agents, ai-coding, claude
+
+---
+
+### 🌟 [apowerb](https://github.com/apowerb/apowerb)
+- **项目语言**: Python
+- **星标数量**: ⭐ 149
+- **核心概述**: 用于构建、编排和操作生产 AI 代理的开源代理框架。
+- **大概是做什么的**: 构建、运行和管理人工智能代理，让它们在您不工作时发挥作用。用于构建、编排和操作生产 AI 代理的开源代理框架。 apowerb 是一个开源平台，用于在生产中构建、运行和管理人工智能代理。它涵盖多代理编排、RAG 和文本到 SQL、MCP 服务器和内置业务工具、电子邮件和计划触发的运行、令牌配额和会话审核。您可以使用 Docker Compose 或 Helm 自行托管它。核心是Apache-2.0；一些企业模块（计费、身份提供商登录、MFA、代理评估、监督屏幕）由thaink²单独出售。 - 从 Web 界面或 REST API 构建代理（指令、模型、工具、知识库）并组合它们：顺序代理、并行代理、循环代理、子代理。 - 将它们连接到您的系统：任何 MCP 服务器，以及适用于 Google Workspace、Microsoft 365、GitHub、HubSpot、Pipedrive、Odoo、SQL 数据库、Oracle、MongoDB、S3、网络搜索、OCR、语音和沙盒 Python 的内置工具。 - 使用内置 RAG（文件、URL、数据库、S3）将它们融入您的数据中 - 无需您即可运行它们：on
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-ai, ai-agents, business-intelligence, fastapi, google-adk
+
+---
+
+### 🌟 [rikkahub-sillytavern-android](https://github.com/MiaoWuNYA/rikkahub-sillytavern-android)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 116
+- **核心概述**: 安卓AI聊天端:开箱即聊，无损导入酒馆卡，缓存强省用量，Jev 决策，专属RP模式，防空回，主动信息，前端卡支持，高定制主题，QQbot，AI群聊，插件系统，强兼容中转站。手机移动端原生支持，求 Star 收藏⭐Android AI Chatbox: lossless SillyTavern card import, aggressive cache optimization, Jev decisions, multi-dimensional memory, anti-blank-reply, proactive messages, AI group chat, SillyTavern themes, plugin system, Native mobile.RikkaHub
+- **大概是做什么的**: RikkaHub Plus · Lantern 适用于 Android 的 AI 聊天客户端，同时也是 SillyTavern 兼容端点 开箱即用的聊天 · 前缀缓存可保存令牌 · 不会褪色的内存 · 使用官方 SillyTavern 语义导入的角色卡/传说书/预设 英语 简体中文 分歧图 分歧图 (EN) RikkaHub 的深度定制分支（与上游 v3.0.0 合并，加上 2150 多个提交）添加的内容），在 Kotlin + Jetpack Compose 中原生实现。 - 只是想要一个好的人工智能聊天应用程序：插入任何 API 并开始交谈 - 多提供商、流媒体、语音通话、插件工具、内存、缓存节省。不需要“酒馆”概念。 - 从桌面 SillyTavern 迁移：角色卡、知识手册、预设、正则表达式和主题使用官方语义无损导入 - 没有 Termux，没有 Node.js。两条路由共享同一个客户端，互不干扰。网站和文档：rikkahub.luoca.cn · 文档（安装、配置、酒馆导入、插件开发） 酒馆兼容性 角色卡（V3 卡 + 62 条嵌入式知识库） 宏引擎（60+ 官方宏） M
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-chat, ai-client, android, character-card, claude, gemini
+
+---
+
+### 🌟 [hrm](https://github.com/quuuuj/hrm)
+- **项目语言**: Java
+- **星标数量**: ⭐ 477
+- **核心概述**: 基于Spring Boot+Vue+ElementUI的人力资源管理系统
+- **大概是做什么的**: 基于 Spring Boot 3.4 与 Vue 2.6 构建的现代化全栈人力资源管理系统，深度集成 Flowable 工作流引擎、企业知识库（RAG）与智能问答。 数智人事 是一套面向现代企业的高效人力资源全流程管理系统，旨在提升组织人效与员工自主服务体验。系统采用前后端分离架构，融合企业业务管理规范与先进的生成式 AI 技术： - 传统业务闭环 ：覆盖组织架构、员工全生命周期档案、菜单与角色细粒度 RBAC 权限体系、Flowable 审批流转、灵活考勤与打卡统计、精细化加班与多维假期管理、薪资核算与五险一金配置。 - 智能化升级 ：提供基于 RAG（检索增强生成）的企业知识库智能问答，具备员工上下文感知，覆盖政策制度等人事咨询场景。 - 业务流程深度解耦与纯计算领域设计 ： - 考勤核算、加班计算（ OvertimeCalculator ）以及薪资核算（ SalaryCalculation ）全面收敛为无框架依赖的纯函数领域模型，具备极高的单测覆盖与维护确定性。 - Flowable 8.0 流程引擎原生适配 ： - 深度整合 Spring Boot 3.4 与 Flowable 引擎，流程表独立存放于 hrm flowable 库；通过表前缀复用业务主数据源，业务状态与流程推进共享同一个本地事务，一侧失败时两边一起回滚。 - 双 Token 自动无感续期机制 ： - 基于 httpOnly Cookie 的双 Token（Access Token + Refresh Token）鉴权体系，前端拦截器透明处理并发无感刷新，阻断 XSS 与 Token 劫持风险。 - 混合持久化与企业级 RAG 知识检索 ： - 采用 MySQL（业务）+ Redis（缓存/验证码）+ PostgreSQL/pgvector（向量数据库）+ MinIO（对象存储）的多引擎存储架构；内置文档切块、向量化 ETL 流水线，助力企业政策与制度的高精度语义召回。 - 搭载兼容 DashScope / OpenAI 规范的智能问答服务，基于企业知识库语义检索与员工静态上下文注入（部门、岗位等档案信息），实现政策制度的"即问即答"。 登录界面 首页仪表盘（工作台与考勤日历） 员工薪资管理 参保城市与五险一金比例 系统关键核心业务（请假/加班审批流转链路 + 企业知识库智能问答闭环）如下所示： Java 17 开发语言运行环境 Spring Boot 3.4.4 现代化微服务脚手架与依赖管理 MyBatis-Plus 3.5.10 ORM 增强框架，支持多数据源隔离与灵活查询 Flowa
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: echarts, element-ui, flowable, hutool, jwt, mybatis-plus
+
+---
+
 ## 🕔 2026-10-20 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 317 个候选项目中筛选出 6 个未推荐过的新项目。
