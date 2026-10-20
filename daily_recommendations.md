@@ -1,3 +1,67 @@
+## 🕔 2026-10-20 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 317 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [last30days-skill-cn](https://github.com/Jesseovo/last30days-skill-cn)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,924
+- **核心概述**: 给 AI Agent 的中文互联网研究 Skill：检索 8 大平台最近 30 天的讨论，追踪跨平台热点，生成附原始来源的报告，并提供每日全网热榜。支持 Claude Code、Codex、OpenClaw。
+- **大概是做什么的**: 看看最近 30 天，中文互联网在聊什么。 给 AI Agent 的研究技能，也是你每天打开的一小份热榜。 简体中文 · English · 使用手册 · 更新记录 复制这句话，发给你正在使用的 AI Agent： 支持 Claude Code、Codex、Cursor、Gemini CLI 等具备命令行执行能力的 Agent。安装、环境检查和运行都交给它；需要你登录的平台，它会提示你完成。 想知道大家如何评价一个产品、一个话题最近发生了什么，或者今天有什么值得一看？last30days-cn 会检索近期讨论，按相关性、时效和互动排序，把同一件事在不同平台的声音放在一起，并保留原始链接。 一个话题，一份研究。 微博、小红书、B站、知乎、抖音、微信公众号、百度、今日头条，默认覆盖 8 个中文平台。可按需加入 Hacker News、GitHub 和 Reddit，或通过上游 skill 扩展更多海外来源。 一次打开，看见今天。 全网热榜聚合国内热搜、科技资讯和 Hacker News。搜索感兴趣的词，发现跨平台的「同频热点」，或者慢慢读完一个平台。 每条结论，都能回到出处。 输出精简证据、Markdown、JSON 和可离线打开的 HTML。拿到了多少、来自哪里、哪些平台暂时不可用，报告都会写清楚。 打开全网热榜 ↗ · 每天北京时间 08:00 / 12:00 / 20:00 自动采集更新。 微博、百度、抖音、头条、B站、知乎，是今天的热闹；IT之���、虎嗅、少数派、爱范儿、Solidot 和 Hacker News，是另一扇窗。也可以添上自己的 RSS，慢慢把它变成你喜欢的样子。 在电脑上扫一眼前几条，感兴趣再展开；在手机上选一个平台慢慢读。搜索、深色模式、跨平台「同频热点」，都放在顺手的地方。 想搭一份自己的热榜？让 Agent 参考部署说明，在你的仓库启用定时发布。 热榜是当下的采集快照；主题研究会回看指定时间窗，两种模式可以接着用。 今天 AI 圈有什么热点？帮我挑 3 条值得关注的。 研究「AI 编程助手」最近 7 天的讨论，对比不同平台的评价，附上来源。 再补充 Hacker News、GitHub 和 Reddit 上的声音，生成可离线阅读的报告。 平台登录和接口可用性会影响覆盖范围。报告会区分登录态结果、热榜匹配与公开搜索；公开搜索缺少可靠的互动数据和精确日期，不能当作完整的平台样本。 每一颗 Star，都是一次好奇心的相遇。谢谢你愿意把这个小工具留在身边。 使用手册 — 登录、可选依赖、平台数据路径、配置和完整命令。 技术说明 — 检索、清洗、评分
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, bilibili, chinese, claude-code, codex
+
+---
+
+### 🌟 [clearcote-browser](https://github.com/clearcotelabs/clearcote-browser)
+- **项目语言**: Python
+- **星标数量**: ⭐ 216
+- **核心概述**: 具有引擎级指纹欺骗功能的开源隐形 Chromium - de-Googled、即插即用的 Playwright、完全可构建且可从源代码验证。
+- **大概是做什么的**: 融入其中。保持清晰。通过 GitHub 免费获取最新版本 → 网站 · 文档 · 定价 · Playground · Discord Clearcote 是一个开源 Chromium，其指纹控件编译到 C++ 引擎中。每个浏览器都呈现出一台连贯的机器：JavaScript 表面、HTTP 标头和 TLS 握手都来自同一个真实的 Chromium，因此它们彼此一致。您可以使用已有的 Playwright 或 Puppeteer 代码来驱动它。 SDK 在首次使用时下载浏览器并检查其 SHA-256。 Node.js： npm install clearcote 。 .NET：dotnet 添加包 Clearcote 。 Docker、CDP 端点或托管浏览器：选择运行方式。要了解新版本，请单击本页顶部的“观看”→“自定义”→“发布”。它是什么 Chromium 发行版（基于 ungoogled-chromium）加上一堆可读源补丁 可与 Playwright、Puppeteer 以及任何使用 Chrome DevTools 协议 (CDP) SDK Python、Node.js / TypeScript、.NET 的工具配合使用。 launch() 返回一个在 Windows x64、Linux x64、Docker 上运行的标准 Playwright 浏览器。或者托管在我们的服务器上，无需任何操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anti-detect-browser, anti-fingerprinting, antidetect, antidetect-browser, browser-automation
+
+---
+
+### 🌟 [limoni](https://github.com/thebanri/limoni)
+- **项目语言**: Go
+- **星标数量**: ⭐ 164
+- **核心概述**: Go 的终端 UI 引擎，测试可以点击，AI 代理可以驱动 (MCP)。零分配渲染、即时模式+Elm架构、3D、图像、图表、可访问性、WebAssembly。
+- **大概是做什么的**: Go 的终端 UI 引擎，测试可以点击，AI 代理可以驱动，而垃圾收集器永远看不到。 ▶ 在浏览器中尝试 — 相同的引擎编译为 WebAssembly，无需安装。或者生成一个立即运行的项目，并已编写测试： 下一步：入门 · 小部件库 · 示例 1. 您的 TUI 有语义树，因此测试和代理按名称寻址小部件 大多数终端自动化（例如 termwright 或 mcp-tui-test）会解析呈现的字符网格，因此当布局移动一列时测试会中断。 Limoni 应用程序每帧都会构建一个语义树（屏幕阅读器使用的同一棵树），而下面的工具则在该树上工作。 uitest ：剧作家风格的测试。检查等待而不是休眠，失败会打印最后一帧的整个树。 limoni-mcp：让 AI 代理驱动应用程序。它为 Claude Code、Cursor 或任何 MCP 客户端提供了在同一棵树上工作的八种工具（树、单击、键入文本、等待……）。在一次记录的运行中，Claude Code 通过 17 次工具调用完成了发布清单。该运行包括为代理输入部署令牌
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, ansi, bubbletea, cli, elm-architecture
+
+---
+
+### 🌟 [kokon](https://github.com/GabrieleLozupone/kokon)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 159
+- **核心概述**: 在您自己的 GPU 上通过描述更改来编辑照片。一个安装程序，无需 Python，无需云。适用于 Windows 和 Mac 的 Qwen-Image 2.1，带有用于 AI 代理的 MCP 服务器。
+- **大概是做什么的**: 在您自己的计算机上通过描述更改来编辑照片。适用于 Windows、Mac 和 Linux 的一个安装程序，无需 Python，无需云。由 Qwen-Image 2.1 提供支持，为您的 AI 代理做好准备。 https://github.com/user-attachments/assets/8851c580-99b9-432a-82be-b6d42fa9a749 在 YouTube 上以 4K 格式观看 免费开源 · 首次运行时下载约 12 GB 的模型 · 没有任何东西离开你的计算机 “把所有的人从海滩上移走。” “让它成为黄金时段。” Kokon 会为您选择模式、分辨率和内存设置。没有滑块可供学习。 🔒 私有设计一切都在您自己的 GPU 上运行。没有帐户，没有上传，没有遥测，没有限制。设置后，Kokon 每天仅检查一次新版本（您可以将其关闭）。私有模式什么也不保留。基于 stable-diffusion.cpp 构建的本机应用程序。没有 Python，没有 ComfyUI，没有节点图。第一次运行会检测您的显卡或 Mac 内存并下载正确的型号，然后进行验证。一键安装更新。 🎯 保留在原处的编辑在某个区域上绘画并选择“更改”、“删除”、“替换”或“添加”。 Kokon展示了
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: image-editing, image-generation, local-ai, macos, mcp, mcp-server
+
+---
+
+### 🌟 [laravel-restify](https://github.com/BinarCode/laravel-restify)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 683
+- **核心概述**: 适用于人工智能代理和人类的 Laravel API。
+- **大概是做什么的**: 面向人类和 AI One 代码库的统一 Laravel API 层。 REST 适合人类，MCP 适合人工智能代理。 Laravel Restify 将您的 Eloquent 模型自动转换为 JSON:API 端点和 MCP 服务器。构建一次，即可立即提供可与开发人员、应用程序和 AI 代理无缝协作的 API。 🚀 一个代码库的力量 传统 API 开发需要针对不同的消费者单独实现。 Laravel Restify 改变了： - 👥 人类获得全功能的 JSON:API 端点 - 🤖 AI 代理获得结构化的 MCP（模型上下文协议）服务器 - 🔒 相同的规则 - 所有身份验证、授权和策略���适用 - 📝 一个定义 - 一次编写存储库，随处服务 - JSON:API 端点 - 完整的 JSON:API 规范合规性 - MCP 服务器生成 - 具有工具定义的自动 AI 代理接口 - 统一授权 - Laravel策略保护人类和人工智能访问 - 搜索和过滤 - 为所有消费者提供强大的查询功能 - 身份验证 - Laravel Sanctum 集成以实现安全访问 - GraphQL 支持 - 自动生成 GraphQL sch
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, laravel, mcp, mcp-cli, mcp-client, mcp-servers
+
+---
+
+### 🌟 [remote-desktop-commander](https://github.com/desktop-commander/remote-desktop-commander)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 183
+- **核心概述**: Desktop Commander 的官方远程 MCP 服务器 — 通过 OAuth 将 claude.ai、ChatGPT、Cursor 等连接到您自己的计算机
+- **大概是做什么的**: 远程桌面指挥官在您的计算机上随时随地进行构建、探索和自动化。从任何支持远程 MCP 连接器的 AI 应用程序访问计算机的文件系统和终端。 Remote Desktop Commander 是一个托管的 MCP 服务器，可将安全连接中继到您的真实计算机，为您的 AI 助手提供与本地服务器相同的完整文件和 shell 访问权限，而您无需使用键盘。 - 服务器端点：https://mcp.desktopcommander.app/mcp（可流式 HTTP，OAuth 2.0） - 仪表板：mcp.desktopcommander.app - 状态：当前处于测试阶段 - 演示：观看视频 此存储库托管托管服务的公共清单、文档和问题跟踪器。该服务实现不是开源的。对于开源本地 (stdio) 服务器，请参阅 DesktopCommanderMCP。 - 从头开始​​构建 - 使用简单的命令创建功能和应用程序 - 管理开发环境 - 设置服务器、配置系统、处理流程 - 探索现有代码库 - 导航和理解复杂的存储库 - 就地编辑文档 - 处理 Word、Excel 和 PDF fi
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, automation, desktop-commander, gemini-cli-extension, mcp, mcp-server
+
+---
+
 ## 🕔 2026-10-20 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 308 个候选项目中筛选出 6 个未推荐过的新项目。
