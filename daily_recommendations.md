@@ -1,3 +1,67 @@
+## 🕔 2026-10-20 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 308 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xerj](https://github.com/xerj-org/xerj)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 10,674
+- **核心概述**: 用于 AI 代理的本地优先搜索引擎和 MCP 服务器。一种 Rust 二进制索引代码、文档、日志、JSONL/CSV 和 PDF，用于 BM25 全文、矢量和混合搜索、无需 grep 的代码搜索、代理内存和 RAG。兼容 Elasticsearch 的 API； Corpus Hub 提供数百个参考记忆语料库。
+- **大概是做什么的**: English 简体中文 日本语 Español XERJ 是一种受社区信任的本地 AI 搜索，可自动索引任何文件夹，因此您的编码代理不再需要逐个读取文件而消耗令牌，而是提取所需的确切代码。参考编码是它的主要用例和最明显的胜利：将代理指向一个任务，它会下载最接近它的开源存储库，对它们进行索引，并在编写自己的代码之前重用它们解决问题的方法。在一项对照研究中，在相同的 16/16 解决率下，编码代理的输出令牌减少了 2.7 倍（案例研究），人们报告在日常工作中大约减少了 5 倍。对于一个更小、更便宜的模型来说，它足以胜过从内存中工作的价格更高的模型，同时您在修复循环上花费的时间更少。立即尝试一次提示安装：Windows 和手动验证安装位于“手动安装”下。 --insecure 标志是信任边界，而不是形式。它关闭 TLS 和 API 密钥身份验证，因此每个可以到达该端口的调用者都是超级用户，可以读取和删除每个索引，包括每个 / 内存命名空间。它适用于开发机器上的一个用户：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, bm25, claude-code, cli, code-search
+
+---
+
+### 🌟 [mattpocock-skills-zh-CN](https://github.com/vinvcn/mattpocock-skills-zh-CN)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 5,110
+- **核心概述**: Matt Pocock skills 的简体中文本地化：人工审核每一次更新，定期同步上游，支持 Claude、Codex 和 DSH 插件。
+- **大概是做什么的**: 给真正工程师用的 Skills（简体中文版） Matt Pocock 的 mattpocock/skills ：第三方简体中文本地化，非官方仓库。这些 agent skills 是他每天用于真实工程工作的，不是 vibe coding：小、易改、可组合，适用于任何模型。 本仓库 定期同步上游 ，并额外支持 DeepSeek Harness（dsh）插件安装，安装后以 /zh- 调用任意技能（上游没有的能力，详见 dsh-plugin/README.md ）。 选择你想安装的 skills，以及要安装到哪些 coding agents。首次安装时请确保选择 /setup-matt-pocock-skills ，然后在 agent 中运行它来完成 issue tracker、labels 和 docs 目录配置。 或者在 Claude Code 中运行： 或者在 DeepSeek Harness（dsh） 中安装为插件（上游没有的安装路线）： 安装后以 /zh- 调用任意技能，例如 /zh-grilling 。详见 dsh-plugin/README.md 。 文档和技能说明已翻译；目录名、技能名、命令、代码块、路径和工具标识保持不变，以免破坏安装和运行行为。 中文版本不只是为了阅读方便。对中文母语用户来说，中文说明能减少概念转换成本；对以中文为主要交互语言或中文语料优化的模型来说，中文 prompt 和 skill instructions 也更容易贴合中文上下文，减少中英混杂带来的歧义。 本仓库按内容刷新方式同步上游，不同步上游 Git 历史或仓库管理状态。同步翻译由 Codex 执行，人工审核每一次更���后由维护者通过 PR 纳入 main ；维护规则见 .skills/translate-skill/SKILL.md 。 翻译策略是 skill-guided content localization ：把上游 mattpocock/skills 当作英文内容来源，只翻译自然语言说明，保留目录名、skill name、frontmatter key、命令、代码块、路径、URL、package/tool/API identifiers 和行为关键 labels。用户可见的安装路径统一保持为 vinvcn/mattpocock-skills-zh-CN 。 想请求翻译仓库里的英文术语，或认领翻译 PR？先读贡献指南；已请求与已决定的译法记录在翻译术语表。 我每天用于真实工程工作的 agent skills，不是 vibe coding。 开发真实应用很难。GSD、B
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese, developer-skills, productivity, prompt-engineering, skills
+
+---
+
+### 🌟 [ZeppBridge](https://github.com/lingcang728/ZeppBridge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 213
+- **核心概述**: 将您的 Zepp / Amazfit 健康记录保存在您自己的电脑上。探索每一个趋势，将它们交给您已经使用的人工智能，并将训练计划发送回您的手表。本地优先、免费且开源，适用于 Windows、macOS 和 Linux。
+- **大概是做什么的**: 保留每一个记录。计划你的下一次跑步。将您的 Zepp 健康数据存储在计算机上，探索趋势，通过 AI 进行讨论，并将训练计划发送回您的手表。开始使用·观看一分钟影片·简体中文 ZeppBridge 是一个获得 Zepp 官方批准的独立开源项目。仅将其用于您有权访问的帐户和数据。 macOS：“ZeppBridge 已损坏且无法打开”？从该存储库的版本安装后，请按照下面的 macOS 首次启动说明进行操作。点击图片可观看界面短片、卡片互动和训练计划。所有图片和视频均使用样本数据；屏幕截图显示了中文界面，该应用程序提供了十二种语言和区域选项。从记录到下一步 ZeppBridge 是一款面向 Zepp / Amazfit 用户的桌面应用程序。您的手表通过手机上的 Zepp 应用程序上传其记录，ZeppBridge 会同步您自己的计算机上可用的任何数据。同步后，您的记录可以离线查看、备份和导出。将您关心的指标固定到概览中并查看
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: amazfit, desktop-app, health-data, linux, local-first, macos
+
+---
+
+### 🌟 [piia-engram](https://github.com/Patdolitse/piia-engram)
+- **项目语言**: Python
+- **星标数量**: ⭐ 162
+- **核心概述**: 您可以查看、编辑和覆盖本地优先的 AI 内存 - 可跨 Claude Code、Codex、Cursor、Windsurf 和其他 MCP 编码工具移植。
+- **大概是做什么的**: 您可以查看、编辑和覆盖本地优先的 AI 工作身份 — 可跨 MCP 编码工具移植。告诉人工智能一次你是谁、你如何工作以及“好”意味着什么。 Claude Code、Codex、Cursor、Windsurf 和其他 MCP 兼容工具可以从相同的 AI 工作身份层开始 — 您拥有的本地文件，没有云帐户，没有您无法检查的隐藏内存。安装 · 查看实际操作 · 支持的工具 · MCP 工具 · 常见问题解答 同时列出于：awesome-agents · Awesome-MCP-ZH · mcpservers.org · 光标目录 · ModelScope · PulseMCP TL;DR：piia-engram 是本地优先的个人 AI 身份层。它可以帮助多个编码代理从对您的相同理解开始：您的偏好、质量标准、经验教训、决策和项目背景。它不是代理内存数据库；它是工具之上的用户拥有的层。为什么不直接使用本机内存呢？ Claude Code、Codex、Cursor 和 Windsurf 正在添加自己的记忆和规则。这些很有用，但它们仅限于一种工具或工作区。 piia-engram 为您提供了一个位于其之上的便携式身份层：您拥有的本地文件，AI-propose
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agent, ai-identity, ai-memory, anthropic, claude-code
+
+---
+
+### 🌟 [synaplan](https://github.com/metadist/synaplan)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 201
+- **核心概述**: 开源、自托管 AI 平台 (PHP/Symfony)：与任何模型聊天、对文档进行 RAG、可嵌入小部件、MCP — 查看每个答案的成本。 Apache-2.0, made in Germany.
+- **大概是做什么的**: 我们创造人工智能自由。开源、自托管 AI 平台 (PHP/Symfony)：与任何模型聊天、对文档进行 RAG、可嵌入小部件、MCP — 查看每个答案的成本。 Apache-2.0，德国制造。网站  ·  文档  ·  实时实例  ·  iOS  ·  Android  ·  桌面  ·  Outlook 插件  ·  Discord 如果 Synaplan 对您有用，则星标会帮助下一个人找到它。 Chat, what each answer cost, your files, generated media, and the apps you can connect.大约30秒。打开 �� Log in as admin@synaplan.com / admin123 and paste one provider key.免费：Groq。 A published image, a Docker GUI, a closed network, or a Linux server: More ways to install. People usually arrive comparing Synaplan with a chat window or an app builder.这就是每个项目的目的。它不是记分牌。 Synaplan Open WebUI LibreChat Dify --- --- --- --- --- 它是什么 团队平台：聊天、您的文件作为知识、站点小部件以及 WhatsApp 和电子邮件上的同一个助手 用于本地和云模型的聊天界面 适用于许多提供商的聊天应用程序
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, anthropic, chat, chatbot-widget, chatgpt-alternative
+
+---
+
+### 🌟 [Kiln](https://github.com/codeofaxel/Kiln)
+- **项目语言**: Python
+- **星标数量**: ⭐ 111
+- **核心概述**: 描述它或画它——Kiln 让它变得真实。用于 3D 打印的开源 MCP 服务器：AI 代理（ChatGPT、Claude、Codex、Cursor、Gemini、Grok 或任何 MCP 客户端）在 Bambu Lab、Creality、Prusa、Elegoo、Klipper/Moonraker、OctoPrint、Duet/RepRapFirmware 和任何 Marlin 打印机上进行设计、生成、切片和打印。
+- **大概是做什么的**: The open-source MCP server for 3D printing. Kiln 让 AI 代理（ChatGPT、Claude Desktop、Claude Code、Codex、Cursor、Gemini、Grok 或任何自定义 MCP 客户端）端到端驱动真正的 3D 打印机 — Bambu Lab、Creality、Prusa、Elegoo、Voron、Sovol、AnkerMake、Artillery、FlashForge、QIDI、RatRig 和 SparkX。它与 OctoPrint、Moonraker/Klipper、PrusaLink 和 Direct USB 兼容。在一次对话中，代理可以设计一个零件，将其切片，在正确的打印机上排队，监控相机，从故障中恢复，然后发送结果。中间没有人。 Reading this as an AI agent? kiln3d.com/agents 是为您而不是为运行您的人编写的：安装、MCP 配置、设计到打印循环，以及 Kiln 拒绝执行的操作及其原因。 “一个带有我的狗阿什照片的杯垫”——从一个句子开始到结束。 Kiln's built in the open.如果它让你的打印变得更有趣，或者只是让你头痛，那么仓库上的 ⭐ 可以帮助下一个制造商找到它。使用克劳德桌面？ Install Kiln in one click.下载 kiln.mcpb 并双击 — Claude Desktop 安装 Kiln
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-printing, ai-agents, bambu-lab, chatgpt, claude, creality
+
+---
+
 ## 🕔 2026-10-19 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
