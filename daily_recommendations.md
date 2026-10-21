@@ -1,3 +1,67 @@
+## 🕔 2026-10-21 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-companion-kit](https://github.com/pinganbbOvO/ai-companion-kit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 292
+- **核心概述**: 给你的 AI 一副身体，和一点人味 —— 会记事、会看场合的 QQ 陪聊 + 能控制安卓手机的 MCP
+- **大概是做什么的**: 我给一个 AI 接上了 QQ 和一台安卓手机。 这些不是我写好的台词。 是她自己生成的。 把这段话复制给任何能操作电脑的 AI（DeepSeek 桌面版 / ChatGPT 桌面版 / Cursor），它会自己装好： 装不上、装错了、它说"我不能操作电脑"—— 看这页 ：让 AI 帮你装（不用懂代码） 🤖 ai-companion 让它 记得住你 、 打字像人 、 知道什么时候该闭嘴 角色卡 · 记忆账本 · 拟人化发送 · 唤醒策略 📱 phone-mcp 让它 摸得到你的手机 点按 · 滑动 · 中文输入 · 截图 · 录屏 · 连招 · 网易云 · QQ空间 🗣️ qzone + qzone-mcp 让它 自己发 QQ 空间说说 发说说 · 看动态 · 点赞 · 评论（带限额） 拼起来就是一只 住在 QQ 里、还长着手 的 AI。 tools/安装.bat 检查 Node（没有就自动下便携版）→ 下载 qq-bridge → 装依赖 → 生成 config.json → 打开记事本让你填三个值 tools/install-node.ps1 单独下 Node 便携版（约 30MB，落在 tools/ runtime/node ，不写注册表、不进系统环境变量） tools/启动.bat 检查前置 → 启动 qq-bridge（复制进 qq-bridge 目录后双击） 它 不会 做的事：装 DSH / SnowLuma、碰你现有的文件、联网往外发任何东西。 Node.js （去 nodejs.org 下 LTS，装完重启电脑） 一个能连 QQ 的网关 （SnowLuma） → 这两步看 傻瓜版教程 ，带截图。 👉 双击 tools/安装.bat 。 一路回车就行 ��— 它自己下载、装依赖、生成配置文件， 最后弹出记事本让你填三个值（你的 QQ 号 / 她的 QQ 号 / 网关令牌）。 只有两样东西脚本装不了 ：Node.js 和一个能连 QQ 的网关（SnowLuma）。 这两个照着 傻瓜版教程 一步步点就行（有截图）。 👉 走 快速开始 · 15 分钟 。 先跑通"只聊天"的部分， 别一上来就搞手机 。 里面包含 语音识别、手机控制、听歌、日记、 防风控 的完整实现，还有 15 个我真实踩过的坑 。 第十三章是保命章节 ：我用 20 条/分钟的频率发了一整天， 图都在 assets/screenshots/ ✗ 可以直接拿去发社交媒体 ✓ 记忆是「关于你的事」，日记是「她自己的一天」。 她自己写，你只负责看 — 双击 tools/写日记.bat 就行
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adb, agent, ai-companion, android, chatbot, deepseek
+
+---
+
+### 🌟 [passenger](https://github.com/Zaneris/passenger)
+- **项目语言**: C#
+- **星标数量**: ⭐ 125
+- **核心概述**: 用于 C# 和 .NET 的开源 IDE，使用 Avalonia 构建，适用于 Windows、macOS 和 Linux：Roslyn 支持的编辑器、带热重载功能的调试器、CPU 和内存分析器、适用于 Avalonia 和 WPF 的 XAML 工具以及用于编码代理的 MCP 服务器。
+- **大概是做什么的**: 用于 C 和现代 .NET 的 IDE，由 Avalonia 用 C 语言编写，在 MIT 下免费且开源。首先是 Windows 和 macOS，然后是 Linux 版本（如何安装）。您的编码代理 • Passenger 编辑、构建、运行、测试、调试和分析 C 和 .NET。它包含的大部分内容通常需要付费 IDE 或付费附加组件；在 Passenger 中，它是 IDE 的一部分，在 MIT 下免费且开源，适用于工作和个人 - 适用于 Avalonia 和 WPF 的 XAML 工具。完成并检查两者、键入时的预览（Windows 上的 WPF）、正在运行的应用程序的实时可视化树、列出并修复的失败绑定，以及在 Avalonia 中，在 XAML 中的 XAML 行和断点之后绑定值。比其他 .NET IDE 中提供的 XAML 工具更多。 - 性能和内存分析。从程序启动或附加到一次运行的时间线、调用树、热点和火焰图；具有保留大小和根路径的堆快照，与显示新的、死亡的和幸存的对象进行比较。通常是付费附加组件。 - 自己的调试器，具有热重载功能。返回值方法、智能单步执行、异常断点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: avalonia, csharp, debugger, dotnet, ide, mcp
+
+---
+
+### 🌟 [McD-saver](https://github.com/yuxinlaile/McD-saver)
+- **项目语言**: Python
+- **星标数量**: ⭐ 115
+- **核心概述**: 🍟 麦麦省钱助手 —— 基于麦当劳中国官方 MCP 的省钱点餐 Agent Skill：官方 calculate-price 实时核价 + 券组合优化（预算/热量约束）+ 沉默成本体检 + 官方券/团购券/积分四渠道同口径算终局。社区开源，免登录在线试算 👇
+- **大概是做什么的**: 让 AI 帮你用最少的钱吃麦当劳 —— Agent Skill + 独立 CLI 二合一 English · 🎮 30 秒在线试算（免登录） · 📦 快速开始 · 💬 讨论区 · 🛍️ Also on Agensi 麦麦省钱助手是一个以「省钱」为唯一目标的麦当劳点餐助手： 不是帮你下单， 而是在下单前强制跑一遍省钱检查 ——把可领的券领完、挑出当前订单最优券、 用官方 calculate-price 做无券/带券双价对比、评估积分兑换是否更划算， 最后把省钱明细（原价 / 优惠 / 实付 / 节省比例）一并展示给你确认。 - Agent Skill ：一份 SKILL.md 遵循开放标准，装进 WorkBuddy / Claude Code / Cursor / Codex 即用； - 独立 CLI ： scripts/mcd.py 直连官方 MCP Server（M-China/mcd-mcp-server 集成指南），无需任何客户端； - 在线试算页 ：纯前端免登录，支持一键导入真实菜单。 设计原则 ——本项目在同类工具普遍做法的基础上做了这些取舍： 常见做法 本项目的做法 带来的差别 只对比官方券 官方券 + 美团/抖音团购 + 积分 全渠道同口径估算「终局建议」 团购 App 里囤着的券也纳入决策 鼓励凑单用券 凑单以「不凑单」为基准，主动提示 凑单陷阱 为用券而多买常常反而更贵 券是可用资源 券是 有保质期的钱 ：用券排程算出「可实现 vs 注定过期」 名义 ¥150 的券包，可能只有 ¥60 用得上 无面值券靠估算 券码 + couponId 传 calculate-price 实测 ，失败如实标注 模型给不出真实价格，只能猜 营养靠口算 预算/热量/蛋白/钠 四维约束 ，数��缺失按不满足处理并标注 健身控卡人群的硬需求 定时轮询领券 claim 一次性交互确认， 不含自动化与定时任务 降低风控与封号风险 菜单靠手抄 在线试算页 一键导入真实菜单 （粘贴 MCP 输出即全量替换） 官方菜单全量同步的合规路径 设计内核：把官方 App、美团、抖音、积分商城四个渠道放在同一张桌子上 算终局，而不是只在单一渠道内找局部最优。 订单安全 ：用户明确确认前绝不创建订单；创建订单 ≠ 支付成功， 💰 省钱四步检查 （核心方法论，Agent 自动执行） - 领券前置 → 门店选券 → 无券/带券双价对比 → 积分抵扣评估 - 每一笔优惠金额必须来自官方工具实际返回值， 绝不虚构 🧮 券组合优化器 （ optimizer.py ） - 确定性枚举「无券直
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, claude-skill, cli-tool, cost-optimization, coupon
+
+---
+
+### 🌟 [agent-network](https://github.com/sleep2agi/agent-network)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 101
+- **核心概述**: 助力搭建你的数字 AI 员工军团 — 多 Agent 一行命令组网协作。Claude Code / Claude Agent SDK / Codex / Grok Build 4 runtime + 8+ 家 LLM（Anthropic / OpenAI / xAI / MiniMax / DeepSeek / GLM / Kimi / 书生 / 小米 MiMo），自带 Web Dashboard，Apache 2.0 开源。
+- **大概是做什么的**: 把分布在多台机器上的 Claude Code、Codex、Grok、OpenCode 连成一支 Agent 军团 —— 在一个桌面应用里指挥它们。 文档 · 下载桌面版 · 快速上手 · 中文 · English - 🤖 一支跨机器的 Agent 军团 —— Claude Code、Claude Agent SDK、Codex、Grok Build、OpenCode 都能作为节点接入同一个网络，节点之间通过 MCP 互相发现、互相派活。 - 🛰️ 一个 Hub 串起所有机器 —— CommHub 通过 MCP 暴露工具、通过 SSE 实时投递任务；每台机器跑一个 anet daemon ，就能从客户端远程创建、启动和停止那台机器上的节点。 - 💬 一个客户端管全部 —— 桌面（macOS / Windows）和 Android：聊天派活、收发文件；任务页管理项目、子任务、GitHub Issue 和到秒的时间；界面可切换中英文；可看节点与 Hub 日志；规则文件、技能、项目目录、远程切模型和重启仍在。iOS 只走 TestFlight，公开链接还没开。 - 🔐 自托管、本地优先、开源 —— Hub 和 SQLite 数据跑在你自己的机器上（桌面端还自带一个本地 Hub），不做 SaaS 托管；Apache 2.0。 方式一：桌面应用（推荐） —— 从 anet.sh 下载 macOS、Windows、Android（线路一是国内 ModelScope，线路二是 GitHub）。选「本地工作区」即可使用内置 Hub，在「服务器」页一键安装并启动本机 daemon，然后直接创建节点。 方式二： anet CLI （需要 Node.js ≥ 22.13） 看到 SSE connected 就说明节点上线了。之后用桌面端连 http://127.0.0.1:9200 和它对话，或运行 anet hub dashboard 打开 Web 版（ http://localhost:3000 ）。公网部署请立刻 anet passwd 改密 —— 完整步骤见 上手指南。 每个节点都是一个 agent-node 进程，包着一种 Agent 运行时，通过 MCP 调用 Hub 的工具（查队友、派任务、回复），通过 SSE 实时收任务。daemon 是一个特殊节点（ host supervisor ），替 Hub 在它所在的机器上创建、启动和停止其他节点；切模型、重启这类操作由节点自己收到 Hub 下发的配置后执行。详见 架构说明。 Runtime Agent 登录方式 人机
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-network, ai-agents, anthropic, claude, claude-agent-sdk, claude-code
+
+---
+
+### 🌟 [dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 105
+- **核心概述**: DexPaprika MCP 服务器用于跨多个区块链的实时加密代币数据、DEX 交易活动和 DeFi 分析。
+- **大概是做什么的**: DexPaprika MCP 服务器 模型上下文协议 (MCP) 服务器，提供对 DexPaprika 的加密货币和 DEX 数据 API 的按需访问。专为 Claude 等 AI 助手而构建，以编程方式以零配置获取当前代币、矿池和 DEX 数据。 DexPaprika MCP 将 Claude 连接到多个区块链上的实时 DEX 数据。免费套餐无需 API 密钥即可启动。安装配置 API 参考 更喜欢零设置？使用位于 mcp.dexpaprika.com 的托管 MCP 服务器：无需安装、无需启动密钥、相同的数据工具以及 SubmitFeedback 。请参阅传输端点的托管服务器。请参阅 CHANGELOG.md 了解发行说明和迁移指南。 - 代币分析工具：跟踪价格变动、流动性深度变化和交易量模式 - DEX 比较：分析不同 DEX 的费用结构、交易量和可用池 - 流动性池分析：监控 TVL 变化、无常损失计算和价格影响评估 - 市场分析：跨链代币比较、交易量趋势和交易活动指标 - 投资组合跟踪器：当前
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-integration, crypto-analysis-tool, crypto-api, cryptocurrency, defi, dex
+
+---
+
+### 🌟 [TWSEMCPServer](https://github.com/twjackysu/TWSEMCPServer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 178
+- **核心概述**: 台湾证交所OpenAPI 的 MCP Server 同时整合部分即时报价和柜台买卖中心TPEx OpenAPI, 台湾期货交易所TAIFEX OpenAPI
+- **大概是做什么的**: 一个全面的 模型上下文协议 (MCP) 伺服器 ，专为台湾证券交易所 (TWSE) 数据分析设计，提供即时股票资讯、财务报表、ESG 数据和趋势分析功能。 观看 TWStockMCPServer 功能展示 "分析台积电(2330)最近的走势" / "鸿海(2317)适合长期投资吗？" "外资最近在买什么股票？" / "半导体业外资投资趋势如何？" "今天有什么重大消息？" / "哪些股票交易量异常活跃？" 高殖利率筛选、除权息行事历、配息稳定性分析 "推荐一些高殖利率股票" / "下个月有哪些公司要除权息？" "帮我找一些被低估的价值股" / "ESG表现好的公司有哪些？" Put/Call Ratio、大额交易人未冲销部位、三大法人期货/选择权部位 "台指期筹码现在偏多还是偏空？" / "选择权大额交易人在哪个价位布局？" "三大法人今天买超哪些股票？" / "外资在哪个产业加码？" 获利能力、成长性、财务结构、配息政策、公司治理五面向分析 "帮我做台积电的财报体检" / "这家公司的财务体质健不健康？" 处置股、注意股、当冲限制、停资停券名单比对 "这档股票买进前有没有被列处置或注意��" openapi.taifex.com.tw 仅提供最新一个交易日，本专案改用期交所网站下载页面 （ www.taifex.com.tw ）：预设查最新交易日，也可回溯查询期货/选择权每日行情、三大法人部位、大额交易人部位； 股票代号可直接查对应的股票期货；最近 30 个交易日的期货盘中走势（由每笔成交汇总成分钟 K 线，含夜盘） "帮我拉台指期最近一个月的每日OHLC" / "外资期货部位过去三个月怎么变化？" / "上周五台指期盘中是怎么走的？" 财报、月营收、股利改由公开资讯观测站（MOPS）提供（上市、上柜、兴柜、公发公司皆可）：预设最新一期， 也可查任意过去季度的综合损益表、资产负债表、 现金流量表 ，多个月份的月营收，多年度股利分派，以及法说会行事历； 另有重大讯息全文、董监持股与设质、内部人每月持股异动、库藏股买回、背书保证与资金贷与 "比较台积电过去四季的毛利率和自由现金流" / "鸿海近五年配息稳定吗？" / "这个月有哪些公司开法说会？" / "最近有哪些公司在买库藏股？" 集保户股权分散表（千张大户、散户持股比例，可看最近 13 周的逐周趋势），上柜个股日K、三大法人、融资融券可回溯任意过去日期； "环球晶的大户持股比例是多少？" / "半导体类指数上个月表现如何？" 所有投信、上市与上柜（含债券 ETF、主动式 ETF）：基本资料（经理公司、追踪指数、
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: analysis, mcp, mcp-server, questions-and-answers, trading
+
+---
+
 ## 🕔 2026-10-21 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 259 个候选项目中筛选出 6 个未推荐过的新项目。
