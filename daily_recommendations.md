@@ -1,3 +1,67 @@
+## 🕔 2026-10-21 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 259 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [textfold](https://github.com/chenxiachan/textfold)
+- **项目语言**: Python
+- **星标数量**: ⭐ 405
+- **核心概述**: Fold papers, web pages, files, and AI replies into five levels of detail. Zoom from an overview to the original text.
+- **大概是做什么的**: Fold any text, from a one-screen map to every word Paste a link: any web page · arXiv · PubMed Central · bioRxiv · medRxiv · Wikipedia · GitHub Drop files, one or several: PDF · Word · PowerPoint · Excel · EPUB · HTML · CSV · pictures · Markdown · text Try the demo → or download the app ↓ · What's new ↓ Read with less in your head Choose the level of detail you need, and lower your cognitive load. Level Each paragraph becomes In whose words 1 Full the paragraph as written the author's 2 Brief its one to three key sentences, verbatim the author's 3 Key its point and the reason for it AI, resting on the Brief sentences 4 Takeaway one line on the spine of its section AI 5 Topic a few words; the text becomes a map of section cards AI Also for agent output Your agent writes more than you have time to read. A Claude Code mod folds every reply the same way, one key per level, and an extension does the same in Pi. More ↓ One fold, three places - Read. Paste a link or drop a file; it opens as a map of its sections that you zoom into. Get started ↓ - Fold your agent's replies. One key per leve
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: arxiv, llm, local-first, open-source, paper-reader, research-papers
+
+---
+
+### 🌟 [openvort](https://github.com/openvort/openvort)
+- **项目语言**: Python
+- **星标数量**: ⭐ 385
+- **核心概述**: Open-source AI Employee Platform — Create AI employees that collaborate with your real team in WeCom, DingTalk, and Feishu, just like hiring a few more colleagues.
+- **大概是做什么的**: 官网 在线演示 文档 扩展市场 社区 在线 Demo 演示 Open-source AI Employee Platform — Create AI employees that work alongside your real team in WeCom, DingTalk, and Feishu — taking requirements, writing code, reviewing PRs, running builds, and generating reports, just like hiring a few more colleagues. - AI 驱动 — 基于 Claude tool use 的 agentic loop，Agent 自主决策调用工具，支持多模型 Failover - AI 员工 — 虚拟成员绑定岗位与 Skill，通过定时任务自动执行日报/代码审查/测试等工作；支持一键创建 Docker 工作电脑，在自己的环境里写代码、跑脚本、装工具 - 异步任务执行 — Agent 执行与 SSE 解耦，用户离开页面 AI 继续工作；任务完成后自动通知；支持从任意页面查看进度、中断或追加指令 - 消息通知系统 — Chat 为消息归宿，IM 为门铃：实时 WebSocket 推送未读红点、声音/Toast/桌面通知、Tab 标题计数；延迟检测已读后按用户偏好 IM 通道优先级发送简短提醒；通知聚合 + 免打扰时段 - MCP Server — 所有已注册 Tool 自动通过 Streamable HTTP 暴露，支持 Cursor / Claude Desktop 等客户端直接调用 - 多 IM 支持 — 企业微信、钉钉、飞书、OpenClaw 多平台网关，支持语音消息收发（ASR/TTS） - Web 管理面板 — Vue 3 + FastAPI，支持 AI 聊天（SSE 流式）、概览仪表盘、AI 配置中心、项目管理、代码仓库、知识库、汇报、定时任务、通知中心等 - 插件化架构 — Plugin 是 OpenVort 的核心扩展单元，Channel（IM 通道）和 Plugin（Tool + Prompt）均可插拔， pip install 即可扩展 - 内置 10 个插件 — VortFlow 敏捷流程、VortGit 代码仓库、VortSketch AI 原型生成、Jenkins CI/CD、知识库（RAG）、汇报管理、定时任务、浏览器自动化、系统管理 - Skill 知识注入 — 四级 Skill 体系（内置/公共/个人/市场
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-employee, chatbot, enterprise, llm, openvort
+
+---
+
+### 🌟 [frametell](https://github.com/sitor-ai/frametell)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 357
+- **核心概述**: Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.
+- **大概是做什么的**: Frametell (帧言, zhēn yán ) turns your ideas and your material into vivid explainer videos with pages that move. One sentence is enough to start ("explain the uncertainty principle"), or you can hand it notes, documents, PDFs, slides and images. A director agent first drafts a storyboard for you to sign off on. Then it writes the narration, voices it, draws each page and checks its own work. You get a 1080p video, with subtitles and publishing notes. It's built for knowledge creators who explain history, science, technology, investing, psychology or books, and who'd rather tell the story than learn video editing. https://github.com/user-attachments/assets/99dd4dc5-2ed4-421d-bf4d-697acd553b59 One run in the desktop app, condensed to a minute: a question, a storyboard to sign off, narration, voice, five pages and the finished film (72 s, made in 12 min 52 s for $1.59). Two films Frametell made end to end in English: storyboard, narration, an ElevenLabs voice, every page and the render. Click a picture to watch (with sound). Why is the sky blue? · 87 s, chalkboard . Made from one sentence
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-video, edtech, education, electron, explainer-video
+
+---
+
+### 🌟 [skills](https://github.com/pashov/skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,280
+- **核心概述**: Pashov Audit Group Skills
+- **大概是做什么的**: Pashov Audit Group Skills AI-powered Solidity security skills — built by Pashov Audit Group. Supported AI Platforms: Install, Run & Update Prompts Skill Description ------------------------------------- ------------------------------------------------------------------------------- fizz Generate a full Echidna/Medusa fuzz suite for any Foundry or Hardhat project solidity-auditor Solidity AI security audit - hundreds of Critical/High vulnerabilities found x-ray Pre-audit scan with threat model, invariants, entry points, and git analysis Contributing · Security · License · Contact We welcome improvements and fixes. See CONTRIBUTING.md for the PR process. Report vulnerabilities via Security Policy. This project follows the Contributor Covenant. MIT © contributors. If you are looking to explore strategies for securing your project, reach out for a chat on Telegram @pashovkrum.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-security, claude-code, defi-security, fuzz-testing
+
+---
+
+### 🌟 [Awesome-AI](https://github.com/cssmagic/Awesome-AI)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 302
+- **核心概述**: 收集分享 AI 大型语言模型 (LLM)、AI 辅助编程、AI 绘画等���域的常用资料，探索生成式人工智能的应用与开发。
+- **大概是做什么的**: 收集分享 AI 大型语言模型 (LLM)、AI 辅助编程、AI 绘画等领域的常用资料，探索生成式人工智能的应用与开发。 🔍 提醒：善用搜索，按 Ctrl+F 或 ⌘F 定位到你想找的关键词。 💡 持续更新中，建议添加到浏览器收藏夹，平常一定会用到。 OpenAI GPT / ChatGPT &nbsp; 简介：OpenAI 的 GPT 系列模型是全球最先进的大型语言模型之一。GPT 的原义是 “生成式预训练变换器”。目前全球最火的 AI 应用产品 ChatGPT 就是基于 GPT 模型实现的。 官网：https://openai.com/api/ Playground：（不是免费的，会消耗你的 API 调用额度） Chat 模式：https://platform.openai.com/playground?mode=chat Assistants 模式：https://platform.openai.com/playground?mode=assistant 定价：https://openai.com/pricing 官方文档：https://platform.openai.com/docs/overview Web 产品（ChatGPT）： &nbsp; 简介：ChatGPT 是目前全球最热门的 AI 应用产品，是一款能以自然语言对话进行交互的 AI 助手。除了对话之外，它还集成了绘画、代码解释器等功能。2022 年 11 月 30 日上线，2023 年 11 月推出 GPTs（自定义 ChatGPT），2024 年 1 月推出 GPTs 商店，持续引领 AI 领域的热潮。 入口：https://chatgpt.com/ ChatGPT Free（GPT-3.5 + 语音对话）：免费无限量 ChatGPT Plus（Free + GPT-4 + 绘图 + GPTs + ...）：$20 / 月 ChatGPT Team（Plus + 协作空间 + 数据保护 + ...）：$25 / 月 / 人 ChatGPT 定制化进阶：四步成为 AI 对话高手 买了 ChatGPT 会员却没用过 “代码解释器”？亏了，快看这三个案例 简介：Anthropic 公司发布的多模态 AI 模型。提供 Haiku、Sonnet、Opus 等模型系列。 官网：https://www.anthropic.com/claude 入口：https://claude.ai/ （需要验证海外手机号） 定价：有免费版。专业版套餐 $20 / 月。 anthropic-cookbook：Ant
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatgpt, github-copilot, gpts, llm
+
+---
+
+### 🌟 [CognitiveKernel-Pro](https://github.com/Tencent/CognitiveKernel-Pro)
+- **项目语言**: Python
+- **星标数量**: ⭐ 533
+- **核心概述**: Deep Research Agent CognitiveKernel-Pro from Tencent AI Lab. Paper: https://arxiv.org/pdf/2508.00414
+- **大概是做什么的**: Cognitive Kernel-Pro: A Framework for Deep Research Agents and Agent Foundation Models Training - A state-of-the-art open-source agent utilizing (as many as possible) free tools; the only paid tool is the Google Search API, which can be replaced with the free DuckDuckGo API if needed. - Fully reproducible open-source SFT training recipe that outperforms RL-based models like WebDancer and WebSailor—no RL required. We also provide RL training recipes (subgoal-GRPO) for further improvements. - 04/22/2026: Updated manuscript with RL experiments and the subgoal-GRPO training algorithm. See the updated paper here. - 04/20/2026: Technical report released — Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration, exploring better web world modeling and native self-evolution based on the CK-Pro framework. - 04/08/2026: Several components from the CK-Pro report are accepted at ACL 2026! WebAggregator (Main) on synthesizing DeepResearch agent SFT and RL data, Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-G
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, llm
+
+---
+
 ## 🕔 2026-10-21 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
