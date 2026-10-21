@@ -1,3 +1,67 @@
+## 🕔 2026-10-21 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [refly](https://github.com/refly-ai/refly)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 7,535
+- **核心概述**: 第一个开源代理技能构建器。通过氛围工作流程定义技能，在 Claude Code、Cursor、Codex 等上运行。构建 Clawdbot 🦞· Lovable 的 API · Slack & Lark/Fishu 的机器人 · 技能是基础设施，而不是提示。
+- **大概是做什么的**: Refly — 由 Vibe 提供支持的代理技能生成器 Lovable 的工作流程 API · Lark/飞书的 Webhooks · Claude 代码的技能 · 构建 Clawdbot 技能不是提示。它们是耐用的基础设施。 Refly 是第一个用于构建稳定、原子和版本化代理技能的开源平台。 Refly Skills 是 Refly 的官方可执行技能注册表。 - ⚡ 立即运行：一键在 Refly 中执行技能 - 🧩 可重用基础设施：版本化技能，而不是一次性提示 - 🔌 导出到任何地方：将技能发送到 Claude 代码或部署为 API - 🌍 社区驱动：导入、分叉和发布您自己的技能 探索注册表：Refly 技能存储库 技能是确定性代理功能 — 可跨工作流、团队和运行时重用。 TL;DR：Refly 将您的企业 SOP 编译为可执行的代理技能。 3 分钟内建成。运送到任何地方。 - 📘 自我部署指南（推荐给开发人员） 使用 Docker 在您自己的服务器上部署 Refly 的分步指南。 - 🔌 API 参考 用于将 Refly 集成到您的应用程序中的完整 API 文档。想要探索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, automation, claude, clawdbot, codex
+
+---
+
+### 🌟 [faraday](https://github.com/infobyte/faraday)
+- **项目语言**: Python
+- **星标数量**: ⭐ 6,808
+- **核心概述**: 用于进攻性安全、漏洞管理和自主渗透测试的开源和人工智能驱动的网络安全工具。由拉丁美洲的黑客构建，在全球范围内使用。
+- **大概是做什么的**: 开源漏洞管理器安全有两项艰巨的任务：设计获取新信息的智能方法，以及跟踪发现的结果以改进补救工作。借助法拉第，您可以专注于发现漏洞，而我们则帮助您完成其余的工作。只需在您的终端中使用它即可在运行中组织您的工作。 Faraday 旨在让您以真正的多用户方式利用社区中的可用工具。 Faraday 聚合并标准化您加载的数据，允许将其探索为对经理和分析师等有用的不同可视化效果。要了解最新功能，请查看发行说明！启动和运行 Faraday 的最简单方法是使用我们的 docker-compose 如果您想自定义，您可以在此处找到示例配置链接您需要先运行 Postgres。二进制包 (Debian/RPM) 您可以在我们的发布页面上找到安装程序 将您的用户添加到 Faraday 组，然后运行 ​​如果您想直接从此存储库运行，这是推荐的方式：查看我们的文档以获取详细信息
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: appsec, autonomous-agents, autonomous-pentest, collaboration, continuous-scanning, cve
+
+---
+
+### 🌟 [simutil](https://github.com/dungngminh/simutil)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 1,195
+- **核心概述**: 适用于 Android 模拟器、iOS 模拟器和真实设备的实用程序：从桌面应用程序、TUI 和 CLI 启动、流式传输、控制、记录和自动化它们
+- **大概是做什么的**: 适用于 Android 模拟器、iOS 模拟器和真实设备的日常实用程序从一个桌面应用程序或命令行启动、流式传输、控制、记录、测试和清理。移动开发意味着要同时使用 Android Studio、Xcode、adb、simctl、scrcpy 和一堆脚本，只是为了启动设备并查看它。 SimUtil 将这些琐事集中在一个地方，无需打开 IDE： - SimUtil Desktop — 并排流式传输和控制许多设备（模拟器、模拟器、真正的 Android 手机和真正的 iPhone/iPad）、记录它们、在它们之间运行场景，并让 AI 代理通过 MCP 驱动它们。 - simutil CLI — 列出、启动和关闭设备、通过 Wi-Fi 连接、读取 Logcat 以及从脚本或终端运行您自己的工具。 - Dart 包 — 与您自己的工具库相同的设备服务（ adb 、 simctl 、 devicectl ）。可在 macOS、Linux 和 Windows 上运行。 iOS 功能需要 macOS (Xcode)。 https://github.com/user-attachments/assets/b0463741-6d31-496d-99a8-264a5e69457a 实用程序桌面 CLI --- --- :---: :---: 设备启动/停止仿真器和模拟器，无头或带窗口 ✓ ✓
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adb, ai-agents, android, android-emulator, cli, dart
+
+---
+
+### 🌟 [agent-bridge](https://github.com/raysonmeng/agent-bridge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 403
+- **核心概述**: A local bridge for bidirectional collaboration between Claude Code and Codex. 连接 Claude Code 与 Codex ��本地实时协作桥接工具。
+- **大概是做什么的**: 🌐 网站：raysonmeng.github.io/agent-bridge ，带有真实会话的动画重播。在 LINUX DO（开发者社区）上进行了讨论。 / 在 LINUX DO 开发者社区交流。 用于同一工作会话中 Claude Code 和 Codex 之间双向通信的本地桥。真实的会议，重播——Codex 的评论被推送到 Claude 的现场会议中，没有人工中继。完整的动画演示 → 具体来说，它会给你带来什么： - 交叉审查 - Codex 实现； Claude 在同一会话中检查差异，并将更改请求直接推回到 Codex 的线程中。两个提供者无需复制粘贴即可检查彼此的工作。 - 任务根据一个提示进行拆分——要求任一代理提出与另一代理的分工，他们在编写代码之前协商谁做什么。你掌舵；他们协调。 - 隔夜运行的配额中继 - 当一侧的订阅窗口耗尽时，它会在转弯边界处干净地停止并将任务交给另一侧，因此长时间的工作会继续进行，而不是在极限处死亡。该工具主要是由 Claude Code 和 Codex 通过它合作构建的。每一个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-collaboration, ai, anthropic, bun, claude-code, cli
+
+---
+
+### 🌟 [product-launch-motion](https://github.com/AbubakrChan/product-launch-motion)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 338
+- **核心概述**: Claude Code 通过代码实现 Dribbble 级产品发布视频的技能。一种永不切割的形状、弹簧、驱动每一个变化的光标、节拍同步的 SFX、60 fps 的运动模糊。 v2：与 Claude Opus 5.5 一起使用。
+- **大概是做什么的**: 产品发布动议 — Claude 代码技能 粘贴您的网站 URL。获取产品发布视频。就是这样。已经安装了吗？通过 npx 技能更新 获取最新版本。没有克劳德代码吗？为您制作电影：30 分钟内制作精美的启动视频，20 美元起 → launchvideos.app 然后，在 Claude 代码中：为 https://your-website.com 制作启动视频 Claude 阅读您的网站，编写故事，指导每个场景，并渲染带有音乐、同步音效和真实运动模糊的 60 fps MP4。无需编辑，无需 After Effects，无需模板。上面的电影以同样的方式开始：一个 URL，然后是几轮注释。 v2 在这里。将其与 Claude Opus 5.5 结合使用即可获得与这些电影类似的效果。这项技能已在更新、更简单的堆栈上重建：纯 HTML 和封闭式弹簧而不是 GSAP 和 HyperFrame，音乐优先计时而不是画外音，以及带有 ffmpeg 运动模糊的 Playwright 子帧。将其与 Claude Opus 5.5 结合使用即可获得与这些电影类似的效果。原始 v1（190 ⭐，谢谢）保留在 Legacy/ 中。 🔊 下载并打开声音。上面的预览是无声的。真实的电影
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skill, agent-skills, ai-agents, anthropic, claude, claude-code
+
+---
+
+### 🌟 [awesome-i18n](https://github.com/oh-jon-paul/awesome-i18n)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 412
+- **核心概述**: 🌍 适用于各种语言和框架的 i18n 资源精选列表
+- **大概是做什么的**: i18n 工具、i18n 库、本地化软件、本地化程序和翻译管理系统的精选列表。 - 不要添加付费/免费增值服务 - 不要添加 AI slop 工具/库 - 不要添加需要付费服务才能工作的库 - 不要将相同的链接添加到多个类别中 - 不要添加带有查询搜索的链接，如 example.com/?q=php - 使您的条目尽可能短（少于 120 个字符） - 条目必须足够短，不能换行 - 不要以句点结束您的条目 - 尽量保持小写 - 专注于独特的内容，而不是通用消息 - 感觉自由添加更多类别 记得给这个 repo 一颗星！ 🌟 JavaScript / TypeScript - MessageFormat2 - 全功能本地化系统，来自 Unicode - date-formatter-i18n - 用于格式化日期的轻量级库，支持 i18n，相对时间 - airbnb.io/polyglot.js - 小型 i18n 助手，可在浏览器和 CommonJS 环境中工作 - VoerkaI18n - JavaScript 项目的国际化解决方案 - eo-locale - 基于国际化 API 的优雅轻量级库 - MDN: Int
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-translate, awesome, awesome-list, i18n, internationalization, l10n
+
+---
+
 ## 🕔 2026-10-21 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
