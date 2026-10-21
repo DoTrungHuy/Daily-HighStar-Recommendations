@@ -1,3 +1,67 @@
+## 🕔 2026-10-21 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [markvis](https://github.com/geekplux/markvis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,599
+- **核心概述**: Charts as text in Markdown. Where they cannot draw, the numbers stay as a table.
+- **大概是做什么的**: Charts in Markdown. The numbers are the picture. Write a short chart block in Markdown. markvis draws it wherever the Markdown is shown: a page, a note, a chat reply, a docs site. Where it cannot draw, the numbers stay as a table. 58 kB gzip · 0 dependencies · under 1 ms a chart · plain SVG One script tag , in a page or a Markdown file. Every chart block on it draws. JavaScript. One call. It never throws: a wrong block comes back as its rows and one error line. React. Follows its container, and draws while a reply streams. GitHub. github.com runs no scripts, so bake a picture next to the block. A workflow step can do it on every push. Tell your model. Put the 250-token instruction in a system prompt and it writes this block instead of an image or JSON. The same text opens llms.txt. Your colors. A chart drawn in your page reads your CSS variables ( --markvis-ink , --markvis-grid , --markvis-series-1 …), so it follows light, dark, and brand colors. Each color keeps a fixed fallback, and bake writes fixed colors by default. Play · Examples · Integrate · Theming · Chart types - The chart
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chart, charts, cli, data-visualization, github-action, llm
+
+---
+
+### 🌟 [agent-standup](https://github.com/Atoll92/agent-standup)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 306
+- **核心概述**: Your Claude Code, Codex and Mistral Vibe sessions as a live, animated team call: who is working, who waits on whom, who needs you. VS Code extension, terminal command, desktop app. Runs locally, zero tokens.
+- **大概是做什么的**: See which of your agents is working, stuck, waiting on another one, or burning tokens — across all your Claude Code, Codex, Mistral Vibe and Cowork sessions, at zero token cost. Agent Standup turns the session files Claude Code, Codex and Mistral Vibe already write into a live team call (and a board of every session): it only reads local files and never calls Claude unless the call is held in French, Spanish or Brazilian Portuguese, or you turn on the jokes. No editor? Try it in 30 seconds from any terminal (Node 18+), then ⚙ → Source → Demo if you have no session yet: Your Claude Code, Codex or Mistral Vibe session as a live team call. The lead gives orders, sub-agents join the call, work at their desks, share their screen and report back — with voices, expressions and a view of the real work as it happens. Works with: Claude Code · Codex · Mistral Vibe · Cowork — in VS Code, Cursor, Windsurf, any terminal, or as a desktop app. Just installed the extension? Click the Agent Standup icon in the Activity Bar (or run Agent Standup: Open live call ): the call starts at once, silent, and
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, codex, developer-tools, mistral
+
+---
+
+### 🌟 [floe-agent](https://github.com/JiangNanGenius/floe-agent)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 301
+- **核心概述**: Open-source on-device AI agent workspace designed for iOS/iPadOS and Android: Linux environments, code execution, local web previews and supported local models. Notes, Office, creative tools and BYOK cloud AI. iPad-first. 开源设备端 AI 智能体与本地运行环境。
+- **大概是做什么的**: Your models. Your files. Your machines. Floe Agent is an open-source on-device AI agent workspace designed for iOS and Android — iPad-first, with native iPhone support. Bring AI tasks, Notes, Office documents, creative tools and development together — with a real Linux environment on your device that runs code, packages and services, supported local models for on-device inference, and cloud AI using your own API keys (BYOK). 简体中文 · Website · User manual · Documentation Install · Features · Demo · Docs · Develop · Contribute Choose an installation channel on the website. Check current status and the installation page for each channel’s version, region and eligibility. Copy the source URL manually Channel Before you install iOS / iPadOS · TestFlight Requires valid beta access. Available builds and expiry appear in TestFlight. iOS / iPadOS · Feather / AltStore Install the corresponding app, use a button above to add the source, then sign with your own setup. iOS / iPadOS · GitHub IPA Download the IPA and checksum from Releases. The IPA is unsigned and requires your own signing. Android
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-assistant, android, artificial-intelligence, byok, ios
+
+---
+
+### 🌟 [PolyStrata](https://github.com/VecSzn/PolyStrata)
+- **项目语言**: C++
+- **星标数量**: ⭐ 346
+- **核心概述**: Run large AI models on your own PC: Qwen3.8-Flash-Next on Strata's engine, and GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith 1.5, Gemma 4, Tiel Coder and MiniCPM-V on a second engine written for PolyStrata. One-click install for Windows and Linux, OpenAI/Anthropic API on localhost.
+- **大概是做什么的**: English · 简体中文 · 日本語 · Deutsch · Français · Español · Português Run large AI models on your own PC Qwen3.8-Flash-Next, GLM 5.3 Flash, DeepSeek V4 Flash, LFM2.5, Qwen3.6, Ornith 1.5, Gemma 4, Tiel Coder and MiniCPM-V · free and open source Claude Code on Qwen3.6-35B-A3B UD-Q3 K M, on the laptop with the 8 GB card, in real time: it adds a --json option to a small program, writes a test for it and runs the tests. The server had read Claude Code's system prompt when it started ( "warm start": true ). A voxel pagoda garden, 1 shot prompt running on an RTX 5070 with Strata (Qwen3.8-Flash-Next IQ3 S, 128K context) · PolyStrata runs large AI models on a normal PC, models that usually need a server. They chat, write code and work with your apps and coding agents. Nothing leaves your PC. It runs nine models, on two engines: - Qwen3.8-Flash-Next on an NVIDIA or AMD graphics card with 12 GB or more, on Windows or Linux. It also reads pictures. Its engine is the Strata project's, unchanged. The other eight run on an engine written for PolyStrata, with one NVIDIA card or two: on Linux, and the six
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic-api, cuda, gemma, gguf, glm, inference-engine
+
+---
+
+### 🌟 [axuse](https://github.com/ctoldigital/axuse)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 229
+- **核心概述**: Accessibility-first browser & computer use for AI agents — one MCP server for every harness (Codex, Claude Code, OpenCode, Antigravity). Instruments the DOM/accessibility tree via CDP instead of screenshot loops: diffed snapshots, stable element refs, trusted input, typed errors. Zero dependencies
+- **大概是做什么的**: axuse — browser & computer use, done right Accessibility-first browser and computer use for agent harnesses. One MCP server plugs into Codex, Claude Code, OpenCode, Antigravity, or any MCP-capable host. Zero dependencies (Node ≥ 22). Windows desktop driver is verified; macOS desktop control is available as an explicit opt-in with native TCC permission checks; Linux desktop control runs over X11/XWayland (XTEST input + capture + EWMH windows, zero extra packages). The design is distilled from the two best implementations of this problem — OpenAI's Codex Chrome extension and the ZCode harness — and exists to prove a point: a screenshot loop is not the right interface for a machine . The DOM tree, the accessibility tree, and CDP are. axuse instruments the target instead of photographing it. Not a developer? You don't need anything below. In the Claude desktop app, download axuse.mcpb from ax-use.com and double-click it. In ChatGPT's Codex app, Claude Code, Cursor or any other agent, paste the install prompt and the agent sets axuse up for you. See the non-developer guide. Proven in prod
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-automation, ai-agents, browser-automation, browser-use, cdp, chrome-devtools-protocol
+
+---
+
+### 🌟 [code-cli](https://github.com/autohandai/code-cli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 209
+- **核心概述**: Open-source terminal coding agent. Use 15+ model providers, local models or your own key. Plan mode before edits. Imports your Claude Code setup.
+- **大概是做什么的**: Follow us on X Join Discord Docs: English 日本語 简体中文 繁體中文 한국어 Deutsch Español Français Italiano Polski Русский Português (Brasil) Türkçe Čeština Magyar हिन्दी Bahasa Indonesia A fast, self-improving terminal-native AI coding agent for planning, reflecting, remembering, editing, testing, and automating work across your codebase. Autohand Code CLI is a fast, terminal-native AI coding agent that lives where you already work. It reads project context, plans changes, edits files, runs tools, and asks for approval before risky operations. The interface is built for focused interactive sessions: minimal chrome, smooth Ink rendering, file mentions, slash commands, skills, permissions, provider switching, and session history all available from one prompt. Install it, run autohand , and describe the outcome you want in natural language. Use Autohand Code CLI locally, with your editor, or in CI/CD to automate repetitive engineering work without giving up control. - Terminal-Native Agent : Understands your codebase and executes approved changes from the CLI - Planning + Tools : Combines reasoning,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agents-cli, ai-coding-agent, ai-coding-agents, autonomous-agents
+
+---
+
 ## 🕔 2026-10-21 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
