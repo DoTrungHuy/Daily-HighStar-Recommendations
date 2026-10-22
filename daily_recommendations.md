@@ -1,3 +1,67 @@
+## 🕔 2026-10-22 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ovis](https://github.com/devswha/ovis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,357
+- **核心概述**: Ovis（以前称为 herdr Web UI）：herdr 的免费开源浏览器和手机客户端。用于 Claude Code、Codex 和每个代理窗格的聊天和实时终端、通过 SSH 的远程 PC、网络推送警报
+- **大概是做什么的**: Ovis，herdr 的浏览器和手机客户端。 English · 简体中文 · 日本语 · 한국어 https://github.com/user-attachments/assets/d854dbb6-64bd-4eba-81c7-fbd3f525726b 一个 Claude Code 会话：在 herdr 的终端中，然后是浏览器的终端和聊天室，然后是电话，旁边会启动一个新的工作树 · 实时录制，不剪切 Claude Code 和Codex，来自您的手机。 herdr 的浏览器和手机客户端。阅读并回复在您的计算机上运行的相同座席会话 - 在桌面或电话上，如聊天，在需要时使用终端。切换到真实终端一键将聊天变成面板真实终端；在手机上，按键栏上的 ↑ 将返回测试命令，然后按旁边的 Enter 再次运行它。您的 herdr 布局，在浏览器中 每个工作区、选项卡和拆分窗格，以及每个座席的状态：单击选项卡、选择拆分窗格或从电话切换工作区。知道代理何时需要您 在另一个工作区，当克劳德询问时，就会发出警报；只需轻按一下即可打开问题。从手机发送屏幕截图 + 按钮将其上传到窗格的文件夹中并添加其路径；克洛德
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, bun, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [Kwipu](https://github.com/benmaster82/Kwipu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 610
+- **核心概述**: 使用完全本地的 Graph RAG 引擎在 Markdown 笔记中提出问题。专为 ObsidianVault 构建，适用于任何 Markdown 文件文件夹。从 wikilinks 和 YAML frontmatter 中提取实体关系三元组，通过混合搜索（向量 + BM25 + 时间）检索答案。多种语言。没有云。在奥拉马上运行。
+- **大概是做什么的**: English 简体中文 Tiếng Việt Kwipu 将文档文件夹转换为属性图 RAG 索引，您可以从交互式终端、3D Web 界面或 MCP 客户端浏览和查询。它适用于普通知识文件夹和黑曜石风格的保管库。关于“完全本地”：当您选择本地 Ollama LLM 和嵌入模型时，Kwipu 可以完全本地运行。有意的默认 LLM 是 gpt-oss:20b-cloud ，它可以向其提供者发送文档块、检索到的上下文和问题。在建立索引之前选择云或本地。我想... 从这里开始 直接在终端中询问我的笔记 仅限终端使用 探索图形并从浏览器询问 快速启动：Web UI 使用我自己的笔记或 ObsidianVault 使用您自己的文档文件夹 通过 MCP MCP 服务器连接 AI 客户端 配置或部署系统 配置参考 运行测试或贡献代码 开发人员设置 - 从 .md 、 .txt 、 .pdf 和 .docx 文档构建属性图。 - 从 wikilinks 和 YAML frontmatter 中提取与 LLM 的语义关系和结构关系。 - 结合矢量相似性、BM25、时间met
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: claude-code, embeddings, graph-rag, knowledge-graph, llama-index, llm
+
+---
+
+### 🌟 [ldraw-nova](https://github.com/anteloc/ldraw-nova)
+- **项目语言**: Python
+- **星标数量**: ⭐ 467
+- **核心概述**: 用于生成乐高模型构建的代理工具，使用 Astra 和 Opus 5.5 构建，由 Jev 提供支持
+- **大概是做什么的**: 观看演示 ​​· 项目背景 您需要 Python 3.12+、已安装的 LDraw 部件库、Poppler ( pdftotext ) 和 PATH 上的 LeoCAD。该存储库包括工具使用的参考数据和连接器元数据。在 output/bridge-review/previews/ 中打开 PNG。同一文件夹包含模型、验证报告、Python BOM、LeoCAD BOM 比较以及将工件与模型修订版关联的清单。 review --no-render 在不需要预览时运行中间 Python 检查。 ./ldraw-agent doctor 报告本地依赖关系。向代理提供您的模型想法和说明。md。工作循环是： 1. 选择一个设计并检查其所需的零件或示例结构。 2、编写JSON计划；当计算或循环有帮助时使用 Python。 3. 运行审查，打开预览，修复源并重复。 4. 提供可编辑的 MPD、源、检查和审阅的图像。现有的 JSON 计划、 build --output 、单独的检查/渲染命令和 shell 包装器仍然受支持。成功的检查提供了证据，而不是物理可建造性的证明；警告，跳过检查
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-3d-model-generator, ai-agents, ai-cad, blender, ldraw, ldraw-model
+
+---
+
+### 🌟 [frink](https://github.com/benord-labs/frink)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 133
+- **核心概述**: 桌面优先的开源 (MIT) 应用程序，用于运行并行代理，以及由 Linear 和 Sentry 等工具的计划、网络钩子或事件触发的多步骤自定义工作流程，跨您已使用的提供商。
+- **大概是做什么的**: 用于并行代理并触发多步骤工作流程的桌面优先应用程序。工作流程可以包括您自己用代码编写的步骤，以及代理、命令和批准步骤。将例程保存为 Flow，它会自行启动：按照计划、从任何 Webhook 或从 Linear、Shortcut、ClickUp、Sentry、PostHog 或 Vercel 中的事件启动。已完成的工作和代理问题在工作队列、计算机或 iPhone（测试版）上等待着您。当 Frink 打开时，这一切都会在您的计算机上运行，​​并使用您已经使用的 AI 编码工具。没有弗林克帐户。并排运行四个代理将窗口拆分为最多四个窗格，并为每个代理分配不同的工作。它们同时工作，每个窗格都保留自己的模型和自己的差异以供审查。将每个文件放在自己的 git 工作树上，它们永远不会接触相同的文件。一句话变成自动化 按照您所说的方式输入例程：“每个工作日上午 9 点，运行测试。如果有任何失败，请让代理修复它们，然后等待我的批准，然后再打开 PR。” Frink 将其构建为 Flow 并列出了每个步骤，以便您可以阅读它并更改它
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, automation, claude, claude-code, codex
+
+---
+
+### 🌟 [Interview-Preparation-Notes](https://github.com/shubhanshurav/Interview-Preparation-Notes)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 344
+- **核心概述**: 所有 DSA 主题注释均可在此处获取。
+- **大概是做什么的**: DSA-问题-解答:) 数据结构与算法 循环链表 数学算法 技术主题:) 面向对象编程 面向对象编程 - 面向对象编程是一种使用类和对象设计程序的方法或范例。它通过提供以下定义的一些概念来简化软件开发和维护： - 类是用户定义的数据类型，它定义了其属性和功能。类是数据的唯一逻辑表示。例如，人类是一个类。人类的身体部位是其属性，身体部位所执行的动作称为功能。在实例化对象之前，类不会占用任何内存空间。 C++ 语法（对于类）： - 对象是运行时实体。它是该类的一个实例。对象可以代表人、地点或任何其他项目。对象可以对数据成员和成员函数进行操作。 C++ 语法（对于对象）： - 当使用 new 关键字创建对象时，会为堆中的变量分配空间，并且
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cpp, critical-thinking, data-structures, dsa, dsa-algorithm
+
+---
+
+### 🌟 [falcon-mcp](https://github.com/CrowdStrike/falcon-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 272
+- **核心概述**: 将 AI 代理连接到 CrowdStrike Falcon 以进行自动安全分析和威胁搜寻
+- **大概是做什么的**: falcon-mcp 是一个模型上下文协议 (MCP) 服务器，它将 AI 代理与 CrowdStrike Falcon 平台连接起来，为代理工作流程中的智能安全分析提供支持。它提供对基本安全功能的编程访问，包括检测、威胁情报和主机管理，为高级安全操作和自动化奠定了基础。 1.0 之前的版本：falcon-mcp 正在积极开发 1.0 之前的版本。工具名称、参数和响应形状在次要版本之间仍然可能会发生变化，因此在升级之前固定版本并检查更改日志。该项目由 CrowdStrike 积极维护，并通过 GitHub Issues 提供支持； CrowdStrike 客户还可以通过常用的技术支持渠道提出问题。有关详细信息，请参阅 SUPPORT.md。完整文档可在developer.crowdstrike.com/falcon-mcp 获取。模块 描述 ------ ----------- 核心 基本连接和系统信息 AgentWorks 调用、列出和观察 Charlotte AI 代理及其执行轨迹 案例管理 案例生命周期管理、证据 att
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, crowdstrike, falcon, mcp, mcp-server
+
+---
+
 ## 🕔 2026-10-22 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 161 个候选项目中筛选出 6 个未推荐过的新项目。
