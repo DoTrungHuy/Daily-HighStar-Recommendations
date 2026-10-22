@@ -1,3 +1,67 @@
+## 🕔 2026-10-22 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [layerfs](https://github.com/Ephemeral-AI-Lab/layerfs)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,819
+- **核心概述**: 短暂的工作空间，持久的共享历史。 LayerFS 为每个代理提供了一个完整的、可写的文件系统工作空间，基于共享的提交历史记录，而无需复制基础文件。代理并行工作，将更改的内容提交为重复数据删除检查点，然后分支、倒带或合并。尝试使用 LayerFS × DSH。
+- **大概是做什么的**: 临时工作空间。持久的共同历史。 LayerFS 是您代理下的底层。每个都在共享的提交历史记录上安装一个完整的、可写的工作区，执行其工作，提交其更改的内容，https://github.com/user-attachments/assets/70c25887-86a1-4d81-bd78-571cf1c09a18 状态：LayerFS 1.0.0，0.1.x 开发人员预览版之后的第一个正式版本，作为源发布。下面的结果在 e5c7aaae05 的 main 上运行。存储仅在其一次性配置文件中运行，不会崩溃或断电持久性：使用 LayerFS 进行代理工作及其历史记录，而不���作为无法重建的唯一数据副本。使用 LayerFS × DSH 进行尝试 LayerFS 现在通过 LayerFS × DSH（DeepSeek Harness 的 dsh-layerfs 插件）运行。 dsh 会话中的代理分叉分支，在沙箱中测试它们，合并和发布，“工作”和“历史记录”选项卡实时显示每个代理的分支。 01 · 临时计算 计算仅在命令运行时存在。 02 · 去中心化代理 不同计算机上的代理共享一个无服务器存储。 03 · 多主体协调 一个项目，多个分支。一枝，米
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, ai-agents, checkpoint, content-addressable-storage, copy-on-write, deduplication
+
+---
+
+### 🌟 [open-duet](https://github.com/Anil-matcha/open-duet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,955
+- **核心概述**: Claude Duet 的开源、自托管替代方案：人工智能同事（指定代理）拥有指令、内存、例程、他们自己的独立计算机，并且在他们行动之前得到您的批准。也是 OpenAI Dots、Meta Muse、Grok Bot、Manus Cue 和 ChatGPT 代理的替代品。
+- **大概是做什么的**: Open Duet：您自己运行的开源 AI 同事 Open Duet 是一个供 AI 同事使用的开源自托管工作区：指定的代理，每个代理都有一份工作、指令、内存、自己的工作区和独立的计算机、时间表以及在进行任何危险操作之前的人工批准步骤。您可以在浏览器、桌面应用程序或 Telegram 中与他们聊天，向他们提供重复的例程，并将他们的数据和凭据保存在您自己的计算机或服务器上。它是 Claude Duet 和其他付费 AI 代理产品（例如 OpenAI Dots、Meta Muse、Grok Bot、Instinct、Manus Cue、Claude Cowork 和 ChatGPT 代理）的开放替代品，但还不是它们的功能替代品。代理可以是任何你愿意交给的人：研究员、支持分类员、报告助理、开发人员。编码是特工所做的一件事，而不是 Open Duet。代理在您已登录的引擎上运行（Claude、Codex、任何代理客户端协议 CLI 或 OpenAI 兼容端点）。相互委托的代理团队、房间以及与其他应用程序的连接器是规划的，而不是构建的；请参阅文档/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-assistant, ai-coworker, ai-employees, ai-workspace
+
+---
+
+### 🌟 [EvoAgentX](https://github.com/ANative-Lab/EvoAgentX)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,395
+- **核心概述**: 🚀 EvoAgentX：构建人工智能代理的自我进化生态系统
+- **大概是做什么的**: 构建人工智能代理的自我进化生态系统 EvoAgentX 是一个开源框架，用于以自动化、模块化和目标驱动的方式构建、评估和发展基于 LLM 的代理或代理工作流程。从本质上讲，EvoAgentX 使开发人员和研究人员能够超越静态提示链接或手动工作流程编排。它引入了一个自我进化的代理生态系统，可以通过迭代反馈循环构建、评估和优化人工智能代理，就像不断测试和改进软件一样。 - 🧱 代理工作流程自动构建 根据单个提示，EvoAgentX 可以构建针对任务量身定制的结构化、多代理工作流程。 - 🔍 内置评估它集成了自动评估器，使用特定于任务的标准对代理行为进行评分。 - 🔁 自我进化引擎代理不仅能工作，还能学习。 EvoAgentX 使用自我进化算法改进工作流程。 - 🧩 即插即用兼容性通过（LiteLLM、siliconflow 或 openrouter）轻松集成原始 OpenAI 和 qwen 或其他流行模型，包括 Claude、Deepseek、kimi 模型。如果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, llms, memory, multi-agent-systems
+
+---
+
+### 🌟 [Mirrai](https://github.com/Ch1rpy2613/Mirrai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,271
+- **核心概述**: 不在身边的时候，TA 还在这里。Upload real chat logs, rebuild a digital persona — open-source AI companion with persona distillation, an emotion engine, 11 LLM providers, and a graduation mechanism.
+- **大概是做什么的**: 上传聊天记录，AI 重建 TA 的数字分身 — 用 TA 的语气回你消息，用 TA 的方式撒娇，知道 TA 什么时候会突然变冷漠。 所有数据本地存储，12 家 LLM 提供商即插即用，还有一个同类产品没有的东西： 毕业机制 — 它不是让你留下，是帮你好好告别。 不是简单地把聊天记录丢给 AI 让它「模仿」。系统采用多阶段 pipeline 对原始素材进行深度分析： 最终生成的 persona 包含 7 层结构：性格特质、说话方式、口头禅、依恋类型、爱的语言、争吵风格、触动瞬间。不是「像他」，而是「就是他」。 每个数字分身拥有 6 种情感状态，会根据对话内容实时切换： ------ ----------- ------ 🌸 温柔 默认状态 温柔体贴，充满关怀 😄 俏皮 "哈哈""好玩""搞笑" 轻松活泼，爱开玩笑 🌙 思念 "想你""那时候""记得吗" 触景生情，回忆过去 🌧️ 忧郁 "难过""伤心""委屈" 情绪低落，需要安慰 ✨ 开心 "开心""太好了""爱你" 充满活力，心情很好 ❄️ 疏离 "随便""无所谓""算了" 话不多，有距离感 情感状态实时显示在聊天界面，也会影响回复语气，用户可手动切换。 这是 Mirrai 与所有 AI 陪伴产品的根本区别： Mirrai 的目标不是让你留下来，而是帮你完成告别。 亲密度随对话自然成长（初识 → 熟悉 → 亲密 → 知己 → 灵魂伴侣）。当系统检测到你的情感状态趋于平和——正面情绪占比上升、遗憾和「如果」在减少——会提示你具备「毕业」资格。毕业时 AI 以 TA 的口吻生成一封告别信，分身进入休眠（随时可以唤醒）。 -------- ------ --------- OpenAI REST gpt-4o Atlas Cloud OpenAI 兼容 google/gemini-3-flash-preview Cheaper Inference OpenAI 兼容 gpt-5.4-mini Claude REST claude-sonnet-4-6 DeepSeek OpenAI 兼容 deepseek-chat Kimi (月之暗面) OpenAI 兼容 moonshot-v1-8k 通义千问 OpenAI 兼容 qwen-turbo 豆包 OpenAI 兼容 自定义 302.ai OpenAI 兼容 自定义 Ollama REST llama3 (本地) Dify Workflow API 自定义 讯飞星火 WebSocket + HMAC v3.5 OpenAI 兼容协议共用一个适配器，通过 baseU
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-chatbot, ai-companion, chatbot, claude, deepseek, digital-human
+
+---
+
+### 🌟 [paxeer-monorepo](https://github.com/Sidiora-Labs/paxeer-monorepo)
+- **项目语言**: Go
+- **星标数量**: ⭐ 571
+- **核心概述**: Paxeer X 是一款用于支付、代码执行和意图路由的分布式超状态机。专为机器和操作机器的用户而设计。
+- **大概是做什么的**: Paxeer X 网络是一个具有两个执行域的网络：Paxeer X 链（paxd、Go、EVM 链 ID 125）和 LayerX 内核（layerxd、C17）、自治代理的确定性执行和计费域。该存储库是其单一存储库：链节点、LayerX 内核、链上合约、链下服务、客户端 SDK 和面向用户的应用程序。 Official site: paxeer.network. Documentation: docs.paxeer.app. Source: Sidiora-Labs/Paxeer-X-Network. What is in the network - The chain. paxd 是 Paxeer X 节点，用 Go 编写，具有 BFT 共识和 EVM 执行层。 Its main package is daemon/paxd ;状态机模块位于 module/ 下，RPC 服务器位于 rpc/ 下。 - LayerX 内核。 LayerX是内核域：C17守护进程layerxd确定性地执行和解释代理活动，并为每个活动返回签名的收据，layerxctl是其操作员CLI，并且编程/保存内核程序运行时。它今天作为一个从 cmd/layerxd 构建的单独守护进程运行，并且它的检查点通过 l 建立在链上。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-client-protocol, ai, ai-agents, blockchain, machine-learning
+
+---
+
+### 🌟 [AGI-Alpha-Agent-v0](https://github.com/MontrealAI/AGI-Alpha-Agent-v0)
+- **项目语言**: Python
+- **星标数量**: ⭐ 302
+- **核心概述**: ♾️ 转型元代理 α-AGI 👁️✨ — 使命 🎯 端到端：识别 🔍 → 向外学习 📚 → 向外思考 🧠 → 向外设计 🎨 → 向外策略 ♟️ → 向外执行 ⚡ → 向外进化 ♾️
+- **大概是做什么的**: 找到你的阿尔法。打造你的继任者Ω。 MONTREAL.AI FLAGSHIP · 计算机使用 · 3 级战略制定 · 4 级问题重构 在软件、研究或数学领域寻找宝贵的机会。使用计算机来调查真实的公共材料并生成具体的工作产品。制定竞争策略，结合有效的策略，并挑战不必要地限制结果的问题表述。将尝试、证据和教训保留在一个项目中。启动旗舰 → · Démarrer le parcours phare → 规划和目录示例在您的浏览器中是免费的。计算机执行使用单独配置的本机模型和隔离的运行器。现在什么有效以及如何开始。变革智能 学习改变游戏规则 识别限制性问题表述，构建更好的表述并测试它们是否仍能达到预期目的\。一个可独立测试的重构框架，而不仅仅是更好的搜索。文森特·鲍彻·蒙特利尔\.AI·2026-10·英文 PDF。配套论文 · 阅读顺序 - Out\-Learn 📚 · 研究如何构建测量 p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, agentic-ai, agentic-framework, ai, aiagent, aiagents
+
+---
+
 ## 🕔 2026-10-22 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 306 个候选项目中筛选出 6 个未推荐过的新项目。
