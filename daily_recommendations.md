@@ -1,3 +1,67 @@
+## 🕔 2026-10-22 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 305 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-reverse-engineered](https://github.com/alexgaoth/awesome-reverse-engineered)
+- **项目语言**: Python
+- **星标数量**: ⭐ 600
+- **核心概述**: 不要对其进行两次逆向工程。通过逆向工程封闭应用程序、API、设备、协议、文件格式、游戏和 AI 工具构建的 16,000 多个开源工具。搜索站点+特工技能+MCP服务器，每晚刷新。
+- **大概是做什么的**: English · 简体中文 · Français · Español 不要对其进行两次逆向工程。由于有人对封闭的应用程序、API、设备、协议、文件格式、游戏或人工智能产品进行逆向工程而存在的 16,844 个开源工具。搜索索引或将其提供给您的代理：npx Skills add alexgaoth/awesome-reverse-engineered 代理技能 · 类别 · 本周热门 · 添加项目 在您进行逆向工程之前 REA 和 Ghidra 等代理和工具使逆向工程比以往更快。尽管如此，您要打开的应用程序、API、设备或文件格式通常已经完成，并且工作位于无人链接的存储库中。 1.先搜索。使用网站或代理技能。按产品、供应商或协议搜索。 2.找到了吗？使用它、修复它并向上游报告损坏情况。一个维护的客户胜过十个私人脚本。 3. 不在那里？完成工作，将其发布为开源，然后将其添加到此处，以便下一个人从您停止的地方开始。 16,844 个项目，其中 1,110 万个 GitHub star：9,730 个活跃项目，2,379 个缓慢项目，3,231 个项目处于休眠状态，1,046 个项目已存档。热门语言：Python (3,796)、C++ (2,612)、C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, awesome, awesome-list, claude-code, decompilation
+
+---
+
+### 🌟 [Mitsu](https://github.com/ARCANGEL0/Mitsu)
+- **项目语言**: Python
+- **星标数量**: ⭐ 534
+- **核心概述**: EVA 是一种人工智能辅助渗透测试代理，通过提供结构化攻击指导、上下文分析和多后端人工智能集成来增强攻击安全工作流程。
+- **大概是做什么的**: 你的赤壁红队伙伴有点个性。一个严肃的工具包。全面参与，一次一个以证据为主导的步骤。 - 渗透测试流程 - 提供商和搜索 Mitsu 是您用于授权渗透测试的赤壁红队伙伴，旨在帮助从第一次查看攻击面到服务枚举、漏洞研究、验证和访问路径评估进行参与。她的 MCP 服务器将模型连接到 Mitsu 的 165 个工具红队军械库、自定义命令包装器和外部 MCP 服务器，因此她可以将计划转变为有针对性的工具工作，并使用返回的证据来选择下一步要检查的内容。当请求的实用程序丢失时，她可以提出安装并等待您的批准。参与的英特尔随着工作的进行而增长：目标、IP、域、端口和服务、漏洞线索、已确认的发现、帐户、证据和观察结果都在会话上下文中保持组织有序。这让 Mitsu 记录了已知的内容、尝试过的内容以及引线停止安装的位置，而不是将每个转弯视为一个新的开始。会议
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, artificial-intelligence, automation, cli, ctf, cybersecurity
+
+---
+
+### 🌟 [comfy-skills](https://github.com/Comfy-Org/comfy-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 233
+- **核心概述**: Comfy Cloud 产品技能：使用 Comfy Cloud 代理生成图像、视频、音频和 3D 的斜线命令。安装程序和 MCP 服务器的单一事实来源。
+- **大概是做什么的**: Comfy Cloud 技能和 AI 编码代理插件的主页 — 斜线命令和 MCP 连接，让代理生成图像、视频、音频和 3D、搜索模型和节点，并通过 Comfy Cloud 运行 ComfyUI 工作流程。欢迎贡献。我们希望您能帮助加强这些技能——提交和拉取请求是开放的，我们期待与社区一起构建这一点。安装（克劳德代码） comfy-cloud 插件一步捆绑 Comfy Cloud MCP 连接和斜线命令：然后运行 ​​/mcp 登录 (OAuth)。就是这样 - 该插件注册托管 MCP 服务器 ( https://cloud.comfy.org/mcp ) 并添加命令。命令在插件下命名，例如/comfy-cloud:generate-image 、 /comfy-cloud:search-models 、 /comfy-cloud:help 。其他客户端（Claude Desktop 等）不使用 Claude Code 插件 - 它们通过自己的配置连接到同一托管 MCP 服务器。完整的每个客户端设置位于文档中：https://docs.comfy.org/cloud/mcp 命令它的作用 /comfy-cloud:generate-image 生成、编辑或修改图像 /comfy-cloud
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, comfyui, mcp, skills
+
+---
+
+### 🌟 [mcp](https://github.com/taskade/mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 169
+- **核心概述**: 🤖 Taskade MCP · 官方 MCP 服务器和 OpenAPI 到 MCP 代码生成器。从任何 OpenAPI API 构建 AI 代理工具并连接到 Claude、Cursor 等。
+- **大概是做什么的**: Taskade MCP 服务器和代理插件 Taskade 是用于项目、AI 代理和自动化的 AI 原生工作区。 Taskade Genesis 通过一个提示构建一个正在运行的应用程序。将 Taskade 连接到 Claude、Claude Code、ChatGPT、Codex、Cursor、VS Code、GitHub Copilot、Gemini CLI、Windsurf 和模型上下文协议的任何其他客户端。托管服务器：https://www.taskade.com/mcp（可流式 HTTP、OAuth）。没有什么可安装的。此存储库包含 Taskade 代理插件和两个软件包： - MCP 服务器 (@taskade/mcp-server )：本地 stdio 服务器，适用于无法连接到远程服务器的客户端。 - OpenAPI Codegen：从任何 OpenAPI 规范生成 MCP 工具，而不仅仅是 Taskade。用于 Claude Code、Codex、Copilot、Gemini CLI 和 Cursor 的代理插件 taskade 插件通过托管服务器将您的 AI 工具连接到您的 Taskade 工作区，并添加 7 项技能：前门 ( taskade ) 和六个作业 ( Getting-started 、 import-spreadsheet 、 fix-my-app 、 app-report 、 backup-my-app 、 plan-new-app )。这些技能告诉代理要调用哪些工具、按什么顺序以及在返回报告之前要检查什么。 - 计划：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, ai-agents, autonomous-agents, genesis, integrations
+
+---
+
+### 🌟 [best-of-mcp-servers](https://github.com/tolkonepiu/best-of-mcp-servers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 157
+- **核心概述**: 🏆 MCP 服务器排名列表。每周更新。
+- **大概是做什么的**: 🏆  MCP 服务器的排名列表。每周更新。此精选列表包含 400 个出色的 MCP（模型上下文协议）服务器，共有 140 万颗星，分为 34 个类别。所有项目均按项目质量分数进行排名，该分数是根据从 GitHub 和不同包管理器自动收集的各种指标计算得出的。如果您想添加或更新项目，请随时提出问题、提交拉取请求或直接编辑projects.yaml。非常欢迎您的贡献！ 🧙‍​​♂️ 发现其他最佳列表或创建您自己的列表。 - 聚合器 15 个项目 - 艺术与文化 10 个项目 - 浏览器自动化 14 个项目 - 生物医学和生物信息学 3 个项目 - 云平台 20 个项目 - 代码执行 5 个项目 - 编码代理 13 个项目 - 命令行 7 个项目 - 通信 15 个项目 - 客户数据平台 4 个项目 - 数据库 47 个项目 - 数据平台 2 个项目 - 数据科学工具 7 个项目 - 开发人员工具 66 个项目 - 嵌入式系统 2 个项目 - 文件系统6 个项目 - 金融与金融科技 20 个项目 - 游戏 7 个项目 -
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, awesome, awesome-list, best-of, best-of-list, collection
+
+---
+
+### 🌟 [Awesome-REA](https://github.com/reacher-z/Awesome-REA)
+- **项目语言**: Python
+- **星标数量**: ⭐ 195
+- **核心概述**: 很棒的逆向工程任何东西：网站、游戏、应用程序、二进制文件、固件和通信协议的工具、项目、案例研究和研究论文。
+- **大概是做什么的**: 很棒的逆向工程任何东西针对网站、游戏、应用程序、本机二进制文件、固件和通信协议的工具、案例研究和研究的独立集合。搜索和过滤 · 浏览案例 · 研究论文 · HTML 调查 源代码审查并不意味着运行时验证。按目标查看方法工具和案例 - 网站 (29) · 游戏 (193) · 应用程序 (77) - 本机二进制文件 (64) · 固件和硬件 (23) · 协议 (18) 研究和工作流程 - 论文 (134) · 代理和 MCP (44) · 参考资料和学习 (32) - 所有案例 (206) · 相关集合 (7) · 完整存储库索引 (3,309) 任务 相关部分 检查网站或应用程序界面 网站 · 应用程序 重建游戏或检查匹配代码 游戏 · 游戏案例 分析编译代码或恢复符号 本机二进制文件 · 代理和 MCP 研究固件或设备协议 固件 · 协议 比较方法和评估证据 论文 · 调查比较 名称链接到原始来源。每行给出描述的开头句，然后是类型和关系； “完整条目”打开完整描述
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, android-reverse-engineering, awesome-list, binary-analysis, decompilation
+
+---
+
 ## 🕔 2026-10-22 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
