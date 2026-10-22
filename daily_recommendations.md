@@ -1,3 +1,67 @@
+## 🕔 2026-10-22 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 161 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [axe](https://github.com/jrswab/axe)
+- **项目语言**: Go
+- **星标数量**: ⭐ 898
+- **核心概述**: 用于运行单一用途 AI 代理的轻量级 cli。在 TOML 中定义焦点代理，从任何地方触发它们；管道、git hooks、cron 或终端。
+- **大概是做什么的**: 用于管理和运行 LLM 支持的代理的 CLI 工具。大多数人工智能工具都假设您需要一个聊天机器人。一个长时间运行的会话，带有一个巨大的上下文窗口，可以同时完成所有操作。但这并不是优秀软件的工作原理。好的软件应该是小型的、专注的、可组合的。 Axe 对待 LLM 代理的方式与 Unix 对待程序的方式相同。每个代理都做好一件事。您可以在 TOML 文件中定义它，为���提供重点技能，然后从命令行运行它。输入数据，输出结果。将代理商连锁在一起。从 cron、git hooks 或 CI 触发它们。无论你已经使用什么。没有守护程序，没有 GUI，没有可供购买的框架。只是一个二进制文件和你的配置。 Axe 编排通过 TOML 配置文件定义的由 LLM 支持的代理。每个代理都有自己的��统提示、模型选择、技能文件、上下文文件、工作目录、持久内存以及委派给子代理的能力。 Axe 是执行者，而不是调度者。它被设计为与标准 Unix 工具（cron、git hooks、管道、文件观察器）组合而成，而不是重新发明调度或工作流程编排。 - 多提供商
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, automation, cli, command-line, developer-tools, golang
+
+---
+
+### 🌟 [search2ai](https://github.com/fatwang2/search2ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,282
+- **核心概述**: 用于 AI 代理的自托管搜索网关。统一搜索、新闻和页面提取以及提供商后备。 REST API、MCP 服务器和 TypeScript 库。
+- **大概是做什么的**: 适用于 AI 代理和 AI 客户端的自托管搜索网关。连接您通过 MCP、HTTP API 或 JavaScript/TypeScript 库配置的搜索和页面提取服务。当某个提供商受到速率限制、超时或失败时，网关会按照您配置的顺序尝试下一个提供商，并报告哪个服务已响应以及其他服务失败的原因。搜索端点返回结构化结果和页面内容供您的代理或应用程序使用。可选的聊天代理还允许支持工具调用的模型在应答时搜索网络。 - 一致的结果：标题、网址、代码片段和可选字段（例如日期和内容）。 - 搜索、新闻和页面内容：搜索、新闻和爬网，具体取决于配置的提供商。 - 您选择的提供商：根据需要提供服务 URL 或凭据；未配置的提供程序永远不会自动启用。 - 回退和缓存：每个操作单独的链、内存中缓存和 Cloudflare KV 缓存。 - 灵活的集成：本地 MCP、独立的 HTTP 服务、直接库调用和可安装的 Hono 路由。 - 存在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cloudflare-workers, hono, mcp, mcp-server, openai-compatible
+
+---
+
+### 🌟 [HiRoute](https://github.com/higress-group/HiRoute)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 308
+- **核心概述**: 让 Codex 和 Claude Code 订阅更进一步：本地模型路由器，为经济模型提供日常代理工作，并为困难部分保留最强大的模型。
+- **大概是做什么的**: 让 Codex 和 Claude Code 订阅走得更远。本地模型路由器，为经济模型提供日常代理工作，并为困难部分保留最强模型。继续使用 Codex、Claude Code、Qoder、Pi 或 DeepSeek Harness。通过难度路由计划，HiRoute 会判断每条新消息：阅读代码或收集事实等日常工作可以采用经济模型，而设计决策和困难修复则保留在您的订阅或主要模型中。订阅、API 密钥和本地模型在一个地方进行管理，每个会话都会显示实际运行的模型、其使用情况和成本。独立任务也可以委托给其他代理。回合内的工具调用通常会保留该回合的决定，因此不断增长的上下文前缀保持可缓存。 HiRoute 再次决定新的用户消息，或者当上下文重建破坏先前的延续时，并且可能保持相同的模型；缓存重用取决于提供者。 HiRoute 作为桌面应用程序或无头 CLI 和守护程序在本地运行。 - 最新稳定版本 - 适用于 x 的 macOS 桌面和 Linux 无头软��包
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-gateway, claude-code, codex, coding-agent, cost-optimization
+
+---
+
+### 🌟 [dsh-mattpocock-skills-deck](https://github.com/FeatherHunter/dsh-mattpocock-skills-deck)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 202
+- **核心概述**: 🌟安装即自带mattpocock/skills v1.3.1的27个工程与效率技能，无需手动装技能。400亿token打造本插件，在原始技能之上提供10倍的开发效率，也能帮助新手更快上手该技能套件。全力支持GitHub issue；Markdown为预览版；GitLab暂不支持。感谢您的使用和支持🌹
+- **大概是做什么的**: dsh-mattpocock-skills-deck 拨开战争迷雾看见终点，剩下的交给 MattSkillsDeck。 让 mattpocock/skills 在 DSH 里化作游戏系统的任务面板。 Part the fog of war, see the end — MattSkillsDeck handles the rest. 🔥 欢迎提交PR，不要求完美无瑕，有缺陷也会在合入后进行优化而不是拒绝，星星之火🔥可以燎原！ 🔥 唯一要求：使用技能 /pr 填写PR信息。 前置要求：DSH（DeepSeek Harness）。在 DSH 里，你下指令、AI 干活；MattSkillsDeck 把这些活变成面板上的任务。 任务板绑定的仓库需要写权限：新建标签要 push 权限，给票打标签要 triage 及以上权限；只有读权限时能建票、能读票，但补标签、标签流转与 wayfinder 标签都不可用。 装完 重启一次对应的 DSH 入口 即生效：桌面应用完全退出并重开 DSH Desktop；web 服务重启 dsh web 后刷新页面。零配置。 右侧面板性能极致优化：点击到内容可见，真机实测从 5075 毫秒降到 193 毫秒，性能提升约 96.2%（约 26 倍）。 面板就开在 DSH 自己的右侧边栏里：左边列表、右边详情，并排看。不需要再装别的插件。 进阶安装：免全局、更新不生效、交给 AI 下面命令以 web profile 为例—— DSH Desktop 桌面应用用户请把所有 --profile web 换成 --profile desktop 。 复制下面这段发给你的 AI，它会确认 profile、检查环境并按需安装： 升级 · 卸载（desktop profile 用户把 --profile web 换成 --profile desktop ）： 仓库里的任务不再是流水账：面板把它们按可接、阻塞、已关闭归位，进度走到哪一格一眼看清。每行任务的按钮就是动作入口：点一下，写好的指令填进输入框，确认后再发送。地图类型的行永远置顶，已关闭的收成一行。 👇 任务在哪看、状态怎么筛，全在这张图。 每条会话输入框下面都有一条胶囊状态栏：可接数量、待修（BUG）数量、诊断、沉淀、交接、环境进度都在上面。点可接、环境等主要分段，即跳到对应面板页，看完即回，不打断手头会话。 👇 离手最近的操作条，完整一条长这样。 点开任意一条任务，描述、标签、认领人与评论都在面板里排好版，不用跳终端。在底部输入框直接回话，一般只按标签显示其中一个（诊断、修复、讨论、执行），
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, claude, deepseek-harness, dsh, dsh-better-sidebar
+
+---
+
+### 🌟 [awesome-iran-mcp](https://github.com/sepehr071/awesome-iran-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 146
+- **核心概述**: 36 个 MCP 服务器（469 个工具）为 AI 代理提供伊朗网络：Digikala、Torob、Divar、Snappfood、Jabama、MrBilit、Paziresh24、Taaghche、qavanin.ir 法律、税务、新闻等。在 托曼 的价格。
+- **大概是做什么的**: 伊朗 MCP 服务器：awesome-iran-mcp 为您的 AI 代理提供伊朗网络。 36 个非官方、开源波斯网络 MCP 服务器，用于 Digikala、Torob、Divar、Snappfood、Jabama、MrBilit、Paziresh24、Taaghche、德黑兰证券交易所、伊朗加密货币交易所、税务管理、qavanin.ir 法律等，以及来自 ExirYab、Pasavard 和 SwapWallet 的官方服务器。在 VS Code 或任何 MCP 客户端中搜索、比较 Toman 的价格，查找来自 Claude、Cursor、GitHub Copilot 的免费老虎机和今日优惠。将它们安装为具有技能的 Claude Code 插件，或安装为 Codex、Cursor、Antigravity 和 Grok Build 的代理技能。新功能 · 快速启动 · 服务器 · 用于 AI 代理 · 所有工具 · 常见问题解答 - 12 个新服务器，全部为只读且无需登录：总共 36 个服务器和 469 个工具。 - 商店和食品：basalam-mcp（数千家小商店）、banimode-mcp（时尚）、baneh-mcp（电器、电视、工具）和 tapsifood-mcp（某个地址附近的菜肴和优惠）。 - 价格、新闻和公共记录：tgju-mcp（黄金、硬币、货币和加密货币）、iran-news-mcp（10 个新闻来源，加上一个科技新闻工具）、iran-quake-mcp（earthqu）
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, awesome, claude, claude-code-plugin, cursor
+
+---
+
+### 🌟 [aliangboard](https://github.com/aliang-one/aliangboard)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 114
+- **核心概述**: 开源的 AI 原生 Kubernetes 面板 - 通过 Vue 3 + Node 网关进行全面的多集群管理，并具有内置代理工作台和 MCP 服务器，可让 LLM 读取、写入和操作您的集群。
+- **大概是做什么的**: 开源、AI 原生 Kubernetes 管理面板——基于完整多集群管理的自然语言操作。 AliangBoard 将 LLM 变成集群的操作员：通过内置的 Agent 工作台和 MCP 服务器，您可以用自然语言请求读取 pod 日志、调试容器、回滚版本或修改资源。同时它是一个完整的 Kubernetes 面板，涵盖完整的资源生命周期、exec / port-forward / debug-container 注入和多集群切换。一行技术堆栈：Vue 3 + Vite + Pinia 前端（纯 JS，无 TypeScript）和 Node 透明 Kubernetes API 网关（零额外运行时依赖）。演示站点 🚀 打开实时演示 密码 admin123 该演示是一个公共的共享实例：您创建或更改的任何内容都对其他访问者可见，因此请不要在上面放置任何敏感内容。命名空间概述 — 命名空间的分层拓扑（监控/业务/数据库/存储层），健康状况一目了然： 工作负载概述 — 单个工作负载一目了然：副本、就绪 Pod、图像、事件、CPU/内存
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, cloud-native, dashboard, docker-ui, k8s, kubernetes
+
+---
+
 ## 🕔 2026-10-22 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 177 个候选项目中筛选出 6 个未推荐过的新项目。
