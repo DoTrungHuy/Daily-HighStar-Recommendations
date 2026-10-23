@@ -1,3 +1,67 @@
+## 🕔 2026-10-23 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Paper2Poster](https://github.com/Paper2Poster/Paper2Poster)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,004
+- **核心概述**: [NeurIPS 2025] 论文中的开源多智能体海报生成
+- **大概是做什么的**: 🎓Paper2Poster：科学论文的多模式海报自动化我们解决了如何从论文创建海报以及如何评估海报。 📚 很棒的 Paper2Poster 这个领域的新手？查看 Awesome Paper2Poster — 一份精选的纸张到海报方法、基准、代理技能以及相关纸张到幻灯片/视频/网页工作的列表。 🤩 Paper2Poster for Paper2Poster - [x] [2026.10.23] 我们发布了 Awesome Paper2Poster ，这是一份纸质海报方法、基准测试和代理技能的精选列表。 - [x] [2026.6.6] 我们引入了轻量级的 Paper2Poster SKILL。 - [x] [2025.10.7] 查看后续 Paper2Video 。 - [x] [2025.11.3] 添加了 Gradio 演示支持。 - [x] [2025.10.18] 添加了 Docker 支持。 - [x] [2025.10.13] 新增对会议和机构的自动徽标支持、基于 YAML 的样式定制、新的默认主题。 - [x] [2025.9.18] Paper2Poster 已被 NeurIPS 2025 数据集和 Benchmark Track 接受。 - [x] [2025.9.3] 我们现在支持并行生成每个部分的内容，以加快生成速度，只需指定 --maxworkers 即可。 - [x] [2025.5.27] 我们发布了 arXiv，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, multi-agent-systems, paper, poster, pptx, task-automation
+
+---
+
+### 🌟 [agent-qa](https://github.com/vostride/agent-qa)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 899
+- **核心概述**: 面向软件团队的开源自我改进 QA 代理。带记忆的测试工具。使用自然语言为网络和移动设备编写测试。 agent-qa 会从每次运行中学习，适应 UI 更改，并在发布之前捕获回归。
+- **大概是做什么的**: 自我改进的 Agentic QA 工具，具有针对网络和移动设备的自然语言内存写入测试。 agent-qa 从过去的运行中学习，适应 UI 更改，并在发布之前捕获回归。 - 用自然语言编写网络和移动测试：用人类语言定义操作和断言，而代理则根据可见的角色、标签和屏幕状态工作。 - 自我修复测试执行：当任何子操作（例如单击、填充或选择）失败时，agent-qa 会重新观察 UI 并在同一运行中尝试不同的路径。测试从 UI 漂移和片状交互中恢复，而不是在第一个损坏的操作上失败。 - 通过内存进行自我改进：每次测试运行时，agent-qa 都会从产品、套件和测试观察中构建执行内存，然后将该上下文添加到未来的运行中。 agent-qa 还从执行期间修复的步骤中管理内存，帮助将来的运行避免同样的错误。 - 为人类和机器而构建：为开发人员提供完善的仪表板和 CLI，以及为编码代理提供的 MCP 和技能。 - 使用智能缓存加速运行：操作缓存重用经过验证的
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-testing, anthropic, autonomous-agents, browser-automation, chatgpt
+
+---
+
+### 🌟 [forest](https://github.com/mikamikasuki/forest)
+- **项目语言**: Python
+- **星标数量**: ⭐ 326
+- **核心概述**: FOREST 是长期科学的研究代理人，在长期科学中，证据会丢失，错误会复合，目标会漂移。它探索想法、阅读文献、形成假设、运行真实实验、分析结果、修改路径并构建完整的论文——所有这些都在一个可编辑的图表中，您可以检查、分支、重定向，并将主张和数字与证据相关联
+- **大概是做什么的**: 给它一个研究问题。将其转化为想法、真实实验、证据和完整的论文。 FOREST 是一个端到端的研究代理框架，用于将科学项目从早期问题转化为完成的手稿。它可以探索和比较研究方向、搜索文献、将有前景的想法转化为可测试的假设、设计实验、在计算机上运行真实代码、分析结果并决定下一步尝试什么。随着项目的发展，FOREST 可以修改其计划，放弃薄弱的方向，进入替代方案，并围绕现存的证据构建图表、表格和手稿。 FOREST 没有将研究过程保留在较长的聊天历史记录中，而是将其表示为可编辑的研究图。想法、假设、实验、结果、决策和论文部分保持联系。您可以检查图表、更改计划、替换假设、从较早的点进行分支或重新调整研究方向而无需重新开始。想法发现→文献综述→假设形成→实验设计→实际执行→结果分析→
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-scientist, automated-research, autoresearch, llm-agents, research
+
+---
+
+### 🌟 [Dorothy](https://github.com/Charlie85270/Dorothy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 352
+- **核心概述**: 多萝西，你的人工智能代理需要的妻子。
+- **大概是做什么的**: 一个漂亮的桌面应用程序，用于编排您的 Claude Code、Codex、Gemini、Grok 和本地代理。部署、监控和调试 — 一切都通过一个令人愉悦的界面进行。免费且开源。 - 看板任务管理 - 社交数据 (Twitter/X) - MCP 服务器和工具 - 配置和存储 AI CLI 工具功能强大，但它一次在一个终端上运行一个代理。 Dorothy 消除了这一限制： - 在不同的项目和代码库中同时运行 10 多个代理 - 自动化代理工作流程 - 在 GitHub PR、问题和外部事件上触发代理 - 委派和协调 - 超级代理通过 MCP 工具编排其他代理 - 直观地管理任务 - 看板自动分配代理 - 安排重复工作 - 基于 cron 的任务自主运行 - 从任何地���进行控制 - Telegram 和 Slack 集成以进行远程管理 并行代理管理 同时运行多个代理，每个代理都有自己的功能隔离的 PTY 终端会话。代理在不同的项目、代码库和任务中独立运行。 - 跨多个项目产生无限并发代理 - Ea
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-tools, orchestration
+
+---
+
+### 🌟 [mail-mcp](https://github.com/tecnologicachile/mail-mcp)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 108
+- **核心概述**: Rust 中的安全 IMAP/SMTP/EWS/Graph API MCP 服务器 — Microsoft 365、Hotmail、Gmail、Zoho、OAuth2、多帐户
+- **大概是做什么的**: 适用于 AI 代理的生产就绪电子邮件 MCP 服务器 IMAP + SMTP + EWS + Microsoft Graph API — 采用 Rust 内置 大多数电子邮件 MCP 服务器仅执行 IMAP 读取。它可以执行所有操作：读取、搜索、发送、回复、转发、批量操作、Microsoft Graph API 和 Exchange Web 服务 - 具有真正的 OAuth2、多帐户和多提供商支持。为了速度和安全而用 Rust 编写。 v0.6.1 中的新增功能 - 消息内容不在 RUST LOG=info 的日志中。在该级别，rmcp 库完整记录了每个 JSON-RPC 响应，它通过 HTTP 传输将消息主题和正文放入服务器日志（对于 systemd 服务来���是日志）。当 RUST LOG 设置全局信息级别或更详细时，rmcp 现在上限为 warn，除非 RUST LOG 对其进行命名（例如调试时 RUST LOG=info,rmcp=info）。 stdio 传输不记录响应，并且在 RUST LOG 未设置的情况下没有任何变化。如果通过 HTTP 运行 v0.6.0 或更早版本，请设置 RUST LOG=info,rmcp=warn 。 - EWS 设置范围已修复。 Microsoft 现在拒绝 https://outlook.office365.com/EWS.AccessAsUser.All 并使用 AADSTS70011（无效范围）。钍
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, email, exchange, imap, mcp
+
+---
+
+### 🌟 [morloc](https://github.com/morloc-project/morloc)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 219
+- **核心概述**: 强类型、多语言编译器
+- **大概是做什么的**: 让函数（而不是应用程序）成为组合单元 Morloc 在通用类型系统下跨语言组合函数，并将模块转换为丰富的 CLI、API 和 MCP。用普通语言编写普通代码，将其源化为 Morloc 脚本，并提供类型。这些功能就是一等公民。它们可以在丰富的函数式语言中自由使用。 Morloc 编译器根据 Morloc 在 Linux、macOS（新 ARM 芯片）和 Windows WSL 上本机运行的类型和声明性文档字符串生成 CLI、API、MCP 模型和使用语句。运行此命令来安装 Morloc Installation Manager ( mim )：默认情况下构建是本机的，添加 --engine docker 标志以在容器（或 podman 或 apptainer ）中构建。该环境通过 Pixi 包管理器自动处理 Morloc 构建的依赖关系。有关详细信息，请参阅手册“入门”部分。您可以使用 mim freeze 将 Morloc 环境冻结到 Docker 镜像中。两种功能，两种语言，彼此都不知道。 C++ 求和：以及 Python 中的并行映射：两个文件都导���
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: apis, cli, code-generation, functional-language, language, mcp
+
+---
+
 ## 🕔 2026-10-23 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
