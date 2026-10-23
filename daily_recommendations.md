@@ -1,3 +1,67 @@
+## 🕔 2026-10-23 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 5,604
+- **核心概述**: Google Ads MCP server + Meta Ads MCP (Facebook Ads MCP) + Google Analytics MCP (GA4) + Search Console in one hosted remote MCP for Claude, ChatGPT, Cursor & n8n: OAuth login, no API keys, approval-gated writes, 7-day free trial. By Ryze AI.
+- **大概是做什么的**: Google Ads MCP + Meta Ads MCP (Facebook Ads MCP) + GA4: one hosted MCP server for Claude, ChatGPT and Cursor A Google Ads MCP server, a Meta Ads MCP server (Facebook and Instagram ads), Google Analytics 4 and Google Search Console in one remote MCP for Claude, Claude Code, Claude Desktop, ChatGPT, Cursor, Windsurf and n8n: 250+ tools, OAuth login, no API keys or developer token, approval-gated writes, 7-day free trial. Skip the setup: use the hosted Ryze MCP (no developer token, no Google Cloud project, approval-gated writes). Connect Ryze in one click → - Google Ads MCP : tools, prompts, install per client, comparison (product page) - Google Analytics MCP server : GA4 reports, realtime, AI-referral traffic from ChatGPT, Claude, Gemini and Perplexity (product page) - Meta Ads MCP : Facebook and Instagram Ads tools, prompts, install per client (product page) - Agent-readable index: llms.txt Connect in 30 seconds claude.ai, Claude Desktop, ChatGPT, Cursor: Settings › Connectors › Add custom connector , paste https://connector.get-ryze.ai/mcp , sign in with the Google or Facebook accoun
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: advertising, chatgpt, claude, cursor, facebook-ads, facebook-ads-mcp
+
+---
+
+### 🌟 [dashboard-icons](https://github.com/homarr-labs/dashboard-icons)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 8,915
+- **核心概述**: 3,400+ curated icons and logos for dashboards and AI agents. SVG, PNG and WEBP on a free CDN, plus an MCP server for Claude Code, Codex, ChatGPT, Cursor, Hermes and OpenClaw.
+- **大概是做什么的**: Your definitive source for dashboard icons, for you and your AI agent. A collection of over 3,400 curated icons and logos for services, applications and tools, designed for dashboards and app directories. Your agent can use them too: the MCP server lets Claude Code, Codex, ChatGPT, Cursor, Hermes, OpenClaw and other agents find the right icon and its CDN link. → Browse the collection at dashboardicons.com Why Dashboard Icons? - Comprehensive Collection : 3,400+ icons for all popular services and tools - Consistent Style : Uniform visual language across different services - Multiple Formats : Available in SVG, PNG, and WEBP to suit your needs - Light & Dark Variants : Icons optimized for both light and dark themes - Agent-Ready : An MCP server that matches a whole docker-compose.yml to icons in one call and also searches the selfh.st, LobeHub and Simple Icons catalogs - Community-Driven : Submit missing icons on dashboardicons.com/submit, or let your agent do it https://github.com/user-attachments/assets/65d61e2c-c80d-4174-8d1a-4117336909e4 Find and download icons at dashboardicons.co
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude-code, codex, dashboard, dashboard-icons, dashy
+
+---
+
+### 🌟 [AIPass](https://github.com/AIOSAI/AIPass)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: Persistent Agent Workspace — AI agents that remember, collaborate, and never start from zero.
+- **大概是做什么的**: An operating system for AI agents that remember For Claude Code users who want their agents to remember last week, hand each other work, and build in the repos they already have. BAUD: your agents on your phone · Three commands on the bus: the fleet, a memory from a month ago found by meaning, and a standards audit at 100. The script that recorded it . You need: Python 3.10+, Claude Code on a Claude plan that includes it, and Linux or macOS (Windows through WSL2). The first line puts two commands on your PATH, aipass and drone . The second clones AIPass into /AIPass ( --path to choose), builds its environment, sets up the 18 agents, runs a health check, and ends with the AIPass concierge on screen, greeting you and saying what your machine still needs. It also starts a server on your machine for BAUD, the phone face; --no-baud skips that. To work on AIPass itself, install from a clone instead (this route skips the phone step): Install adds AIPass hooks and deny rules to your user-level Claude Code settings, a few lines to your shell rc, and command links on your PATH; it may also set
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, autonomous-agents, claude, claude-code, llm-orchestration
+
+---
+
+### 🌟 [jentic-one](https://github.com/jentic/jentic-one)
+- **项目语言**: Python
+- **星标数量**: ⭐ 187
+- **核心概述**: Self-hosted execution layer for AI agents: connect any agent to real APIs, scope exactly what it can touch, and keep credentials out of the agent's hands.
+- **大概是做什么的**: A self-hosted execution layer for AI agents. Connect an agent to any API you need, and enforce exactly what it is allowed to call. First brokered call · Public Beta. Schemas and CLI commands can change between 0.x releases. Pin a version if you need stability. Contributions are welcome: see CONTRIBUTING.md and the Giving an agent API access normally means giving it an API key. Jentic One removes that step. Register the APIs an agent may use, store the credentials once, and the agent makes its calls through the Broker. The Broker checks the agent's permissions, attaches the credential at execution time, and writes an execution record. Your agent never sees your keys. Agents integrate through the jentic CLI, a generated skill, the local jentic mcp server, or plain HTTP. Every path terminates at the credential-injecting Broker: the MCP server runs beside the agent as a thin client and holds no upstream credentials — those never leave your Broker. Who it's for: developers running a coding agent locally (Claude Code, Codex, Cursor, Cline, or one you built) that needs real API access; smal
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, agent-security, agentic, ai-agents, api-gateway, audit
+
+---
+
+### 🌟 [awesome-ai-pulse-georgia](https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 153
+- **核心概述**: A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia
+- **大概是做什么的**: Awesome AI Pulse Georgia AI აგენტების, დეველოპერ ინსტრუმენტებისა და ავტომატიზაციის კურირებული კოლექცია შერჩეული AI Pulse Georgia -ს მიერ A curated collection of AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia ⚡ გამოიყენე Claude Code-ში / Cursor-ში — MCP Server-ით ან CLI-ით ეს მთელი კოლექცია ხელმისაწვდომია MCP server-ად — Claude Code-ის, Cursor-ის, Codex-ის ან ნებისმიერი MCP-თავსებადი client-ის შიგნიდან 404 რეპოს ეძებ ბუნებრივი ენით. ნაცვლად იმისა, რომ GitHub-ი გახსნა და README-ი დააქოქო, AI ასისტენტს ჰკითხე "აი Pulse-ის კოლექციაში რა არის საუკეთესო RAG-ისთვის?" — სწორ რეპოს ქართული აღწერით დაგიბრუნებს. MCP Install — /.claude/claude desktop config.json ან Cursor MCP settings-ში: ან პირდაპირ ტერმინალში — aipulse CLI-ით (MCP-კლიენტის გარეშე): ბრძანებები: categories · list · search · get · stats — ფლაგებით -c/--category , -n/--limit , -l/--lang en ka both , --json . Available as an MCP server and an aipulse CLI — query 404 curated AI repos from Claude Code, Cursor, any MCP client, or straight from your terminal. Full docs: mcp/README.md · Source: mcp/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-tools, automation, awesome, awesome-list, claude-code
+
+---
+
+### 🌟 [isocast](https://github.com/R44VC0RP/isocast)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 108
+- **核心概述**: Free, open-source OBS alternative for Mac: scenes and sources, every source recorded as its own file (ISO), about half OBS's CPU, CLI and MCP control. Rust, Apple silicon.
+- **大概是做什么的**: A free, open-source OBS alternative for Mac that records every source as its own file. Isocast is a screen recorder and streaming app for macOS on Apple silicon. It works like OBS, with scenes, sources, transitions and an audio mixer, and it also saves each screen, window and camera as a separate full-quality file (ISO recording), all on one clock. It uses about half the CPU of OBS for the same recording, imports your OBS scene collections, and answers the obs-websocket tools you already use. Written in Rust, MIT or Apache 2.0. Isocast vs OBS · FAQ - Every source in its own file. Fix a shot in your editor without re-recording: the program video plus one file per screen, window and camera, lined up by a session file. No plugin, no syncing by hand. - Lighter on your Mac. In our benchmarks Isocast used 25–29% of a core where OBS used 58–71%, and 88–356 MiB of memory where OBS used 619–1344 MiB (how it was measured). - Edit what you recorded. The editor window lays every ISO file out on one timeline: trim, split, switch angles and crop (9:16 too), then export frame-accurately without re-
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: apple-silicon, iso-recording, live-streaming, macos, mcp, obs
+
+---
+
 ## 🕔 2026-10-23 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
