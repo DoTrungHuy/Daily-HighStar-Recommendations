@@ -1,3 +1,67 @@
+## 🕔 2026-10-23 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [aci](https://github.com/aipotheosis-labs/aci)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,921
+- **核心概述**: ACI.dev is the open source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent through direct function calling or a unified MCP server. The birthplace of VibeOps.
+- **大概是做什么的**: ACI: Open-Source Infra to Power Unified MCP Servers and VibeOps This repo is for the ACI.dev platform. If you're looking for the Unified MCP server built with ACI.dev, see aci-mcp. ACI.dev is the open-source tool-calling platform that hooks up 600+ tools into any agentic IDE or custom AI agent. It gives agents intent-aware access to tools with multi-tenant auth, granular permissions, and dynamic tool discovery—exposed as either direct function calls or through a Unified Model-Context-Protocol (MCP) server . Examples: Instead of writing separate OAuth flows and API clients for Google Calendar, Slack, and more, use ACI.dev to manage authentication and provide AI agents with unified, secure function calls. Access these capabilities through our Unified MCP server or via our lightweight Python SDK, compatible with any LLM framework. Supercharge vibe coding and automate devOps by adding a single unified MCP server to your favourite agentic IDE. Configure the MCP with Vercel, Supabase, Cloudflare, and other platforms. Let AI handle provisioning, deployment, database configs, and debugging t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, api, developer-tools, function-calling
+
+---
+
+### 🌟 [orca-agent](https://github.com/echoVic/orca-agent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 508
+- **核心概述**: Orca is a DeepSeek-native coding agent.
+- **大概是做什么的**: A DeepSeek-native coding agent for your terminal. Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working until the task is done or it needs you. Use the TUI for interactive work or orca exec for scripts and CI. Orca is built in Rust, runs locally, and is MIT licensed. English · 简体中文 · 日本語 · Tiếng Việt · 한국어 · Español · Português Website · Changelog · Releases · npm Or install the native binary directly: On Windows PowerShell: From a project directory, provision its restricted sandbox capability with: The npm package supports macOS, Linux, and Windows on ARM64 and x64. Prebuilt archives are also available from GitHub Releases. Orca checks HTTPS certificates against the operating system's trust store, so a company proxy's CA works once it is installed there. A minimal Linux system, such as a slim container image, needs the ca-certificates package: with no CA certificates at all, Orca cannot make any network request, plain HTTP included. Configuration covers SSL CERT FILE On Windows, Orca prefers PowerShell 7 and detects its standard insta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, coding-agent, computer-use, deepseek, llm
+
+---
+
+### 🌟 [vibes-plug](https://github.com/roedyrustam/vibes-plug)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 113
+- **核心概述**: 🌊 Universal AI Agent Swarm & MCP Plugin with 171 specialized skills and 8 autonomous subagents for Antigravity, Claude Code, Cursor, Windsurf, and OpenAI Codex.
+- **大概是做什么的**: ⚡ VibesPlug Pro v4.4.2: 171-Skill AI Agent Swarm Architecture Turn any IDE into an autonomous 171-agent software development studio. Zero AI Slop • Sovereign Anti-Slop Directive • Zero Tech Debt • Pure Production Velocity 💠 3D Emblem Philosophy : Titanium Neural Plug (Universal 6-IDE & MCP Connector) • Obsidian Crystalline Brain (Deterministic P1–P6 Reasoning) • 8 Orbital Spheres (8 Specialist Subagents & 171 Domain Skills) ⭐ Star this repo to support the project & help it trend! 🇬🇧 English 🇮🇩 Bahasa Indonesia 🇨🇳 中文 (Mandarin) 🇩🇪 Deutsch (German) 🇯🇵 日本語 (Japanese) 📈 Star History 🎬 Swarm Director in Action 💥 Why VibesPlug? (The Paradigm Shift) Metric / Capability Vanilla Vibe Coding (Prompts) Static IDE Rules (.cursorrules) ⚡ VibesPlug Pro (Swarm) :--- :--- :--- :--- Agent Coordination ❌ 1 confused LLM doing everything ⚠️ Static rules without orchestration 🤖 Swarm Director & 171 Specialists Full-Stack Lifecycle ❌ Fragmented & prone to regressions ⚠️ Ad-hoc guidance 🚀 Autonomous 8-Phase Zero-To-Prod Tech Stack ⚠️ Often outputs legacy 2022 patterns ⚠️ Stale prompts ⚡ Rea
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, ai-coding, antigravity, claude-code, claude-skills
+
+---
+
+### 🌟 [susanSayJava](https://github.com/dvsusan/susanSayJava)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 461
+- **核心概述**: Java 面试八股文 + 企业级项目实战：Spring、Spring Boot、Spring Cloud、JVM、Redis、MySQL、分布式、微服务、AI Agent，附详细答案与学习路线。
+- **大概是做什么的**: Java 面试八股文与企业级项目实战（持续更新） Java 后端面试题与项目实战合集：覆盖 Java 基础、JVM、并发编程、Spring、 Spring Boot、Spring Cloud、MySQL、Redis、消息队列、分库分表、高并发、 微服务、分布式与 AI Agent，每篇都是可落地的实战经验。 - 📖 完整网站（题库 + 场景设计 + 项目源码）：https://www.susan.net.cn - 🚀 项目实战（13 个可写进简历的企业级项目）：https://www.susan.net.cn/project/ - 🤖 AI 教程（Spring AI / RAG / Agent）：https://www.susan.net.cn/ai/ ⭐ 点右上角给一个 Star，鼓励技术人输出更多干货，爱了 ！ 这里有面试八股文，面试真题，工作经验分享，踩坑日记，学习路线，还有个人成长经历等。 作者苏三浪迹过几家大厂，掘金优秀创作者，阿里云专家博主，腾讯云年度潜力作者，CSDN万粉博主。 更多项目实战在我的技术网站：susan.net.cn/project 以下内容全部出自公众号：苏三说技术，欢迎关注。 下面分享Java后端学习路线，后续会不断持续更新。。。 - 高并发下秒杀商品，你必须知道的9个细节 - 从20s优化到500ms，我用了这三招 - 如何用 Java 几分钟处理完 30 亿个数据? - 这9种分布式ID生成方法，打死也要记住呀 - session、token、jwt、oauth2 傻傻分不清 - Redis 分布式锁｜从青铜到钻石的五种演进方案 - 对比 5 种分布式事务方案，还是宠幸了阿里的 Seata - 5 种 API 网关技术选型，yyds - spring中让你爱不释手的代码技巧 - spring中让你爱不释手的代码技巧续 - 聊聊spring事务失效的12种场景 - spring中竟然有12种定义bean的方法 - spring：我是如何解决循环依赖的？ - 9条消除if...else的锦囊妙计 - 轻松读懂spring之 IOC的主干流程 - spring aop聊点不一样的东西 - springboot面试杀手锏-自动配置原理 - @Autowired的这些骚操作你知道吗？ - 面试前看了这篇spring事务的文章，让我多要了2k的工资 - 聊聊Spring中最常用的11个扩展点 - SpringBoot 生产中 16 条最佳实践 - Spring Boot Admin，贼好使！ - SpringBoot + Shard
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, backend, distributed-systems, high-concurrency, interview-questions
+
+---
+
+### 🌟 [codai](https://github.com/meysamhadeli/codai)
+- **项目语言**: C#
+- **星标数量**: ⭐ 374
+- **核心概述**: The open source coding agent for your terminal.
+- **大概是做什么的**: The open source coding agent for your terminal. Your terminal. Your models. Your project, with you in control. Explore a codebase, plan a change, and work across files with explicit approval for writes and commands. Start read-only in Plan mode, then switch to Agent when you are ready to build. Requires the .NET SDK 10.0 or later. Run from your project directory: Capability How it helps Plan, then act Read and search without changing files or running commands; switch to Agent for implementation. Project-wide edits Read, search, and edit real files with your project's guidance in context. On-demand context Open sessions without a full-project indexing pass; discover files through tools as needed. Controlled execution Review writes and commands under your approval policy. Shell commands require shell access. Focused terminal UI Scroll the transcript with input pinned; expand action steps, command output, and file diffs. Your choice of models Connect hosted providers or local servers, including Ollama. Reusable workflows Apply project guidance, rules, skills, commands, and memory docume
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, ai-tools, anthropic, chatgpt, claude
+
+---
+
+### 🌟 [nosia](https://github.com/dilolabs/nosia)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 214
+- **核心概述**: Self-hosted AI RAG + MCP Platform
+- **大概是做什么的**: Self-hosted AI RAG + MCP Platform Nosia is a platform that allows you to run AI models on your own data with complete privacy and control. Beyond traditional RAG capabilities, Nosia integrates the Model Context Protocol (MCP) to connect AI models with external tools, services, and data sources. It is designed to be easy to install and use, providing OpenAI-compatible APIs that work seamlessly with existing AI applications. - 🔒 Private & Secure - Your data stays on your infrastructure - 🤖 OpenAI-Compatible API - Drop-in replacement for OpenAI clients - 📚 RAG-Powered - Augment AI responses with your documents - 🔌 MCP Integration - Connect AI to external tools and services via Model Context Protocol - 🤖 Agent Skills - Extend chat with custom LLM-driven and Ruby-based skills - 🔄 Real-time Streaming - Server-sent events for live responses - 📄 Multi-format Support - PDFs, text files, websites, and Q&A pairs - 🎯 Semantic Search - Vector similarity search with pgvector - 🐳 Easy Deployment - Docker Compose with one-command setup - 🔑 Multi-tenancy - Account-based isolation for secure
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, all-in-one, docker, embedding, llm, mcp
+
+---
+
 ## 🕔 2026-10-23 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
