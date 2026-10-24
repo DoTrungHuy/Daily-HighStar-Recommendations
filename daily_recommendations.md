@@ -1,3 +1,67 @@
+## 🕔 2026-10-24 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ThinkTerm](https://github.com/RoversX/ThinkTerm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 200
+- **核心概述**: 具有内置多路复用器的现代终端：关闭它，您的会话将继续运行。在您的机器上运行 shell 和大量 AI 代理，然后从桌面、浏览器、TUI 等中获取它们。用 Rust 编写，没有 UI 框架：直接在 GPU 上绘制界面。没有 Electron、GPUI 或 webview。
+- **大概是做什么的**: 英语 · 简体中文 · 日本语 · 法语 · 德语 🍺 Homebrew (macOS)： 🌐 网站：closex.org/thinkterm 📚 文档：docs.closex.org/thinkterm ⭐ 考虑加星 ThinkTerm！ Your machines fuse into one. ThinkTerm 是一个带有内置多路复用器的开源终端，用 Rust 编写，构建于 WezTerm 之上。它的 mux 服务器运行您的 shell、工具和编码代理；桌面、TUI 和浏览器客户端连接到这些会话。将本地和远程工作带入一个工作区，并从另一台设备返回到该工作区。平台：macOS · Linux · Windows · Web · TUI — iOS 和 Android 正在开发中。 https://github.com/user-attachments/assets/7317e369-db86-463f-9379-a8a2ed4b602b 跨机器的代理 核心的多路复用器 终端多路复用器管理多个终端会话并允许客户端附加到它们。在 ThinkTerm 中，mux 服务器拥有会话、选项卡和分割窗格。 The client displays them and sends your input. - 分离并返回。断开客户端连接会使服务器保持的会话保持运行。稍后重新连接以继续相同的 shell、构建或代理任务。明确关闭
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-orchestration, ai, ai-agents, claude-code, codex
+
+---
+
+### 🌟 [dsh-computer-use-win](https://github.com/Yu-tao-Li/dsh-computer-use-win)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 154
+- **核心概述**: 用于 DeepSeek Harness (dsh) 的 Windows 计算机：MCP stdio 服务器 + PowerShell UIA 后端、22 个桌面工具
+- **大概是做什么的**: dsh-computer-use-win 让 DSH 看懂并操作你的 Windows 桌面。 您的 Star ⭐ ↗ 就是我更新的动力，球球了，这对我很重要！如有问题，欢迎去 提 Issue ↗ ， 您来许愿，我来实现！ 语言 / Language: 简体中文 · English Releases · npm · Issues 0.5.0 新增懒启动 ：在“设置 → Computer Use”选择“懒启动”，启动只加载 1 项管理工具，桌面工具按需加载，仍允许全部工具。现有默认方案保持“全部”。详见工具加载。 启动集合只剩管理入口、且至少允许一项桌面工具时（懒启动即属此类），服务随 MCP 握手返回一段说明：这台电脑可被读取和操作，使用前需先 enable 。启动时一个桌面工具名都没有，模型也能据此知道该能力存在。 让 DeepSeek Harness 的 agent 读取并操作真实 Windows 应用：找控件、看截图、识别文字、点击、输入和管理窗口。 23 项桌面能力 + 1 个工具管理入口 · 明确的控制提示 · 按 Esc 停止当前轮 · 中英文设置 快速开始 · 界面预览 · 能做什么 · 按你的习惯设置 · 使用示例 · 工具与进阶 · 常见问题 · English 需要： Windows 交互桌面和已安装的 DSH。默认使用系统自带的 Windows PowerShell 5.1；DSH Desktop 使用自带的 Electron 运行时，独立 Node 宿主需要 Node.js ≥ 22。 1. 在 DSH Desktop 自带终端 中执行： 2. 完整退出并重新启动 DSH Desktop，打开 设�� → Computer Use 。也可点击插件列表中的简介进入具体设置。 3. 默认全部加载，直接开始一个桌面任务；需要减少工具时，在设置里选择“精简”或“自定义”。 升级已有安装也使用同一条安装命令，随后完整重启 Desktop。安装与升级请核对宿主实际使用的 profile；安装到另一个 profile 不会改变当前宿主的插件。 Web、GitHub 与独立 MCP 客户端 安装后重启 dsh web 。使用其他 profile 时，将 web 替换为对应名称。也可在插件市场搜索 dsh-computer-use-win ，或使用 GitHub 源： 独立 MCP 客户端可配置 stdio 服务： 独立服务默认全部加载； WCU TOOL MODE=lite 使用精简集合， WCU ENABLED TOOLS 可指定 JSON 数组。DSH
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: computer-use, desktop-automation, dsh-plugin, mcp, uia, windows
+
+---
+
+### 🌟 [tunr](https://github.com/tunr-dev/tunr)
+- **项目语言**: Go
+- **星标数量**: ⭐ 101
+- **核心概述**: 将 AI 代理连接到客户的本地数据 — 只读、有时间限制、经过客户批准、经过审核。再加上隧道和部署。
+- **大概是做什么的**: 将 AI 代理连接到客户的本地数据。只读、有时间限制、经客户批准并记录在案 — 通过一个仅限出站连接器。 tunr.sh · 现场演示 · 文档 · 仪表板 · 讨论 · 贡献 或者让代理来做：tunr 列表资源、tunr 请求访问、tunr 开放访问都是 MCP 工具。人工智能供应商越来越多地销售需要驻留在客户网络中的数据的代理——本地 ERP、账本、文件服务器。如今，每个供应商都编写自己的本地代理或要求 VPN，并且每笔交易都会在安全审查中等待数周，因为客户无法查看或限制代理 tunr Bridge 的标准方式。客户安装一个连接器，该连接器仅连接、公开指定资源并批准每个代理、资源和时间窗口 - 并提供他们可以读取的原因。 The agent never sees a database password; databases are read-only in three layers;流对客户的连接器进行端到端加密； every query lands in the customer's audit log; one click cuts everything. Once a customer has the connector for one vendor
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-bridge, ai-agents, ai-security, audit-log, claude-code, cli
+
+---
+
+### 🌟 [MCP-PostgreSQL-Ops](https://github.com/call518/MCP-PostgreSQL-Ops)
+- **项目语言**: Python
+- **星标数量**: ⭐ 163
+- **核心概述**: 🐘 为 AI 助手提供完整的 PostgreSQL DBA 超能力 — 30 多种用于性能分析、膨胀检测、锁定/死锁监控、自动清理和模式检查的工具。无需扩展。 PG 12-18。
+- **大概是做什么的**: MCP Server for PostgreSQL 操作和监控架构及内部（DeepWiki） MCP-PostgreSQL-Ops 是一款专业的 MCP 服务器，用于 PostgreSQL 数据库操作、监控和管理。支持 PostgreSQL 12-18，通过自然语言查询提供全面的数据库分析、性能监控和智能维护建议。大多数功能独立工作，但安装 pg stat 语句和（可选）pg stat 监视器扩展后，高级查询分析功能会得到增强。 - ✅ 零配置：可与 PostgreSQL 12-18 一起使用，开箱即用，具有自动版本检测功能。 - ✅ 自然语言：提出诸如“显示慢速查询”或“分析表膨胀”之类的问题。 - ✅ 生产安全：只读操作，RDS/Aurora 与常规用户权限兼容。 - ✅ 扩展增强：可选的 pg stat 语句和 pg stat 监视器用于高级查询分析。 - ✅ 全面的数据库监控：性能分析、膨胀检测和维护建议。 - ✅ 智能查询分析：使用 p 识别慢查询
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, claude, database, database-tools
+
+---
+
+### 🌟 [mcp-victoriametrics](https://github.com/VictoriaMetrics/mcp-victoriametrics)
+- **项目语言**: Go
+- **星标数量**: ⭐ 240
+- **核心概述**: VictoriaMetrics 的模型上下文协议 (MCP) 服务器的实现
+- **大概是做什么的**: VictoriaMetrics MCP 服务器 VictoriaMetrics 的模型上下文协议 (MCP) 服务器的实现。这提供了对 VictoriaMetrics 实例的访问以及与 VictoriaMetrics API 和文档的无缝集成。它可以为您提供一个全面的界面，用于与 VictoriaMetrics 实例相关的监控、可观察性和调试任务，为工程师和工具提供高级自动化和交互功能。该 MCP 服务器允许您使用 VictoriaMetrics 的几乎所有只读 API，即 VMUI 中可用的所有功能： - 查询指标和探索数据（如果您的客户端支持，甚至可以绘制图表） - 列出和导出可用指标、标签、标签值和整个系列 - 分析和测试您的警报和记录规则和警报 - 显示 VictoriaMetrics 实例的参数 - 探索数据和���标使用统计数据的基数 - 分析、跟踪、美化和解释您的查询 - 调试重新标记规则、下采样和保留策略配置 - 与 VictoriaMet 集成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, mcp, mcp-server, monitoring, observability, rag
+
+---
+
+### 🌟 [luanyujia-workbench](https://github.com/mashanglinyu/luanyujia-workbench)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 134
+- **核心概述**: 多场景 AI 工作台的搭建方法与纯壳���板（作者：淋雨家）。注意：不是装完就能用，很多场景要按自己的内容调试。
+- **大概是做什么的**: 一套 多场景 AI 工作台 的搭建方法与纯壳模板 —— 把「一个聊天窗口」变成「一间按场景分工的工作室」。 🔗 作者的个人站 ： —— 这套工作台的实战记录、小工具，以及 服务定制 （教培 / 托管机构的系统定制与 AI 化）。 🛒 DSH 改造集市（持续更新） ： —— 把散在 GitHub 上的 DSH 启动动画 / 界面主题 / 插件 / 技能 / MCP / 场景收了进来，AI 检索审核整理、开源可拆、全站免费，会一直往里加。 ▶ 想先看效果？ 双击这个文件 就能跑 —— 单文件、零依赖、不用装任何东西。 —— 仓库里的方法与模板，都来自这套工作台 边用边搭 的真实过程。 ⚠️ 新手请谨慎： 这不是"装完就能用"的软件 本仓库给的是 方法 + 纯壳模板 。场景配置、会话 id、面板类型、MCP 桥、脚本名…… 都要按你自己的内容调试 ， 文档里的路径 全是占位符，照抄一定失败 ；不少模块（尤其 MCP）需要现场排查才能跑通。 👉 动手前先读 新手必读.md ：哪些能直接用、哪些必须自己改、最容易劝退的五件事。 读之前先认这些符号（不然会被 700+ 个尖括号劝退） 你的工作台根目录（自己定一个固定文件夹，比如某个盘下建一个专用目录） 任意盘的根（ C:\ 、 D:\ …）—— 原文里写死的是某个具体盘 · · · 真实名字在这里被换掉了 session-0000… 真实会话 id 的占位（id 是私密的，换成占位才敢公开） · · · 已脱敏的对外信息 ⛔ · ★ · ⚠ 原文的强调记号： ⛔ = 不许做 · ★ = 关键 · ⚠ = 注意 §〇 · §一 · §6.4 文档内部节号 —— 几篇之间靠它互相引用 ⚠️ 这些 不是"待填的作业" ，是 脱敏后的占位 ：原文里写的是某台具体机器的真实值。 全仓约 700 处，集中在 05 、 06 、 07 三节 —— 看结构就行，别试图"先把占位符填完再读" （那是照着抄，一定不通，见新手必读 §1）。 把本地 AI 助手包进一个 分场景的桌面工作台 ： - 每个场景 = 一块独立的界面（网格面板 + 一个常驻 AI 会话）； - 每个场景的 AI 认得自己是哪个场景 ：知道该读哪份记忆、该用什么技能、上次干到哪儿； - 面板能直接预览网页、浏览文件、显示网址、看数据 —— 不只是聊天框。 上面就是一间 真跑着的 多场景工作台：顶上一排图标 = 各个场景（点它 = 切场景），中间是网格面板（预览 / 文件 / 项目 / 网址 / AI 对话）。 截图里的金额、本机路径与对话正文都已打码 —— 本仓库所
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, deepseek, electron, mcp, multi-scene, workbench
+
+---
+
 ## 🕔 2026-10-24 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
