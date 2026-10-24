@@ -1,3 +1,67 @@
+## 🕔 2026-10-24 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 306 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [grepai](https://github.com/yoanbernabeu/grepai)
+- **项目语言**: C
+- **星标数量**: ⭐ 1,921
+- **核心概述**: AI 代理的语义搜索和调用图（100% 本地）
+- **大概是做什么的**: 按含义搜索代码，而不仅仅是文本。文档 · 安装 · 快速入门 grepai 是一个隐私优先的 CLI，用于语义代码搜索。它使用向量嵌入来理解代码含义，即使命名约定有所不同，也可以通过自然语言查询找到相关代码。通过提供相关上下文而不是原始搜索结果，大幅减少 AI 代理输入标记。 - 按意图搜索 — 询问“身份验证逻辑”并找到handleUserSession - 跟踪调用图 — 在更改函数之前知道谁调用了该函数 - 100% 本地 — 您的代码永远不会离开您的机器 - 始终保持最新 — 文件观察器自动保持索引最新 - AI 代理就绪 — 开箱即用，可与 Claude Code、Cursor、Windsurf 配合使用 - MCP 服务器 — 您的 AI 代理可以将 grepai 作为工具直接调用 Windows (PowerShell)：需要嵌入提供商 — Ollama（默认）、LM Studio 或 OpenAI。 Ollama（推荐）：grepai 支持命令、标志和动态值（工作区名称、项目名称、提供程序、后端）的自动完成。 Zsh（添加到 /.zshrc ）：“我刚刚达到了我的极限，并且花费了 m 的 13%
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, claude-code, cli, code-search, cursor, developer-tools
+
+---
+
+### 🌟 [SOMA](https://github.com/Kai-Jungsthoefel/SOMA)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 290
+- **核心概述**: 用于在 CadQuery 中与您选择的编码代理一起设计参数化 3D 模型的桌面应用程序
+- **大概是做什么的**: 使用代理进行实体对象建模。用于与编码代理一起设计参数化 3D 模型的桌面应用程序。 somacad.app · 下载 · 更新日志 https://github.com/user-attachments/assets/3294d1e4-1f06-477d-9770-c91f3470330d 您告诉代理您需要什么。它使用 CadQuery 将模型编写为 Python 代码，SOMA 构建它并显示结果。您查看它、测量它、指出问题所在，然后代理更改代码。一个 CAD 程序，其中 AI 执行 CAD，而您是设计师。 SOMA 汇集了所需的三个部分：带有代理终端的代码工作区、每个版本的编辑器和 Git； 3D 查看器，可在每次更改时重建模型；以及针对代理的说明，包括规则、技能和命令行工具。这是 vivi 编码，但用于 CAD。专为需要为其项目提供保护壳、支架或安装座且不想花费数小时在 CAD 程序中获取的创客和修补者而设计。描述或绘制零件草图，检查结果，导出，打印。您不必了解 CadQuery。如果您想自己更改尺寸，可以使用代码
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-printing, agent, agentic-ai, cad, cadquery, claude-code
+
+---
+
+### 🌟 [mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 335
+- **核心概述**: MCP 服务器通过模型上下文协议 (MCP) 与您的 iMessage 数据库安全连接，允许法学硕士查询和分析 iMessage 对话。它包括强大的电话号码验证、附件处理、联系人管理、群聊处理以及对发送和接收消息的全面支持。
+- **大概是做什么的**: 从任何本地 MCP 客户端读取、搜索和发送 macOS 消息。快速入门 · 可用工具 · 代理技能 · 命令行界面 · 安全性 · 变更日志 使用 Claude、Codex、Cursor、VS Code 或任何本地 MCP 客户端通过 macOS 消息应用程序搜索、阅读和发送消息。 Mac 消息 MCP 在您的 Mac 上本地运行。它以只读方式打开消息和联系人数据库，仅返回客户端请求的数据，并且仅当客户端显式调用发送工具时才使用 Messages.app 自动化。 [!重要] 此服务器仅适用于 macOS。读取消息需要完全磁盘访问权限。发送需要 Mac 登录“消息”以及启动应用程序自动发送消息的权限。客户端读取的所有内容都来自本地 SQLite 数据库，以只读方式打开。离开机器的所有内容都会在显式发送工具调用下通过 Messages.app 发出。消息和联系人派生的文本在返回模型的过程中被视为不受信任的数据。区域 Mac 消息 MCP 提供什么 阅读所有对话中的最新消息或按联系人、群聊、日期过滤
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: applescript, claude, contacts, cursor, imessage, mac
+
+---
+
+### 🌟 [fieldcraft](https://github.com/tangency-labs/fieldcraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 168
+- **核心概述**: 一款用于结构、热量和流体的开源建模器，用纯 Rust 从头开始​​构建：输入参数化零件，输出经过验证的结果。自动全六角形和四面体网格划分、我们自己的非线性隐式和显式有限元分析、传热和晶格玻尔兹曼 CFD——每个结果都根据理论进行检验。对于工程师和人工智能代理来说都是如此。免费，永远。
+- **大概是做什么的**: 纯 Rust 的开源洁净室 CAE 应用程序：从参数化 SolidCraft 零件到经过验证的有限元分析，具有四面体和六面体网格划分、其自己的隐式、显式、热和晶格玻尔兹曼求解器，以及 Abaqus、Nastran 和 LS-DYNA 的平台。桌面应用程序、命令行和 AI 代理（通过 MCP）驱动相同的命令。状态：早期但端到端工作 - 打开零件，网格化，定义分析，求解，查看结果 - 非线性隐式求解器（大变形，塑性，橡胶）现已到位。六角形网格划分是重心。接下来：屈曲和弧长、接触，然后是更广泛的材料和多物理场库。请参阅 ROADMAP.md。想帮忙吗？选择一个标记为“需要帮助”的问题，并阅读 Claude 通过其 MCP 服务器驱动 FieldCraft：一个提示，它会打开零件，对其进行网格划分，定义并求解分析，然后根据梁理论检查尖端偏转。真实会话，缩短等待时间。完整视频。 AI 代理通过 MCP 驱动 FieldCraft，每个阶段都标有其调用的工具：它打开工字梁��六角网格
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cae, cfd, computational-mechanics, engineering, explicit-dynamics
+
+---
+
+### 🌟 [oxynote](https://github.com/oxynote/oxynote)
+- **项目语言**: Go
+- **星标数量**: ⭐ 351
+- **核心概述**: 连接到它所描述的系统的开源技术维基
+- **大概是做什么的**: 你的系统，带字幕。一个自托管工作区，将实时指标图表放在解释它的段落旁边，为您的内部 API 提供 Stripe 风格的文档，并让更改经过草稿、差异和批准。来自 Grafana 给你解释面板的地方是它的描述字段，Grafana 自己的文档告诉你保持简短的信息图标后面的工具提示。相反，将说明保留在 Notion 中，图表只能作为嵌入式 Grafana 面板显示，该面板仅针对已登录 Grafana 的用户呈现，而根本不会在 Grafana Cloud 上呈现。每种工具都会保留自己的历史记录，因此没有人会在更改时查看图表及其解释。在 Oxynote 中，图表在页面内运行自己的查询，解释是您在其下键入的任何内容，草稿分支通过一个 diff 来承载两者。长版本有点咆哮，但它解释了个人原因。很长一段时间，我公司最可靠的文档是我与自己进行的 Slack 聊天。它是如何实现的，首先要从仪表板开始。我们有很多这样的人：Grafana、Sen
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api-documentation, confluence-alternative, dashboard, hacktoberfest, incident-response, internal-documentation
+
+---
+
+### 🌟 [asobeast](https://github.com/AsoBeast/asobeast)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 106
+- **核心概述**: 适用于 Apple App Store 和 Google Play 的开源 ASO 工具和关键字排名跟踪器。使用 Docker 自托管，或使用托管服务。内置MCP服务器。
+- **大概是做什么的**: AsoBeast 是一款适用于 Apple App Store 和 Google Play 的开源应用商店优化 (ASO) 工具和关键字排名跟踪器。使用 asobeast.com 上的托管服务，或在您自己的服务器上自行托管开源版本。 AsoBeast 是一款适用于 Apple App Store 和 Google Play 的应用商店优化 (ASO) 工具和关键字排名跟踪器。它导入列表，每天跟踪关键字排名（深度为 200），观察竞争对手、评论和元数据，并将历史记录转换为 ASO 工作的优先队列。该存储库是免费的开源版本，您可以在自己的服务器上运行，并且 asobeast.com 上的托管服务运行相同的代码。每个商店请求都作为普通公共搜索或页面请求在托管 AsoBeast 的计算机上运行，​​因此 Apple 和 Google 可以像查看任何搜索一样查看每个跟踪的短语。您无需与 ASO 供应商注册，无需购买 API 密钥，也无需与任何人共享您的关键字列表。除了这些商店请求之外，您的数据仍保留在您的部署中，除非您明确启用出站集成，例如 Webhook 警报、电子邮件、OpenAI 帮助、Apple Ads se
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, app-marketing, app-store, app-store-optimization, aso, google-play
+
+---
+
 ## 🕔 2026-10-24 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
