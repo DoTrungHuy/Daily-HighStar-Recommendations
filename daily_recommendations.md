@@ -1,3 +1,67 @@
+## 🕔 2026-10-24 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 296 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [humanlayer](https://github.com/humanlayer/humanlayer)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 12,384
+- **核心概述**: 让人工智能编码代理解决复杂代码库中的难题的最佳方法。
+- **大概是做什么的**: HumanLayer 在您的计算机上运行编码代理（Claude Code、Codex、OpenCode、Pi），并让您的团队从一个位置引导它们：任务、会话、计划和评论，在桌面应用程序、Web 应用程序和每台主机上的守护程序之间同步。这个仓库包含所有内容。这是一个使用 Bun 的 Turborepo monorepo。 - apps/riptide-ui ：应用程序，作为 Web 应用程序并位于桌面 shell 内 - apps/riptide-electron 、 apps/riptide-native ：macOS 桌面应用程序（Electron、Tauri） - apps/riptide-daemon ：在主机上运行代理会话的守护进程 - apps/cli ： humanlayer CLI，也附带守护进程 - apps/riptide-api ：oRPC + Hono API - apps/riptide-electric-proxy ：Electric 前面的身份验证代理，将 Postgres 同步到客户端 - apps/riptide-cloud ：管理 Web 应用程序（组织、邀请、设置、安装页面） - apps/riptide-migrator 、 apps/updater-server 、 apps/stale-daemon-sweeper 、 apps/database-maintenance-function ：AWS Lambda 作业 - apps/riptide-claude-code-plugin 、 apps/riptide-opencode-plugin 、 apps/riptide-pi-extension ：镜像 Claude Code、OpenCode 和 Pi 的插件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, amp, claude-code, codex, human-in-the-loop
+
+---
+
+### 🌟 [genspark-claw](https://github.com/breakstageaxe61/genspark-claw)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 538
+- **核心概述**: 🦀⚡ Genspark Claw、OpenClaw 和 Hermes 代理的社区技能包和 CLI — 5 项生产就绪的 SKILL.md 技能（深入研究、报告、幻灯片、浏览器自动化、AI 调用准备）、零依赖 Node.js 安装程序、MCP 服务器、单行安装
+- **大概是做什么的**: Genspark Claw 、 OpenClaw 和 Hermes 代理的社区技能包和 CLI 为您的个人 AI 代理提供一系列超能力 — 五种生产就绪、经过安全审核的 SKILL.md 技能、一个零依赖安装程序和一个内置 MCP 服务器。 🚀 快速入门 · 🧩 技能 · 🔌 MCP · 🛠 开发者指南 · ❓ 常见问题解答 🌟 为什么选择 genspark-claw？个人人工智能代理的好坏取决于他们的技能。 Genspark Claw 为您提供托管云代理，OpenClaw 为您提供自托管运行时，Hermes 为您提供自我改进的代理 - 但当您需要可靠的深入研究工作流程、不会在每次重新设计时中断的浏览器自动化，或者实际预订餐桌的电话时，您就需要从头开始编写说明。 genspark-claw 提供这些指令，经过战斗测试，所以你不必这样做。 🧩 5 项生产就绪技能 研究、报告、幻灯片、浏览器自动化和 AI 电话呼叫 — 人们在 Genspark Claw 上实际运行的工作流程 🌍 一次编写，随处运行 一个 SKILL.md 标准，可在 Genspark Claw、OpenClaw、Hermes、Claude Code 和 Cursor 中加载 🪶 零运行时间
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agent, ai-assistants, ai-tools, awesome-genspark, genspark-agent
+
+---
+
+### 🌟 [ai](https://github.com/callstackincubator/ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,419
+- **核心概述**: 在具有 Vercel AI SDK 兼容性的 React Native 中进行设备上 LLM 执行
+- **大概是做什么的**: 用于 React Native 的设备上 AI 原语集合，具有一流的 Vercel AI SDK 支持。直接在用户设备上运行人工智能模型，以实现隐私保护、低延迟推理，无需服务器成本。 - 🚀 即时 AI - 立即使用内置系统模型，无需下载 - 🔒 隐私第一 - 推理在设备上运行，因此数据保留在本地。云模型是可选的 - 🎯 Vercel AI SDK 兼容 - 在本地模型中使用generateText、streamText、embed 和其他 AI SDK 功能 - 🎨 超越文本 - 嵌入、转录、语音合成和图像生成 AI SDK 兼容性 React Native AI AI SDK -------------- ------ 0.11 及以下 v5 0.12 v6 0.13 及以上 v7 AI SDK Profiler 插件捕获 OpenTelemetry 范围Vercel AI SDK 请求并在 Rozenite DevTools 中显示它们。 DevTools 与运行时无关，因此它们适用于设备上和远程运行时。必须在您的应用程序中安装并启用 Rozenite。请参阅 Rozenite 入门指南。 apps/expo-example 中的 Expo 演示应用程序包括该插件的本机开发 Rozenite 接线。运行示例应用程序，
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, llm, on-device-ai, react-native
+
+---
+
+### 🌟 [lattice](https://github.com/techygarg/lattice)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 209
+- **核心概述**: 将工程学科安装到任何人工智能编码助手中。设计、实施、审查和团队标准的可组合技能。更好的流程，而不仅仅是更好的提示。
+- **大概是做什么的**: 可组合的人工智能技能，教授助理结构化思维——设计优先、情境感知和架构引导。人工智能编码助手直接跳到代码，默默地做出设计决策，忘记对话中的限制，并产生没有人根据实际标准进行审查的输出。莱迪思通过三层（原子、分子、精炼器）的可组合技能解决了这个问题，这些技能嵌入了经过实战考验的工程学科，加上一个动态上下文层，可以在每个功能周期中积累项目的标准、决策和审查见解。指导莱迪思设计的三个原则： - 技能胜于提示 - 存储库中的版本化、团队拥有的技能文��胜过单个开发人员机器上的个人提示 - 可组合性胜过单体 - 合并到工作流程中的小型单一用途技能胜过试图涵盖所有内容的一份说明文档 - 生活上下文胜过静态配置 - .lattice/ 文件夹随着每个功能周期变得更加智能，而不是配置一次并被遗忘 原子 单一原则护栏 - 干净的代码、架构、DDD、安全科丁
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-skills, agentic, agentic-ai, claude-code-plugin
+
+---
+
+### 🌟 [cute-agent](https://github.com/OWWZO/cute-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 206
+- **核心概述**: 一个面向全网研究与复杂数据分析的云端智能体，能在公开网络、YouTube、BiliBili、X、小红书、Hacker News上研究任何主题 。项目wiki：https://zread.ai/OWWZO/ai-agent
+- **大概是做什么的**: 一个面向全网研究与复杂数据分析的云端智能体，能在公开网络、YouTube、BiliBili、X、小红书、Hacker News上研究任何主题 - 全域采集 ：调度多个智能体并行采集网页信息、Reddit 社区讨论、X 平台动态、YouTube 字幕内容、小红书互动数据，以及由真实资金与内幕信息定价的 Polymarket 预测赔率。 - 私有文档证据链 ：通过多模态 RAG 解析用户私有的 PDF、Word、PPT 与图片，把公域情报与内部知识放进同一条证据链。 - 长期记忆 ：沉淀偏好、关键事实与可复用流程，让下一次任务不必从头开始。 - 分析与交付 ：结合 E2B 沙箱的代码执行能力与专属数据分析 Agent，完成数据清洗、交叉验证与深度分析，最终以 GenUI 交互画布和 PDF、Word、PPT、HTML 等多格式报告自动交付。 当前主流搜索引擎与大模型均存在天然的信息边界，各大平台各自形成封闭的信息围墙，拥有独立的接口体系、鉴权机制与数据生态，没有任何一款 AI 产品能原生覆盖全部渠道： 谷歌搜索 无法穿透 Reddit 评论与 X 平台原生内容 ChatGPT 仅接入 Reddit 生态，缺失 X、TikTok 等平台数据 Gemini 可访问 YouTube 资源，却无法获取 Reddit 社区内容 Claude 原生不支持上述任一平台的实时检索 Grok 原生深度打通 X 平台实时数据，却无法原生覆盖 Reddit 等更多平台生态 而 Cute 支持导入用户自��义密钥与浏览器会话凭证，打通全部平台数据源。它不止于跨平台全域检索，更能对多源信息进行交叉权重评分，过滤噪音与重复信息，精准提炼真正有价值的核心情报。 Cute 最初诞生于程序员群体的信息焦虑：在技术迭代日新月异的当下，Reddit、X 平台的极客社区始终站在行业最前沿，第一时间涌现最新的技术实践、工具拆解与方向讨论。但各大平台彼此割裂、各自形成封闭的围墙花园，零散的一手经验与技术动态散落在一座座信息孤岛上，没有单一入口可以高效聚合全域信息，我们很难及时、完整地捕捉全社区的原生技术情报，同步跟进最前沿的技术方向。 从解决自身的技术信息痛点出发，Cute 逐步进化为一款通用全域情报工具，覆盖更多高价值决策场景： 一键梳理发言嘉宾的近期观点、公开言论与项目动态，一键聚合目标人物全平台真实动态： Peter Steinberger加入OpenAI Codex团队、推动对抗Anthropic第三方智能体禁令、GitHub累计合并23个PR（合并率85%）、主导研发跨设备智能体控制系统Lobster
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agentic, agentic-workflow, ai, ai-agents
+
+---
+
+### 🌟 [mailcraft](https://github.com/UCS-Care-Group/mailcraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 109
+- **核心概述**: MailCraft：一个开源、干净的邮件、日历和联系人程序，采用纯 Rust，适用于 Microsoft 365、Outlook.com 和 IMAP。早期阿尔法。
+- **大概是做什么的**: 一个开源邮件、日历、联系人和任务程序，用 Rust 从头开始​​编写。 MailCraft 是人们已经知道如何使用的邮件客户端的干净房间重新实现：功能区、文件夹窗格、带有阅读窗格的消息列表、对话、标志、类别、规则、带有定期会议、人员和待办事项的日历。它是一个原生的、GPU 渲染的应用程序（没有 Electron，没有 Web 视图），它还通过 WebAssembly 在浏览器选项卡中运行，其中的每个操作都是脚本和 AI 代理也可以运行的命令。状态：早期阿尔法（0.5）。基础已就位并经过测试；日常驾驶员需要的很多东西还没有实现。请参阅 ROADMAP.md 和 docs/gaps.md 以获取诚实的列表。 MailCraft 遵循 WordCraft 和其他 Craft 应用程序的架构和惯例：相同的分层板条箱、相同的“一切都是命令”引擎、相同的 egui 前端和设计令牌、相同的控制通道、MCP 服务器、工具和打包。 - 邮件：帐户、嵌套文件夹和收藏夹、按日期（或发件人、重要性）分组的虚拟邮件列表、排序、过滤
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: calendar, egui, email-client, imap, mcp, microsoft-graph
+
+---
+
 ## 🕔 2026-10-24 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 226 个候选项目中筛选出 6 个未推荐过的新项目。
