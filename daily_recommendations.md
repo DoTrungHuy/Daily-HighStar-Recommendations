@@ -1,3 +1,67 @@
+## 🕔 2026-10-24 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [heurist-agent-framework](https://github.com/heurist-network/heurist-agent-framework)
+- **项目语言**: Python
+- **星标数量**: ⭐ 826
+- **核心概述**: 灵活的多接口人工智能代理框架，用于构建具有推理、工具使用、记忆、深度研究、区块链交互、MCP 和代理即服务的代理。
+- **大概是做什么的**: Heurist Agent Framework 一个灵活的多接口 AI 代理框架，可以通过各种平台进行交互，包括 Telegram、Discord、Twitter、Farcaster、REST API 和 MCP。在 https://heurist.ai/dev-access 上提交表单时，使用代码“代理”立即免费获取 Heurist API 密钥 Heurist 代理框架基于模块化架构构建，允许 AI 代理： - 处理文本和语音消息 - 生成图像和视频 - 跨多个平台以一致的行为进行交互 - 在知识库中获取和存储信息（支持 Postgres 和 SQLite） - 访问外部 API、工具和各种网格代理以组成复杂的工作流程 - 获取从 Mesh 开始 - 使用和开发指南 - Heurist Agent 框架架构 - Agent 使用和开发指南 - 如何使用 GitHub 问题 - 🤖 Core Agent - 具有高级 LLM 集成的模块化框架 - 🧩 组件架构 - 用于灵活代理或代理应用程序设计的即插即用组件 - 🔄 工作流程系统 - RAG、思想链和研究工作流程 - 🖼️
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-framework, ai, mcp
+
+---
+
+### 🌟 [elephant-goldfish-model](https://github.com/google/elephant-goldfish-model)
+- **项目语言**: Python
+- **星标数量**: ⭐ 312
+- **核心概述**: Google 创建的开源方法和技能集，用于法学硕士的规范驱动开发
+- **大概是做什么的**: 大象金鱼模型 (EGM) 大象金鱼模型 (EGM) 是一个开源插件，用于使用 AI 编码代理进行规范驱动开发。深度上下文大象会话起草规范，并在编写代码之前隔离零上下文金鱼子代理对它们进行压力测试。任何 AI 代理 询问您的代理： 安装 https://github.com/google/elephant-goldfish-model 反重力 agy 插件安装 https://github.com/google/elephant-goldfish-model （或 IDE 中的 /plugin） Claude Code claude 插件市场 add google/elephant-goldfish-model && claude 插件安装 egm@egm Codex codex 插件市场 add google/elephant-goldfish-model && codex 插件 add egm@egm Claude Cowork / ChatGPT 请参阅桌面和工作区设置的工具 1. 构思和压力测试：运行 /egm-brainstorm 来探索问题边界并使用 Goldfish 群测试早期概念。 2. 草稿：运行 /egm-draft 将概念概要转换为 docs/designs/.md 下的动态设计文档。 3. 审核和解决：运行 /egm-review docs/designs/.md 来运行多阶段 Goldfish 审核者群。 4. 提交并实施：提交
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, antigravity, claude-code, claude-code-plugin, claude-skills
+
+---
+
+### 🌟 [respan-gateway](https://github.com/respanai/respan-gateway)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 175
+- **核心概述**: 每个 LLM 供应商都有一个端点。任何 SDK、任何模型、任何工具。一个 Rust 二进制文件。
+- **大概是做什么的**: AI 的通用适配器。 Respan Gateway 是一个位于您的代码和每个 AI API 之间的 Rust 二进制文件。将您已经使用的 SDK 指向它，它就会将您连接到所有内容：来自每个主要提供商的聊天模型、图像、视频和语音；适用于任何模型的工具，从网络搜索和内存到代码沙箱和任何 MCP 服务器；和流量控制（格式转换、回退、重试和对冲请求），并提供每个呼叫的实时日志。 ▶ 观看演示 ​​- 任何客户端、任何模型 OpenAI 聊天完成、OpenAI 响应、Anthropic Messages 和 Gemini API 客户端都可以调用任何模型，并翻译流媒体、工具、图像和推理。跨供应商的实时语音（OpenAI Realtime 客户端与 Gemini Live 对话并返回），以及通过 OpenAI 或 Gemini 的 API 向任何拥有这些功能的供应商提供图像、语音、转录、嵌入和视频。 - 适用于每种型号的 MCP 工具 将 MCP 服务器或内置工具供应商置于网关后面，从 Web 搜索到代码沙箱。它在聊天请求中运行它们的工具，因此无论客户端或型号如何，简单的聊天调用都可以使用它们。南
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-gateway, anthropic, gemini, hacktoberfest, llm
+
+---
+
+### 🌟 [mcp-server](https://github.com/harness/mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 110
+- **核心概述**: Harness 的官方 MCP 服务器
+- **大概是做什么的**: Harness MCP Server 2.0 MCP（模型上下文协议）服务器，让 AI 代理通过 11 个整合工具和 262 种资源类型完全访问 Harness.io 平台。为什么使用此 MCP 服务器 大多数 MCP 服务器为每个 API 端点映射一个工具。对于像 Harness 这样广泛的平台来说，这意味着 240 多种工具，而随着数量的增加，法学硕士在工具选择方面变得越来越差。上下文窗口充满了模式，每个新端点都意味着新代码。该服务器的构建方式有所不同： - 11 种工具，262 种资源类型。基于注册表的调度系统将线束列表、线束获取、线束创建等路由到任何线束资源 - 管道、服务、环境、组织、项目、功能标志、成本数据等。法学硕士从 11 种而不是数百种工具中进行选择。 - 全平台覆盖。 42 个默认工具集，涵盖 CI/CD、GitOps、功能标志、云成本管理、安全测试、混沌工程、数据库 DevOps、内部开发人员门户、软件供应链、基础设施即代码管理、发布管理、治理、服务覆盖、知识图等。选择加入 Ansible
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: harness, mcp, mcp-server
+
+---
+
+### 🌟 [TOMC](https://github.com/ZipengWu365/TOMC)
+- **项目语言**: Python
+- **星标数量**: ⭐ 172
+- **核心概述**: TOMC 内存：Codex、Claude Code、Cursor、TRAE、WorkBuddy 和其他 MCP 客户端的 CPU 上下文压缩和任务内存。
+- **大概是做什么的**: 累计克隆 · 自 2026 年 10 月 2 日起记录 · 更新于 2026 年 10 月 23 日（世界标准时间）。方法和更新 发现 TOMC 有用吗？点击右上角⭐星支持该项目。 Codex / Claude Code / Cursor / TRAE / WorkBuddy 的上下文压缩和任务内存压缩和编译长历史记录，并调用 CPU 上保存的任务注释。与 API 一起使用 · 安装 TOMC Memory · 切换助手 · 查看演示 · 论文解释 · 论文结果 · English 简体中文 CPU 准备 · 无需训练或额外模型服务 · 纯文本输出 · 研究预览 官方 GitHub 主页 · 插件下载 · 安装指南 这是 TOMC Memory 的官方存储库，包含源代码、插件下载和安装指南。检查记录的示例 · API、共享内存和评估指南第 1 部分 · 使用 TOMC 内存 TOMC 内存是一个基于任务导向内存编译 (TOMC) 构建的开源工具。它为人工智能助手压缩和编译上下文，并通过显式保存的注释提供任务记忆。它可通过 MCP 服务器和 Python API 获得。给它一个历史记录、下一个任务和一份备忘录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, claude-code, codex, context-compression, llm, long-context
+
+---
+
+### 🌟 [dsh-adult-tension](https://github.com/daha1216/dsh-adult-tension)
+- **项目语言**: Python
+- **星标数量**: ⭐ 326
+- **核心概述**: DeepSeek 自带破甲 18+ 互动叙事：活人感 NPC（自主决策/拒绝迎合）、211个世界与上万素材、开局随心定制、世界自行运转、零漂移存档。
+- **大概是做什么的**: dsh-adult-tension 专为高张力、强连续性的成人互动叙事打造 18+ 深度破甲 · Claude Opus 5.5 重构 原生 Agent Skill ｜ 活人感 NPC 数千余项素材库 ｜ 零漂移 SQLite 状态机 ——这里没有百依百顺的玩偶，只有各怀心事的成年人。 超多世界 · 体验切片 · 怎么开始 · 安装 · 支持与赞助 每次开局都是同个世界里的真人真事和老规矩，绝不拿随机名词糊弄人。 图里没有想要的？直接喊“自定义世界”，说你想去哪年哪地，当场给你现造一个。 港口夜班 · 有压力模式。 你是夜班调度，台风封港前最后一班船，第三排最底下的集装箱过磅足足超了四吨。吊具十四分钟后咬合，手边还压着船公司塞过来的厚红包。 👤 你： 我去找能帮上忙的人，把情况跟对方说清楚 你往后退了半步，手腕一翻避开了红纸包。红纸包顺着硬板纸滑落在铁皮箱边缘，船公司代表 潘宝珠 脸上的笑意微微一滞，手慢慢收回风衣口袋，眼神在水银灯的阴影里深了下去。 远处桥吊的铁爪在头顶发出刺耳的金属摩擦声，还剩十三分钟。 👤 你： 我想让对方答应替我分担一部分，看对方肯不肯 两排集装箱夹出的深隙里黑得见不到底，湿热海风灌进来像抽风机一样啸叫。你把装卸班组长 梁嘉欣 拉进铁壁阴影里，压着嗓子把想让她搭一把手的意思递了过去。 梁嘉欣残缺的左手在粗布工裤上蹭了蹭，眼神沉得像浸了海水： “阿青，当年你刚进调度室，台账还是我教你对的。你想让我帮你扛，行，但话得摆在明处——我可以用班组长的名义在频道里喊一次吊具钢丝绳例检，硬把七号机停下来，顶多给你匀出二十分钟。但放行单是你们调度的事，那个超重四吨的单子，字我绝对不签，出了事我也绝不会替你顶。能给你的，就这两轮机的时间。” 【时间】第一天 23:36 ｜ 【地点】堆场通道 ｜ 回合：5 两个人都没有因为你开口就顺从：一个被拒后收敛了客套，一个匀出二十分钟却坚决不替你签字。 成年人的世界里没有无条件的庇护，每一步退让都有明码标价的底线。 出自真实试玩记录，宿主 opencode，模型 gemini-3.8-flash，删节处用“……”标出。全文： opencode-pt-harbor night shift-pressure-r3.json · 全部试玩与评分： reports/playtests/playtests.md 普通 AI 常见表现 Adult Tension 角色态度 无底线顺从，有求必应 每个 NPC 有目标和底线；回应分拒绝、协商、有限配合、表面配合、真诚配合五档 成人内容 写到关键处一句带过，或突然跳到“事后” 尺度
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, ai-roleplay, deepseek-harness, dsh, dsh-plugin
+
+---
+
 ## 🕔 2026-10-23 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
