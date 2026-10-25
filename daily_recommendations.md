@@ -1,3 +1,67 @@
+## 🕔 2026-10-25 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-reverse-engineering](https://github.com/morluto/awesome-reverse-engineering)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,217
+- **核心概述**: 针对二进制文件、应用程序、固件、格式和协议的精选逆向工程工具和学习资源。
+- **大概是做什么的**: 令人敬畏的逆向工程精选：REA - 面向代理的逆向工程工具，从应用程序行为到本机二进制文件。由令人敬畏的逆向工程的创建者提供。理解二进制文件、应用程序、固件、文件格式和协议的精心设计的起点。根据您需要完成的工作寻找工具。每个条目都描述了其目的；商业工具被标记为商业。这是一个初步选择，可以进行补充和更正。您的任务从学习汇编和逆向基础知识开始 学习 识别可执行文件及其功能 文件识别和分类 读取本机代码或单步执行 本机分析和调试器 跟踪调用或检测正在运行的程序 动态检测和跟踪 绕过反调试、解包或重建导入 反混淆和反分析 检查可疑文件、进程或内存映像 恶意软件分析 检查 APK、.NET 程序集或 Java 程序 Android 和托管代码 检查 iOS 应用程序、macOS 二进制文件或 Apple 固件iOS 和 macOS 解压 Python、Go、Flutter 或 Hermes 二进制语言
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, awesome, awesome-list, binary-analysis, ctf
+
+---
+
+### 🌟 [distributed-llama](https://github.com/b4rtaz/distributed-llama)
+- **项目语言**: C++
+- **星标数量**: ⭐ 3,114
+- **核心概述**: 分布式 LLM 推理。将家庭设备连接到强大的集群中以加速 LLM 推理。更多设备意味着更快的推理。
+- **大概是做什么的**: 将家庭设备连接到强大的集群中以加速 LLM 推理。更多设备意味着更快的性能，利用张量并行性和以太网高速同步。支持 Linux、macOS 和 Windows。针对 ARM 和 x86 64 AVX2 CPU 进行了优化。 - 💻 如何在 Linux、MacOS 或 Windows 上运行 - 🍓 如何在 Raspberry Pi 上运行 - 🧠 如何在 GPU 上运行 - 2025 年 9 月 16 日 - Vulkan 现已支持 Qwen 3 MoE 模型。 - 2025 年 9 月 5 日 - CPU 现已支持 Qwen 3 MoE 模型。 - 2025 年 8 月 3 日 - 现已支持 Qwen 3 0.6B、1.7B、8B 和 14B 型号。 - 2025 年 3 月 23 日 - 🌋 实验性 Vulkan 支持 - 2025 年 2 月 12 日 - 🚧 合并了基本代码库重构 - 2025 年 1 月 9 日 - 🍎 Llama 3.3 70B 在 4 x Mac Mini M4 Pro 24GB RAM 上 🔥 通过单个命令设置根节点 需要 Python 3 和 C++ 编译器。该命令将下载模型和标记器。模型大小命令 --------------------------------- -------------------------------- ---------------------------------------------------- Llama 3.1 8B 指示 Q40 6.32 GB python launch.py​​ llama3 1 8b 指示 q40 Llama 3.1 405B 指示 Q40 238 GB python launch.py​​ lla
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: distributed-computing, distributed-llm, llama2, llama3, llm, llm-inference
+
+---
+
+### 🌟 [proxy-agents](https://github.com/TooTallNate/proxy-agents)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,168
+- **核心概述**: Node.js HTTP 代理 Monorepo
+- **大概是做什么的**: Node.js HTTP 代理 Monorepo 此 monorepo 包含各种 Node.js HTTP 代理实现，这些实现使用各种协议通过代理进行操作。对于最常见的用例，您应该使用 proxy-agent 模块，该模块利用其他更底层的代理实现。您可以在这里找到变更日志。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, http, https, nodejs, pac, proxy
+
+---
+
+### 🌟 [android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner)
+- **项目语言**: Python
+- **星标数量**: ⭐ 368
+- **核心概述**: 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+- **大概是做什么的**: 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。 介绍页： https://rddmwmddr.github.io/android-ad-cleaner/ 插上手机，点几下按钮。不需要 Python，也不需要 AI 工具。 2026-10-25 源码已更新，安装包仍为 0.2.0。 小米搜索输入、机型脚本、vivo 清单链接及打包子进程等修复尚未进入下方安装包。改动、验证结果和待处理问题见 更新记录；提前使用可从源码运行。 本轮还处理了 Windows 本地页面超时、荣耀截图越界、通知渠道误操作风险、vivo 快应用与备份问题。各 Issue 的处理范围和待验证项见 社区问题处理记录。仅支持通过 adb 连接的安卓设备，暂不支持使用 HDC 的原生鸿蒙。 Mac · Apple 芯片（M1 及以后） AndroidAdCleaner-0.2.0-mac-arm64.dmg 已签名、通过苹果公证，双击就能打开 Mac · Intel 芯片 AndroidAdCleaner-0.2.0-mac-intel.dmg 同上 Windows 10 / 11 · 安装版 AndroidAdCleaner-0.2.0-windows-setup.exe 弹「Windows 已保护你的电脑」时点「更多信息」→「仍要运行」 Windows 10 / 11 · 免安装 AndroidAdCleaner-0.2.0-windows-portable.zip 解压后双击 AndroidAdCleaner.exe 不知道 Mac 是哪种芯片：左上角苹果图标 → 关于本机，「芯片」写 Apple M 开头的选 Apple 芯片。所有版本：Releases。用法：docs/08-桌面客户端.md。 1 连接手机 ：插线即认出手机，内置开启 USB 调试的图文教程 2 ���测 ：型号、系统版本、机型脚本、快应用、广告组件 3 选择要关的 ：营销通知按渠道勾选，服务类默认不勾 4 执行 ：进度条和实时日志 5 完成 ：每一步的结果，最后提醒关闭开发者模式 反馈 ：自动附诊断信息，一键提交 GitHub Issue - 不 root，不解锁，不刷机，系统更新不受影响。 - 只拨系统和 App 自带的开关。挂起广告包这一步要机主点头，一条命令可以还原。 - 搜索、负一屏卡片、应用商店的安装和更新、天气预警、快递提醒，这些功能保留。 改之前：OPPO 软件商店首页。轮播图、必备、必玩、福利标签，全是推广位。 系统广告 个性化广告、广告跟踪（OAID）、智能推荐服务 系统设置里的开关 热搜和资讯
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adb, ai-agent, android, coloros, debloat, hyperos
+
+---
+
+### 🌟 [buddy-android](https://github.com/ghorbelhamdi/buddy-android)
+- **项目语言**: Java
+- **星标数量**: ⭐ 125
+- **核心概述**: 漂浮气泡中的 Android AI 助手：Claude Code、Codex、OpenCode 或 Gemini（反重力 CLI）使用您的手机 — 阅读屏幕、点击、键入。按您自己的计划运行，开源，无需root，无需adb，无需PC。
+- **大概是做什么的**: 浮动聊天气泡，可让 Claude Code、Codex、OpenCode 或 Antigravity 使用您的 Android 手机。输入或说出您想要的内容，例如“回复 Sam，我迟到了”或“将 Switch 2 添加到我的亚马逊购物车”。 Buddy 会阅读屏幕、点击并打字来完成操作，并在发送、发布、购买或删除任何内容之前询问您。它按照您自己的计划在应用程序内运行：Claude Code 与您的 Claude 计划、Codex 与您的 ChatGPT 计划、Google 的 Antigravity CLI 与您的 Google 帐户，或 OpenCode 及其免费模型且根本不需要帐户。没有 PC，没有 adb，没有 root，没有 API 密钥。在 Google Play 上获取（封闭测试） · 下载 APK · 网站 · Android 11+，64 位 https://github.com/user-attachments/assets/d07936fc-4788-4ab5-a105-31b3e9aeba4f Codex 打开灯，而 OpenCode 的免费模型将 Switch 2 添加到亚马逊购物车（真实录音，等待加速） 与任何代理聊天 工具调用折叠到一行 设置指南和主题 使用您的应用程序 消息、购物、智能家居、设置：屏幕上的任何内容。在运行时添加说明。在执行之前先询问批准、拒绝或��改
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agent, ai-assistant, android, android-app, android-automation
+
+---
+
+### 🌟 [ClimateTraceKMP](https://github.com/joreilly/ClimateTraceKMP)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 345
+- **核心概述**: Kotlin/Compose 多平台项目显示来自 https://climatetrace.org/data 的气候相关排放数据。
+- **大概是做什么的**: Kotlin/Compose 多平台项目显示来自 https://climatetrace.org/data 的气候相关排放数据。 iOS（SwiftUI + 共享 Compose 多平台 UI） AI 代理（Koog + Google ADK） 提到的 iOS 客户端包含共享 Compose 多平台 UI 代码。它还包括在“国家/地区列表”屏幕中使用 SwiftUI 或 Compose 代码的选项（在这两种情况下，选择一个国家/地区将导航到共享的 Compose 排放详细信息屏幕）。在 Kotlin/Compose 多平台项目中使用 Amper 和 Fleet Kotlin MCP 💜 Kotlin Multiplatform 使用 Koog 开发基于 Kotlin 的 AI 代理的初步探索 从 Kotlin 代码使用 Google 的 Java 代理开发工具包 将基于 Kotlin 的远程 MCP 服务器部署到 Google Cloud Run 使用 Jetpack Compose A2UI 和 Koog composeApp 渲染 AI 代理生成的 UI - 共享 Kotlin 多平台代码（数据层、视图模型和 Compose）多平台 UI）以及桌面和 Web 入口点 androidApp - Android 应用程序 iosApp - iOS 应用程序（SwiftUI + 共享 Compose UI） mcp-server - 将排放数据公开为 MCP 工具的 MCP 服务器（使用 t
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, compose, compose-desktop, compose-ios, compose-multiplatform, compose-web
+
+---
+
 ## 🕔 2026-10-25 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
