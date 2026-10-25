@@ -1,3 +1,67 @@
+## 🕔 2026-10-25 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [graphicle](https://github.com/Graphicle-AI/graphicle)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 357
+- **核心概述**: 在一个 Rust 程序中为您的编码代理提供代码图和内存。适用于 Claude Code、Codex、Cursor 和任何 MCP 客户端。
+- **大概是做什么的**: 在一个 Rust 程序中为您的编码代理提供代码图和内存。 Graphicle 将您的存储库映射到代码图中，记住项目的文档、决策和过去的代理会话，并为您的编码代理提供引用的摘录：确切的文件和行。它在您的计算机上运行：无需 API 密钥、无需帐户、无需遥测。适用于 Claude Code · 光标 · Codex · VS Code · Claude Desktop · 任何 MCP 客户端 快速入门 · 工作原理 · 基准 · 文档 · 来自 Graphify？ · 讨论 没有自制软件？ curl -fsSL https://github.com/graphicle-ai/graphicle/releases/latest/download/install.sh sh · 发布存档 · 安装 Windows 的其他方式：x86-64 的预览版本，尚未代码签名（Windows（预览版））。图形设置索引存储库，构建其代码图并连接它找到的编码代理。它还打开会话捕获，向 AGENTS.md 添加两行部分（除非 Claude Code 是唯一的代理）并安装 Git 挂钩以保持项目最新。它列出了它更改的每个文件，并首先备份每个文件；图形断开连接会撤消这一切���然后作为
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, claude-code, code-analysis, code-graph, code-intelligence
+
+---
+
+### 🌟 [dexsql-release](https://github.com/LSPosed/dexsql-release)
+- **项目语言**: Python
+- **星标数量**: ⭐ 234
+- **核心概述**: 适用于 Android apk 和 dex 文件的 SQL
+- **大概是做什么的**: 适用于 Android 二进制文件的 SQL。查询 APK 和 DEX 文件中的类、方法、字符串和调用引用。通过 MCP 将其连接到 AI 代理，或从命令行使用它。 Playground · 文档 · 下载 · 安装技巧 · 基准 AI 代理可以将签名、字符串和调用关系组合到跨 DEX 文件的一个 SQL 查询中，只返回他们需要的结构化结果。可以生成、细化查询并将其保存在脚本中以供重复使用。 DexSQL直接读取DEX并重用加载的数据集，支持重复查询，延迟低，内存占用小。请参阅测量基准。内置 MCP 服务器直接连接到代理，无需 GUI。与 AI 代理一起使用 DexSQL 在官方 MCP 注册表中列为 org.lsposed/dexsql 。从注册表安装服务器的客户端可以直接添加它，Claude Desktop 可以从 Releases 打开 dexsql.mcpb 捆绑包。该捆绑包涵盖 macOS、x86 64 Linux 和 x86 64 Windows；在其他平台上，请使用下面的技能或手动设置。使用技能 CLI 安装设置技能：然后询问您的代理
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, android, decompiler, dex, mcp-server, reverse-engineering
+
+---
+
+### 🌟 [mcd-dual-budget-coach](https://github.com/erikzeng2008-del/mcd-dual-budget-coach)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 111
+- **核心概述**: 麦门双预算军师 · 麦当劳中国 MCP 参赛作品 | 钱一个预算、热量一个预算，两个闸门同时过才配餐：88,788 种组合本地穷举，给最划算/最扎实/最均衡三档、券后到手价、全息人设卡。Dual-budget (money + calories) McDonald's China MCP Agent Skill with 3-tier meal plans, coupon math and a holographic persona card.
+- **大概是做什么的**: 英文名 McDualBudget Coach · 站内搜索词「麦门」「双预算」也在下方关键词段里 例：「30 块、600 卡，中午想吃点扎实的」→ 三档方案 + 券后到手价 + 一张会闪的人设卡。 ⭐ 本仓库参加麦当劳开发者大赛，名次只看 Star 数。 觉得这套思路有用，就点一下右上角那个 Star —— 这一票直接决定排名。 ▶ 在线试玩（点这里就能用，不用下载、不用装） 👉 🍻 聚餐拼单（77KB，2–12 人整桌怎么点） → https://erikzeng2008-del.github.io/mcd-dual-budget-coach/party.html 2026-10-25 新增第二条产品线 。一个人吃往下选轻量版，一群人吃直接点上面这个。 party.html 77KB 聚餐首选 。人数+预算+场景 → 三档整桌方案、比各点各的省多少、点单接龙一键复制 lite.html 965KB 一个人吃选它 。秒开，五屏功能齐全（预算→战报→明细→目录→对话）+ 人设卡 demo.html 11MB 想看高清商品大图与套餐拼图，用电脑打开 card.html 317KB 只想看一眼会闪的全息人设卡 单人版算的是「组合」，多人版算的是「分摊」。灵魂公式一句话： 随心配解决「主食 + 饮品」，共享拼盘解决「小食」——别给每个人都点一份三件套。 实测（2026-10-25 福州金洲南路店，4 人朋友聚餐）： 各点各的：4 × 精选单人餐三件套 ¥138.0 ¥34.5 12 🎉 拼单 · 最省钱（4×随心配 + 韩式鸡块8块） ¥75.5 ¥18.9 10 ⚖️ 拼单 · 最均衡（2×BFF四宫格双人餐） ¥125.8 ¥31.5 16 🍗 拼单 · 最丰盛（2×双人餐 + 薄皮V翅十翅） ¥175.7 ¥43.9 21 最省钱这档直接省 ¥62.5（45%） ，而且小食从「每人一份薯条」变成「全桌分享」。 - 先查构成再算账 ：多人餐名字看不出内容， query-meal-detail 的 rounds 拆开才知道 BFF 双人餐里有 2 汉堡 + 中薯条 + 麦乐鸡5块 + 2 份薄皮 V 翅 + 2 杯可乐。不拆就报人均是在猜。 - 主食覆盖报数 ：双人餐算 2 人、单人餐算 1 人，输出「主食覆盖 X / N 人」。预算不够时 明示还差几份 ，不偷偷少给。 - 点单接龙一键复制 ：纯文本、留好空接龙行，直接发微信群。 四个场景（朋友聚餐 / 办公室加班 / 家庭带娃 / 下午茶）+ 五个偏好（不要辣 / 有小孩 / 来杯咖啡 / 想轻一点 / 加
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, budget, budgeting, calories, chinese
+
+---
+
+### 🌟 [awesome-data-llm](https://github.com/OpenDataBox/awesome-data-llm)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 833
+- **核心概述**: “LLM × DATA”调查论文的官方存储库
+- **大概是做什么的**: A Survey of LLM × DATA 与法学硕士和相应的以数据为中心的方法相关的论文和项目的集合。其他公开材料：[[幻灯片]](./assets/DATA4LLM-10-22-en.pdf) 如果您觉得我们的调查有用，请引用论文：🌤 DATA4LLM 的 IaaS 概念 LLM 数据的 IaaS 概念（语音上呼应基础设施即服务）从四个关键维度定义了高质量数据集的特征：（1）包容性确保了跨领域、任务、来源、语言、风格和方式。 (2) 丰富性强调充足且均衡的数据量，以支持缩放、微调和持续学习而不会过度拟合。 (3) 清晰度要求内容清晰、连贯、有指导性，并逐步推理，以增强模型理解和任务表现。 (4) 清理涉及严格过滤，删除私密、有毒、不道德和误导性内容，确保数据安全、中立和合规。 🌟 LLM/Agent-as-Data-Analyst 我们观察到 LLM/Agent-as-Data-Analyst 技术的演变遵循
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: data-acquisition, data-deduplication, data-filtering, data-mixing, data-provenance, data-selection
+
+---
+
+### 🌟 [welsonjs](https://github.com/gnh1201/welsonjs)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 512
+- **核心概述**: WelsonJS - Windows 上用于工业自动化的内置 JavaScript
+- **大概是做什么的**: WelsonJS - Windows 上用于工业自动化的内置 JavaScript。现在，您可以使用 JavaScript、TypeScript、CoffeeScript 和 ReScript 等转译语言以及 HTML/CSS 来构建、自动化和编排 Windows 应用程序和工业系统，所有这些都由内置 ECMAScript 引擎提供支持。 WelsonJS = W indows + El ectr on -like + Javascript(JS) + :heart:Contributions :rocket: 在 Microsoft Azure Marketplace 上部署（很快再次可用） :kissing cat: 下载 WelsonJS Launcher :shell: 在 PowerShell 中： irm https://catswords.blob.core.windows.net/welsonjs/bootstrap.ps1 iex 注意 : 默认许可证这个项目是GPL 3.0。但是，如果GPL 3.0许可证与Microsoft产品不兼容，则受MS-RL许可证的约束。 :octocat: GitHub 赞助商、:euro: Liberapay、:coffee: 给我买杯咖啡 SerpApi: 搜索 API - 使用简单的 API 抓取搜索引擎结果。开源门户，NIPA 国家 IT 产业促进机构 SignPath.io 提供的免费代码签名，SignPath 基金会颁发的证书“交付到生产”第 3 季 - 选定项目 感谢 fo
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: agi, automation, chatgpt, chrome, copilot, desktop
+
+---
+
+### 🌟 [frankensonos](https://github.com/Dicklesworthstone/frankensonos)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 106
+- **核心概述**: 适用于您自己 LAN 上的 Sonos 扬声器的内存安全 Rust 控制器 — 可靠的 SSDP/UPnP-SOAP/GENA 互操作性 (S1 + S2)、Spotify 库经典 DJ 以及 CLI + HTTP API + MCP 服务器，以便 AI 代理可以运行房屋，包括通过 Tailscale 进行 LAN 外运行。
+- **大概是做什么的**: 您的 Sonos，您做主。只要您在 Tailscale 尾网上，就可以从世界任何地方指挥您的扬声器。一个内存安全的 Rust 控制器和守护进程，适用于您已经拥有的 Sonos 扬声器：一个从终端运行整个房子的二进制文件、一个 HTTP API 或任何使用 MCP 的 AI 代理。状态：预发布（0.1.0 之前）。下面的所有内容都已实现，并且每个功能都针对 fsonos-sim 进行了端到端测试，fsonos-sim 是一个虚拟 Sonos 房屋（一个 S1 和一个 S2 家庭，在环回上讲 SOAP 和 GENA，对照真实玩家的已删除捕获进行检查）。该守护进程还运行一个真正的两户家庭，S1 和 S2，其中发现、分组、音量、收藏夹、Spotify 渲染和公告都在真实的播放器上运行，并且 fsonos 自测试会检查您的播放器，而不会更改您可以听到的任何内容。目前还没有真正的硬件 CI，在 Sonos 硬件优秀并持续多年之前，接口可能还会发生变化；它周围的软件是它的不足之处。该应用程序失去了扬声器，分组与你战斗，自动化遥不可及，传统的 S1 线路被冻结，而 S2 则继续移动
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: async, dlna, home-automation, interoperability, mcp, model-context-protocol
+
+---
+
 ## 🕔 2026-10-24 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 296 个候选项目中筛选出 6 个未推荐过的新项目。
