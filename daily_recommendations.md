@@ -1,3 +1,67 @@
+## 🕔 2026-10-25 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 198 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [windmill](https://github.com/windmill-labs/windmill)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 18,264
+- **核心概述**: 适用于工作流程、应用程序和 AI 代理的代码优先平台，位于最快的自托管编排器上（以 Airflow、Prefect 和 Temporal 为基准）。业务团队使用人工智能进行构建，工程师控制运输内容。 Lovable、Retool 和 n8n 的开源替代品。
+- **大概是做什么的**: 适用于工作流程、应用程序和 AI 代理的开源、自托管代码优先平台，在最快的自托管协调器上运行。工程师用 20 多种语言编写代码并将其与 Git 同步。业务团队在与人工智能相同的平台上构建，而环境之间的审查、晋升和隔离的工作人员使工程师能够控制所运送的内容。 Lovable、Retool、n8n 和简化的 Temporal 的自托管替代方案。脚本会自动转换为可共享的 UI、API 和 cron 作业，并且可以组合成流程、数据管道、AI 代理或全代码 React 和 Svelte 应用程序。支持的语言：Python、TypeScript、Go、Bash、SQL、GraphQL、PowerShell、Rust 等。尝试一下 - 网站 - 文档 - Discord - 中心 - 贡献 Windmill - 适用于工作流程、应用程序和 AI 代理的代码优先平台 Windmill 是完全开源的 (AGPLv3)，Windmill Labs 提供专用实例以及商业支持和许可证。 https://github.com/user-attachments/assets/d80de1d9-64de-4d89-aacd-6df23fa81fc4 - Windmill - 适用于工作流程、应用程序和 AI 代理的代码优先平台 - 使用 AI 构建
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, airflow-alternative, internal-tools, open-source, orchestration, postgresql
+
+---
+
+### 🌟 [Papermorph](https://github.com/DozenTwelve/Papermorph)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 932
+- **核心概述**: 一种人工智能技能，可将书籍转变为动画、叙事、交互式网络体验
+- **大概是做什么的**: 克劳德代码技能，可将教科书变成带叙述的交互式网络课程，将故事变成纸偶电影，将书籍变成带叙述的纪录片。打开实时书架 → 你给它 你得到 在书架上 一本教科书 PDF（数学） 公式和图表随着旁白的解释逐步变化的课程，通过快速检查和章节练习对数学进行评分，而不是字符串 初等代数（68 章），初等数学（23） 一本教科书 PDF（科学） 带有表演角色和摄影工作的插图场景，以及相同的测验 初级物理（9 章和一个示例）一个故事、一个笑话或一个童话故事 一部由代码绘制或由图像模型绘制的布景前的纸偶短片，带有声音��字幕、音效和音乐 笑话集（7 集），小红帽 一本书或一个想法 公共领域版画、绘画和地图的叙述性纪录片，与声音同步移动，有音乐 疯狂与文明（10 分钟） 一切都是静态网页：没有服务器、没有数据库、没有帐户。书籍是您可以托管的文件夹
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-education, animation, claude, claude-code, claude-skills
+
+---
+
+### 🌟 [Agenvoy](https://github.com/pardnchiu/Agenvoy)
+- **项目语言**: Go
+- **星标数量**: ⭐ 525
+- **核心概述**: Go 中的本地 AI 代理工具，使用自动构建的工具、MCP 和 Ollama 24/7 运行
+- **大概是做什么的**: 让人工智能在您的计算机上完成工作——不仅仅是说说而已 Agenvoy 是一个开源、自托管的 24/7 个人人工智能代理，可以在您自己的计算机上运行——您的内存、日程安排、工具和凭证都保留在本地。从实时研究和文件工作到自动化，它采取行动并在单个 Go 二进制文件中提供结果；通过 MCP，它与 Claude Code、Codex 和其他代理共享沙盒工具。台湾开发的 AI Agent Harness Agenvoy 是一款由 Pardn Chiu 开发的台湾 AI Agent Harness，旨在将对话转化为计算机上已完成的工作。它在一个工作流程中协调模型、上下文、工具、实时数据、任务路由、内存、计划和执行，同时保持对文件和环境的控制。通过Web界面，它还支持自然语音的免提语音交互、唤醒词检测和可中断的语音回复；完整的结果仍然可以在聊天中找到。聊天可以给你答案；工作需要结果。当您重新执行任务时，Agenvoy 将请求分解为步骤、调用工具并在您的计算机上交付结果
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai, ai-agent, ai-agents, ai-assistant, claude-code
+
+---
+
+### 🌟 [phibrowser-mac](https://github.com/phibrowser/phibrowser-mac)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 300
+- **核心概述**: 适用于 macOS 的现代浏览器。代理、本地优先、原生 Swift、Chromium 驱动
+- **大概是做什么的**: 适用于 macOS 的 AI 浏览器。代理、本地优先、原生 Swift。 Phi 是一款基于 Chromium 的浏览器，构建为真正的原生 macOS 应用程序 (AppKit + SwiftUI)，具有在页面中运行的 AI 代理、位于您可以读取的文件中的内存，以及完全在您自己的计算机上运行 AI 的选项。它是为新事物而构建的：一个人和一个人工智能代理可以在同一个窗口和同一个会话中一起使用的浏览器，每个人都是一流的用户。如果这是你喜欢的事情，⭐ 会有很大帮助。它有何不同 - 专为生活在浏览器中的人们而设计。 Phi 是一款适合全天大量使用的日常浏览器，它可以提高工作效率。它的构建也是为了让人工智能代理可以在你身边工作：在同一个窗口和同一个会话中查看你正在做什么，将线程向前推进，然后将其返回，而不是封闭在沙箱中。 - 简单，直到您想要更多。 Phi 作为一个干净的选项卡式浏览器打开，在 macOS 上感觉很自在，在您伸手去拿之前没有任何障碍。然后它展开：空间、配置文件、分割视图、选项卡组、URL 规则、键盘
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-browser, browser, chromium, local-first
+
+---
+
+### 🌟 [openai](https://github.com/anasfik/openai)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 664
+- **核心概述**: 适用于 Dart 和 Flutter 的非官方 OpenAI SDK。完整的 API 覆盖 + OpenAI 兼容提供商（Azure、DeepSeek、LM Studio、Ollama）：响应、聊天、实时、视频、批量、微调。
+- **大概是做什么的**: 适用于 OpenAI API 的非官方 Dart/Flutter SDK。每个主要 API 表面的类型化客户端：响应、聊天完成、实时、视频、批量、微调、矢量存储、评估、管理等等。在每个平台上编译和运行：Android、iOS、macOS、Linux、Windows、Web 和服务器端 Dart。由 Anas Fikhi (@anasfik) 维护。更喜欢全局外观？它仍然有效：多个客户端和兼容的提供程序每个 OpenAIClient 都拥有其配置。并���运行多个帐户、Azure 资源或兼容 OpenAI 的提供程序，无需全局状态：可与实现 OpenAI 有线格式的任何提供程序配合使用：DeepSeek、LM Studio、Ollama、Groq、Together、Azure OpenAI 网关等。一个 SSE 引擎支持每个流端点。它在 [DONE] 上关闭，从不重复事件，并将错误作为异常显示而不是吞掉它们。响应 API 事件：聊天完成增量：图像在渲染 ( createStream ) 时发出部分结果，并且存储的完成支持检索和列表。响应（包括流式、紧凑） client.responses Chat Comp
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, batch-api, chatgpt, dart, dart-library, dart-package
+
+---
+
+### 🌟 [Prefire](https://github.com/BarredEwe/Prefire)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 526
+- **核心概述**: 🔥 基于 Xcode Preview 的库，可轻松生成：Playbook 视图、快照和辅助功能测试。支持 SwiftUI 和 UIKit！
+- **大概是做什么的**: Prefire 将您已经编写的预览块转换为测试、目录和图像，无需额外代码。每次预览都会成为您选择的设备上的快照测试。在用户之前发现视觉回归。组件和用户故事的交互式目录，包含状态和渲染时间。生活文档。 Claude Code、Cursor 和 Codex 通过 MCP 服务器在任何 iPhone 或 iPad（浅色或深色）上渲染预览。 🤖 使用人工智能代理？ brew install barredewe/prefire/prefire ，然后 claude mcp 在您的项目中添加 prefire -- prefire mcp 。该代理可以在任何 iPhone 或 iPad（浅色或深色）上呈现 SwiftUI 预览，而无需 Xcode 预览。设置 → - 🧠 智能预览解析 — 包括预览、@Previewable - 📸 快照测试 — 从预览自动生成测试（iOS、tvOS、macOS） - 📚 Playbook 视图 — 自动生成的交互式组件目录 (iOS) - 🏃 流程感知 — 从多个预览步骤构建用户故事 - 🤖 AI 就绪 — 通过预触发渲染和 MCP 服务器将预览渲染为 PNG 代理 - 🧩 UIKit + AppKit 支持 — 支持 UIView / UIViewController
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accesibility-tests, ai-agents, claude-code, ios, mcp, playbook
+
+---
+
 ## 🕔 2026-10-25 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
