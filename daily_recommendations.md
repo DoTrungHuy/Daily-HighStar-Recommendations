@@ -1,3 +1,67 @@
+## 🕔 2026-10-25 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [curator](https://github.com/bespokelabsai/curator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,751
+- **核心概述**: 用于训练后和结构化数据提取的综合数据管理
+- **大概是做什么的**: 用于训练后的批量推理和可扩展数据管理 [2026.10.12] Nimble 的数据是使用 Curator 进行管理的。尝试 console.bespokelabs.ai 上的托管 API 服务。 [2026.06.09] Fireworks AI 集成进行微调：使用 FireworksTrainer 在 Fireworks AI 上运行托管监督微调 (SFT) — 上传精选数据、训练 LoRA，并从与 Tinker 相同的训练器界面后面的已部署模型中进行采样。 [2026.03.14] Tinker 集成进行微调：使用 Tinker SDK，通过几行 Python 从精选数据转变为 LoRA 微调模型。 [2025.12.05] 推出 OpenThoughts-Agents，其数据使用 Curator 进行管理。 [2025.04.09] 与 HuggingFace 和 Together.ai 联合发起推理数据集竞赛。赢取价值 5000 美元的奖品！ [2025.04.03] 我们使用 Bespoke Curator 创建 OpenThoughts2-1M 数据集，用于训练性能优于 DeepSeek-R1-32B 的 OpenThinker2-32B。该数据集开始在 HuggingFace 上流行。 [2025.03.12] 新增 Gemini Batch 支持：Gemini Batch API 极具挑战性，我们让它变得更简单！ :) [2025.03.05] 克劳德 3.7 太阳
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, deep-learning, fine-tuning, instruction-tuning, llm, machine-learning
+
+---
+
+### 🌟 [Semantic-Anchors](https://github.com/LLM-Coding/Semantic-Anchors)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 524
+- **核心概述**: 包含 230 多个语义锚点的精选目录：定义明确的术语，例如 arc42、TDD London School 或 TracerBullet，可激活法学硕士中深刻、一致的知识。在提示、技能和代理指令中使用它们，而不是自己拼出方法。
+- **大概是做什么的**: = LLM 的语义锚 == 🚀 探索目录 通过交互式可视化、搜索和基于角色的过滤浏览 230 多个语义锚的完整目录： 🌐 https://llm-coding.github.io/Semantic-Anchors/[访问语义锚网站] == 什么是语义锚？语义锚是定义明确的术语、方法和框架，在与大型语言模型 (LLM) 通信时充当参考点。 They act as shared vocabulary that triggers specific, contextually rich knowledge domains within an LLM's training data.示例：您可以简单地说“TDD，伦敦学派”，而不是解释“在代码之前编写测试、使用模拟、从外到内的设计”，法学硕士会激活其有关该方法的全部知识。 🎯 精度 :: 通过引用已建立的知识体系来减少歧义 ⚡ 效率 :: 用最少的符号传达丰富的上下文 🔄 一致性 :: 确保法学硕士按预期解释概念 🧠 深度 :: 用一个术语激活多个相互关联的概念 == 🤖 使用本地法学硕士的锚点 大多数前沿法学硕士已经认识到
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, claude-code, llm, prompt-engineering
+
+---
+
+### 🌟 [DeepSeekBot](https://github.com/BotHarness/DeepSeekBot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 311
+- **核心概述**: Open-source GrokBot alternative built on DeepSeek Harness. Build your personal bot team: multiple personal agents with persistent memory, identities and permissions, extensible through DSH plugins.｜基于 DeepSeek Harness 的开源 GrokBot 平替：有长期记忆的个人 AI Bot 团队，支持多 Bot 协作、身份权限与插件生态扩展。MIT.
+- **大概是做什么的**: Tobs（托布）：开源的 GrokBot 平替。一组有各自身份、人格和记忆的 bots，一起做事。 官网 · 宣传片 · 安装 · 能力 · 版本亮点 · 与 DS Bot 的区别 · 社区 · 文档 3 分钟看懂 Tobs：一组有身份、人格和记忆的 bots，在小镇里一起做事。视频录制时仍使用旧名 DeepSeekBot；点击封面即可播放。 Tobs（托布）是 BotHarness 开发的 MIT 开源 GrokBot 平替，作为插件运行在 DeepSeek Harness（DSH）里。你可以创建几个分别负责研究、写作或写代码的 Bot，像和同事一样私聊、拉群、派活；它们记得你，会按时做事，还能在 Slack、Discord、飞书 / Lark、QQ 和微信里以自己的身份回你消息。 模型用你在 DSH 里配置的服务商和额度；Bot 需要在后台持续工作时，运行 DSH 的电脑要保持在线。它和名字很像的 DS Bot（npm ds-bot ）是两个独立项目，区别见下文。 Tobs（托布）原名 DeepSeekBot 。已有用户仍可使用 deepseekbot npm 包和命令；新用户请安装 @botharness/tobs ，使用 tobs 命令。 按安装指南复制当前已验证的安装命令，在 DeepSeek Harness 桌面端安装并启用，侧栏就会出现「Bot 模式」。还没装 DSH？先下载桌面端。 命令行安装、版本说明和常见问题见官网安装指南。 你想要 Tobs 怎么帮你 -------------------------- --------------------------------------------------------------------------------------------------------------------------- 一支自己的 AI 小团队 创建研究员、设计师、工程师等 Bot，每个都有名字、人格和像素头像，换个对话也还是同一个它。 让 Bot 记住你 Bot 会记下你的偏好和项目背景，下次直接接着干；记忆随时能翻看、纠正，也能同步到别的电脑。 多个 Bot 一起干活 把 Bot 拉进群聊，需要谁就 @ 谁；大一点的任务可以交给 Bot 单独去做，做完交回报告，需要你拍板时会提醒你。 在常用的聊天软件里找它 把 Bot 接入 Slack、Discord、飞书 / Lark、QQ 和微信，在群里 @ 它或私聊，它就在原处用自己的身份回复；微信私聊里还能收发文件。 定时做事 说一句「每天早上 9 点给我发日志摘要
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agent, bot-marketplace, deepseek, deepseek-bot, deepseek-harness
+
+---
+
+### 🌟 [acryl](https://github.com/acryldev/acryl)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: ACRYL - 代理上下文中继产生生命周期。一个持久工作区、一个规范上下文、任何编码代理。
+- **大概是做什么的**: ACRYL - 您的代理所在的开发环境 ACRYL 是您的代理的活代理开发环境和运行时 - 无限地适应您，您可以从内到外塑造、扩展和成长为任何工作流程、任何想法，其中一切都是插件。带上任何编码代理，它作为可替换的工作人员插入，并且每个决策、差异和会话都可以在交换后保留下来。 ACRYL 正处于积极的早期开发阶段。当第一个公共基金会建立时，界面、工作流程和包装可能会发生变化。您不再使用一种编码代理。你可以使用 Claude Code 来完成这个任务，使用 Codex 来完成那个任务，使用终端代理来进行快速修复——每次切换都会花费你的上下文、设置和工作线程。 ACRYL 颠覆了这种关系。您的项目不是驻留在一个代理的聊天中，而是代理驻留在您的项目中：Claude Code、Codex、OpenCode、Pi、Gemini CLI、DeepSeek Harness 代理、ACP 兼容代理、普通 PTY 工具 — 甚至是不知道 ACRYL 存在的代理。他们是可替换的工人，进入和离开一个持续的开发场景。亚克力拥有
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acryl, agent-context-relay, agentic, agentic-ai, agentic-coding, agentic-development-environment
+
+---
+
+### 🌟 [Octopus-SI-OS](https://github.com/miuuyy/Octopus-SI-OS)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 328
+- **核心概述**: 一个自我进化的代理操作系统。一种新的代理执行架构，基于操作系统原理构建，利用该架构作为通向超级智能的途径。
+- **大概是做什么的**: 章鱼超级智能操作系统 一种自我进化的代理操作系统。一种新的代理执行架构，基于操作系统原理构建，代理可以重塑其环境和自己的工作轨迹。八达通以众所周知的方式运行代理：它们读取和写入您的文件、驱动浏览器、使用您的桌面、调用您的应用程序和帐户。您可以通过文字或语音与它交谈。区别在于它们运行的​​内容。您永远不必怀疑它是否可以做某事。如果允许的话，它就可以，而当它还不能时，它可以自己构建缺失的部分。在底层，它的架构为代理提供了执行的结构以及自身和世界的图片。功能不是固定在循环上的附加组件。它们是该架构中的契约，因此系统可以向任何方向发展——连接新的东西，赋予自己新的意义，重写自己。模型和代理循环都不位于中心。内核大约有 45,000 行 Rust；其他一切都移植到它上面，从 Codex 开始：使用 ChatGPT 登录，Codex CLI 作为一个运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agentic-os, ai-agents, chatgpt, codex, computer-use
+
+---
+
+### 🌟 [magda-core](https://github.com/Conceptual-Machines/magda-core)
+- **项目语言**: C++
+- **星标数量**: ⭐ 248
+- **核心概述**: 音乐制作的开放生态系统。
+- **大概是做什么的**: 多代理数字音频 MAGDA 是一款免费的开源 DAW，从头开始集成了 AI。基于 C++23、JUCE 和 Tracktion 引擎构建。 - English 简体中文 - 混合轨道：每个轨道都包含音频和 MIDI 剪辑 - 三种视图：编曲、会话和混音 - AI 聊天：直接在应用程序中生成和执行自定义 DSL 的自然语言命令（BYOAK，自带 API 密钥） - 调制系统：每个设备和机架 16 个 LFO（带贝塞尔曲线编辑器）和 16 个宏旋钮 - 机架：具有音量、平移、静音，每链独奏，完全可嵌套 - 带弯音和 MIDI CC 通道的钢琴卷帘 - 鼓网格设备 - 带剪辑启动的会话视图 - 带推���、平移、静音、独奏、发送和 I/O 路由的混音器 - 可折叠、可调整大小的面板：检查器 + AI 聊天（左）、插件浏览器 + 样本浏览器（右）、上下文相关编辑器（下） - 网站：magda.land - YouTube：介绍视频 - KVR：产品页面- 问题：错误报告和功能请求 请参阅问题以了解已知错误和计划的功能。 - C++23 编译器和标准库：GCC 13+、Clang
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, audio-plugin, cpp23, cross-platform, daw
+
+---
+
 ## 🕔 2026-10-25 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
