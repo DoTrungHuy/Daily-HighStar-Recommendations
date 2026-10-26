@@ -1,3 +1,67 @@
+## 🕔 2026-10-26 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Paradev](https://github.com/ParadevAI/Paradev)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 15,580
+- **核心概述**: Paradev（以前称为 Superset）是一个代理 IDE，可以并行编排 100 多个编码代理。使用您自己的订阅运行任何代理。
+- **大概是做什么的**: 在一个工作区中使用终端、代码审查和浏览器预览运行 Claude Code、Codex 或其他 CLI 代理。代理文档 这些文档可作为链接到各个页面或一个全文文件的 Markdown 索引提供。 - macOS：Apple Silicon (.dmg) · Intel (.dmg) - Linux：x64 AppImage（实验性；macOS 是主要目标） - Windows：尚不可用 您需要安装的只是 Git。 gh 是可选的，可启用 PR 工作流程； Paradev 愿意为您安装。 1. 安装 Paradev 并从您的计算机添加存储库或克隆存储库��� 2. 创建一个工作区，选择您的 CLI 代理，并描述您想要进行的小更改。 3. 在 Changes 中检查其补丁，运行相关测试，并在提交之前在浏览器窗格中预览您的应用程序。有关工作区创建和查看的演练，请参阅您的第一个并行会话。 - 更改应用程序的用户界面。使用浏览器窗格中的“设计”来选择一个元素，并将您请求的更改发送给具有元素上下文的代理。演练·设计模式文档 - 要求代理修复 PR。打开 Pull requests → Code ，选择 diff li
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, agent, agent-orchestration, ai-agents, ai-coding, claude-code
+
+---
+
+### 🌟 [dossier](https://github.com/AienTech/dossier)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 528
+- **核心概述**: 一个自托管的求职应用程序，可以根据您的个人资料编写量身定制的简历和求职信。
+- **大概是做什么的**: 您的求职，在您自己的服务器上：一份个人资料、针对每份工作的定制简历和求职信，以及从草稿到录用通知的每一份申请的跟踪。档案将您的职业经历保存在一个档案中，并将其变成一份干净的简历。对于您申请的每一份工作，它都会读取招聘信息，显示您的匹配情况，并起草一份量身定制的简历和求职信，这些简历和求职信仅使用您个人资料中的事实。您可以在聊天中完善它们，将它们下载为 PDF，并跟踪每个申请从草稿到报价的整个过程。它适用于一台小型服务器上的一��人：一个密码、您自己的 PostgreSQL 数据库中的数据以及您选择的 AI 模型。这可以是通过 Ollama 或 LM Studio 的本地模型，因此您的配置文件和文档保留在您自己的硬件上，也可以是托管的硬件（任何 OpenAI 兼容的 API、Anthropic 或 Mistral），然后由托管的硬件接收其写入的内容。隐私说明什么去哪里。开始使用：几分钟内在您的计算机上运行它，或者在服务器上自行托管它。安装指南涵盖了各种方式：带或不带 Compose 的 Docker、Node.js、普通 Ubuntu 服务器、CapRover、Coolify 和 Dokploy。记录与 t
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: caprover, cover-letter, docker, job-application-tracker, job-search, llm
+
+---
+
+### 🌟 [WindowsAgentArena](https://github.com/microsoft/WindowsAgentArena)
+- **项目语言**: Python
+- **星标数量**: ⭐ 912
+- **核心概述**: Windows Agent Arena (WAA) 🪟 是一个可扩展的操作系统平台，用于多模式 AI 代理的测试和基准测试。
+- **大概是做什么的**: Windows Agent Arena (WAA) 🪟 是一个可扩展的 Windows AI 代理平台，用于测试和基准测试多模式桌面 AI 代理。 WAA 为研究人员和开发人员提供了用于 AI 研究的可重复且真实的 Windows 操作系统环境，可以在各种任务中测试代理 AI 工作流程。 WAA 支持使用 Azure ML 云基础设施大规模部署代理，允许并行运行多个代理，并在几分钟（而不是几天）内为数百个任务提供快速基准测试结果。 - 2024 年 11 月 10 日：我们为 Windows Agent Arena 添加了新的难度模式！您可以通过将 src/win-arena-container/start client.sh 中的默认 diff lvl="normal" 更改为 diff lvl="hard" 来尝试新的更难难度模式。在更困难的情况下，在许多任务中，代理还必须学会自己初始化/设置任务（例如，找到并打开任务的正确程序/应用程序），而不是通过任务配置为他们“设置”任务。 - 2024 年 10 月 30 日：我们发布了带有 Omniparser 的 Navi 代理代码！对于表现最佳的机器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai, ai-agent, ai-benchmark, ai-research, computer
+
+---
+
+### 🌟 [frankenterm](https://github.com/Dicklesworthstone/frankenterm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 125
+- **核心概述**: 用于 AI 编码代理的 Swarm 本机终端平台：实时窗格捕获、变化点模式检测、事务策略门控自动化、JSON/MCP 机器人 API 和故障关闭操作信封 - 在其自己供应的终端引擎上，以及连接到 Mac 的本机 iOS 客户端。
+- **大概是做什么的**: 如果您... 从尝试开始 10 分钟教程 → 命令 → 机器人模式 构建元代理 机器人模式 → 任务/Tx 合同示例 → 操作范围 大规模运营 容量规划 → 操作手册 → 故障排除 了解其工作原理 架构 → 系统组件 → 深入探讨 审计声明 信任与证明 → 威胁模型 → 形式化方法 阅读算法 算法和数据结构目录 → 模式引擎 → Cx 取消模型 群原生终端平台旨在观察、控制和审核大量并发人工智能编码代理。保留的 200 个窗格数据是综合基准车道结果，而不是合格的本机或目标级操作范围。 83 个工作区 crate、19 个从核心中划分出来的子 crate、536 个核心库模块、1346112 + 行 Rust、60535 + 跨 1042 个集成测试文件的测试注释。计数由 script/stamp-readme-counts.sh 自动标记并快速漂移。请参阅维护者：计数如何在底部保持诚实以获取确切的配方。开发人员检查默认使用实时工作树；相对
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, automation, ios, mcp, observability
+
+---
+
+### 🌟 [exograph](https://github.com/exograph/exograph)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 351
+- **核心概述**: 在几分钟内构建生产就绪的后端
+- **大概是做什么的**: Exograph 是一种声明式方式，用于创建灵活、安全且高性能的后端，提供 GraphQL 查询和变异 API。 Exograph 可让您专注于域模型和业务逻辑，从而使您能够在应用程序上进行更多创造性的工作。请按照入门指南开始操作。有关更多信息，请参阅 Exograph 文档。查看 Exograph 示例存储库中的示例项目，探索 Exograph 如何融入 Next.js、Apollo、Urql、Auth0、Clerk、Tailwind 等技术。如果您想在���地构建 Exograph，请参阅 DEVELOPMENT.md。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: access-control, api, authorization, awslambda, cloudflare-workers, deno
+
+---
+
+### 🌟 [deepl-mcp-server](https://github.com/DeepL/deepl-mcp-server)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 119
+- **核心概述**: 模型上下文协议 (MCP) 服务器，使用 DeepL API 提供翻译功能。
+- **大概是做什么的**: 为了获得最佳体验和最新功能，请查看 DeepL 远程 MCP 服务器，以便在您的 AI 代理中使用 DeepL。无需安装，只需将其添加到 Claude、ChatGPT、Microsoft Copilot 或任何 MCP 客户端并使用您的 DeepL 帐户登录即可。 Working in a terminal or with a coding agent?尝试 DeepL CLI。它涵盖翻译、文档、术语表以及与 API 密钥同步的 i18n 文件。 A Model Context Protocol (MCP) server that exposes DeepL text translation, document translation, rephrasing, and glossary and style rule lookups as MCP tools.您需要 Node.js 18 或更高版本以及 DeepL API 密钥。选择一个 API 计划并在您的 DeepL 帐户中创建密钥。服务器通过 stdio 进行通信，因此通常由 MCP 客户端启动，而不是手动启动。直接尝试：如果未设置 DEEPL API KEY，它会立即退出。要在服务器本身上工作：在服务器环境中使用 DEEPL API KEY 将其注册为 stdio 服务器。 In Claude Code: For clients configured through a JSON file: Where that file lives and how each client expects local stdio servers to be declared: To run a local
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: api, deepl, i18n, language, mcp, model-context-protocol
+
+---
+
 ## 🕔 2026-10-26 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 236 个候选项目中筛选出 6 个未推荐过的新项目。
