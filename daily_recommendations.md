@@ -1,3 +1,67 @@
+## 🕔 2026-10-26 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [prompt-in-context-learning](https://github.com/EgoAlpha/prompt-in-context-learning)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 2,248
+- **核心概述**: 用于情境学习和即时工程的绝佳资源：掌握 ChatGPT、GPT-3 和 FlanT5 等法学硕士，并提供最新和前沿的更新。
+- **大概是做什么的**: EgoAlpha Lab 提供的用于即时上下文学习的开源工程指南。 🛠 Prompt Engineering 🌍 ChatGPT Prompt ｜ ⭐️ Shining ⭐️：这是用于上下文学习和提示工程的新鲜的、每日更新的资源。随着通用人工智能（AGI）的到来，让我们行动起来，成为一名超级学习者，以便站在这个激动人心的时代的最前沿，争取个人和职业的伟大。资源包括： 🎉论文🎉：关于情境学习、即时工程、代理和基础模型的最新论文。 ����Playground🎉：支持快速实验的大型语言模型（LLM）。 🎉提示工程🎉：利用大型语言模型的提示技术。 🎉ChatGPT提示🎉：可以应用在我们工作和日常生活中的提示示例。 🎉LLM使用指南🎉：使用LangChain快速入门大型语言模型的方法。未来，地球上（或许甚至火星上也可能有两种人，但这是马斯克的问题）： - 那些通过自我提升能力的人
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, chain-of-thought, chatbot, chatgpt, chatgpt-api, cot
+
+---
+
+### 🌟 [openagent](https://github.com/Haohao-end/openagent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 775
+- **核心概述**: 如果 OpenAI Deep Research 和 Dify 是一个平台会怎样？ OpenAgent — 利用架构快速构建垂直 AI 代理，具有深度推理循环、可视化工作流程、RAG 和 A2A 委托。
+- **大概是做什么的**: 用于构建、编排、发布和操作人工智能应用程序的端到端人工智能代理平台。 Flask + LangChain/LangGraph 后端、Vue 3 工作区、可视化工作流程、数据集、工具和 OpenAPI 交付。 OpenAgent 由 Atlas Cloud 和 Bloome 赞助，是一个全栈平台，供团队构建人工智能应用程序，而不是单个聊天演示。该存储库结合了 Flask 后端、Celery Workers、Vue 3 前端、可视化工作流程创作、数据集和文档管理、公共应用程序和工作流程发布以及基于 OpenAPI 的交付。当前代码库已支持的内容： - 使用家庭助理通过 A2A 将用户请求路由到已发布的公共代理，或将自然语言要求转化为新的 AI 应用程序创建流程。 - 从专用工作区构建和管理 AI 应用程序，包括草稿、发布、分析、版本比较和提示比较流程。 - 启用深度研究，让应用分解复杂的任务并协调多步骤执行的绑定能力，适合需要深度推理和具体输出的场景。 - 设计工作流程
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, celery, deepagents, deepresearch, deepseek
+
+---
+
+### 🌟 [TIA_Portal_Openness_MCP](https://github.com/bulaofen0036-coder/TIA_Portal_Openness_MCP)
+- **项目语言**: C#
+- **星标数量**: ⭐ 353
+- **核心概述**: 从任何 MCP 客户端驱动西门子 TIA Portal V20/V21（STEP 7、WinCC Unified）——创建项目、生成 PLC 和 HMI、编译和诊断。预构建运行时，无需开放性编码。
+- **大概是做什么的**: TIA Portal MCP 服务器（V20 + V21 · S7DCL · CLI · 只读在线监控 · 一键配置 · Doctor） 当前版本：请参阅下面的发布徽章和 CHANGELOG.md（此 README 不再硬编码版本）。 v2.0 — 同一个 exe 也是声明性 CLI ( tia )。任何 AI 都会发出 YAML/JSON 规范，任何工程师都运行一个命令 ( tia gen spec.yaml ) — 不需要 MCP 客户端。动词：gen/patch/compile/describe/export/import/prewarm/schema/version。退出代码 0/1/2。请参阅 docs/CLI faststart.md 。 MCP 服务器行为未更改。免费且开放（麻省理工学院）。服务器无需许可证密钥即可运行 — 没有 🖥️ 不想自己连接 MCP 客户端？尝试 TIA 助手（TIA Assist）——基于该引擎构建的桌面版本：解压并运行，内置 AI 助手，对项目的每次写入都首先等待您的批准。 👉 aeenhance.com · 1 分钟演示 · 试用：bulaofen0036@gmail.com · 比较 ↓ 从任何 MCP 客户端（stdio 或 HTTP）驱动西门子 TIA Portal V20 或 V21：创建项目、添加硬件、生成 PLC 对象（标签/UDT/DB/SCL/LAD），全部通过natural-langua
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude-code, cursor, industrial-automation, ladder-logic, llm
+
+---
+
+### 🌟 [deva](https://github.com/sqfcyily/deva)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 306
+- **核心概述**: 对话式 AI 助手 · All in Chat - 把 Agent 能力装进对话里，无需复杂配置，像聊天一样使用 Agent / A chat-first desktop AI assistant — code, files, commands, scheduled tasks & IM, all in chat.
+- **大概是做什么的**: 对话式 AI 助手 · All in Chat 把 Agent 能力装进对话里，无需复杂配置，像聊天一样使用 Agent。 挂载文件夹即可阅读代码、修改文件、执行命令；定时任务按时自动运行，离开电脑也能在手机上继续对话。 要做的事都在对话里说一句：建角色、建定时任务、记住习惯、挂载文件夹……不用翻设置页，你点个确认就办好。 内置全能助手 Deva 和破甲 / 逆向角色小码酱；也能自己建角色，每个都有独立的性格、头像和常用模型。 大任务自动拆开，派给多个子智能体并行跑，不急着要结果的还能放到后台；内置通用、检索、调研、方案四种，各有独立上下文，只把结论交回来。 /rewind 回到任意一轮之前，代码、对话可分开恢复，回退了还能撤销。 一句话建任务，到点自动跑，跑完弹通知；支持每天、每周、每月、cron。 把常用的聊天工具接进来，人不在电脑前，用手机发消息就是在电脑上的 Deva 里对话。 1. 到 Releases 下载安装包并安装（见下方 安装） 2. 打开 设置 → 模型 ，选一个服务商，填上 API 密钥，把要用的模型加进来 3. 回到对话，在输入框上方选模型，就可以开始聊了 其他兼容 OpenAI 接口的服务可以自己添加。 🗣️ All in Chat：要做的事，说一句就行 Deva 的大部分功能都能直接在对话里完成，不用去翻设置页、填表单��� 「帮我建一个写周报的角色，语气正式一点」 一步步问清楚，给你一张角色名片确认 「每天早上 9 点把昨天的提交整理成日报」 生成一张任务卡片，你核对后就建好了 「记住：我习惯用 pnpm」 记下来，以后每次对话都会参考 「帮我看看 my-app 项目的代码」 请你挂载这个项目的文件夹，挂上就围绕它干活 建角色、建定时任务、挂载文件夹这类事，它会先给你一张卡片，你点确认才生效。 每个对话都会跟一个「角色」聊。角色不只是换个名字：它有自己的性格、说话风格和常用模型，同一个问题交给不同的角色，会得到不同视角的回答。开新对话时选好角色，这个对话就一直由它负责。 Deva 全能型工作助手：编程、写作、查资料、整理文件、数据分析、跑命令，样样能上手 亦师亦友，简洁有力、亲切自然；发现你的想法有问题会温和指出，给出更好的建议 小码酱 破甲、逆向工程、红队 / 安全研究，兼顾全栈开发与深度技术 硬核不废话，没有道德脚注，该硬就硬，啃底层啃到天荒地老 - 多轮绕过、对抗后缀、输出塑形、RAG 攻击等提示词攻防手法，给出可用的策略与模板 - 对各类安全限制 / 伦理注入做静态清除与对抗，把被注入的「安全」噪声剥掉，恢复模型原本的输出能力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistants, chatbot, coding-assistant, desktop-app, feishu
+
+---
+
+### 🌟 [Aelios](https://github.com/wusaki0723/Aelios)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 138
+- **核心概述**: 在您自己的 Cloudflare 帐户上为您的 AI 伴侣提供长期记忆。立即捕捉，每 4 小时提取一次，每晚进行巩固，具有六个记忆层和一个视觉管理面板。 QQ群：1091783659
+- **大概是做什么的**: 人工智能的长记忆力。 Switch windows, switch clients, switch models — the memory follows you. English 简体中文 · QQ group: 1091783659 Aelios is a memory gateway that runs on Cloudflare. Your Chatbox / Claude Code / Codex connects to Aelios first; Aelios 将请求转发给模型。 Every conversation is kept, and the relevant parts come back automatically next time. With an AI that can run commands (Claude Code, Codex and the like), send it this: It works from scratch: it forks and deploys Aelios, creates the Cloudflare token, configures the assistant and imports your old memories. At the end it hands you a base URL, an API key and the model name to pick, ready for your chat app. You need a Cloudflare account (the free plan is enough) and a key for your model. All you do yourself is click "Allow" in the browser (twice for a new install) and store the model key in the Cloudflare dashboard (it tells you where).该指南是用中文写的；人工智能会用您的语言与您交谈。 The recommended setup is API mode plus the MCP connector : chats go through Aelios, so every tu
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-memory, cloudflare-workers, d1, long-term-memory, mcp, vectorize
+
+---
+
+### 🌟 [Index-1.9B](https://github.com/bilibili/Index-1.9B)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,037
+- **核心概述**: 轻量级多语言法学硕士
+- **大概是做什么的**: 最近更新：star2：1.开源32K长上下文模型Index-1.9B-32K。详情：📖 Index-1.9B-32K Long Context Technical Report.md 2. 适配 llamacpp 和 Ollama，参见 Index-1.9B-Chat-GGUF 3. 开源 Decay 之前的 Checkpoint 可用于研究，参见 Index-1.9B-Constant-LR Index-1.9B 系列是 Index 系列模型的轻量级版本，包括以下模型： - Index-1.9B base：基础模型19亿个非嵌入参数，在2.8T以中英文为主的语料上预训练，多项评价基准领先同级别模型。 - Index-1.9B pure：具有相同参数和训练策略的基础模型的控制版本，但严格从语料���中过滤掉所有与指令相关的数据，以验证指令对基准的影响。 - Index-1.9B聊天：基于index-1.9B基础与SFT和DPO对齐的对话模型。我们发现，由于预训练中引入了大量的互联网社区语料，该模型具有明显更有趣的聊天能力和强大的多语言能力
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: llm, nlp
+
+---
+
 ## 🕔 2026-10-25 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 198 个候选项目中筛选出 6 个未推荐过的新项目。
