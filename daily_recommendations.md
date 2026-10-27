@@ -1,3 +1,67 @@
+## 🕔 2026-10-27 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sandstorm](https://github.com/deeplethe/sandstorm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,902
+- **核心概述**: 用于 AI 代理 microVM 的 Fork()。在大约 100 毫秒内从温暖的父级生成 100 个子级；在约 150 毫秒内对实时虚拟机进行分支。 KVM 隔离、快照 CoW。
+- **大概是做什么的**: 运作方式 · 数字 · 快速启动 · 状态 故意超售的沙盒车队。大多数代理沙箱大部分时间都闲置。 sandstorm 暂停一个空闲的沙箱，然后将其检查点到磁盘，并在请求到达时将其恢复。因此，一台机器拥有的沙箱数量远多于它能够继续运行的数量。每个沙箱都是一个 gVisor 容器，拥有自己的网络命名空间，而 sandstorm 则运行在普通的云虚拟机上：没有 KVM，没有嵌套虚拟化。在六台 2 核、每台 2 GB 的云计算机上，内存中保存了 431 个沙箱，Sandstorm 运行了 18,290 。每个沙箱都位于四层之一。当它保持空闲状态时，它一次会下降一层，并且任何请求都会将其直接恢复为热状态。层 所在位置 保存内存 返回热热运行 是 - 冻结暂停到位 ( cgroup.freeze )；它的冷页被挤进 zswap 大约 10 毫秒的快照检查点到节点的磁盘；它的网络命名空间没有释放 0.2 秒，仅分离了它的卷，没有冷启动 - 一个主节点，多个节点。主服务器在 SQLite 中保留所需的状态并决定放置。主设备连接到一个
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, copy-on-write, kvm, microvm, rust, sandbox
+
+---
+
+### 🌟 [builder](https://github.com/HeyPuter/builder)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 304
+- **核心概述**: 📦✨ 用于创建网站和应用程序的 AI Builder！ Lovable、Replit、v0 和类似平台的开源替代品。
+- **大概是做什么的**: 用于创建网站和应用程序的 AI Builder！使用人工智能构建网站和应用程序，无需编写任何代码。 AI Builder 是 Lovable、Replit、v0 和类似平台的开源替代品，根据 Apache License 2.0 获得许可，以确保开发人员的自由和灵活性。分叉它，定制它，让它成为你自己的！ AI Builder 使用 Puter.js 提供您的项目可能需要的一切；从身份验证、存储和数据库到无服务器功能、托管和实时功能，所有这些都无缝集成，无需任何额外设置。从一个想法变成一个在浏览器中运行的网站或应用程序。 AI Builder 将创作、编辑和发布集于一处。 - 使用人工智能构建：用简单的语言描述您想要的内容，并将其转变为网站或应用程序，无需编码或任何技术知识。 - 安全且可扩展的应用程序：基于 Puter 的开源互联网操作系统技术构建，您的应用程序将安全运行并轻松扩展，无需您管理基础设施或 API 密钥。 - 包括电池：身份验证、存储、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-builder, app-builder, base44, bolt, claude-code
+
+---
+
+### 🌟 [OpenAgentd](https://github.com/lthoangg/OpenAgentd)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 213
+- **核心概述**: 适用于本地编码代理的开源桌面应用程序。观察每个工具调用、差异和终端命令。带上自己的模型；会话保留在您的计算机上。
+- **大概是做什么的**: OpenAgentd 是一个桌面应用程序，用于在您自己的计算机上运行编码代理。您给它一个文件夹和一个任务。它计划、读取、编辑、运行您的测试，并向您显示每一步：每个工具调用及其参数和时间、每个差异以及每个回合的成本。您可以在中途驾驶它，在提交之前检查其更改，并使用您已有的模型和密钥。真实的会话，未经编辑：代理向小型 Bun 服务添加了速率限制，运行套件，并保留未提交的更改以供审核。 - 屏幕外什么也没有发生。工具调用、推理、shell 输出、文件编辑、待办事项、令牌和成本流到一份记录中。当您只想要结果时，可以使用阅读器模式将其折叠为仅答案。 - 您决定代码何时更改。计划模式探索只读并编写您可以评论的计划，然后批准。在代码模式下，您可以转向、排队或停止正在运行的转弯。 - 专为真实存储库而设计。 Git 更改、历史记录和图表、工作树、真实终端、Web 应用程序的实时预览以及编辑后的语言服务器诊断。 - 你的模型，你的钥匙。 19+ 提供商，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai, ai-coding-assistant, coding-agent, desktop-app, llm
+
+---
+
+### 🌟 [Aquilum](https://github.com/Freaction/Aquilum)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 256
+- **核心概述**: 适用于 Windows 的快速本地优先 Markdown 知识库，具有实时预览、搜索、图形、数据视图、图书阅读器和 MCP
+- **大概是做什么的**: 适用于 Windows、macOS、Linux 和 Android 的快速、本地优先的知识库。磁盘上的纯 Markdown，带有专注的编辑器、即时搜索、链接、查询和内置图书阅读器。如果 Aquilum 对您有用，请 ⭐ 为存储库加注星标——它可以帮助其他人找到该项目。您的知识归您所有 Aquilum 打开您选择的文件夹并直接使用其中的 .md 文件。不需要帐户、专有笔记格式或云数据库。注释和附件在其他工具中仍然可用，您可以备份它们或将它们与您信任的任何服务同步。桌面界面是原生的：它是在 Masonry、winit 和 vello cpu 上用 Rust 编写的，没有 WebView，磁盘访问、索引、搜索和查询也在 Rust 中运行。其结果是一个响应式工作空间，将其真实来源保留在您的计算机上。 1. 返回同一工作区 Aquilum 恢复笔记周围的工作上下文，而不仅仅是上次打开的文件。可重新排序的选项卡、后退和前进导航以及文档树让您可以在多条思路之间移动而不会丢失任何内容
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aquilum, crdt, knowledge-base, local-first, markdown, mcp
+
+---
+
+### 🌟 [captain-claw](https://github.com/kstevica/captain-claw)
+- **项目语言**: Python
+- **星标数量**: ⭐ 180
+- **核心概述**: 指挥一支人工智能代理队伍，分布在每一个甲板、每张桌子、每只手腕上。自托管多代理平台，配有内存、编码管道、Flows、团队信息亭和语音设备。任何法学硕士，或 100% Ollama 本地人。
+- **大概是做什么的**: 指挥一队人工智能代理——在每一个甲板、每张桌子、每只手腕上大多数人工智能工具都在聊天框中为你提供一个代理。 Captain Claw Flight Deck 是一个多代理指挥中心：派生专家团队，运行七种编排模式，使用代码交付软件（计划→构建→独立审查），并组成确定性流程。自托管，获得 MIT 许可，与各大 LLM 提供商合作，或 100% 与 Ollama 本地合作。从 0.8.2 开始，您的 Flight Decks 可以协同工作：您的 VPS 上的规划器向家里的 Raspberry Pi 上的研究人员询问，然后您通过实时地图观看请求。您的团队在信息亭工作；您只需与手表交谈即可。 🌐 网站 · 🚀 现场演示 · 📖 文档 · 📦 PyPI · 📝 0.8.2 发行说明 · 🛰️ BotPort 指南可协同工作的 Flight Decks  ·  7 种编排模式  ·  每个代理 57 个内置工具  ·  6 个共享内存层  ·  31 位现成专家  ·  完整的编码管道 ·  团队安全的平台和信息亭  ·  三个 M5Stack 语音设备  ·  您饲养的小生物
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-orchestration, agentic-coding, agentic-workflow, ai-agents, ai-assistants
+
+---
+
+### 🌟 [agent-native-agent](https://github.com/tykimos/agent-native-agent)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 128
+- **核心概述**: 您可以通过观看仪表板并与运行时的编码代理交谈来操作自托管应用程序 - 它实时建议、应用和改进应用程序。专为 Claude Code 和 MCP 构建。
+- **大概是做什么的**: ANA — Agent‑Native Agent ANA is an Agent‑Native Agent for Agent‑Native Lifestyle (ANL). It is a self‑hosted app you operate by watching a live dashboard and conversing with a coding agent that serves as the runtime.需要新的行为吗？ Ask once — ANA proposes the change, applies it on approval, and evolves the app at runtime. No PR, no ship step — the running agent rewrites the app live and the dashboard reloads.使用=构建。这就是整个想法。 Why Agent, Not Assistant An assistant waits for instructions. An agent uses judgment, executes, and improves the tools around your work. Every tool today still forces a trade‑off between using and building — ANA collapses that gap. SaaS / 应用程序 无代码 聊天机器人 编码代理 ANA --- :---: :---: :---: :---: :---: 立即使用 ✅ ✅ ✅ ❌ ✅ 更改任何内容 ❌ ⚠️ 收件箱 ❌ ✅ ✅ 查看您的实时数据 ✅ ✅ ⚠️ ⚠️ ✅ 在使用时更改 — 相同的对话 ❌ ❌ ❌ ⚠️ ✅ You fully own it (self‑host) ❌ ❌ ❌ ✅ ✅ SaaS is instant but frozen . Coding agents are infinitely malleable but build‑time only — you ship, then use. ANA makes using the app (talking) t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-native, agent-native-app, agentic, ai-agent, ai-agents, anthropic
+
+---
+
 ## 🕔 2026-10-27 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 319 个候选项目中筛选出 6 个未推荐过的新项目。
