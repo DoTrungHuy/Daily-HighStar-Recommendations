@@ -1,3 +1,67 @@
+## 🕔 2026-10-27 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 319 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Box](https://github.com/jegly/Box)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 945
+- **核心概述**: 当今 Android 上最先进、完全离线的客户端人工智能套件。
+- **大概是做什么的**: ⭐️如果这个项目对您有帮助，请给它加注星标——它可以帮助其他人找到它。我们的下载量已达到 40K！感谢大家对Box的支持。所有版本现已签署 PQC ML-DSA-87。注意：如果您使用自定义 ROM（LineageOS、GrapheneOS、CalyxOS），请下载最新版本的 custom-rom-support APK。通过Obtainium 安装 1. 在手机上打开Obtainium 2. 点击+ 按钮 3. 粘贴此存储库URL：https://github.com/jegly/Box 推荐给大多数用户：主版本 我应该安装哪个版本？主要库存 Android（Pixel、Samsung 等）自定义 ROM GrapheneOS、LineageOS、CalyxOS — 无 Google 服务 — 应用内更新程序也可在“设置”中使用 1. 点击您上面版本的徽章 — 这将打开已预填充存储库的 Obtainium 2. 在 APK 过滤器正则表达式下，输入以下内容之一： - 自定义 ROM：custom-rom-support 3. 点击添加 — Obtainium 将找到最新版本并安装 4. 将检测到未来的更新自动 注意：从 v2.0.0 开始，应用内 App 版本与 Box 发布版本 (2.0.0) 匹配 - 早期与上游 Goog 不匹配
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, android-ai-app, artificial-intelligence, box, gguf, linux
+
+---
+
+### 🌟 [ian-xiaohei-scenes](https://github.com/helloianneo/ian-xiaohei-scenes)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 542
+- **核心概述**: 小黑2.0中国实物文章插图和长卷故事图像的Codex Skill
+- **大概是做什么的**: 把中文内容里的处境、压力、转折和项目故事，变成“小黑 + 真实物件 + 物理动作 + 留白叙事”的正文配图。 16:9 正文图 彩蛋长卷故事图 真实物件小现场 小黑 IP Codex Skill Ian Xiaohei Scenes 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、教程、案例、项目复盘和个人经历生成“小黑 2.0”视觉配图。 它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解内容里的真实处境，再把其中一个抽象判断变成一个可看见的物理现场。 一句话： 让读者先看到一个真实、轻、怪的小现场，再在 1 秒内意识到“这说的就是我”。 Ian Xiaohei Illustrations 是 1.0：更像白板上的手绘解释图，适合拆观点、拆流程、拆方法。 Ian Xiaohei Scenes 是 2.0：更像白色摄影棚里的真实物件现场，适合表达处境、情绪、项目故事、产品演化和正文观点隐喻。 1.0 Illustrations 纯白手绘解释图 方法论、流程、结构、认知拆解 2.0 Scenes 真实物件小现场 用户处境、工作压力、AI 时代状态、项目复盘、个人经历 - 少量蓝 / 粉 / 黄 / 绿 / 红点缀 用于个人经历、项目复盘、产品演化和成长路径。 - 不做编号时间轴，不做 PPT 流程图 - 做 AI 工作流、产品复盘、个人经历、项目故事的人 - 想把“打工人处境”“AI 时代焦虑”“创作者卡点”画出来的人 - 想要比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人 - 用 Codex 做内容生产，希望稳定复用一套视觉语言的人 - 想要商业 KV、品牌海报或精致扁平插画的人 - 想要传统流程图、复杂架构图、课程课件的人 - 想要聊天 UI、App 截图、仪表盘截图的人 - 想把大量正文、长段解释或完整流程塞进一张图里的人 下面 7 张图是本 Skill 的高质量模板母版和风格标尺。它们不是死板模板；使用时应该学习比例、留白、真实物件质感、小黑动作和叙事关系，不要机械复刻物件组合和构图。 复制 skill 到 Codex skills 目录： 更多示例见 examples/prompts.md。 1. 读取文章、主题、项目经历或时间线节点 2. 提炼读者处境、核心冲突和适合视觉化的物理动作 3. 标准模式先从 01-06 中锁定一张母版；彩蛋模式锁定 07 长卷母版 4. 写出母版不变量、当前内容变异点、3 秒读懂句和失败信号 8. 按 QA checklist 检查：比例、留白、真实物
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-illustration, chinese-content, codex-skill, illustration, image-generation
+
+---
+
+### 🌟 [universal-examprep-skill](https://github.com/ZeKaiNie/universal-examprep-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 337
+- **核心概述**: Exam Cram Coach · 跨会话记忆与讲义溯源防幻觉的极速备考教练 | AI exam-prep tutor for Claude Code, Cursor, Codex, Antigravity: teaches from slides with page citations, crops figures, quizzes with real homework, runs smoothly on small cheap models. 期末复习·考前突击·刷题·错题本·小抄
+- **大概是做什么的**: Exam Cram Coach · Flash 一款 Claude Code、Codex、Cursor、Windsurf、Antigravity 和 Gemini CLI 的人工智能考试准备导师：放入您的讲座幻灯片、笔记、家庭作业和过去的论文，它会逐章教授页面引用，显示图表，用您自己的问题测验您，跟踪错误，并构建您的备忘单。一个命令即可设置 · 从您的文件中进行教学 · 显示数字 · 从您的作业中进行测验 · 从不隐藏它的内容 Exam Cram Coach 是一项代理技能加上一个小型 Python 工具。您向编码代理（Claude Code、Codex、Cursor、Windsurf、Antigravity、Gemini CLI 等）提供包含您的讲座幻灯片、笔记、作业和过去论文的文件夹。它的设计具有三个核心技术优势： 1. 🎯 100% 接地和抗幻觉：每个教授的概念都引用精确的文件 p.N 参考；超出范围的查询以非零状态退出，以严格防止伪造（100% 超出范围弃权）；透明的🟢/🟡/⚠️来源标签区分材料和人工智能评论。 2. 🧠 跨会话持久内存：在 s 本地维护状态
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: active-learning, agent-skill, ai-tutor, anti-hallucination, antigravity, cheat-sheet
+
+---
+
+### 🌟 [pg_vectorize](https://github.com/ChuckHend/pg_vectorize)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 832
+- **核心概述**: 在任何 Postgres 上进行全文和语义搜索
+- **大概是做什么的**: pg vectorize：Postgres 上的 VectorDB Postgres 服务器和扩展，可自动将文本转换和编排为嵌入，并提供与最流行的 LLM 的挂钩。这使您可以启动、运行并自动维护矢量搜索、全文搜索和混合搜索，从而使您能够在 Postgres 上快速构建 RAG 和搜索引擎。该项目很大程度上依赖于用于矢量相似性搜索的 pgvector、用于后台工作人员编排的 pgmq 以及 SentenceTransformers 的工作。 API 文档：https://chuckhend.github.io/pg vectorize/ 来源：https://github.com/chuckhend/pg vectorize pg vectorize 提供了两种向任何 Postgres 添加语义、全文和混合搜索的方法，从而���以轻松在 Postgres 上构建检索增强生成 (RAG)。该项目通过 Postgres 扩展提供仅外部服务器的实现和 SQL 体验。 - HTTP 服务器（推荐用于托管数据库）：运行连接到 Postgres 并公开 REST API（POST /api/v1/table、GET /api/v1/search）的独立服务。 - Postgres 扩展
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, rag, vectordb
+
+---
+
+### 🌟 [bytedesk](https://github.com/Bytedesk/bytedesk)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 513
+- **核心概述**: Open Souce IM 具有人工智能支持的实时聊天、电子邮件、票证支持、全渠道客户服务，替代 slack + zendesk/intercom/hubspot/ada/decagon/sierra
+- **大概是做什么的**: Bytedesk - 聊天即服务 AI 支持的全渠道客户服务 With Team IM 语言：英语 中文 演示 - 多级组织结构 - 权限管理 - 支持多渠道 - 多种路由策略和详细的评估指标 - 工单 SLA 管理 - 工单统计和报告 - 与 Ollama/DeepSeek/ZhipuAI/... 聊天 - 与知识库 (RAG) 聊天 - 基于 FreeSwitch 的专业呼叫平台 - 支持来电弹屏、自动分配、通话录音 - 数据统计、语音无缝集成视频客服 - 基于 WebRTC 技术的高清视频通话 - 支持一键视频对话和屏幕共享 - 适合需要直观演示的业务场景 - 提供完整的 RESTful API 接口和 SDK 工具包 - 支持与第三方系统无缝集成，实现数据互通 - 多语言 SDK 支持，简化开发和集成流程 选项一：仅 Docker Compose（快速验证） 如果您只想快速
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ada, ai, chat-widget, chatbot, customer-support, decagon
+
+---
+
+### 🌟 [remotion-superpowers](https://github.com/DojoCodingLabs/remotion-superpowers)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 142
+- **核心概述**: 🎬 Claude Code 插件 — Remotion 的完整视频制作工作室。 AI 配音、音乐、素材、图像/视频生成、TikTok 字幕、3D、转场和 AI 审核循环。 5 个 MCP 服务器，13 个命令。 Dojo Coding 免费且开源。
+- **大概是做什么的**: Remotion Superpowers 一个免费的开源 Claude Code 插件，适用于使用 Remotion 制作视频的构建者。一个 Claude Code 插件，可将 Remotion 从动态图形工具转变为完整的视频制作工作室。使 Claude 能够看到（视频分析）、听到（音乐生成）、说话（配音）、来源（素材+ AI 生成）、字幕（TikTok 风格）、过渡（专业场景剪辑）和审查（AI 反馈循环）——所有这些都连接到 Remotion 基于 React 的视频管道中。入门 · 命令 · API 密钥 · 贡献 · 报告问题 该插件的用途 功能工具 功能工具 🎵 音乐生成 Suno（通过 KIE） 从文本描述生成背景音乐 🗣️ 配音 ElevenLabs TTS（通��� KIE） 从脚本生成自然旁白 🔊 音效 ElevenLabs SFX（通过 KIE） 从描述生成音效 👁️ 视频分析 TwelveLabs“查看”现有内容素材 — 查找场景、检测对象、选择时间戳 📸 库存素材 Pexels 搜索并下载免费的 HD/4K 库存视频和照片 🖼️ 图像生成 KIE + 复制 生成图像（FLUX、Imag）
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 3d, ai-image, ai-video, anthropic, captions, claude-code
+
+---
+
 ## 🕔 2026-10-26 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
