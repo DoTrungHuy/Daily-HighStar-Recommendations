@@ -1,3 +1,67 @@
+## 🕔 2026-10-27 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [helix-foundry](https://github.com/HelixDB/helix-foundry)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,677
+- **核心概述**: 连接您公司的数据，让代理起草一个本体，并将其作为您可以探索和提出问题的图表加载到 HelixDB 中。托管于foundry.helix-db.com，或在您自己的计算机上运行。
+- **大概是做什么的**: 连接您公司的数据，让代理起草一个本体，并将其作为一个连接图加载到 HelixDB 中，您可以探索并提出问题。 - 连接 PostgreSQL、MySQL、Amazon S3、Stripe、PostHog、WorkOS、GitHub、Linear、Granola 和 Cal.com，并上传文档（Markdown、文本、PDF）和表格文件（CSV、TSV、JSON、JSON Lines、Parquet）。 - 代理起草本体：类型、链接、每个来源的表格和文档以及规则。您对其进行审阅、编辑并将其设为最新版本。 - 加载将版本写入HelixDB。以图表或记录的形式探索它，跟踪每个值回到其行或引用，并用引用的答案提出问题。使用托管在 Foundry.helix-db.com 上的它，或者在您自己的计算机上运行它。在您的计算机上运行它您需要带有 Compose v2 的 Docker。打开http://localhost:3000。无需登录，也无需设置：一个所有者、每个连接器和功能，以及一个启动工作区。第一次启动将安装的秘密写入 Docker 卷；保留它（ docker compose down -v ��其与您的数据一起删除）。 AI 在找到它的地方运行：Cla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, data-integration, golang, graph-database, helixdb, knowledge-graph
+
+---
+
+### 🌟 [domscribe](https://github.com/patchorbit/domscribe)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 195
+- **核心概述**: Domscribe 是一种像素到代码的开发工具，可以弥补正在运行的 Web 应用程序与其源代码之间的差距。
+- **大概是做什么的**: 人工智能编码代理盲目地编辑你的源文件——他们看不到你正在运行的前端，你的前端也无法告诉他们去哪里看。 Domscribe 桥接两个方向：单击 DOM 元素来告诉您的代理要更改哪些内容，或者让您的代理查询任何源位置以准确查看浏览器中的实际情况。构建时稳定的 ID、深度运行时上下文（props、状态、DOM）、框架无关、任何 MCP 兼容代理。生产影响为零。设置向导将引导您完成两个步骤： 1. 连接您的编码代理 — 选择您的代理（Claude Code、Copilot、Gemini、Kiro 或其他），向导会自动安装插件。 2. 添加到您的应用程序 — 选择您的框架和捆绑程序，向导将安装正确的包并向您显示要添加的配置片段。就是这样。启动您的开发服务器，您就可以开始了。更喜欢手动设置，还是需要更精细的控制？请参阅下面的手动设置说明。代码 → UI：让代理看到浏览器 您的代理使用文件路径和行号调用 domscribe.query.bySource 并获取实时 DOM 快照，当前
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, claude-code-plugin, copilot-cli-plugin, cursor-plugin, developer-tools, devtools
+
+---
+
+### 🌟 [pagesift](https://github.com/YOLOW92/pagesift)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 113
+- **核心概述**: 适用于 AI 代理和 RAG 的高性能、内存效率高的 Rust 网络爬虫和内容提取引擎。自适应爬行、干净的 Markdown、结构化数据、PDF/RSS 解析、浏览器渲染、Firecrawl 兼容的 API 和 Python/Node.js SDK。
+- **大概是做什么的**: 专为 AI 代理和 LLM 管道构建的高性能、内存有限的网络抓取和提取引擎。将任何网站、文档或存档转换为干净的 Markdown 和结构化数据 - 一个 Rust 二进制文件、本机 SDK、双 Firecrawl v1/v2 和 Jina Reader API，只需一小部分内存。 English · 简体中文 · 日本语 · Español PageSift 如何进行比较 在 2026 年 10 月 27 日测量，使用 0.80.0 版本二进制文件与每个域的三个工具（一个 Rust 项目和两个广泛比较的项目）、默认设置、在一台计算机（i7-10700、15 GB）上进行比较。规则冻结后用固定种子抽取样品；没有什么是手工挑选的。每一行都链接到方法、版本、样本计数和原始结果。领域指标（方向） PageSift 0.80 最强竞争对手 证据 :--- :--- :--- :--- :--- Office 和电子书（docx、xlsx、pptx、epub、csv） 结构保留，保留 ↑ 0.988 MarkItDown 0.717 §4 PDF，olmOCR-bench 原生数字（1,269 页） 官方得分 ↑ 0.626 pymupdf4llm 0.484 §3 硬网页（166 个对抗性） 完成 ↑ / 超时 ↓ 0.723 / 0 crw 0.590 / 27 §1 Office 和电子书速度（81 个文件，1 个作品）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, data-extraction, firecrawl, html-to-markdown, markdown
+
+---
+
+### 🌟 [skills](https://github.com/adobe/skills)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 312
+- **核心概述**: Adobe 代理技能
+- **大概是做什么的**: Adobe AI 编码代理技能 AI 编码代理的 Adob​​e 技能存储库。 Copilot 读取此存储库中的 Claude 插件清单，因此相同的市场在那里工作（已使用 Copilot CLI 1.0.85 和 stardust 插件于 2026 年 9 月 17 日进行验证）。 VS Code 中的 Copilot 也会拾取插件，并且 Copilot CLI 在其裸名称下公开插件技能，没有插件前缀，因此两个已安装的具有相同名称技能的插件是不明确的。插件依赖关系未解决；显式安装它们。 Vercel 技能（npx 技能） upskill（GitHub CLI 扩展） 应用程序构建器插件包含一个 Cursor 原生清单，位于 plugins/app-builder/.cursor-plugin/plugin.json 作为 Cursor 分发的试点。一旦模式被验证，其他插件将获得光标支持。要在本地安装以进行开发：验证通过光标设置 → 插件加载的插件（它应该与 App Builder 技能一起出现，包括分组的 appbuilder-workfront 套件）。这些技能也可以在“代理决定”下的“设置”→“规则”中看到。 Adobe 分析的以从业者为中心的技能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adobe, ai-agents, skills
+
+---
+
+### 🌟 [apra-fleet](https://github.com/Apra-Labs/apra-fleet)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 105
+- **核心概述**: 人工智能代理可以编写代码、审查彼此的工作并在机器之间进行协调
+- **大概是做什么的**: 在您的设备、提供商、工作流程中运行一组人工智能代理。 Kubernetes 对容器的作用，apra-fleet 对 AI 代理的作用：为代理劳动力提供调度、凭证、隔离和可观察性——在任何机器上、任何地方，同时使用每个 LLM 提供商。快速入门 - 现场演示 - 工作原理 -fleet-sprint 入门指南 - 网站 该存储库是由您正在查看的产品构建的。一个自主的 apra 舰队工作流程计划、编码、审查、测试，并在几个小时的冲刺中交付这个代码库——针对自身提交错误并修复它们。上面的记录是真实运行，而不是模型。运行一个 AI 代理是一个演示。在办公室的 MacBook、实验室的 GPU 盒、三个云虚拟机和 CI 上运行 50 个操作是其他人尚未解决的操作问题： - 哪台机器运行哪个代理？真实的设备，而不是一次性的沙箱：您已经拥有的已注册、经过认证、经过健康检查的成员。 - 哪个模型负责哪个工作？ Claude 进行审查、机械编辑的廉价层、用于私人数据的本地 vLLM 模型——所有这些都一次性完成
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflow, ai-agents, ai-coding, anthropic, automation, autonomous-agents
+
+---
+
+### 🌟 [agent-toolkit](https://github.com/sanity-io/agent-toolkit)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 194
+- **核心概述**: 收集资源，帮助 AI 代理通过 Sanity 更好地构建。
+- **大概是做什么的**: Sanity Agent Toolkit 资源集合，可帮助 AI 代理更好地使用 Sanity 进行构建。支持 Cursor、Claude Code、Codex、VS Code、Lovable、v0、Replit、OpenCode 以及任何其他与 MCP 或代理技能兼容的编辑器/代理。 - MCP 服务器：直接访问您的 Sanity 项目（内容、数据集、版本、模式）和代理规则。 - 代理技能：Sanity 开发、内容建模、SEO/AEO 和实验的综合最佳实践技能。包括 25 个集成/主题指南和 26 个重点最佳实践规则。 - 代理插件：适用于任何与代理插件兼容的客户端的plugin.json、skills/ 和mcp.json 组件。 - Claude Code 插件：适用于 Claude Code 用户的 MCP 服务器、代理技能和斜线命令。可在 Anthropic 官方插件市场上找到。 - 光标插件：MCP 服务器、代理技能和光标市场上的命令。 - Codex 插件：OpenAI Codex 用户的 MCP 服务器和代理技能。根据您希望代理与 Sanity 合作的方式选择路径： 1. MCP 服务器 — 为您的代理提供始终最新的规则以及对 Sanity 项目的完全访问权限。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-rules, ai-rules, claude-code, claude-code-plugin, cursor-ai, mcp
+
+---
+
 ## 🕔 2026-10-27 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
