@@ -1,3 +1,67 @@
+## 🕔 2026-10-28 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 4,030
+- **核心概述**: 196 个适用于 OpenClaw 的可用于生产的 AI 代理模板。 SOUL.md 跨 24 个类别的配置。提交你的！
+- **大概是做什么的**: 🦞 很棒的 OpenClaw 代理 OpenClaw 生态系统的 196 个可用于生产的 AI 代理模板的精选集合。每个模板都是一个复制粘贴就绪的 SOUL.md 文件。跳过设置。获取完整的部署包。浏览所有 196 个模板 → · 查看定价 → 选择一个模板，看看它的作用，获取可以在任何地方运行的 Dockerfile + docker-compose + bot + README。 ⭐ 实时尝试部署最多的模板品牌监控 · 竞争对手观察 · SEO 分析师 · 内容作家 · 客户支持 📬 获取每周代理模板和提示 - 每周二新模板、部署指南和社区亮点。订阅时事通讯 → - 代理模板（24 个类别的 196 个代理） - 生产力 · 开发 · 营销 · 商业 · 个人 - DevOps · 金融 · 教育 · 医疗保健 · 法律 · 人力资源 · 创意 · 安全 - 电子商务 · 数据 · SaaS · 房地产 · 自由职业者 · Moltbook - 供应链 · 合规性 · 语音 · 客户成功 · 自动化 - 用例（132 个真实示例） - 技能（Gemma 和 Claude Code 的设备技能） - 为什么开爪？ （与框架、轻量级、企业级相比）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent-templates, ai-agents, ai-automation, anthropic, automation, awesome
+
+---
+
+### 🌟 [omg.dev](https://github.com/BennyKok/omg.dev)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 551
+- **核心概述**: omg.dev — 使用移动客户端远程控制 claude、codex、cursor、opencode、pi、grok、jcode
+- **大概是做什么的**: 通过手机向您的代理分配任务。结果准备就绪后收到通知。您的笔记本电脑可以保持关闭状态。用于 Claude Code、Codex 和其他编码代理的开源工具。安装它 自托管 托管在 omg.dev -------------- ---------------------------------------- ---------------------------------------------------- 免费价格 (MIT) 免费计划试用。付费计划 19 美元/月起。在您的 Mac 或 Linux 计算机上运行 我们为您运行的云计算机 您管理 安装和更新 无 开始 安装在 app.omg.dev 下 · 定价 两者都使用您已付费的代理订阅，例如 Claude 或 ChatGPT。在您的计算机上安装打开http://localhost:8766。 Debian、Ubuntu 或 macOS。没有 omg.dev 帐户。在 Linux 上，普通用户使用 sudo 。不要以 root 身份运行。打开设置 → 编码代理。支持 Claude Code、Codex、Grok、Cursor、omg agent、OpenCode、fx、Muse、DeepSeek、Devin、Jcode、Copilot 和 Pi。通过代理提供商登录。尝试 macOS 桌面预览 Apple Silicon。附带其自己的运行时。无需单独安装 CLI。未签名预览。按住 Control 键单击该应用程序，选择“打开”，然后
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, coding-agents, developer-tools, ios-app
+
+---
+
+### 🌟 [uebox](https://github.com/ueboxai/uebox)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 206
+- **核心概述**: 运行虚幻编辑器的开源 AI 代理 — 关卡、蓝图、材质、C++。
+- **大概是做什么的**: 直接操作虚幻编辑器的开源 AI Agent - 100+ 引擎工具 ：关卡、蓝图（含动画蓝图）、材质（含 Substrate）、C++、资产、数据表、UMG、Sequencer、几何体、地形、PCG - 编译与运行验证 ：蓝图 / C++ 编译报错自动修；PIE 运行取日志和截图；试玩机器人自动按键测试（实验性） - 改动可核对 ：工具调用全程可见；每轮列出新建 / 修改 / 删除；一键回引擎重读比对 - 目标模式 /goal ：按需求清单逐条验收，未通过继续改 - 团队模式 /team ：多个队员分工，每人可用不同模型 - 27 个内置技能 + 按工程积累的报错经验 - 80+ 模型服务商 ：Claude、GPT、DeepSeek、Ollama、LM Studio 等；支持 ChatGPT Plus / Kimi 会员登录 - 审批 ：风险操作需确认，可设「以后均允许」 - MCP / CLI ：给 Codex、Claude Code、Cursor 和脚本用 - 素材管理 ：项目库、资产库、蓝图库、材质库、3D 查看器、知识库，不连引擎也能用 -------------------------------------------------------------- ---------------------------------------------------------------- 1. 从 Releases 下载安装（Windows） 2. 设置 → 模型 → 添加服务商 ，填 API 密钥； 默认模型 → 对话 选它（模型需支持工具调用） 3. 项目库 → 导入项目 ，选 .uproject ，在弹出的询问里点 安装 UnrealAgentLink 插件，再点 打开项目 4. 侧边栏 → AI 对话 ，输入「这个关卡��有多少个光源？」验证连接 文档：第一次打开 · 配置模型 · 连接虚幻引擎 · 常见问题 方式 用途 默认 文档 ---- ------------------------------------------ ---- ------------------------------------ MCP Codex / Claude Code / Cursor 调引擎工具 可写 MCP CLI 脚本、CI： uebox tools call / uebox ask 只读 命令行 - 无账号，无官方服务器；密钥加密存本机，请求直连你配的服务商 - 默认只检查更新；未配置更新源的自行构建不发任何请求（updateFeed.ts） 安装包
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, harness, unreal-engine
+
+---
+
+### 🌟 [apple-mail-mcp](https://github.com/sweetrb/apple-mail-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 104
+- **核心概述**: Apple Mail 的 MCP 服务器 - 通过 Claude 和其他 AI 助手阅读、搜索、发送和管理电子邮件
+- **大概是做什么的**: Apple Mail MCP 服务器 模型上下文协议 (MCP) 服务器，使 Claude 等 AI 助手能够在 macOS 上的 Apple Mail 中阅读、发送、搜索和管理电子邮件。注意：这是 npm/Node.js 包 - 使用 npx 或 npm 安装。通过 pipx / uvx 安装的 PyPI ( imdinu/apple-mail-mcp ) 上有一个不相关的同名 Python 项目。如果您正在使用 uvx 并看到 cyclopts 依赖项错误，那么您正在寻找该项目，而不是这个项目。该服务器充当 AI 助手和 Apple Mail 之间的桥梁。配置完成后，您可以要求 Claude（或任何与 MCP 兼容的 AI）执行以下操作： - “检查我的收件箱中是否有未读消息” - “查找来自 john@example.com 的电子邮件” - “向团队发送有关会议的电子邮件” - “创建电子邮件草稿供我审阅” - “回复该消息” - “将此消息转发给我的同事” - “将旧新闻通讯移至存档文件夹” AI 助手与此服务器通信，然后服务器使用 AppleScript 进行交互使用 Mac 上的“邮件”应用程序。所有数据都保留在您的计算机本地。使用 Claude Code（最简单）如果您使用 Claude Code（在终端或 VS Code 中），ju
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: apple, apple-mail, applescript, claude, codex, email
+
+---
+
+### 🌟 [moli-os](https://github.com/rudy-io/moli-os)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 100
+- **核心概述**: Rust 中代理原生的超轻型家庭自动化 · 专为代理设计的超轻型家庭自动化
+- **大概是做什么的**: 原生代理、超轻型家庭自动化，用 Rust 编写。法语版本。 Home Assistant 专为人类点击用户界面而设计。 Moli OS 专为代理（Claude Code、Codex、API 背后的任何模型）而设计，用于配置、操作、调试并最终编写驱动程序，而无需参与实时控制循环。二进制文件是完全确定性的。 Moli 最初是一个家庭的家庭自动化，由 AI 代理构建，并按原样共享：免费使用、更改和重新分发 (Apache-2.0)。不承诺提供支持；欢迎提出问题和拉取请求（CONTRIBUTING.md）。该界面使用法语，测量于 2026 年 10 月 4 日，在同一台机器上的真实 Home Assistant 旁边（详细信息和历史记录：docs/PERFORMANCE.md）： Moli OS Home Assistant 内存（容器的匿名页面） 6.1 MiB (15.9 MiB RSS) 2.1 GiB 空闲 CPU 0.36 % 1.5 % 图像 17.5 MB（从头开始） 2.3 GB - 集线器：带单位的键入值、稳定的身份（从不从名称派生）、与身份分开的标签（名称/房间）、实时事件总线、受监督的驱动程序（使用 ba 重新启动恐慌的驱动程序）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, home-automation, mcp, rust, smart-home
+
+---
+
+### 🌟 [ShowAI](https://github.com/Renaissance-Mind/ShowAI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 130
+- **核心概述**: 人类和代理之间不断发展的界面 - Claude Code 和 Codex 通过您可以编辑、保留和共享的交互式页面进行回答。
+- **大概是做什么的**: 语言：英语 简体中文 ⬇ Mac 下载 · 网站 · 快速入门 · 文档 人类与代理之间不断发展的界面。您的代理的答案将成为界面 - 交互、存档并在您使用时不断演变。 - 互动 — 代理使用图表、计算器和图表进行回答，您可以调整、比较和探索。 - 存档——每个界面都保存为您自己的页面，并具有完整的历史记录；代理会继续您的编辑，您可以将其导出以供其他人使用。 - 进化——当表达式缺失时，代理会构建一个新组件；有效的页面成为模板，因此每一轮都从一个更好的地方开始。 https://github.com/user-attachments/assets/ecdccdec-1def-45a9-811f-121a7d07b906 在您的代理中提出问题，获取您可以使用的界面，一起编辑并共享。更多示例请参见 showai.renaissancemind.ai。 🚀 只需 3 步即可开始 ShowAI 在您已使用的代理内部工作：该插件可让您的代理构建界面，而 ShowAI 应用程序将保留、打开和编辑它们。您需要一台配备 Apple 芯片的 Mac（macOS 13 或更高版本），并且已登录 Claude Code 或 Codex。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, claude-code, codex, intelligent-ui, mcp
+
+---
+
 ## 🕔 2026-10-28 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 277 个候选项目中筛选出 6 个未推荐过的新项目。
