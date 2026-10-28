@@ -1,3 +1,67 @@
+## 🕔 2026-10-27 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 311 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hob](https://github.com/FrigadeHQ/hob)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 268
+- **核心概述**: 在您自己的计算机上使用 AI 的更简单方法。 Claude 和 ChatGPT 的免费开源替代品，可在 Mac、Windows 和 Linux 上本地运行 Gemma 和 gpt-oss 等开放权重模型。私有，并且可以离线工作。
+- **大概是做什么的**: 在您自己的计算机上使用 AI 的更简单方法。 Claude 和 ChatGPT 的免费开源替代品。访问 hob.chat →  ·  填写 PDF、处理文档等等。免费、私密且离线工作。 Hob 选择最适合您的计算机的前沿开放重量型号并为您设置一切。帮助 · 贡献 · MIT 许可证
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-assistant, chatgpt-alternative, claude-alternative, desktop-app, electron
+
+---
+
+### 🌟 [RSIHub](https://github.com/simple-agent-lab/RSIHub)
+- **项目语言**: Python
+- **星标数量**: ⭐ 224
+- **核心概述**: 一个研究框架，用于在冻结评估者和声明的突变边界下进行有原则的代理自我改进，记录可验证的谱系以使其可重复和可审计。
+- **大概是做什么的**: 基于文件的进化框架，用于评估者驱动的学习、可重复的候选谱系和可控的修改。 - 2026 年 10 月：我们的论文 RSIHub：智能体进化方法的可组合框架，已被 NeurIPS 2026 元智能体研讨会接受！刚接触 AI-for-AI 和智能体自我提升？从精选的 Awesome-AI4AI 论文列表开始，阅读 完整的景观，并关注 AI4AI 博客以获取 Simple Agent Lab 的持续笔记。 RSIHub 是将这些方法置于共同基础上的实验基础设施。 RSIHub 为代理提供了一种改进自身的受控方式。它针对固定的评估器运行候选代理，保留每一代的出处——发生了什么变化以及为什么——并对代理进行经过验证的改进，而评估器本身保持不变。 - 对于代理构建者：在可重用的实验工作区中改进提示、技能、工具和代理代码。 - 对于研究人员：比较固定评估和突变边界下的进化策略。 - 内置证据：将每个候选代理与分数、工件、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-evolution, agentic-ai, ai, ai4ai, framework
+
+---
+
+### 🌟 [librarium](https://github.com/jkudish/librarium)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 135
+- **核心概述**: 将一个研究问题发送到许多搜索和人工智能来源，并保留每个答案及其引用和成本。 CLI、MCP 服务器和库。
+- **大概是做什么的**: Librarium 向您选择的搜索和人工智能源发送一个研究问题，然后在您可以恢复的运行中保存每个答案、引文和成本。 - npm 包的 Node.js 22.12 或更高版本。 Homebrew 和独立二进制文件包含自己的运行时。 - 至少一个源的 API 密钥，例如 EXA API KEY 。研究人员会致电您选择的提供商，而这些电话可能需要付费。独立的macOS和Linux二进制文件使用curl -fsSL安装 https://raw.githubusercontent.com/jkudish/librarium/main/scripts/install.sh sh 。使用 librarium --version 检查结果；它打印 2.x 版本。 setup 是一个交互式向导，包含密钥、源选项和默认成本上限。键可以是文字值或引用，例如 env:EXA API KEY ，并且环境变量无需配置文件即可工作。 setup --check 仅读取本地配置并且不进行提供程序调用。试运行计划请求，无需调用提供商或保存运行。您的运行 ID 将有所不同：删除 --dry-run 来运行它。 Librarium 在第一个提供程序调用之前保存运行，然后打印每个源的状态，citat
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, cli, deep-research, deep-research-agent, deep-research-api
+
+---
+
+### 🌟 [XposedOrNot-API](https://github.com/XposedOrNot/XposedOrNot-API)
+- **项目语言**: Python
+- **星标数量**: ⭐ 101
+- **核心概述**: 开源 API，用于检查电子邮件是否在数据泄露中暴露，并监控已验证域中的泄露情况。实时警报和违规分析可保护您的在线身份。
+- **大概是做什么的**: 🎉 用于实时数据泄露监控和分析的免费 API。 XposedOrNot API Playground · 什么是 XposedOrNot API？数据泄露事件不断发生，大多数人直到他们的电子邮件和密码已经流传很久之后才发现。我构建了 XposedOrNot，所以你不必怀疑。检查电子邮件或域名并立即了解它是否出现在已知的违规行为中。该存储库是为所有功能提供支持的 API：违规查找、分析和警报。它可以免费使用，并且是开源的，因此您可以准确地阅读每张支票的工作原理，而不是相信我的话。请在下面尝试一下，如果您发现它有用，我很乐意您用它来构建一些东西。 Devanand Premkumar，XposedOrNot 的创建者检查电子邮件是否在数据泄露中暴露：获取详细的泄露分析：速率限制和 API 访问 - 基本端点（ /v1/check-email 、 /v1/breach-analytics 、 /v1/breaches ）不需要 API 密钥 - 域泄露监控所需的 API 密钥 — 请参阅域端点和 API 密钥了解如何获取和使用每个 IP、每个端点应用速率限制：En
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: api, breach-detection, databreach, mcp, osint, python
+
+---
+
+### 🌟 [ec2-plugin](https://github.com/jenkinsci/ec2-plugin)
+- **项目语言**: Java
+- **星标数量**: ⭐ 292
+- **核心概述**: Jenkins EC2 插件
+- **大概是做什么的**: 配置 Jenkins 以实现 Spot 支持 配置 AMI 以实现 Spot 支持 通过 Groovy 脚本配置插件 保护与 Unix AMI 的连接安全 升级 - 现有 AMI 保护与 Windows AMI 的连接安全 身份验证超时 Amazon Linux 构建/连接问题 从 1.50.2、1.49.2、1.46.3 降级到先前版本 允许 Jenkins 在代理不使用时启动并终止它们。使用此插件，如果 Jenkins 发现您的构建集群过载，它将使用 EC2 API 启动实例并自动将它们连接为 Jenkins 代理。当负载下降时，多余的 EC2 实例将被终止。这种设置允许您维护一个小���内部集群，然后将尖峰构建/测试负载转移到 EC2 或另一个 EC2 兼容云中。首先，转到 EC2 并注册该服务。安装插件后，导航到主“管理 Jenkins”\“配置系统”页面，然后向下滚动到底部附近的“云”部分。在那里，您单击“添加新云”按钮，然后选择“Amazon EC2”选项。这将显示用于配置 EC2 plu 的 UI
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, aws, cloud, jenkins-plugin, spotinst
+
+---
+
+### 🌟 [google-workspace-mcp](https://github.com/aaronsb/google-workspace-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 192
+- **核心概述**: 模型上下文协议 (MCP) 服务器，提供对 Google Workspace API 的经过身份验证的访问，并提供集成的身份验证、Gmail、日历和云端硬盘功能
+- **大概是做什么的**: Google Workspace MCP 服务器 让您的 AI 代理能够从一台 MCP 服务器跨您拥有的任意多个帐户真正访问 Google Workspace - Gmail、日历、云端硬盘、文档、表格、任务、会议和联系人。搜索邮件、检查日历、撰写文档、归档任务——以您自己的方式进行对话。首先，您需要 Google OAuth 凭据 - 这是每个路径通用的先决条件： 1. 转至 console.cloud.google.com/apis/credentials 2. 创建 OAuth 2.0 客户端 ID，应用程序类型桌面应用 3. 启用所需的 API（Gmail、日历、云端硬盘、表格、文档、任务、会议 - 以及用于联系人的 People API，这是 Google 在控制台中的调用方式） 4. 将客户端 ID 和客户端密钥放在手边 — 您将粘贴然后选择与您的工作方式相匹配的路径。所有三个都运行同一服务器。节点 22.12 或更高版本。 （节点 18 和 20 均已停产。） 📦 → 🤖 Claude Desktop — 一键式 .mcpb 安装（推荐） Claude Desktop 打开一个包含三个字段的安装对话框： 需要 Google OAuth 客户端 ID — 来自上面的步骤 需要 Google OAuth 客户端密钥 — 来自上面的步骤
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, google-workspace, mcp, model-context-protocol
+
+---
+
 ## 🕔 2026-10-27 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
