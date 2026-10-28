@@ -1,3 +1,67 @@
+## 🕔 2026-10-28 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [bloks](https://github.com/hamedgitty/bloks)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 252
+- **核心概述**: 本地优先的桌面应用程序，用于在您自己的计算机上运行 Claude Code、Codex、Cursor、Cline 等上的 AI 代理团队。
+- **大概是做什么的**: 驻留在您机器上的个人人工智能代理。您的代理、您的密钥、您的数据以及您选择的人员。 Bloks 是一款面向个人人工智能代理的桌面应用程序。它看起来像一个消息应用程序：每个代理都是您与之交谈的联系人，每个房间都是一个群聊，所有这些都在您自己的计算机上运行。代理在您的文件旁边、您已有的引擎和钥匙上工作，并在做任何需要您同意的事情之前停下来询问。无需创建帐户，我们的服务器也不会保存您的数据。在底层，每个代理都是一个真正的引擎会话：Claude Code、Codex、Gemini CLI 以及其他运行工具或您持有密钥的任何 API。代理流式传输他们的回复，向您展示他们正在运行的内容，并将他们学到的内容保存在您可以阅读和编辑的纯文件中。与桌面应用程序配对。手机上什么也没有运行：它是您计算机上的代理的一个窗口，您可以通过锁定屏幕或手腕进行应答。 Bloks 3 现已推出 Mac、Windows 和 Linux 版本，iPhone 和 Apple Watch 版本已在 App Store 上架��� Android 应用程序即将推出。感谢所有报告错误、测试构建的人
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-client-protocol, agent-orchestration, ai-agents, claude-code, cline
+
+---
+
+### 🌟 [olcli](https://github.com/aloth/olcli)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 230
+- **核心概述**: Overleaf CLI - 从终端拉、推、同步、编译 LaTeX 项目。 Git 远程帮助程序、用于 AI 代理的 MCP 服务器和 TypeScript 库。
+- **大概是做什么的**: olcli — Overleaf CLI Overleaf 命令行界面 — 从终端同步、管理和编译 LaTeX 项目。直接从命令行处理 Overleaf 项目。使用您最喜欢的编辑器进行本地编辑，使用 Git 进行版本控制，并与 Overleaf 的云编译无缝同步。 - 📋 列出所有 Overleaf 项目 - ✨ 创建空白或示例项目 - ⬇️ 将项目文件拉到本地目录以进行离线编辑 - ⬆️ 将本地更改推送回 Overleaf - 🔄 通过智能冲突检测进行双向同步 - 🔍 在推送之前将本地文件与实时远程文件进行比较 - 📝 标记修订 — diff --latexdiff 生成删除线/下划线的 PDF 顾问和期刊要求的 - 🔀 Git 远程 - 使用 Overleaf 作为本机 git 远程（文档） - ✌️ 双向删除 - 本地删除的文件将在下次同步时在 Overleaf 上删除 - 🗑️ 按路径删除和 ✏️ 重命名远程文件 - 🚫 智能忽略 - 自动过滤 LaTeX 构建工件和操作系统噪音；使用 .olignore 扩展 - 📄 使用 Overleaf 的远程编译器编译 PDF - 📦 下载单个文件或完整文件
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: academic-writing, agentskills, ai-agents, arxiv, cli, developer-tools
+
+---
+
+### 🌟 [levelrail](https://github.com/glincker/levelrail)
+- **项目语言**: Go
+- **星标数量**: ⭐ 122
+- **核心概述**: Vercel 和 Coolify 的自托管替代方案。 Git 推送、HTTPS、日志、回滚。没有 Kubernetes。
+- **大概是做什么的**: Vercel、Netlify、Heroku、Railway、Coolify 和 Dokku 的轻量级、自托管替代方案。在您自己的服务器上部署 git Push，并提供日志、指标、HTTPS 和一键回滚。 HTTPS 是自签名的，直到您启用 Let's Encrypt。 One Go 二进制文件 · Docker 运行时 · 代理而不是 SSH · 内置可观察性 · 没有 Kubernetes 生产就绪 · 讨论 · Levelrail 是一种开源 (Apache 2.0) 自托管 PaaS：Vercel 和 Heroku 替代方案，可以在您拥有的任何 Linux 服务器上运行，从小型 VPS 到机架（一个测量的主机是 2 vCPU、8 GB 的盒子）。它将普通服务器转变为私有云，具有 Git 部署（伪造 Webhook）、HTTPS（默认情况下自签名，启用后进行加密）、具有经过验证的备份、指标、日志和警报的数据库，无需 Kubernetes，也无需您需要附加的监控堆栈。您需要一个带有 systemd 和 root 的 Linux 服务器（ amd64 或 arm64 ）。如果 Docker 缺失，安装程序会添加它。 1. 安装服务器 最后几行输出包括仪表板地址和一次性服务
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ci-cd, coolify-alternative, deployment, devops, docker, dokku-alternative
+
+---
+
+### 🌟 [rustdsh](https://github.com/jimoto-no-llm/rustdsh)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 100
+- **核心概述**: DeepSeek Harness 的快速 Rust 启动器，具有清晰的 Claude Code/Codex 迁移、模型设置和轻量级本地工具
+- **大概是做什么的**: rdsh — dsh 的快速、安全的 Rust 启动器 一个独立的社区项目；不是官方的 DeepSeek 或 DeepSeek Harness 项目。 rdsh 是 DeepSeek Harness ( dsh ) 的快速、安全的启动器。它将常用的 CLI 操作（令牌计算、代码搜索、会话管理）移植到本机 Rust，同时将对话工作流程和模型执行透明地委托给上游 dsh 。所有现有的参数和选项继续按原样工作。在要求代理处理此存储库之前粘贴此内容。设置一个从未使用过 CLI 的人？首先从上到下阅读 docs/SETUP.md，遵循其顺序，并回答本 README 和文档中的问题/而不是 - ⚡ 亚毫秒级进程启动：rdsh --version 在 0.90 毫秒内启动，峰值 RSS 为 2.9 MB，而基于 Node.js 的 dsh --version 为 88 毫秒和 66 MB。这只是进程启动：启动的代理配置文件仍然运行上游 Node.js，因此对话启动和会话内存与上游匹配。请参阅基准。 - 🔄 100% 直接兼容：非 rdsh 原生的子命令将直接传递到上游 dsh 。现有脚本
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude-code, cli, codex, command-line, cross-platform
+
+---
+
+### 🌟 [netbox-agent](https://github.com/Solvik/netbox-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 395
+- **核心概述**: Netbox 代理在您的基础设施服务器上运行
+- **大概是做什么的**: 该项目旨在基于标准工具（dmidecode、lldpd、解析 /sys/ 等）自动将硬件创建到 Netbox 中。目标是在 Netbox 上生成现有基础设施，并能够通过执行代理定期更新它。通过标准工具 ( dmidecode ) 创建虚拟机、服务器、机箱和刀片 通过 IP 创建物理、绑定和 VLAN 网络接口（IPv4 和 IPv6） 创建 IPMI 接口（如果找到） 创建或获取现有 VLAN 并将其关联到接口 通过驱动程序猜测数据中心和机架位置的通用能力（cmd 和文件以及自定义驱动程序） 更新现有设备和接口 处理刀片移动（新插槽、新机箱） 处理刀片 GPU 扩展 自动布线（服务器接口到交换机接口）使用lldp 使用 CPU、GPU、RAM、RAID 卡、物理磁盘（位于 raid 卡后面）的库存项目进行本地库存 PSU 创建和功耗报告（基于供应商的工具） 将虚拟机管理程序设备关联到虚拟化集群 将虚拟机关联到虚拟机管理程序设备 库存要求
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, dcim, inventory, netbox, network-inventory, system-information
+
+---
+
+### 🌟 [golemui](https://github.com/golemui/golemui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 117
+- **核心概述**: 声明性动态表单引擎。使用类型化 TypeScript 构建器或 JSON 定义动态表单，然后在 React、Angular、Vue、Lit 或 vanilla JS 中渲染它们。包括验证、SSR、i18n、可访问性、主题和用于 AI 助手的 MCP 服务器。
+- **大概是做什么的**: 终极 JSON 表单引擎。                     使用类型化 gui 构建器 API 或模式验证的 JSON 定义表单。两者都产生相同的可序列化定义。 - 一种定义在 React、Angular、Lit、Vue 或 vanilla JS 中呈现。 - 验证、条件字段、国际化和可访问性来自模式和运行时。 - 输出是纯数据：存储它、传输它、比较它、生成它。为您的框架安装四个 @golemui/ 包。版本一起发布；使用匹配的版本。按此顺序在应用程序条目中的任何位置导入两个样式表一次：完整演练位于 golemui.com/getting-started/installation。将表单定义为 gui 构建器数组并将其传递给框架组件（如图所示）：当表单无效时，提交按钮保持禁用状态（ $formIsInvalid 是内置的有效性标志）；提交时，formSubmit 接收收集的数据。相同的 formDef 值在每个受支持的框架中呈现��请参阅每个框架设置的集成，以及
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: angular, declarative, dynamic-forms, form-generator, forms, json
+
+---
+
 ## 🕔 2026-10-28 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
