@@ -1,3 +1,67 @@
+## 🕔 2026-10-29 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 333 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [helix-db](https://github.com/HelixDB/helix-db)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 6,251
+- **核心概述**: HelixDB 是一个 OLTP 图形数据库，具有在对象存储上的 Rust 中构建的本机向量和全文搜索功能。
+- **大概是做什么的**: HelixDB 是一个开源 (Apache 2.0) 图形数据库，具有本机矢量搜索和 BM25 全文搜索，在 Rust 中构建于对象存储上。将实体、关系、嵌入和文本存储在一个事务引擎中，并从 Rust、TypeScript、Go 或图向量全文模型实体、关系和类型化属性中将它们一起查询为带标签的属性图。近似最近邻搜索，通过图遍历进行预过滤。 BM25 关键字搜索节点和边属性。安装 CLI。在 macOS 和 Linux 上：在 Windows PowerShell 上：创建项目，启动本地实例（需要 Docker 或 Podman），然后运行生成的查询：本地数据默认驻留在内存中； helix start dev --disk 在重新启动时保留它。要在没有服务器的情况下在您自己的进程中运行 HelixDB，请使用快速入门中的完整演练。已经安装了吗？运行螺旋更新。或者让代理构建它 Helix Chef 安装 HelixDB 查询技能和文档 MCP、搭建项目、启动本地实例、种子示例数据，然后将其交给它找到的第一个编码代理，在这个或
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, cli, database, databases, graph-database, helix
+
+---
+
+### 🌟 [aktools](https://github.com/akfamily/aktools)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,503
+- **核心概述**: 用于 AKShare 的 HTTP API 和 MCP 服务器：从任何编程语言或 AI 助手（Claude、Cursor）获取财务数据
+- **大概是做什么的**: AKTools exposes AKShare's financial data as an HTTP API and an MCP server, so you can fetch it from any programming language or AI assistant. AKTools 把开源财经数据接口库 AKShare 的一千多个接口变成两种开箱即用的服务： - HTTP API ：一行命令启动服务，C/C++、Java、Go、Rust、JavaScript、R、MATLAB、Stata、Excel 等任何编程语言或软件都能通过网址获取数据。 - MCP 服务 ：在 Claude、Cursor 等 AI 助手中直接用自然语言提问，助手会自己查找接口、填写参数并取回数据。 两种方式背后是同一套接口目录、缓存和错误处理，按需选用即可。 AKTools 中文文档 AKShare 数据字典 版本说明 第一次使用？ HTTP API 请从 快速入门教程 开始，约 10 分钟即可完成从安装到下载 Excel 的完整流程；AI 助手请直接看下面的 在 AI 助手中使用。 然后在浏览器打开 http://127.0.0.1:8080/api/public/tool trade date hist sina ，看到交易日历数据即表示成功。更多用法见下文的快速开始与调用规则。 先安装 uv，再把下面的配置加入 AI 助手的 MCP 配置文件， 不需要事先安装 AKTools，也不需要手动启动服务 ： - “帮我查一下贵州茅台 2024 年 10 月 8 日到 11 日的前复权日线行情” - “AKShare 里有哪些和可转债相关的接口？” - “stock zh a hist 这个接口有哪些参数，复权方式怎么填？” 助手会通过 AKTools 提供的 3 个工���完成查询： search interfaces 搜索接口、 describe interface 查看参数、 get data 获取数据。下面是在 Claude Code 中实际提问的过程（根据真实会话记录回放）： 打开设置中的“开发者 → 编辑配置”，把上面的配置加入 claude desktop config.json ，保存后重启 Claude Desktop。 也可以手动把上面的配置加入项目的 .cursor/mcp.json ，或全局的 /.cursor/mcp.json 。 连接已经运行的 AKTools 服务（HTTP 方式） 已经用 python -m aktools 启动了服务，或者想让多台
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, akshare, claude, data-science, fastapi, financial-data
+
+---
+
+### 🌟 [design-agent](https://github.com/langchain-ai/design-agent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 459
+- **核心概述**: 开源设计代理：基于 Deep Agents 构建的来自聊天线程的品牌剧照、套牌、图表、图表和动态图形。
+- **大概是做什么的**: 将Content Studio分发给您的团队 → · 在本地试用，无需密钥 · Content Studio是LangChain运行的设计代理，现已开源。使用托管深度代理添加您的品牌并将其部署到您团队的 Slack。任何人都可以像问设计师一样提出问题，附上他们拥有的东西，然后返回完成的品牌文件，从调整大小的广告到发布影片。自 8 月以来，它已为我们运送了 3,000 多个资产，其工作的帖子在 X 上吸引了大约 450 万次浏览，四分之三的请求来自外部营销。我们如何构建它更深入我们向 Content Studio 询问了它自己的发布电影。它充满了洛基。 https://github.com/user-attachments/assets/ee5b98e0-7ec6-4b24-ada6-1f27087947a3 从 1 位小鸡到冠军仅需 47 秒。 Content Studio 是部署在托管深度代理上的深度代理代理。托管深度代理运行基础设施：Slack、沙箱、内存、计划和跟踪。这个仓库是顶层的设计代理。该模型进行创意调用、代码渲染、检查以及我们如何在 LangChain 上运行它。您的副本从您打开的集成开始（ Integr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai-agent, deepagents, design, hyperframes
+
+---
+
+### 🌟 [AgentArk](https://github.com/AIFrontierLab/AgentArk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 260
+- **核心概述**: [NeurIPS'26] AgentArk 的官方实现：将多智能体智能提炼成单个 LLM 智能体(https://arxiv.org/abs/2602.03955)
+- **大概是做什么的**: 将多代理智能提炼为单个 LLM 代理。罗银一 1 · 金一桥 2 · 于伟辰 1 · 张梦奇 3 · Srijan Kumar 2 · 李晓晓 5 · 徐伟杰 4 · 1 卡内基梅隆大学 2 佐治亚理工学院 3 威廉玛丽学院 5 不列颠哥伦比亚大学相对于单智能体基线的准确率提升 +4.8% Qwen3 / Gemma 3 / Llama 3 的实验总数 120 分层蒸馏策略 3  (R-SFT · DA · PAD) 蒸馏问题/推理轨迹 342K / 2M 虽然大型语言模型 (LLM) 多智能体系统通过迭代辩论实现了卓越的推理性能，但实际部署受到高计算成本和错误传播的限制。本文提出了 AgentArk，这是一种新颖的框架，可将多智能体动态提炼为单个模型的权重，有效地将显式测试时交互转化为隐式模型功能。这为单个代理提供了多代理系统的智能，同时保持了计算能力
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cmu, distillation, georgia-tech, llm
+
+---
+
+### 🌟 [ralphy](https://github.com/alecs5am/ralphy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 142
+- **核心概述**: 用于内容创建的开源桌面应用程序，具有代理运行时和独立的 CLI。
+- **大概是做什么的**: 用于创建和管理内容的开源桌面应用程序。在一个应用程序中处理项目、媒体、生成工具和本地代理。 Ralphy 运行时和独立 CLI 支持相同的工作流程。 Ralphy 将内容生成、项目工作区、媒体审查和本地代理集成到一个桌面应用程序中。该存储库包含 apps/desktop 中的产品及其 cli 中的运行时。桌面开发以前位于 alecs5am/ralphy-desktop ；它的历史被保存在这里。桌面通过其 CLI 和桥接合约调用运行时。代理还可以使用独立的 CLI 来进行可重现的模型调用、内容单元、渲染、日志和内存。需要 Bun 1.4.2 或更高版本以及 macOS；开发和 CI 引脚 1.4.2。从存储库根目录：bun run start 进入固定的 mise 运行时，重建当前平台的 Ralphy 二进制文件，并将其绝对路径传递给 Electron。这可以防止旧的全局 Bun 或 CLI 泄漏到桌面进程中。使用 mise install Bun@1.4.2 安装固定运行时一次；不需要每次启动环境设置。包子跑开发
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-video, bun, cli, developer-tools
+
+---
+
+### 🌟 [brepjs](https://github.com/andymai/brepjs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 126
+- **核心概述**: TypeScript 中的精确 B-Rep CAD，带有 Claude Code 插件，可让代理编写零件并在 OpenCascade 上检查它们。
+- **大概是做什么的**: TypeScript 中的精确 B-Rep CAD，使 AI 代理可以编写零件并检查它们。 https://github.com/user-attachments/assets/a8dce262-2a86-4db2-8956-9d8ca8adcae4 在此真实会话中，编码代理 (Claude Code) 读取官方 Raspberry Pi 5 绘图，将外壳写入 brepjs 部分，从 brep verify 返回错误，修复该错误，并根据请求添加风扇安装座。导出的 STEP 在 FreeCAD 中打开。观看解说版本。部件是纯 TypeScript 文件，检查器是 CLI，因此它不依赖于一个代理：MCP 客户端可以改用 brep-mcp 服务器，Claude Code 用户可以将创作技能作为插件安装： /plugin market add andymai/brepjs ，然后 /plugin install brepjs@brepjs 。代理根据描述重建了示例库中的 46 个部件，并且所有 46 个部件都通过了验证。我们如何测量它。或者自己编写 ▶ 尝试现场游乐场 · 入门 · 备忘单 · 文档 形状是精确的数学边界（不是三角形网格），因此布尔值是精确的，测量是真实的，并且您可以导出到 STEP。 TypeScript 类型证明了地理
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-printing, ai-agents, bim, boundary-representation, brep, cad
+
+---
+
 ## 🕔 2026-10-29 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
