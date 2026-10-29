@@ -1,3 +1,67 @@
+## 🕔 2026-10-29 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pstack](https://github.com/backnotprop/pstack)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,069
+- **核心概述**: 将 pstack 与 claude、codex、pi 一起使用 - 严格的人工智能辅助工程的技能和原则
+- **大概是做什么的**: pstack — 独立镜像 Poteto 的光标/插件/pstack 镜像 — 保持同步以供独立使用。由 Plannotator 赞助。 Poteto 的 Bro Skill 是我创建的，backnotprop/bro pstack 是普通 Agent Skills 的文件夹（skills/ /SKILL.md）。你不需要光标。技能 CLI 将它们安装到 Claude Code、Codex、Pi、Cursor、OpenCode 和其他代理中：CLI 显示您可以搜索的列表中的每项技能。选择您想要的技能，然后选择您的代理。 Cursor 的原始自述文件位于本页下方。这些技能不会调用其他 pstack 技能，因此每一项技能都是单独工作的： unslop 、 bro 、 how 、 tdd 、 typescript-best-practices 、 arena 、 swarm 、 interrogate 、 Reflect 、 show-me-your-work 、 find-it-out 、 Automation-me 、 Correct 、 benchmark-checklist 、 in-your-own-words 、 Sharpen 、 statechart 某些技能会调用其他技能。一起安装这些：技能还安装教导如何，为什么技术写作unslop架构师竞技场，如何爆炸半径竞技场，如何，为什么，unslop创建验证技能维护验证技能创建形式验证技能维护形式验证
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentskills, ai-agents, backnotprop, claude-code, claude-skills
+
+---
+
+### 🌟 [Lampline](https://github.com/C4rohan/Lampline)
+- **项目语言**: Python
+- **星标数量**: ⭐ 447
+- **核心概述**: 在您自己的计算机上构建 AI 电话代理，并使用 AI 呼叫者测试每个更改。开源，免费运行，无需 API 密钥，使用您自己的密钥每次调用只需花费美分。导入 Dialogflow CX。
+- **大概是做什么的**: 开源、自托管的语音代理。将您的代理从 Dialogflow CX 和 CX Agent Studio 引入，或者重新开始。通过一个命令在您自己的计算机或服务器上构建、测试和运行它们，每次调用费用约为 0.02-0.17 美元，而不是 0.50 美元。 🚀 快速入门  ·  📋 免费电话评估  ·  🤖 来自 Claude 代码  ·  🔁 从 Google 导入  ·  👀 教程  ·  🧠 模型  ·  📞 电话和 SIP  ·  🗺️ 路线图  ·  📘 引擎文档  ·  导入 Dialogflow CX代理，对其进行测试，并对真实的电话呼叫进行评分。样本代理和虚构数据； Lampline 测试模型的回复。 Lampline 导入您的 Dialogflow CX 和 CX Agent Studio 代理、流程、页面、剧本、表单和工具，并在您控制的硬件上运行它们。它为您提供了一个拖放构建器，其中 LLM 步骤和脚本化页面混合在一个代理中，一个测试控制台，可在呼叫移动时点亮每个步骤，HTTP 和 MCP 工具，其自己的记录和文档搜索，以及通过 Twilio、Telnyx 或通过 jambonz 的任何 SIP 中继进行的电话呼叫。建立在 🏠 本地优先之上
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents-as-code, contact-center, conversational-ai, cx-agent-studio, dialogflow-cx, ivr
+
+---
+
+### 🌟 [niubash](https://github.com/unixwin/niubash)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 200
+- **核心概述**: 适用于人类和 AI 代理的 AI 原生 bash：真正的 bash 语法、真正的 Unix 命令 (winuxcmd)、通过 niu-git 的真正 git。本机 Windows/Linux/macOS - 无 WSL、无 MSYS、无 POSIX 模拟。
+- **大概是做什么的**: Niubash — 适用于 Windows 的本机 Bash（Git Bash 替代方案） Real Bash，本机在 Windows、Linux 和 macOS 上。 “仅限 Windows”是老生常谈：现在从这棵树构建了五个平台，Windows 仍然是旗舰产品 - 没有 WSL。没有虚拟机。没有 /mnt/c 。没有 cmdlet 方言。一个二进制文件：您的手指已经知道的 shell，以及您的 AI 代理实际文档和下载的 shell：unixwin.dev niubash 是一种用 Rust 本地实现的 Bash 兼容 shell，是 Git Bash 的替代品。在旗舰平台 Windows 上，一个 niu.exe 捆绑了所有内容：rubash 语言引擎、来自 winuxcmd 的真实 Unix 命令、git 感知提示和权限模型插件系统。 Git 来自 niu-git：使用 MSVC 构建的真正的 git-for-windows C 源代码，因此 PATH 上的 git 是 git 二进制文件 — 没有 MSYS 运行时，没有启动器跳跃，没有捆绑的 perl。 git --version 在 14 毫秒内启动（平均 13.7 毫秒/测量最小值 11.5 毫秒；git status 22.6 毫秒），其中 Git Bash 的 git 需要 45-103 毫秒 niubash 374），并且 git 的 shell 脚本部分（hooks、git bisect 、 git mergetool ）在 niubash 自己的 sh 上运行。从 niu 会话启动的代理将其继承为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-native, android, bash, cli, command-line
+
+---
+
+### 🌟 [robosimstudio](https://github.com/robosimstudio/robosimstudio)
+- **项目语言**: Python
+- **星标数量**: ⭐ 270
+- **核心概述**: 开放式交互式工具包，可加速基于人类和代理物理的机器人操作任务的 Real2Sim
+- **大概是做什么的**: 技术报告 项目页面 示例 RoboSimStudio 是一个开放的交互式仿真工具包，用于在仿真中手动或使用编码代理重建真实的机器人操作任务。 - [2026/10/26] 🦆 使用 Codex 从一张照片中 Real2Sim 你的房间，然后在里面玩一只行走的小鸭子：microduck-with-rss 。 - [2026/10/21] 🔥 我们发布了包含 CPU 物理和 GL 渲染的多演示合集：在 1 个 GPU 上 4.2 分钟内完成 500 个演示。 - [2026/10/20] 🔥 我们添加了十五种材料，其中有绳子、结、纸、袋子、刷子、胶带、切割、颗粒、液体、面团和水，每种材料在材料中都有示例。 - [2026/10/18] 🔥 RoboSimStudio 在仅 CPU 的机器上运行。从这里开始。 - [2026/10/14] 🔥 RoboSimStudio 已发布！我们在示例/中提供了安装指南和全面的示例，以帮助您快速入门。或者，您可以使用 Codex 或 Claude Code 等编码代理，只需提供以下提示即可创建模拟环境： 1. RoboSimStudio 支持人类视频、以自我为中心的视频、机器人视频和远程操作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, inverse-physics, real2sim, real2sim2real, robotics, simulation
+
+---
+
+### 🌟 [CodeAlta](https://github.com/CodeAlta/CodeAlta)
+- **项目语言**: C#
+- **星标数量**: ⭐ 301
+- **核心概述**: 代理开发环境
+- **大概是做什么的**: CodeAlta 是一个用于 AI 编码代理、本地代码、终端和 Git 的开源工作区。它可以在 Windows、macOS 和 Linux 上运行，并带有桌面应用程序、终端 UI 和命令行。它的代理工具与供应商自己的代理相比具有优势：在 SWE-bench Pro 的艰巨任务上，它可以解决与使用 Claude Opus 的 Claude Code 一样多的任务，但成本要低 12%，比使用 GPT 的 Codex 多 1 个。无遥测：CodeAlta 不会向其开发人员发送使用情况分析。安装 .NET 10（在 macOS、10.0.13 或更高版本上），然后安装 CodeAlta Desktop，我们推荐的应用程序：CodeAlta TUI 共享您的配置文件、提供程序和会话。安装两者并在其中一个中继续您的工作： CodeAlta CLI 在没有窗口的情况下运行相同的代理，用于脚本、CI 和编辑器 (ACP)：从项目文件夹启动应用程序。首次启动时，它会打开提供程序设置：使用 Claude、ChatGPT 或 GitHub Copilot 订阅登录，或添加 API 密钥。请参阅入门了解要求和第一步。 CodeAlta Desktop 汇集了： - 会话和委托：在分割窗格中运行代理；恢复、排队、引导和委派工作；阿尔
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tooling, llm-agents, tui-app
+
+---
+
+### 🌟 [elements](https://github.com/NVIDIA/elements)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 106
+- **核心概述**: 适用于人工智能工厂、机器人和自动驾驶汽车的 UI SDK 和代理就绪开发工具包。
+- **大概是做什么的**: 适用于 AI/ML 工厂、机器人和自动驾驶车辆的 NVIDIA 设计系统和 UI 代理线束。 - 代理就绪工具：CLI 和 MCP 向终端和 AI 助手公开组件 API、令牌、示例、导入、验证和设置。 - 与框架无关：Web 组件在 React、Angular、Vue、Svelte、Lit、纯 HTML、服务器渲染模板和混合堆栈中运行。 - 专为 AI 基础设施而构建：适用于 AI/ML 工作负载、自动驾驶车辆工具和机器人控制台的操作 UI。 - 稳定的 API 合约：技能和 lint 指导创作最佳实践、常见 UI 模式和自动静态分析。 NVIDIA Elements Skill 使用开放技能 CLI 安装 Elements 代理技能：请求和贡献 - NVIDIA Elements 文档 - 贡献指南 - 官方 NVIDIA Elements DESIGN.md 该存储库使用带有各个项目目录的顶级存储库。项目目录有自己的 package.json 和命令。在根存储库级别运行 CI 和开发设置。项目示例包括： - /projects/starters - 标准化启动应用程序套件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, angular, autonomous-vehicles, cli, design-system, design-tokens
+
+---
+
 ## 🕔 2026-10-28 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
