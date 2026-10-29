@@ -1,3 +1,67 @@
+## 🕔 2026-10-29 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [AgenticResourceRegistry](https://github.com/AgenticResourceRegistry/AgenticResourceRegistry)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,534
+- **核心概述**: Observal 是用于编码代理扩展的自托管注册表，具有内置的洞察引擎。设置观察、定义范围并与同行分享您的技能、MCP 和代理。
+- **大概是做什么的**: ██████╗██████╗███████╗███████╗██████╗██╗██╗█████╗██╗ ██╔═══██╗██╔══██╗██╔════╝██╔════╝██╔══██╗██║ ██║██╔══██╗██║ ██║ ██║██████╔╝███████╗█████╗ ██████╔╝██║ ██║███████║██║ ██║ ██║██╔══██╗╚════██║██╔══╝██╔══██╗╚██╗██╔╝██╔══██║██║ ╚██████╔╝██████╔╝███████║███████╗██║ ██║╚████╔╝██║██║███████╗╚═════╝ ╚═════╝╚══════╝╚══════╝╚═╝╚═╝╚═╝╚═══╝╚═╝ ╚═╝╚══════╝ Observal 是内部编码代理资源的控制平面和记录系统 设置一次，并让您的编码代理通过 observal-cli 使用 Observal。如果您觉得 Observal 有用，请考虑给它一颗星。它可以帮助其他人发现该项目并保持开发的进行。什么是 Observal？它能解决什么问题？ Observal 是内部编码代理资源的控制平面和记录系统。如今，每个技术领先的组织都会创建内部技能、代理文件、MCP 客户端。尽管这些编码代理资源的创建非常丰富，但同行采用和使用的情况却很少。如今，编码代理用户最���会创建自己的此类资源版本，而无需重用现有包。这
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, analytics, antigravity, claude-code, cli-tool, codex
+
+---
+
+### 🌟 [database-lab-engine](https://github.com/postgres-ai/database-lab-engine)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,781
+- **核心概述**: DBLab 为任何 Postgres 数据库启用🖖 数据库分支和 ⚡️ 精简克隆，并支持 CI/CD 中的数据库测试。这优化了与数据库相关的成本，同时缩短了上市时间并提高了软件质量。关注以保持更新。
+- **大概是做什么的**: Deutsch Português (BR) Русский Español Українська ⚡ 极快的 PostgreSQL 克隆和分支 🐘 🛠️ 构建强大的开发/测试环境。 🔃 通过 CI 测试覆盖 100% 的数据库迁移。 💡快速验证ChatGPT想法，摆脱幻觉。适用于任何 PostgreSQL，包括 AWS RDS、GCP Cloud SQL、Supabase 和 Timescale 等自我管理和托管服务。它可以在任何地方安装和使用：跨所有云环境和本地。对于 AWS RDS 或 Heroku 等托管 PostgreSQL 云服务，无法进行直接物理连接和 PGDATA 访问。在这些情况下，DBLab 应在同一区域内的单独虚拟机上运行。它将定期自动刷新数据，有效地充当数据库即服务解决方案。然后，此设置提供了非常适合开发和测试的精简数据库分支。 - 使用全面的、类似生产的数据库构建开发/QA/登台环境。 - 为 SQL 查询分析和优化提供临时全尺寸数据库克隆（另请参阅：SQL 优化聊天机器人 Joe）。 - 自动测试 CI/CD pi 中的数据库更改
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, branching, ci, ci-cd, cicd, cloning
+
+---
+
+### 🌟 [dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 305
+- **核心概述**: Use your ChatGPT Plus / Pro (Codex) subscription in DeepSeek Harness (DSH): GPT-6 & Codex models, images, web search and quota via ChatGPT sign-in — no OpenAI API key. Beta: control DSH from the ChatGPT mobile app. 在 DSH 中使用 ChatGPT 订阅，并可用 ChatGPT 手机 App 远程控制。
+- **大概是做什么的**: DSH Codex Subscription 把 ChatGPT / Codex 订阅直接接入 DeepSeek Harness 用 ChatGPT Plus / Pro 订阅登录，即可在 DSH 中使用 GPT-6 等 Codex 模型、查额度、联网搜索和生图。无需 OpenAI API Key，也不依赖 Codex CLI。 核心功能 · 安装 · 图片与草图 · 手机远程控制 · 全部功能 · 使用指南 · 常见问题 聊天与搜索 用订阅登录，选择账号开放的 Codex 模型、推理档位和速度档位，使用订阅联网搜索。 管理账号与额度 切换账号，查看短周期与每周额度、Credits 和重置时间；在输入框看额度、接收提醒，查看历史用量。 生成与编辑图片 用订阅出图、圈选区域继续修改，或在可编辑草图画板上自己画、让 Agent 画。查看实例 → 在手机上继续操作 用 ChatGPT 手机 App 配对电脑上的 DSH，DeepSeek 等其他模型也能用。Beta，默认关闭 → 使用已连接的应用 让 DSH 模型使用 ChatGPT 中已连接的 GitHub、Gmail、云端硬盘、日历等；写操作默认逐次询问。 模型和额度以账号实际返回为准。查看完整功能清单 → 让 DeepSeek 等模型使用订阅能力 让 DeepSeek 等任意 DSH 模型使用你在 ChatGPT 里连接的应用：GitHub、Gmail、Google 云端硬盘、日历等。模型先搜索再调用，写操作默认每次都要你批准，也可以在设置里改成不再询问。默认关闭，在“联网与工具”里开启。 联网搜索与网页读��来源、ChatGPT 连接器和官方 Codex 独立子任务在 设置 → Codex 订阅 → 联网与工具 ，页首一个总开关：关闭后，用 DeepSeek 等非 Codex 模型对话时不再使用订阅的联网搜索（改用 DSH 搜索）、图片生成和 ChatGPT 连接器，Codex 订阅模型不受影响。默认开启。 已验证兼容 DSH 0.2.1-rc.4 （ next 通道），继续支持 0.2.1-rc.3 和 0.2.1-rc.2 ，最低支持 0.1.7-rc.2 ；更早的 DSH 请先升级。 另支持预览宿主 0.2.2-alpha.2 ；范围与验收边界见兼容性记录。 本插件支持软件包元数据中记录的最新版 DeepSeek Harness，并需要一个当前具有 Codex 使用资格的 ChatGPT 账户。 选择 DSH：官方桌面端、便携版或命令行 - 推荐：官方桌面端 。DeepSeek 已发布 DeepSeek H
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, chatgpt, chatgpt-plus, chatgpt-pro, chatgpt-subscription, codex
+
+---
+
+### 🌟 [awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)
+- **项目语言**: Python
+- **星标数量**: ⭐ 273
+- **核心概述**: 令人敬畏的人工智能逆向工程和重建列表：人工智能代理分解并重新创建了哪些人工智能代理，以及哪些真正使用了 REA（逆向工程任何东西）。
+- **大概是做什么的**: 很棒的 REA：用 AI 逆向工程任何东西 AI 代理逆向工程和重建了什么，以及哪些真正使用了 REA。非官方。不隶属于 morluto/rea。通过它所取代的应用程序查找项目 · 它真的使用了 REA 吗？ · REA 有帮助吗？证据·本周新增·提交案例“REA”，最初是 morluto/rea（逆向工程任何东西，截至 2026 年 10 月 26 日拥有 385k+ 颗星），这是一个开源 MCP 服务器和 CLI（npm rea-agents），可让编码代理在没有源代码的情况下检查本机二进制文件、Electron 应用程序、.NET 程序集、APK、固件和网站，解释功能如何与证据配合使用，并重建它。 REA本身不反编译；它为代理协调 Hopper、Ghidra、IDA 和 JADX。 “REA”现在还命名了整个 AI 代理逆向工程和重建封闭软件的浪潮，无论它们使用 REA，还是使用 Ghidra 或 IDA MCP 的 Claude Code 和 Codex。该列表涵盖了该浪潮并说明了每种情况实际使用的内容。 - REA：项目自述文件、作者的帖子或官方展示表明使用了 morluto/rea。 - AI-RE：人工智能逆向工程与其他
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-reverse-engineering, awesome, awesome-list, case-studies, claude-code
+
+---
+
+### 🌟 [voyager](https://github.com/software-mansion/voyager)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 108
+- **核心概述**: Erlang 和 Elixir 运行时检查器 - 观察和调试正在运行的 BEAM 节点，并具有 MCP 支持
+- **大概是做什么的**: 观察、调试和了解正在运行的 BEAM 系统 一个连接到任何 BEAM 节点并向您显示其内部实际情况的桌面应用程序 https://github.com/user-attachments/assets/8aa3f69e-a692-4b9d-9bf5-75d972f6370f Voyager 是一款桌面应用程序，它通过一个界面检查正在运行的 BEAM 系统，而不是复制粘贴到 iex 中的 shell 命令拼凑而成。它通过普通的 Erlang 分布连接到本地或远程的任何 OTP 27+ 节点，并以一种实际上易于阅读的形式显示 BEAM 已经公开的信息： - 节点信息 — 内存和 IO 使用情况、调度程序、系统限制和正在运行的应用程序 - 监督树 — 每个应用程序进程层次结构的图形化、可导航视图 - 进程 — 按内存、缩减或消息队列长度对进程进行排名，并深入研究其中任何一个 - ETS 表 — 列出表格，浏览其内容，查看向上键，并使用匹配规范进行搜索 - MCP 服务器 - 与 Claude Code 或 Cursor 等编码代理相同的数据，因此他们可以检查实时系统，而不是从源代码猜测 无需设置
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: beam, debugging, developer-tools, elixir, erlang, gleam
+
+---
+
+### 🌟 [caido-mcp-server](https://github.com/c0tton-fluff/caido-mcp-server)
+- **项目语言**: Go
+- **星标数量**: ⭐ 137
+- **核心概述**: 用于 Caido 代理集成的 MCP 服务器。使 Claude Code 等 AI 助手能够浏览、分析 HTTP 流量并与之交互。
+- **大概是做什么的**: 用于 Caido Web 代理的 MCP 服务器和 CLI - 浏览、重播和分析来自 AI 助手或终端的 HTTP 流量。与 Caido 代理交互的两种方式： - MCP 服务器 - 通过模型上下文协议向 AI 助手（Claude Code、Cursor 等）公开 67 个工具和 6 个只读资源 - CLI - 适合喜欢命令行的渗透测试人员的独立终端客户端 两者共享相同的身份验证令牌、相同的 Go SDK 和相同的代码库。类别功能 ---------- ------------- 代理历史记录 使用 HTTPQL 搜索请求，获取完整的请求/响应详细信息，比较两个响应 重播发送 HTTP 请求，获取内联响应（状态、标头、正文）。每个会话 cookie jar 在调用之间自动保留 Set-Cookie 自动访问模糊测试会话、结果和有效负载。启动/暂停/恢复/取消任务 调查结果 创建、列出、删除和导出安全调查结果 站点地图 浏览发现的端点 范围 完整生命周期：创建、重命名、删除目标范围定义；检查主机/URL 是否在范围内 项目 完整生命周期：创建、重命名、选择、删除项目 工作流程 列表、运行、
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: caido, claude-code, cli, golang, mcp, pentest
+
+---
+
 ## 🕔 2026-10-29 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
