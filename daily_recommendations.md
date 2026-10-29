@@ -1,3 +1,67 @@
+## 🕔 2026-10-29 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [stickman-video-director](https://github.com/kaomei/stickman-video-director)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,265
+- **核心概述**: 将任何脚本变成病毒式、多风格的动画火柴人视频，供 Faceless YouTube 频道使用。自动化视觉效果、画外音、字幕和 SFX。 100% 免费和开源。
+- **大概是做什么的**: 🇺🇸 EN · 🇨🇳 简中 · 🇯🇵 日本语 · 🇰🇷 한국어 · 🇫🇷 FR · 🇧🇷 PT-BR · 🇹🇷 TR · 🇮🇩 ID 🎬 火柴人视频导演 将任何脚本转换为Faceless YouTube 频道的病毒式多风格动画火柴人视频。完全开源。从一个主题、一篇文章或一个脚本开始。自动将视觉效果、画外音、字幕和音效编排成可直接制作的火柴人视频。 ⚡ 100% 免费和开源。无需��机，无需 50 美元/月的订阅，只需几分钟即可准备就绪，而不是几天。不断更新科学解释者、黑暗心理学、科技寓言、病毒传说和讲故事频道的视觉风格。经典黑白 6 种风格 · 8 种视觉选项 · 测试示例 · 免费开源 ⭐ 为项目加注星标，以赶上下一个风格下降和功能解锁。开始使用·导演风格·自动驾驶仪风格·常见问题解答🎬制作视频的两种方法想要控制每个镜头？选择A·导演模式。想要一个���品视频而不需要自己组装场景吗？选择B·自动驾驶模式。一个项目，两个工作流程。 A · 指挥模式 B · 自动驾驶模式 接近您控制生产；人工智能计划
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills-manager, ai-animation-generator, ai-video-production, automated-video, codex-skills, content-creation
+
+---
+
+### 🌟 [GPT-Vis](https://github.com/antvis/GPT-Vis)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 794
+- **核心概述**: 🤖 GPT Vision，AI友好的可视化！ AntV进军AI。
+- **大概是做什么的**: LLM 时代的 AI 原生可视化库。与框架无关，随时可用。 - 🚀 与框架无关 - 适用于普通 JavaScript、React、Vue、Angular 或任何框架 - ✍️ 类似 Markdown 的语法 - LLM 可以直接生成的简单语法，易于学习和使用 - 🌊 流式渲染 - 对 AI 模型流式输出的本机支持，在生成时进行渲染 - 🛡️ 容错 - 优雅地处理不完整或格式错误的数据，适应 AI 生成的不确定性内容 - 📊 26 种图表类型 — 涵盖主流场景的统计图表、关系图和文本可视化 - 🎨 可重用主题 — 所有图表类型共享同一个 ThemeSpec；在 Theme Studio 中预览和完善它，或者使用 AI 技能创建它 随着 AI 模型生成，图表会呈现，无需等待完整响应：render() 支持两种输入格式：JSON 对象（非常适合编程使用）和 DSL 语法（非常适合 LLM 流）。直接传递 JSON 对象以进行编程图表创建： 三个内置主题，可通过主题属性切换： 主题标识符 背景调色板
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: antvis, gpts, llm, lui, visualization
+
+---
+
+### 🌟 [mnemosyne](https://github.com/28naem-del/mnemosyne)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 153
+- **核心概述**: 一个 SQLite 文件中的 AI 代理的可审核、本地优先内存。用于 Claude Code、Cursor 和 Codex 的 MCP 服务器。 npm：mnemosy-ai
+- **大概是做什么的**: 下一个特工开始变得更聪明。行动代理的可审计内存。过去的信念会准确地重播，通过记录的依赖关系进行级联修正，并且巩固是结果门控且可逆的。 Mnemosyne 是 AI 代理的本地优先长期存储器：一个 SQLite 文件，将代理学到的内容及其来自的证据保存在一起，通过 TypeScript、MCP、CLI 或 HTTP 提供给任何主机。当源被纠正时，依赖于它的所有记忆都会被淘汰，因此下一个智能体会从仍然正确的内容开始，而不是重复陈旧的课程。 Mnemosyne 将记忆与其后果联系起来：纠正的要求可以退出相关过程，失败的试验可以保留技能，新的代理可以从明确的切换中恢复。在一个 SQLite 文件中运行本地引擎；通过 TypeScript、MCP、CLI 或经过身份验证的 HTTP 与 Python 客户端和实时检查器连接您的主机。稳定：2.0.0 ( npm install mnemosy-ai ) · 最新预发布：3.0.0-rc.2 ( npm install mnemosy-ai@next ) · MIT · Node.js ≥22.16 网站 · 快速入门 · 文档 · 示例 · 迁移 · Mea
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-memory, ai-agents, ai-memory, claude-code, codex, context-engineering
+
+---
+
+### 🌟 [mcpsurfr](https://github.com/nkapila6/mcpsurfr)
+- **项目语言**: Python
+- **星标数量**: ⭐ 150
+- **核心概述**: 本地 Web 搜索 MCP 服务器，以前称为 mcp-local-rag。多引擎深度研究与设备上重新排名。 ✨ 没有 API 密钥 ✨
+- **大概是做什么的**: 本地网络搜索您的 LLM over MCP。没有 API 密钥，结果会在您的计算机上排名。以前是 mcp-local-rag 。 - 没有 API 密钥。搜索通过 ddgs。它的自动模式会同时询问多个引擎并跳过阻塞的引擎。 - 本地排名。普通 numpy 上的小型 MobileBERT 模型会对结果进行重新排名，因此仅获取最佳页面。 - 干净的文字。页面通过浏览器模拟获取，并且仅保留主要内容：没有菜单、cookie 横幅或页脚。代码块和表格保留其行。 PDF 也会被读取（文本层，前 50 页）。两个 URL 下的同一页面会返回一次。 - 段落而不是页面。搜索仅返回回答问题的段落，大约是标记的十分之一。如果没有合适的内容，它会询问您是否想要完整的页面。 - 说它遗漏了什么。结果列出了带有原因的跳过页面（被阻止、仅限 JavaScript、重复...），剪切的页面被标记为已截断，并且后备和引擎故障显示为警告。谷歌经常封锁，所以它自己又回到了汽车。 - 自带指南。它提供一个sk
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ddgs, deep-research, duckduckgo, fastmcp, llm
+
+---
+
+### 🌟 [nodecode](https://github.com/nodecode-ai/nodecode)
+- **项目语言**: Common Lisp
+- **星标数量**: ⭐ 158
+- **核心概述**: Lisp 中的活代理有机体。
+- **大概是做什么的**: 它会成为你的并随着时间的推移而演变。网站  ·  Cells  ·  Research  ·  您无法阅读 PDF。教你自己。它定义 read-pdf 、保留它并读取发票。发布预告片的片段：外壳和每项评估都是真实的，模型的回复是有脚本的，因此片段会重复。 Nodecode 是一个可以重写自身的代理。它在 SBCL（一种 Common Lisp 系统）中作为一个进程运行，并附加有 shell。该模型有一个工具：它在运行的程序中评估 Lisp 并保留其定义的内容。 Windows，在 PowerShell 中：然后运行 ​​nodecode 。第一次启动会打开设置。如果机器上存在另一个编码代理（Claude Code、Codex、Hermes Agent、OpenCode、Cursor CLI、Gemini CLI 等 9 个），安装程序会为其命名并在读取任何内容之前进行询问；说“导入”，它会带来代理的密钥、指令、内存、技能、MCP 服务器、机器人和作业，当找到多个代理时，一一勾选代理，或者跳过并 /import 稍后将它们带过来。然后你选择一个提供者、一个模型和推理工作。请参阅快速入门和首次运行。运行时更新
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agentic-ai, ai-agent, ai-agents, ai-coding-assistant, anthropic
+
+---
+
+### 🌟 [pracht](https://github.com/JoviDeCroock/pracht)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 105
+- **核心概述**: 可部署在任何地方的 Preact 框架
+- **大概是做什么的**: 一张应用程序图表，投射到浏览器和代理。 （pracht /praxt/ — 荷兰语和德语中“辉煌”的意思。另外：你总是把 Preact 读错。）其他框架为人类呈现你的应用程序，并让代理来抓取它。 Pracht 将您的路由、加载器、API 路由和功能解析为一个显式图表，然后以两种方式投影该图表：用于人员的组件，以及用于代理的类型化、信任门控工具 - 通过 HTTP、WebMCP、远程 MCP 和 llms.txt 。它是一个Preact框架，所以人类的一半很小；它是一个显式框架，因此代理一半是���声明的东西，而不是从您身上刮掉的东西。文档 · 为什么选择 pracht · 入门 · 与其他框架比较 - 一个显式应用程序图 - 一个类型化的 DefineApp() 清单连接路由、shell、中间件和功能。什么在哪里运行从来都不是一个谜，而且因为图表是解析的而不是推断的，所以工具可以读取它。更喜欢基于文件的路由？选择加入页面路由器并完全跳过清单。 - 该图被投影到代理，而不是从他们那里刮取 - 一个defineCapability() c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, cloudflare-workers, framework, full-stack, llms-txt
+
+---
+
 ## 🕔 2026-10-29 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
