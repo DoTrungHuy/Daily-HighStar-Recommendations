@@ -1,3 +1,67 @@
+## 🕔 2026-10-30 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [antirion](https://github.com/eliasbiondo/antirion)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 496
+- **核心概述**: 🕷️ 最快的开源 AI 网关和 LLM 网关 — 一个带有内置控制台的二进制文件，用于路由、保护、预算和观察 OpenAI、Anthropic、Gemini、Bedrock 等的每个 LLM 调用。
+- **大概是做什么的**: 最快的开源人工智能网关。一个 Rust 二进制文件，内置管理控制台，位于您的应用程序和每个模型提供者之间。比 Bifrost 和 LiteLLM 更快。在同一台专用机器上，Antirion 使用其 CPU 和内存的一小部分添加了 Bifrost 开销的一小部分，并继续以 LiteLLM 失败的速率提供服务。查看基准。 - 我们测量过的最快的网关。在 4 个 vCPU 上每秒处理数千个请求时，开销为亚毫秒级，是同一计算机上第二快网关吞吐量的数倍（性能）。 Rust，没有垃圾收集器，没有解释器，一种数据 - 一种二进制文件，包括控制台。网关、管理 API 和 Web 控制台作为单个 Rust 二进制文件（或 distroless 映像）提供。没有 sidecar，没有单独的 UI 部署，没有运行时 - 每个主要提供商都支持一个 API。 OpenAI、Azure OpenAI、Anthropic、Amazon Bedrock、Google Vertex AI、Gemini、Mistral、Cohere、Groq、Together、Fireworks、DeepSeek、xAI、Cerebras、DeepInfra、Perplexity 以及任何 OpenAI 或 Anthropic 兼容服务器（例如 vLLM）。客户谈论 OpenAI、Anthropic、Gemini
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: a2a, ai-gateway, anthropic, api-gateway, bifrost-alternative, guardrails
+
+---
+
+### 🌟 [DSH-Android](https://github.com/jackwener/DSH-Android)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 506
+- **核心概述**: 免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku
+- **大概是做什么的**: 不要 root，不用电脑，直接跑在你的安卓手机上。真正的手机 Agent，替你把手机上的事干完。 在安卓手机上运行 DeepSeek Harness（dsh）：让它操作 App、整理文件、修改系统设置，或者自动执行任务。 下载 APK • 快速开始 • 架构 • 从源码构建 - 手机上的 App 都能操作 ：用微信发消息、总结群聊，抓取小红书上的内容，在 BOSS 直聘上直接投递、打招呼，去淘宝帮你下单，等等。 - 它操作，你照常用手机 ：授权后 Agent 能读屏、点按、输入，过程中你可以随时暂停、停止或插话。Android 14 及以上支持“不打扰模式”：配好 Shizuku 或自连 ADB 后，Agent 在虚拟屏幕上操作，不占用你的屏幕。 - 在任何 App 里随时呼起 ：用悬浮球直接对话、派活，也可以把当前这一屏发给它，问“这条怎么回”“帮我记下来”。 - 手机里自带 Linux 环境 ：Agent 可以跑 Python、处理你发来的文件、运行它自己写的脚本。 - 出门也能用电脑上的 Agent ：通过 SSH 或 DSH Remote 连接电脑或服务器上的 DSH。只用远程模式的话，手机不用安装本地运行环境。 1. 从 Releases 下载 APK 并安装（arm64，Android 10 及以上）。 2. 登录 DeepSeek 账号，或者填入 API key；也可以在 设置 → 模型服务 里添加其他服务商。 3. 直接说要做什么，比如“列出下载目录里最大的 5 个文件”。用��某项权限时，App 会再引导你开启。 4. 可选：在 设置 → 手机权限 里一键安装 Shizuku，并在 Shizuku 里打开“开机启动（无线调试）”。 - 文件 ：查找、整理、移动、重命名、压缩解压；能读 PDF / Word / Excel / PPT 里的文字。 - 屏幕和 App ：读屏、点击、滑动、输入（基于无障碍服务）；打开 App 或直接跳到指定页面。 - 系统设置 ：亮度、音量、勿扰、闹钟、Wi‑Fi、蓝牙、定位；读取和回复通知，控制媒体播放。 - 自动化 ：定时执行，或在连上 Wi‑Fi/蓝牙、开始充电、到达某地、收到通知等条件下触发。 - 其他模型服务 ：除 DeepSeek 外，可添加 OpenAI、Claude、Gemini、Grok、OpenRouter、Kimi、智谱 GLM、通义千问、火山方舟、MiniMax、硅基流动、阶跃星辰，或任意 OpenAI 兼容接口；填 key、拉取模型列表即可在模型选择器里切换。 - 完整的 dsh ：dsh
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, deepseek, deepseek-harness, llm, phone-agent
+
+---
+
+### 🌟 [openai-kotlin](https://github.com/aallam/openai-kotlin)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,851
+- **核心概述**: 适用于 Kotlin 的 OpenAI API 客户端，具有多平台和协程功能。
+- **大概是做什么的**: 适用于 Kotlin 的 OpenAI API 客户端 适用于具有多平台和协程的 OpenAI API 的 Kotlin 客户端 1. 通过将以下依赖项添加到您的 build.gradle 文件来安装 OpenAI API Kotlin 客户端： 2. 选择 Ktor 引擎之一并将其添加到您的依赖项中。或者，您可以通过将以下依赖项添加到 build.gradle 文件来使用 openai-client-bom 在多平台项目中，将 openai 客户端依赖项添加到 commonMain ，并为每个目标选择一个引擎。 Gradle 是多平台支持所必需的，但没有什么可以阻止您在 Maven 项目中使用 jvm 客户端。您仍然需���添加到依赖项之一 使用 Maven 设置客户端 Maven 项目不支持 BOM。 OpenAI 鼓励使用 API 密钥的环境变量。创建 OpenAI 客户端实例：或者您可以使用预配置的 OpenAIConfig 创建 OpenAI 实例：使用您的 OpenAI 实例发出 API 请求。了解更多。正在寻找标记器？尝试 ktoken，一个用于标记文本的 Kotlin 库。开始并了解更多有关如何使用 Ko 的 OpenAI API 客户端的信息
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: api, chatgpt, client, coroutines, dall-e, gpt
+
+---
+
+### 🌟 [Agents_Failure_Attribution](https://github.com/ag2ai/Agents_Failure_Attribution)
+- **项目语言**: Python
+- **星标数量**: ⭐ 397
+- **核心概述**: 代理系统中自动故障归因的基准（🏆 ICML 2025 Spotlight）
+- **大概是做什么的**: 令人敬畏的故障归因 来自代理轨迹的第一个也是最好的基准调试故障。该存储库提供了 ICML 2025 焦点论文“Which Agent Causes Task Failures and When？”的实现，该论文介绍了基于 LLM 的多智能体系统中自动故障归因的任务。给定失败的任务，目标失败归因是自动识别对失败负责的代理和步骤。自动故障归因具有几个关键优势： - 减少手动调试工作：自动执行检查故障日志和跟踪错误的劳动密集型过程。 - 加速系统开发：通过快速识别有故障的代理和严重错误来加快迭代周期。 - 为代理自我改进提供中间反馈：查明决定性错误为代理系统的自我纠正提供可操作的信号，或者可以作为强化学习的奖励。 🔧 Who&When：MAS 自动故障归因的 1 个基准。 - 184 个带注释的失败任务收集自 - 算法生成的代理系统
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, autogen, llm, multi-agent, multiagent-systems
+
+---
+
+### 🌟 [agent-workspace-linux](https://github.com/agent-sh/agent-workspace-linux)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 203
+- **核心概述**: 适用于 AI 代理的独立 Linux 桌面工作区 - 通过 MCP 的隐藏的、代理拥有的桌面和浏览器，因此代理可以在不接触真实桌面的情况下执行 GUI 和 Web 工作。
+- **大概是做什么的**: agent-workspace-linux AI 代理通过 MCP 控制的隐藏 Linux 桌面。您的鼠标、键盘、焦点和浏览器都是您的。一名特工，六个隐藏桌面。每个图块都是一台计算机上的真实工作区，由代理本身捕获。为您的公司运行开放模型？ Tiyuvta 帮助您进行模型选择、部署和优化，以及对您的硬件或云帐户进行微调。 “使用计算机”的代理通常会接管您的屏幕。它们会移动您的鼠标、窃取焦点并驱动您登录的浏览器。 agent-workspace-linux 为代理提供了自己的桌面：私有 X11 或本机 Wayland 显示器，在六个后端中的任何一个上具有自己的窗口管理器或合成器、应用程序、剪贴板和浏览器。代理启动应用程序、键入、单击、截取屏幕截图并浏览。您可以通过小型浮动查看器观看、暂停或停止它。它通过 stdio 使用 MCP，因此可以与 Claude Code、Codex 和其他 MCP 主机配合使用。 GUI 和 Web QA 代理必须在不劫持您的桌面或 Chrome 会话的情况下测试应用程序或网站。后台浏览网页或购物任务在浏览器中运行，您可以
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agents, ai, ai-agents, browser-automation, claude-code
+
+---
+
+### 🌟 [resin](https://github.com/ekzhang/resin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: 🧱 用于构建推理引擎的实验库
+- **大概是做什么的**: Resin 不是推理机。它是 LLM 的构建块库，其核心是无头引擎：快速 Rust 调度程序、KV 缓存和指标服务器。然后，您将前向传递编写为特定于模型的内核，并针对您的硬件进行了优化。 Resin 还具有可选的 HTTP 服务和 Prometheus 指标。这不是生产质量的软件。如果您正在寻找实际的推理引擎，请使用 SGLang 或 vLLM。如果您想破解法学硕士推理系统、新模型或硬件，请继续阅读。有了正确的内核，即使是最复杂的模型也可以自主“振动编码”。在 12 小时内，我们使用 Resin 在 Blackwell GPU 上为 DeepSeek-V4.1-Flash 和 GLM-5.3-Flash 构建了与 vLLM 和 SGLang 相媲美的独立引擎。 DeepSeek V4.1 Flash 的预填充和解码，在 DeepInfer 的 5-10% 范围内。从两页的架构概述开始。 - Rust 批处理调度程序 - 基于统一板的缓存池（KV、SWA、循环） - 可插入前缀缓存存储 - 推测解码（MTP、DSpark） - 零开销重叠调度 - 引擎指标和 Prometheus 导出 - P
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cuda, deepseek, gpt-oss, gpu, inference, inkling
+
+---
+
 ## 🕔 2026-10-30 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
