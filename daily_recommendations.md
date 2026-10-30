@@ -1,3 +1,67 @@
+## 🕔 2026-10-30 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 295 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 1,858
+- **核心概述**: dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+- **大概是做什么的**: DeepSeek Harness 的 Android 客户端。手机上直接跑，也能遥控你电脑上的 DSH。 干活时敲代码，做完来个空翻，等你确认会举手。打开「App 外显示」，它们还会跟你到桌面。 从 GitHub Releases 或官网下载页获取最新版 APK，常见手机选 arm64 包。 感谢大家对 DSH Go 的支持和喜爱，我将尽快适配 iOS 和鸿蒙！大家 Star 点得越多，我适配得越快哦 hhh 第一次用可以先看 使用指南 ，遇到问题欢迎来 论坛和 QQ 群 。 手机上装过签名不同的早期测试包时不能直接覆盖安装，需要先卸载旧版；卸载会清空对话、Linux 环境和设置。 内置 Linux 环境，免 Root、免 Termux。电脑上的 DSH，也能一键切过去接着用。 回复中途也能插话，排队的消息随时「立即发送」。做完的过程折叠成一行。 和官方网页版一键切换，停在同一段对话，下次打开还是你上次用的那个。 回复一键做成分享卡。整段对话生成链接，对方在浏览器里回放，链接端到端加密。 横屏手机和平板重新排版：侧栏常驻，内容居中，弹出键盘也不挤。 六套主题色，也能跟随壁纸或自选颜色。四款桌面图标，三种功能图标风格。 全部界面支持英文，在设置里切换，默认跟随系统。 看屏幕、帮你点，三档确认随你选。付款、密码和验证码，永远交还给你。 DSH Go 提供聊天界面、本机运行环��和远程连接，是基于 DeepSeek Harness 的第三方项目。运行在手机上的是 DSH 引擎；模型请求仍由你配置的模型提供方处理。 - 本机运行 ：在 App 内安装 Ubuntu、Node.js 与 DSH 运行环境，无需 Root 或另装 Termux。 - 远程连接 ：通过 SSH 或 DSH Remote 使用电脑、服务器上的 DSH。 - 聊天与工具 ：切换模型，发送图片、使用语音输入，处理工具审批和提问；支持聊天界面与网页模式。 - 插件界面 ：使用适配 DSH Go 的原生工具卡、表单和面板；仓库提供 SDK、教程和示例。 - 手机操控 ：在你开启权限后，让本机引擎读取屏幕、点按和输入，并可随时停止。 - 分享与外观 ：分享、导出和回放对话，调整主题、图标和桌宠。 功能随主机和连接方式不同。DSH Remote 当前只支持图片附件，不能在 App 内打开网页版，插件管理限于开关，且不支持 DS Bot 和对话日志导出。详见本机引擎与远程主机。 安装要求为 Android 8.0（API 26）及以上。Release 页面上的 arm64 安装包适用于常见的 64 位 Andr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, android-app, coding-agent, deepseek, deepseek-harness
+
+---
+
+### 🌟 [fly-island](https://github.com/flyl1u/fly-island)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 337
+- **核心概述**: A lightweight PC Dynamic Island that integrates QQ, WeChat, and email notifications, clipboard history, quick translation, a Codex status light, media controls, daily to-dos, and more. | 轻量的PC灵动岛，集成QQ、��信及邮箱通知、剪贴历史、快捷翻译、Agent状态灯、媒体控制、每日待办等功能
+- **大概是做什么的**: 一款 Windows 桌面效率工具，在屏幕顶部集中管理待办、剪贴板、音乐、AI 状态、快捷翻译和消息提醒。 一款 Windows 优先的灵动岛。集成微信、QQ、邮箱通知，剪贴板历史、快捷翻译、Codex状态灯、媒体控制、每日待办等功能 fly-island 以轻量、无边框、始终置顶的悬浮岛形式运行，它会在需要时展开，用完后回到紧凑状态，减少为了获取一条信息而切换窗口的次数。 日常工作或学习过程中，我经常需要在某软件写下 Todo List，为了隔绝噪音，我会打开音乐软件并把音量调到合适的临界点，工作和学习又经常需要借助翻译网站，同时还会反复复制和粘贴代码，与此同时难以避免的是接收不同群聊、好友发送的消息 在这些界面之间来回切换，不仅会降低效率，也容易让人分心，因此我开始思考：能不能把这些高频功能集成到一个足够轻量的地方？ 我想到了iPhone的灵动岛，它把消息通知、计时器、媒体控制等信息集中到一个小岛上，缩短了我们获取信息的路程。于是，FocuSD 诞生了。这个名字寓意 Focu Study and DeepWork ，专注学习和深度工作，项目使用更轻量的 Tauri 架构开发，不过目前已改名为fly-island fly-island 想解决的核心问题，是工作和学习过程中频繁的窗口切换。 fly-island 把分散在不同窗口中的高频操作放到一个可折叠、可展开的悬浮岛里： - 图文剪贴板历史 ：记录复制过的文本和图片，搜索内容或备注、收藏常用项、添加备注、删除记录，并一键复制回剪贴板。历史数量、图片记录和全局唤出快捷键均可设置。 - QQ、微信与 QQ 邮箱 ：在同一行品牌导航中切换 QQ、微信和邮箱，工具按钮共用顶部一行；QQ 通知和邮箱各保留最近 20 项，邮件支持在岛内打开正文并返回列表。 - 快捷翻译 ：用全局快捷键打开独立翻译窗口，自动判断中英方向或手动指定；可从剪贴板填入原文并复制译文。 - AI 状态灯 ：通过 Codex 和 Claude Code 生命周期钩子显示任务运行、完成或需要关注的状态，可在设置中安装或修复钩子。 - 待办、每日笔记与归档 ：管理当天任务、标记完成、设置当前任务；记录每日笔记并浏览历史归档。可选择自动结转未完成任务，将任务和笔记保存为 Markdown。 - 音乐与系统音频 ：通过 Windows 媒体会话切换上一首、播放/暂停和下一首，并用动态波形显示音频活动。 - 外观与启动设置 ：切换经典或液态玻璃外观、系统或像素字体，调整大小、透明度、颜色和顶部距离；保存最多 6 个自定义样式预设、控制标题显示和开机自启动。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, clipboard, clipboard-manager, desktop, dynamic-island, markdown
+
+---
+
+### 🌟 [Mika](https://github.com/wangzan101/Mika)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 398
+- **核心概述**: Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.
+- **大概是做什么的**: 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。 它在一块看不见的后台屏上干活，你照样刷你的手机。 An on-device AI agent for Android that operates apps and the web to get things done for you — on a hidden background screen, so you can keep using your phone. 下载 APK · 快速开始 · 能做什么 · 常见问题 · 参与贡献 Mika is an Android app that takes a one-sentence request and carries it out on your phone. It drives apps on a private background screen (so you can keep using your phone), browses the web in a built-in desktop-class browser, and runs scripts in a local Linux sandbox. You bring your own model API key (several providers are supported as presets, plus any OpenAI-compatible, Anthropic or Gemini endpoint). There is no Mika server: your requests go only to the model provider you configure. Status: public beta , changing quickly (see Releases for versions and changes). Install on Android 11+, tasks need Android 13+, Android 14+ recommended. The sandbox runs on arm64 devices only. The app UI is available in English and Chinese (follows your system language; switch in Settings › Language); see the full English README. Licensed under Apache-2.0.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agent, android, automation, jetpack-compose, kotlin
+
+---
+
+### 🌟 [smart-tree](https://github.com/8b-is/smart-tree)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 271
+- **核心概述**: 智能树：不仅仅是一棵树，更是一种哲学。上下文感知、人工智能精心设计的替代品，可替代 20 多种工具，具有 MEM8 量子压缩、语义搜索、AST 智能编辑和合作伙伴内存。由人类+人工智能精心打造——不接受仿冒品。
+- **大概是做什么的**: 🌳 智能树 - 智能树屋：网络植物仪表板和与代理无关的挂钩！ 🌐 Smart Tree 是一款速度极快、AI 友好的目录可视化工具，比传统树快 10-24 倍。现在有了用于供应链攻击检测的安全扫描器、Aye Consciousness 保存、Spicy TUI 模式和 30 多个 MCP 工具！采用 Rust 构建，可实现最佳性能。安装后，运行 st --cleanup 来扫描并删除任何恶意 AI 集成。内置代码智能 Smart Tree 嵌入了 CrabCC 的 Rust 索引/查询引擎。 st 二进制文件提供符号定义、引用、文件大纲和图形统计信息，无需单独安装crabcc 或运行守护程序：这些命令返回 JSON。 --no-source 省略源代码片段。 MCP符号工具使用相同的本机引擎，默认为当前会话目录；其现有的 sym 、 refs 、 Outline 、 Index 和 graph 操作仍然可用。两个接口均强制执行 MCP 路径策略。缓存位于 /.st/symbols/ ；独立的 CrabCC 数据库被保留。查询刷新此缓存增量
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, analysis, anthropic, blazingly-fast, claude, claude-code
+
+---
+
+### 🌟 [reddit-mcp-server](https://github.com/jordanburke/reddit-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 312
+- **核心概述**: ⚙️ 模型上下文协议 (MCP)，提供用于获取和创建 Reddit 内容的工具
+- **大概是做什么的**: 用于与 Reddit 交互的模型上下文协议 (MCP) 服务器 - 获取帖子、评论、用户信息并创建内容。功能概览 功能 reddit-mcp-server 其他 Reddit MCP ------------------------------------------- :----------------: :----------------: 创建帖子 :白色复选标记: :x: 回复帖子/评论 :白色复选标记: :x: 编辑帖子/评论 :白色复选标记: :x: 删除帖子/评论 :白色复选标记: :x: 垃圾邮件防护（安全模式） :白色复选标记: :x:机器人披露页脚 :白色复选标记: :x: 政策合规性 内置 :白色复选标记: :x: 浏览 Subreddits :白色复选标记: :白色复选标记: 搜索 Reddit :白色复选标记: :白色复选标记: 用户分析 :白色复选标记: :白色复选标记: 发表评论 :白色复选标记: :白色复选标记: OAuth Auth (60-100 rpm) :白色复选标记: :白色复选标记标记：无钥匙模式（零设置） ：白色复选标记： :x：选项 1：Claude 桌面扩展（最简单） 选项 2：NPX（无需安装） 使用 Reddit OAuth 凭据添加到您的 MCP 配置（Claude 桌面、光标等）： 选项 3：Claude 代码工具描述
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, llm-tools, mcp, mcp-server, model-context-protocol, reddit
+
+---
+
+### 🌟 [kodit](https://github.com/helixml/kodit)
+- **项目语言**: Go
+- **星标数量**: ⭐ 126
+- **核心概述**: 👩‍💻 MCP 服务器索引外部存储库
+- **大概是做什么的**: 代码和文档智能服务器，可对 Git 存储库进行索引并通过 MCP 和 REST API 提供搜索。当人工智能编码助手能够访问代码库中的真实示例时，他们会更好地工作。 Kodit 为您的存储库建立索引，将源文件拆分为可搜索的片段，并将它们提供给任何与 MCP 兼容的助手。当您的助手需要编写新代码时，它首先查询 Kodit 并获取从您自己的项目中提取的相关的最新示例。 Kodit 还处理文档。 PDF、Word 文件、PowerPoint 演示文稿和电子表格均经过光栅化和索引，因此您可以在一个位置搜索代码和文档。 - 多种搜索策略，包括 BM25 关键字搜索、语义向量搜索、正则表达式 grep 和可视文档搜索，每个策略都作为单独的 MCP 工具公开，以便您的助手为每个查询选择正确的方法 - MCP 服务器可与 Claude Code、Cursor、Cline、Kilo Code 和任何其他 MCP 兼容的助手配合使用 - REST API，用于以编程方式访问搜索、存储库、丰富和索引状态 - AI 丰富（可选）
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, ai-code-generation, ai-coding, mcp, mcp-server
+
+---
+
 ## 🕔 2026-10-30 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 152 个候选项目中筛选出 6 个未推荐过的新项目。
