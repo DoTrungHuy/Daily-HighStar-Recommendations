@@ -1,3 +1,67 @@
+## 🕔 2026-10-31 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [JioNLP](https://github.com/dongrixinyu/JioNLP)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,876
+- **核心概述**: 中文 NLP 预处理、解析工具包，准确、高效、易用 A Chinese NLP Preprocessing & Parsing Package www.jionlp.com
+- **大概是做什么的**:    JioNLP：中文 NLP 预处理、解析工具包 A Python Lib for Chinese NLP Preprocessing & Parsing - JioNLP 是一个面向 NLP 开发者 的工具包，提供 NLP 任务预处理、解析功能，准确、高效、零使用门槛。请下拉本网页，查阅具体功能信息，并按 Ctrl+F 进行搜索。关注同名 微信公众号 JioNLP 可获取最新的 AI 资讯。 - AI发展方向——从pipeline到end2end - 你为什么不相信 LLM 模型评测：深入评测 LLM 接口 - ChatGPT这么强，会影响NLPer的就业环境吗？ - 花了三周，我又更新了一版开源软件 ffio = FFIO链接 时间语义解析是目前较多开发者使用的功能，如果您考虑定制化效果更好的版本，可以与我联系，微信号 shanzhuiyancheng 2023-12-12 Add MELLM - MELLM , short for Mutual Evaluation of Large Language Models , is an automatic evaluation algorithm of LLMs without human supervision. MELLM has been tested effectively on several LLMs and datasets test results and analysis. You can use the example code below to take a try. - before running this code, you should download norm score.json and max score.json from test data with password jmbo . - If you encounter any error, read the test mellm.py to download .json file. - 导入工具包，查看工具包的主要功能与函数注释 功能 函数 描述 星级 -------- ------- ------- ------- 查找帮助 help 若不知道 JioNLP 有哪些功能，可根据命令行提示键入��干关键词做搜索 车牌号 解析 parse motor vehicle licence plate 给定一个车牌号，对其进行解析 ⭐ 时间语义解析 parse time 给定时间文本，解析其时间语义（时间戳
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, apache2, chinese, llm, natural-language-processing, nlp
+
+---
+
+### 🌟 [SkyrimNet-GamePlugin](https://github.com/MinLL/SkyrimNet-GamePlugin)
+- **项目语言**: Papyrus
+- **星标数量**: ⭐ 364
+- **核心概述**: 《天际》中的 AI NPC 能够实时说话、记忆、反应和行动。由无缘。
+- **大概是做什么的**: 《天际》中的每个 NPC 都通过 AI 变得栩栩如生。他们实时说话、记忆、反应和行动。正如 NVIDIA 技术博客和 NVIDIA 博客中所介绍的那样，SkyrimNet 将《Skyrim》中的每个角色都变成了您可以真正交谈的人。对着你的麦克风或打字说话，你面前的 NPC 会用他们自己的声音和他们自己的个性来回答现在正在发生的事情。 NPC记得。每个人都对你所做的、所说的以及他们所看到的周围发生的事情都有自己的记忆，并在以后提起。他们注意到：他们对他们可能看到和听到的东西做出反应，互相交谈，并在你观看时让场景继续进行。他们会采取行动：根据情况需要，NPC 可以跟随您、交出黄金、为您制作盾牌、拔出武器或走开。它全部作为一个单一的《Skyrim》模组运行。没有单独的应用程序，没有服务器窗口可以保持打开状态。安装它，启动游戏，几分钟之内你就可以和 NPC 交谈了。莉迪亚给你她的装备 认识纳齐姆·巴尔古夫的法庭辩论龙的威胁 阿维尔谈论他的自由之路 更多关于 SkyrimNet YouTube chan
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-npc, llm, skse, skyrim, skyrim-mod, text-to-speech
+
+---
+
+### 🌟 [servo-fetch](https://github.com/konippi/servo-fetch)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 163
+- **核心概述**: 一个独立的浏览器引擎，可以以 Markdown、JSON 或屏幕截图的形式获取、渲染和提取 Web 内容 - 无需 Chromium，无需 API 密钥，无需设置。
+- **大概是做什么的**: 一个独立的浏览器引擎，可以以 Markdown、JSON 或屏幕截图的形式获取、渲染和提取 Web 内容 - 无需 Chromium，无需 API 密钥，无需设置。 servo-fetch 嵌入了 Servo 浏览器引擎。它执行 JavaScript、计算 CSS 布局、使用软件渲染器捕获屏幕截图并提取干净的内容 - 可用作 CLI、Rust 库、Python SDK 和 Node.js SDK。 - 零依赖 - 单个二进制文件，无 Chromium，无 API 密钥 - 真正的 JS 执行 - SpiderMonkey 运行 JavaScript，并行 CSS 引擎计算布局 - 布局和可见性感知提取 - 按渲染位置剥离导航栏、侧边栏、页脚，以及 cookie 横幅、模态和 CSS 隐藏内容（ opacity:0 、 aria-hidden 、仅 sr） - 模式驱动 JSON - 声明性 CSS 选择器模式提取结构化数据- 并行批量获取 — 同时获取多个 URL - 隔离的浏览器会话 — 每个会话一次性使用工作进程使 Cookie 和存储完全分离 - 站点爬行 — 使用 robots.txt、同一站点范围和速率限制进行 BFS 链接遍历 - URL 发现 — 基于站点地图的 URL 映射
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, cli, fetch, mcp, rust, servo
+
+---
+
+### 🌟 [facadecode](https://github.com/y5ez3g/facadecode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 130
+- **核心概述**: 一款适合您和您的 AI 团队的 IDE。一个 VS Code 分支，其中 Claude Code、Codex、Antigravity 和 Muse Code 在多个项目和功能中并行工作。
+- **大概是做什么的**: 一款适合您和您的 AI 团队的 IDE。基于 VS 代码构建。运行您的本机代理 CLI，例如 Claude Code、Codex、Antigravity、Muse Code 和 Qwen Code。英语 · 简体中文 · 繁体中文 · 葡萄牙语（巴西） · 西班牙语 · Русский · 德语 · 日本语 · 印度尼西亚语 · 法语 · 한국어 · 土耳其语 · Tiếng Việt · 波兰语https://github.com/user-attachments/assets/35e2c317-8040-49c6-bb56-ab81196e8ebc Facade Code 是 VS Code 的一个分支，来自每个供应商的本机代理可以在您的项目和功能上进行协作，同时您可以在同一窗口中查看代码并引导任何代理。 - 🧑‍💻 完整的 VS Code，按项目和功能组织。在一个窗口中开发多个项目和功能。每个功能都是一个 git 工作树，配备了专门的代理团队。 - 🤖 原生代理 CLI 的跨供应商团队。代理按照您自己的编码计划运行。在 Facade Code 中，代理启动、发送消息并帮助彼此解除粘连。 - 👥 超级工程师或超级团队。亲自指导多个代理，或指定一个领导模型来并行协调专家。先决条件：安装并登录到您要使用的代理 CLI（任何组合）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-orchestration, agentic-coding, agentic-workflow, agents, ai-agents
+
+---
+
+### 🌟 [joyczl-agent](https://github.com/ChrisVip001/joyczl-agent)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 102
+- **核心概述**: Joy——本地优先的私人助理。 Rust 核心（循环/内存/工具/图形/评估）、TypeScript 网关 + 仪表板、Python 瘦 SDK。
+- **大概是做什么的**: 本地优先的个人助理：Rust 拥有逻辑和状态，TypeScript 涵盖浏览器和聊天网关，Python 仍然是一个精简的 SDK。状态存储、推理和工具都运行在用户自己的机器上。代号 Joy——助理的角色也是 Joy。 1. Rust 拥有逻辑和状态。代理循环、内存、工具和 state.db 位于 Rust 中；板条箱按责任划分（目标 /secrets.json （0600，纯文本），当没有时 - 保存响应会说它是哪一个，老实说。不再读取旧的 JOY API KEY / JOY BASE URL 环境变量 - 配置只有一个路径： models.json 。 fetch url 获取页面的文本（HTML→plain，50k 上限）；SSRF 防护（阻止私��/元数据目标，重新检查每个重定向）+外部内容是数据声明创建技能将商定的工作流程保留为程序内存作业输出/作业列表/作业终止读取，列出并停止后台作业（以运行命令的background = true开始）待办事项写入保留每个会话待办事项列表，每轮重新注入（全表替换；一次进行一个）当前时间当地时间与weekda
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agent, evals, json-rpc, llm
+
+---
+
+### 🌟 [mcp-abap-adt](https://github.com/fr0ster/mcp-abap-adt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 101
+- **核心概述**: 适用于 SAP BTP ABAP 云和本地 ECC/S/4HANA ABAP ADT 的 MCP 服务器，具有完整的 CRUD、JWT/XSUAA 和服务密钥身份验证。
+- **大概是做什么的**: mcp-abap-adt：ABAP 开发工具 (ADT) 的网关 mcp-abap-adt 是 SAP ECC/S/4HANA（本地）和 SAP BTP ABAP Cloud 系统中用于 ABAP ADT 的 MCP 服务器。它通过 ADT 为代理提供对真实 ABAP 存储库的受控访问，因此分析和更改基于系统数据而不是假设。它是为人工智能辅助配对编程（AIPNV：人工智能配对，而不是振动）而构建的，而不是自动驾驶仪振动编码。 - 深度ABAP分析：用途、对象元数据、存储库导航、对象结构、语义分析、依赖性和影响探索。 - 高级 ABAP 开发：RAP 和经典 ABAP 工件（类、接口、功能组/模块、程序、DDIC、CDS/视图/服务工件）的快速 CRUD 和迭代更新，通过 ADT 流程进行验证。 - 完整 CRUD（非只读）：创建、读取、更新和删除 ABAP 工件 - 适用于本地 (ECC/S/4HANA) 和 ABAP 云 (BTP) 系统 - 旧系统（选择要使用的系统的基础。这是本地和 BTP 系统的主要身份验证模型。请参阅身份验证和目标。您可以配置 MCP
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: abap, abap-cloud, adt, btp, crud, jwt
+
+---
+
 ## 🕔 2026-10-30 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
