@@ -1,3 +1,67 @@
+## 🕔 2026-10-31 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-master-skills](https://github.com/LeoYeAI/agent-master-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,168
+- **核心概述**: 🧠 精选了 2700 多种最佳代理技能 - 人工智能、编码、营销、设计、财务等。与 Harness 无关：可与 Claude Code、Codex、Cursor、Gemini CLI、OpenClaw、Hermes 和任何 Agent Skills 运行时配合使用。由 MyClaw.ai 每日更新 — 由 MyClaw.ai 提供支持
+- **大概是做什么的**: 🧠 代理大师技能 英语 · 中文 · 法语 · 德语 · Русский · 日本语 · 意大利语 · 西班牙语 🤖 由 MyClaw.ai 提供支持 MyClaw.ai 是一个 AI 个人助理平台，为每个用户提供在专用服务器上运行的功能齐全的 AI 代理。 Agent Master Skills 是我们精心挑选、每日更新的整个生态系统中最佳技能的集合 - 每日精心挑选和更新，以帮助您的 AI 代理完成更多工作。 🌐 尝试 MyClaw.ai ：https://myclaw.ai 这是一个与线束无关的集合：每个技能都是遵循代理技能规范的普通 SKILL.md 文件夹，因此它可以在读取该格式的任何代理运行时中运行。在下面选择您的工具。安装整个集合 (ClawHub) 复制个人技能 每个线束从项目文件夹中读取的技能与您的存储库根目录相关；全局文件夹位于您的主目录下。 Agent / Harness 项目文件夹 全局技能文件夹 OpenClaw .openclaw/skills/ /.openclaw/workspace/skills/ Claude Code .claude/skills/ /.claude/skills/ Codex CLI / Replit Agent .agents/skills/ /.agents/skills/ Cursor .cursor/skills/ /.cursor/skills/ Gemini C
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentskills, ai-agent, ai-agents, anthropic-skills, claude-code
+
+---
+
+### 🌟 [bla](https://github.com/qybaihe/bla)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,674
+- **核心概述**: 🛡️ BLA（Blind LLM Agents）——对抗性防御盾，保护二进制文件、Electron 应用程序、JS 包、Python 和 WebAssembly 免受 REA 等 AI 逆向工程代理的攻击。中毒->排气->产生幻觉。
+- **大概是做什么的**: 英语 · 简体中文 · 繁体中文 · 日本语 · 한국어 · 土耳其语 · Русский · Tiếng Việt · ไทย · 德语 · 西班牙语 · 法语 · Українська · 波兰语 · 葡萄牙语（巴西） · 巴尼亚语 ·印度尼西亚语·意大利语·Ελληνικά·മലയാളം·罗马乌尔都语·RomânăBLA：盲目的法学硕士代理人让逆向工程再次破产。将 BLA 指向您发布的版本。当人工智能逆向工程代理 (REA) 打开它时，分析器会达到资源预算、跟踪诱饵并销毁代币，而您的用户仍然获得相同的运行时行为。网站 · 指南 · 展示 · 免责声明 快速入门 · 经验结果 · 格式覆盖范围 · 基准 · 常见问题解答 BLA 是一种保护您自己的软件的防御工具。请参阅 DISCLAIMER.md。从 qybaihe/bla 或 npm bla-agents 获取 BLA。 REA 逆向工程师通过一个命令发布工件。 BLA 是这个故事的反 REA 部分：层发生了什么毒药格式 - 有效的金丝雀、蜂蜜元数据和看起来像真实证据的诱饵控制流。耗尽 推动工件超过 REA 记录的资源预算（标头、嵌套、接口清单、PCAP JSON、熔断哨兵……
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adversarial-ai, claude-code, cursor, electron-security, llm-security, mcp
+
+---
+
+### 🌟 [most-capable-agent-system-prompt](https://github.com/fainir/most-capable-agent-system-prompt)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 880
+- **核心概述**: 复制粘贴系统提示，让您的编码代理（Claude Code、Codex、Cursor）为任何计算机工作构建一个自我改进的代理系统。
+- **大概是做什么的**: 最有能力的代理系统提示 对于使用 Claude Code、Codex 或 Cursor 等编码代理的人员来说，复制粘贴系统提示：将其粘贴进去，您的代理就开始为一般计算机工作构建一个持久的、自我改进的代理系统。如果放任不管，大多数代理会话会忘记运行之间的所有内容，在不检查的情况下调用工作已完成，并在任务完成后停止。此提示为您的代理提供了完整的架构和操作原则 - 任务图、验证、基于文件的内存、评估、治理和自我改进循环 - 并告诉它立即开始构建，可以作为现有代理的线束包装器，也可以根据您的喜好从头开始构建新代码。目标是一个可以处理软件工程、科学研究、公司运营、数据分析、浏览器和桌面自动化以及复杂的数月项目的系统，并且可以从每项任务中学习。代理被告知要做的事情： - 检查您的工作空间，仅询问其无法回答的问题，并编写运行时能力矩阵和实施合同。 - 放
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, autonomous-agents, claude-code, codex, cursor
+
+---
+
+### 🌟 [awesome-mcp-servers](https://github.com/mcpHQ/awesome-mcp-servers)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 189
+- **核心概述**: 用于发现和集成 AI 工具、数据源和服务的模型上下文协议 (MCP) 服务器的精选目录。跨数据库、开发人员工具、Web 自动化、云基础设施、生产力、AI 代理、分析等探索 MCP 服务器。
+- **大概是做什么的**: 手工策划、经过链接检查的模型上下文协议 (MCP) 服务器目录，具有可搜索目录和 JSON API。打开 mcpHQ 目录 → MCP 是一种开放协议，允许 AI 应用程序通过标准化的客户端-服务器接口连接到外部工具和数据。此列表重点关注范围广泛、源可用的服务器，这些服务器通过数据库、开发人员工具、浏览器、云服务等扩展 AI 工作流程。 - 精心策划，而非抄袭。每个条目都会根据质量标准进行审查。垃圾邮件、冒充者和废弃的分叉都会被拒绝。 - 没有死链接。每个拉取请求都会检查每个链接，并且每周都会检查一次。损坏的条目得到修复或删除。 - 结构化数据。每个服务器在 data/servers.json 中都有类别、语言、提供商、标签和官方/社区标志。自述文件、 llms.txt 、 llms-full.txt 和网站都是从该文件生成的。 - 准备插入。每个服务器在网站上都有���己的页面。托管服务器附带 Cursor、VS Code、Claude Code、Claude Desktop 和 Codex 的一键安装链接和配置，您可以
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-app, mcp-servers, mcp-tools, model-context-protocol
+
+---
+
+### 🌟 [marketing-skills](https://github.com/hyperfx-ai/marketing-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 107
+- **核心概述**: 人工智能代理的营销技能——付费广告、社交媒体、搜索引擎优化、竞争对手研究、创意生成、电子邮件、分析等。由 Hyper MCP 提供支持。
+- **大概是做什么的**: AI 代理的营销技能 代理营销技能 - 付费广告、社交媒体、SEO、AI 搜索、竞争对手研究、广告创意生成、电子邮件生命周期、分析、运营等。这些技能在 Hyper MCP 上运行，它通过一个端点为您的代理提供 100 多个直接集成和内置营​​销工具 - 一个工具包，可与您的代理一起使用 Claude Code、Cursor、Codex、OpenCode、GitHub Copilot、Gemini CLI 和 50 多个支持代理技能规范的其他代理。技能是一个 Markdown 文件 ( SKILL.md )，其中包含代理端到端运行特定营销功能所需的工作流程、决策规则和示例工具调用。这些工具本身来自 Hyper MCP。该技能教会代理如何像专家一样思考并交付正确的工作。在 app.hyperfx.ai/mcp 上创建、自定义和连接您的 MCP。选择要包含的集成和内置工具，并在其中的每一个中逐项配置审批规则。 - 100 多个直接集成 - 广告平台（Google Ads、Meta、TikTok、LinkedIn、Amazon、Pinterest）、社交（Ins）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, claude, claude-code, claude-skills, codex
+
+---
+
+### 🌟 [cleancode](https://github.com/chen-985211/cleancode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: 用于编排 Claude Code、Codex 和其他 CLI 代理的开源画布。并行运行代理、委派任务，并让 AI 构建可重用的工作流程。
+- **大概是做什么的**: 简体中文 · 繁体中文 · 英语 · 한국어 · 日本语 人与人工智能协作的画布 ADE：人工智能处理学习和操作工具的复杂性，因此您可以专注于目标、判断和直观交互。在一张画布上与代理一起工作，无论何时需要，都可以看到进度并直接控制。分支工作区中的多个代理和连接的终端任务。 ▶ 多代理协作演示 (0:39) https://github.com/user-attachments/assets/9e157258-5604-4da6-83f9-65943c19efc5 ▶ 完整演示（2:33，有声） https://github.com/user-attachments/assets/cafe373f-97b7-4f8c-b4a4-dfbc88ab26c3 🧩 什么是 CleanCode？ CleanCode 是一个用于人类与人工智能协作的画布 ADE（代理开发环境）。它将代理、终端和项目工作区集成到一张画布上，以便您可以表达意图、直接交互并与代理一起完成开发和自动化任务。其设计借鉴了《思考，快与慢》中的系统 1 和系统 2：系统 1 描述快速、直观的响应，而系统 2 涉及集中分析、计划和推理。 CleanCode 将这些想法应用到 h
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ade, agent-collaboration, agent-orchestration, agentic, agentic-coding, agents
+
+---
+
 ## 🕔 2026-10-31 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
