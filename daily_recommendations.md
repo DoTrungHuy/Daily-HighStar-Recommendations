@@ -1,3 +1,67 @@
+## 🕔 2026-10-31 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 281 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [opendroid](https://github.com/JMAN730/opendroid)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 1,227
+- **核心概述**: 您的开放式自治 Android 代理 — 一款可投入生产、自我规划的 AI 助手，由本地/远程 LLM 和可访问性驱动的屏幕自动化提供支持。
+- **大概是做什么的**: 🤖 适用于 Android 您手机的开源自主 AI 代理。你的规则。你的人工智能。 🎯 什么是 OpenDroid？ OpenDroid 不仅仅是另一个聊天机器人。它是一个完全自主的人工智能代理，驻留在您的 Android 手机上，并实际为您做事。 “看看明天是否会下雨，如果是的话，给我妻子发短信说我会迟到，并定个下午 6 点的闹钟。” OpenDroid 会将其计划为 3 个步骤，执行每个步骤，验证��果，并在出现任何失败时进行调整 - 所有这些都无需您费力。 🧠 自主代理引擎功能描述 ------------ ------------- 自我规划 通过依赖性跟踪将复杂的命令分解为顺序步骤 习惯和例程检测 挖掘每日重复的应用程序序列（例如，Gmail $\to$ Calendar $\to$ Slack at 9 AM），并提供一键式自动化例程 重新评估 监控执行结果，并在步骤失败时动态重新计划 复合意图防护 智能检测多操作命令（例如“打开” WhatsApp 并发送消息”）联系人消歧 具有模糊匹配和关系别名的 4 层联系人解析（“给爸爸打电话”）🛠️ O
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agent, android, automation, autonomous, kotlin
+
+---
+
+### 🌟 [shiping](https://github.com/ooboqoo/shiping)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,128
+- **核心概述**: 识屏 Shiping：截屏 + AI，看懂屏幕上的任何内容。代码、报错、题目、图表、外文资料，按快捷键截一下就有解答；常驻后台，随时框选识别。对话模式实时听懂问题、给出回答要点。可用作面试助手、考试助手、刷题助手。
+- **大概是做什么的**: 屏幕上的内容，截一下、框一下，AI 就看懂：题目、代码、报错、图表、外文资料，按下快捷键就有解答。平时常驻后台，像截图工具一样随叫随到；听对话时，对方说完就有提示。屏幕共享时对方看不到窗口。 v3.5 新增框选识别 ：识屏可以常驻后台了。按快捷键或单击菜单栏图标，框出屏幕上的一块，松开鼠标就有解答，看完按 Esc 回到原来的应用。见框选识别。 改名说明 ：本项目原名「截屏解题助手」（仓库 interview-coder-cn ），2026 年 10 月起改名为「识屏 Shiping」（仓库 shiping ）。功能不变，升级后原有设置自动保留。为什么改、改了哪些，见关于改名。 版本说明 ：v3 起新增对话模式，此后只维护 v3（ main 分支）。只有截图解题的 v2 版本保留在 v2 分支，不再更新，安装包见 v2.1.0。 - 截图模式 （核心）：按下快捷键截取屏幕，或用框选识别只框一块，视觉模型实时理解屏幕上的内容，流式给出解答；可以追加截图、追问，保持上下文连续 - 对话模式 ：实时识别对方说的话，对方说完一句就给出简短的回答提示——一句能直接说出口的开场，加上几个要点 截图模式 对话模式 ---------- ------------------------------------------ -------------------------------------- 解决什么 屏幕上的内容：题目、代码、报错、图表、外文 对方说的话：面试、答辩等语音沟通 怎么触发 按快捷键截图，或框选一块区域 对方说完一句自动出提示，也可以按快捷键 适合的模型 能识图的模型 关闭思考的快模型，越快越好 额外需要 无 阿里云百炼 API Key（语音识别） 两种模式各自选用 AI 配置和提示词，可以随时切换：比如线上面试时先聊项目用对话模式，对方一共享题目，按快捷键切到截图模式就能解题。 v3.5 新增，也是识屏从面试助手走向日常通用工具的又一步。识屏不用一直开着窗口了，可以像截图工具、划词翻译一样平时待在后台，用到时再唤起： 1. 按 ⌥⇧ S （Windows 为 Ctrl+Alt+S ），或单击菜单栏（Windows 为任务栏右下角通知区域）里的识屏图标 2. 屏幕定格，拖出要识别的那一块，松开鼠标就发给 AI 3. 窗口随即显示出解答；看完按 Esc ，窗口隐藏，键盘回到原来的应用，接着做手上的事 看不懂的一段代码、一条报错、一张图表、一段外文，框出来就有解释或翻译，不用复制粘贴，也不用切换窗口。截图模式默认的「通用问答」场景就是为这类问题准备的。 - 只截这
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-assistant, coding-interview, deepseek, electron, interview, interview-assistant
+
+---
+
+### 🌟 [QuantGPT](https://github.com/Miasyster/QuantGPT)
+- **项目语言**: Python
+- **星标数量**: ⭐ 498
+- **核心概述**: 代理驱动的 alpha 工厂 — LLM 自主设计、回测并向 WorldQuant BRAIN 提交因素
+- **大概是做什么的**: Agent-Driven Factor Research Engine — Autonomous Mining, Independent Validation on QuantGPT Cloud LLM Agent 自治因子挖矿 → 批量回测 → 多维评分 → 反过拟合验证 → QuantGPT Cloud 独立验证 + 样本外跟踪 全程零人工干预 WeChat / 微信交流群 : Add quantgpt ai on WeChat to join the community QuantGPT is an agent-driven factor research engine — not a backtest library, not a chatbot wrapper. It gives an LLM Agent (Claude, via MCP) a complete toolkit to autonomously discover, evaluate, iterate, and validate alpha factors, with zero human intervention per research cycle. Factors that pass local validation are automatically uploaded to QuantGPT Cloud for independent verification and out-of-sample tracking — ensuring research results are reproducible and auditable. The core architecture: How It Differs from "AI Backtest Tools" 传统工具（包括 ChatGPT + 回测库）的模式是： 人类想因子 → 工具跑回测 → 人类看结果 。Agent 是执行者，人类是决策者。 QuantGPT 的模式是： 人类定义目标 → Agent 自治研究 → 人类审阅产出 。Agent 是研究者，人类是审阅者。 这不是接口层的区别（自然语言 vs. 代码），而是 决策权 的区别。Agent 自主决定：探索哪个方向、生成什么表达式、评估哪些指标、何时迭代、何时放弃、何时提交。 Production Track Record 单轮迭代（8 候选因子） 15 分钟 表达式算子 60+（含非线性、三元、技术指标） Cloud 独立验证 A 级因子自动上传 quant-gpt.com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-shares, ai-agent, alpha, backtesting, claude, factor-investing
+
+---
+
+### 🌟 [minilake](https://github.com/dmux/minilake)
+- **项目语言**: Python
+- **星标数量**: ⭐ 135
+- **核心概述**: Minilake 是一个免费的本地 Databricks API 模拟器 - 一个单一开发人员工具，用于根据真实 SQL、真实 Delta Lake 和真实作业执行测试 databricks-sdk/Terraform 代码，而无需支付云计算费用。
+- **大概是做什么的**: MiniLake 是 Databricks REST API 的本地模拟器，用于在没有工作区的情况下开发和测试 databricks-sdk、CLI 和 Terraform 代码。 SQL语句在DuckDB上运行。 EXTERNAL Delta 表是带有 delta log/ 的 Parquet 文件，并且通过生成的 Spark 作业对其进行写入。作业在同级 Docker 容器中运行 Spark-Submit。 API 中的其他所有内容要么被存储并读回，要么回答 501 NOT IMPLMENTED 。它适用于本地主机上的一名开发人员，而不是作为共享服务器。 Web SQL 编辑器位于 。任何令牌都被接受。图像 - 配置：环境变量、持久性、TLS - Terraform 和资产包 - Spark 和 Delta Lake - MCP 服务器：可选，MINILAKE MCP=1 ，用于 LLM 代理 - 测试和开发 - FEATURES.md：每个服务的状态，以及设计说明 - API 覆盖范围：通过 databricks CLI 探测的每个 SDK 端点 这些是经过深思熟虑的。 MiniLake 的目标是一位在本地运行它的开发人员。 - 没有身份验证。任何令牌都被接受。 SCIM 用户和个人访问令牌是记录，而不是凭证。 - 无访问控制。许可
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: data-analytics, databricks, emulator, mcp, pyspark, spark
+
+---
+
+### 🌟 [dsh-baton](https://github.com/JialaoLiu/dsh-baton)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 122
+- **核心概述**: 将 Claude Code 或 Codex 的接力棒传递给当地的 DeepSeek Harness。一个 MCP 服务器，用于传递任务并返回结果。
+- **大概是做什么的**: English 中文 · macOS · Windows（指南） · 不需要 Node.js · 零依赖 · MIT 快速入门 · 查看运行 · 令牌使用 · 工作原理 · 工具 · 安全 在计算机上将 Claude Code 或 Codex 的任务手动编码到 DeepSeek Harness：任务在 Harness 窗口中实时运行，主代理在结束时会听到一次回音，并返回已更改的文件、项目自己的测试结果和逐个需求检查表。 - 资金和配额更便宜：使用 Claude Code，总成本（包括 DeepSeek）降低了 51–78%。在较长的 Codex 作业中，GPT-6 Astra 所使用的 ChatGPT Plus 5 小时窗口的份额从 86.01% 上升到 16.01%，而 GPT-6.1 Sol 则从 13.71% 上升到 2.67%。 - 没有什么可看或投票的：克劳德代码在运行结束时被唤醒一次； Codex 在一次调用中等待运行长达一个小时。 - 明确的工作划分：Claude Code 或 Codex 编写请求并检查结果； DeepSeek 在 Harness 中编写代码并运行测试。检查的人不是写的人。需要 DeepSeek Harness ≥ 0.2.1-rc.2（已登录）和 Claude Code 或 Cod
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude-code, codex, deepseek, deepseek-harness, developer-tools, dsh-plugin
+
+---
+
+### 🌟 [postgresai](https://github.com/postgres-ai/postgresai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 140
+- **核心概述**: postgresai – 为人类和人工智能代理构建的 Postgres 可观察性
+- **大概是做什么的**: AI 原生 PostgreSQL 可观测性 监控、运行状况检查和根本原因分析 — 专为人类和 AI 代理而构建 在 PostgresAI 团队与 GitLab、Miro、Chewy、Suno、Supabase、Gadget 等公司的合作中经过实战测试 — 现在打包供人类和 AI 代理轻松使用。传统的监控工具为您提供仪表板。 postgresai 为人工智能代理提供了实际解决问题所需的上下文。 - 专为 AI 构建 — 专为 LLM 使用而设计的报告和指标 - 问题工作流程 — 跟踪从检测到解决的问题 - 45 多项健康检查 — 膨胀、索引、查询、设置、安全性 - 活动会话历史记录 — Postgres 对 Oracle ASH 的回答 - 专家仪表板 — 四个黄金信号方法 自驱动 Postgres 的一部分 — PostgresAI 的开源计划，旨在使 Postgres 实现自治。在 postgres.ai 创建一个免费帐户 这将打开您的浏览器进行登录并在本地保存您的 API 密钥。 3. 运行运行状况检查 打开 console.postgres.ai 查看： - 包含建议修复的详细报告 - 跟踪修复的问题工作流程 - 所有项目的历史数据
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, grafana, health-check, mcp
+
+---
+
 ## 🕔 2026-10-31 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 298 个候选项目中筛选出 6 个未推荐过的新项目。
