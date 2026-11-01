@@ -1,3 +1,67 @@
+## 🕔 2026-11-01 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [bama](https://github.com/daveebbelaar/bama)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,259
+- **核心概述**: BAMA：构建任何 Mac 应用程序。使用 Swift 和 SwiftUI 研究、克隆、设计、构建、优化和测试本机 macOS 应用程序的代理技能。
+- **大概是做什么的**: 查看您喜欢的应用程序。将其重新构建为您自己的本机 Mac 应用程序。将原生 macOS 应用程序从创意带到 Dock 的代理技能。斯威夫特和斯威夫特用户界面。本地数据。没有 Xcode GUI。快速入门 · 工作原理 · 技能 · 规格 · 在 Windows 上安装？使用 BAWA：构建任何 Windows 应用程序。然后询问您的代理人：不确定从哪里开始？输入 /bama 。它会查看您的项目并选择下一个技能。您的代理打开您喜欢的应用程序并截取每个屏幕。它写入屏幕索引。它将屏幕转化为用户故事，并具有可检查的验收标准和里程碑。它每次提交都会构建一个故事。在每次提交之前，它都会以浅色和深色模式拍摄每个页面的快照并运行测试。阶段技��� 作用 启动 bama Router：找到您所在的位置并调用正确的技能 app-brief 将想法变成一页简报 new-mac-app 来自模板的工作应用程序：Swift 包、SwiftData、构建脚本、快照模式、git 计划研究 并行研究人员代理：市场、用户、功能、设计、macOS API 克隆 使用计算机或浏览器对任何应用程序的每个屏幕进行屏幕截图，编写屏幕
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, app-clone, claude-code, claude-code-plugin, codex
+
+---
+
+### 🌟 [baby-agent](https://github.com/baby-llm/baby-agent)
+- **项目语言**: Go
+- **星标数量**: ⭐ 492
+- **核心概述**: AI agent tutorials for backend developers without AI background. 适合后端工程师的零基础 AI Agent 教程
+- **大概是做什么的**: BabyAgent - 后端工程师的 AI Agent 教学项目 (Go 语言版) 🏠 项目地址： https://github.com/baby-llm/baby-agent 🚀 从后端视角出发，用 Go 语言手写一遍 Agent 框架的关键原理。 本项目专为没有 LLM 背景但具备基础 Golang 经验的后端工程师设计。我们将跳过复杂的数学推导，优先从工程实现理解核心概念：你会看到每一步为什么这么设计、替代方案是什么、以及它们在真实系统里会遇到哪些坑。 - 本项目是 教学仓库 ：目标是用可运行的代码把 Agent、Tool Calling、Agent Loop、MCP、Memory、RAG 等机制讲清楚。 - 本项目 不是 “开箱即用的生产框架”，也 不建议直接用于生产环境的二次开发 。 - 如果你希望落地到真实业务：这里更适合作为 原理参考 + 原型验证 的起点，你需要根据自己的场景补齐工程化能力与安全边界。 Language: Go 1.25+ LLM Concepts: Chat Completions API, SSE 流式传输, Function Calling, ReAct Agent Loop Advanced AI: 上下文工程, Memory 系统, Agentic RAG, 技能系统（Skills） System Design: MCP 协议, Guardrails 安全防护, Web 服务化 Engineering: LLM 评测, 可观测性（Trace/Metrics/Log） SDK fork ：项目通过 go.mod 的 replace 使用 baby-llm/openai-go（基于 openai-go v3.24.0 ）。该 fork 在 SDK 层原生支持 reasoning content ，避免在业务代码里手工拼装该字段；详见 BABYAGENT FORK.md 。 我们将按��"从基础调用到复杂 Agent"的顺序逐步深入，带你完成从零到复杂 Agent 的蜕变。每一阶段都包含可运行的代码示例。 第一章：初识 LLM（Raw HTTP 与 OpenAI SDK） 目标 ：拨开 SDK 的迷雾，直视大模型调用的本质。 协议本质 ：掌握 chat/completions 接口的最小化请求和响应结构 流式输出解析 ：深入了解 SSE（Server-Sent Events）协议，实现"打字机"效果 工程实践 ：对比 Raw HTTP 和 OpenAI Go SDK 的使用方式 LLM 原理 （可选）：Transformer
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, harness-engineering, llm
+
+---
+
+### 🌟 [SculptForge](https://github.com/islandmed/SculptForge)
+- **项目语言**: C++
+- **星标数量**: ⭐ 340
+- **核心概述**: ZBrush 的免费开源替代品。使用免费的内置 AI（图像/文本到 3D）、发送到虚幻、游戏就绪的 LOD、高斯图和 OpenUSD 为 Linux、macOS 和 Windows 进行雕刻。
+- **大概是做什么的**: ZBrush 的免费开源替代品。适用于 Linux、macOS 和 Windows 上的 VFX、动画和游戏的数字雕刻，具有免费的内置 AI：AI 画笔创建器和 3D 图像/文本。网站和演示视频 · SculptForge 是 ZBrush 的免费开源替代品：一款专注于雕刻的应用程序，具有 ZBrush 艺术家已经了解的画笔、对称性和导航功能。它免费，无需订阅，可在 Linux、Windows 和 macOS 上本机运行，并附带可更改的源代码。它立即启动，离线工作，并适合游戏和动画管道：雕刻角色，生成其 LOD，雕刻混合形状，然后将其直接发送到虚幻引擎中。 AI 内置且免费：描述画笔，AI 画笔创建者（画笔实验室）构建它，或将草图、概念艺术或描述转换为可雕刻模型。不需要帐户或密钥。更喜欢你自己的？插入 Claude、fal.ai 或 Meshy，或者完全在您自己的机器上运行模型。 SculptForge ZBrush 价格 免费，永远 订阅 源代码 开放 (GPL-3.0) 封闭 Linux 本机 不可用 熟悉的画笔，
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 3d, cpp, dear-imgui, digital-sculpting, fbx, game-development
+
+---
+
+### 🌟 [reveric](https://github.com/looplj/reveric)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 506
+- **核心概述**: Agent Native 一站式 AI 小说，短剧桌面创作工作台
+- **大概是做什么的**: 智能体读懂整部作品，和你一起从小说写到成片 感谢 88API Token 聚合平台赞助本项目！ 88API 是一家由香港企业运营、面向开发者、创作者与 AI 应用用户的一站式多模型 API 平台，通过统一接口接入文本、图片、语音和视频模型，覆盖 AI 编程、智能翻译、内容创作、配音、图像生成和视频生成等常见工作流。平台提供高质量 DeepSeek 算力，支持国际主流付款方式，可提供发票，并提供企业级稳定服务。 通过 专属链接注册 ，可以获取专属赠送额度！ 请求地址： https://api.88api.ai MiniMax H3 视频生成 API｜秘塔科技 秘塔科技提供高性价比的 MiniMax H3 视频生成服务： 768P 仅 0.09 元/秒，2K 仅 0.15 元/秒 。支持 30 秒、支持原生 2K、音画同步，API 兼容 OpenAI 协议 ，同时支持 ComfyUI ，无需自行部署 GPU。 🎁 通过 Reveric 专属链接注册 ，即可领取赠送额度及专属优惠。 请求地址： https://metaso.cn/api/minimax Reveric（幻界）是一个本地优先、以智能体为核心的桌面创作工作台，覆盖长篇小说、剧本改编与短剧/漫剧制片。 整部作品保存在你的设备上，同时也是智能体的工作区：写章节、改剧本、铺分镜、调机位、剪成片，说一句话，它就在作品里动手完成。 - 按需读取整部作品 ：智能体自己检索需要的章节和设定，不用把人物小传复制进对话框。 - 智能体操作所有模块 ：小说、剧本、画布、3D 导演台、剪辑台，智能体都能直接上手操作。 - 素材自动生成 ：角色定妆、分镜参考图、视频片段与音频，由智能体调用模型直接生成到画布上。 - 本地优先，模型自选（BYOK） ：作品数据保存在本地 SQLite，模型直连 OpenAI、Anthropic、Gemini、DeepSeek、Seedance、H3 或自建网关。 阶段 / 模块 工作台能力 智能体在这里做什么 小说创作 章节大纲、自动保存、历史版本对比、多维设定库（人物/势力/伏笔/地图）、实体关系图谱 基于完整设定扩写、润色、改写章节；提取章节事实、核验连续性，维护人物与关系变化 剧本改编 专业剧本排版，场次、角色、对话、动作与转场等核心元素 对照原著提炼场景、拆分剧集、编写台词与动作指示 无限画布 节点式铺展分镜段落、角色定妆、音视频资产与生图流 从剧本生成分镜节点，编写提示词，调用图像 / 视频模型产出素材 3D 导演台 3D 布景、角色摆位、机位与运镜调度、时间轴预演 布置机位、切镜与运
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, infinite-canvas, minimax-h3, novel, novel-writing, seedance
+
+---
+
+### 🌟 [coolicons](https://github.com/krystonschwarze/coolicons)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 486
+- **核心概述**: 您下一个项目的每个图标。无论您在何处构建，都免费：1,200 多个图标，具有五种风格，包括尖角、规则角或圆角，适用于 React、Vue、shadcn/ui 和 Figma。
+- **大概是做什么的**: 1,200 多个免费图标，五种风格，包括尖角、规则角或圆角，适用于 React、Vue、shadcn/ui、SVG 和 Figma。 1,200+ 5 3 18,000+ 500k+ :---: :---: :---: :---: :---: 30 种类别样式的图标，从线到散角，从尖到圆 SVG 文件 Figma 下载 与您的界面相匹配的图标。每个图标都有线条、双色、双色调、填充和散装等样式，并带有尖角、规则角或圆角。圆形的应用程序有圆形的图标，尖锐的仪表板有尖锐的图标，并且您可以稍后改变主意而无需触摸任何绘图。 24 像素锐利。图标位于 24 x 24 网格上，笔画为 2 px。线条和角落在整个像素上，因此边缘在其原始尺寸下保持清晰。你工作的地方。在 Coolicons.cool 上查找并调整图标，使用 Figma 文件，或安装下面的软件包。编码代理拥有 MCP 服务器、CLI 和技能，因此他们会查找名称而不是猜测。 Kryston Schwarze，来自德国的设计工程师，从 2018 年开始绘制图标。 网站·LinkedIn·X Figma 社区上的 Coolicons 文件将整套组件作为组件，以样式和角为属性。 @酷利
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: figma, free-icons, icon-set, icons, mcp, open-source
+
+---
+
+### 🌟 [cve-intel](https://github.com/Fazmin/cve-intel)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 127
+- **核心概述**: 用于 CVE 分类的本地安全情报 - 40 个数据源和 41 个工具、风险评分和用于 AI 代理的 MCP 服务器，全部采用本机 Rust。默认为私有。
+- **大概是做什么的**: 了解哪些漏洞很重要，以及如何应对它们。用于漏洞分类和扫描的私有桌面应用程序，用本机 Rust 编写，为开发人员和 AI 代理提供 CLI、REST API 和 MCP 服务器。 41 个 MCP 工具、40 个数据源、SBOM 输入和输出、设备上 AI。 macOS 上的加速演示（1080p 视频）：威胁情况、分类和记录决策、决策分类账、攻击链和 SBOM 扫描以及监视列表。每个已知的软件漏洞都有一个公共 ID，例如 CVE-2024-3400。对于每一个问题，安全、IT 和开发团队都面临着同样的问题：这是否会影响我们？我们是立即修复它还是可以等待？回答这个问题通常意味着手动检查 NVD、CISA、FIRST、GitHub 和供应商建议，一次一个浏览器选项卡。 CVE 发布量比 2024 年持续增长 20.6%，到 ​​2026 年 10 月 27 日已超过 86,000 个），国家漏洞数据库无法跟上，因此将首先丰富 CISA 已知被利用漏洞（KEV）目录中的 CVE，首先是联邦使用的软件和关键软件，并将其未丰富的积压从 202 年 3 月 1 日之前转移
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: artificial-intelligence, cisa-kev, cve, cve-search, cybersecurity, cybersecurity-tools
+
+---
+
 ## 🕔 2026-11-01 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 199 个候选项目中筛选出 6 个未推荐过的新项目。
