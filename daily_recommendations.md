@@ -1,3 +1,67 @@
+## 🕔 2026-10-31 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 236 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [TokenEconomizer](https://github.com/microsoft/TokenEconomizer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,065
+- **核心概述**: 编码代理的经验驱动黑盒成本控制
+- **大概是做什么的**: TokenEconomizer：编码代理的经验驱动黑盒成本控制 Jeevana Priya Inala 2 , 1 加州大学伯克利分校 2 Microsoft Research 3 Microsoft Security 我们对 SWE-Bench 任务的测量：五种代理模型组合的平均成本降低 18.4–30.9%，在所有 30 个存储库 × 组合单元中更便宜，TokenEconomizer 中的 Pass@1 up 使编码代理在您的存储库中运行更便宜经常工作，无需更改代理本身。它从代理已在存储库中运行的会话中学习，并利用该经验来减少后续会话中的浪费。它具有三个 - 微观技能：记住存储库如何工作。会话不断重新发现相同的事实：必须首先运行的构建步骤、此处起作用的命令的拼写（其中缺少 pytest 的 python -m pytest、其中 tsc 为 npx tsc）、命令所需的环境变量、生成的文件所在的位置。微技能可以从两个来源以任何语言学习此类事实：跨会话重复的失败，以及每 k 个会话 ( k = 3) 审查最近会话的模型，以及
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agentic-coding, ai-coding, ai-coding-assistant, anthropic, artificial-intelligence
+
+---
+
+### 🌟 [contexere](https://github.com/fajarhide/contexere)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 375
+- **核心概述**: AI 编码代理的上下文层：噪音更少，标记更少，没有任何损失。以前是欧米尼。
+- **大概是做什么的**: 编码代理的上下文和令牌层。它缩小了嘈杂的工具输出，折叠代理已经读取的内容，并在重写的输出中编辑凭据。什么都没有丢失。 🇺🇸 English 🇯🇵 日本语 🇨🇳 简体中文 🇸🇦 স🇦 সসসন সম🇩 Bahasa Indonesia 🇻🇳 Tiếng Việt 🇰🇷 한국어 OMNI 现在更名为 Contexere，拉丁语中“到”的意思交织在一起”和“语境”的根源。 omn​​i 命令继续工作，因此现有安装无需更改。 Contexere 正在发展成为一个汇聚每个特工所使用的技能、证书和记忆的地方；今天它提供了上下文和令牌层。编码代理读取命令打印的所有内容：进度条、图层哈希、十分钟前已经读取的文件。每个字节都会计费并占用代理实际工作所需的空间。 Contexere 在模型读取之前取出模型不需要的内容。没有任何内容被删除：删除的任何内容都会保留在您的计算机上，并且一个命令会将其恢复。 - 读取代理已读取的文件：发送带有句柄的一行而不是再次发送文件。 - 运行嘈杂的构建或测试：保留结果和失败，放弃进度
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, claude-code, cli, contexere, context-compression
+
+---
+
+### 🌟 [Capri-AI](https://github.com/boardshogunfluctuate/Capri-AI)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 516
+- **核心概述**: ⚡ 告诉你的电脑做什么。 Capri 是一款赛博朋克人工智能代理，可通过 Claude Code、Codex 或 Antigravity 处理您的文件、项目和代码。 Windows 安装程序，无终端。由粉丝制作，与 CD PROJEKT RED 无关。
+- **大概是做什么的**: ⚡ 告诉你的电脑做什么。 Capri 是一款赛博朋克人工智能代理，可通过 Claude Code、Codex 或 Antigravity 处理您的文件、项目和代码。 Windows 安装程序，无终端。由粉丝制作，与 CD PROJEKT RED 无关。 Windows 安装程序 (.exe) · Windows 10 或更高版本 功能 · 快速入门 · 您可以问什么 · 它如何工作 · 安全 · 路线图 · 常见问题解答 受赛博朋克宇宙和赛博朋克：Edgerunners 启发的非官方粉丝项目。不隶属于 CD PROJEKT RED、Netflix、Studio Trigger、Anthropic、OpenAI �� Google，也不受其认可。所有产品名称均属于其各自所有者。 Capri 是一款运行在 Windows 桌面上的赛博朋克人工智能代理。将其视为您自己的 JARVIS 式助手：您用简单的语言描述您想要的内容，Capri 计划步骤、使用正确的工具并在您的 PC 上完成它。无需终端。从本质上讲，Capri 是一个桌面界面和位于您已使用的人工智能助手之上的代理层。它与 Claude Code 、 Codex 、 Antigravity 和其他人工智能助手配合使用，所以你选择大脑，而 Capri 提供身体。引擎克劳德
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-agents, ai-assistants, antigravity, claude-code
+
+---
+
+### 🌟 [Capri-AI](https://github.com/ShineStormEnhance/Capri-AI)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 328
+- **核心概述**: 🌃 Capri — 受 Edgerunners 启发的桌面 AI 代理。适用于 Claude Code、Codex、Antigravity 等。
+- **大概是做什么的**: 🌃 Capri — 适用于桌面的赛博朋克人工智能代理。一款适用于 Claude Code、Codex、Antigravity 和任何 AI 助手的应用程序。功能 · 快速入门 · 您可以询问什么 · 它是如何工作的 · 路线图 · 常见问题解答 Capri 是一个运行在 Windows 桌面上的赛博朋克 AI 代理。将其视为您自己的贾维斯式助手：您用简单的语言描述您想要的内容，卡普里计划步骤，使用正确的工具并在您的机器上完成它。从本质上讲，Capri 是一个桌面界面和位于您已使用的人工智能助手之上的代理层。它与 Claude Code 、 Codex 、 Antigravity 和其他人工智能助手配合使用，所以你选择大脑，而 Capri 提供身体。 Capri 是一个受赛博朋克启发的项目。它的名称和霓虹灯风格向《赛博朋克：Edgerunners 2》中的 AI 结构致敬，它是为那些想要在 PC 上安装 Edgerunner 级 AI 助手的人而设计的。仅终端 AI 助手 Capri 界面 命令行 本机桌面应用程序 设置 安装运行时、手动编辑配置 下载、登录、运行 AI 选择 每个工具一个助手 在 Claude Code、Codex、Antigravity 等之间切换
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, ai-assistants, antigravity, automation, claude
+
+---
+
+### 🌟 [http2-wrapper](https://github.com/szmarczak/http2-wrapper)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 249
+- **核心概述**: 像 HTTP/1 一样使用 HTTP/2
+- **大概是做什么的**: HTTP/2 客户端，只需使用熟悉的 https API 创建此包是为了支持 HTTP/2，而无需重写代码。如果可能的话，我建议适应 http2 模块 - 它使用起来更简单，并且具有许多很酷的功能！提示：当您依赖使用 HTTP/1 API 的其他模块并且希望支持 HTTP/2 时，http2-wrapper 非常有用。专业提示：虽然本机 http2 还没有代理，但您可以使用 http2-wrapper 代理并仍然在本机 HTTP/2 流上进行操作。 $ npm install http2-wrapper $ yarn add http2-wrapper 注意：会话选项已重命名为 tlsSession 以提高可读性。注意：超时选项仅适用于 HTTP/2 流。为了设置会话超时，请传递设置了自定义超时选项的代理。 http2.auto(url, options,callback) 执行 ALPN 协商。返回一个 Promise，给出正确的 ClientRequest 实例（取决于 ALPN）。注意：代理选项代表具有 http 、 https 和 http2 属性的对象。 http2.auto.protocolCache 用于 ALPN 缓存的 fast-lru 实例。最多有 100 个条目。你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, alpn, http2, http2-wrapper, https, nodejs
+
+---
+
+### 🌟 [tui-test](https://github.com/microsoft/tui-test)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 303
+- **核心概述**: 💻 使用流行的终端控制、记录和测试任何 tui 应用程序/cli - 使终端完全可供 AI 使用
+- **大概是做什么的**: tui-test 控制、检查、测试和记录 Windows、Linux 和 macOS 上的真实 shell 会话和全屏终端应用程序。从 CLI 使用它或从 Rust、Python、JavaScript 或 Go 调用相同的引擎。它适用于需要结构化访问终端状态、终端自动化和终端 ui 应用程序测试的 AI 代理。您还可以从 GitHub Releases 下载二进制文件。语言安装参考 Rust 1.90+ Cargo add tui-test-rs@0.1.1 docs.rs Python 3.8+ pip install tui-test Python API Node 20+ npm install @microsoft/tui-test JavaScript API Go 1.26+ go get github.com/microsoft/tui-test/bindings/go@v0.1.1 Go API 为 APNG、GIF 和 MP4 输出添加 Rust 记录光栅功能。它使用已安装的字体； Recording-font-jetbrains-mono 捆绑了一种字体。 Go、Python 和 JavaScript 使用同一个本机适配器箱。这三者分别通过 purego、ctypes 和 Koffi 使用其生成的 C ABI 声明。设置 TUI TEST NATIVE LIBRARY 以显式选择匹配的库。 CLI 和库公开相同的终端操作。 Python、JavaScript、Rust 和 Go 会话运行
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, alacritty, automation, bash, cli, e2e-testing
+
+---
+
 ## 🕔 2026-10-31 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
