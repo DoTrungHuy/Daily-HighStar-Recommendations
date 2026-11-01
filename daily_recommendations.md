@@ -1,3 +1,67 @@
+## 🕔 2026-11-01 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 328 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [PyHealth](https://github.com/sunlabuiuc/PyHealth)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,692
+- **核心概述**: 用于医疗保健 AI 的深度学习工具包：EHR（MIMIC、eICU、OMOP）、临床文本、信号和成像。 30 多个模型，可复制的管道。
+- **大概是做什么的**: 医疗保健深度学习：从原始 EHR 数据到经过训练、评估的模型，只需大约 15 行代码。 PyHealth 是一个开源 PyTorch 工具包，用于构建、基准测试和复制临床人工智能模型。它适用于电子健康记录（MIMIC-III、MIMIC-IV、eICU、OMOP）、临床文本、生物信号（EEG、ECG）和医学图像。 .. 图片:: https://img.shields.io/pypi/v/pyhealth.svg?color=brightgreen :目标: https://pypi.org/project/pyhealth/ .. 图片:: https://static.pepy.tech/badge/pyhealth :目标: https://pepy.tech/project/pyhealth .. 图片:: https://img.shields.io/github/stars/sunlabuiuc/pyhealth.svg ：目标：https://github.com/sunlabuiuc/pyhealth/stargazers ..图像：：https://img.shields.io/readthedocs/pyhealth?logo=readthedocs&label=docs&version=latest ：目标：https://pyhealth.readthedocs.io/en/latest/ ..图像：：https://github.com/sunlabuiuc/PyHealth/workflows/CI/badge.svg ：目标： https://github.com/sunlabuiuc/PyHealth/actions .. 图片:: https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white :target: https://discord.gg/mpb835EHaX .. 图片:: https:
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: benchmark, clinical-data, clinical-nlp, clinical-research, data-mining, deep-learning
+
+---
+
+### 🌟 [AnyModelBot](https://github.com/modelflare-ai/AnyModelBot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 403
+- **核心概述**: 🤖 开源、本地优先的 Grok Bot、OpenAIdots 和 Claude Duet 的替代品。您可以在任何型号上使用您自己的 AI 机器人：GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 以及通过一个 Modelflare 键即可使用的 70 多个机器人。通过应用程序、微信或飞书联系他们；他们会记住您，在后台工作，运行命令并使用您的计算机。按使用付费。
+- **大概是做什么的**: 跑在你自己电脑上的 AI 机器人。任意模型，按量付费。 AnyModelBot 是一个本地优先的 AI 智能体应用，支持 Windows、macOS 和 Linux。一个机器人就是一个人设，带着自己的默认模型、工作区和记忆。你可以在应用里和它聊天，也可以在微信、飞书、Telegram、Slack、Discord 里找它。它能读写文件、执行命令、操作你的桌面，一旦要越出自己的工作区，就会先问你。 对话、记忆、文件和 API Key 都留在你的设备上。模型来自 Modelflare：一个账户，任意模型，按 token 计费。AnyModelBot 本身没有订阅。 和 xAI 的 Grok Bot、OpenAI 的 dots、Anthropic 的 Claude Duet 一样，它是一个常驻的个人 AI 智能体：在后台替你干活，需要你拍板时再来问你。不同的是，AnyModelBot 开源（MIT），跑在你自己的电脑或服务器上，GPT、Claude、Gemini、Grok 等任意模型都能用，按量付费，不绑定某一家的订阅（详细对比）。 装好就是一个开箱即用的 Super Agent：后台任务、定时规则和「需要你」都不用另外配置。它的设计参考了 DeepSeek 的 Super Agent 原型，智能体运行在 DeepSeek Harness 上（详细介绍）。 📥 下载 · 🌠 截图 · 🌟 核心功能 · 🆚 对比 · 🔐 工作原理与隐私 ⭐ 喜欢 AnyModelBot？点个 Star，第一时间收到新版本。 AnyModelBot 的模型全部来自 Modelflare ：满血、稳定不掺水，低成本享受全球 SOTA 模型。Modelflare 由美国公司 Havenbyte LLC 运营，已有 20 万+ 注册开发者。一个 API Key 就能调用 13 家供应商的 70+ 个文本、图片和视频模型，GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 都在里面，兼容 OpenAI、Anthropic、Gemini 等常用接口协议。请求会在多个供应商之间路由并自动回退，每一次请求都记录用量和费用，价格表公开，按 token 计费。 缓存补偿 是一大亮点：OpenAI 的价格优先、稳定、高级三个分组，分别保证每天 65%、75%、85% 的缓存命中率；符合条件的请求没达到目标，Modelflare 会补偿差额。 特惠活动 ：单笔充值达到指定金额，就能解锁 0.015 倍价格倍率的 GPT 特惠分组和 0.03 倍的 Claude 特惠分组，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-assistant, chatbot, claude, computer-use, deepseek
+
+---
+
+### 🌟 [bm25s](https://github.com/xhluca/bm25s)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,819
+- **核心概述**: Python 中的快速 BM25 搜索，由 Numpy 和 Numba 提供支持
+- **大概是做什么的**: BM25S（或 BM25-Sparse）是纯 Python 中 BM25 的超快速实现，由 Numpy 提供支持 欢迎使用 bm25s ，这是一个在 Python 中实现 BM25 的库，允许您根据查询对文档进行排名。 BM25 是一种广泛用于文本检索任务的排名函数，是 Elasticsearch 等搜索服务的核心组件。它的设计目标是： 快速：bm25s 用纯 Python 实现，并利用稀疏矩阵来存储所有文档标记的急切计算的分数。这允许在查询时进行极快的评分，从而将性能比流行的库提高几个数量级（请参见下面的基准测试）。简单：bm25s 的设计易于使用和理解。您可以使用 pip 安装它并在几分钟内开始使用它。不依赖于 Java 或 Pytorch - 您所需要的只是 Numpy，以及可选的轻量级依赖项，用于通过 numba 编译进行词干分析和加速。下面，我们将 bm25 与 Elasticsearch 的加速比进行比较，Rank-bm25 是 BM25 最流行的 Python 实现。我们测量了几个 Po 上的每秒查询吞吐量 (QPS)
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: bm25, bm25-l, bm25-plus, information-retrieval, lexical-search, okapi-bm25
+
+---
+
+### 🌟 [tucano](https://github.com/eduwxyz/tucano)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 117
+- **核心概述**: 您的 AI 代理团队，位于您的 Mac、Windows 或 Linux 上。代理在您已有的 Claude Code、Codex、OpenCode 或 Pi 上进行频道交谈、编写代码、相互审查并使用您的工具。任何触及现实世界的事物都等待着你的肯定。
+- **大概是做什么的**: 您的人工智能代理团队在您的计算机上。你的规则。代理在渠道中交谈、编写代码、互相审查并使用您团队的工具。他们做工作。任何触及现实世界的事物都等待着你的肯定。英语 · 葡萄牙语 · tucano.sh · @tucanosh · 变更日志 https://github.com/user-attachments/assets/533e1bf1-b4ca-4f4a-aad4-e015c6b4c421 编码代理变得很好。使用其中的几个仍然是一堆混乱的终端，在会话之间复制粘贴，并希望没有任何不应该运行的东西。 Tucano 将它们放在一个感觉就像团队聊天的地方，并为您提供团队领导所需的控制。 - 一个团队，而不是一个提示框。具有名称、角色、工具和记忆的代理。他们在频道中交谈，通过 @mentions 互相打电话并交接工作：一个人发现错误，另一个人修复它，第三个人审查它，然后你就得到了结果。 - 你的规则。每个代理只能看到您为其提供的工具，而无法访问、读��或读取和写入每个工具。合并、购买、发布、电子邮件和删除成为与计算机或手机上的确切操作相关的批准。 - 根据您的喜好运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-team, ai-agents, claude-code, codex, electron, local-first
+
+---
+
+### 🌟 [chatvia](https://github.com/chatvia/chatvia)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 112
+- **核心概述**: 人工智能聊天代理的开源平台，可根据您自己的知识库进行回答。 PostgreSQL、MCP 和自定义工具、护栏和人工切换中的混合 RAG 搜索。将代理放置在托管聊天页面、网站小部件、Slack、Teams、WhatsApp、Telegram 或 REST API 上。使用 Docker 和开放权重模型进行自托管。
+- **大概是做什么的**: 观看 ChatVia.ai 的工作原理 ChatVia.ai 是一个免费的、自托管的 AI 聊天代理平台，可以根据您自己的知识进行回答。它在您的服务器上运行，因此您的文件、聊天记录和客户详细信息将保留在您身边。团队创建代理，为他们提供知识（文件、网页、文本、问答对、音频和视频），将它们连接到工具，并将它们放在人们面前：在托管聊天页面上、在任何网站上的小部件中、在命令栏中、在六个消息传递应用程序中或通过 REST API。答案来自 PostgreSQL 内部的混合搜索（向量和关键字）的检索增强生成 (RAG)。每个代理都可以使用不同的模型，包括 - 您的数据、您的服务器。使用 Docker 或直接在 Ubuntu 上使用一个命令进行安装。除了对您选择的人工智能提供商的调用之外，没有任何东西离开您的基础设施。 - 任何型号。前沿模型，如 Claude、GPT 和 Gemini，或开放重量模型，如 Llama 和 Qwen。每个代理选择一个模型。 - 保持新鲜的知识。文件、网站、纯文本、问答对、音频和视频成为可搜索的块。混合搜索和重新排名使答案保持增长
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai, ai-agents, chat-widget, chatbot, customer-support
+
+---
+
+### 🌟 [VelesDB](https://github.com/cyberlife-coder/VelesDB)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 101
+- **核心概述**: 用于人工智能代理的可解释的、本地优先的内存引擎。 VelesQL 下约 9 MB 的二进制融合向量 + 图形 + 柱状； Why() 返回每次召回背后的证据路径。没有云，没有粘合代码——在服务器、浏览器、移动设备和桌面上运行。
+- **大概是做什么的**: 一个 14 MB 的二进制文件在单一查询语言下融合了向量 + 图形 + 柱状数据 - 具有显示其证据的代理内存和可减少实际计费令牌支出的确定性上下文编译器。本地优先：没有任何东西离开机器，内存路径中没有 LLM 和 API 密钥。下面的每个数字都链接到您可以重新运行的承诺线束。快速入门 • 证明 • 限制 • 架构 • 路线图 • velesdb.com 从这里开始 — 三个有效命令 要搜索您自己的文本而不是手写向量，请安装选择加入的本地适配器 ( pip install "velesdb[embed-sentence-transformers]" ) 并运行 hello velesdb text.py ；其第一次运行下载 all-MiniLM-L6-v2 。预期输出，逐字节（阅读脚本 - 没有服务器，没有嵌入模型）：嵌入模型决定向量维度，而相似性语义决定度量。两者在创建集合时都是固定的；要更改其中任何一个，请创建一个新集合并重新索引您的文档。为您的代理提供持久记忆 - 另外三个命令：没有 Rust 工具链？ npm 我@wisca
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-memory, all-in-one-databse, avx512, columnstore-database, embeddings
+
+---
+
 ## 🕔 2026-11-01 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
