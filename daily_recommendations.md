@@ -1,3 +1,67 @@
+## 🕔 2026-11-01 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-inference-engineering](https://github.com/amitshekhariitbhu/llm-inference-engineering)
+- **项目语言**: Markdown
+- **星标数量**: ⭐ 394
+- **核心概述**: 逐步学习 LLM 推理工程 - 从 KV 缓存、PagedAttention 和连续批处理到 vLLM、SGLang 和 GPU。
+- **大概是做什么的**: LLM 推理工程 逐步学习 LLM 推理工程 - 从 KV 缓存、PagedAttention 和连续批处理到 vLLM、SGLang 和 GPU。由 Outcome School 创始人 Amit Shekhar 编写和维护 注意：随着我撰写更多博客并创建更多关于新主题的视频，该系列将继续发展。继续学习。推理优化中的一切都建立在一个事实之上：LLM 一次生成一个标记的文本。让我们首先了解生成循环及其背后的两个阶段。自回归模型 在本博客中，我们将了解���回归模型，这是通过预测过去的下一步来一次生成一个模型的模型系列。我们将介绍以下内容：什么是自回归模型？概率链式法则 逐步数值示例 为什么 GPT 型模型是自回归 为什么自回归模型需要因果屏蔽 与 KV 缓存的联系 自回归与非自回归生成 我们应该知道的流行自回归模型 自回归模型的优缺点 让我们开始吧：自回归模型
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: inference-engineering, inference-optimization, large-language-models, llm, llm-engineering, llm-inference
+
+---
+
+### 🌟 [Awesome-CUA](https://github.com/reacher-z/Awesome-CUA)
+- **项目语言**: Python
+- **星标数量**: ⭐ 350
+- **核心概述**: 开放的、有源代码支持的计算机使用代理目录：审阅的论文、GUI 模型、数据集、基准、工具和可重用的 JSONL/SQLite 数据。
+- **大概是做什么的**: Awesome Computer-Use Agents 一个由源支持的论文、模型、数据集、基准测试和工具的集合，供使用计算机的代理使用。搜索和过滤 · 研究论文 · 浏览主题 · 数据和代理 阅读研究调查 — 方法、评估、人力机构和可重复使用的研究资产。带有版本参考书目和阅读登记册的英文工作手稿。按任务查找 · 探索 · 亮点 · 最近回顾 · 使用数据 覆盖分类账 · 贡献 · GitHub 组织 发现每天安排 3 次，时间为 UTC 时间 00:17、08:17 和 16:17。实际扫描结果 · 时间表和保障措施。对于人员、RAG 系统和代理 — 克隆完整目录：代理指令 · RAG 和代理指南 · 完整的 JSONL · 检索文档 目标是全面覆盖公共研究和行业资源，并具有可检查的出处。论文、模型、训练数据、评估环境、框架、基础设施、产品和出版商都属于同一个可搜索目录。全局完整性是一个目标，而不是经过验证的声明。我们发布源码
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-evaluation, agentic-ai, ai-agents, awesome, awesome-list, benchmarks
+
+---
+
+### 🌟 [scouter](https://github.com/scouter-project/scouter)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,181
+- **核心概述**: Scouter 是一款开源 APM（应用程序性能管理）工具。
+- **大概是做什么的**: 开源软件的应用程序性能监控。 SCOUTER 是一个开源 APM，类似于 new relic 和 appdynamics。 （APM 表示应用程序性能监控或应用程序性能管理。） - 监控目标（来自 scouter 代理） - Java 代理：Web 应用程序（在 Tomcat、JBoss、Resin ...）、独立 java 应用程序 - 主机代理：Linux、Windows、Unix - 监控目标（来自 Telegraf 支持）自 @2.0.0 起 - Redis、nginX、apache httpd、haproxy、Kafka、MySQL、MongoDB、RabbitMQ、ElasticSearch、Kube、Mesos ... - 监控目标（来自 Zipkin-Scouter 存储）自 @2.5.0 起 - 任何 zipkin 工具（C、Go、Python、Javascript、PHP...）都可以显示在 XLog��散点图）图表中。 - 请参阅 zipkin-scouter-storage 文档。 - 请参阅 zipkin 仪器。用户使用系统上的应用程序服务，服务使用系统上的资源。您应该了解此上下文，以便有效地管理系统性能。 SCOUTER 可以帮助您。 - 有关用户的指标：活跃用户、最近使用的用户、今日访客 - 有关服务的指标：活跃服务、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, apm, asm, bci, bytecode, java-application
+
+---
+
+### 🌟 [meetcap](https://github.com/seacen/meetcap)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 300
+- **核心概述**: 功能强大、免费、上下文感知的 AI 本机会议助手，可在您的计算机上进行本地实时转录、编写会议记录，并让您的 AI 代理来驱动它。
+- **大概是做什么的**: 所有的耳朵。都是你的。网站 · 帮助 · 反馈 · 英语 · 简体中文 免费录制任何会议，只要您愿意。如果您的思绪飘忽或主题是新的，实时摘要会吸引您并解释术语。当会议结束时，清晰的会议记录已经在等待，准备发送。 MeetCap 在您的计算机上转录您的录音，并且从不上传它们。您的人工智能代理可以记录、搜索过去的会议，或将它们用作上下文。就问吧。 - 你的思绪飘忽不定，或者话题是新的。实时摘要可在几秒钟内让您了解，背景解释了每个新术语及其在这里的重要性。 - 连续五六次会议。录音按计划开始，每次录音结束时会议记录都已准备好，因此您的夜晚将由您掌控。 - 英语和汉语同一句话，缩写词随处可见。名称和术语的拼写方式与您团队的书写方式相同。 - 有些会议不能离开房间。您的录音将逐个发言者转录在您的计算机上并保留在那里。对于会议记录，请使用公司自己的人工智能或 MeetCap 的本地模型来保留文本。 - 周数
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, codex, local-first, meeting-minutes, meeting-notes
+
+---
+
+### 🌟 [backend-interview-simulator](https://github.com/Hazenix/backend-interview-simulator)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 232
+- **核心概述**: Java/Go/C++后端面试模拟面试SKILL，支持多身份多风格 | Simulate backend interviews with AI, supporting multiple personas and six interviewer styles
+- **大概是做什么的**: Backend Interview Simulator 使用自然语言与 AI 面试官互动，模拟真实中国大厂（字节、腾讯、阿里、美团、快手）后端技术面试。支持按求职者身份和面试官风格定制，全程记录状态并输出结构化评估报告。 多身份模拟 — 针对不同阶段候选人设计差异化问题：日常实习、暑期实习、校招（应届）、社招 1-3 年。难度和追问深度随身份自动调整。 多语言支持 — 支持 Java、C++、Go 以及主次语言混合模式的后端技术面试 Skill。 六种面试官风格 — 从"严厉拷打"到"温和鼓励"，从"工程实践"到"深挖学术"，覆盖不同偏好。同一场面试，不同体验。 高频技术题库 — 基于 JavaGuide/XiaolinCoding 整理，覆盖并发编程、JVM、MySQL、Redis、Spring、分布式系统等大厂常考方向。 深度追问链 — 简历关键词（CAS、volatile、多级缓存、RAG 等几十个高频技术点）自动触发 3-5 层追问链，逼近底层原理与权衡，避免"听过名词"式过关。 完整评估反馈 — 面试结束后输出综合评分、各维度评分及风格化改进建议，新增"追问深度"评估维度，反馈措辞随面试官风格变化。 简历与 JD 支持 — 提供简历和目标岗位 JD 可获得定制化问题，简历关键词自动预生成追问链，面试后输出 JD 匹配度分析。 AI 辅助开发考察 — 当候选人展示 AI 编程工具使用经验时，自��深入提问 Agent Loop、上下文管理、Spring Boot AI 辅助、RAG 量化验证等方向。 编码题 — 可选环节，面试末尾安排并发编程、设计模式、数据库等手写代码题，难度随身份调整。 实时状态跟踪 — 面试全程维护结构化状态（已考察点、候选人弱点、待跟进项），避免重复提问，确保评估连贯。 纠错模式可选 — 面试开始前可选"严格模式"（真实面试压力，连续两次错误才纠正）或"即时引导模式"（答错立即纠正，边面边学）。 由 socialistic.ai 提供的在线入口，打开即传简历/岗位JD、开始模拟，无需配置环境。 本 skill 兼容 OpenClaw Skills 规范，可在多种平台运行。 推荐手机微信用户走 QClaw + 云端 OpenClaw 路线 ，零配置即可开始。 你的使用场景 推荐路径 安装方式 --------------------------- ------------------------- ---------------------- 手机微信，想随时随地练 QClaw + 云端 OpenClaw 让 AI 帮你装（见下方）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, backend, backend-development, backend-java, interview
+
+---
+
+### 🌟 [1c-mcp-toolkit](https://github.com/ROCTUP/1c-mcp-toolkit)
+- **项目语言**: 1C Enterprise
+- **星标数量**: ⭐ 336
+- **核心概述**: MCP和REST API服务器，用于从1C数据库获取元数据和数据
+- **大概是做什么的**: 通过 MCP 和 REST API 将 AI 代理与 1C:Enterprise 数据库集成的系统 1C MCP Toolkit 是用于将 AI 代理（Kiro、Claude 等）连接到 1C:Enterprise 数据库的解决方案。支持两种操作选项：内置服务器（HTTP 服务器直接在 1C 处理内部运行，无需 Python）和代理（具有长轮询的 Python 服务器）。主要优点： - ✅ 无需更改 1C 配置 - ✅ 无需发布 1C 服务器 - ✅ 不使用 COM 连接 - ✅ 兼容 1C:Enterprise 8.2.13+ / 8.3.25 - ✅ 内置服务器：不需要 Python - HTTP 服务器直接在 1C 中运行 - ✅ Docker 支持（代理模式） - ✅ 在 1C 服务器上启动：手动或通过“附加报告”按计划启动和处理”，没有开放的 1C 客户端 - 设置和限制 - ✅ 并行执行服务器命令并搜索 BSL 帮助 - 功能和设置 选项 1：内置服务器 HTTP 服务器直接在 1C 处理内部启动。不需要Python。方案2：代理模式 方案0：内置服务器（不带Python，推荐） 1. 在1C中打开build/MCP Toolkit.epf
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 1c, mcp
+
+---
+
 ## 🕔 2026-10-31 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 236 个候选项目中筛选出 6 个未推荐过的新项目。
