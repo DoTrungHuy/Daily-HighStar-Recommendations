@@ -1,3 +1,67 @@
+## 🕔 2026-11-02 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mcp-proxy](https://github.com/sparfenyuk/mcp-proxy)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,814
+- **核心概述**: Streamable HTTP 和 stdio MCP 传输之间的桥梁
+- **大概是做什么的**: - 1. stdio 到 SSE/StreamableHTTP - 通过 PyPI 安装 - 通过 Github 存储库安装（最新） - 作为容器安装 - 扩展容器映像 - Docker Compose 设置 - 命令行参数 - 示例配置文件 mcp-proxy 是一个可让您在服务器传输之间切换的工具。支持两种模式： 1. stdio 到 SSE/StreamableHTTP 1. stdio 到 SSE/StreamableHTTP 从连接到远程 SSE 服务器的 stdio 运行代理服务器。此模式允许像 Claude Desktop 这样的客户端通过 SSE 与远程服务器进行通信，即使它不受支持。此模式要求提供 MCP 服务器的 SSE 端点的 URL 作为程序的第一个参数。如果服务器使用 Streamable HTTP 传输，请确保通过传递 --transport=streamablehttp 在 mcp-proxy 端强制执行它。当代理是 Streamable HTTP 客户端时，它将最终的 MCP 会话终止 DELETE 请求（包括读取其响应正文）限制为五秒。取消或超时后，关闭收到的响应可以获得最多一秒的屏蔽、合作宽限期；清理鳕鱼
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: mcp, mcp-server, proxy, sse, streamable-http
+
+---
+
+### 🌟 [RustXNG](https://github.com/sahenjp/RustXNG)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 704
+- **核心概述**: 基于 SearXNG 的 AI 代理自托管元搜索和基础引擎。 Rust、JSON API、可选页面文本。
+- **大概是做什么的**: AI 代理：安装 RustXNG 并将其用作本地网络搜索工具。将此指令复制到可以运行命令的代理中，或向其发送此自述文件：设置 RustXNG 并将其用于网络搜索。首先检查现有的 RustXNG 服务并重用它。否则，请检测操作系统和 CPU，并按照代理设置指南进行操作。在环回上启动它，检查 /healthz ，然后使用 max results=5 验证 JSON 搜索。保持第一反应简短；仅在需要证据时才请求页面文本。报告二进制版本、端点和一个有效的搜索命令。如果设置失败，请报告实际错误。 日本语 · 한국어 · 代理设置指南 RustXNG 是一个用 Rust 编写的自托管元搜索引擎，基于 SearXNG。它结合了多个来源的结果，并且可以获取页面文本以进行基础。代理可以根据需要检索信息，并保持发送到其模型的文本量较小。许多引擎无需 API 密钥即可工作。可选的经过身份验证的提供商有自己的凭据和计费。服务器在本地运行；搜索词被发送到为请求选择的上游引擎。雅虎！
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agpl, ai-agents, grounding, llm, mcp, metasearch
+
+---
+
+### 🌟 [cheap-ag](https://github.com/muaaz9329/cheap-ag)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 227
+- **核心概述**: Cheap-ag 的使用量提高 50 倍。 Opus/Astra 计划，一个非常便宜的模型编写每一行，测试决定发布什么。您的 20 美元计划不再达到极限。一台用于 Claude Code & Codex 的 MCP 服务器。
+- **大概是做什么的**: 你的前沿模型是首席工程师。停止支付打字费用。相同的功能。同样的提示。 Opus 代币减少 63%。您的 Claude 或 ChatGPT 计划持续时间更长。您的代码仍然附带测试。 ⭐ 给它加注星标，然后单击“观看”→“自定义”→“发布”以收听新版本何时发布。适用于 Claude Code 和 Codex。一次登录即可涵盖两者。最简单：将其粘贴到克劳德代码中。它会询问您想要什么，然后给您一个要运行的命令。选择一个提供商（如果不确定，请选择 OpenRouter），按 Enter 键选择推荐的型号，然后粘贴您的 API 密钥。它检查关键作品，然后将其自身添加到每个项目的 Claude Code 中。然后，在每个项目中，一次：就是这样。像往常一样要求克劳德做出改变。登录（如果您不使用 Claude，当它提出将自身添加到 Claude Code 时请拒绝）： 在您的项目中启动 codex，并在询问时信任 3 个 Cheapag 挂钩。然后，在每个项目中，一次：就是这样。像往常一样向 Codex 请求更改。 - Claude Code 或 Codex - 来自 OpenRouter、DeepSeek、OpenCode Go 或 Command Code 的带有几美元的 API 密钥（Command Code 需要具有 API 访问权限的计划；OpenCode Go 需要
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-coding, ai-agents, anthropic, cheap-llm, claude, claude-code
+
+---
+
+### 🌟 [hark](https://github.com/R44VC0RP/hark)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 207
+- **核心概述**: 为开发人员及其代理提供 iPhone 通知、审批、实时活动、待命寻呼和登录迷你应用程序。
+- **大概是做什么的**: https://github.com/user-attachments/assets/74fd0670-2106-4af5-93c8-d31f99b33908 Hark 将 webhooks 转变为干净的、源品牌的 iPhone 通知。连接 CI 作业、代理、脚本、监控工具或任何其他可以发送 HTTP 请求的内容。网站文档需要 Node.js 22 或更高版本。 1. 为您的客服人员安装 Hark 技能： 3. 使用您的 Hark 帐户进行身份验证：您的客服人员现在可以通知您的 iPhone、请求批准或文本回复、通过实时活动显示任务进度，以及为外部系统创建 Webhook 服务。 MCP 客户端���以跳过 CLI：添加 https://hark.fyi/mcp 并使用 OAuth 登录。代理可以在 hark.fyi/agents.md 中读取所有内容，并且令牌 API 在 hark.fyi/api/agent/openapi.json 中进行描述。报告问题 - 从简单的 Webhook 发送丰富的 iOS 通知。 - 为每个服务提供自己的名称、头像、目标 URL 和秘密端点。 - 在网络仪表板中跟踪交付尝试和注册设备。 - 支持代理工作流程的批准和文本回复。 - ��过锁定屏幕上的实时活动显示状态任务进度
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ios, mcp, notifications, on-call, webhooks
+
+---
+
+### 🌟 [memdoor](https://github.com/guregodevo/memdoor)
+- **项目语言**: Go
+- **星标数量**: ⭐ 309
+- **核心概述**: 编码工作流程工具使小型模型击败前沿模型
+- **大概是做什么的**: 使小型模型在您的机器上击败前沿模型的工作流程工具。五个 Qwen3.8-27B 代理在 LiveCodeBench Hard 上击败了《神鬼寓言 5》，每次运行均已发布。 Ollama、llama.cpp 或任何键。一个二进制文件，没有帐户。作为 Memdoor 工作流程，五个 Qwen3.8-27B 代理在 LiveCodeBench Hard 上击败了《神鬼寓言 5》。 GVS5H 的线束根据作者的精确提示和循环进行了重建。他们列表中的前 10 个问题，每题通过 5 题：平均分为 10 题，平均分为 9.8 分。作者自己的安全带在一次调用中得分为 9.6，《神鬼寓言 5》得分为 8.0，这是作者在这 10 项测试中测量的差距（在他们的满分 100 分中：92.4 和 90.4）。所有 50 次运行均已发布：每个请求、回复、程序和评分器输出。工作流程是 YAML，没有命名模型。将其指向您的，或使用 memdoor 连接本地（Ollama、llama.cpp、vLLM、LM Studio；如何在开放权重模型上运行它、示例/工作流/团队求解 · 结果页面 · HN 线程 Memdoor 是一个编码代理和工作流运行程序。为代理提供读取文件、编辑代码和运行检查的任务。对于可重复的工作，工作流协调检查的步骤，并行
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-workflows, ai-agent, coding-agent, developer-tools, golang, llm
+
+---
+
+### 🌟 [facebook-ads-library-mcp](https://github.com/proxy-intell/facebook-ads-library-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 320
+- **核心概述**: Facebook 广告库的 MCP 服务器 - 从 FB 广告库获取即时答案
+- **大概是做什么的**: Facebook 广告库 MCP 服务器代理 (useproxy.dev) 是该服务器的免费托管版本。一个连接即可为 ChatGPT、Claude、Cursor 和任何 MCP 客户端提供来自 Meta、Google、LinkedIn 和 TikTok（欧盟）广告库的实时广告，无需 API 密钥，并且每天有 20 个免费积分。 2 分钟内使用它 → 此存储库是开源、自托管的 Facebook 服务器，供个人使用和修补。它涵盖一个平台，您为每次调用支付 ScrapeCreators 费用（100 个免费积分后，每 1,000 个调用约 1.88 美元），并且它并不能获得托管 Proxy 所具有的所有功能。对于客户工作或团队，请使用托管代理。这是 Facebook 广告库的模型上下文协议 (MCP) 服务器。通过此功能，您可以在 Facebook 的公共广告库中搜索任何公司或品牌，查看他们当前正在运行的内容并分析他们的广告。您可以分析广告图像/文本，通过全面的见解分析视频广告，比较公司的策略，并深入了解其广告活动的效果。以下是连接到 Claude 时您可以执行的操作的示例。 https://github.com/user-attachments/assets/a47aa
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ad-library, ai, analytics, api, chatgpt, claude
+
+---
+
 ## 🕔 2026-11-02 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
