@@ -1,3 +1,67 @@
+## 🕔 2026-11-02 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Movie_Data_Capture](https://github.com/mvdctop/Movie_Data_Capture)
+- **项目语言**: Python
+- **星标数量**: ⭐ 7,446
+- **核心概述**: AI本地媒体元数据爬虫
+- **大概是做什么的**: Movie Data Crawler（原 Movie Data Capture）是一款用于整理电影和电视剧媒体文件的工具。 MDC 可以自动识别媒体文件，获取标题、演员、简介、海报、背景图等信息，并生成标准 NFO 文件，帮助你快速整理本地媒体库。 - 支持 AI 解析几乎所有网页媒体信息 - 兼容 Emby、Jellyfin、Plex 等媒体服务器 当常规刮削无法获取媒体信息时，可以使用 AI 从具体网页中提取： - 整理 Emby、Jellyfin 或 Plex 媒体目录
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, crawler, emby, jellyfin, kodi, llm
+
+---
+
+### 🌟 [nakama](https://github.com/ahmadrosid/nakama)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 753
+- **核心概述**: 团队共享整个公司赖以构建的代理、技能和自动化的人工智能工作空间。
+- **大概是做什么的**: 文档 · 托管 您的下一个雇员仍然是人类。仲间负责代理。您的团队负责重要的工作。 Nakama 是一个适合您团队的人工智能代理平台。您可以在类似于 ChatGPT 的仪表板中聊天。在此背后，每个代理都可以使用工具、技能、内存和渠道（Telegram、WhatsApp、Discord 和 Slack）——拥有自己的身份和权限。它从第一天起就为团队构建：一台服务器、多个组织、邀请和角色、彼此隔离的代理。使用托管云或一个 Docker 容器进行设置。来自 OpenClaw 或 Hermes Agent？具有相同级别的功能，无需设置迷宫，并且不限于一台机器上的一名操作员。从左侧栏选择一个代理并开始聊天。每个代理都有自己的提示文件、工具、技能和内存。代理控制中心 打开ARCHITECTURE.md进行系统设计。打开文档站点以获取完整指南。 macOS 下载可用于桌面版本。 Windows这里还没有发布安装链接；旧版本中未签名的 MSIX 文件是合作伙伴中心上传的文件，而不是可安装的下载文件。 S
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai, ai-agents, automation, openai
+
+---
+
+### 🌟 [taibu](https://github.com/hhszzzz/taibu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 726
+- **核心概述**: 🔮 AI Agent算命工具，涵盖八字、紫微斗数、六爻、梅花易数、奇门遁甲、大六壬、小六壬、占星术、太乙神数、塔罗、MBTI、面相手相、合盘配对、每日/每月运势、周公解梦等。支持MCP和Skills
+- **大概是做什么的**: 在线体验 · 更新日志 · 自托管 · MCP 手册 · 报告问题 太卜把传统命理术数做成可以复现、可以核对的工具，再让 AI 在工具结果上做解读。 - 排盘由代码完成 ： taibu-core 实现 11 个体系的历法与排盘规则，输出规范文本与 canonical JSON，口径写在 ALGORITHM RULES.md。模型不手算干支、卦象与星曜。 - 解读由 AI 完成 ：普通对话、后台 Agent、协作成员与定时任务都使用同一组工具和 15 个解读方法。 - 工具对外开放 ：同一套实现经 MCP、离线 Skill 与 npm 包提供给 Claude、Cursor、Cherry Studio 等任意 AI 客户端。 - 完全自托管 ：Next.js + PostgreSQL + Redis 的 Docker Compose 栈，一个镜像同时运行 Web 与 worker。 八字 真太阳时、公历农历与四柱反推；十神、藏干、纳音、神煞、十二长生、干支刑冲合害；大运、流年、流月、流日；合盘；不知时辰时排三柱，或由 Agent 列候选时辰推算 紫微斗数 十二宫、三方四正、主辅杂曜、四化与自化、命主身主、小限、博士十二星；大限至流时运限；飞星与宫位详查 六爻 硬币、时间、数字与选卦起卦；明动暗动、世应、六亲六神、旺衰空破、伏神；互卦、错卦、综卦；应期线索；逐爻详查 梅花易数 年月日时、物数声数、字占、丈尺与方位起卦；体用生克、月令旺衰、应期线索 奇门遁甲 转盘与飞盘，拆补、茅山与节气均分局法；九宫、八门、九星、八神、值符值使、格局；宫位详查 大六壬 天地盘、四课三传、十二天将、遁干、神煞与课体；本命行年；课传详查 小六壬 · 太乙 小六壬起课与宫位落点；太乙九星观测与传统七十二局 塔罗 78 张完整牌面与逆位，9 种牌阵与自定义牌阵，星座与元素对应、生命数字 西方占星 本命盘与流运、七种宫制、自定义相位容许度、恒星黄道；单点详查 黄历择日 每日宜忌、方位、十二时辰吉凶、二十八星宿；按事项与多人生肖冲煞筛选吉日 其他 关系合盘（情侣、事业、亲子）、MBTI、面相与手相照片解读、周公解梦、日运与月运、年度报告 结果页只负责排盘与展示，解读统一交给 AI 对话；对话里可以 @ 引用任意命盘和记录。 - 多模型、思考等级、附件（PDF、Word、Excel）、知识库检索与联网搜索；平台模型按 token 实际用量计费，也可以填自己的 API Key（BYOK），不计费。 - 15 种内置图表与沙箱 HTML 可视化；引用回答片段继续追问；公开只读的对话分享链接。 - 表达风
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, astrology, bazi, divination, fortune-teller, liuren
+
+---
+
+### 🌟 [kanzo](https://github.com/emanuele-em/kanzo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 793
+- **核心概述**: 供人类和代理使用的自托管、可共享的看板。一个 4.5 MB 二进制文件、4.5 MB RAM、每个代理回复 10 到 60 个令牌、在 2 毫秒内启动、零设置。
+- **大概是做什么的**: Kanzo 是浏览器中的看板和一个 4.5 MB 程序中的 MCP 服务器，因此您和您的编码代理可以执行相同的任务：在一台计算机上，或在所有人共享的一块板上。没有帐户，没有服务器，没有设置：运行 kanzo 就可以了。您永远不会编辑文件。一切都在三个地方之一完成： - 董事会，在您的浏览器中，为您服务； - MCP，为您的代理：他们接受任务、移动卡片和评论； - kanzo 命令，用于终端和脚本。只需询问您的代理：“从 github.com/emanuele-em/kanzo 安装 Kanzo。”适用于 macOS 和 Linux，包括每个 Raspberry Pi。在 Windows 上，在 PowerShell 中：或者从最新版本下载 Windows zip，并将 kanzo.exe 放入 PATH 上名为 bin 的文件夹中，例如 %USERPROFILE%\.cargo\bin ：板仅在此处更新自身。每个版本均由 GitHub 签名：使用 gh attestation verify --repo emanuele-em/kanzo 检查下载。或者使用 Cargo：只需询问您的代理：“启动 Kanzo 并在登录时保持其运行。”该板在 http://localhost:4242 上打开。这就是所有的设置：第一次运行创建 /kanzo ，整个
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude-code, cli, codex, coding-agents, kanban
+
+---
+
+### 🌟 [plik](https://github.com/root-gg/plik)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,833
+- **核心概述**: Plik 是 Go 中的临时文件上传系统（类似 Wetransfer）。
+- **大概是做什么的**: 想要访问文档吗？ https://root-gg.github.io/plik 想要观看现场演示吗？ https://plik.bodji.net 想和我们聊天吗？ Telegram 群组：https://t.me/plik rootgg 只想了解新版本？ Telegram 频道：https://t.me/plik root gg Plik 是一个可扩展且友好的临时文件上传系统 - 就像 WeTransfer 一样，是自托管的。 https://github.com/user-attachments/assets/9185798a-ab1a-41db-843b-4ef8833f4e41 - 🖥️ 现代 Vue 3 Web 界面，具有 i18n（12 种语言）和浅色、深色、自定义主题 - 🧑‍💻 强大的命令行客户端 - ☁️ 多个存储后端（本地、S3、OpenStack Swift、 Google Cloud Storage） - 🗄️ 多个元数据后端（SQLite、PostgreSQL、MySQL） - 🔑 多个身份验证提供程序（本地、Google、GitHub、OVH、OIDC） - ⏱️ 带自动清理功能的可配置 TTL - 💣 OneShot 下载（首次下载后删除文件） - ⚡ 流模式（上传程序 → 下载程序，不存储任何内容） - 🔐 受密码保护的上传(BasicAuth) - 🔒 使用 Age 进行端到端加密（CLI ↔ Web 互操作） - 🖼️ 带语法突出显示的文件预览、Markdown 渲染
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: docker, e2ee, file-sharing, file-upload, golang, mcp
+
+---
+
+### 🌟 [predictive-maintenance-mcp](https://github.com/LGDiMaggio/predictive-maintenance-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 107
+- **核心概述**: 一款开源 MCP 服务器，可将法学硕士转变为可靠性工程师的状态监测助手。它为您的人工智能助手提供基于证据的振动诊断：机器故障检测、严重性评估和诊断报告，以便更快地做出预测性维护决策。也可作为克劳德代码插件使用。
+- **大概是做什么的**: 预测性维护 MCP 服务器为您的 AI 助手提供基于证据的振动诊断 — 机械故障检测、ISO 引用的严重性以及旨在支持和加速专家决策的诊断报告。一款开源 MCP 服务器，可将法学硕士转变为可靠性工程师的状态监测助手。其核心设计规则：服务器拒绝猜测。仅从文件名或统计参数无法推断出任何诊断——故障指示需要匹配的光谱证据。每个严重性声明都会引用 ISO 20816-3，并且报告中的评估性措辞是由服务器编写的，而不是由模型即兴创作的。人工智能协调分析并提供证据——检测到的故障频率、匹配的故障模式、严重程度区域——而最终的判断则由工程师做出。还可以作为具有 8 种诊断技能的 Claude Code 插件提供。您从这里开始 --------- ------------ 可靠性/维护工程师 — 用简单语言进行诊断，无需编码 下面的快速入门·然后是您自己的数据、手册和工作流程的工程师指南 AI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anomaly-detection, bearing-fault-diagnosis, claude-agents, claude-ai, condition-monitoring
+
+---
+
 ## 🕔 2026-11-02 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
