@@ -1,3 +1,67 @@
+## 🕔 2026-11-02 04:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 223 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [phone-harness](https://github.com/phone-harness/phone-harness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,057
+- **核心概述**: 让您的代理控制您的手机
+- **大概是做什么的**: 允许 Claude Code、Codex 或任何代理使用您的真实电话。该代理可以滚动、点击、键入和读取您的手机，无需越狱，无需 Xcode，手机上也未安装任何内容。 iPhone 通过 Mac 的 iPhone 镜像窗口 Android 通过 adb 从 macOS、Linux 或 Windows Phone Harness 云手机：通过 adb 的 Android 或通过 HTTPS 的 iPhone 尝试 Phone Harness Cloud → 托管 iPhone 和 Android，具有隐形、实数、2FA 和无限设备 通过向您的任务发送设置提示开始：“从我当前的位置给我买一辆 Waymo 到 Delah Coffee。”对于 CLI，请将此设置提示发送给您的代理��Claude Code、Codex、Grok Bot 等）：代理会安装 CLI，询问要使用哪部电话，并引导您完成需要您手动操作的步骤。每部手机需要什么：iPhone macOS 15+、与 iOS 18+ iPhone 配对的 iPhone 镜像、辅助功能和屏幕录制权限 Android adb 和 USB 调试、macOS、Linux 或 Windows 云 Android/iPhone Phone Harness 云帐户；云 Android 还需要 adbphone-harness doctor 检查设置。完整详情：insta
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, automation, developer-tools, mobile-ai, mobile-development
+
+---
+
+### 🌟 [agent-browser-cli](https://github.com/sleepinginsummer/agent-browser-cli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 642
+- **核心概述**: 使用 agent-browser-cli 进行浏览器感知与控制。适用于标签页扫描/���换、页面 JS 执行、Cookie、CDP、contentSettings、截图、文件上传、下拉框点击、tmwd_cdp_bridge 初始化和 Web 工具排障
+- **大概是做什么的**: 面向 Agent 的浏览器感知与控制 CLI，把真实 Chrome 会话变成可复用的标签页扫描、页面 JS、Cookie、CDP 和截图能力。 浏览器感知 · 页面控制 · Chrome 登录态复用 · CDP · 条件等待 · Agent Skill 集成 AI 一句话安装 · 手动安装 · Chrome 扩展 · 更新 · 更新日志 · 卸载 · 友情链接 agent-browser-cli 是一个面向 Agent 的浏览器感知与控制工具。它通过 Chrome 扩展连接用户真实浏览器，保留登录态和 Cookie，提供标签页扫描、页面 JS 执行、Cookie 读取、CDP 控制、截图、文件上传、下拉框点击等能力。 本项目不是 Selenium / Playwright。它更适合在已有浏览器会话中辅助 Agent 精确读取页面和执行操作。 - 支持平台：Windows（包括 WSL）/ Mac / Linux - 浏览器：Chrome，推荐从 Chrome 应用商店 安装扩展 - Linux 支持前提：本机 Chrome / Chromium 需要支持安装扩展 - WSL 支持前提：需使用 WSL 2.0.0+ ，并建议在 Windows 11 22H2+ 下启用 networkingMode=mirrored ，以便 WSL 连接宿主机 localhost 上的 Chrome 桥接服务 本项目的浏览器控制能力提取并改造自 GenericAgent 项目中的 Web 工具链，包括 TMWebDriver 、 simphtml 和 tmwd cdp bridge 扩展相关思路与实现。 感谢 GenericAgent 项目提供的浏览器桥接、页面简化、CDP 控制和实践 SOP。本仓库在此基础上做了面向独立使用和 CLI 调用的整理与增强。 - 从 GenericAgent 中拆出浏览器控制能力，使用cli 提供给codex、claude code、opencode使用。GenericAgent浏览器插件不需要重新安装，可以共用同一个插件 - 避免每次命令都重新初始化浏览器连接。 - 新增启动锁，避免多个 CLI 并发启动时重复绑定底层端口。 - 增加skill： skills/agent-browser-cli/SKILL.md ，提供ai参考使用。 - 优化 CDP debugger attach/detach 流程，减少页面闪烁和异常退出后的残留 attach 可以复用真实浏览器环境做页面流程验证、表单提交、按钮点击、跳转检查、登录态页面测试。 可以读取 DO
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, browser-automation, cdp, chrome-extension, claude-code
+
+---
+
+### 🌟 [llm-architecture-from-scratch](https://github.com/YeonwooSung/llm-architecture-from-scratch)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,109
+- **核心概述**: 在 PyTorch 中从头开始实现 LLM 架构
+- **大概是做什么的**: 从头开始实施法学硕士架构 从头开始​​实施法学硕士架构，以深入了解现代法学硕士架构。模型 模型大小 模态标准化 位置编码 专家注意力混合 --- --- --- --- --- --- --- GPT-2 XL 1.5B Text LayerNorm Learned 绝对多头自注意力（因果） ❌ Llama3-8B 8B Text RMSNorm RoPE 分组查询注意力（因果） ❌ Llama 3.2-3B 3B Text RMSNorm RoPE 分组查询注意力（因果） ❌ OlMo 2 7B 7B 文本 RMSNorm RoPE 分组查询注意力（因果） ❌ Phi-4 14B 文本 RMSNorm RoPE 分组查询注意力（因果） ❌ DeepSeek v3 671B 文本 RMSNorm RoPE 多头潜在注意力 ✅ Gemma 3 27B 文本 + 图像RMSNorm RoPE 滑动窗口 + GQA ❌ xLSTM 7B 文本 RMSNorm RoPE mLSTM ❌ Mistral 3.1 Small 24B 文本 + 图像 RMSNorm RoPE 滑动窗口 + GQA ❌ Llama 4 Maverick 400B 文本 RMSNorm RoPE + NoPE GQA ✅ Qwen3 32B 文本 RMSNorm RoPE 分组查询注意力（因果） ❌ Qwen3 (235B-A22B) 235B A22B 文本 RMSNorm RoPE 分组查询注意（因果） ✅ SmolLM3 3B 文本 RMSNorm RoPE + NoPE 分组查询注意（因果） ❌ Kimi K2 1T
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: deepseek-r1, deepseek-v3, gemma3, kimi-k2, llama4, llm
+
+---
+
+### 🌟 [gear](https://github.com/rsi-gear/gear)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 388
+- **核心概述**: 用于递归自我改进 (RSI) 的 Scikit-learn。用于递归线束演化的模块化框架。
+- **大概是做什么的**: 用于递归线束演化的模块化框架。 English 简体中文 · 用户指南 · 示例 RSI 实际应用：AutomationBench Evolution Replay Gear 是一个开源优化框架，用于提高 AI 代理在实际任务中的性能。要根据目标场景定制代理，首先要准备具有明确成功标准的代表性任务基准。您可以使用现有的基准测试或构建自己的任务集。在该基准上运行优化技能。 Gear 使用其评估结果来迭代改进代理的模型、指令、工具和工作流程。下面的两个示例在相同的 AutomationBench 任务上将配备 Gear 优化线束的 Luna Max 与配备 Codex 的 Astra Max 进行比较。跟踪他们的执行情况，从阅读源信息和应用规则到提供最终结果。特色片段机会 Luna：5/5 计分检查 · Astra：4/5 观看全尺寸视频 Luna：2/2 计分检查 · Astra：1/2 观看全尺寸视频 实验结果 相同模型、相同努力的利用比较 每个组都保持模型和推理工作固定。 Luna比较b
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, ai-agents, continual-learning, harness-optimization, infrastructure, llm-training
+
+---
+
+### 🌟 [ai-native-engineering-manifesto](https://github.com/Ge-limin/ai-native-engineering-manifesto)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 322
+- **核心概述**: A manifesto and playbook for AI-native software engineering in the LLM era / AI-Native的软件工程宣言
+- **大概是做什么的**: AI-Native Engineering Manifesto (English) 中文版请见：AI-Native 工程宣言（中文） 扩展的深入章节位于章节/ 下，将 11 个硬道理中的几个扩展为完整的文章。 📖 电子书：一个精心策划的书籍式网络版本，位于 liminge.space/manifesto。 - AI-Native 软件工程 - AI-Native 工程：2025 年的 11 个硬道理 - 扩展章节：AI-Native 工程实践 - 2025 年 12 月修订 - 2026 年 10 月修订 AI-Native 软件工程初稿 2025 年 3 月修订 2025 年 5 月、2025 年 12 月、2026 年 5 月、2026 年 10 月 AI-Native 工程：AI-Native 工程的 11 个硬道理2025 1. 如果知识、方法或技术堆栈的历史超过 3 年，那么它就已经过时，除非另有证明。 2. 你的代码库、你的文档、你的会议记录——这些都不是你的支柱。您唯一可靠的复合资产是您的测试用例库。 3. 要真正理解人工智能，你必须了解它的本质：人工智能从根本上来说是完全无状态的。 4.我们可以接受人工智能犯错误——只要这些错误不会在下一次模型升级之前杀死团队。 5. 软件复杂度���须
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-coding, ai-native, best-practices, claude-code
+
+---
+
+### 🌟 [deep-skill-finder](https://github.com/wheelry/deep-skill-finder)
+- **项目语言**: Python
+- **星标数量**: ⭐ 577
+- **核心概述**: 深度技能查找器 - 真实测试、真实评论找到实际工作的技能
+- **大概是做什么的**: deep-skill-finder ：deepskill.market 真实测试、真实评论找到真正有效的技能 代理技能发现引擎。您的 Claude Code / Codex / OpenClaw / Cursor 会从超过 20 万个生态系统中自动发现适合每项任务的技能。 🚀 在您的代理中安装（30 秒）复制此提示，将其发送到您的代理（支持 Claude Code / Codex / OpenClaw / Cursor / 40+）：就是这样 - 安装通常在 15-30 秒内完成。不喜欢它？随时通过一个命令进行卸载。下次您的代理需要技能时���DSF 将寻找候选人并在安装前询问您。自然地与您的代理人交谈。当任务需要外部技能时，DSF 会自动触发：DSF 返回排名 TOP-5 并附上原因。确认号码→安装自动完成。为什么选择深度技能查找器 技能生态系统正在快速发展。问题不再是缺乏工具——越来越难以判断：哪种技能真正适合我的特定任务？传统技能目录显示名称、创建者描述、下载和星级。这些可以告诉您某项技能是否可发现或受欢迎，但它们
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai, ai-agent, ai-tools, skill
+
+---
+
 ## 🕔 2026-11-01 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 328 个候选项目中筛选出 6 个未推荐过的新项目。
