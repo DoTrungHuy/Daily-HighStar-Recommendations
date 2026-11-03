@@ -1,3 +1,67 @@
+## 🕔 2026-11-03 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 175 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [mlx-vlm](https://github.com/Neywa-Labs/mlx-vlm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,777
+- **核心概述**: MLX-VLM 是一个使用 MLX 在 Mac 上推理和微调视觉语言模型 (VLM) 的软件包。
+- **大概是做什么的**: 在 Apple Silicon 上运行和微调多模式模型。文本、图像、视频和音频输入 — 任意输出。基于 MLX 构建。安装 · 文档 · macOS · 苹果芯片 由 Nativ 背后的本地人工智能公司 Neywa Labs 构建。 - 命令行界面 (CLI) - 推测性解码 - DFlash、DFlash2 和 DSpark - MiniMax M3 EAGLE-3 - 带 Gradio 的聊天 UI - 连续批处理 - 自动前缀缓存 (APC) - KV 缓存量化 - 1 位仿射推理 - 激活量化 (CUDA) - 多图像聊天支持 - 特定于模型的文档 - 视觉特征缓存 - TurboQuant KV 缓存 - 分布式推理特定于模型的文档 某些模型具有包含提示格式、示例和最佳实践的详细文档： 模型文档 ------- --------------- LFM3 / LFM3-VL 文档 DeepSeek-OCR-2 文档 Unlimited-OCR 文档 Phi-4 Reasoning Vision 文档 Phi-4 Multimodal 文档 LocateAnything 文档 EmbeddingGemma 2 文档 Muse Spark Open Docs MiniMax M3 / M3.1 Flash文档 PP-DocLayoutV3 文档 Granite Vision 3.2 文档 Granite Vision (4.0、4.1) 文档 MiniCPM-OCR 1.0 文档 M
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: apple-silicon, florence2, idefics, llava, llm, local-ai
+
+---
+
+### 🌟 [self-host](https://github.com/ajnart/self-host)
+- **项目语言**: Go
+- **星标数量**: ⭐ 1,497
+- **核心概述**: 替换您付费的 SaaS。一个二进制文件即可在家中安装和运行自托管应用程序，无需 Docker 知识。为您提供终端仪表板，为您的代理提供简单命令。
+- **大概是做什么的**: 停止租用您的软件。网站 · 文档 · Showreel · Discord 为您和您的 AI 代理提供的自托管应用程序。该存储库汇集了 DCM (Docker Compose Maker) 和 self-host ，前者用于构建您的 Compose 文件，后者为代理提供安装、配置、连接和维护应用程序的命令。工具从这里开始 您将获得什么 ------------- ----------------------------------------------------------------- ----------------------------------------------------------------------------------------- DCM 构建 Compose 文件 docker-compose.yaml 和 .env 与 Docker Compose 一起运行。自托管 从代理启动 一个包含应用程序设置、链接、备份、诊断和 --json 命令的二进制文件。 DCM：Docker Compose Maker DCM 是最初称为 ajnart/dcm 的项目，是 compose.ajnart.dev 背后的 Compose 构建器。它的历史和来源现在位于 dcm/ 下的存储库中，构建器位于 self-host.fyi/compose 。选择容器或从模板开始，调整路径和设置，然后复制或下载 Compose 和 .env 文件。将这些文件提供给您的代理进行检查和部署，或将它们与 Docker 一起使用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, cli, docker-compose, golang
+
+---
+
+### 🌟 [agent-manager](https://github.com/wainmann/agent-manager)
+- **项目语言**: Go
+- **星标数量**: ⭐ 632
+- **核心概述**: AI 编码代理的终端多路复用器。在一个 tmux TUI 中并行运行 Claude Code、Codex、OpenCode、Gemini CLI 等，并提供实时状态、工作树和差异审查。不和谐：discord.gg/ecS88An7pF
+- **大概是做什么的**: 适用于每个 AI 编码代理的最快的开发人员工作流程。代理管理器是一个本地终端应用程序，可连接到您现有的订阅和工具。 English · 简体中文 · 日本语 Claude Code、Codex、OpenCode、Grok、Gemini CLI、Antigravity CLI、Pi、Command Code、Hermes Agent、Muse Code、Oh My Pi 和 Cursor CLI 并行运行。每个工具都在其自己的持久 tmux 会话中运行。代理管理器是您已有的 CLI 上的一个薄层。每个会话都会按原样启动您自己安装的工具：您的登录、您的订阅、您的配置文件、您的 MCP 服务器以及该工具附带的所有功能，与它们在普通终端中的行为完全相同。每个会话都显示在一个具有实时状态的列表中，并分组到一个可以折叠和重新排序的项目树中，而不是通过终端选项卡来查看哪个代理已完成以及哪个代理被卡住。您可以回答其中任何一个而不附加：空格将提示直接发送到会话的窗格中，或者在所选组中生成一个新代理。死掉的会话会通过与 v 的对话而复活。 ctrl+r 打开代理更改内容的完整文件差异
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-coding-agents, bubbletea, claude-code, code-review, codex
+
+---
+
+### 🌟 [aora-bot](https://github.com/sam70361/aora-bot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 618
+- **核心概述**: Emotion Ball 是一套面向 AI 助手的表情引擎:32 种状态表情全部由纯 SVG 与原生 JavaScript 实时驱动,零框架、零图片资源。AI 侧只需输出一个 emotionId,小球即可切换到对应表情,可直接用作聊天���器人、桌面宠物、悬浮助手的情绪表达层。
+- **大概是做什么的**: 一个用于网络的程序角色引擎——生成的角色名册、动画状态、三个面孔、三种绘画风格、一个 SVG HUD 以及构建在它们之上的 UI 表面。控制台文档场景 English 完全由代码绘制的卡通人物。没有精灵表，也没有 Lottie 文件——每个身体都是代码中的轮廓（有些带有耳朵、叶子或天线作为单独的部分），每个表达式都是描述弯曲笔画的几个数字，由弹簧插值，每个动画帧都通过 requestAnimationFrame 循环直接写入 SVG 属性。该名册有 46 个角色，从圆形斑点和年糕到水果���小动物和人。他们都在默认的可爱面孔中快乐：每个角色都结合了独立的选择，所有这些您都可以在控制台中尝试：角色本身、样式（矢量、像素或颜文字）及其变体、墨水颜色、脸部和动画状态。每种风格的一只猫：矢量（实心、轮廓、玻璃、贴纸、纸、软、里索）、像素（清晰、点、块）和颜文字（普通、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, animation, bot, chatbot, desktop-pet
+
+---
+
+### 🌟 [kinetograph](https://github.com/0xS4N4TG/kinetograph)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 450
+- **核心概述**: 专为代理商打造的速度极快的程序化视频引擎。
+- **大概是做什么的**: 专为代理商打造的速度极快的程序化视频引擎。 Kinetograph 通过代码制作视频，无需浏览器。您（或代理）使用 Remotion 的 API 在 TypeScript 中编写视频，或者编写为纯 HTML 页面。 Node 运行代码，Rust GPU 合成器绘制每一帧：CSS、SVG、Canvas 2D、WebGL 着色器、3D 和 Web Audio。现有的 Remotion 项目按原样渲染，HyperFrames 项目也是如此。上面的影片是 Kinetograph 中的一个 TypeScript 项目，目前处于测试阶段（版本 0.3.0）。 API 仍然可以在版本之间发生变化。您需要 Node.js 22 或更高版本。预构建包涵盖 Apple Silicon 上的 macOS、Linux x64 和 Windows x64，安装时间大约为一分钟，无需任何其他设置：从源代码构建仅适用于在引擎上工作，或适用于没有预构建包的平台。它需要 Rust 和 FFmpeg 库，需要 15 到 30 分钟：请参阅安装：从源代码。使用编码代理安装 将其粘贴到 Claude Code、Codex 或其他编码代理中： 在空文件夹中启动项目： init 使 src/ 用于代码（或 html/ 用于页面）， public/ 用于图像、字体、audi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, ai-agents, ffmpeg, gpu, hyperframes, mcp
+
+---
+
+### 🌟 [UglyFeed](https://github.com/fabriziosalmi/UglyFeed)
+- **项目语言**: Python
+- **星标数量**: ⭐ 324
+- **核心概述**: 使用大型语言模型检索、聚合、过滤、评估、重写和提供 RSS 提要，以实现娱乐、研究和学习目的
+- **大概是做什么的**: UglyFeed 是一个简单的应用程序，旨在检索、聚合、过滤、重写、评估和提供由大型语言模型编写的内容（RSS 提要）。该存储库提供代码、文档、常见问题解答、故障排除指南以及一些用于评估生成内容的可选脚本。 - 📡 检索 RSS feed - 🧮 按相似度聚合 feed 项目 - ✨ 使用 LLM API 重写内容 - 💾 将重写的 feed 保存到 JSON 文件 - 🔁 将 JSON 转换为有效的 RSS feed - 🌐 通过 HTTP 服务器提供 XML feed - 🌎 将 XML feed 部署到 GitHub 或 GitLab - 📈 评估生成的内容 - 🖥️ 基于 Web UI Streamlit - 📰 RSS 测试提要可用 - 🤖 所有版本使用相同的代码库 - 🛑 简单的过滤后审核 - ➡️ 将提要翻译成您自己的语言 - 📝 大量提示可供使用 - 🐳 Docker 可安装包 - 🐍 Pip 可安装包 - ⚙️ Github 操作工作流程 - 🌎 互联网连接 支持的 API 和模型 - OpenAI API ( gpt-3.5-turbo 、 gpt-4 、 gpt-4o ) - Ollama API（所有型号，如 llama3 、 phi3 、 qwen2 ） - Groq API ( llama3-8b-8192 、 llama3-70b-8192 、 gemma
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: journalism, llm, news, newsfeed, rewriter, roleplay
+
+---
+
 ## 🕔 2026-11-03 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
