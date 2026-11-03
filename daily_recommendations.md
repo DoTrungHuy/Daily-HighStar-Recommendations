@@ -1,3 +1,67 @@
+## 🕔 2026-11-03 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MobileAgent](https://github.com/X-PLUG/MobileAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 9,354
+- **核心概述**: Mobile-Agent：强大的 GUI 代理系列
+- **大概是做什么的**: Mobile-Agent：阿里巴巴集团统一实验室推出的强大 GUI Agent 系列 👏 欢迎通过我们的 Modelscope 在线演示或百联在线演示来试用 Mobile-Agent-v3.5！ ❗️我们在百联上提供Mobile-Agent-v3.5 API，以便快速体验。查看文档。 🤗 GUI-Owl-1.5 Collection GUI-Owl-1.5 Collection - [2026.5.12] 🔥🔥🔥 ToolCUA 发布！用于最佳 GUI 工具路径编排的端到端计算机使用代理，具有 2 阶段训练管道（轨迹感知工具合成→在线代理 RL），以掌握何时使用 GUI 操作、调用工具以及在它们之间切换。有关纸张和模型重量，请参阅 HuggingFace。 GitHub。 - [2026.4.06] UI-S1被第64届计算语言学协会年会（ACL 2026）接纳为主会。 - [2026.3.31] 🔥🔥 Mobile-Agent-v3.5 现已在阿里云无影云手机上推出 - 一个基于云的 Android 环境，可提供无缝的移动使用体验。了解更多：阿里云无影云手机文档。 - [2026.3.19] 🔥🔥 GUI-Owl-1.5系列机型���已上市
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, android, app, automation, copilot, gui
+
+---
+
+### 🌟 [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 232
+- **核心概述**: 每个界面一个命令 - 跨 API、浏览器、桌面、本地工具和 MCP 搜索、运行和检查真实软件。
+- **大概是做什么的**: 为代理提供每个接口安装一次。搜索、运行、检查、修复。网站运营 Uni-CLI 为人员和代理提供了一个针对网站、浏览器、桌面应用程序、本地工具和 MCP 的命令界面。描述任务、检查所选操作并运行它以接收结构化数据或可操作的错误。检查版本或打开交互式 Y/N 更新选项。默认情况下，持久非交互式代理安装会在分离的工作线程中更新。结构化输出通过 meta.update.automatic update 报告进度。交互式终端保留 Y/N 选择，并且 unicli Upgrade --no-auto-update 将计算机切换回显式批准。代理互联网访问 查找来源，搜索其记录，并在站点提供时阅读本机 Markdown。学术搜索保留所请求的来源。 HTTP响应携带重试和验证指令。 OpenRouter 在服务器上搜索模型并对其进行分页。阅读访问指南和可重复的行为基准、测量增益和���端限制。目录标识可用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-infrastructure, ai-agents, ai-tools, automation, browser-automation, cdp
+
+---
+
+### 🌟 [OpenWhisper](https://github.com/Knuckles92/OpenWhisper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 236
+- **核心概述**: 使用 Whisper 或 OpenAI API 进行本地听写和会议记录。自定义 Whisper 模型、MCP 历史记录访​​问以及 LAN/Tailscale 上的共享引擎。可选的 Parakeet/Nemotron (Windows x64、Linux x86_64)、Qwen3-ASR/Moonshine (Windows x64) 和 Parakeet CPU/实验性 MLX (Apple Silicon)。
+- **大概是做什么的**: 一款用于 Windows、macOS 和 Linux 上听写、音频文件转录和会议记录的桌面应用程序。使用本地语音模型、您运行的语音服务器或云 API 进行转录，然后可以选择使用 AI（包括您自己运行的模型）来清理文本。网站 · 下载 · 从源代码运行 · 安装 · 更改日志 使用带有捆绑的 Python 和依赖项的打包版本，或使用您自己的 Python 环境从源代码运行。反馈：如果您对应用程序的任何部分不满意，请打开 GitHub 问题，我会尽力尽快修复。 - 听写：使用全局热键从任何应用程序进行录制，在支持的引擎上查看实时预览，并将结果粘贴到活动窗口中。 - 演练：在保留屏幕截图的同时讨论任务，然后获取 PDF、Word 和 Markdown 文档，其中每个屏幕截图后面都有描述它的文字，准备粘贴到编码代理中。查看并更正已保存的演练，或让您自己的代理编写一份演练。 Windows、macOS 和 Linux（X11、Hyprland）；请参阅演练指南。 - 音频文件：转录一个文件或一个队���，保留结果
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: desktop-app, dictation, linux, local-first, macos, mcp
+
+---
+
+### 🌟 [trina-ax](https://github.com/trina-app/trina-ax)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 111
+- **核心概述**: 设置一次克劳德代码。你的整个公司都明白了。自托管 Claude Code 和 Codex，包含您的公司文件、团队技能、MCP 和每人文件夹权限。
+- **大概是做什么的**: 设置一次克劳德代码。你的整个公司都明白了。 Claude Code 和 Codex 位于一台公司服务器上，包含您的文件、团队的技能和每个人的文件夹权限。其他人只需打开浏览器即可。网站 · 10 分钟内试用 · 自托管 · 文档 英语 · 한국어 · 日本语 · 西班牙语 · 简体中文 https://github.com/user-attachments/assets/61f3469b-358d-4b3a-9233-c6b23b5db835 97 秒，声音打开。一位团队负责人曾对克劳德进行过一次设置，在她第一天，一位新员工的提案就与他的提案一样。 1:15 与真实应用程序的动画故事。虚构的公司。相同的请求，两个答案 Claude Code 在一个空文件夹中 它无法知道您的公司，因此它首先询问六个问题。天合AX，同一条线 从团队的档案和CEO的提案技巧开始。 2026 年 10 月 31 日和 11 月 1 日与虚构公司 Dawnroute 的实际产出；甲板照片是由希格斯菲尔德拍摄的。克劳德·科德的问题是正确的：空文件夹中没有任何东西可以告诉它你是谁。 Trina 将文件夹交给它。 1.一次性放入。公司文件位于shared/ 中。您编写提案的方式位于 Skills/proposal/SKILL.md 中。 2.大家
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-workspace, claude-code, codex, document-management, hwp
+
+---
+
+### 🌟 [gai](https://github.com/godot-fun/gai)
+- **项目语言**: GDScript
+- **星标数量**: ⭐ 200
+- **核心概述**: 使用 Godot 构建的轻量级 AI 代理和技能工作流框架。
+- **大概是做什么的**: 用于 Godot 游戏开发的一体化 AI 工作区：使用桌面代理构建和验证代码，然后通过可视化工作流程连接音频、图像和视频工具。 GAI 将编码代理、可重用技能、命令行工具和轻量级 Godot 框架集成在一个存储库中。要求代理检查项目、编辑文件、运行命令和执行测试，或以可视方式连接处理节点以构建可重复的资产管道。 Desktop Coding Agent 在本机 Godot 桌面界面中完成从请求到验证的完整循环： - 实时流响应、命令输出和文件更改 - 使用内置的 read 、 write 、 edit 、 delete 、 list dir 、 glob 、 grep 、 bash 、 web search 和 web fetch 工具 - 运行一个模型循环，调用工具，将其结果反馈给模型���然后重复，直到它停止请求工具或您结束运行 - 运行多个独立会话并在它们之间切换当客服人员工作时 - 保留对话历史记录并固定常用会话 - 在更改之前创建工作区检查点，并支持恢复合作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cli, framework, gdscript, godot
+
+---
+
+### 🌟 [openlegion](https://github.com/openlegion-ai/openlegion)
+- **项目语言**: Python
+- **星标数量**: ⭐ 128
+- **核心概述**: 安全的自主人工智能代理框架和平台。通过描述您的需求来组建人工智能团队。协调可以做人类能做的一切的代理。
+- **大概是做什么的**: 该存储库是 OpenLegion v1，自托管、源可用的运行时。 OpenLegion 此后被重建为托管平台（内测版）：https://www.openlegion.ai。 v1 文档：https://docs.openlegion.ai。为无法承受安全事件的构建者提供安全的 AI 代理运行时。运行独立、可审计且可投入生产的自主、自托管 AI 代理队列。每个代理都在自己的 Docker 容器中运行，API 密钥永远不会离开凭证库，并且每个代理的预算都有支出上限。为团队提供源可用、安全第一的 OpenClaw 替代方案。通过 Telegram、Discord、Slack 或 WhatsApp 聊天。 100 多个 LLM 提供商通过 LiteLLM。什么是开放军团？ · 快速入门 · OpenLegion 与 OpenClaw · 安全模型 · 文档 https://github.com/user-attachments/assets/8bd3fe95-5734-474d-92f0-40616daf91ad openlegion 启动 → 内联设置 → 多个代理运行。实时成本跟踪。没有手动编辑配置文件。连接 Telegram、WhatsApp、Slack 和 Discord。 - 什么是开放军团？ - OpenLegion 适合谁？ - OpenLegion 与 OpenClaw - 代理架构 - 触发和自动化
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-framework, agent-orchestration, agentic-ai, ai-agent, ai-agent-security, ai-agents
+
+---
+
 ## 🕔 2026-11-02 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 313 个候选项目中筛选出 6 个未推荐过的新项目。
