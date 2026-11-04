@@ -1,3 +1,67 @@
+## 🕔 2026-11-04 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [global-law](https://github.com/lexifina/global-law)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,745
+- **核心概述**: git 中的世界法律：任何条款、任何国家、任何日期，以及写下每个单词的法律。
+- **大概是做什么的**: 一部 git 历史中的世界法律。每一个字都可以追溯到任何国家和任何日期制定的法律。 《美国代码》的扩展，1 于《黑客新闻》(28/10/26)。全球范围内的语义可搜索法律。 https://github.com/user-attachments/assets/f24f3411-24d9-416a-8c45-9cebc817c64e 免费使用：CC0。分叉它，在它的基础上构建，将它发布在产品中：不需要许可或信用。法律文本位于每个国家的存储库中，按照该存储库自己的条款。每个司法管辖区的法律都是其自己的存储库， lexifina/-law ，其中每次提交都是由该法律编写的正在生效的一项法律。该存储库将它们全部作为子模块保存，按管辖权排列，并将每个模块向前移动到其最新提交。这些工具读取每次提交的生效日期，因此它们给出了任何国家/地区的法律。 对于每个国家/地区，请使用 --recurse-submodules 进行克隆。不要使用 --depth 进行克隆：日期是从整个 AI 模型（MCP）tools/mcp server.py 中读取的，它是一个模型上下文协议服务器，具有 18 个只读工具：找到一个条款，在某个日期读取它，谁写了每个工作
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: git, law, legal-tech, legislation, mcp, open-data
+
+---
+
+### 🌟 [nativ](https://github.com/Neywa-Labs/nativ)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 1,573
+- **核心概述**: Nativ 是一款适用于 Mac 的开源本地 AI 应用程序。它在 Apple Silicon 上运行开放的人工智能模型，一切都不会离开你的 Mac。
+- **大概是做什么的**: Nativ 是一款适用于 Mac 的开源本地 AI 应用程序。它在 Apple Silicon 上运行开放的人工智能模型，一切都不会离开你的 Mac。   ·     ·   macOS 26+  ·  Apple Silicon  ·  由当地人工智能公司 Neywa Labs 制造的 MLX-VLM 提供支持。完整的功能和贡献者文档位于 Docs/ 中 - 从聊天、模型、语音、计划任务、集成和开发人员参考开始，以及扩展、套件和功能指南。您将获得什么本地聊天和视觉流式对话、图像附件、推理输出、响应指标和持久聊天历史记录。多个窗口 使用 Command + Shift + N 打开独立工作区，同时共享相同的推理服务器、加载的模型和设置。共享工作窗格 在聊天旁边打开文档、代码、HTML 和网站选项卡。编辑和预览工作，讨论选定的源，并让代理更新共享项目或操作同一浏览器页面。图像生成和编辑 在专用图像选项卡中使用兼容的 MLX 图像模型在本地生成和编辑图像。模型库迪
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: apple-silicon, llm, local-ai, macos, mlx, offline-ai
+
+---
+
+### 🌟 [affectui](https://github.com/flohoeller/affectui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 448
+- **核心概述**: AI 代理的 UI。 React 组件负责代理的操作（代理树、工具调用、跟踪、移交和批准）以及应用程序的其余部分。每个文件一个，使用 shadcn 或通过 MCP 安装。免费且开源。
+- **大概是做什么的**: AI 代理的 UI。 EffectUI 是一个 React 组件库，用于代理执行的操作（运行、工具调用、跟踪、移交、批准和上下文）以及应用程序的其余部分：输入、菜单、图表、屏幕、插图和动作。每个项目都是一个 .tsx 文件，其中包含其样式：没有 Tailwind，没有 CSS 设置，没有动画库。使用 shadcn CLI 安装它，或者让 Claude Code、Cursor 或 Codex 通过 MCP 服务器添加它，它是您自己的源。代理组件，从affectui.com现场录制。标记为 Pro 的项目是affectUI Pro 的一部分，并不在此存储库中；其他一切都可以从这里免费安装。座席的工具在一行中调用 Trace Waterfall Pro 座席的时间和金钱的去向 打开决策，每个决策有两个快速答案 所有后台座席任务都在一个平静的列表中 一个用于 AI 回复的小型工作药丸 什么填充座席的上下文窗口，作为活树状图 Agent Handoff Pro 任务像中继一样从座席传递到座席 - 与 AI 工具一起使用 - 专为座席而设计。代理实际执行的操作的组件：子代理树、工具调用、跟踪
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-ui, ai, ai-agents, ai-ui, animation, components
+
+---
+
+### 🌟 [voxl](https://github.com/tembo/voxl)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 499
+- **核心概述**: 极快的网络远程桌面流媒体
+- **大概是做什么的**: 用于浏览器的低延迟桌面流，用 Rust 编写。 voxl 通过 WebSocket 将 X11 显示器、Mac 屏幕或 Windows 桌面作为 H.264 流式传输到小型 Web 客户端，该客户端使用 WebCodecs 进行解码，并具有输入、剪贴板、音频、麦克风、文件和文件夹传输以及动态分辨率。打开它打印的链接。在 Mac 或 Windows PC 上，voxl 会流式传输该机器自己的屏幕；请参阅 macOS 和 Windows。 https://github.com/user-attachments/assets/acdf3f31-64fc-4acf-b5c5-ff173d7100a8 在低于 voxl 的每个测试中，平均帧率为 60 FPS，中位延迟为 12–99 毫秒； noVNC 平均帧率低于 8 FPS。 16 vCPU AMD EPYC 9334 VM（无 GPU）、2560x1600 Xvfb 桌面、相同的工作负载、每个流均由本机客户端解码，该客户端读取绘制到内容中的像素标记。单元格为 FPS（最差第二），然后是从绘制内容到解码帧的延迟 p50/p99。 voxl 的专栏是每次测试的最佳运行结果。要重现，请参阅测试 voxl selkies KasmVNC Neko Neko，调整 noVNC Daytona ------------------------------------------ -------------------------------------- ----------------------------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli, computer-use, desktop-streaming, linux, macos
+
+---
+
+### 🌟 [pi-rust](https://github.com/bigfish1913/pi-rust)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 202
+- **核心概述**: Rust 原生、库优先的编码代理运行时和终端 CLI 受 Pi 启发，具有可组合的 LLM 提供程序、工具、会话和插件 ABI
+- **大概是做什么的**: rpi — Rust 原生编码代理运行时 rpi 是一个用 Rust 编写的库优先编码代理运行时，加上构建在其之上的终端代理。十个可组合的板条箱涵盖提供程序适配器、一个持久的崩溃可恢复代理循环、一个可重用的运行时、一个终端 UI 和一个稳定的插件 ABI——因此相同的代码可以作为嵌入式 SDK 或随时可以运行的 rpi，开始于 Mario Zechner 对 Pi TypeScript SDK 的 Rust 重新实现。它现在包含自己的 Rust 原生插件 ABI 和执行基础设施。有关上游归属，请参阅致谢和注意。交互式 TUI。请参阅 docs/guides/user-guide.md 了解完整的命令界面。代理循环和真实写入工具往返，在没有 API 密钥和网络的情况下记录 - 与测试采用的路径相同。事实来源是 demo/sdk.tape ；使用任务演示重新生成。使用它的三种方法 你想要的 取决于 开始于 -------- --------- -------- 一个工作终端编码代理 没有cargo install rpi-cli 你自己的代理在你的进程中 rpi-agent (+ rpi-ai , rpi-tools ) 示例/最小 扩展每个会话的工具/提供程序 rpi-
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai, ai-agent, ai-coding, anthropic
+
+---
+
+### 🌟 [sketchy](https://github.com/ddkbs/sketchy)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 126
+- **核心概述**: AI 图表的布局引擎：模型说明要绘制什么，Sketchy 计算出在哪里。手绘，交互式，Claude、Cursor 和 VS Code。
+- **大概是做什么的**: Sketchy 让您的 AI 助手在解释的同时进行绘图：在答案旁边呈现干净、手绘、交互式的图表。它作为一项技能在 Claude 聊天中工作，并作为 Claude Code、Cursor、VS Code 和其他 MCP 客户端中的 MCP 服务器。人工智能决定绘制和标记什么。 Sketchy 决定在哪里：具有命名锚点和自动布局的零件库。人工智能从不计算坐标，因此每次绘图都会精确且一致。系统，一步一步询问“当我打开网页时会发生什么？”人工智能会绘制整条路径，然后引导您完成它。每一步都用红笔圈出重要的部分，然后淡化其余部分。使用按钮或箭头键。计算机科学和机器学习的概念 Sketchy 不仅限于硬件。结构、流程、比较和隐喻模式涵盖了从 Transformer 到 TCP 的任何主题。询问“解释一下我的存储库”。 AI读取代码并绘制模块、文件夹和数据流。单击一个框可在 VS Code、Cursor、Windsurf 或 Zed 中打开文件；将鼠标悬停即可查看它的作用。来自 Arduino 和 ESP32 草图的电路 问“如何
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, claude-code, claude-skill, claude-skills, cursor, diagrams
+
+---
+
 ## 🕔 2026-11-03 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 175 个候选项目中筛选出 6 个未推荐过的新项目。
