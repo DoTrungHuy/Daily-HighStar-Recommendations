@@ -1,3 +1,67 @@
+## 🕔 2026-11-04 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 287 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vibecosystem](https://github.com/vibeeval/vibecosystem)
+- **项目语言**: C#
+- **星标数量**: ⭐ 539
+- **核心概述**: Claude Code 和 Codex 的基于配置文件的编码运行时。精益核心；选择加入质量、上下文、内存、编排和仪表板。
+- **大概是做什么的**: Claude Code 的专注运行时。食品法典委员会的一名有限工作人员。 Türkçe、Español、Français、Deutsch、Português、Italiano、Nederlands、中文、日本语、한국어、हिन्दी、Русский vivicosystem 软件包用于软件工作的代理、技能和挂钩。默认核心配置文件安装选定的一组用于调查、实施、审查和验证。记忆、学习和编排都有明确的轮廓；完整的目录可通过 full 获得。 3.5.0 是此源代码树中的候选版本。这并不是声称 npm 包或 GitHub 版本已发布。请参阅 CHANGELOG.md 和升级指南。使用源检查来尝试这些更改。在审查 PR 时，请在安装之前检查其头部分支；克隆默认使用 main：安装程序使用 hooks/dist/ 中预构建的钩子；正常安装不会编译 TypeScript 或安装钩子开发依赖项。需要 Node.js 18+ 和 Bash。开发检查使用 Node.js 22。对于已发布的 npm 版本：还可以使用远程安装程序。在运行脚本之前检查该脚本：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-software-team, anthropic, automation, claude, claude-code
+
+---
+
+### 🌟 [AlysisCode](https://github.com/AlysisAi/AlysisCode)
+- **项目语言**: Python
+- **星标数量**: ⭐ 203
+- **核心概述**: 用于编码、研究和日常工作流程的开源多模型代理。使用我们自己的Aanalysis Sandbox独立构建引擎，默认严格的命令隔离，以及本地模型支持。
+- **大概是做什么的**: 适用于您的终端和桌面的开源 AI 代理。从头开始构建，内置免费网络搜索和计算机使用。安装程序设置 uv 和他们自己的 Python，因此您不需要 Python 或管理员权限。运行分析更新进行升级。 aanalysis 和 aanalysis-code 都会启动 CLI。 Aanalysis Code 也是适用于 macOS 和 Windows 的桌面应用程序。它在此存储库中附带了自己的引擎副本，因此无需安装 Python 或 CLI。 - 处理文档：附加注释或 CSV 并返回 Word 文件、电子表格、演示文稿或 PDF。结果是版本化的，您可以标记预览的一部分并要求更改。 - 存储库代码：讨论代码，阅读 Changes 中的差异，在内置 Terminal 中运行命令，然后回滚到检查点。 - 项目将聊天、文件夹和保存的说明放在一起。您可以从其他编码代理导入项目和历史记录。 - 浏览器会在聊天旁边打开页面，并且可选的 Chrome 扩展程序可让 Aanalysis 在您自己的选项卡中工作。 - 当应用程序打开时，计划运行重复任务（每天、工作日、每周或每小时）。 - 库斯托
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, ai-agent, ai-assistant, ai-coding-agent, anthropic, claude
+
+---
+
+### 🌟 [mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 258
+- **核心概述**: 将 MCP 连接到主要 3D 打印机 API（Orca、FULU 的 Orca/Bambu、OctoPrint、Klipper、Duet、Repetier、Prusa、Creality）。控制打印、监控状态并执行高级 STL 操作，如缩放、旋转、分段编辑和基本扩展。包括切片和可视化。
+- **大概是做什么的**: MCP 3D 打印机服务器 谢谢 FULU 基金会、Louis Rossmann 和 OrcaSlicer-bambulab 的贡献者。感谢您为消费者所有权、开源开发者、维修权以及那些工作硬件不应该因锁定软件而变得更糟的所有者挺身而出。该服务器将 FULU OrcaSlicer-bambulab 叉子视为 Bambu Lab 项目的一流切片机。请参阅 FULU 指南了解设置和当前状态。一个 MCP 服务器，可将 Claude、Codex 和其他 MCP 客户端连接到运行 OctoPrint、Klipper (Moonraker)、Duet、Repetier-Server、Bambu Lab、PrusaLink 或 Prusa Connect 和 Creality 的 3D 打印机。您的代理可以检查状态、上传和启动作业、取消打印、编辑 STL 网格、运行切片器以及通过可选的 Blender MCP 桥将模型手动传输到 Blender。浏览文档站点以获取可搜索的设置指南、每台打印机的凭据、切片和完整的工具参考。它是从本 README 和 docs 文件夹生成的。只能在 Bambu Lab 打印机上打印吗？ bambu-printer-mcp 是该项目的一个专注于 Bambu 的分支，具有更多 Bambu 功能，包括
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-printing, 3mf, bambu-lab, bambu-studio, duet, fulu-foundation
+
+---
+
+### 🌟 [DSH-Plugins-Marketplace](https://github.com/bradeGithub/DSH-Plugins-Marketplace)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 201
+- **核心概述**: DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI
+- **大概是做什么的**: DSH 插件市场（dsh-plugin-marketplace） 为 DeepSeek Harness（DSH）打造的插件市场插件：自动索引 GitHub dsh-plugin topic 下的全部插件，在 DSH Web GUI 设置页以卡片展示，支持一键安装、版本检测与自动更新，无需命令行。 9500+ DSH 插件  ·  20000+ 通用 Skills  ·  2 小时 增量收录  ·  浏览侧 0 次 GitHub API 调用 - 桌面端（DeepSeek Harness 桌面版）：复制地址粘贴即可 - Web 端 / CLI（ dsh web 、 headless 等） 两种形态的安装方式 完全不同 ，先确认你在哪个端。 桌面端（DeepSeek Harness 桌面版）：复制地址粘贴即可 2. 打开桌面端 → 侧栏 插件 → 添加插件 ，把地址粘进输入框 → 点 安装 。 3. 完成后 重启 DeepSeek Harness （支持热重载的组合会立即重组生效）。 桌面端 不要 用 dsh plugin --profile desktop … ： desktop profile 由 Electron 应用独占，CLI 会直接拒绝（ error: profile "desktop" is managed exclusively by the Electron application ）。 Web 端 / CLI（ dsh web 、 headless 等） 官方 CLI（推荐，由 Harness 官方机制安装并注册）： 无 dsh CLI 的环境用安装脚本（脚本检测到 CLI 时会自动转用官方方式）： Windows (PowerShell) irm https://raw.githubusercontent.com/bradeGithub/DSH-Plugins-Marketplace/main/install.ps1 \ iex macOS / Linux curl -sL https://raw.githubusercontent.com/bradeGithub/DSH-Plugins-Marketplace/main/install.sh \ bash 安装脚本会从本仓库下载并执行代码，属「信任即执行」——建议先肉眼检查脚本再执行；官方 CLI 方式不运行第三方脚本。插件安装后注册进 /.dsh/profiles/web/cordis.patch.yml 并随 DSH 启动加载；安
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, cordis, deepseek-harness, dsh, dsh-plugin
+
+---
+
+### 🌟 [codex-mobile-dev-plugin](https://github.com/callstackincubator/codex-mobile-dev-plugin)
+- **项目语言**: C++
+- **星标数量**: ⭐ 210
+- **核心概述**: 一个为 Android 和 iOS 提供更好的移动开发体验的插件
+- **大概是做什么的**: 聊天旁边的实时设备流式传输 iOS 模拟器、Android 模拟器以及连接的 iPhone、iPad 和 Android 设备。一起显示 iOS 和 Android 或使用全屏工作区。设备控制、检查和注释选择并启动模拟器或仿真器，与点击和拖动进行交互，在支持的设备上键入，并让您的代理检查辅助功能元素并通过捆绑的代理设备运行时控制您的应用程序。选择一个元素或屏幕区域，并为您的代理留下说明，以及 React Native 组件和源详细信息（如果可用）。安装构建的应用程序，启动或停止它��然后打开深层链接或 URL 以跳转到屏幕。向 iOS 模拟器应用程序发送测试推送通知。在没有系统提示的情况下允许、拒绝或重置应用程序权限，并以设备以外的其他语言运行应用程序。每个设备面板中的应用程序工具启动和停止应用程序、打开 URL、发送推送以及设置权限和语言；代理还可以将每个操作调用为 MCP 工具。移动开发人员不会构建您的应用程序；你的项目自己的工具可以做到。设备设置和网络
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, android, codex, codex-plugin, dev-tools, ios
+
+---
+
+### 🌟 [familywell](https://github.com/bvdr/familywell)
+- **项目语言**: PHP
+- **星标数量**: ⭐ 110
+- **核心概述**: 适合与您住在一起的人的家庭组织者：购物清单、待办事项、日历、支出、项目、食谱等。自托管、模块化 Laravel + React PWA 以及用于 AI 助手的 MCP 服务器。免费供个人使用。
+- **大概是做什么的**: 与您同住的人的家庭组织者。在一个可安装的应用程序中共享购物清单、待办事项、家庭日历、支出、项目、食谱、汽车等。一个小型、稳定的核心，带有独立的模块，您可以为每个家庭打开，因此每个家庭只能看到它使用的内容。为您自己的家庭自行托管，或使用 familywell.co 上的托管版本（有一个一键式现场演示）。有源代码可用，但不是开源的。 FamilyWell 免费供个人、非商业用途：为您自己的家庭运行它、改变它、从中学习。不允许商业用途和转售。请参阅许可证。 - 家庭，而不仅仅是账户。邀请与你住在一起的人；每个人都共享相同的数据，并具有角色（管理员/成员）。 - 每个系列打开的模块（设置 → 模块）。捆绑： - 购物：几个共享列表，按每个商店的过道分组、“购物模式”、语音和粘贴输入。 - 任务：共享待办事项列表，其中包含子���务、截止日期和受让人，以及重要和重复的待办事项。 - 日历：月份和时间线视图、重复事件、人员和事件待办事项。任务截止日期
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: calendar, expense-tracker, family, family-calendar, family-organizer, grocery-list
+
+---
+
 ## 🕔 2026-11-04 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
