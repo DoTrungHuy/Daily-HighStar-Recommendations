@@ -1,3 +1,67 @@
+## 🕔 2026-11-04 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 202 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [genex-desktop](https://github.com/genex-games/genex-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 791
+- **核心概述**: 使用 AI 进行游戏开发的桌面应用程序：在 Unreal Engine、Unity、Godot 或浏览器中制作游戏。代理设置引擎，构建您的游戏并自行进行游戏测试。
+- **大概是做什么的**: 使用 AI 进行游戏开发的桌面应用程序：在 Unreal Engine、Unity、Godot 或浏览器中制作游戏。代理设置引擎，构建您的游戏并自行进行游戏测试。 macOS (Apple Silicon) Genex.dmg Linux (x64) .deb 、 .rpm 或 .zip 来自最新版本。 .deb 和 .rpm 添加 Genex 软件包存储库，以便您的系统更新（软件更新程序、 apt 、 dnf ）带来每个更高版本的 Windows (x64)、预览 Genex-Setup.exe 。尚未签署：如果 Windows 发出警告，请选择更多信息，然后无论如何运行 Genex 还很早：期待粗糙的边缘，并告诉我们 → 使用您的 Claude Code 或 ChatGPT 订阅\ → 或运行本地模型\ → 多代理游戏开发：在主代理、工作人员和审���者之间混合 Opus 和 GPT 模型\ → 使用 Blender 插件在本地制作 3D 资源\ → 通过 Genex 工具路由器的 Meshy、Tripo、ElevenLabs 等\ → 导出到任何地方，或发布到web\ → 在 Unreal Engine、Unity、Godot 或 Roblox Studio 中构建：代理设置引擎并进行游戏测试\ → 即将推出原生 C++ 游戏 您的游戏需要工具吗？构建一个插件并将其放入 Genex Marketplac
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, gamedev, godot, local-llm
+
+---
+
+### 🌟 [KomaSlate](https://github.com/xeronsh/KomaSlate)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 413
+- **核心概述**: KomaSlate — 本地优先、非破坏性开源 AI 分镜工作台 | Local-first, non-destructive AI storyboarding workspace with shot retake, version diff & FCPXML export
+- **大概是做什么的**: 本地优先、可编辑、非破坏性的开源 AI 分镜与短片工作台 Local-first, editable, non-destructive AI storyboarding workspace 也在研究像 KomaSlate 这样的分阶段可控 AI 工作流？ 让 Claude、ChatGPT、DeepSeek 等多个 AI 在同一对话里协作——互相质疑、交叉核对、一起把结果打磨到位 💼 面向 AI 视频/图像 API 网关与开发者工具开放包月合作展位（GitHub README 首屏 + 官网生态栏），欢迎通过 GitHub Issue 洽谈 KomaSlate （取自日语分镜格 Koma 与影视场记板 Slate ）是面向创作者与独立开发者的 本地优先、非破坏性开源 AI 分镜工作台 不同于消耗黑盒积分、改一处重跑全片的闭源云端工具，KomaSlate 将剧本拆解、角色定妆卡、九宫格分镜台本、视频切片与多版本栈沉淀在 本地单文件 SQLite 与 React Flow 画布 中：随时停在审批门锁住已满意镜头（ LOCKED ），仅对不满意的单镜补充导演批注或增删出场角色定向重拍，并排对比图像与视频版本后一键回退，最终直出配音字幕成片或导出标准 FCPXML v1.9 时间线资产包进入非编软件精剪 - 🎬 锁镜保护与单镜定向重拍 ：已批准镜头在重新规划分镜或重拍兄弟镜头时自动原地保护，绝不误伤重画；支持携带导演修改批注对单镜画面或单镜视频定向重拍，每次写入自动留存历史快照，支持双栏图像/视频并排对比（Version Compare）与 CAS 乐观锁一键回退（同步恢复画��、提示词与角色绑定） - 🎞️ 双轨交付：一键成片 + 标准 FCPXML v1.9 剪辑资产包 ：内置多音色 TTS 配音、字幕烧录与背景音乐自动闪避混音（FFmpeg），可直出 MP4 成片、A4 漫画 PDF 与 Webtoon 长图；也可一键导出非编剪辑包（ZIP：按镜号命名的关键帧、视频切片、独立 TTS 干声、角色立绘、SRT 字幕与 100/2400s 帧对齐 timeline.fcpxml ），直接拖入 DaVinci Resolve、Final Cut Pro、Premiere Pro 或剪映专业版精剪 - 🎭 可编辑角色绑定与双重一致性把关 ：支持在分镜检查器内按镜头增删出场角色标签（微距特写或空镜可解绑角色直接放行审批，避免无关人物强行入镜导致比例穿帮），配合多参考图拼合注入、Vision Critique 视觉审查与本地 InsightFace 余弦特征评估拦截人物走
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-storyboard, ai-video, byok, comic, fastapi
+
+---
+
+### 🌟 [inferssd](https://github.com/wici-ai/inferssd)
+- **项目语言**: C++
+- **星标数量**: ⭐ 308
+- **核心概述**: 通过 SSD 流式传输 MoE 专家来运行大于 RAM 或 VRAM 的模型。基于 llama.cpp 构建。
+- **大概是做什么的**: 大型 MoE 模型，由您的 SSD 网站  ·  博客  ·  Slack  ·  macOS / Metal  ·  Linux / CUDA  ·  Windows（正在进行中） 运行大于 RAM 或 VRAM 的模型。 InferSSD 基于 llama.cpp 构建，使用标准 GGUF 文件、浏览器聊天和兼容 OpenAI 的 API，从 SSD 运行大型专家混合 (MoE) 模型。目前支持 DeepSeek-V4.1-Flash-1017 、Muse-Spark-Open 和 Qwen3.6-35B-A3B ，更多型号即将推出。这些是经过测试的 GGUF 文件，命名模型版本的社区转换。 DeepSeek 的 Q8 0 保留官方位宽度：路由专家保持原生 4 位 MXFP4，FP8 张量变为 8 位 Q8 0。请参阅权��格式详细信息。型号 参数计数 GGUF 参考 DeepSeek-V4.1-Flash-1017 763B 总计/8–16B 活动 mrfakename · Q8 0 Muse-Spark-Open 816B 总计/42B 活动 Unsloth · UD-Q4 K XL Qwen3.6-35B-A3B 35B 总计/3B 活动 Unsloth · UD-Q4 K XL 性能基准4K 提示层 · 256 个输出令牌 · 通过令牌 129–256 进行解码测量。所有费率均以代币为单位；越高则越快。倍数
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: apple-silicon, cuda, gguf, inference, llama-cpp, llm
+
+---
+
+### 🌟 [mojo-dllm](https://github.com/vladimirrott/mojo-dllm)
+- **项目语言**: Mojo
+- **星标数量**: ⭐ 328
+- **核心概述**: 扩散语言模型的本地推理（LLaDA、Dream），用 Mojo 编写
+- **大概是做什么的**: 扩散语言模型的本地推理，用 Mojo 编写。 mojo-dllm 从量化的 GGUF 文件运行 LLaDA-8B-Instruct 、 LLaDA-1.5 、 Dream-v0-Instruct-7B 、 Dream-Coder-v0-Instruct-7B 和 DiffuCoder-7B-cpGRPO 。 LLaDA-8B和Dream-v0有CPU和NVIDIA GPU证据；添加的检查点有 CPU 烟雾和奇偶校验结果。 GGUF 读取器、分词器、量化矩阵乘法、GPU 内核、变换器和去噪循环都是 Mojo。 build/mojo-dllm 二进制文件在运行时不需要 Python，并且 GPU 是可选的。构建并启动它的 ./mojo-dllm 启动器是一个由 uv 运行的 Python 脚本。扩散模型不会从左到右书写。它从屏蔽令牌的画布开始，经过固定数量的步骤，提交最确定的令牌，直到没有留下任何令牌。默认情况下，每个步骤都会在整个画布上重新运行整个模型，因此运行时问题看起来像 GEMM 流。 mojo-dllm 就是围绕它构建的。 LLaDA-8B-Instruct，Q4 K M。第 13 代 Intel(R) Core(TM) i5-13420H，12 线程，33.3 GB RAM，性能功耗配置文件。每条提示：128属
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cpu, diffusion-models, gguf, inference, llada, llm
+
+---
+
+### 🌟 [dsh-see-now](https://github.com/SAOS-3624/dsh-see-now)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 332
+- **核心概述**: 让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token
+- **大概是做什么的**: See Now · 让 AI 实时看见你的屏幕 AI 不再"听你描述屏幕"，而是自己看 —— 而且只传"画面变了"的那几帧。 一个给 DSH 用的实时视觉插件：把你的屏幕（或摄像头 / 视频文件）变成一串 按变化量筛选过 的画面，压进一张几帧拼成的图，交给模型。 静止的屏幕几乎不花钱；一镜到底的视频按"运动量"给帧；硬切幻灯片每切一次留一帧。 Apache License 2.0 —— 随便用。个人、公司内部、闭源产品、SaaS、二次分发都可以， 不需要问我要授权，也不收费 。只要保留 LICENSE 和 NOTICE 这两份文件。 如果你觉得它替你省了时间，欢迎扫码打赏 —— 纯自愿， 不影响上面任何一个字 ： 提交 PR 前读一下 CONTRIBUTING.md —— 现在 不需要签 CLA 了， 按 Apache-2.0 的规矩来就行。 调试窗（开发期用，不在发布包里）：左边是 抓到的每一帧 ，留下的带缩略图和格号，没留下的只剩一根分数条；右边是 正在拼的那张图 ，按真实像素位置摆，新帧落格会亮一下，重排时格子会滑动。 逐场景模式（ scene:true ）：每换一次画面单独出一张满幅图，右下角「已出图」每条都标着 1 帧 100% 。 悬浮窗：AI 说的话在这里出现并被念出来（ say 是唯一通道）。 想让 AI 陪你看屏幕，最直觉的做法是"定时截全屏喂过去"。两个死结： 每 2 秒截一张全屏 一分钟 30 张图，全是重复画面，token 直接烧穿 每��� 30 秒截一张 中间发生了什么全丢了，AI 只会说"看起来你在用电脑" See Now 换了个思路： 先判断这一帧值不值得看，再决定传不传 。 - 每个画面帧先打一个 0–255 的"变化分" （HSV 三通道加权差，在 64×36 网格上算，约 0.2ms） - 只有" 画面突然换了一张 "或" 一直在动、攒够了量 "才留下来 - 留下来的几帧 拼进同一张图 ，一张图的固定成本摊到 4 8 帧上 结果：同样一段 30 秒的操作，别人烧 30 张图，这里常常只要 2 3 张。 静止屏幕（看文档、发呆） 几乎不出图 。20 秒给一张兜底帧，让你知道"确实没变" 滚网页、切窗口 变化剧烈 → 留几帧 → 每 15 秒左右给你一张 一镜到底的视频 没有切点，靠"积分"攒够一个采样点才出帧 硬切幻灯片（每张停 2 秒） 每切一次留一帧 ，6 张照片 → 6 帧 成本口径（按宿主 DeepSeek-V4 的 patch 网格算：14px patch 向上对齐 → 42px 一格 → rows×(cols+1)+2
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, dsh, dsh-plugin, ffmpeg, llm, realtime
+
+---
+
+### 🌟 [claude-code-filetree](https://github.com/data-goblin/claude-code-filetree)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 366
+- **核心概述**: Claude Code 的 IDE 风格文件树：一个实时窗格，显示 Claude 在终端和 Claude 桌面应用程序中读取和编辑的文件，包括 git 状态、差异、内容搜索、文件预览和受保护的路径。
+- **大概是做什么的**: Claude Code Filetree Claude Code 的 IDE 风格文件树，显示 Claude 正在执行的操作以及文件中的位置 桌面应用程序中的 Claude Code 显示/导航目录中的所有文件（支持 Git 状态、nvim 绑定） 动画显示 Claude 正在读取/工作的位置 使用 z（类似 ZOxide）的导航目录 使用 s 或 i（在突出显示的文件夹中）或 q（在文件内容中）进行搜索 与 d 比较文件或文件夹中所有已更改的文件 终端优先功能：文件预览、目录大小树状图等 该存储库是它自己的插件市场。在终端中运行此命令：或在 Claude Code 会话中：安装失败，并出现无法识别的密钥：在早于 2.1.287 的 Claude Code 上安装失败：运行 claude update ，然后再次安装。 - cwd 或固定文件夹的文件树，包含 Git、大小、行数和日期列（树） - 全部折叠，并将所有内容展开至三层深度（树） - 符号链接箭头、代理指令文件上的大脑以及 Nerd 字体、纯文本或文本字形（树） - 在未打开的文件夹中按名称搜索，按大小写或正则表达式，范围仅限于一个文件夹（搜索） - 在文件内搜索
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-coding, anthropic, claude, claude-code
+
+---
+
 ## 🕔 2026-11-04 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 220 个候选项目中筛选出 6 个未推荐过的新项目。
