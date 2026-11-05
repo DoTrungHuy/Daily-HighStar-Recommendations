@@ -1,3 +1,67 @@
+## 🕔 2026-11-05 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 308 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sheprd](https://github.com/sheprd-labs/sheprd)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,179
+- **核心概述**: macOS、Linux 和 Windows 上的 Herdr 原生客户端，使用 Rust 和 GPUI 构建。通过本地 Herdr 守护进程查看终端会话、工作区、Git 工作树和代理活动。
+- **大概是做什么的**: GUI 范围和配置 · 性能报告 · 适用于 macOS、Linux 和 Windows 上的终端和 AI 代理的本机 Rust/GPUI 工作区。组织存储库、工作树、选项卡和拆分；与代理聊天、查看他们的更改、跟踪拉取请求和使用情况，以及跨本地、SSH 和云计算机工作。浏览器预览、自动化、模组和电话远程控制将这些工作流程连接到一个应用程序中。 Sheprd 支持现有的 Herdr 守护进程和 herdr-core 终端。发布固定的 herdr-core 捆绑包，因此单独的 Herdr 1 安装是可选的。 Herdr 1 提供终末细胞； herdr-core 提供 sheprd-terminal 为本机视图模拟的原始输出。守护进程拥有终端进程，因此关闭 Sheprd 会使会话保持运行状态。独立项目。不隶属于、不由其认可或支持这些现有捕获早于 Sheprd 重命名，并且可能会显示较早的名称和艺术作品；它们不是品牌重塑的刷新屏幕截图。工作区、工作树和代理位于一侧栏中。每个代理都带有守护进程的状态点（空闲、工作或等待您）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, desktop-app, developer-tools, git-worktrees, gpui, herdr
+
+---
+
+### 🌟 [pinot](https://github.com/apache/pinot)
+- **项目语言**: Java
+- **星标数量**: ⭐ 6,173
+- **核心概述**: Apache Pinot：用于低延迟 SQL 和矢量搜索的实时分析数据库，为面向用户和面向代理的应用程序提供服务
+- **大概是做什么的**: - 什么是阿帕奇皮诺？ - 我什么时候应该使用黑皮诺？ - 为 Pinot 做贡献 - Apache Pinot YouTube 频道 - 将 Pinot 部署到 Kubernetes - 加入社区 什么是 Apache Pinot？ Apache Pinot 是一种实时分布式 OLAP 数据存储，旨在提供低延迟的可扩展实时分析。它可以从批处理数据源（例如 Hadoop HDFS、Amazon S3、Azure ADLS、Google Cloud Storage）以及流数据源（例如 Apache Kafka）中摄取。 Pinot 还支持矢量数据库用例的矢量相似性搜索，例如语义搜索、推荐和检索增强生成 (RAG)。它对新数据的低延迟 SQL 查询使其非常适合面向代理的分析，包括人工智能助手和自动决策系统。 Pinot 由 LinkedIn 和 Uber 的工程师构建，旨在无上限地扩展和扩展。根据集群的大小和预期的每秒查询次数 (QPS) 阈值，性能始终保持恒定。如需入门指南、部署方法、教程等，请访问我们的项目文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, analytics, database, distributed-database, java, kafka
+
+---
+
+### 🌟 [BrowserKitten](https://github.com/Player-YN/BrowserKitten)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 2,381
+- **核心概述**: 适用于您已登录浏览器的 Chrome 侧面板代理。阅读页面、采取行动、创建文件并运行本地后续操作。带上你自己的模型。
+- **大概是做什么的**: 您已使用的浏览器的代理。阅读登录页面、采取行动、创建文件并在本地跟进。快速入门 · 配置 · 文档 · 当前限制 · 贡献 · 问题 Browser Kitten 是一个 MIT 许可的 Chrome MV3 扩展，在侧面板中有一个代理。它与您现有的浏览器会话配合使用，并将对话、工作区文件和后续任务保留在此计算机上。模型和其他提供程序请求使用您配置的服务。当前源版本：1.2.0 · 加载解压 · 无需构建安装步骤。能力 实践 阅读和研究 了解您登录的页面、选择相关内容并收集结果。对页面进行操作将点击、表单输入和导航委托给单独配置的执行模型。创建可交付成果 将文档、HTML 页面、数据和文件保存在会话工作区中。跟进安排本地检查、保留进度并通过可折叠抽屉管理正在进行的任务。查看实际的侧面板 - 浅色和深色 在新的浏览器配置文件中从扩展程序捕获。该示例是���发送的草稿，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, browser-agent, browser-automation, byok, chrome-extension, javascript
+
+---
+
+### 🌟 [OlliteRT](https://github.com/NightMean/OlliteRT)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 614
+- **核心概述**: 将您的 Android 手机变成兼容 OpenAI 的 LLM 推理服务器 - 完全本地、私有和开源
+- **大概是做什么的**: 快速入门 屏幕截图 功能 模型 集成 API 常见问题解答 将您的 Android 手机变成兼容 OpenAI 的 API LLM 服务器 - 完全本地、私有和开源 将其视为 Android 版的 Ollama。选择一个模型，点击“开始”，您的手机就会成为 LLM 服务器 - 通过 Google 的 LiteRT-LM 运行时在您的移动 GPU/CPU 上运行 LLM，并将它们作为本地网络上的标准 OpenAI 兼容 HTTP API。没有云。没有 API 密钥。没有订阅。只是你的手机。 - 多模型支持 — 从 HuggingFace 一键下载，从本地存储导入 .litertlm 文件或模型列表，或通过 JSON 文件或 URL 添加自定义模型源 - 多模式和推理 — 视觉、音频、思维、流支持以及功能模型的工具调用（实验性） - 内置基准 — 测试和比较设备上的模型，以找到最适合您的硬件的模型 - 活动日志 — 详细的请求/响应日志，包括搜索、过滤和 JSON 突出显示 - 始终开启，低功耗 — 可配置启动时自动启动，GPU 服务器功耗 5-10W vs 300W+ — 非常适合抽屉里的旧手机 — 高度 C
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: android, anthropic-api, gemma, home-assistant, kotlin-android, litert
+
+---
+
+### 🌟 [core](https://github.com/Windshiftapp/core)
+- **项目语言**: Go
+- **星标数量**: ⭐ 407
+- **核心概述**: 自托管、开源工作管理平台和 Jira 替代方案 (AGPL v3)。
+- **大概是做什么的**: Windshift 是一个开源、自托管的工作管理平台，也是 Jira 的替代品，根据 AGPL v3 获得许可。它作为内置 Svelte 前端的单个 Go 二进制文件运行，默认使用嵌入式 SQLite 或 PostgreSQL，并作为官方 Docker 映像和桌面应用程序提供。请参阅windshift.sh 和文档。 Windshift 是一个工作管理平台，适合那些想要 Jira 的深度而不是 Jira 的重量的团队。它涵盖了 Jira 的核心功能：项目、史诗、故事、子任务、冲刺和待办事项、看板、路线图、自定义工作流程、自定义字段、屏幕、权限、自动化和仪表板。过滤和保存的搜索使用 Windshift 查询语言（一种 JQL 样式的查询语言）。它还取代了您原本需要拼接在一起的附加组件和相邻工具：使用 SLA 和客户门户进行服务管理、知识库、测试管理、时间跟踪和资产/CMDB 注册。内置导入程序负责处理 Jira 的迁移。它作为单个 Go 二进制文件提供，内置 Svelte 前端，默认使用 SQLite 或用于数据存储的 PostgreSQL。没有 Java，没有 Elast
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agile, agpl, ai-agents, docker, golang, issue-tracker
+
+---
+
+### 🌟 [arr-mcp](https://github.com/bardesss/arr-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 109
+- **核心概述**: 用于整个自托管媒体堆栈的一台 MCP 服务器：Radarr、Sonarr、Whisparr、Lidarr、Prowlarr、Bazarr、Jellyfin、Plex、Serr、SABnzbd、NZBGet、Transmission、qBittorrent、Profilarr、Cleanuparr、Reclaimerr、Dispatcharr 和 Shelfmark。
+- **大概是做什么的**: 与您的整个媒体堆栈交谈。一台服务器，一个端点，一次对话。 Radarr · Sonarr · Whisparr · Lidarr · Prowlarr · Bazarr · Jellyfin · Plex · Seerr · SABnzbd · NZBGet · Transmission · qBittorrent · Profilar · Cleanuparr · Reclaimerr · Dispatcharr · Shelfmark 其他每个人都为每个服务提供一台 MCP 服务器。这是堆栈的一个。这种差异就是重点，因为有趣的问题就在“为什么我周二要求的电影没有出现在 Jellyfin 上？”没有任何一项服务可以回答这个问题。它涵盖 Seerr、Radarr、Prowlarr、SABnzbd 和 Jellyfin — 五个 API、五组 id、五个半答案。 arr-mcp 将它们关联起来并交回因果链：磁盘上还没有文件。在 Radarr 或 Sonarr 中触发搜索 - 没有下载任何内容，也没有索引器报告失败。一通电话。一个答案。它甚至会以服务关闭来回答，并告诉您它无法检查哪个部分，而不是猜测。 🔍 诊断回答单一服务无法解决的问题 ��遍整个链条——请求、管理、监控、下载、索引、导入、扫描——并命名
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: bazarr, cleanuparr, dispatcharr, jellyfin, lidarr, mcp
+
+---
+
 ## 🕔 2026-11-05 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
