@@ -1,3 +1,67 @@
+## 🕔 2026-11-06 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [blender-skills](https://github.com/arjun988/blender-skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,953
+- **核心概述**: 适用于 Cursor、Claude Code、Kiro 和 Codex 的 94 项专业 Blender 技能 -> 从封锁到引擎导出的 MCP 驱动的生产流程。
+- **大概是做什么的**: Blender 艺术家的 94 项专业技能。将 Cursor、Claude Code、Kiro 和 Codex 转变为您的高级技术艺术团队 - 而不是教程机器人。 Anthropic 目前正在审核市场列表。同时直接从 GitHub 安装。可与 Cursor、Claude Code、Kiro 和 Codex 配合使用 — 相同的技能包、Blender MCP 执行。有关所有安装方法和第一步，请参阅快速入门指南。完整文档：blender-skills.vercel.app 94 种专业技能，涵盖建模、制作、技术、流程、艺术风格、恐怖包、世界、情绪和游戏类型方���。有关完整列表、子类型覆盖图、决策树和工作流程组合，请参阅技能指南。编排执行 搅拌机主管技能会自动分析您的请求和路线： 参考图像匹配 附加照片或概念艺术，然后代理进行匹配： 编排搅拌机主管 建模 搅拌机建模师、硬表面、道具艺术家、车辆艺术家、环境艺术家、植被艺术家、角色艺术家、生物艺术家、角色原型 制作 scul
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-models, agent, agent-skills, blender, blender-addon, blender-mcp
+
+---
+
+### 🌟 [tickdb-unified-realtime-marketdata-api](https://github.com/TickDB/tickdb-unified-realtime-marketdata-api)
+- **项目语言**: Python
+- **星标数量**: ⭐ 916
+- **核心概述**: TickDB: AI-native real time stock API and market data API for US/HK/CN stocks, forex, futures, crypto, indices and commodities. Skill, CLI, MCP, REST API and WebSocket. AI 原生实时股票 API 与金融行情数据 API，覆盖美股、港股、A股、外汇、期货、指数、大宗商品、加密货币。
+- **大概是做什么的**: TickDB — Unified Real-time Market Data API for Forex, Stocks, Futures, Crypto One connection for Forex, Precious Metals, Indices, US Stocks, HK Stocks, A-Shares, China/Hong Kong Futures, and Crypto 开源工具集 · 完整 API 文档 + AI Skill + MCP 服务端实现 语言版本: 简体中文 • 繁体中文 • English TickDB 是面向开发者、AI 代理和多市场金融应用的 AI 原生实时行情数据 API (AI-native real-time market data API)。 通过 一次接入（one connection） ，无缝访问外汇（Forex）、贵金属（Precious Metals）、指数（Indices）、美股（US Stocks / NASDAQ / NYSE）、港股（HK Stocks）、A 股（A-Shares）、中国及香港期货（China/Hong Kong Futures）、加密货币（Cryptocurrency）等多个金融市场的实时与历史行情数据。 TickDB 专为需要 可靠、低延迟、可长期依赖 行情数据的开发者构建，帮助你 避免管理多个数据源、协议和供应商的复杂性 ，专注于业务和策略本身。 支持逐笔成交（tick-by-tick trades）、盘口深度（order book / depth）、K 线（candlestick）等多种行情形式， 通过 REST API 与 WebSocket 接入，覆盖量化交易、AI Agent、实时行情系统、交易平台与数据分析场景。 本仓库提供完整源码 ： SKILL/ （AI Skill，含接口参考）· mcp/ （Python MCP 服务端，43 工具 · Dockerfile · 自动化测试 · CI · MIT）。可基于 mcp/ 自部署，也可使用公开托管端点 mcp.tickdb.ai 。 ------ ------ ------ Skill AI 对话即用，零配置 npx 一键安装，AI 自动获取试用 Key MCP AI 编码客户端 / 自部署开源 基于 mcp/ 自部署，或使用托管 OAuth / 请求头接入 CLI 终端 / 脚本 / AI Agent npm 全局安装，命令行直查行情 REST API 应用集成 行情、期货与财务基本面 HTTP API WebSo
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cli-tool, commodities, financial-analysis, financial-data, forex
+
+---
+
+### 🌟 [NextTransformer](https://github.com/Interactive-Active-AI/NextTransformer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 333
+- **核心概述**: :sunrise：用于下一代 Transformers/LLM 的全面、尖端的开源框架，具有计算匹配的基准测试和用于自主架构研究的平台。
+- **大概是做什么的**: 全面、前沿的下一代 Transformer 开源框架、基准测试和自动研究平台 当训练预算固定后，语言模型的计算量该如何分配？ NextTransformer 在相同的数据、相同的 49.152B 令牌、每个令牌相同的理论训练 FLOP 上训练循环深度、稀疏和线性注意力、残差流变体和混合，并在相同的检查点评估它们。每个结果都是经过审计的、有文件支持的记录，人工智能代理可以在相同的规则下研究新的架构。 - 2026-11-05 · 扩展 RFC：在 ClimbMix 上以 200B 和 400B 代币进行 4K 上下文密集和 MoE 预训练。欢迎对数据、模型配置和评估提供反馈。 - 2026-11-04 · @Enderfga 的 NextTransformer-V：一个社区多模式轨道，可在同一计算匹配合约下对交错图像和文本标记训练每个 NextTransformer 方法。它的第一项研究是预先注册的，询问混合骨干网在哪里获得图像的二维布局。 - 2026-10-31 · NextTransformer 现已开源：31 完成 ru
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: auto-research, benchmark, deep-learning, language-models, linear-attention, llm
+
+---
+
+### 🌟 [poki](https://github.com/JosssphZhou/poki)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 324
+- **核心概述**: 让AI代理操作真正的iPhone。本地MCP服务器和代理，无需越狱，无需额外硬件。
+- **大概是做什么的**: Poki 像您一样使用您的 iPhone 英语 简体中文 繁体中文 日本语 한국어 Español 让您的代理安装它。将此复制给您的代理：Poki MCP。已经在使用 Claude Code、Codex 或其他 MCP 客户端？连接 Poki MCP 并使用您自己的订阅。无需额外的模型帐户。启动服务器并保持其运行：需要 macOS 15 或更高版本、完整的 Xcode、Rust、Node.js 24+ 和 ffmpeg。 ./bin/setup 检查缺少的依赖项。初始构建需要几分钟时间。预构建的 macOS arm64 软件包 该软件包包括本机桥和 idevice 工具。您不需要 Rust 或 ./bin/setup 。您仍然需要 Apple Silicon 上的 macOS、完整的 Xcode、Node.js 24+、Python 3 和 ffmpeg。注册您的 MCP 客户端并安装可选代理，如下所述。在另一个终端的同一目录中，注册 MCP 服务器：Poki Agent。对于 Poki 的独立终端代理或消息通道，请保持 npm start 运行并在同一目录中打开另一个终端。安装代理，将其命令添加到此终端的路径，然后登录： Poki Agent 使用 GPT-6.1 Terra ( gpt-6.1-terra ) with low Reasoning
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, automation, ios, iphone, mcp, model-context-protocol
+
+---
+
+### 🌟 [mcp-server-simulator-ios-idb](https://github.com/InditexTech/mcp-server-simulator-ios-idb)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 345
+- **核心概述**: 模型上下文协议 (MCP) 服务器，使 LLM 能够通过自然语言命令与 iOS 模拟器进行交互。
+- **大概是做什么的**: 📱 适用于 iOS 模拟器的 MCP 服务器 模型上下文协议 (MCP) 服务器，使 LLM 能够通过自然语言命令与 iOS 模拟器进行交互。该 MCP 服务器提供了大型语言模型 (LLM) 和 iOS 模拟器之间的桥梁，通过自然语言命令提供全面的控制。它的功能如下：有关详细用法，请参阅安装指南和支持的命令部分。您可以通过直接 MCP 集成或作为独立库来使用此服务器。查看架构部分，了解组件如何协同工作以实现 iOS 模拟器的自然语言控制。有关完整的执行流程、组件契约和会话模型，请参阅 ARCHITECTURE.md。代理和贡献者在此存储库上工作的指南位于 AGENTS.md 中。 🎮 模拟器控制 - 创建和管理模拟器会话 - 启动、关闭和监控模拟器状态 - 列出可用和正在运行的模拟器 - 聚焦模拟器窗口 📱 应用程序管理 - 安装和管理 iOS 应用程序 - 启动、终止和卸载应用程序 - 监控
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, cline, ios, macos, mcp, typescript
+
+---
+
+### 🌟 [AGI-Papers](https://github.com/gyunggyung/AGI-Papers)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 426
+- **核心概述**: 代理、架构、培训、RAG 和设备上 AI 方面突破性的精选档案。
+- **大概是做什么的**: 迈向 2026 年通用人工智能 (AGI)。代理、架构、训练、RAG 和设备上人工智能方面的突破的精选档案。 [2026-03-20] 现代模型架构概述讲座材料 (PDF) 已更新。 [2026-03-15] 培训后及其他讲座材料介绍（PDF）已更新。 2026年，人工智能的发展速度将是前所未有的。该存储库是一个回顾和存档 AGI（通用人工智能）之旅中重要论文的空间。主要是对我的 LinkedIn 上的论文进行深入评论，有时会先在这里记录在社交媒体上分享之前的预发布见解或原始想法。 📝 草稿（正在进行中）正在撰写的新文章可以在下面的链接中找到。 👉 新草稿（正在进行中） 您可以在下面的链接中查看过去组织的论文列表。 👉 过去的 AGI 论文（2026 年之前） 该存储库将 AGI 之旅分为九个关键主题： - 🤖 代理：自主代理、行动/规划模型、框架 - 🧠 架构：LLM 架构创新（Transformer、Mamba、MoE） - 📚 训练前：学习数据、缩放法则、基础模型 - 🎯 训练后：RLHF、 DPO、GRPO、对齐 - ⚡ 推理和提示：提示、CoT 推理控制、激活引导、忘记权重编辑 - ⚖️ 评估：基准、评估方法、批评 - 🗂️ RAG 和知识：搜索增强生成、知识图谱、记忆 - 💻 On-De
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: all-to-all, dialogue, distillation, efficient, llm, multimodal
+
+---
+
 ## 🕔 2026-11-05 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
