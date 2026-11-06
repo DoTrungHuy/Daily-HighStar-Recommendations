@@ -1,3 +1,67 @@
+## 🕔 2026-11-06 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sellbird](https://github.com/ethanplusai/sellbird)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,613
+- **核心概述**: Sellbird（以前称为 Harvey）：在 Claude 或 ChatGPT 计划上运行的开源外展平台。寻找公司和决策者，验证电子邮件，撰写个人冷电子邮件，发送并处理回复。
+- **大概是做什么的**: 在您的 Claude 或 ChatGPT 计划上运行的开源外展平台。 Sellbird 找到需要您所销售产品的公司，找到做出决定的人，检查他们的电子邮件地址，为每个人写一封个人冷电子邮件，发送并处理回复。它在您自己的计算机上运行，​​默认情况下，在您批准之前不会发生任何事情。哈维现在是销售鸟。相同的项目，相同的历史，新的名称。已经在运行哈维了吗？您的设置会保留：请参阅从 Harvey 升级。不想自己运行？ sellbird.ai 是托管版本，为您设置了发送域、收件箱和预热。它处于抢先体验阶段。演示数据被发明：“Bookwell”在 .test 域上向屋顶工、牙科诊所和 HVAC 商店销售在线预订。 Sellbird 是一个可以端到端运行或在任何步骤停止的管道。查找公司 搜索与您的客户匹配的企业：在 OpenStreetMap 上免费，或在您选择的付费来源上搜索。每个付费搜索在运行之前都会显示其成本。发现 了解他们购买的原因 阅读每个公司自己的网站以获取您确认的购买信号，就像没有在线b
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agent, claude, claude-code, codex, cold-email
+
+---
+
+### 🌟 [vapi-network](https://github.com/vAPI-Network/vapi-network)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,294
+- **核心概述**: 买方控制的客户端，用于在 Base 上以 USDC 进行 x402 API 付款。
+- **大概是做什么的**: vAPI Network 在 Base 上为 AI 代理构建支付和信任基础设施，并在 USDC 中使用 x402 API 支付。一个钱包，每个 x402 API。 vapi-network 是其开源、非托管 TypeScript 客户端，用于从终端、MCP 客户端或您自己的代码发现和支付 x402 服务。设备保管库使用操作系统存储的设备密钥以及可选的密码保护来加密您在此计算机上的密钥。 vAPI 在签名前应用支出政策，将付款直接发送到服务，并写入本地收据。本地运行将密钥保留在本机上；实验性铁路运行需要明确的成员密钥导出。每次付款都会通过 x402 builder-code 将该客户端标识为 vapi ；当 API 公布 payment-identifier 时，生成的 ID 会保留在该收据上。 vAPI 调用不收取任何费用。提供者直接付款。呼叫、路由器、权益和代理已投入生产。任务即将到来。请参阅 vapinetwork.ai，vAPI 网络与语音 AI 公司 Vapi.ai 无关。本自述文件描述了客户端 0.12.0。 npm 查看 vapi-network 版本显示最新发布的版本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-payments, ai-agents, base, mcp, usdc, x402
+
+---
+
+### 🌟 [larql](https://github.com/chrishayuk/larql)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 1,173
+- **核心概述**: 运行、服务、查询和编辑 AI 模型——基于 VINDEX3 构建的 Rust 模型运行时，VINDEX3 是一种可执行、可检查的模型格式。
+- **大概是做什么的**: 将模型作为工件执行、查询和研究。 LARQL 是 VINDEX3 的参考实现，是模型执行、表示和证据的研究系统。 VINDEX3 描述了模型的逻辑对象、物理表示和可执行语义。 LARQL 可以运行该程序、记录其计算、检查其结构并测试有关其行为的声明。编码·运行·表示·观察·干预·查询描述了项目的范围。每个表面都有自己的成熟度和证据边界；状态将支持的接口与���跃的研究区分开来。计划：分片/部分执行和多模式嵌入切换；两者都被明确拒绝，直到它们的执行合约和奇偶校验门存在（计划的功能）。图数据库的论点仍然存在：模型本身是被查询的对象，而不是提取事实的单独数据库。类别：当前。从什么是 VINDEX3？开始。机器派生的事实给出了该检查的版本、模式和命令清单。 vindex3.org 教授格式；候选规范是其版本 c
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: huggingface, inference, llm, mechanistic-interpretability, metal, model-editing
+
+---
+
+### 🌟 [seo-monster](https://github.com/avansaber/seo-monster)
+- **项目语言**: Python
+- **星标数量**: ⭐ 500
+- **核心概述**: SEOMonster：本地、用户凭证驱动的 MCP 服务器，用于通过 Google Search Console、GA4、PageSpeed Insights 和 Cloudflare 执行 SEO 工作流程。先读，开源。
+- **大概是做什么的**: 不要学习另一个 SEO 仪表板。就问吧。开源 SEO 分析师位于您已经使用的 AI 助手中 - 在您的计算机上使用您自己的 Search Console、分析和 PageSpeed 数据进行工作。你不需要打开一个新工具——你只是在 Claude（或 Cursor/Cline/Codex）内部用简单的英语问：“接下来我应该写什么？” 🦖 SEOMonster 拉动您的搜索控制台并显示您几乎排名的三个主题 - 具有实际需求的位置 8-20 - 按机会排名。说出这个词，它就会起草简报。你问……SEOMonster 确实“接下来我应该写什么？”从您自己的 Search Console 需求中显示接近排名的主题“此页面准备好发布了吗？”在发布“将此索引编入索引”之前运行技术 SEO + 结构化数据检查。推动 Google (Indexing API) 和 Bing / Yandex (IndexNow) “我的改变真的改变了排名吗？”归因之前/之后与匹配的对照组相比 — 有置信区间，而不是猜测“ChatGPT 是在推荐我们还是我们的竞争对手？”跟踪您的品牌在 AI 答案中的声音份额
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anthropic, claude, cloudflare, core-web-vitals, crux
+
+---
+
+### 🌟 [memory-eternal](https://github.com/EternalNight996/memory-eternal)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 147
+- **核心概述**: 你的人工智能会忘记每个会话。给它一个可以信任的内存：本地优先、审查门控的代理内存——一个用于 DSH、Claude Code、Codex、Cursor 和任何 MCP 客户端的 SQLite 库，具有不可变的审核日志和令牌分类账。开源、自托管、无云。
+- **大概是做什么的**: 🧠 memory-eternal — a second brain for your AI ▲ Knowledge graph · review inbox · runtime status 记忆核心（memory-eternal） —— 给 AI 一个不会忘、可审核、可量化的长期记忆。本地优先 · 审核闸门 · 记忆账本 · 一个库接入 DSH / Claude Code / Codex / Cursor 与任意 MCP 客户端。 English (default) · 简体中文 Your AI forgets every session. Give it a memory it can trust. Local-first, review-gated, measurable — one SQLite vault shared by DSH, Claude Code, Codex, Cursor and any MCP client. - 🔍 Review before it counts — new cards wait in a review queue; approve or reject from the Web UI or terminal; every change is written to an immutable audit log. - ✏️ Editable & revisable — fix a card by hand in the reader, or let an agent submit a revised copy ( memory revise ); the queue labels it a revision, and an approved card is only overwritten when you approve it. - 🧾 Token ledger — see how much recall injected, how many distillation calls ran, and how often recall was actually useful. - 🏠 Local-first, no cloud — SQLite + Markdown on your own disk. No third-party memory framework, no account. Memory data never leaves the machine; only the News page fetche
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-memory, audit-log, claude-code, codex, context-engineering
+
+---
+
+### 🌟 [LumaBrowser](https://github.com/amurgola/LumaBrowser)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 136
+- **核心概述**: 本地 AI 桌面应用程序：带有 GPU 感知 llama.cpp 运行时的 Chromium 浏览器、兼容 OpenAI 的 API、AI 聊天和代理、稳定扩散图像/视频、TTS 和音乐，以及 MCP 服务器，以便 Claude Code、Codex 和 Cline 可以驱动您的浏览器。 Windows、macOS、Linux。
+- **大概是做什么的**: 您的本地 AI 堆栈位于一个应用程序中。具有 GPU 感知的 LLM 运行时、聊天和代理、本地图像、视频、音乐和语音以及针对您已使用的 AI 工具的浏览器自动化的 Web 浏览器。 Agentic 开发人员文档 · 免费 · 开源 (AGPL-3.0) · 在您自己的计算机上运行 LumaBrowser 用一个桌面应用程序取代了人们为本地 AI 运行的一堆单独工具（模型服务器、聊天 UI、图像生成器、语音堆栈、代理的无头浏览器）。它会查看您的 GPU，在下载之前告诉您哪些模型适合，并在本地运行所有内容。您自己的选项卡、登录名和文件保留在您的计算机上，Claude Code、Codex、Cline 和 OpenCode 等外部代理可以通过 MCP 驱动浏览器。 Windows x64 安装程序或便携式 .exe Windows arm64 (Snapdragon X) 安装程序或名为 -arm64 Linux x64 AppImage macOS (Apple Silicon) .dmg 的便携式 .exe 或者，使用 Node 18 或更高版本，从终端获取并启动最新版本： Open Models 。 LumaBrowser 会读取您的硬件，并在您下载之前在每个模型上放置适合徽章和预测速度。搜索 拥抱脸 可怕
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-browser, browser-automation, chatgpt-alternative, desktop-app, electron
+
+---
+
 ## 🕔 2026-11-06 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
