@@ -1,3 +1,67 @@
+## 🕔 2026-11-06 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [agent-plugins-spec](https://github.com/agentplugins/agent-plugins-spec)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 1,431
+- **核心概述**: 代理插件 - 将代理扩展打包为可分发插件的开放标准
+- **大概是做什么的**: 代理插件是一种开放的、供应商中立的标准，用于打包可重用组件，将人工智能代理扩展为可分发插件。它定义了代理技能和 MCP 服务器的可移植包格式。本自述文件是非规范性的介绍。版本化规范定义了可移植合约。代理插件规范 1.0.0 是当前发布的版本。代理插件规范 1.1.0 是一个工作草案。最小的有用插件是包含一项技能的目录：在 Skills/greet/SKILL.md 中：支持技能的客户端可以通过读取 plugin.json 并发现 Skills/greet/SKILL.md ���加载插件。客户端如何向用户或模型公开技能超出了代理插件规范。 - 代理插件规范 1.0.0 - 代理插件规范 1.1.0（工作草案） - 未来的考虑因素
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-plugins, agent-skills, ai-agents, mcp, specification
+
+---
+
+### 🌟 [rai](https://github.com/RobotecAI/rai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 614
+- **核心概述**: RAI 是一个与供应商无关的物理 AI 机器人代理框架，利用 ROS 2 工具执行复杂的操作、定义的场景、自由界面执行、日志摘要、语音交互等。
+- **大概是做什么的**: RAI 是一个灵活的 AI 代理框架，用于为您的机器人开发和部署嵌入式 AI 功能。 📚 访问 robots.github.io/rai 获取最新文档、设置指南和教程。 📚 类别 描述 功能 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 🤖 多代理系统 为机器人提供先进的 AI 功能 • 将 Gen AI 功能无缝集成到您的机器人中 • 启用复杂的基于代理的架构 🔄 机器人智能 通过智能功能增强机器人系统 • 添加自然的人机交互功能 • 为您的现有堆栈带来灵活的问题解决能力 • 提供开箱即用的 AI 功能🌟 多模态交互 支持多种交互能力 • 原生处理多种数据类型 • 实现丰富的感官集成 • 同时处理多种输入/输出模态 - [x] rai core：核心功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents-framework, embodied-agent, embodied-agents, embodied-ai, embodied-artificial-intelligence
+
+---
+
+### 🌟 [Aldine](https://github.com/trahloff/Aldine)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: Aldine：自托管、开源协作 LaTeX 编辑器（Overleaf 的替代品）。实时编辑、git 分支、GitHub/GitLab/Gitea 同步、Zotero、Claude 的 MCP 服务器。两个容器，AGPL-3.0。
+- **大概是做什么的**: 一起写LaTeX。快速、版本化，您的。 Aldine 是一个自托管的开源协作 LaTeX 编辑器，也是 Overleaf 的替代品。它很轻薄，专为速度而设计：实时多光标编辑，每个项目都是一个带有分支的真正的 git 存储库，原生 Zotero，2 秒热重新编译。默认情况下有两个容器和一个 SQLite 文件：无需运行数据库服务器，无需照看任何内容。尝试现场演示（每晚重置） · 快速入门 · Aldine 的比较 · 屏幕截图 · 自托管 · aldine.dev 指南：自托管 Overleaf（社区版，Server Pro）与 Aldine 比较 · 使用 Overleaf 的 Git 和 git-native 替代方案 · 用于 Claude Live 协作、重新编译��� SyncTeX 跳转的 LaTeX MCP 服务器，在一个真实记录中（编译等待已修剪）： 状态： Aldine 于 2026 年 10 月（即首次发布三个月后）达到 1.0。在 1.x 中，升级从旧数据开始，无需手动步骤，并且设置稳定，MCP 工具和插件 API 保留其名称，直到 2.0 (docs/STABILITY.md)。这是关于升级的承诺，而不是长期的记录。它每天每小时都会编译真实的论文
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, collaboration, crdt, docker, fastify, gitlab
+
+---
+
+### 🌟 [speedrun](https://github.com/hubastard/speedrun)
+- **项目语言**: Odin
+- **星标数量**: ⭐ 100
+- **核心概述**: 适用于移动和 Web 的最快跨平台 E2E 自动化
+- **大概是做什么的**: 适用于移动应用程序和网络的最快的端到端测试运行程序。适用于 Android、iOS 和 Web 的黑盒 UI 测试，以纯 YAML 编写。在一台模拟器上实时对 Android 设置应用程序 (flow) 进行相同的 15 步测试。 Speedrun 以用户使用应用程序的方式测试您的应用程序：它从应用程序外部点击、键入、滚动并检查屏幕上的内容，而不添加任何内容。测试是一个简短的 YAML 文件： - 快速。打开屏幕的点击大约需要 0.3 秒，运行将在 1-3 秒内开始。同样的用户旅程，Android 上的 Speedrun 需要 20 秒，Appium 需要 59 秒，maestro-runner 需要 66 秒，Maestro 需要 127 秒。在浏览器中，Cypress 自己的演示应用程序的测试在 Speedrun 上花费了 4.2 秒，在 Playwright 上花费了 5.9 秒，在 Cypress 上花费了 11.3 秒，而 Speedrun 在 Firefox 中也领先（基准测试）。 - 等待应用程序，而不是时钟。每个步骤从应用程序完成更改的那一刻开始：没有睡眠，没有比较屏幕截图。永远不会停止移动的屏幕（旋转器、自动收报机、旋转木马）无法支撑它。 - 更少的片状故障。它不会点击仍在滑入的弹出窗口或加载覆盖层后面的按钮，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, android-emulator, black-box-testing, cli, e2e-testing
+
+---
+
+### 🌟 [fhir-mcp-server](https://github.com/wso2/fhir-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 137
+- **核心概述**: FHIR MCP 服务器 – 帮助您将任何 FHIR 服务器或 API 公开为 MCP 服务器。
+- **大概是做什么的**: 用于快速医疗保健互操作性资源 (FHIR) API 的模型上下文协议 (MCP) 服务器 - 用于快速医疗保健互操作性资源 (FHIR) API 的模型上下文协议 (MCP) 服务器 - 使用 HAPI FHIR 服务器进行演示 - 使用 EPIC 沙箱进行演示 - 使用 PyPI 包安装 - 从源代码安装 - 使用 Docker 安装 - 使用 Docker 运行 MCP 服务器 - 将 Docker Compose 与 WSO2 FHIR 服务器结合使用 - 配置任何 FHIR 服务器 - 与 MCP 客户端集成- 环境变量 - 开发\& 测试 - 安装开发依赖项 FHIR MCP 服务器是模型上下文协议 (MCP) 服务器，可提供与 FHIR API 的无缝集成。该服务器专为开发人员、集成商和医疗保健创新者而设计，充当现代 AI/LLM 工具和医疗保健数据之间的桥梁，使搜索、检索和分析临床信息变得轻松。使用 HAPI FHIR 服务器进行演示 该视频展示了连接到公共 HAPI FHIR 服务器时 MCP 服务器的功能。此示例展示了与开放 FHIR 服务器的直接交互，不需要
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: fhir, healthcare, mcp, mcp-server, modelcontextprotocol
+
+---
+
+### 🌟 [quarkus-mcp-server-examples](https://github.com/quarkiverse/quarkus-mcp-server-examples)
+- **项目语言**: Java
+- **星标数量**: ⭐ 196
+- **核心概述**: Quarkus 中的模型上下文协议服务器
+- **大概是做什么的**: Quarkus/Java 中的模型上下文协议服务器 该项目包含模型上下文协议服务器，使用 Quarkus MCP 服务器框架在 Java 中实现。这些可让您扩展支持 MCP 的 LLM（大型语言模型）AI 应用程序的功能。这些也适用于支持 MCP 的 LLM 应用程序，例如 Claude Desktop。您可以在 Awesome MCP 客户端页面上找到其他客户端。该存储库包含 Quarkus MCP 服务器扩展的演示和示例。它们显示了功能和使用模式，但尚未准备好用于生产。它们的维护与扩展本身的保证不同，并且它们可能随时更改或删除。将它们用作学习的起点，而不是作为生产应用程序的基础。所有这些服务器都可以在任何地方与 jbang 一起运行：Java、JavaScript、Python 等等。其中显示 jbang 的地方可以根据您的喜好替换为 npx @jbangdev/jbang 或 uvx jbang 或 pipx jbang 。 jdbc 服务器可用于在仅给定 JDBC URL 的情况下存储和检索数据库中的数据。您可以���用任何 JDBC 数据库，
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, quarkus-app
+
+---
+
 ## 🕔 2026-11-06 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
