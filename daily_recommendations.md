@@ -1,3 +1,67 @@
+## 🕔 2026-11-07 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 304 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [java-sdk](https://github.com/modelcontextprotocol/java-sdk)
+- **项目语言**: Java
+- **星标数量**: ⭐ 3,763
+- **核心概述**: 用于模型上下文协议服务器和客户端的官方 Java SDK。与 Spring AI 合作维护
+- **大概是做什么的**: 一组为模型上下文协议提供 Java SDK 集成的项目。该 SDK 使 Java 应用程序能够通过标准化接口与 AI 模型和工具进行交互，支持同步和异步通信模式。 📚 参考文档 MCP Java SDK 文档 有关综合指南和 SDK API 文档 - 功能 - 概述 Java MCP SDK 提供的功能 - 架构 - Java MCP SDK 架构概述。 - Java 依赖项/BOM - Java 依赖项和 BOM。 - Java MCP 客户端 - 了解如何使用 MCP 客户端与 MCP 服务器交互。 - Java MCP 服务器 - 了解如何实施和配置 MCP 服务器。 Spring AI MCP 文档 Spring AI MCP 通过 Spring Boot 集成扩展了 MCP Java SDK，提供客户端和服务器启动器。 MCP 注释 - 为 Java 中的 MCP 服务器和客户端提供基于注释的方法处理。 MCP 安全性 - 为 Spring AI 中的模型上下文协议实现提供全面的 OAuth 2.0 和基于 API 密钥的安全支持。引导您的 AI 应用程序
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: java, mcp, mcp-client, mcp-server
+
+---
+
+### 🌟 [guild.xyz](https://github.com/guildxyz/guild.xyz)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,478
+- **核心概述**: Guild.xyz 界面（早期版本）。 Token-gate Discord 和 Telegram、运行积分和任务，并通过 AI 代理管理社区：https://guild.xyz
+- **大概是做什么的**: Guild.xyz 是社区决定谁得到什么的地方。您设置一次规则，Guild 就会检查每个成员的钱包和社交帐户，并保持其最新的访问权限：Discord 角色、Telegram 群组、积分、门禁页面等。 - 对 Discord 服务器进行令牌门控制：指南 - 对 Telegram 组进行令牌门控制：指南 - 积分和排行榜：指南 - 任务和活动：指南 - 通过 MCP 服务器（网址为 https://mcp.guild.xyz/mcp），通过 AI 代理（例如 Claude）管理公会：文档 Discord 和 Telegram 门控属于免费计划。代币和 NFT 要求适用于 50 个 EVM 主网。 - 网站：guild.xyz - 文档：guild.xyz/docs - 定价：guild.xyz/pricing - Discord：Guild.xyz 关于此存储库 此存储库包含 Guild.xyz Web 界面的早期版本（React 和 Next.js）。当前的应用程序是在其他地方开发的；下面的注释描述了这个代码库。关键依赖项概述 - React 与 Next.js - Chakra UI（正在迁移到 Tailwind CSS 和 Radix UI） - 用于获取和缓存的 SWR - 用于表单状态的 React Hook Form - 用于自定义、简单全局状态的 jotai
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: community, discord, mcp, points, quests, telegram
+
+---
+
+### 🌟 [agentring](https://github.com/mutonby/agentring)
+- **项目语言**: Python
+- **星标数量**: ⭐ 297
+- **核心概述**: 让您的 AI 代理通过 VoIP 拨打您的电话，然后给他们回电。您的电话铃声就像真正的电话一样响起，即使是锁定的；语音人工智能会讲完并返回文字记录。自托管、开源、没有电话号码或 Twilio。
+- **大概是做什么的**: 您的人工智能代理可以给您打电话。当需要做出决定、遇到困难或完成一项漫长的工作时，您的手机会像真正的电话一样响起，即使是锁定并处于打瞌睡状态。语音 AI 会告诉您发生了什么事，您可以通过语音将其讲完，然后客服人员会获取文字记录并继续操作。您还可以从应用程序给您的客服人员回电，并通过语音询问他们的情况。自托管且开源。没有电话号码，没有 Twilio，没有每分钟费用：呼叫通过 VoIP 从您自己的服务器发送到您自己的电话。不想运行服务器？托管版本位于agentring.io（联系方式：info@agentring.io）。 https://github.com/user-attachments/assets/4d925f22-727f-4d66-8665-c392cc3d1eb3 声音打开。使用 Claude Code、Pixel 6 和语音 AI 进行真实运行：迁移失败，Claude Code 呼叫锁定的手机，您决定，它会继续。电话是带有通话音频的屏幕录制（添加了铃声），终端是根据 Claude Code 的输出重新绘制的，只是缩短了等待时间。静默预发布。消息、锁定手机上的通话、语音 AI、从应用程序和 MCP 服务器呼叫您的客服人员都可以使用。到目前为止已经有
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, claude-code, gemini-live, livekit, mcp
+
+---
+
+### 🌟 [readmeX](https://github.com/aibox22/readmeX)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 661
+- **核心概述**: An AI Powered README and Interactive Wiki Generator for Any Projects. AI驱动的README及交互式Wiki生成工具，面向中文的开源DeepWiki。
+- **大概是做什么的**: 用创建、审查、优化三条流水线，把 README 写成能对照仓库核对的正文。对话里的 AI 读取 skills/readmex 后写作；扫描、机械检查和渲染由仓库里的脚本完成。 三条流水线可以分开用。快速创建只起稿；审查对照仓库核对主张；优化把需要保留的图做成静态 SVG。生图和 GIF 都要明确同意后才会做。 在还没有 README.md 的项目里发送： 正文写到该项目根目录的 README.md 。文件已经存在时，快速创建改为审查，先给出记分卡。只有明确要求重写，或走完整流程，才会改已有正文。 快速起稿 /readmex 快速写一份中文 README 先看问题 /readmex 审查 README，先给记分卡 整页美化 /readmex 美化 README，整页优化 只做素材 /readmex 只制作架构图素材 完整改写 /readmex 完整重写 README，执行全流程 只说「写个 README」时，技能会先问要快速简洁的，还是完整清晰并且有配图的。完整流程遇到已有 README 时从审查开始，然后继续优化。 需要能加载 Agent Skills 的工具。技能目录是 skills/readmex ，安装时整目录复制。Cursor 的用户技能目录是 /.cursor/skills ： 目录已存在时，用新的 skills/readmex 整目录替换。其他工具把同一目录放到自己的技能目录。下一轮对话用 /readmex 调用。 扫描、机械检查、GIF 脚本 Python 3（标准库） 架构图、流程图 Node.js 18 或更新版本，无需 npm install GIF（可选） Pillow、ffmpeg，以及 rsvg-convert 或 macOS sips 从左到右是合并执行的顺序：创建把 README.md 写到目标仓库，审查核对主张，优化把图换成静态 SVG。已有 README 时跳过创建。单独审查要等你同意后才改正文；完整流程写完记分卡后继续。通过条件见 记分卡：五项阻断全部通过，八项至少 14/16。机械脚本只报告事实，不打分。 作者在对话里提出请求， SKILL.md 选择一条流水线，正文写入目标仓库根目录的 README.md 。图里的颜色只区分三个部分，正文是仓库里的文件。审查和优化需要时才调用扫描、机械检查和 render-diagram.mjs 。 技能会在目标仓库的 .gitignore 里加入 .readmex/ （若还没有这一行）。源码引用按当前文件和行号核对，核对失败就不发布那张图。 diagram type 只能是 archit
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-tools, cli, documentation, gpt, llm, markdown
+
+---
+
+### 🌟 [mate](https://github.com/antiv/mate)
+- **项目语言**: Python
+- **星标数量**: ⭐ 108
+- **核心概述**: 基于 Google ADK 构建的生产就绪型多代理编排引擎。数据库驱动的代理配置、50 多个 LLM 提供商、MCP 协议、持久内存、Web 仪表板、RBAC。
+- **大概是做什么的**: MATE — AI 代理的指挥中心 更改提示、模型或可以从仪表板使用代理的人员 — 无需更改代码，无需重新部署。在 Google ADK 或 LangGraph 上自行托管，与 50 多个 LLM 提供商中的任意一个合作。现场演示 · 快速入门 · 文档 · 变更日志 在一个命令中运行它：（添加 -v mate-data:/app/data -e DB PATH=data/my agent data.db 以使您的代理在重新启动后保持不变 — 请参阅快速入门。） - Goal Navigator 在生产环境中的 MATE 上运行 — 案例研究。 - MVP-Soft, LLC 是一家美国软件咨询公司，与 MATE 一起构建 — MATE at MVP-Soft。 - 🎨 无需代码即可构建 — 绘制代理层次结构、附加工具和 MCP 服务器以及在画布上编辑提示。每项更改都是实时的、版本化的，并且一键即可回滚。 - 🏛️ 管理生产 - 每个代理的 RBAC、每个代理和项目的美元成本、警告或阻止的预算、护栏、Slack、Discord、电子邮件或 Webhook 警报以及审核日志。 - 🧪 不进行回归的交付 — 通过精确匹配、相似性或 LLM 法官、回归 Webhook 以及并排比较模型和提示的 Playground 来评分的评估套件。 - 🔌 随处插入 —
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, dashboard, fastapi, google-adk, litellm
+
+---
+
+### 🌟 [tiza](https://github.com/luiscarlosjayk/tiza)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 108
+- **核心概述**: 在终端中的代码之上进行绘制以进行解释、调试和教学。
+- **大概是做什么的**: 在终端中的代码之上进行绘制以进行解释、调试和教学。 Tiza 在终端中显示您的代码。您在代码上绘制框、箭头、突出显示和注释，然后逐步显示它们。使用 Tiza 向人或 AI 代理解释代码。示例包括代码演练、课程、拉取请求审查、与 AI 代理的调试会话和视频。 AI 代理还可以通过 MCP（模型上下文协议）利用相同的代码。注释位于代码文本之后。当您滚动、调整终端大小或更改主题时，它们会保持原来的位置。状态： v0.2.1 ，早期。 1.0之前文档格式和API可能会发生变化。在 macOS 以及具有 glibc 2.35 或更高版本的 Linux x86 64 上，运行以下命令来安装最新版本： 该脚本检查下载的 SHA-256 校验和。然后它将 tiza 放入 /.local/bin 中。它不使用 sudo 。如果 /.local/bin 不在您的 PATH 中，脚本会显示要添加的行。有关脚本、存档和 macOS 下载的选项，请阅读安装 Tiza。对于 Rust 1.88 或更高版本，您还可以从 crates.io 安装：将此块复制到
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: annotations, code-explanation, developer-tools, mcp, ratatui, rust
+
+---
+
 ## 🕔 2026-11-07 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
