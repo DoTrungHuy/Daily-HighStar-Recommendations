@@ -1,3 +1,67 @@
+## 🕔 2026-11-06 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [vork](https://github.com/voyager-so/vork)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 360
+- **核心概述**: 适用于特工的无头 3D 和 VFX 引擎。研究预览。
+- **大概是做什么的**: vork，Voyager 渲染内核，是一个为代理构建的无头 3D 和 VFX 引擎。观看影片：一辆汽车驶入夜色，森林变成发光的青色线框，由场景着色器从真实的三角形边缘绘制。图片来源：Unity Fan 的“Car Concept”，Eric Chadwick / Darmstadt Graphics Group 改编的 glTF，CC BY 4.0。变化：缩放、动画、更亮的头灯和尾灯、车轮姿势。来自 Poly Haven (CC0) 的树木、地面和沥青。远处的山峦和天空，是一张弯曲的3D卡片上的图像模型画；其他所有移动的东西都会被渲染。将其粘贴到您的代理安装 vork，然后粘贴：阅读 vork 帮助 。制作一个小场景，渲染预览并检查图像。在以最终质量渲染之前优化相机和照明。当您需要首页未解释的功能时，请阅读相关的帮助主题。一百万只鸟，每只都在泻湖上航行。使光线弯曲的黑洞。一颗发光的种子放在一张真实的桌子上，照亮了周围的房间。这些场景以代码形式编写并在 GPU 上渲染。无需视频模型。 vork 写在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: 3d, ai-agents, gpu, metal, ray-tracing, rendering
+
+---
+
+### 🌟 [agentic_ai_guide](https://github.com/yeasy/agentic_ai_guide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 219
+- **核心概述**: 智能体（Agentic AI）最前沿技术的深入剖析。| Latest techniques in agentic AI area
+- **大概是做什么的**: 人工智能正在经历一场范式革命。当对话式大模型广泛普及时，世界惊叹于它们的涌现能力；而今天，我们正站在一个更具历史意义的转折点——从“能对话的 AI”迈向“能行动的 AI”。智能体 AI（Agentic AI）的崛起，标志着人工智能从被动响应走向主动规划、从单轮交互走向持续协作、从辅助工具走向自主伙伴。这不仅是技术演进，更是人机关系的根本重塑。 《智能体 AI 权威指南》正是为这一时代而生。本书将带你深入智能体技术的核心，从底层原理到架构设计，从主流框架到工程实践，构建完整的知识体系，助你把握这场变革的脉搏。 本书致力于帮助研究人员、工程师、技术专家以及 AI 爱好者： 理解核心概念 ：深入剖析智能体 AI 的基本原理，包括感知、规划、记忆和行动。 掌握架构模式 ：学习 ReAct、规划与执行等主流设计模式，以及多智能体协作架构。 熟悉开发框架与生态 ：理解“链式编排”“图式编排”“数据驱动的 RAG 框架”“多智能体编排”等常见路线与选型思路。 落地最佳实践 ：提供从设计、开发到评估、安全治理的全链路工程实践指南。 通过阅读本书，你将建立起完整的智能体 AI 知识地图： 1. 单体智能篇 ：了解智能体的诞生原理，掌握其大脑（规划）、记忆与工具使用机制。 2. 群体智能篇 ：探索多智能体协作（Multi-Agent）、通信协��与社会模拟等高阶话题。 3. 进化学习篇 ：深入强化学习（RLHF）、评估体系与智能体自我进化能力。 4. 工程实践篇 ：以典型工程场景为主线，掌握 AgentOps 落地心法与 Agentic Coding 编程新范式。 5. 未来展望篇 ：洞察安全伦理边界，展望通向 AGI 的技术路径。 想从 LLM 调用迈向智能体开发的工程师 ：已经熟悉大模型 API，但不知如何让模型“动起来”、真正解决端到端任务。 正在选型或落地智能体框架的技术负责人 ：面对多种技术路线与产品形态，需要深入理解各类框架的设计哲学与适用场景。 评估 AI 战略投资的企业高管 ：需要理解智能体技术的商业价值、落地路径与风险边界，做出明智的资源配置决策。 关注 AI 产品下一步演进方向的产品人 ：希望理解智能体能力边界，为产品规划提供技术视角。 对前沿 AI 技术保持好奇的研究者与大学生 ：期望系统性理解智能体架构原理，而非碎片化的教程。 前置知识 ：本书假设读者对 AI 和大语言模型有基本了解。如果你是 AI 领域的新手，建议先阅读 《零基础学 AI》 建立基础概念。如果你希望先掌握提示词工程，推荐阅读 《大模型提示词工程指南》。 --------- ---------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, ai, book, trend
+
+---
+
+### 🌟 [three-live](https://github.com/google/three-live)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 135
+- **核心概述**: AI 优先的原生 3D、CAD 和空间计算。适用于 Android（Filament 和 Jetpack XR）、iOS/visionOS (RealityKit) 和 WebGL2/WebXR 的运行时和 JIT 编译器。
+- **大概是做什么的**: 免责声明：这不是 Google 官方支持的产品。 AI-First 原生 3D、CAD 和空间计算：设备上 JIT 编译器将 AI 生成的实时 Three.js 转换为原生 Android（Google Filament 和 Jetpack XR）、iOS 和 VisionOS（Apple RealityKit）和 WebXR。 ⚡ 快速入门（Android • iOS • CLI • Web） • 📦 安装（JitPack • SwiftPM • Cargo • npm） • ▶ Live 3D Studio • 🥽 Live Spatial XR Studio • 法学硕士和开发人员擅长编写简洁的 Three.js 代码，而不是数百行特定于平台的本机 3D、着色器和 AR 样板。 Three-Live 在设备上的沙盒 Rust VM 中编译标准 Three.js（ THREE.Mesh 、 THREE.CSG 、 userData.xr 、 KHR interactivity ），并在 Android 上的 Google Filament 和 Jetpack XR SceneCore 、iOS 和visionOS 上的 Apple RealityKit 和 Quick Look 、用于 AI 编码代理的无头 4-up PNG 接触表（ Three-live-cli ）以及 Web 上的 WebGL2 / WebXR 中本地渲染。 1. 在 Android 上原生运行 Three.js（Google Filament 和 Jetpack XR SceneCore） 通过零拷贝 JNI 编译标准 Three.js 代码并驱动原生 Google Filament 渲染，60 Hz 物理
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android-xr, cad, csg, gltf, mcp, spatial-computing
+
+---
+
+### 🌟 [luxalgo-mcp-server](https://github.com/LuxAlgo/luxalgo-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: LuxAlgo 生态系统作为 MCP 工具：免费且无密钥。
+- **大概是做什么的**: 将 LuxAlgo 的下一代图表平台 Vela 带入 ChatGPT、Claude 和任何代理中。 - 从句子中打开实时图表。 “显示 BTC 的 4 小时蜡烛图、RSI 和 80,000 线。” - 通过询问来改变它。市场、时间范围、指标、水平、区域、日期范围。您也可以在其上平移、缩放和绘图。 - 模型可以读取它。它可以看到您所看到的内容：最后价格、当天的变化、可见范围和每个指标的值。今天使用 LUXALGO CHART TOOLS=on （三个命令）自行运行它。接下来是托管版本。 ChatGPT LuxAlgo 是 ChatGPT 插件目录中的一个应用程序。搜索 LuxAlgo ，添加它。 Claude 自定义连接器 + 添加自定义连接器 : https://claude.mcp.luxalgo.com/mcp Claude Code claude mcp add --transport http luxalgo https://mcp.luxalgo.com/mcp Codex codex mcp add luxalgo --url https://mcp.luxalgo.com/mcp 光标、VS Code、任何客户端 https://mcp.luxalgo.com/mcp (光标 · VS Code一键式）您的机器 npx -y @luxalgo/mcp （添加只读经纪商帐户；设置） 无 API 密钥。只有《贸易杂志》要求您使用 LuxAlgo 登录。图书馆 800+
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: finance, knowledge-base, mcp, mcp-server, monte-carlo, monte-carlo-simulation
+
+---
+
+### 🌟 [zlibrary-mcp](https://github.com/rookslog/zlibrary-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 114
+- **核心概述**: MCP 服务器跨目录查找书籍并下载原始文件
+- **大概是做什么的**: Z-Library MCP 服务器 书籍和文章的获取服务器：查找版本、检查其元数据并下载原始文件。五个 MCP 工具为 Library Genesis、Z-Library 和 Anna's Archive 提供服务。书籍内容永远不会进入工具响应；路径指的是服务器的磁盘。有关承诺和非目标，请参阅 VISION.md。发布状态：本 README 描述了 2.0 接口，尚未在 npm 上发布或作为 Docker 镜像发布。 npm install -g zlibrary-mcp 和 Docker 镜像 ghcr.io/rookslog/zlibrary-mcp:latest 目前提供 1.4.0，其工���有所不同；使用该版本的 v1.4.0 自述文件，或从源代码安装 2.0。 2.0 是一个重大的界面更改。保存的 1.x 工具名称不是别名。请参阅完整的迁移表和 API 参考。 npm 包、可执行文件、存储库和客户端配置密钥保留其现有名称； serverInfo.name 是 book-acquisition 。发布状态：本 README 描述了 2.0 接口，尚未在 npm 上发布或作为 Docker 镜像发布。 npm install -g zlibrary-mcp 和 Docker 映像 ghcr.io/rookslog/zlibrary-m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistant, book-search, claude, ebooks, mcp, model-context-protocol
+
+---
+
+### 🌟 [uml-mcp](https://github.com/antoinebou12/uml-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 109
+- **核心概述**: UML-MCP Server是一个基于MCP（Model Context Protocol）的UML图生成工具，可以帮助用户通过自然语言描述或直接编写PlantUML和Mermaid和Kroki来生成各种类型的UML图 https://uml-mcp.vercel.app/mcp
+- **大概是做什么的**: AI 助手的图表。模型上下文协议服务器，可在聊天内将描述或图表源转换为渲染图表。交互式图表 · 它作为 MCP 应用程序运行 在支持 MCP 应用程序的客户端中，图表在聊天内的查看器 ( ui://uml-mcp/diagram-viewer ) 中打开：缩放、编辑源、切换主题和格式、重新渲染、逐步执行批处理以及导出 SVG、PNG、HTML 或 PDF。没有 MCP 应用程序的客户端可以获得与内联 PNG 和 SVG 相同的图表。一个生成 uml 批处理调用返回四个图表作为选项卡，然后一个以另一种格式重新呈现。全品质视频·更多关于观看者的信息。在任何其他聊天客户端中：内嵌图像，包含指向渲染文件和可编辑游乐场的链接。 - 46 种图表类型。 37 个到 Kroki（UML、Mermaid、D2、Graphviz、C4、BPMN、ERD、TikZ...）和 9 个交互式：带有真实徽标的云图和堆栈图、archify 风格的架构、工作流程和序列图以及 2D/3D LLM 可视化。 - 显示在聊天中。每个客户端都会获得一个内联图像以及指向渲染文件和可编辑游乐场的链接。
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, uml
+
+---
+
 ## 🕔 2026-11-06 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 292 个候选项目中筛选出 6 个未推荐过的新项目。
