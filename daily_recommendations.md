@@ -1,3 +1,67 @@
+## 🕔 2026-11-07 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ai-chatbot-framework](https://github.com/alfredfrancis/ai-chatbot-framework)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,165
+- **核心概述**: 具有自然语言理解和人工智能功能的 python 聊天机器人框架。
+- **大概是做什么的**: AI 聊天机器人框架 每个人都可以使用的精益、自托管 AI 代理。每个人都有一个助手，拥有自己的私人计算机、文件、技能、应用程序连接和预定的工作。 AI 聊天机器人框架曾经是一个意图/实体 NLU 聊天机器人构建器。版本 2 将其重建为代理。旧代码在 git 历史记录中。 - 通过 LangChain 的任何模型 – Claude（默认）、OpenAI、任何 OpenAI 兼容服务器（Ollama、OpenRouter、vLLM、LiteLLM）或任何其他 LangChain 聊天提供商。 - 精益、现代的代理循环 – 四个工具（读取、写入、编辑、bash）以及 MCP 工具的 mcp 调用；并行只读调用；长输出被截断并保存到文件中；上下文压缩；转向（在代理工作时键入；它会不停地接收您的消息 - 在它思考时立即获取，否则在运行命令之后）；随时停止。 - 每个用户一个私有沙箱 - 具有持久 /workspace 、资源限制且没有 Linux 功能的 Docker 容器。命令和本地 MCP 服务器在那里运行。 - 文件，而不是表格 - context.md（关于您）和 memory.md（代理记住的内容）
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-chatbot, ai-chatbot-framework, chatbot, conversational-ai, deepseek, hacktoberfest
+
+---
+
+### 🌟 [skill](https://github.com/ptn1411/skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 322
+- **核心概述**: 该工具包和技能集支持软件分析、将源结构恢复到所需级别、安全审查、依赖性测试以及您拥有或有权评估的系统的修复计划。
+- **大概是做什么的**: 授权的 Artifact Auditor 工具包和技能集可支持软件分析、将源结构恢复到所需级别、审查安全性、检查依赖性以及为您拥有或有权评估的系统制定补救计划。该项目提供了可独立运行的 AI 代理和 Python CLI 指令。每个工作流程都会优先考虑证据收集、可验证的报告和防御。仅在您拥有或以其他方式明确授权的工件、服务器、应用程序和基础设施上使用项目。分析不会自动允许规避身份验证、版权、许可、支付或访问控制。请参阅 MASTER POLICY.md。协调 确定目标并选择适当的工作流程；可以将多个阶段合成为一份报告 Artifact Fingerprint 二进制文件、编译器、打包器和框架；恢复授权审计服务架构 Web 和网络 检查合法范围内的服务表面、TLS/标头/CORS 配置和 Web 错误 依赖项和基础设施 创建 SBOM，审查供应链、Docker、Kubernetes、Terraform 和
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-security, ai-tools, hacking, security
+
+---
+
+### 🌟 [aliasmode](https://github.com/aliasmode/aliasmode)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 138
+- **核心概述**: 免费开源反检测浏览器，拥有自己的开源 Firefox 引擎、Chromium 支持、无限配置文件、本地模式、云同步和 MCP。
+- **大概是做什么的**: AliasMode 是一款免费的开源反检测浏览器和本地优先的配置文件管理器，拥有自己的开源引擎 AliasMode Firefox 和可选的团队云同步。状态：公共 Windows 测试版。从aliasmode.com/download 下载当前的安装程序。 - AliasMode 是开源的吗？是的，从引擎到应用程序。该存储库是 Apache-2.0 下的完整桌面应用程序 - 仪表板、本地运行时、本地 API 和 MCP 服务器。 AliasMode Firefox 反检测引擎（每个指纹补丁）都是 MPL-2.0（位于 aliasmode/aliasmode-firefox）。 AliasMode Cloud 是一项可选的托管同步服务。 - 它使用哪些浏览器引擎？引擎是根据配置文件选择的。新配置文件在 Windows 上使用 AliasMode Chromium，在 macOS 和 Linux 上使用 AliasMode Firefox。 AliasMode Firefox 是我们自己的开源反检测引擎，具有 C++ 指纹欺骗功能（Windows x64、macOS Apple Silicon、Linux x64）。 CloakBrowser 是一款免费提供的第三方引擎，可用于 Chromium 配置文件。一台计算机上的 CloakBrowser 配置文件可以相互链接。 - AliasMode 是 Cl
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: aliasmode, anti-detect-browser, antidetect-browser, browser-profiles, fingerprint-spoofing, firefox
+
+---
+
+### 🌟 [yap](https://github.com/dzhng/yap)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 112
+- **核心概述**: 适用于 macOS 上的 Claude Code、Codex 和其他 AI 代理的本地屏幕录制和代理辅助视频编辑。
+- **大概是做什么的**: 只是叫喊。你的经纪人明白了。有些想法展示起来比编写起来更快：您可以看到的错误、您想要更改的设计、您想要演示的产品、您团队的更新。和 Yap 在一起，你只需说话和表演。您的特工、Claude Code、Codex 或任何特工工具，通过眼睛、耳朵和手获取录音，以理解它并采取行动。开始使用 → 您的代理可以为您安装。不要输入有关错误或设计的三段文字，而是将其展示出来。四个键： 1. ⌥⇧S 开始记录指针下的显示。没有倒计时。 2. 说话，指出。按住 ⇧ 并移动以进行绘制。 ⇧-单击会掉落一个编号的图钉，并且单击仍会到达应用程序。 ⌥⇧Z 撤销最后一个标记； ⌥⇧X 取消。 3. ⌥⇧S再次完成。 4. ⌥⇧V 将简短的提示粘贴到您的代理中：录制 ID、捕获的内容（屏幕、摄像头、麦克风）以及您的标记、引脚和点击及其时间和每���窗口打开的时间。您的代理通过 yap CLI 和技能从那里获取它：它读取您所说的内容，找到您说“这个”的框架，查看您固定的内容，然后对其进行操作。每一段录音都被转录成
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, audio-editing, claude-code, codex, macos, mcp
+
+---
+
+### 🌟 [atrex-kernel-agent](https://github.com/alibaba/atrex-kernel-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 207
+- **核心概述**: 用于 GPU 内核实现、分析、分析和迭代优化的端到端代理项目。它帮助代理通过结构化、配置文件驱动的工作流程将 PyTorch 逻辑或现有内核转变为高性能 GPU 内核。
+- **大概是做什么的**: 使用编码代理和测量证据优化 GPU 内核 Atrex 内核代理 (AKA) 通过研究、实施、分析和评估的迭代循环来优化 GPU 内核。编码代理提出候选人；主管在推动改进之前验证正确性和性能。其轻量级工作流程使优化循环保持专注，而插件架构允许用户配置和替换代理、工作区、评估、执行和知识提供者。 AKA 支持 Claude、Qoder、Codex 和 Pi，并具有适用于受支持的 NVIDIA、AMD 和 T-Head PPU 环境的 CUDA、Triton、CuTeDSL、FlyDSL 和 TileLang 工具。 Native Atrex-Bench 评估通过 Agate 运行； GPU Wiki 提供优化知识。 1. 建立基线。冻结操作员的评估者输入并衡量初始实施情况。 2. 探索和衡量。代理研究、编辑托管源草稿，并使用私人工具来评估和分析候选人。 3. 提交证据。报告将候选者与其确切的源快照和测量记录绑定。 4.版本
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-workflow, amd-gpu, autoresearch, gpu, gpu-kernel
+
+---
+
+### 🌟 [Hyra-results](https://github.com/Tencent-Hunyuan/Hyra-results)
+- **项目语言**: Python
+- **星标数量**: ⭐ 216
+- **核心概述**: 来自 Hyra 的研究文物 (/ˈhaɪ.rɑː/)
+- **大概是做什么的**: Hyra 的配套文物：Hun uan Research Agent。该存储库收集了 Hyra 针对科学、数学、工程和创意设计领域的一系列开放问题提出的具体解决方案，并与 Hyra 发布帖子一起发布。每个文件夹都包含最终的解决方案工件以及相关的重现它的独立脚本。 📝 发布帖子：hy.tencent.com/research/hyra 🚀 Hyra 2.0 博客：hy.tencent.ai/research/hyra2 - 2026-11-04 : 🌊 HyPDE，偏微分方程的 2D 基础模型，发布了权重和代码。 HyPDE 是一个 3.23 亿参数的融合历史变换器，在 13 个 2D 物理数据集上从头开始训练，可预测最后六帧的模拟场。在 The Well 和 FlowBench 的 13 个数据集的测试分割上进行零样本测试，与 Walrus 相比（1.29B 参数，释放权重，两侧均不进行微调），它在一步预测中的 13 个数据集中的 9 个上具有较低的中值 VRMSE，在推出帧 1-20 上有 13 个数据集中的 10 个，在第 21-60 帧上有 13 个数据集中的 8 个。权重、hypde 包和完整表格：AI4Science/hypde/ 。 - 2026-11-03 : 🔐 证书
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-for-science, ai4science, autoresearch, coding, llm
+
+---
+
 ## 🕔 2026-11-07 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 167 个候选项目中筛选出 6 个未推荐过的新项目。
