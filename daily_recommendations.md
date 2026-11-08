@@ -1,3 +1,67 @@
+## 🕔 2026-11-08 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llama-swap](https://github.com/mostlygeek/llama-swap)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,207
+- **核心概述**: 任何本地 AI 服务器的可靠模型交换。被成千上万的用户选择。含电池。如果我们没有，您可能也不需要它。
+- **大概是做什么的**: 在您的机器上运行多个生成式 AI 模型，并根据需要在它们之间进行热交换。 llama-swap 可与任何 OpenAI 和 Anthropic API 兼容的服务器配合使用，并被数千人用来为其本地 AI 工作流程提供支持。 llama-swap 采用 Go 构建，具有零依赖性，并且非常易于设置，以提高性能和简单性。只需几分钟即可开始使用 - 只需一个二进制文件和一个配置文件。对配置 llama-swap 有疑问吗？尝试 llama-swap.ai 上的聊天代理。它完全在您的浏览器中运行，并由根据文档进行微调的 LFM3-1.7B 提供支持。 - ✅ 易于部署和配置：一个二进制文件，一个配置文件。无外部依赖 - ✅ 许多本地 AI 服务器的按需模型切换（llama.cpp + forks、vllm、stable-diffusion.cpp、audio.cpp、ComfyUI 等） - 面向未来，随时升级您的推理服务器。 - ✅ OpenAI API 支持的端点： - v1/chat/completions - v1/models - 列出可用模型 - v1/audio/speech ( 36) - v1/audio/transcriptions (docs) - v1/realtime - websocket，来自 ?model={model id} 查询参数或第一个参数的模型
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, golang, llama, llm, localllama, localllm
+
+---
+
+### 🌟 [tinykit](https://github.com/tinykit-studio/tinykit)
+- **项目语言**: Svelte
+- **星标数量**: ⭐ 527
+- **核心概述**: 自托管 Lovable/v0 替代方案。包括实时数据库和存储。
+- **大概是做什么的**: 开源代理应用程序构建器。想想 Lovable、Replit 或 v0，但可以自我托管且独立。 Tinykit 是一个开源平台，用于使用 AI 构建和部署 Web 应用程序。它在后台管理代码、数据库、内容和部署，让您专注于细节。 - Agentic Builder：提示人工智能编写代码，创建字段和表格，并将其全部连接起来。 - 自托管：您的服务器，您的数据。由 PocketBase 提供支持。 Docker 可选。 - 实时数据库：自动生成的实时同步表。 - 代码编辑器：直接访问您的源代码。每个应用程序一个 Svelte 文件。 - 内容字段：无需接触代码即可编辑文本，就像迷你 CMS 一样。 - 设计系统：从可视化编辑器更新颜色、字体、阴影。 - 时间旅行：每次变化的快照。撤消任何操作。 - 图像上传：图像和文件的内置资产存储。 - 自带 LLM：OpenAI、Anthropic、Gemini、DeepSeek 或兼容的本地/自定义服务器。 - 无需 AI 即可使用：从模板开始，编辑代码和内容，无需 LLM API 密钥即可运行您的应用程序。在一台服务器上运行数百个应用程序。磷
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic, ai, app-builder, batteries-included, cms, crud
+
+---
+
+### 🌟 [whale_girl](https://github.com/Banan1cee/whale_girl)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 331
+- **核心概述**: ��鲸 · 让 DeepSeek 用你的微信账号陪聊（Windows 桌面端 + WPF 启动器）。WeChat chat bot powered by DeepSeek/Qwen.
+- **大概是做什么的**: 🐋 鲸鱼女孩 — DeepSeek 支持的微信伴侣机器人 只想运行它？从安装程序中获取最新的whale-girl--setup.exe（约168 MB），安装程序附带Node、Python 3.12和.NET 10桌面运行时，因此之后无需下载任何内容。安装本身不会触发 UAC — 只有没有 .NET 10 的计算机才会收到一个额外的提升提示。完成后，桌面快捷方式将打开启动器。更新而不丢失内存按启动器中的“检查更新”。它下载官方安装程序，验证其 SHA256 并在旧版本上静默安装：data\（聊天内存、密钥��昵称）和 config.json（所有者列表、令牌）保持不变，而旧版本的剩余内容（角色\、资源\、旧的运行时\vb-cable 位置）被清理，因此安装不会继续增长。更喜欢手动备份：节点脚本\内存工具.js 导出写入 JSON 导出并恢复将其放回（启动器的诊断页面使用相同的命令）。检测到 3.x data\store.json 并自动转换为 4.0 格式：只需合并 ol
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: chatbot, deepseek, llm, nodejs, python, uiautomation
+
+---
+
+### 🌟 [lattice](https://github.com/leo1oel/lattice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 322
+- **核心概述**: 适用于 macOS 的本地优先、代理优先 LaTeX 写作应用程序：实时 PDF、注释、论文和 Overleaf 同步
+- **大概是做什么的**: macOS 本地优先的 LaTeX 工作区，您的论文、合著者和 AI 代理都在同一个窗口中 下载 在浏览器中尝试 网站 观看影片 发行说明 开发人员文档 问题 中文 论文不仅仅是一个 .tex 文件：它是您检查的 PDF、您引用的论文、您的合著者留下的评论，现在还有一个可以编辑的代理你。 Lattice 将所有这些都保留在一个本机 Mac 窗口中。您的项目保留在磁盘上的普通文件夹中，因此它可以离线工作，可以在任何其他编辑器中打开，并且适合在 Git 下使用； Overleaf 是同步目标，而不是您���论文所在的位置。源代码和 PDF 并排，在您键入时进行补全和诊断，SyncTeX 可以双向跳转，并使用您自己的 TeX Live 一键构建。轮廓栏跟随您的部分， \cite 键在悬停时显示其参考，六个带有含义的荧光笔标记仍需要工作的内容。从 NeurIPS、ICML、ICLR、ACL、CVPR 或 AAAI 模板或两门论文课程之一开始，Export for arXiv 会编写一个自行构建的 ZIP。将任何面板停靠在任何地方，保持 Write 和 R
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, ai-agent, claude-code, codex, latex, local-first
+
+---
+
+### 🌟 [AVA](https://github.com/antvis/AVA)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,612
+- **核心概述**: 👾 为代理构建的人工智能原生视觉分析框架。
+- **大概是做什么的**: AVA，AI-native Visual Analytics AVA（Visual Analytics）是一个为更便捷的视觉分析而设计的技术框架。 A 代表 AI-native、Automated 和 Augmented； VA 代表视觉分析。将 AVA 视为 JavaScript 的 PandasAI。 💬📊🤖 它为您的应用程序和人工智能代理带来自然语言数据分析和可视化。 🔌 统一数据访问 通过一个接口连接文件和数据库。检查每个答案背后的查询和结果。 📊 智能可视化 根据您的问题和数据获取图表。选择分析运行的位置以及它使用的模型端点。 🎯 已发布的基准 在已发布的测试条件下对照参考答案检查准确性。 🤖 代理整合 您的代理理由； AVA 执行数据工作流。使用 Node.js 22.13+ 安装 AVA 4.0：240 行中的前 3 行，选定的列：订购日期产品销售 2025-01-01 监视器 224.10 2025-01-02 办公椅 680.20 2025-01-04 监视器 2,191.20 检查结构和数据质量，然后添加业务定义： 结构数据：12 列品质240排； 1 个缺失区域和 1 m
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, augmented-analytics, data-analysis, data-exploration, data-visualizations
+
+---
+
+### 🌟 [grim-prompter](https://github.com/jmanico/grim-prompter)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 389
+- **核心概述**: AI 编码代理的威胁建模：将 Claude Code、Codex 或您存储库中的任何代理指向并获取证据追踪的威胁模型。 36 种架构，29 种方法，麻省理工学院。
+- **大概是做什么的**: AI 编码代理的威胁建模。 Point Claude Code、Codex 或您存储库中的任何编码代理。获取追踪到您的代码的威胁模型。使用 Claude Code、Codex 或其他编码代理对您的项目进行威胁建模。 Grim Prompter 提供 36 种架构工作流程和 29 种方法和分析提示。您的代理会对代码、信任边界、威胁、现有控制措施和建议的缓解措施进行结构化审查，并提供您可以检查的证据。受到 Trim Reaper 和 Clone 的启发，然后将威胁模型技能链接到���的代理中。在运行这些命令之前检查现有安装。这些命令使用本地 macOS 或 Linux shell。将克隆保留在原处，因为该技能链接到其提示，并避免重复安装。完成后启动新的代理会话。安装详细信息：Codex 和 Claude Code。对于任何其他代理，请将项目片段添加到项目的 AGENTS.md 中。在编码代理中打开您的项目并询问：您想要 Claude Code Codex CLI 一个快速威胁模型，为您选择的架构 /threat-model $threat-model 一个 sp 的快速模型
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, appsec, claude-code, codex, linddun, llm
+
+---
+
 ## 🕔 2026-11-08 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 310 个候选项目中筛选出 6 个未推荐过的新项目。
