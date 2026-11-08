@@ -1,3 +1,67 @@
+## 🕔 2026-11-08 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GraphGen](https://github.com/InternScience/GraphGen)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,231
+- **核心概述**: GraphGen：通过知识驱动的合成数据生成增强法学硕士的监督微调
+- **大概是做什么的**: GraphGen：通过知识驱动的合成数据生成增强法学硕士的监督微调 📚 目录 - 📝 什么是 GraphGen？ - 🏗️ 系统架构 - 🍀 致谢 [//]: (- 🌟 [主要功能]& 40; -关键功能& 41;) [//]: (- 💰 [成本分析]& 40; -成本分析& 41;) [//]: (- ⚙️ [配置]& 40; -配置& 41;) 📝 什么是 GraphGen？ GraphGen 是一个以知识图为指导的合成数据生成框架。请检查论文和最佳实践。它首先根据源文本构建细粒度的知识图，然后使��预期校准误差指标来识别法学硕士中的知识差距，优先生成针对高价值、长尾知识的问答对。此外，GraphGen 结合了多跳邻域采样来捕获复杂的关系信息，并采用风格控制的生成来使生成的 QA 数据多样化。数据生成后，您可以使用 LLaMA-Factory 和 xtuner 来微调您的 LLM。 - 🎉 2026.04.13 : 基于 GraphGen 的论文，Knowledge-to-Verification: Exploring RL
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai4science, data-generation, data-synthesis, graphgen, knowledge-graph, llama-factory
+
+---
+
+### 🌟 [kwant](https://github.com/alexsergivan/kwant)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 341
+- **核心概述**: 您自己的人工智能机器人团队位于一个自托管的二进制文件中：空间、您拥有的每个帐户、移交、批准和例程。 Grok Bot、Claude Duet 和 OpenAIdots 的开源、自托管替代品。铁锈+反应。
+- **大概是做什么的**: 您自己的人工智能机器人团队会在说“完成”之前检查彼此的工作。 macOS：一款适用于 Apple 芯片和 Intel 的应用程序 · Linux x86 64（测试版）：.deb 或 AppImage · 服务器：二进制或 Docker · 所有下载均免费且开源。 A ⭐ 帮助其他人找到关旺。 kwant 为您提供一组机器人，它们可以共享聊天内容，通过 @mention 互相协作，并按计划或在您离开时自行完成工作。每条消息都会发送到合适的机器人，并回复说明原因。工作在任务板上显示为卡片，只有当 kwant 自行运���检查时任务才会被验证，而不是根据机器人的指令。为工作和家庭保留单独的空间，每个空间都有自己的机器人和帐户。使用您已使用的 Claude、Codex 或 Grok CLI 或您自己的 API 密钥，将其作为应用程序在 Mac 或 Linux 上或服务器上运行。它是用 Rust（Tokio、Axum、SQLite）编写的，二进制文件中嵌入了一个 React Web 应用程序。 - 您可以根据 (0.7.6) 烹饪食谱。当回复包含一个食谱、配料列表和方法时，它会显示为食谱卡。更改份量（1 至 24），每个量都可以重新读取
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-assistant, ai-bot, automation, bot, bots-team
+
+---
+
+### 🌟 [pi-desktop](https://github.com/DLYZZT/pi-desktop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 333
+- **核心概述**: 适用于 Pi Coding Agent 的本地优先、跨平台 Electron 桌面工作区，包含会话、项目文件、浏览器工具、技能、插件和消息传递集成。
+- **大概是做什么的**: 把 Pi Coding Agent 变成真正的桌面工作台。 本地优先 · 零内部服务器 · 跨平台应用 下载 v0.5.0 · 截图 · 功能 · 快速开始 · 架构 · 变更记录 · 路线图 主工作区与主要设置界面，点击图片可查看原图。 模型与自动路由：快模型、强模型和决策模型 浏览器设置：Profile、标签页与网络访问 Herdr：连接状态与 Agent CLI 诊断 技能管理：启用开关与 SKILL.md 编辑 - 创建、切换、重命名和删除会话，并持续展示流式回复 - 新会话可根据首条有效消息在后台自动生成简短标题；可在设置中关闭，手动名称始终优先 - 搜索会话、按日期分组浏览，并在列表和主对话顶部使用稳定的会话标题 - 查看工具调用、执行过程和上下文压缩状态 - 支持排队消息、Steer / Follow-up 等交互方式 - 快速切换模型、推理等级、工具预设和提示音 - 支持图片附件、斜杠命令与 @ 文件引用 - 对话与输入框使用一致的阅读宽度，右侧文件面板可通过鼠标或键盘调整并记住宽度 - 在会话工具菜单中管理 Codemode、工具搜索和工具预设；“完全访问”预设包含 Codemode 与工具搜索 - 分别控制模型可见的工具入口、可被嵌套查找的工具与实际执行授权；嵌套调用同样遵守当前会话的工具权限 - 按父子执行树查看直接与嵌套调用的状态、耗时和原始参数／结果，并按当前会话分支查看历史 - 大结果和临时输出持久化��可分页读取；重开或压缩会话后，Agent 可通过 tool history get 查询原文 - Host 中断后保留已完成的子调用，将未确认结果的调用标为中断／结果未知，恢复时不自动重放操作 - 在主界面右侧使用 Electron WebContentsView 承载真实 Chromium 页面，支持多 Tab、临时/持久 Profile、登录态、下载、上传和代理 - Agent 可在独立的 Browser read/interact 授权下执行导航、结构化页面快照、截图、点击、输入、键盘与等待；首次需要时由主窗口弹窗询问，Coding 权限不会隐式开启浏览权限 - 用户与 Agent 操作同一个页面，并可随时接管；提交、下载、上传、权限和外部协议继续经过本地策略或确认 - 设置页管理全局默认与具体会话的永久权限，授权弹窗只产生当前会话的临时权限；高级浏览器模式由一个仅本次启动有效的本机开关统一控制 - 高级浏览器模式整合三层 UA/Client Hints 身份、可信输入、CDP 网络抓包与确认后的写请求重放、JavaScript
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-coding-assistant, browser-automation, coding-agent, cross-platform
+
+---
+
+### 🌟 [discord-mcp](https://github.com/cappyeo/discord-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 186
+- **核心概述**: 适用于 Claude、Codex、Cursor 和其他 AI 客户端的开源 Discord MCP 服务器：209 种类型工具、调用者拥有的机器人、安全控制和可验证的公会构建。
+- **大概是做什么的**: 用于 Discord 的开源模型上下文协议 (MCP) 服务器。将 Claude、Codex、Cursor 和其他 MCP 兼容的 AI 客户端连接到您自己的 Discord 机器人。通过 222 种类型的工具管理消息、渠道、角色、审核和服务器设置。观看 AI 代理构建游戏社区：渠道、角色、入职、AutoMod 和最终验证。播放 87 秒视频 · 下载 MP4。您想要... Discord MCP 提供 运行社区 消息、话题、论坛、角色、事件、投票和入职 审核服务器 权限检查、角色审核、禁令和 AutoMod 扩展您的机器人 斜线命令、交互、网络钩子和应用程序表情符号 改进现有服务器 预览有限编辑、检查成��访问、保留 ID、恢复和恢复选定的配置更改 阅读与来源的对话 收集有限频道/话题历史记录并使用 Discord 引用和回复显式覆盖 运行后台工作流程 启动持久序列，检查进度，协作取消，并在检查检查点后恢复 对于完整的服务器构建，获取经过验证的结果
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agents, automation, chatgpt, claude, claude-code
+
+---
+
+### 🌟 [swipt](https://github.com/swipt-automation/swipt)
+- **项目语言**: Go
+- **星标数量**: ⭐ 294
+- **核心概述**: 通用 iOS 自动化平台
+- **大概是做什么的**: 通用 iOS 自动化平台。 - iOS 27（第一层支持） - iOS 17.4–26（我没有用于测试的实际设备） - Swipt SDK：基于 CoreDevice、辅助功能服务和其他开发人员服务构建的 TypeScript SDK。 - Swipt API（兼容 MCP）：允许您直接运行基于 Swipt SDK 的 JS REPL，使您能够控制 iPhone 或 iPad、管理和调试 Swiplet。 - Swipt CLI：Swipt API 的客户端，提供比 MCP 更全面的功能集。 - Swiplet：在 Swipt 中运行的应用程序，使用 Swipt SDK 和 SwiftUI 构建。
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: automation, ios, mcp
+
+---
+
+### 🌟 [bot](https://github.com/qntx/bot)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 570
+- **核心概述**: 本地桌面AI机器人
+- **大概是做什么的**: 基于 ovo（pi 代理工具的 Rust 端口）构建的本地桌面 AI 机器人，带有 TypeScript SDK。在 CHANGELOG.md 中跟踪更改；贡献者不变量和本地门位于 AGENTS.md 和 CONTRIBUTING.md 中。根据以下任一许可获得许可： - Apache 许可证，版本 2.0（LICENSE-APACHE 或 ） - MIT 许可证（LICENSE-MIT 或 ） 除非您另有明确说明，否则有意提交包含在本项目中的任何贡献均应如上所述获得双重许可，没有任何附加条款或条件。 QuantX 开源项目。代码就是法���。我们都写。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a2a, agent, autonomous-agents, mcp, web4, workflow
+
+---
+
 ## 🕔 2026-11-08 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
