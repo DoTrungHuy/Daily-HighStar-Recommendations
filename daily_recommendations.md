@@ -1,3 +1,67 @@
+## 🕔 2026-11-08 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 310 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [claude-code-video-toolkit](https://github.com/digitalsamba/claude-code-video-toolkit)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,476
+- **核心概述**: 使用 Claude Code 制作视频：脚本、AI 配音、音乐、视频剪辑和渲染，在开源模型上花费几美分
+- **大概是做什么的**: claude-code-video-toolkit 告诉 Claude Code 你想要什么视频 - 它编写脚本，生成画外音、音乐和视觉效果，并渲染 MP4。人工智能原生视频制作工作区：人工智能代理将视频从概念到最终渲染所需的技能、命令、模板和工具，在开源模型上花费几美分（配音 0.01 美元，人工智能视频剪辑 0.23 美元）。下面的每一帧都是在此工作区中生成的 - 单击即可观看。发布说明视频产品 UI 从源代码重建，无屏幕录制 产品演示脚本光标和摄像头，AI 旁白瓷砖超级碗风格的启动广告 LTX-2 动画客串，戏剧性的 AI 播音员 AI 幻觉解释者 9:16 短 — Ideogram 4 卡，克隆的声音，烧毁的字幕“为什么天是蓝色的？” 52s 垂直短型，一代 0.80 美元 更多信息请参见下面的展示表。 Python 依赖项通过 uv 进行管理 - uv 同步创建 .venv/ 并在几秒钟内安装锁定文件中的所有内容。还没有紫外线吗？ curl -LsSf https://astral.sh/uv/install.sh sh (macOS/Linux) 或 powershell -c "irm https://astral.sh/uv/install.ps1 iex" (Windows)。钍
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-video, ai-video-generator, claude, claude-code, developer-tools
+
+---
+
+### 🌟 [PolyStrata](https://github.com/simplexai-labs/PolyStrata)
+- **项目语言**: C++
+- **星标数量**: ⭐ 909
+- **核心概述**: 在您自己的 PC 上运行大型 AI 模型：在 Strata 引擎上运行 Qwen3.8-Flash-Next，在为 PolyStrata 编写的第二个引擎上运行 GLM 5.3 Flash、DeepSeek V4 Flash、LFM2.5、Qwen3.6、Ornith 1.5、Gemma 4、Tiel Coder 和 MiniCPM-V。在本地主机上一键安装 Windows 和 Linux、OpenAI/Anthropic API。
+- **大概是做什么的**: English · 简体中文 · 日本语 · Deutsch · Français · Español · Português · Türkçe 在您自己的 PC 上运行大型 AI 模型 Qwen3.8-Flash-Next、GLM 5.3 Flash、DeepSeek V4 Flash、LFM2.5、Flint、Qwen3.6、Clover、Ornith 1.5、Gemma 4、Tiel Coder、MiniCPM-V 和 Kolibri 1 · Qwen3.6-35B-A3B UD-Q3 K M 上的免费开源 Claude 代码，在带有 8 GB 卡的笔记本电脑上，实时：它向小程序添加 --json 选项，为其编写测试并运行测试。服务器在启动时已读取 Claude Code 的系统提示符（ "warm start": true ）。体素宝塔花园，在带有 Strata 的 RTX 5070 上运行的 1 个镜头提示（Qwen3.8-Flash-Next IQ3 S，128K 上下文） · PolyStrata 在普通 PC 上运行大型 AI 模型，这些模型通常需要服务器。他们聊天、编写代码并与您的应用程序和编码代理一起工作。没有任何东西离开您的电脑。它在两个引擎上运行十二个模型： - Qwen3.8-Flash-Next 在 12 GB 或更大的 NVIDIA 或 AMD 显卡上，在 Windows 或 Linux 上。它还可以读取图片。它的引擎是 Strata 项目的，没有改变。另外 11 个运行在为 PolyStrata 编写的引擎上，其中一个 NVI
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic-api, cuda, gemma, gguf, glm, inference-engine
+
+---
+
+### 🌟 [Stroq](https://github.com/AGGIB/Stroq)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 203
+- **核心概述**: 在 AI 编码代理会话（Claude Code、Codex、Cursor）中查找已知秘密，然后使用本地挂钩来保护下一个会话，这些挂钩可跟踪风险命令到指示它们的内容。开源，无遥测。
+- **大概是做什么的**: 谁真正负责你的代理人？ Stroq 读取您自己的 Claude Code 和 Codex 会话，并显示有多少命令来自您的代理读取的文本，以及哪些键离开了您的机器。一个示例：具有虚构会话、密钥和主机的虚构机器。 Hoo 是 Stroq 的猫头鹰。您的卡片显示您自己的会话。它会读取您过去 30 天的会话、您的密钥文件以及您的代理工作的文件夹；打印键名，从不打印值；除了 /.stroq 下的一个小缓存外什么也不写；并没有发送任何内容。没有帐户，没有遥测。卡上的每个时刻都有一个 stroq show 行，打印其背后的证据 ( npx @stroq/cli show 1 )。 stroq help --all 列出其他命令。需要 Node.js 22 或更高版本。阿帕奇-2.0。 Stroq 是用于 AI 编码代理的本地安全平台：Claude Code、Cursor、Codex CLI 等。它的钩子在运行之前���断每个工具调用。他们拒绝包含来自您的计算机的已知秘密的curl sh和出站呼叫，并且当命令重复代理读取的文本时，他们首先询问您，并命名该文本。控制台显示哪些代理实际上询问了 Stroq，以及每个决定
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-security, ai-agents, ai-security, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [operon](https://github.com/hasanyilmaz/operon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 300
+- **核心概述**: Obsidian 中人类和代理的任务管理系统。
+- **大概是做什么的**: Operan 是 Obsidian 中人类和代理的任务管理插件。它将任务保留在 Markdown 中，同时为它们提供结构化元数据、持久标识、可重用视图、计划表面、重复、提醒和时间跟踪。操纵子解决什么问题？ Obsidian 让工作与笔记紧密结合，但随着保管库的增长，任务可以分布在日常笔记、项目笔记、清单、文件、日历和看板中。 Operon 将这些片段带入一个任务系统，而不将它们从 Markdown 中拉出来。其中的一个关键部分是统一 Obsidian 的两种自然任务形状���笔记内的轻量级内联任务和值得拥有自己笔记的较大的基于文件的任务。 Operan 在相同的工作流程、过滤器、表、日历、看板和任务编辑器下对两者进行索引和管理。它可以帮助您捕获任务自然所属的位置，然后通过一组工具在工作流程中查找、编辑、过滤、安排、固定、跟踪或移动它们。 Operon 适用于希望任务管理位于其保管库内而不是单独的应用程序的 Obsidian 用户。如果您的工作已经跨越了多个领域，那么它特别有用
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, calendar, kanban, local-first, markdown, obsidian
+
+---
+
+### 🌟 [hass_local_openai_llm](https://github.com/skye-harris/hass_local_openai_llm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 306
+- **核心概述**: Home Assistant LLM 集成，用于本地 OpenAI 兼容服务（llamacpp、vllm 等）
+- **大概是做什么的**: 本地 OpenAI LLM（Home Assistant 的自定义集成） 允许使用通用 OpenAI 兼容的 LLM 服务，例如（但不限于）：此集成已从 Home Assistants OpenRouter 集成分叉，并进行了以下更改： - 在初始服务器配置中添加了服务器 URL - 在初始服务器配置期间将 API 密钥设为可选：如果本地服务器不需要，则可以留空 - 使用流式 LLM 响应 - 对话代理支持 TTS 流式传输 - 自动从响应中删除标签 - 添加了对图像的支持AI 任务实体的输入 - 添加了对重新配置对话代理的支持 - 添加了修剪对话历史记录的选项，以帮助保持在上下文窗口内 - 添加了温度控制（对话代理 + ai 任务） - 添加了从响应中剥离表情符号的选项 - 添加了对并行工具调用的支持 - 添加了实验性检索增强生成功能 - 添加了聊天模板参数支持 - 添���了对 AI 任务实体的图像生成支持 - 添加了对为 AI 任务实体生成数据操作的工具支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-assistant, conversation-agent, home-assistant, homeassistant, homeassistant-integration
+
+---
+
+### 🌟 [cli-microsoft365-mcp-server](https://github.com/pnp/cli-microsoft365-mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 135
+- **核心概述**: 使用 MCP 服务器管理 Microsoft 365
+- **大概是做什么的**: 适用于 Microsoft 365 MCP 服务器的 CLI 此 MCP 服务器允许使用自然语言执行任何适用于 Microsoft 365 命令的 CLI。它可以处理复杂的提示，这些提示将作为 Microsoft 365 命令的 CLI 链执行，从而尝试满足用户的请求。因此，您可以管理 Microsoft 365 的许多不同区域，例如：Entra ID、OneDrive、OneNote、Outlook、Planner、Power Apps、Power Automate、Power Platform、SharePoint Embedded、SharePoint Online、Teams、Viva Engage 等等...为了获得最佳效果，请将其与 Claude Sonnet 4 或 Claude Sonnet 3.7 结合使用。 - Node.js 20.x 或更高版本 - 全局安装的适用于 Microsoft 365 的 CLI ( npm i -g @pnp/cli-microsoft365 ) 🚀 安装和使用 👉 查看适用于 Microsoft 365 MCP 服务器的 CLI 指南 👉 查看入门记录 🎬 此 MCP 服务器使用全局安装的适用于 Microsoft 365 的 CLI，您需要使用 npm i -g @pnp/cli-microsoft365 进行全局安装。安装适用于 Microsoft 365 的 CLI 后，通过运行以下命令执行初始设置：有关详细信息，请按照登录 Micr
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: hacktoberfest, mcp, microsoft365
+
+---
+
 ## 🕔 2026-11-07 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 304 个候选项目中筛选出 6 个未推荐过的新项目。
