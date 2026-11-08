@@ -1,3 +1,67 @@
+## 🕔 2026-11-08 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [flutter_server_box](https://github.com/lollipopkit/flutter_server_box)
+- **项目语言**: Dart
+- **星标数量**: ⭐ 8,957
+- **核心概述**: ServerBox - 用 Flutter 和 Rust 编写的高性能服务器工具箱应用程序和服务器。
+- **大概是做什么的**: Flutter+Rust 项目，提供图表来显示 Linux、Unix 和 Windows 服务器状态以及管理服务器的工具。阅读文档站点以获取用户指南、架构说明和开发说明。特别感谢 dartssh2 和 xterm.dart 。感谢我的伴侣在情感和经济上的支持。感谢 OpenAI 提供六个月的 ChatGPT Pro 20x 订阅。 iOS AppStore / GitHub ( NoSign.ipa ，未签名，您需要自己签名) ​​macOS App Store (仅限 Apple Silicon) / GitHub (特定于架构的 .dmg ) /brew install --cask server-box Android GitHub / F-Droid / OpenAPK Linux / Windows GitHub - 通过跳转主机或使用 ProxyCommand 通过 SSH 直接连接。当您不想公开主机的 SSH 端口时，还可以通过监视器通过 HTTP 进行连接。服务器可以使用这两种方法，如果其中一种方法不可用，则会自动回退。 - 在此设备上打开 shell 或在支持的平台上安装 Linux 用户区（本地终端）。 - CPU、内存、交换、磁盘、磁盘 I/O 和网络以及传感器、GPU (NVID
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, dart, docker, flutter, ios
+
+---
+
+### 🌟 [llama-modchip](https://github.com/synchopate/llama-modchip)
+- **项目语言**: Python
+- **星标数量**: ⭐ 381
+- **核心概述**: 🐋 在纯 64GB CPU 上以 256K ctx（0 个 GPU）运行 284B DeepSeek-V4-Flash（<59GiB RAM，44.4 tok/s pp，9.1-14.7 tok/s）和 30B MoE（25-111 tok/s）。 SwiGLU-H2、Stockfish-PVS L3 和 13ms 克劳德代码恢复。
+- **大概是做什么的**: llama-modchip (v2.4.0) CPU-First Inference for 284B & 30B Mixture-of-Experts Models on 16–64 GB RAM -d29922?style=flat-square) 快速入门 · 量化和内存规格 · 支持的模型 · 支持的硬件 · 排行榜 · 技术论文 (论文/ ) · 架构 · 常见问题解答 284.33B 总 MoE 参数（13.17B 活动） 56.56 GiB DeepSeek-V4 GGUF (1.71 bpw) 57.61 GiB Peak VmRSS @ 256K ctx 44.36 tok/s 284B CPU 预填充 (16C Zen 5) 25.0–111.6 tok/s 30B MoE CPU 解码 (3.75 bpw) 13.1 ms /dev/shm KV 插槽恢复 架构和内存注释 开发人员笔记本电脑/迷你 PC Nemotron-3.5-30B-A3B（14.35 GiB，3.75 bpw）46 Mamba-2 SSM 层 + 1.64 MB L3 PVS 起草器； 256K 上下文使用 432 MB KV 64 GB 桌面/服务器 DeepSeek-V4-Flash 284B（56.56 GiB，1.71 bpw）44.4 tok/s pp · 9.1–14.7 tok/s tg 适合 62.5 GiB 可用 Linux RAM (57.61 GiB VmRSS)，零 NVMe 交换混合桌面 (CPU + 16 GB GPU) Nemotron-30B / Qwen3-30B ( 3.75–4.25 bpw ) GPU 上的热关注/SSM 主干 ( -ngl 99 )，CPU RAM 中的冷路由 MoE 专家 8 通道工作站 (Threadripper) DeepSeek-284B / Nemotron-30B 8-CCD AVX-512BW 1x8 r
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, apple-silicon, avx512, claude-code, cpu-inference, deepseek
+
+---
+
+### 🌟 [Pi-Remote](https://github.com/Xpropel/Pi-Remote)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 321
+- **核心概述**: 远程控制您的 pi 编码代理。 Pi-Remote 将实时 pi 终端会话镜像到任何浏览器，因此您可以观看运行、回答提示并从手机发送命令 - 通过自托管中继进行端到端加密。
+- **大概是做什么的**: pi 终端的多设备同步：将实时会话镜像到浏览器、查看、发送消息以及远程运行命令。 Pi-Remote 通过 pi 的官方扩展 API 连接到正在运行的 pi 会话。它不会修改pi的源代码，也不会接管终端。会话始终停留在本地pi进程中；浏览器显示该会话的实时镜像，并且可以向其发送消息和命令，包括切换模型、改变思维水平、压缩上下文以及导航会话树。本地端运行在Windows、macOS、Linux上，可以同时连接多台机器。与pi的关系：Pi-Remote是为pi（Earendil的终端编码代理）构建的配套工具，位于pi的官方扩展API上，供使用pi的人使用。它不是 pi 的分叉、变体或替代品：pi 本身继续在本地终端中运行，而 Pi-Remote 只是为其添加了一个远程镜像和控制界面。 UI设计模型：左侧为桌面，右侧为移动设备。 - 实时镜像——术语中的输出、工具调用和状态变化
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, developer-tools, nodejs, pi, pi-coding-agent
+
+---
+
+### 🌟 [LoopForge](https://github.com/Tencent/LoopForge)
+- **项目语言**: Go
+- **星标数量**: ⭐ 154
+- **核心概述**: 用于编码代理交付的自托管工作流程。使用脚本和人工审批门来编排 CodeBuddy、Codex 和 Claude Code。包括编码助理的本地工作流程。
+- **大概是做什么的**: https://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb 80 秒产品导览（1080p，有声）。 LoopF​​orge 是一个自托管工作区，您的团队可以在其中通过编码代理交付软件。在聊天中描述您对 Main Bot 的需求：它会打开 Docker 沙箱，检查您的存储库，委派项目角色，然后打开 PR。当一种工作方式得到证明后，将其保存为 SOP（代理、脚本和人门的标准工作流程），以便以相同的方式交付下一个需求，并内置审核和批准。CodeBuddy、Codex 和 Claude Code 可以完成这项工作。 LoopF​​orge 添加了角色、沙箱、检查点和围绕它们的历史记录，所有这些都在 MIT 许可下的您自己的基础设施上。与主机器人聊天 运行 SOP 最适合探索、快速修复、与代理进行迭代 可重复交付，具有固定阶段和签核 主要机器人如何运行 根据需要打开对话工作区（带有存储库的 Docker 沙箱），并将项目角色作为子代理调用 引擎在自己的沙箱中按顺序运行代理、脚本、人性门和子 SOP 节点
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-workflow, ai-agents, ai-coding, claude-code, code-review
+
+---
+
+### 🌟 [stacklit](https://github.com/glincker/stacklit)
+- **项目语言**: Go
+- **星标数量**: ⭐ 114
+- **核心概述**: 一条命令为 AI 代理提供即时代码库上下文。约 250 个代币取代了 50,000 多个探索代币。自动配置 Claude Code、Cursor、Aider。
+- **大概是做什么的**: 为 AI 编码代理构建的代码库的承诺地图。 Stacklit 使用 tree-sitter 解析您的存储库并写入 stacklit.json ：模块、每个导出的内容、谁依赖于谁、哪些文件在 git 中很热门（选择加入），以及运行测试和添加功能的提示。编码代理读取该文件（或其较小的派生映射），而不是在每个会话中重新发现布局。完全开源。麻省理工学院许可。没有付费等级，没有门禁功能，没有帐户。该存储库中的所有内容都是：CLI、MCP 服务器、可视化地图、GitHub Action 和 npm 安装程序。下载二进制文件，扫描当前目录，写入索引并打开可视化地图。然后提交两个可移植输出： 其他安装方式：或者从 GitHub Releases 下载适用于 macOS、Linux 或 Windows 的二进制文件。一步连接您的 AI 工具： 文件 它是什么 提交它？ ------ ----------- ------------ stacklit.json 索引代理读取 是 DEPENDENCIES.md Mermaid 依赖关系图，在 GitHub 上呈现 是 stacklit.html 自包含的交互式地图（图、树、表、流）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, claude, claude-code, cli
+
+---
+
+### 🌟 [runyte](https://github.com/runyte/runyte)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 111
+- **核心概述**: Helix 风格的模态文本编辑器，具有文件管理、持久终端和用于 AI 代理相互对话的 MCP
+- **大概是做什么的**: https://github.com/user-attachments/assets/51ffece5-40d1-4809-b18d-b6dea2f42615 Runyte 是一个 Helix 风格的模式文本编辑器，位于您的终端或其自己的本机窗口中。它支持多个窗格，每个窗格显示一个文本文件、一个终端或一个文件管理器。许多键绑定都有别名，Helix 和 Vim 用户都会感到熟悉。提供三种模式： - 编辑器 - 文本编辑器 + 文件管理器 - ide - 文本编辑器 + 文件管理器 + LSP + 终端 - mux - 文本编辑器 + 文件管理器 + LSP + 终端 + 多个持久会话 在 mux 模式下，Runyte 的工作方式类似于终端多路复用器。您可以关闭它（分离）并再次打开它（附加），然后您就回到了上次中断的地方 - 不会丢失任何工作，所有终端和 AI 代理都会继续执行它们原来的操作。 mux 模式取代了使用 tmux 等工具的需要。还有两个 Runyte 版本： - 终端版本 - 在您选择的终端中运行 Runyte - 桌面版本 - 在其自己的本机窗口中运行 Runyte 桌面版本取代了使用单独的终端模拟器的需要 - Runyte 拥有这一切。此外，桌面版
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: filemanager, git-interface, ide, mcp, modal-text-editing, runyte
+
+---
+
 ## 🕔 2026-11-08 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
