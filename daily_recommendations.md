@@ -1,3 +1,67 @@
+## 🕔 2026-11-09 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [paperthin](https://github.com/LilMGenius/paperthin)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,378
+- **核心概述**: 递归自我完善（RSI）的技能手册。 NVIDIA 的最新证明，采用永恒的工程设计。摘自 OpenAI 线束工程黑客马拉松获胜者的零接触方法。
+- **大概是做什么的**: Paperthin：低级代理设计模式递归自我改进（RSI）的技能手册。 NVIDIA 的最新证明，采用永恒的工程设计。摘自 OpenAI 线束工程黑客马拉松获胜者的零接触方法。在任何代理 Codex、Claude Code、OpenCode、Cursor、Grok Build、Grok Bot、Muse、Pi 等上。“最好的部分就是没有部分。” Elon Musk[^musk] 由 Bran Lee 打造 2026 年：OpenAI 线束工程黑客马拉松（Ralphthon 首尔 2，在首尔和旧金山同时举行），第一名，唯一对抗大科技和顶尖大学博士团队的个人团队 2026 年：Claude Code 官方聚会邀请演讲者，两次 2026 年：Google DeepMind AI 黑客马拉松邀请评委 2014 年：韩国信息学奥林匹克竞赛(KOI) 全国竞赛，银奖 2009 ：从 9 岁开始编程 快速入门 · 地图 · 索引 · 问题 · 证明 · 学分 阅读语言： English · 中文 · हिन्दी · Español · םרиль · Português · Русский · 日本语 · Français · Deutsch · 한국어快速入门（30 秒）每个代理选择一条路线；每个技能安装两个负载两次。 1. Codex：它会在每次会话开始时自行更新。然后，在
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, anti-slop, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [Full-Chain-Sentinel-System](https://github.com/zgsfsec/Full-Chain-Sentinel-System)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 783
+- **核心概述**: 全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全测试、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。
+- **大概是做什么的**: 全链哨兵 Full Chain Sentinel System 简体中文 English · 版本 2.3.0 知攻善防实验室出品，基于 pi 的授权渗透测试 Agent。通过中英文 Web 控制台，统一管理 Web、小程序与移动端测试、项目环境、审批和证据。 仅用于已获得书面授权的目标。 自动执行模式可运行任意命令，使用者须自行承担操作后果。使用前请阅读授权声明与安全边界。 交流群 · 快速开始 · 核心能力 · 常见问题 Q&A · 文档导航 · 许可 加入交流群请在打招呼内容中备注 「全链哨兵」 。 先安装并启动 Docker，再从 Releases 选择与你的系统和架构匹配的压缩包。 Windows 解压 sentinel-web-windows-x64.zip 后，在 PowerShell 运行 .\sentinel-web.exe 。请保留程序旁的 replayd/ 目录。 打开启动日志中的 完整入口地址 ，设置账号密码并确认授权声明。在「设置 → 环境」准备工具镜像，在「设置 → 模型」添加端点并分配主模型，然后创建项目。 新项目包含工作容器与常驻网关，切换代理无需重建工作容器。 在对话中描述授权范围和目标，默认使用审批模式。移动端测试需先接入设备，再启用当前会话的对应工具。 安装部署与启动参数 · 源码运行 · 使用指南 · 设备接入 以下截图来自当前 v2.3.0 源码运行的完整控制台 ，使用独立本地项目、真实后端与 Docker 容器。尚未配置模型、没有记录或未接入设备的页面按实际状态展���。截图来源与更新方式。 汇总当前项目的运行任务、待审批项、漏洞与会话；从最近会话、运行状态和漏洞分布进入具体工作。 流式展示回复、思考与工具过程，支持会话分支、文件、终端和子代理。在输入区选择审批模式、预设 Agent、监督及设备工具；持续目标在自动执行或 AI 审批模式下续跑。 项目隔离工作目录、容器、会话与漏洞记录。新项目使用 Kali 工作容器和常驻网关；代理页管理 SOCKS5/HTTP、订阅、WireGuard 与 OpenVPN，运行中的项目可切换出口。 在漏洞页筛选、复核严重程度、CVSS、状态与证据，导出 Markdown 报告；资产库按项目归并域名、IP、服务和 URL，维护标签、测试记录与关联漏洞。 为当前项目启动 HTTP 显式代理、安装 HTTPS 解密证书，实时查看流量。按方法和状态筛选，检查请求与响应，并将选中的数据包发送到 WebFuzz。 多标签编辑原始 HTTP 请求，选择项目代理、直连或 MITM 路由，查看响应报文、正文
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, blue-team, cybersecurity, cybersecurity-tools, pentest-tool, pentest-tools
+
+---
+
+### 🌟 [Endoplexity](https://github.com/Endokelp/Endoplexity)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 405
+- **核心概述**: 由您自己的 Claude / Cursor 订阅驱动的代理浏览器控制
+- **大概是做什么的**: 数字 · 与现场对比 · 工作原理 · 入门 · 指南 一条指令，实时：打开三个选项卡，读取三个定价页面，返回一张比较表。全品质视频 您的 Chrome，而不是新的浏览器。它适用于您已有的配置文件：您的登录名、分机和密码管理器。没有什么可以搬进去，没有什么可以再次登录。您的订阅，而不是 API 密钥。任务通过您已经付费的 claude 、cursor-agent 或 codex CLI 运行。除此之外，一项任务的成本为 0 美元。文字，绝不是屏幕截图。模型将页面读取为紧凑的轮廓，然后仅更改内容。在 108 个基准测试中，对三个供应商的型号进行了测试，没有一张屏幕截图达到了某个型号。该模型无法释放制动器。不可逆的点击为您停止。来自不同公司的第二个模型首先读取每个模型。这些规则存在于本地代码中，而不是提示中。学习一次，免费重玩。将已完成的任务保存为技能，然后它会在完全没有模型的情况下再次运行：零令牌，相同的批准门。反射使其速度更快。小决策模型可以在几毫秒内回答常规问题，因此
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-automation, cdp, chrome-extension, claude, cursor
+
+---
+
+### 🌟 [imbo](https://github.com/Bearisbug/imbo)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 129
+- **核心概述**: 编码代理会话（Claude Code、Codex、opencode、Cursor CLI、MiniMax Code 和 ZCode）之间跨工具与其他人的代理之间的即时消息传递
+- **大概是做什么的**: AI 编码代理的即时消息传递。爱丽丝的法典向鲍勃的克劳德法典询问了一个问题。它在回合中着陆，回复唤醒了法典。编码代理会话之间的消息 — Claude Code、Codex、opencode、Cursor CLI、MiniMax Code、ZCode、Kimi Code、pi、Hermes Agent 和 DeepSeek Harness — 您在其他计算机上以及其他人的计算机上的消息。通过帐户 ID 添加某人，您的代理会话可以向他们的帐户 ID 发送消息；消息在接收会话工作时到达。远离计算机，iPhone 应用程序和 app.imbo.dev 显示相同的聊天内容，您可以从那里向您的会话发送消息。安装程序将 imbo 放入 /.local/bin 中，使用电子邮件代码登录，启动一个小型后台守护程序（在 macOS 上启动，在 Linux 上为 systemd 用户服务）并连接您勾选的工具： 通过 Claude Code 连接的工具 插件：MCP 工具以及提示钩 Codex MCP 服务器 opencode MCP 服务器 Cursor CLI MCP 服务器以及钩子 ZCode 一个 MCP 服务器以及钩子 MiniMax Code 带钩子的插件 Kimi Code 一个 MCP 服务器以及钩子在其网关 DeepSeek Harness A 中挂钩 Hermes Agent A 插件
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, ai-agents, claude-code, codex, coding-agents, cursor
+
+---
+
+### 🌟 [FlashRSI](https://github.com/RUC-NLPIR/FlashRSI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 354
+- **核心概述**: 高效 RSI 研究的统一框架
+- **大概是做什么的**: FlashRSI：代理递归自我改进的统一框架一键即可跨代理和任务重现、比较和开发 RSI 方法。 FlashRSI 为 13 种 RSI 算法、31 个基准测试和 7 个工具集成提供了一个实验接口：MiniAgent、Claude Code、Codex、Pi、Hermes、OpenClaw 和 OpenCode。每次运行都会记录更改的资源、产生分数的轨迹以及最后选择的快照。安装/功能/快速入门/设计逻辑/支持方法/支持基准-🧩可配置实验框架：在一个YAML/CLI实验中结合RSI方法、Targetharness、Worker、基准和独立模型设置。资源范围和执行角色可以更改，而无需编写新的运行程序。 - 🧪 31 个基准和 13 个 RSI 方法：涵盖问答、推理、数学、编码、网络研究、文档、工具使用和交互任务，具有 30 个套件的 35 个固定 Hugging Face 配置，以及 OPRO、GEPA、E 的可运行改编
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, recursive-self-improvement
+
+---
+
+### 🌟 [wechat-devtools-mcp](https://github.com/WaterTian/wechat-devtools-mcp)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 164
+- **核心概述**: MCP服务器+微信开发者工具技能——让编辑器中的AI编译、预览、调试和自动测试小程序。 Windows / macOS，位于官方 MCP 注册表上。 微信开发者工具 MCP 与技能
+- **大概是做什么的**: 微信开发者工具 MCP Server (v0.9.21) 把微信开发者工具封装为 MCP 服务，让编辑器里的 AI 直接完成小程序的 编译、预览、调试、自动化测试 闭环。Windows / macOS，已上架官方 MCP Registry。 「瘦 MCP + 胖 Skill」：MCP Server 只提供 7 个聚合工具，操作流程与最佳实践都在配套的 wechat-devtools Skill 里。 两者必须一起装 。 微信开发者工具 2.x 自 2026-08-18 起为官方 Stable （1.06 已下架），IDE 内建 MCP Server（49 个原子工具，其中 2 个已废弃；Stable 2.02.2609250 内置 skill 0.3.11）。两者互补，不是替代： 打开项目 / 编译 / 预览 / 上传 / 点击输入 / 云开发 2.x 优先官方内建 MCP（ wechat ide(action='status') 的 official mcp.available 为 true 即可用） 长图拼接截图 （固定头尾识别，拍不全如实上报） 本项目。官方只截视口并压到长边 1280 JPEG CDP 结构化日志 （回放采集前的历史、按页面归类、去噪） 本项目。官方只读缓存 任务级 SOP （一句话跑完巡检 / 异常排查 / 跨页面校验） 本项目 Skill 存量 1.06.x（NW.js） 本项目继续兼容；官方内建 MCP 仅 2.x 有 ⚠ 官方 IDE 把自家 bridge 注册为 wechat-devtools 。本文示例统一用 wechat-devtools-mcp 避免撞名；旧名配置仍可用，只在同一 agent 同时接入两者时才需区分。 ⚠ Stable 2.02.2609240 起官方内建 MCP 强制独立 Token ：升级后须到 IDE「设置 → 安全」重新复制 MCP 配置到你的 agent，否则官方工具一律 401。 official mcp.available: true 只表示服务在跑，不代表已鉴权。本项目不经过该接口，不受影响。 前置条件 ：Python ≥ 3.10（ uv 会自动准备）、Node.js ≥ 18（daemon 依赖 puppeteer-core / jimp）、微信开发者工具 2.x 或 1.06.x。 Step 1 — 安装 MCP Server 曾用 pip install 装过旧版的，先 pip uninstall wechat-devtools-mcp ，否则旧路径优先于 uv。 ≤0.9.10 与
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, cursor, mcp, mcp-server, miniprogram
+
+---
+
 ## 🕔 2026-11-08 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 303 个候选项目中筛选出 6 个未推荐过的新项目。
