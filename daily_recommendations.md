@@ -1,3 +1,67 @@
+## 🕔 2026-11-09 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Noria](https://github.com/AhmadHassan-BTed/Noria)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 4,635
+- **核心概述**: An agentic extractor for messaging platforms. Noria receives messages & URLs via chat; scrapes web data to evaluate the content against custom scoring matrices (e.g., jobs, scholarships); and sends a structured summary with a calculated match score directly to the assigned messenger number.
+- **大概是做什么的**: A Decoupled, Hexagonal Pipeline Orchestrator for Opportunity Extraction & Generative Evaluation Designed and engineered by Ahmad Hassan (B-Ted) . Opportunities define careers, yet discovery remains a chaotic manual process. Noria was created to bridge this gap. Noria connects humans to life-changing possibilities by crawling raw web pages, executing rigorous AI evaluations against human profiles, and sending real-time alerts. Whether helping students secure fully funded academic scholarships or matching developers with remote job postings, Noria converts raw internet noise into structured opportunities. Applicant Profiles Directory - manage profiles, linked devices, scan configs, and WhatsApp connections Active Scanning Operations - launch scans, select predefined pipelines, and monitor the live opportunity feed Profile Editor - configure LLM provider chain, API keys, applicant parameters, and notification targets Control Center Settings - Windows startup toggle, local data retention, and full application reset Clean Architecture & Boundary Separation Noria enforces strict Hexagonal
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, data-extraction, event-driven-architecture, gemini-api, jina-ai
+
+---
+
+### 🌟 [repo-harness](https://github.com/aimpact-inc/repo-harness)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 435
+- **核心概述**: File-backed workflow harness for reliable Claude Code and Codex sessions.
+- **大概是做什么的**: Hand an AI agent a GitHub issue. Get back a PR you can actually review. English 简体中文 日本語 Français Español Quick start · How it works · Commands · Usage guide · Changelog repo-harness is a CLI, a set of hooks and a set of skills that wrap an existing repository so that Claude, Codex and Pi can do long-running engineering work in it — across sessions, machines and worktrees — and leave behind evidence a human can review in minutes. It is built for solo developers and small teams who let AI write the code and keep the human job to one thing: deciding whether to accept the change. Coding agents are fast, but three things break as soon as work spans more than Without a harness With repo-harness Context lives in a chat thread and dies with it. The GitHub issue and PR own the task. Any new session re-reads them and resumes the exact next step. Every session re-greps the repo to rediscover its structure. A 12 KB stable root context, 1 KB capability contracts loaded only for the files being touched, and a CodeGraph index for callers/callees. "Done" means "the agent said it's done." The PR car
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-workflows, ai-agents, claude-code, codegraph, codex, developer-tools
+
+---
+
+### 🌟 [mobius](https://github.com/citizenhicks/mobius)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 320
+- **核心概述**: möbius is a small, frontend-neutral Rust framework for coding agents.
+- **大概是做什么的**: One home for your agents. Coding agents in your terminal, on your iPhone, and on your iPad. Run them on your own hardware or a hosted gateway. möbius is an open-source runtime for coding agents, with terminal and native Apple clients. Create Bots with their own models, instructions, tools, and approval policies. Work with those Bots across devices, schedule recurring jobs, or delegate focused subagents. Your gateway runs the agents and keeps their workspaces and saved conversations together. This repository contains the Rust framework, gateway, and terminal client. The native macOS desktop app and the iPhone and iPad apps are maintained in separate private repositories. You can also embed the Rust framework in your own software. - Pick up work across devices. Open the same conversation from your terminal, iPhone, or iPad. Work continues while the gateway is running, even after you close a client. - Give each Bot a job. Configure a builder, reviewer, or researcher with its own model, capabilities, instructions, and permissions. Each chat keeps its own transcript and workspace selectio
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, ai-agents, framework, harness, llm
+
+---
+
+### 🌟 [Aetox-Harness](https://github.com/Mikedev115/Aetox-Harness)
+- **项目语言**: Go
+- **星标数量**: ⭐ 115
+- **核心概述**: Aetox harness: a local-first Windows AI environment - model, skills, team and memory as one system. Two doors - an Assistant that adapts to your work and drives a real browser; and a Developer that names each weakness before writing, checks the project's security, runs the project's tests before saying done, and remembers what this project decided.
+- **大概是做什么的**: The environment where an AI works as one system Aetox Harness is the working environment for AI on your computer — one system where the model, the skills, the team, the code and the memory work together. The more you use it, the more it understands how you work. The job comes back as a file you can open and use, on your machine, on the model you already have. Fits your work — you don't fit yourself to it "2 hours of meeting audio — summarise it, with who took which action" You get back: a summary with the topics, the decisions, and the minute each was said at , plus the action items and who owns them — a file in your folder, not text in a chat box. It knows you in parts — your profile, this machine, each desk, each worker, and the routes you repeat — so it reaches deeper context than a general assistant, without carrying all of it in every request. recording meetings · receipts · tidying files · disk space · slides · live research · browser · automation · clips and content · teams · open tasks and reminders Code that runs — and it remembers what this project decided It opens the real
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aetox, agentic-ai, ai-assistant, ai-tools, automation, coding-agent
+
+---
+
+### 🌟 [willdeep-cli](https://github.com/niuwoai/willdeep-cli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 107
+- **核心概述**: 自托管 AI Coding Agent（Rust）：常驻 Runtime 撑起终端 / 浏览器 / 手机三端；每行改动可追溯到具体 Agent 与工具调用，子 Agent 的活由退出��裁决，检查点回退、目标 token 预算与验收清单跨轮次跨重启累计，用量与反馈账本留在本地。接任意 OpenAI 兼容或 Anthropic 端点。Self-hosted auditable AI coding agent: per-line attribution, exit-code-verified sub-agents, restart-safe goal budgets, local usage and feedback ledgers.
+- **大概是做什么的**: 你的 AI Agent，长任务真能跑完。 用消费级显卡部署多智能体，5090 + 千问 3.8-27B 就能启动一整套 Worker 池。长上下文不是 PPT 能力——100K、200K token 的任务，实测验证过。关掉终端，任务照跑；退出客户端，Runtime 继续执行。 WillDeep lets you run AI agents on consumer hardware. Deploy a full worker pool with a 5090 and Qwen 3.8-27B. Long context isn't a slide deck feature — 100K, 200K token tasks are battle-tested. Close your terminal, the task keeps running; exit the client, the Runtime continues execution. 很多产品说"支持长上下文"。但真正 100K、200K token 时： WillDeep 不是"支持"，是 能跑 。每轮执行都有验证证据，不是模型嘴上说完就算。 - 主控 Agent 做协调，长上下文用在刀刃上 - Worker 池 分工干活，每个只处理一个窄任务 - 本地部署 ，5090 + 千问 3.8-27B 就能跑起来 - 终端（TUI） ：Ratatui 界面，支持鼠标点击 - 浏览器（Web） ：服务器部署后，网页访问 - 手机 ：扫码配对，随时随地查看进度、审批操作 同一个任务，三端同步状态。终端起头，通勤路上手机批审批，回家浏览器看结果。 配合 MuseTerm 终端软件： - 🖼️ 粘贴的图片列在终端右侧，点删除图标直接拿掉草稿附件 打破"终端 = 纯文本"的刻板印象。命令行工具，现代体验。 - 3 台机器，组成一个 Agent 集群 - Runtime 以服务化方式在后台运行 - 关掉终端、断开 SSH、刷新浏览器——任务继续执行 - 回来时按事件游标续上，一条消息都不丢 让 AI Agent 真正成为"可以放手让它干"的工具。 - 精确到 哪个 Agent、哪次工具调用 改了这一行 - /rewind 回到第 N 步，对话和文件一起回退 - willdeep audit export 导出完整审计报告 1. 装二进制。 有 Node.js 18 或更新版本时： 安装器下载与 npm 包版本对应的 GitHub Release，校验 SHA256 后把单个 willdeep 放进 npm 的 bi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, agentic-coding, ai-agents, anthropic, byok, cli
+
+---
+
+### 🌟 [BESSER](https://github.com/BESSER-PEARL/BESSER)
+- **项目语言**: Python
+- **星标数量**: ⭐ 202
+- **核心概述**: Reliable agentic development combining low-code and AI. Built with Python. Create your UML models or describe your app. All in the browser. Generate FastAPI, React, Django, Spring Boot, Flutter, SQL and more with a combination of deterministic code-generators and LLMs to fill the gaps
+- **大概是做什么的**: Draw a model. Get a working app. BESSER is an open-source, model-driven low-code platform in Python. Design your app as a UML model — in the browser or in Python — and generate the code: FastAPI backends, React frontends, Django, Spring Boot, Flutter, databases, agents and more. Try it in your browser · BESSER is a low-modeling low-code open-source platform. BESSER (Building bEtter Smart Software fastER) is funded thanks to an FNR Pearl grant led by the Luxembourg Institute of Science and Technology with the participation of the SnT/University of Luxembourg and open to all your contributions! No install: open the BESSER Web Modeling Editor, draw a class diagram (or describe your app and let the AI assistant draw it), and click Generate . python library api/main api.py then open http://localhost:8000/docs That's a working REST API with a database, CRUD endpoints and validation, generated from five lines of model. With your AI coding agent (Claude Code, Cursor, Copilot, Cline, …): install the BESSER Skills and just ask, e.g. "model a library with books and authors in BESSER and generat
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agents, ai, code-generation, code-generator
+
+---
+
 ## 🕔 2026-11-09 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 267 个候选项目中筛选出 6 个未推荐过的新项目。
