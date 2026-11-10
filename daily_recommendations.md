@@ -1,3 +1,67 @@
+## 🕔 2026-11-10 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Capri-AI-Desktop](https://github.com/PotterRemember37/Capri-AI-Desktop)
+- **项目语言**: Python
+- **星标数量**: ⭐ 774
+- **核心概述**: Capri — 受 Edgerunners 启发的桌面 AI 代理。适用于 Claude Code、Codex、Antigravity 等。
+- **大概是做什么的**: 🌃 Capri — 适用于桌面的赛博朋克人工智能代理。一款适用于 Claude Code、Codex、Antigravity 和任何 AI 助手的应用程序。功能 · 快速入门 · 您可以问什么 · 工作原理 · 路线图 · 常见问题解答 - 反馈。给她打字或语音聊天，然后打开“嘿卡普里”来叫她的名字。她用 80 种语言用自己的话回答。 - 大声说话。用她自己的自由声音、您的声音模型、Fish Audio、ElevenLabs 或 OpenAI。看到她的声音。 - 玩你的游戏。你玩的时候她会评论，她也可以玩。她还在学习。 - 为你做事。她打开应用程序、播放音乐、关闭选项卡并用自己的光标单击作业。与正在工作的她交谈，或按 Esc 来阻止她。 - 记得你。您过去的聊天记录以及她在您屏幕上看到的内容都保存在您的电脑上。 - 坐在你的东西上。她栖息在您的窗户上，随着您的音乐摇摆，或者落在图标或屏幕底部。 - 显示您的音乐。一个赛博朋克迷你玩家，她坐在上面（Windows）。请注意，Capri 可能会尝试接管您的人类 CPU。我们对她的行为不承担任何责任。灵感来自赛贝
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, ai-assistants, ai-waifu, antigravity, claude
+
+---
+
+### 🌟 [sandbox-mcp](https://github.com/shanselman/sandbox-mcp)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 389
+- **核心概述**: 用于测试应用程序的全新一次性 Windows 机器：自动化 Windows Sandbox 的 MCP 服务器和 CLI
+- **大概是做什么的**: 为您的 AI 代理提供一台全新的 Windows PC。然后把它扔掉。不是你的桌面。不是冒充 Windows 的容器。真正的一次性 Windows 11 机器：启动它、部署应用程序、驱动控件、捕获崩溃、保留证据、删除 PC。直接使用 sbx 运行它；可选的 MCP 适配器向需要它们的客户公开可发现的工具和内联图像。两个接口使用相同的引擎。测量的 GUI 样本从头到尾大约需要 40-50 秒。真实的应用程序，真实的访客：Haptics Everywhere 的独立 WPF/WinForms 桌面应用程序位于全新的、脱离网络的沙箱中。 UIA 选择 Inspector，来宾将光切换为暗，应用程序重新启动并退出，然后来宾被销毁。 10 秒、183 KB 的剪辑片段：为了便于阅读，Light Inspector 放慢了速度，重复的暗帧被修剪。启动/拆卸标题卡总结了实际日志，而不是拍摄的启动/关闭日志。没有访客运行时安装或触觉硬件声明。新鲜的深色实验室屏幕截图 · 早期的浅色主题检查器。 🤖 让您的代理进行设置并将其交给您的机器人。它检查 PC，验证执行情况
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, mcp, mcp-server, testing, ui-automation, windows
+
+---
+
+### 🌟 [blurt](https://github.com/AGIHunt/blurt)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 333
+- **核心概述**: 特工时代的键盘：用于 Claude Code、Codex 和其他特工的听写、从屏幕复制文本、翻译、快照和屏幕录制。免费、开源、Mac。 口喷鸡：代理时代的输入法。
+- **大概是做什么的**: 特工时代的键盘。通过文本、语音、屏幕截图或屏幕录制与代理合作的最快方式。在本地运行。免费且开源。网站 · 中文 · 用户指南 · 微信群 观看 2 分钟影片，有声音 · 下载 Mac 版 Blurt 是一款 Mac 菜单栏应用程序，拥有适用于 Windows 和 Linux 的测试版。它与您已经使用的代理（例如 Claude Code、Codex、Cursor、Claude 和 ChatGPT）一起工作，并在它们开始之前处理该部分：将您的意思输入代理的输入框中。它没有自己的代理，也不会取代您的代理。听写（Fn）。在任何应用程序中点击 Fn，讲话，然后再次点击它。这些单词将在光标所在的位置输入。双击即可完成，它也会被发送（返回）。 Blurt 安装后即可使用，并且具有 macOS 自己的语音识别功能 (macOS 26)，无需下载任何内容。开源本地模型是可选升级：更准确，它们可以学习您的话并且不需要互联网；讲完一分钟后，文本就在大约 0.4 秒内。本地模型删除了填充物和口吃并添加了标点符号；它不会重写或
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, dictation, feedback
+
+---
+
+### 🌟 [autopilot](https://github.com/directionally-local/autopilot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 210
+- **核心概述**: 开源终端编码代理和SDK。使用沙盒子代理为超过 25 个提供商或本地模型带来您自己的密钥。定向本地的一部分。
+- **大概是做什么的**: autopilot（以前称为 kimiflare） dl 内部的开源编码代理。它不请求许可。每周免费使用 5000 万个 GPT-6 Luna 和 DeepSeek 代币，无需信用卡。或者带上您自己的密钥：OpenRouter、Anthropic、OpenAI 等 25 多个。这会安装 dl（Directionally Local 的安装程序），它会安装并运行 Autopilot。在 dl 下，Autopilot 显示 dl 的名称和版本（ dl 0.15.0 ，“询问 dl 任何内容”）和 dl --version 名称。 dl 将 Autopilot 保留在已测试过的版本上，并将它们一起更新，���此请使用 dl 的更新命令，而不是 npm 来更新。自动驾驶仪本身，没有 dl： npm i -g autopilot-ai 并运行 autopilot 。属于 Directionally Local 的一部分，这是一个开源堆栈，用于在您自己的硬件上运行编码代理，以及 Hotcell 和 Serverless Objects 。产品页面：directallylocal.com/autopilot。从 dl.new 获取它。在免费层上，模型调用通过 Directionally Local 的免费层服务到达其模型主机；它保留使用计��，从不提示或代码。使用您自己的密钥，自动驾驶仪将每个模型调用直接发送到您选择的提供商 - 没有代理，没有
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agentic-ai, agents, ai, claude-code, directionally-local
+
+---
+
+### 🌟 [overlook](https://github.com/bnlqn/overlook)
+- **项目语言**: Go
+- **星标数量**: ⭐ 237
+- **核心概述**: 您的整个家庭实验室都在一页上为您布置。
+- **大概是做什么的**: 您的整个家庭实验室都在一页上为您布置。出了什么问题，家庭实验室的每个区域情况如何，今天和本周做了什么，每个家庭实验室的页面都相同。 Overlook 会读取您已经运行的工具，并且不会进行任何更改。如果您打开 MCP，您的 AI 代理可以询问页面显示的内容，但也无法更改任何内容。查看来自家庭实验室的演示 - 检查引擎：Gatus、Uptime Kuma、Grafana、Prometheus 和 Alertmanager， - 服务器：Proxmox VE、Beszel、Docker、Portainer、NUT - 网络：UniFi Network、AdGuard Home、Pi-hole、Nginx 代理管理器 - 存储：Proxmox 备份服务器、Syncthing 以及池、存储和备份运行 - 应用程序：Immich， Jellyfin、Emby、Plex、Tautulli、Audiobookshelf、Radarr、Sonarr、Prowlarr、qBittorrent、Seerr、Home Assistant、Paperless-ngx、Nextcloud、Gitea， - 杂务：GitHub、iCalendar 待办事项列出了它无法读取的内容以及原因，位于“无法读取”下。 - 出了什么问题：问题，只要检查引擎失败，就会发出警报。 Overlook 不运行检查，也不发送警报，因此该页面和您的
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: dashboard, go, homelab, mcp, mcp-server, monitoring
+
+---
+
+### 🌟 [AutoRedTeam-Orchestrator](https://github.com/Coff0xc/AutoRedTeam-Orchestrator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 269
+- **核心概述**: 用于授权测试的本地 MCP/AI 攻击面审计和证据门
+- **大概是做什么的**: AutoRedTeam-Orchestrator 您将其指向您自己的代码、AI 客户端配置或指令文件。它读取它们，将找到的内容写入一个文件和一行，并且仅提供您的权限级别允许的工具。模型可以决定。该程序保留许可、证据和记录。成熟度注释 · 信任边界 · 安全审计 Beta。支持的工作是阅读您自己的项目、试运行以及在您可以接触的系统上进行测试。名为“sandbox”的设置是记录中的注释。它不是容器，也不是操作系统边界。 - 默认权限级别是安全的。它读取您的项目。它不接触目标。 - 有四个级别。每个较高级别都包含其以下的所有内容。 - 该模型不会读取代码中的旧注释。它读取一张简短的卡片：名称、级别、风险、效果和限制。 - 文件读取器解析Python。它不导入它，也不调用工具。 - pip install 和容器省略了实验引擎。 git 存储库仍然有它们。此页面中的计数来自
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai, attack-surface, mcp, python, sarif, security
+
+---
+
 ## 🕔 2026-11-09 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 289 个候选项目中筛选出 6 个未推荐过的新项目。
