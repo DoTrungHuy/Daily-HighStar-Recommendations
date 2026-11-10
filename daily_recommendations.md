@@ -1,3 +1,67 @@
+## 🕔 2026-11-10 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [opensre](https://github.com/Tracer-Cloud/opensre)
+- **项目语言**: Python
+- **星标数量**: ⭐ 12,803
+- **核心概述**: The open-source agent for CI/CD reliability.
+- **大概是做什么的**: OpenSRE: The open-source agent for CI/CD reliability Your CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models. 🚧 Public Alpha: Core workflows are usable for early exploration, though not yet fully stable. The project is in active development, and APIs and integrations may evolve. - A terminal open in a code project - A Git repository (recommended for the full workflow demonstration) Step 1: Install and start opensre Windows (PowerShell): Windows details: Windows. The installer fetches the latest build from main without requiring sudo. If opensre is not found, follow the PATH instructions printed by the installer or open a new terminal. For supported platforms and troubleshooting, see Install locally. - Install and start opensre AI writes more of the code every month. Someone still has to fix the build. When CI goes red, it tells you that something failed, not why or how to fix it. Under deadline pressure, teams hit re-run and move on, flaky checks
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: alerting, ci-cd, cli, datadog, devops, gitlab-ci
+
+---
+
+### 🌟 [LinguaGacha](https://github.com/neavo/LinguaGacha)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,674
+- **核心概述**: 翻译特化�� AGENT Harness · 一键高质量翻译 音频 视频 游戏 电子书 · PDF EPUB RPG ASMR GALGAME 等
+- **大概是做什么的**: 使用 AI 能力一键翻译 小说、游戏、字幕 等文本内容的次世代文本翻译器 - 中文 ] English ] 日本語 ] 한국어 ] Deutsch ] Português ] - LinguaGacha (/ˈlɪŋɡwə ˈɡɑːtʃə/)，使用 AI 技术次世代文本翻译器 - 开箱即用，（几乎）无需设置，功能的强大，不需要通过繁琐的设置来体现 - 支持 中 英 日 韩 俄 德 法 意 等 16 种语言的一键互译 - 支持 字幕 、 电子书 、 游戏文本 等多种文本类型与文本格式 - 支持 OpenAI Google Anthropic SakuraLLM 等各种本地或在线接口 - 如您在翻译过程中使用了 LinguaGacha ，请在作品信息或发布页面的显要位置进行说明！ - 如您的项目涉及任何商业行为或者商业收益，在使用 LinguaGacha 前，请先与作者联系以获得授权！ - 完美保留各种 字幕 电子书 的样式效果 - 自动生成术语表，保证专有名词在整部作品中的统一 - 十秒钟一份字幕，一分钟一本小说，五分钟一部游戏 - 内置 AGENT 模式，通过对话自动完成各种任务 👈👈 独家绝技 - 主流引擎全覆盖 Godot RenPy Tyrano WOLFRPG RPGMAKER Kirikiri Unity Bakin RealLive Escude ACTION GAME MAKER - 根据 CPU 类型下载 Windows x64.zip 或 Windows arm64.zip - 解压后双击 app.exe 启动 - 根据 CPU 类型下载 macOS x64.dmg 或 macOS arm64.dmg - 打开终端输入 sudo xattr -rd com.apple.quarantine /Applications/LinguaGacha.app 然后回车 - 输入系统密码，关闭终端，可以正常运行了 - 根据 CPU 类型下载 Linux x64.AppImage 或 Linux arm64.AppImage - 添加执行权限 chmod +x LinguaGacha .AppImage - 运行 ./LinguaGacha .AppImage - 获取一个可靠的 AI 大模型接口，推荐： - 启动应用，并将 待翻译的文件 拖到页面，按下回车！ - 基础教程 👈 手把手教学，有手就行，新手必看 - MTool 优化器 命令行模式 高级功能 - 高质量翻译 Godot 引擎游戏的最佳实践 - 高质量翻译 RenPy 引擎游戏的最佳实践 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-translation, epub, epub-translator, game-translation, llm
+
+---
+
+### 🌟 [beluga](https://github.com/beluga-labs/beluga)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 491
+- **核心概述**: Beluga: An AI native IDE Mac app peer to peer connections everything designed around AI development
+- **大概是做什么的**: A desktop app for every project and the agent working in each. And your agent can talk to your friends' agents, computer to computer. macOS 13+ (Apple Silicon) · Linux x64 (AppImage, .deb, .rpm) · Windows 10+ x64 · updates itself - Work on everything at once : every task gets its own worktree, branch and agent, and they all run side by side. - See every agent work : steps, sub-agents and screenshots arrive live, and you can steer mid-run. - Answers you can see : live tables, charts, diagrams and task cards right in the conversation. - Your agent, and your friends' agents : tag a friend and your agent asks theirs to do it on their Mac, after they click Allow. - Sentinel : work you describe once runs on a schedule or when something happens, and leaves a report. - Run it on a server : put it on a computer that stays on, then use it from your phone or any browser. 1. Download Beluga for your computer. - Mac: open the .dmg and drag Beluga into Applications. The first time you open it, macOS blocks it because Beluga isn't notarized by Apple yet: click Done , then go to System Settings › Pr
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude, claude-code, git-worktree, macos, peer-to-peer
+
+---
+
+### 🌟 [agent-hud-open](https://github.com/jazzenchen/agent-hud-open)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 304
+- **核心概述**: A HUD for Claude Code, Codex and 25 more coding agents. Know your quotas, tokens and sessions at a glance, answer requests and jump back in one click. On Mac, Windows and Linux, your phone and your watch.
+- **大概是做什么的**: HUD for your agents. On your screen. On your phone. On your wrist. English · 简体中文 · Website · Supported agents · Documentation If Agent HUD is useful to you, a star helps other people find it. Your agents work on your Mac. Agent HUD brings their progress to you. Check where they are at a glance, pick up a conversation, make the next decision: at your desk, and after you leave it. With Homebrew on a Mac: With Node.js on a Mac, Windows or Linux (how it installs): Or download the release. Either command installs the newest release, betas included, and on a Mac Agent HUD then updates itself. If it is already in /Applications , add --adopt to the Homebrew command. Your agents, at a glance. You write code, read docs or deal with something else while your agents keep working. The edge of your screen tells you who is still busy, who is done and who is waiting for you. The details are close at hand, and what needs your approval is answered right there. Every agent's progress, gathered where one glance takes it in. Simple mode on a display's left edge, with Separate agents on · Sample data - G
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, coding-agents, cursor, deepseek
+
+---
+
+### 🌟 [rhesis](https://github.com/rhesis-ai/rhesis)
+- **项目语言**: Python
+- **星标数量**: ⭐ 404
+- **核心概述**: The collaboration layer for teams building AI agents. Test, simulate, and trace your agents, while domain experts annotate behavior and engineers improve the agent from what they find.
+- **大概是做什么的**: Connect your agent (video) · The open-source collaboration layer for teams building AI agents. Open source · SaaS or self-hosted · UI, SDK, and MCP Connect the agent you are building, share the link with your team, and get structured feedback from the people who know the right answers. Most tools start with tests or traces. Rhesis starts one step earlier: the people who know what the agent should answer are not the people building it, and their feedback rarely arrives in a form you - Feedback that stays attached. Every review sits on the test case and the agent version that produced it, not in a Slack thread - One pass/fail bar. The whole team reviews against the same tests, and you measure against them - UI for reviewers, SDK and MCP for builders. Same data, three ways in - From feedback to CI. Recurring feedback becomes tests and metrics that run on every change 1. Connect the agent you are building. Via the SDK or a REST endpoint, no public URL needed 2. Share the Rhesis link with your stakeholders. Domain experts, product managers, and reviewers open it in a browser. Nothing to i
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-safety, annotations, feedback-loop, llm, llm-evaluation
+
+---
+
+### 🌟 [awesome-ai-memory](https://github.com/topoteretes/awesome-ai-memory)
+- **项目语言**: Python
+- **星标数量**: ⭐ 897
+- **核心概述**: A list of AI memory projects
+- **大概是做什么的**: Awesome AI Memory Add cognee to your AI App 🌟 A curated list of tools, frameworks, optimizers, and storage layers that give AI apps and agents memory. Check out Cognee – A semantic memory for AI Apps and Agents - Browse examples in the Cognee QuickStart - Contact us at info@topoteretes.com or join us on Discord - Follow us on Twitter Welcome to our curated list of AI memory tools You can see the projects split across various dimensions 1. Open-source projects vs Closed-source projects and companies 2. Graph, Vector, or Both 3. Memory, Framework, Optimizer, or Storage There might be many more companies we are not aware of. Your feedback and contributions are appreciated! ❤️ Have anything to add? Please open a pull request Check out Cognee – A semantic memory for AI Apps and Agents - Browse examples in the Cognee QuickStart - Contact us at info@topoteretes.com or join us on Discord - Follow us on Twitter Name URL Open / Close GitHub URL Category Storage ------------------------------- ------------------------------------------ -------------------- -------------------------------------
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-engineering, ai-memory, ai-ml, memory-management
+
+---
+
 ## 🕔 2026-11-10 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
