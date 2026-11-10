@@ -1,3 +1,67 @@
+## 🕔 2026-11-10 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 329 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [compozy](https://github.com/compozy/compozy)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,860
+- **核心概述**: 人工智能代理的操作系统。代理的自主控制平面：查看并引导每个 Claude Code、Codex 和 Cursor 会话。永远在线的客服人员会自行检查，只有当有人需要您时您才会介入。
+- **大概是做什么的**: 人工智能代理的操作系统 代理的自主控制平面。查看并指导每个 Claude Code、Codex 和 Cursor 会话。永远在线的客服人员会自行检查，只有当有人需要您时您才会介入。瓶颈不再是模型。它变成了管理会议。并行运行 Claude Code、Codex 和 Cursor，最终会得到五个终端，在错误的终端中输入提示，并且无法清楚地了解哪个代理正在等待您。让它们正常工作意味着手动将循环、cron、webhooks 和批准粘合在一起。 CompozyOS 取代了这堆东西，而不是其中的一个工具。它以会话形式运行您已经拥有的代理 CLI，这些会话的生命周期比终端长，使每个会话都可见，并且仅在您做出决定时才给您打电话。循环、计划、权限和批准都是内置的，因此无需在代理周围组装堆栈。经过验证的安装程序会固定最新版本，并在 macOS 或 Linux 上安装二进制文件之前检查其 Sigstore 来源。更喜欢桌面应用程序？ Homebrew、npm、Go 或源代码 CLI 在 macOS、Linux 和 Windows 上运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: acp, agent-client-protocol, agent-orchestration, ai-agents, automation, claude-code
+
+---
+
+### 🌟 [AI-Novel-Writing-Assistant](https://github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,419
+- **核心概述**: 面向长篇小说创作的 AI Native 开源系统，用 Agent、世界观、写法引擎、RAG 和整本生产工作流，帮助新手从一句灵感走到完整小说。AI-native engine for end-to-end novel creation — from idea to full chapters, with structured planning, worldbuilding, and agent-driven workflows.
+- **大概是做什么的**: Biz Novel Studio · 从一句灵感，走向一本完整小说 AI 帮你规划世界与角色、逐章写作、检查和保存，让长篇创作有一条可以继续走下去的路。 Open-source AI novel writing assistant and long-form production studio. 你只需要先有一个想法。这个工作台会帮你把方向、人物、世界和章节接起来，在创作过程中保留正文、设定与进度。长篇由自动导演持续推进，短篇走独立的完整成稿流程。它面向第一次写小说的人，也为需要维护长期资料、研究 AI 创作流程的作者与开发者提供更细的工具。 桌面版适合直接开始写作；源码版适合开发和自行部署。 模型需要使用你自己的 API 配置，知识库检索可按需启用。 最新更新 · 能做什么 · 导演版本与模式 · Token 缓存优化 · 功能预览 · 文档导航 · 参与项目 桌面版本 v0.7.5 新增任务记录删除与运行中任务停止，补发 Mac 安装包（Intel 与 Apple Silicon），并加快测试与发布检查。 - 运行记录、导演推进和拆书分析支持逐条确认删除已结束记录，保留已保存的小说、章节、分析内容与来源资料。 - 导演推进、拆书分析、写法提取及封面和角色图片生成可直接停止运行中的任务；排队或运行中的记录会提示先停止再删除。 - 修复 Mac 平台上质量隔离测试因临时目录符号链接路径不一致而失败，导致 v0.7.3、v0.7.4 未能产出 Mac 安装包的问题；本版本起提供 Intel 与 Apple Silicon 的 Mac 安装包。 - 测试按批次复用进程，减少逐文件启动开销，默认开发测试只运行 fast 分组，集成测试单独运行。 - 发布前检查会复用同一提交已通过的测试记录，避免重复运行完整测试；提交变化或工作区有改动时仍会重新运行，也可用 --force-tests 强制重跑。 你想完成的事 工作台怎样帮助你 了解更多 把一个点子变成一本书的方向 自动导演整理题材、卖点、人物目标和候选方向；也可从热门题材或完成的拆书起步 小说与开书入口 写一篇完整短篇 从想法与方向选择进入 3,000—30,000 字短篇生产，连续阅读、修改和导出；也可另建长篇延展原故事 短篇使用路径 持续写出后续章节 V2 围绕授权范围推进近期规划、章节任务、场景、正文、检查与保存；V1 保留原工作流程 版本与模式说明 维护同一本书的世界与人物 保存本书世界、角色、关系和章节状态，查看世界地图与角色关系图，为后续创作提供资料 世界样本库 · 角色库 控制作品的表达方式 写法资产与
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-workflow, ai, creative-writing, long-form-fiction, narrative-engine, novel-writing
+
+---
+
+### 🌟 [humla](https://github.com/michaelwilhelmsen/humla)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 344
+- **核心概述**: 适用于 Mac 的开源 AI 会议记录。无需机器人即可录制麦克风 + 系统音频，在设备上或通过 OpenAI / Deepgram / Groq 转录，离线识别发言者，并编写将笔记与转录融合的摘要。询问你的笔记并获得引用的答案。 Tauri 2 + Rust + Swift。
+- **大概是做什么的**: Humla 是一款适用于 macOS 的会议笔记应用程序，灵感来自 Granola。您在会议期间记下自由格式的笔记； Humla 录制音频、转录音频、分离发言者，并生成将您的笔记与实际所说内容相结合的结构化摘要。围绕一个原则构建：您的音频和数据将保留在您的计算机上，除非您明确将它们发送到您选择的某个地方 - 转录/LLM 提供商或可选的同步服务器。一切都在本地进行——录音、转录、说话人识别，甚至总结（如果你把它指向当地的法学硕士）。这个名字在挪威语中是“大黄蜂”的意思——小、嗡嗡作响、个性十足。 Humla 是一个独立项目，而不是一个大型 SaaS。该应用程序是本地优先且免费的 - 无需帐户，您的笔记永远不会离开您的 Mac，带上您自己的 API 密钥（或完全在本地运行）。如果您想跨设备同步或与团队共享工作区，Humla Cloud 是一个可选的付费附加组件，您也可以自行托管同步服务器。无论哪种方式，转录和摘要仍然通过您自己的提供商或设备上运行。请参阅团队同步和自托管。记录您的会议，tw
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, apple-silicon, granola-alternative, local-first, local-llm, macos
+
+---
+
+### 🌟 [HyperChat](https://github.com/BigSweetPotatoStudio/HyperChat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 708
+- **核心概述**: HyperChat 是一款致力于开放性的聊天客户端，利用各个法学硕士的 API 来实现最佳的聊天体验，并通过 MCP 协议实现生产力工具。
+- **大概是做什么的**: 🌟 本地 AI Agent 平台 - 首创 AI as Code 理念，让每个项目都有专属的 AI 大脑 HyperChat 是一个革命性的 本地 AI Agent 平台 ，通过 配置文件驱动 的方式，让 AI 能力完全本地化、可迁移、可版本控制。告别云端依赖，拥有真正属于自己的项目级 AI 专家。 - 🏠 完全本地化 ：数据不出本地，隐私安全可控 - 🧠 Agent记忆 ：AI Agent 理解并记住你的项目上下文 - 📁 配置即代码 ：所有 AI 能力通过文件配置，支持 Git 管理 - 🔧 深度工具集成 ：MCP 协议支持，可直接操作本地文件系统 - 📦 一键迁移 ：完整的 .hyperchat/ 配置目录，随项目迁移 - 📂 多@文件路径 ：智能识别多个文件引用，支持复杂文件操作 ✨ 新功能 - 🎯 Agent自定义命令 ：Markdown模板驱动的快捷命令系统 ✨ 新功能 HyperChat 1.0 是一个完全手工编写的项目，正在迁移到2.0。 HyperChat 2.0 大家一起 Vibe Coding ，欢迎使用 Claude Code 和 GitHub Copilot 等 AI 工具一起开发。 创新的双模式架构 - 根据不同使用场景优化用户体验 - 🗂️ 多工作区标签页管理 ：同时打开多个项目工作区，一键切换 - 👥 团队协作优化 ：工作区级别的 Agent 集合、MCP 服务池 - 📊 可视化管理界面 ：图形化配置、实时监控、数据统计 - 💼 适用场景 ：项目开发、团队协作、工作区管理、可视化操作 💻 CLI 前端：Agent 优先快速交互 设计理念 ：Agent 中心化，��速启动单个智能体 - ⚡ 快速启动 ：直接选择 Agent，从工作区按需加载 MCP 工具 - 🎯 专注对话 ：Agent 专属记忆、上下文、聊天历史 - 🔧 灵活工具链 ：Agent 内置 MCP 工具，回退到工作区共享资源 - 🚀 适用场景 ：快速对话、自动化脚本、命令行工作流、CI/CD 集成 功能特性 🌐 Web 多工作区模式 💻 CLI Agent 优先模式 --------- --------------------- ---------------------- 设计中心 🗂️ 工作区协作中心 🤖 Agent 直接交互 资源管理 工作区统一 MCP 池 Agent按需启动MCP 使用方式 多标签页并发管理 单 Agent 快速启动 界面风格 🖥️ 现代 Web 界面 📟 命令行 + 🎨 TUI 交互模式 鼠标点击
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, chat-application, llm, local-agent, mcp, modelcontextprotocol
+
+---
+
+### 🌟 [haiku.rag](https://github.com/ggozad/haiku.rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 656
+- **核心概述**: 用于本地和自托管文档搜索的代理 RAG：嵌入式 LanceDB 上的混合检索、重新排名和多模式 RAG，具有 Docling 解析和 MCP 服务器
+- **大概是做什么的**: Agentic RAG 可以回答有关您自己的文档的问题，并引用页码和章节标题。默认情况下，它在嵌入式 LanceDB 数据库上运行，并通过 Ollama 开放模型，因此不需要服务器或 API 密钥。 Pydantic AI 支持的任何提供商都可以在其位置工作，并且相同的数据库可以驻留在 S3、GCS、Azure 或 LanceDB Cloud 上。基于 LanceDB、Pydantic AI 和 Docling 构建。文档：ggozad.github.io/haiku.rag。 - 使用 Docling、进程内或在 docling-serve 上摄取 PDF、办公文档、HTML、Markdown 和图像。存储的 DolingDocument 保留标题、表格、图片和页面出处。 - 使用混合向量和全文检索进行搜索、可选重新排序（交叉编码器、Jina、Cohere、零熵、vLLM、OpenRouter）、节感知上下文扩展以及使用多模式嵌入器（vLLM、OpenRouter、VoyageAI、Cohere）进行图像搜索。一次跨多个命名数据库。 - 使用 RAG 功能进行回答：它搜索、在文档上运行沙盒 Python 以进行计数和聚合，并引用页码和标题。视觉模型接收 f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ag-ui, agentic-rag, code-execution, code-mode, cross-encoder, docling
+
+---
+
+### 🌟 [verbatim-rag](https://github.com/KRLabsOrg/verbatim-rag)
+- **项目语言**: Python
+- **星标数量**: ⭐ 208
+- **核心概述**: 来源优先的提取 RAG：使用本地 ModernBERT 或可选的 LLM 辅助提取返回带有引文的逐字源跨度。
+- **大概是做什么的**: 冷静，我接地！ ️ 来源优先的提取 RAG：检索文档，选择与答案相关的段落，并返回带有引文的源代码摘录，而不是自由重写传统的 RAG 系统检索相关文档，然后允许法学硕士自由生成响应。 Verbatim RAG 通过从检索到的上下文中选择和显示段落来减少生成表面。内置经过验证的提取路径从提供的源返回证据文本。这是出处保证，而不是真实性保证：检索可能不完整，来源可能是错误的，提取者可能会选择不相关或不完整的段落。上下文模板还可以围绕引用的摘录生成演示文本；当框架必须固定且确定时，请使用静态模板 TemplateManager() 。在论文的 100 行 ACL-Verbatim 基准测试中，150M 参数的 ACL 专用模型获得了 53.6 的 micro Word-F1 ，而评估最强的 LLM 提取器的得分为 48.7。在通用 v2 模型卡评估中，v2 获得了比评估的 Zilliz Seman 更高的 micro Word-F1
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: citation, hallucination-prevention, llm, modernbert, nlp, openai
+
+---
+
 ## 🕔 2026-11-10 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 201 个候选项目中筛选出 6 个未推荐过的新项目。
