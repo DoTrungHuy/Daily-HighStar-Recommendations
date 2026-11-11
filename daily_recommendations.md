@@ -1,3 +1,67 @@
+## 🕔 2026-11-11 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [exact](https://github.com/expo/exact)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 2,537
+- **核心概述**: 编写一个应用程序一次。它在网络、macOS、iOS 和 Linux 上本机运行，AI 代理可以在其中每一个上构建、运行、查看和测试它。
+- **大概是做什么的**: 编写一个应用程序一次。它在网络、macOS、iOS 和 Linux 上本机运行，AI 代理可以在其中每一个上构建、运行、查看和测试它。使用编码代理尝试一下。在安装了 Xcode、Rust、Bun 和 Chrome 的 Mac 上，向 Claude Code 提供此提示：在干净克隆（2026 年 10 月 4 日，Hermes 已在计算机缓存中，Cargo 的缓存已预热）上给出此提示的早期版本的新代理在大约 57 分钟内完成，并且其测试在所有三个平台上都通过了。其中大约 25 分钟是第一次 macOS 和 iOS 构建，各大约 13 分钟；稍后的构建需要一两分钟。在一台缺少 Hermes 的机器上，它的源代码构建首先出现并增加了时间。当前设置会下载并验证固定的主机/iOS 捆绑包一次；普通构建保持离线状态。浏览器自己的 DOM 和 CSS UIKit 视图、原生控件和系统的选项卡栏 AppKit 视图和原生控件 一个 app.contract ，三台主机上的同一屏幕，由代理驱动程序捕获。 Softwear 是一个演示商店，您可以从精确模板生成：它显示 Alternative Apparel 的目录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, appkit, coding-agents, cross-platform, css, ios
+
+---
+
+### 🌟 [trnrt](https://github.com/RunanywhereAI/trnrt)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,166
+- **核心概述**: 适用于 AWS Trainium 的开放式 LLM 推理引擎：NKI 巨型内核、1M 令牌上下文、OpenAI 兼容 API。作者：RunAnywhere。
+- **大概是做什么的**: TrnRT 是 AWS Trainium 上大型语言模型的开放推理引擎。它从一个 trn2.48xlarge 提供与 OpenAI 兼容的 API，作为 NKI megakernels 运行解码（每半层大约一个内核），并在设备和主机内存之间保留前缀缓存。 GLM-5.3-Flash是第一个支持的型号；更多开放模型正在开发中。我们如何构建它，以及 AgentX 结果：在一个具有 NKI 层巨型内核的 Trainium2 盒子上提供 GLM-5.3-Flash。功能 用途 NKI megakernels 每半层一个融合内核用于解码：KDA 注意力、融合 DSA 层、mHC 和 MoE FFN。 1M-token 上下文稀疏注意力（前 2,048 个）和线性注意力，具有固定大小的状态。前缀缓存 FP8 KV 页面上的基数树，以及用于逐出页面和状态检查点的主机内存层。每盒两个引擎 每个引擎在 32 个逻辑 NeuronCore 上张量并行，位于会话仿射路由器后面。 OpenAI API 聊天和补全、流式传输、工具调用和推理输出。离线编译 每个图都是在CPU主机上构建的；服务盒默认加载它们并且不编译任何内容。你需要做
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: aws, glm, inference, llm, llm-serving, megakernels
+
+---
+
+### 🌟 [kubai-icons](https://github.com/kubai087/kubai-icons)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 709
+- **核心概述**: 一种代理技能，可以为 Claude Code、Codex 和其他编码代理以一致的风格绘制动画图标。附带 2,600 多个 React、Vue 和 SVG 开源图标，以及一个用于浏览它们的网站。
+- **大概是做什么的**: 一种以一致的风格绘制动画图标的特工技能。加上用它绘制的 2,800 多个开源图标，适用于 React、Vue 和 Web。安装技能 · 代理技能 一只手画出每一个图标的规则、引擎和自检。给 Claude Code、Codex 或其他编码代理一个产品，它会绘制产品所需的图标。图标库 2,800 多个图标：近 900 个对象，以及带有徽章和斜线的“关闭”版本。适用于 React、Vue、纯 JavaScript、Web 组件和静态 SVG。��省理工学院许可。网站 icon.kubai.design，有 16 种语言版本。按名称、形状或含义搜索每个图标，重新着色，复制其代码或提示给您的代理，将其下载为 SVG 或 PNG，并将集合保存为 ZIP。将其复制到您的代理中并发送：重新启动您的代理，技能就准备好了。没有技能支持的代理可以从克隆的文件夹中读取 SKILL.md 并遵循它。该技能要求仔细的几何形状和多轮查看其自身的屏幕截图，因此请使用可以读取图像的强大模型。它是使用我们推荐的 Claude Opus 5.5 进行开发和盲测的。其他模组
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, animated-icons, animation, claude, claude-skill
+
+---
+
+### 🌟 [fujiang-pojia](https://github.com/FJNB5/fujiang-pojia)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 575
+- **核心概述**: 富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.13，附免责声明。插件图片看最下面
+- **大概是做什么的**: 点击加入频道：https://t.me/DeepSeek22 富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.13，附免责声明。插件图片看最下面 本项目将 @deepseek-ai/dsh-prompt-custom 安装到 DeepSeek Harness 的配置目录。插件程序位于 plugin/ ，提示词配置单独保存在 prompt-custom.json 。 在仓库页面点击 Code → Download ZIP （代码 → 下载压缩包），解压后安装；也可以使用 Git 克隆本仓库。 1. 先启动一次官方 DeepSeek Harness Desktop，完成 desktop 配置初始化。 2. 完全退出 Harness，包括右下角托盘图标中的“退出”。 3. 双击解压目录中的 点我执行脚本.cmd 。 4. 安装完成后自行重新打开 Harness。 如果检测到 Harness 仍在运行，安装器会提示退出并停止，本次不会修改文件。 安装器不会自动关闭或重启 Harness，也不支持 -NoRestart 参数。 安装器默认使用 desktop 配置，会从运行路径、默认安装位置、注册表和开始菜单或桌面快捷方式查找 Desktop 自带的 DSH 命令行工具，再尝试系统 PATH，支持安装到 D、E 等其他盘符。双击安装脚本仍未找到时，可按提示粘贴实际安装文件夹或可执行文件路径。 也可以手动指定安装目录；程序目录与 .dsh 数据目录是两个不同位置： -DshCommand 也接受 DeepSeek Harness.exe 或 dsh.cmd 的完整路径； -Profile 可指定配置名称，未传 -DshHome 时继续遵循已有的 DSH HOME 设置。 安装时，脚本将插件复制到 $DSH HOME\local-plugins\dsh-prompt-custom ，通过 dsh plugin --profile add 注册，并将附带的提示词配置复制到 $DSH HOME\prompt-custom.json 。如果已有配置与新配置不同，会先在原文件旁备份；注册失败且存在备份时，会恢复原提示词配置。未设置 DSH HOME 时，默认使用 $env:USERPROFILE\.dsh 。 安装成功后，脚本会尝试在旁边的 install.log 中记录时间和版本；该文件不是完整的运行日志。 安装器是可阅读的 Powe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cve, deepseek, deepseek-harness, fujiang-pojia, knowledge-base
+
+---
+
+### 🌟 [papilot](https://github.com/PapilotAI/papilot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 214
+- **核心概述**: 下一代 AI LaTeX 编辑器：不要读取或写入 LaTeX。只需处理 PDF 即可。
+- **大概是做什么的**: 下一代 AI LaTeX 编辑器 不要读取或写入 .tex，只需致力于使用 AI 进行负责任的写作和排版的新范例。 English  · 简体中文  · 繁体中文  · 日本语  · 한국어  · Deutsch  · Français  · Español  · Português  · Italiano  · Svenska 📄 您关心的是 PDF，而不是其背后的 .tex 论文、论文、书籍、幻灯片：读者只能看到排版页面。因此，该页面也是您应该工作的地方。您不再需要在头脑中编译差异。源代码差异让您想象 PDF。 Papilot 向您展示它，已排版。 👉 指向页面并说出您想要的内容 标记一个句子、一个方程式或一个数字，并写下注释。你的代理人找到了来源。您永远不会打开 .tex 文件。 🔒 您的文件保留在您的计算机上。每一次更改都会记录在您的 Git 历史记录中。   通过 Git 与共同作者同步。拉、推并让代理解决冲突。   免费且���源。 MIT 许可，适用于 macOS、Linux 和 Windows。 🤖 带上你已经使用的AI代理 系统/发行版 下载/打包 安装/运行 macOS Apple S
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic, agent, agents, ai-agent, diff, latex-editor
+
+---
+
+### 🌟 [construct](https://github.com/rtmandreyev/construct)
+- **项目语言**: Python
+- **星标数量**: ⭐ 120
+- **核心概述**: 描述一个事物，获取全息图、3D 模型及其部件：由任何 AI 代理构建，诚实地说。
+- **大概是做什么的**: https://github.com/user-attachments/assets/8c39a196-9910-46a0-9746-4f15965adf15 在 Hermes Agent 中构建，耗时 90 秒。它在 Claude Code、任何 MCP 客户端、任何 OpenAI 兼容端点或 Claude 和 ChatGPT 应用程序中的工作方式相同。 Construct 是 AI 代理的工具。它将关于一件事物的所有信息转化为对它的精确、经过检查的描述：其真实尺寸的命名部件，它们如何组合在一起、打开和移动，以及每个部件如何被认识、测量或猜测。代理人进行研究并撰写描述。构造检查它并根据它构建，相同的描述总是给出相同的结果。将结构组合在一起，就创造了一个世界：一个房间、一条街道、一个完整的游戏关卡。在世界中，每个构造体仍然是完整的，有自己的部分、来源和关节，所以你可以移动、重复使用或打开其中的任何一个。描述一件事，或展示一个地方。获取全息图、3D 模型、印刷品、套件或整个世界。用简单的语言询问任何人工智能代理，它就会以测量光风格的光线构建动画模型。结果是一个单一的网页
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-visualization, agent-based-modeling, agent-skills, ai-agents, blender-addon, claude-code
+
+---
+
 ## 🕔 2026-11-10 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 329 个候选项目中筛选出 6 个未推荐过的新项目。
