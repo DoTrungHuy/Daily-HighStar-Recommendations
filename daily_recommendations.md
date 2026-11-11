@@ -1,3 +1,67 @@
+## 🕔 2026-11-11 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 284 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [atlas](https://github.com/tryatlas/atlas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,389
+- **核心概述**: Source control for agents. Use multiple coding agents, track their changes and query them in one place
+- **大概是做什么的**: Know which prompt shipped which line. The agentic visibility & control layer your SDLC was missing. Your entire engineering team uses coding agents. You get stacked PRs, you see the diffs without the context. When something breaks in production, do you know whose agent changed it, and what it was told? That's why we built Atlas: every coding agent your team runs, recorded and linked to the commits it produced, on a shared timeline the whole team can collaborate and comment on. Desktop app or terminal Both feed the same team timeline, so mix them: one teammate in the desktop app, another in a terminal over SSH. Atlas desktop. The control-surface IDE below. Atlas CLI. Happy in your terminal? atlas-cli hooks into the agents you already run (Claude Code, Codex, Cursor, Copilot, OpenCode, Droid, Antigravity and Pi), records every session, links its commits and gives every agent one shared memory. macOS and Linux. Atlas is a "control-surface IDE" built around managing your agents' context. - Bring every agent, run them in parallel. Claude Code, Codex and more, side by side. - Teach once, e
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-coding-assistant, claude-code, codex, coding-agents, git
+
+---
+
+### 🌟 [DSHBox](https://github.com/WSK-build/DSHBox)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 616
+- **核心概述**: DSHBox — 移动端本地运行和远程操控 DeepSeek Harness。自带终端、文件管理器、浏览器、手机操控等工具，致力打造一站式随身 AI 工作台，免 ROOT 和 Termux。
+- **大概是做什么的**: DSHBox — DeepSeek Harness on Android: Run Locally or Connect Remotely DSHBox is an open-source mobile app for DeepSeek Harness (DSH) . It can run DSH locally on your phone or tablet, or connect to DSH remotely, with a terminal, file manager, browser automation and phone control in one app — a personal AI workbench you can carry. No root or Termux required. DSHBox 是一款 DeepSeek Harness（DSH） 的移动端开源应用，既可以移动端本地运行 DSH，又可以远程连接 DSH。配套终端、文件管理、浏览器自动化、手机操控等工具，组成个人随身 AI 工作台。无需 Root，也无需 Termux。 系统要求 Android 10+ · ARM64 权限 日常使用无需 Root · 无需 Termux；开发者模式中的 Root 通道为可选能力 发布版本 系统 WebView 版 ：APK 较小，复用手机系统 WebView； 内置 Gecko 版 ：随包提供 GeckoView 158，不依赖系统 WebView 本地运行 在移动端装配 PRoot + Debian 沙箱，内置 Node.js 与 DSH 0.2.2-rc.1 运行层，本地运行 DSH 远程连接 扫码或粘贴配对链接，连接同一局域网或公网上的 DSH；支持代理 / 直连与多设备管理和切换 首次准备 按新手引导分步安装精简 Debian 与 Node.js 两个运行环境，支持多镜像源检测、失败重试或离线导入； 安装包如何选择 系统 WebView 版： 系统 WebView 较新且工作正常时（或有能力升级系统 WebView 版本时），可优先选择体积较小的系统 WebView 版安装包； 内置 Gecko 版： 系统 WebView 较旧、受厂商定制影响升级困难，可能导致 DSH 页面空白、加载失败或工作区加载等各种报错，选择 Gecko 版安装包。 两个 APK 同包名、同签名，可互相覆盖安装，保留数据。 下载系统 WebView 版或内置 Gecko 版 → 覆盖安装 → 启动应用 → 按引导获取运行环境（在线多镜像源，或沿用离线导入）
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, android-agent, android-app, deepseek-harness, deepseek-harness-android
+
+---
+
+### 🌟 [alphasift](https://github.com/ZhuLinsen/alphasift)
+- **项目语言**: Python
+- **星标数量**: ⭐ 470
+- **核心概述**: Full-market stock discovery for AI agents: A-shares plus US/HK/JP/KR/TW/IN, auditable YAML strategies, optional LLM ranking, sector-diversified picks, and true T+N evaluation vs. benchmark. AI选股
+- **大概是做什么的**: Full-market stock discovery for AI agents. AlphaSift scans every A-share (or the larger listings of six other markets), screens them with auditable YAML strategies, optionally lets an LLM rank the shortlist, keeps the final picks diversified across sectors, and saves every run so you can check later whether the picks worked. Track record: every built-in strategy runs after each close and its picks are measured at T+5 / T+10 / T+20 against the market benchmark — see the dashboard and the raw runs on the track-record branch. - A-shares first, six more markets in beta. China A-shares go through a dedicated multi-source chain. US, Hong Kong, Japan, South Korea, Taiwan and India go through the Yahoo Finance screener, which also works from overseas servers and CI runners; they have one unofficial data source and fewer fields (see Known limitations). - Runs without an API key. L1 screening, scoring, risk and diversity control are deterministic. An LLM only re-ranks the shortlist when you configure one. - Strategies are YAML, not code. Filters, factor weights, scoring curves, risk thresholds
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-shares, agent, ai-agent, economics, finance, fintech
+
+---
+
+### 🌟 [nod](https://github.com/n8n-io/nod)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 325
+- **核心概述**: Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.
+- **大概是做什么的**: It chases invoices, preps your calls and cancels trials, on real websites. It runs on your machine with the model you choose, and asks before it acts for you. macOS 14+ (Apple silicon or Intel ) · Windows 11 preview · Free and open source · ChatGPT Plus or Pro, or an AI key It gets on with the work across Gmail, Calendar, Slack, Notion, and the web, and asks before it speaks for you. Every morning, Nod reads your threads, your calendar, and the client's latest news, then writes a one-page brief for each call. It drafts the reply you owe from your own pricing sheet, and sends it only after you say yes. It checks a page on your schedule and tells you only when something changes. Jobs that eat an afternoon of tabs, logins, and forms. Nod has its own computer and browser, so it finishes them. Say once that Anna, not Bob, handles invoices. It remembers. Every note, visible. See, edit, or forget each one, with the message it came from. Drafts that sound like you. Learns your style from sent emails, with no names or numbers. Tell it once. Say something changed, and it uses the new fact from
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agents, ai-agent, ai-assistant, anthropic, automation, browser-automation
+
+---
+
+### 🌟 [SoduWork](https://github.com/mdiri-ai/SoduWork)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 310
+- **核心概述**: The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.
+- **大概是做什么的**: The AI-native engine for teams and their agents A chat ends with an answer. A SoduWork request ends when the person who asked signs off. Multi-harness · Multi-agent · Self-hosted Works with Pi · OpenCode · DeepSeek Harness · Qwen Code · Kimi Code · Codex Harness · Codex · Claude Code · Google Harness² Platform Start command macOS / Linux sh start.sh --desktop Windows PowerShell .\start.cmd --desktop Windows Command Prompt start.cmd --desktop Website Live demo Docs Releases Discord What SoduWork can do for you One harness does the work, another reviews it Pick Pi to do the work. OpenCode, on a different model, reviews it against the acceptance criteria. If the review fails, the work goes back with the reasons. Hand a request to a colleague's agent People and AI work together: you file a request, AI writes the acceptance criteria, and you assign it to yourself or a colleague. The assignee's agent does the work and reviews it, and a person signs off. Everyone on the request can see who did what. Turn one person's know-how into a team asset When you and AI get a task right, save the chat
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-harness, agent-orchestration, agent-workflows, ai-agents, ai-workflows, anti-slop
+
+---
+
+### 🌟 [llamAmpere](https://github.com/JakeATX/llamAmpere)
+- **项目语言**: C++
+- **星标数量**: ⭐ 346
+- **核心概述**: llama.cpp fork for significantly improved performance on Ampere generation Nvidia cards (especially RTX 3090 / 3090 Ti): example: 110+ tok/s over a 100K-token generation at temperature 1 for qwen3.8, supporting full 262K ctx. Supports low memory (12gb) configs for 200k+ ctx. 120+ TPS, 3300+ prefill for QFN 3.8.
+- **大概是做什么的**: llamAmpere is a fast version of llama.cpp (the open-source program that runs AI language models on your own computer), tuned for NVIDIA RTX 30-series "Ampere" graphics cards, especially the RTX 3090 and 3090 Ti. It runs Qwen3.8 models, including Qwen3.8-27B with its built-in MTP draft head (a small helper that guesses several words ahead so the model writes faster) and Qwen3.8 Flash-Next. What's new in v0.6.4 - Fix: Flash-Next ran out of memory or stalled on machines with two or more NVIDIA cards, or on a card that another program was already using ( 96). v0.6.4 runs Flash-Next on one card, the one with the most free memory ( --device picks another); splitting it across two cards is not supported yet. On a busy card with less than 8 GiB free, the launcher uses the memory planner, which runs but is slow. One idle card: unchanged. Release notes. What's new in v0.6.3.11 - Fix: faster first token on short follow-up messages (up to 256 new tokens) after a long first message, on Flash-Next. Longer follow-ups are unchanged. Release notes. What's new in v0.6.3.10 - Fix: slow first token on s
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ampere, consumer-gpu, cuda, ggml, gguf, kv-cache-quantization
+
+---
+
 ## 🕔 2026-11-11 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
