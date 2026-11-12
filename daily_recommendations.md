@@ -1,3 +1,67 @@
+## 🕔 2026-11-12 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [prest](https://github.com/prest/prest)
+- **项目语言**: Go
+- **星标数量**: ⭐ 4,632
+- **核心概述**: Instant REST and MCP APIs for PostgreSQL and MySQL, on existing or new databases. CRUD, custom SQL routes, auth and ACL without writing a backend. Low-code, ⚡ realtime, high-performance. Native MySQL support since v2.5
+- **大概是做什么的**: p REST ( P ostgreSQL REST ) is a production-ready API that delivers instant REST and Model Context Protocol (MCP) APIs on your existing or new SQL database — CRUD, custom SQL routes, auth, ACL, and a read-only MCP endpoint — without hand-writing a backend. PostgreSQL 9.5+ is the default engine. MySQL 8.0.19+ is a separate native dialect from v2.5.0. Read-only MCP on MySQL is v2.5.1. Set engine = "mysql" to select it. An unset engine stays PostgreSQL. MariaDB, TiDB, and Aurora MySQL stay on the roadmap. PostgreSQL 9.5+ (default). MySQL 8.0.19+ with engine = "mysql" . Contributor License Agreement — Full documentation lives at docs.prestd.com. Get pREST (Docker, Homebrew, Go) Get pREST Configuration Configuring pREST API reference API Reference MCP over HTTP MCP over HTTP Multi-database Multi-database Databases & roadmap Databases · Roadmap MySQL 8 MySQL · v2.5.1 AI clients (Cursor, Claude, …) AI and MCP Install and run options (Docker, Homebrew, or Go) are documented in Get pREST. Point pREST at Postgres ( PREST PG URL or pg. / DATABASE URL ), then call: MySQL 8.0.19+ uses the same pa
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: api, baas, backend, crud, database, docker
+
+---
+
+### 🌟 [yogurt](https://github.com/FrigadeHQ/yogurt)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 826
+- **核心概述**: Private AI meeting notes. Free and open source.
+- **大概是做什么的**: Private AI meeting notes. Free and open source. Yogurt records your calls without adding a bot to the meeting. macOS 14.4+ (Apple Silicon) · Windows 10 2004+ (x64) · Ubuntu 22.04+ or similar (x64 AppImage) · 8 GB memory yogurt.so · Help · Build and run locally · MIT license - Live transcripts. Yogurt records calls and turns speech into text as you talk. - Meeting summaries. Yogurt writes up the conversation and any notes you add. - Private by default. Your audio, transcripts and AI processing stay on your computer. - Free and open source. You can use Yogurt without an account. - Who said what. Yogurt names speakers from Zoom, Teams and Meet on Mac only. - Languages. Multi-language mode transcribes 99 languages. - Recording reminders. Yogurt offers to record when a supported call starts. - Answers with sources. Yogurt answers questions across meetings and links to the source. - Folders and search. You can find meetings by folder, title, notes or transcript. - Copy and export. You can copy notes or transcripts, or save both as Markdown. - Local MCP server. Your chosen assistant app can
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: electron, linux, llama-cpp, local-ai, macos, mcp
+
+---
+
+### 🌟 [sysknife](https://github.com/lacs-project/sysknife)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 234
+- **核心概述**: An AI that administers Linux through typed, approval-gated, Ed25519-audited actions. The model selects the action; the daemon builds the command.
+- **大概是做什么的**: The Linux sysadmin MCP server. Plan. Approve. Audit. A deterministic reproduction of the Claude Code MCP flow on Ubuntu 24.04, rendered offline by ubuntu-flow-mock.sh so it replays identically from a fresh checkout. Every action name, risk level and command shown is the one the catalogue carries. The same flow works in Cursor and Codex CLI. On an atomic host the plan uses rpm-ostree instead: the Fedora Atomic recording . Looking for the standalone CLI? See the CLI guide . Describe what you want in plain language. Review a typed plan with risk levels. Approve explicitly. Watch it execute with live output. Atomic-host changes (rpm-ostree) roll back automatically on failure. Every action is Ed25519-signed and audited. The AI never supplies a command. Every action is a typed operation with a formal risk level, and the daemon builds the command line itself from the action's own definition — some actions do run through sh -c , but the shell fragment is constructed by SysKnife, never by the model. The AI cannot touch your system directly. A privileged daemon executes only what you approve,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic-ai, ai-agents, ai-safety, audit-log, automation, claude
+
+---
+
+### 🌟 [webrouter](https://github.com/Nimbleway/webrouter)
+- **项目语言**: Python
+- **星标数量**: ⭐ 325
+- **核心概述**: WebRouter is an open source standard that connects your agent to the web
+- **大概是做什么的**: The open source standard for agent web access. WebRouter connects agents to search, extract, live data, answer, research and browsers through one typed interface, across many providers. - Agent web primitives. Find pages, read them, ask for an answer, run deep research, call a site's structured scraper, or drive a browser. - Smart routing. Static fallback and optional routers trade off cost, latency and coverage for each task and the providers you have keys for. - No vendor lock-in. Calls and results keep the same shape when you switch providers. WebRouter is Apache 2.0 and runs with your own keys. - Providers and vendor APIs. Use one call shape across web providers, then use the curated catalog for provider-specific APIs. - Governance and security. Control provider selection and routing, keep keys scoped to their provider, reject unsupported constraints, and require explicit opt-in for vendor writes. Useful? Star the repo so more agent developers can find it. ⭐ Developer preview: the API may change before 1.0. Share feedback on Discord. Install WebRouter and make a search with no AP
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, llm-tools, mcp, python, router, web-search
+
+---
+
+### 🌟 [agav](https://github.com/prapaa-ai/agav)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 178
+- **核心概述**: Terminal-native AI coding assistant for real repositories. Inspect code, edit files, run tests, and verify changes from the CLI.
+- **大概是做什么的**: Terminal-native autonomous agent for real repositories and projects Documentation: https://docs.agav.dev ⚠️ Experimental Beta — Agav is under active development. Expect breaking changes, rough edges, and rapid iteration. Feedback and bug reports are welcome! No Node.js required. One command, self-contained binary: Windows Command Prompt: Pick a provider and model, or use defaults: Non-interactive for scripts and CI: Today, the most powerful AI tools are controlled by a handful of companies. They choose which models you use, where your data goes, and how much you pay. If they change the rules tomorrow, you have no choice but to follow. We’re building the alternative, an AI that works for you, runs on your terms, and belongs to no one. You own it. Apache 2.0 open source. No lock-in, no hidden telemetry, auditable code. You choose the brain. 7 providers — Anthropic, OpenAI, OpenRouter, NVIDIA NIM, Gemini, Vertex AI, Ollama. Switch models mid-session with /model , run local with Ollama, or route via OpenRouter. You control the data. Encrypted API keys, local-first option, per-tool permis
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-coding-assistant, anthropic, claude-code, cli, codex
+
+---
+
+### 🌟 [AgentCapture](https://github.com/Tcotl/AgentCapture)
+- **项目语言**: Python
+- **星标数量**: ⭐ 176
+- **核心概述**: Deception-layer honeypot that captures & reverse-controls AI pentest agents — embedded decoys, prompt-injection counter-offense, MCP honeypot, conversational C2.
+- **大概是做什么的**: SaaS honeypot situational-awareness and AI-agent counter-offensive platform for non-disruptive internet-system onboarding 🏆 Live benchmark (2026-11): 13 AI pentest &amp; generic agents really deployed — all 13 captured, recruited &amp; fingerprinted . Full matrix below . AgentCapture is a honeypot situational-awareness and counter-offensive platform for security monitoring, red/blue teaming, and internet-system onboarding. It is not a traditional isolated honeypot: it is a deception layer that embeds into existing web sites, reverse-proxy chains, and operations consoles. Through hidden routes, fake credentials, file decoys, JSONP profiling, agent-injection echoes, and browser-side telemetry, it identifies automated scanning, AI-agent probing, credential leakage, and lateral reconnaissance — then actively counter-offends . Its differentiating capability is the AI-agent counter-offensive loop : product-level fingerprinting for 30+ mainstream agents (incl. pentest frameworks HexStrike AI / Strix / ARTEX) (Claude Code / ChatGPT Codex / Kimi Code / Pi / ZCode, etc.) → functional-camoufla
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-security, cyber-deception, deception, fastapi, honeypot
+
+---
+
 ## 🕔 2026-11-12 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
