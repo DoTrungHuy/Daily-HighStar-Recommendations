@@ -1,3 +1,67 @@
+## 🕔 2026-11-12 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 266 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [openmotion](https://github.com/nexu-io/openmotion)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 9,585
+- **核心概述**: Opus 5.5 动态视频的开源全栈工作室。对任何视频进行逆向工程。使用 HTML 编码视频：重新创建、编辑和渲染。 BYOA + BYOK · Motion.md · 图像、视频、音乐和语音。
+- **大概是做什么的**: 任何视频代理的逆向工程 · 用例和重制 · 为什么选择 OpenMotion · 设置和架构 · 社区 英语 · 简体中文 · 日本语 OpenMotion 是第一个全栈代理视频生成器。上传参考视频或粘贴社交视频链接，以使用您自己的品牌套件（徽标、颜色和字体）重新创建它并复制。 - 🎬 全栈视频娱乐。使用 HTML 编码视频。您的代理会分解参考，重建其镜头和过渡，并生成丢失的资产。在 Studio 中编辑时序并从同一项目渲染 MP4。 - 🔑 BYOA — 带上您自己的代理。 BYOK——自带钥匙。 OpenMotion 是免费且开源的。在本地代理中重新创建视频，并在每一层使用您自己的 API 密钥。 - 🧩 OpenMotion 引入了 Motion.md，这是一种用于镜头顺序、计时和转场的 Markdown 格式。用它来逐个镜头地分享品牌电影的运作方式。 - 🎛️ 图片、视频、音乐和声音。使用 Nano Banana 2 生成艺术作品，使用 Seedance 2.0 添加镜头，使用 Suno v4 进行评分，并使用 Kokoro 进行旁白。探索所有七个内置模型。 22家当地代理商 · 选择y
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic-ai, ai-agents, ai-video, byok, claude-code
+
+---
+
+### 🌟 [Financial-API](https://github.com/Hithink-Tech-Org/Financial-API)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 4,126
+- **核心概述**: 同花顺官方 A股金融数据服务，提供股票实时行情、历史行情、财务报表、指数、板块、涨停等数据，适用于 AI Agent、量化研究和应用开发，支持 API、MCP、CLI 和 Python。Official Tonghuashun (HiThink) A-share financial data service providing real-time and historical stock market data, financial statements, indices, sectors and limit-up data for AI agents, quantitative research and application development.
+- **大概是做什么的**: 同花顺金融数据服务（hithink-finance） 是由同花顺官方提供和维护的 A 股金融数据服务，面向 AI Agent、量化研究者和应用开发者。 通过统一 API Key，可以查询 A 股行情、集合竞价、财务报表、估值、指数与板块、公募基金、公开期货期权、特色数据及 A 股和港股新股资料，并通过 REST API、MCP、CLI、Python SDK、本地 DuckDB 或 Agent Skill 接入现有工作流。 一站式同花顺官方金融数据能力，覆盖查询、研究、批量导出和 AI Agent 自动调用。 API、MCP、CLI、Python SDK 和 Agent Skill 适合自主接入；同花顺AI客户端已接入当前数据源，金融数据与分析能力已内置，打开客户端即可使用。 让 AI Agent 自动查询和分析金融数据 CLI 内置 Skills 根据各内置 Skill 的 description 直接选择业务域 在终端、Agent 或自动化任务中统一取数和导出 CLI 整合远端取数、本地 DuckDB、认证和结构化输出 在 Chat Bot 或 IDE 中直接调用 MCP 配置托管服务和 API Key 后在对话中使用 接入网站、App、后台服务或其他语言 REST API 标准 HTTP 接口，适合自定义集成 在 Python、Notebook 或研究流程中使用 Python SDK 适合数据处理、自定义分页和研究脚本 长期维护历史行情并使用 SQL 研究 marketdb 本地构建和增量维护 DuckDB 数据库 获取全市场或长时间范围数据 CLI / Market Dumps 使用批量能力并让大结果直接落盘 免配置使用金融数据或端内专用��力 同花顺AI客户端 数据源已经接入，打开客户端即可使用 Agent 和终端任务优先使用 CLI 及其内置 Skills；REST 文档与 HTTP 接口选路使用 hithink-finance ，MCP 配置及工具调用使用 hithink-finance-mcp 。 数据 / 能力 主要用途 推荐入口 标的目录 根据名称、代码或关键词查找唯一 thscode CLI / API / MCP / Python A 股最新行情 查询单只、多只或全市场股票的最新价格与交易数据 CLI / API / MCP / Python A 股历史 K 线 获取历史走势，用于研究、回测和趋势分析 CLI / marketdb 集合竞价 查询竞价实时或终态快照与短期强弱基准 CLI / API / MCP / Python 公司行动与复权
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: a-share, ai-agent, china-stock-market, cli, duckdb, financial-data
+
+---
+
+### 🌟 [infiAgent](https://github.com/polyuiislab/infiAgent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,190
+- **核心概述**: 只需编辑配置文件即可构建您自己的 Cowork、AI 科学家和其他 SoTA 代理。支持人类技能。专为长期运行的复杂任务而设计的无限视野代理框架。
+- **大概是做什么的**: MLA V3 - 构建特定领域的 SOTA 级 AI 代理 InfiAgent，也称为 MLA（多级代理），是一个用于长期运行的通用和特定领域代理的框架。在 YAML 中定义职责、提示和工具，将复杂的工作委托给合作代理，并将执行记录和工件保存在文件中，以便每个步骤都可以检索它所需的上下文。 - ✅ 长时间运行的执行：Thinking、ReAct 和 ReAct Lite 循环结合了有界操作窗口、基于文件的切换和上下文压缩。 - ✅ 分层并行代理：保留Researcher的多级编排和OpenCowork的通用助手；运行同一子代理的独立实例、收集结果并取消后台工作。 - ✅ 可恢复会话：原子状态写入和持久工具收据支持中断后继续。报告具有不确定副作用的呼叫以供检查。 - ✅ 持久内存和工作区：会话在通过工作区共享项目文件和工件时保留单独的执行记录。 - ✅ 代理技能和可扩展工具：compa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, framework, sdk, sdk-python
+
+---
+
+### 🌟 [bowel](https://github.com/21stware/bowel)
+- **项目语言**: Go
+- **星标数量**: ⭐ 448
+- **核心概述**: Bowel 是适用于 macOS、Windows、Linux 和 Android 的 mihomo 客户端。
+- **大概是做什么的**: Entertain 是适用于 macOS、Windows、Linux 和 Android 的 mihomo 客户端。桌面界面是用 Go 构建的，直接通过 GPU 渲染，没有 WebView。 Android 应用程序是使用 Flutter 构建的，并且具有相同的卡片和皮肤。屏幕截图来自 macOS。按目的路由流量，并按速度手动或自动选择出口节点。检查每个连接的应用程序、目标、规则、退出和速度，或动态重新路由域。导入订阅链接、节点 URL、YAML 配置或 QR 代码，并显示每个源的数据使用情况���到期时间。从菜单栏或 Windows 和 Linux 上的系统托盘中切换系统代理接管、切换代理模式以及选择没有规则匹配的流量的节点。十三种皮肤可以改变整个界面的外观。 - 自定义规则：路由特定域、关键字或 IP 范围，并测试地址的去向；在 macOS、Windows 和 Linux 上，也可以按应用程序进行路由。 - 测量的出口位置：通过 Cloudflare 跟踪验证真实的出口位置。 - 网关模式（macOS、Linux）：将此计算机变成电视等设备的 LAN 网关
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, clash, clash-meta, linux, macos, mcp
+
+---
+
+### 🌟 [rigby2d](https://github.com/jaisurya-dev-art/rigby2d)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 228
+- **核心概述**: 适用于游戏和电影的开源 2D 骨骼动画编辑器。 AutoRig 分层 PSD、使用网格、IK 和物理进行动画处理、音频口型同步、渲染视频、导出 JSON/.skel。 JavaScript、Rust、Godot 和 Unity 运行时。内置MCP服务器，供AI助手使用。文档：rigby2d.com/docs
+- **大概是做什么的**: 英语 · 日本语 · 简体中文 · 한국어 · 西班牙语 · 葡萄牙语（巴西） 用于游戏和电影的开源 2D 骨骼动画。用骨骼和网格来装备你的艺术作品，为其制作动画，将其渲染为电影，并将其发送到任何游戏引擎。永远免费。 Windows · macOS · Linux · 或浏览器中的完整编辑器，无需安装 网站 · 文档 · 开发日志 · AlternativeTo 上列出的附加组件，位于 Spine、DragonBones 和 Live2D 旁边 在您已使用的引擎中运行 Unity 2021.3+ · 6 Cocos Creator 3.8 PixiJS 8 · WebGPU JavaScript 任何引擎 八个免费开源运行时。每个动画都与编辑器逐帧播放相同的动画。 ▶ 观看 Rigby2D 0.5：54 秒内的所有新内容 · 另外：认识一下 NILA，我们的吉祥物，在 Rigby2D 中制作动画 为 NILA 制作动画的编辑器：在树中选择的头部骨骼，在摄影表中的关键帧，在检查器中的姿势。 - Polydium（CG·VFX·游戏每日简报）：Rigby2D — 레동어 PSD를 자동으로 리깅하는 오픈소스 2D 스켈레탈 애니메 ה션 에디터 — 特色于韩国游戏和视觉特效工作室的 Polydium 管道简报。 - 便携式 Linux 应用程序：Rigby2D AppImage for Linux — 列于 AppImage 目录中
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: 2d-animation, ai, animation, animation-editor, cocos-creator, defold
+
+---
+
+### 🌟 [Brain4Agent](https://github.com/SparkofSpike/Brain4Agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 143
+- **核心概述**: 致力于为所有主流代理商打造全球最前沿、中日韩首创的内存模组。欢迎任何问题和 PR。
+- **大概是做什么的**: English 简体中文 日本语 한국어 代理商：从这里开始。 FOR AGENTS.md 是为您编写的页面 - 商店为代理做什么，如何安装它，如何调用它，以及它在哪里不再有用。代理的长期记忆。 CJK-first 检索，核心路径中没有模型，用证据代替置信度分数。 pip install "Brain4Agent[precise]" 需要 Python 3.11+，以及 20 MB 的可选字典。没有它一切都正常。 - 与另一个内存服务器一起运行 - 突破前沿 在代码库上工作的代理会积累上下文：为什么做出决定、哪种方法失败了、部署位于何处。 Brain4Agent 将这些回合存储在一个 SQLite 文件中，并通过会话检索它们。 - CJK 开箱即用。字符二元组不需要字典，也不需要分割模型。基准数据是中国的；支持并测试日语、韩语和越南语。 - 核心不进行模型调用。检索为 BM25：无 API 密钥、无加速器、无冷启动、每次查询个位数毫秒。 - 它报告证据，而不是判决。搜索返回公司的疑问词
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agent-skills, agent-tools, bm25, chinese, cjk
+
+---
+
 ## 🕔 2026-11-11 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
