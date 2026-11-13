@@ -1,3 +1,67 @@
+## 🕔 2026-11-13 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 270 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenExecutive](https://github.com/ForeactLabs/OpenExecutive)
+- **项目语言**: Python
+- **星标数量**: ⭐ 5,807
+- **核心概述**: AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist agents (FastAPI + Next.js).
+- **大概是做什么的**: Open Executive is designed to transform leadership and management. Highly configurable, it can be deployed at any management level. Out of the box it supports spend approval thresholds, integration with corporate knowledge systems, and defined governance for how it interacts with human colleagues and other AI systems. Open Executive can also act as a busy leader's digital twin: with Act as me switched on, it drafts email in their own voice, from their own Gmail, for them to review and send—so leaders can truly scale their impact through AI without giving up the final say. It meets people where they already work, with integrations for Slack, Discord, Telegram, Google Chat, email, Google Workspace, Microsoft 365 (Outlook mail and calendar, OneDrive), Notion, Confluence and any MCP-compatible AI tool, with more on the roadmap. Open Executive will always be open source. A managed cloud offering is coming (https://openexecutive.ai), where you can get access without deploying anything yourself. A walkthrough of Open Executive in action — watch on YouTube. Developed by Foreact Labs Open Exe
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, anthropic, claude, fastapi, llm, multi-agent
+
+---
+
+### 🌟 [Torch-Pruning](https://github.com/VainF/Torch-Pruning)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,372
+- **核心概述**: [CVPR 2023] DepGraph: Towards Any Structural Pruning; LLMs, Vision Foundation Models, etc.
+- **大概是做什么的**: =2.0-673ab7.svg" alt="Tested PyTorch Versions" Torch-Pruning (TP) is a framework for structural pruning with the following features: General-purpose Pruning Toolkit: TP enables structural pruning for a wide range of deep neural networks. Different from torch.nn.utils.prune that zeroizes parameters via masking, Torch-Pruning deploys an algorithm called ⚡ DepGraph to group and remove coupled parameters. Examples : Pruning off-the-shelf models from Huggingface, Timm, Torchvision, including Large Language Models (LLMs), Segment Anything Model (SAM), Diffusion Models, Vision Transformers, ConvNext, Yolov7, yolov8, Swin Transformers, BERT, FasterRCNN, SSD, ResNe(X)t, DenseNet, RegNet, DeepLab, etc. A detailed list can be found in 🎨 Examples. For more technical details, please refer to our CVPR'23 paper. DepGraph: Towards Any Structural Pruning Gongfan Fang, Xinyin Ma, Mingli Song, Michael Bi Mi, Xinchao Wang xML Lab, National University of Singapore - 🔥 2025.03.24 Examples for pruning DeepSeek-R1-Distill . - 🔥 2024.11.17 We are working to add more examples for LLMs , such as Llama-2/3,
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: efficient-deep-learning, llm, model-compression, pruning, transformers, vision
+
+---
+
+### 🌟 [mobilecli](https://github.com/mobile-next/mobilecli)
+- **项目语言**: Go
+- **星标数量**: ⭐ 317
+- **核心概述**: Universal command-line tool for managing iOS and Android devices, simulators, emulators and apps
+- **大概是做什么的**: English 日本語 简体中文 A universal command-line tool for managing iOS and Android devices, simulators, emulators and apps from Mobile Next. - Device Management : List, manage, interactive with connected mobile devices - Cross-Platform Support : Works with iOS physical devices, iOS simulators, Android devices, and Android emulators - Emulator/Simulator Control : Boot and shutdown emulators and simulators programmatically - Screenshot Capture : Take screenshots from any connected device with format options - Multiple Output Formats : Save screenshots as PNG or JPEG with quality control - Screencapture video streaming : Stream mjpeg/h264 video directly from device - Device Control : Reboot devices, tap screen coordinates, press hardware buttons - App Management : Launch, terminate, install, uninstall, clear data, list, and get foreground apps - Filesystem : Push, pull, list, mkdir, and rm files on-device or in app containers (Android, iOS Simulator) - Location Override : Fake the GPS location reported by a device - Crash Reports : List and fetch crash reports from iOS and Android devices - De
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adb, ai, ai-agents, ai-tools, android, cli
+
+---
+
+### 🌟 [blender-ai-copilot-flow](https://github.com/tiobeharxi1987/blender-ai-copilot-flow)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 146
+- **核心概述**: A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3d · blender addon · blender plugin · blender extension
+- **大概是做什么的**: blender-ai-copilot-flow A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. [download-url]: https://github.com/tiobeharxi1987/blender-ai-copilot-flow/releases [ Download ][download-url] Nothing lands unseen: every edit is proposed, approved, run in order, and reversible by name. The scary part of AI in a production scene is not what it builds—it is what it might change while you blink. blender-ai-copilot-flow makes every copilot action a visible step in a controlled flow: proposed before execution, approved by you, applied in sequence with earlier steps finished first, cancellable after the current operation, and undoable through named undo steps. Tool calls are validated against the allowed set before they run. You get the speed of an AI copilot with the audit trail of a pipeline. Fear of a wrecked scene Nothing runs without your approval Mystery diffs you discover later Each operation named and proposed b
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-automation, 3d-modeling, blender, blender-addon, blender-agents, blender-ai
+
+---
+
+### 🌟 [blender-ai-copilot-assets](https://github.com/zovulrira1974/blender-ai-copilot-assets)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 141
+- **核心概述**: An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. · blender-ai-copilot-assets · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation
+- **大概是做什么的**: blender-ai-copilot-assets An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. [download-url]: https://github.com/zovulrira1974/blender-ai-copilot-assets/releases Skip the tab-hopping: describe the mood, get the shortlist, approve the import—the asset lands in the scene with its license noted. Finding one good HDR or model means three sites, twenty tabs and a license you meant to check. blender-ai-copilot-assets searches the big free libraries from inside the chat: describe what the scene needs, compare what comes back, and import only after you confirm—assets, licenses and placement handled as part of the same supervised workflow that builds, lights and materials the scene around them. Three sites, twenty tabs, one HDR One search in the chat, results compared in place Imports that surprise you Every import waits for your confirmation Assets dropped at the origin Placement handled by the same scene tools Re-typing service keys in eve
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-automation, 3d-modeling, blender, blender-addon, blender-agents, blender-ai
+
+---
+
+### 🌟 [awesome-social-media-skills](https://github.com/UnderleveledBuilder/awesome-social-media-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 277
+- **核心概述**: 自媒体运营 Skill（技能包）精选：小���书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 的选题、写稿、配图、发布和数据，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, X, YouTube, TikTok and LinkedIn
+- **大概是做什么的**: Awesome Social Media Skills 自媒体运营 Skill（技能包）精选：小红书、抖音、公众号、视频号、B 站，以及 X、YouTube、TikTok、LinkedIn。从选题、写稿、配图到发布和看数据，装进千问、豆包、龙虾（OpenClaw）、WorkBuddy、Claude Code、Codex 等智能体就能用。 A curated list of agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, Bilibili, X, YouTube, TikTok and LinkedIn. 这里收录给 AI 智能体（agent）用的自媒体 skill：写小红书笔记和公众号文章、做封面和短视频、定时发布、追热点、回评论、看数据。大多是标准 SKILL.md 格式，支持技能的智能体都能装，装法见常见问题。每个项目都经过人工核对，收录前用脚本做过安全检查，按要干的活和平台整理。 收录 197 个 skill 项目 + 29 个 MCP 工具和开源平台 · 元数据更新于 2026-11-05 图例 ：🌟 精选 · 📝 提示词文件（非标准 skill）· 🔌 MCP 或命令行工具 · 🧩 完整应用 · 💤 超过 180 天未更新 · 📦 已归档 · ⚠️ 仓库失效 让 agent 帮你挑 ：这份清单也是一个 skill。运行 npx skills add UnderleveledBuilder/awesome-social-media-skills 装上 social-media-skill-finder，再问你的 agent「我做小红书美妆号，装哪个 skill 写笔记？」。 能替你发帖、回私信的工具，多半要用你的账号登录，有的会把 cookie 存在本地。装之前先读它的 SKILL.md 和脚本，看登录态存在哪、发给了谁。平台限制自动化操作，批量发布可能被限流或封号。 「人工核对」指核对过仓库说明、目录结构和分类，不等于实测过效果。「安全检查」是用脚本查二进制和压缩包、安装钩子、远程执行和读敏感文件，并列出脚本里的联网地址；查不到不等于安全。 - 全流程运营：选题 → 创作 → 发布 → 复盘（37） - MCP 和命令行工具（不是 skill）（19） - 相关开源平台（完整应用，不是 skill）（10） - Agent-Reach ★109.1k：Agent-Reach：让 agent 搜索和读取小红书、X、B 站、YouTube、Reddit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, awesome, awesome-list, claude-code, claude-skills, codex
+
+---
+
 ## 🕔 2026-11-13 15:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
