@@ -1,3 +1,67 @@
+## 🕔 2026-11-13 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 334 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [GenAI-Showcase](https://github.com/mongodb-developer/GenAI-Showcase)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 4,265
+- **核心概述**: MongoDB 的生成式 AI 展示：详尽的示例和示例应用程序集合，涵盖检索增强生成 (RAG)、AI 代理和行业特定用例。
+- **大概是做什么的**: MongoDB 的 GenAI 展示 欢迎来到 MongoDB 的生成式 AI 展示存储库！无论您是刚刚开始生成式 AI 之旅，还是希望构建高级 GenAI 应用程序，我们都能满足您的需求。该存储库包含详尽的示例和示例应用程序列表，涵盖检索增强生成 (RAG)、AI 代理和行业特定用例。了解 MongoDB 如何集成到 RAG 管道和 AI 代理中，充当矢量数据库、操作数据库和内存提供程序。此存储库主要包含： 文件夹说明 -------- ------------- 笔记本 Jupyter 笔记本 RAG、代理应用程序、评估等的示例 应用程序 Javascript 和 Python 应用程序和演示研讨会 自定进度的实践研讨会合作伙伴 来自我们的 AI 合作伙伴的贡献 您将需要连接到 MongoDB 集群才能运行此存储库中的任何应用程序或示例。请按照以下步骤进行设置： 注册免费的 MongoDB Atlas 帐户 创建新的数据库集群 获取数据库集群的连接字符串 我们欢迎贡献！ Please read o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, artificial-intelligence, atlas, generative-ai, jupyter-notebook, llms
+
+---
+
+### 🌟 [ui](https://github.com/vercel-labs/ui)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,329
+- **核心概述**: 代理构建下一代用户界面的行为库。
+- **大概是做什么的**: 代理构建下一代用户界面的行为库。键盘导航、焦点、选择、取消、弹出窗口、拖放以及他们所需的 ARIA 都位于 @ui-sdk/core 中，并带有适用于 React、Vue、Svelte、Solid 和 Web Components 的适配器。 UI SDK is in beta.为您的框架安装核心和适配器：对于其他框架，请将 @ui-sdk/react 替换为 @ui-sdk/vue 、 @ui-sdk/svelte 、 @ui-sdk/solid 或 @ui-sdk/web 。然后为您的代理提供 UI SDK 技能：UI SDK 中的每个组件都是根据行为构建的。您首先创建具有行为的原语。别担心，您不需要学习如何写这个。 Your agents will.我们让他们非常擅长。然后使用 createParts 将其呈现在您的框架中。所有五个部件的部件都是相同的。为每个部分注册一个自定义元素：然后在您的 HTML 中使用它们：欢迎贡献。请参阅 CONTRIBUTING.md 以在本地运行存储库并进行更改，并使用问题来报告错误。参与即表示您同意我们的行为准则。请不要针对安全漏洞公开发布问题。反而
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent, agents, aria, behaviors, component
+
+---
+
+### 🌟 [oh-my-cassette](https://github.com/Cassette-Editor/oh-my-cassette)
+- **项目语言**: Python
+- **星标数量**: ⭐ 220
+- **核心概述**: 你的随身 AI 剪辑搭档 | Pocket AI co-editor for video montage — AI video editing plugin & MCP server for Claude Code, Codex, Hermes & OpenCode
+- **大概是做什么的**: 通过与 Claude Code、Codex、OpenCode 或 Hermes 的 Cassette 代理交谈来编辑视频。 A small MCP bridge, installed from PyPI.编辑工具来自 Cassette MCP 服务，因此无需插件更新即可保持最新状态。一次真正的克劳德代码会话，每一个提示都在键入时显示。五部 4K 旅行电影（10.5 分钟的镜头）和一首歌曲进入，两句话的简短和一行修改被逐字发送给卡带代理商，一段 30 秒的 1080p MP4 进入卡带出口/。等待时间很快：实时导入需要 4.5 分钟，第一次剪辑需要 9.5 分钟，修订需要 3.5 分钟，导出需要 1 分钟。以 Pamgaea.mp3 的节奏，从这五部电影中剪辑出一段 30 秒的土耳其预告片。乘坐黎明时分在卡帕多西亚点亮的热气球，从古老的废墟到大海，在每个地方第一次出现时说出它的名字，最后在标题为“土耳其”的雾蒙蒙的湖上结束。废墟部分拖沓。只保留两张最好的以弗所照片，并将骆驼放在气球后面。观看它制作的预告片（MP4，30 秒，有声）。 Footage and music credits are below .安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-skills, ai-agent, ai-video-editing, chat-to-edit, claude-code
+
+---
+
+### 🌟 [hybridclaw](https://github.com/HybridAIOne/hybridclaw)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 161
+- **核心概述**: Enterprise-ready self-hosted AI assistant runtime with sandboxed execution, secure credentials, approvals, and memory
+- **大概是做什么的**: 适用于小型模型的业务技能 HybridClaw 的主要承诺是实际业务工作。捆绑的 CRM、营销、分析、财务、云、办公和运营技能作为经过测试的助手实施，具有评估场景、凭证边界和审批级别，并根据 Qwen/Qwen3.6-27B-FP8 作为小型模型基准进行验证。这就是有用的区别：紧凑的模型可以通过结构化轨道而不是脆弱的自由格式提示来操作 Salesforce、HubSpot、GA4、Google Ads、Lexware、Airtable、Miro、Zoho、Microsoft 365、仓库 SQL、发票、云操作和办公文档。 HybridClaw 还将代理视为网络同事。 Local agents, hosted HybridAI proxy agents, and trusted peer HybridClaw instances can address one another, exchange end-to-end encrypted A2A envelopes, and route work through approval-aware channels. A2A 本地模式保持对等交付和经过身份验证的管理可访问，同时禁用其他外部网关和通道 首次运行引导是围绕孵化构建的：新代理询问用户的工作、记录
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, anthropic, chatgpt, claude-code, clawdbot
+
+---
+
+### 🌟 [firenook](https://github.com/firenook-dev/firenook)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 105
+- **核心概述**: Firebase 本地模拟器套件的更快直接替代品：保留您的 firebase.json、SDK 和端口，写入速度提高 40 倍，内存减少 10 倍，无需 Java，并且数据在重启后仍可保存。
+- **大概是做什么的**: Firebase 本地模拟器套件的更快直接替代品 保留您的 firebase.json 、SDK 和端口。写入速度提高 40 倍，内存减少 10 倍，无需 Java，并且数据在重启后仍可保存。已经在使用 Firebase 模拟器？安装 Firenook 并更改一个词：相同的标志、相同的端口以及您的 firebase.json 、规则、函数代码和应用程​​序保持原样。 In a terminal, run it as npx firenook emulators:start .要在运行之间保留数据，并且每次停止时都不导出，请添加 --keep-data 。 Firenook 在 macOS、Linux 或 Windows 上需要 Node 22、24 或 26。开始一个新项目？ npx firenook init 设置了一个。入门涵盖两者。官方模拟器的插件。 Firenook 以 Firebase CLI 的方式读取 firebase.json 、 .firebaserc 、规则和索引，在相同端口上为 Firestore、Auth、Storage、Functions、Pub/Sub、Cloud Tasks 和 Eventarc 提供服务，并且您的客户端和 Admin SDK 连接不变。它导入和导出官方格式，因此您的数据可以双向移动。每个更改都会根据官方模拟器的记录行为进行检查。又快又轻。服务
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cloud-functions, cloud-storage, cloud-tasks, developer-tools, emulator, firebase
+
+---
+
+### 🌟 [railtracks](https://github.com/RailtownAI/railtracks)
+- **项目语言**: Python
+- **星标数量**: ⭐ 235
+- **核心概述**: 帮助开发人员构建弹性代理系统的代理框架
+- **大概是做什么的**: Assemble a custom agent harness in plain Python. The loop, the tools, the context, the controls, the record.都是你的。 Railtracks is a Python agent framework for building your own agents and/or harness .每一部分都是您自己组装的普通 Python 对象：工具调用循环、函数工具界面、子代理和 MCP 服务器、上下文管理、权限和预算控制以及每次运行的可重播记录。 No YAML, no DSL, no black-box runtime. Execution order, branching, and looping are expressed using standard Python control flow. What is an agent harness? Everything around the model call. The model brings judgment.安全带带来了不断调用它的循环、它可以到达的工具、它的上下文中的内容、它可以做什么的限制以及它所做的记录。 Change your model tomorrow and the harness is what you still own.五个部分。 Take the ones your problem needs, wire them together in plain Python, leave the rest out. Part What it decides Railtracks primitives Loop When the agent keeps going, and when it's done rt.agent node runs th
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, evaluations, harness, llms, observability, python
+
+---
+
 ## 🕔 2026-11-12 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 299 个候选项目中筛选出 6 个未推荐过的新项目。
