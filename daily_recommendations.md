@@ -1,3 +1,67 @@
+## 🕔 2026-11-13 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [meetingly-ai](https://github.com/iskandaryv/meetingly-ai)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 630
+- **核心概述**: Open-source AI interview assistant and meeting copilot: live answers during Zoom, Google Meet and Teams calls, on-device transcription, hidden from screen sharing. Free Cluely, Interview Coder and Final Round AI alternative for Windows, macOS, Linux.
+- **大概是做什么的**: Sponsored by AI Prime Tech : an AI API gateway with cheap Claude API and Codex API access. One key for Claude Code, Codex CLI and GPT models. Meetingly: open-source AI interview assistant and meeting copilot The answer, while they're still asking. Meetingly is a free, open-source AI assistant for job interviews and live meetings on Windows, macOS and Linux. It listens to Zoom, Google Meet, Microsoft Teams or any other call, transcribes it on your own computer and puts the answer on screen the moment a question is asked. Use the free plan (50 answers a day, no card), or bring your own OpenAI, OpenRouter or Ollama key. A free alternative to Cluely, Interview Coder, Final Round AI, LockedIn AI and Parakeet AI. English · 简体中文 · Русский · Español · Português · 日本語 · 한국어 Also: Intel Mac · Debian / Ubuntu (.deb) · Windows portable · meetinglyai.com Get started · Local and cloud data flows · Ollama setup · Meeting notes template - Real answers, instantly. When the other side asks something, press Answer (or let Pro's auto-answer do it): one bold line you can say, then a few catch points to e
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-interview-assistant, ai-meeting-assistant, cluely, cluely-alternative, cluely-clone, coding-interview
+
+---
+
+### 🌟 [gunshi](https://github.com/kazupon/gunshi)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 479
+- **核心概述**: Gunshi: JavaScript command-line library, your strategist for CLIs that people and AI agents use
+- **大概是做什么的**: Gunshi is a JavaScript command-line library, your strategist for CLIs that people and AI agents use. gunshi (軍師) is a position in ancient Japanese samurai battle in which a samurai devised strategies and gave orders. That name is inspired by the word "command". Gunshi is designed to simplify the creation of modern command-line interfaces: - 📏 Simple & AI agent friendly : Commands with simple APIs, output as JSON, and detects AI agents. - ⚙️ Declarative & Type Safe : Configure commands declaratively with full TypeScript support and type-safe argument parsing by args-tokens - 🧩 Composable & Lazy : Create modular sub-commands with context sharing and lazy loading for better performance. - 🎨 Flexible Rendering : Customize usage generation, validation errors, and help messages with pluggable renderers. - 🌍 Internationalization : Built with global users in mind, featuring locale-aware design, resource management, and multi-language support. - 🔌 Pluggable : Extensible plugin system with dependency management and lifecycle hooks for modular CLI development. Sub-commands are given with s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agents-md, ai-agent, args, argument, argv
+
+---
+
+### 🌟 [smolmaxxing](https://github.com/hyperionaidev/smolmaxxing)
+- **项目语言**: C
+- **星标数量**: ⭐ 385
+- **核心概述**: maxxing the ability to run different LLMs on the smallest devices possible
+- **大概是做什么的**: Run the biggest language model you can on the smallest hardware you own. TV boxes, old tablets, single-board computers and routers all have a CPU, some RAM and flash storage that sit idle most of the day. smolmaxxing finds the biggest model each of them can really run, then pushes it further with custom kernels, careful memory use and weights streamed from flash. Every number in this repo was measured on the device itself. 📺 Xiaomi TV Box S (3rd Gen) 📱 iPad Air (2013) Chip Amlogic S7D, 4× Cortex-A55 Apple A7, 2 cores RAM 1.9 GB (about 1 GB usable) 1 GB (about 700 MB usable) OS Android 14, no root iOS 12.5.7, jailbroken Everyday model Qwen3.5-2B at 7.7 tok/s Bonsai-1.7B (1-bit) at 24-26 tok/s Biggest model Ling-mini-2.0, 16B, at 5.1 tok/s Ling-mini-2.0, 16B, at 2.6-4.5 tok/s Full results docs/tv-box.md ipad-air/README.md Both devices run 8B and 16B mixture-of-experts models on about 1 GB of RAM by keeping only part of each model in memory and reading the rest from flash as it's needed. More devices (phones, single-board computers, routers) are coming. The techniques aren't tied to o
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: edge-ai, llama-cpp, llama-cpp-alternative, llm, local-llm, local-llm-support
+
+---
+
+### 🌟 [spec-harness](https://github.com/MicTx/spec-harness)
+- **项目语言**: Python
+- **星标数量**: ⭐ 305
+- **核心概述**: 面向 AI 编程智能体的任务包工作流工具，用可验证的范围、证据和 Git 门禁管理长期改动。(Task-package workflow for AI coding agents with verifiable scope, evidence, and Git gates.)
+- **大概是做什么的**: 面向 AI 编程智能体的两相任务包工作流：规划期做厚，执行期不问用户，直到可核对地交付。 English · 文档索引 · 快速开始 一个包只包含 .spec/specs/YYYY-MM-DD slug/ 下的 spec.md 与 tasks.md ； runs.jsonl 和 state.json 由 harness 写入。规划期用宪章与机器 lint 消除未知，Go 之后执行期按任务 DAG 自动推进、验证和检查点提交。命中 UI 路径的包还必须在 check 前保存真实操作流程与截图，经 spec.py ui-review --file 回写 ui-review.json ；每条 Criteria 要被真实操作覆盖，每个问题要写明解决方案并修复或取得用户接受，证据缺失、陈旧或未闭合时不能交付。 需要 Python 3.9+、Git、Bash，以及能读写项目并执行命令的宿主。 未设置 INSTALL HOSTS 时自动探测宿主； core 与 full 是兼容别名，载荷完全相同。安装器增量合并会话 hook，保留非 Spec 条目并先备份。 Claude Code / Desktop claude / claude-desktop Codex / Gemini / Grok codex / gemini / grok OpenCode / OpenClaw / Hermes opencode / openclaw / hermes Pi / ZCode / Devin pi / zcode / devin DeepSeek Harness / Cursor dsh / cursor 在项目中启用 Skill 后，用一句话给出目标： 没有活动包时 /spec 进入 plan 规划流，绑定包未 Go 时进入 update 规划流：先做只读侦察与意图澄清，再把假设、分岔和任务逆向验证写成可判定字段，最后运行 plan-go 。Go 之后不再问可逆问题；不可逆事项统一停泊，其他任务继续。 /spec 规划新包，或续跑当前分支绑定的包 /spec:plan 显式规划入口：创建或修订任务包，lint、定岔、 plan-go /spec:run [目标] 执行绑定包至终态；未绑定且带目标时内置一条龙：规划、执行、验收、交付 /spec:check 运行交付门禁（结构审计与命中 UI 时的真实操作、截屏和回写）；通过即自动归档、提交并完成 V4 交付 /spec:push 用户明确授权后完成 Git 交付（按当前分支解析已归档包） /spec:doctor 检查并修复运行时
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cli, codex, developer-tools, gemini-cli
+
+---
+
+### 🌟 [TaoSheng](https://github.com/0xCoach/TaoSheng)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 371
+- **核心概述**: 涛声 TaoSheng：用一部安卓手机全天收音 → 转写 → 认人 → AI 整理成待办与记忆。无需硬件、无需账号，数据只在你手机里。
+- **大概是做什么的**: 一部安卓手机就够：全天收音 → 自动转写 → 认出谁在说 → AI 整理成待办、约定和记忆。 不用买硬件，不用注册账号，数据只在你自己手机里。 🌐 官网：www.taosheng.app，感谢 @feitian124 帮忙制作，后续如考虑国际化或可能调整。 👉 点这里看完整宣传片（1 分 45 秒，带配乐） - 朋友随口说的电话号码、约好的时间，过两天想不起来； 市面上的方案要么得买录音硬件（Omi、各种 AI 吊坠、录音卡片），要么把你的声音全部传到别人的服务器上。 涛声的思路很简单：手机本来就随身，麦克风本来就在。 让它安安静静地在后台听，有人说话才录；隔一阵子统一转成文字，认出是谁说的，再交给大模型整理成一件件事。你需要时，打字问一句就能找回来，答案附着原话出处。 🧵 你和 AI 录音吊坠，只差一根绳子 市面上的 AI 录音卡、录音吊坠，拆开来看就是 一个蓝牙麦克风 + 一块电池 。 涛声能把手机麦克风或者任何蓝牙收音设备当作音源。所以拿根绳子把蓝牙耳机挂在脖子上，你就有了一个 AI 录音吊坠：硬件钱省了，数据也还在你自己手机里。 蓝牙耳机走的是通话通道，音质比手机麦克风略差，安静环境够用；耳机没电或断开时，涛声会自动切回手机麦克风。 1. 🎙 不用买任何硬件 ：手机麦克风就够；也支持领夹麦、蓝牙耳机等外接设备，插上自动切换，拔掉自动切回；还能接 Omi、安克／飞书录音豆 D3200 等专用录音设备（试用，见下方第 31 条）。 2. 📴 本地模型完全离线转写 ：可选 SenseVoice 本地识别（骁龙 NPU 加速），声音不出手机、不花一分钱；也可用豆包云端或自定义转写服务（OpenAI 兼容接口，或填写完整请求地址）。 3. ⏱ 自动转写 + 自动整理，时间自己定 ：转写间隔可设 15～720 分钟，转完自动整理成事件；每日回顾时间、技能运行时间都可调。 4. 🧑‍🤝‍🧑 声纹认人，分得清多个说话人 ：本机声纹认出“我”和熟人，多人会议自动分段；在原话上长按选“这是谁”，指定一次就能学会这个人的声音；每个人的声纹样本都能回放、删除。 5. ✅ 自动摘出待办 ：原话里答应的事、约好的时间自动变成待办；你说一句“发了”，它就知道这件事做完了。 6. 🃏 每天自动生成任务卡，技能随你定义 ：会议速记、收工打卡、每周回顾、情绪日记开箱即用；写一份 JSON + 提示词就能加自己的技能。 7. 💬 AI 问问，附原话出处 ：哪天说过什么、答应过谁什么，直接打字问；每个答案都能点回当时的原话。 8. 🤖 原话和整理结果自动推给你的 Agen
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, android, jetpack-compose, kotlin, lifelog, llm
+
+---
+
+### 🌟 [awesome-rsi](https://github.com/Prism-Shadow/awesome-rsi)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 606
+- **核心概述**: An Open Index of RSI Papers
+- **大概是做什么的**: From Existing Methods to New Research Ideas: Two Perspectives on Recursive Self-Improvement A nine-dimension taxonomy of RSI methods and insights from traditional deep learning to inspire new research. Watch the walkthrough · 1 min https://github.com/user-attachments/assets/70f488af-925c-4b93-ba03-5c84711b8dbf Awesome RSI collects benchmarks, methods, and systems for Recursive Self-Improvement . We follow the loop: an agent performs tasks, learns from trajectories and feedback, updates its own state, and uses that updated state in later work. That state can be model parameters, harness code, context, memory, or skills. 135 method papers · 33 benchmark papers · 3 systems Looking for… Start with… An introduction to RSI Understanding RSI — an illustrated guide, available in English and Chinese. A method to build on Methods & Systems — filter by artifacts, topology, feedback, and more. A way to measure improvement Benchmarks — compare artifacts and online, offline, or hybrid protocols. Connections between papers Citation graphs — switch between methods and benchmarks, search for a node,
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, autoresearch, claude-code, codex, deepseek-harness, gpt
+
+---
+
 ## 🕔 2026-11-13 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 334 个候选项目中筛选出 6 个未推荐过的新项目。
