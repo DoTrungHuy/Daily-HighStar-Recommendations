@@ -1,3 +1,67 @@
+## 🕔 2026-11-13 15:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pinky](https://github.com/DIYgod/pinky)
+- **项目语言**: Go
+- **星标数量**: ⭐ 2,072
+- **核心概述**: Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.
+- **大概是做什么的**: Let AI use your iPhone or Android phone, with you in the loop: any agent from macOS, Windows or Linux, or Pinky itself, right on the phone. English · 简体中文 · 日本語 A real Claude Code run on an Android 16 emulator. Pinky asks before payments by default; this run also asks before messages. Pinky lets any agent (Claude Code, Claude Desktop, Codex, Cursor or a script) operate a real iPhone or Android phone over MCP, while you watch on your computer, approve risky steps, take over and review what happened. Pinky can also do tasks by itself, with an AI model you choose: from your computer, or in Pinky's app right on the phone, with no computer at all. Whoever does the task, approvals are enforced by Pinky's gateway, not by instructions to the agent. - Every platform. One app for macOS (Apple silicon and Intel), Windows and Linux. It drives Android phones (Android 10 to 17) and iPhones on iOS 17.4 or later: nothing to install on iOS 27 and later, and Pinky on the iPhone, Pinky's app, installed once from a Mac with Xcode on iOS 17.4 to 26, which you can also choose on iOS 27 (tried there, on a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, claude-code, ios, iphone, mcp
+
+---
+
+### 🌟 [motion-skills](https://github.com/iart-ai/motion-skills)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,439
+- **核心概述**: 56 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 19 installable packs. By iart.ai, the AI motion agent.
+- **大概是做什么的**: Motion Graphics Skills for AI Coding Agents 56 open-source skills that teach your AI coding agent to make motion graphics, animation, and video — kinetic typography, data-driven charts, explainers, TikTok / Reels, 3D & WebGL, math animation, generative illustration, code-drawn canvas animation, transparent lower thirds, b-roll for talking-head videos, AI presenter films, and web motion. Nineteen installable packs. Install one, and your agent just knows how. Motion is the hardest thing to get right from a prompt: timing and easing, safe areas, frame-accurate rendering, on-brand type and color, a loop that actually loops. These skills encode that craft as agent-native workflows — each one teaches the agent how a professional would build it , with a deliver-and-verify loop (render a frame → screenshot → check) so it inspects its own output instead of hoping. They're the open-source craft behind iart.ai , the AI motion agent. Bring them into the agent you already use — or let iart.ai run the whole pipeline for you. Each pack is its own repo, aimed at one audience. Install only what you n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-animation, animation, claude-code, claude-skills
+
+---
+
+### 🌟 [capri-ai-desktop](https://github.com/edgerunners-2/capri-ai-desktop)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,015
+- **核心概述**: Cyberpunk AI desktop agent & voice companion for Windows. Supports Claude Code, Ollama, DeepSeek, Discord calls & screen automation.
+- **大概是做什么的**: Capri — a cyberpunk AI agent for your desktop. One app for Claude Code, Codex, Antigravity &amp; any AI assistant. Features · Quick Start · What You Can Ask · How It Works · Roadmap · FAQ Inspired by Cyberpunk: Edgerunners Capri is built for people who like their tech with an edge. The project takes its look and spirit from the cyberpunk genre and inspired by the style of Cyberpunk: Edgerunners, featuring an original AI construct named Capri. - Cyberpunk aesthetic: neon red and cyan on near-black, sharp edges and glitchy details. - Netrunner energy: you give the order, your AI operator handles the rest. - Edgerunner attitude: fast, independent and on your side. - Talks back. Type to her or voice chat, and turn on "Hey Capri" to call her by name. She answers in her own words, in 80 languages. - Talks out loud. In her own free voice, a voice model of yours, or Fish Audio, ElevenLabs or OpenAI. See Her voice. - Plays your games. She comments while you play, and she can play too. She's still learning. - Does things for you. She opens apps, plays music, closes tabs and clicks through jobs
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-companion, ai-girlfriend, ai-waifu, anime, claude
+
+---
+
+### 🌟 [opencode-mobile](https://github.com/dzianisv/opencode-mobile)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 308
+- **核心概述**: OpenCode Mobile — open-source Android client for the OpenCode AI coding agent. Run AI coding sessions from your phone against your self-hosted server over Tailscale. Available on F-Droid.
+- **大概是做什么的**: The open-source Android client for the opencode AI coding agent. AI-assisted coding from your phone — Android, via Google Play, F-Droid, or a direct APK. Not affiliated with opencode. OpenCode Mobile is an independent, community-built client and is not made by, endorsed by, or affiliated with the opencode / Anomaly team. It talks to an opencode server you run yourself, using opencode's open HTTP API. New: tap "Try a Demo" in the app to see the agent fix a real bug — reasoning, a grep, a diff, a permission prompt — in about 30 seconds, no server needed. There are three working ways to install OpenCode Mobile today, all for Android: 1. Google Play — https://play.google.com/store/apps/details?id=cc.agentlabs.opencode 2. F-Droid (self-hosted repo) — add our self-hosted repo to any F-Droid client, then install/update from there: In the F-Droid app: Settings → Repositories → + (add) and paste the URL above. Current version: v0.4.7 . 3. Direct signed APK — download the latest release and install it manually: https://github.com/dzianisv/opencode-mobile/releases/latest iOS is not available (s
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-coding-assistant, android, android-app, claude
+
+---
+
+### 🌟 [production-ai-agents-for-media-generation](https://github.com/DataTalksClub/production-ai-agents-for-media-generation)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 338
+- **核心概述**: Build production AI agents that generate images, video and audio on serverless GPUs. Free course. Apply 👇🏼
+- **大概是做什么的**: Starts Mon 16 Nov 2026 · Apply here How do you build a production AI system when an agent can launch expensive, slow, failure-prone GPU workloads that produce large media artifacts? Media agents are an engineering problem, not a prompting problem. In this course, you build one production system that handles it: a Personalized Media Factory . 1. Input: a brief, made of a task prompt, a data record and constraints (format, style, budget) 2. Agent (LLM): plans the asset and writes its text, such as a card message or an ad script 3. GPU models: generate an image plus voice or video 4. Check: regenerates the asset when it is not good enough 5. Scale: from 1 to 1,000+ records, with a cost per asset How to run image, video and audio models as Jobs and Endpoints on serverless GPUs, without managing a cluster How to give agents GPU models as tools (MCP) and build generate → evaluate → regenerate loops How to fan out batch workloads on spot GPUs, handle failures and report cost per asset How to add evals, tracing and SLOs so you can say what a media agent costs and when it is good enough to sh
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, course, diffusion-models, free, generative-ai, gpu
+
+---
+
+### 🌟 [alira](https://github.com/JJJJSTIYYYY/alira)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 310
+- **核心概述**: Alira harness
+- **大概是做什么的**: Alira 为构建 AI Agent 应用提供模型调用、上下文管理、工具接入与消息存储能力。 通过模块组合所需功能，让同一套运行时适应不同的应用场景。 项目处于早期开发阶段，接口与功能仍在演进。 - 模块化运行 ：按需选择启动模块，自动加载前置模块，依赖在部署时显式安装。 - Agent 编排 ：基于 Apixis 的事件与图执行能力，组织 Agent 的执行流程。 - 工具接入 ：支持函数工具与 MCP，扩展 Agent 可调用的能力。 - 消息与存储 ：提供上下文管理、消息持久化与可选的 SQLite 向量检索。 需要 Python 3.12+ 和 uv。从源码启动： PyPI 发行包名为 alira-harness ，Python 导入名和命令均为 alira 。 uv run alira 只启动内核 uv run alira --help 查看命令与启动参数 uv run alira list 只列出模块目录，不导入模块或读取依赖记录 uv run alira sync 全量重建依赖记录，同步环境并清理不再需要的包 uv run alira sync --no-install 只解析依赖并更新记录 uv run alira add web 管理已有 web 模块及前置模块的 Python 依赖 uv run alira add web --no-install 只更新指定模块的依赖记录 uv run alira remove web 移除依赖管理记录并清理独占依赖，保留源码 uv run alira install ./example.zip 安装模块源码并自动执行 add uv run alira install https://github.com/owner/repo --ref v1.0.0 从 GitHub 安装模块及依赖 uv run alira install -r package.yml 批量安装清单中的模块，再一次性执行全量 sync uv run alira uninstall example 清理依赖并将模块源码送入系统回收站 uv run alira --modules web 启动 web，自动加载前置模块 uv run alira --modules web --install-missing 显式先部署选定模块依赖，再启动 web 批量安装清单示例（本地 ZIP 路径相对于 package.yml ）： 命令会先检查全部源码和前置模块，再安装源码、统一同步依赖。解析失败会撤回新增源码；安装中断后运行 uv run alira
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, apixis, electron, fastapi, gateway
+
+---
+
 ## 🕔 2026-11-13 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 203 个候选项目中筛选出 6 个未推荐过的新项目。
