@@ -1,3 +1,67 @@
+## 🕔 2026-11-14 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [android-agent](https://github.com/ghost-in-the-droid/android-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 422
+- **核心概述**: Give any AI agent a real phone: Android over ADB, iPhone over WebDriverAgent. 66 MCP tools, a Skill Hub with 117 skills for 113 apps, and human-in-the-loop steps (a person solves the captcha, the agent carries on).
+- **大概是做什么的**: Summon a ghost into your phone. It sees the screen. It taps the buttons. It never sleeps. ▶ Watch full HD with sound on YouTube · Download mp4 Nine agents. Nine real devices. One ghost. (Click to watch.) The pitch, in one breath Every AI agent can think. Almost none can touch a phone. Ghost is the body. It gives any LLM agent a real Android phone or iPhone: it reads the screen, taps, swipes, and types through a clean tool surface, and it scales from one device on your desk to a whole phone farm. Point Claude Code, Codex, Antigravity, Cursor, your LangChain app, or a model running inside the phone itself at it, and your agent grows hands. Bring your own brain. Keep the same body. MIT, forever. Mix and match: the Ghost matrix Ghost 1.3 is the only Android + iOS agent framework where platform , brain , and driver are all swappable. Pick one from each column. They all compose. Pick a platform Pick a brain Pick a driver Android over USB ADB Claude Code (free with your Max/Pro sub) MCP client (Claude Code, Codex, Antigravity, Cursor, Opencode) Android over Wi-Fi ADB Anthropic API LangChain
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adb, ai-agents, android, android-automation, automation, claude-code
+
+---
+
+### 🌟 [crucible](https://github.com/codepawl/crucible)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 636
+- **核心概述**: 3D engine that AI agents drive
+- **大概是做什么的**: Classroom by Christophe Seux, CC0, from the Blender demo files, path traced in Crucible with Cook Crucible is a 3D engine for JavaScript that an AI agent drives through an MCP server. It makes 3D easy to understand and easy to do. 67js → Crucible. 67js is the old name. The @codepawlhq/67js package is deprecated: install @codepawlhq/crucible instead. Old 67js.codepawl.com links redirect here. The agent knows every part of Crucible and carries the heavy steps. It builds the scene, lights it, checks the preview and renders the result. You keep the creative choices and stay in the loop, because the agent shows previews and asks when a matter of taste is open. Scenes built with Crucible open live in the browser on the showcase. Crucible is a 3D engine for AI agents and for pages. It has a real-time rasterizer, a path tracer, addons for terrain, vegetation, characters, liquid, vehicles and media export, and an MCP server. A scene is plain data: each part has a geometry, a matrix and a material. An agent builds and changes a scene through the MCP server, looks at PNG previews and renders st
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, 3d-engine, agentic-ai, ai-agents, blender, claude-code
+
+---
+
+### 🌟 [deepseek-harness-mobile](https://github.com/sorsama/deepseek-harness-mobile)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 308
+- **核心概述**: Android companion for DeepSeek Harness | chat, goals, approvals & notifications from your phone, over your LAN. Kotlin + Jetpack Compose.
+- **大概是做什么的**: An Android app for driving a DeepSeek Harness from your phone. The DeepSeek Harness is an AI coding agent that runs on your computer and has a web interface. DSH Mobile connects to that harness and gives you the same controls in a native Android app. You can start a task at your desk, then follow it, answer its questions and approve its commands from This is an unofficial, community-built app. It needs a harness running somewhere it can reach: on your computer, or on the phone itself through Termux. The project site has a one-page overview, and the wiki has the full user guide. Connect Chat Trajectory Details Paste the link the harness prints, and you are connected and signed in. Replies stream in. Tool calls fold into one row you can open. Every tool call, turn by turn. The session's model, context, goal, plan mode and jobs. Subagents Terminal Sessions Preview Read what a subagent did and send it a follow-up. A real shell on the harness computer. Group sessions by project and drag them into your own order. A README drawn the way GitHub draws it, on its own screen. Appearance Color p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, cordis, deepseek, dsh, dsh-plugin, dsh-plugins
+
+---
+
+### 🌟 [ai--manus2.0](https://github.com/Topkiflare74/ai--manus2.0)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 678
+- **核心概述**: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+- **大概是做什么的**: Manus - Autonomous AI Agent - Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - Code And Browser In One Flow: Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
+### 🌟 [ai--manus2.0](https://github.com/topapothecarycanal/ai--manus2.0)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 667
+- **核心概述**: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+- **大概是做什么的**: Manus - Autonomous AI Agent - Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - Code And Browser In One Flow: Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
+### 🌟 [noodle](https://github.com/noodle-rest/noodle)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 403
+- **核心概述**: A REST Client where the Repository is the Workspace
+- **大概是做什么的**: The repository is the workspace Open-source terminal REST client Write, send, inspect, and automate HTTP requests from readable files without leaving your terminal. Keep every collection versioned beside the code it exercises, ready for the TUI, CLI, scripts, and coding agents. Install from Homebrew core: Or use the standalone installer: Prebuilt binaries support macOS and Linux (glibc) on arm64 and x86 64, plus Windows x64 See installation options for Homebrew and source builds. Run noodle agent install after a brew upgrade to refresh an installed skill. If you used wilfredinni/noodle , follow the tap migration instructions. Windows x64 binaries are included from v0.9.7. Install from PowerShell: The installer verifies the release checksum, installs to %LOCALAPPDATA%\Programs\Noodle\noodle.exe , and updates your user PATH. Windows executables are unsigned; browser downloads may trigger Windows trust prompts. Ordinary-account and interactive terminal testing remains pending. The v0.10.1 Defender report remains unresolved; it is not a confirmed false positive or evidence about every la
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-skills, ai-tools, api-client, cli, developer-tools
+
+---
+
 ## 🕔 2026-11-14 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
