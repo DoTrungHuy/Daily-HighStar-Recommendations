@@ -1,3 +1,67 @@
+## 🕔 2026-11-14 06:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 249 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [FridayOS1.0](https://github.com/Robinson-AI-Lab/FridayOS1.0)
+- **项目语言**: Python
+- **星标数量**: ⭐ 899
+- **核心概述**: Local-first AI second brain & personal knowledge management: Six-Brain Markdown blueprint, Obsidian example vault, offline deployment and bilingual guides. 六脑方法 · 本地知识管理
+- **大概是做什么的**: FridayOS 1.0 — 本地优先的人工智能第二大脑，用于知识工作 英语 · 简体中文 · 关于实验室 为知识提供一个你的人工智能可以使用的结构。 FridayOS 1.0 是一个围绕六脑方法构建的开源个人知识管理 (PKM) 项目。它提供了本地 Markdown 蓝图、Obsidian 示例库以及用于构建 AI 第二大脑的双语指南。受人脑功能划分的启发，它将资源、知识、任务和可重用方法组织到合作区域中。方法→下载→开始→收集的材料、活动的任务、既定的理解和可重复的方法需要不同的处理。星期五从大脑功能中汲取灵感，赋予每个区域责任，并通过参考和反馈将它们连接起来。欧文·滕（Owen Teng）提出了六脑方法，这是通过周五与罗宾逊人工智能实验室的实践开发出来的。该设计将受大脑启发的责任、信息流和人与人工智能的合作联系起来。公开可用的工具提供存储、接口和执行。区域 功能灵感 Wha
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, fridayos, human-ai-collaboration, knowledge-management, local-first
+
+---
+
+### 🌟 [docetl](https://github.com/ucbepic/docetl)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,238
+- **核心概述**: 由 LLM 驱动的代理数据处理和 ETL 系统
+- **大概是做什么的**: DocETL：声明式和代理式 Map-Reduce 什么是 DocETL · 安装 · Python API · YAML · DocWrangler UI · 文档 DocETL 可帮助您使用法学硕士处理大量数据（结构化和非结构化）。您用自然语言编写每个操作，例如“提取此票证中的所有投诉”，DocETL - 提供您需要的运算符（映射、归约、过滤等）并编排它们，跨数据并行化工作， - 自动优化您的管道，交换模型，重写提示，分解操作，并尽可能用代码替换子任务，以提高准确性并降低成本，并且 - 返回表，易于在您喜欢的数据库中查询。如果没有 DocETL，您需要自己编写每个 LLM 调用，将它们连接在一起，然后手动调整结果的准确性、成本和延迟。需要帮助编写您的管道吗？使用 Claude Code（推荐）：运行 docetl install-skill 并描述您的任务。请参阅快速入门。如果您更愿意使用 ChatGPT 或 Claude 应用程序，请在描述您的任务之前将 docetl.org/llms-full.txt 上的提示复制到聊天中。 Python API（推荐
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, data, data-pipelines, document-analysis, document-processing, elt
+
+---
+
+### 🌟 [mcp-server](https://github.com/sv-number/mcp-server)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 522
+- **核心概述**: 适用于需要电话号码的 AI 客服的 MCP 服务器：在 200 多个国家/地区订购私人号码，读取短信验证码，然后将其返还。该类别中覆盖的国家/地区最广，只需调用一次 API 即可查看。
+- **大概是做什么的**: SV 号码 MCP 服务器 电话号码作为工具。您的代理在服务所需的国家/地区订购一个私人号码，直接从 API 读取短信验证码，然后将号码交还。九个超过 stdio 的工具，无需学习 SDK。免费开始：促销代码 SVFREE 为每个帐户提供一个免费号码。在您的个人资料页面 (sms-verification-number.com/en/user/profile/) 上 API 密钥旁边的促销代码字段中输入该代码，然后单击“应用”。该代码适用于前 1000 次激活。 200 多个国家/地区，是该类别中覆盖范围最广的。此页面上的所有其他声明也都是可检查的，但此声明只需要一次调用：运行列出国家/地区并计算行数。任何读取 JSON 配置的内容（Codex、Cursor、Claude Desktop）：密钥来自您注册后的个人资料。新帐户还没有密钥：首先在个人资料页面上生成它。除了 SVFREE 起始号码之外，还必须提供余额。密钥是从环境中读取的，并且永远不会离开进程，没有工具返回它，也没有错误消息引用它。获取余额 帐户中剩余的内容 列表国家/地区 每个国家/地区
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude, claude-code, cline, cursor, gemini-cli-extension
+
+---
+
+### 🌟 [ctrlb-decompose](https://github.com/ctrlb-hq/ctrlb-decompose)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 305
+- **核心概述**: 日志上的 LLM 推理面
+- **大概是做什么的**: 将数百万条嘈杂的日志行转换为带有类型化变量、分位数、异常和 LLM 就绪输出的紧凑模式。作为 CLI 运行，通过 WASM 在浏览器中运行，或者作为 Rust 库运行 - 任何日志都不会离开您的机器。 60 秒内试用 无需安装，无需注册 - 整个管道（CLP 编码、Drain3 集群、打字、统计）在 WebAssembly 中的客户端运行。 1. 打开 ctrlb.ai/decompose 2. 粘贴或放入日志文件（或单击“生成示例”以使用示例数据进行尝试） 3. 点击“分析”并观察数千行折叠成少数键入模式 真正的 56,482 行 Apache 样式错误日志，在浏览器演示中实时分解：之前 — 原始、重复、不可略读：之后 — 25 种键入模式，按数量排名，以 246 毫秒为单位：人类模式 - 彩色，用于终端调查：LLM OPTIMIZE 模式 - 用于输入 LLM 的紧凑降价：实时浏览器演示 ctrlb.ai/decompose Claude 代码插件 github.com/ctrlb-hq/ctrlb-decompose/tree/main/plugin 研究论文 ctrlb.ai/research ctrlb-decompose 使用两阶段标准化和集群管道来处理单个流中的日志
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: compression-algorithm, llm, logging, monitoring, telemetry, token-optimization
+
+---
+
+### 🌟 [david-share](https://github.com/david-xinyuwei/david-share)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 450
+- **核心概述**: 人工智能代理和深度学习：代码、基准测试和解释器。在 Microsoft Foundry 和 Azure 上构建和操作代理； NVIDIA 和 AMD 上的微调、推理优化、精度和 GPU 基准测试；多式联运模型。
+- **大概是做什么的**: AI 代理和深度学习：代码、基准和解释器 有关构建 AI 代理以及培训、服务和测量其背后模型的实践项目，主要在 Azure 上 此存储库收集了 Wei 新宇 (魏新宇) 在两个相关领域的实践工作： - AI 代理：在 Microsoft Foundry 和 Azure 上构建、托管和操作代理、它们调用的模型 API 和网关、语音代理、检索和 MCP。 - 深度学习：微调和强化学习、推理优化、精度和量化、NVIDIA 和 AMD 硬件上的 GPU 选择、多模态模型和单主题算法解释器。每个文件夹都是一个独立的项目，有自己的自述文件。最近的许多项目还包括生成其数字的脚本、原始结果和 CI 检查。最后更新项目领域 2026-11-14 热 3D 建模工作室：Azure OpenAI GPT-6 Astra 编写模型代码，OpenCascade 构建 STEP AI 代理 2026-11-05 大型 MoE 模型的组件精度和部署指南 深度学习 2026-11-03 边缘决策模型：微调和推理优化
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, azure, deep-learning, fine-tuning, gpu, inference-optimization
+
+---
+
+### 🌟 [AI-Short-Video-Engine](https://github.com/chenwr727/AI-Short-Video-Engine)
+- **项目语言**: Python
+- **星标数量**: ⭐ 251
+- **核心概述**: AI Short Video Engine: Where AI Meets Video Rendering. Transform Articles into Viral-Ready Video Reels with AI-Powered Precision. AI Short Video Engine: 让AI替你拍短视频。用AI精准打造爆款短视频，文章秒变流量密码
+- **大概是做什么的**: ⚡ AI Short Video Engine: 让AI替你拍短视频 🚀 用AI精准打造爆款短视频，文章秒变流量密码 AI Short Video Engine 是一个基于 AI 的智能视频生成平台，能够将多种输入内容（如文章链接、文案主题文本（支持联网搜索））一键转化为高质量、富有表现力的互动式短视频内容。借助先进的多模态大语言模型（LLM）技术，我们让内容创作变得更简单、更高效、更具传播力。 无论是新闻资讯、科技文章、公众号推文，还是用户自定义的主题内容，只需提供 URL、文本主题，AI Short Video Engine 即可自动完成内容理解、脚本生成、素材匹配、语音合成与视频剪辑，输出可用于社交平台发布的专业级短视频。 功能模块 描述说明 ----------------------- ---------- 🤖 智能内容理解 自动提取文章核心信息，生成结构化脚本 🎭 多角色对话生成 将内容转化为生动的多人物对话形式，提升趣味性 🔍 智能素材匹配 基于语义分析自动匹配相关视频与图片素材 🗣️ AI 语音合成 支持多角色自然语音配音，情感丰富、音色多样 🎥 全流程视频制作 自动完成剪辑、字幕添加、画面合成等后期处理 - 📰 新闻资讯视频化 ：快速将热点新闻转化为短视频，抢占流量先机 - 📚 文章内容可视化 ：把枯燥的文字变成有声有色的视频，增强传播力 - 🎤 播客内容制作 ：自动生成对话式播客，节省录制与编辑时间 - 📱 批量短视频生产 ：适用于自媒体运营、企业宣传、知识科普等领域 - 🎮 游戏攻略视频化 ：将游戏资讯、操作指南等内容快速生成视频 注意：以下示例视频经过剪辑压缩，仅展示部分效果。完整视频可通过点击标题查看原文后自行生成。 📄 原文参考 ：《为了电动车，美国十七州“怒告”特朗普》 - 前端界面 ：Streamlit - AI 引擎 ：Deepseek API - 语音合成 ：Tongyi TTS - ImageMagick（用于图像处理） 请编辑 config.toml 文件，填写以下必要参数： - Pexels 或 Pixabay API Key Web 界面（ web.py ）带有登录鉴权，账号信息读取自项目根目录的 auth.yaml 。该文件包含密码哈希与 cookie 密钥， 已加入 .gitignore ，不会提交到仓库 ，需要从模板自行创建： 然后生成密码哈希与 cookie 密钥，填入 auth.yaml ： 对应填写 auth.yaml 中的两个字段： credentials.usernames. .
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, deepseek, douyin, notebooklm, reels, tiktok
+
+---
+
 ## 🕔 2026-11-14 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 278 个候选项目中筛选出 6 个未推荐过的新项目。
