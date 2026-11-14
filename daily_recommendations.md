@@ -1,3 +1,67 @@
+## 🕔 2026-11-14 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 253 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [sand3d](https://github.com/Sandflow-ai/sand3d)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 1,989
+- **核心概述**: 3D modeling in Python, built for LLMs.
+- **大概是做什么的**: 3D modeling in Python, built for LLMs. sand3d is a Python library for writing 3D objects as short programs: profiles, solids, edits, frames, joints and assemblies, over Blender's bpy . A program says how a shape is made, part by part and in its own words, so a model writes it in a few hundred tokens and a person can read it. How it is measured, part by part - Short. A part takes 2 to 6× fewer tokens than the same part in Blender Python, CadQuery or FeatureScript (details). - The whole API fits in a prompt , about 3,600 tokens (the API). - Named, not computed. Parts, edges and faces are reached by name, never by hand-computed coordinates. - Deterministic. The same program builds the same mesh, bit for bit. A whole object, part by part A front-loading washing machine in 38 lines of code (play it and read it): the cabinet, the drum, the door with its glass and handle, the detergent drawer and the dial, each a named part, and four joints that say how they move. Export: GLB, URDF, USD, IFC, OBJ, STL One call; the file's extension names the format; lengths in metres. format what it carries
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d, blender, cad, llm, procedural-modeling, python
+
+---
+
+### 🌟 [ai-marketing-claude-code-skills](https://github.com/BrianRWagner/ai-marketing-claude-code-skills)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 454
+- **核心概述**: Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc.
+- **大概是做什么的**: AI Marketing Skills for Claude Code Marketing frameworks that Claude Code actually executes. Not guides. Not courses. Skills — packaged expertise your AI coding agent loads and follows. March 2026 — v3.1: All 16 free skills support quick standard deep execution modes. Get fast answers or deep audits from the same skill — no extra prompting. See what changed → What Are Agent Skills? Agent Skills are an open standard for packaging expertise as instructions that AI agents can follow. Traditional content: You read it → You apply it → You forget half of it. Agent Skills: Your agent reads it → Your agent applies it → Every time. Perfectly. Think of it like giving Claude Code a playbook written by an expert. Instead of prompting from scratch every time, the skill provides the framework, questions, and output format automatically. Quick Install (Claude Code) That's it. Claude Code will now automatically use these skills when you mention related topics. Strategy & Positioning 🎯 Positioning Basics Core positioning framework for founders and marketers. Clarify who you're for, what you do, and
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, branding, claude, claude-code, claude-code-skills
+
+---
+
+### 🌟 [uncut](https://github.com/Balanov/uncut)
+- **项目语言**: Go
+- **星标数量**: ⭐ 266
+- **核心概述**: The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.
+- **大概是做什么的**: Full context in. Complete results out. Explicit failure when the provider cuts. Linux · macOS · Windows · amd64 + arm64 · MIT Six recorded scenarios against a deterministic local provider. Raw results · Run it yourself . Transport checks, not a model-quality benchmark. UNCUT is a tiny coding-agent harness for shell pipelines, CI jobs, containers, and agent experiments. It deliberately has no TUI, telemetry, plugin system, background agents, automatic retries, or context compaction. The entire conversation is sent on every model call. File contents and combined command output are never truncated by UNCUT. If the provider cuts a response at its output limit, UNCUT exits with an error instead of presenting a partial answer as success. Run the proof yourself or inspect the recorded measurements. - Lossless by default. No summarization, pruning, sliding windows, or silent output caps. - Headless only. Final text goes to stdout; structured NDJSON events are available with --json . - Small and portable. One statically linked Go binary, no runtime or third-party Go dependencies. - Provider n
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, agent-harness, agent-skills, ai, cli, coding-agent
+
+---
+
+### 🌟 [shellfirm](https://github.com/kaplanelad/shellfirm)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 957
+- **核心概述**: Safety guardrails for ai coding agents and human terminal commands
+- **大概是做什么的**: Think before you execute. Humans make mistakes. AI agents make them faster. shellfirm intercepts dangerous shell commands before the damage is done. This is real output, captured in zsh with default settings on the protected main branch. (In bash the banner starts after a blank line. Off a protected branch the challenge is not escalated, and the banner also tells you how to stop being asked: shellfirm config ignore ; that hint is left out when the context raised the challenge.) The exact output depends on the command, your settings and where you run it. The challenge is a small math problem, pressing Enter, or typing yes : the higher the severity and the riskier the context (protected branch, SSH, root, production cluster), the stricter the challenge. Commands on a deny list are blocked outright. Prefer no math? See Accessibility. - 496 built-in checks across 23 groups (filesystem, git, Kubernetes, Terraform, Docker, AWS, GCP, Azure, Heroku, Fly.io, Vercel, Netlify, GitHub, npm, databases, Redis, MongoDB, network, remote-script execution such as curl … bash ( shell ), credential exfi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, captcha, devops, devops-tools, mcp
+
+---
+
+### 🌟 [deep-student](https://github.com/helixnow/deep-student)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 315
+- **核心概述**: An open-source, local-first AI learning workbench
+- **大概是做什么的**: Just focus on learning. Leave the rest to me. An open-source, local-first AI learning workbench. Its study agent works directly in every app on your Study Desktop. v0.20.x — Electron + Capacitor + WebUI + Cordis. DeepStudent has completed its cutover from the legacy Tauri 2 / Rust backend ( 0.11.x ) to a 100% TypeScript dual-kernel plugin architecture on @deepseek-ai/cordis , unified here at helixnow/deep-student . Classic layout (sidebar + single page) · Android Study Desktop (the default on desktop) A study agent that works in every app One sentence is enough. The agent opens the right app and produces the notes, mind maps, questions, cards and review plan; longer tasks it carries through on its own. Notes, mind maps, exam sets, flashcards, todos, essay review and translation all have agent tools, so results land directly in the app instead of staying in a chat window. It can also operate the Study Desktop itself, research the web and academic papers, turn a recorded lecture into timestamped notes, produce Word, PowerPoint and Excel files, and render interactive explanations direct
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anki, education, flashcards, fsrs, learning
+
+---
+
+### 🌟 [alphaevo](https://github.com/ZhuLinsen/alphaevo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 221
+- **核心概述**: An Self-Evolving Stock Strategy Research Agent 策略回测和自我进化
+- **大概是做什么的**: An Open-Source Recursive Self-Improvement (RSI) Agent for Stock Strategy Research Diagnose, mutate, falsify, and shadow-verify equity strategies with a full evidence trail Overview · Core Capabilities · Quick Start · Architecture · Validation · CLI AlphaEvo is a self-evolving stock strategy research agent. It turns a readable YAML strategy into a disciplined recursive self-improvement (RSI) loop: backtest, diagnose failure, propose a controlled mutation or new factor, stress-test against overfitting, and keep the full evidence trail. To keep self-evolution honest on noisy equity data, AlphaEvo separates fast offline hypothesis search from slow forward promotion : historical backtests can only veto weak candidates, while a bitemporal forward shadow ledger tracks out-of-sample commitments ( T+5 / T+10 / T+20 ) before any promotion. Reproducible no-key showcase Bundled frozen yfinance snapshot, US tech basket, 2025-02-11 to 2026-04-10: Strategy Signals Win Rate Avg Return Max DD Score ---------- --------- ---------- ------------ -------- ------- rsi reversion v1 baseline 0 0.0% 0.00% 0.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, evolution, finance, fintech, llm, openclaw
+
+---
+
 ## 🕔 2026-11-14 06:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 249 个候选项目中筛选出 6 个未推荐过的新项目。
