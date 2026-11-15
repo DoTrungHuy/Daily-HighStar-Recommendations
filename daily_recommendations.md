@@ -1,3 +1,67 @@
+## 🕔 2026-11-15 07:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [pullboard](https://github.com/pullboard-dev/pullboard)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 826
+- **核心概述**: Autonomous development for real products. Governed agents build from specs you approve, follow the rules you set, and nothing merges until another agent proves it. Your decisions, judgement and taste are the bar that work must clear. Declare your vision and let agents build it.
+- **大概是做什么的**: pullboard.dev · lives in your git repo · no dependencies · Walk away, and it builds. Pullboard enforces your intent and decisions. Build autonomously. 1. Vision: what you want. 2. Specification: your vision written down. 3. Inspection: independent verification. Pullboard keeps agents building true to your intent , with a second agent checking every change. Your judgement carries across every agent and every session, so a complex project stays coherent for months. It's a coordination queue for serious software: you decide what matters once, and many agents build, check and land the work. Watch Pullboard build itself, live → Vibe code a real product. Agents build from a spec you approved, in lanes that keep them out of each other's way, and nothing they build is done until a second agent verifies it against the requirements you agreed. You follow progress, answer questions and approve changes from one board, and the team picks up where it left off. Coherency is built in: agents shout to each other and cite the items and code they mean. It's a vibe-first, spec-driven, test-proven method
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-governance, autonomous-agents, claude-code, cli
+
+---
+
+### 🌟 [solo-to-team-skills](https://github.com/dabingfy-dot/solo-to-team-skills)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 883
+- **核心概述**: Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。
+- **大概是做什么的**: English version: README.en.md 团队组织与协作报告（PDF，17页）：docs/solo-to-team-value.pdf 仓名： solo-to-team-skills 英文副标题： Skills for human-led AI teams. 中文说明：一个人统筹 AI 团队的协作技能包。 文档状态： v0.9-draft ，非最终发布稿，正式公开前还会改。已在多个 Agent 工具中完成实际使用验证（取得→装／配置→按名调用→产出登记行；另外当前包上八家各有一例有限任务的验收记录（真实成果→对照要求检查→人工验收）：Codex 保留此前单独验证的一例，其余七家按同一会议转写题补验，部分宿主经受阻重跑或退回修订后才通过；不代表稳定性或所有任务都能做成，调用方式各家不同（有的由使用者本人在宿主里发出，有的命令行或代点），部分宿主未保留技能加载的原始轨迹；不表示每家四个技能都逐一被调用，也不证明效果），范围： Codex、WorkBuddy、DeepSeek Harness、Cursor、CodeBuddy、Kimi Work、千问办公（QwenWork） 写「支持」； Grok Bot 写「支持，需手动配置」； Claude Code 结构已备、走通待补，不在首发支持之列。 这是一套 拿得到、装得上、叫得动 的协作技能包：四支技能＋一个模板＋说明＋脱敏案例。它帮你管住「一个人总控、多个长期 AI 助手」时最容易掉链子的几件事：活派出去有人收，说「做好了」有证据，写给新手的步骤照做就成，踩过的坑留下来给下一个人用。 借鉴的是方法思路；交付的是改写后的中文协作包，外加两支原创技能，并已在多个 Agent 工具里实际装上、按名调用过。借鉴来源见 NOTICE 和各技能末尾的来源／借鉴说明。 技能本身不带定时和叫醒（插件清单 hooks: {} ）：到点查、记接单／收到成果／验收、叫开工，按技能正文里的步骤，由你或你用的 AI 工具来做。 - 一人成队：派出去的活，接得住、跟得上、收得回来。 一条线走到底：派 → 收 → 核 → 判。每件活派出去前登记一行「待收」，写明谁在干、谁来收、谁到点查；收回来记「已收到成果」并写明结果在哪，核过证据记「已验收」才算完。登记行让还没人接的活一眼看得见；到点去查、去催，由你或宿主的定时能力来做（分工见下面「首版核心流程」三栏表）。 - 换工具，不必重学一套协作方法。 四支核心技能的正文各家共用，方法学一次就行；每家从哪装、怎么叫、还要准备什么，按各家真实配置分别写在「各宿主怎么装、怎么叫」。 - 从一
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, collaboration, human-in-the-loop, workflow
+
+---
+
+### 🌟 [agent-desk](https://github.com/huabeitech/agent-desk)
+- **项目语言**: Go
+- **星标数量**: ⭐ 308
+- **核心概述**: Open-source AI customer support system. AI-first support, human-ready operations.
+- **大概是做什么的**: An open-source AI Agent customer support system with knowledge-based answers, human handoff, ticket workflows, and self-hosted deployment. Built for teams that need online support, knowledge-base Q&A, human collaboration, and service tracking in one system. It is not just an LLM inside a chat box; it is an AI Helpdesk foundation designed around real support operations. Customer chat, agent workspace, knowledge base, model configuration, and AI Agent orchestration are managed in one system. Customers can start a conversation from the web chat page. The AI Agent responds first with knowledge-grounded answers. When the user explicitly asks for a human, the system can start a handoff confirmation flow. The support workspace includes conversation lists, message handling, AI-to-human handoff, agent replies, conversation tags, linked customers, and ticket context for daily support work. Knowledge Base and AI Agent Configuration Knowledge Base FAQ AI Agent Configuration The knowledge base stores FAQs, documents, and retrievable content. AI Agents can be bound to model configurations, knowled
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chatbot, customer-service, customer-support, customer-support-ai, golang
+
+---
+
+### 🌟 [ai--manus2.0](https://github.com/toppatronweave/ai--manus2.0)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 665
+- **核心概述**: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+- **大概是做什么的**: Manus - Autonomous AI Agent - Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - Code And Browser In One Flow: Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
+### 🌟 [ai--manus2.0](https://github.com/topconstableinlet67/ai--manus2.0)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 663
+- **核心概述**: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+- **大概是做什么的**: Manus - Autonomous AI Agent - Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - Code And Browser In One Flow: Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
+### 🌟 [ai--manus2.0](https://github.com/tornadonovicewhirl40/ai--manus2.0)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 659
+- **核心概述**: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
+- **大概是做什么的**: Manus - Autonomous AI Agent - Autonomous Code Execution: Manus AI agent runs code on its own to complete tasks, so you can focus on decisions instead of repetitive typing and debugging. - Browser Control Made Simple: Manus browser control lets the agent navigate websites, fill forms, and gather information without you manually clicking through every page. - Task Automation For Daily Life: Manus autonomous tasks handle small but time-consuming jobs, from organizing research to scheduling reminders, keeping your day running smoothly. - Personal Assistant That Works Quietly: Manus personal assistant stays ready in the background, responding when you need help with study, home projects, or light work tasks. - Code And Browser In One Flow: Manus code automation connects scripting with real browser actions, so your workflows move from idea to result without switching between tools. Manus is an autonomous AI agent designed to run code and control a browser on your behalf. Instead of acting like a simple chatbot that only answers questions, Manus AI agent takes action. It can write and execu
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-sdk, anthropic, chatbot, function-calling
+
+---
+
 ## 🕔 2026-11-14 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 200 个候选项目中筛选出 6 个未推荐过的新项目。
