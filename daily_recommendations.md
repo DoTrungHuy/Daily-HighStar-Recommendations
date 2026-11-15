@@ -1,3 +1,67 @@
+## 🕔 2026-11-15 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [memorilla](https://github.com/snap-stanford/memorilla)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,121
+- **核心概述**: 🦍 备忘录：法学硕士的潜在语义记忆
+- **大概是做什么的**:  Memorilla：LLM 的潜在语义记忆 该存储库提供了用于训练和评估 Memorilla 的代码，Memorilla 是一个内存系统，可将整个文档集合中的信息收集到固定数量的查询相关内存标记中，以供冻结的 LLM 使用。该代码基于我们的论文 Memorilla：LLM 的潜在语义记忆。冻结的 LLM 只能使用适合其上下文窗口的内容，因此 Memorilla 会读取整个文档集合，例如用户过去的聊天记录或一本长书，并只向 LLM 提供 16 个存储令牌，其中包含每个问题所需的内容。凭借如此小的预算，它相对于 Mem0 和 MemoRAG 等方法实现了最佳平均性能，并且在 FactKG 上，它甚至比向 LLM 提供每个文档更准确（84.33% vs. 80.43%），同时使用的令牌数量减少了 108 倍。此外，Memorilla 还可以帮助智能体不断从自己的历史中学习，将其在 TextWorld 游戏中的平均成功率从 18.6% 提高到 24.2%。 - 训练和评估 - 使用您自己的数据 - TextWorld Memorilla 上的强化学习需要带有 CUDA GPU 的 Linux 和 Python 3.11； th
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: context-compression, continual-learning, llm, long-context, memory, personalization
+
+---
+
+### 🌟 [gpucanvas](https://github.com/berkantay/gpucanvas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 477
+- **核心概述**: 将数千个实时 DOM 节点放在无限的画布上：GPU 绘制它们，编辑器选择它们、移动它们并调整它们的大小，着色器和过渡在它们上运行，AI 代理可以读取它们并指向它们。
+- **大概是做什么的**: 将数千个实时 DOM 节点放在无限画布上：GPU 绘制它们，编辑器选择它们、移动它们并调整它们的大小，着色器和过渡在它们上运行，AI 代理可以读取它们，并且两侧相同的会话：5,000 个实时 React 屏幕、相同的相机路径、键入和发送的消息。左边，每个屏幕都是 CSS 转换下的纯 DOM。对了，gpucanvas。在 MacBook Pro 上用 Chrome 录制；每次运行时都会实时测量帧速率。在现场演示中亲自运行它。 - 帆布。实时 React 或普通 DOM 节点，由 WebGPU 在一次实例化过程中绘制。平移和缩放永远不会触及 DOM，并且单击、键入和状态仍然到达真实的编辑器。单击进行选择，双击进行更深入的选择，直至任何元素或 React 组件。使用捕捉参考线移动和调整大小。 - 着色器效果。在带电组件上运行 WGSL：玻璃镜头、霜、冲击波、故障、VHS 或您自己的组件。 - 快照。任何节点都是图像、版本之间的像素差异以及其历史的幻灯片。 - 代理视图。画布上的内容是一个带有 id 的简短 JSON 树以及任意区域的图像，适用于 AI ag
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, canvas, design-tools, editor, html-in-canvas, infinite-canvas
+
+---
+
+### 🌟 [app-store-compliance](https://github.com/mjmirza/app-store-compliance)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 450
+- **核心概述**: 避免常见的 App Store 和 Google Play 拒绝。开放剧本和提交前保护，包含 117 个记录的拒绝模式和修复、隐私清单和数据安全检查、95 个跟踪截止日期（欧盟人工智能法案、DSA、COPPA、年龄法）以及人工智能编码代理的技能。
+- **大概是做什么的**: App Store 合规手册 停止让您的 iOS 和 Android 应用程序被拒绝。企业参考和自动防护将 App Store 和 Google Play 拒绝转变为设计好的故障模式。请阅读 mjmirza.github.io/app-store-compliance 网站。如果这可以让你免遭一次拒绝，请留下一颗星，分叉它，然后继续。这就是整个问题。选择一排。显示的时间是第一步的时间。您第一次执行此操作 即将提交，您可以打开终端 ��行下面的两个命令 2 分钟 已被拒绝 打开申诉手册 10 分钟 非开发人员 打开清单并执行前两项检查 5 分钟 使用 AI 编码工具（Claude Code、Codex、Gemini CLI、GitHub Copilot、Cursor、Grok、Qwen、Kimi 等），并希望每次提交时都执行此操作 转到安装 1 分钟 这两个命令。需要 git 和 bash。第一个下载此剧本。第二个扫描您的应用程序。未安装任何内容，应用程序中的任何内容均未更改。仅将 /path/to/your/app 替换为保存 Xcode 项目或 Android 应用程序的文件夹。保留引号，t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, ai-agents, android, app-review-guidelines, app-store, app-store-connect
+
+---
+
+### 🌟 [goat](https://github.com/goat-si/goat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 115
+- **核心概述**: GOAT：跨机器的 Claude Code、Codex、Cursor 等的一个控制界面。 T3 代码的分叉。
+- **大概是做什么的**: GOAT runs the coding agents you already use, such as Claude Code, Codex and Cursor, on the machines you own: your laptop, a desktop at home, an SSH server or a cloud machine.您可以从一个地方控制所有这些，无论是桌面应用程序、浏览器还是手机。代理可以在另一台机器上开始工作，跟踪它，并在完成时收到回复，Fleet 会向您显示正在运行的内容以及需要您处理的内容。综合演示项目和对话。每台机器都是一个环境您工作的每台机器都运行一个 GOAT 服务器。服务器及其拥有的状态（项目、线程、提供者登录和内存）形成一个环境。客户端可以连接到任意多个环境，并且一个环境可以访问其他环境：SSH 主机在首次使用时获得其 GOAT 运行时，您已经运行的 GOAT 服务器可以通过配对链接链接到代理，并且在 Windows 上，WSL 发行版运行自己的环境。 GOAT 最初是 T3 Code 的一个分支，并保留了其快速、事件溯源的核心。除此之外，GOAT 还添加了： - GOAT 机器人。一次与项目无关的长期对话。请求它工作并开始
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, coding-agents, cursor, desktop-app
+
+---
+
+### 🌟 [awesome-mcp-servers](https://github.com/Sagargupta16/awesome-mcp-servers)
+- **项目语言**: Python
+- **星标数量**: ⭐ 105
+- **核心概述**: MCP（模型上下文协议）服务器、工具、框架和资源的精选列表
+- **大概是做什么的**: 模型上下文协议 (MCP) 是一种开放协议，允许 Claude、ChatGPT、Cursor 和 Windsurf 等 AI 应用程序通过服务器连接到本地和远程工具和数据。将其作为可搜索站点进行浏览：sagargupta.online/awesome-mcp-servers，具有搜索、类别和语言过滤器以及实时明星。它每小时都会根据此自述文件进行重建。该列表是精心策划的，并不详尽，并且向任何人开放。存在更大的 MCP 列表。这个的重点是上面的所有内容都已经过检查。策划并不意味着著名：您的项目不需要最低星级数或年龄，欢迎提交您自己的服务器。每个条目： - 真正实现 MCP - 不是旁边带有 server.json 的自述文件 - 声明开源许可证 - 许可证文件或其包清单中的许可证字段 - 在过去 180 天内推送，并且未存档 - 记录如何安装和配置它，以便其他人可以实际运行它 - 只出现一次，在一个类别中，没有公共源的托管服务器是一个例外，标记为 Remote 。 eac 取代了许可证和推送日期
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-tools, awesome, awesome-list, claude, llm
+
+---
+
+### 🌟 [snapgent-connector](https://github.com/herdodp/snapgent-connector)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 153
+- **核心概述**: 免费的开源连接器代理聊天机器人 AI 浏览器通过 MCP 连接到许多应用程序。
+- **大概是做什么的**: 通过 MCP 将任何 AI 聊天机器人浏览器转换为许多应用程序 💬 加入 Discord 报告问题 snapgentV3 是一个浏览器扩展以及一个将普通 AI 聊天连接到 VS Code 的本地桥。它会自动使用当前打开的工作区。用简单的语言描述您想要的内容 - 扩展通过本地网桥将命令转发到选定的服务器，并将结果返回到聊天。免费且开源 — 无需 API 密钥、订阅或登录。 snapgentV3 自动使用当前打开的 VS Code 工作区。 - 安装：观看安装视频 - 演示：���看演示视频 - 测试 snapgent 连接器 + artcraft 的效果工艺运动 观看视频 默认目标。自动连接到当前在 VS Code 中打开的工作区。 01 工作原理 1. 您在受支持的 AI 聊天中描述任务。 2. AI 回复 snapgentV3 命令。 3. 分机检测命令并将其转发到本地网桥。 4. 桥将其路由到 VS Code MCP 服务器。 5. 结果被发送回聊天中，AI 继续工作。 VS Code 的 MCP 服务器配置为 loc
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, artcraft, browser-extension, chatgpt, claude, deepseek
+
+---
+
 ## 🕔 2026-11-15 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
