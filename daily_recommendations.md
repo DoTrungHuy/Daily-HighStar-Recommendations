@@ -1,3 +1,67 @@
+## 🕔 2026-11-15 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [remocn](https://github.com/Remocn/remocn)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,746
+- **核心概述**: 用于 Remotion 的生产就绪动画、过渡、背景和场景
+- **大概是做什么的**: Remocn：用于制作 Remotion 视频的 Claude Code 插件和代理技能 Remocn 是一个 Claude Code 插件、代理技能和 MCP 服务器，用于从 932 个 MIT 许可的 Remotion 组件制作 Remotion 视频。您的代理计划故事板，使用 shadcn CLI 将组件安装到您的 Remotion 项目中，并编写视频：产品演示、发布视频、变​​更日志视频或社交剪辑。可与 Claude Code、Codex、Cursor、GitHub Copilot 以及任何加载技能或连接到 MCP 的代理配合使用。选择一个。该插件已包含技能和 MCP 服务器。您使用安装 您将获得 Claude Code /plugin install remocn --marketplace Remocn/remocn /remocn:视频工作流程、辅助代理、技能和 MCP 工具 Codex codex 插件市场 add Remocn/remocn 然后 codex 插件 add remocn@remocn 相同的插件 Cursor、Copilot 或加载技能的任何代理 npx Skills add Remocn/remocn 代理技能 任何 MCP 客户端 https://remocn.dev/mcp MCP 服务器：搜索、文档、视频计划、预览 您自己的双手 npx shadcn@latest 添加 @remocn/blur-reveal 您的存储库中的一个组件源 Rem
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, claude-code, demo-video, mcp, mcp-server, model-context-protocol
+
+---
+
+### 🌟 [secfoo](https://github.com/secfoo-com/secfoo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 304
+- **核心概述**: AI 安全审查 CLI：SAST、秘密扫描、SCA、威胁建模和使用 Claude Code、Copilot、Codex、Gemini、Cursor 或 API 密钥进行架构审查。通过 MCP 阅读您的设计文档、Confluence 和 Jira。 CI 的 SARIF 输出。
+- **大概是做什么的**: secfoo — AI 安全审查 CLI 将您已有的编码代理转变为纪律严明的安全审查员。 SAST、秘密扫描、SCA、威胁建模和架构审查，以您的设计文档、Confluence 和票据作为上下文。每次运行都相同的清单、相同的报告形状。这就是整个第一次运行。无配置文件：secfoo 选择您在 PATH 上已有的代理（Claude Code、Codex、Gemini CLI、Copilot、Cursor、Antigravity、OpenCode，...），或者，如果没有安装，则使用 shell 中已有的 OPENAI API KEY / ANTHROPIC API KEY / GEMINI API KEY。通过--agent来选择。使用 pipx install secfoo 或 pip install secfoo 保留它；安装下有更多频道。上下文，而不仅仅是代码 代码存储库是一种输入。真正的评论还需要设计文档、去年的威胁模型、操作手册和解释为什么会出现奇怪现象的票证。 secfoo 通过 MCP 将该上下文传递给代理，并询问使用它的技能：架构审查将记录的内容（Confluence、README、ADR）与已实现的内容进行比较，并报告差距；秘密扫描
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-security, appsec, claude-code, code-review, codex, copilot
+
+---
+
+### 🌟 [homelab-monitor](https://github.com/SikamikanikoBG/homelab-monitor)
+- **项目语言**: Python
+- **星标数量**: ⭐ 236
+- **核心概述**: 一个容器中的自托管家庭实验室仪表板 — GPU、本地 AI VRAM、Docker、systemd、能源成本。只读 MCP 服务器，以便 AI 代理可以探索它。
+- **大概是做什么的**: 询问你的家庭实验室。您运行的每个盒子和 GPU 都有一个自托管页面 - 以及一个 AI 代理，它可以读取所有内容，用简单的语言回答，并且仅在您这么说时才修复问题。它可以在您实验室中已有的模型上运行。没有云，您的计算机上无需安装任何东西。真正的答案，真实的车队：单击“概述”，即实验室自己的 GPU 上的本地模型，大约需要 45 秒（此处加快）。主机名已匿名。你的家庭实验室变成了几台机器、一个 Pi 和一个总是神秘地忙���的 GPU，最近它也在运行模型。 HomeLab Monitor 为您提供了一个页面来回答真正的问题：GPU 实际在做什么、哪个型号持有它、运行成本是多少、哪个容器正在消耗 RAM、什么占用了您的磁盘以及是否出现故障 - 通过 SSH 的每个机器：Linux、Pi，甚至 Windows。如果您不想点击选项卡，只需询问即可。打开 http://:9800 就完成了。 AI 代理已经存在：概述将引导您在大约一分钟内完成将其打开的过程。完整选项（来自源、GPU 工具包、Windows/WSL2）→ 安装文档。 🆕 瓦时
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agentic, ai-agents, ai-infrastructure, claude, dashboard, docker
+
+---
+
+### 🌟 [WendyOS](https://github.com/wendylabsinc/WendyOS)
+- **项目语言**: Go
+- **星标数量**: ⭐ 100
+- **核心概述**: 使用编码代理构建、部署和调试机器人应用程序。支持 Jetson、Raspberry Pi、Linux 和仿真。
+- **大概是做什么的**: 使用编码代理构建、部署和调试机器人应用程序。从笔记本电脑上的模拟机器人开始，然后部署到 NVIDIA Jetson、Raspberry Pi 或现有的 Linux 设备。带上您的 Dockerfile 或 Compose 项目。使用 Claude Code、Codex 或其他 MCP 客户端来部署更改、检查日志和调试应用程序。本地开发无需云账号。为您的第一个机器人编程 · 部署您的第一个应用程序 · 观看演示 ​​· 示例 · Discord 下面的 Linux 应用程序示例使用 macOS 或 Linux 终端。在 Windows 上，将 WSL2 与 Wendy CLI 和 Docker 以及安装在 WSL2 内的 Buildx 结合使用。其他安装方法和更新 在笔记本电脑上对您的第一个机器人进行编程 本教程将创建一个模拟的 Unitree Go2，打开其 3D 查看器，并运行一个简短的步行演示。不需要物理机器人或云帐户。安装程序可能会自动开始游览。然后选择“构建机器人应用程序”，然后选择“路点巡逻”。编辑Python路径并将其部署到模拟器中。选择开始路线以观察机器人遵循您的更改。按照对模拟机器人进行编程来完成完整的演练。你n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-harness, developer-tools, dragonwing, edge, edge-computing, embedded-linux
+
+---
+
+### 🌟 [awesome-ai-coding-techniques](https://github.com/inmve/awesome-ai-coding-techniques)
+- **项目语言**: Python
+- **星标数量**: ⭐ 352
+- **核心概述**: 软件开发实践的开放参考，从代码检查到与编码代理的合作
+- **大概是做什么的**: 软件开发实践的开放参考，从代码检查到使用编码代理。对于每种实践：一个定义、它出现的时间、它的起源以及描述它的来源。 - 站点：https://inmve.github.io/software-practices/（相同的数据，带有时间线和悬停时的引号） - 数据：data/entries.json，单一来源；此 README 是从中生成的 - Survey for your team: team-survey，一个 GitHub 模板，要求团队内部进行相同的实践 85 个条目、64 个来源，其中 38 个逐字引用存储在数据中。初步版：日期尚未验证。在每个部分中，最新条目排在第一位；编码代理之前的实践是最后的。 - 跨阶段：提示 - 跨阶段：背景和记忆 - 跨阶段：会话和并行工作 - 跨阶段：模型和预算 - 跨阶段：人的部分 - 概念：代理和工具 - 概念：背景和代币 - 概念：风险和失败 - 概念：想法和成熟度模型 - 软件工厂（2026 年）。团队一致认为人们不
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, ai-tools, awesome, awesome-list
+
+---
+
+### 🌟 [Auryn](https://github.com/FalkorDB/Auryn)
+- **项目语言**: Python
+- **星标数量**: ⭐ 353
+- **核心概述**: 将任何代码库转换为可查询的 FalkorDB 知识图，您的 AI 代理可通过 MCP 遍历 - 16 种语言，无需服务器即可启动。
+- **大概是做什么的**: 将任何代码库转换为可查询的知识图 - 这样您的 AI 代理就会根据真实结构进行回答，而不是进行搜索和猜测。快速入门 · 代理设置 · 语言 · 文档 可与 Claude 代码一起使用 · 光标 · Windsurf · 任何 MCP 客户端 将其指向存储库。它解析每个文件，构建函数、类型、表和端点的图表 - 以及它们之间的边（ CALLS 、 EXTENDS 、 READS / WRITES 、 DEPENDS ON ） - 并将其存储在 FalkorDB 中。然后，您的编码代理通过 MCP 遍历该图，并为每个声明引用文件和行。十六种语言。实时 SQL 和 Oracle 模式也是如此。没有服务器，没有 Docker 来启动。两个命令，零基础设施。您将在大约一秒钟内看到一张真实的图表。这会启动嵌入的 FalkorDB（进程内，无守护进程），摄取包内附带的小型支付 API，并打开位于 的查看器。您自己的项目是带有路径的相同命令：图表保留在 /.auryn/graph.db ，因此重新运行会重用它。第一遍解析所有内容；之后，重新摄取是一个增量 - 未更改的文件是无操作的。要求 — Python ≥ 3.12。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: code-graph, genai, graph, graph-database, llm, nextjs
+
+---
+
 ## 🕔 2026-11-15 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 119 个候选项目中筛选出 6 个未推荐过的新项目。
