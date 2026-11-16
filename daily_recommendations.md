@@ -1,3 +1,67 @@
+## 🕔 2026-11-16 18:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [llm-algo-leetcode](https://github.com/datawhalechina/llm-algo-leetcode)
+- **项目语言**: Jupyter Notebook
+- **星标数量**: ⭐ 797
+- **核心概述**: Hands-on LLM algorithms and systems with PyTorch, Triton & CUDA.《大模型算法与系统教程》：模型架构与训练、后训练、推理加速、性能与算子优化，配套 Notebook 练习、答案解析、测试与实验。
+- **大概是做什么的**: llm-algo-leetcode 大模型算法与系统教程 Runnable notebooks for LLM algorithms and systems. 面向大模型算法与系统的可运行 Notebook 教程。 大模型架构演进 / Architecture · 后训练优化 / Post-Training · 性能优化 / Performance · 专题导航 / Topic Navigation 基础与诊断 / Foundations · 横向工程 / Cross-Cutting · 中文版 (Chinese) English Version 这是一个以 Notebook 为载体的大模型算法与系统教程。教程从 Part 02 的 PyTorch 算法实践出发，按需回补 Part 00 / Part 01 的基础，并进一步延伸到 Part 03 的 Triton 算子开发和 Part 04 的 CUDA 与系统优化。 内容围绕可运行实现、实验验证和专题化学习路线组织，帮助学习者逐步理解模型如何计算、如何训练、如何推理，以及性能问题如何被测量和优化。 1. Notebook-first ：每节围绕可运行代码、题目区、答案区和基础验证展开，适合边学边改。 2. 按目标进入 ：既支持从 Part 02 开始建立算法实践，也支持按五条主学习路线或基础、横向、领域专题跳读。 3. 算法到系统贯通 ：沿着 PyTorch → Triton → CUDA 逐步下探，连接模型实现、算子优化、显存管理、通信与系统性能。 4. 用证据做项目判断 ：通过 benchmark、profiling、真实 GPU 和 inference backend 实验，对吞吐、延迟、显存、质量和成本进行比较。 - 大模型算法学习者 ：希望通过 PyTorch Notebook 理解 Transformer、训练、微调、推理和模型���缩。 - 性能与系统学习者 ：希望进一步学习显存、Profiling、通信、Triton、CUDA 和 GPU 优化。 - 项目实践者 ：希望通过 benchmark、真实 GPU 和 inference backend 实验，建立可复现、可比较的工程判断。 教程提供两种阅读方式：按 Part 00 - Part 04 逐层推进，或从大模型架构演进、后训练优化、推理优化、性能优化和算子优化五条主学习路线进入，再按问题回补基础与横向专题。五条路线的排列表示从模型结构、能力形成到服务运行、性能诊断和底层实现的对象层次，不是严格的前置依赖。推荐先从 Part 02 建立算法实践
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: cuda, gpu-programming, inference-optimization, jupyter-notebook, kernel-optimization, large-language-models
+
+---
+
+### 🌟 [motion-anything](https://github.com/nexu-io/motion-anything)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,091
+- **核心概述**: ✨ 代理运动层——一个开源的、聊天原生的运动引擎。描述一下感觉；你的人工智能传送动画。
+- **大概是做什么的**: nexu.io · 开放设计系列中的一个项目 — 同一团队的行动。如果您喜欢运动，Open Design 就是完整的代理时代设计工作室所在地。描述一下这种感觉——你的人工智能传送动画。代理运动层：本地优先、聊天原生运动引擎。生成动画页面并从一个句子启动视频，然后在运行页面上逐个组件编辑动作 - 4 个触发器、13 个动作动词、弹簧缓动、完整的关键帧编辑器。由 8 个编码代理引擎 + BYOK（Claude Code · Codex · Cursor · OpenCode · Grok Build · Hermes · Gemini · Open Design Cloud）驱动，配备 403 个精选的运动配方，连接到开放设计生态系统（59 个 DESIGN.md 品牌包 · 58 个 HyperFrames 视频模板 · 112 个 HTML 原型模板 · 2,680 个图标），并导出为任何格式：JSON · CSS · React · Lottie · MP4 · GIF · 便携技巧。零 npm 依赖。无水印。没有每次渲染费用。下面的每个图块都是来自库的实时、无依赖性配方 - 真实的 GPU 着色器、画布引擎和动态文本，忠实地移植，以便它们可以运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, animation, claude, design-tools, figma-motion-alternative, motion-design
+
+---
+
+### 🌟 [refactoring-ui-skill](https://github.com/edisonmbli/refactoring-ui-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 472
+- **核心概述**: 非官方 Claude Skill 源自《Refactoring UI》一书——Web UI 的设计规则手册和诊断层。 151 条跟踪规则、设计令牌生成和 Tailwind 映射。
+- **大概是做什么的**: Refactoring UI：一个 Claude Skill 一本 AI 编码助手真正能执行的 Web 界面设计规则书，外加一层诊断。从 《Refactoring UI》（Adam Wathan & Steve Schoger 着）里拆出来。 ⚠️ 非官方独立项目 ，与原书作者无隶属关系，未经其审阅，也未获其背书。 它替代不了读原书，感兴趣建议读原版，写得真的好。 AI 写得出合格的 HTML 和 CSS，做出来的界面却总是差点意思。虽然不是直接报错，但有时候会隐隐感觉“不对劲”。 譬如，什么都居中。间距从头到尾一个值。主色总是偏好靛蓝或紫色。每个操作一律做成实心按钮。没有空状态。 这些单拎出来看好像也没什么。但问题在于： 生成是局部的，设计要全局看。 中间缺的东西，可以用一本“规则书”来补。 市面上的 AI 设计工具大多在做生成：你描述一个界面，它给你一个界面。 这个 Skill 干的是反过来的活。它是约束层和诊断层，是规则书和评审员，不是造型师。 所以它跟那些生成工具不是竞争关系，是可以充分互补的： 生成之前把约束交给它，生成之后让它把产物走查一遍。 Refactoring UI 是一本规则书，不是灵感书。几乎每一页都是 症状 → 机制 → 具体做法 → 具体数值 ，而且作者也写了 Tailwind CSS，所以从原则到代码这一段几乎没有损耗：书里的字号阶、间距阶、色阶，就是 Tailwind 的默认值。这个项目把整本书拆成了可执行规则， 151 条 ，每一条都可追溯。 “帮我看看这个设置页，总觉得哪里不对但说不上来。” 它会先摸清你的技术栈，分别在桌面和移动端两种宽度下把页面渲染出来，然后按固定顺序换七个视角逐一扫查： 层级 → 间距 → 排版 → 色彩 → 深度 → 图像 → 收尾 。 顺序是有因果的。层级没理顺，什么算间距问题就会跟着变；而间距一改，“这里到底要不要加条边框”这个问题往往自己就没了。 它交回来的每一条 finding（问题项）都按严重度排好序，而且必须挂着规则号： 严重度 规则 现状 建议 ------ ----- ------------------------------------------------------ ------------------------------------------------- P0 §3.6 标签间距等于组间距，标签离自己的输入框和离下一组一样远 组内 mb-1 ，组间 mb-6 P1 §2.8 三个按钮都是主操作样式 只留一个主操作，其余改描边和链接 P1 §6.2 静态卡片用了 shad
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude-code, claude-skill, design-system, design-tokens, frontend
+
+---
+
+### 🌟 [spanish-top-tech-companies](https://github.com/pugarte7/spanish-top-tech-companies)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 388
+- **核心概述**: MCP 拥有西班牙最好的技术优惠，以便您的代理商可以自动为您申请。
+- **大概是做什么的**: 西班牙顶级科技公司：西班牙科技就业和薪资的 MCP 🇪🇸 西班牙语 🇬🇧 英语 一个 MCP 服务器，为您的 AI 代理提供西班牙科技公司的真实薪资及其公开报价，并为您申请。它每天都会扫描 400 多个招聘门户：平均每天有超过 1,000 个职位空缺，您可以直接向 MCP 申请。后面是一个有排名的网站：spanishtoptechcompanies.com。 - 如何搜索报价 - 向您的代理申请 - MCP 工具 只需此链接。将其添加为代理中的 MCP 服务器，或将其粘贴到聊天中并让它连接：无需注册、无需密钥且无需安装任何内容。它可以与任何支持 MCP 的代理一起使用：使用它的人主要使用 Codex 和 Cursor，Claude、Claude Code、Instinct 或 Hermes 也可以使用。在Hermes中你还可以安装技能，它教你如何使用MCP并为你申请：它是免费的，由一个人维护。如果有帮助，请在右上角留下一颗星⭐：这样它就能找到更多在西班牙寻找工作的人。如何搜索4个以上的优惠
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ats, auto-apply, claude, codex, cursor
+
+---
+
+### 🌟 [openclaw-trading-agent](https://github.com/netzpirat/openclaw-trading-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 450
+- **核心概述**: 贸易代理
+- **大概是做什么的**: 🐾 OpenClaw — Hyperliquid 的人工智能交易代理 OpenClaw 是一款人工智能驱动的交易代理，它使用 LLM 来分析实时市场数据、生成交易决策并在 Hyperliquid 去中心化交易所上执行交易。 OpenClaw 专为自动化、低延迟执行和策略实验而构建，持续监控市场、评估技术指标并通过风险控制管理头寸。 🤖 LLM 驱动的交易决策（多模型支持） 📊 通过 TAAPI 进行实时技术分析 ⚡ 在 Hyperliquid 上自动执行交易 🔁 可配置时间间隔的连续交易循环 🛡️ 内置风险管理（止盈 / 止损逻辑） 🔌 动态指标查询的工具调用支持 📡 用于日志和交易日记的轻量级 API 📚 目录部署(EigenCloud) 该项目是实验性的且未经审核的。无法保证盈利。使用风险自负。查看完整文档：→ docs/ARCHITECTURE.md 架构图：https://github.com/user-attachments/assets/d8f5110a-6401-42bd-b5f5-b154c7b0a418 推荐托管：AgentVPS 运行交易
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-agents, trading
+
+---
+
+### 🌟 [Roamies](https://github.com/KenKaiii/Roamies)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 307
+- **核心概述**: 桌面生物与人工智能助手住在你的屏幕上。与它交谈，它会记住你说过要做的事情，提醒你并指出一些事情。您对人工智能的选择。 Mac 和 Windows。
+- **大概是做什么的**: 一个生活在您屏幕上的小伙伴，让您保持正轨。 Roamies 是一个生活在您桌面上的人工智能小伙伴。它会停留在您的光标旁边，用自己的声音回复，跟踪您所说的要做的事情，并在到期时轻推您。想用人工智能构建自己的应用程序吗？我的免费社区中有为期 7 天的免费构建挑战和 20 多个分步项目：skool.com/raid ⭐ 如果 Roamies 让您保持正轨，请给它一颗星。这是其他人找到它的主要方式。 - 说话，不要打字。按住 ⌃⌥（在 Windows 和 Linux 上为 Ctrl+Alt），说出来，然后松开。在 macOS 和 Windows 上，当您说话时用光标圈出某个内容，它就会明白您的意思。 - 或者输入。点击 ⌥⌘（在 Windows 和 Linux 上为 Ctrl+Shift），光标旁边会打开一个小文本字段。键入，然后按 Enter。 - 它会回嘴。口语通过 Fish Audio 以自己的声音、真实的感觉进行回复，或者使用您选择的 Gemini 声音，使用您自己的 Google AI Studio 密钥（您已经用于 Gemini 模型的密钥）进行回复�� - 它记得。你说你会做什么，提醒到秒（或重复：“每个工作日 9 点”，“每 2 小时”），并且 w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adhd, agentic-ai, ai, ai-agent, ai-assistant, anthropic
+
+---
+
 ## 🕔 2026-11-16 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
