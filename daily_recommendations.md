@@ -1,3 +1,67 @@
+## 🕔 2026-11-15 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [0security](https://github.com/0sec-labs/0security)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,370
+- **核心概述**: 开源人工智能网络安全工具，用于构建和部署持续安全代理，以查找、证明、修复和监控代码、二进制文件、依赖项、基础设施中的漏洞。 Web UI、CLI、CI 和 MCP。
+- **大概是做什么的**: 适用于整个技术堆栈的持续安全代理 由瑞士应用人工智能和网络安全研究实验室 0security 是一个用于构建和部署安全代理的开源框架。他们发现您的代码、依赖项、基础设施、LLM 应用程序和 AI 代理中的漏洞，证明它们、修复它们、验证修复并持续关注。它在您自己的基础设施上运行，并具有您选择的法学硕士。更喜欢终端？任何受支持的提供程序都可以：设置其密钥（Anthropic、OpenRouter、DeepSeek 等，请参阅模型和密钥），或者在浏览器中使用 0 连接一个。 Windows、Docker 和源安装 - Windows（实验性）：从发行版下载 0-windows-x64.exe。 - Docker：docker run --rm ghcr.io/0sec-labs/0security:latest --help 。请参阅 Docker 指南。 - 来源：Node.js 24+ 和 pnpm，然后 pnpm install --frozen-lockfile && pnpm build 。 - install.sh 支持 Apple Silicon macOS 和 x64/ARM64 Linux。设置 INSTALL DIR 以更改位置。仅扫描您拥有或有权测试的系统。请参阅范围和授权。 0你能做什么？ - 查找so中的漏洞
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, application-security, binary-analysis, code-review, cybersecurity, llm-agents
+
+---
+
+### 🌟 [telltaledns](https://github.com/paimonsoror/telltaledns)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 323
+- **核心概述**: 一个小型、快速的 DNS 解析器和广告拦截器，可以解释每个答案。每设备规则、加密 DNS 以及跨 Raspberry Pi 和 Kubernetes 的集群。
+- **大概是做什么的**: 查看每个问题。按您的条件回答。网络上的每个连接都以 DNS 查找开始。 TelltaleDNS 在几微秒内回答它，根据每个设备的规则对其进行过滤，并准确地向您显示谁提出了问题，他们问了什么，以及为什么它会这样回答。它在 Raspberry Pi 上、在 Kubernetes 上运行，或者在两者上作为一个集群运行，即使部分出现故障，也能持续响应。水手们系在帆上的一根纱线可以看出风的真正作用。 DNS 是您网络���泄密者：它揭示了每台设备的运行情况。演示网络上的仪表板。其中的每个设备、名称和地址都是由组成的。让运行家庭或小型网络的每个人都能诚实、实时地了解其设备正在执行的操作，并对其进行完全控制，而无需牺牲速度、占用空间或可靠性。 - 请参阅：每个查询都归因于一个设备、进行解释并按阶段计时。 - 决定：针对每个设备和组的规则，立即执行，无需任何性能成本。 - 永不失败：无论控制平面发生什么情况，DNS 都会从上次的良好配置中不断做出响应。 - 随处运行：sa
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: adblock, dns, dns-over-https, dns-over-quic, dns-over-tls, dns-resolver
+
+---
+
+### 🌟 [chrome-agent](https://github.com/captivus/chrome-agent)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: CLI 使 AI 编码代理可以通过 DevTools 协议直接访问 Chrome。许多代理和人员可以共享一个浏览器，每个浏览器都有独立的事件订阅。
+- **大概是做什么的**: 一个 CLI 工具，使 AI 编码代理能够通过 Chrome DevTools 协议观察 Chrome 浏览器并与之交互。多个代理和人员可以同时共享同一个浏览器，每个浏览器都具有独立的事件订阅。一名代理负责驾驶，另一名代理负责观察网络流量。人工浏览，代理监视错误。四个代理针对单个浏览器运行协调的测试套件。每个参与者只能看到他们订阅的事件——没有干扰。 AI 编码工程师使用的代理需��查看浏览器并与浏览器交互，以测试其代码、调试自动化、检查页面状态。标准方法（浏览器 MCP 工具）使用具有协议协商和详细响应格式的持久服务器。 chrome-agent 采用了不同的方法：直接访问 Chrome 的 DevTools 协议，没有抽象层。这意味着完整的 CDP 协议访问——每个命令、每个事件、Chrome 公开的每个域。不是精选的功能子集，而是完整的协议。代理以与 DevTools d 相同的方式从 CDP 原语组成交互
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser-automation, cdp, chrome, chrome-devtools-protocol, claude-code
+
+---
+
+### 🌟 [design.how](https://github.com/arla6ka/design.how)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 441
+- **核心概述**: 为编码代理设计系统、技能和视觉效果
+- **大概是做什么的**: 编码代理的技能、设计系统和视觉效果，来自 design.how。它将以下所有技能安装到 Claude Code、Cursor、Codex 或任何读取代理技能的代理中。 npx Skills@latest add arla6ka/design.how 从 GitHub 安装相同的集合。在代理中打开应用程序的存储库并说：我们的 UI 很乱，请修复它。设计系统老板阅读应用程序，选择一个剧本并按顺序运行其他技能。它以系统结束，将一个流程移至系统上并进行 CI 检查，然后提供完整的迁移及其大小。每次提交都会进入运行分支，而不是默认分支。 - 用于脚本的节点 18 或更高版本。 - Playwright 和 Chromium 或 Chrome，用于构建设计系统和迁移设计系统的屏幕截图。 find-chromium.mjs 找到一个或说明如何获取它。 - 对于 make-font，Python 3.9 或更高版本，带有 fonttools 、 brotli 、 uharfbuzz 、 numpy 和pillow ，以及用于字体书 PDF 的 Playwright 。 - 设计系统老板。运行其他人。 - 构建设计系统。建立一个系统。 - 迁移设计系统。迁移到它上面。 - 令牌映射。将值映射到标记。 - 组件文档。记录一个 com
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, canvas, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [axel](https://github.com/lgalabru/axel)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 310
+- **核心概述**: 代理编排，专为 Rex 设计。
+- **大概是做什么的**: 代理编排，专为 Rex 设计。线程和命名代理，回到终端。或者在 Rex 中运行 axel 并在浮动在窗口上方的启动器中输入相同的内容。当你关闭笔记本电脑时，线程会继续运行，你可以从任何机器上拿起它。 🧵 线程，而不是聊天选项卡 线程是一个意图以及与之相关的所有操作。它比代理的进程、窗格和机器寿命更长：一次运行几个，明天恢复，完成后解决它。每个更改都是一个签名事件，因此其他计算机上的副本会合并。一个由专家组成的团队，而不是一个无所不知的助手。 terra 构建时会为您的堆栈提供一些技能；与另一个模型的作品评论。每个都有自己的 Ed25519 密钥、权限、预算和收件箱，并且仅加载自己的技能。 🖥️ 由 Rex Agent 应用程序修复的终端重建了终端，因为它无法保持工作状态、显示谁在等你、到达你的其他机器，甚至无法滚动。 Rex 解决了所有这些问题，因�� Axel 只是窗格中的一个程序：线程作为普通输出进行流式传输并像其他任何内容一样滚动，并且状态显示在 Rex 中
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, codex, git, llm, rex, worktree-manager
+
+---
+
+### 🌟 [geo-mcp-servers](https://github.com/sparkgeo/geo-mcp-servers)
+- **项目语言**: Python
+- **星标数量**: ⭐ 248
+- **核心概述**: 用于地理空间、GIS、测绘和地球观测工作的模型上下文协议 (MCP) 服务器的精选、跟踪列表 - 地理编码、路由、PostGIS、STAC/图像、QGIS/ArcGIS、天气和商业定位平台。
+- **大概是做什么的**: 地理空间 MCP 服务器 用于地理空间、GIS、测绘和地球观测工作的模型上下文协议 (MCP) 服务器的精选、跟踪列表 — 地理编码、路由、PostGIS、STAC/图像、QGIS/ArcGIS、天气和商业定位平台。有关该目录涵盖的内容、市场发展方向以及差距的战略概述，请参阅 ANALYSIS.md。下表是从servers.yaml 生成的——唯一的事实来源。 - 快速：打开一个新服务器问题。 - 直接：向servers.yaml 添加一个条目并重新生成——请参阅CONTRIBUTING.md。图例 - Lang / Deployment 给出了实现语言以及服务器运行的位置：本地（您安装它；您的客户端启动它）、托管（供应商运行它；您连接到他们的 URL）、本地+托管（您自己运行它，或使用公共端点）、自托管（您将其部署为 HTTP 服务）、插件（在桌面应用程序内运行）或未知。只有托管服务器和本地+托管服务器可以通过 claude.ai 等 Web 客户端运行。类型为官方（平台/数据供应商发布）或社区（独立）。健康来自 health.json ，刷新
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: geospatial, mcp
+
+---
+
 ## 🕔 2026-11-15 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
