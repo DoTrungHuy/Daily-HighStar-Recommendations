@@ -1,3 +1,67 @@
+## 🕔 2026-11-16 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hypergrok-trading-desk](https://github.com/galleonlabs/hypergrok-trading-desk)
+- **项目语言**: Python
+- **星标数量**: ⭐ 534
+- **核心概述**: 人工智能代理的超流动性交易台：7 个角色、17 种技能和无钥匙市场工具。研究为先；执行需要您的 API 钱包和批准的票据。 Grok Bot、Claude Code、Cursor、Codex、Gemini CLI 和 Grok Build。
+- **大概是做什么的**: 适用于 Grok Bot · Claude Code · Cursor · Codex · Gemini CLI · Grok Build HyperGrok 为您的 AI 代理提供了一个用于 Hyperliquid 研究、风险、执行和审查的共享流程。它包括七个角色配置文件、十七个技能和只读 Python 工具。从公开市场数据开始，然后在 Grok Bot 或您首选的代理工具中设置服务台。交易需要您自己的 API 钱包、经过验证的批准控制以及您批准的确切票据。来自 Hyperliquid 公共/信息端点的实时 ETH 快照：价格、资金、未平仓合约、价差和深度。它不需要钱包、帐户或密钥，并在 Python 3 的标准库上运行。由上述命令于 2026 年 10 月 25 日 13:09 UTC 记录。这些数字是历史快照；自己运行它以获取当前数据。对于具有共享交易大厅的七机器人柜台，打开 Grok Bot 并粘贴：从 https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.8.0/skills/hypergrok-bootstrap/SKILL.md 设置 HyperGrok 交易柜台。遵循引导技巧，使用 https://github.com/galleonlabs/hypergrok-trading-desk/blob/v1.8.0/SETUP.md f
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-plugins, agent-skills, ai-agents, ai-trading, claude-code, claude-code-plugin
+
+---
+
+### 🌟 [agent-skills-eval](https://github.com/darkrishabh/agent-skills-eval)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 817
+- **核心概述**: Agentskills.io 风格的 AI 代理技能测试运行程序
+- **大概是做什么的**: 代理技能的测试运行者。编写 SKILL.md ，进行一些评估，然后根据经验找出您的技能是否确实使模型能够更好地完成任务。文档·快速入门·SDK·agentskills.io 代理技能（Anthropic 的开放标准，用于为代理提供领域知识）可以轻松发布 SKILL.md，并假设您的代理现在可以更好地完成任务。困难的部分是证明这一点。代理技能评估是缺失的部分。它会根据相同的提示运行您的技能两次——一次将技能加载到上下文中，一次没有技能（基线）——有一个判断模型对两个输出进行评分��并为您提供并列报告。如果该技能没有产生可衡量的差异，您就会看到它。如果是这样，您就有收据。它是代理技能生态系统的测试框架，与任何特定的代理运行时分离，因此它可以在您的技能所在的任何地方工作。就是这样。将其指向技能文件夹，给它一个目标模型和一个判断模型，它就会生成一个包含完整工件和静态 HTML 报告的工作区。打开iteration-1/report/index.html，你就有了真实的证据
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evals, agent-skills, agentskills, ai-agents, cli, jsonl
+
+---
+
+### 🌟 [Flide](https://github.com/OmniJev/Flide)
+- **项目语言**: Python
+- **星标数量**: ⭐ 518
+- **核心概述**: 🔥🔥 用于决策模型的极快推理引擎
+- **大概是做什么的**: 英语 · 简体中文 · 日本语 · 한국어 新闻 · 快速入门 · 模型 · 选项 Flide 是 Jev 式决策模型的快速推理基础设施。通过精确的状态分叉，它比 vLLM 和 SGLang 快 9.5 倍，并且每个答案都是模型单独给出问题的答案。它提供 Jev /v1/systemone API。 - 🔥 2026-11-13 我们在 Flide 0.1.16 中添加了三个决策模型系列，包括 d3、karpo 和 this-that，以及来自 LiquidAI 的 d1-2B。 - 🔥 2026-11-12 我们在 Flide 0.1.15 中添加了来自 LiquidAI 的 d1-3B，Gemma 4 现在通过 --quantize fp8 在 FP8 中运行，因此 Gemma 4 12B 适合一张 24 GB 卡。 - 🔥 2026-11-12 我们在 Flide 0.1.14 中添加了 GLiDE-9B 和 GLiDE-27B，GLiDE-27B 还可以读取图像。 - 🔥 2026-11-11 我们在 Flide 0.1.13 中添加了 FlexDM-LoRA-v2.1、Sieve-31B-v3 和 JDI-Decision-V1，以及 RTX 40 系列 GPU 的预编译内核。 - 🔥 2026-11-10 我们在 Flide 0.1.12 中添加了 GLiDE、Nimble-v4-max 和 clef-flash，以及 RTX 50 系列和 RTX PRO 6000 GPU 的预编译内核。 - 🔥 2026-11-10 我们在 Flide 0.1.11 中添加了电子邮件分类演示，其中 Flide 标记了 10,000 封电子邮件，每封电子邮件有 8 个问题
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, cuda, decision-making, deterministic-inference, gemma, inference-engine
+
+---
+
+### 🌟 [openchatx-mcp](https://github.com/WealthyV/openchatx-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 397
+- **核心概述**: 将 ChatGPT 转变为本地代理运行时。操作您的计算机、使用本地工具、发现 MCP 服务器以及通过一个 MCP 连接将工作委派给您自己的模型。
+- **大概是做什么的**: OpenChatX 是一个包含电池、完全可定制的本地代理平台：编码级文件和 shell 工具、计算机控制、MCP 聚合、技能、规则、项目、任务、子代理、跨会话摘要等 - 所有这些都通过一个官方 ChatGPT MCP 连接公开，并带有工具箱来自定义代理的工作方式。 OpenChatX 通过常规 ChatGPT 聊天运行。它不会消耗您的 ChatGPT 工作/Codex 代理津贴。如果您的工作或 Codex 津贴用完，只要您的正常聊天使用量可用，您仍然可以使用 OpenChatX。 OpenChatX 使用您的本地用户权限运行。受信任的 ChatGPT 调用者可以运行命令、编辑文件、使用连接的 MCP 服务器以及控制支持的应用程序。工作原理 — 官方 MCP，无逆向工程 OpenChatX 使用 OpenAI 记录的 MCP 集成路径。它不会对 ChatGPT 进行逆向工程、调用未记录的 ChatGPT 后端端点、重用浏览器会话 cookie 或拦截 ChatGPT 流量。连接的工作原理如下： 1. OpenChatX 在您的计算机上本地运行普通的 MCP 服务器。 2. OpenAI官方
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, ai-agents, chatgpt, local-agent, macos, mcp
+
+---
+
+### 🌟 [aspera-cli](https://github.com/IBM/aspera-cli)
+- **项目语言**: Ruby
+- **星标数量**: ⭐ 102
+- **核心概述**: ascli：IBM Aspera（Aspera on Cloud、Faspex、HSTS、Node、Shares、Console、Orchestrator）的命令行界面和 MCP 服务器，可由 AI 助手和代理使用
+- **大概是做什么的**: ascli 是 IBM Aspera 产品的命令行界面。从终端或在脚本中使用它来： - 驱动 Aspera on Cloud、Faspex、Shares、Node、Console、Orchestrator 和高速传输服务器 - 调用 REST API 并运行高速传输 (FASP) - 通过配置、预设和脚本自动化工作流程 与 AI 助手一起使用 ascli 专为供 AI 助手和 AI 代理 (LLM) 使用而构建，以便他们可以操作 IBM Aspera 产品（Aspera on云、Faspex、高速传输服务器、节点 API、共享、控制台、Orchestrator）为您提供： - 在 shell 中（编码代理）：无需设置。向代理提供 llms.txt ，或安装代理技能 Skills/ascli ：然后代理会自行发现命令、参数和选项。 - MCP 服务器（模型上下文协议）：ascli mcp 服务器将所有命令公开给 AI 客户端，但有限制，并且不会向 AI 显示秘密。请参阅手册中的利用人工智能协助。选择最适合您的内容： 文档站点 ibm.github.io/aspera-cli（每个部分一页，AI 助手的 llms.txt） 在线手册 GitHub docs/README.md P
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, aspera, aspera-on-cloud, cli, fasp, faspex
+
+---
+
+### 🌟 [BloomTutor](https://github.com/Li-Evan/BloomTutor)
+- **项目语言**: Python
+- **星标数量**: ⭐ 310
+- **核心概述**: 用于个性化学习的开源人工智能导师：苏格拉底式的自适应课程，可以学习任何东西。克劳德代码技能 + 自托管网络应用程序。 Bloom 2 Sigma · AI开源家教
+- **大概是做什么的**: 为你想学的任何东西聘请私人人工智能导师。您的人工智能会读取您实际的学习方式，并专门为您教授下一课。基于 Bloom 的 2-Sigma 研究：一对一辅导 = 前 2%。 🌐网站·中文·英文 1984年，教育心理学家Benjamin Bloom发现，接受一对一辅导的学生得分比课堂平均水平高出2个标准差（+2σ）——跃居前2%。布鲁姆将此称为“2西格码问题”：效果已得到证实，但私人导师无法扩展。 Bloom 通过人工智能解决了这个问题。它会生成结构化的教学大纲，一次教授一堂课，阅读您的注释和反馈，然后根据您的确切理解水平定制下一课 - 就像真正的导师一样。模式设置 最适合 ------ ------- ---------- CLI Claude 代码 + 终端 喜欢 Markdown 编辑器的高级用户 Web 浏览器 (Next.js + FastAPI)、自托管视觉学习者、您自己的材料和 PDF 两者都遵循相同的流程：教学大纲 → 课程 → 注释 → 反馈 → 下一课 → 评估 → 摘要。快速入门：CLI 模式仅需要 Claude 代码。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adaptive-learning, agent-skills, ai-agent, ai-education, ai-teacher, ai-tutor
+
+---
+
 ## 🕔 2026-11-15 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 282 个候选项目中筛选出 6 个未推荐过的新项目。
