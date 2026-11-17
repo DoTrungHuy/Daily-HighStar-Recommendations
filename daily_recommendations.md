@@ -1,3 +1,67 @@
+## 🕔 2026-11-16 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [xiaobai-kanban](https://github.com/supercli-site/xiaobai-kanban)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 585
+- **核心概述**: 中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。 / Chinese beginner guide to coding agents, CLI setup, and Git workflows.
+- **大概是做什么的**: 🧭 小白看板 — 让 Agent 帮你写代码 你只说话，Agent 搞定一切。 不需要懂代码、不需要懂命令行。 🧭 第一次来？ 往下看「⚡ 10 秒开始」就够，不用先读完全文。 想知道这个站为什么全免费 → 关于我们； 已经卡住了 → 直接问客服，答疑不收费。 「你是什么 Agent？用大白话告诉我。」 看不懂它的回复？继续说：「用大白话解释，像跟小学生说话一样。」 -------- :------: --------- Agent 是什么？ 3 分钟 知道这玩意跟豆包有什么区别 我为什么要用？ 3 分钟 知道 Agent 能帮你做什么事 术语大白话词典 随时查 Git、Token、CLI……遇到不懂的词来查 -------- :------: --------- 3 分钟第一次实战 3 分钟 亲自指挥 Agent 做出一个网页！ 怎么跟 Agent 说话 5 分钟 万能公式，让 Agent 更懂你 -------- :------: --------- 装上 magpie：不花钱用 AI 编程 15 分钟 用免费模型额度， 一分钱不花 让 Agent 干活 「AI 编程要花多少钱」是小白 第一个会问、也最容易误解 的问题。 很多人以为必须订阅 Claude Code 或 Codex（每月十几二十美元）， 实际上： 国内一线模型（MiniMax / DeepSeek / GLM / Kimi）都有免费额度 ， 配上 magpie 这个本地网关，一分钱不用花。 📌 顺带一提：纯按量付费的话，一个月花掉 ¥1756、¥2162 是很常见的—— -------- :------: --------- 认识 CLI：AI 的手脚 5 分钟 CLI 是什么、为什么 AI 离不了它、GitLab/GitHub/飞书三个 CLI 各管什么 环境自检 30 秒 检查电脑准备好了没 安装 CLI 工具 2 分钟 装 Git、GitLab CLI、GitHub CLI 登录配置 5 分钟 Token 申请 + 安全存储 Git 工作流 3 分钟 每天怎么用 Git 干活 🧠 第四步：看懂全貌（一条链，一次讲透） -------- :------: --------- 从「我不会」到「代码上线」 15 分钟 Agent 是什么 · GitLab/GitHub 区别 · 代码怎么交 · 代码怎么认 · Web 开发与代码工程 · 开发在干嘛 · 命令是什么 怎么把需求讲清楚 10 分钟 ⭐ 最重要的一课：背景+目标+范围+验收，四句说全，附带填空模板和自检清单 Agent 邮箱
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-guide, ai-agent, ai-coding, beginner-friendly, chinese, cli
+
+---
+
+### 🌟 [Molio](https://github.com/zhuzhaoyun/Molio)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 451
+- **核心概述**: 人工智能代理的本地优先个人知识层。使用 LLM Wiki、知识图和代理工作流程构建不断发展的知识空间。
+- **大概是做什么的**: 为 AI 提供您的个人知识库。本地优先，每个字节都属于您。 English · 中文 · 🌐 官方网站 你所积累的不是一种东西：散布在笔记、文档、聊天记录中的经验和方法——还有整本书、充满图表的PDF、成堆的行业材料。其中大部分内容都是人工智能无法读取的形式，因此每次对话都从零开始。 Molio 将所有这些变成人工智能可以读取和使用的个人知识库：Claude Code、Codex 和其他代理进入您的知识空间，在您积累的所有内容之上工作 - 研究、写作、回答、分析 - 并将结果以 Markdown 形式写回，因此每项任务的基础都会变得更厚。一切都在您的计算机上运行，​​而不是通过第三方服务器。从零开始？资源库提供了不断增长的现成知识库——导入一个并开始提问。 ▶ 点击观看演示 ​​— 一本书，一个知识宇宙：《资治通鉴》1362年历史，由Molio处理成人工智能可探索的知识库 01 · 收集和处理 — scatt
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: claude-code, deepseek-harness, dsh-plugin, knowledge-management, llmwiki, local-first
+
+---
+
+### 🌟 [blades](https://github.com/go-kratos/blades)
+- **项目语言**: Go
+- **星标数量**: ⭐ 824
+- **核心概述**: Blades 是一个基于 Go 的多模式 AI 代理框架。
+- **大概是做什么的**: Blades 是一个事件驱动的 Go 多模式代理框架。它提供了一个小型公共代理接口、与提供者无关的模型协议、工具执行、会话历史记录、提示构造、上下文压缩、策略检查、生命周期挂钩和多代理流组合。该框架专为需要 LLM 代理作为普通 Go 组件的应用程序而设计：显式输入和输出、可取消的运行时上下文、边缘的提供者适配器以​​及位于核心协议之外的扩展点。 - 事件优先运行时：应用程序通过 event.Input 和 event.Output 与 Agent 交互，包括流文本、工具生命周期事件、调用本地助手结束、回合结束、错误和 Done 。 - 提供商中立的核心：OpenAI、Anthropic、Gemini、MCP 和可观察性集成位于 contrib/ 中；根模块不依赖于提供商 SDK。 - 多模式协议：content.Part 是事件、模型消息和工具结果使用的共享、可扩展的内容接口。 - 工具就绪代理循环：工具由tools.ToolSpec描述，由工具执行。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, agent-kit, agent-sdk, agent-workflow, ai
+
+---
+
+### 🌟 [Trading-R1](https://github.com/TauricResearch/Trading-R1)
+- **项目语言**: Python
+- **星标数量**: ⭐ 713
+- **核心概述**: Trading-R1：代理金融研究
+- **大概是做什么的**: Trading-R1：金融研究分析终端 1. 创建Tauric账户并获取API密钥。注册，然后或者使用Python 3.12或更高版本和bun： pip install tr​​ade-r1 。 3. 添加您的密钥并开始。要存储密钥，请运行 Trading-r1 Secrets set TAURIC API KEY ，或在应用程序中按 / 并要卸载，请运行 Trading-r1 daemon uninstall 如果您安装了该服务，然后运行 ​​uv tool uninstall Trading-r1 或 pip uninstall Trading-r1 。您的数据保留在 /.trading-r1 和报告文件夹中。名称 模型 需要 tauric tauric TAURIC API 密钥 gpt gpt-6.1-sol OPENAI API 密钥 anthropic claude-sonnet-5-5 ANTHROPIC API 密钥 gemini gemini-3.8-flash GEMINI API 密钥 vllm Qwen3.8-27B 您运行的 vLLM 服务器 该应用程序会在您设置的第一个服务器上启动，顺序为 OpenAI、Anthropic、Gemini、 Tauric，法学硕士。使用调色板中的 Model… 进行更改，或者从 Trading-r1 --profile gpt 开始。要将 vllm 指向您的服务器，请参阅配置。 / 或 ^K 打开命令面板 shift+tab 循环模式 ^N 开始新的研究 esc 取消正在运行的转弯，或关闭对话框 auto 完整工具包；代理德
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, finance, harness, llm
+
+---
+
+### 🌟 [duskbot](https://github.com/DuskBotAI/duskbot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 148
+- **核心概述**: 在您自己的模型上运行的免费 G​​rok Bot 替代品。使用您已经付费的 ChatGPT、Claude 或 Grok 订阅，并获得一组机器人，每个机器人都有自己的内存和计算机。
+- **大概是做什么的**: 在您自己的模型上运行的免费 G​​rok 机器人替代方案。使用您已经付费的 ChatGPT、Claude 或 Grok 订阅，并获得一组机器人，每个机器人都有自己的内存和计算机。 dusk.bot  ·  v0.2.13 · 永久免费供个人使用 · 可用源 dusk bot 是一款桌面应用程序，您的 AI 助手将作为联系人存在。制作一个机器人，用简单的语言给它一份工作，然后像对待朋友一样给它发短信。它在自己的计算机上完成工作，记录您喜欢的工作方式，并在需要人员时停下来询问。它在您已经付费的人工智能上运行，需要您自己登录。机器人、聊天和文件保留在您的计算机上或您选择的服务器上。工作中的机器人：它在自己的计算机上搜索并读取真实的商店页面（右），然后给出答案。 - 游览：聊天和房间 · 机器人面板 · 自己的计算机 · 例程 · 应用程序和人工智能 · 保管库和搬入 · 首次运行和您的帐户 - 机器人居住的地方 · 安装 · 它如何组合在一起 - 参考：您的数据 · 安全性 · 自托管 · 配置 · 从源代码运行 · 常见问题解答 在自己的计算机上工作 浏览器和广告
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-assistants, claude-code, codex, computer-use, desktop-app, gemini
+
+---
+
+### 🌟 [dsh-mcp-connector](https://github.com/duhu2000/dsh-mcp-connector)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 134
+- **核心概述**: MCP Connector for DeepSeek Harness：连接企业、财务、法律、专利和研究数据的数据市场。管理授权、搜索工具并对 MCP 连接进行故障排除。支持 OAuth、API 密钥和 HTTP/stdio。
+- **大概是做什么的**: MCP连接器：DeepSeek Harness 的专业数据源市场 DeepSeek Harness 的 MCP 数据市场：汇聚各类垂直领域数据厂商与开放数据源，通过超百个 MCP连接器接入 MCP Server，统一授权、查找工具与连接排障。 覆盖全部 9 个分类，数量按连接器去重统计。点击分类查看完整列表；以下为部分连接器示例。 企业数据 2 企查查·企业工商、企查查·招投标 金融投资 13 Wind·股票数据、TuShare、AKShare 等 法律合规 5 企查查·法律数据、北大法宝·法律检索、巴西参议院开放数据 等 调研分析 42 飞常准航空数据、智慧芽专利与文献、OpenAlex 全球学术研究 等 办公协作 17 腾讯文档、飞书开放平台、Notion 等 开发工具 23 GitHub、Playwright、Chrome DevTools 等 设计创意 10 Canva 可画、draw.io、可灵 AI（AceDataCloud） 等 效率工具 7 企查查·智能文档解析、高德地图、百度地图 等 其他 2 FlyBest·AI 订酒店、QVerisMCP 从持续更新的连接器目录接入 MCP Server；跨当前范围内已启用连接查找工具，查看易读参数、来源和最后成功缓存时间，并在发现异常时检查连接或重新发现工具。支持 OAuth 2.0 PKCE、API Key、Streamable HTTP/stdio 与 mcpServers JSON 导入。 OAuth 是否可用取决于服务商的客户端注册、账号权限与授权政策；连接已保存、工具已发现和业务调用成功应分别验证。 注：“技能扩展”指通过 MCP 工具和 Prompt 扩展智能体能力，本包不会伪装成独立 DSH Skill。 English documentation · English overview MCP Connector for DeepSeek Harness is a specialist data marketplace connecting data providers and open data sources, with authorization, cross-connection tool search and troubleshooting in one panel. Browse a continuously updated catalog of 100+ connectors; connect through OAuth 2.0 PKCE, API keys, Streamab
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: api-key, connection-manager, deepseek, deepseek-harness, dsh, dsh-plugin
+
+---
+
 ## 🕔 2026-11-16 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
