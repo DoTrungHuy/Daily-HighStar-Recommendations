@@ -1,3 +1,67 @@
+## 🕔 2026-11-17 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 204 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Agents](https://github.com/GetStream/Agents)
+- **项目语言**: Go
+- **星标数量**: ⭐ 8,215
+- **核心概述**: 快速构建文本、语音和视频代理。快速、基于 Go 的代理后端，具有适用于每种语言的 SDK。搜索、知识、技能、电话、沙箱、记忆和持久性的合理默认设置。主权人工智能。控制你的人工智能。
+- **大概是做什么的**: 使用 Python 作为代理不再有意义。对于 0.7，我们已转向 Go，并提供其他语言的 SDK。 Stream Agents 是用于构建文本、语音和视频代理的 Go 后端。您可以在一天之内构建 Muse、Decagon 和 Harvey 等 AI/代理应用程序。构建代理的速度更快： 1. 代理在文件夹结构 + YAML 中定义 2. SDK 处理聊天/音频客户端和状态 3. 您需要的所有组件都与合理的默认值集成。 （护栏、知识、路由、连接器、沙箱、技能、电话）性能极佳： 1. Go 运行时具有高并发和高性能 2. 边缘加速可减轻后端负载并降低延迟 3. 音频转��通过类似于 OpenAI 的 WARP 进行优化 路由、持久性和内存的结合使底层模型的切换变得轻松。保持对成本规模的控制。从前沿模型开始，并在有意义时运行自己的模型。繁重的工作是用 Go 完成的。但您可以在任何环境中使用代理：选择后端语言：然后使用客户端 SDK 将聊天、语音和视频添加到您的应用程序：年龄
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, agents, ai, ai-agents, realtime, sovereign-ai
+
+---
+
+### 🌟 [Pojun](https://github.com/chu0119/Pojun)
+- **项目语言**: Go
+- **星标数量**: ⭐ 349
+- **核心概述**: AI 自主渗透测试 · 红队作战平台 | 多 Agent 自主推进 · 漏洞情报运营 · 后渗透与 C2 | LLM 三通道轮询 | 全程证据留痕 | 原百度攻防赛冠军项��独立演进版
+- **大概是做什么的**: AI 自主渗透测试平台 · 从一句话目标到可交付漏洞报告 Go 单体后端 · Next.js 内嵌前端 · PostgreSQL · 多 Agent 自主推进 · 全程证据留痕 📦 一条命令安装 · 🧠 单技能版 pojun-skill —— 本平台方法论的单 skill 版，任意 AI Agent 即装即用 依赖 PostgreSQL （安装脚本/Compose 自动处理）；探索需在 UI 里配置 LLM （Anthropic / OpenAI / 任意兼容网关，多通道轮询）。详细安装方式、系统选择、 Linux（Debian / Ubuntu / RHEL / Kali 等，root 执行，全自动交互安装）： macOS 13+（Apple Silicon / Intel，一条命令，不需要 sudo）： 自动完成：Homebrew 检测（没有就装）→ PostgreSQL 16 安装与服务化 → 下载并 校验 darwin 包 → 生成 config.json → 注册 launchd 用户级服务（开机自启 + 崩溃自动拉起）→ 健康检查。渗透工具与 LibreOffice 等 brew install 按需装 （缺失工具在「宿主环境」页如实显示），详见安装详解。 Windows / 已有 Docker（工具链全在镜像里，宿主机零安装）： 1. 浏览器打开 http:// :8787 → 初始化管理员密码（≥8 位） 2. 「LLM 配置」页配模型通道（≥2 个通道 + 开启轮询 = 实战推荐）；Anthropic/OpenAI/ DeepSeek 等 OpenAI 兼容端点直接填 base url + key + model（如 DeepSeek： https://api.deepseek.com + deepseek-chat / deepseek-reasoner ） 3. 「宿主环境」页一键装齐工具（Docker 镜像已内置全部 66 件，可跳过） 🚀 部署 安装详解 · 配置速查 📸 产品 界面速览 · 核心能力 · 系统架构 · 与同类项目的差异 🧰 资产与纪律 内置资产清单：技能 / MCP / 工具 · 实战纪律与安全边界 👥 参与 开发与贡献 · 文档索引 · 来源声明 · 许可与免责声明 Pojun 是一套 LLM 多 Agent 自主渗透测试平台 ：给一句话目标，它自动完成 「目标拆解 → 侦察 → 漏洞挖掘 → 利用 → 后渗透 → 报告」全流程，人随时可以插手纠偏。 它不是一个「包一层 API 的扫描器」。Pojun 的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, autonomous-agents, autonomous-pentest, c2, cybersecurity, docker
+
+---
+
+### 🌟 [llamastash](https://github.com/llamastash/llamastash)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 302
+- **核心概述**: 零开销、终端本地本地 LLM 协调器。通过同一代理运行任何引擎、任何模型。
+- **大概是做什么的**: 零开销、终端本地本地 LLM 协调器。通过同一代理运行任何引擎、任何模型。带有初始化向导的快速 TUI 和 CLI，用于运行本地 LLM。一个 Rust 二进制文件，包含 TUI、CLI、守护进程和 OpenAI 兼容代理。引入任何模型和任何引擎：llama.cpp 用于 GGUF，与原始 llama-server 相比，零开销，vLLM 和 SGLang 用于 safetensors，以及运行您在配置中声明的任何其他 OpenAI 兼容服务器的通用后端，例如 NPU 上的 Lemonade 和 FastFlowLM、用于 DeepSeek-V4 的 ds4、gufo、Halogen 和 whisper.cpp。您无需了解每个引擎的标志、端口和怪癖：LlamaStash 以相同的方式管理它们，在一个代理 URL 和一个 TUI、CLI 和代理界面后面。参见发动机。重抽象（Ollama、LM Studio）隐藏引擎并将您与它们捆绑的引擎联系在一起；手动运行 llama-server 、 vllmserve 或任何其他引擎是乏味的。 LlamaStash 是一个快速、透明的编排器，可以运行适合每个模型的引擎，它也是代理的一流 shell 工具界面——一个二进制文件、按需守护进程、TUI 中的相同原语以及
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, gguf, llamacpp, llm, lmstudio, local-ai
+
+---
+
+### 🌟 [astrbot-for-android](https://github.com/JunWan666/astrbot-for-android)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 405
+- **核心概述**: 在 Android 手机上本地部署和管理 AstrBot，支持 QQ 官方机器人与微信官方 ClawBot、PRoot Ubuntu、��端任务、WebUI、日志和备份恢复，无需 Root。
+- **大概是做什么的**: 在 Android 手机上运行 AstrBot，连接你的消息平台。 一个 APK · 本地运行 · 原生管理 · 内置 WebUI AstrBot for Android（AstrBot 运行管理器） 是面向 Android 设备的 AstrBot 本地部署及运行管理应用。单个 APK 提供 PRoot Ubuntu、AstrBot 与通用运行依赖，支持环境初始化、服务启停、状态监控、日志查看、备份恢复及独立在线更新，无需 Root。 应用采用 Kotlin 与 Jetpack Compose 构建原生管理界面，支持简体中文与英文。从首页接入 QQ 官方机器人和微信官方 ClawBot，通过内置 WebView 配置 AstrBot 的模型、插件与人设；终端和任务页用于运行自行部署的 Ubuntu 程序，另提供局域网访问、SSH、Linux QQ 和 cpolar 等扩展。 当前最新正式版为 1.5.0 ：首页聚焦 AstrBot，新增 QQ 官方机器人与微信官方 ClawBot 配置入口、通用任务管理，Linux QQ 保留为独立桌面扩展，并完善环境兼容、更新、备份与诊断。升级影响及完整变更见更新记录。 关于 NapCat 与 SnowLuma 早期版本曾提供 NapCat 内置接入和 SnowLuma 部署、运行入口。近期上游公开源码与下载渠道发生变化：截至 2026-11-18，NapCat 原仓库的默认分支仅保留 README，SnowLuma 原仓库已无法公开访问。为明确第三方授权与分发边界，并降低后续维护的不确定性， 从 1.5.0 起，本项目不再内置或提供这两个组件的专用安装、启停及部署教程 ，重点维护 AstrBot、QQ 官方机器���、微信官方 ClawBot 和通用运行环境。 升级会停用旧版内置接入，保留 AstrBot 数据、账号资料及用户手动安装的软件；通用终端、任务和独立 Linux QQ 继续可用。Linux QQ 用于原版客户端登录与聊天，与机器人接入独立。旧 Release 描述的是对应历史版本，详见旧版本升级。 以下手机实机截图展示首页、任务、网页、分类设置、扩展、权限及内置后台。 首页、任务、网页、设置、扩展和 QQ 官方机器人配置展示 1.5.0 的界面布局，其余展示现有通用功能。 AstrBot 管理 首页启停、重启与后台入口，显示组件版本、真实就绪状态及 App 版本 内置后台 直接打开原 WebUI，预填有效的初始凭据，也可使用外部浏览器 固定缩放 默认 75%，支持 100% / 75% / 50% / 25%，关闭双
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai, android, astrbot, chatbot, jetpack-compose, kotlin
+
+---
+
+### 🌟 [ai-agent-registry](https://github.com/ARUNAGIRINATHAN-K/ai-agent-registry)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 358
+- **核心概述**: ✨ 开源人工智能代理发现和情报注册平台
+- **大概是做什么的**: 发现、比较和探索 32 个类别的 500 多个 AI 代理、框架、工具、技能和基础设施。 AI Agent Registry 是一个开源的、社区驱动的目录，旨在使快速增长的 AI Agent 生态系统更容易发现、探索和导航。探索堆栈 • 实时应用程序 • 架构 • 数据架构 • 开发 • 贡献 • 代理指南 - AI 注册表浏览器 - 编排框架 - 内存和上下文 - 多代理系统 - 代理通信协议 - MCP（模型上下文协议） - 浏览器和计算机使用代理 - 代理工具和基础设施 - 低代码和无代码构建器 - 语音和多模式代理 - 安全护栏和可观察性 - 代理接口和 UI - 代理部署和托管 - 代理评估和基准 -代理测试和调试 - 特定行业代理 - 制造和工业 - 政府和合规性 - 学习资源 - 代理通信 - 数据管道和工作流程 - 安全执行环境 - 创意人工智能代理 - 音乐和音频生成 - 3D 和设计生成 - 客户支持
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, ai-agent-registry, ai-frameworks, ai-tool, awesome-lists
+
+---
+
+### 🌟 [localix-cli](https://github.com/localixai/localix-cli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 368
+- **核心概述**: Localix CLI：用于编码和 CI 的超快代理运行时，采用 Rust。一个小于 4 MB 的二进制文件，任何型号。命令是 llx。
+- **大概是做什么的**: 用于编码和 CI 的超快、轻量级代理运行时 在您的终端上的任何模型上的编码代理：ChatGPT 登录、OpenRouter、您自己的密钥或本地模型（Ollama、LM Studio、llama.cpp）。同一个代理在 CI 中运行一项任务并帮助您的其他代理。一个小于 4 MB 的二进制文件。 Claude Haiku 5.5 上的每一步都是真实运行的：任何模型·修复·答案·代理·决策·船舶检查。它也在 cli.localix.ai 上按章节播放，可以暂停并从中复制。 1. 在 macOS 或 Linux 上安装： 2. 在您的项目中运行它：/login 需要 ChatGPT 登录、OpenRouter 或 200 多个提供商中任意一个的密钥；您自己的机器（Ollama、LM Studio）上的模型不需要任何东西。 llx医生说缺少什么。其他安装方式：安装llx。是用脚本安装的吗？运行 llx --update 以安装最新的稳定版本。会话仅在有可用时通知您。 llx 是一个循环使用五个工具的模型：bash、apply patch、ask、agents 和 jobs。它通过 shell 读取、搜索和运行您的检查，并使用补丁更改文件。 - 又快又小。一个低于 4 M 的 Rust 二进制文件
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-runtime, agentic-ai, agentic-coding, ai-agent, ai-cli, ai-coding-agent
+
+---
+
 ## 🕔 2026-11-17 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
