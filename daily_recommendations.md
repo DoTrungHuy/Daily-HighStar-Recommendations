@@ -1,3 +1,67 @@
+## 🕔 2026-11-17 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [OpenTodo](https://github.com/OpenTodoApp/OpenTodo)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 514
+- **核心概述**: Your tasks, your server. An open-source, local-first task manager you can host yourself. Everything you expect from a commercial task app, without the subscription or the lock-in.
+- **大概是做什么的**: Plan your day without renting your to-do list. OpenTodo is a free, open-source to-do app you run on your own server or have hosted for you. It works on your phone and your computer, even offline, shares lists with your family or your team, and keeps your data with you. New: OpenTodo for iPhone and iPad is in the App Store. It's the first release, a first step: it connects to your OpenTodo server and adds reminders on the phone, the share sheet, a Today widget and Face ID unlock. Expect some rough edges; tell us what to improve. Ways to run it: PikaPods (hosted, no server needed) · Docker · Umbrel (coming soon) · Unraid · Home Assistant · Kubernetes (Helm) · Single binary · iPhone and iPad app (App Store) · Android app (APK from GitHub; Google Play and F-Droid coming soon) · all 20 platforms Type a task the way you say it: Call Sarah next Wed 3pm work p1 sets the date, time, project and priority. Dictate it, send a page from your phone's share menu or the browser extension (Chrome, Firefox), or forward an email. Anything without a home lands in the Inbox. Quick add · Voice · Capture T
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: caldav, end-to-end-encryption, golang, gtd, kanban, local-first
+
+---
+
+### 🌟 [mcpet](https://github.com/songconmaisaix31-design/mcpet)
+- **项目语言**: Python
+- **星标数量**: ⭐ 312
+- **核心概述**: MCP desktop companion for AI agent status, usage tracking, and everyday tools. Anything Universe · 桌面伙伴与日常工具入口。
+- **大概是做什么的**: A desktop pet that watches your agent sessions, your local token usage, and your lunch. 一只桌宠：盯着 Agent 会话、本机用量，还有你的饭点。 GIFs shipped in this repository under docs/media/deepseek/ ; sources and licenses are listed in docs/media/deepseek/SOURCE.md . 动画文件就在本仓库 docs/media/deepseek/ 下；来源与许可见 docs/media/deepseek/SOURCE.md 。 How to read this page / 怎么读这页 English first, then the same content in Chinese — not a summary, not a separate half. Tables keep both languages in one cell. 每段英文在前、同一内容的中文紧跟在后；不是摘要，也没有单独的"中文版"。表格把两种语言放进同一格。 Problem 问题 A long agent run looks the same whether it is working, waiting for input, or already errored — and the token bill lives in yet another window. 长时间运行的 Agent，在工作、等输入、已经出错这三种状态下看起来一样；而 token 账单又在另一个窗口里。 Fix 做法 A desktop pet + an MCP server over one shared data directory: session state drives the animation, a local ledger tracks usage, reminders fire on a schedule. 桌宠加一个 MCP 服务，共用同一份数据目录：会话状态驱动动作，本机台账记录用量，提醒按时触发。 Cost 代价 Python 3.10+ and PySide6 for the desktop; the agent path only needs requirements-agent.txt . Dining features need McDonald's / Luckin tokens. 桌面
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anything-universe, desktop-pet, developer-tools, llm, mcdonalds
+
+---
+
+### 🌟 [mistgate](https://github.com/Mistgate/mistgate)
+- **项目语言**: Go
+- **星标数量**: ⭐ 307
+- **核心概述**: Beta. Self-hosted panel for running a VPN for others: family, friends, a community or a small team. Hysteria2, VLESS REALITY and AmneziaWG, one link per person. Add servers from the browser over SSH; client-eye health checks and Telegram alerts; MCP for AI agents. Two static Go binaries, SQLite, no Docker.
+- **大概是做什么的**: A self-hosted panel for a small VPN: a few servers of your own and the people you share them with. Hysteria2, VLESS and AmneziaWG. Two Go binaries, SQLite and systemd. Docs · Install · Protocols · Is it stable? · Compare · Русский · 简体中文 · فارسی · Türkçe Beta. Expect changes before 1.0. Status and roadmap You put the panel on one server and add your VPN servers to it as nodes. Each person gets one subscription link, and their app picks up every server they may use. The panel keeps the nodes configured and checks them. - Add a node from the browser by its IP with the panel's own SSH key (added once at your hoster) or the root password. The panel pins the SSH host key, checks the server, opens the ports in an active UFW or firewalld and installs the signed agent; the node's card changes the password and manages the server's SSH keys. A one-time install command works too. Add a node - One link per person. Mihomo apps (kl!ck, FlClash, Clash Verge Rev) get all three protocols from it, Happ gets Hysteria2 and VLESS, and AmneziaVPN takes a key per device from the person's page. The Mihomo a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, amneziawg, anti-censorship, censorship-circumvention, cloudflare-warp, golang
+
+---
+
+### 🌟 [fish-pocket](https://github.com/imsai-sh/fish-pocket)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 304
+- **核心概述**: DSH iOS 移动版：在 iPhone 和 iPad 上本机运行 DeepSeek Harness，界面完全原生，不连电脑和服务器。Run DSH (DeepSeek Harness) natively on iPhone and iPad: no computer, no server.
+- **大概是做什么的**: 在 iPhone 和 iPad 上本机运行 DSH（DeepSeek Harness），界面完全原生 本机运行不靠电脑，不靠服务器，不是网页套壳。引擎就跑在 App 里，每个页面都用 SwiftUI 重写，iPhone 和 iPad 都是原生体验。 功能对齐 DSH 官方 Web UI，官方有的这里都有。智能体还能直接用 iPhone 自带的日历、提醒事项、健康、照片和地图。 还有三个大功能： 操控手机 ，让智能体替你点按其他 App； Bot 模式 ，一支原生界面的常驻 Bot 团队； 远程控制 ，在手机上管电脑和服务器里的 Codex、Claude Code 和 DSH 会话。 如果你也想把大肥鱼装进口袋， 从 App Store 下载 ，再点个 ⭐ 支持一下吧。想先试新版本的话，可以 加入 TestFlight 公测 。 插件市场 在手机上装一个安全网插件，危险命令当场被拦下 本机能力 说一句话，日程就进了系统日历，提醒也建好了 小组件和灵动岛 切到后台任务照样跑，进度在主屏幕上看 操控手机 说一句话，它自己去设置里点好，再回来告诉你，附上操作录像 操控内置浏览器 替你刷 B 站、抖音这些网站，翻完把要点整理回对话 建一个 Bot，交代一件事，它自己联网查完再回你；常用的服务在连接器里连一次就行 两个窗口并排，各跑各的会话：左边改游戏，右边提交代码 合上时在外屏发起任务，展开后同一个会话接着跑，侧栏和对话并排 放下手机，抬腕就知道它干到哪了：审批在手表上点，跑完大肥鱼叫你一声 以上都是实际运行的录屏，等待的部分剪掉或加了速。 - 能用 iPhone 自带的能力： 智能体直接查日历、建提醒、读健康数据、找联系人、搜地图，每一项都由你自己开启。见本机能力。 - 操控手机： 装好开源的 iCTRL 后，智能体可以打开别的 App，替你点按、输入、读取屏幕，做完回到对话里告诉你结果。见操控手机。 - Bot 模式： 一支常驻的 Bot 团队。每个 Bot 有自己的形象、记忆和工作文件夹，可以私聊，可以拉群一起商量，也可以到点自己开工。后台是开源的 DS Bot，界面全部原生重写。见 Bot 模式。 - 远程控制： 电脑和服务器上的 Codex、Claude Code 和 DeepSeek Harness 会话也能在手机上管，和本机会话放在同一个会话列表里，跟进进度、接着聊、回应审批、随时打断。见远程控制。 - 功能对齐官方 Web UI： 对话、工具调用、文件编辑、搜索、计划模式、审批、子智能体、定时任务和插件，DSH 官方 Web UI 能做的这里都能做。 -
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, coding-agent, deepseek, deepseek-harness, dsh, dsh-ios
+
+---
+
+### 🌟 [Serpentine3D](https://github.com/chisomobanzi/Serpentine3D)
+- **项目语言**: Python
+- **星标数量**: ⭐ 138
+- **核心概述**: Open-source NURBS surface modeller — a Rhino-style freeform modeller on the OpenCASCADE kernel, with AI-native MCP integration
+- **大概是做什么的**: The open-source NURBS modeller for things that get built. Exact curves and surfaces, drawing sheets a workshop can build from, a command line that speaks Rhino, and an assistant that can drive all of it. Linux, Windows and macOS. Free, with no account. https://github.com/user-attachments/assets/837002ba-7780-49d3-b966-71d6469ba884 Made in Serpentine3D Film and TV · an archway set piece, 35 objects on 8 layers Jewellery · a cathedral solitaire with a 57-facet brilliant Architecture · 50 storeys turning a quarter turn Product design · one surface lofted through four curves Sculpture · a pierced loop in serpentine stone Interiors · a spiral stair, 14 oak treads - Exact geometry. NURBS curves, surfaces and solids on the OpenCASCADE kernel, not meshes. Rhino .3dm , STEP, DXF, SVG, OBJ, FBX and STL in and out; glTF, USD and 3MF out; E57 point clouds in. - A command line that speaks Rhino. loft , sweep2 , filletedge , booleanunion and more than 200 others, with Rhino's aliases, object snaps, layers and a gumball that pushes faces and rounds edges by hand. - Drawings from the model. A4 to A0
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, cad, linux, mcp, nurbs, opencascade
+
+---
+
+### 🌟 [rust-anything](https://github.com/erkamyaman/rust-anything)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 134
+- **核心概述**: Rewrite your whole app in Rust, one piece at a time, proving nothing changed. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.
+- **大概是做什么的**: Rewrite your whole app in Rust. Keep it working the whole way. CLIs, servers and libraries, piece by piece, checked against the original at every step. up to 20x faster · 38,251 recorded cases replayed · 0 mismatches · one command Rewrite your whole app in Rust, one piece at a time, proving nothing changed. For CLIs, HTTP servers and libraries in TypeScript/JavaScript, Python, C, Go, Ruby and Java: rust-anything ports your app piece by piece, checks every step against the original's recorded behavior, and hands you a pure Rust app. Only need the slow part fast? Port just that, one hot path at a time: Real workload, same results as the original Original With rust-anything x18n's sidebar search, 50,000 keys (TypeScript, Node) 10 ms per query 0.5 ms: 20x faster The same search in the browser (wasm, one thread) 10 ms 0.95 ms: 11.5x slugify over 20,000 strings (Python) 98 ms 17x faster Shellwords.shellescape from Ruby's standard library, 50,000 values 88 ms 11.8x faster Slugify over 50,000 strings (Go) 49 ms 4x faster slugify over 50,000 strings (Java) 43 ms 3x faster Measured on 4 cores;
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, claude-code, cli, code-migration, codex, ffi
+
+---
+
 ## 🕔 2026-11-16 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
