@@ -1,3 +1,67 @@
+## 🕔 2026-11-18 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [argent](https://github.com/software-mansion/argent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,209
+- **核心概述**: 用于控制、调试和分析 iOS 和 Android 应用程序的代理工具包。由软件大厦制作。
+- **大概是做什么的**: English 日本语 简体中文 Argent 让您的 AI 助手能够直接控制 iOS 模拟器、Android 模拟器和设备、电视（Apple TV、Android TV、Fire TV）、Electron/Chromium 应用程序和本机 Mac 应用程序。点击按钮、分析屏幕、重现错误 - 无需离开 CLI。 - 交互 - 点击、滑动、手势、键入、硬件按钮；电视上的方向键；桌面上的鼠标和键盘。 - E2E - 将路径记录一次作为 e2e 测试，确定性地重播它作为重现或冒烟测试。 - 视觉回归 - 将基线与实时捕获、OCR 和字体感知进行比较。 - 分析 - Hermes、React DevTools、Xcode Instruments、Perfetto：渲染、CPU 热点、挂起。 - 调试 - 日志、网络（XMLHttpRequest 包括 axios、fetch 包括 Expo 和本机）、JS 评估、本机和 React 树。 - React Native - 构建、启动和迭代，无需额外设置。问你的助手“Argent 能做什么？”列出每个工具。安装·平台·CLI·编辑器遥测已选择退出：argent telemetry禁用。请参阅隐私声明。 Argent 使用混合许可模式。源代码根据 Apache License 2 发布
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, agentic, ai-agents, android, android-emulator, android-tv
+
+---
+
+### 🌟 [9router-go](https://github.com/luqman-v1/9router-go)
+- **项目语言**: Go
+- **星标数量**: ⭐ 303
+- **核心概述**: 用于 9Router LLM 路由的高性能 Go 代理网关 — 32K RPS、42MB RAM、无 CGO
+- **大概是做什么的**: 免费的人工智能路由器和令牌保护程序与单一二进制永远不会停止编码。通过 RTK + 自动回退到免费且廉价的 AI 模型，节省 20-40% 的代币。将 Claude Code、Cursor、Antigravity、Codex、Gemini、OpenCode、Cline、OpenClaw... 连接到 40 多个 AI 提供商和 100 多个模型 - 运行时无需 Node.js。 🚀 快速入门 • 💡 功能 • ⚙️ 设置 • 🔄 与 9Router 共享数据库 • 🌐 上游 与 9Router 相同的想法，减去 Node.js 运行时：一个 Go 二进制文件提供代理 API + 嵌入式 Svelte 仪表板。停止浪费金钱、代币和达到限制： - ❌ 订阅配额每���未使用就会过期 - ❌ 速率限制会阻止您进行中期编码 - ❌ 工具输出（git diff、grep、ls...）会快速燃烧代币 - ❌ 在提供商之间手动切换 9router-go 解决了这个问题： - ✅ RTK Token Saver — 自动压缩工具结果内容，节省 20-40% 代币 - ✅ 自动回退 — 订阅 → 便宜 →免费，零停机 - ✅ 扩展组合路由 - 每个组合策略：后备、循环、粘性、容量或融合 - ✅ 多帐户 - 每个提供商的帐户之间循环 - ✅ 每个 API 密钥代理 - 将代理池绑定到每个提供
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: 9router, api-gateway, claude, deepseek, gpt, llm
+
+---
+
+### 🌟 [Agent-browser](https://github.com/oxylabs/Agent-browser)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 667
+- **核心概述**: 通过远程云会话执行复杂的自动化脚本，具有集成的住宅代理、自动验证码解决以及针对最困难的动态网站的本机 JavaScript 渲染。
+- **大概是做什么的**: - 什么是代理浏览器？ + 处理 CAPTCHA 事件 + 动态 CAPTCHA 解决 + 地理位置定位 + 会话检查 - 代理浏览器如何工作？ + 连接详细信息 - 如何优化代理浏览器流量 - Agent Broswer、Web Scraper API 与 Web Unblocker + 何时选择每个 欢迎来到 Oxylabs 代理浏览器的官方存储库概述。本指南提供了代理浏览器的工作原理、其主要功能、一些常见用例以及如何使用它来优化网络抓取基础设施的技术概述。什么是代理浏览器？ Agent Browser 是 Oxylabs 的基于云的解决方案，可让您运行和控制远程浏览器会话，而无需在本地或您自己的基础设施上管理它们。它提供了一种无缝的方式来执行基于浏览器的自动化、测试和网页抓取，而无需处理浏览器设置、资源限制或检测挑战。与运行本地代理浏览器实例（例如自我管理的 Puppeteer 或 Playwright 设置）不同，Oxylabs 的代理浏览器在集成驻留程序的专用远程服务器上运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-browser, ai-grounding, ai-search, ai-training, firecrawl-alternative
+
+---
+
+### 🌟 [Nexus](https://github.com/ysunyang4/Nexus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 395
+- **核心概述**: Web AI for local work：让网页版 AI 直接操作你的本地文件和电脑，配套浏览器插件 webagent
+- **大概是做什么的**: 通过 MCP 使 Web AI 助手能够访问授权的本地工具 本地执行 · 用户控制的权限 · 操作历史记录 社区：LINUX DO。工作流程分为两部分：WebAgent 是兼容 Web AI 聊天界面的可选浏览器扩展。 Nexus 是强制执行工作区权限并执行工具调用的本地服务。您还可以直接将 Nexus 与其他兼容的 MCP 客户端一起使用。 Nexus 是一个面向兼容 AI 客户端的开源本地 MCP 控制平面。它通过具有不记名令牌身份验证的 MCP Streamable HTTP 公开本地授权工具。 Nexus 允许人工智能代理在配置的工作空间和执行权限内检查、编辑、构建、调试和编排复杂的本地工程工作流程。检查发送到第三方 AI 服务的内容：返回到 Web AI 聊天的工具结果可能会离开您的计算机。 2. 核心功能和架构亮点 1. 332 个规范 MCP 工具 - 单一事实来源：所有 332 个工具均在 @localbridge/protocol 中正式定义，具有严格的输入模式、风险评级和自动证据跟踪。 - 工具c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-extension, chrome-extension, llm, local-ai, mcp
+
+---
+
+### 🌟 [ankole](https://github.com/AgentBull/ankole)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 210
+- **核心概述**: 带有公司大脑的开源代理线束。适用于 Slack、Teams、Lark、钉钉、WeCom 等的自托管 AI 代理。 Claude Tag 的开源替代品。
+- **大概是做什么的**: 开源数字总部，人员和 AI 代理共同运营公司运营 网站 · 文档 · 快速入门 · 工作原理 · 讨论 英语 · 简体中文 · 日本语 · 한국어 Ankole 是一个面向 AI 原生团队的开源工作区 ( Pod ) 和多代理运行时。在一个浏览器工作区中，人员、每个成员的个人助理和专家 AI 同事共享协作文档和幻灯片、关系基表、按需 Applet（具有无状态云后端和确定性 Applet 操作）、具有点对点代理委托的多人 Pod 聊天以及 Meta Ankole（公司大脑、共享技能和 AGENTS.md / DESIGN.md 合约），而统一的连接器则链接 Slack、 Lark/飞书、Microsoft Teams、钉钉、微信、GitHub、Linear、电子邮件。 Ankole 将公司工作组织到人机交互的操作循环中。已发布的小程序操作以零 LLM 代币成本执行例行计划、网络钩子和表触发器，而代理在专用 Linux 容器中运行开放式工作，并要求人们决定选择卡或批准操作批准上的特权写入
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: actor-model, agent, ai-agent, ai-agents, claude-tag, elixir
+
+---
+
+### 🌟 [loom](https://github.com/ClickHouse/loom)
+- **项目语言**: Python
+- **星标数量**: ⭐ 163
+- **核心概述**: 共享长期记忆、文档搜索和人工智能代理的代码索引，链接到您的代码。记忆指向它们所涉及的文件和符号，并在特工编辑它们时浮出水面。 MCP 服务器、Claude Code 和 Codex 插件、SDK。在 ClickHouse 上自托管。
+- **大概是做什么的**: 人工智能代理的共享内存、文档搜索和代码智能。适用于 Claude Code、Codex、Cursor 和您自己的代理。 English · 简体中文 · 日本语 · 한국어 · Português (巴西) · Español Loom 是一款开源、自托管的 MCP 服务器，可为您的代理提供长期共享内存：一个代理在会话中学到的内容，下一个代理或工具可以找到。代理通过 MCP、HTTP、Python 或 TypeScript 进行连接。使用 Docker 进行自托管，或使用 Helm 图表在 Kubernetes 上进行自托管；代理上下文和索引数据位于 ClickHouse 中，��署可以在首次启动时选择 Postgres 来获取实时内存和知识状态。仪表板带来了内存、存储库、任务和运行 - 跨编码代理共享的长期内存，以及在会话启动时加载上下文并在会话运行时捕获会话的插件。连接编码代理 - 来自 Python 或 TypeScript SDK 的每个用户代理应用程序的内存。您的第一个代理 - 具有命名空间、角色和令牌的多用户 MCP 内存服务器。命名空间和共享 - 编码代理查询定义、调用者和 chan 的存储库的代码索引
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, ai-agents, ai-memory, claude-code, claude-code-plugin, clickhouse
+
+---
+
 ## 🕔 2026-11-18 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
