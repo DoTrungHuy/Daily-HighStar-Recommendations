@@ -1,3 +1,67 @@
+## 🕔 2026-11-18 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 269 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [postmill-app](https://github.com/postmill-ai/postmill-app)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 378
+- **核心概述**: Open-source social media management platform with an integrated Creative Suite. Design, publish, schedule, and engage across 45+ channels with AI-powered tools. Self-host or use Postmill Cloud.
+- **大概是做什么的**: Open-source, AI-native social media management, design and scheduling. Postmill is a self-hostable social media scheduler for agencies and multi-brand teams: a visual publishing calendar, 45+ channels, 46 built-in media tools, and bring-your-own-key AI across 31 providers. Run it on infrastructure you control, and let every organization manage its own channels, brands, and AI keys. An open-source alternative to Buffer, Hootsuite, and Sprout Social. Website · Docs · Quick Start · Node SDK ( @postmill-ai/postmill-sdk ) · Public API Postmill brings design , publishing , analytics , and engagement into one workspace. Click any screenshot for the full-size view. Design — designer canvas + video timeline, 46 media tools Post — calendar, 45+ channels, one composer Track — persisted multi-channel analytics Engage — cross-channel reply inbox That's the 30-second tour — the full feature tour, with every screen, lives in the documentation. The frontend runs on port 4200 . That's the development stack; for production, use the published Docker image with the root docker-compose.yaml : Full setup,
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, content-creation, generative-ai, image-editor, marketing-automation
+
+---
+
+### 🌟 [diff-tour](https://github.com/init-co-jp/diff-tour)
+- **项目语言**: Go
+- **星标数量**: ⭐ 376
+- **核心概述**: Walk through a diff the way a senior engineer reads it. A read-only TUI that turns a git change into a guided tour.
+- **大概是做什么的**: Walk through a diff the way a senior engineer reads it. A tour of a branch that adds coupons : what the change is for, how the usage limit is enforced, a question to think about, and the answer: applying a coupon twice to one order uses it up twice. diff-tour is growing fast. The tour format and the screens may still change from release to release. You need git and one of Claude Code, Codex CLI, Gemini CLI, OpenCode 2, Copilot CLI or Pi, signed in. Then it goes like this: 1. Setup (first time only): choose the display language and the LLM that writes the tour. Both have a recommended choice selected, so press Enter twice. 2. Pick a change : the changes you can tour are listed, with your current branch selected. Press Enter. 3. Writing : the LLM writes the tour. This takes 2 to 5 minutes. 4. The tour : → goes forward, ← goes back, q quits. If tour is not found, add the line the install script printed to your shell profile. To see a finished tour first, with no LLM and no sign-in, play the one from the GIF. It opens at once: Other ways to install are in Install, and an example reposito
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cli, code-review, git, go, learning, llm
+
+---
+
+### 🌟 [eta](https://github.com/0xfe-project/eta)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 228
+- **核心概述**: Eta is a self-contained 0-vendor multi-agent all-in-one endomorphic agent loop/runtime/harness/app.
+- **大概是做什么的**: Who's holding the AI that knows you? 100% transparent. 100% yours. An open-source workbench for always-on agents that run on your machine, answer with your own model accounts, and keep everything they know in one SQLite file you can open. The part where we disagree · Grok Bot says every agent gets its own computer. True. That computer sits in xAI's datacenter. Muse gets your mail, your photos, your shopping. Today gets your calendar, your meetings, your work chat, and promises the memory is "readable, editable, erasable" — on their servers, on their word. Grok Bot, Muse, Today: different logos, the same trade. They learn everything about you, and they keep it somewhere you will never be allowed to look. We don't think you have to accept the second half. eta is the same product with the address changed. The thing that knows you lives on the machine under your desk. Read its source, watch what it does, swap the model, open the database, carry the whole thing to another machine with cp -r . One process. One SQLite file. Zero required external services. 100% BYOK. A workbench where one p
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, grok-bot, harness, muse
+
+---
+
+### 🌟 [bloom](https://github.com/video-db/bloom)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 237
+- **核心概述**: An open source, agentic Loom alternative. Record locally, make recordings AI-ready, and run workflows on top
+- **大概是做什么的**: An open source, agentic Loom alternative. Record locally. Make recordings AI-ready. Run workflows on top. Record → Query → Automate Bloom is a local-first screen recorder built for agentic workflows. - Record locally — No lock-in, your files stay yours - Upload to VideoDB — Automatic cloud sync with AI processing. - Find any moment — Transcripts, visual embeddings, metadata. - Let agents work on your recordings — Query via APIs or agent frameworks like Claude Code and access your recordings data. Recordings are no longer files, they are inputs for AI. https://github.com/user-attachments/assets/bf075217-b256-43b7-9369-b5d172bfc6b2 Find your recordings in Claude and ChatGPT Now you can find your Bloom recordings in Claude and ChatGPT and keep working with them there. Bloom uploads every recording to your VideoDB account. Add VideoDB to your agent and ask it to find a recording, tell you what was said or shown, or cut the part you need and give you a link to share. You are using Do this Claude (web, desktop, mobile) and Claude Code Add to Claude, one click, then log in to VideoDB. No in
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, ai-tools, loom, recorder, video
+
+---
+
+### 🌟 [aide](https://github.com/skyelan1999/aide)
+- **项目语言**: Go
+- **星标数量**: ⭐ 174
+- **核心概述**: Self-hosted AI workspace for developers and engineers. Bring your own models, work with local or SSH projects, and automate coding and project workflows with AI agents, plugins, skills, and MCP. Keep your files, tools, and reviewable changes in one place.
+- **大概是做什么的**: AI + IDE：把项目、模型、工具与执行过程放进同一个工作台。 连接本地或 SSH 项目，用自选模型理解资料、编写与修改文件、调用工具、检查结果。文件提案、审批、执行回执和运行轨迹围绕同一个任务保存。 安装 · 使用指南 · 功能说明 · 技术白皮书 · 文档中心 aide 是可自托管的 AI 工程工作台，面向可信单用户环境。项目文件、辅助资料、对话、工具、插件和命令共享工作区身份；模型的回答与真正的文件写入、命令退出状态分别记录。 对话与工程任务 多轮工具执行、规划与审查、运行中插话/排队、暂停与继续 多模型与上下文 提供商及命名密钥、参数策略、兼容 Chat Completions / Responses 的适配、上下文预算与压缩 并行协作 1X～5X、10X 容量；主环境与私有执行环境异步协同，工具与测试在各自范围执行，候选汇入主项目仍经版本校验与审批 文件与资料 本地与 SSH/SFTP 工作区、引用的可见/只读/可写控制、Markdown 编辑与历史、可解析文档和图片附件 大 Markdown 超出内联预算后使用路径、摘要和有限节选，按需分段读取；模型窗口预算继续生效 知识与检索 文件/会话/代码星图、来源身份与差量同步、原文检索和本地 TF-IDF 片段排序；可选语义能力单独配置 插件与工作台 独立插件市场、工具注册、专用工作台、图片证据与受控文档保存接口 审批与电脑控制 手动/辅助审批；受授权约束的浏览器访问、应用检查、视觉定位、点击、拖拽、滚动和组合键 助理与语音 工作统筹、任务交办、朗读和语音通话；提供商、设备权限和本机能力分别配置 桌面体验 快捷键绑定、明暗配色、工作台背景；macOS 可配置双 Shift / 双 Command 应用截屏并附应用上下文 过程与运维 会话调用轨迹、请求与累计用量、诊断、备份、源码构建及发行包校验 并发倍率不是等比例提速承诺；模型审查不是测试通过。详细接口、约束与已有验收见功能说明和技术白皮书。 源码增补（2026-11-13）：现有任务规划支持交付物与逐项验收，项目记忆支持带来源的事实、约束、决策和未决问题；见项目目标与知识记录。此增补不包含在 v0.1.19.0-RC2 安装包中。 从 GitHub Releases 下载适合平台的包，按该版本说明校验摘要、解压并使用包内 start 入口。源码状态与发行包范围分别核对，不把后续 main 功能视为旧安装包已有功能。 标准源码路径需要 Git、Docker Engine、Docker Compose 和 Buildx；macOS 可使用 Docker De
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-workspaces, developer-tools, docker, golang, mcp
+
+---
+
+### 🌟 [cerulion](https://github.com/cerulion-inc/cerulion)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 119
+- **核心概述**: Cerulion (YC S24) gives AI agents a harness to control real robots. Our open-source runtime and harness give any AI agent a physical body, inside safety limits the robot enforces, and tools to autonomously debug recorded robot failures. It's ROS 2 compatible.
+- **大概是做什么的**: Cerulion (YC S24) is the operating system for physical AI: an open-source, zero-copy robot runtime that records runs, replays failures against new code, and reaches your robots from anywhere. It's ROS 2 compatible. Install · Run the example · Performance · ROS 2 · Architecture · Docs · Guides The installer links cerulion into /.local/bin , adds one line to your shell startup files and installs Rust when Rust 1.95 or newer is missing. Then sign in once with cerulion login , because every command runs under a free Cerulion account, which is used for robot pairing and works offline afterwards. To uninstall, run the same script with sh -s -- --uninstall . If Homebrew 6.0.x refuses the tap, run brew trust --formula cerulion-inc/cerulion/cerulion first and try again. Each step runs only if the one before it succeeded, and the APT distribution page pins the same key fingerprints and has a longer form that names a failed step. The release installer places cerulion-connectd (the desk side of a remote connection) and cerulion-remoted (the robot side) beside the CLI. See the installation guide
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, iceoryx2, mcap, mcp, replay, robotics
+
+---
+
 ## 🕔 2026-11-17 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 204 个候选项目中筛选出 6 个未推荐过的新项目。
