@@ -1,3 +1,67 @@
+## 🕔 2026-11-18 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [heard](https://github.com/heardlabs/heard)
+- **项目语言**: Python
+- **星标数量**: ⭐ 664
+- **核心概述**: 适用于 macOS 上的 Claude Code 和 Codex 的开源 (Apache 2.0) 语音工具，可大声朗读编码代理的进度。语音在 Kokoro 本地运行，无需帐户，或者携带您自己的 ElevenLabs 或 Speechify 密钥。当您的代理完成、失败或需要批准时，听到简短的口头总结。
+- **大概是做什么的**: 您的代理人现在有发言权了。 Heard (heard.dev) 是 macOS 上代理的语音上下文层：Claude Code 和 Codex 的文本转语音。当你的代理人完成、失败或需要你的批准时，赫德会用一两句话告诉你，这样你就可以离开，但仍然知道发生了什么。此存储库中的引擎是开源的（Apache 2.0），可以使用 Kokoro 文本到语音进行本地对话，无需帐户或 API 密钥。比较 macOS 编码代理通知工具？声音或横幅告诉您发生了什么事。赫德告诉您发生了什么：对每个会话和每个代理的工作本身的口头总结。什么是 Claude Code 的语音层？语音层可以让您的编码代理与您对话，而不仅仅是您与它对话。 Claude Code 的 /voice 覆盖了输入的一半。赫德涵盖了输出的一半：它跟随会议并大声告诉您什么发生了变化，什么失败了以及什么需要做出决定。 Heard 应用程序也添加了输入（在电源上，按右 ⌘ 与 Parrot 对话），因此整个循环可以通过语音运行。让 Claude Code 说话，而不仅仅是倾听 您可以使用 Claude Code 的文本转语音功能吗？
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-notifications, ai-agents, claude-code, claude-code-hooks, codex, codex-cli
+
+---
+
+### 🌟 [dsh-game-studio](https://github.com/ZSeven-W/dsh-game-studio)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 585
+- **核心概述**: 用一句话描述一款小游戏，在 DeepSeek Harness 侧边栏中玩它，交换 AI 艺术，然后一键发布到 GitHub Pages 或 Cloudflare。
+- **大概是做什么的**: 用一句话描述一个小游戏 - 在 DeepSeek Harness 侧边栏玩它或在 Codex / Claude Code / Antigravity 中构建它，交换 AI 艺术，然后发送到 Web、GitHub Pages 或微信小游戏 (< 4 MB)。 15 个代理工具 • DSH + Codex + Claude Code + Antigravity • 2D 和 3D 体素模板 • OpenAI 或 Codex art • 自玩游戏测试 • 微信小游戏导出和 CLI 上传 • GitHub Pages 英语 · 简体中文 · 繁体中文 · 日本语 · 한국어 · 法语 · 西班牙语 · 德语 · 葡萄牙语 · Русский · हिन्दी · Türkçe · ไทย · Tiếng Việt · Bahasa Indonesia 包：@zseven-w/dsh-game-studio · 当前插件版本：0.1.0-rc.6 · 使用 DSH 0.2.1-rc.5 和 Codex / Claude Code MCP 进行测试 🎮 现场演示游戏墙（10 个可玩的 2D 和 3D 游戏） · 📖 多主机设置（DSH / Codex / Claude / AGY） 代理工作时，游戏在右侧边栏中运行；编号为AI的美术候选人在下面等着你挑选，向经纪人询问一款游戏，用简单的话来说——“一款3D游戏：
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-game-generator, deepseek-harness, dsh, dsh-plugin, game
+
+---
+
+### 🌟 [open-ankole](https://github.com/AgentBull/open-ankole)
+- **项目语言**: Elixir
+- **星标数量**: ⭐ 214
+- **核心概述**: 带有公司大脑的开源代理线束。适用于 Slack、Teams、Lark、钉钉、WeCom 等的自托管 AI 代理。 Claude Tag 的开源替代品。
+- **大概是做什么的**: OpenAnkole，带有公司大脑的企业代理线束 为什么选择 OpenAnkole · 公司大脑 · 决策工作 · 企业运行时 · 架构 · 当前状态 · 开发 OpenAnkole 是此存储库中的开源代理线束。公司知识、实时信号、权限、工具和观察到的结果成为代理用来做出决策和展示其证据的背景。 OpenAnkole 包含一个企业机器人，您可以代替 Claude Tag 运行它。您托管控制平面、工作人员和数据。使用 https://ankole.ai/ 上的 Ankole.AI 作为托管代理操作系统。 Ankole.AI 是闭源 SaaS。在 Ankole.AI 中，团队可以在工作进行过程中更改 Base、Doc 和 Applet。那是可塑的软件。为您的公司提供一个大脑，让每个代理拥有更好的判断力。公司大脑为代理商提供持久的共享知识。 Harness 应用企业权限并跨模型调用执行工作。模型只能根据它接收到的上下文进行推理。 OpenAnkole 选择相关的事实和能力，执行权威，通过失败保留工作，并记录重新
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: actor-model, agent, ai-agent, ai-agents, claude-tag, elixir
+
+---
+
+### 🌟 [phonedriver](https://github.com/hridaya423/phonedriver)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 173
+- **核心概述**: MCP 服务器和 CLI，让 AI 代理（Claude Code、Codex、Cursor）查看和控制 Android 手机和 iPhone。将屏幕读取为文本。付款前先询问。
+- **大概是做什么的**: 给你的人工智能代理一部电话。令牌数量比 mobile-mcp 少 6.9 倍。 phonedriver.dev · 文档 · 比较 · 参考 · 基准 · 发布 英语 · 简体中文 · 日本语 · 한국어 Phonedriver 为 AI 代理提供了对手机、Android 手机或 iPhone（真实或虚拟）的控制。它会读取屏幕，点击按钮，报​​告发生的变化，并在点击“支付”之前询问您。通过 MCP 与 Claude Code、Codex 或 Cursor 或从命令行使用它。 6.9 倍是九项电话工作的象征性总和。要求它测试您的注册表单。更改埋藏在三个屏幕深处的设置。找到您的应用程序停止运行的步骤。在 Android 模拟器上进行一次真实的 Claude Code 会话，在 dominos.co.uk 上订购：15 倍速度下需要 6.5 分钟，并以真实速度显示批准提示。没有订购任何东西。完整视频（MP4）。这会将phonedriver 添加到它在您的计算机上找到的代理中：Claude Code、Codex、Cursor、VS Code 和 Gemini CLI。然后它会检查 adb、Xcode 和您的设备并指出要修复的内容。已经拥有它的代理将被保留； --dry-run 显示了它会做什么。启动 Android 模拟器或 iOS 模拟器或 plu
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: adb, agentic-ai, ai-agents, android, android-emulator, claude-code
+
+---
+
+### 🌟 [smitline](https://github.com/kaelorlabs/smitline)
+- **项目语言**: Python
+- **星标数量**: ⭐ 158
+- **核心概述**: 从任何 AI 代理拨打电话并加入 Zoom、Microsoft Teams 和 Google Meet 会议。开源和自托管，或使用 www.smitline.com 上的托管版本（测试版）
+- **大概是做什么的**: 您的代理人可以拨打电话。任何人工智能代理的电话和会议。 Smitline 为您的客服人员提供一条电话线以及 Zoom、Microsoft Teams 和 Google Meet 中的席位，与人们实时交谈，并向发送该消息的聊天室报告。不想自己运行？将您的代理连接到 Smitline Cloud（由 Kaelor Labs 托管的版本），网址为 https://app.smitline.com/mcp 。它处于私人测试阶段：要求提前访问。开始使用 · 工作原理 · 安全 · 文档 · smitline.com 以询问优秀助理的方式询问您的代理：“致电 Luigi's，预订 7 点 4 人的餐桌。” “打电话给水管工，看看他们今天能不能来。不要同意超过 150 美元。” “加入我的 3 PM Zoom 并为我做笔记。” Smitline 拨打电话，以自然的声音与接听者交谈，并将结果发送回您的聊天室：发生了什么、您需要的详细信息（时间、价格、确认号码）、决策、行动项目、完整记录以及通话费用。 - 给任何人打电话。餐馆、办公室、水管工、朋友，通过您的 SignalWire ��� Twilio 帐户使用您自己的号码。 - 参加会议。 Z
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, google-meet, mcp, mcp-server, meeting-bot, microsoft-teams
+
+---
+
+### 🌟 [netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server)
+- **项目语言**: Python
+- **星标数量**: ⭐ 261
+- **核心概述**: 模型上下文协议 (MCP) 服务器，用于与 LLM 中的 NetBox 数据进行只读交互
+- **大概是做什么的**: ⚠️ Breaking Change in v1.0.0 : The project structure has changed.如果从 v0.1.0 升级，请更新您的配置： - 将 uv run server.py 更改为 uv run netbox-mcp-server - 更新 Claude 桌面/代码配置以使用 netbox-mcp-server 而不是 server.py - Docker 用户：使用更新的 CMD 重建映像 - 请参阅 CHANGELOG.md 了解完整详细信息 这是 NetBox 的简单只读模型上下文协议服务器。 It enables you to interact with your data in NetBox directly via LLMs that support MCP.服务器故意简单：易于上手，难以误用（默认情况下只读，无插件表面），并且易于分叉和适应。对于需要超出项目范围的功能的用户来说，在 Apache 2.0 下进行分叉是一条一流的途径。 For chat, use cases, and general MCP discussion, join the NetBox community at netdev.chat. AI 频道是 MCP 集成、问题和共享用例的合适场所。该服务器特有的错误和功能创意存在问题。 ------ ------------- get objects Retrieves NetBox core objects based on their type and filters get object b
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: mcp, mcp-server, netbox
+
+---
+
 ## 🕔 2026-11-18 10:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 276 个候选项目中筛选出 6 个未推荐过的新项目。
