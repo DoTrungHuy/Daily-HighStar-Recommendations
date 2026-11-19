@@ -1,3 +1,67 @@
+## 🕔 2026-11-19 21:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Yearning](https://github.com/cookieY/Yearning)
+- **项目语言**: Go
+- **星标数量**: ⭐ 8,979
+- **核心概述**: 🤖 AI Agentic SQL Review & Database Change Governance Platform for MySQL, PostgreSQL, TiDB, OceanBase & PolarDB
+- **大概是做什么的**: AI-Powered Database Change Governance & SQL Review Platform Every SQL change, safely under control. From zero-leak AI precheck and frozen multi-stage approvals to in-process gh-ost online DDL, cross-engine rollback, governed queries, and SQL performance diagnostics. English · 简体中文 · [Live Demo][demo-link] · [Documentation][docs-link] · [Releases][github-release-link] · [Discussions][github-discussions-link] · [Feedback][github-issues-link] · [Sponsor][sponsor-link] Share Yearning Repository - 👋🏻 Getting Started & Community - Every SQL change, safely under control - 01 Zero-Leak AI SQL Precheck & Submission Gate - 02 Frozen Multi-Stage Approvals & Execution Control - 03 Cross-Engine Automatic SQL Rollback - 04 Governed Read-Only Query Workspace & Data Masking - 05 SQL Performance Diagnostics & Scoped Database AI Assistant - 06 Multi-Engine Governance, Enterprise SSO & Notification Center - 🏗️ Architecture & Privacy Pipeline - 🗄️ Supported Database Matrix - 🤖 AI Agent Skill & OpenAPI - A Docker Compose (Recommended) - B Kubernetes Production Deployment - C Migrating from Yearning
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agent, database, database-governance, dba, devops
+
+---
+
+### 🌟 [SmartDock](https://github.com/ck-ys/SmartDock)
+- **项目语言**: Java
+- **星标数量**: ⭐ 315
+- **核心概述**: SmartDock 是开源通用智能体（AI Agent）引擎与事件源用户画像引擎：支持多 agent 注册、ReAct 工具调用、工具 SPI、HITL 写操作确认、PII 脱敏与计费；内置 AI 助手应用与行为分析，Java 21 / Spring Boot 3.5 / Vue 3.5 / RuoYi，附完整后台基座。
+- **大概是做什么的**: 一个能查真实数据、能走真实流程的智能体工作台。 Java 21 · Spring Boot 3.5 · Vue 3.5 · PostgreSQL · 多租户 · Apache-2.0 SmartDock 是一个 开源的智能体工作台 ：左侧是会话，右侧是工作区，技能点一下就能开工，工具调用全程可见，写操作先确认再执行。它就是你在截图里看到的那个界面——不是 SDK 加一个聊天框的示例。 引擎侧按 agentId 注册多智能体，走 ReAct 工具循环；业务能力通过「工具 SPI」接进来，不用改引擎核心。同一套底座上还带一条 用户画像引擎 （事件 → 指标 → 快照），让助手能查「这个人最近怎么样」，而不只是查任务列表。 一个能用的智能体工作台 会话 / 技能 / 工具 / 自动化 / 审计，一套界面全在里面；不是要你自己攒的组件库 让 AI 真的干活 ReAct 工具循环、工具 SPI 扩业务、HITL 写操作确认、AGUI/SSE 流式输出（28 类事件） 把业务 SOP 交给 AI 技能就是 Markdown 文件：写清「怎么做」，模型按步骤执行；管理台改完立即生效，不用发版 让 AI 到点自己跑 自动化：一句话 + 一个时间，到点用只读工具跑一轮，结果进通知和会话 看懂用户 事件源画像：维度配置 → 评分 → 分群 → 低分复核；快照可回放、可对账 不用从零搭后台 RuoYi-Vue-Plus 5.6.1 底座：多租户、权限、字典、OSS、风控、调度、监控 进门就是这一步：一句「今天帮你做点什么」，下面是这个租户里你能用的技能卡——点一张，输入框自动填好完整问法，不用想怎么开口。 一次完整问答（真实录屏，加速播放）：提问 → 思考 → 调 dcs query my todos → 流式回答 → 标注来源与用量 会话页长这样：左边是会话历史，中间是消息流。工具调用不是黑盒——「已完成 · 用了 1 个工具 · 37 秒」点开就是每一步的耗时和参数。 点技能卡 → 输入框自动填好完整问法（不是替你发送，你可以先改） 技能是一个 Markdown 文件（官方 SKILL.md 格式，YAML frontmatter + 正文），业务和运维同学可以直接在管理台改，不用发版。本仓内置 10 个，成员默认能用 7 个： - 渐进披露 ：只有 description 常驻技能目录（模型靠它判断何时调用），正文默认不占上下文、用到才读——单技能正文上限 20000 字符 - 三层装载 ：内置 classpath → config/skills/ 部署期覆写 → 管理台在线编
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentscope, agentscope-java, ai-agent, ruoyi, ruoyi-ai, ruoyi-vue
+
+---
+
+### 🌟 [kyllene](https://github.com/Giton22/kyllene)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 305
+- **核心概述**: Unofficial Android client for Hermes Agent.
+- **大概是做什么的**: A native Android client for Hermes Agent. Chat with your own agent, approve what it wants to do, and follow its work from your phone. Kyllene connects to the hermes dashboard you already run on a server, homelab, VPS or Tailnet, the same way Hermes Desktop's "Remote gateway" connection does. There is no Kyllene server and no account: the app talks to your gateway directly. Kyllene is an independent project. It isn't made or endorsed by Nous Research. Kyllene was called Herald until this release. It's the same app: an update installs over Herald and keeps your sign-in, chats and settings. - Streaming replies with Markdown, syntax-highlighted code, TeX math, reasoning and tool activity - One live status line for the task at work, with its plan and the running tool - Send while the agent works: steer the running reply, queue the next prompt, or stop and send - Select any part of a reply to comment on, explain or ask about on the side - Copy, edit, regenerate or branch from any message; every chat keeps its unsent draft - A prompt that may not have arrived can be checked, resent or edite
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, android-app, compose-multiplatform, hermes, hermes-agent
+
+---
+
+### 🌟 [agent-custody](https://github.com/svayatta/agent-custody)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 113
+- **核心概述**: Proof of what your AI agents did. Give your agents real power, without losing control of them.
+- **大概是做什么的**: Proof of what your AI agents did. Give your agents real power, without losing control of them. Your policy checks your agent's actions before they run. What it forbids does not run. Each action that it checks leaves a signed receipt that anyone can verify. An agent cleared an alert, and its own log was the only record. Replayed through agent-custody, the call is denied, and an auditor can prove it. Watch the 30-second film with sound. agent-custody is infrastructure to authorize the actions of AI agents and to account for them. A gateway sits between your agents and their tools: MCP servers, REST APIs, and other agents over A2A. A person signs a grant that names the agent, its tools, and how long it may act, and a Cedar or Rego policy decides each call before the tool runs, on facts that the gateway looks up itself. Each call, allowed or denied, gets a signed receipt in a Merkle transparency log , and an auditor verifies it offline , with public keys only. A hook brings the same check to Claude Code, and governed memory ties each belief of an agent to the receipt that produced it. Be
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, audit, cedar, mcp, provenance, python
+
+---
+
+### 🌟 [okto-nexus](https://github.com/OktoLabsAI/okto-nexus)
+- **项目语言**: Python
+- **星标数量**: ⭐ 110
+- **核心概述**: Local-first MCP coordination hub for multi-agent teams, with durable messaging, handoffs, governance, and observability.
+- **大概是做什么的**: Local-first coordination for teams of AI agents. Okto Nexus is an MCP server and operator hub for agents working in the same repository. It gives them durable identities, presence, messages, inboxes, handoffs, artifacts, an event log, governance controls, and a live dashboard without requiring a cloud broker. okto-nexus serve exposes the complete hub on one port: - /mcp — MCP over streamable HTTP, authenticated as an agent; - /api/v1 — operator REST APIs, read-only monitor endpoints, and SSE; - / — the bundled React dashboard. MCP is available through HTTP. Coordination records live in one SQLite database in WAL mode. Optional metrics, referenced workspace files, and the derived shared.md view live outside that database. Release fact Value Package okto-nexus 0.3.0 (development) MCP surface Use tools/list for the active feature configuration MCP resources 12 versioned reference resources Surface revision 62 Database schema Read the installed revision through nexus info Storage local SQLite/WAL catalog + adapter-backed artifact payloads - PyPI: pypi.org/project/okto-nexus - Source: git
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-coordination, agent-orchestration, ai-agents, developer-tools, fastapi, handoffs
+
+---
+
+### 🌟 [codesys-mcp-toolkit](https://github.com/johannesPettersson80/codesys-mcp-toolkit)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 140
+- **核心概述**: MCP server that lets Claude read, write, compile and simulate Structured Text in CODESYS V3.5 projects
+- **大概是做什么的**: Let Claude, or any MCP client, read, write, compile and simulate Structured Text in your CODESYS V3.5 projects. An MCP server that keeps one CODESYS session open in the background and gives Claude, or any MCP client, direct access to it. Claude works on your real project with the real CODESYS compiler, and you can watch the code change as it happens. - Edits your real project. POUs, methods, properties, interfaces, DUTs and GVLs, as Structured Text. - Compiles with the real compiler. Errors come back with object, line and code, including in code that no task calls yet. - Tests in simulation. Run, step exact cycles, read, write and force values in CODESYS's own simulation, with nothing else to install. - Understands the project. Outlines, I/O lists, the device tree and library interfaces, without reading every object. - Shows its work. A live panel with the project tree, the code as it is written, compile results, and Accept or Revert for each change. - Designs operator screens. Claude builds a live HMI for your program: an overview of the line's stations, process diagrams with ISO 10
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, codesys, iec-61131-3, industrial-automation, mcp, mcp-server
+
+---
+
 ## 🕔 2026-11-19 11:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
