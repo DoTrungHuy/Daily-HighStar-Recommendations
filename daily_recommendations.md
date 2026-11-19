@@ -1,3 +1,67 @@
+## 🕔 2026-11-19 01:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Free-LLM](https://github.com/nejib1/Free-LLM)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 1,061
+- **核心概述**: 74 个免费 LLM API 提供商和 450 多个免费模型（限制、无卡选项）+ 免费 LLM 路由器：所有这些都位于一个 OpenAI/Anthropic 兼容端点后面，具有即时故障转移功能。在免费模型上运行 Claude Code、Codex、Cursor、Aider。 Gemini、Groq、Mistral、DeepSeek、Qwen 等。每日同步。
+- **大概是做什么的**: Free-LLM — 免费 AI 和 LLM API 的开放目录 来自 86 个提供商的 450 多个免费 LLM 模型 — 在几秒钟内查找、比较和配置免费模型，以及 9 个本地/自托管工具，可供无限私人使用。 🌐 住在 free-llm.com — 比较提供商 · 提交提供商 · 🌐 英语 · 简体中文 · 繁体中文 · 日本语 · 한국어 ⚡ 新：Free-LLM 路由器 — 所有这些免费 API 都在一个地址后面 想法：下面的每个提供商都提供一个小型免费计划，每个计划都有自己的密钥和限制。路由器将它们堆叠起来：您的应用程序（Claude Code、Codex、Cursor、您自己的代码……）与一个 OpenAI/Anthropic 兼容地址进行通信，路由器始终将请求发送到一个正在运行的免费模型 - 当一个模型繁忙或超出配额时立即切换。最大的优势是：许多小型免费计划的表现就像一个永不中断的大型免费计划 - 并且提供商列表会在同一天从 free-llm.com 自行更新，对每个人都是免费的。使用零密钥进行尝试（访客模式） · 编码代理的一命令设置 · OpenAI、Anthropic、Codex Responses、Ollama 和 MCP API · 零依赖性 · 密钥在您的计算机上保持加密状态。 🔒 10
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-gateway, awesome-list, cerebras, claude-code, coding-agents, cursor
+
+---
+
+### 🌟 [life-distributable](https://github.com/mattabate/life-distributable)
+- **项目语言**: Go
+- **星标数量**: ⭐ 430
+- **核心概述**: 管理多个代理而不会分心。自托管、安全且可自行编辑的应用程序。
+- **大概是做什么的**: 一群自托管的人工智能代理，在 iPhone、Mac 和 Web 上提供应用程序。 life 是一个基于 [Claude Code][claude-code] 构建的自托管人工智能代理团队。它将帮助您实现目标，无论目标是什么。您的 Mac 运行代理。它通过私人 Tailscale VPN 连接到您的 iPhone，您可以通过 iPhone 应用程序、桌面应用程序或 Web 应用程序与代理交谈。公共互联网上没有任何内容。只有您的设备可以访问它，并且您可以连接任意数量的设备：Mac mini、笔记本电脑、手机。当您与代理合作时，代理会了解您和您的目标。他们维护自己的代码，并且可以根据要求更改 UI 或添加数据源。危险操作（例如发送电子邮件）在安全批准步骤的背后是安全的。安装大约需要 2 小时，主要是等待 Apple 和 Xcode 下载。你需要一台一直开机的 Mac、[Claude 订阅][claude-pricing]（大约每月 20 到 200 美元），以及 [Apple 开发者会员资格][apple-dev]（每年 99 美元，仅适用于 iPhone，注意：以下所有内容都是一个起点，可能会发生变化。代理商维护自己的代码，因此他们可以更改
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-swarm, agentic-ai, ai-agents, ai-assistants, ai-enablement, ai-swarm
+
+---
+
+### 🌟 [lody-ios](https://github.com/LodyAI/lody-ios)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 536
+- **核心概述**: Lody 的独立 iOS 客户端 — iPhone 上的本机聊天、会话和编码代理协作
+- **大概是做什么的**: 本机 iOS 客户端 · 适用于移动设备的 AI 协作和会话伴侣 https://github.com/user-attachments/assets/0bc0ab48-6f12-44e9-ae13-07af9c6b780d 起源和维护 这个存储库 LodyAI/lody-ios 是 Lody 的 iOS 客户端。它最初是由 Innei 和贡献者创建的 Innei 的 lody-ios，其本机应用程序、LodyKit 架构、聊天 UI 和协议运行时构成了其基础。 Lody 在其 monorepo 中开发的副本已与其历史合并回此处；查看移动积分的出处。 Lody monorepo 将此存储库检查为 apps/mobile/ios 子模块。从那里开发和构建它：构建读取共享的 apps/mobile/backend-config.mjs 和 apps/mobile/shared/markdown-repair ，以及 Android 快照 packages/cloud-runtime 。在这里提交 iOS 更改，然后更新 Lody 中的子模块指针。该源正在积极开发中。上游 TestFlight 链接和工作流程指的是上游发行版，而不是此存储库的版本。 Lody iOS 是一款专为 iPhone 打造的原生开源客户端，为 iPhone 提供了一个轻量级且安全的桥梁。
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, coding-agent, collaboration, expo, ios, iphone
+
+---
+
+### 🌟 [fastapi-react-admin](https://github.com/yile2020/fastapi-react-admin)
+- **项目语言**: Python
+- **星标数量**: ⭐ 233
+- **核心概述**: FastAPI + React 19 + shadcn/ui 上的管理基础 — 行级权限、保持状态的多选项卡、审批工作流程、权限绑定的 AI 助手、开放 API、S3 可断点续传； PostgreSQL / SQL Server / MySQL
+- **大概是做什么的**: 包含电池的管理基础 · FastAPI + React 19 + shadcn/ui 行级权限 · 保持状态的多选项卡 · 审批工作流程 · 无法超越的 AI 助手 · 具有可断点续传上传功能的 S3 存储 · Web、桌面和移动实时演示 · 文档 · DeepWiki 项目指南 · 快速入门 · 功能 · 发布 🚀 演示帐户 admin / 123456 — 任何人都可以登录的公共实例；数据可能会被其他访问者更改或擦除，因此不要存储任何真实的内容。一次重写，提炼成一个基础，您可以在其上开始编写业务逻辑。人工智能使编写代码变得更快，因此有更多的系统需要构建：从未制定路线图的小工具现在值得去做，已经运行多年的系统需要更换。然而，每个新系统的第一周都会出现相同的列表——登录、权限、组织结构、批准、文件、通知。该项目最初是对一些小型 Java + Vue 2 系统的重写。我们没有修补旧架构，而是在 FastAPI + React 19 上重建它们，并将每次重建的所有内容提炼为
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: admin-dashboard, admin-template, ai-agent, approval-workflow, electron, fastapi
+
+---
+
+### 🌟 [ontopoc](https://github.com/Longado/ontopoc)
+- **项目语言**: Python
+- **星标数量**: ⭐ 182
+- **核心概述**: MCP / Claude 的本体工具：根据业务数据起草、检查和确认本体。模式先于知识图或语义层工作。
+- **大概是做什么的**: 团队用的本体平台：每个定义都对照数据检查、由一位具名的人确认；没确认的、数据变了之后过时的，问答拒答并说明原因。 数据集 → 管道 → 对象类型、关系、视图、行为、派生属性 → 问答、看板、智能体（MCP）。 Ontology tool for MCP / Claude · Docs: longado.github.io/ontopoc · Follow on X: @linyutai120479 功能主题插画 · 静态版 · MP4 OntoPoc is an ontology tool for MCP / Claude: it drafts object types, relations and definitions from business tables or a database, checks them against the data, and lets a named person confirm each one. It is not a knowledge-graph platform and has no durable instance store; it sits ahead of a knowledge graph or semantic layer, so Q&A and agents use only confirmed definitions. OntoPoc 还在开发中，还没有作者以外的用户。现在的主线是一个团队用的应用（页面根地址 / ）：上传表格或只读连接 PostgreSQL / MySQL，建数据集和管道，从数据建对象类型、关系、视图、行为和派生属性；每一项都由代码对照数据检查，由另一位建设者确认，并记下确认时的数据版本。问答、看板和智能体只用已确认的定义；数据变了，受影响的定义回到“需要再看”，用到它们的问题拒答并说出是哪一项、谁能确认。 账号与权限 本机账号（管理员、建设、查看三种角色），服务端会话；管理员可按对象类型限定人、按行限定人（只有允许清单），可以让某列的值不发给模型 数据 数据集：上传 CSV / Excel，按主键更新或覆盖，每次一个新版本；数据源：只读连接 PostgreSQL、MySQL，可校验证书；调度：按小时、每天定时拉取或运行管道 管道 过滤、连接、分组统计、去重、计算列等算子，表达式编辑器；合并（按列名接起几步的行：类型不同、缺列、代码含义不同都会拒绝，同一行出现在几个输入里会数出来）和拆分（每行进第一个满足条件的分支，可加“其余”分支，每个分支的行数、条件字段为空的行和没进任何分支的行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: data-quality, evidence, human-in-the-loop, knowledge-graph, llm-agents, mcp
+
+---
+
+### 🌟 [spark-agent](https://github.com/alexanderizh/spark-agent)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 121
+- **核心概述**: SparkWork 是一个本地优先的桌面 Agent 工作台，用于专业开发和复杂的工作。编排工作流程、跨代理会话协作、将任务路由到正确的模型，并使用自定义工具和应用程序扩展工作区。可审查、可操纵、可逆，可在 macOS、Windows 和 Linux 上运行。
+- **大概是做什么的**: 面向专业开发与复杂工作的本地优先桌面 Agent 工作台：编排工作流、协作多个 Agent 会话、智能路由模型，并用自定义工具和应用扩展执行能力；每次运行可审查、可接管、可回退。 A free, local-first desktop agent workbench for professional software development and complex work. Orchestrate workflows, collaborate across agent sessions, route tasks to the right models, and extend the workspace with custom tools and apps — with reviewable, steerable, reversible runs on macOS, Windows and Linux. 官网 · 下载 · 能力图解 · 功能特性 · 快速开始 · 从源码构建 · 工程手册 · 贡献指南 · 更新日志 SparkWork 是面向专业开发者与重度知识工作者的桌面 Agent 工作台，运行于 macOS、Windows 和 Linux。它把任务编排、Agent 会话协作、模型智能路由、代码和文件工具、自定义应用，以及执行审查与回退放进一个本地优先的工作空间。 - 可编排工作流 ：把计划、Agent、工具、审批、验证与交付组织为可恢复的执行流程。 - Agent 会话协作 ：由 Host Agent 调度多个成员 Agent 分工执行，并可回看交接与汇总。 - 智能路由 ：按任务强度分派到合适的模型和渠道，失败时自动降级。 - 自定义工具与应用 ：把 API、脚本和团队流程扩展为 Agent 可调用的工具或桌面应用。 - 可审查的执行 ：查看工具调用、权限审批与代码改动，并按需接管或回退。 项目仍在快速迭代，���分功能和界面可能继续调整。 下面八张图对应八条能力线的主链路；逐项细节见官网文档中心与工程手册。 每轮结束异步抽取写入、每轮开始混合检索注入；写入过五道闸门，读取走 FTS5 与向量双路、RRF 融合后按 token 预算裁剪。 三条生成管道（对话沉淀 / 技能提议 / Repo Wiki）都先出草案、再人工确认，写入收敛到同一原语；读取零预注入，人机同源，先检索、再按需取正文。 13 种节点类型经拓扑调度逐个真实派发：agent 节点是同一会话内的成员 turn，工具节点可配置成不经 LLM 的确定性直调；快照落库支持断点续跑。 自定义工具：从
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-workflow, ai-agent, ai-assistant, ai-workbench, claude, claude-code
+
+---
+
 ## 🕔 2026-11-18 20:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 286 个候选项目中筛选出 6 个未推荐过的新项目。
