@@ -1,3 +1,67 @@
+## 🕔 2026-11-19 11:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 273 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [golutra](https://github.com/golutra/golutra)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 3,871
+- **核心概述**: 用于自动化、工作流程和开发人员工具的多代理人工智能编排平台。 Golutra 将 Codex、Claude Code 和 OpenClaw 转变为具有并行执行、任务编排、长时间运行的工作流程和 AI 生产力工作区的统一代理系统。
+- **大概是做什么的**: 使用赛博监工系统指挥，你的AI牛马。 使用赛博监工系统：指挥你的AI劳动力。保留您的 CLI。协调您的人工智能劳动力。 保留你熟悉的 CLI，编排你的 AI 员工。 golutra — 一个人。一支人工智能小队。 golutra 是下一代多代理工作区，可将您现有的 CLI 工具转变为统一的 AI 协作中心。无项目迁移。无需重新学习命令。没有终端切换。只是并行执行、自动编排和实时结果跟踪。单击代理头像来检查日志，将提示直接注入终端流，或在您的 AI 团队在后台静默运行时监控执行情况。 golutra 使用 Vue 3 + Rust 构建，作为适用于 Windows、macOS 和 Linux 的 Tauri 桌面应用程序，将“一个人 + 一个编辑器”升级为“一个人 + 一个 AI 小队”。它用协调的多代理自动化取代了单线程的手动上下文切换。 golutra 专为长期运行的人工智能协作而设计���而不仅仅是短期的交互式会话。您可以为不同的场景定义自定义工作流程，一键导入或导出工作流程模板，并构建自动化系统
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, automation, chatgpt, claude, claude-code
+
+---
+
+### 🌟 [product-engineering](https://github.com/phuryn/product-engineering)
+- **项目语言**: Python
+- **星标数量**: ⭐ 653
+- **核心概述**: 交付三种实时产品的 45 项代理技能：决定构建什么、使用 Claude Code 或 Codex 构建它、让第二个模型对其进行审查、发布它。
+- **大概是做什么的**: 交付三种实时产品的 45 项代理技能：决定构建什么、使用 Claude Code 或 Codex 构建它、让第二个模型对其进行审查、发布它。在任何时候都失去了？输入 /product:start-here （Codex: $product:start-here ）并说出你有什么。它告诉您工作的进展情况以及下一步的工作。先安装。这些技能适用于 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、GitHub Copilot 以及读取 SKILL.md 文件夹的任何其他代理。根据 MIT 许可，来自 The Product Compass ��费。 - 与编码代理一起发货的产品经理、创始人和设计师。无需编码：您做出决定并检查产品，而不是每一行代码。 - 工程师构建产品，而不仅仅是代码。这意味着决定要构建什么，并在真实用户和真实支付的情况下在生产中运行它。 - 与多个代理合作的任何人，其中一个会话协调，另一个会话构建，第三个会话审查。作者的三个实时产品，从第一个原型到生产都是通过编码代理构建的。技能过时的案例就来自于他们。 AskOne：现场问答和民意调查。氧
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, claude-code, claude-code-marketplace, claude-code-plugins, claude-skills
+
+---
+
+### 🌟 [nightshift](https://github.com/orwa-mahmoud/nightshift)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 525
+- **核心概述**: Cursor、Codex 和 Claude Code 的负责任的长时间运行编码转换。安全自主、恢复、持久状态和可审查的结果：清楚地了解已完成的操作、正在进行的操作、已停止的操作或已阻塞的操作，而无需滚动马拉松式聊天。
+- **大概是做什么的**: Nightshift 是 Claude Code、Codex 和 Cursor 的插件。进一步推进你的计划。在第一次写之前，把难题带到计划室。比较方法、设定界限并为每项任务选择证据。记录决策和明确的已完成定义，以便您的代理将商定的计划付诸执行。当夜班让您的代理人继续工作时请离开。您选择何时开始。它可以让您的代理处理遗留问题清单，直到每一项都被核对完毕。决定不会阻碍进步。客服人员会选择一个默认答案并将其记录在停车场中供您查看。获得可审查的结果，而不是马拉松式的聊天。每件商品都有自己的收据。查看代理交付了什么、尝试过什么、拒绝了什么、运行了哪些检查，以及证据、持续时间和令牌使用情况。返回的决策包含默认选择以及原因。随 Nightshift 一起发货 Nightshift 内置 Nightshift。它的最初转变产生了插件的时钟输出门、挂钩和命令。构建记录将原始遗留问题清单与提交配对。后来法典的转变
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-coding, ai-agents, ai-assisted-development, ai-friendly, automation, autonomous-agents
+
+---
+
+### 🌟 [ai-hardware-engineer-roadmap](https://github.com/ai-hpc/ai-hardware-engineer-roadmap)
+- **项目语言**: Python
+- **星标数量**: ⭐ 308
+- **核心概述**: 掌握人工智能推理、人工智能代理利用系统和硬件工程，然后设计物理人工智能芯片。这就是目标。
+- **大概是做什么的**: AI 硬件工程师路线图 在硬件上掌握 AI。构建物理人工智能芯片。为高级视觉语言动作模型设计定制片上系统：专用 AI 加速、您自己的 AI 编译器、嵌入式 Linux 和集成无线。了解从模型到芯片的完整堆栈，为下一代机器人、无人机和自主机器提供动力。机器人或人工智能新手？从笔记本电脑上的小型机器人实验开始。在选择专业之前，请遵循十个涵盖运动、控制、人工智能培训、评估、感知和规划的指导课程。探索课程的六个阶段，实现一个目标：完整的物理人工智能芯片及其软件堆栈。 - 01 数字基础逻辑、计算机体系结构和加速器基础。 - 02 嵌入式系统板、固件、嵌入式 Linux 和无线。 - 03 人工智能 神经网络、视觉语言模型和人工智能代理。 - 04 部署和编译 AI 编译器、GPU 内核和推理运行时。 - 05 专业化 VLA 机器人、无人机、ML 系统和定制 SoC。 - 06 面试准备练习
+- **有什么用**: 适合用于计算机视觉、图像处理、分类检测分割任务学习，也可以参考其中的数据处理、模型结构和实验流程。
+- **技术标签**: ai-accelerators, ai-agents, ai-hardware, autonomous-vehicles, computer-architecture, computer-vision
+
+---
+
+### 🌟 [agentbro](https://github.com/shirenchuang/agentbro)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 166
+- **核心概述**: 用于 AI 编码代理的 macOS 动态岛：Claude Code、Codex、Gemini CLI、Cursor、hooks、技能和本地代理管理。
+- **大概是做什么的**: 你的 AI 编程 Agent 桌面控制台 在一个悬浮工作台里处理 Agent 会话、审批与提问，并统一管理 Hooks、Skills、MCP、插件、API 供应商和远程主机。 支持 macOS 与 Windows，接入 Claude Code、Codex、Gemini CLI、Cursor、Copilot、Kimi、OpenCode、ZCode 等 AI 编程 Agent。 macOS brew tap shirenchuang/tap && brew install --cask agentbro 通用 DMG · 国内镜像 Windows x64 下载安装程序（EXE） MSI 安装后打开 Island - Integration ，先运行 Hook Doctor ，再给正在使用的 Agent 安装 Hook。Windows 安装包目前属于早期 MVP；核心悬浮窗、Hook 传输、路径探测和 Agent 管理已经可用，未签名安装包可能触发 SmartScreen 提示。 AI 编程 Agent 已经能连续工作很久，但人仍要守着终端：等权限、回答问题、看任务有没有卡住，还要分别维护每个工具的 Hooks、Skills、MCP 和插件。AgentBro 把这些分散的操作放到一个桌面入口里。 你正在做的事 AgentBro 提供的能力 同时跑多个 Agent 会话 灵动岛聚合状态、工具调用、Subagent、Token 和完成提醒。 Agent 等待审批或输入 直接批准权限、回答问题、确认计划或快速回复，不必找回原终端。 维护多套 Agent 环境 扫描安装状态、版本、路径和 Hook，并集中管理 Skills、MCP、插件与配置文件。 切换模型或 API 供应商 Agent Switch 管理 Claude、Codex、Gemini、OpenCode 和 Hermes 的供应商配置、测速与切换。 在服务器上跑 Agent 通过 SSH 把远程会话和 Hook 事件带回本机，并在同一处诊断连接。 Agent 会话事件和本地配置不需要云端中转。Hook Server 默认监听当前用户的本地 Unix Socket，Windows 使用本地 TCP 端点；更新检查、市场下载、SSH 和 Webhook 只会在你使用相应功能时访问对应服务。 https://github.com/user-attachments/assets/df857822-ea0a-4745-a0b9-80f265f30dc6 https://github.com/user-attachments/
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-tools, ai-agents, claude-code, coding-agent, cursor, desktop-app
+
+---
+
+### 🌟 [mcp-engine-public](https://github.com/maxanatsko/mcp-engine-public)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 256
+- **核心概述**: SemanticOps MCP（以前称为 MCP Engine）是一种 Power BI 工具，可让 Claude 等 AI 助手以编程方式与您的 Power BI 模型进行交互：读取模型结构、运行 DAX 查询、修改语义模型并执行高级分析 - 所有这些都通过自然对话进行。
+- **大概是做什么的**: 回滚错误。部署前测试。控制人工智能可以改变的内容。 - 完整文档 - 安装、指南和示例 - 下载最新版本 - 获取支持 - 常见问题解答和故障排除 SemanticOps MCP（以前称为 MCP Engine）是一个 MCP 服务器，使 AI 助手（Claude、Copilot、ChatGPT）能够以编程方式读取和修改 Power BI Desktop 文件。通过自然语言查询模型、创建度量、管理关系并优化性能。了解更多信息，请访问语义操作.dev 查看所有功能 该 MCP 服务器在本地运行并收集零遥测数据。所有数据处理都发生在您的机器上。您的 AI 助手可能会根据您的交互向其提供商（例如 Anthropic、OpenAI）发送数据。安装非常简单，只需 5 分钟即可完成。要求： Windows 10/11 或 MacOS 平台 查看安装指南 - Claude Desktop（Windows 和 macOS） - Claude Code CLI（Windows 和 macOS） - Visual Studio Code - 任何与 MCP 兼容的客户端 允许个人和商业用途的专有许可证。查看完整许可证 第三方通知 报告漏洞 priv
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: dax, mcp, mcp-engine, mcp-enterprise, mcp-server, powerbi
+
+---
+
 ## 🕔 2026-11-19 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 261 个候选项目中筛选出 6 个未推荐过的新项目。
