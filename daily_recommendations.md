@@ -1,3 +1,67 @@
+## 🕔 2026-11-20 17:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [timon](https://github.com/ai-timon/timon)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 636
+- **核心概述**: Timon 是一个代理工作站，可让您在同一个地方协调所有 AI 代理
+- **大概是做什么的**: 您的人工智能代理团队，在您自己的机器上运行。他们会处理您已经付费的 CLI 订阅，交付经过审查的代码，并在任何重要的事情之前询问您。您的代理在您已登录的 CLI 上运行：您的订阅，绝不是令牌计费的 API · 任何 ACP 代理 · 添加您自己的作为提供商插件 👋 认识您的代理团队 您用简单的语言告诉 Timon 您需要什么。协调器将工作分成任务，并将每个任务交给正确的代理：一个代码，另一个使用不同模型进行审查，第三个进行合并。每个特工都有自己的角色、自己的技能以及跟随其执行任务的记忆。您可以在一个驾驶舱内跟踪所有情况，并随时介入。他们在推送、发布或删除任何内容之前都会询问。每个项目的团队从以下几方面开始： 计划作业、分派任务、跟踪被阻止的内容 在自己的 git 工作树中工作、运行检查、逐步提交 读取与另一个模型的差异，并在不正确时将其发回 运行完整的测试套件一次，然后落地分支 深入挖掘代码和 w
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, codex, deepseek-harness, dsh, dsh-plugin
+
+---
+
+### 🌟 [MemoSync](https://github.com/SLEEPYBQ/MemoSync)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 395
+- **核心概述**: 跨会话与编码代理共同管理内存。 Claude Code、Codex、Pi 和 OpenCode 的本地工作台。
+- **大概是做什么的**: 跨会话与编码代理共同管理内存。 English · 简体中文 · 网站 https://github.com/user-attachments/assets/488a1e41-5a01-4c01-ac76-5c37b8e764f0 编码代理保留记忆：CLAUDE.md 文件、他们提取的笔记、早期课程的经验教训。你很少看到其中有什么，智能体在这项任务中采取了什么措施，或者它是否遵循了它。 MemoSync 是 Claude Code、Codex、Pi 和 OpenCode 的本地工作台，可将内存显示在屏幕上。 - 记忆的每一次改变都等待你的审核。 - 在每个回合之前，您确认输入��内容。 - 当特工工作时，其回复会引用他们使用的记忆。 - 转弯后，单独的检查会报告遵循的内容和忽略的内容。当转弯不需要太多关注时，切换到自动，代理会自行处理内存。记忆是一组短项目。每个都有一个范围（个人、项目或会话）、版本和历史记录。在一个回合中，同一个物品会出现在四个地方。 1. 回顾代理学到的内容 在回合开始之前，MemoSync 会显示其建议的内存更改，分为三组。接受、编辑、解析
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-memory, agentic-coding, ai-agents, ai-coding, claude, claude-code
+
+---
+
+### 🌟 [RustingStrata](https://github.com/RustingStudio/RustingStrata)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 307
+- **核心概述**: 适用于 GGUF 的 Pure-Rust LLM 推理引擎（Qwen、DeepSeek、GLM、Hy4、Flint）。使用 MTP 草稿和 OpenAI/Anthropic 服务器在 CUDA 和 Vulkan 上运行比 VRAM 更大的模型。 12 GB RTX 3060 与 llama.cpp：Qwen3.6-35B-A3B UD-Q5_K_M 80.5 与 64.4 tok/s，Flint UD-Q5_K_XL 64.6 与 48.6。使用 MTP：108 tok/s (UD-Q3_K_M)，最高 160 (UD-Q2_K_XL)。
+- **大概是做什么的**: 适用于 Qwen GGUF 模型的纯 Rust 推理引擎：Qwen3.5/3.6 ( qwen35moe , qwen35 ), Qwen3-Next ( qwen3next ), Qwen3.8-Flash-Next ( qwen4exp ), Qwen3 ( qwen3 , qwen3moe ), DeepSeek-V4.1-Flash ( deepseek41 ), GLM-5.3-Flash ( glm5-next )、Hy4-flash ( hy v4 flash ) 和递归 Flint ( flint )。 CUDA 内核在运行时通过 cudarc 使用 NVRTC 进行编译，相同的内核也在 Vulkan ( --backend vulkan ) 上运行：没有 C++ 布局适应它所看到的路由。版本 1.2.6。文档：使用情况和服务器 API、为其他人托管、支持的 GPU、AMD 注释、LoRA、所有基准测试、基准测试历史记录。参考机：RTX 3060 12 GB、Ryzen 5 7600X、32 GB RAM。 Qwen3.6-35B-A3B UD-Q5 K M Qwen3.6-35B-A3B-UD-Q5 K M.gguf（25.2 GiB，不适合 VRAM：三分之一的专家在 GPU 上）。 llama.cpp 版本为 12191，针对同一文件进行了调整（ -cmoe --moe-cache-mib 7500 -ngl 99 -fa on -t 6 -ub 2048 -b 2048 ，9-config 扫描的最佳解码 -ncmoe 、 --moe-cache-mib 和 --moe-cache-cpu-share ）。 4K 提示后解码 80.5 tok/s (75.1-82.0) 64.4 (58.8-66.0) 预填充，4K 提示 1530 t
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: anthropic-api, cuda, gguf, inference, llama-cpp, llm
+
+---
+
+### 🌟 [Odevio-CLI](https://github.com/Odevio/Odevio-CLI)
+- **项目语言**: Python
+- **星标数量**: ⭐ 424
+- **核心概述**: 从任何操作系统构建、签名和发布 iOS 应用程序 - 没有 Mac，没有 Xcode。由您的人工智能代理驱动
+- **大概是做什么的**: .. 图片:: https://odevio.com/static/img/logo odevio.svg .. 图片:: https://img.shields.io/badge/version-1.5.0-blue :目标: https://github.com/Odevio/Odevio-CLI/ .. 图片:: https://img.shields.io/github/license/odevio/odevio-cli :目标: https://github.com/Odevio/Odevio-CLI/blob/master/LICENSE .. 图片:: https://img.shields.io/librariesio/release/pypi/odevio :目标: https://pypi.org/project/odevio/ .. 图片:: https://img.shields.io/pypi/dm/odevio :目标: https://pypi.org/project/odevio/ ..图片:: https://img.shields.io/uptimerobot/ratio/m792431382-e51d8a06926b56c359afe3b7 :目标: https://stats.uptimerobot.com/QqN9MFXvw3 .. 图片:: https://www.codefactor.io/repository/github/odevio/odevio-cli/badge :目标: https://www.codefactor.io/repository/github/odevio/odevio-cli Odevio 让 AI 代理为您构建和发布您的 iOS 应用程序。它在远程 Mac 上运行构建和签名，因此您不需要 Mac、Xcode 和 iOS 知识。 Claude Code 是第一个人工智能代理，感谢您的关注。 Odevio 是一个用 Python 开发的 CLI 实用程序。使用 AI ag 即可轻松安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agent, app-store, ci-cd, claude-code, code-signing
+
+---
+
+### 🌟 [agentic-coding-practices](https://github.com/inmve/agentic-coding-practices)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 354
+- **核心概述**: 代理编码实践：代理在软件构建方式方面发生了哪些变化，以及哪些仍然有效
+- **大概是做什么的**: 代理软件开发参考 代理在软件构建方式方面发生了哪些变化，以及哪些仍然有效 在 2025 年秋天，我保留了一份使用法学硕士进行编码的技巧和技术的列表，并于当年 11 月停止添加。一年后，我自己就不再关注其中的很多内容了。那年 11 月，Opus 4.5 和 GPT-5.2 发布了，代理们已经足够优秀，可以编写大部分代码了。 [[1]](https://x.com/karpathy/status/2015883857489522876) 今年《神鬼寓言》和《阿斯特拉》走得更远，不再需要我列出的大部分内容：详细说明、精心准备的背景、提醒认真思考。 [[2]](https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5- Generation-models/) 因此，我再次从使用代理发布软件的人所写的自己的工作开始。下面是他们的 127 种做法，每一种都引用了描述它的帖子。提示是不太重要的部分。早在法学硕士之前就存在的做法却走向了相反的方向：我找不到任何人进行回测、代码审查或 CI，如果有的话，他们的分量更重，没有
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, ai-coding, ai-tools, awesome, awesome-list
+
+---
+
+### 🌟 [CANExplorer](https://github.com/AKJ7/CANExplorer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 206
+- **核心概述**: 适合现代人的 CANBus GUI 和工具包！
+- **大概是做什么的**: 现代人的 CANBus 监控！监控、分析、诊断、模拟和测试 CAN、CAN FD 和 LIN 总线 - 在 Linux、Windows 和 macOS 上，使用 python-can 支持的任何适配器，或在虚拟总线上不使用硬件。监控和分析 - 实时查看任何python-can接口：SocketCAN、PCAN、Vector、Kvaser、gs usb、slcan等串行适配器、虚拟总线； CAN FD具有单独的数据比特率；通道检测 - 包含帧速率、总线负载、错误帧、总线活动、流量故障和最繁忙标识符的仪表板 - 跟踪和每个标识符概述（周期时间、突出显示的更改字节、可排序列）、显示过滤器（例如 100-1FF !123 ext rx fd）、按文本搜索、数据模式或信号条件以及书签 - 每个会话数百万帧：较旧���帧被分页到磁盘 - 总线运行状况：错误状态时间线、错误帧、TEC/REC 和总线负载长达一个小时 - 远程总线：can-server 共享例如通过网络在车辆中安装 Raspberry Pi - MQTT：向仪表板和家庭自动化代理发布解码信号（和帧），
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-workflow, automotive-ethernet, can, canbus, canbus-analysis
+
+---
+
 ## 🕔 2026-11-20 07:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 217 个候选项目中筛选出 6 个未推荐过的新项目。
