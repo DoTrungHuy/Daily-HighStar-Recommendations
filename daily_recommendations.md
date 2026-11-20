@@ -1,3 +1,67 @@
+## 🕔 2026-11-20 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ARTEX](https://github.com/BaaRai/ARTEX)
+- **项目语言**: Go
+- **星标数量**: ⭐ 12,184
+- **核心概述**: ARTEX - AI autonomous penetration testing system (English translation; upstream: Autumn-27/ARTEX, AGPL-3.0)
+- **大概是做什么的**: Autonomous penetration testing that keeps its receipts. (upstream: Autumn-27/ARTEX, AGPL-3.0) Self-hosted multi-agent offensive security. A planner explores, workers run real tools, and every finding stays bound to the assets and HTTP traffic that prove it. Quick start · Screenshots · How it works · Install · Configuration · Security ARTEX is a self-hosted, LLM-driven penetration testing platform. It is not a chat wrapper around a scanner: a planner splits a goal into intents, workers execute them with real tools, and the results are written back into two linked graphs : one for what you know about the target, one for how the test is progressing. Every finding can carry the captured request and response that justify it, and every autonomous action passes through scope rules, approval gates and budgets. - It explores, it doesn't chat. Goal decomposition, intent dispatch, worker execution and write-back form a closed loop that keeps advancing until the goal is proven. - Two graphs, one audit trail. The shared asset graph says what exists ; the per-task exploration graph says what was t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, autonomous-agents, bug-bounty, docker, golang
+
+---
+
+### 🌟 [open-storyboard-canvas](https://github.com/ganbo-gab/open-storyboard-canvas)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 405
+- **核心概述**: Local-first AI storyboard infinite canvas for storyboarding: 3D Director Studio & multi-provider AI | 本地桌面AI分镜节点画布
+- **大概是做什么的**: Open Storyboard Canvas / 开源画布 Local-first AI Storyboard & Infinite Canvas Desktop App 把多模型渠道、参考素材、无限节点画布、三维导演台与多作用域 Agent 连接起来的本地桌面 AI 分镜创作工具。 下载最新版 · 使用文档 · 加入 QQ 群 · 问题反馈 演示：三维预演台播放人物走位与动作 → 拍摄四视图 → 统一媒体查看器检查 → 送回节点画布并保留来源连线（录制于 2026-11-05 本地演示环境） Open Storyboard Canvas 是一款本地优先（Local-first）的桌面 AI 分镜（AI Storyboarding）工作台，将多模型渠道、无限节点画布（Infinite Canvas）、三维导演台与多作用域 Agent 整合进同一工作流。 面向 AI 短片与漫画创作者，覆盖“快速试模型 → 节点化编排 → 三维走位取景 → 素材复用”，项目与素材默认保存在本机。 当前源码版本： v0.2.2 （支持 macOS 与 Windows ）。下文介绍当前源码能力；安装包实际包含的内容请以 GitHub Releases 对应版本为准。 1. 生成工作台（Generation Workbench） - 多模态统一创作 ：图片、视频、音频与文本对话集中在同一工作台，按创作会话保存历史，支持搜索、置顶、改名与关联画布项目。 - 高效输入体验 ：输入区支持 @ 检索引用素材、 / 快捷选择预设、拖入或粘贴参考图、局部撤销与展开编辑；浏览历史时可收起输入区。 - 渠道驱动参数与尺寸映射 ：比例、分辨率、时长、数量、首尾帧等参数由渠道声明决定；尺寸支持像素模式与“比例 + 分辨率”双视图切换，底层仍严格映射到接口实际值。 - 结果复用与可追溯历史 ：同次生成的多结果完整展示，支持统一查看器预览、下载、设为参考或发送到指定画布；工作台与任务中心完整记录每次提交的模型、参数、提示词与原任务 ID，区分“查询原任务”与“再次生成”。 2. 无限节点画布（Infinite Node Canvas） - 自由编排节点工作流 ：支持文本、图片、视频、音频、生成、分镜、全景、导演台与标签组等节点类型，通过连线构建可复用、可持续编辑的 AI 分镜工作流。 - 预设、图片功能与独立摄像机控制 ：生成节点支持直接调用预设与 / 快捷入口；图片节点连接参考图后可按角色选择编辑功能；摄像机控制采用独立可调弹窗，支持机身、镜头、焦距、光圈与本机预设。 - 非破坏性资产编辑 ：图片裁剪、标注、
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-tool, desktop-app, image-generation, infinite-canvas, local-first
+
+---
+
+### 🌟 [AgentDeck](https://github.com/puritysb/AgentDeck)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 301
+- **核心概述**: Local dashboards and physical controls for AI coding agents — native 3D aquariums, Stream Deck, Apple/Android apps, e-ink, ESP32 and LED displays.
+- **大概是做什么的**: Your AI agents, at a glance. Across your desk. AgentDeck brings your AI agents into one local dashboard. See which are working, waiting for you, or finished—across projects and tools. Watch them in a living aquarium, follow the timeline, and keep usage limits in view. Use your Mac or terminal on its own, or add a tablet, Stream Deck, e-ink reader, or small desk display. Photographed on September 28, 2026. See the full desk. Start with what you already have. No extra hardware required. Use your Mac or terminal on its own, then add the displays that fit your desk. Get started → · Choose your view ↓ · Watch the hardware desk tour ▶ Watch the AgentDeck product tour AgentDeck · 2.0 product tour A 2 minute 24 second tour of the whole workflow: parallel agent sessions, per-session history and CI waiting, collaboration, usage windows, original choices and one-time approval, voice and native agent controls, task evaluation and recorded evidence, then the roles of keypads, tablets, e-ink and small displays. Actual Mac/iPad UI and production renderers use fictional activity; the phone control c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, android, claude-code, developer-tools, esp32, hardware
+
+---
+
+### 🌟 [grokking-system-design](https://github.com/design-gurus/grokking-system-design)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 400
+- **核心概述**: The free, open companion to the original Grokking the System Design Interview course by DesignGurus.io.
+- **大概是做什么的**: Grokking System Design The free, open companion to the original Grokking the System Design Interview course by DesignGurus.io, created by Arslan Ahmad and the original Grokking team. Most candidates prepare by memorizing answers to a list of questions, then meet a question that is not on the list. This repo takes the other approach. You learn a small set of building blocks, like caching, sharding, replication, and consistency, then apply them to any design problem. Everything here is free to read in your browser, with no account. 30 patterns · 59 questions · 122 company guides · 19 deep dives · 27 cheat sheets · 4 roadmaps · 134 diagrams Prefer to read offline? Download the free cheat sheet PDF , all 27 cheat sheets and 4 study plans in one file. Your situation Start with ---------------- ----------- My interview is in days 1-week crash plan, then system design in one page I have a few weeks 6-week study plan, working through patterns/ as you go I am senior and have not interviewed in years Senior and staff refresher, which opens with a diagnostic I have an interview at a named compa
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ai-infrastructure, awesome-list, coding-interview, distributed-systems, faang, grokking
+
+---
+
+### 🌟 [moneyhelper](https://github.com/badhope/moneyhelper)
+- **项目语言**: Python
+- **星标数量**: ⭐ 104
+- **核心概述**: Self-hosted finance that keeps the books for you: one sentence becomes journal entries, bank reconciliation and a closed month. Every figure comes from deterministic code, never the model.
+- **大概是做什么的**: Self-hosted finance software that keeps the books for you. Write one sentence — it books the entry, reconciles the bank, closes the month, and answers with figures that come from code rather than from a language model. English · 简体中文 · Docs · CLI · Deploy Almost every "AI finance" product asks the model to produce the numbers. That is the part where finance cannot afford to be creative. Here the split is the other way round: a deterministic calculation engine fills in every figure, and the model is only allowed to phrase the answer. It has no channel for inventing a number — no arithmetic in prompts, no estimates dressed up as results. When a sample is too small, the API returns null with a reason instead of a figure that merely looks plausible. Every figure carries a provenance record: which tool, which arguments, which code path produced it. Personal. One sentence becomes several entries — lunch 45, taxi 28 is two transactions, not one. WeChat Pay, Alipay, bank CSV, PDF statements, invoice QR codes and OCR import natively. Positions, concentration risk, rebalancing, backtests and m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: accounting, ai-agents, audit-trail, bank-reconciliation, bookkeeping, double-entry
+
+---
+
+### 🌟 [argon](https://github.com/argon-lab/argon)
+- **项目语言**: Go
+- **星标数量**: ⭐ 179
+- **核心概述**: MongoDB sandboxes for AI agents — give every agent run its own real database, then review, merge or discard what it changed. Git for MongoDB underneath: branch, diff, merge, time travel.
+- **大概是做什么的**: Argon — MongoDB sandboxes for AI agents Give every agent run its own real MongoDB database, forked from your data. Review what it changed, merge what you want, discard the rest. Git for MongoDB underneath: branch, diff, merge, time travel and undo. Any driver, real mongod. Three ideas, thirty seconds: 1. A sandbox is a real MongoDB database — forked from a branch or a pinned dataset, checked out and given a TTL in one command. pymongo, mongoose, mongosh, indexes, aggregation, transactions: all real. 2. What the agent wrote is a diff — supported document writes become history while capture is healthy, so a run can be reviewed, merged as a data pull request, undone or thrown away. Your source data is untouched until you 3. Underneath, it is Git for MongoDB — a branch is a pointer created with a metadata write; checkout separately materializes the data. Diff, merge, undo and pins work within the configured retention and capture guarantees. The commands are side by side with Git below. For npm, use Node.js 24 LTS with npm 11.16 or newer. The package-scoped approval allows the installer t
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-sandbox, ai-agents, branching, database, devtools, golang
+
+---
+
 ## 🕔 2026-11-19 21:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
