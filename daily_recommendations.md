@@ -1,3 +1,67 @@
+## 🕔 2026-11-21 08:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [RustXNG](https://github.com/RustXNG/RustXNG)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 994
+- **核心概述**: Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.
+- **大概是做什么的**: RustXNG is a self-hosted metasearch engine written in Rust, based on SearXNG. It combines results from external search providers and can fetch page text for AI agents through a JSON API or MCP. RustXNG does not maintain a web-scale search index. You can add a local index of selected sites with rustxng-index and import Wikipedia dumps separately. Install from the releases page or with Cargo. Release binaries are available for Linux, macOS and Windows; check the matching asset and its SHA-256 sidecar before running it. Rust 1.89 or newer and a C build toolchain are required for source installation. The agent setup guide covers release binaries, verification, platform requirements and service reuse. Start a local server: Search from another terminal: Results contain a title, URL, snippet and source metadata. For automated clients that need errors for unknown engine names, add strict engines=1 (the default preserves SearXNG-compatible fallback behavior). Useful optional parameters include language=ja , engines=wikipedia , include domains=docs.rs , exclude domains=example.com , time range
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agpl, ai-agents, grounding, llm, mcp, metasearch
+
+---
+
+### 🌟 [webagent](https://github.com/ysunyang4/webagent)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 176
+- **核心概述**: Browser extension that connects ChatGPT, Gemini, DeepSeek, and other web AI chats to local MCP tools through Nexus.
+- **大概是做什么的**: Next-Generation Automated Web AI MCP Orchestrator & Local System Bridge Empowering DeepSeek, ChatGPT, Gemini, Kimi, Qwen & Modern Web AI Assistants with Full Autonomous Local Execution WebAgent 2.0 is an enterprise-grade, privacy-first Chromium browser extension designed to turn web-based Large Language Models (LLMs) into fully autonomous local engineering agents. By creating a secure, low-latency bridge between browser-based AI chats and your local system (via standard Model Context Protocol - MCP and the Nexus execution core), WebAgent allows web models to safely inspect files, run shell commands, edit code, call local tools, and orchestrate complex development tasks—without requiring paid API keys or exposing proprietary code to untrusted cloud intermediaries. 2. What's New in WebAgent 2.0 (vs v1.3.4) WebAgent 2.0 is a complete architectural overhaul delivering unmatched stability, zero-error execution, and a refined modern user experience: - New 3D Brand Identity & Visual Upgrade : - Custom 3D glossy visual brand, rounded app icon, and a distraction-free main action drawer. - Zer
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-extension, chrome-extension, llm, local-ai, mcp
+
+---
+
+### 🌟 [magicdesk](https://github.com/mekhontsev/magicdesk)
+- **项目语言**: Java
+- **星标数量**: ⭐ 234
+- **核心概述**: Open-source Android workstation: native multi-window desktops, X11/Wayland, Termux and MCP automation. Shroot runs Linux, systemd, Docker and Podman via Shizuku/Shevery without root. Android 14+; managed Desktop 15+.
+- **大概是做什么的**: An open-source Android workstation. MagicDesk combines native Android app windows, Linux graphical applications, terminals and independent workspaces on multiple displays. Use the phone, an external monitor, or a computer connected through scrcpy. Files, clipboard, application launchers and automation connect the same tools whether or not a managed Desktop is running. Android 14+ for the APK; Android 15+ for managed Desktop. Privileged features use Shizuku, a compatible provider such as Shevery, or optional direct root. You do not need any of them to run Linux: - Inside MagicDesk: open a User console to install a distribution and run its packages, containers or k3s under MagicDesk's Android UID. - As its own Android app: package a distribution as a Linux Capsule. Install its APK and open it from the Android launcher. It has its own UID, private data and terminal, and runs without MagicDesk or a virtual machine. This README describes the selected branch. The stable APK may not include every feature below; use its release notes for that version and the development APK to try unreleased
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, android-desktop, android-shell, desktop-environment, desktop-mode, docker
+
+---
+
+### 🌟 [agent-vscreen](https://github.com/kilolonion/agent-vscreen)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 159
+- **核心概述**: A background virtual screen for any Android AI agent: it operates apps on an invisible display while you keep using your phone. CLI / MCP / HTTP, Shizuku, no root. 给任何手机 agent 用的后台副屏。
+- **大概是做什么的**: A background second screen for any phone agent. Agent-VScreen opens and drives other apps on an invisible virtual display, so your own screen stays yours. All you see is a small floating window showing what the AI is doing, which you can take over or stop at any moment. Any agent on the phone can use it: agents with a terminal use the vscreen CLI, agents that speak MCP use MCP, and your own code can use plain HTTP. The app: Now (what the agent is doing on the background screen, take over or stop, recent runs), Connect (connected agents, remote access, tokens), Records (every task, question and plan with step thumbnails) and Settings (who can connect, how much an agent may do, app rules, floating window). One install command: four different Android agents (Minis, Eta, RikkaHub, Muse) all connect and drive the background screen. In the background: you keep reading in Chrome while the agent opens Clock on the background screen, sets a 10-minute timer and starts it. The terminal shows the real vscreen commands (waits are sped up 6x). Download MP4 Take over any time: long-press the floati
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, android-automation, kotlin, llm, mcp
+
+---
+
+### 🌟 [Kettu](https://github.com/KettuAI/Kettu)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 114
+- **核心概述**: Beauty is productivity. Claude Code, Codex, OpenCode, Pi and 40+ more coding agents, side by side in one window.
+- **大概是做什么的**: Beauty is productivity. All your coding agents, side by side in one window that looks good and feels right. Kettu is an early preview. The desktop app has found its shape, and its details still change quickly. Please report what you find. - 48 agents : Claude Code, Codex, OpenCode, Pi and more, with your own installs, accounts and settings. Turn one off without losing its sessions. - Side by side : run sessions in parallel and split the window into up to nine panes. The sidebar shows which one is working, which one is waiting for you and which one is done. - One-key approvals : when an agent wants to run a command or change a file, see what it touches, then allow or deny it with one key. - Question cards : an agent's questions in one card, answered one by one and sent together. - Plans : the agent's plan and progress sit in the top bar. - Switch agents : hand a session to another agent between turns, and the conversation carries over. - Subagents : shown under their parent session, where you answer their requests too. - Queue and steer : while an agent works, queue your next message
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-client-protocol, agentic-coding, ai-agents, ai-coding, claude-code, codex
+
+---
+
+### 🌟 [akshare-one-mcp](https://github.com/zwldarren/akshare-one-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 247
+- **核心概述**: MCP server that provides access to Chinese stock market data using akshare-one
+- **大概是做什么的**: AKShare One MCP Server An MCP server based on akshare-one, providing comprehensive interfaces for China stock market data. It offers a set of powerful tools for retrieving financial information including historical stock data, real-time data, news data, valuation data, and financial statements. Automatic source fallback Except for get inner trade data and get valuation , whose upstreams expose a single source, every data tool takes a source parameter for the preferred data source and a fallback parameter (on by default) that decides whether the other sources of the same domain are tried when that source raises or returns an empty frame : Domain Order tried Historical eastmoney → eastmoney direct → sina → ths Real-time eastmoney direct → eastmoney → xueqiu → ths (the last two are skipped when no symbol is given) News eastmoney → ths Financial statements sina ⇄ eastmoney direct The requested source is always tried first; the order only governs the fallback. Because akshare-one projects every source onto its domain's declared columns, falling back cannot change the field names or their
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: akshare, mcp, mcp-server, stock-data
+
+---
+
 ## 🕔 2026-11-20 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
