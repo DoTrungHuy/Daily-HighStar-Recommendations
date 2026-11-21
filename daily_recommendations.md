@@ -1,3 +1,67 @@
+## 🕔 2026-11-20 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 300 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [deeporg](https://github.com/dosco/deeporg)
+- **项目语言**: Go
+- **星标数量**: ⭐ 3,237
+- **核心概述**: DeepORG（以前称为 GraphJin）——适用于整个组织的 AI 代理：数据库、API、文件和 MCP 上的代码
+- **大概是做什么的**: DeepORG — 适用于整个组织的人工智能代理 DeepORG 的前身是 GraphJin。 CLI ( graphjin )、Go 模块、npm 包和 Docker 镜像暂时保留 graphjin 名称。 DeepORG 是一款 AI 代理，可以回答问题并在公司已运行的系统中进行更改：数据库、仓库、API、文件和源代码。用简单的话问；它找到正确的表，让数据库完成工作，并用其背后的数据进行回答。它只能查看和更改您的访问规则允许的内容，并且默认情况下更改会等待您的批准。没有手工制作的工具。大多数公司代理一次连接一个工具：这里一个“获取客户”工具，那里一个“列出发票”工具，每个工具都是手工编写和维护的。当模式发生变化时，它们就会崩溃，每个新问题或新系统都意味着更多的工具。 DeepORG 为代理提供了您连接的所有内容的可搜索地图，并且代理针对它编写自己的查询。该引擎根据您的访问规则检查每个查询，并将其作为一个高效的数据库查询运行。连接新的数据库或 API 只需几行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-ai, ai-agents, cloud-native, cockroachdb, database, deeporg
+
+---
+
+### 🌟 [zigzag](https://github.com/simpsoka/zigzag)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 993
+- **核心概述**: 适用于 Mac 和 Windows 的免费开源刺绣软件。将 SVG 图稿转换为机器刺绣，以可视方式编辑针迹，并通过 MCP 使用 AI 代理创建设计。
+- **大概是做什么的**: ZigZag 是一款采用 Rust 构建的视觉刺绣编辑器，具有内置的 MCP（模型上下文协议）支持，因此 AI 代理可以与您一起创建和编辑设计。将 SVG 图稿转换为针迹，在编辑器中对其进行微调，并导出 PES、DST、EXP、JEF 或 VP3 以与绣花机广泛兼容，或者通过蓝牙将设计直接发送到 Brother Skitch (PP1)。在 Illustrator 中绘制、在 ZigZag 中绘制或让代理绘制。 Rust 引擎和 zigzag 命令行工具在编辑器之外支持相同的工作流程。请参阅实际使用的 ZigZag https://github.com/user-attachments/assets/94812f25-82f4-429f-85db-5e20c1d5e723 缝合 Brother Skitch (PP1) · X 上的原始帖子。适用于 Apple Silicon 和 Intel Mac、macOS 11 或更高版本。打开 DMG，然后将 ZigZag 拖到应用程序中。该授权书由 Apple 签署并公证。无需安装 Rust。更新 Homebrew 安装：从版本 0.1.3 开始，ZigZag 还提供了一个应用内更新程序：它会告诉您何时有更新的版本，并在您说（ZigZag › 检查更新...）时安装它。 — 锯齿形调整浪- -x86
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: brother-skitch, embroidery, embroidery-digitizing, embroidery-software, machine-embroidery, macos
+
+---
+
+### 🌟 [hatamoto](https://github.com/Zen-Labs-Corp/hatamoto)
+- **项目语言**: Go
+- **星标数量**: ⭐ 308
+- **核心概述**: Hatamoto：Go 中的快速、安全、自托管 CMS，具有签名的 WebAssembly 插件和自动更新
+- **大概是做什么的**: 站近一点。服务好。适用于代理时代的包含电池的 CMS：构建器、SEO、缓存、表单、重定向、AI 分析、自动链接、实体、模式、媒体优化器和 MCP 在一个 Go 二进制文件和 Postgres 中。开源，无插件堆栈，无 PHP，无 Node，默认安装统计信息，一键关闭它们。此存储库中的文档 · Docker（也启动 Postgres）：或二进制文件（Linux 或 macOS、Intel 或 ARM），指向您自己的 Postgres：服务器在其日志中打印设置地址（ docker compose log hatamoto ）。打开它以创建您的帐户和网站。管理员居住在自己的私人地址，hatamoto admin-url 随时打印该地址。更多：使用 Docker 安装，安装二进制文件，首次运行，状态：v1，插件 SDK v0。它在生产中运行 hatamoto.dev。插件 SDK 仍然可以在其次要版本之间进行更改。什么保持稳定以及稳定多长时间：STABILITY.md。下面的每个屏幕截图都是一个真实的 Hatamoto 服务器，带有种子演示站点，由脚本/主页截图 ( SHOTS SET=readme ) 捕获，因此当管理员更改时它们会重新生成。编写和构建页面帖子
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cms, go, golang, headless-cms, mcp, postgres
+
+---
+
+### 🌟 [deepseek-harness-linux](https://github.com/Zhou-Yujing114514/deepseek-harness-linux)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 206
+- **核心概述**: DeepSeek Harness 桌面的一流 Linux 打包 — AppImage、.deb、.tar.gz（适用于 x64/arm64），由本机 CI 构建。
+- **大概是做什么的**: DeepSeek Harness · Linux 桌面版 给官方 DeepSeek Harness 桌面端补上 社区 Linux 桌面端打包 —— 开源（MIT）DeepSeek 桌面客户端，开箱即用的 AppImage / .deb / .tar.gz ，覆盖 x64 与 arm64 双架构，配套原生 CI 与 AppImage 自动更新。 一句话定位 ：在 Linux 上「能下载、能装、能更新」的 DeepSeek 桌面端（DeepSeek desktop for Linux）。完整保留官方 agent / 插件 / 联网能力，既可本地自托管运行 dsh web ，也能装上原生桌面客户端，数据始终留在本机。 官方桌面端只发布 macOS 与 Windows；Linux 用户要么退而用 Web 版，要么自己从源码硬编。本项目就是这个缺口的补完：在保留官方桌面全部功能的前提下，把 Linux 作为 社区支持平台 来打包、测试、分发。 - ✅ 是 ：一个下游 fork，专注做一件事——让 dsh 桌面端在 Linux 上「能下载、能装、能更新」。 - ❌ 不是 ：不是官方 DeepSeek 项目，也不魔改 agent 内核。agent 能力、插件体系、通信协议全部跟随上游。 - 🐧 Linux 原生支持 ：为 DeepSeek 官方桌面端提供社区 Linux 桌面端打包的下游项目 —— Ubuntu / Debian / 树莓派 5 / ARM 服务器都能跑。 - 📦 三种安装包 ：AppImage（单文件免安装、支持自动更新）、 .deb （Debian / Ubuntu 原生包管理）、 .tar.gz （便携解压即用）。 仅 AppImage 支持应用内自动更新 ，deb / tar.gz 需手动下载新版替换。 - 🔄 自动更新 ：AppImage 通过 electron-updater 走 HTTPS 更新通道，按更新描述符（yml）内声明的 sha512 校验下载产物。 - 🧩 功能完整 ：agent 内核、插件体系、联网、前端全部跟随上游，Linux 下与官方体验一致（仅 Office 文档转换暂缺）。 - 🏠 可自托管 ：本地运行 dsh web 或安装桌面端，数据留在本机，适合隐私敏感与内网场景。 - 🆓 开源免费 ：基于上游 MIT 许可证分发。 ------ ------ ----------- AppImage 单文件免安装，支持自动更新 deepseek-harness- -linux-x64.AppImage .deb Debi
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, ai-assistant, appimage, arm64, chatbot
+
+---
+
+### 🌟 [Pixelbolt](https://github.com/skulitom/Pixelbolt)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 128
+- **核心概述**: 代理优先的像素艺术和动画工具包。通过 CLI、MCP 服务器和本地工作室将 JSON 配方转换为 PNG、APNG 和精灵图集。零依赖。麻省理工学院。
+- **大概是做什么的**: 图库：来自 Pixelbolt 0.11.0 的 66 个像素艺术效果、精灵和场景，全部都在播放，每一个都从 Playground 中的配方中单击。在一行中为 Claude Code 提供像素艺术技能（Node.js 20 或更高版本）：对于 Codex、Cursor 和开放技能 CLI 支持的其他代理： npx Skills add skulitom/Pixelbolt 。它单独复制技能文件，然后通过 npx 运行 Pixelbolt。除非设置了 DISABLE TELEMETRY=1，否则 CLI 会将安装情况报告到 Skills.sh 排行榜。 CLI 技能需要 Node.js 22.20 或更高版本。您的 AI 代理可以制作、检查和修复像素艺术和精灵动画。 Pixelbolt 将可编辑的 JSON 配方转换为精灵、图块、图标、效果和短动画，并将它们导出为 PNG 精灵表、纹理图集、动画 PNG、GIF 和视频编辑器的帧。代理通过本地 MCP 服务器或命令行驱动它；您可以在本地浏览器工作室中打开、播放和编辑相同的菜谱。在浏览器中尝试一下：无需安装任何内容即可渲染、导出和共享食谱。戳像素：向现场像素艺术篝火吹气，倒入蜂蜜和粘液，然后保存
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, claude-code, claude-skill, game-assets, game-effects
+
+---
+
+### 🌟 [cymbal-air-toolbox-demo](https://github.com/GoogleCloudPlatform/cymbal-air-toolbox-demo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 350
+- **核心概述**: 客户服务代理 (Cymbal Air) 的演示，使用 LangGraph、工具和 RAG 通过 MCP Toolbox 与 Google Cloud 数据库进行交互。
+- **大概是做什么的**: 该项目仅用于演示，并非官方支持的项目。如果您是使用此演示的 Google 员工，请填写此表格。如果您有兴趣使用我们的托管版本，请填写此项目提供了一个生产质量的参考实现，用于构建使用 [Agents] 和 [Retrieval Augmented Generation (RAG)][rag] 来查询 Google Cloud 数据库中存储的数据并与之交互的 Agentic 应用程序。该演示以虚构的航空公司 Cymbal Air 为主角。该应用程序展示了一个客户服务助理，可以帮助旅客管理航班并查找有关 Cymbal Air 枢纽旧金山国际机场 (SFO) 的信息。工作人员可以回答以下问题：航站楼内有奢侈品商店吗？ A6 登机口附近哪里可以买到咖啡？我需要给我的同事找一件礼物。明天有哪些航班飞往 纽约？ [rag]：https://www.promptingguide.ai/techniques/rag [代理]：https://www.promptingguide.ai/agents/introduction - 了解演示 - 检索增强生成 RAG - 基于代理的编排 - 一次性数据库
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agents, ai, alloydb, bigquery, databases
+
+---
+
 ## 🕔 2026-11-20 17:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 228 个候选项目中筛选出 6 个未推荐过的新项目。
