@@ -1,3 +1,67 @@
+## 🕔 2026-11-21 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Decompile](https://github.com/1llu50ry/Decompile)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 586
+- **核心概述**: 用于游戏黑客和逆向工程的 MCP（模型上下文协议）服务器。包含 6000 多项技能的结构化知识库，具有完整的源代码档案、专业代理和工作流程工具 - 旨在插入 Claude、Codex、Cursor 或任何 MCP 兼容客户端。
+- **大概是做什么的**: 一种用于跨二进制文件、应用程序和运行时行为进行逆向工程的 MCP。 230 多个 MCP 工具 · 60 多个 RE/调试后端 · 9 个主机端插件 · 6,000 多个技能 · 170 多个代理 · 160 多个子代理 · 190 多个插件 · 3,000 多个提示 · 多代理网格 · 原生 x86-64 + ARM64 模拟器 v5.0.0 发布。 19 GiB → 3.3 GiB 工作树（通过压缩源档案缩小 83%），+ 四个功能波：主机插件构建系统、Frida 桥 + 动态分析、ARM64 模拟器 + 反编译缓存 + 分块、bindiff / ROP / 游戏引擎元数据 / MCP 采样 / SVG 可视化。请参阅变更日志。快速入门·架构·比较·Agent Mesh·MCP Hub·伦理英语·Русский·简体中文对现代应用程序进行逆向工程涉及五个静态工具（Ghidra、IDA、Binary Ninja、radare2、Hopper）、三个调试器（x64dbg、WinDbg、GDB/LLDB）、一个十六进制编辑器、一个内存扫描器、一个仪器框架和一堆格式解析器（PE、ELF、 Mach-O、DEX、小型转储、WASM、.NET、ASAR、GGUF、BEAM、Go）。在它们之间切换需要花费数小时。教一个模型来驱动其中一个模型的成本更高。 1. 聚合
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, anti-cheat, binary-analysis, binary-ninja, cheat-engine, claude
+
+---
+
+### 🌟 [lattice](https://github.com/lattice-writer/lattice)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 548
+- **核心概述**: 适用于 macOS 的本地优先、代理优先 LaTeX 写作应用程序：实时 PDF、注释、论文和 Overleaf 同步
+- **大概是做什么的**: macOS 本地优先的 LaTeX 工作区，您的论文、合著者和 AI 代理都在同一个窗口中 下载 在浏览器中尝试 网站 观看影片 发行说明 开发人员文档 问题 中文 论文不仅仅是一个 .tex 文件：它是您检查的 PDF、您引用的论文、您的合著者留下的评论，现在还有一个可以编辑的代理你。 Lattice 将所有这些都保留在一个本机 Mac 窗口中。您的项目保留在磁盘上的普通文件夹中，因此它可以离线工作，可以在任何其他编辑器中打开，并且适合在 Git 下使用； Overleaf 是同步目标，而不是您���论文所在的位置。源代码和 PDF 并排显示（或者 PDF 在其自己的窗口中，用于第二个屏幕），在您键入时进行补全和诊断，SyncTeX 可以双向跳转，并使用您自己的 TeX Live 进行一键构建。将 .tex 选项卡从“源”切换到“可视化”，以便在同一个编辑器中读取和编辑它，并在适当的位置绘制标题、强调、方程式、列表和图形。轮廓栏跟随您的部分，\cite 键在悬停时显示其参考，六个带有含义的荧光笔标记内容
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: academic-writing, ai-agent, claude-code, codex, latex, local-first
+
+---
+
+### 🌟 [opaline](https://github.com/evrendom/opaline)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 311
+- **核心概述**: 使用本地 Mac 应用程序 Opaline 结束您的代理会话。
+- **大概是做什么的**: 克劳德代码和法典会议拉开帷幕。适用于 macOS 和 Linux 的本地优先桌面应用程序。查看上下文窗口中的内容、代理被困的位置、成本，并让他们恢复自己的设置。安装 · 功能 · Agent MCP · 架构 · 从源代码构建 · opaline.evren.so - macOS：Apple Silicon ( .dmg ) · Intel ( .dmg )（打开并拖动到应用程序） - Linux x64：AppImage（ chmod +x 并运行） · .deb ( sudo apt install ./Opaline-Linux-amd64.deb ) 启动 Opaline 并自动启动其捆绑的本地堆栈，导入现有的 Claude代码和 Codex 会议，以及通�� GitHub 发布进行的更新。没有帐户，没有 Docker，什么都不会离开你的机器。 （下载量为 310-530 MB，因为捆绑了 Electron、Postgres 和 ClickHouse。）在 macOS 上，Dock 图标显示每周 Claude Code 或 Codex 限制还剩多少。右键单击它可以查看每个客服人员的号码、重置时间以及图标显示的号码。查看实际消耗了上下文窗口的内容（读取文件、rg、技能、工具定义、shell 输出）以及哪些工具调用失败、恢复或
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: analytics, claude-code, cli, codex, coding-agents, desktop-app
+
+---
+
+### 🌟 [ChannelTerm](https://github.com/akira-init1/ChannelTerm)
+- **项目语言**: Go
+- **星标数量**: ⭐ 233
+- **核心概述**: 人类和人工智能代理的共享终端会话，从串行和硬件调试开始。
+- **大概是做什么的**: English Deutsch Español Français 日本语 한국어 Русский 简体中文 繁体中文 使用 AI 调试您的电路板。留在同一航站楼。 ChannelTerm 允许您和您的 AI 客户端共享实时串行或 SSH 终端。读取相同的设备输出，遵循AI端子命令，轮流操作板子。它运行在Windows、Linux和macOS上，并通过MCP连接外部AI客户端。使用 GDB 让 AI 设置断点、单步执行 Linux 程序并检查变量。连接 Windows 上的串行端口并在 WSL2 中运行 GDB，或者在 GDB 使用板的以太网连接时保持共享控制台打开。选择调试设置。对于短启动窗口，让主机中断 U-Boot 并验证提示。调查故障时导出带有可选原始字节的诊断 ZIP。 U-Boot 和诊断工作流程。当 AI 使用相同的设备连接时，保持终端打开：每个客户端独立读取，因此 AI 阅读器不会消耗您正在观看的输出。 ChannelTerm显示AI终端写入您的附件；外部调试器输出有其自己的可见性规则。 - 分享c
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, cli, cli-tool, developer-tools, embedded-systems, gdb
+
+---
+
+### 🌟 [DRAGON-AI](https://github.com/Anton2025-11-06/DRAGON-AI)
+- **项目语言**: Vue
+- **星标数量**: ⭐ 211
+- **核心概述**: 🐉 DRAGON-AI — 是一个开源企业代理平台，用于构建、部署和管理人工智能应用程序。它结合了人工智能代理、工作流程、RAG 和知识管理
+- **大概是做什么的**: 🐉 DRAGON-AI — 可私有部署的多租户 AI 中台 把 模型网关、知识库 RAG、知识图谱、工作流编排、深度探索智能体（Harness）与企业级 RBAC 收进同一个工作区，数据、模型与权限都由你自己掌握。 在线体验： 47.112.99.147:12345 （viewer / viewer） · 中文 / English 本 README 与代码同步维护： 标「已开发」的都能跑，标「规划中」的请当作不可用 。 📺 平台介绍视频 ：▶ 点击观看 AI 中台介绍.mp4（GitHub 上因渲染限制不会内嵌自动播放，点开在新窗口播放；本地预览器下方可直接内嵌播放） 权限与运营底座 多人环境下的能力、权限与运行治理 RBAC、资源级 ACL、审计日志、限流、在线用户与 ARQ 监控 模型网关与模型广场 统一接入、分发、治理多供应商模型 OpenAI 兼容入口、12 类能力 × 3 供应商、申请审批、API Key 工作流编排 把复杂任务拆成可视化流程 21 类节点、submit 契约、人工审批、SSE/WS、记忆、函数调用 知识库与 RAG 为回答提供精准检索内容 三类库、混合检索、图谱增强、RAGAS 评测、开放 API 深度探索（Harness） 让智能体真正执行任务并交付成果 AgentScope ReAct + 每用户云沙箱、持久化工作区、在线预览与产物交付 执行引擎与基础设施 高并发、可横向扩展的运行底座 arq 四流水线、统一存储（本地/NAS/OSS）、Nacos、trace-id 1. 权限与运营底座（企业级 RBAC） - 权限点即菜单 （ menu type=3 ）：一份数据同时驱动前端按钮显隐与后端 @has permission ，ADMIN 直放；五级数据权限（全部 / 本部门及以下 / 本部门 / 仅本人 / 自定义部门集）。 - 资源级 ACL，全平台一套引擎 ：知识库 / 文档 / 工作流 / 模板 / 工具 / 技能 / MCP 连接七类资源，按动作粒度授权到 用户 / 角色 / 部门（含下级）/ 用户组 / 全员；判定 = ADMIN ∪ 归属人 ∪ 数据范围 ∪ 显式授权 。 acl router 是唯一读写口、 resource guard 单点求值，列表下推 / 行内按钮 / 403 三处共用同一份规则，绝不再手写第二份。 - JWT + Redis 登录态即时失效；全链路 x-trace-id 、敏感字段自动脱敏；模块桶级限流热加载；在线会话踢出与 ARQ 四流水线监控。 - OpenAI 兼容统一入口 POST
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentscope, ai, arq, docker, fastapi
+
+---
+
+### 🌟 [pt-tools](https://github.com/sunerpy/pt-tools)
+- **项目语言**: Go
+- **星标数量**: ⭐ 203
+- **核心概述**: PT 站点自动化管理：RSS 下载、刷流、IYUU 辅种、媒体库订阅与整理、签到与保号提醒、数据统计，统一管理 qBittorrent 和 Transmission；手机 App 远程查看和操作，也可以在 QQ、Telegram 里控制。
+- **大概是做什么的**: PT 站点自动化：RSS 下载、刷流辅种、追剧入库、签到保号与数据统计 文档站 · 1.0 亮点 · 基础功能 · 安装 · 快速开始 · 用法 · 文档 · 开发 pt-tools 是自托管的 PT 站点管理工具：按 RSS 自动下载，刷流与 IYUU 辅种，订阅电影、追剧并整理进媒体库，每天签到、在封号前提醒，汇总各站点的数据，统一管理 qBittorrent 和 Transmission；手机 App、QQ、Telegram、飞书与内置的 AI 助手都能查看和操作。内置 74 个站点，支持 Docker、Linux 和 Windows。完整文档在 firlab.app/pt-tools 。 不会配置，或者懒得一项项填？交给 AI。 在「AI 助手」里填一个大模型的 API Key，直接告诉它要加哪个下载器、站点、RSS 订阅或通知通道，它列出改以前、改以后，你点确认才保存。也可以打开 MCP，给令牌勾上「配置」，让你自己的 Agent（WorkBuddy、Qwen Code、Codex、Claude Code、Cursor 等）帮你读改 pt-tools 的配置。见让助手改配置。 首页、系统体检、追剧、刷流、AI 助手与手机 App 的截图（演示数据） 「长夜将尽」是编的剧，海报与背景图是生成的。 - AI 助手与 MCP ：接上 OpenAI 兼容的大模型（DeepSeek、通义千问、Kimi、硅基流动、OpenRouter、Ollama 等），在网页、App、Telegram、QQ 或飞书里用自然语言查数据、搜索与推送种子、追剧和管理订阅、整理媒体库，还能帮你改配置（下载器、站点、RSS、通知通道等，密���只写不读）；改动类操作每次都先列出改以前、改以后，你确认了才执行。打开 MCP 以后，WorkBuddy、Qwen Code、Codex、Claude Code、Cursor 这类支持 MCP 的 Agent 也能调用同一套工具。 - 扫码一键创建飞书应用机器人 ：在网页上生成二维码，用飞书扫码并确认，pt-tools 就在扫码人所在的企业里建好应用，预填收发消息要的权限与事件，随后建好并启用通道、连上飞书，扫码的人成为管理员并直接绑定。不用去飞书开发者后台开启机器人能力、开通权限、改订阅方式、发布版本；pt-tools 主动连出到飞书，不需要公网地址。 - 追剧与媒体库 ：订阅电影、追剧集的一季，pt-tools 到各站点搜索并按质量档案挑资源，下载完按命名模板整理进媒体库、刮削 NFO 与海报、通知 Emby、Jellyfin 或 Plex，每部片
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: auto-checkin, chatops, cross-seed, docker, flutter, golang
+
+---
+
 ## 🕔 2026-11-21 08:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
