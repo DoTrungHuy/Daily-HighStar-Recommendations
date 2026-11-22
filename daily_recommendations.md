@@ -1,3 +1,67 @@
+## 🕔 2026-11-21 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 297 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [cevahir-ai](https://github.com/myylogic/cevahir-ai)
+- **项目语言**: Python
+- **星标数量**: ⭐ 313
+- **核心概述**: Cevahir Zihin：通过生活学习的头脑，而不是变形金刚。它将知识作为关系的证据，以七处焦点参与并从每次对话中学习。另外：土耳其 BPE 分词器、Transformer 语言模型核心和认知系统。
+- **大概是做什么的**: 🍌 🇹🇷 🍌 Cevahir AI 和引擎 Daha Adil Bir Dünya Mümkün。研究档案 DOI（始终是最新版本）：10.5281/zenodo.22864660 · 研究报告最新更新 — 2026 年 11 月：Cevahir Zihin，一个通过生活学习的头脑。不是变形金刚。该存储库中的新模型 Cevahir Zihin （ zihin/ ， python -m zihin 运行的内容）不是神经网络，而是 Living Evidence Mind 。它没有权重矩阵、嵌入向量、反向传播或 softmax 注意力。它把每一种关系都当作一条纽带，并根据每条纽带的来源来保存证据：亲眼所见、讲��、模仿、自己的行为、推断或想象。它读取单个规则的预期结果： e = c·(f − ½) + ½ 。下面描述的早期 Transformer 引擎仍然在存储库中。 - 注意：每一时刻只有七个单位进入焦点（七位焦点）。没有上下文窗口：它从不回顾过去，只读取焦点单元的联系，因此每时刻的时间只会随着思维的发展而缓慢增长（小思维时大约 2 毫秒，300 万个联系时大约 4 毫秒）。 - 忘记：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-, ai-engine, bpe, cognitive-ai-, conversational-ai, deep-learning
+
+---
+
+### 🌟 [vaultite](https://github.com/Vaultite/vaultite)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 186
+- **核心概述**: 拥有你的回忆。快速且本地的 AI 原生知识库，采用纯 Markdown 文件形式。免费开源 Obsidian/Notion 替代品
+- **大概是做什么的**: 拥有你的回忆。您和您的 AI 在纯 Markdown 文件中共同编写的本地知识库。 · 在你的浏览器中尝试一下你和你的 AI 的第二个大脑：你们都在其中编写的 Markdown 文件（你的保管库）的文件夹，Vaultite 将其绘制为页面和一个链接到什么的知识图。 - 纯文件，无数据库。在另一个 Markdown 应用程序中打开保管库，对其进行 grep，将其与 iCloud 同步或将其保存在 git 中。 - 你的黑曜石金库，原样。打开它，它的注释、链接、属��和热键都会保留；使用 Obsidian 插件附加组件（Plugins、Get），126 个社区插件中的 105 个检查了工作：Dataview、Templer、Tasks、Excalidraw - 为代理而设计。 Claude Code、Codex 和任何 MCP 客户端共享一组操作（vau CLI、MCP、HTTP）。 - 一切都是插件，甚至是文件树，热重载。人物、日志和笔记都随之而来，直到捆绑或您将它们打开为止。在保险库中写下您自己的内容。 - 完整的编辑器和工作区：在 Mac、Linux ��� Web 上为您的代理提供实时预览、选项卡和拆分、反向链接、图表和终端。 iPhone 即将推出。 1.下载Vaultit
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agents, claude-code, knowledge-base, local-first, markdown
+
+---
+
+### 🌟 [coding.sh](https://github.com/jackulau/coding.sh)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 149
+- **核心概述**: 人工智能代理的开源、本地优先的可观察性和评估：看看 Claude Code、Codex、Cursor 和其他人做了什么以及它的成本是多少。
+- **大概是做什么的**: coding.sh 记录您的 AI 代理所做的事情：每次提示、模型调用、工具调用、文件更改及其成本。您可以在本地查看器中读取每次运行，并将出错的部分转入评估。您的会话保留在您的计算机上。在新家中首次运行 npxcoding.sh 0.1.6。再次运行 npxcoding.sh 以在会话上打开查看器。费用：无。 MIT 许可，在您的机器上运行，无需帐户。本地查看器 (coding.sh ui) 中的一个 Claude Code ��话，以及它所做的差异和运行的测试。每个会话及其延迟和令牌都会进入您计算机上的 SQLite 索引。您可以在本地查看器中浏览它，从 CLI 或通过 MCP 从代理查询它，将故障转化为评估，并将更改与配对统计数据进行比较。除非添加远程接收器，否则会话数据不会离开您的计算机。没有运行时依赖性。节点 22.16 或更高版本。 1. 运行 npxcoding.sh 或上面的安装命令。它运行coding.sh init：它找到您的代理，显示一个计划并询问一次。 2. 启动新的代理会话。会话开始时，代理会读取它们的钩子，因此已经存在的钩子
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evals, agent-observability, ai-agents, claude-code, codex, coding-agents
+
+---
+
+### 🌟 [Docxodus](https://github.com/JSv4/Docxodus)
+- **项目语言**: C#
+- **星标数量**: ⭐ 121
+- **核心概述**: Swiss-army .docx 工具包 — 忠实的 DOCX→HTML 渲染、浏览器内的块编辑器、带有本机跟踪更改的 Word 级红线以及 LLM 代理的锚点寻址降价。 .NET、WASM/TypeScript、Python、CLI。
+- **大概是做什么的**: 释放您的 .docx 文件。渲染它们、编辑它们、比较它们，然后将它们交给代理 - 从 .NET、浏览器、Python 或 shell。 .docx 是一个充满 XML 的 zip 文件，只有一个程序能够真正理解。 Docxodus 是一个工具包，它改变了这一点：一个结构感知的 OOXML 引擎，忠实地读取 Word 文档，无损地写回它们，并通过程序实际需要的任何界面公开它们 - HTML 渲染、稳定的 Markdown 投影、有状态的编辑会话、跟踪更改红线或实时它作为 .NET 库、浏览器中的 WebAssembly 模块、npm/TypeScript 包、Python 客户端、MCP 服务器运行对于 AI 代理和三个 CLI 工具 - 都在同一个引擎上，因此文档在任何地方的行为都是相同的。这是 JavaScript。 npm 包是捆绑了 TypeScript 类型的普通 ES 模块：将其导入浏览器或 Node 中，传递 File 或 Uint8Array ，等待结果。无需安装 .NET，也无需运行服务器 - 引擎作为 WebAssembly 包含在包内。下面的每个屏幕截图都是真实输出，从 NVCA 模型 fina 捕获
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agents, csharp, diff, document-comparison, document-editor, docx
+
+---
+
+### 🌟 [easi.run](https://github.com/julianosig/easi.run)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 118
+- **核心概述**: 为您和您的 AI 代理提供自托管 Chrome 会话。 MCP，实时人工接管，保存的配置文件，拖放文件，下载和音频。
+- **大概是做什么的**: 为您和您的代理提供真正安全的浏览器会话。在您自己的服务器上为每个代理提供真正的 Chrome。观看直播，并在登录、2FA 代码或验证码时一键接管。然后把它交回来。 ▶ 尝试现场演示 · 功能 · 文档 · 快速入门 · 比较英语 · 葡萄牙语（巴西） · 西班牙语 · 简体中文 · हिन्दी · 法语 · 德语 · 日本语 · Русский · 印度尼西亚语 · 한국어 使用网络的代理需要浏览器。大多数团队从云服务中按小时租用一台，或者将无头 Chrome 和 VNC 服务器粘合在一起。 easi.run 是第三种方式：一个命令在您自己的 Linux 服务器上启动它，从那时起，每个代理都会获得一个独立的 Google Chrome，无论是新的还是带有您保存的登录信息，并且您会得到一个实时窗口。当代理陷入只有一个人可以做的事情时，您可以从会话栏进行控制。代理人等待。您输入密码、批准 2FA 提示或解决难题。您将控制权交还给代理，代理承担 - 💸 无需按小时计费。它在您的服务器上运行，因此您只需为服务器付费，无需支付任何其他费用。 - 🙋 一个人可以介入
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, browser, browser-automation, chrome, docker, mcp
+
+---
+
+### 🌟 [open-artifact](https://github.com/JimLiu/open-artifact)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 193
+- **核心概述**: 开放的、与代理和模型无关的工件，全部在本地保存为纯文件 - 编辑、评论和导出幻灯片、UI 设计、设计系统、白板、工作表、仪表板、文档和动作。
+- **大概是做什么的**: 前身为宝玉设计。该项目始于 baoyu-design（此处为旧 URL 重定向），它将 claude.ai 风格的 Artifact 类型作为每种类型的一项技能引入本地编码代理。 Open Artifact 将它们重建为一种开放的、与代理无关的格式：一个本地守护进程、一个页面框架、一个 /open-artifact 技能以及每个代理应用程序的插件。 Open Artifact 允许任何编码代理制作人们可以打开、编辑和评论的内容，而不仅仅是文件。您向代理提供幻灯片、UI 设计、设计系统、白板、电子表格、数据仪表板、文档或动画短片。代理写入一个普通的文件文件夹。本地页面在真正的编辑器中打开它，您可以在其中修复标题、移动便签、留下评论和导出。然后“发送给代理”会将您的评论发送回代理的会话。 https://github.com/user-attachments/assets/9f34dc69-2e90-4118-92fd-63f36d7bc5f9 一切都在您的计算机上运行。没有帐户，没有上传，没有特定型号或供应商。类型 您将获得什么 文件夹标记 导出幻灯片 1920×1080 幻灯片：滑轨、概述、演讲者备注、构建、过渡、
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, artifacts, claude-artifacts, claude-code, claude-design
+
+---
+
 ## 🕔 2026-11-21 18:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 295 个候选项目中筛选出 6 个未推荐过的新项目。
