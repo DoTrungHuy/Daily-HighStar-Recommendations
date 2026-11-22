@@ -1,3 +1,67 @@
+## 🕔 2026-11-22 19:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,382
+- **核心概述**: 用于评估 AI 代理技能和插件的多层框架，包括质量门、安全扫描、线束兼容性检查、语义重叠检测、综合评估数据集生成以及衡量技能如何影响代理行为的实时代理评估。提供可重用的 CI 模板，将每次检查带到任何存储库。
+- **大概是做什么的**: 评估和改进 AI 代理技能和插件：代理之间的质量、安全性、重叠、兼容性和实际影响📺 直播：询问专家：评估代理技能 SkillEvaluator 检查 AI 代理技能和插件，并衡量技能对任务结果的影响：从质量检查开始，然后比较使用和不使用技能的运行。在合并之前发现技能问题。通过自动化质量和安全门将您的存储库连接到 SkillEvaluator，无需构建或维护代理技能是由代理技能规范定义的指令和支持文件的文件夹。 SkillEvaluator 是 NVIDIA 验证技能管道的一部分。在 Python 3.12–3.14 环境中安装 CLI：对于 uv 设置或直接 GitHub 源安装，请参阅然后从终端、CI 或代理检查技能：运行由 500 多个静态规则和检测模式支持的检查，无需 LLM 密钥。完整的扫描仪设置使用 NVIDIA Build 进行所有层设置后，删除 --tiers 1 以添加重复数据删除和实时代理评估以衡量检查每项技能更改。在您的 GitHub 代表中运行
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-evaluation, agent-plugins, agent-security, agent-skills, agentic-ai, ai-agents
+
+---
+
+### 🌟 [and-code](https://github.com/yuga-hashimoto/and-code)
+- **项目语言**: Kotlin
+- **星标数量**: ⭐ 319
+- **核心概述**: 用于在设备上本地运行 AI 编码代理的本机 Android GUI。无需终端或 PC。
+- **大概是做什么的**: 通过本机 GUI 在 Android 上本地运行编码代理 — 无需终端。 AndCode 是一款原生 Android GUI 应用程序，可为您的手机带来 AI 编码代理。通过触摸优先界面与 OpenCode、Claude Code、Google Antigravity 和 OpenAI Codex 聊天 — 无需终端、无需 SSH、无需 PC 即可在设备上使用。它通过 PRoot（设备上）包装代理运行时或远程连接到 PC/Mac/Linux 上现有的 OpenCode 服务器。 English 日本语 简体中文 Español Français Português (巴西) AndCode 是一个独立的、本地优先的图形界面，可在用户自己的 Android 设备上安装或启动受支持的第三方命令行工具。 AndCode 本身不提供或转售底层 AI 服务、订阅、模型访问或帐户权限。身份验证、模型访问、推理和提供程序通信由适用的官方 CLI 或用户配置的提供程序处理。 AndCode 不隶属于 OpenCode、Anthropic、Google 或 OpenAI，也不受其认可、赞助或正式支持。请参阅下面的法律和第三方软件。模组
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, android, claude-code, coding-agent, coding-assistant
+
+---
+
+### 🌟 [SuperHive](https://github.com/wangrongding/SuperHive)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 686
+- **核心概述**: 供人类和人工智能编码代理使用的开源共享工作区。在自己的电脑或者云服务器上运行并在浏览器中打开。
+- **大概是做什么的**: 一个开源的多人、多 Agent 协作空间，可以在自己电脑上运行，也可以部署到云服务器、大家用浏览器打开网址直接使用。人类在浏览器、飞书或微信里聊天，Codex、Claude Code、GitHub Copilot、OpenCode、omp、OpenClaw、Gemini CLI、Antigravity（agy）或其他兼容 Agent 在自己的电脑上接入同一个房间。 📖 文档站： （安装、快速上手、日常功能、Agent 协作、部署和常见问题，带真实界面截图） 公共消息是协作上下文，Agent 的会话、文件和命令权限仍然留在 Agent 所在电脑。Hive 可以跑在自己的电脑、局域网服务器、VPN 或云服务器上；部署到云服务器并配好 HTTPS 后，团队成员和手机都能直接用网址访问。 从改名前的旧包升级时，首次运行会自动把旧数据目录迁移到 /.superhive/ ，浏览器里的设置也会保留。 - 一个房间，多个 Agent ： @agent-name 派活，也可以给房间设一个主 Agent，不 @ 时由它接话和分派。Agent 之间可以委派子任务、在协作白板上登记进度、登记定时任务，需要人拍板时发选择题。 - 权限留在本机 ：权限档位由 Agent 所在电脑的操作者选择（网页接入默认工作区档，命令行 hive join 默认只读），完全访问每次都要明确确认。 - 手机上也能用 ：扫码接入飞书或个人微信，推送卡片、点选作答、切换房间和对话对象。 - 看得见在干什么 ：每次 @ 都有状态、实时执行过程、中���进度、插话、停止和重试；记录每轮真实 token 用量、缓存命中和估算费用。 - 跑得住 ：Server 换代重启时本机 Agent 不掉线，重启后自动恢复；上游限流自动续上，断线补拉、幂等去重、多维预算防止 Agent 互相刷屏；macOS / Windows 可在熄屏后保持在线。 - Node.js 22.12 或更高版本，macOS、Linux、Windows 均可。 - 如果要接入 Agent，还需要在 Agent 所在电脑安装并登录对应的 CLI（Codex、Claude Code、Copilot、OpenCode、omp、OpenClaw、Gemini CLI 或 agy）。 1. 安装 （每台电脑只需一次，装好后就有了 hive 命令）： 2. 运行 （启动 Hive Server 并打开网页，以后每次启动都用这一条）： hive 启动 Server 并打开网页；Server 已在运行时再执行一次也只是打开网页，不会重复启动。不想全局安装，也可以用 n
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-collaboration, ai-agents, claude-code, codex, collaboration, mcp
+
+---
+
+### 🌟 [youtube-ai-video-editing-system](https://github.com/praseesh369/youtube-ai-video-editing-system)
+- **项目语言**: HTML
+- **星标数量**: ⭐ 337
+- **核心概述**: 故事板、捕捉和动画：YouTube 的 AI 编辑工作流程
+- **大概是做什么的**: 🎬 AI 驱动的 YouTube 视频工作流程和动态图形 — 媒体编辑器 🚀 PowerShell 快速安装 [ ]() [ ]() [ ]() [ ]() 该系统将视频编辑视为可见的、可检查的管道：Eyeline 提词器捕获您的脚本并拍摄，编辑代理提出候选剪辑，每个决定都以可读的 JSON 形式呈现，您可以打开、质疑和重塑。从那里，设计简报提供给 Claude Design 和 HTML 参考板，动画时间线将动态图形与批准的旁白对齐，整个包干净地交给 Resolve 或 Premiere。面板和技能是故意未配置的启动器 - 开放的构建块，您可以重新设计、重新调整并扩展到您自己的视觉语言。将捆绑的工作流程视为您判断的脚手架，而不是替代品。 - Windows 10 或 Windows 11 - PowerShell 5.1 或更高版本（Windows 上已提供） - 活动网络连接 - 无需管理员权限 脚本输入、故事输出 — 每一帧都由您掌控。 - 眼线提词器，可在您说话时聆听。阅读你的剧本，看着它跟随你
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-video-editing, animation, claude-design, design, motion-graphics
+
+---
+
+### 🌟 [pysad](https://github.com/selimfirat/pysad)
+- **项目语言**: Python
+- **星标数量**: ⭐ 321
+- **核心概述**: Python 中的流异常检测：50 多个在线多变量和单变量检测器（LODA、RRCF、半空间树、xStream、DAMP、SAND），具有校准警报、漂移处理和事前评估。
+- **大概是做什么的**: 一过。每个异常值。 Python 中针对多变量和单变量数据流的流异常检测。 PySAD 在每个点到达时进行评分和学习，并使用纯 Python、NumPy、SciPy 和 scikit-learn 进行校准警报、漂移处理和事前评估。互动游乐场 · 稳健的随机砍伐森林一次为三个合成传感器得分一个点。保形校准将每个分数转换为其超出的最近分数的分数，并在 0.995 处发出警报。批量检测器在固定数据集���进行训练。流检测器会随着点的到达而更新，而无需等待完整的数据集。 PySAD 提供了一个通用接口，用于从多变量和单变量流（包括具有概念漂移的流）的每个点进行评分和学习。 Google Scholar 上有 60 多篇出版物引用了它，GitHub 上有 30 多个公共存储库使用它。每个检测器都会使用 fitpartial 、scorepartial 和 fitscorepartial 一次学习并评分一个点。大多数检测器保留有界的窗口、草图或树集，而不是完整的流
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, anomaly-detection, concept-drift, conformal-prediction, fraud-detection, incremental-learning
+
+---
+
+### 🌟 [mikrotik-mcp](https://github.com/wiresage/mikrotik-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 349
+- **核心概述**: Mikrotik 的 MCP 服务器
+- **大概是做什么的**: 从任何 AI 助手管理 MikroTik RouterOS。 MikroTik MCP 提供了 AI 助手和 MikroTik RouterOS 设备之间的桥梁。它允许 AI 助手通过自然语言请求与 MikroTik 路由器进行交互，执行管理 VLAN、配置防火墙规则、处理 DNS 设置等命令。 https://github.com/user-attachments/assets/24fadcdc-c6a8-48ed-90ac-74baf8f94b59 https://github.com/user-attachments/assets/e0301ff2-8144-4503-83d0-48589d95027d 从 MikroTik MCP 版本 0.14.0 开始， MikroTik MCP 将允许您管理车队结构中的多个 MikroTik 设备。以下视频简单展示了如何使用 MikroTik 设备清单让 LLM 与您的 MikroTik 设备进行对话。 https://github.com/user-attachments/assets/185b2c39-8f55-4f26-a74c-2ac459ad38f5 📚 完整文档 - 完整指南、API 参考和示例 🌐 更喜欢在线阅读？相同的文档也发布在 www.mikrotik-mcp.com (docs) 上——这是一种可选的、网络友好的方式，可以在查看存储库的同时探索该项目。 - 安装指南 - 获取斯塔
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agents, ai-assistant, ai-tools, llms, mcp
+
+---
+
 ## 🕔 2026-11-22 09:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
