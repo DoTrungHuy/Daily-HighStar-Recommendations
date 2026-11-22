@@ -1,3 +1,67 @@
+## 🕔 2026-11-22 09:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 272 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [fast-anything](https://github.com/EL4CTEO/fast-anything)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 608
+- **核心概述**: Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.
+- **大概是做什么的**: Don't rewrite it in Rust. Rewrite the 5% that's slow. Rewriting a whole app in Rust costs months, minute-long compiles and gigabytes of target/ . Most of the runtime sits in a few functions anyway. fast-anything finds those functions, has your coding agent port only them to Rust, proves the port gives the same results on real recorded calls, and swaps it in. One command, fully reversible. Ports are compiled with your Rust toolchain (rustup). command what it does scan -- profiles the app, ranks functions by time × how portable they are port [id] records up to 500 real calls, creates a one-function Rust crate + TASK.md verify release-builds the port and replays every recorded call enable / disable swaps the Rust in or out (one marked block, removed byte for byte) bench times the whole app, original vs Rust, interleaved runs report markdown + SVG card for your PR doctor checks Rust, your runtimes and your agents --agent takes claude , codex , or any command that reads a prompt on stdin. Without it, hand TASK.md to whatever you use. That port looked right but compared bytes instead of ch
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, claude-code-plugin, codex, developer-tools
+
+---
+
+### 🌟 [OpenGhost](https://github.com/ANDRETRIPOL/OpenGhost)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 302
+- **核心概述**: Open desktop AI agent for Windows, macOS and Linux, written from scratch: its own agent engine, its own browser tooling and its own drawing engine that shows what it explains.
+- **大概是做什么的**: Visualize, explore and learn in a new way, with OpenGhost. Windows version 1.5.7 - Rules for the agent, in Settings → Rules: the app itself checks every step of the agent and stops what you have forbidden, so the agent cannot get round a rule. Say in words what worries you and the app's model builds the rule; or build it from blocks; or paste a hook written for another agent, and adapt it if it does not fit. Rules can ask first, forbid, keep the agent working until a check passes, tell it something, notify you or run your own script; a project can carry its own, used once you trust them. - Live widgets in answers: weather by the hour, a timer that rings, a route, currency, units, a split bill, a mortgage, plans with prices and 20 more kinds you can work with. Every model and provider gets the same nudge to use them. - The agent handles the browser better: it sees calendar icons and buttons without labels, ties a button to its field only when it stands right beside it, and sites that answer with unusual codes (LinkedIn's 999) no longer break a page. - Economy gets an ECO button and a
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-assistant, anthropic, claude, deepseek, desktop-app
+
+---
+
+### 🌟 [s-cart](https://github.com/gp247net/s-cart)
+- **项目语言**: Blade
+- **星标数量**: ⭐ 737
+- **核心概述**: S-Cart: open-source Laravel e-commerce built on GP247. Multi-vendor, multi-store, MCP-ready
+- **大概是做什么的**: 🌐 Language: 🇻🇳 Tiếng Việt · 🇬🇧 English (current) · 🇯🇵 日本語 composer create-project gp247/s-cart my-shop Free, open-source e-commerce software built on GP247 and Laravel 🏠 Homepage · 🚀 Demo · 📚 Documentation · 🤖 AI agent skills · 💬 Facebook group S-Cart is free, open-source online-store software (MIT license) for store owners, businesses and developers. Once installed, you have a complete online shop (products, cart, orders, customers, content pages) plus an admin panel. All of S-Cart is free to use, modify and integrate into your own system; Pro plugins are optional add-ons for when a shop needs to grow, such as several stores or a marketplace with many sellers. S-Cart is built on four principles: Principle What you get 🎯 Solves the seller's real work SEO, backup & restore, role-based permissions and reports are built in from the first install, no plugin needed. Install and update with a few commands. 🌍 Runs in many environments From shared hosting without cron to VPS and Docker. 🔐 Secure One layer of permissions and activity logs shared by the admin panel, the API and
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: e-commerce, ecommerce, free-shopping-cart, free-website, gp247, laravel
+
+---
+
+### 🌟 [agentreach](https://github.com/bojieli/agentreach)
+- **项目语言**: Go
+- **星标数量**: ⭐ 227
+- **核心概述**: AgentReach (reach): Point your coding agent at any box you can SSH into. The server never gets your agent.
+- **大概是做什么的**: Point your coding agent at any box you can SSH into. The server never gets your agent. Think about the last time you SSHed somewhere to fix something. A build box, a client's staging VM, a container you spun up this morning and will throw away tonight. You'd get through it faster with an agent riding along. So you install one there. That's a 300 MB Node binary on a machine that isn't yours, plus an API key pasted in so the thing can actually do anything. Now your key lives on a box where other people have root, in a shell history you won't clear, in an env file you'll forget about by Friday. If that server gets popped next month, your key goes with it. Dev containers are the same story on repeat. New branch, new container, and each one wants its own copy of the agent. Baking it into the Dockerfile bloats an image that should have stayed small. Mounting it in from the host works right up until the morning it doesn't. What reach actually does The agent stays where it is. What moves is the work it hands off. An agent only touches a machine two ways — it runs shell commands, and it reads
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agents, claude-code, codex, coding-agent, golang
+
+---
+
+### 🌟 [rea-toon](https://github.com/JuneYaooo/rea-toon)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: AI 拆解学习短剧：为什么火、剧本怎么写、每一镜怎么拍 | Break down any short drama with AI: why it works, the script, every shot
+- **大概是做什么的**: Break down any short drama with AI: animated comic dramas, live-action and AI-generated. A tool for learning from short dramas: why one went viral, how the script is written, how every shot is filmed. Every breakdown is also written as VIDEO.md , an open format that agents read layer by layer. ⭐ Help more people find rea-toon. Star this repo! The pages of a 10-episode drama after the breakdown. Click for the full demo with sound (1 min). rea-toon writes the breakdown in the language you talk to your agent in. rea-toon is built for AI agents. In Claude Code, Codex or any agent that can run commands, say: The agent installs the CLI, learns the workflow (skills/rea-toon/SKILL.md) and runs it to the end. You need ffmpeg and Python 3.10+. Vision is required. The breakdown looks at every shot, so you need at least one of these: an agent that can see images (Claude Code and Codex both can), or a vision model with an OpenAI-compatible API configured for rea-toon (Gemini, Doubao, Qwen-VL…). By default the agent answers itself and no key is needed; for a long series (dozens or hundreds of epis
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, chinese-drama, claude-code, codex, drama-analysis, screenplay
+
+---
+
+### 🌟 [agy-fast](https://github.com/INK-Q/agy-fast)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 286
+- **核心概述**: Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.
+- **大概是做什么的**: Latency, Token-Quota & Tool-Call Accelerator Plugin for Google Antigravity English · 简体中文 · Quick Start · Benchmarks · MCP Tools · Analysis Report · Changelog agy-fast is a zero-dependency, policy-compliant local MCP plugin for Google Antigravity (CLI agy , Desktop 2.0, and IDE). It cuts agent wall-clock latency, billable token quota, and upload traffic by consolidating high-frequency searches, multi-language symbol outlines, atomic multi-file edits, and build/test checks into batched local calls—and injecting a sub-50 ms workspace snapshot once per session—without altering Antigravity's native UI, diff viewer, modified-files list, checkpoints, or safety checks. LLM Turns / 10 Actions Est. Billable Quota Tool-Return Upload Spills & Native UI Impact :---: :---: :---: :---: -33.7% -38.2% ≥150k ctx · -58.8% subagents -31.5% -36.5% ≥150k ctx · -54.0% subagents -39.7% -53.7% uncached fresh input 0 ≤8.8 KB inline cap · Native diff & UI untouched Requirements: Node.js = 20 (no npm install needed — pre-built, unminified zero-dependency ESM bundles are included in dist/ ). Optional: ripgrep (
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, ai-coding, antigravity, antigravity-cli, antigravity-ide, antigravity-plugins
+
+---
+
 ## 🕔 2026-11-21 23:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 297 个候选项目中筛选出 6 个未推荐过的新项目。
