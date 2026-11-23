@@ -1,3 +1,67 @@
+## 🕔 2026-11-23 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ZeroScript-Free](https://github.com/sebattfg/ZeroScript-Free)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 447
+- **核心概述**: ZeroScript Free: Turn ChatGPT, DeepSeek, Gemini, Kimi, GLM, Qwen, Arena or Meta AI into a Roblox Studio agent. Browser extension + local bridge. Read/edit scripts, run Luau, generate assets, all from chat. Robust agentic loop. No terminal needed.
+- **大概是做什么的**: ZeroScript - Free AI Agent for Roblox Studio ZeroScript is a free browser extension that turns ChatGPT, DeepSeek, Gemini, Kimi, GLM, Qwen, Arena or Meta AI into a Roblox Studio AI agent. Control Roblox Studio with AI directly from your browser - read/edit scripts, run Luau, generate assets, all from a normal AI chat. No API key, no terminal, no coding needed. 🌐 Website: zerodev.tools/zeroscript the free Lemonade.gg / Luamotion alternative for building Roblox games with AI. Eight AI providers are supported: DeepSeek (chat.deepseek.com, recommended), ChatGPT (chatgpt.com), Google Gemini (gemini.google.com), Kimi (kimi.ai, Moonshot AI), GLM (chat.z.ai, Z.ai), Qwen (chat.qwen.ai), Arena (arena.ai, a multi-model playground) and Meta AI (meta.ai). On ChatGPT, screenshots and image input are turned off on purpose: the free tier limits files and images on a separate quota from messages, so vision would only work part of the day. Gemini and Kimi can be unstable: Gemini tends to stop using the Roblox tools in long sessions, and Kimi sometimes uses its own native tools instead of the Roblox co
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, browser-extension, deepseek, luau, mcp, roblox
+
+---
+
+### 🌟 [mobile-agent-testers](https://github.com/pierridotite/mobile-agent-testers)
+- **项目语言**: Python
+- **星标数量**: ⭐ 534
+- **核心概述**: 20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs
+- **大概是做什么的**: mobile-agent-testers 20 AI testers on 20 different phones, in parallel, on GitHub's free runners. Examples · Compare · FAQ · Personas · Releases English · 简体中文 · 日本語 · Español · Português No test scripts to write. Each tester is a Claude Code agent with its own iOS Simulator or Android emulator on GitHub Actions. It plays a persona (iPhone SE in Swedish at the largest text size, Pixel 7 at 200%, iPad in German, Arabic right to left...), uses your app like a new user (or runs through the feature you point it at) and writes a bug report with screenshots. Flutter, React Native, Expo, native Kotlin and Swift, Kotlin Multiplatform, Capacitor and .NET MAUI. GitHub's runners are free for public repos. You only pay for the model, with your Claude subscription or API key: about $0.15 to $0.55 per phone in these runs. Real screen recordings of the LocalSend run, idle time cut. Full video (MP4) · The run, device by device One use per run, set with the inputs of Test your own app. - Explore like new users (the default). Each persona tries to reach its goal and reports what gets in the way, with
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility-testing, ai-agents, ai-testing, android, android-emulator, claude
+
+---
+
+### 🌟 [iphone-cli](https://github.com/HyunSeob/iphone-cli)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 119
+- **核心概述**: Let AI agents read and operate any app on a real iPhone through the accessibility tree. No XCUITest, WebDriverAgent or Xcode signing.
+- **大概是做什么的**: Let AI agents read and operate any app on a real iPhone — straight from your terminal. No Xcode. No WebDriverAgent. No app installed on the phone. 100% Rust. - Direct Apple developer services — connects over USB or Wi-Fi to the same accessibility and HID services Xcode uses, with no signing or test runner - Accessibility tree, not screenshots — reads structured UI elements cleanly, and runs multi-step flows in one call with a built-in QuickJS engine ( iph script ) - Agent-ready — CLI + MCP server ( iph mcp ) + safety-first outcomes ( done / not sent / unknown ) - Single native binary (macOS & Windows) — no Python, Node.js, or Appium runtime; install one binary and target a real iPhone on iOS 27+ Website · llms.txt · crates.io · 한국어 Built on the principle of Poki (a new implementation from its documented behaviour and device experiments, with no Poki code). Device communication relies on idevice (MIT). Host macOS, Windows 10/11 (x64) Device A real iPhone, iOS 27 or later (verified on one iPhone 15 Pro Max with iOS 27.0.1 only, Korean interface). Touch and text input go through the pho
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, automation, cli, ios, iphone, mcp
+
+---
+
+### 🌟 [agentopology](https://github.com/agentopology/agentopology)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 108
+- **核心概述**: Harness as code — the Terraform for AI agents. Define your agent team AND its memory once, deploy to Claude Code, OpenClaw, Cursor, Codex, Gemini, Copilot, Kiro. Declarative .at language + agent-maintained, Obsidian-portable company brains + interactive visualizer.
+- **大概是做什么的**: Harness as code. The Terraform for AI agents. Define your agent team — and its memory — once. Run it now, or deploy it anywhere. Claude Code · experimental: Claude Workflow · Codex · Cursor New in 0.4: agentopology plan — enact a topology with your coding agent's own sub-agents. No files generated. Nothing to maintain. Ships with a Claude Code skill — just type /agentopology and describe your team. Building one AI agent is easy. Building a team of agents that actually works together is brutal. You want a marketing team? A dev pipeline? A support squad? You spend hours wiring up AGENT.md files, soul.md configs, MCP servers, hooks, and scripts. You get it working in Claude Code. Then you need the same team in OpenClaw — and you start from scratch. Different config format. Different directory structure. Different conventions. Same agents, same logic, zero portability. OpenClaw alone needs soul.md, skill files, channel configs, gateway setup, and workspace definitions — for each agent. Multiply that by 5 agents and you're maintaining 20+ files that you can't visualize, validate, or hand
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, cursor, declarative, developer-tools, knowledge-graph
+
+---
+
+### 🌟 [korean-tax-calc-mcp](https://github.com/UpstageAI/korean-tax-calc-mcp)
+- **项目语言**: Python
+- **星标数量**: ⭐ 100
+- **核心概述**: Korean tax calculator MCP server: corporate, income and VAT tax, non-resident withholding, foreign worker flat tax, expat cost recharge, foreign subsidiary dividends, branch and exit tax, transfer pricing. 139 tools with statute citations. | 한국 세금 계산·세무조정 MCP
+- **大概是做什么的**: korean-tax-calc-mcp — Korea Tax Calculator MCP (한국 세금 계산) 영상: Claude 앱 + 이 서버와 짝 서버 korean-tax-mcp. 결산 자료 폴더를 주고 한 줄씩 세 번 요청하면 법인세 세무조정, 부가가치세 신고서, 원천징수이행상황신고서가 법정서식 엑셀로 나옵니다(2026-11-13, 회사·인물·금액은 가상 예시). Korean tax calculations for AI agents — code, not guesses. 세금 계산은 AI가 자주 틀립니다. 이 서버는 법인세·소득세·부가가치세·원천세·국제조세·상속증여세 계산과 세무조정을 코드로 하고, 결과마다 근거 조문을 붙입니다. 도구 142개, 세율·한도 연도표 2016 2026, 연도표가 없는 해는 추정하지 않고 멈춥니다. 외국 기업·주재원·한국 자회사용 계산(외국인 근로자 단일세율, 비거주자 원천징수, 외국법인 지점세, 국외전출세 등)도 있고, 영어로 물어도 됩니다 — 도구 설명 첫 줄이 영어이고 find tool 은 영어 검색어도 받습니다. 결과는 법정서식 검토용 엑셀로 내보낼 수 있습니다. 세무 자문이 아닙니다. 결과는 근거·계산 과정을 보여 주는 참고 자료이며, 신고·불복 판단은 세무 전문가와 확인하세요. 생성형 AI는 PDF 도구 3개와 국내 비교기업 후보 도구의 매출 행 분류(선택)에만 쓰며 결과에 표시합니다 — 면책·AI 고지 전문 키 없이 동작합니다. 두 번째 줄은 조문·해석을 찾는 짝 서버 korean-tax-mcp이고, 계산만 쓰려면 첫 줄만 넣어도 됩니다. 끝수 처리 — 과세표준은 1원 미만을, 세액 계산값(산출세액·공제·감면·가산세)은 원 미만만 버려 원 단위로 냅니다(원 미만 처리 규정이 없는 곳은 최종 금액에서만 버림). 국고·지방자치단체에 실제로 내거나 돌려받는 금액은 10원 미만을 버려 결과의 납부할 금액(10원 미만 버림) (환급뿐이면 환급받을 금액(10원 미만 버림) )에 따로 보여 줍니다 — 국고금 관리법 제47조, 지방세기본법 제59조. 원천징수세액은 한 소득자·한 번 지급분 합계에서 버립니다( withholding tax · nonresident withholding 은 그 값을 바로 10원 단위로
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude, corporate-tax, expat, international-tax, korea
+
+---
+
+### 🌟 [cursor-commands](https://github.com/hamzafer/cursor-commands)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 674
+- **核心概述**: Cursor Custom Slash Commands
+- **大概是做什么的**: ⭐ Featured by Cursor A curated collection of Cursor slash-command prompts that give your team reusable, version-controlled AI workflows directly inside the Cursor IDE. 🔗 Also check out Cursor Hooks - that runs after every file edit What are Cursor Commands? Cursor Commands are reusable AI prompts saved as Markdown files in .cursor/commands/ . When you type / in Cursor's chat input, the IDE lists every command from your project and your global library so you can insert the prompt instantly. They act like AI-driven shortcuts that automate repetitive tasks, reinforce team standards, and keep feedback consistent. - 🚀 Quick access : Type / to surface every command without leaving your flow - 🔄 Reusable : Standardize prompts for common tasks across the whole team - 👥 Shareable : Store commands in git so they ship with your repository - 🎯 Focused : Each command targets a specific workflow with clear structure - 📝 Customizable : Edit or extend the Markdown files to match your processes Commands can live in two places: - Project commands: Store Markdown files in .cursor/commands inside
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai, cursor, cursor-ai, cursor-commands
+
+---
+
 ## 🕔 2026-11-22 19:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 154 个候选项目中筛选出 6 个未推荐过的新项目。
