@@ -1,3 +1,67 @@
+## 🕔 2026-11-23 20:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 280 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [MROffice](https://github.com/XinaTian/MROffice)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,740
+- **核心概述**: MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.
+- **大概是做什么的**: 🌐 English · English (UK) · 简体中文 · 繁體中文 · 日本語 · 한국어 · Deutsch · Français · Español · Español (Latinoamérica) · Português (Brasil) · Italiano · Nederlands · Svenska · Dansk · Norsk · Suomi · Bahasa Indonesia · ไทย · Tiếng Việt The open-source editors of MR Office, the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser, and an AI that edits real Word, Excel and PowerPoint files with you. ▶ Try online · ⬇ Download · 🌐 mroffice.ai 🧑‍💻 Developers · 🧩 Embed · 🤖 MCP for AI apps · 📦 npm SDK · 🔑 Sign in with MR Office 🔊 Watch the 50-second tour with sound MR Office is an AI office suite for real files: Word, Excel, PowerPoint and PDF, on the web and in a free desktop app, with an AI beside every document and live co-editing. This repository publishes the source code of its editors: the same editors MR Office runs, which you can build, run and embed on your own. AI that works inside your files In MR Office the AI works on the document itself, not on text pasted into a chat. It reads the file, makes the change in the file's o
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, claude-code, codex, copilot, cursor
+
+---
+
+### 🌟 [agent-security](https://github.com/solongate/agent-security)
+- **项目语言**: Go
+- **星标数量**: ⭐ 690
+- **核心概述**: Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, and audit actions on-device.
+- **大概是做什么的**: SolonGate Agent Security is SolonGate's open source, local first security gateway for AI coding agents. It checks tool calls against your policies before they run, with secret detection, rate limits and a local audit trail. This repository is the Agent Security gateway. The rest of the portfolio is at Everything stays on the machine. The policy is a file, the audit trail is a file, and the guard makes no network calls. No account, no telemetry. Requires git to clone this repo. Go 1.26+ is needed too; install.sh Then open a new terminal. Hooks load when a session starts, so an already open one is not guarded yet. What it looks like when it fires A real Claude Code session: the agent reaches for a .env , the guard refuses it, and the agent says so rather than quietly working around it. Layer What it does Policy rules Allow or deny by path, command, filename or URL, scoped to READ, WRITE, EXECUTE or NETWORK. DLP 70+ built in secret patterns plus your own, in four modes: off , detect , redact , block . Egress In block mode, refuses an upload whose file holds a secret, which pattern match
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-runtime-security, agent-security, ai-agent-security, ai-agents, ai-security-tool, ai-security-tools
+
+---
+
+### 🌟 [open-diagram](https://github.com/lukendeasy/open-diagram)
+- **项目语言**: Python
+- **星标数量**: ⭐ 334
+- **核心概述**: Python building blocks for dense architecture diagrams that check their own layout
+- **大概是做什么的**: Python building blocks for dense architecture diagrams that check their own layout. Website and gallery: open-diagram.dev · How it compares with Mermaid, D2, draw.io, Excalidraw and archify: docs/comparison.md You describe panels, tiles, lines and groups in a short Python script. open-diagram measures every label from the font, places the blocks, and checks the result. If two panels collide or a line runs through a panel, the build says so by name. The output is an SVG (a picture made of shapes, sharp at any size) and a PNG. The same blocks draw software systems, release pipelines, layered stacks, data models and business processes. It is built to be written by an AI agent such as Claude, Codex or Cursor, as well as by people. The checks catch layout mistakes before anyone looks at the picture, so a first attempt usually comes out clean. For the newest unreleased code: pip install git+https://github.com/lukendeasy/open-diagram . open-diagram needs Python 3.9 or later and fontTools, which pip installs for you. To make PNG files it also needs Google Chrome, Chromium or Microsoft Edge.
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, architecture-diagrams, claude, diagrams, diagrams-as-code, python
+
+---
+
+### 🌟 [safe-anything](https://github.com/erkamyaman/safe-anything)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 452
+- **核心概述**: Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.
+- **大概是做什么的**: Find the holes before someone else does. One command finds XSS, SQL injection and other vulnerabilities in your code, leaked secrets, risky mobile and cloud config, vulnerable dependencies, and the AI agent setup that writes it all. Every finding comes with the line, the reason and the fix. Install · Releases · Claude Code plugin · GitHub Action · All 74 rules · Agent setups Made in Türkiye 🇹🇷 by erKam Yaman , who also made rust-anything · ❤️ Sponsor me · Sponsored by CodeRabbit A real run on OWASP Juice Shop and on an agent setup with the usual mistakes (Apple M4). What it finds on other repositories . SQL and command injection, XSS, eval , SSRF, path traversal, unsafe deserialization, weak crypto. Nine languages and SQL. Cloud and AI keys, tokens, private keys, passwords, and .env mistakes: committed env files, real values in .env.example , secrets behind NEXT PUBLIC or VITE . Always redacted in the output. Android and iOS settings, Docker, GitHub Actions, Kubernetes, Terraform, nginx, and every locked dependency against OSV.dev. MCP servers, Claude Code, Codex, Cursor, Gemini an
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, claude-code-plugin, cli, codex, cursor
+
+---
+
+### 🌟 [sketchcraft](https://github.com/jasonsutter87/sketchcraft)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 138
+- **核心概述**: Draw an outline. Pull it up. Open-source push/pull 3D modeler in Rust: desktop app, CLI and MCP server.
+- **大概是做什么的**: A free 3D modeler for houses, rooms, furniture and anything with straight walls. Draw an outline, pull it up into a shape, and keep going. If you've used SketchUp, you already know how: same tools, same shortcuts, and it opens your SketchUp files. It's free and open source, and runs on Mac, Windows and Linux. Get the latest version Your computer Download Mac (Apple silicon or Intel) SketchCraft … universal.dmg , then drag SketchCraft to Applications Windows 10 or 11 SketchCraft … x64-setup.exe , or the portable ZIP if you'd rather not install Linux (x64 or arm64) .AppImage (any distro), .deb or .rpm : amd64 / x86 64 for most PCs, aarch64 / arm64 for ARM machines like a Raspberry Pi 5 The first time you open it, your computer may ask whether you trust it, because SketchCraft isn't signed by Apple or Microsoft yet: - Mac: System Settings › Privacy & Security › Open Anyway . - Windows: More info › Run anyway . After that it updates itself : when a new version is out, it offers to update when you open it. Model buildings and things. Push/pull, lines that cut faces, arcs, circles, offsets
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: 3d-modeling, architecture, cad, mcp, rust, tauri
+
+---
+
+### 🌟 [mutinybim](https://github.com/permitzip/mutinybim)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 117
+- **核心概述**: Open-source building model engine. One shared kernel, trade add-ons, and a script-first tool server so people and AI agents can edit the same model together.
+- **大概是做什么的**: MutinyBIM is a browser-based building information modeling (BIM) engine. It is built for many people and many AI agents editing the same model at the same time. It is meant for every trade on a building project: architecture, structural, civil, mechanical, electrical, plumbing, fire protection, the general contractor, and the owner or developer who tracks cost. The core idea is one shared kernel with trade add-ons on top. The kernel knows elements, types, parameters, typed units, connected networks, spaces, phases, sheets and commits. It does not know what a duct, a panel or a beam is. Each trade is an add-on that plugs into versioned extension points. The add-ons in this repository are built only through that contract, and tests hold them to MutinyBIM is open source under the Apache License 2.0. PermitZIP maintains it and runs it in production in its own engineering work. Start here: packages/bim-script/examples has four short scripts that each build something whole: a small office, a rooftop unit with its ducts, a plumbing riser and an electrical room. Run one with npm run example
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: aec, architecture, bim, engineering, ifc, mcp
+
+---
+
 ## 🕔 2026-11-23 05:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 246 个候选项目中筛选出 6 个未推荐过的新项目。
