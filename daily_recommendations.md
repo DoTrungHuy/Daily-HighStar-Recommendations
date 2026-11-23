@@ -1,3 +1,67 @@
+## 🕔 2026-11-23 05:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 246 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [yu-ai-agent](https://github.com/liyupi/yu-ai-agent)
+- **项目语言**: Java
+- **星标数量**: ⭐ 2,787
+- **核心概述**: 基于 Spring Boot 3、Java 21 与 Spring AI 打造的开源 AI 智能体实战项目，由程序员鱼皮编程导航出品，包含 AI 恋爱大师应用与基于 ReAct 模式的自主规划超级智能体 YuManus（OpenManus Java 实现）。项目完整覆盖 LLM 大模型接入、Ollama 本地部署、Prompt 工程优化、ChatMemory 对话记忆、结构化输出、RAG 知识库与 PgVector 向量检索、Tool Calling 工具调用、MCP 模型上下文协议服务开发、SSE 流式推送与 Serverless 部��上线，配套 Vue 3 前端与独立图片搜索 MCP 服务，助你系统掌握企业级 Java AI Agent 开发。
+- **大概是做什么的**: 🤖 AI 超级智能体项目（yu-ai-agent） 基于 Spring Boot 3、Java 21 与 Spring AI 构建的开源企业级 AI 应用与自主规划智能体实战项目，由 程序员鱼皮 与编程导航团队原创出品，包含「AI 恋爱大师」情感问答应用以及基于 ReAct 模式的自主规划超级智能体 YuManus （OpenManus Java 架构实现）。 项目介绍 · 核心功能 · 技术架构 · 仓库结构 · 学习大纲 · 准备工作与生态资源 · 常见问题 · 加入系统学习 本仓库为教学实战项目，在 编程导航 AI 超级智能体课程主页 提供完整视频教程、配套文字笔记、简历写法参考、面试题解与 1 对 1 答疑服务，帮助你真正把企业级 AI 开发技术学透并转化为求职竞争力。欢迎直接通过 编程导航会员通道 加入系统学习，也可以先前往 B 站观看 项目整体介绍视频 与 第一期免费公开课。 随着大模型技术深入各行各业，能够独立设计并落地 AI 应用与智能体的 Java 工程师正成为企业争抢的核心人才。 yu-ai-agent 是一套以企业级 AI 开发实战为核心的开源项目，通过从零开发「AI 恋爱大师应用」和具备自主推理规划能力的「超级智能体 YuManus」，带你系统掌握新时代程序员必知必会的 AI 核心概念、主流框架原理、RAG 检索调优、工具调用以及 MCP 服务开发能力。 在项目实践过程中，你可以直观感受到两类典型 AI 应用形态的完整落地方式。第一类是以垂直业��场景为核心的「AI 恋爱大师应用」，它依托大模型为用户的日常情感难题提供贴心建议，并完整支持多轮对话上下文记忆、基于自定义知识库的 RAG 检索问答，以及通过工具调用和 MCP 协议连接外部服务，例如结合地图能力查询周边地点并定制约会方案。 第二类则是具备更强通用性与自主决策能力的 YuManus 超级智能体。该模块参考开源项目 OpenManus 的设计思想并基于 Java 与 ReAct 模式自主实现，能够根据用户的复杂目标拆解步骤，自动组合联网搜索、网页抓取、资源下载和 PDF 文档生成等多种工具，端到端输出一份图文并茂的完整约会攻略。 当你真正吃透这套项目的架构设计与编码套路之后，收获的绝不仅仅是一个恋爱助手案例，而是能够举一反三，灵活构建客服问答机器人、文档分析助手、自动化研报智能体等各类企业级 AI 产品。 相比传统以增删改查为主的练手系统，本项目选题紧贴企业真实 AI 落地需求，把 Java 后端工程师转战 AI 应用开发所需的关键技术串联在一条完整主线里。课程始终围绕通用项目开发
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, ai-agent, fullstack, java, java21, langchain4j
+
+---
+
+### 🌟 [ViralForge](https://github.com/fendouai/ViralForge)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 547
+- **核心概述**: 特工原生病毒视频工作室：解构脚本、复制结构、导出可编辑项目和成本变体。网站：https://wearai.net/ai-video-generator
+- **大概是做什么的**: 一键复制病毒短视频。解构脚本。保持结构。运送 10 种变体。网站：WearAI AI 视频生成器 ViralForge 是一家代理原生病毒短视频工作室。粘贴链接或本地文件，即可获得病毒 DNA 报告，该报告可解构视频脚本：挂钩、逐个镜头结构、单词锚点、节拍网格、字幕风格、情感曲线和转换逻辑。替换产品和脚本，ViralForge 一键将获胜结构重建为可编辑的 VFML 项目。然后生成 10 个已计算成本的变体以进行 A/B 测试。不是另一款黑匣子 MP4。关键词：病毒式视频复制·视频脚本解构·一键视频混音·AI代理·MCP服务器·VFML·FFmpeg·UGC广告·内容再利用默认文档语言为英语。中文文档位于 README.zh-CN.md 中。 v0.1 工作室附带中文演示装置；文档和代理界​​面均以英语优先。真人参考 → 复制品 保留镜头结构��同时更换人物、产品和场景。两个剪辑都是
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, ai-agents, short-video, short-video-generator, video-editing, video-script-deconstruction
+
+---
+
+### 🌟 [tinybrain](https://github.com/logitcai/tinybrain)
+- **项目语言**: Python
+- **星标数量**: ⭐ 428
+- **核心概述**: A Chinese-first small language model built from scratch: open 60B-token dataset, tokenizer, mHC + Engram + MoE model, pretraining through RL, all in PyTorch. 从零做中文小模型，数据和代码全部开源
+- **大概是做什么的**: 60B token 开源中文数据 · 自己训的分词器 · 预训练到强化学习的全流程 · 专门为古文和诗词练过 English · 视频介绍（B 站） · 数据集（ModelScope） tinybrain 是一个从零写起的中文小模型项目。和 MiniMind、nanochat 一样，所有代码都是自己写的、能一行行读懂；不一样的是： - 数据也从零做 ：从 26 个公开来源下载、清洗、跨来源去重、按配比和质量分成四档（1B / 5B / 20B / 60B token），这套数据叫 tinybrain dataset ，做数据的每一步代码都在 dataset/ 里。 - 结构用新东西 ：多流残差（mHC）、Engram 查表记忆、3:1 的滑动窗口注意力、可选的混合专家（MoE），优化器是 Muon。 - 后训练做全套 ：SFT → 领域专家 → 多老师在线蒸馏（MOPD）→ 强化学习（RLVR、agent RL、RLAIF），10 种题型、各自的判分器。 - 以中文为主 ：分词器、数据配比、评分细则都按中文定，另外专门放了古文、诗词、鲁迅全集。 2026-11-19 发布了 small 和 medium 的第一版对话权重（RC1，研究预览）。两个都走完了整条链：预训练（base 档）→ 退火 → SFT → 专家蒸馏 → 强化学习，最后一段是用 Qwen3.8-27B 当评审的 RLAIF。 模型 参数量 权重（FP32 safetensors） 评审判为可用的回答 Small Chat RC1 1.67 亿 639 MiB 13/180 Medium Chat RC1 4.99 亿 1.86 GiB 29/180 「可用」是这样算的：90 道有参考答案的开发题，每题采样两次（温度 1.0，比平时聊���随机得多），Qwen3.8-27B-FP8 对照参考答案逐条判。独立的终评还没做完。 实际用起来是什么样 ：下面是 medium 在 Mac 上的原话（温度 0.8， tinybrain chat --demo ），好的坏的都放。 用 Python 写一个判断质数的函数。 def is prime(n) ： n / ，下一个阶段自动从上一个阶段的存档出发；parquet 第一次用时自动切词。 - 换更大的数据： --data data/pretrain mini.parquet ；换尺寸： --preset medium （写到 out/medium/ ）。 - 显存不够： --batch-size 8 --grad-accum 2 ，等效的批大小不变；中断了加 -
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: chinese, dataset, from-scratch, language-model, llm, mixture-of-experts
+
+---
+
+### 🌟 [deepseek-bot](https://github.com/rlaope/deepseek-bot)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 232
+- **核心概述**: Deepseek-harness 的代理内存和消息网关
+- **大概是做什么的**: DeepSeek Harness 的代理内存和网关。安装一次，然后只需输入 dsh 。 deepseek-bot 是 DeepSeek Harness 的插件。一个永远在线的代理，可以记住终端、Slack、Discord 和 Telegram 中的对话。它的命令在沙箱中运行，任何破坏性的操作都需要等待对话中的同意。信使、模型提供商和其他选项 → - 您终端中的代理。 dsh 是一个全屏终端：答案流入，工具调用显示其差异。它编写 docx、xlsx 和 pptx，使用无头浏览器读取链接、查看图像并使用 MCP 工具。 - 幸存的记忆。每个对话都是持久会话，即使重新启动也能继续存在。每个回合都会包含一个角色，它记录了有关您和工作的内容（ USER.md 、 MEMORY.md 、 memory/ ）以及过去对话的回忆索引。召回保持在自己的渠道内；未找到是一个答案。 - 人们已经在谈论的地方。 Slack、Discord 和 Telegram：提及它，它会在线程中回答，👀 然后进度，然后结束标记。 stop 结束一轮，用法显示令牌，保持安静，用 🫡 将其静音
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cordis, deepseek, deepseek-harness, discord-bot, dsh
+
+---
+
+### 🌟 [pokemon-chat](https://github.com/skygazer42/pokemon-chat)
+- **项目语言**: Python
+- **星标数量**: ⭐ 409
+- **核心概述**: 基于 LightRAG、LangGraph、MCP、RagFlow、微调LLMs宝可梦主题的智能聊天助手
+- **大概是做什么的**: 「可萌」 基于知识库与知识图谱的宝可梦聊天助手 [2026/02/01] v0.4.0 版本发布 - 多智能体协同：Supervisor + Workers (RAG/Web/Graph/Stats/MCP) 并行执行 - 规则优先路由，本地宝可梦数据支持确定性回答（无需 LLM 调用） - 新增 DeepDoc 文档解析器，支持 PDF/Word 等复杂格式 - 知识库工作台：批量导入、检索测试、分块管理 - 全新 Rotom-Dex OS 主题，支持暗黑模式 - 集成 CRAG、Self-RAG、HyDE 等高级 RAG 技术 - 并行子查询检索 + 自适应 Top-K - 统一 LLM 工厂函数，支持多 Provider 切换 - 修复 Agent 模式多个崩溃问题（tool calls 检查、闭包绑定、竞态条件） - 修复知识库搜索参数未生效、L2 距离显示错误 - 修复 Neo4j 无密码模式连接失败 - 移除旧版 GraphRAG，替换为 LightRAG [2025/11/05] v0.3.0 版本发布 - 全面适配 LangChain/LangGraph v1 版本的特性，使用 create agent 创建智能体入口 - 文档解析升级，适配 mineru-2.6 以及 mineru-api - 更多智能体开发套件：中间件、子智能体，更简洁，更易上手 宝可梦（Pokémon）作为全球最具影响力的 IP 之一，拥有庞大的世界观设定与海量角色数据。在游戏、动画、卡牌、电影等多领域的多年积累下，其知识体系庞杂且高度结构化，非常适合应用于知识图谱建模与智能问答场景。 随着大语言模型（LLM）与知识增强技术的发展，将宝可梦宇宙构建为一个 多模态、结构化、可交互的 AI 系统 成为可能。本项目以 百度贴吧 与维基百科等数据源为基础，构建出覆盖宝可梦角色、属性、技能、地区、演化路径等元素的知识图谱，并结合大模型能力，打造一个 专属宝可梦世界的智能对话助手 ——「可萌」。 在此基础上，我们融合了 LangGraph 推理流程编排 、 LightRAG 检索增强技术 ，以及 知识图谱可视化探索能力 ，使用户不仅可以通过自然语言提问获得精确答案，还能以图谱形式直观探索宝可梦世界。同时支持基于地理位置的地图定位功能，将宝可梦世界与真实世界坐标一一映射，实现 宝可梦地点知识的空间可视化 :earth asia: 。 ​ 本项目致力于打造一个可迁移、可扩展、面向爱好者的 专域智能助手模板系统 ，你可以轻松将其迁移至其他角色中打造专域的智能助手，仅需更换知识源与图谱结构，即
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, graphrag, langraph, lightrag, llms, mcp
+
+---
+
+### 🌟 [yu-ai-code-mother](https://github.com/liyupi/yu-ai-code-mother)
+- **项目语言**: Java
+- **星标数量**: ⭐ 1,991
+- **核心概述**: 基于 Spring Boot 3、LangChain4j、LangGraph4j 与 Vue 3 构建的开源企业级 AI 零代码应用生成平台（AI No-Code App Generator），由程序员鱼皮编程导航出品。用户输入自然语言需求即可由 AI 智能体流式生成完整项目代码，支持可视化点选编辑、实时预览、Selenium 自动封面截图、一键云端部署分享与源码下载。架构涵盖 Spring Cloud Alibaba 与 Dubbo 微服务、AI 智能路由、Tool Calling、SSE 响应式推送、MySQL、Redis 与 Caffeine 多级缓存、COS 对象存储、Nginx 反向代理以及 Prometheus 和 Grafana 可观测性监控。
+- **大概是做什么的**: 🚀 AI 零代码应用生成平台（yu-ai-code-mother） 基于 Spring Boot 3、LangChain4j、LangGraph4j 与 Vue 3 打造的开源企业级 AI 零代码应用生成平台，由 程序员鱼皮 与编程导航团队原创出品，对标大厂 AI 代码生成产品，支持自然语言流式生成前后端代码、可视化点选编辑、实时预览、自动截取封面图以及一键部署分享。 项目介绍 · 四大核心能力 · 项目优势与技术深度 · 系统架构与仓库结构 · 生态学习资源 · 常见问题 · 加入系统学习 本仓库为教学实战项目，在 编程导航 AI 零代码应用生成平台课程主页 提供完整视频教程、配套文字笔记、简历写法参考、面试题解与 1 对 1 答疑服务，帮助你打通 AI 智能体开发与大厂微服务架构实战。你可以直接通过 编程导航会员通道 系统跟学，也可以先观看 B 站上的 项目整体介绍与第一期免费公开课。 yu-ai-code-mother 是一套将「企业级 AI 应用开发」与「大厂级后端架构设计」深度融合的全栈微服务实战项目。项目以 Spring Boot 3、LangChain4j、LangGraph4j 和 Vue 3 为技术底座，从零构建出一套完整可落地的 AI 零代码应用生成平台。用户输入一句自然语言需求，系统即可通过智能路由、工具调用与多节点工作流自动生成可直接运行和部署的网站应用，帮助你全面掌握新时代极具竞争力的 AI 工程能力。 如今各大互联网厂商都在加速布局 AI 编程与应���生成赛道，无论是网页端的 AI 应用生成平台，还是客户端 IDE 与智能编程插件，都已成为行业核心风口。与此同时，企业对既懂传统高可用后端架构、又能落地 AI 智能体与工作流的复合型工程师需求激增。 这类产品的背后远不止调用一次大模型接口那样简单，它既考验开发者对 LangChain4j、LangGraph4j、Tool Calling 与 SSE 流式响应的掌控，也需要扎实的微服务拆分、多级缓存、设计模式、浏览器自动化与监控体系设计能力，是一套含金量极高的进阶练手与求职项目。 整个平台围绕「生成、编辑、部署、管理」四个关键环节打造了完整的产品闭环，让普通用户与开发者都能高效产出线上应用。 当用户输入自然语言需求后，平台会由 AI 智能路由自动分析任务复杂度并选择最合适的生成模式，随后结合 Tool Calling 工具调用分步骤创建和修改项目文件。整个执行过程通过 SSE 流式实时回传到前端界面，让用户清晰看到 AI 的思考进度与代码构建过程。 代码生成完成后，用户无需切换外部工具即可
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, code-generation, deepseek, dubbo, fullstack
+
+---
+
 ## 🕔 2026-11-23 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 285 个候选项目中筛选出 6 个未推荐过的新项目。
