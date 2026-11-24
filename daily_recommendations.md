@@ -1,3 +1,67 @@
+## 🕔 2026-11-24 16:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [ste80-humanizer](https://github.com/Dodaios/ste80-humanizer)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,118
+- **核心概述**: STE80 Humanizer：消除 AI 讲述并重写文本 80% 的代理技能，达到 ASD-STE100（简化技术英语），Andrej Karpathy 分享的方法。
+- **大概是做什么的**: 由 Dodaios 背后的团队构建，Dodaios 是一个开源助手，可以为您运行编码代理。 STE80 Humanizer 使人工智能编写的文本读起来就像一个细心的人写的一样，而不改变它所说的内容。它结合了两种方法： 1. 人性化方法。删除维基百科 AI 写作标志中的 26 个故事，位于 Blader/Humanizer 目录中。 2.Karpathy的STE80方法。将句子重建为“80% of the way to ASD-STE100”，即飞机维修手册的受控英语。好问题！ Kubernetes 活性探针是一种强大的机制，使 kubelet 能够确定容器是否健康 - 这不仅仅是健康检查，它是您的第一道防线。当探测失败时，kubelet 将自动重新启动容器，确保您的应用程序保持可用。但是，需要注意的是，错误配置的探测器可能会导致级联重新启动，因此应仔细调整initialDelaySeconds 和failureThreshold 等参数。做好了这一点，您的集群就会自我修复。活性探针告诉 kubelet
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-writing, asd-ste100, claude-code, claude-skills, codex
+
+---
+
+### 🌟 [wanman](https://github.com/chekusu/wanman)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 725
+- **核心概述**: wanman 是一个开源代理矩阵运行时，其灵感来自于日本的单人火车。它让人类用户重新扮演观察者角色，而本地代理运行时则协调自主多代理工作流程、任务执行和工件。
+- **大概是做什么的**: English 中文 日本语 代理矩阵框架 — 运行在您的计算机上协作的 Claude Code 或 Codex 代理的受监督网络。 wanman 是一个开源的本地模式代理矩阵框架。在您的计算机上运行 Claude Code 或 Codex 代理的受监督网络，并通过 JSON-RPC Supervisor 进行协调。 “wanman”这个名字来自日语“ワンマン电车”/“单人列车”：由一名司机驾驶、没有售票员的列车。 wanman 的设计目标在精神上是相似的：人类用户退回到观察者角色，并从各个角度观看代理矩阵自动运行。 wanman.ai 提供 wanman 的全自动 24/7 沙盒版本，免费运行在 Sandbank Cloud 的沙盒云上。 - 通过具有引导/后续优先级的异步消息总线协调多个代理（CEO、开发人员、开发运营人员、营销、反馈等）。 - 将每个代理作为真正的 Claude Code 或 Codex CLI 子进程运行 — 您可以使用自己的 CLI 身份验证，wanman 协调生成、提示和生命周期。 - 隔离每个代理工作树和每个代理 $HOME 中的每个代理，因此代理永远不会改变您的脏检查
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, claude-code, codex, llm
+
+---
+
+### 🌟 [kurocat](https://github.com/qianyiai/kurocat)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 590
+- **核心概述**: KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）
+- **大概是做什么的**: 🐈‍⬛ KuroCat — Open-Source Desktop Typing Cat Pet · 桌面打字小黑猫伴侣 🇨🇳 简体中文     🇺🇸 English     🌐 官方网站与网页端在线试玩 / 国内高速下载 ： https://qianyi.one/kurocat/ 🇺🇸 KuroCat is a lightweight, transparent, always-on-top open-source desktop typing cat companion (Bongo Cat alternative) for Windows, macOS, Linux & Android — built with Tauri v2 + Rust , featuring 6 hand-crafted cats + BigFish whale-girl, native OBS transparent Browser Source , password privacy guard, and a built-in MCP server for AI cat creation. (Read in English →) 轻量级 Windows（Win11/10 & Win7 SP1）/ macOS（10.15+ Apple Silicon & Intel）/ Linux（银河麒麟 KylinOS / Ubuntu / UOS） 透明置顶桌面打字猫咪伴侣（开箱自带 6 款手绘猫咪皮肤 + 🐳 大肥鱼（鲸鱼娘） ：经典小黑猫、暖奶茶布偶猫、大橘猫、三花猫、奶牛猫、暹罗猫、大肥鱼，支持 输密码自动闭眼/捂眼防偷窥 ，并原生内置 MCP 协议服务端 ，支持用 AI 一句话定制或新增更多你自己的猫咪！），基于 Tauri v2（Rust 全局原生钩子 + 内置 MCP 引擎 + HTML5 Canvas 2D） 打造。单文件轻量低耗，零外部运行时依赖。 🎬 在线试玩预览 & 鲸鱼娘 14s 演示视频 🎮 点此进入官网实时在线试玩（直接敲键盘 & 摸猫头）→ 内置 6 款猫咪 + 🐳 大肥鱼 · 65%/108 键 · 正反双视角 · 密码防偷窥 · 20%–150% 无级缩放 🐳 观看 1080×1920 60fps 含音效原版视频 → 鼠标 + 手打字 + 鲸尾甩拍三同动 → 加速笑开花 → 密码捂眼防偷窥 📥 下载原版 MP4（国内高速） · GitHub 原片 📥 直接下载使用（Windows /
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: android, bongo-cat, bongocat, cross-platform, desktop-pet, keyboard-visualizer
+
+---
+
+### 🌟 [mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,577
+- **核心概述**: 官方 Qdrant 模型上下文协议 (MCP) 服务器实现
+- **大概是做什么的**: mcp-server-qdrant：Qdrant MCP 服务器 模型上下文协议 (MCP) 是一种开放协议，可实现 LLM 应用程序与外部数据源和工具之间的无缝集成。无论您是构建人工智能驱动的 IDE、增强聊天界面，还是创建自定义人工智能工作流程，MCP 都提供了一种标准化方法，将法学硕士与其所需的上下文联系起来。此存储库是如何为矢量搜索引擎 Qdrant 创建 MCP 服务器的示例。官方模型上下文协议服务器，用于在 Qdrant 矢量搜索引擎中保存和检索记忆。它充当 Qdrant 数据库之上的语义内存层。 - 在 Qdrant 数据库中存储一些信息 - 信息（字符串）：要存储的信息 - 元数据 (JSON)：要存储的可选元数据 - 集合名称（字符串）：要存储信息的集合的名称。如果没有默认集合名称，则需要此字段。如果有默认集合名称，则不启用此字段。 - 返回：确认消息 - 从 Qdrant 数据库检索相关信息 - 查询（字符串）：
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: claude, cursor, llm, mcp, mcp-server, semantic-search
+
+---
+
+### 🌟 [knolo-core](https://github.com/HiveForensics-AI/knolo-core)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 151
+- **核心概述**: 人工智能代理用来相互分享知识的开放框架。将知识打包到可移植、可验证的知识图像中，通过摘要固定它，通过 MCP 将其安装在本地，并证明使用了什么。本地优先、确定性、无需矢量数据库。
+- **大概是做什么的**: Knolo 是人工智能代理用来相互共享知识的开放框架：将其打包到便携式知识图像中，通过摘要固定它，在本地安装它，并证明使用了什么。一名代理将知识打包到一个文件中。另一个代理将该文件安装在其自己的计算机上。引脚是摘要。查询返回收据 ID 和状态根。收据文件保留在运行查询的计算机上。这是完整性检查。这并不意味着某个主张已得到证实���下一个代理根据其引脚检查已安装的图像。 Knolo 不调用模型，也不运行代理。简短的指南是两个代理分享知识。知识应该是一种可以检查、验证、迁移和运行的资产，而不是被困在应用程序中的不透明上下文。 V6 · KAR · V5 知识图像 · V4 兼容 · 本地优先 · 确定性 · 可验证 这棵树是 Knolo 6.2.0。 V6 添加了 KAR：从 V5 知识图像和承诺证据图确定性检索最小证据集。 6.1.0 添加了可验证的成分。 6.2.0 添加了 Knolo Cortex：具有可验证痕迹的有限证据检索。时间
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai-agents, deterministic-search, knolo, knowledge-bases, knowledge-sharing
+
+---
+
+### 🌟 [SuperARIS](https://github.com/wanshuiyin/SuperARIS)
+- **项目语言**: Python
+- **星标数量**: ⭐ 182
+- **核心概述**: SuperARIS — 您的 ARIS（睡眠自动研究）个人研究代理，由代理团队提供支持。
+- **大概是做什么的**: SuperARIS — 您的 ARIS（睡眠自动研究，20k 星）个人研究代理，由代理团队提供支持。 ▶ 观看完整的 1080p 演示 · 约 21 秒动画预览 · 单击即可播放完整视频。说明性项目和数据。 Orca多模型团队：互动主页·英文视频·中文视频。单模型团队（3 位 Codex 代理）及其原始英文/中文视频仍然可用。准备好 Python 3.10+、Git 和 pipx，以及您选择的代理 CLI（ codex 、 claude 、 agy ）并配置模型访问权限。安装一次，然后打开向导：选择您的语言、项目、工作台、团队和模型。现有的 Herdr 或 Orca 安装被重复使用。已经安装了吗？运行 superaris update --check，然后运行 ​​superaris update 。旧版本引导程序和接收器刷新 → 要明确启动，请打开一个新项目的目录并选择一个工作台： Workbench 在当前项目中启动 设置指南 Herdr （默认） superaris start 。 --host herdr Workbench 和启动 · Windows Orca（可选）superaris 启动。 --host orca Orca setup 对于数学研究，运行 mathrsi 打开
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-research, aris, claude-code, codex, gemini
+
+---
+
 ## 🕔 2026-11-24 01:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 199 个候选项目中筛选出 6 个未推荐过的新项目。
