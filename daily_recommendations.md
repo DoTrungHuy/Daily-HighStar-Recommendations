@@ -1,3 +1,67 @@
+## 🕔 2026-11-25 22:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,008
+- **核心概述**: A Model Context Protocol server for converting almost anything to Markdown
+- **大概是做什么的**: Markdownify MCP Server Markdownify is a Model Context Protocol (MCP) server that converts various file types and web content to Markdown format. It provides a set of tools to transform PDFs, images, audio files, web pages, and more into easily readable and shareable Markdown text. - Convert multiple file types to Markdown: - Audio (with transcription) - Convert web content to Markdown: - YouTube video transcripts - Bing search results - Retrieve existing Markdown files - Bun for JavaScript dependency management and builds. - Node.js 22 or later (also used by the Repomix CLI). - uv on PATH for locked Python setup. - Python 3.11–3.14. uv can install the development interpreter selected by .python-version if needed; Python 3.15 is not supported. 1. Clone this repository 2. Install dependencies: The preinstall step runs uv sync --locked --extra all --no-dev , creating .venv and installing MarkItDown's full feature set at the exact versions in uv.lock . Setup fails if the lockfile is stale or Python installation fails. If dependency lifecycle scripts are disabled, run node preinstall.js m
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, anthropic, anthropic-ai, anthropic-claude, markdown, mcp
+
+---
+
+### 🌟 [NTSCRT](https://github.com/finnmckenty/NTSCRT)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 832
+- **核心概述**: Run video and images through simulated video gear on Mac and Windows: digital camera compression, TV signal, VHS tape and CRT screen.
+- **大概是做什么的**: Run video and images through simulated video gear, on Mac and Windows. NTSCRT passes your media through a digital camera and its compression (webcam, video call, MiniDV), the TV signal (ntsc-rs: composite artifacts, chroma bleed, noise), a VHS tape in a VCR, a TV set for the dramatic glitches, and a CRT screen (the shaders RetroArch uses, via librashader: scanlines, phosphor masks, glow). Each piece is simulated, so the effects combine the way real gear's did. Full disclosure: the two hardest parts aren't mine. The signal emulation is ntsc-rs, and the CRT look is the RetroArch shader community's work. NTSCRT is the app built around them, native on Mac and on Windows: it joins them into one pipeline and adds its own pieces on top, including the Digital video, VCR and Glitch stages, Screen Loop video feedback, cropping, a keyframe timeline, video and GIF export, a command-line renderer, and an MCP server for AI apps. Works with Claude and other AI apps (MCP). NTSCRT includes a built-in MCP server, so Claude Desktop, Claude Code, Cursor and other MCP clients can make analog video looks
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: analog-video, claude, crt, crt-shader, glitch-art, librashader
+
+---
+
+### 🌟 [mobile-dev](https://github.com/callstackincubator/mobile-dev)
+- **项目语言**: C++
+- **星标数量**: ⭐ 245
+- **核心概述**: A plugin for a better mobile development experience for android and iOS
+- **大概是做什么的**: Live devices beside your chat Stream iOS simulators, Android emulators, and connected iPhones, iPads, and Android devices. Show iOS and Android together or use the fullscreen workspace. Device control, inspection and annotations Select and boot simulators or emulators, interact with taps and drags, type on supported devices, and let your agent inspect accessibility elements and control your app through the bundled agent-device runtime. Select an element or screen region and leave instructions for your agent, with React Native component and source details when available. Install a built app, launch or stop it, and open a deep link or URL to jump to a screen. Send a test push notification to an iOS simulator app. Allow, deny, or reset an app permission without the system prompt, and run an app in another language than the device. The app tools in each device panel launch and stop apps, open URLs, send pushes, and set permissions and language; the agent can also call every action as an MCP tool. Mobile Dev does not build your app; your project's own tools do. Device settings and network
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, android, codex, codex-plugin, dev-tools, ios
+
+---
+
+### 🌟 [skills](https://github.com/squirrelscan/skills)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 109
+- **核心概述**: Agent skills for squirrelscan, the website QA tool for your coding agent (300+ audit rules).
+- **大概是做什么的**: squirrelscan skills and plugins Website audit skills for Claude Code, Codex, Cursor and other coding agents: skills, plugins, and MCP in one repo Setup guides: squirrelscan for Claude Code and the Claude Code docs. What is squirrelscan? squirrelscan is a website audit tool built for AI agents. It crawls a site, analyzes every page against 350+ rules across SEO, performance, security, accessibility, content, and more, and returns a health score plus concrete, fixable issues. - 350+ audit rules across 22 categories - Leaked secrets detection (96 patterns: OpenAI, Anthropic, AWS, Stripe, and more) - Multiple output formats: console, text, json, markdown, llm, html - Diff reports for regressions between audits - LLM-native output for AI-assisted debugging and optimization - Optimized for CI/CD pipelines and automation This repo is the one home of the squirrelscan agent skills and agent plugins. Every install path below reads it; nothing else carries a copy. Skill What it does Install ------- -------------- --------- squirrelscan Operate the CLI: install, login, run audits, publish report
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: accessibility, agent-skills, ai-agents, claude-code, claude-code-plugin, codex
+
+---
+
+### 🌟 [TZeroAlgorithm](https://github.com/toprakahmetaydogmus/TZeroAlgorithm)
+- **项目语言**: Python
+- **星标数量**: ⭐ 105
+- **核心概述**: Deterministic AST Context Compressor & MCP Server for Cursor, Claude & Local LLMs. Cuts prompt tokens by 85–95% with 100% Zero-Leak security.
+- **大概是做什么的**: T-Zero: Deterministic AST Context Compressor & MCP Server AST Context Compression Engine, 21 Canonical MCP Tools (58 Runtime Tools), Real BPE Tokenizer Benchmarks & Pre-Flight Reality-Lock for AI Coding Assistants. English Türkçe 日本語 简体中文 Privacy Policy Interactive Colab Hugging Face Space Benchmark Hub -10b981?style=flat-square&logo=githubactions&logoColor=white) -8b5cf6?style=flat-square&logo=checkmarx&logoColor=white) Road to 500 GitHub Stars: Help Keep T-Zero 100% Free & Open-Source Empirically proven token optimization engine for Cursor, Claude Code, Windsurf & Antigravity IDE. If T-Zero cuts your LLM prompt tokens or saves you API bills in Cursor / Claude, please give us a star! ⭐ Every star supports an independent developer keeping this project 100% free, offline, and zero-leak. 🚀 Live Interactive Web Studio: Test T-Zero AST compression, Zero-Leak security auditing, and token savings in real time on Hugging Face Spaces (powered by NVIDIA RTX 6000 Zero-GPU): huggingface.co/spaces/toprakke4/tzero-token-reducer Live Vercel Hub 30-Second Quickstart Git reminder hooks are opt-in.
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, antigravity, ast, claude, claude-code, cline
+
+---
+
+### 🌟 [screencap](https://github.com/yahorbarkouski/screencap)
+- **项目语言**: Swift
+- **星标数量**: ⭐ 130
+- **核心概述**: A lightweight, macOS-native activity memory for you and your agents
+- **大概是做什么的**: Screencap is a lightweight, macOS-native activity memory for you and your agents, built on smart capture and System-1 models. It sorts your day into the threads of your work, finds anything you saw, and with ⌥Space puts you back in any thread you left. It runs in the background on under 1% of one CPU core and about 30 MB of memory. Day sums up the day in a few words and lays it out as one strip, coloured by thread: the piece of work, chore or pastime each stretch belongs to, which you may come back to over days. Move the pointer along the strip to see what was on screen at any point. Below the strip, each of the day's threads shows its key moments. A moment is one stretch of work on one thing, shown by its best screenshot and a short title. Timeline gives each thread its own column, with time running down the page, so work you kept going in parallel sits side by side. Canvas lays the day out on one surface you move around like a map. Each thread takes up more room the longer you spent on it, with a picture for each thing you did there: a channel, a document, a conversation, an app. A
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: activity-memory, activity-tracker, macos, mcp, memory, ocr
+
+---
+
 ## 🕔 2026-11-25 12:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 197 个候选项目中筛选出 6 个未推荐过的新项目。
