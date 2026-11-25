@@ -1,3 +1,67 @@
+## 🕔 2026-11-25 02:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [doop](https://github.com/doop-design/doop)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 2,299
+- **核心概述**: Paper.design 的开源替代品。多人游戏设计画布，人类和人工智能代理一起实时设计。内置 MCP。
+- **大概是做什么的**: Doop 是 Paper.design 的开源替代品，Paper.design 是人类和人工智能代理的多人设计画布。每个设计都存在于可共享的 Canvas ( /c/ ) 中，其中包含框架 - 在沙盒 iframe 中呈现真实 HTML 的画板。人们在浏览器中编辑； AI 代理通过内置的 MCP 服务器进行编辑，实时传输他们的设计。每个人都可以看到发生的一切：光标、存在、框架编辑、代理状态，以及将其视为您已经使用的任何代理的 Claude 设计：Claude Code、Codex、ChatGPT、Cursor、OpenCode 或同一画布上的任何其他 MCP 客户端设计，内置的 Doop Agent 在 GPT、Claude、Gemini、DeepSeek、Kimi 或 Qwen 模型（每个代理和模型）上运行。 - 使用代理进行设计，而不是提示和刷新 - 连接 Claude Code（或任何 MCP 客户端）一次，然后观看它在画布上光标旁边的草图、流式传输和自我审查设计。 - 内置 Doop 代理 — 将卡片排队或@提及角色，它自行设计，无需连接客户端。在每个用户连接的模型帐户上运行（ChatGPT 订阅，或 OpenAI、Claude、Gemini、D
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, canvas, claude, claude-code, claude-design, codex
+
+---
+
+### 🌟 [mcpo](https://github.com/open-webui/mcpo)
+- **项目语言**: Python
+- **星标数量**: ⭐ 4,432
+- **核心概述**: 简单、安全的 MCP 到 OpenAPI 代理服务器
+- **大概是做什么的**: mcpo 是 MCP 到 OpenAPI 的代理。它采用任何 MCP 服务器并将其工具作为标准 OpenAPI HTTP 服务器提供服务，并具有交互式文档和 API 密钥身份验证，因此它们可以与 Open WebUI 和任何其他使用 OpenAPI 的应用程序配合使用。大多数 MCP 服务器通过 stdio 进行通信并作为本地进程运行。浏览器中或另一台计算机上的应用程序无法访问它们。 mcpo 为您运行 MCP 服务器，并将纯 HTTP 放在它前面。每个工具都有自己的端点、自己的 OpenAPI 模式和位于 /docs 的实时文档，没有粘合代码。 Open WebUI 以本机方式连接到 Streamable HTTP MCP 服务器。将 mcpo 用于 stdio 和 SSE 服务器，或者当客户端仅使用 OpenAPI 时。例如，使用 MCP 时间服务器：然后打开 http://localhost:8000/docs 实时试用这些工具。 mcpo 默认侦听 127.0.0.1。当 Open WebUI 或另一个客户端在不同计算机或容器中运行时，添加 --host 0.0.0.0。该映像侦听所有接口并以非 root 用户身份运行。连接到 Open WebUI 将 mcpo URL 添加为 Open WebUI 中的工具服务器。有关步骤，请参阅 Open WebUI 集成指南。 mcpo 还代理 MCP Ser
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: mcp, mcp-server, mcp-to-openapi, open-webui, openapi
+
+---
+
+### 🌟 [mailcraft](https://github.com/UCSLabs/mailcraft)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 908
+- **核心概述**: MailCraft：一个开源、干净的邮件、日历和联系人程序，采用纯 Rust，适用于 Microsoft 365、Outlook.com 和 IMAP。公开测试版。
+- **大概是做什么的**: 一个开源邮件、日历、联系人和任务程序，用 Rust 从头开始​​编写。 MailCraft 自 2026 年 10 月 12 日起在此开发；该存储库和 mailcraft.work 是该项目唯一的官方主页。 MailCraft 是人们已经知道如何使用的邮件客户端的干净房间重新实现：功能区、文件夹窗格、带有阅读窗格的消息列表、对话、标志、类别、规则、带有定期会议、人员和待办事项的日历。它是一个原生的、GPU 渲染的应用程序（没有 Electron，没有 Web 视图），它还通过 WebAssembly 在浏览器选项卡中运行，其中的每个操作都是脚本和 AI 代理也可以运行的命令。 MailCraft 遵循 WordCraft 和其他 Craft 应用程序的架构和惯例：相同的分层板条箱、相同的“一切都是命令”引擎、相同的 egui 前端和设计令牌、相同的控制通道、MCP 服务器、工具和打包。 - 邮件：帐户、嵌套文件夹和收藏夹、按日期（或发件人、重要性）分组的虚拟邮件列表、排序、过滤器、对话、固定、阅读窗格
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: calendar, egui, email-client, imap, mcp, microsoft-graph
+
+---
+
+### 🌟 [embodied-first-exam](https://github.com/mll-lab-nu/embodied-first-exam)
+- **项目语言**: Python
+- **星标数量**: ⭐ 318
+- **核心概述**: 编码代理的代理机器人基准：47 个机器人的 35 个套件中的 1,156 个机器人任务，每个任务都用一个程序进行回答并在单独的沙箱中进行验证。在港口运行。
+- **大概是做什么的**:  体现的第一次考试编码代理已经通过了数字世界的许多考试。他们进入现实世界之前的第一个考试是什么？ Embodied First Exam (EFE) 是一个代理机器人基准测试，测试 35 个套件中 47 个机器人的 1,156 个机器人任务的编码代理，其中代理选择直接控制机器人、编写代码来控制机器人或训练策略来控制机器人。排行榜·报告·当今代理机器人的成功和失败在哪里？我们的九个原创套件：RoboPaint · RoboARC · RoboDynamicExam · Embodied Olympics - Fun · Embodied Olympics - Match · DexHandExam · RoboEngineer · Embodied Safety Exam · iSpatialGym ▶ 观看介绍视频 - 2026 年 11 月 12 日：今天的 Agentic 机器人在哪里成功和失败？理解机器人中编码代理的能力边界。 - 🔥 2026-10-19 : 体现第一考试发布！在每项任务中，编码代理编写代码，在其中一个套件的冻结场景中的机器人上运行它，然后看看会发生什么。其中九个套件是为本次考试编写的：测试精细的工具控制。机械臂再现给定的
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agentic-robotics, ai-agents, benchmark, coding-agents, embodied-agents, embodied-ai
+
+---
+
+### 🌟 [soundbox](https://github.com/HamSanders/soundbox)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 247
+- **核心概述**: ElevenLabs 和 Suno 的免费、开源、本地替代品。 AI 音效、带歌词的音乐、文本转语音以及您自己的 GPU 上的语音克隆（稳定音频、ACE-Step 等）。没有帐户，没有积分，离线。 Windows/macOS 应用程序、HTTP API 和用于 Claude Code 和 Cursor 的 24 工具 MCP 服务器。
+- **大概是做什么的**: ElevenLabs 和 Suno 的免费、开源、本地替代品。从您自己的 GPU 上的开放权重模型克隆音效、音乐、歌词歌曲、语音和语音。将其安排在时间线上，或者让 Claude Code、Cursor 或任何 MCP 代理来完成。没有帐户，没有积分，离线工作。麻省理工学院。 Mirli 的前身是 Soundbox。存储库、音箱命令、音箱。 MCP 工具和安装程序文件名暂时保留旧名称。环境变量是 MIRLI ，旧的 SOUNDBOX 名称仍然有效（0.5.0 及更早版本只读 SOUNDBOX ）。观看：30 秒游览 · 幕后花絮 · 特工和 MCP 描述它、聆听它、编排它 制作编排 连接 描述中的音效和氛围 带有效果、MIDI 和混音的多轨时间线 带有 24 个用于 Claude Code 和 Cursor Instrumentals 或歌词表中的歌曲的 MCP 服务器 将保存的声音投射到脚本的行上 端口 17494 上的本地 HTTP API，具有与 OpenAI 兼容的语音路由 语音、语音克隆和声音转换延伸、覆盖、重画、分裂成茎三种特工技能，包括完整的声音
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ai-music, ai-sound-effects, ai-voice, audio-generation, claude-code, elevenlabs-alternative
+
+---
+
+### 🌟 [dsh-grok-search](https://github.com/Lain-in-coding/dsh-grok-search)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 105
+- **核心概述**: 告别官方搜索扣费！自动接管 DeepSeek Harness 原生 web_search，不走官方付费搜索、不烧模型 Token； Rust 内核驱动，轻快强悍，可视化接入 Grok、Tavily、Exa、TinyFish、Firecrawl，五源无缝兜底。
+- **大概是做什么的**: Rust 原生搜索内核驱动，让 DSH 搜索轻快、强大、来源可追溯。 装上直接接管 DSH 搜索，不再走官方付费搜索，也不耗模型 Token。 可视化配置 · 自动回退 · 日志回放 · 账户额度 · GitHub 分段读取 快速开始 · 更新已有版本 · 支持范围 · 来源与排序 搜索日志与额度 · 共享配置 · 隐私与费用 · 常见问题 - Rust 原生内核，让搜索极致轻快 ：Grok 主搜索由 Rust 编写的原生程序执行，连续查询复用受管 MCP 会话，空闲后自动退出；无需手动部署后端，也不会每次搜索都累积一个后台进程。 - 自动接管官方搜索，告别 401 报错 ：无需绑定或充值官方账号，接管 DSH 原生链路，消除未配 Key 引发的 401 报错。 - 不消耗官方搜索次数，也不烧模型 Token ：绕开官方内置搜索模型，搭配任意第三方搜索模型独立联网，不再为搜索向官方付费。 - 五源协同，搜索有据可查 ：Grok 主搜索搭配 Tavily、Exa、TinyFish、Firecrawl，自由排序并保留上游返回的摘要与引用来源（支持 Tavily 多 Key 轮换）。故障顺次兜底、 全挂直接报错 ，绝不偷切官方付费搜索。 - 全程界面配置，零文件折腾 ：免改 config.toml 或手动部署 MCP；页面填 Key、拖拽排序即生效，自动复用兼容后端或校验下载。 - 启用即接管，停用即秒回落 ：不影响普通聊天与网页抓取设置；关闭或卸载即恢复原官方搜索，已填 Key 与共享配���跨升级保留。 - 全链路透明，告别搜索黑盒 ：自带全来源逐 Key 连通性测试、最近记录、零消耗回放与实时额度，来源、耗时与实报消耗一目了然。 - 聊天搜索看得见，直读 GitHub 链接 ：对话内直接展示可追溯的执行路由卡片；开启 GitHub 抽取器后，发 GitHub Issue / PR / Release 链接即可直读正文、评论与发布说明，免去来回切屏。 0.4.4 更新重点：稳定性与异常恢复。 完善接管冲突、安装锁恢复、配置保存与撤销、权限变化后的旧任务处理，以及搜索来源和 GitHub 续读。已确认退出后的临时解锁失败可显式重试，不需要仅因此反复重启；无退出证明或持续权限故障仍会明确报告，不强制删锁。保留原专属插件图标与官方 grok-search-rs 0.1.26 后端，不改变搜索策略、最低兼容版本或用户配置，不增加搜索预检。 名词说明：Grok、Grok Search Rs 和补充来源 grok-search-rs Rust 编写、编译为本机原生程序的 MCP
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: deepseek-harness, dsh, dsh-plugin, grok, grok-search-rs, mcp
+
+---
+
 ## 🕔 2026-11-24 16:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 283 个候选项目中筛选出 6 个未推荐过的新项目。
