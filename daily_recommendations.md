@@ -1,3 +1,67 @@
+## 🕔 2026-11-25 12:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 197 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [dsh-mobile](https://github.com/saya-ch/dsh-mobile)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 997
+- **核心概述**: DeepSeek Harness 的安全远程访问插件与 Android App，支持局域网和多种远程通道、iPhone/iPad 主屏幕 Web App 与网页推送，并提供移动界面适配、设备管理和自定义扩展。
+- **大概是做什么的**: 在手机上安全、实时地使用电脑中的 DeepSeek Harness。 DSH Mobile 是 DeepSeek Harness 社区插件，原生 App 目前正式支持 Android；另有 Windows 客户端（alpha 预览） ，支持 Windows 10 / 11 x64：下载安装包 · 使用说明。 使用 iPhone 或 iPad？ 可以用 Safari 访问，或添加到主屏幕作为 Web App（PWA）使用，无需下载原生 iOS App。 当前正式版本：0.8.16 。宽屏下会话列恢复全宽、左右两侧栏都可拖拽调宽，侧栏打开不再有顿感（ 465）；部分 WebView 上文件预览恢复可用（ 415）。插件与 Android App 独立更新；Android App 0.8.3 为当前正式版。插件更新与下载 · 完整更新记录。 版本说明 ：自插件 0.6.2 起，Android App 与插件改为独立发布（当时 App 仍为 0.6.1）；App 自 0.6.2 起使用独立编号，版本号无需一致；插件升级不代表 App 需要同步升级。App 图标可在设置中更换，不影响版本与配对。兼容说明。 国内 AtomGit 托管 ：saya-ch/dsh-mobile，由 GitHub 主仓自动同步。 Windows 客户端 0.1.2-alpha DSH Mobile 是一个 DeepSeek Harness 插件，让手机浏览器或 Android App 通过局域网，或可选的 Tailscale Funnel、cpolar、cloudflared、自建 FRP、自有反向代理远程通道连接电脑；Android 完整版还支持实验性 iroh 加密直连与中继。手机可以继续使用电脑上的会话、工作区、消息和工具。电脑端分别启停局域网与远程访问、分别管理配对授权；Android App 统一显示已配对电脑。插件不修改 DeepSeek Harness 源码。 移动访问使用独立 HTTPS 与设备配对；Android App 固定局域网私有 CA，公开远程通道使用系统信任的证书；自签 FRP 入口还需由 0.4.6 App 在配对时固定远程 CA。 它还能在 DSH 对话里用 /mobile 定制手机端。 - 在手机上继续电脑端的工作 ：同一份会话、工作区、消息和工具，实时同步。 - 用对话定制手机端 ：在 DSH 对话里提出布局、交互或功能需求；文件修改完成后，自定义资源通常会自动更新。 - 专属触屏布局 ：会话抽屉、工具详情、设置、提问卡片和输入栏都按手机重新组织；侧栏列表在本
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, android, cloudflared, coding-agent, cpolar, deepseek
+
+---
+
+### 🌟 [astron-harness-tutorial](https://github.com/iflytek/astron-harness-tutorial)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 365
+- **核心概述**: Astron Harness 教程：AStudio、Loomy 和 AstronClaw 的图解指南。双语教程、官方截图、上游监控。
+- **大概是做什么的**: Astron Harness Tutorial AStudio → Loomy → AstronClaw。 从完成一个任务开始，学习如何交付真实成果，再建立适合自己的 AI 工作流。 在线阅读 · 从 AStudio 开始 · English 产品 适合从什么需求开始 学习入口 01 · AStudio 围绕目标推进任务并交付成果 工作台指南 · 快速上手 02 · Loomy 本地资料与日常办公协作 桌面搭子指南 · 快速开始 03 · AstronClaw 云端任务与消息渠道协作 云端助手指南 · 开始使用 01 · AStudio：从目标走向成果 先认识工作区并完成第一个任务，再学习项目、规划与目标模式、预览编辑、权限、自动化和插件。教程配有 保存到本地的官方图片 ，中英文页面均可按步骤对照操作。 - 核心功能：选择工作模式，检查执行过程与结果。 - 实践案例与使用技巧：练习调研、建站与持续迭代。 - 套餐与积分、常见问题和隐私政策：使用前了解规则。 02 · Loomy：融入日常的桌面搭子 连接本地文件、资料库与办公工具，学习AI 搭子、工具箱、典型场景，并构建个人搭子。 03 · AstronClaw：让任务在云端继续 从托管助手快速开始，接入技能与消息渠道，结合场景和计费规则设计自己的工作方式。 每日巡检按 AStudio、Loomy、AstronClaw 检查官方资料。AStudio 覆盖全部 15 个指南与协议页面，并检查图片内容；新增图片和同地址替换图片都会报告，供人工核对。详见巡检说明与图片来源清单。 截图保留官方中文界面，英文教程附英文图注。教程站支持点击图片放大。 本项目基于 VitePress 构建。如果你想在本地预览或修改文档： 学习助手使用 Spark-X2.6-4B ，支持流式回答和中英文页面。将 .env.example 复制为 .env ，填写已开通 Spark-X2.6-4B 权限的 ASTRON MAAS API KEY ；密钥只在服务端使用，不要放入 VITE 开头的变量。 默认模型为 spark-x2.6-4b ，接口为 https://maas-api.cn-huabei-1.xf-yun.com/v2/chat/completions ，思考强度为 low 。如需调整，可配置 .env.example 中的服务端变量。旧客户端传入的模型名不会覆盖服务端配置。 本地使用学习助手时，在一个终端运行 npm run server ，另一个终端运行 npm run docs:dev 。Vercel 部署需要配置同名环境变量
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, ai-agent, iflytek-astron, openclaw
+
+---
+
+### 🌟 [WeWorker](https://github.com/WeWorker/WeWorker)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 326
+- **核心概述**: 开源桌面 AI 代理，可在网站上采取实际行动 - 33 个适配器用于邮件、购物、社交等。
+- **大概是做什么的**: 开源桌面 AI 代理，可在网站上采取实际操作自然语言任务 → 适配器 → 真实的浏览器操作。包括 33 个适用于 Windows 和 macOS 的网站适配器。不是建议。行动。网站 · 下载 · 快速入门 · 33 个适配器 · 讨论 WeWorker 将自然语言请求转化为真实的网站操作。其 AI 代理选择一个适配器并通过浏览器扩展或捆绑的 Toolkit 运行时进行操作。您可以掌控登录、提交、购买和付款等重要步骤。一分钟即可看到 WeWorker 选择相关的适配器，读取两个网站，并返回一个有组织的结果，而不仅仅是解释您应该做什么。请参阅网站上的跨站点演示。 - 跨站点研究：收集、比较和总结来自多个网站的信息。 - 重复性网络工作：检查邮件、搜索内容、填写表格以及运行计划任务。 - 可扩展的站点自动化：用适配器描述网站工具，并通过一个 webcli 调用接口来调用它们。 - 使用自然语言操作网站：在桌面应用程序中描述任务
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adapter, ai-agent, ai-automation, browser-agent, browser-automation, browser-extension
+
+---
+
+### 🌟 [iphone-duo-skills](https://github.com/mirzaaghazadeh/iphone-duo-skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 340
+- **核心概述**: 在 iPhone Duo（Apple 的首款可折叠 iPhone）上构建 iOS 应用程序的代理技能 - 自适应布局、垂直条、铰链和场景、相机和设计审查。
+- **大概是做什么的**: English 简体中文 Français Türkçe 图片 © Apple Inc.，来自 iPhone Duo 开发者页面，用于识别。不隶属于 Apple，也不受 Apple 认可。在 iPhone Duo 上构建 iOS 应用程序的代理技能 - Apple 的首款可折叠 iPhone，于 2026 年 9 月 9 日发布。Apple 的 iPhone Duo 开发人员材料现在包括六个技术讲座视频、iPhone Duo HIG 页面设计、准备清单和 API 参考。最后两个是在此存储库启动后发布的——API 参考更正了三个声明，准备指南添加了更多声明。两个通道都反映在这里。这些技能将所有内容提炼为代理可以采取行动的结构化指导，以及设备事实和完整 API 表面的参考表。安装全部十一个。 CLI 会检测您的代理 — Claude Code、Cursor、Copilot、Gemini 等 — 并将它们放置在代理所查看的位置。要尝试一项技能而不安装它：或者在项目级别，进入存储库中的 .claude/skills/ 。每个技能都是一个带有 YAML frontmatter 的独立 SKILL.md，因此它也适用于读取纯 Markdown 指令的任何地方。重新启动ses
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adaptive-layout, agent-skills, ai-agents, apple, avfoundation, claude
+
+---
+
+### 🌟 [jitllm](https://github.com/beehive-lab/jitllm)
+- **项目语言**: Java
+- **星标数量**: ⭐ 303
+- **核心概述**: Java Inference Tornado 工具包：高性能 LLM 推理和为 GPU 上的 JVM 提供服务
+- **大概是做什么的**: jitLLM：在任何 GPU 上为 JVM 提供 LLM 推理和服务 想想 vLLM — 但纯 Java，它可以在任何 GPU 上运行。 jitLLM 是 JVM 原生的 LLM 推理和服务引擎。您编写并发布纯 Java； TornadoVM 在运行时将热变压器内核 JIT 编译为 CUDA、OpenCL 或 Apple Metal — 无需 JNI 胶水，无需第二个工具链，无需针对每个 GPU 进行本机重建。一个 .jar 在 NVIDIA、Intel、AMD 和 Apple Silicon 上运行相同的模型，从笔记本电脑到 RTX 5090。将其提供在兼容 OpenAI 的 API 后面，将其嵌入 LangChain4j 或 Quarkus 中，或者从 CLI 中一行运行。 - 🚀 高性能。与 llama.cpp 同等的快速处理，从笔记本电脑 GPU 上的 1B 模型到分为多个部分的 70B 模型：张量核心和 SIMD 组内核、CUDA 图以及在设备上以量化形式保存的权重。 - 🟦 纯Java，一路向下。 Transformer 内核是用 Java 编写的，并由 TornadoVM 加速——没有 CUDA C，没有手写的 JNI。使用您已有的工具链进行调试和构建。 - 🌍一次编写，在任何GPU上运行。 NVIDIA (CUDA)、英特尔和 AMD (OpenCL)、Apple Silicon (Metal)。后端是
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: accelerators, compilers, deepseek-r1, gguf, gpt-oss, gpu
+
+---
+
+### 🌟 [agy-capsule](https://github.com/Lumidarin/agy-capsule)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 316
+- **核心概述**: 上下文使用、模型配额、代币细分和生成指标 - 就在您的 Antigravity 编辑器中。
+- **大概是做什么的**: 在 Antigravity 输入框底栏显示上下文占用、多模型配额、缓存状态和生成速度，悬停胶囊即可查看面板详情，点击胶囊即可固定面板。 使用的是 Antigravity IDE 独立编辑器 ？可直接在 IDE 的扩展面板搜索 agy-capsule-ide 安装，或到 Open VSX 查看。详见 IDE 版安装与功能，以及 App 与 IDE 的差异。下文介绍桌面 App 版。 宣传片（v1.4，也可以在 B 站 观看）： https://github.com/user-attachments/assets/3857a452-9fac-42b0-8f26-57759af8fefc https://github.com/user-attachments/assets/9f5bf1c6-1284-4e17-a380-defdee83f60c 本插件几乎所有功能都支持高度自定义，无论是极简底栏还是全面监控都能按需组合；下方带 ☑ 的条目均可在侧栏设置中自由开关或调整。 显示上下文占用、缓存命中率与缓存状态。上限按当前会话和模型实时读取。 ☑ 显示缓存命中率 ：默认关闭。开启后，第一个胶囊在上下文占用旁显示缓存命中率；没有实测数据或空间不足时，底栏不显示该数值。 ☑ 缓存过期提醒 ：胶囊图标距上一轮默认满 3 分钟变黄、满 4 分钟变红 Cache 过期，右侧输入框可自定义变黄/变红分钟数（上限 998 / 999 分钟）。面板里的 Cache 行同步变化。 ☑ 上下文过载提醒 ：上下文超过 75% 时，胶囊数字变黄，超过 90% 时变红。 ☑ 生成速度 ：显示本轮最近一次请求的速度，每完成一次请求更新一次。 ☑ 速度动效 ：在模型生成回复时会闪烁的小圆点。在生成速度低于 10 tok/s 时红色，10 至低于 25 时黄色，25 及以上绿色。停下后保持颜色 15 秒再变灰。 ☑ 上下文明细 ：将上下文拆分成首轮、读取、思考、写入四个部分，分别显示数值和占比。可选横条显示或竖列显示。横条显示可选方块或圆点标记。竖列显示可逐项开关名称、数值、百分比，可自由调节顺序。 ☑ 最近请求 ：显示最近一次请求从首 token 到结束的耗时范围（如 4.5s–8.6s ）和生成速度。 ☑ 本轮统计 ：显示本轮的耗时、请求数、思考和写入。 显示当前或所有额度池的 5 小时与每周剩余额度和重置倒计时。 Vertex AI（Google Cloud 按量计费） ：当未返回套餐额度且 Antigravity 确认账号使用 Cloud 按量计费时，隐藏整个额度胶囊。 ☑ 突出当前模型 ：高亮
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: antigravity, antigravity-plugin, context-window, developer-tools, llm, quota-monitor
+
+---
+
 ## 🕔 2026-11-25 02:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 294 个候选项目中筛选出 6 个未推荐过的新项目。
