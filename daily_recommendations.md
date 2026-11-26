@@ -1,3 +1,67 @@
+## 🕔 2026-11-26 03:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 171 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [go-music-dl](https://github.com/guohuiyuan/go-music-dl)
+- **项目语言**: Go
+- **星标数量**: ⭐ 6,794
+- **核心概述**: 一个基于 Go 语言的全网音乐搜索与下载工具。支持 CLI 命令行与 Web 服务双模式，内置网易云、QQ、酷狗、Bilibili、汽水音乐等 10+ 个主流平台，支持多源并发搜索与无损音质解析。music-dl交流群：1125708443
+- **大概是做什么的**: ⭐ 如果这个项目对你有帮助，欢迎点一个 Star。 Go Music DL 是一个多平台音乐搜索与下载工具，支持 Web 、 TUI 和 桌面端 ，覆盖单曲、歌单、专辑、排行榜与本地音乐。它同时暴露了一套 AI 可调用的接口—— AI 可以直接操控你正开着的网页播放器 ，点歌、切歌、暂停、调音量都不用你动手，详见 AI / Agent 调用。 推荐优先下载与操作系统和 CPU 架构匹配的桌面版。Rust 桌面版与 Go 桌面版均可使用，不确定时优先选择 Rust 桌面版。所有下载项也可在 GitHub Releases 查看和选择。 Windows x64 Rust 桌面版 Go 桌面版 · Rust ARM64 · Rust 32 位 · CLI x64 macOS Apple Silicon DMG 安装包 PKG 安装包 · Go 桌面版 · CLI macOS Intel DMG 安装包 PKG 安装包 · Go 桌面版 · CLI Linux x64 AppImage DEB · RPM · Go 桌面版 · CLI Android ARM64 推荐 APK 全 ABI 兼容 APK · x86 64 模拟器 APK iOS 未签名 IPA SHA-256 校验文件 Android 用户优先选择 arm64-v8a APK，只有分片 APK 无法安装时再使用全 ABI 兼容包。 iOS 的 unsigned IPA 不能直接安装，需要使用 SideStore、AltStore 或自己的开发者证书重签。 - Windows / Linux / macOS：从 Releases 下载 music-dl-desktop-rust 或 music-dl-desktop-go 对应平台包，解压后直接运行。 - Android：优先下载 music-dl arm64-v8a.apk ，已内置 FFmpeg，无需额外安装。 - iOS：使用 music-dl-ios-unsigned.ipa 自行签名。 Web 的搜索、试听、下载和歌单浏览无��登录；修改设置或 Cookie 时才需要管理员账号。首次配置时，启动日志会打印 Web setup token ，用它创建管理员账号即可。TUI 常用键： ↑/↓ 移动、 空格 选择、 a 全选、 r 换源、 Enter 下载、 w 每日推荐、 q 退出。 访问 http://localhost:8080 。首次启动会自动创建 ./data 并配置好容器写权限；Compose 不依赖仓库里的 Dockerfile 或其他文件，
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, apple-music, bilibili, cli, cross-platform, desktop-app
+
+---
+
+### 🌟 [coral](https://github.com/withcoral/coral)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 5,032
+- **核心概述**: 代理的执行轨道。让您的 AI 能够与敏感的企业系统配合使用。为代理提供精确的权限和自定义工具，以更少的令牌更快地工作。
+- **大概是做什么的**: 代理的执行轨道。 Coral 是一个开源、自托管的网关，位于您的代理和他们工作的系统之间。代理通过编写简短的 TypeScript 程序来调用工具，并将可用作自定义工具的程序保存起来以供重用。 Coral 在添加凭据并转发之前会根据您的策略检查每个调用。在此示例中，代理首次将未经审核的拉取请求发布到 Slack。代理搜索 GitHub 和 Slack 工具并编写调用它们的代码。未经批准，它无法发布到 Slack，因此用户批准该发布。然后，代理将其代码保存为自定义工具。第二天，代理通过调用该自定义工具来运行相同的任务。控制代理可以做什么。大多数 MCP 网关仅决定代理可以看到哪些工具。这是全部或全部：如果代理可以调用​​ update record ，它就可以以工具允许的任何方式更新任何记录。自定义工具是代码，因此它可以保留“允许”和“阻止”所不能的规则。例如，closeStaleTicket 更改一个字段，并且仅适用于 30 天内没有任何活动的票证。您将“允许”、“询问”或“阻止”设置为
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-security, ai-agents, code-mode, mcp, mcp-gateway, mcp-server
+
+---
+
+### 🌟 [rowel](https://github.com/fwdai/rowel)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 972
+- **核心概述**: 免费的离线敏感数据保管库：人工智能代理无需查看您的密钥即可使用的本地优先秘密和密码管理器。
+- **大概是做什么的**: 将每个密码、密钥、卡、ID、SSH 密钥、.env 文件等保存在您自己设备上的一个加密保管库中。没有帐户，没有服务器，没有订阅。免费和开源，因为基本的个人安全应该如此。可在 macOS、Windows、Linux 和 iOS 上运行。同步是可选的，并通过您自己的云进行，该云仅存储密文。 rowel.app · 威胁模型 · 浏览器扩展 · 代理 · 安全策略 平台下载 ----------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- macOS (Universal) .dmg Windows (x64) setup .exe Linux (x86 64) .deb · .rpm · .AppImage iOS App Store 这些名称中没有版本，因此它们始终解析为最新版本 - 从下一个版本开始。在该版本发布之前，请从发布页面获取版本控制的安装程序；无论哪种方式，它都与无版本副本一起保留在那里。 iOS 没有文件可以在 macOS 上安装
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, claude-code, credentials, cryptography, dotenv, encryption
+
+---
+
+### 🌟 [TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)
+- **项目语言**: Python
+- **星标数量**: ⭐ 301
+- **核心概述**: 从 PyTorch 模型到端到端 TensorRT 推理体验，只需两个命令即可实现：AI 原生、跨平台，专为尽可能最佳的用户体验而构建。
+- **大概是做什么的**: TensorRT-Model-Connect Deploy 支持 Hugging Face 模型，只需两个命令即可实现端到端 TensorRT 推理。文档       快速入门       模型支持       API 参考公共预览版 - TensorRT-Model-Connect 正在快速发展，旨在用于评估和反馈。 API、范围和方向可能会发生变化。 - 2026-08-23 · 博客 — AI-Native by Design：我们在构建 TensorRT-Model-Connect 中学到了什么 - 2026-08-18 · 公告 — TensorRT-Model-Connect 公开 相同的捆绑包来自 🌟 开始使用并保持关注 准备好尝试 TensorRT-Model-Connect 了吗？按照 构建并运行您的第一个受支持的模型。我们很高兴你在这里。当我们分享新的模型集成、版本、示例和社区更新时，为存储库加注星标，让 TensorRT-Model-Connect 保持在您的关注范围内。通过问题选择器始终欢迎提出想法和反馈。 🔎 什么是 TensorRT-Model-Connect？ TensorRT Model Connect 是 C++ 中 AI 模型参考实现的广泛集合，位于 o
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-native, cpp, huggingface, inference, pytorch
+
+---
+
+### 🌟 [VideoAdGuard](https://github.com/ZeroTang05/VideoAdGuard)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 779
+- **核心概述**: 哔哩���哩浏览器插件：基于大语言模型，对B站视频中的植入广告进行检测。一键跳过视频中的植入/口播广告。
+- **大概是做什么的**: VideoAdGuard - B站视频植入广告检测器 VideoAdGuard 是一个基于大语言模型的B站视频植入广告检测工具，能够自动识别B站视频中的植入广告内容，并提供跳过广告的功能。 如果你觉得这个插件有用，请给项目点个Star⭐支持一下！ 观看完整演示视频：B 站 BV1UGeBztE2T - V1.4.3 新增 system one 模型，适配更多 B 站视频页面 - v1.4.0 新增云端缓存功能，支持社区共享检测结果和用户反馈 - v1.3.0 重构LLM模块，支持更多模型，包括Coding Plan - v1.2.9 v1.2.11 添加手动控制广告区间，修复已知bug - v1.2.7 适配Firefox浏览器 - v1.2.6 支持 glm-4.5 系列模型，适配 Chrome浏览器 - v1.2.5 优化缓存机制；优化av号处理 - v1.2.4 新增限制模式，仅在有商品链接时进行识别；优化界面 - v1.2.3 新增音频识别功能，支持无字幕视频检测；新增广告检测结果缓存机制 - v1.2.2 新增关闭插件开关，优化界面，优化广告判断逻辑 - v1.1.3 支持本地Ollama模型 - 🎯 精准识别 ：采用大语言模型分析视频字幕，准确定位植入广告内容 - 🎵 音频识别 ：支持无字幕视频的音频识别检测，使用免费的Groq服务商 - 🚀 便捷操作 ：检测到广告后自动显示跳过按钮，一键跳过广告片段 - 🔄 自动跳过 ：支持自动跳过已识别的广告内容 - 💾 智能缓存 ：本地缓存检测结果，大幅提升重复访问速度 - ☁️ 云端缓存 ：社区共享检测结果，AI检测前优先查询云端缓存加速 - 🧠 AI文案标注 ：在视频信息区域选择「疑似 AI 文案」或「非 AI 文案」，结果会立即显示并同步到云端 - 💬 AI评论屏蔽 ：从评论原生菜单标记「疑似 AI 评论」，立即屏蔽该作者并共享 UID - 🌈 广泛兼容 ：支持多种主流浏览器，包括Edge、Chrome等 - ⚙️ 灵活定制 ：支持多种AI模型接入，包括智谱AI、OpenAI、DeepSeek等 - 🏠 本地部署 ：支持本地Ollama模型，保护隐私数据 - Edge浏览器 ：Edge插件下载 - Chrome浏览器 ：Chrome插件下载 - Firefox浏览器 ：Firefox插件下载 注意 ：油猴版本由于功能限制后续不维护，chromium内核浏览器推荐采用插件版 1. 浏览器插件版 ：安装完成后，点击插件图标完成设置 2. 油猴脚本版 ：安装完成后，进入B站视频页面，点击右下角
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: ad-detection, adguard, bilibili, extension, extension-chrome, jev
+
+---
+
+### 🌟 [fast_vector_similarity](https://github.com/Dicklesworthstone/fast_vector_similarity)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 430
+- **核心概述**: Rust 中具有 Python 绑定的高性能向量相似性库：Spearman、Kendall、距离相关、Jensen-Shannon、Hoeffding's D 和自举置信区间
+- **大概是做什么的**: 快速向量相似度库 快速向量相似度库是一个基于 Rust 的高性能工具，用于有效计算向量之间的相似度度量。它非常适合数据分析、机器学习和统计任务，其中比较向量至关重要。该库现在包括多种高级措施、性能优化和 Python 绑定，允许与 Python 工作流程无缝集成。该库实现了一系列经典和现代的相似性度量，包括： 1. Spearman 的排名相关性 (spearman rho) 2. Kendall 的 Tau 排名相关性 (kendall tau)（针对大型数据集的更快计算进行了优化）3. 近似距离相关性（近似距离相关性）（矢量化以提高速度和准确性）4. Jensen-Shannon 依赖度量 (jensen)香农依赖性测度）（为改进依赖性测量的实用性而修订） 5. Hoeffding's D Measure（霍夫丁 d） 6. 归一化互信息（normalizedmutual information）（新引入用于分析变量依赖性） Bootstrapping 技术
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: embedding-vectors, llm, similarity, vector, vectorsearch
+
+---
+
 ## 🕔 2026-11-25 22:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 291 个候选项目中筛选出 6 个未推荐过的新项目。
