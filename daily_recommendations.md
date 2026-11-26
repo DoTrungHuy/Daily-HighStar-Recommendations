@@ -1,3 +1,67 @@
+## 🕔 2026-11-26 13:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [Janus](https://github.com/janus-sh/Janus)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 6,556
+- **核心概述**: A free coding agent in your terminal. It runs on the smartest free model that is up today.
+- **大概是做什么的**: A free coding agent in your terminal. It reads your code, edits files and runs commands, like the paid ones. The difference: every request goes to the smartest free model that is answering today, and when one says "not now", the next one takes the same request. You pay nothing. Needs Node.js 22.19 or newer. Janus asks for at least one free key. Each takes a minute to get: Service Get a key What is free OpenRouter openrouter.ai/keys about a dozen free models; 50 requests a day, 1000 after a one-time $10 top-up Google Gemini aistudio.google.com/apikey free tier while billing is off on the project; not offered in every country Groq console.groq.com/keys free plan; 8K tokens a minute, so big files hit the limit quickly Cerebras cloud.cerebras.ai not free any more: a $5 trial for 30 days, and it asks for a card. Optional Start with OpenRouter. More keys mean more free requests a day and more models to fall back on. Change keys any time with janus setup . Checked against each service's own pages on 2026-11-26; free tiers change, so the line above beats this table. - Janus keeps a ranked li
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agent, claude-code-alternative, cli, coding-agent, free-models, llm
+
+---
+
+### 🌟 [manju-laoli-skill](https://github.com/lixiaoxiao9888-create/manju-laoli-skill)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,196
+- **核心概述**: 🎬 漫剧老李 · AIGC 短剧/漫剧全流程 Skill（V8.2.0-SLIM）｜1 总控 + 10 子技能 · 四层纵深：五道锁 + I 画风锁 → 剧本 → 资产 → 文武三轨分镜 → 七段式投喂 → C1~C41 质检。53 份规则库 · 场景五宫格 · 站位方案 C+/C++ · 三大打戏引擎 · Seedance 2.5/2.0 · 素材形态 M0/M1/M2（不持有图）。测试版，二次修改整合开源内容。
+- **大概是做什么的**: 🎬 漫剧老李 · AIGC 短剧 / 漫剧全流程 Skill 把「一句话需求」变成「能直接投喂的成片提示词」 V8.2.0-SLIM 精简套装版 · Short-Drama Director Suite 1 总控 + 10 子技能 · 四层纵深 · 53 份规则库 · 机检 C1 C41 · Seedance 2.5 / 2.0 ① 立项锁 ② 剧本 ③ 资产 ④ 分镜 ⑤ 投喂 ⑥ 质检 :---: :---: :---: :---: :---: :---: 五道锁 + I 画风锁 六阶段门控 + 圆桌 先锁后拍 · 五宫格 文武三轨 · 故事板 七段式 + 接线单 C1 C41 + G1 G8 版本 ：V8.2.0-SLIM 精简套装版（Suite）· 在全量版基础上 删去海外剧剧本（ sd-overseas-engine ）与解说叙事（ sd-jieshuo-engine ）两条赛道及〇·0 赛道分流锁 ，其余判据一条未改。改动与验收记录见 short-drama-director/CHANGELOG.md 。 一套 给 AI 助手执行的 AIGC 全流程创作规则库 （OpenClaw Skill / Agent 技能包）。不是一份长提示词，而是一套 可路由、可挂载、可机检 的导演系统： 1 个总控 （ short-drama-director ）+ 10 个子技能 （ sd- -engine ）， 四层纵深 。 核心理念 ： 用户看到 5 个问题，AI 内部跑 100 条规则。 用户只回答「① 做什么 ② 从哪来 ③ 用什么模型 ④ 什么画幅 ⑤ 要什么结果」——锁、路由、子技能挂载、机检全部由总控内部完成， 不需要手动调用任何子技能 （但五道锁必须弹出来让你勾）。 人设/场景一镜一变 Asset-First：角色 / 场景 / 道具 先锁定再进分镜 ，CHR/AUD/PRP/SCN 台账 + 空间坐标复述 跨镜、跨段、跨集不漂移 生成完才发现不能投 五道前置锁 + 投喂必查清单 + P0 P2 门禁 + 稿件级机检 C1 C41 错误拦在生成之前，少烧算力 拼不出可投喂的稿 输出 七段式 结构化提示词 + 《素材接线单》，整组复制即喂 从「想法」到「能跑」零改写 🔑 本包不持有图 ：交付的是「 提示词 + 接线说明书 」。图由你在即梦 / Seedance / 豆包等平台自行生成并持有。素材按 存在形态 分三档： M0 纯提示词 / M1 编号占位（默认）/ M2 已入库 ， 每次交付首行声明形态 。 管线与题材解耦，凡「 剧本 → 分镜 → 视频
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai, ai-agent, ai-video, llm, openclaw, prompt-engineering
+
+---
+
+### 🌟 [artideck](https://github.com/Innei/artideck)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 955
+- **核心概述**: Artideck — Artifacts for coding agents, made to decide with you. Your agent draws artboards, design docs, whiteboards, decks, and verify reports; you pick, comment, and pass right on the page.
+- **大概是做什么的**: Ryugi (流儀) — Interactive Artifacts for Coding Agents ryoo-ghee · [ɾʲɯːɡʲi] · Japanese for “a school's own way of doing things” Interactive artboards, design docs, whiteboards, HTML benches, slides, data reports, video storyboards and verify reports for coding agents. Your agent draws its options instead of describing them in Markdown. Pick, comment and send feedback straight back to your agent session. Ask an agent for a settings page and you get three paragraphs describing three layouts. Ask for a design and you get a wall of Markdown you can't point at. Ryugi gives the agent pages to put that work on, and gives you a way to answer on them: - Artboard — every option drawn side by side; pick one. - Document — a design doc with the agent's questions inline; comment on any sentence. - Whiteboard — boxes and arrows you both draw on. - HTML — one page with real sliders to tune a component or a motion. - Slides — a deck the agent writes and you present, with your notes on a second screen; fix - Report — charts and tables drawn from scripts that read your real data; refresh for new - Story
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, artboard, artideck, artifacts, brainstorming
+
+---
+
+### 🌟 [LixAssistantLimbusCompany](https://github.com/HSLix/LixAssistantLimbusCompany)
+- **项目语言**: Python
+- **星标数量**: ⭐ 1,344
+- **核心概述**: LALC，PC 端 LimbusCompany 小助手，为美好的游戏体验献上祝福！| A one-click tool for the daily tasks of Limbus Company. Avoid Boredom and Enjoy the Game!!!
+- **大概是做什么的**: LixAssistantLimbusCompany English (Google Translate) “为了稳妥起见，也为了约束你，在那之前，我会向你下达最后的一个命令。这道命令将如底层规则一般，永远烙印在你的代码之中。”\ 你将显化于世，驱 Bug 除错，救 Work 扬善。 ——改编自《神秘复苏》（Adapted from Mysterious Revival） LixAssistantLimbusCompany（LALC）是运行在 Windows x64 上的《边狱公司》自动化助手。自 2023 年 7 月 10 日立项以来，就一直想把游戏里的重复操作交给工作流，让大家有更多时间看喜欢的剧情，也有更多时间留给家人和自己的生活。 LALC 免费开源，仅供学习交流。如果你付费购买了 LALC，请向销售方申请退款。项目图标的素材来自网络，权利归原权利人所有。 - 按工作流运行任务。 导入分享包即可安装工作流、识图素材和配套配置页。能运行哪些任务、能调整哪些设置，由所选的工作流和页面决定。 - 随时接管。 在首页启动、暂停或停止任务，也可用 Ctrl + Alt + P 暂停，把游戏操作交回自己手里。注意任务执行中的键鼠的活动可能会自动等待或暂停。 - 回看现场。 运行记录保留失败步骤、错误详情和可用截图，方便定位问题和反馈。不会看也没关系，主要是给 Agent 看的。 - 可选的 AI 修复。 无需配置 Agent 就能运行已有工作流。即使启用了 User Agent，正常运行也不会调用模型。只有工作流无法自行恢复、且满足自动修复条件时，Agent 才会尝试介入。修复如何复用、官方资源包如何更新，见常见问题（FAQ）。 - 在开发者面板自定义工作流和配置页面。 你可以主动和 Agent 对话，说明希望自动执行哪些操作、按什么步骤执行，以及配置页面需要提供哪些选项，让 Agent 协助编写或修改。 - 应用内更新。 首页提供发行公告、检查更新和更新安装入口。 - GitHub · 在 Releases 选择带版本号的 Windows x64 ZIP。全部解压后打开 LALC.exe 。 - 只想运行工作流 · 下载 -without-agent.zip 版就够了。无需安装 Agent，也无需配置模型服务。工作流有更新时，下载并导入新版官方资源包即可。 - 想尝试 AI 修复 · 下载 -with-agent.zip 版，包内已带运行 Agent 所需的 pi。按用户指南配置模型服务并启用 User Agent。 - Mirror 酱 · 已有 CDK 的玩家可
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, auto, limbus, limbuscompany
+
+---
+
+### 🌟 [signet](https://github.com/therandomsecurityguy/signet)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 227
+- **核心概述**: The seal of approval for agents and skills: a graph-first semantic governance registry with signed, transparency-logged publication trust.
+- **大概是做什么的**: The seal of approval for agents and skills. Signet is a graph-first semantic governance system for autonomous agents and computational skills. Most registries are catalogs: metadata in, search out. Signet governs meaning, release state, and evidence — and stamps every trusted publication with the proof to back it up. What makes it different: - Logical identity ≠ publication snapshot. Durable AGENT / SKILL identities are separated from immutable AGENT VERSION / SKILL VERSION snapshots, with real lifecycle semantics: supersession, revocation, - Five-layer validation, not single approval. Every version passes W3C SHACL graph-shape and policy validation, ontology validation, advisory LLM semantic analysis, and human review before it can be certified — with machine-readable evidence stored at each layer. - Cryptographic trust, not vibes. Publication envelopes are canonicalized twice — operational JSON (RFC 8785 JCS) and semantic RDF (RDFC-1.0) — digested, and signed with detached signatures verified against trusted keys. Tampering is detected, not hoped away. - Transparency-logged governa
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-registry, ai-agents, governance, mcp, provenance, signet
+
+---
+
+### 🌟 [opengame](https://github.com/nexu-io/opengame)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 396
+- **核心概述**: The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.
+- **大概是做什么的**: The First Super Game Agent — Open-Source Full-Stack AI Game Studio Quick Start · Agents · Playable Templates · Why OpenGame · Publish &amp; Monetize · Setup &amp; MCP · Community English · 简体中文 · 日本語 Introducing OpenGame OpenGame is the first open-source Super Game Agent — turning DeepSeek (DSH) , Claude Code , Codex , or any of your local coding agents into an AI Unreal Engine / Unity and full-stack game studio. Go from a single idea to AAA-grade 3D worlds or monetization-ready viral mini-games in one end-to-end pipeline. - 🚀 Build AAA-Grade 3D Games with Your Agent. Drive full-stack 3D gameplay, art, music, and voice straight from DeepSeek (DSH) , Claude , Codex , or Gemini — from one prompt to playable 3D action, racing, and open-world games. - 🎮 One-Click Remix & Re-style Any Game. Start from 25 built-in playable templates (3D, voxel, anime, pixel & 9:16 hits) with full editable source — keep proven mechanics while swapping characters, worlds, and art styles in minutes. - 💰 Build Games That Earn: Create → Verify → Monetize. Automated logic checks, balance simulation, headless
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, ai-game-generator, claude-code, codex, deepseek
+
+---
+
 ## 🕔 2026-11-26 03:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 171 个候选项目中筛选出 6 个未推荐过的新项目。
