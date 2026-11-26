@@ -1,3 +1,67 @@
+## 🕔 2026-11-26 23:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 279 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [skills](https://github.com/AlphaGBM/skills)
+- **项目语言**: Python
+- **星标数量**: ⭐ 3,176
+- **核心概述**: Claude Code 和 Cursor 中用于股票分析、期权研究和金融研究的开源 AI 代理技能。明确的数据、访问和使用限制。
+- **大概是做什么的**: 用于 Claude Code、Cursor 和兼容工具中的股票分析、期权研究和金融研究的开源 AI 代理技能。研究股票。比较期权策略。了解新闻。分解研究。审查投资决策。网站·中文·目录·演示·访问和使用·从这里开始·讨论·报告问题这里是新的？在没有帐户的情况下检查综合股票研究输出，然后按照安装指南进行操作。此示例不是实时市场数据。免费安装；帐户支持的请求具有单独的访问和使用限制。示例分数 74 是说明性的，而不是 74% 的胜率。研究分数不是胜率或买/卖信号；安装不会解锁 Alpha Agent 或添加研究配额。 28 项技能 · 5 项核心技能 + 23 项重点技能 类别/分类 计数/数量 计数包括方法引用包，而不仅仅是可调用的 API。目录保存了每个包的访问和发布状态；预览并不意味着已验证生产可用性。从您需要的结果开始 核心技能 您收到的内容 套餐 股票机会
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, commodities, cursor, finance
+
+---
+
+### 🌟 [LongLive](https://github.com/NVlabs/LongLive)
+- **项目语言**: Python
+- **星标数量**: ⭐ 2,913
+- **核心概述**: 代理、机器人、可转移、非原生、交互式长视频生成
+- **大概是做什么的**: 代理、机器人、可转移、非原生、交互式长视频生成 用于长视频生成的异步代理内存。通过在实时生成器旁边运行的 LLM 记忆代理，使长互动故事和机器人视频中的人物、物体和地点保持一致。论文·代码·项目页面·视频长上下文世界动作模型。训练和评估机器人策略、生成机器人视频或部署在 YAM、Franka 和 Unitree G1 上。论文 · 代码 · 项目页面 · 视频 视频生成的一次性蒸馏。在基础模型上提取一次功能，然��在下游模型中重复使用它，而无需重新训练。论文·代码·项目页·视频 用于长视频生成的 NVFP4 并行基础设施。利用 NVFP4 量化和序列并行性快速训练或服务长视频模型。论文·代码·项目页面·视频实时交互式长视频生成。输入提示并观看实时出现的长视频，并随您操作。论文 · 代码 · 项目页面 · 视频 单击缩略图可在 YouTube 上观看概述视频。每个项目都是独立的
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent, infra, long, nvfp4, parallel, real-time
+
+---
+
+### 🌟 [mails](https://github.com/chekusu/mails)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 370
+- **核心概述**: 代理的电子邮件。专为需要以编程方式发送、接收和理解电子邮件的 AI 代理而构建
+- **大概是做什么的**: 面向 AI Agent 的邮件基础设施。通过编程方式收发邮件。 English 日本语 中文 - 发送邮件 — 多 provider 链：Cloudflare Email Service（原生 env.EMAIL.send() binding，公开 beta）与 Resend 互为兜底，默认顺序 cloudflare,resend ，通过 EMAIL PROVIDERS 覆盖 - 接收邮件 — 通过 Cloudflare Email Routing Worker - 搜索收件箱 — 按关键词搜索主题、正文、发件人、验证码 - 验证码自动提取 — 自动从邮件中提取验证码（支持中/英/日/韩） - 附件 — CLI --attach 或 SDK 发送，Worker 自动解析 MIME 附件 - 存储 Provider — 本地 SQLite、db9.ai 云端 PostgreSQL、或远程 Worker API - Provider 可见性 — /api/send 响应与 /api/inbox 的 outbound 行携带 provider 字段（ cloudflare / resend ），知道是谁真正投递的 - 零运行时依赖 — provider 全部走 Workers binding 或原生 fetch() ，不引 SDK - 托管服务 — 通过 mails claim 免费获取 @mails.dev 邮箱 - 自部署 — 部署自己的 Worker，并使用 mailbox 级 token 鉴权 CLI 最多每 24 小时检查一次 npm；发现新版本时，会在 stderr 打印升级提醒。可用 MAILS NO UPDATE CHECK=1 关闭（设置 NO UPDATE NOTIFIER=1 或 CI=1 时也会跳过检查）。 无需 Resend key — 托管用户每月 100 封免费发件。无限发送请配置自己的 key： mails config set resend api key re YOUR KEY 高级查询能力（附件 / 发件人 / 时间 / 邮件头过滤，以及发件人统计）目前仅通过 mails.dev 托管 HTTP API 提供，尚未接入 mails CLI 或 SDK。详见 docs/advanced-query-api.md。 验证码输出到 stdout，方便管道使用： CODE=$(mails code --to agent@test.com) 从 Worker（托管或自部署）拉取邮件到本地 SQLite。适用于离线访问或本地备份。 worke
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, cli, mail
+
+---
+
+### 🌟 [Jeeves](https://github.com/ChrisVip001/Jeeves)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 104
+- **核心概述**: Jeeves——本地优先的个人助理，负责复杂、持久、可验证的工作。
+- **大概是做什么的**: Jeeves — 您的私人助理 用您自己的话告诉 Jeeves 您需要什么。它可以回答一个简单的问题、比较当前价格、改进程序或承担运行数天的任务。它可以将非正式请求转化为明确的结果，并在对话中带回结果，无论是来源比较、文件、测试代码还是授权操作的收据。对话如何进行 云用户通过一个 Go 网关登录。当您起草第一个作业时，可以启动一个新的工作区。 Rust 运行时隔离每个租户的任务和数据。只需使用 local-up 在本地浏览器中运行源安装。架构 · 统一网关 · 托管部署 选择工作区、分配或跟进任务，并在对话中查看批准情况。任务收据显示该运行中批准或拒绝了哪些操作。该菜单打开帐户、设备和连接管理。工作台指南 通过公钥配对设备并通过设备协议撤销其授权。驾驶舱的全局紧急停止在重新启动时冻结托管任务浏览器
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agent-framework, ai-agent, evals, json-rpc, llm
+
+---
+
+### 🌟 [OpenKeylet](https://github.com/omaekumiko2-create/OpenKeylet)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 136
+- **核心概述**: OpenKeylet — 通过 MCP 为 AI 代理提供本地密码和凭证管理器。使用密码、API 密钥、SSH 和 TOTP，同时默认将隐藏的明文保留在模型上下文之外。
+- **大概是做什么的**: 用于 AI 代理的本地优先加密密码库、密钥管理器和零明文 stdio MCP 凭证中继。   ·     ·     ·     ·     ·     ·     ·   反馈和讨论   ·   OpenKeylet 将您的个人本地密码管理器与现代 AI 编码和终端代理连接起来 — 为 Antigravity、Claude Code、Codex、Cursor、DeepSeek Harness 和 OpenCode 提供一键式本地设置。当代理需要通过 SSH 连接到服务器、调用经过身份验证的 API、呈现 .env 秘密模板、填写浏览器登录或结帐表单或使用 WebAuthn Passkey 登录时，OpenKeylet 会在您的计算机上本地执行凭证步骤 - 使日常代理工作流程变得轻松，同时将隐藏的明文排除在 LLM 上下文、模型代理和聊天日志之外。长期维护的开源项目：OpenKeylet 是一个免费、积极且长期维护的开源社区工具（MIT，按原样提供，没有正式的安全保证
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai-agents, ai-security, api-key-management, claude-code, codex, credential-manager
+
+---
+
+### 🌟 [_Book_k8sInfra](https://github.com/sysnet4admin/_Book_k8sInfra)
+- **项目语言**: Shell
+- **星标数量**: ⭐ 503
+- **核心概述**: < 适合当今开发者的 Kubernetes/Docker >
+- **大概是做什么的**: 🔔 注意 1（正在进行中）：在某些版本中，包括 macOS 26.7 及更高版本，如果您按照本书创建安装了 Vagrant 2.4.9 的虚拟机，则 SSH 端口会更改为与 Vagrantfile 中指定的数字（cp-k8s 为 60010）不同的数字（2250 等），因此您无法通过 Tabby 连接到虚拟机（Windows 和 Linux 不受影响。无）。您可以在第 48 期中查看这两个解决方案、需要遵循的事项以及进度。该存储库为现代开发人员提供了 Kubernetes/Docker 实践书籍的代码。直接在 Vagrant 创建的虚拟机上配置 Kubernetes 集群，练习 Docker、Harbor、Jenkins、Prometheus、Grafana 产品线。第 7 章介绍了操作员模式、开放遥测、Argo CD 和 Argo 推出，甚至小型 LLM。 ------ ---- ----------- ch2 配置测试环境 Vagrantfile 和配置脚本，用于创建虚拟机、VirtualBox、Vagrant 和 Tabi 用于 macOS 的安装文件 ch3 处理容器的标准架构、Kubernetes Kubernetes 集群配置文件和工作负载、服务（节点端口、负载均衡器、网关）、存储、HPA 实践文件 ch4 形成 Kubernetes 的容器助手、使用 Docker 和 Harbor 四种方法构建镜像的示例、Harbor 注册表配置脚本、第 3 章使用的镜像来源ch5 持续集成和部署自动化、Jenkins 定制和 Helm 示例、使用 Helm 安装 Jenkins 的脚本、Freestyle 和 GitOps 练习文件 ch6 监控完成稳定运行、Prometheus 和 Grafana 产品线 Prometheus、Grafana、Alert Manager 安装脚本和仪表板、Loki、Tempo 和 Pyrscope 练习文件 ch7 扩展容器基础设施工具的使用、综合第 7 章的集群配置文件、Headlamp、Psyllium 网络策略、 Prometheus Operator、OpenTelemetry Collector、Argo CD 和 Argo Rollout、小型 LLM 练习文件 app/A.console-k8s 附录 A. Kubernetes 控制台节点 用于在集群外部使用 kubectl 执行命令的控制台节点 app/B.De
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: argo-rollouts, argocd, bluegreen-deployment, cilium, docker, gateway-api
+
+---
+
 ## 🕔 2026-11-26 13:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 275 个候选项目中筛选出 6 个未推荐过的新项目。
