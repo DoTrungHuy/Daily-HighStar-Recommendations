@@ -1,3 +1,67 @@
+## 🕔 2026-11-27 14:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [f-ck_data_brokers](https://github.com/gary23w/f-ck_data_brokers)
+- **项目语言**: Python
+- **星标数量**: ⭐ 536
+- **核心概述**: fck_data_brokers.py 是一个免费的开源 Python 脚本，它代表您向数据代理发送选择退出和删除请求。
+- **大概是做什么的**: f ck data brokers.py “今天很有趣：今天早上我正在与一些卑鄙的数据经纪人打交道，试图删除我的一个好朋友的信息，但他们不会这么做。无论我尝试什么。我感觉太糟糕了！我只想伸手穿过屏幕，打他们的脸。好吧，数据经纪人先生，这是我伸手穿过屏幕，打你的脸。享受 f ck databrokers.py”我删除来自数据经纪人的人们的数据。这是我主要的兼职工作之一，这是一次疯狂的旅程。我想做的就是帮助人们。在人工智能的世界里，这几乎是不可能的。从我的角度来看，自 GPT-4 推出以来，数据经纪人的产量已提高了近 1000 倍。每个爬虫都变得更聪明，每个个人资料都变得更丰富，每个“人物搜索”网站都有一百个表兄弟。然后我突然意识到：我没有一万亿美元。根据我的粗略估计，这就是正确且自动地为他们清理每个人的数据所需的计算成本。我无法为所有人做到这一点。我厌倦了每个人所经历的一切。所以这是我的回应：f ck data Brokers.py
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: ccpa, cli, data-brokers, data-deletion, gdpr, lgpd
+
+---
+
+### 🌟 [moa-plus](https://github.com/Burns1028/moa-plus)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 318
+- **核心概述**: DeepSeek Harness 的多智能体协作插件，支持智能体持续工作、共享知识、直接通信和独立审查。 Multi-agent collaboration for DeepSeek Harness: persistent agents, shared knowledge, direct communication, and independent review.
+- **大概是做什么的**: DeepSeek Harness 的多智能体协作插件，支持智能体持续工作、共享知识、直接通信和独立审查。 DeepSeek Harness 的多智能体协作：持久智能体、共享知识、直接沟通和独立审查。通过代理协作推进智能。观看两个 Worker 一起构建 CLI，直接交换消息，并将人工更改返回给 Coordinator。观看 MP4 · 重现此任务。新记录在原生 DSH 界面中，重新审视已完成的真实团队任务。记录细节。 MoA+ 是 DeepSeek Harness 的 Mixture of Agents 协作插件。它通过独立的上下文、直接通信和共享知识连接持久代理，目标是扩展整个系统可以共同完成的任务。协调员始终关注目标和总体方向。员工在自己的对话中进行调查、构建、挑战和审查，并为下一个任务做好准备。团队可以探索不同的方法，并行工作，并将其发现应用到以后的任务中。快速入门 · 工作原理 · 演示 · [文档][角��] 本页文档
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, deepseek, deepseek-harness, dsh-plugin, mixture-of-agents
+
+---
+
+### 🌟 [RepoWiki](https://github.com/he-yufeng/RepoWiki)
+- **项目语言**: Python
+- **星标数量**: ⭐ 312
+- **核心概述**: 开源 DeepWiki 替代方案 — 从终端或浏览器为任何代码库生成全面的 wiki 文档
+- **大概是做什么的**: 现场演示 · 快速入门 · 工作原理 · 为什么选择 RepoWiki？ · 中文 开源 DeepWiki 替代方案 — 从您的终端或浏览器为任何代码库生成全面的 wiki 文档。现场演示是 RepoWiki 吃自己的狗粮：这个 repo 的 wiki，由 repowiki scan 生成。 --site 并由 GitHub Pages 提供服务。 DeepWiki deepwiki-open RepoWiki --- --------- -------------- ------------- 仅部署 SaaS Docker Compose pip install repowiki 本地存储库 No No Yes CLI No No Yes Web UI Yes Yes Yes 仅导出 Web 仅 Web Markdown / JSON / HTML 阅读指南 No No PageRank + 引导路径 终端问答 No No repowiki 聊天 依赖项 N/A Docker + PostgreSQL Python + SQLite RepoWiki 在扫描期间尊重 .gitignore 和 .repowikiignore。默认情况下，它还会跳过常见的本地秘密文件，例如 .env 、 .env.local 、 .npmrc 、 .pypirc 和 SSH 私钥。 - 结构化 wiki — 项目概述、每个模块文档、带有美人鱼图的自动检测架构以及 PageRank“从这里开始”阅读路径。 - 交叉链接页面：与另一个 wi 匹配的反引号符号或文件路径
+- **有什么用**: 适合用于大语言模型应用开发、知识库问答、聊天机器人或 Prompt/RAG 工作流参考。
+- **技术标签**: cli, deepwiki, documentation, llm, pagerank, python
+
+---
+
+### 🌟 [tarobird](https://github.com/cloveric/tarobird)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 297
+- **核心概述**: Codex、Claude Code、DeepSeek 和您计算机上的其他代理 CLI 一起集成在一个桌面和移动 IM 中。使用专为普通人打造的人工智能代理进行工作和氛围代码。在您的手机上恢复 CLI 会话。 12 并排聊天。多机器人组和工作流程。目标分解为任务。机器人互相发送消息。计算机加入一个专用网络。
+- **大概是做什么的**: 您的人工智能代理，在您自己的计算机上运行。在桌面和电话上进行相同的对话。 Codex · Claude Code · Kimi Code · DeepSeek Harness · Antigravity · Pi · oh-my-pi (omp) iOS App Store  ·  iOS TestFlight beta  ·  快速入门  ·  连接选项  ·  详细信息  ·  https://github.com/user-attachments/assets/6cd6e2a9-92c9-47e5-96f1-8b0a02df69a7 57 秒产品概述 · YouTube · 动画概述 TaroBird 是一个用于 AI 代理的自托管工作区。它将在您的计算机或服务器上运行的命令行代理（例如 Codex 和 Claude Code）引入单一对话界面：分配任务、回答问题、跟踪每次运行并从桌面或电话接收可��付成果。机器人、对话和文件保留在您自己的主机上。本机引擎 运行官方 CLI 并保留每个引擎的本机代理功能。桌面和手机 macOS、Windows 和移动设备共享相同的机器人和对话，因此工作可以在任何地方继续进行。多主机网络 每台计算机都通过自己的机器人加入您的专用网络。团体和协作
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-orchestration, ai-agents, ai-assistant, antigravity, claude-code, codex
+
+---
+
+### 🌟 [antigravity-chinese](https://github.com/yiheng8023/antigravity-chinese)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 318
+- **核心概述**: Google Antigravity 全生态中文本地化套件 | Universal Chinese localization suite for Google Antigravity ecosystem (Desktop 2.0, IDE & Extensions, CLI, Plugins).
+- **大概是做什么的**: Google Antigravity 中文本地化工具 当前源码版本 v3.3.66 ，维护目标为 Antigravity App 2.35.2 / VS Code 扩展 1.13.0 。本版补齐免费和 Ultra 账户提示、旁路提问、Swarm、Google Drive 与下载目录文案，并修复 Remote SSH 的面板加载及 Linux 的扩展目录探测。 这是社区开源项目，提供桌面客户端与 VS Code 扩展的本地中文补丁、备份还原，以及可选的中文交互插件。Google 官方及合作伙伴目录中已核实的短介绍，在市场、精选、已安装、详情和设置中复用同一译文。插件名、发布者提供的命令与技能说明、自定义内容和未匹配的完整字段按原文显示。界面与安装验证见 2.35.0 维护记录。Linux 便携路径支持见 Linux 便携安装维护记录。 VS Code 扩展更新会覆盖本地汉化。更新扩展后请重新执行 node cli.js install:vscode ，再重新加载 VS Code 窗口。 Antigravity App ASAR preload、原生菜单和弹窗文本补丁；版本备份与还原 Windows x64 2.35.2 安装、重复安装、还原、外置文件核验及部分界面实测。Linux x64 2.33.0 的安装验证见便携安装记录 VS Code 扩展 清单、原生菜单和通知翻译、Webview 本地代理、独立备份/还原 Windows 1.13.0 安装、重复安装、还原与界面检查见 1.13.0 维护记录 社区中文插件 中文交互规则与维护诊断技能 可选安装；不代表 Google 官方插件 独立 IDE、其他 IDE 扩展 尚无专用汉化安装器 不声明已适配 Antigravity CLI 保留官方原生行为 不修改 CLI 二进制或终端界面 本轮桌面 2.35.2 的实测范围是 Windows x64。语音、远程智能体等官方灰度功能以实际账号开放情况为准。静态检查与候选字符串匹配均不代表整个上游产品的翻译覆盖率。 需要 Node.js =18 及 npm/npx。首次安装开发依赖或 ASAR 工具可能需要联网。先保存工作并正常退出客户端，再在仓库目录运行： install 自动检测桌面客户端及 VS Code 扩展，处理已安装的组件。Windows 可双击 install.bat ；macOS/Linux 可运行 bash install.sh 。这两个脚本还会安装可选的社区中文插件。 macOS 桌面更新。 汉化安装器会对应用进行本地临时签名（ad-hoc）。在 App
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, antigravity, antigravity-ide, chinese, electron, electron-patch
+
+---
+
+### 🌟 [mydb](https://github.com/yzsind/mydb)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 239
+- **核心概述**: 用于 HTAP 和 AI 代理的高性能 MySQL 兼容数据库混合事务和分析工作负载，具有本机 AI 检索。
+- **大概是做什么的**: 用于 HTAP 和 AI 代理的高性能 MySQL 兼容数据库混合事务和分析工作负载，具有本机 AI 检索。 MyDB 是一个用 Rust 构建的通用数据库，用于 HTAP（混合事务/分析处理）、AI 代理和 MySQL 兼容性。它专为混合工作负载而设计，将事务读取和写入与对相同业务数据的分析查询结合起来。本机全文和向量检索以及外部模型调用通过应用程序可以重用 MySQL 客户端和驱动程序来扩展这些工作流程，而本机 REST 和 MCP 接口使服务和代理可以直接访问同一引擎。自动区域地图、在线模式更改和可直接查询的备份减少了调整访问、发展数据结构和检查早期数据所需的工作。 MyDB 1.0.3 是一个公共预览版，旨在用于功能验证和受控环境评估。有关更改和升级要求，请参阅 1.0.3 发行说明。核心优势 它能为您提供什么 专为 AI 代理而构建 原生向量、混合检索、SQL 模型调用以及
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, data, database, mysql, rag, rust
+
+---
+
 ## 🕔 2026-11-27 04:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 265 个候选项目中筛选出 6 个未推荐过的新项目。
