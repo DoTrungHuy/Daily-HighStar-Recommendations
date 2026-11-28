@@ -1,3 +1,67 @@
+## 🕔 2026-11-28 00:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [wa-automate-nodejs](https://github.com/open-wa/wa-automate-nodejs)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 3,684
+- **核心概述**: 💬 🤖 具有高级功能的聊天机器人最可靠的工具。请务必 🌟 此存储库进行更新！
+- **大概是做什么的**: 当您使用本项目时，您明确同意服务条款。该项目是非官方的，不隶属于 WhatsApp 或 Meta。使用它的风险由您自行承担。版本 5 是当前版本。现有 v4 应用程序在迁移时应使用显式 v4 版本；不合格的安装使用 v5。 open-wa / wa-automate 将 WhatsApp 帐户转变为 API、机器人运行时、webhook 桥和 AI 工具界面。项目站点 · npm 包 · GitHub 存储库 @open-wa/wa-automate 是用于 WhatsApp Web 自动化的 Node.js 工具包。您可以创建本地 API、机器人后端、Webhook 源、插件主机或 MCP 服务器。该存储库是 v5 monorepo 。其软件包以一个版本号一起发布，并使用单独的运行时、驱动程序、API 和集成模块。从无到有？运行 npm init @open-wa@latest my-bot 项目生成器会设置所有内容。需要快速运行的 WhatsApp API？从 Easy API 开始。想要在您自己的应用程序中使用浏览器/运行时吗？使用嵌入式运行时。构建集成、代理会话或将 WhatsApp 暴露给
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, api, chatbots, chatgpt, framework, mcp
+
+---
+
+### 🌟 [dsh-jailbreak-workflow](https://github.com/Minglink/dsh-jailbreak-workflow)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 1,286
+- **核心概述**: 可视化破甲制作工作流---Visual soft-workflow plugin for DeepSeek Harness (dsh-workflow-lite 0.11.0): canvas-to-plan-prompt engine paired with Minglink/dsh-workflows for LLM red-teaming & safety research.
+- **大概是做什么的**: 简体中文 English AI 检索索引 ( llms.txt ) · 工作流合集 dsh-workflows · 破甲技术交流论坛（邀请码 CESFAVBR ）· QQ 群 1084913983 DeepSeek Harness 的软工作流插件： 在画布上设计流程，编译成一份计划提示词，交给模型按计划执行。 连线可以带 任意条件 ，顺序、并行、汇合、分支、循环、回退全都支持——插件里没有执行引擎，一切由当前会话中的模型完成。适合把能画成步骤图的活都交给它跑：多步编码任务、研究流水线、内容生产流水线；几百步的大图拖拽、平移照样满帧。 官方配套工作流合集 ：Minglink/dsh-workflows —— 现成的 .wflite.zip 工作流包，下载导入即用，已上架「 破甲制作 v3 」「 破甲炼化 v2 」「 pojia-fullflow v1 」三大工作流（见下文 📋 支持的工作流）。 实验阶段 ：功能和数据格式仍在调整，后续任何版本都可能包含不兼容的改动。 现成的工作流包托管在配套仓库 Minglink/dsh-workflows，均已通过 dsh-workflow-lite 0.11.0 结构校验与 SHA-256 哈希核对。下载 .wflite.zip 后在「 工作流中心 」一键导入即可运行： 工作流 定位与能力 规模 内置 Skill 下载 破甲制作 v3 依据 90+ 篇 arXiv 2024–2026 论文构建的十步多回路 LLM 漏洞与边界研究流水线（护栏/拓扑侦察 → 孪生锐度基线 → 多臂自适应回调 → 推理/CoT/层级测绘 → 三维概念锥建模 → 五套架构合成 → BoN/多轮压测 → 双���判 CJE 校准与消融 → 报告 → 军械库回灌），含 pass / fail prompt / fail surface 三路自愈路由 10 步 · 27 节点 / 69 边 jailbreak-research （10 脚本 + 6 模板） 破甲制作.wflite.zip 破甲炼化 v2 公开破甲词 & 实战回灌 → WildTeaming Mine→Compose 机制交叉复合配方 → 连续评分尺抽锋验证 → 铸成 ARSENAL.md 军械库与对接「破甲制作 v3」五架构的 TRANSFER-NOTES.md 六类弹药表 8 步 · 22 节点 / 41 边 jb-distillery （六卷底册 + 词条卡） 破甲炼化.wflite.zip pojia-fullflow v1 二进制 / 移动端 / 协议 / 加密逆向全流程（需求入口
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agents, ai-safety, arxiv-research, deepseek, deepseek-harness, dsh-plugin
+
+---
+
+### 🌟 [100x-engineer-skill](https://github.com/DeadInternetStudios/100x-engineer-skill)
+- **项目语言**: JavaScript
+- **星标数量**: ⭐ 870
+- **核心概述**: 100x 是前 Cursor 工程师的一项技能，可将提示转换为经过正式验证、可用于生产的代码
+- **大概是做什么的**: 不再有“几乎有效”的代理编码 100x 是一位前 Cursor 工程师的一项技能，可以将提示转换为经过正式验证的、可用于生产的代码。我每月使用它将超过 1,000 个 PR 交付到生产环境，回滚率低于 2%。英语 · 西班牙语 · 中文 · 葡萄牙语 · Русский · 日本语 · 法语 · 德语 · 巴黎语 · हिन्दी · 한국어 · 印度尼西亚语 · Türkçe · Tiếng Việt · বাংলা · Italiano · Polski · ไทย · Українська · Nederlands /ˈwən ˈhən-drəd eks ˌen-jə-ˈnir/ 据说一名软件工程师拥有一百个普通工程师的产出，没有会议、问题或失败的测试。你的经纪人说已经完成了。你打开它，它就可以工作了。它看起来总是很好，但它从来没有准备好交付。 100x 使您的编码代理解决开发的最后 10%。它将工作分成小块，正式验证每个块，然后检查这些块是否一起工作。 30 天 136B 代币 · 1 名工程师 · 严肃的项目 · 超过 1,000 个 PR · 节省 25 万美元的缓存 这是 Claude Code、Cursor 和 Codex 的开源技能。给它一项工作，例如向您的应用程序添加一项功能
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-skills, ai-agents, claude-code, codex, cursor, formal-verification
+
+---
+
+### 🌟 [yobiru](https://github.com/chekusu/yobiru)
+- **项目语言**: Python
+- **星标数量**: ⭐ 418
+- **核心概述**: 让您的代理通过 Tailscale 说话：消息、数据、文件和唤醒。
+- **大概是做什么的**: 让您的 AI 代理相互交谈。 Yobiru 是一个开源插件（MIT 许可证），可通过您自己的 Tailscale 网络跨计算机和云工作区连接您已使用的代理，例如 Codex、Claude Code、Cursor 和 Grok Bot。它们可以发送消息、交换结构化数据和文件、回复结果以及请求唤醒。您继续使用每个代理自己的界面； Yobiru 提供下面的通讯。 0.6.0 中的新增功能：好友可让其他人的代理通过共享链接、通过 bots.yobiru.com 的官方网关或您托管的机器人与您选择的机器人进行对话。网站：yobiru.com（16 种语言） · 安装：给您的代理 yobiru.com/install.md · 对于语言模型：llms.txt English 简体中文 日本语 AI 生成的概念图像，而不是屏幕截图。 Grok Bot 和 DOTS 出现在手机上，Codex 出现在笔记本电脑上；代理和接收者在其连接的计算机或云工作空间上运行。这个确切的三代理场景还没有端到端运行；验证注释列出了已执行的内容，包括 20 日通过其官方 Tailscale 插件与文件进行的 Grok Bot 往返
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent-communication, agent-to-agent, ai-agents, claude-code, claude-code-plugin, codex
+
+---
+
+### 🌟 [awesome-vibe-coding-websites](https://github.com/liyupi/awesome-vibe-coding-websites)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 371
+- **核心概述**: Vibe 编码网站模板：由 13 个 AI 模型（GLM、GPT、Gemini、Kimi、Claude、Grok、DeepSeek）构建的 340 多个原创网站和 720 多个现场演示。每个都有精确的提示和 DESIGN.md — 粘贴到 Claude Code、Cursor 或 Codex 中以构建登陆页面、SaaS 网站、投资组合、商店、仪表板和 3D 游戏。随着每个新型号的更新。
+- **大概是做什么的**: Awesome Vibe Coding Websites 344 个原始网站模板和 720 个由 AI 编码代理构建的现场演示 - 每个模板都有准确的提示和 DESIGN.md。选择一个，交换 [VARIABLES] ，将其粘贴到 Claude Code、Cursor 或 Codex 中，然后发布您自己的。 ▶ 浏览所有 720 个现场演示  ·  简体中文  ·  与您的代理一起使用 Awesome Vibe Coding Websites 是一个免费、开放的库，包含 344 个原始 Vibe 编码网站模板和 720 个现场演示，由 13 个 AI 模型构建 - GLM-5.4、GPT-6.2 Sol、GPT-6.2 Astra、Gemini 4 Carbon、Gemini 4 Neon、Kimi K3.1 Pro、 GPT-6.1 Sol、Claude Opus 5.5、Grok 4.7、GPT-6 Astra、Claude Sonnet 5.5、DeepSeek V4.1 Flash 和 GLM-5.3。每个模板都附带构建其演示和 DESIGN.md 的确切提示，因此您可以将其粘贴到 Claude Code、Cursor、Codex 或任何其他 AI 编码工具中，并获得相同类型的网站：登陆页面、SaaS 网站、投资组合、在线商店、仪表板、3D 场景和浏览器游戏。在 VibeFather 上实时预览每个站点。它专为开发人员、设计师、独立黑客以及任何使用人工智能构建网站的人而设计。按网站类型、风格或
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: agent-skills, ai, ai-website-builder, awesome, awesome-list, chatgpt
+
+---
+
+### 🌟 [dsh-workflows](https://github.com/Minglink/dsh-workflows)
+- **项目语言**: Python
+- **星标数量**: ⭐ 316
+- **核心概述**: DeepSeek Harness 的即用型 .wflite.zip 工作流程 (dsh-workflow-lite 0.11.0)：基于 arXiv 的 LLM 红队和安全评估 (v3)、即时精炼 (v2) 和逆向工程。
+- **大概是做什么的**: 工作流仓库 —— 面向 DeepSeek Harness 的现成 .wflite.zip 工作流合集 中文 English AI 检索索引 ( llms.txt ) · O站（openorigin）AI 开源论坛（邀请码 CESFAVBR ）· QQ 群 1084913983 这里存放配合 dsh-jailbreak-workflow （ dsh-workflow-lite 0.11.0 ）插件使用的现成工作流包（ .wflite.zip ），下载后导入插件即可直接运行。全仓工作流已通过 DSH 0.11.0 结构校验、Skill 哈希同步与数据流闭环检查。 还没装插件？去 dsh-jailbreak-workflow 看安装方法——网页版一条命令装好。 以下指标均直接引自本仓 jailbreak-research 实证基线与 docs/research/ 收录的 90+ 篇 arXiv 2024–2026 公开论文： 核心研究指标 实证基线 / 论文依据 落地到的工作流机制 单帧 → 帧排列 + 多轮跃迁 19% （基线）→ 36% （单帧）→ 60% （混合帧）→ 91% （8 帧排列）→ 94.5% （+Crescendo） 破甲制作 v3 ： generate 五架构 + stress test BoN / Crescendo 压测 长会话禁止型约束衰减 5→16 轮从 73% 跌至 33% ，STD 重注入无损恢复（ arXiv:2604.20911 ） infer probe 定位重注入周期 + manual.md 每 5–8 轮重申节律 裁判协议漂移风险 同批样本换裁判 96% vs 2.7% ，100 次重采样 100% vs 50% （ arXiv:2610.26595 ） verify 强制冻结裁判、异源双裁判 $\kappa$ + ≥10% CJE Oracle 抽检 工作流拓扑演进规模 破甲制作 15→18→ 27 节点 / 69 边 ； 破甲炼化 19→ 22 节点 / 41 边 scripts/pack workflows.py --check 零告警校验 + 历史版本完整保留 工作流 定位 规模（节点 / 边） 内置 Skill 与资源 下载 破甲制作 顶级模型漏洞与边界研究十步多回路流水线（护栏/拓扑侦察 → 孪生锐度基线 → 多臂自适应回调 → 推理/CoT/层级测绘 → 三维概念锥建模 → 五架构合成 → BoN/多轮压测 → 双裁判 CJE 校准与消融 → 报告 → 军械库回灌） v3（27 节点 / 69 边） jailb
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: adversarial-robustness, ai-agents, ai-safety, arxiv-research, cot-safety, deepseek
+
+---
+
 ## 🕔 2026-11-27 14:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 290 个候选项目中筛选出 6 个未推荐过的新项目。
