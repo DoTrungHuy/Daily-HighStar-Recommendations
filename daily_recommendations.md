@@ -1,3 +1,67 @@
+## 🕔 2026-11-28 10:00 UTC 高 Star 项目推荐
+
+> 🤖 每 5 小时精选一批高质量开源项目。本次从 274 个候选项目中筛选出 6 个未推荐过的新项目。
+
+### 🌟 [hex](https://github.com/anomalyco/hex)
+- **项目语言**: Rust
+- **星标数量**: ⭐ 8,973
+- **核心概述**: Local voice dictation for mac, windows and linux
+- **大概是做什么的**: Hex is local voice dictation for Mac, Windows and Linux. Hold a key, speak, and - hold the shortcut, speak, then let go - Hex transcribes on your device and pastes into whatever app you're in - the first run downloads a speech model; after that nothing leaves your machine - experimental features live in Labs, at the bottom of the sidebar - hold the shortcut to dictate, or set Shortcut mode to Tap to start and stop - the text lands at the cursor in whatever app you're in - Option-Shift-V pastes the last dictation again (Ctrl-Alt-V on Windows and Linux) - History keeps your dictations, searchable, for 7 days by default - Output runs every dictation through steps you choose (word replacements, built-in cleanups, your own scripts, an optional OpenCode rewrite), with different steps per app or website - Vocabulary is one list of names Hex should know; Whisper and Qwen3-ASR read it while transcribing, Parakeet models read it with Labs › Vocabulary help on, and the OpenCode rewrite uses it - Annotate records the screen while you draw and talk, on macOS, Linux and Windows (GNOME Wayland need
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: dictation, linux, local-first, macos, mcp, meeting-transcription
+
+---
+
+### 🌟 [godot-mcp](https://github.com/tugcantopaloglu/godot-mcp)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 530
+- **核心概述**: MCP server for full Godot 4.x engine control: 157 tools for AI-driven game development (GDScript and C#/.NET). Tested with Godot 4.7.
+- **大概是做什么的**: Godot MCP - Full Control A comprehensive Model Context Protocol (MCP) server that gives AI assistants full control over the Godot game engine. 159 tools spanning networking, 3D/2D rendering, UI controls, audio effects, animation trees, file I/O, runtime code execution, property inspection, scene manipulation, signal management, physics, project creation, and more. This project is built upon and extends godot-mcp by Solomon Elias (Coding-Solo). The original project provided the foundational architecture including the TypeScript MCP server, headless GDScript operations system, and TCP-based runtime interaction server. Thank you for making this possible with your excellent open-source work! What's New (Improvements Over Original) The original godot-mcp provided 20 tools for basic project management and scene creation. This fork extends it to 159 tools with the following major additions: Generated export workflows and Dockerfiles target Godot 4.7.2 stable by default. Pass godotVersion to either generator to build with a different engine version. For local exports, install the export temp
+- **有什么用**: 适合用于深度学习、CNN/Conv 算法、PyTorch/TensorFlow 模型训练和实验复现。
+- **技术标签**: ai, automation, csharp, dotnet, game-development, gdscript
+
+---
+
+### 🌟 [harness-maxxing](https://github.com/makushingu/harness-maxxing)
+- **项目语言**: Python
+- **星标数量**: ⭐ 300
+- **核心概述**: Self-hosted web control room for Claude Code: persistent sessions, memory, scheduled jobs, Telegram and voice on your own server. Free and fair source (source-available).
+- **大概是做什么的**: A self-hosted control room for Claude Code. Many persistent Claude conversations organised by project and topic, plus memory, agents, files, tasks, scheduled jobs, a Telegram bridge and a memory backup - installed on your own server with one command and configured from a guided web onboarding. Free and fair source (source-available). No key, no account: Run it as root on an Ubuntu or Debian server; details in Install below. Want to look around first? Open the live demo in your browser (fake data, nothing to install). - Claude Code, always on. Sessions live on your server, not in a terminal tab: close the laptop, continue from your phone or Telegram, and find everything where you left it. - It remembers. Each project and topic has its own CLAUDE.md and memory.md , loaded automatically and kept short by shipped skills. - It works while you are away. Scheduled jobs, agents with their own role and daily budget, webhooks and a - Your server, your account. It runs the official Claude Code CLI with your own Claude subscription or API key; your conversations and credentials stay on your serv
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, claude, claude-code, developer-tools, fair-source, fastapi
+
+---
+
+### 🌟 [RegisterHub](https://github.com/waw666waw666/RegisterHub)
+- **项目语言**: Python
+- **星标数量**: ⭐ 415
+- **核心概述**: 万能注册机模板 | Universal Auto-Registration Template
+- **大概是做什么的**: 零依赖可视化 Web 工作台 · 全自主流式 AI Agent · 工业级账号自动化注册框架 A zero-dependency Studio workbench, autonomous streaming AI Agent, and deterministic automation framework for universal account lifecycle workflows. 传统自动化脚本往往只有命令行黑框、硬绑死单个网站、或者强依赖一整套 Docker / 第三方收费打码接码平台。 RegisterHub 开源社区版 把整套生产级工作台做成 零 Docker、零 Node.js、纯 Python 标准库驱动 ，开箱即用： - 零外部依赖的桌面级 Studio 工作台 ：双击 run web.bat （macOS/Linux 运行 ./run web.sh ）或执行 python main.py --web --open ，服务就绪后自动拉起支持 暗色 / 浅色一键切换 与多套经典配色的全功能控制面板（ http://127.0.0.1:18886 ），内置原版 6 色半透明彩色玻璃视窗标定台 。 - 独立单屏「Token 消耗」全景看板（ /usage ）与永久小时账本 ： - 一级导航直达、桌面端锁定单屏零外层滚动，支持 24h / 近 7 天 / 近 30 天 / 全部 、 按日 / 按时 、 Token 量 / 参考费用 / 调用次数 与按渠道/模型双向交叉筛选； - 内置缓存读 / 直算入 / 缓存写 / 模型输出分层堆叠趋势图、缓存省流测算、 近 12 周 GitHub 风格日历热力图 、模型/渠道/会话多维排行、一键跳转调用日志与 CSV / JSON 导出； - 底层由跨进程原子写的永久小时账本（ results/llm usage hourly.json ）驱动，并支持按游标自动增量回填历史 llm calls.jsonl ，重启或日志滚动均不丢账；仪表盘同步呈现「近 7 日 LLM Token 消耗」KPI 卡片。 - 真能自主跑通新站的内置流式 AI Agent ： - 支持 OpenAI Chat / Anthropic Messages / OpenAI Responses 三协议真 SSE 流式输出，内置 Prompt Cache 前缀锁 、 按厂商原生能力自适应的思考强度条与渠道一键实测 （GPT-5 / Claude / Gemini / DeepSeek / Qwen / GLM）、实时 缓存命中率 / 首字延迟
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: ai-agent, anti-bot, automation, playwright, python, registration
+
+---
+
+### 🌟 [ai-engineering-cheatsheets](https://github.com/louisfb01/ai-engineering-cheatsheets)
+- **项目语言**: 多语言
+- **星标数量**: ⭐ 364
+- **核心概述**: Give you decision-ready references for the most common AI engineering problems
+- **大概是做什么的**: AI Engineering Cheatsheets By Louis-Francois Bouchard (X, YouTube, other AI resources) Goal: give you decision-ready references for the most common AI engineering problems. Open a cheatsheet, find your situation in the table, and follow the recommendation. Model and tool preferences are snapshots: November 2026 for the playbook and agent guide, October 2026 for the Anti-Slop guide's data (its model pick was rechecked in November 2026). Treat them as tested starting points, then validate them on your own workload. New book: AI Engineering For Production takes these cheatsheets further, from prompting, RAG, and evaluation to reliable agents and the harnesses around them. It's coming soon, in early 2027. Join the waitlist → Cheatsheet What you get AI Engineering Playbook Pick the right AI technique, model, effort level, modality workflow, prompting strategy, RAG setup, memory pattern, eval method, and production config. Agent Architecture and Operations Guide Decide between workflow, single agent, and multi-agent, then operate it with curated context, evidence stores, phased review, por
+- **有什么用**: 适合用来学习或搭建 AI Agent / 自动化智能体相关应用，也可以作为同类项目的技术参考。
+- **技术标签**: agent, agentic-ai, agentic-ai-development, agents, ai, ai-agents
+
+---
+
+### 🌟 [calends](https://github.com/imetn/calends)
+- **项目语言**: TypeScript
+- **星标数量**: ⭐ 112
+- **核心概述**: The settlement day for everything you subscribe to — a self-hosted, AI-native subscription ledger with multi-currency, shared plans, reminders and a built-in MCP server.
+- **大概是做什么的**: Track subscription charges, shared payments and prepaid balances on your own server. Overview and subscription timeline · Fictional demo data Billing and payment history Track what you pay, when it renews, and who owes you. Calends brings subscriptions, shared plans and prepaid balances into one private, single-owner ledger, with an optional read-only public page and AI access through MCP. - Flexible billing — monthly, yearly, custom cycles and lifetime purchases, with optional contract terms and renewal notices independent of billing, trials, intro prices, bonus periods, pauses, postpaid billing, separate bill/payment tracking, advance charging and cancellation deadlines. - Usage meters — track per-period usage or cumulative readings in any unit, with shared meters across subscriptions, usage metrics, aligned charts and usage in charge records. - Billing history — keep price, plan and region changes, gaps and overlapping subscriptions; upgrades can credit the unused part of the old plan. See total spent, actual monthly cost and every charge. - Transfers and split payments — count se
+- **有什么用**: 适合学习 MCP / 工具调用 / 上下文扩展相关生态，也可以作为 AI 工具接入的参考项目。
+- **技术标签**: cloudflare-workers, docker, mcp, multi-currency, personal-finance, react
+
+---
+
 ## 🕔 2026-11-28 00:00 UTC 高 Star 项目推荐
 
 > 🤖 每 5 小时精选一批高质量开源项目。本次从 174 个候选项目中筛选出 6 个未推荐过的新项目。
